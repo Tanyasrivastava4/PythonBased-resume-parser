@@ -1,0 +1,67 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Abhishek Kumar_Technical Lead or Architect-AI Platform Engineering_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Full-Stack Development | Smart Tool Development | Process Automa?on | Project Management | Project Delivery | Agile
+Methodologies (Scrum & Kanban) | Enterprise Architecture | Quality Assurance | Innova?on & Problem Solving | Communica?on &
+Inter-personal Skills | Cross-func?onal Collabora?on | Stakeholder Management | Team Building & Leadership | Documenta?on &
+Presenta?on Skills | Prompt Engineer
+TECHNICAL COMPETENCIES
+➢ Programming Languages:
+o Primary: JavaScript, Node.js, TypeScript, HTML5, CSS, Bash, XML, JSON
+o Secondary: Python, Go, PHP, PowerShell, Android, Rust, Deno, Dart, Ac?onScript, VBA, SASS, LESS, C#.net, Java, C/C++
+➢ Frameworks and Libraries: Web Assembly, Angular, PWA, RAG, jQuery, React, Pandas, NumPy, Matplotlib, Scikit, LangChain,
+Puppeteer, Lit, WebRTC, Svelte, Jest, Ava, Next, Nest, Hono, Fas?fy, Express, GraphQL, .NET Core, PhoneGap, Cordova, Backbone,
+Bootstrap, Material Design, Mustache, Handlebars, i18next, Flask, Flight, Custom Element, Flex, Flash, AIR
+➢ DBMS: MySQL, PostgreSQL, MSSQL, SQLite, NoSQL, MongoDB, MeiliSearch, Redis, Prometheus, TDengine, Materialize, Pinecone
+➢ Protocols: HTTPS, SSH, FTP, UpNP (for IoT), RTMP (for media transmission), MCP, A2A
+➢ Opera>ng Systems: Windows, macOS, Linux, Android, iOS; VDI, VM, Remote Desktop, Virtual Box
+➢ PM Tools: JIRA, Confluence, Crucible, Trello, SharePoint, Office365 Suite, G Suite, Zendesk, Excel, PlantUML, Powerpoint, PowerBI
+➢ SCM/VC Tools: Git, SVN, SourceTree, GitHub, Bitbucket, GitLab, Azure
+➢ Cloud: AWS, Azure, GCP
+➢ Cloud Services: Familiar with SaaS, PaaS, IaaS and deployment strategy in cloud, hybrid, on-premises
+➢ Automa>on:- Test: Robot Framework, Selenium; Task: Grunt, Gulp; Bundler: Webpack, Parcel; Build: Gradle, Ant, Maven
+➢ DevOps: Jenkins, Docker, Kubernetes; Kava, Minio, ELK, Grafana, Puppet
+➢ SoEware Architecture: OOAD, SOA, Microservices, Technical Architecture, Technical Solu?on Design
+➢ SoEware Design: UI/UX, Graphic Design, Web Design
+➢ SoEware Development: Cross-plaDorm Development (Android, iOS), Front-end Development (Web), Backend Development (APIs),
+Cloud Development
+➢ SoEware Engineering: SDLC, Build Automa?on, DevOps CI/CD
+➢ SoEware Tes>ng: Scalability, High Availability, Performance Management
+➢ SoEware Maintenance: Disaster Recovery, Mi?ga?on Planning
+
+── Extraction Results ──
+Skills found   : 117
+Confidence     : 0.92
+Time           : 293.99 ms
+Method         : flashtext_skills_section | fuzzy(Project Delivery→Project Management(100%), Innova?on→Creativity(84%), Communica?on→Communication(88%), Cross-func?onal Collabora?on→Cross-functional Collaboration(90%), Presenta?on Skills→Presentation Skills(92%)...)
+
+── All Skills (117) ──
+.NET, .NET Core, A2A Protocol, AWS, Agile, Android, Angular, Apache Flex, Apache Maven, Azure, Bash, Bitbucket, Bootstrap, C#, C++, CI/CD, CSS3, Communication, Confluence, Cordova, Creativity, Cross-functional Collaboration, Crucible, Dart, Deno, DevOps, Disaster Recovery, Docker, ELK Stack, Express.js, Flask, GCP, Git, GitHub, GitLab, Go, Google Workspace, Gradle, Grafana, GraphQL, Graphic Design, HTML5, Handlebars, Java, JavaScript, Jenkins, Jest, Jira, Kanban, Kubernetes, LangChain, Leadership, Linux, MCP Server, MSSQL, Materialize, Matplotlib, MeiliSearch, Microservices, Microsoft Excel, Microsoft PowerPoint, Microsoft Windows, MongoDB, Mustache, MySQL, NoSQL, Node.js, NumPy, OOAD, Office 365, PHP, PWA, Pandas, Performance Management, PhoneGap, Pinecone, PlantUML, PostgreSQL, Power BI, PowerShell, Presentation Skills, Problem Solving, Project Management, Prometheus, Puppet, Puppeteer, Python, Quality Assurance, RAG, RTMP, React, Redis, Robot Framework, Rust, SDLC, SOA, SQLite, Scrum, Selenium, SharePoint, SourceTree, Stakeholder Management, Supply Chain Management, Svelte, TDengine, Trello, TypeScript, UPnP, VBA, VirtualBox, WebAssembly, WebRTC, Zendesk, i18next, iOS, jQuery, webpack
+
+── By Category ──
+  ai_ml                          ['Matplotlib', 'NumPy', 'Pandas']
+  architecture                   ['Microservices', 'OOAD', 'SDLC', 'SOA']
+  cloud_infra                    ['AWS', 'Azure', 'GCP', 'VirtualBox']
+  collaboration                  ['Confluence']
+  data_science                   ['Power BI']
+  database                       ['MSSQL', 'Materialize', 'MeiliSearch', 'MongoDB', 'MySQL', 'NoSQL', 'PostgreSQL', 'Redis', 'SQLite', 'TDengine']
+  design                         ['Graphic Design']
+  dev_tool                       ['Apache Maven', 'Bitbucket', 'Crucible', 'Git', 'GitHub', 'GitLab', 'PhoneGap', 'PlantUML', 'Puppeteer', 'SourceTree']
+  devops                         ['CI/CD', 'DevOps', 'Docker', 'ELK Stack', 'Grafana', 'Jenkins', 'Kubernetes', 'Prometheus', 'Puppet']
+  genai                          ['A2A Protocol', 'LangChain', 'MCP Server', 'RAG']
+  hr                             ['Performance Management']
+  integration                    ['Office 365', 'RTMP', 'SharePoint', 'UPnP']
+  mobile                         ['Android', 'iOS']
+  mobile_dev                     ['Cordova']
+  operations                     ['Disaster Recovery', 'Quality Assurance', 'Supply Chain Management']
+  os_system                      ['Bash', 'Linux', 'Microsoft Windows', 'PowerShell']
+  productivity                   ['Google Workspace', 'Microsoft Excel', 'Microsoft PowerPoint', 'Trello']
+  programming_language           ['.NET', 'C#', 'C++', 'Dart', 'Deno', 'Go', 'Gradle', 'Java', 'JavaScript', 'PHP', 'Python', 'Rust', 'TypeScript', 'VBA']
+  project_mgmt                   ['Agile', 'Jira', 'Kanban', 'Project Management', 'Scrum']
+  search                         ['Pinecone']
+  soft_skill                     ['Communication', 'Creativity', 'Cross-functional Collaboration', 'Leadership', 'Presentation Skills', 'Problem Solving', 'Stakeholder Management']
+  support                        ['Zendesk']
+  testing                        ['Jest', 'Robot Framework', 'Selenium']
+  web_framework                  ['.NET Core', 'Angular', 'Apache Flex', 'Bootstrap', 'CSS3', 'Express.js', 'Flask', 'GraphQL', 'HTML5', 'Handlebars', 'Mustache', 'Node.js', 'PWA', 'React', 'Svelte', 'WebAssembly', 'WebRTC', 'i18next', 'jQuery', 'webpack']

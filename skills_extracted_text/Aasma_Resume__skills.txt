@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Aasma_Resume__segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Excellent communication and interpersonal skills (Hindi & English)
+• Strong customer handling, problem-solving, and coordination abilities
+• Experienced in CRM tools, call handling systems, and service scheduling
+• Ability to work effectively under pressure and manage multiple tasks
+• Proficient in MS Office, Email communication, and Data Management
+
+── Extraction Results ──
+Skills found   : 10
+Confidence     : 0.92
+Time           : 44.27 ms
+Method         : flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%), Email communication→Communication(100%))
+
+── All Skills (10) ──
+CRM Tools, Call Handling, Communication, Customer Handling, Data Management, English, Hindi, Interpersonal Skills, MS Office, Problem Solving
+
+── By Category ──
+  customer_service               ['Call Handling', 'Customer Handling']
+  language                       ['English', 'Hindi']
+  productivity                   ['Data Management', 'MS Office']
+  sales                          ['CRM Tools']
+  soft_skill                     ['Communication', 'Interpersonal Skills', 'Problem Solving']

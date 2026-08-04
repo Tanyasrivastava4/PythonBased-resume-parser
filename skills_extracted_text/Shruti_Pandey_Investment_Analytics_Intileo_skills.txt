@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Shruti_Pandey_Investment_Analytics_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Quantitative: Equity valuation (DCF, LBO, Comps), factor risk (value/momentum/quality), portfolio
+optimisation (MVO), VaR, CVaR, drawdown analysis, stress testing, macro scenario
+modelling
+Programming: Python (Pandas, NumPy, SciPy, statsmodels, scikit-learn), SQL (PostgreSQL), VBA —
+backtesting frameworks, risk dashboards, high-throughput data pipelines, Git
+Platforms: Bloomberg Terminal, FactSet, Morningstar Direct, BlackRock Aladdin, Tableau, Power
+BI, Excel (Advanced)
+Asset Classes: Equities, Fixed Income, Multi-Asset, Venture / Private Equity
+Derivatives: Options & Futures (Hull Chapters 1–15), interest rate products, FX forwards
+
+── Extraction Results ──
+Skills found   : 38
+Confidence     : 0.92
+Time           : 50.89 ms
+Method         : flashtext_skills_section | fuzzy(factor risk→Factor Risk(100%), portfolio optimisation→MVO(100%), drawdown analysis→Drawdown Analysis(100%), stress testing→Stress Testing(100%), risk dashboards→Risk Dashboards(100%)...)
+
+── All Skills (38) ──
+Backtesting, BlackRock Aladdin, Bloomberg Terminal, CVaR, Comps, DCF, Data Pipeline, Drawdown Analysis, Equities, Equity Valuation, FX Forwards, FactSet, Factor Risk, Fixed Income, Git, Interest Rate Products, LBO, MVO, Macro Modelling, Microsoft Excel, Morningstar Direct, Multi-Asset, NumPy, Options & Futures, Pandas, PostgreSQL, Power BI, Private Equity, Python, Risk Dashboards, SQL, SciPy, Stress Testing, Tableau, VBA, VaR, scikit-learn, statsmodels
+
+── By Category ──
+  ai_ml                          ['NumPy', 'Pandas', 'SciPy', 'scikit-learn', 'statsmodels']
+  data_engineering               ['Data Pipeline']
+  data_science                   ['Power BI', 'Tableau']
+  database                       ['PostgreSQL', 'SQL']
+  dev_tool                       ['Git']
+  finance                        ['Backtesting', 'BlackRock Aladdin', 'Bloomberg Terminal', 'CVaR', 'Comps', 'DCF', 'Drawdown Analysis', 'Equities', 'Equity Valuation', 'FX Forwards', 'FactSet', 'Factor Risk', 'Fixed Income', 'Interest Rate Products', 'LBO', 'MVO', 'Macro Modelling', 'Morningstar Direct', 'Multi-Asset', 'Options & Futures', 'Private Equity', 'Risk Dashboards', 'Stress Testing', 'VaR']
+  productivity                   ['Microsoft Excel']
+  programming_language           ['Python', 'VBA']

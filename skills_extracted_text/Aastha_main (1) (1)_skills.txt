@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Aastha_main (1) (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Programming & Frameworks: JavaScript, Node.js, Java, HTMLS, CSS3, Express js, Angular.js, React
+• Databases: MongoDB, MySQL
+• Web Development: RESTful API Design, Responsive Web Design, Front-End & Back-End Integration
+with MERN Stack
+• Tools & Platforms: Git/GitHub, Agile/Scrum, VS Code, Postman
+• Other: Basic NLP Integration, Performance Optimization
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 26.49 ms
+Method         : flashtext_skills_section | fuzzy(HTMLS→HTML5(89%), Express js→Express.js(100%), Angular.js→Angular(100%))
+
+── All Skills (21) ──
+Agile, Angular, CSS3, Express.js, Git, GitHub, HTML5, Java, JavaScript, MERN Stack, MongoDB, MySQL, NLP, Node.js, Performance Optimization, Postman, REST API, React, Responsive Web Design, Scrum, VS Code
+
+── By Category ──
+  ai_ml                          ['NLP']
+  database                       ['MongoDB', 'MySQL']
+  dev_tool                       ['Git', 'GitHub', 'Performance Optimization', 'Postman', 'VS Code']
+  programming_language           ['Java', 'JavaScript']
+  project_mgmt                   ['Agile', 'Scrum']
+  web_framework                  ['Angular', 'CSS3', 'Express.js', 'HTML5', 'MERN Stack', 'Node.js', 'REST API', 'React', 'Responsive Web Design']

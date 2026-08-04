@@ -1,0 +1,46 @@
+======================================================================
+FILE: _Adarsh_Bhagat Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+PricewaterhouseCoopers Services LLP - PwC India July 2023 - Present
+Associate - Cyber Security Kolkata, India
+● Incident Orchestration, Investigation & RCA: Directed 24x7 threat monitoring and triage across network, cloud, and
+identity environments; managed incident lifecycles in ServiceNow with 100...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 3.6 years (43 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : PricewaterhouseCoopers Services LLP
+  Company      : PwC India
+  Location     : None
+  Start - End  : July 2023 - Present
+  Duration     : 37 months
+  Bullets      : 7
+    • Incident Orchestration, Investigation & RCA: Directed 24x7 threat monitoring and triage across network, cloud, and identity environments; managed incident lifecycles in ServiceNow with 100% SLA adherence, and conducted deep-dive alert analysis with network forensics and RCA to deliver actionable remediation that strengthened client security postures.
+    • Cross-Platform Security Event Analysis: Performed in-depth analysis across heterogeneous sources including Windows/Linux Endpoints, Syslog, Firewalls, Proxies, EDR, Defender XDR, IDS/IPS, and Active Directory; correlated multi-source telemetry to identify and validate true positive alerts.
+    • Email Threat Analysis & Malware Triage: Investigated phishing campaigns by correlating AD, Email Events, and Office Activity logs; Executed dynamic malware analysis by validating file hashes, endpoint telemetry, and cross-log correlation to contain and remediate malicious activity.
+    • Detection Engineering & SIEM Tuning: Developed and implemented custom SIEM use cases and dashboards; systematically fine-tuned analytics rules to reduce false positives, increasing true positive detection rates by 40% and significantly improving alert fidelity.
+    • Proactive Threat Hunting: Executed hypothesis-based hunting using KQL, Threat Intelligence feeds, and IOCs to identify stealthy adversaries and APT activities before escalation.
+    • Process Automation & Efficiency: Leveraged Microsoft Logic Apps to automate response playbooks — including IP reputation lookups to eliminate manual analyst checks, and automated email notifications for high-severity alerts with enriched entity details — enabling faster initial triage and immediate containment actions.
+    • Client Engagement & Analyst Mentorship: Acted as the Single Point of Contact (SPOC) for multiple enterprise clients, delivering weekly and monthly governance reports with KPIs/KRIs. Simultaneously mentored L1 analysts on investigation techniques and SOPs, elevating the overall quality of team analysis and ensuring standardized incident documentation.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Intern at PricewaterhouseCoopers Services LLP- PwC India
+  Company      : None
+  Location     : None
+  Start - End  : Jan 2023 - July 2023
+  Duration     : 7 months
+  Bullets      : 1
+    • Security Monitoring & Incident Documentation: Managed initial threat detection and alert triage within the SIEM environment, analyzing network and endpoint telemetry to identify potential IOCs; documented investigation findings and performed initial analysis to support rapid incident containment and closure.
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True

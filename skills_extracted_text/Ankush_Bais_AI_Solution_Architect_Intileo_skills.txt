@@ -1,0 +1,49 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Ankush_Bais_AI_Solution_Architect_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Agent Platforms LangGraph, LangChain, LangSmith, Google ADK, Vertex AI Agent Builder, UiPath Agents, Maestro, Autopilot
+Generative & Agentic AI Foundation LLMs (GPT-4/4o, Claude, Gemini), Retrieval-Augmented Generation (RAG), MCP Server, A2A protocol,
+Core Skill Stack Python & FastAPI based AI services, Enterprise API integration, Vector Databases, Human-in-the-Loop (HITL)
+orchestration, Document Understanding, Communication Mining, AI Trust & Safety layer, Agent guardrails, Responsible
+AI & Model Governance, AI-driven insights, AI-enabled observability, AgentOps, and MLOps
+Automation & Execution AI-assisted automation platforms including UiPath, Automation Anywhere, Microsoft Power Automate; GenAI-driven
+Layer automations, IXP, process mining & task mining
+Integration Capabilities SAP, Salesforce, ServiceNow, Jira, SharePoint, Office 365, Dynamics, Postman, Mulesoft, Integration Services, UiPath
+Apps, Power Apps, GCS, BigQuery
+DevOps & Cloud Azure, Google Cloud Platform (GCP), GitHub, GitLab, Azure DevOps, CI/CD pipelines for AI & agent platforms, Docker,
+cloud-native GenAI architectures, automation & orchestration platform engineering
+Domain Expertise BFSI, Shared Services, Supply Chain, Education, Healthcare, Audit & Compliance, Telecom, HR & Payroll, IT Ops
+Leadership & Delivery Solution Design, Effort Estimation, Architecture Governance, Performance Optimization, Security & Risk Controls,
+Training & Mentoring, SDDs, PDDs, TDDs, FRQs, UAT Test Cases
+Pre-Sales & Consulting Solution Strategy & Transformation Roadmaps, RFP/RFI/RFQ Response Leadership, Customer Workshops, Discovery &
+Demos, Estimation Models, Pricing, Commercial Structuring
+
+── Extraction Results ──
+Skills found   : 74
+Confidence     : 0.92
+Time           : 136.88 ms
+Method         : flashtext_skills_section | fuzzy(Retrieval-Augmented Generation→RAG(100%), A2A protocol→A2A Protocol(100%), Human-in-the-Loop→HITL(100%), Agent guardrails→AI Guardrails(100%), process mining→Process Mining(100%)...)
+
+── All Skills (74) ──
+A2A Protocol, AI Guardrails, AI Trust & Safety, API Design, AgentOps, Agentic AI, Architecture Governance, Audit & Compliance, Automation Anywhere, Autopilot, Azure, Azure DevOps, BFSI, BigQuery, CI/CD, Claude, Communication Mining, DevOps, Docker, Document Understanding, Effort Estimation, FastAPI, GCP, GCS, GPT-4, Gemini, Generative AI, GitHub, GitLab, Google ADK, HITL, HR & Payroll, Healthcare, IT Ops, Jira, LLM, LangChain, LangGraph, LangSmith, Leadership, MCP Server, MLOps, Maestro, Mentoring, Microsoft Dynamics, Microsoft Power Automate, Model Governance, Mulesoft, Observability, Office 365, Performance Optimization, Postman, Power Apps, Process Mining, Python, RAG, RFI, RFP, RFQ, Responsible AI, SAP, Salesforce, ServiceNow, SharePoint, Shared Services, Solution Design, Supply Chain, Task Mining, Telecom, UAT, UiPath, UiPath Agents, Vector Databases, Vertex AI
+
+── By Category ──
+  architecture                   ['API Design', 'Architecture Governance', 'Solution Design']
+  business_analysis              ['RFI', 'RFP', 'RFQ']
+  cloud_infra                    ['Azure', 'GCP', 'GCS']
+  crm                            ['Microsoft Dynamics']
+  database                       ['BigQuery']
+  dev_tool                       ['GitHub', 'GitLab', 'Performance Optimization', 'Postman']
+  devops                         ['Azure DevOps', 'CI/CD', 'DevOps', 'Docker', 'Observability']
+  domain                         ['Audit & Compliance', 'BFSI', 'HR & Payroll', 'Healthcare', 'IT Ops', 'Shared Services', 'Supply Chain', 'Telecom']
+  genai                          ['A2A Protocol', 'AI Guardrails', 'AI Trust & Safety', 'AgentOps', 'Agentic AI', 'Autopilot', 'Claude', 'GPT-4', 'Gemini', 'Generative AI', 'Google ADK', 'HITL', 'LLM', 'LangChain', 'LangGraph', 'LangSmith', 'MCP Server', 'MLOps', 'Maestro', 'Model Governance', 'RAG', 'Responsible AI', 'Vector Databases', 'Vertex AI']
+  integration                    ['Mulesoft', 'Office 365', 'SAP', 'Salesforce', 'ServiceNow', 'SharePoint']
+  low_code                       ['Power Apps']
+  programming_language           ['Python']
+  project_mgmt                   ['Effort Estimation', 'Jira']
+  rpa                            ['Automation Anywhere', 'Communication Mining', 'Document Understanding', 'Microsoft Power Automate', 'Process Mining', 'Task Mining', 'UiPath', 'UiPath Agents']
+  soft_skill                     ['Leadership', 'Mentoring']
+  testing                        ['UAT']
+  web_framework                  ['FastAPI']

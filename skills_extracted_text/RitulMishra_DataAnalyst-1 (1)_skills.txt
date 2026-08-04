@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/RitulMishra_DataAnalyst-1 (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Data Analytics Tools: Microsoft Excel (Pivot Tables, Charts, Formulas, Macros), Power BI (DAX, Data
+Modeling, Interactive Dashboards), Google Sheets, Tableau
+• Databases & Querying: SQL (Joins, Aggregations, Filtering, GROUP BY, Subqueries), MySQL, Data Cleaning
+& Transformation
+• Business Intelligence & Reporting: KPI Reporting, MIS Automation, Budget Tracking, Campaign Analysis,
+Client Reporting, Trend Forecasting.
+• Data Visualization & BI: Power BI, Excel Dashboards, Google Data Studio
+• Soft Skills: Analytical Thinking, Stakeholder Communication, Time Management, Problem Solving,
+Attention to Detail, Adaptability
+
+── Extraction Results ──
+Skills found   : 27
+Confidence     : 0.92
+Time           : 59.63 ms
+Method         : flashtext_skills_section | fuzzy(Google Sheets→Google Workspace(100%), MIS Automation→MIS Reporting(100%), Campaign Analysis→Marketing Analytics(91%), Trend Forecasting.→Trend Forecasting(97%), Stakeholder Communication→Communication(100%))
+
+── All Skills (27) ──
+Adaptability, Aggregations, Attention to Detail, Budget Tracking, Client Reporting, Communication, DAX, Data Analytics, Data Cleaning, Data Modeling, Data Visualization, Google Workspace, Joins, KPI, Looker, MIS Reporting, Marketing Analytics, Microsoft Excel, MySQL, Pivot Tables, Power BI, Problem Solving, Reporting, SQL, Tableau, Time Management, Trend Forecasting
+
+── By Category ──
+  banking                        ['MIS Reporting']
+  business_analysis              ['KPI']
+  content                        ['Client Reporting']
+  data_engineering               ['Data Cleaning']
+  data_science                   ['DAX', 'Data Analytics', 'Data Modeling', 'Data Visualization', 'Looker', 'Power BI', 'Tableau', 'Trend Forecasting']
+  database                       ['Aggregations', 'Joins', 'MySQL', 'SQL']
+  finance_ops                    ['Budget Tracking']
+  marketing                      ['Marketing Analytics']
+  productivity                   ['Google Workspace', 'Microsoft Excel', 'Pivot Tables']
+  soft_skill                     ['Adaptability', 'Attention to Detail', 'Communication', 'Problem Solving', 'Reporting', 'Time Management']

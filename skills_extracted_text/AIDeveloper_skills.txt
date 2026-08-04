@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/AIDeveloper_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages: Python, Javascript, Databases: MongoDB, MySQL, Supabase, GraphDB,
+Typescript Vector DB
+AI & LLM System: RAG, LangChain, AI Tools: ChatGPT, ClaudeCode, Copilot Gemini,
+LangGraph, GraphRAG, UltraRAG, LlamaIndex, Antigravity, Cursor, HuggingFace, Groq, Ollama
+MCP, Prompt Engineering & Tool Calling, Automation & Integrations: n8n, make.com, Zapier,
+Autonomous Agent 11LABS, MiniMax
+Web Dev: React.js, Node.js, Express.js, FastAPI, Version control: Git, Github
+Redis, Kafka Cloud: AWS(EC2, S3, Elastic Cache), GCP, Docker
+
+── Extraction Results ──
+Skills found   : 43
+Confidence     : 0.92
+Time           : 46.31 ms
+Method         : flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), ClaudeCode→Claude Code(100%), HuggingFace→Hugging Face(100%), make.com→Make(100%))
+
+── All Skills (43) ──
+AWS, AWS EC2, AWS S3, Apache Kafka, Caching, Claude Code, Cursor, Docker, Elasticsearch, ElevenLabs, Express.js, FastAPI, GCP, GPT, Gemini, Git, GitHub, GitHub Copilot, GraphDB, GraphRAG, Groq, Hugging Face, JavaScript, LLM, LangChain, LangGraph, LlamaIndex, MCP Server, Make, MongoDB, MySQL, Node.js, Ollama, Prompt Engineering, Python, RAG, React, Redis, Supabase, TypeScript, Vector Databases, Zapier, n8n
+
+── By Category ──
+  ai_ml                          ['GPT']
+  architecture                   ['Caching']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3', 'GCP']
+  data_engineering               ['Apache Kafka']
+  database                       ['GraphDB', 'MongoDB', 'MySQL', 'Redis', 'Supabase']
+  dev_tool                       ['Claude Code', 'Cursor', 'Git', 'GitHub']
+  devops                         ['Docker']
+  genai                          ['ElevenLabs', 'Gemini', 'GitHub Copilot', 'GraphRAG', 'Groq', 'Hugging Face', 'LLM', 'LangChain', 'LangGraph', 'LlamaIndex', 'MCP Server', 'Ollama', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  programming_language           ['JavaScript', 'Python', 'TypeScript']
+  rpa                            ['Make', 'Zapier', 'n8n']
+  search                         ['Elasticsearch']
+  web_framework                  ['Express.js', 'FastAPI', 'Node.js', 'React']

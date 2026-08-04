@@ -1,0 +1,50 @@
+======================================================================
+FILE: Saheb Singh_AM-GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Asst. Manager | Risk Advisory | Controls Assurance
+Deloitte Touché Tohmatsu India LLP
+01/2024 - Present
+• Led comprehensive audits of critical financial operations, including P2P,
+O2C, HR and Payroll, ensuring strict adherence to company policies and
+industry regulations. Focused on enhancing financ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.8 years (46 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Asst. Manager
+  Company      : Risk Advisory
+  Location     : None
+  Start - End  : 01/2024 - Present
+  Duration     : 31 months
+  Bullets      : 4
+    • Led comprehensive audits of critical financial operations, including P2P, O2C, HR and Payroll, ensuring strict adherence to company policies and industry regulations. Focused on enhancing financial accuracy, optimizing revenue recognition practices within O2C, and strengthening internal controls across all processes to maintain financial integrity.
+    • Performed thorough audit of financial reporting processes to ensure compliance with Sarbanes-Oxley (SOX) Act requirements.
+    • Audited processes for a leading African healthcare firm. Ensured IFRS compliance and local regulation adherence. Focused on revenue recognition and financial reporting maintaining transparency and integrity.
+    • Prepared and presented detailed audit reports to senior management, highlighting key financial insights and providing actionable recommendations to improve financial performance, compliance, and internal controls.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Management Trainee
+  Company      : Record-to-Report
+  Location     : None
+  Start - End  : 10/2022 - 12/2023
+  Duration     : 15 months
+  Bullets      : 6
+    • Independently managed month-end close activities for a global pharmaceutical client across Italy & UK markets, processing 80+ journal entries monthly with 100% accuracy.
+    • Investigated and resolved financial exceptions, including provisions and adjustments, improving reporting timelines by 15%.
+    • Analyzed MIS vs. statutory book reconciliations, flagging variances above 5%, and implemented corrective actions to ensure alignment.
+    • Streamlined prepayment and accrual schedules, reducing manual effort and improving audit readiness.
+    • Identified and resolved discrepancies in financial records, leading to a 25% reduction in reconciliation errors.
+    • Proposed lean process improvements in the R2R cycle, reducing processing time and enhancing team productivity.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False

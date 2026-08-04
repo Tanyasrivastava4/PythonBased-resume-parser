@@ -1,0 +1,23 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/_Adarsh_Bhagat Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Tools and Technologies : Microsoft Sentinel, Microsoft Defender ,ServiceNow ,VirusTotal, Any.run,Splunk .
+Frameworks & Risk: Cyber Kill Chain, OWASP Top 10, MITRE ATT&CK, NIST IR , ISO 31000.
+Security Expertise : Incident Detection & Response, Threat Hunting, Log Analysis & Correlation, Threat Analysis, SOAR,
+Fine tuning, Kusto Query Language (KQL), Phishing, Dynamic Malware Analysis , Security Awareness Training.
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 37.6 ms
+Method         : flashtext_skills_section | fuzzy(Any.run→Any.Run(100%), MITRE ATT→MITRE ATT&CK(86%), NIST IR→NIST(100%), Threat Analysis→Threat Intelligence(100%), Fine tuning→Fine-tuning(100%))
+
+── All Skills (21) ──
+Any.Run, Cyber Kill Chain, Fine-tuning, ISO 31000, Incident Response, KQL, Log Analysis, MITRE ATT&CK, Malware Analysis, Microsoft Defender, Microsoft Sentinel, NIST, OWASP Top 10, Phishing, SOAR, Security Awareness Training, ServiceNow, Splunk, Threat Hunting, Threat Intelligence, VirusTotal
+
+── By Category ──
+  genai                          ['Fine-tuning']
+  integration                    ['ServiceNow']
+  security_ops                   ['Any.Run', 'Cyber Kill Chain', 'ISO 31000', 'Incident Response', 'KQL', 'Log Analysis', 'MITRE ATT&CK', 'Malware Analysis', 'Microsoft Defender', 'Microsoft Sentinel', 'NIST', 'OWASP Top 10', 'Phishing', 'SOAR', 'Security Awareness Training', 'Splunk', 'Threat Hunting', 'Threat Intelligence', 'VirusTotal']

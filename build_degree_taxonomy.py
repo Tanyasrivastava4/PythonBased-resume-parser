@@ -1,0 +1,413 @@
+"""
+build_degree_taxonomy.py — run once to build data/degree_taxonomy.json
+
+Unlike institutions (open-ended, tens of thousands, always growing), degree
+names are a closed, well-known vocabulary — a good fit for a curated
+taxonomy + fuzzy match, the same pattern your skills extractor already uses.
+
+Structure: canonical degree name -> {category, aliases}
+  category is one of: doctorate, masters, bachelors, diploma, 12th, 10th
+  (kept the same category names as the old DEGREE_PATTERNS buckets, so
+  degree_type in the output stays backward-compatible)
+"""
+
+import json
+from pathlib import Path
+
+TAXONOMY = {
+    # ── School level ──
+    "10th": {"category": "10th", "aliases": [
+        "10th", "x std", "ssc", "secondary school certificate", "class 10",
+        "grade 10", "matriculation", "matric", "high school", "secondary",
+    ]},
+    "12th": {"category": "12th", "aliases": [
+        "12th", "xii std", "hsc", "higher secondary certificate", "class 12",
+        "grade 12", "senior secondary", "intermediate", "puc", "hsc board",
+        "higher secondary",
+    ]},
+    "Graduation": {"category": "bachelors", "aliases": [
+        "graduation",
+    ]},
+    "Post Graduation": {"category": "masters", "aliases": [
+        "post graduation", "post-graduation",
+    ]},
+
+    # ── Diploma ──
+    "Diploma": {"category": "diploma", "aliases": [
+        "diploma", "polytechnic diploma", "polytechnic",
+    ]},
+    "PGDM": {"category": "diploma", "aliases": [
+        "pgdm", "post graduate diploma in management",
+    ]},
+    "PGDCA": {"category": "diploma", "aliases": [
+        "pgdca", "post graduate diploma in computer applications",
+    ]},
+    "PGDBA": {"category": "diploma", "aliases": [
+        "pgdba", "post graduate diploma in business analytics",
+    ]},
+
+    # ── Bachelors ──
+    "B.Tech": {"category": "bachelors", "aliases": [
+        "b.tech", "btech", "b tech", "bachelor of technology",
+    ]},
+    "B.E.": {"category": "bachelors", "aliases": [
+        "b.e.", "be", "b.e", "bachelor of engineering",
+    ]},
+    "B.Sc": {"category": "bachelors", "aliases": [
+        "b.sc", "bsc", "b sc", "bachelor of science",
+    ]},
+    "B.A.": {"category": "bachelors", "aliases": [
+        "b.a.", "ba", "b.a", "bachelor of arts",
+    ]},
+    "B.Com": {"category": "bachelors", "aliases": [
+        "b.com", "bcom", "b com", "bachelor of commerce",
+    ]},
+    "BBA": {"category": "bachelors", "aliases": [
+        "bba", "bachelor of business administration",
+    ]},
+    "BCA": {"category": "bachelors", "aliases": [
+        "bca", "bachelor of computer applications",
+    ]},
+    "B.Pharm": {"category": "bachelors", "aliases": [
+        "b.pharm", "bpharm", "bachelor of pharmacy",
+    ]},
+    "B.Arch": {"category": "bachelors", "aliases": [
+        "b.arch", "barch", "bachelor of architecture",
+    ]},
+    "LLB": {"category": "bachelors", "aliases": [
+        "llb", "ll.b", "bachelor of laws",
+    ]},
+    "B.Ed": {"category": "bachelors", "aliases": [
+        "b.ed", "bed", "bachelor of education",
+    ]},
+    "BFA": {"category": "bachelors", "aliases": [
+        "bfa", "bachelor of fine arts",
+    ]},
+    "B.Des": {"category": "bachelors", "aliases": [
+        "b.des", "bdes", "bachelor of design",
+    ]},
+    "B.Voc": {"category": "bachelors", "aliases": [
+        "b.voc", "bachelor of vocation",
+    ]},
+    "MBBS": {"category": "bachelors", "aliases": [
+        "mbbs", "bachelor of medicine, bachelor of surgery",
+    ]},
+    "BDS": {"category": "bachelors", "aliases": [
+        "bds", "bachelor of dental surgery",
+    ]},
+    "BAMS": {"category": "bachelors", "aliases": [
+        "bams", "bachelor of ayurvedic medicine and surgery",
+    ]},
+    "BHMS": {"category": "bachelors", "aliases": [
+        "bhms", "bachelor of homeopathic medicine and surgery",
+    ]},
+
+    # ── Masters ──
+    "M.Tech": {"category": "masters", "aliases": [
+        "m.tech", "mtech", "m tech", "master of technology",
+    ]},
+    "M.E.": {"category": "masters", "aliases": [
+        "m.e.", "me", "m.e", "master of engineering",
+    ]},
+    "M.Sc": {"category": "masters", "aliases": [
+        "m.sc", "msc", "m sc", "master of science",
+    ]},
+    "M.S.": {"category": "masters", "aliases": [
+        "m.s.", "m.s", "ms",
+    ]},
+    "M.A.": {"category": "masters", "aliases": [
+        "m.a.", "ma", "m.a", "master of arts",
+    ]},
+    "M.Com": {"category": "masters", "aliases": [
+        "m.com", "mcom", "m com", "master of commerce",
+    ]},
+    "MBA": {"category": "masters", "aliases": [
+        "mba", "m.b.a", "m.b.a.", "master of business administration",
+    ]},
+    "MCA": {"category": "masters", "aliases": [
+        "mca", "master of computer applications",
+    ]},
+    "M.Pharm": {"category": "masters", "aliases": [
+        "m.pharm", "mpharm", "master of pharmacy",
+    ]},
+    "LLM": {"category": "masters", "aliases": [
+        "llm", "ll.m", "master of laws",
+    ]},
+    "M.Ed": {"category": "masters", "aliases": [
+        "m.ed", "med", "master of education",
+    ]},
+    "MFA": {"category": "masters", "aliases": [
+        "mfa", "master of fine arts",
+    ]},
+    "M.Arch": {"category": "masters", "aliases": [
+        "m.arch", "march", "master of architecture",
+    ]},
+    "M.Des": {"category": "masters", "aliases": [
+        "m.des", "mdes", "master of design",
+    ]},
+    "M.Phil": {"category": "masters", "aliases": [
+        "m.phil", "mphil", "master of philosophy",
+    ]},
+    "MD": {"category": "masters", "aliases": [
+        "md", "doctor of medicine",
+    ]},
+    "MDS": {"category": "masters", "aliases": [
+        "mds", "master of dental surgery",
+    ]},
+
+    # ── Doctorate ──
+    "PhD": {"category": "doctorate", "aliases": [
+        "ph.d", "ph.d.", "phd", "doctorate", "doctor of philosophy", "d.phil",
+    ]},
+    "DM": {"category": "doctorate", "aliases": [
+        "dm", "doctorate of medicine",
+    ]},
+    "MCh": {"category": "doctorate", "aliases": [
+        "m.ch", "mch", "master of chirurgiae",
+    ]},
+    "DSc": {"category": "doctorate", "aliases": [
+        "d.sc", "dsc", "doctor of science",
+    ]},
+    "DLitt": {"category": "doctorate", "aliases": [
+        "d.litt", "dlitt", "doctor of literature",
+    ]},
+
+    # ── Professional certifications sometimes listed in the education section ──
+    "CA": {"category": "professional_certification", "aliases": [
+        "chartered accountant", "ca (chartered accountant)",
+    ]},
+    "CS": {"category": "professional_certification", "aliases": [
+        "company secretary",
+    ]},
+    "CMA": {"category": "professional_certification", "aliases": [
+        "cma", "cost management accountant", "icwa",
+    ]},
+    "CFA": {"category": "professional_certification", "aliases": [
+        "cfa", "chartered financial analyst",
+    ]},
+}
+
+
+def build(out_path: str):
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(TAXONOMY, f, indent=2, ensure_ascii=False)
+    total_aliases = sum(len(v["aliases"]) for v in TAXONOMY.values())
+    print(f"Built {out_path}")
+    print(f"  Canonical degrees : {len(TAXONOMY)}")
+    print(f"  Total aliases     : {total_aliases}")
+
+
+if __name__ == "__main__":
+    build("data/degree_taxonomy.json")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#worked just changing for minimal change in o/p-
+#"""
+#build_degree_taxonomy.py — run once to build data/degree_taxonomy.json
+#
+#Unlike institutions (open-ended, tens of thousands, always growing), degree
+#names are a closed, well-known vocabulary — a good fit for a curated
+#taxonomy + fuzzy match, the same pattern your skills extractor already uses.
+#
+#Structure: canonical degree name -> {category, aliases}
+#  category is one of: doctorate, masters, bachelors, diploma, 12th, 10th
+#  (kept the same category names as the old DEGREE_PATTERNS buckets, so
+#  degree_type in the output stays backward-compatible)
+#"""
+#
+#import json
+#from pathlib import Path
+#
+#TAXONOMY = {
+#    # ── School level ──
+#    "10th": {"category": "10th", "aliases": [
+#        "10th", "x std", "ssc", "secondary school certificate", "class 10",
+#        "grade 10", "matriculation", "matric",
+#    ]},
+#    "12th": {"category": "12th", "aliases": [
+#        "12th", "xii std", "hsc", "higher secondary certificate", "class 12",
+#        "grade 12", "senior secondary", "intermediate", "puc", "hsc board",
+#    ]},
+#
+#    # ── Diploma ──
+#    "Diploma": {"category": "diploma", "aliases": [
+#        "diploma", "polytechnic diploma", "polytechnic",
+#    ]},
+#    "PGDM": {"category": "diploma", "aliases": [
+#        "pgdm", "post graduate diploma in management",
+#    ]},
+#    "PGDCA": {"category": "diploma", "aliases": [
+#        "pgdca", "post graduate diploma in computer applications",
+#    ]},
+#    "PGDBA": {"category": "diploma", "aliases": [
+#        "pgdba", "post graduate diploma in business analytics",
+#    ]},
+#
+#    # ── Bachelors ──
+#    "B.Tech": {"category": "bachelors", "aliases": [
+#        "b.tech", "btech", "b tech", "bachelor of technology",
+#    ]},
+#    "B.E.": {"category": "bachelors", "aliases": [
+#        "b.e.", "be", "b.e", "bachelor of engineering",
+#    ]},
+#    "B.Sc": {"category": "bachelors", "aliases": [
+#        "b.sc", "bsc", "b sc", "bachelor of science",
+#    ]},
+#    "B.A.": {"category": "bachelors", "aliases": [
+#        "b.a.", "ba", "b.a", "bachelor of arts",
+#    ]},
+#    "B.Com": {"category": "bachelors", "aliases": [
+#        "b.com", "bcom", "b com", "bachelor of commerce",
+#    ]},
+#    "BBA": {"category": "bachelors", "aliases": [
+#        "bba", "bachelor of business administration",
+#    ]},
+#    "BCA": {"category": "bachelors", "aliases": [
+#        "bca", "bachelor of computer applications",
+#    ]},
+#    "B.Pharm": {"category": "bachelors", "aliases": [
+#        "b.pharm", "bpharm", "bachelor of pharmacy",
+#    ]},
+#    "B.Arch": {"category": "bachelors", "aliases": [
+#        "b.arch", "barch", "bachelor of architecture",
+#    ]},
+#    "LLB": {"category": "bachelors", "aliases": [
+#        "llb", "ll.b", "bachelor of laws",
+#    ]},
+#    "B.Ed": {"category": "bachelors", "aliases": [
+#        "b.ed", "bed", "bachelor of education",
+#    ]},
+#    "BFA": {"category": "bachelors", "aliases": [
+#        "bfa", "bachelor of fine arts",
+#    ]},
+#    "B.Des": {"category": "bachelors", "aliases": [
+#        "b.des", "bdes", "bachelor of design",
+#    ]},
+#    "B.Voc": {"category": "bachelors", "aliases": [
+#        "b.voc", "bachelor of vocation",
+#    ]},
+#    "MBBS": {"category": "bachelors", "aliases": [
+#        "mbbs", "bachelor of medicine, bachelor of surgery",
+#    ]},
+#    "BDS": {"category": "bachelors", "aliases": [
+#        "bds", "bachelor of dental surgery",
+#    ]},
+#    "BAMS": {"category": "bachelors", "aliases": [
+#        "bams", "bachelor of ayurvedic medicine and surgery",
+#    ]},
+#    "BHMS": {"category": "bachelors", "aliases": [
+#        "bhms", "bachelor of homeopathic medicine and surgery",
+#    ]},
+#
+#    # ── Masters ──
+#    "M.Tech": {"category": "masters", "aliases": [
+#        "m.tech", "mtech", "m tech", "master of technology",
+#    ]},
+#    "M.E.": {"category": "masters", "aliases": [
+#        "m.e.", "me", "m.e", "master of engineering",
+#    ]},
+#    "M.Sc": {"category": "masters", "aliases": [
+#        "m.sc", "msc", "m sc", "master of science",
+#    ]},
+#    "M.A.": {"category": "masters", "aliases": [
+#        "m.a.", "ma", "m.a", "master of arts",
+#    ]},
+#    "M.Com": {"category": "masters", "aliases": [
+#        "m.com", "mcom", "m com", "master of commerce",
+#    ]},
+#    "MBA": {"category": "masters", "aliases": [
+#        "mba", "m.b.a", "m.b.a.", "master of business administration",
+#    ]},
+#    "MCA": {"category": "masters", "aliases": [
+#        "mca", "master of computer applications",
+#    ]},
+#    "M.Pharm": {"category": "masters", "aliases": [
+#        "m.pharm", "mpharm", "master of pharmacy",
+#    ]},
+#    "LLM": {"category": "masters", "aliases": [
+#        "llm", "ll.m", "master of laws",
+#    ]},
+#    "M.Ed": {"category": "masters", "aliases": [
+#        "m.ed", "med", "master of education",
+#    ]},
+#    "MFA": {"category": "masters", "aliases": [
+#        "mfa", "master of fine arts",
+#    ]},
+#    "M.Arch": {"category": "masters", "aliases": [
+#        "m.arch", "march", "master of architecture",
+#    ]},
+#    "M.Des": {"category": "masters", "aliases": [
+#        "m.des", "mdes", "master of design",
+#    ]},
+#    "M.Phil": {"category": "masters", "aliases": [
+#        "m.phil", "mphil", "master of philosophy",
+#    ]},
+#    "MD": {"category": "masters", "aliases": [
+#        "md", "doctor of medicine",
+#    ]},
+#    "MDS": {"category": "masters", "aliases": [
+#        "mds", "master of dental surgery",
+#    ]},
+#
+#    # ── Doctorate ──
+#    "PhD": {"category": "doctorate", "aliases": [
+#        "ph.d", "ph.d.", "phd", "doctorate", "doctor of philosophy", "d.phil",
+#    ]},
+#    "DM": {"category": "doctorate", "aliases": [
+#        "dm", "doctorate of medicine",
+#    ]},
+#    "MCh": {"category": "doctorate", "aliases": [
+#        "m.ch", "mch", "master of chirurgiae",
+#    ]},
+#    "DSc": {"category": "doctorate", "aliases": [
+#        "d.sc", "dsc", "doctor of science",
+#    ]},
+#    "DLitt": {"category": "doctorate", "aliases": [
+#        "d.litt", "dlitt", "doctor of literature",
+#    ]},
+#
+#    # ── Professional certifications sometimes listed in the education section ──
+#    "CA": {"category": "professional_certification", "aliases": [
+#        "chartered accountant", "ca (chartered accountant)",
+#    ]},
+#    "CS": {"category": "professional_certification", "aliases": [
+#        "company secretary",
+#    ]},
+#    "CMA": {"category": "professional_certification", "aliases": [
+#        "cma", "cost management accountant", "icwa",
+#    ]},
+#    "CFA": {"category": "professional_certification", "aliases": [
+#        "cfa", "chartered financial analyst",
+#    ]},
+#}
+#
+#
+#def build(out_path: str):
+#    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
+#    with open(out_path, "w", encoding="utf-8") as f:
+#        json.dump(TAXONOMY, f, indent=2, ensure_ascii=False)
+#    total_aliases = sum(len(v["aliases"]) for v in TAXONOMY.values())
+#    print(f"Built {out_path}")
+#    print(f"  Canonical degrees : {len(TAXONOMY)}")
+#    print(f"  Total aliases     : {total_aliases}")
+#
+#
+#if __name__ == "__main__":
+#    build("data/degree_taxonomy.json")
+#

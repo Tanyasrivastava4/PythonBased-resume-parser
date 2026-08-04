@@ -1,0 +1,39 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Abhishek.sharma cv_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Product quality assessing
+• Report writing
+• Operation monitoring
+• Risk assessment
+• Project management
+• Equipment testing
+• Product quality improving
+• Compliance management
+• Analytical-thinking
+• Process improvement
+• Quality Management System
+• Information collection and analysis
+
+(QMS) Procedure development
+• Product troubleshooting
+• Product performance testing
+
+── Extraction Results ──
+Skills found   : 12
+Confidence     : 0.92
+Time           : 28.5 ms
+Method         : flashtext_skills_section | fuzzy(Report writing→Report Writing(100%), Operation monitoring→Operation Monitoring(100%), Risk assessment→Risk Management(100%), Project management→Project Management(100%), Equipment testing→Equipment Testing(100%)...)
+
+── All Skills (12) ──
+Equipment Testing, Information Collection and Analysis, Operation Monitoring, Performance Testing, Process Improvement, Product Troubleshooting, Project Management, Quality Control, Quality Management System, Regulatory Compliance, Report Writing, Risk Management
+
+── By Category ──
+  content                        ['Report Writing']
+  engineering                    ['Equipment Testing', 'Product Troubleshooting', 'Quality Control']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Operation Monitoring', 'Process Improvement', 'Quality Management System']
+  project_mgmt                   ['Project Management', 'Risk Management']
+  soft_skill                     ['Information Collection and Analysis']
+  testing                        ['Performance Testing']

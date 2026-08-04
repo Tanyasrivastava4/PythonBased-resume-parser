@@ -1,0 +1,65 @@
+======================================================================
+FILE: AIDeveloper_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+1to10X – Associate AI Engineer MAY’25 – Present
+Developed and lead end-to-end RAG pipelines, including data ingestion, embeddings, retrieval logic, and
+response generation.
+Built and maintained Graph-based RAG solutions by organizing data as entities and relationships for improved
+retrieval accuracy...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.4 years (29 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Associate AI Engineer
+  Company      : 1to10X
+  Location     : None
+  Start - End  : MAY’25 - Present
+  Duration     : 15 months
+  Bullets      : 7
+    • Developed and lead end-to-end RAG pipelines, including data ingestion, embeddings, retrieval logic, and response generation.
+    • Built and maintained Graph-based RAG solutions by organizing data as entities and relationships for improved retrieval accuracy.
+    • Developed AI agents using LangChain and LangGraph to support autonomous task execution.
+    • Coordinated RAG and agent development work within the team, ensuring pipeline stability and consistent output quality.
+    • Implemented internal AI automation workflows using low-code tools such as n8n, automating data flows, triggers, and operational processes.
+    • Built business and operational automations integrated with Zoho to reduce manual effort and improve internal efficiency.
+    • Supported testing, monitoring, and optimization of AI pipelines and automations to ensure reliability in day-to-day internal usage.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : AI Developer
+  Company      : Robot Wallah
+  Location     : None
+  Start - End  : SEP’24 - APRIL’25
+  Duration     : 8 months
+  Bullets      : 4
+    • Developed and deployed AI agents using LangChain and LangGraph for automation and decision workflows.
+    • Optimized database and retrieval performance across MongoDB and Pinecone, improving response time by 50%.
+    • Implemented knowledge graph–based retrieval using Neo4j to enhance contextual understanding and multi-hop queries.
+    • Designed and maintained RESTful APIs using Node.js and Express.js to support AI services.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Full Stack Developer
+  Company      : Webjini Technologies
+  Location     : None
+  Start - End  : MAR’24 - SEP’24
+  Duration     : 7 months
+  Bullets      : 3
+    • Revamped an Ed-Tech platform by integrating interactive course catalogs, secure user authentication, and seamless payment processing, resulting in 100+ successful transactions in the first month.
+    • Developed an Admin Dashboard, optimizing user and course management efficiency by 40%.
+    • Enhanced cross-browser compatibility, increasing weekly active users to 1,000+ and improving the user experience rating to 4.8/5.
+  Sub-sections : ['Cloud & Infrastructure', 'D eployed AI backend services on AWS EC2 (Ubuntu Linux).', 'Used AWS S3 for storing AI-generated outputs, logs, and workflow artifacts.', 'Configured Nginx as a reverse proxy for API services and webhook endpoints.', 'Managed environment variables and secrets for LLM APIs and OAuth credentials.', 'Worked with public/private IPs, ports, and security groups for controlled access.']
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False

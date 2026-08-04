@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Rohit Sharma_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+•BI & Visualization: Power BI, DAX, Power Query, Tableau, Apache Superset, KPI Reporting, Dashboard Development, Data Storytelling, Drill-
+through Analysis, Row-Level Security (RLS), Semantic Modeling, Data Modeling
+•Cloud & Tools: AWS (S3, Athena), Snowflake (Basic Exposure), Excel, PowerPoint, JIRA, Git, Alteryx, Power Automate, Chatgpt & claude(analytics
+workflows)
+•Data Analytics & Programming: SQL (Joins, CTEs, Window Functions, Aggregations), Python (Pandas, NumPy, Matplotlib), Exploratory Data
+Analysis (EDA), Statistical Analysis, Trend Analysis, Data Wrangling, Data Cleaning & Transformation, Predictive Analytics, ETL & Data
+Transformation, Data Validation & Profiling
+
+── Extraction Results ──
+Skills found   : 42
+Confidence     : 0.92
+Time           : 43.55 ms
+Method         : flashtext_skills_section | fuzzy(KPI Reporting→KPI(100%), Drill- through Analysis→Drill-through Analysis(98%), Row-Level Security→Row Level Security(100%), Athena→AWS Athena(100%), Excel→Microsoft Excel(100%)...)
+
+── All Skills (42) ──
+AWS, AWS Athena, AWS S3, Aggregations, Alteryx, Apache Superset, CTE, Claude, DAX, Dashboard Development, Data Analytics, Data Cleaning, Data Modeling, Data Storytelling, Data Validation, Data Wrangling, Drill-through Analysis, ETL, Exploratory Data Analysis, GPT, Git, Jira, Joins, KPI, Matplotlib, Microsoft Excel, Microsoft Power Automate, Microsoft PowerPoint, NumPy, Pandas, Power BI, Power Query, Predictive Analytics, Python, Row Level Security, SQL, Semantic Modeling, Snowflake, Statistical Analysis, Tableau, Trend Analysis, Window Functions
+
+── By Category ──
+  ai_ml                          ['GPT', 'Matplotlib', 'NumPy', 'Pandas']
+  business_analysis              ['KPI']
+  cloud_infra                    ['AWS', 'AWS Athena', 'AWS S3']
+  data_engineering               ['Data Cleaning', 'Data Validation', 'Data Wrangling', 'ETL']
+  data_science                   ['Alteryx', 'Apache Superset', 'DAX', 'Dashboard Development', 'Data Analytics', 'Data Modeling', 'Data Storytelling', 'Drill-through Analysis', 'Exploratory Data Analysis', 'Power BI', 'Power Query', 'Predictive Analytics', 'Row Level Security', 'Semantic Modeling', 'Statistical Analysis', 'Tableau', 'Trend Analysis']
+  database                       ['Aggregations', 'CTE', 'Joins', 'SQL', 'Snowflake', 'Window Functions']
+  dev_tool                       ['Git']
+  genai                          ['Claude']
+  productivity                   ['Microsoft Excel', 'Microsoft PowerPoint']
+  programming_language           ['Python']
+  project_mgmt                   ['Jira']
+  rpa                            ['Microsoft Power Automate']

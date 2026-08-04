@@ -1,0 +1,41 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Akash Batham_QA Engineer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Automation test strategies
+• Problem-solving abilities
+• Defect tracking and reporting
+• Manual test case preparation
+• Web-based testing
+• Agile best practices
+• Cursor AI
+• Anti-Gravity AI
+• AI in Testing
+• AI chatbot testing
+• Postgres
+• CI/CD pipeline
+• Playwright with typescript
+• Team leadership
+• API testing
+• Continuous integration
+• Client communication
+Websites, Portfolios,
+
+── Extraction Results ──
+Skills found   : 10
+Confidence     : 0.92
+Time           : 40.31 ms
+Method         : flashtext_skills_section | fuzzy(Cursor AI→Cursor(100%), Postgres→PostgreSQL(100%), Team leadership→Team Leadership(100%), Continuous integration→CI/CD(100%))
+
+── All Skills (10) ──
+Agile, CI/CD, Communication, Cursor, Playwright, PostgreSQL, Problem Solving, Reporting, Team Leadership, TypeScript
+
+── By Category ──
+  database                       ['PostgreSQL']
+  dev_tool                       ['Cursor']
+  devops                         ['CI/CD']
+  programming_language           ['TypeScript']
+  project_mgmt                   ['Agile']
+  soft_skill                     ['Communication', 'Problem Solving', 'Reporting', 'Team Leadership']
+  testing                        ['Playwright']

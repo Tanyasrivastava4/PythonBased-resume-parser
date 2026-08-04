@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Akash Verma_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages: Python
+Generative AI & LLMs: Azure OpenAI (GPT Models), Hugging Face Transformers, Prompt Engineering, LLM Applications
+RAG & Agentic AI: LangChain, RAG (Retrieval-Augmented Generation), Vector Search, MCP (Model Context Protocol),
+Agentic AI Workflows
+AI/ML & Deep Learning: CNN, ANN, PyTorch, TensorFlow, Transfer Learning, Model Evaluation Metrics
+Computer Vision: OpenCV, YOLO, ArUco Markers, K-means Clustering, Contour Analysis
+Data Engineering & Pipelines: Data Cleaning, Preprocessing, End-to-End AI Pipelines, Model Deployment Workflows,
+Kafka, AWS SQS
+Vector Databases & Retrieval: Redis (Vector Similarity Search), Similarity Search Techniques
+Databases: PostgreSQL, SQL, NoSQL
+Cloud Infrastructure: Microsoft Azure, AWS
+Embedded Systems: Raspberry Pi, NVIDIA Jetson, GPIO Interfacing
+
+── Extraction Results ──
+Skills found   : 37
+Confidence     : 0.92
+Time           : 59.38 ms
+Method         : flashtext_skills_section | fuzzy(Retrieval-Augmented Generation→RAG(100%), Preprocessing→Data Preprocessing(100%), Kafka→Apache Kafka(100%), GPIO Interfacing→GPIO(100%))
+
+── All Skills (37) ──
+ANN, AWS, AWS SQS, Agentic AI, Apache Kafka, Azure, CNN, Computer Vision, Contour Analysis, Data Cleaning, Data Preprocessing, Deep Learning, GPIO, GPT, Generative AI, Hugging Face, K-means Clustering, LLM, LangChain, MCP Server, Machine Learning, NVIDIA Jetson, NoSQL, OpenAI API, OpenCV, PostgreSQL, Prompt Engineering, PyTorch, Python, RAG, Raspberry Pi, Redis, SQL, TensorFlow, Transfer Learning, Vector Databases, YOLO
+
+── By Category ──
+  ai_ml                          ['ANN', 'CNN', 'Computer Vision', 'Contour Analysis', 'Deep Learning', 'GPT', 'K-means Clustering', 'Machine Learning', 'OpenCV', 'PyTorch', 'TensorFlow', 'Transfer Learning', 'YOLO']
+  cloud_infra                    ['AWS', 'AWS SQS', 'Azure']
+  data_engineering               ['Apache Kafka', 'Data Cleaning', 'Data Preprocessing']
+  database                       ['NoSQL', 'PostgreSQL', 'Redis', 'SQL']
+  embedded_systems               ['GPIO', 'NVIDIA Jetson', 'Raspberry Pi']
+  genai                          ['Agentic AI', 'Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'MCP Server', 'OpenAI API', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  programming_language           ['Python']

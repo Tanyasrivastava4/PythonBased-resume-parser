@@ -1,0 +1,84 @@
+======================================================================
+FILE: Aasma_Resume__segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Thirty Six Toyota, Faridabad (June 2022 – Present)
+- Handling customer inquiries, feedback, and service scheduling
+- Ensuring customer satisfaction and timely service delivery
+- Coordinating with workshop and service teams for issue resolution
+- Maintaining service records in CRM and achieving satis...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.85
+Needs review   : True
+Total exp      : 10.2 years (122 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Thirty Six Toyota
+  Location     : Faridabad
+  Start - End  : June 2022 - Present
+  Duration     : 50 months
+  Bullets      : 4
+    • Handling customer inquiries, feedback, and service scheduling
+    • Ensuring customer satisfaction and timely service delivery
+    • Coordinating with workshop and service teams for issue resolution
+    • Maintaining service records in CRM and achieving satisfaction KPIs
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : None
+  Company      : Ford
+  Location     : Faridabad
+  Start - End  : June 2021 - May 2022
+  Duration     : 12 months
+  Bullets      : 2
+    • Managed inbound and outbound calls for service bookings and follow-ups
+    • Handled customer complaints and escalations with professionalism
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : Mahadev Hyundai
+  Location     : Faridabad
+  Start - End  : June 2020 - May 2021
+  Duration     : 12 months
+  Bullets      : 2
+    • Supported the service department by tracking vehicle servicing and updates
+    • Improved service follow-up quality and maintained customer feedback logs
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : None
+  Company      : Pasco
+  Location     : Faridabad
+  Start - End  : June 2018 - May 2020
+  Duration     : 24 months
+  Bullets      : 2
+    • Assisted customers with service requests and appointment coordination
+    • Contributed to customer retention through prompt support
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 5
+  Role         : None
+  Company      : ABC Motors
+  Location     : Faridabad
+  Start - End  : June 2016 - May 2018
+  Duration     : 24 months
+  Bullets      : 2
+    • Handled customer calls and maintained satisfaction reports
+    • Helped streamline service appointment processes for better customer experience
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

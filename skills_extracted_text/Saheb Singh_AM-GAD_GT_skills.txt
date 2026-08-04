@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Saheb Singh_AM-GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+SAP Microsoft Excel Tally (ERP)
+SQL Data analytics IFRS GAAP
+SOX Power BI
+
+── Extraction Results ──
+Skills found   : 9
+Confidence     : 0.92
+Time           : 5.14 ms
+Method         : flashtext_skills_section
+
+── All Skills (9) ──
+Data Analytics, GAAP, IFRS, Microsoft Excel, Power BI, SAP, SOX, SQL, Tally
+
+── By Category ──
+  data_science                   ['Data Analytics', 'Power BI']
+  database                       ['SQL']
+  finance_ops                    ['GAAP', 'IFRS', 'SOX', 'Tally']
+  integration                    ['SAP']
+  productivity                   ['Microsoft Excel']

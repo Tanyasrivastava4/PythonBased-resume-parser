@@ -1,0 +1,23 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Akash Resume - Developer_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+PROGRAMMING LANGUAGES & FRAMEWORKS: HTML, CSS, JavaScript, React Js, Axios, Redux Toolkit, Express.js, MongoDB
+TOOLS & TECHNOLOGIES: VS Code, Git, GitHub, Vite
+STYLING & UI LIBRARIES: Tailwind CSS, Responsive Design (Media Queries, Flexbox, Grid)
+
+── Extraction Results ──
+Skills found   : 15
+Confidence     : 0.92
+Time           : 22.86 ms
+Method         : flashtext_skills_section | fuzzy(React Js→React(100%), Redux Toolkit→Redux(100%), Responsive Design→Responsive Web Design(100%), Flexbox→FlexBox(100%))
+
+── All Skills (15) ──
+Axios, CSS3, Express.js, FlexBox, Git, GitHub, HTML5, JavaScript, MongoDB, React, Redux, Responsive Web Design, Tailwind CSS, VS Code, Vite
+
+── By Category ──
+  database                       ['MongoDB']
+  dev_tool                       ['Git', 'GitHub', 'VS Code', 'Vite']
+  programming_language           ['JavaScript']
+  web_framework                  ['Axios', 'CSS3', 'Express.js', 'FlexBox', 'HTML5', 'React', 'Redux', 'Responsive Web Design', 'Tailwind CSS']

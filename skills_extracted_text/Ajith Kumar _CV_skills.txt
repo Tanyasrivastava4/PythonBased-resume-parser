@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Ajith Kumar _CV_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Working Capital & Mortgage Loans
+• MSME & Corporate Lending
+• Financial Statement & CMA Analysis
+• Policy Compliance & Risk Mitigation
+• Portfolio Monitoring & NPA Management
+• Stakeholder Collaboration & Training
+• MIS Reporting & Process Improvement
+
+── Extraction Results ──
+Skills found   : 11
+Confidence     : 0.92
+Time           : 17.35 ms
+Method         : flashtext_skills_section | fuzzy(Working Capital→Working Capital Financing(100%), Mortgage Loans→Mortgage Lending(100%), Financial Statement→Financial Reporting(97%), Risk Mitigation→Risk Management(100%))
+
+── All Skills (11) ──
+CMA Analysis, Collaboration, Corporate Lending, Financial Reporting, MIS Reporting, Mortgage Lending, NPA Management, Portfolio Monitoring, Process Improvement, Risk Management, Working Capital Financing
+
+── By Category ──
+  banking                        ['CMA Analysis', 'Corporate Lending', 'MIS Reporting', 'Mortgage Lending', 'NPA Management', 'Portfolio Monitoring', 'Working Capital Financing']
+  finance_ops                    ['Financial Reporting']
+  operations                     ['Process Improvement']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Collaboration']

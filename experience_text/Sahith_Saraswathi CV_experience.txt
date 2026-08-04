@@ -1,0 +1,55 @@
+======================================================================
+FILE: Sahith_Saraswathi CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Data Scientist
+PES University
+Soulpage IT solutions | December 2022 - May 2023
+Masters degree in Data science and Machine Learning
+2020 – 2022 Developed a risk prediction model using patient vitals and disease status
+,also build the disease prediction model with 98% accuracy.
+Marri Laxman Reddy Inst...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.79
+Needs review   : True
+Total exp      : 6.7 years (80 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Data Scientist
+  Company      : PES University
+  Location     : None
+  Start - End  : December 2022 - May 2023
+  Duration     : 6 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : Masters degree in Data science and Machine Learning
+  Location     : None
+  Start - End  : 2020 - 2022
+  Duration     : 25 months
+  Bullets      : 2
+    • ,also build the disease prediction model with 98% accuracy.
+    • Marri Laxman Reddy Institute Technology Extracted structured data from clinical report tables using OCR, table & Management detection (TableNet), and classification techniques, achieving 93% classification accuracy and 0.1 loss in detection.
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : Bachelors Degree in Computer Science Engineering
+  Location     : None
+  Start - End  : 2015 - 2019
+  Duration     : 49 months
+  Bullets      : 1
+    • data extraction from reports, enhancing monitoring, data usability, and reporting efficiency.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

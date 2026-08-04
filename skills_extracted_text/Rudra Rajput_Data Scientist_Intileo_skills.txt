@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Rudra Rajput_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Backend: Python, Flask, Django, Rest APIs, FastAPI, Celery, Redis, Templating
+AI & GenAI: LangChain, LlamaIndex, Pinecone (Vector DB),
+OpenAI, AI Agents, Embeddings, Semantic Search
+Databases: MySQL, PostgreSQL,, SQLite3, Vector db
+Devops: Docker, AWS services, GCP, Nginx, Supervisor/systemd deployments, Linux
+
+── Extraction Results ──
+Skills found   : 26
+Confidence     : 0.92
+Time           : 28.22 ms
+Method         : flashtext_skills_section | fuzzy(Rest APIs→REST API(100%), Templating AI→Templating(95%), Vector DB→Vector Databases(100%), OpenAI→OpenAI API(100%), AI Agents→Agentic AI(100%)...)
+
+── All Skills (26) ──
+AWS, Agentic AI, Celery, DevOps, Django, Docker, Embeddings, FastAPI, Flask, GCP, Generative AI, LangChain, Linux, LlamaIndex, MySQL, Nginx, OpenAI API, Pinecone, PostgreSQL, Python, REST API, Redis, SQLite, Semantic Search, Templating, Vector Databases
+
+── By Category ──
+  ai_ml                          ['Embeddings']
+  cloud_infra                    ['AWS', 'GCP']
+  data_engineering               ['Celery']
+  database                       ['MySQL', 'PostgreSQL', 'Redis', 'SQLite']
+  devops                         ['DevOps', 'Docker', 'Nginx']
+  genai                          ['Agentic AI', 'Generative AI', 'LangChain', 'LlamaIndex', 'OpenAI API', 'Semantic Search', 'Vector Databases']
+  os_system                      ['Linux']
+  programming_language           ['Python']
+  search                         ['Pinecone']
+  web_framework                  ['Django', 'FastAPI', 'Flask', 'REST API', 'Templating']

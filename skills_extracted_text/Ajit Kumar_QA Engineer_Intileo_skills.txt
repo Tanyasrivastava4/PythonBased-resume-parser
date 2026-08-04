@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Ajit Kumar_QA Engineer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Skills : Java, Selenium WebDriver, Appium, Cypress, JavaScript, BDD Cucumber Framework,
+TestNG Framework, Maven, Git and GitHub , Jenkins , Katalon Studio, Testim AI tool, API Testing,
+Performance testing, Functional Testing
+• Web Technologies : HTML, CSS, Java script
+• Tools : Eclipse, VS Code, Git,Jenkins,Postman, MySQL, JIRA, J-Meter.
+• Microsoft Office : Microsoft Excel, Microsoft word
+• Database :SQL server.
+• Personal Skills:
+▪ Analytical Skills ▪ Always inclined to learn new things.
+▪ Co-operative and adaptable nature ▪ Interpersonal Skills
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 89.38 ms
+Method         : flashtext_skills_section | fuzzy(Selenium WebDriver→Selenium(100%), Maven→Apache Maven(100%), Performance testing→Performance Testing(100%), Java script→JavaScript(100%), JIRA→Jira(100%)...)
+
+── All Skills (24) ──
+Adaptability, Analytical Thinking, Apache Maven, Appium, CSS3, Cypress, Git, GitHub, HTML5, Interpersonal Skills, Java, JavaScript, Jenkins, Jira, MS Office, MSSQL, Microsoft Excel, Microsoft Word, MySQL, Performance Testing, Postman, Selenium, TestNG, VS Code
+
+── By Category ──
+  database                       ['MSSQL', 'MySQL']
+  dev_tool                       ['Apache Maven', 'Git', 'GitHub', 'Postman', 'VS Code']
+  devops                         ['Jenkins']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft Word']
+  programming_language           ['Java', 'JavaScript']
+  project_mgmt                   ['Jira']
+  soft_skill                     ['Adaptability', 'Analytical Thinking', 'Interpersonal Skills']
+  testing                        ['Appium', 'Cypress', 'Performance Testing', 'Selenium', 'TestNG']
+  web_framework                  ['CSS3', 'HTML5']

@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Sachin Singh_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Offensive Security: Web Application Pen Testing, Network Vulnerability Assessment, API security testing, OWASP Top 10
+Defensive Security: SOC, SIEM Monitoring & Tuning, Incident Management, Malware Analysis, Sandboxing, Security
+Architecture
+Tools: Burp Suite, Nmap, Nessus, OWASP ZAP, Metasploit, Wireshark, SIEM, Linux, Sandboxes, VirusTotal
+Soft Skills: Client Communication, Stakeholder Management, Report Writing, Technical Documentation, Project
+Management, Product Management, Team Collaboration
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 27.03 ms
+Method         : flashtext_skills_section | fuzzy(Sandboxes→Sandboxing(100%), Technical Documentation→Technical Writing(100%))
+
+── All Skills (24) ──
+API Security Testing, Burp Suite, Collaboration, Communication, Incident Management, Linux, Malware Analysis, Metasploit, Nessus, Nmap, OWASP Top 10, OWASP ZAP, Penetration Testing, Product Management, Project Management, Report Writing, SIEM, Sandboxing, Security Architecture, Stakeholder Management, Technical Writing, VirusTotal, Vulnerability Assessment, Wireshark
+
+── By Category ──
+  cloud_infra                    ['Wireshark']
+  content                        ['Report Writing', 'Technical Writing']
+  os_system                      ['Linux']
+  project_mgmt                   ['Product Management', 'Project Management']
+  security                       ['Metasploit', 'Nmap']
+  security_ops                   ['API Security Testing', 'Burp Suite', 'Incident Management', 'Malware Analysis', 'Nessus', 'OWASP Top 10', 'OWASP ZAP', 'Penetration Testing', 'SIEM', 'Sandboxing', 'Security Architecture', 'VirusTotal', 'Vulnerability Assessment']
+  soft_skill                     ['Collaboration', 'Communication', 'Stakeholder Management']

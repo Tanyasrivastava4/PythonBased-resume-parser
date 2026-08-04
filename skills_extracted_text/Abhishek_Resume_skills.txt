@@ -1,0 +1,30 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Abhishek_Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Python, Java, C/C++, JavaScript
+LLMs & GenAI: OpenAI, Gemini, Llama 3.x, Qwen 2.5, Prompt Engineering, Instruction Tuning, RAG
+ML / NLP: Transformers, Text Summarization, NER, Tokenization, Model Evaluation (ROUGE, Accuracy)
+Computer Vision: YOLO, LayoutLMv3, PaddleOCR, Multimodal Document AI
+Frameworks & MLOps: PyTorch, Hugging Face, LangChain, FastAPI, Docker, AWS
+Databases & Tools: MongoDB, MySQL, Git, GitHub, Postman, Jupyter
+
+── Extraction Results ──
+Skills found   : 36
+Confidence     : 0.92
+Time           : 36.35 ms
+Method         : flashtext_skills_section | fuzzy(Qwen 2.5→Qwen(100%))
+
+── All Skills (36) ──
+AWS, C++, Computer Vision, Docker, FastAPI, Gemini, Generative AI, Git, GitHub, Hugging Face, Instruction Tuning, Java, JavaScript, Jupyter, LLM, LLaMA, LangChain, LayoutLMv3, MLOps, Machine Learning, MongoDB, MySQL, NER, NLP, OpenAI API, PaddleOCR, Postman, Prompt Engineering, PyTorch, Python, Qwen, RAG, ROUGE, Text Summarization, Tokenization, YOLO
+
+── By Category ──
+  ai_ml                          ['Computer Vision', 'LayoutLMv3', 'Machine Learning', 'NER', 'NLP', 'PaddleOCR', 'PyTorch', 'ROUGE', 'Text Summarization', 'Tokenization', 'YOLO']
+  cloud_infra                    ['AWS']
+  database                       ['MongoDB', 'MySQL']
+  dev_tool                       ['Git', 'GitHub', 'Jupyter', 'Postman']
+  devops                         ['Docker']
+  genai                          ['Gemini', 'Generative AI', 'Hugging Face', 'Instruction Tuning', 'LLM', 'LLaMA', 'LangChain', 'MLOps', 'OpenAI API', 'Prompt Engineering', 'Qwen', 'RAG']
+  programming_language           ['C++', 'Java', 'JavaScript', 'Python']
+  web_framework                  ['FastAPI']

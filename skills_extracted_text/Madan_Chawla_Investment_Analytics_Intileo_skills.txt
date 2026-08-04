@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Madan_Chawla_Investment_Analytics_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Analytics & Data: Product and Business Analytics, KPI Design, Funnel Analysis, Cohort Analysis,
+Experimentation (A/B Testing), Statistical Analysis
+Tools: SQL, Looker, Tableau, Excel, Power BI, Python
+Strategy & Leadership: Analytics Strategy, Structured Problem Solving, Stakeholder
+Management, Data-Driven Decision Making
+Domain: Fintech, Payments, UPI, Consumer Product Analytics
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 26.43 ms
+Method         : flashtext_skills_section | fuzzy(Experimentation→A/B Testing(100%), Excel→Microsoft Excel(100%))
+
+── All Skills (21) ──
+A/B Testing, Analytics Strategy, Business Analytics, Cohort Analysis, Consumer Analytics, Data-Driven Decision Making, Fintech, Funnel Analysis, KPI Design, Leadership, Looker, Microsoft Excel, Payments, Power BI, Problem Solving, Python, SQL, Stakeholder Management, Statistical Analysis, Tableau, UPI
+
+── By Category ──
+  data_science                   ['A/B Testing', 'Analytics Strategy', 'Business Analytics', 'Cohort Analysis', 'Consumer Analytics', 'Funnel Analysis', 'KPI Design', 'Looker', 'Power BI', 'Statistical Analysis', 'Tableau']
+  database                       ['SQL']
+  domain                         ['Fintech', 'Payments', 'UPI']
+  productivity                   ['Microsoft Excel']
+  programming_language           ['Python']
+  soft_skill                     ['Data-Driven Decision Making', 'Leadership', 'Problem Solving', 'Stakeholder Management']

@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Abhinav Srivastav_Mobile App Developer_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Swift, UIKit, Interface Builder,
+Core Data, MapKit, SDK
+Integrations,SwiftUI , RESTful
+APIs, IAP, Razorpay,
+Gluedin,Notifications,
+URLSession, Git, Firebase, AWS
+Amplify, Figma
+
+── Extraction Results ──
+Skills found   : 15
+Confidence     : 0.92
+Time           : 12.32 ms
+Method         : flashtext_skills_section | fuzzy(RESTful APIs→REST API(96%), Gluedin→GlueDin(100%))
+
+── All Skills (15) ──
+AWS Amplify, Core Data, Figma, Firebase, Git, GlueDin, In-App Purchase, Interface Builder, MapKit, REST API, Razorpay, Swift, SwiftUI, UIKit, URLSession
+
+── By Category ──
+  cloud_infra                    ['AWS Amplify']
+  database                       ['Firebase']
+  design                         ['Figma']
+  dev_tool                       ['Git', 'Interface Builder']
+  fintech                        ['Razorpay']
+  mobile_dev                     ['Core Data', 'GlueDin', 'In-App Purchase', 'MapKit', 'SwiftUI', 'UIKit', 'URLSession']
+  programming_language           ['Swift']
+  web_framework                  ['REST API']

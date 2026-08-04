@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Sachin Chitranshi_Management Consultant_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Automation Tools: Automation Anywhere, UiPath, Blue Prism, PowerAutomate and Agentic AI
+• Programming & Development: .NET, SharePoint and Microsoft Dynamics CRM
+• Project and Program Management: Agile Methodologies, Risk and Issue Management, Project Governance, JIRA,
+Confluence and DevOps
+• Process Documents: Project Charter, Solution Design Documents (SDD), Technical Specifications (TDD), Test Plans, SOP,
+PDD and BRD etc.
+• Others: ABBYY and SQL etc.
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 33.77 ms
+Method         : flashtext_skills_section | fuzzy(JIRA→Jira(100%))
+
+── All Skills (22) ──
+.NET, ABBYY, Agentic AI, Agile, Automation Anywhere, BRD, Blue Prism, Confluence, DevOps, Jira, Microsoft Dynamics CRM, Microsoft Power Automate, PDD, Project Charter, Project Governance, Risk and Issue Management, SOP, SQL, SharePoint, Solution Design, Test Plans, UiPath
+
+── By Category ──
+  architecture                   ['Solution Design']
+  business_analysis              ['BRD']
+  collaboration                  ['Confluence']
+  crm                            ['Microsoft Dynamics CRM']
+  database                       ['SQL']
+  devops                         ['DevOps']
+  genai                          ['Agentic AI']
+  integration                    ['SharePoint']
+  operations                     ['SOP']
+  programming_language           ['.NET']
+  project_mgmt                   ['Agile', 'Jira', 'Project Charter', 'Project Governance', 'Risk and Issue Management']
+  rpa                            ['ABBYY', 'Automation Anywhere', 'Blue Prism', 'Microsoft Power Automate', 'PDD', 'UiPath']
+  testing                        ['Test Plans']

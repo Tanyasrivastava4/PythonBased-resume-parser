@@ -1,0 +1,37 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Sai Pavan Boddula_AM-GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Statutory Audit: Strong knowledge of accounting and auditing standards, Proficiency in audit
+methodology, risk assessment, Internal controls testing, Substantive testing.
+Technology and data: Ability to leverage audit tools and data analytics to perform efficient, high quality
+audit procedures. Spreadsheets, Audit Software and other digital collaboration platforms
+Leadership and Project management: Ability to lead and direct the team, delegating work, and
+reviewing the work of juniors, Time management, ability to manage multiple audit engagements and
+deadlines. Coaching and guiding the juniors to achieve their professional goals.
+Communication and relationship: Ability to maintain clear written and verbal communication for
+discussing findings with the engagement team and drafting the audit documentation. Ability to build
+professional relationships and work effectively in diverse teams.
+Professional competencies: High attention to detail, professional skepticism and commitment to quality
+and compliance. Continuous learning mindset and openness to feedback to improve technical and soft
+skills.
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 225.7 ms
+Method         : flashtext_skills_section | fuzzy(accounting→Accounting(100%), auditing→Auditing(100%), risk assessment→Risk Management(100%), testing.→TestNG(86%), direct→Microsoft DirectX(92%)...)
+
+── All Skills (21) ──
+Accounting, Attention to Detail, Audit Methodology, Audit Software, Auditing, Collaboration, Communication, Data Analytics, Internal Controls Testing, Leadership, Microsoft DirectX, Microsoft Teams, Professional Skepticism, Project Management, Risk Management, Spreadsheets, Statutory Audit, Substantive Testing, TestNG, Time Management, Tutoring
+
+── By Category ──
+  data_science                   ['Data Analytics']
+  education_domain               ['Tutoring']
+  finance_ops                    ['Accounting', 'Audit Methodology', 'Audit Software', 'Auditing', 'Internal Controls Testing', 'Statutory Audit', 'Substantive Testing']
+  os_system                      ['Microsoft DirectX']
+  productivity                   ['Microsoft Teams', 'Spreadsheets']
+  project_mgmt                   ['Project Management', 'Risk Management']
+  soft_skill                     ['Attention to Detail', 'Collaboration', 'Communication', 'Leadership', 'Professional Skepticism', 'Time Management']
+  testing                        ['TestNG']

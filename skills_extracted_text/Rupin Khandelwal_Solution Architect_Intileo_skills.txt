@@ -1,0 +1,37 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Rupin Khandelwal_Solution Architect_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Architecture & Cloud: AWS (Certified), Microservices, Distributed Systems, Event-Driven
+Systems, BFF Pattern, Caching, Security Architecture
+• Backend Engineering: Java 17, Spring Boot, REST APIs, JPA, High-Performance Services
+• Mobile Engineering: Native iOS & Android, Mobile Architecture, Firebase, Secure Mobile
+SDKs
+• Programming Languages: Java, Swift, C/C++, Objective-C, SQL
+• DevOps & Delivery: CI/CD, Release Automation, Production Monitoring
+• Engineering Practices: HLD/LLD, Code Reviews, Performance Tuning, Technical Design
+Reviews
+• Domains: Retail & Corporate Banking, Digital Payments, Capital Markets, Algo Trading
+
+── Extraction Results ──
+Skills found   : 30
+Confidence     : 0.92
+Time           : 38.81 ms
+Method         : flashtext_skills_section | fuzzy(Distributed Systems→System Design(100%), REST APIs→REST API(100%), Objective-C→Objective C(95%), Performance Tuning→Performance Optimization(100%), Corporate Banking→Retail & Corporate Banking(100%)...)
+
+── All Skills (30) ──
+AWS, Algorithmic Trading, Android, BFF Pattern, C++, CI/CD, Caching, Capital Markets, Code Reviews, DevOps, Event-Driven, Firebase, High-Performance Services, JPA, Java, Microservices, Mobile Architecture, Objective C, Payments, Performance Optimization, REST API, Retail & Corporate Banking, SQL, Secure Mobile SDKs, Security Architecture, Spring Boot, Swift, System Design, Technical Design Reviews, iOS
+
+── By Category ──
+  architecture                   ['BFF Pattern', 'Caching', 'Event-Driven', 'High-Performance Services', 'Microservices', 'System Design', 'Technical Design Reviews']
+  cloud_infra                    ['AWS']
+  database                       ['Firebase', 'SQL']
+  dev_tool                       ['Code Reviews', 'Performance Optimization']
+  devops                         ['CI/CD', 'DevOps']
+  domain                         ['Payments', 'Retail & Corporate Banking']
+  finance                        ['Algorithmic Trading', 'Capital Markets']
+  mobile                         ['Android', 'Mobile Architecture', 'Secure Mobile SDKs', 'iOS']
+  programming_language           ['C++', 'Java', 'Objective C', 'Swift']
+  security_ops                   ['Security Architecture']
+  web_framework                  ['JPA', 'REST API', 'Spring Boot']

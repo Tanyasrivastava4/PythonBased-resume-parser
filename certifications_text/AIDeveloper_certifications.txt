@@ -1,0 +1,47 @@
+======================================================================
+FILE: AIDeveloper_segmented.txt
+======================================================================
+RAW CERTIFICATIONS SECTION
+----------------------------------------------------------------------
+Certification
+of completion in Frontend Web Development by Google
+Certification
+of completion in Frontend Web Development by Microsoft
+
+────────────────────────────────────────────────────────────
+[Found 6 sections total: ['header', 'skills', 'experience', 'projects', 'education', 'certifications']]
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Certifications found : 4
+Achievements found   : 0
+Confidence           : {'certifications': 0.7}
+Needs review         : True
+
+Cert 1
+  Name         : of completion in Frontend Web Development by Google
+  Issuer       : Google
+  Year         : None
+  Confidence   : 0.8
+  Needs Review : False
+
+Cert 2
+  Name         : of completion in Frontend Web Development by Microsoft
+  Issuer       : Microsoft
+  Year         : None
+  Confidence   : 0.8
+  Needs Review : False
+
+Cert 3
+  Name         : ────────────────────────────────────────────────────────────
+  Issuer       : None
+  Year         : None
+  Confidence   : 0.6
+  Needs Review : True
+
+Cert 4
+  Name         : [Found 6 sections total: ['header', 'skills', 'experience', 'projects', 'education', 'certifications']]
+  Issuer       : None
+  Year         : None
+  Confidence   : 0.6
+  Needs Review : True

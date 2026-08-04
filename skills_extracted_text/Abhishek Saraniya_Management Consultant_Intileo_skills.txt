@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Abhishek Saraniya_Management Consultant_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+✓ API Collaboration: PostMan
+✓ Prototyping: Figma, Drawio, Lucid, Visio
+✓ Project Management: Jira, Confluence
+✓ Data Query: PL/SQL
+✓ MS Office
+✓ Analytics & Data Visualization: Adobe analytics, Alteryx, Tableau, Grafana
+
+── Extraction Results ──
+Skills found   : 16
+Confidence     : 0.92
+Time           : 21.56 ms
+Method         : flashtext_skills_section | fuzzy(Lucid→Lucidchart(100%))
+
+── All Skills (16) ──
+Adobe Analytics, Alteryx, Collaboration, Confluence, Data Visualization, Drawio, Figma, Grafana, Jira, Lucidchart, MS Office, Microsoft Visio, PL/SQL, Postman, Project Management, Tableau
+
+── By Category ──
+  collaboration                  ['Confluence']
+  data_science                   ['Adobe Analytics', 'Alteryx', 'Data Visualization', 'Tableau']
+  database                       ['PL/SQL']
+  design                         ['Drawio', 'Figma', 'Lucidchart']
+  dev_tool                       ['Microsoft Visio', 'Postman']
+  devops                         ['Grafana']
+  productivity                   ['MS Office']
+  project_mgmt                   ['Jira', 'Project Management']
+  soft_skill                     ['Collaboration']

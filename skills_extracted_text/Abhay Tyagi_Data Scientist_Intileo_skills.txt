@@ -1,0 +1,52 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Abhay Tyagi_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+AI/ML Technologies
+• Machine Learning Deep Learning
+• Neural Networks GANs
+• Transformer Models
+• RAG Architecture
+• Natural Language Processing
+• Semantic Search
+• Large Language Models(LLM)
+• Agentic Ai
+Frameworks,Tools and Programming Language
+• Python
+• Javascript
+• TensorFlow Pandas
+• Langchain
+• LangGraph
+• FastAPI Flask
+• Docker
+• Git/GitHub
+• MongoDB
+Core Competencies
+• Statistical Analysis
+• Hyperparameter Tuning
+• Model Optimization
+• System Architecture
+• API Integration
+• Agile Development
+
+── Extraction Results ──
+Skills found   : 28
+Confidence     : 0.92
+Time           : 32.09 ms
+Method         : flashtext_skills_section | fuzzy(Neural Networks GANs→ANN(95%), Transformer Models→Transformer(97%), Javascript→JavaScript(100%), Langchain→LangChain(100%), System Architecture→System Design(100%)...)
+
+── All Skills (28) ──
+ANN, API Design, Agentic AI, Agile, Deep Learning, Docker, FastAPI, Flask, GAN, Git, GitHub, Hyperparameter Tuning, JavaScript, LLM, LangChain, LangGraph, Machine Learning, Model Optimization, MongoDB, NLP, Pandas, Python, RAG, Semantic Search, Statistical Analysis, System Design, TensorFlow, Transformer
+
+── By Category ──
+  ai_ml                          ['ANN', 'Deep Learning', 'GAN', 'Machine Learning', 'NLP', 'Pandas', 'TensorFlow', 'Transformer']
+  architecture                   ['API Design', 'System Design']
+  data_science                   ['Hyperparameter Tuning', 'Model Optimization', 'Statistical Analysis']
+  database                       ['MongoDB']
+  dev_tool                       ['Git', 'GitHub']
+  devops                         ['Docker']
+  genai                          ['Agentic AI', 'LLM', 'LangChain', 'LangGraph', 'RAG', 'Semantic Search']
+  programming_language           ['JavaScript', 'Python']
+  project_mgmt                   ['Agile']
+  web_framework                  ['FastAPI', 'Flask']
