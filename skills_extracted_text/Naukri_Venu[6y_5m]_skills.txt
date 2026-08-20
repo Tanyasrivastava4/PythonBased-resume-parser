@@ -1,0 +1,41 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Naukri_Venu[6y_5m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Web Technologies: Java, J2EE, EJB, Golang, Java Beans, JSP/JSF, Servlets, JDBC, JNDI, Java Mail, Messaging (JMS), Multithreading, Web Services, SOAP, REST, JavaScript, SQL, PL/SQL, UML, HTML, XHTML, DHTML, XML, CSS, LDAP, Python, Java, HTML/HTML5, CSS/CSS3, XML, DOM, AJAX, jQuery, JSON And CSS Bootstrap, ReactJS, NextJS.
+Frameworks: Django, Flask. Frameworks Django, Flask, Pyramid, Pyjamas, Python, Spring, Hibernate Webserver Apache HTTP Webserver, WebLogic, WebSphere, JBoss Amazon EC2, Jenkins and Fabric J2EE JDBC, JNDI, JSP And Servlets Databases Oracle MySQL, DevOps & AWS, Pandas, NumPy, SciPy, Fast API.
+Programming Languages: Python 2.5-2.7/3.4-3.6, C, SQL and PL/SQL.
+Version Control: MVC, SVN, CVS, Git, GitHub.
+Front End: Angular, jQuery, Ajax, ExtJS, Node JS, React JS, JSON, Bootstrap, CSS, HTML Analytic Tools: JMP PRO, SAS, Tableau, UCI NET, Node XL
+Frameworks/ORM tools: Spring 3.0/2.5, Struts 2.0/1.1, Hibernate 3.0, JPA 2.0.
+Application servers: Apache Tomcat, JBoss, Web Logic 10.x/8.1, Tomcat 5.0, Jboss 4.x.
+Databases: Oracle, My SQL, PostgreSQL, Apache Cassandra.
+Web frameworks: Django, Flask, React JS, Angular JS, Vue JS, Node JS, Fast API
+Methodologies: Agile Methodologies
+IDE’s/ Development Tools: NetBeans, Spyder, Eclipse, PyCharm, PyScripter, PyStudio, Atom and Sublime Text.
+Operating Systems: Windows 98/2000/XP/7/8/10, Red hat Linux 4.x/5.x/6.x, Ubuntu, and MacOS.
+Protocols: TCP/IP, HTTP/HTTPS, SOAP, SMTP
+Testing Tools: PyTest, Testify, Selenium, Bugzilla and JIRA, Maven, Junit, ANT, SVN, Log4j, CVS/Win CVS, Toad, MS Visio, Find Bugs, Jira, Hudson, Git, Cobertura.
+
+── Extraction Results ──
+Skills found   : 52
+Confidence     : 0.92
+Time           : 207.84 ms
+Method         : flashtext_skills_section | fuzzy(Golang→Go(100%), HTML→HTML5(100%), XHTML→HTML5(89%), DHTML→HTML5(89%), HTML→HTML5(100%)...)
+
+── All Skills (52) ──
+.NET, AJAX, AWS, AWS EC2, Agile, Angular, Apache Maven, Apache Struts, Apache Tomcat, Bootstrap, Bugzilla, CSS3, Cassandra, DevOps, Django, Ext JS, FastAPI, Flask, Git, GitHub, Go, HTML5, JBoss, JPA, JUnit, Java, JavaScript, Jenkins, Jira, Linux, Microsoft Visio, Microsoft Windows, MySQL, NetBeans, Next.js, Node.js, NumPy, PL/SQL, Pandas, PostgreSQL, Pytest, Python, React, SAS, SQL, SciPy, Selenium, Spring, Tableau, Ubuntu, Vue.js, jQuery
+
+── By Category ──
+  ai_ml                          ['NumPy', 'Pandas', 'SciPy']
+  cloud_infra                    ['AWS', 'AWS EC2']
+  data_science                   ['SAS', 'Tableau']
+  database                       ['Cassandra', 'MySQL', 'PL/SQL', 'PostgreSQL', 'SQL']
+  dev_tool                       ['Apache Maven', 'Git', 'GitHub', 'Microsoft Visio', 'NetBeans']
+  devops                         ['DevOps', 'JBoss', 'Jenkins']
+  os_system                      ['Linux', 'Microsoft Windows', 'Ubuntu']
+  programming_language           ['.NET', 'Go', 'Java', 'JavaScript', 'Python']
+  project_mgmt                   ['Agile', 'Jira']
+  testing                        ['Bugzilla', 'JUnit', 'Pytest', 'Selenium']
+  web_framework                  ['AJAX', 'Angular', 'Apache Struts', 'Apache Tomcat', 'Bootstrap', 'CSS3', 'Django', 'Ext JS', 'FastAPI', 'Flask', 'HTML5', 'JPA', 'Next.js', 'Node.js', 'React', 'Spring', 'Vue.js', 'jQuery']

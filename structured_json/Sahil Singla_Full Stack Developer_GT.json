@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "source_file": "Sahil Singla_Full Stack Developer_GT_segmented.txt",
+    "generated_at": "2026-08-06T07:16:22.074429+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sahil Singla",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "singlasahil.1154@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9463068820",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Experienced Senior Software Engineer with 6+ years’ experience and a demonstrated history of working in information\ntechnology and services. Skilled in Exress Js, React Js,PHP, Vuejs, jQuery, MySQL, Rest Web-Services, and Laravel MVC for Web-based\napplications.\nProficiency in designing, developing & testing websites using PHP.\nProficiency in Exress Js, React Js, PHP, Laravel, Lumen, jQuery. Proficiency in Developing REST-based web services.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS CloudWatch",
+      "AWS EC2",
+      "AWS S3",
+      "Agile",
+      "Bash",
+      "CI/CD",
+      "CSS3",
+      "ELK Stack",
+      "GitHub Actions",
+      "GitLab",
+      "GitLab CI",
+      "HTML5",
+      "JavaScript",
+      "Jenkins",
+      "Jira",
+      "Laravel",
+      "Linux",
+      "Microsoft Windows",
+      "MySQL",
+      "New Relic",
+      "Node.js",
+      "PHP",
+      "Postman",
+      "Project Management",
+      "Python",
+      "React",
+      "Scrum",
+      "SoapUI",
+      "VS Code",
+      "Waterfall",
+      "jQuery"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS CloudWatch",
+        "AWS EC2",
+        "AWS S3"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Jira",
+        "Project Management",
+        "Scrum",
+        "Waterfall"
+      ],
+      "os_system": [
+        "Bash",
+        "Linux",
+        "Microsoft Windows"
+      ],
+      "devops": [
+        "CI/CD",
+        "ELK Stack",
+        "GitHub Actions",
+        "GitLab CI",
+        "Jenkins",
+        "New Relic"
+      ],
+      "web_framework": [
+        "CSS3",
+        "HTML5",
+        "Laravel",
+        "Node.js",
+        "React",
+        "jQuery"
+      ],
+      "dev_tool": [
+        "GitLab",
+        "Postman",
+        "SoapUI",
+        "VS Code"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP",
+        "Python"
+      ],
+      "database": [
+        "MySQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(JIRA→Jira(100%), Windows→Microsoft Windows(100%), ReactJS→React(100%), Github Actions→GitHub Actions(100%), CloudWatch→AWS CloudWatch(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "Care Health Insurance. • Gurgaon",
+        "location": "Haryana",
+        "start": "12/2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 21,
+        "bullets": [
+          "Working with India's largest health insurance company - Care Health Insurance.",
+          "Deployed SHP project in AWS using Express Js and front end in React JS.",
+          "Designed and maintained microservices for SHP, providing services to customers.",
+          "Developed secure login systems using JWT.",
+          "Built microservices and provided authentication.",
+          "Implemented SAML 2.0–based SSO integration, configuring Identity Provider ↔ Service Provider redirection, XML-assertions, and HTTP-Redirect/POST bindings to enable seamless cross-domain authentication and centralized user management"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Mantra Labs Global Pvt. Ltd. • Gurgaon",
+        "location": "Haryana",
+        "start": "06/2022",
+        "end": "12/2024",
+        "method": "date_regex+title_dict",
+        "duration_months": 31,
+        "bullets": [
+          "Working with different servicing modules that the customer uses.",
+          "Developing and designing new features according to client requirements.",
+          "Revamp Self Help Portal from core PHP to Laravel 10 and front end in react JS.",
+          "Maintained the complete portal from developing to deploying on the server and maintaining on production.",
+          "Created wrappers of APIs for vendors and integrated 3rd party services in our modules."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Software Engineer",
+        "company": "CSC E- Governance India Limited • Delhi",
+        "location": "Delhi",
+        "start": "02/2019",
+        "end": "06/2022",
+        "method": "date_regex+title_dict",
+        "duration_months": 41,
+        "bullets": [
+          "Worked and Developed Gujarat Government project ‘UWIN’ on PHP and Vue.js platform for Unorganized Workers' Identification Number to identify the proof to unorganized workers in Gujarat.",
+          "Developed CSC – IRCTC- based application ecosystem for availing IRCTC services and facilitating real-time agent creation.",
+          "Worked on projects like Business Management systems and Service Desk build on PHP, Vue.js, jQuery, react.js, etc.",
+          "Designed and developed database structure on MySQL."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Site Engineer",
+        "company": "Corporate India Private Limited  • Noida",
+        "location": "Delhi",
+        "start": "09/2018",
+        "end": "01/2019",
+        "method": "date_regex+title_dict",
+        "duration_months": 5,
+        "bullets": [
+          "My job includes th e deployment Router Configuring of DHCP, NAT& default Router Protocol Deployment of servers, configuring NAS, Firewall (basic working) V LANs in Cisco L2 switches, installation & troubleshooting IT equipment including printers, scanners, biometric devices, configuring outlook, installation of desktop, laptop & NUC"
+        ],
+        "sub_sections": [
+          "Install IP Cameras with POE Switch",
+          "Survey the sites then architect the network design and deploy the network equipment."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.0,
+      "total_months": 96,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B. Tech",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Diploma (Computer Engineering)",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Computer Engineering",
+        "institution": "Saraswati Polytechnic College",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

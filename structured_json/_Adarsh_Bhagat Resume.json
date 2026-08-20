@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "source_file": "_Adarsh_Bhagat Resume_segmented.txt",
+    "generated_at": "2026-08-06T07:16:22.680301+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Adarsh Bhagat",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "adarshbhgt8@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91 8250205647",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Cybersecurity Analyst with nearly 3 years of experience managing SIEM/EDR operations within the Microsoft ecosystem.\nProven success in optimizing Microsoft Sentinel workbooks and leveraging KQL for proactive threat hunting and custom\ndetection engineering. Demonstrated ability to automate incident response workflows using Logic Apps, significantly\nimproving SOC efficiency. Deep technical knowledge in OWASP and MITRE frameworks for investigating cloud, identity, and\nendpoint-based security breaches.",
+  "skills": {
+    "items": [
+      "Any.Run",
+      "Cyber Kill Chain",
+      "Fine-tuning",
+      "ISO 31000",
+      "Incident Response",
+      "KQL",
+      "Log Analysis",
+      "MITRE ATT&CK",
+      "Malware Analysis",
+      "Microsoft Defender",
+      "Microsoft Sentinel",
+      "NIST",
+      "OWASP Top 10",
+      "Phishing",
+      "SOAR",
+      "Security Awareness Training",
+      "ServiceNow",
+      "Splunk",
+      "Threat Hunting",
+      "Threat Intelligence",
+      "VirusTotal"
+    ],
+    "by_category": {
+      "security_ops": [
+        "Any.Run",
+        "Cyber Kill Chain",
+        "ISO 31000",
+        "Incident Response",
+        "KQL",
+        "Log Analysis",
+        "MITRE ATT&CK",
+        "Malware Analysis",
+        "Microsoft Defender",
+        "Microsoft Sentinel",
+        "NIST",
+        "OWASP Top 10",
+        "Phishing",
+        "SOAR",
+        "Security Awareness Training",
+        "Splunk",
+        "Threat Hunting",
+        "Threat Intelligence",
+        "VirusTotal"
+      ],
+      "genai": [
+        "Fine-tuning"
+      ],
+      "integration": [
+        "ServiceNow"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Any.run→Any.Run(100%), MITRE ATT→MITRE ATT&CK(86%), NIST IR→NIST(100%), Threat Analysis→Threat Intelligence(100%), Fine tuning→Fine-tuning(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "PricewaterhouseCoopers Services LLP",
+        "company": "PwC India",
+        "location": null,
+        "start": "July 2023",
+        "end": "Present",
+        "method": "date_regex+dash_split",
+        "duration_months": 38,
+        "bullets": [
+          "Incident Orchestration, Investigation & RCA: Directed 24x7 threat monitoring and triage across network, cloud, and identity environments; managed incident lifecycles in ServiceNow with 100% SLA adherence, and conducted deep-dive alert analysis with network forensics and RCA to deliver actionable remediation that strengthened client security postures.",
+          "Cross-Platform Security Event Analysis: Performed in-depth analysis across heterogeneous sources including Windows/Linux Endpoints, Syslog, Firewalls, Proxies, EDR, Defender XDR, IDS/IPS, and Active Directory; correlated multi-source telemetry to identify and validate true positive alerts.",
+          "Email Threat Analysis & Malware Triage: Investigated phishing campaigns by correlating AD, Email Events, and Office Activity logs; Executed dynamic malware analysis by validating file hashes, endpoint telemetry, and cross-log correlation to contain and remediate malicious activity.",
+          "Detection Engineering & SIEM Tuning: Developed and implemented custom SIEM use cases and dashboards; systematically fine-tuned analytics rules to reduce false positives, increasing true positive detection rates by 40% and significantly improving alert fidelity.",
+          "Proactive Threat Hunting: Executed hypothesis-based hunting using KQL, Threat Intelligence feeds, and IOCs to identify stealthy adversaries and APT activities before escalation.",
+          "Process Automation & Efficiency: Leveraged Microsoft Logic Apps to automate response playbooks — including IP reputation lookups to eliminate manual analyst checks, and automated email notifications for high-severity alerts with enriched entity details — enabling faster initial triage and immediate containment actions.",
+          "Client Engagement & Analyst Mentorship: Acted as the Single Point of Contact (SPOC) for multiple enterprise clients, delivering weekly and monthly governance reports with KPIs/KRIs. Simultaneously mentored L1 analysts on investigation techniques and SOPs, elevating the overall quality of team analysis and ensuring standardized incident documentation."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Intern at PricewaterhouseCoopers Services LLP- PwC India",
+        "company": null,
+        "location": null,
+        "start": "Jan 2023",
+        "end": "July 2023",
+        "method": "date_regex+title_dict",
+        "duration_months": 7,
+        "bullets": [
+          "Security Monitoring & Incident Documentation: Managed initial threat detection and alert triage within the SIEM environment, analyzing network and endpoint telemetry to identify potential IOCs; documented investigation findings and performed initial analysis to support rapid incident containment and closure."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.7,
+      "total_months": 44,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": null,
+        "degree_name": null,
+        "degree_type": null,
+        "degree_field": null,
+        "institution": "B. P. Poddar INSTITUTE OF MANAGEMENT AND TECHNOLOGY Aug",
+        "year": "Aug 2019 - June 2023",
+        "gpa": "8.70",
+        "_needs_review": true,
+        "_confidence": 0.55
+      }
+    ],
+    "_confidence": 0.55
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "CEH",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "SC 200: Microsoft Security Operations Analyst Associate",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "AZ 900: Microsoft Azure Fundamentals",
+        "issuer": "Microsoft Azure",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "SC 900: Microsoft Security, Compliance, and Identity Fundamentals",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "ISO 31000",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.72
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.81
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.55,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.72,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

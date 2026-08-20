@@ -1,0 +1,69 @@
+======================================================================
+FILE: Sahith_Saraswathi CV_segmented.txt
+======================================================================
+Sections found : ['certifications', 'experience', 'header', 'skills', 'summary']
+Overall conf.  : 0.83
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : None  (conf 0.0, regex)
+  email     : sahith.dingi@gmail.com  (conf 0.99, regex)
+  phone     : +91 7093939581  (conf 0.95, regex)
+  linkedin  : linkedin.com/in/sahith-  (conf 0.99, regex)
+  github    : github.com/sahith003  (conf 0.99, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Data scientist with practical experience in analytics, machine learning, and statistical modeling through focused training and projects.
+Skilled in Python, SQL, and visualization tools to extract insights and support data-driven decisions.
+Driven, analytical, and passionate about turning complex data into strategic value.
+
+SKILLS (40) — confidence 0.92
+----------------------------------------------------------------------
+CNN, ChromaDB, Classification Web, Data Analytics, Data Science, Data Visualization, Deep Learning, E-commerce, FAISS, Fine-tuning, Gemini, Generative AI, Hugging Face, Keras, LLM, LLaMA, LangChain, Machine Learning, Matplotlib, Microsoft Excel, NLP, NumPy, OpenAI API, OpenCV, Pandas, Prompt Engineering, PyTorch, Python, RAG, SANS, SQL, SciPy, Seaborn, Stable Diffusion, Statistics, Tableau, Time Series Forecasting, Vector Databases, XGBoost, scikit-learn
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.79
+Total experience: 6.7 years (80 months, 0 overlaps merged)
+----------------------------------------------------------------------
+  1. Data Scientist @ PES University (December 2022 - May 2023) [conf 0.98, review=False]
+  2. None @ Masters degree in Data science and Machine Learning (2020 - 2022) [conf 0.55, review=True]
+  3. None @ Bachelors Degree in Computer Science Engineering (2015 - 2019) [conf 0.85, review=True]
+
+EDUCATION (0) — confidence 0.0
+----------------------------------------------------------------------
+
+CERTIFICATIONS (13) — confidence 0.64
+----------------------------------------------------------------------
+  1. diagnostic tool to support early detection and treatment planning — None (None) [conf 0.6]
+  2. RBI Regularity Chatbot (RAG) — None (None) [conf 0.6]
+  3. Developed an AI chatbot using Langchain and RAG to provide context — None (None) [conf 0.6]
+  4. Advanced Generative AI  from aware answers on RBI risk guidelines, leveraging FAISS and OpenAI for — None (2024) [conf 0.75]
+  5. Innomatics research labs semantic search and response generation. — None (None) [conf 0.6]
+  6. Career Essentials in Generative Ai Applied NLP to simplify complex regulations, enhancing clarity and — None (None) [conf 0.6]
+  7. by Microsoft supporting compliance workflows. — Microsoft (2024) [conf 0.95]
+  8. Health Insurance Prediction — None (None) [conf 0.6]
+  9. Achieved high-accuracy insurance premium prediction (R² = 0.98) using — None (None) [conf 0.6]
+  10. customer demographics and health attributes. — None (None) [conf 0.6]
+  11. Enhanced pricing fairness and personalization, boosting customer — None (None) [conf 0.6]
+  12. satisfaction and data-driven decision-making for insurers. — None (None) [conf 0.6]
+  13. ──────────────────────────────────────────────────────────── — None (None) [conf 0.6]
+
+REVIEW QUEUE (15 flagged fields)
+----------------------------------------------------------------------
+  contact.name                        conf=0.0  reason=missing
+  experience.jobs[1]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
+  certifications                      conf=0.64  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields
+  certifications.items[1]             conf=0.6  reason=incomplete_fields
+  certifications.items[2]             conf=0.6  reason=incomplete_fields
+  certifications.items[4]             conf=0.6  reason=incomplete_fields
+  certifications.items[5]             conf=0.6  reason=incomplete_fields
+  certifications.items[7]             conf=0.6  reason=incomplete_fields
+  certifications.items[8]             conf=0.6  reason=incomplete_fields
+  certifications.items[9]             conf=0.6  reason=incomplete_fields
+  certifications.items[10]            conf=0.6  reason=incomplete_fields
+  certifications.items[11]            conf=0.6  reason=incomplete_fields
+  certifications.items[12]            conf=0.6  reason=incomplete_fields

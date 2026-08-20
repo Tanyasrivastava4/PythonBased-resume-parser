@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/ANKUR SAXENA_Full Stack Developer_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Frontend
+Angular 16 & 17, React 19, JavaScript (ES6+), jQuery
+HTML5, CSS3, Bootstrap, Responsive UI
+Backend
+PHP 8.4.14, Laravel, CodeIgniter, Yii, Core PHP, Node JS
+Database
+MySQL 9.5, Query Optimization, Stored Procedures
+API Development
+REST APIs (Laravel / PHP), Token-Based Auth, API Security
+Tools & DevOps
+Git, GitHub, Bitbucket, Postman, VS Code
+Basic AWS (S3, EC2), CI/CD (GitHub Actions / Jenkins)
+Additional Expertise
+Payment Gateway Integration (Razorpay, Stripe)
+Admin Panels, CMS Development
+Caching (Redis) & Performance Optimization
+
+── Extraction Results ──
+Skills found   : 31
+Confidence     : 0.92
+Time           : 45.4 ms
+Method         : flashtext_skills_section
+
+── All Skills (31) ──
+API Design, AWS, AWS EC2, AWS S3, Angular, Bitbucket, Bootstrap, CI/CD, CSS3, Caching, CodeIgniter, DevOps, Git, GitHub, GitHub Actions, HTML5, JavaScript, Jenkins, Laravel, MySQL, Node.js, PHP, Performance Optimization, Postman, REST API, Razorpay, React, Redis, Stored Procedures, VS Code, jQuery
+
+── By Category ──
+  architecture                   ['API Design', 'Caching']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3']
+  database                       ['MySQL', 'Redis', 'Stored Procedures']
+  dev_tool                       ['Bitbucket', 'Git', 'GitHub', 'Performance Optimization', 'Postman', 'VS Code']
+  devops                         ['CI/CD', 'DevOps', 'GitHub Actions', 'Jenkins']
+  fintech                        ['Razorpay']
+  programming_language           ['JavaScript', 'PHP']
+  web_framework                  ['Angular', 'Bootstrap', 'CSS3', 'CodeIgniter', 'HTML5', 'Laravel', 'Node.js', 'REST API', 'React', 'jQuery']

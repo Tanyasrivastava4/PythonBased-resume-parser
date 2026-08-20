@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "source_file": "Abhinav Srivastav_Mobile App Developer_GT_segmented.txt",
+    "generated_at": "2026-08-06T07:16:20.025455+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Abhinav Srivastav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "srivastav398@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8299435521",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS Amplify",
+      "Core Data",
+      "Figma",
+      "Firebase",
+      "Git",
+      "GlueDin",
+      "In-App Purchase",
+      "Interface Builder",
+      "MapKit",
+      "REST API",
+      "Razorpay",
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "URLSession"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS Amplify"
+      ],
+      "mobile_dev": [
+        "Core Data",
+        "GlueDin",
+        "In-App Purchase",
+        "MapKit",
+        "SwiftUI",
+        "UIKit",
+        "URLSession"
+      ],
+      "design": [
+        "Figma"
+      ],
+      "database": [
+        "Firebase"
+      ],
+      "dev_tool": [
+        "Git",
+        "Interface Builder"
+      ],
+      "web_framework": [
+        "REST API"
+      ],
+      "fintech": [
+        "Razorpay"
+      ],
+      "programming_language": [
+        "Swift"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(RESTful APIs→REST API(96%), Gluedin→GlueDin(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "iOS Developer",
+        "company": "Khelo Tech",
+        "location": "Delhi",
+        "start": "Nov 2024",
+        "end": "PRESENT",
+        "method": "date_regex+dash_split",
+        "duration_months": 22,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Noida Sec-62 — iOS Developer",
+        "company": "Netprophets Cyberworks Pvt. Ltd.",
+        "location": null,
+        "start": "Jan 2022",
+        "end": "Nov 2024",
+        "method": "date_regex+title_dict",
+        "duration_months": 35,
+        "bullets": [
+          "Performance Enhancement: Implemented image caching for improved app performance and reduced loading times.",
+          "API Integration: Connected multiple APIs for comprehensive functionality and smooth data flow"
+        ],
+        "sub_sections": [
+          "📍 Delhi, India"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.7,
+      "total_months": 56,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Ghaziabad, UP — B.Tech",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "IMS ENGINEERING COLLEGE, GHAZIABAD",
+        "year": "Aug 2018 - Aug 2022",
+        "gpa": "7.8",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Senior Secondary School,",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "School",
+        "year": "Jul 2017 - Jul 2018",
+        "gpa": "61.6%",
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "Higher Secondary School",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "School",
+        "year": "Jul 2015 - Jul 2016",
+        "gpa": "89.3%",
+        "_needs_review": true,
+        "_confidence": 0.55
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education.entries[2]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

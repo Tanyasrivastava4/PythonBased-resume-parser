@@ -69,9 +69,16 @@ if __name__ == "__main__":
         for path in sys.argv[1:]:
             test_file(path)
     else:
+        #files = sorted(
+        #    glob.glob("resumes/*.pdf")  +
+        #    glob.glob("resumes/*.docx") +
+        #    glob.glob("resumes/*.jpg")  +
+        #    glob.glob("resumes/*.png")
+        #)
         files = sorted(
             glob.glob("resumes/*.pdf")  +
             glob.glob("resumes/*.docx") +
+            glob.glob("resumes/*.doc")  +  
             glob.glob("resumes/*.jpg")  +
             glob.glob("resumes/*.png")
         )

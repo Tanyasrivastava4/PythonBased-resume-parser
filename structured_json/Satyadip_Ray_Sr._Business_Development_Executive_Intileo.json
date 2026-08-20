@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "source_file": "Satyadip_Ray_Sr._Business_Development_Executive_Intileo_segmented.txt",
+    "generated_at": "2026-08-06T07:16:22.576451+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Satyadip Ray",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "satyadipray2000@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7439310410",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "B2B Sales",
+      "B2C Sales",
+      "Business Planning",
+      "Client Relationship Management",
+      "Contract Negotiation",
+      "Customer Service",
+      "Data Analysis",
+      "Dealer Management",
+      "Leadership",
+      "Market Research",
+      "Performance Monitoring",
+      "Sales Presentations",
+      "Strategic Thinking"
+    ],
+    "by_category": {
+      "sales": [
+        "B2B Sales",
+        "B2C Sales",
+        "Contract Negotiation",
+        "Dealer Management",
+        "Sales Presentations"
+      ],
+      "biz_dev": [
+        "Business Planning"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management",
+        "Customer Service"
+      ],
+      "data_science": [
+        "Data Analysis"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Strategic Thinking"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "operations": [
+        "Performance Monitoring"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "BUSINESS DEVELOPMENT EXECUTIVE",
+        "company": "HESEOS TECHNOLOGY PRIVATE LIMITED",
+        "location": "SERAMPORE",
+        "start": "Jul 2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 26,
+        "bullets": [
+          "Built and maintained strong relationships with key clients to ensure repeat business and client satisfaction.",
+          "Good Knowledge in B2B & B2C Sales.",
+          "Manage Dealers & Distributors.",
+          "Conducted comprehensive market research and competitor analysis to inform strategic decision- making.",
+          "Prepared and delivered persuasive sales presentations and proposals to potential clients.",
+          "Monitored sales performance metrics and reported progress to senior management, recommending adjustments as needed.",
+          "Negotiated contracts and agreements with clients to maximice profit margins while maintaining long- term relationships."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "ASSISTANT STORE MANAGER",
+        "company": "V-MART RETAIL",
+        "location": "KONNAGAR",
+        "start": "Jan 2024",
+        "end": "Jun 2024",
+        "method": "date_regex+title_dict",
+        "duration_months": 6,
+        "bullets": [
+          "Supervised daily store operations to ensure efficient workflow and excellent customer service.",
+          "Managed and trained store staff to improve performance and enhance customer experience.",
+          "Coordinated visual merchandising and store layout to maximice product visibility and sales.",
+          "Handled customer queries and resolved complaints promptly to maintain high customer satisfaction.",
+          "Analyzed sales data and prepared reports to support strategic planning and achieve store targets."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "INTERN",
+        "company": "ADITYA BIRLA FASHION AND RETAIL",
+        "location": "UTTARPARA",
+        "start": "Jun 2023",
+        "end": "Jul 2023",
+        "method": "date_regex+title_dict",
+        "duration_months": 2,
+        "bullets": [
+          "Collaborated with cross-functional teams to develop strategic plans for market expansion.",
+          "Monitored competitor activities and compiled reports to inform business strategies."
+        ],
+        "sub_sections": [
+          "COURSES",
+          "GRAPHIC DESIGN 2018",
+          "TALLY & GST 2021",
+          "────────────────────────────────────────────────────────────"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.8,
+      "total_months": 34,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA Aug 2022 - Jun 2024",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": "Aug 2022 - Jun 2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "GRADUATION Jul 2018 - Jun 2021",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Nabagram Hiralal Paul College",
+        "year": "Jul 2018 - Jun 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HIGHER SECONDARY 2016 - 2018",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "SERAMPORE UNION INSTITUTION",
+        "year": "2016 - 2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SECONDARY 2016",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "SERAMPORE MANILA LAHIRI BOYS ACADEMY",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.91
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

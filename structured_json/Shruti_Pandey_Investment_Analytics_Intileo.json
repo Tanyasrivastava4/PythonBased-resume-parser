@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "source_file": "Shruti_Pandey_Investment_Analytics_Intileo_segmented.txt",
+    "generated_at": "2026-08-06T07:16:22.636689+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "p20shrutip@iimidr.ac.in",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7754964400",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/shruti-pandey-99b880159",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Investment Risk Associate at JP Morgan Asset & Wealth Management with direct exposure to a $640B AUM multi-\nasset book. Deep expertise in quantitative portfolio analytics, factor risk decomposition, Python-driven automation,\nand stress testing across equity, fixed income, and multi-asset strategies. CFA Level I cleared at the 90th percentile;\nLevel II cleared (Level III candidate). IIM Indore MBA, top 2% in Finance. Seeking buy-side investment risk, quant\nresearch, or portfolio analytics roles where rigorous quantitative skills and institutional markets experience can drive\nalpha generation and risk-adjusted performance.",
+  "skills": {
+    "items": [
+      "Backtesting",
+      "BlackRock Aladdin",
+      "Bloomberg Terminal",
+      "CVaR",
+      "Comps",
+      "DCF",
+      "Data Pipeline",
+      "Drawdown Analysis",
+      "Equities",
+      "Equity Valuation",
+      "FX Forwards",
+      "FactSet",
+      "Factor Risk",
+      "Fixed Income",
+      "Git",
+      "Interest Rate Products",
+      "LBO",
+      "MVO",
+      "Macro Modelling",
+      "Microsoft Excel",
+      "Morningstar Direct",
+      "Multi-Asset",
+      "NumPy",
+      "Options & Futures",
+      "Pandas",
+      "PostgreSQL",
+      "Power BI",
+      "Private Equity",
+      "Python",
+      "Risk Dashboards",
+      "SQL",
+      "SciPy",
+      "Stress Testing",
+      "Tableau",
+      "VBA",
+      "VaR",
+      "scikit-learn",
+      "statsmodels"
+    ],
+    "by_category": {
+      "finance": [
+        "Backtesting",
+        "BlackRock Aladdin",
+        "Bloomberg Terminal",
+        "CVaR",
+        "Comps",
+        "DCF",
+        "Drawdown Analysis",
+        "Equities",
+        "Equity Valuation",
+        "FX Forwards",
+        "FactSet",
+        "Factor Risk",
+        "Fixed Income",
+        "Interest Rate Products",
+        "LBO",
+        "MVO",
+        "Macro Modelling",
+        "Morningstar Direct",
+        "Multi-Asset",
+        "Options & Futures",
+        "Private Equity",
+        "Risk Dashboards",
+        "Stress Testing",
+        "VaR"
+      ],
+      "data_engineering": [
+        "Data Pipeline"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "ai_ml": [
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "scikit-learn",
+        "statsmodels"
+      ],
+      "database": [
+        "PostgreSQL",
+        "SQL"
+      ],
+      "data_science": [
+        "Power BI",
+        "Tableau"
+      ],
+      "programming_language": [
+        "Python",
+        "VBA"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(factor risk→Factor Risk(100%), portfolio optimisation→MVO(100%), drawdown analysis→Drawdown Analysis(100%), stress testing→Stress Testing(100%), risk dashboards→Risk Dashboards(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Investment Risk Associate",
+        "company": "JP Morgan Asset & Wealth Management",
+        "location": null,
+        "start": "May 2023",
+        "end": "Present",
+        "method": "date_regex+pipe_split",
+        "duration_months": 40,
+        "bullets": [
+          "Owned daily quantitative risk reporting across CIO-managed portfolios (~$640B AUM); decomposed factor exposures (value, momentum, quality, duration) to surface concentration risk and support intraday rebalancing decisions by senior PMs",
+          "Rebuilt equity, fixed income, and multi-asset analytics stack in Python (Pandas, NumPy) — automated tracking error, information ratio, and excess return attribution pipelines, reducing turnaround from 4+ hours to under 30 minutes and enabling same-day portfolio adjustments",
+          "Conducted quantitative due diligence on prospective investment solutions: built VaR models, drawdown scenario matrices, and tail-risk simulations to evaluate suitability against client risk mandates and regulatory constraints",
+          "Back-tested factor strategies and scenario-modelled macro shocks (rate hikes, credit spread widening, equity drawdowns) alongside senior PMs, directly informing systematic capital allocation decisions",
+          "Identified concentrated factor tilts across sector allocations during volatile macro periods; escalated tail-risk flags that contributed to pre-emptive defensive repositioning in client portfolios"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Product Manager – Financial Strategy",
+        "company": "Ford Motor Company",
+        "location": null,
+        "start": "May 2022",
+        "end": "Apr 2023",
+        "method": "date_regex+pipe_split",
+        "duration_months": 12,
+        "bullets": [
+          "Managed a product line generating ~₹30M monthly revenue; led data-driven pricing model redesign and scenario analysis to guide capital allocation, achieving 15% YoY growth and measurable churn reduction",
+          "Collaborated with Finance and Sales to align P&L roadmap with profitability targets; translated market data into actionable pricing strategy and cross-segment expansion initiatives"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Investment Analyst Intern",
+        "company": "WI Ventures",
+        "location": null,
+        "start": "Jan 2022",
+        "end": "Mar 2022",
+        "method": "date_regex+pipe_split",
+        "duration_months": 3,
+        "bullets": [
+          "Executed end-to-end financial due diligence on 5+ early-stage startups across APAC and the US; built DCF, precedent transaction, and comparable company models to estimate enterprise value and flag structural risks",
+          "Assessed unit economics, capital structure viability, and scalability profiles to support investment committee decisions on angel and VC-stage deals"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Investment Banking Intern",
+        "company": "Legal Pay",
+        "location": null,
+        "start": "Oct 2021",
+        "end": "Dec 2021",
+        "method": "date_regex+pipe_split",
+        "duration_months": 3,
+        "bullets": [
+          "Built LBO models to evaluate acquisition IRR and debt service coverage across leverage scenarios; designed financial forecasting tools to support capital raising for legal-fintech investments",
+          "Developed Excel/VBA automation and Tableau dashboards for financial reporting, improving cycle time by"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Fiserv | Software Development Engineer",
+        "company": "25%",
+        "location": null,
+        "start": "Oct 2019",
+        "end": "Aug 2020",
+        "method": "date_regex+title_dict",
+        "duration_months": 11,
+        "bullets": [
+          "Engineered high-throughput Python and SQL data pipelines for real-time transaction processing across 100+ clients — architecture directly applicable to low-latency quant and systematic data workflows",
+          "Improved data processing accuracy and throughput by 20%; designed automated validation modules to maintain integrity across large-scale financial datasets"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.8,
+      "total_months": 69,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA – Finance • Top 10% of 572 | Top 2% in Finance, Strategy & CSR",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Finance",
+        "institution": "INDIAN INSTITUTE OF MANAGEMENT, INDORE",
+        "year": "2020 - 2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Tech – Electronics & Communication Engineering • Top 3% of 140",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics & Communication Engineering",
+        "institution": "Madan Mohan Malaviya University of Technology",
+        "year": "2015 - 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "CFA Level III Candidate (Level I cleared – 90th percentile; Level II cleared) • NISM Certified Financial",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Analyst",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Bloomberg Market Concepts (BMC)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "CFI FMVA",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Morningstar Direct Certified",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Academic Distinction: Ranked Top 2% in Finance, Strategy, and CSR courses among 572 peers at IIM Indore",
+      "(Top 10% overall batch)",
+      "Finance Vertical Coordinator, IIM Indore: Managed budgeting, audits, and fund allocation for student-body",
+      "financial initiatives",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

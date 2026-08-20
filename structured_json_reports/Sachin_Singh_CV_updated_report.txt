@@ -1,0 +1,54 @@
+======================================================================
+FILE: Sachin_Singh_CV_updated_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'skills', 'summary']
+Overall conf.  : 0.8
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Sachin Singh  (conf 0.9, regex)
+  email     : None  (conf 0.0, regex)
+  phone     : +91 8882098870  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+VAPT and Application Security professional with 4+ years of experience in web application penetration testing, network penetration testing, vulnerability assessments, and security operations.
+
+SKILLS (24) — confidence 0.92
+----------------------------------------------------------------------
+API Security Testing, Burp Suite, Collaboration, Communication, Incident Management, Linux, Malware Analysis, Metasploit, Nessus, Nmap, OWASP Top 10, OWASP ZAP, Penetration Testing, Product Management, Project Management, Report Writing, SIEM, Sandboxing, Security Architecture, Stakeholder Management, Technical Writing, VirusTotal, Vulnerability Assessment, Wireshark
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.85
+Total experience: 3.9 years (47 months, 0 overlaps merged)
+----------------------------------------------------------------------
+  1. Cybersecurity Specialist @ Aguna @ None (Jan 2025 - May 2026) [conf 0.85, review=True]
+  2. Cybersecurity Analyst @ Alphatec @ None (July 2023 - Dec 2024) [conf 0.85, review=True]
+  3. None @ Penetration Tester @ Krishna Automation (July 2022 - June 2023) [conf 0.85, review=True]
+
+EDUCATION (2) — confidence 0.68
+----------------------------------------------------------------------
+  1. B.Tech — Bharatiya Vidyapeeth College of (None) [conf 0.8, review=False]
+  2. None — Air Force School Delhi NCR (None) [conf 0.55, review=True]
+
+CERTIFICATIONS (3) — confidence 0.6
+----------------------------------------------------------------------
+  1. CISSP(in-progress) — None (None) [conf 0.6]
+  2. Certified Ethical Hacker(CEH) — None (None) [conf 0.6]
+  3. Leadership Funnel - Global Academy — None (None) [conf 0.6]
+
+REVIEW QUEUE (10 flagged fields)
+----------------------------------------------------------------------
+  contact.email                       conf=0.0  reason=missing
+  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
+  education                           conf=0.68  reason=low_confidence
+  education.entries[1]                conf=0.55  reason=incomplete_fields
+  certifications                      conf=0.6  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields
+  certifications.items[1]             conf=0.6  reason=incomplete_fields
+  certifications.items[2]             conf=0.6  reason=incomplete_fields

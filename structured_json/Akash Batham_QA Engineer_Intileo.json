@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "source_file": "Akash Batham_QA Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-08-06T07:16:20.702244+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mohali Punjab",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "testwithakash@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91 9873513520",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "linkedin.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "• https://www.linkedin.com\n/in/akashqa\n\nworkflow.\n• Synchronized data with third-party websites, ensuring accurate updates and\nfunctionality.\n• Quickly adapted to emerging testing tools and methodologies as required.\n\nDynamic Senior Quality Analyst with a proven track record at Softprodigy System\nSolutions, excelling in manual and automation test strategies and team leadership.\nSpearheaded project improvements, enhancing testing efficiency by utilizing AI\ntools and implementing CI/CD pipelines. Adept at client communication and\nproblem-solving, driving successful project outcomes through collaboration and\ninnovation.",
+  "skills": {
+    "items": [
+      "Agile",
+      "CI/CD",
+      "Communication",
+      "Cursor",
+      "Playwright",
+      "PostgreSQL",
+      "Problem Solving",
+      "Reporting",
+      "Team Leadership",
+      "TypeScript"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile"
+      ],
+      "devops": [
+        "CI/CD"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Problem Solving",
+        "Reporting",
+        "Team Leadership"
+      ],
+      "dev_tool": [
+        "Cursor"
+      ],
+      "testing": [
+        "Playwright"
+      ],
+      "database": [
+        "PostgreSQL"
+      ],
+      "programming_language": [
+        "TypeScript"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Cursor AI→Cursor(100%), Postgres→PostgreSQL(100%), Team leadership→Team Leadership(100%), Continuous integration→CI/CD(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Quality Analyst",
+        "company": "Softprodigy System Solutions",
+        "location": null,
+        "start": "12/2023",
+        "end": "Current",
+        "method": "date_regex+dash_split",
+        "duration_months": 33,
+        "bullets": [
+          "Managed multiple projects simultaneously from creating test documents to assigning projects to team members.",
+          "Facilitated active client communication to ensure alignment with project objectives.",
+          "Developed testing documents to standardize quality assurance processes.",
+          "Utilized AI tools such as Cursor AI and Antigravity AI to improve testing accuracy and efficiency.",
+          "Led a team of 5 members, overseeing project progress and achieving team goals.",
+          "Conducted root cause analysis on defects, recommending corrective actions as needed.",
+          "Working with playwright typescript for automating test cases, creating repos on Github, created CI/CD pipeline for auto test.",
+          "Co-ordinated with cross-functional teams to implement process improvements and enhance efficiency."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Test Engineer",
+        "company": "Tech Mahindra",
+        "location": null,
+        "start": "01/2022",
+        "end": "12/2023",
+        "method": "date_regex+dash_split",
+        "duration_months": 24,
+        "bullets": [
+          "Testing projects like Offers, Orders, Credits, Shop, Inventory management, Ads, Checkout.",
+          "Used API to create & to check the final format of Ad and helped engineers to come across launch blocking issues.",
+          "Testing compatibility of the product with E-commerce project and third-party websites like Shopify.",
+          "Assisted in training and mentoring of junior test engineers in best practices and techniques."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Test Engineer",
+        "company": "Lodestone Software Services",
+        "location": null,
+        "start": "09/2020",
+        "end": "01/2022",
+        "method": "date_regex+dash_split",
+        "duration_months": 17,
+        "bullets": [
+          "Managed project from initiation, uploading and updating products through various methods.",
+          "Developed comprehensive test plan to integrate new features into project ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.0,
+      "total_months": 72,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B. Tech:",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    }
+  ]
+}

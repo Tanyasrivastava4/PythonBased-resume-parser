@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "source_file": "Akash Resume - Developer_segmented.txt",
+    "generated_at": "2026-08-06T07:16:20.727225+00:00",
+    "sections_found": [
+      "education",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Akash Pundir",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "akashxwork@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91 70887 76965",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "Socket.IO",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Axios",
+      "CSS3",
+      "Express.js",
+      "FlexBox",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "JavaScript",
+      "MongoDB",
+      "React",
+      "Redux",
+      "Responsive Web Design",
+      "Tailwind CSS",
+      "VS Code",
+      "Vite"
+    ],
+    "by_category": {
+      "web_framework": [
+        "Axios",
+        "CSS3",
+        "Express.js",
+        "FlexBox",
+        "HTML5",
+        "React",
+        "Redux",
+        "Responsive Web Design",
+        "Tailwind CSS"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Vite"
+      ],
+      "programming_language": [
+        "JavaScript"
+      ],
+      "database": [
+        "MongoDB"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(React Js→React(100%), Redux Toolkit→Redux(100%), Responsive Design→Responsive Web Design(100%), Flexbox→FlexBox(100%))"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BCA CGPA : 8.43",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "IFTM University Moradbad",
+        "year": null,
+        "gpa": "8.43",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

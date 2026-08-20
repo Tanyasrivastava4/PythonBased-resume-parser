@@ -1,0 +1,64 @@
+======================================================================
+FILE: Aniket cv (2) (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+COMAPANY                    : Softenger india Pvt Ltd since 01 May 2023 to 03 Nov 2025
+DESIGNATION                : Network security Engineer
+CLIENT                             : RBI Data center Nagpur
+DATE OF JOINING         :01 May 2023
+TOTAL EXPERIENCE      : 2-year 5 Month
+LOCATION              ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.81
+Needs review   : True
+Total exp      : 5.2 years (62 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : DESIGNATION                : Network security Engineer
+  Company      : COMAPANY                    : Softenger india Pvt Ltd since
+  Location     : None
+  Start - End  : 01 May 2023 - 03 Nov 2025
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : None
+  Company      : TOTAL EXPERIENCE      : 2-year 5 Month
+  Location     : None
+  Start - End  : 16 Aug 2022 - 30 April 2023
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : TOTAL EXPERIENCE      :  8 Month
+  Location     : None
+  Start - End  : 01 Jan 2022 - 30sep 2022
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : None
+  Company      : TOTAL EXPERIENCE      : 9 Month
+  Location     : None
+  Start - End  : 23 Oct 2017 - 20 Jan 2019
+  Duration     : 15 months
+  Bullets      : 1
+    • TOTAL EXPERIENCE      : 1 year 3 Month
+  Sub-sections : ['LOCATION                      : Nagpur']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

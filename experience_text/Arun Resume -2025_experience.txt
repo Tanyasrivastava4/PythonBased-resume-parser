@@ -1,0 +1,103 @@
+======================================================================
+FILE: Arun Resume -2025_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Period	Company	Designation
+July 2013 to till Date	Club Mahindra	Collection and  Credit Management (Senior Manager) Joined as off Roll collection Executive - Current Role Senior Manager .
+July 2013 to till Date	Club Mahindra	Collection and  Credit Management (Senior Manager) Joined as off Roll collec...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 8
+Confidence     : 0.81
+Needs review   : True
+Total exp      : 18.1 years (217 months, 5 overlapping periods merged)
+
+Entry 1
+  Role         : Club Mahindra	Collection and  Credit Management  Joined as off Roll collection Executive - Current Role Senior Manager .
+  Company      : Period	Company	Designation
+  Location     : None
+  Start - End  : July 2013 - till Date
+  Duration     : 158 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Club Mahindra	Collection and  Credit Management  Joined as off Roll collection Executive
+  Company      : Current Role Senior Manager .
+  Location     : None
+  Start - End  : July 2013 - till Date
+  Duration     : 158 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : First Source Solution Pvt Ltd	Team Leader
+  Location     : None
+  Start - End  : July 2012 - June 2013
+  Duration     : 12 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 4
+  Role         : None
+  Company      : First Source Solution Pvt Ltd	Team Leader
+  Location     : None
+  Start - End  : July 2012 - June 2013
+  Duration     : 12 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 5
+  Role         : First Source Solution Pvt Ltd	Customer Care Service Executive
+  Company      : None
+  Location     : None
+  Start - End  : Dec 2009 - July 2012
+  Duration     : 32 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : First Source Solution Pvt Ltd	Customer Care Service Executive
+  Company      : None
+  Location     : None
+  Start - End  : Dec 2009 - July 2012
+  Duration     : 32 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 7
+  Role         : First Source Solution Pvt Ltd	Customer Care Service Executive
+  Company      : None
+  Location     : None
+  Start - End  : Dec 2009 - July 2012
+  Duration     : 32 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 8
+  Role         : Adventity  BPO	Customer Care Service  Executive
+  Company      : None
+  Location     : None
+  Start - End  : Aug 2008 - Nov 2009
+  Duration     : 16 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True

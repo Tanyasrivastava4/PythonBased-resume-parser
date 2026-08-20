@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "source_file": "Abhinav Kumar_.Net Core Developer_Intileo_segmented.txt",
+    "generated_at": "2026-08-06T07:16:20.010559+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Abhinav Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "abhij2906@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7905412360",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/abhinav-mishra-44b46a1ba",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "ASP.NET",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Full Stack Software Developer with 4+ years of experience working as an Individual Contributor on\nenterprise and manufacturing domain applications. Strong expertise in ASP.NET Core, C#,\nAngular, and SQL Server with hands-on experience in REST API development, database design,\nand end-to-end project delivery including requirement analysis, development, testing, and\ndeployment.",
+  "skills": {
+    "items": [
+      "ASP.NET",
+      "Angular",
+      "Azure App Service",
+      "Azure SQL",
+      "C#",
+      "CSS3",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "Joins",
+      "MSSQL",
+      "Performance Optimization",
+      "Postman",
+      "Visual Studio",
+      "Web API",
+      "jQuery"
+    ],
+    "by_category": {
+      "web_framework": [
+        "ASP.NET",
+        "Angular",
+        "CSS3",
+        "HTML5",
+        "Web API",
+        "jQuery"
+      ],
+      "cloud_infra": [
+        "Azure App Service"
+      ],
+      "database": [
+        "Azure SQL",
+        "Joins",
+        "MSSQL"
+      ],
+      "programming_language": [
+        "C#",
+        "JavaScript"
+      ],
+      "dev_tool": [
+        "Git",
+        "Performance Optimization",
+        "Postman",
+        "Visual Studio"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(ASP.NET MVC→ASP.NET(100%), HTML→HTML5(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Executive Software Development",
+        "company": "Bry-Air Asia Pvt Ltd",
+        "location": null,
+        "start": "May 2023",
+        "end": "Oct 2025",
+        "method": "date_regex+dash_split",
+        "duration_months": 30,
+        "bullets": [
+          "Worked as a sole developer and individual contributor for internal manufacturing applications.",
+          "Designed and developed REST APIs using ASP.NET Core and C# for industrial calculation systems.",
+          "Developed Angular-based frontend modules including forms, validations, and result visualization.",
+          "Designed and maintained SQL Server databases including complex joins and subqueries.",
+          "Handled end-to-end development lifecycle: requirement gathering, development, testing, deployment, and support."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Comvision India Pvt Ltd",
+        "location": null,
+        "start": "Aug 2022",
+        "end": "May 2023",
+        "method": "date_regex+dash_split",
+        "duration_months": 10,
+        "bullets": [
+          "Worked on toll management web applications for Bahrain and Saudi Arabia.",
+          "Developed backend modules using ASP.NET Core and SQL Server.",
+          "Implemented role-based access control and transaction management features.",
+          "Collaborated with cross-functional teams to deliver production-ready solutions."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "ASP.NET Software Developer",
+        "company": "Matrix Processing House",
+        "location": null,
+        "start": "Jan 2021",
+        "end": "Aug 2022",
+        "method": "date_regex+dash_split",
+        "duration_months": 20,
+        "bullets": [
+          "Developed procurement and gate entry pass applications using ASP.NET Core.",
+          "Designed SQL Server database schemas and optimized queries.",
+          "Worked directly with clients for requirement understanding, testing, and delivery."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.8,
+      "total_months": 58,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech – Tulas Institute, Dehradun (2020)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Tulas Institute",
+        "institution": "Tulas Institute",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

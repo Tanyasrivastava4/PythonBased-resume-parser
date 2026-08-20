@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "source_file": "Abhishek.sharma cv_segmented.txt",
+    "generated_at": "2026-08-06T07:16:20.351856+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Abhishek Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "-wwabhishek.sharma96@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7827292966",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To be part of an industrialization team, sharing its Vision, Mission and Value. To grow and\nprosper with the company which encourage new skill acquisition and personal development\nSummary\nDiploma in Electrical Engineering\n• Excited to explore new technology and approaches.\n• Possess the ability to take on new tasks and responsibilities.\n• Open to developing new ideas that can advance technology.\n• Proven track record of providing great results through effective project\nmanagement, team motivation, and productive employees.\n• Collaborates with clients to identify needs and deliver superior service.",
+  "skills": {
+    "items": [
+      "Equipment Testing",
+      "Information Collection and Analysis",
+      "Operation Monitoring",
+      "Performance Testing",
+      "Process Improvement",
+      "Product Troubleshooting",
+      "Project Management",
+      "Quality Control",
+      "Quality Management System",
+      "Regulatory Compliance",
+      "Report Writing",
+      "Risk Management"
+    ],
+    "by_category": {
+      "engineering": [
+        "Equipment Testing",
+        "Product Troubleshooting",
+        "Quality Control"
+      ],
+      "soft_skill": [
+        "Information Collection and Analysis"
+      ],
+      "operations": [
+        "Operation Monitoring",
+        "Process Improvement",
+        "Quality Management System"
+      ],
+      "testing": [
+        "Performance Testing"
+      ],
+      "project_mgmt": [
+        "Project Management",
+        "Risk Management"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "content": [
+        "Report Writing"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Report writing→Report Writing(100%), Operation monitoring→Operation Monitoring(100%), Risk assessment→Risk Management(100%), Project management→Project Management(100%), Equipment testing→Equipment Testing(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Quality Engineer",
+        "company": "Motherson sumi system limited",
+        "location": "Noida, India",
+        "start": "Apr 2018",
+        "end": "Current",
+        "method": "date_regex+title_dict",
+        "duration_months": 101,
+        "bullets": [
+          "Responsible for creating and comprehending papers such as PPAP, APQP, FDPR,IATF and 8D reports and Preliminary reports.",
+          "Being aware of 7QC, 5S, Process Audit, Line Release Audit, and researching Customer Specific Requirements & Its Horizontal Deployment.",
+          "Managing the workforce and offering them assistance with their problems.",
+          "Closely monitored activities to verify that workflows and procedures met safety standards.",
+          "Performed in-depth quality evaluations to see if products fit the high standards of the company.",
+          "Enhanced operational effectiveness via careful observation of team deliverables and the elimination of unproductive procedures.",
+          "Kept track of client reviews and feedback to uncover product defects and enhancements.",
+          "Studied manufacturing from engineering view point to identify problems and potential improvements"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.4,
+      "total_months": 101,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Diploma of Higher Education, Electrical Engineering 2017",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Higher Education",
+        "institution": "IIMT Group of Institute",
+        "year": "2017",
+        "gpa": "60.40%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th, Science 2015",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Karl Huber School",
+        "year": "2015",
+        "gpa": "58.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "10th, 2012",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "City Public School",
+        "year": "2012",
+        "gpa": "70.12%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

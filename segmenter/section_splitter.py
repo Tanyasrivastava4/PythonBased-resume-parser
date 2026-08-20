@@ -1,95 +1,5 @@
-r"""
-Section Splitter — Layer 1 (Fixed Production Version, revision 22)
-
-CHANGELOG (rev 22):
-- _is_bare_contact_line() no longer misclassifies numeric date ranges
-  ("2022-04-03 - 2023-07-15") as bare phone-number lines. Confirmed on a
-  real resume (Rohit Shivnath Zimbar): four of five job date ranges
-  (every one using a plain ASCII hyphen) were silently deferred out of
-  the "experience" section entirely and dumped into "header", because
-  _BARE_PHONE_LINE's character class has no way to distinguish a phone
-  number from a same-shaped date range. Checking _JOB_DATE_RANGE first
-  and bailing out on a real match fixes this.
-
-CHANGELOG (rev 21):
-- _JOB_DATE_RANGE now recognizes day-first date ranges ("04 May, 2023 –
-  08 Dec 2025"), mirroring the same fix applied to experience.py's
-  DATE_RANGE_RE. Confirmed on a real resume (Sachin Chauhan).
-
-CHANGELOG (rev 20):
-- _JOB_DATE_RANGE now recognizes month-name date ranges ("Oct 2023 –
-  Nov 2025"), not just numeric formats. This directly fixes the
-  summary->experience promotion check for resumes whose real job
-  history sits under a heading that also matches "summary" (e.g. a
-  second "PROFESSIONAL SUMMARY" heading actually introducing detailed
-  job entries) when those job entries use month names rather than
-  numeric dates. Confirmed on a real resume (Sachin Chitranshi).
-
-CHANGELOG (rev 19):
-- Widened the "skills" pattern to cover a broader alias list: "technical
-  expertise", "technology stack", "technology summary", "knowledge
-  summary", "knowledge base", "technical snapshot", "skill matrix".
-- Added tech-stack vs spoken-language disambiguation for the "languages"
-  label. Confirmed on a real resume (Sachin Chauhan): a skills-matrix
-  table used "Languages" as a row label ("Languages: PHP, JavaScript"),
-  which correctly matched the real "languages" section pattern by its
-  own rules, but wrongly split the skills matrix into a separate
-  "languages" section and dragged every following row into it. Now,
-  before committing a "languages" match, we check what follows the
-  heading -- tech-stack terms (php, react, mysql...) suppress the split
-  so the line falls through and gets absorbed into whatever section
-  (usually "skills") is already open; recognizable spoken-language names
-  (English, Hindi...) still split normally. See
-  _looks_like_tech_stack_content / _looks_like_spoken_language_content.
-
-CHANGELOG (rev 18):
-- Added a new "early_career" section label for condensed one-line-per-job
-  recap tables (e.g. "LAST 5 CAREER TIMELINE" followed by lines like
-  "Oct-2023 - Nov-2025 | Manager | KPMG"), kept distinct from the main
-  "experience" section so detailed bullets and condensed recap entries
-  don't get merged into one messy section.
-- Generalized unknown-heading resolution: previously _resolve_unknown_heading()
-  only ran when deciding whether to absorb a heading-scored line into an
-  already-open list-type section. A heading transitioning FROM a
-  non-list section (e.g. "summary") straight into "unknown" never got a
-  chance to resolve at all -- confirmed on a real resume (Sachin
-  Chitranshi) where this was exactly why "LAST 5 CAREER TIMELINE" landed
-  as a bare "unknown" section instead of a real label. Resolution now
-  runs at the point "unknown" is first assigned, not just later at the
-  absorption-check.
-
-CHANGELOG (rev 17):
-- Added _is_letter_spaced_heading() / _resolve_letter_spaced_heading() to
-  handle resume templates whose headings extract with a literal space
-  between every letter (e.g. "P R O F E S S I O N A L S U M M A R Y"),
-  which defeats both SECTION_PATTERNS (word-boundary regexes) and
-  score_heading_line (word-count cutoff) simultaneously. Confirmed on a
-  real resume (Ritika Jain) where this collapsed the entire document
-  into one "header" section. See _resolve_letter_spaced_heading's
-  docstring for the matching approach.
-
-CHANGELOG (rev 16):
-- certifications/achievements patterns widened to tolerate a trailing
-  parenthetical qualifier (e.g. "Certifications (Technical + Management)")
-  and, for achievements, a leading qualifier word (e.g. "KEY ACHIEVEMENTS"),
-  matching the prefix support "skills" already had.
-- Added _resolve_unknown_heading() + updated the _LIST_SECTION_LABELS
-  absorption check in split_into_sections(). Previously ANY line scoring
-  "unknown" inside a list-type section (skills/education/experience/etc.)
-  was silently absorbed into that section, with no way to tell a harmless
-  sub-label ("Programming Languages:" inside a skills list) apart from a
-  genuine new section heading whose exact phrasing wasn't in
-  SECTION_PATTERNS (e.g. "Certifications (Technical + Management)" landing
-  inside "experience", "KEY ACHIEVEMENTS" landing inside "strengths" --
-  both confirmed on real resumes, Sachin Singh and Saheb Jaggi). Now, before
-  absorbing, we try to resolve the line to a real label via the same
-  keyword set score_heading_line already used to flag it as heading-shaped
-  in the first place. Only promotes when the line looks like a bare heading
-  (nothing meaningful after a trailing colon) so a genuine in-list bullet
-  like "Certifications: AWS, Azure" is NOT mistaken for a new section.
-"""
-
 import re
+import difflib
 from dataclasses import dataclass
 
 
@@ -105,14 +15,6 @@ _SKILL_PREFIX_WORDS = (
     r"(technical|core|key|professional|functional|domain|business|"
     r"soft|hard|tech|it|general|primary|specialized|relevant)"
 )
-# Core keywords widened to also cover "expertise" (e.g. "technical
-# expertise"), and the optional suffix widened to also cover "matrix"
-# (e.g. "skill matrix") alongside the existing "sets?" ("skill set").
-# Standalone phrases that don't have "skill"/"competenc*"/"expertise" as
-# their own head noun at all -- "technology stack", "technology summary",
-# "knowledge summary", "knowledge base", "technical snapshot" -- are
-# added as separate top-level alternatives instead, since they don't fit
-# the prefix+core structure.
 _SKILLS_PATTERN = re.compile(
     rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise)(?:\s+(sets?|matrix))?"
     rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
@@ -135,6 +37,34 @@ _PROJECTS_PATTERN = re.compile(
     re.IGNORECASE
 )
 
+# A resume heading can carry a trailing date-range qualifier right on the
+# same line, e.g. "PAST EXPERIENCE FROM 2005 TO 2015", "EXPERIENCE
+# (2015-2020)", "WORK HISTORY 2010-2015" -- the base experience pattern
+# (built like every other section from _build_section_pattern) only
+# allowed an optional "& word"/"and word" suffix, so any trailing date
+# range broke the match completely, and the heading fell through as
+# ordinary body text. Confirmed on a real resume (Mrityunjay Prasad Roy):
+# "PAST EXPERIENCE FROM 2005 TO 2015" -- a genuine section heading
+# introducing a list of past employers -- stayed absorbed inside "header"
+# for exactly this reason. Two fixes bundled here: (1) "past" and "prior"
+# added to the allowed prefix words (previously only work/industry/
+# relevant/professional/previous), (2) an optional trailing date-range
+# tail appended to the whole pattern.
+_EXPERIENCE_DATE_RANGE_TAIL = (
+    r"(?:\s*[:\-\u2013\u2014]?\s*\(?\s*(?:from\s+)?\d{4}\s*"
+    r"(?:to|-|\u2013|\u2014)\s*\d{4}\s*\)?)?"
+)
+_EXPERIENCE_PATTERN = re.compile(
+    rf"^(?:((work|industry|relevant|professional|previous|past|prior)\s*(and\s*)?){{0,2}}experience"
+    rf"|employment(\s+(history|details|records?|background))?"
+    rf"|professional\s*background"
+    rf"|career\s*history|work\s*history|internships?"
+    rf"|corporate\s+success|career\s+journey|professional\s+journey"
+    rf"|career\s+chronology|employment\s+timeline)"
+    rf"{_EXPERIENCE_DATE_RANGE_TAIL}$",
+    re.IGNORECASE
+)
+
 
 SECTION_PATTERNS = {
     "summary": _build_section_pattern([
@@ -142,13 +72,7 @@ SECTION_PATTERNS = {
         r"objective", r"profile",
         r"about\s+me", r"career\s+objective", r"personal\s+statement",
     ]),
-    "experience": _build_section_pattern([
-        r"((work|industry|relevant|professional|previous)\s*(and\s*)?){0,2}experience",
-        r"employment(\s+(history|details|records?|background))?", r"professional\s*background",
-        r"career\s*history", r"work\s*history", r"internships?",
-        r"corporate\s+success", r"career\s+journey", r"professional\s+journey",
-        r"career\s+chronology", r"employment\s+timeline",
-    ]),
+    "experience": _EXPERIENCE_PATTERN,
     "education": _build_section_pattern([
         r"education(al)?(\s+background)?",
         r"academics?(\s+background)?",
@@ -158,18 +82,11 @@ SECTION_PATTERNS = {
     ]),
     "skills": _SKILLS_PATTERN,
     "projects": _PROJECTS_PATTERN,
-    # Widened to tolerate a trailing parenthetical qualifier, e.g.
-    # "Certifications (Technical + Management)" (confirmed on Sachin
-    # Singh's resume) which the old pattern rejected outright since it
-    # only allowed an "& word" / "and word" suffix, not a parenthetical.
     "certifications": _build_section_pattern([
         r"certif(ication|icate)s?(\s*\([^)]*\))?", r"licen[sc]es?(\s*\([^)]*\))?",
         r"accreditations?", r"credentials?", r"professional\s+certifications?",
         r"trainings?",
     ]),
-    # Widened to tolerate a leading qualifier word, e.g. "KEY ACHIEVEMENTS"
-    # (confirmed on Saheb Jaggi's resume) -- "skills" already supported an
-    # analogous prefix group; achievements never got the same treatment.
     "achievements": _build_section_pattern([
         r"(key|major|notable|special|top)\s+achievements?",
         r"achievements?", r"awards?", r"honou?rs?", r"recognitions?",
@@ -201,21 +118,9 @@ SECTION_PATTERNS = {
         r"^roles?\s+(and|&)?\s*responsibilit(y|ies)\s*(and|&)?$",
         re.IGNORECASE
     ),
-    # Condensed "here's my last N jobs in one line each" recap, distinct
-    # from the full "experience" section's detailed per-job bullets.
-    # Confirmed on a real resume (Sachin Chitranshi): "LAST 5 CAREER
-    # TIMELINE" headed a block of one-line entries like "Oct-2023 -
-    # Nov-2025 | Manager | KPMG" that restate the same jobs covered in
-    # full detail later in the document. Kept as its own label (not
-    # folded into "experience") so the detailed section isn't polluted
-    # with duplicate condensed entries -- the two are merged only at the
-    # total-years-of-experience calculation step (see experience.py),
-    # where the interval-merge logic already collapses overlapping/
-    # identical date ranges.
     "early_career": re.compile(
         r"^(?:early\s+career(s)?"
         r"|last\s+\d+\s+(years?\s+)?career\s+timeline"
-        r"|career\s+timeline"
         r"|career\s+synopsis"
         r"|career\s+snapshot"
         r"|career\s+at\s+a\s+glance"
@@ -246,18 +151,9 @@ _SECTION_KEYWORDS = [
 ]
 
 
-# Maps a keyword substring (same vocabulary as _SECTION_KEYWORDS, which is
-# what caused score_heading_line to flag a line as heading-shaped in the
-# first place) to the actual section label it corresponds to. Used by
-# _resolve_unknown_heading() to turn a generic "unknown" classification
-# into a real label instead of the line being blindly absorbed into
-# whatever list-type section happens to be open.
 _KEYWORD_TO_LABEL = {
     "summary": "summary", "objective": "summary",
     "skill": "skills", "expertise": "skills", "competenc": "skills", "technolog": "skills",
-    # Checked BEFORE the generic "career" -> "experience" mapping below,
-    # since dict iteration order determines which mapping wins first on
-    # a substring match, and these are more specific than a bare "career".
     "career timeline": "early_career", "career synopsis": "early_career",
     "career snapshot": "early_career", "career at a glance": "early_career",
     "early career": "early_career", "timeline": "early_career",
@@ -345,22 +241,6 @@ _BARE_PHONE_LINE = re.compile(
 
 
 def _is_bare_contact_line(line: str) -> bool:
-    """
-    Confirmed on a real resume (Rohit Shivnath Zimbar): _BARE_PHONE_LINE's
-    character class ([\\d\\-\\s()], bookended by digits, min length 8) has
-    no way to tell a phone number apart from a numeric date range --
-    "2022-04-03 - 2023-07-15" is entirely digits/hyphens/spaces and well
-    over 8 characters, so it matched. Four of his five job date ranges
-    (every one written with a plain ASCII hyphen rather than an en-dash)
-    got misclassified as bare contact info and silently deferred out of
-    the "experience" section entirely, landing at the top of "header"
-    instead -- not a parsing-quality issue, the date lines were deleted
-    from the section that needed them. _JOB_DATE_RANGE already recognizes
-    this exact numeric YYYY-MM-DD shape, so checking it first and bailing
-    out on a real date-range match fixes this without narrowing what
-    _BARE_PHONE_LINE itself is allowed to match (still needed for actual
-    phone numbers that happen to be dash-grouped).
-    """
     stripped = line.strip()
     if not stripped:
         return False
@@ -376,33 +256,24 @@ _JOB_MONTH_NAMES = (
     r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 )
 
-# Day-first format: "04 May, 2023", "08 Dec 2025" -- see the matching fix
-# in experience.py's DATE_RANGE_RE (Sachin Chauhan's resume: his current
-# job's date range used this shape on both ends, and nothing in the old
-# alternation set -- "Month YYYY" or numeric-only -- could match it).
-# Mirrored here so _looks_like_job_entry() recognizes this shape too.
 _JOB_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.]*{_JOB_MONTH_NAMES}[\s,.]*\d{{4}}"
 
-# Widened to also recognize month-name dates ("Oct 2023 – Nov 2025"), not
-# just numeric formats. Confirmed on a real resume (Sachin Chitranshi):
-# a "PROFESSIONAL SUMMARY" heading sits directly above "KPMG (Oct 2023 –
-# Nov 2025)" -- the detailed job history for all 5 roles, not an actual
-# summary. The summary->experience promotion check further down (see
-# split_into_sections) already exists for exactly this shape of mistake
-# (confirmed working on Aarti Suranje's resume), but it depends entirely
-# on _looks_like_job_entry() recognizing the date range on the next
-# line -- and a month-name-only date range like "Oct 2023 – Nov 2025"
-# never matched here, so the promotion silently never fired and this
-# entire job history (KPMG, HCL, EY, Sailfin, MobiQuest -- ~100 lines of
-# real experience) stayed mislabeled as "summary".
 _JOB_DATE_RANGE = re.compile(
+    # NOTE: the separator group below originally only accepted a literal
+    # dash (-/–/—) between the two dates, or a lookahead for "Present/
+    # Current/Now/Till". That silently failed to match the extremely
+    # common "Month YYYY to Month YYYY" format -- confirmed on a real
+    # resume (Milan Mohite) where every single job entry is written as
+    # "(September 2022 to Present)" -- so _looks_like_job_entry and
+    # everything downstream of it (including _looks_like_company_entry
+    # used by the projects->experience switch-back below) never
+    # recognized these as date ranges at all. Added `\bto\b` as an
+    # accepted separator alongside the dash forms; this only WIDENS what
+    # matches, so it can't break any range that already matched before.
     rf"(?:,\s*)?(?:{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
     rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
     rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))"
-    # Same bare-space-before-open-ended-marker widening as experience.py's
-    # DATE_RANGE_RE (see the "till date" fix from earlier), applied here
-    # too for consistency.
-    rf"\s*(?:[-–—\u2013\u2014]+\s*|(?=(?:Current|Present|Now|Till)\b))"
+    rf"\s*(?:[-–—\u2013\u2014]+\s*|\bto\b\s*|(?=(?:Current|Present|Now|Till)\b))"
     rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|current|present|now|"
     rf"{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
     rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
@@ -427,8 +298,6 @@ _FUZZY_HEADING_KEYWORDS = {
     "strengths": "strengths",
 }
 
-import difflib
-
 
 def _fuzzy_heading_label(candidate: str):
     word = candidate.strip().lower()
@@ -447,6 +316,48 @@ def _looks_like_job_entry(line: str) -> bool:
     if not stripped or len(stripped) > 120:
         return False
     return bool(_JOB_DATE_RANGE.search(stripped))
+
+
+# --- "switch back" out of a projects run into experience --------------
+#
+# _PROJECTS_PATTERN matches things like "Project#1" / "Project Title...",
+# so the moment one of those appears right after a job line inside an
+# experience section, current_label flips experience -> projects and
+# NOTHING ever flips it back -- every following company block (e.g.
+# "Capgemini...", "Price Waterhouse Coopers...") just gets swept in as
+# plain body text of that one never-ending "projects" run.
+#
+# The fix has two parts:
+#   1. _looks_like_company_entry() below recognizes a "Company Name
+#      (date range)" line -- the shape of a new employer block -- while
+#      explicitly excluding lines that start with project-ish label
+#      words (Duration/Project/Role/...), so it can't mistake a project
+#      metadata line for a company line.
+#   2. Where it's used in split_into_sections(), the switch back to
+#      "experience" keeps the company+date line itself as inline_content
+#      instead of discarding it as a bare heading -- a first attempt at
+#      this fix flipped the label correctly but still discarded the
+#      line's text (correct for a real heading like "WORK EXPERIENCE:",
+#      which has no content of its own -- wrong here, since the
+#      company+date line IS the content), which produced a zero-length
+#      section that then got silently dropped from the output.
+_NON_COMPANY_LINE_PREFIXES = re.compile(
+    r"^(duration|project|role|project\s*#|project\s+title|project\s+description)\b",
+    re.IGNORECASE
+)
+
+
+def _looks_like_company_entry(line: str) -> bool:
+    stripped = line.strip()
+    if not stripped or len(stripped) > 150:
+        return False
+    if _NON_COMPANY_LINE_PREFIXES.match(stripped):
+        return False
+    match = _JOB_DATE_RANGE.search(stripped)
+    if not match:
+        return False
+    prefix = stripped[:match.start()].strip(" \t:-")
+    return len(prefix.split()) >= 2   # a company name is real text, not a label word
 
 
 def _next_nonblank_line(lines: list, start_index: int) -> str:
@@ -563,21 +474,6 @@ _LETTER_SPACED_TOKEN_RE = re.compile(r"^[A-Za-z0-9&]$")
 
 
 def _is_letter_spaced_heading(line: str) -> bool:
-    """
-    Some resume templates (Canva-style / heavily tracked heading fonts)
-    render section headings with a literal space inserted between every
-    letter after PDF text extraction, e.g. "P R O F E S S I O N A L
-    S U M M A R Y". Word boundaries are lost in the process -- there's no
-    double-space between "PROFESSIONAL" and "SUMMARY" either, both are
-    single spaces, identical to the inter-letter spacing -- so none of
-    the normal SECTION_PATTERNS regexes (which expect whole words) can
-    ever match. score_heading_line can't rescue it either: word_count
-    balloons past its own >8-word cutoff since every letter counts as
-    its own "word" (e.g. "EDUCATION" alone becomes word_count == 9).
-    Confirmed on a real resume (Ritika Jain): every heading in the
-    document used this style and the entire file collapsed into one
-    "header" section as a result -- not a partial miss, a total one.
-    """
     tokens = line.split()
     if len(tokens) < 4:
         return False
@@ -586,15 +482,6 @@ def _is_letter_spaced_heading(line: str) -> bool:
 
 
 def _resolve_letter_spaced_heading(line: str):
-    """
-    Collapses a letter-spaced heading candidate back into one solid
-    string and matches it against the same keyword vocabulary used
-    elsewhere (_KEYWORD_TO_LABEL), rather than trying to reconstruct
-    word boundaries -- which isn't recoverable from spacing alone, since
-    inter-word and inter-letter spacing are identical in the source.
-    "P R O F E S S I O N A L S U M M A R Y" -> "professionalsummary",
-    which contains "summary" -> resolves to the "summary" label.
-    """
     if not _is_letter_spaced_heading(line):
         return None
     collapsed = "".join(line.split()).lower()
@@ -641,28 +528,24 @@ def _looks_like_spoken_language_content(text: str) -> bool:
 
 def _resolve_unknown_heading(stripped: str):
     """
-    A line inside a list-type section that scored 'unknown' via
-    score_heading_line is ambiguous: it could be a harmless sub-label
-    (e.g. "Programming Languages:" inside a skills list, followed on the
-    same line by the actual list of languages) or a genuine new section
-    whose heading just didn't match any SECTION_PATTERNS regex (e.g.
-    "Certifications (Technical + Management)" landing inside "experience",
-    "KEY ACHIEVEMENTS" landing inside "strengths" -- both confirmed on
-    real resumes). Both look identical to the caller: label == "unknown".
-
-    We re-derive a real label here from the same keyword vocabulary that
-    caused score_heading_line to score this line highly in the first
-    place (_SECTION_KEYWORDS / _contains_section_keyword), instead of
-    silently absorbing it either way.
-
-    Guard: only promote when the line looks like a BARE heading. If there
-    is real content after a trailing colon (e.g. "Certifications: AWS,
-    Azure" as one bullet-style line among others in a skills list), this
-    is a sub-label with inline content, not a new section -- so we leave
-    it alone and let it be absorbed as before.
+    Guard: only promote a SHORT candidate (<=4 words) via this fuzzy,
+    substring-based keyword match. A genuine section heading reached
+    through this fallback is almost always compact ("Certifications",
+    "Last 5 Career Timeline" -- both <=4 words). A longer, descriptive
+    subheading that merely CONTAINS a keyword as one word among several
+    is a different thing -- it's still describing the same ongoing topic
+    as its neighboring, correctly-absorbed subheadings, not introducing
+    a real new section. Confirmed on a real resume (Mrityunjay Prasad
+    Roy): "TRADE MARK & OTHER LICENSES" is one of several all-caps
+    subheadings inside a long "Areas of Expertise" list -- it happened to
+    contain "LICENSES" and got incorrectly promoted into its own
+    "certifications" section without this guard.
     """
     colon_idx = stripped.find(":")
     if colon_idx != -1 and stripped[colon_idx + 1:].strip():
+        return None
+
+    if len(stripped.split()) > 4:
         return None
 
     lower = stripped.lower()
@@ -670,6 +553,50 @@ def _resolve_unknown_heading(stripped: str):
         if keyword in lower:
             return mapped_label
     return None
+
+
+def _find_embedded_heading_split(line: str):
+    """
+    Catches a section heading glued onto the END of a content line with
+    ZERO line break in the source document -- confirmed via raw XML on a
+    real resume (Milan Mohite .docx): "...with 56%" and "Work
+    Experience:" are literally the same <w:p> paragraph, distinguished
+    in Word only by the "Work Experience:" run being bold+underlined --
+    a formatting signal that's gone once we're working with plain text.
+    Every other heuristic in this file is line-based and has nothing to
+    split on here, since there's no line boundary at all to find, not
+    even a lost one.
+
+    This is a LAST-RESORT fallback: it's only ever tried after every
+    other detector above has already returned None for the line. It
+    tries the last 1-4 words of the line as a heading candidate, longest
+    match first (so "Work Experience:" is preferred over just
+    "Experience:"), and only accepts a candidate if every word in it is
+    capitalized -- genuine embedded headings in these templates are
+    always Title-Case/ALL-CAPS, and this guard is what stops it from
+    false-triggering on ordinary lowercase text that happens to contain
+    a section keyword (e.g. "...fluent in English language" must NOT
+    become a "languages" heading split, since "language" is lowercase
+    there). It only returns a result when there's real content left
+    over as a prefix, so a line that's just the heading by itself is
+    left alone (detect_section_label already handles that case).
+    """
+    stripped = line.strip()
+    words = stripped.split()
+    if len(words) < 2:
+        return None, None, None
+    max_n = min(4, len(words) - 1)
+    for n in range(max_n, 0, -1):
+        tail_words = words[-n:]
+        if not all(w[0].isupper() for w in tail_words if w[:1].isalpha()):
+            continue
+        candidate_clean = _clean_heading_candidate(" ".join(tail_words))
+        for label, pattern in SECTION_PATTERNS.items():
+            if pattern.match(candidate_clean):
+                prefix = " ".join(words[:-n]).strip()
+                if prefix:
+                    return prefix, " ".join(tail_words), label
+    return None, None, None
 
 
 def split_into_sections(text: str) -> list:
@@ -692,14 +619,6 @@ def split_into_sections(text: str) -> list:
         label, confidence = detect_section_label(stripped, prev_lines=lines[:i])
         inline_content = None
 
-        # A heading can legitimately match on its own but still be the FIRST
-        # half of a line-wrapped heading (e.g. "Achievements" / "and
-        # Appreciations:"). Before committing, check whether folding in the
-        # very next line also produces a valid match -- if so, treat the
-        # next line as part of the heading, not as body text. Only extends
-        # when the next line is short, has no bullet marker, and isn't
-        # itself a date-range line, so this can't misfire on a heading
-        # immediately followed by real bullet/date content.
         if label is not None and stripped != "" and i + 1 < len(lines):
             nxt = lines[i + 1].strip()
             if (nxt and not _LEADING_BULLET_RE.match(nxt)
@@ -727,12 +646,6 @@ def split_into_sections(text: str) -> list:
                     if label is not None:
                         inline_content = remaining
 
-        # Letter-spaced heading check runs before the fuzzy-match fallback:
-        # a letter-spaced candidate like "P R O F E S S I O N A L
-        # S U M M A R Y" still contains real spaces, so it would never
-        # pass _fuzzy_heading_label's word.isalpha() check anyway (spaces
-        # aren't alphabetic), but resolving it here first is more direct
-        # and avoids relying on that accidental non-collision.
         if label is None and stripped != "":
             letter_spaced_label = _resolve_letter_spaced_heading(stripped)
             if letter_spaced_label is not None:
@@ -756,15 +669,6 @@ def split_into_sections(text: str) -> list:
             if not _is_wrapped_word(stripped, lines[:i]):
                 heading_score = score_heading_line(stripped, i, lines)
                 if heading_score >= 0.65:
-                    # Try to resolve straight to a real label here, not
-                    # only later when deciding whether to absorb into an
-                    # already-open list section. Confirmed on a real
-                    # resume (Sachin Chitranshi): "LAST 5 CAREER
-                    # TIMELINE" transitions out of a "summary" section
-                    # (not a list-type section), so the absorption check
-                    # further down never even runs for it -- without
-                    # resolving here, it opens as a bare "unknown"
-                    # section instead of "early_career".
                     resolved = _resolve_unknown_heading(stripped)
                     if resolved is not None:
                         label = resolved
@@ -773,21 +677,18 @@ def split_into_sections(text: str) -> list:
                         label = "unknown"
                         confidence = heading_score
 
-        # "Languages" is genuinely ambiguous on resumes: it can mean spoken
-        # languages (English, Hindi...) OR it can be a row label inside a
-        # technical skills matrix ("Languages: PHP, JavaScript"). The
-        # SECTION_PATTERNS regex matches the bare word correctly either
-        # way -- it has no way to know which sense is meant. Confirmed on
-        # a real resume (Sachin Chauhan): a skills-matrix table with row
-        # labels "Database" / "Languages" / "Frameworks & Libraries" /
-        # "Web Tools" / "Tools" had its "Languages" row label match the
-        # real "languages" section pattern, splitting the skills matrix in
-        # half and dragging every subsequent row into a bogus "languages"
-        # section. Disambiguate using what actually follows the heading --
-        # tech-stack terms (php, react, mysql...) mean this is a skills
-        # row, not a spoken-languages section -- and suppress the split in
-        # that case so the line falls through and gets absorbed into
-        # whatever section (usually "skills") is already open.
+        # --- NEW: heading glued to the tail of a content line, no line
+        # break at all in the source (see _find_embedded_heading_split
+        # docstring). Only tried as an absolute last resort, after every
+        # detector above has already failed to classify this line.
+        if label is None and stripped != "":
+            embed_prefix, embed_heading_text, embed_label = _find_embedded_heading_split(stripped)
+            if embed_label is not None and embed_label != current_label:
+                current_lines.append(embed_prefix)
+                label = embed_label
+                confidence = 0.85
+        # --- END NEW ---
+
         if label == "languages" and stripped != "":
             lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
             if lookahead and _looks_like_tech_stack_content(lookahead) and not _looks_like_spoken_language_content(lookahead):
@@ -795,34 +696,23 @@ def split_into_sections(text: str) -> list:
                 confidence = 0.0
                 inline_content = None
 
-        # This must run BEFORE the same-label-absorb check directly below:
-        # a second "summary"-labelled heading (e.g. "Professional Summary"
-        # appearing after an earlier "Personal Summary") sometimes isn't
-        # really a second summary at all -- it's actually introducing the
-        # first job entry (confirmed on a real resume, Aarti Suranje: her
-        # "PROFESSIONAL SUMMARY" heading sits directly above "PRINCIPAL
-        # CONSULTANT, 01/2023 - Current"). If this promotion ran AFTER the
-        # same-label-absorb check instead, the absorb-and-continue would
-        # fire first (both headings map to "summary") and this promotion
-        # would never get a chance to run -- her entire job history
-        # (Principal Consultant, Technology Lead, ...) would silently
-        # merge into "summary" instead of becoming its own "experience"
-        # section.
         if label == "summary" and not experience_seen and stripped != "":
             upcoming = _next_nonblank_line(lines, i + 1)
             if _looks_like_job_entry(upcoming):
                 label = "experience"
                 confidence = 0.85
 
+        if current_label == "projects" and experience_seen and stripped != "":
+            if _looks_like_company_entry(stripped):
+                label = "experience"
+                confidence = 0.9
+                inline_content = stripped   # keep the company/date line itself as content
+
         if label is not None and label == current_label:
             current_lines.append(line)
             continue
 
         if current_label in _LIST_SECTION_LABELS and label == "unknown":
-            # Don't blindly absorb: this line scored heading-shaped and
-            # contains a section keyword -- check whether it actually
-            # resolves to a real, different section label before treating
-            # it as harmless in-list noise. See _resolve_unknown_heading().
             promoted_label = _resolve_unknown_heading(stripped)
             if promoted_label is None:
                 current_lines.append(line)
@@ -889,6 +779,3153 @@ def get_section_text(sections: list, label: str) -> str:
         return ""
     return "\n\n".join([s.raw_text for s in matching])
 
+
+
+
+
+
+
+
+
+
+#not worked
+#import re
+#from dataclasses import dataclass
+#
+#
+#def _build_section_pattern(core_alternatives: list) -> "re.Pattern":
+#    core = "|".join(core_alternatives)
+#    return re.compile(
+#        rf"^(?:{core})(\s*(&|and|/)\s*[a-z]+(\s+[a-z]+){{0,2}})?$",
+#        re.IGNORECASE
+#    )
+#
+#
+#_SKILL_PREFIX_WORDS = (
+#    r"(technical|core|key|professional|functional|domain|business|"
+#    r"soft|hard|tech|it|general|primary|specialized|relevant)"
+#)
+#_SKILLS_PATTERN = re.compile(
+#    rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise)(?:\s+(sets?|matrix))?"
+#    rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
+#    rf"|function(al)?\s+(and\s+)?technical\s+specialization"
+#    rf"|technical\s+specialization"
+#    rf"|functional\s+specialization"
+#    rf"|technology\s+stack"
+#    rf"|technology\s+summary"
+#    rf"|knowledge\s+summary"
+#    rf"|knowledge\s+base"
+#    rf"|technical\s+snapshot)$",
+#    re.IGNORECASE
+#)
+#
+#_PROJECTS_PATTERN = re.compile(
+#    r"^(?:(personal\s+|side\s+|key\s+|notable\s+|academic\s+|live\s+)?projects?"
+#    r"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){0,2})?"
+#    r"|portfolio"
+#    r"|projects?\s*#?\s*\d+)$",
+#    re.IGNORECASE
+#)
+#
+#_EXPERIENCE_DATE_RANGE_TAIL = (
+#    r"(?:\s*[:\-\u2013\u2014]?\s*\(?\s*(?:from\s+)?\d{4}\s*"
+#    r"(?:to|-|\u2013|\u2014)\s*\d{4}\s*\)?)?"
+#)
+#_EXPERIENCE_PATTERN = re.compile(
+#    rf"^(?:((work|industry|relevant|professional|previous|past|prior)\s*(and\s*)?){{0,2}}experience"
+#    rf"|employment(\s+(history|details|records?|background))?"
+#    rf"|professional\s*background"
+#    rf"|career\s*history|work\s*history|internships?"
+#    rf"|corporate\s+success|career\s+journey|professional\s+journey"
+#    rf"|career\s+chronology|employment\s+timeline)"
+#    rf"{_EXPERIENCE_DATE_RANGE_TAIL}$",
+#    re.IGNORECASE
+#)
+#
+#
+#SECTION_PATTERNS = {
+#    "summary": _build_section_pattern([
+#        r"(professional\s+|personal\s+|profile\s+|executive\s+|career\s+|brief\s+)?summary",
+#        r"objective", r"profile",
+#        r"about\s+me", r"career\s+objective", r"personal\s+statement",
+#    ]),
+#    "experience": _EXPERIENCE_PATTERN,
+#    "education": _build_section_pattern([
+#        r"education(al)?(\s+background)?",
+#        r"academics?(\s+background)?",
+#        r"academic\s+qualifications?", r"educational\s+qualifications?",
+#        r"qualifications?",
+#        r"degrees?", r"university", r"college",
+#    ]),
+#    "skills": _SKILLS_PATTERN,
+#    "projects": _PROJECTS_PATTERN,
+#    "certifications": _build_section_pattern([
+#        r"certif(ication|icate)s?(\s*\([^)]*\))?", r"licen[sc]es?(\s*\([^)]*\))?",
+#        r"accreditations?", r"credentials?", r"professional\s+certifications?",
+#        r"trainings?",
+#    ]),
+#    "achievements": _build_section_pattern([
+#        r"(key|major|notable|special|top)\s+achievements?",
+#        r"achievements?", r"awards?", r"honou?rs?", r"recognitions?",
+#        r"accomplishments?", r"accolades?",
+#        r"rewards?",
+#    ]),
+#    "languages": _build_section_pattern([
+#        r"languages?(\s+(skills|known|proficiency))?", r"spoken\s+languages?",
+#        r"language\s+skills",
+#    ]),
+#    "interests": _build_section_pattern([
+#        r"interests?", r"hobbies", r"activities",
+#    ]),
+#    "other": _build_section_pattern([
+#        r"custom\s+section", r"additional\s+information",
+#        r"miscellaneous", r"additional\s+details",
+#    ]),
+#    "strengths": _build_section_pattern([
+#        r"(key\s+)?strengths?", r"core\s+strengths?",
+#    ]),
+#    "personal_details": _build_section_pattern([
+#        r"personal\s+(details|information|profile|data)",
+#        r"bio\s*-?\s*data",
+#    ]),
+#    "declaration": _build_section_pattern([
+#        r"declaration", r"self[\s-]?declaration",
+#    ]),
+#    "roles_responsibilities": re.compile(
+#        r"^roles?\s+(and|&)?\s*responsibilit(y|ies)\s*(and|&)?$",
+#        re.IGNORECASE
+#    ),
+#    "early_career": re.compile(
+#        r"^(?:early\s+career(s)?"
+#        r"|last\s+\d+\s+(years?\s+)?career\s+timeline"
+#        r"|career\s+synopsis"
+#        r"|career\s+snapshot"
+#        r"|career\s+at\s+a\s+glance"
+#        r"|(prior|past|previous)\s+engagements?)$",
+#        re.IGNORECASE
+#    ),
+#}
+#
+#
+#_LIST_SECTION_LABELS = {
+#    "skills", "education", "certifications", "achievements",
+#    "languages", "projects", "interests", "strengths", "experience",
+#    "early_career",
+#}
+#
+#
+#_SECTION_KEYWORDS = [
+#    "skill", "experience", "education", "project", "certif", "licen",
+#    "achievement", "award", "honor", "honour", "summary", "objective",
+#    "qualification", "employment", "career", "academic", "competenc",
+#    "expertise", "technolog", "portfolio", "credential", "accreditation",
+#    "recognition", "accomplishment", "language", "interest", "hobbies",
+#    "research", "leadership", "internship", "training", "volunteer",
+#    "publication", "reference", "extracurricular", "strength",
+#    "personal", "declaration", "responsibilit",
+#    "corporate", "success", "journey", "chronology", "timeline",
+#    "reward", "synopsis", "snapshot", "glance", "engagement",
+#]
+#
+#
+#_KEYWORD_TO_LABEL = {
+#    "summary": "summary", "objective": "summary",
+#    "skill": "skills", "expertise": "skills", "competenc": "skills", "technolog": "skills",
+#    "career timeline": "early_career", "career synopsis": "early_career",
+#    "career snapshot": "early_career", "career at a glance": "early_career",
+#    "early career": "early_career", "timeline": "early_career",
+#    "synopsis": "early_career", "snapshot": "early_career",
+#    "experience": "experience", "employment": "experience", "career": "experience",
+#    "internship": "experience",
+#    "education": "education", "qualification": "education", "academic": "education",
+#    "project": "projects", "portfolio": "projects",
+#    "certif": "certifications", "licen": "certifications", "credential": "certifications",
+#    "accreditation": "certifications", "training": "certifications",
+#    "achievement": "achievements", "award": "achievements", "honor": "achievements",
+#    "honour": "achievements", "recognition": "achievements", "accomplishment": "achievements",
+#    "reward": "achievements",
+#    "language": "languages",
+#    "interest": "interests", "hobbies": "interests",
+#    "strength": "strengths",
+#    "declaration": "declaration",
+#    "personal": "personal_details",
+#    "responsibilit": "roles_responsibilities",
+#}
+#
+#
+#@dataclass
+#class Section:
+#    label: str
+#    raw_text: str
+#    start_line: int
+#    confidence: float
+#
+#
+#def _clean_heading_candidate(line: str) -> str:
+#    cleaned = line.strip()
+#    cleaned = re.sub(r"^[•●○◦▪➤►‣✓✔☑\-\*]+\s*", "", cleaned)
+#    cleaned = cleaned.strip(":-—–_ ")
+#    return cleaned
+#
+#
+#def _is_wrapped_word(candidate: str, prev_lines: list) -> bool:
+#    if " " in candidate:
+#        return False
+#    if candidate != candidate.lower():
+#        return False
+#    for prev in reversed(prev_lines):
+#        prev_stripped = prev.strip()
+#        if prev_stripped:
+#            return prev_stripped[-1] not in {'.', ':', ';', '?', '!'}
+#    return False
+#
+#
+#def split_inline_heading(line: str):
+#    stripped = line.strip()
+#    for separator in ["•", "●", ":", "-", "–", "—"]:
+#        if separator not in stripped:
+#            continue
+#        heading_candidate = stripped.split(separator, 1)[0].strip()
+#        if not heading_candidate:
+#            continue
+#        for label, pattern in SECTION_PATTERNS.items():
+#            if pattern.match(heading_candidate):
+#                remaining = stripped[len(heading_candidate):].strip()
+#                remaining = remaining.lstrip("•●:-–— ").strip()
+#                return heading_candidate, remaining
+#    return None, None
+#
+#
+#def normalize_inline_bullets(text: str) -> str:
+#    normalized = []
+#    for raw_line in text.splitlines():
+#        bullet_count = raw_line.count("•") + raw_line.count("●")
+#        if bullet_count <= 1:
+#            normalized.append(raw_line)
+#            continue
+#        pieces = [p.strip() for p in re.split(r"[•●]", raw_line) if p.strip()]
+#        for piece in pieces:
+#            normalized.append(f"• {piece}")
+#    return "\n".join(normalized)
+#
+#
+#_BARE_EMAIL_LINE = re.compile(r"^[\w.\-+]+@[\w.\-]+\.\w+$")
+#_BARE_PHONE_LINE = re.compile(
+#    r"^(mob(ile)?\.?\s*(no\.?|number)?\s*[:\-]?\s*|contact\s*[:\-]?\s*|"
+#    r"phone\s*[:\-]?\s*|tel\s*[:\-]?\s*)?\+?\d[\d\-\s()]{6,}\d$",
+#    re.IGNORECASE,
+#)
+#
+#
+#def _is_bare_contact_line(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped:
+#        return False
+#    if _JOB_DATE_RANGE.search(stripped):
+#        return False
+#    stripped = re.sub(r"^[^\w+]+", "", stripped).strip()
+#    return bool(_BARE_EMAIL_LINE.match(stripped) or _BARE_PHONE_LINE.match(stripped))
+#
+#
+#_JOB_MONTH_NAMES = (
+#    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|"
+#    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
+#    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+#)
+#
+#_JOB_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.]*{_JOB_MONTH_NAMES}[\s,.]*\d{{4}}"
+#
+#_JOB_DATE_RANGE = re.compile(
+#    rf"(?:,\s*)?(?:{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))"
+#    rf"\s*(?:[-–—\u2013\u2014]+\s*|(?=(?:Current|Present|Now|Till)\b))"
+#    rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|current|present|now|"
+#    rf"{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))",
+#    re.IGNORECASE
+#)
+#
+#
+#_FUZZY_HEADING_KEYWORDS = {
+#    "experience": "experience",
+#    "summary": "summary",
+#    "objective": "summary",
+#    "profile": "summary",
+#    "education": "education",
+#    "skills": "skills",
+#    "projects": "projects",
+#    "certifications": "certifications",
+#    "achievements": "achievements",
+#    "languages": "languages",
+#    "interests": "interests",
+#    "declaration": "declaration",
+#    "strengths": "strengths",
+#}
+#
+#import difflib
+#
+#
+#def _fuzzy_heading_label(candidate: str):
+#    word = candidate.strip().lower()
+#    if not word.isalpha() or len(word) < 5:
+#        return None
+#    for keyword, label in _FUZZY_HEADING_KEYWORDS.items():
+#        if abs(len(word) - len(keyword)) > 2:
+#            continue
+#        if difflib.get_close_matches(word, [keyword], n=1, cutoff=0.82):
+#            return label
+#    return None
+#
+#
+#def _looks_like_job_entry(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped or len(stripped) > 120:
+#        return False
+#    return bool(_JOB_DATE_RANGE.search(stripped))
+#
+#
+#def _next_nonblank_line(lines: list, start_index: int) -> str:
+#    i = start_index
+#    while i < len(lines):
+#        if lines[i].strip():
+#            return lines[i].strip()
+#        i += 1
+#    return ""
+#
+#
+#_CAPS_HEADING_SHAPE = re.compile(r"^[A-Z\s&/]+$")
+#
+#
+#def _looks_like_caps_heading_shape(stripped: str) -> bool:
+#    return bool(
+#        stripped == stripped.upper()
+#        and _CAPS_HEADING_SHAPE.match(stripped)
+#        and len(stripped.split()) <= 4
+#        and not stripped.endswith(".")
+#    )
+#
+#
+#def _next_line_is_job_entry(line_index: int, all_lines: list) -> bool:
+#    upcoming = _next_nonblank_line(all_lines, line_index + 1)
+#    return _looks_like_job_entry(upcoming)
+#
+#
+#_LEADING_BULLET_RE = re.compile(r"^[•●○◦▪➤►‣✓✔☑\-\*]")
+#
+#
+#def _try_two_line_heading(lines: list, i: int):
+#    if i + 1 >= len(lines):
+#        return None, 0.0
+#    first = lines[i].strip()
+#    second = lines[i + 1].strip()
+#    if not first or not second:
+#        return None, 0.0
+#    if _LEADING_BULLET_RE.match(second):
+#        return None, 0.0
+#    if _is_wrapped_word(first, lines[:i]):
+#        return None, 0.0
+#
+#    joined = _clean_heading_candidate(f"{first} {second}")
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(joined):
+#            return label, 0.9
+#    return None, 0.0
+#
+#
+#def detect_section_label(line: str, prev_lines: list = None) -> tuple:
+#    if prev_lines is None:
+#        prev_lines = []
+#    candidate = _clean_heading_candidate(line)
+#    if not candidate:
+#        return None, 0.0
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(candidate):
+#            if _is_wrapped_word(candidate, prev_lines):
+#                return None, 0.0
+#            return label, 0.95
+#    return None, 0.0
+#
+#
+#def _contains_section_keyword(line: str) -> bool:
+#    """
+#    True if `line` contains a known section keyword, either as an exact
+#    substring OR as a close typo (e.g. "Employement" -> "employment").
+#
+#    FIX (typo tolerance): resumes routinely misspell their own section
+#    headings -- confirmed on a real resume (Praveen Kumar Pedapapa):
+#    "EMPLOYEMENT DETAILS" (extra E) scored just under the heading
+#    threshold and was never recognized, because the plain substring
+#    check requires "employment" spelled correctly. We fall back to a
+#    per-word fuzzy match (cutoff 0.82, 5+ letter words only, to avoid
+#    matching short unrelated words) against the same keyword list.
+#
+#    Callers must only invoke this on lines already gated as heading-
+#    shaped (see score_heading_line) -- see _contains_section_keyword's
+#    sibling gate there for why that matters.
+#    """
+#    lower = line.lower()
+#    if any(keyword in lower for keyword in _SECTION_KEYWORDS):
+#        return True
+#    words = re.findall(r"[a-z]+", lower)
+#    for word in words:
+#        if len(word) < 5:
+#            continue
+#        if difflib.get_close_matches(word, _SECTION_KEYWORDS, n=1, cutoff=0.82):
+#            return True
+#    return False
+#
+#
+#def score_heading_line(line: str, line_index: int, all_lines: list) -> float:
+#    stripped = line.strip()
+#    if len(stripped) == 0:
+#        return 0.0
+#    if stripped[:1] in ("•", "●"):
+#        return 0.0
+#    if line_index <= 1:
+#        return 0.0
+#    word_count = len(stripped.split())
+#    if word_count > 8 or len(stripped) > 60:
+#        return 0.0
+#    if stripped.endswith("."):
+#        return 0.0
+#    score = 0.0
+#    is_all_caps = stripped == stripped.upper() and re.match(r"^[A-Z\s&/]+$", stripped)
+#    if is_all_caps:
+#        score += 0.3
+#    if word_count <= 4:
+#        score += 0.2
+#    elif word_count <= 6:
+#        score += 0.1
+#    blank_below = (line_index + 1 < len(all_lines) and all_lines[line_index + 1].strip() == "")
+#    blank_above = (line_index > 0 and all_lines[line_index - 1].strip() == "")
+#    if blank_below:
+#        score += 0.2
+#    if blank_above:
+#        score += 0.15
+#    if stripped.endswith(":"):
+#        score += 0.15
+#    if "," not in stripped and ". " not in stripped:
+#        score += 0.1
+#
+#    # FIX (false-positive guard): only award the keyword bonus for
+#    # lines that already LOOK like a heading (ALL CAPS, or ending in a
+#    # colon) -- real section headings almost always are. Without this
+#    # gate, an ordinary sentence or company name that merely CONTAINS a
+#    # keyword substring gets promoted to a fake heading. Confirmed on a
+#    # real resume (Praveen Kumar Pedapapa): the plain body line
+#    # "MoveInSync  Technology Solutions" (an employer name, Title Case,
+#    # no colon) contains "Technology", which matches the "technolog"
+#    # keyword stem (meant for headings like "Technology Stack") and was
+#    # scoring high enough to get mislabeled as a "skills" section
+#    # heading. "Technology" is an extremely common word inside ordinary
+#    # company names, so this isn't a one-off -- it would misfire on any
+#    # resume whose employer name contains it.
+#    heading_shaped = is_all_caps or stripped.endswith(":")
+#    if heading_shaped and _contains_section_keyword(stripped):
+#        score += 0.35
+#    else:
+#        if not blank_below and not blank_above:
+#            score *= 0.5
+#
+#    if re.search(r':\s*[A-Za-z0-9]', stripped) and not stripped.endswith(':'):
+#        score *= 0.3
+#
+#    return min(score, 1.0)
+#
+#
+#_LETTER_SPACED_TOKEN_RE = re.compile(r"^[A-Za-z0-9&]$")
+#
+#
+#def _is_letter_spaced_heading(line: str) -> bool:
+#    tokens = line.split()
+#    if len(tokens) < 4:
+#        return False
+#    single_char = sum(1 for t in tokens if _LETTER_SPACED_TOKEN_RE.match(t))
+#    return (single_char / len(tokens)) >= 0.7
+#
+#
+#def _resolve_letter_spaced_heading(line: str):
+#    if not _is_letter_spaced_heading(line):
+#        return None
+#    collapsed = "".join(line.split()).lower()
+#    if len(collapsed) < 4:
+#        return None
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in collapsed:
+#            return mapped_label
+#    return None
+#
+#
+#_TECH_STACK_KEYWORDS = {
+#    "php", "html", "html5", "css", "css3", "javascript", "js", "java", "python",
+#    "sql", "mysql", "postgresql", "postgres", "mongodb", "nosql", "react",
+#    "reactjs", "angular", "angularjs", "vue", "vuejs", "node", "nodejs",
+#    "jquery", "bootstrap", "laravel", "codeigniter", "django", "flask",
+#    "spring", "typescript", "ruby", "rails", "golang", "kotlin", "swift",
+#    "dotnet", "aws", "azure", "gcp", "docker", "kubernetes", "git", "github",
+#    "ajax", "rest", "graphql", "redux", "express", "webpack", "sass", "less",
+#    "xml", "json", "linux", "c", "c++", "c#", "r", "scala", "perl", "bash",
+#    "shell", "matlab", "sqlite", "oracle", "firebase", "npm", "yarn",
+#}
+#
+#_SPOKEN_LANGUAGE_KEYWORDS = {
+#    "english", "hindi", "spanish", "french", "german", "mandarin", "chinese",
+#    "cantonese", "arabic", "portuguese", "russian", "japanese", "korean",
+#    "italian", "punjabi", "bengali", "tamil", "telugu", "marathi", "gujarati",
+#    "urdu", "kannada", "malayalam", "dutch", "turkish", "vietnamese", "thai",
+#    "polish", "swedish", "greek", "hebrew", "indonesian", "farsi", "persian",
+#}
+#
+#_WORD_TOKEN_RE = re.compile(r"[a-zA-Z+#.]+")
+#
+#
+#def _looks_like_tech_stack_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _TECH_STACK_KEYWORDS for w in words)
+#
+#
+#def _looks_like_spoken_language_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _SPOKEN_LANGUAGE_KEYWORDS for w in words)
+#
+#
+#def _resolve_unknown_heading(stripped: str):
+#    colon_idx = stripped.find(":")
+#    if colon_idx != -1 and stripped[colon_idx + 1:].strip():
+#        return None
+#
+#    if len(stripped.split()) > 4:
+#        return None
+#
+#    lower = stripped.lower()
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in lower:
+#            return mapped_label
+#
+#    # Typo tolerance -- same rationale as _contains_section_keyword.
+#    # Only reached for candidates that already crossed the heading-score
+#    # threshold (heading-shaped: ALL CAPS or colon-terminated), so this
+#    # doesn't loosen matching on ordinary short phrases in general.
+#    words = re.findall(r"[a-z]+", lower)
+#    for word in words:
+#        if len(word) < 5:
+#            continue
+#        matches = difflib.get_close_matches(word, list(_KEYWORD_TO_LABEL.keys()), n=1, cutoff=0.82)
+#        if matches:
+#            return _KEYWORD_TO_LABEL[matches[0]]
+#    return None
+#
+#
+#def split_into_sections(text: str) -> list:
+#    lines = text.split("\n")
+#    sections = []
+#    current_label = "header"
+#    current_start = 0
+#    current_lines = []
+#    current_confidence = 0.9
+#    experience_seen = False
+#    deferred_contact_lines = []
+#    skip_next = False
+#
+#    for i, line in enumerate(lines):
+#        if skip_next:
+#            skip_next = False
+#            continue
+#
+#        stripped = line.strip()
+#        label, confidence = detect_section_label(stripped, prev_lines=lines[:i])
+#        inline_content = None
+#
+#        if label is not None and stripped != "" and i + 1 < len(lines):
+#            nxt = lines[i + 1].strip()
+#            if (nxt and not _LEADING_BULLET_RE.match(nxt)
+#                    and len(nxt.split()) <= 5 and not _JOB_DATE_RANGE.search(nxt)):
+#                combined = _clean_heading_candidate(f"{stripped} {nxt}")
+#                for combined_label, pattern in SECTION_PATTERNS.items():
+#                    if pattern.match(combined):
+#                        label = combined_label
+#                        confidence = max(confidence, 0.9)
+#                        skip_next = True
+#                        break
+#
+#        if label is None and stripped != "":
+#            two_line_label, two_line_confidence = _try_two_line_heading(lines, i)
+#            if two_line_label is not None:
+#                label = two_line_label
+#                confidence = two_line_confidence
+#                skip_next = True
+#
+#        if label is None and stripped != "":
+#            if current_label not in _LIST_SECTION_LABELS:
+#                heading_candidate, remaining = split_inline_heading(stripped)
+#                if heading_candidate is not None:
+#                    label, confidence = detect_section_label(heading_candidate, prev_lines=lines[:i])
+#                    if label is not None:
+#                        inline_content = remaining
+#
+#        if label is None and stripped != "":
+#            letter_spaced_label = _resolve_letter_spaced_heading(stripped)
+#            if letter_spaced_label is not None:
+#                label = letter_spaced_label
+#                confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                fuzzy_label = _fuzzy_heading_label(stripped)
+#                if fuzzy_label is not None:
+#                    label = fuzzy_label
+#                    confidence = 0.8
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                if _looks_like_caps_heading_shape(stripped) and _next_line_is_job_entry(i, lines):
+#                    label = "experience"
+#                    confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                heading_score = score_heading_line(stripped, i, lines)
+#                if heading_score >= 0.65:
+#                    resolved = _resolve_unknown_heading(stripped)
+#                    if resolved is not None:
+#                        label = resolved
+#                        confidence = max(heading_score, 0.8)
+#                    else:
+#                        label = "unknown"
+#                        confidence = heading_score
+#
+#        if label == "languages" and stripped != "":
+#            lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
+#            if lookahead and _looks_like_tech_stack_content(lookahead) and not _looks_like_spoken_language_content(lookahead):
+#                label = None
+#                confidence = 0.0
+#                inline_content = None
+#
+#        if label == "summary" and not experience_seen and stripped != "":
+#            upcoming = _next_nonblank_line(lines, i + 1)
+#            if _looks_like_job_entry(upcoming):
+#                label = "experience"
+#                confidence = 0.85
+#
+#        if label is not None and label == current_label:
+#            current_lines.append(line)
+#            continue
+#
+#        if current_label in _LIST_SECTION_LABELS and label == "unknown":
+#            promoted_label = _resolve_unknown_heading(stripped)
+#            if promoted_label is None:
+#                current_lines.append(line)
+#                continue
+#            label = promoted_label
+#            confidence = 0.8
+#
+#        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
+#            if label in {"achievements", "roles_responsibilities"} or stripped.endswith(":") or stripped.endswith(":-"):
+#                current_lines.append(line)
+#                continue
+#
+#        if label is not None and stripped != "":
+#            if label == "experience":
+#                experience_seen = True
+#            section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#            if section_text:
+#                sections.append(Section(
+#                    label=current_label,
+#                    raw_text=section_text,
+#                    start_line=current_start,
+#                    confidence=current_confidence
+#                ))
+#            current_label = label
+#            current_start = i
+#            current_lines = []
+#            if inline_content:
+#                current_lines.append(inline_content)
+#            current_confidence = confidence
+#        else:
+#            if current_label != "header" and _is_bare_contact_line(stripped):
+#                deferred_contact_lines.append(stripped)
+#            else:
+#                current_lines.append(line)
+#
+#    section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#    if section_text:
+#        sections.append(Section(
+#            label=current_label,
+#            raw_text=section_text,
+#            start_line=current_start,
+#            confidence=current_confidence
+#        ))
+#
+#    if deferred_contact_lines:
+#        for s in sections:
+#            if s.label == "header":
+#                s.raw_text = (s.raw_text + "\n" + "\n".join(deferred_contact_lines)).strip()
+#                break
+#        else:
+#            sections.insert(0, Section(
+#                label="header",
+#                raw_text="\n".join(deferred_contact_lines),
+#                start_line=0,
+#                confidence=0.9,
+#            ))
+#
+#    return sections
+#
+#
+#def get_section_text(sections: list, label: str) -> str:
+#    matching = [s for s in sections if s.label == label]
+#    if not matching:
+#        return ""
+#    return "\n\n".join([s.raw_text for s in matching])
+#
+
+
+
+
+
+
+##commenting just to fix parveen padepapa resume - and write 2 more above this- 2nd one(just above not worked) we are using
+#import re
+#from dataclasses import dataclass
+#
+#
+#def _build_section_pattern(core_alternatives: list) -> "re.Pattern":
+#    core = "|".join(core_alternatives)
+#    return re.compile(
+#        rf"^(?:{core})(\s*(&|and|/)\s*[a-z]+(\s+[a-z]+){{0,2}})?$",
+#        re.IGNORECASE
+#    )
+#
+#
+#_SKILL_PREFIX_WORDS = (
+#    r"(technical|core|key|professional|functional|domain|business|"
+#    r"soft|hard|tech|it|general|primary|specialized|relevant)"
+#)
+#_SKILLS_PATTERN = re.compile(
+#    rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise)(?:\s+(sets?|matrix))?"
+#    rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
+#    rf"|function(al)?\s+(and\s+)?technical\s+specialization"
+#    rf"|technical\s+specialization"
+#    rf"|functional\s+specialization"
+#    rf"|technology\s+stack"
+#    rf"|technology\s+summary"
+#    rf"|knowledge\s+summary"
+#    rf"|knowledge\s+base"
+#    rf"|technical\s+snapshot)$",
+#    re.IGNORECASE
+#)
+#
+#_PROJECTS_PATTERN = re.compile(
+#    r"^(?:(personal\s+|side\s+|key\s+|notable\s+|academic\s+|live\s+)?projects?"
+#    r"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){0,2})?"
+#    r"|portfolio"
+#    r"|projects?\s*#?\s*\d+)$",
+#    re.IGNORECASE
+#)
+#
+#_EXPERIENCE_DATE_RANGE_TAIL = (
+#    r"(?:\s*[:\-\u2013\u2014]?\s*\(?\s*(?:from\s+)?\d{4}\s*"
+#    r"(?:to|-|\u2013|\u2014)\s*\d{4}\s*\)?)?"
+#)
+#
+## FIX: Removed the trailing $ to match "EMPLOYEMENT DETAILS" with any trailing spaces
+#_EXPERIENCE_PATTERN = re.compile(
+#    r"^(?:"
+#    r"(?:(?:work|industry|relevant|professional|previous|past|prior)\s+(?:and\s+)?)?experience"
+#    r"|employ(?:e)?ment(?:\s+(?:history|details|records?|background))?"
+#    r"|professional\s+background"
+#    r"|career\s+history|work\s+history|internships?"
+#    r"|corporate\s+success|career\s+journey|professional\s+journey"
+#    r"|career\s+chronology|employment\s+timeline"
+#    r")(?:\s*[:\-\u2013\u2014]?\s*\(?\s*(?:from\s+)?\d{4}\s*(?:to|-|\u2013|\u2014)\s*\d{4}\s*\)?)?",
+#    re.IGNORECASE
+#)
+
+
+#SECTION_PATTERNS = {
+#    "summary": _build_section_pattern([
+#        r"(professional\s+|personal\s+|profile\s+|executive\s+|career\s+|brief\s+)?summary",
+#        r"objective", r"profile",
+#        r"about\s+me", r"career\s+objective", r"personal\s+statement",
+#    ]),
+#    "experience": _EXPERIENCE_PATTERN,
+#    "education": _build_section_pattern([
+#        r"education(al)?(\s+background)?",
+#        r"academics?(\s+background)?",
+#        r"academic\s+qualifications?", r"educational\s+qualifications?",
+#        r"qualifications?",
+#        r"degrees?", r"university", r"college",
+#    ]),
+#    "skills": _SKILLS_PATTERN,
+#    "projects": _PROJECTS_PATTERN,
+#    "certifications": _build_section_pattern([
+#        r"certif(ication|icate)s?(\s*\([^)]*\))?", r"licen[sc]es?(\s*\([^)]*\))?",
+#        r"accreditations?", r"credentials?", r"professional\s+certifications?",
+#        r"trainings?",
+#    ]),
+#    "achievements": _build_section_pattern([
+#        r"(key|major|notable|special|top)\s+achievements?",
+#        r"achievements?", r"awards?", r"honou?rs?", r"recognitions?",
+#        r"accomplishments?", r"accolades?",
+#        r"rewards?",
+#    ]),
+#    "languages": _build_section_pattern([
+#        r"languages?(\s+(skills|known|proficiency))?", r"spoken\s+languages?",
+#        r"language\s+skills",
+#    ]),
+#    "interests": _build_section_pattern([
+#        r"interests?", r"hobbies", r"activities",
+#    ]),
+#    "other": _build_section_pattern([
+#        r"custom\s+section", r"additional\s+information",
+#        r"miscellaneous", r"additional\s+details",
+#    ]),
+#    "strengths": _build_section_pattern([
+#        r"(key\s+)?strengths?", r"core\s+strengths?",
+#    ]),
+#    "personal_details": _build_section_pattern([
+#        r"personal\s+(details|information|profile|data)",
+#        r"bio\s*-?\s*data",
+#    ]),
+#    "declaration": _build_section_pattern([
+#        r"declaration", r"self[\s-]?declaration",
+#    ]),
+#    "roles_responsibilities": re.compile(
+#        r"^roles?\s+(and|&)?\s*responsibilit(y|ies)\s*(and|&)?$",
+#        re.IGNORECASE
+#    ),
+#    "early_career": re.compile(
+#        r"^(?:early\s+career(s)?"
+#        r"|last\s+\d+\s+(years?\s+)?career\s+timeline"
+#        r"|career\s+synopsis"
+#        r"|career\s+snapshot"
+#        r"|career\s+at\s+a\s+glance"
+#        r"|(prior|past|previous)\s+engagements?)$",
+#        re.IGNORECASE
+#    ),
+#}
+#
+#
+#_LIST_SECTION_LABELS = {
+#    "skills", "education", "certifications", "achievements",
+#    "languages", "projects", "interests", "strengths", "experience",
+#    "early_career",
+#}
+#
+#
+#_SECTION_KEYWORDS = [
+#    "skill", "experience", "education", "project", "certif", "licen",
+#    "achievement", "award", "honor", "honour", "summary", "objective",
+#    "qualification", "employment", "career", "academic", "competenc",
+#    "expertise", "technolog", "portfolio", "credential", "accreditation",
+#    "recognition", "accomplishment", "language", "interest", "hobbies",
+#    "research", "leadership", "internship", "training", "volunteer",
+#    "publication", "reference", "extracurricular", "strength",
+#    "personal", "declaration", "responsibilit",
+#    "corporate", "success", "journey", "chronology", "timeline",
+#    "reward", "synopsis", "snapshot", "glance", "engagement",
+#]
+#
+#
+#_KEYWORD_TO_LABEL = {
+#    "summary": "summary", "objective": "summary",
+#    "skill": "skills", "expertise": "skills", "competenc": "skills", "technolog": "skills",
+#    "career timeline": "early_career", "career synopsis": "early_career",
+#    "career snapshot": "early_career", "career at a glance": "early_career",
+#    "early career": "early_career", "timeline": "early_career",
+#    "synopsis": "early_career", "snapshot": "early_career",
+#    "experience": "experience", "employment": "experience", "career": "experience",
+#    "internship": "experience",
+#    "education": "education", "qualification": "education", "academic": "education",
+#    "project": "projects", "portfolio": "projects",
+#    "certif": "certifications", "licen": "certifications", "credential": "certifications",
+#    "accreditation": "certifications", "training": "certifications",
+#    "achievement": "achievements", "award": "achievements", "honor": "achievements",
+#    "honour": "achievements", "recognition": "achievements", "accomplishment": "achievements",
+#    "reward": "achievements",
+#    "language": "languages",
+#    "interest": "interests", "hobbies": "interests",
+#    "strength": "strengths",
+#    "declaration": "declaration",
+#    "personal": "personal_details",
+#    "responsibilit": "roles_responsibilities",
+#    "technical interests": "skills",
+#}
+#
+#
+#@dataclass
+#class Section:
+#    label: str
+#    raw_text: str
+#    start_line: int
+#    confidence: float
+#
+#
+#def _clean_heading_candidate(line: str) -> str:
+#    cleaned = line.strip()
+#    cleaned = re.sub(r"^[•●○◦▪➤►‣✓✔☑\-\*]+\s*", "", cleaned)
+#    cleaned = cleaned.strip(":-—–_ ")
+#    return cleaned
+#
+#
+#def _is_wrapped_word(candidate: str, prev_lines: list) -> bool:
+#    if " " in candidate:
+#        return False
+#    if candidate != candidate.lower():
+#        return False
+#    for prev in reversed(prev_lines):
+#        prev_stripped = prev.strip()
+#        if prev_stripped:
+#            return prev_stripped[-1] not in {'.', ':', ';', '?', '!'}
+#    return False
+#
+#
+#def split_inline_heading(line: str):
+#    stripped = line.strip()
+#    for separator in ["•", "●", ":", "-", "–", "—"]:
+#        if separator not in stripped:
+#            continue
+#        heading_candidate = stripped.split(separator, 1)[0].strip()
+#        if not heading_candidate:
+#            continue
+#        for label, pattern in SECTION_PATTERNS.items():
+#            if pattern.match(heading_candidate):
+#                remaining = stripped[len(heading_candidate):].strip()
+#                remaining = remaining.lstrip("•●:-–— ").strip()
+#                return heading_candidate, remaining
+#    return None, None
+#
+#
+#def normalize_inline_bullets(text: str) -> str:
+#    normalized = []
+#    for raw_line in text.splitlines():
+#        bullet_count = raw_line.count("•") + raw_line.count("●")
+#        if bullet_count <= 1:
+#            normalized.append(raw_line)
+#            continue
+#        pieces = [p.strip() for p in re.split(r"[•●]", raw_line) if p.strip()]
+#        for piece in pieces:
+#            normalized.append(f"• {piece}")
+#    return "\n".join(normalized)
+#
+#
+#_BARE_EMAIL_LINE = re.compile(r"^[\w.\-+]+@[\w.\-]+\.\w+$")
+#_BARE_PHONE_LINE = re.compile(
+#    r"^(mob(ile)?\.?\s*(no\.?|number)?\s*[:\-]?\s*|contact\s*[:\-]?\s*|"
+#    r"phone\s*[:\-]?\s*|tel\s*[:\-]?\s*)?\+?\d[\d\-\s()]{6,}\d$",
+#    re.IGNORECASE,
+#)
+#
+#
+#def _is_bare_contact_line(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped:
+#        return False
+#    if _JOB_DATE_RANGE.search(stripped):
+#        return False
+#    stripped = re.sub(r"^[^\w+]+", "", stripped).strip()
+#    return bool(_BARE_EMAIL_LINE.match(stripped) or _BARE_PHONE_LINE.match(stripped))
+#
+#
+#_JOB_MONTH_NAMES = (
+#    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|"
+#    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
+#    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+#)
+#
+#_JOB_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.]*{_JOB_MONTH_NAMES}[\s,.]*\d{{4}}"
+#
+#_JOB_DATE_RANGE = re.compile(
+#    rf"(?:,\s*)?(?:{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))"
+#    rf"\s*(?:[-–—\u2013\u2014]+\s*|(?=(?:Current|Present|Now|Till)\b))"
+#    rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|current|present|now|"
+#    rf"{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))",
+#    re.IGNORECASE
+#)
+#
+#
+#_FUZZY_HEADING_KEYWORDS = {
+#    "experience": "experience",
+#    "summary": "summary",
+#    "objective": "summary",
+#    "profile": "summary",
+#    "education": "education",
+#    "skills": "skills",
+#    "projects": "projects",
+#    "certifications": "certifications",
+#    "achievements": "achievements",
+#    "languages": "languages",
+#    "interests": "interests",
+#    "declaration": "declaration",
+#    "strengths": "strengths",
+#}
+#
+#import difflib
+#
+#
+#def _fuzzy_heading_label(candidate: str):
+#    word = candidate.strip().lower()
+#    if not word.isalpha() or len(word) < 5:
+#        return None
+#    for keyword, label in _FUZZY_HEADING_KEYWORDS.items():
+#        if abs(len(word) - len(keyword)) > 2:
+#            continue
+#        if difflib.get_close_matches(word, [keyword], n=1, cutoff=0.82):
+#            return label
+#    return None
+#
+#
+#def _looks_like_job_title(line: str) -> bool:
+#    """Detects lines like 'Senior Software Engineer _ Sept 2023 to Present.'"""
+#    stripped = line.strip()
+#    if not stripped:
+#        return False
+#    # Pattern: Job title + underscore/separator + date range
+#    if re.search(r'[_\-\u2013\u2014]\s*(?:Sept|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Oct|Nov|Dec)', stripped, re.IGNORECASE):
+#        return True
+#    # Pattern: Job title + date range with "to" or "-"
+#    if re.search(r'(?:to|\-|\u2013)\s*(?:Present|Current|Now|\d{4})', stripped, re.IGNORECASE):
+#        # Make sure it's not a project description
+#        if not re.search(r'Project\s+Name|Client\s+Name|Tenure|Description', stripped, re.IGNORECASE):
+#            return True
+#    return False
+#
+#
+#def _looks_like_job_entry(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped or len(stripped) > 120:
+#        return False
+#    return bool(_JOB_DATE_RANGE.search(stripped))
+#
+#
+#def _next_nonblank_line(lines: list, start_index: int) -> str:
+#    i = start_index
+#    while i < len(lines):
+#        if lines[i].strip():
+#            return lines[i].strip()
+#        i += 1
+#    return ""
+#
+#
+#_CAPS_HEADING_SHAPE = re.compile(r"^[A-Z\s&/]+$")
+#
+#
+#def _looks_like_caps_heading_shape(stripped: str) -> bool:
+#    return bool(
+#        stripped == stripped.upper()
+#        and _CAPS_HEADING_SHAPE.match(stripped)
+#        and len(stripped.split()) <= 4
+#        and not stripped.endswith(".")
+#    )
+#
+#
+#def _next_line_is_job_entry(line_index: int, all_lines: list) -> bool:
+#    upcoming = _next_nonblank_line(all_lines, line_index + 1)
+#    return _looks_like_job_entry(upcoming)
+#
+#
+#_LEADING_BULLET_RE = re.compile(r"^[•●○◦▪➤►‣✓✔☑\-\*]")
+#
+#
+#def _try_two_line_heading(lines: list, i: int):
+#    if i + 1 >= len(lines):
+#        return None, 0.0
+#    first = lines[i].strip()
+#    second = lines[i + 1].strip()
+#    if not first or not second:
+#        return None, 0.0
+#    if _LEADING_BULLET_RE.match(second):
+#        return None, 0.0
+#    if _is_wrapped_word(first, lines[:i]):
+#        return None, 0.0
+#
+#    joined = _clean_heading_candidate(f"{first} {second}")
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(joined):
+#            return label, 0.9
+#    return None, 0.0
+#
+#
+#def detect_section_label(line: str, prev_lines: list = None) -> tuple:
+#    if prev_lines is None:
+#        prev_lines = []
+#    candidate = _clean_heading_candidate(line)
+#    if not candidate:
+#        return None, 0.0
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(candidate):
+#            if _is_wrapped_word(candidate, prev_lines):
+#                return None, 0.0
+#            return label, 0.95
+#    return None, 0.0
+#
+#
+#def _contains_section_keyword(line: str) -> bool:
+#    lower = line.lower()
+#    return any(keyword in lower for keyword in _SECTION_KEYWORDS)
+#
+#
+#def score_heading_line(line: str, line_index: int, all_lines: list) -> float:
+#    stripped = line.strip()
+#    if len(stripped) == 0:
+#        return 0.0
+#    if stripped[:1] in ("•", "●"):
+#        return 0.0
+#    if line_index <= 1:
+#        return 0.0
+#    
+#    if _looks_like_job_title(stripped):
+#        return 0.0
+#    
+#    word_count = len(stripped.split())
+#    if word_count > 8 or len(stripped) > 60:
+#        return 0.0
+#    if stripped.endswith("."):
+#        return 0.0
+#    score = 0.0
+#    is_all_caps = stripped == stripped.upper() and re.match(r"^[A-Z\s&/]+$", stripped)
+#    if is_all_caps:
+#        score += 0.3
+#    if word_count <= 4:
+#        score += 0.2
+#    elif word_count <= 6:
+#        score += 0.1
+#    blank_below = (line_index + 1 < len(all_lines) and all_lines[line_index + 1].strip() == "")
+#    blank_above = (line_index > 0 and all_lines[line_index - 1].strip() == "")
+#    if blank_below:
+#        score += 0.2
+#    if blank_above:
+#        score += 0.15
+#    if stripped.endswith(":"):
+#        score += 0.15
+#    if "," not in stripped and ". " not in stripped:
+#        score += 0.1
+#    if _contains_section_keyword(stripped):
+#        score += 0.35
+#    else:
+#        if not blank_below and not blank_above:
+#            score *= 0.5
+#
+#    if re.search(r':\s*[A-Za-z0-9]', stripped) and not stripped.endswith(':'):
+#        score *= 0.3
+#
+#    return min(score, 1.0)
+#
+#
+#_LETTER_SPACED_TOKEN_RE = re.compile(r"^[A-Za-z0-9&]$")
+#
+#
+#def _is_letter_spaced_heading(line: str) -> bool:
+#    tokens = line.split()
+#    if len(tokens) < 4:
+#        return False
+#    single_char = sum(1 for t in tokens if _LETTER_SPACED_TOKEN_RE.match(t))
+#    return (single_char / len(tokens)) >= 0.7
+#
+#
+#def _resolve_letter_spaced_heading(line: str):
+#    if not _is_letter_spaced_heading(line):
+#        return None
+#    collapsed = "".join(line.split()).lower()
+#    if len(collapsed) < 4:
+#        return None
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in collapsed:
+#            return mapped_label
+#    return None
+#
+#
+#_TECH_STACK_KEYWORDS = {
+#    "php", "html", "html5", "css", "css3", "javascript", "js", "java", "python",
+#    "sql", "mysql", "postgresql", "postgres", "mongodb", "nosql", "react",
+#    "reactjs", "angular", "angularjs", "vue", "vuejs", "node", "nodejs",
+#    "jquery", "bootstrap", "laravel", "codeigniter", "django", "flask",
+#    "spring", "typescript", "ruby", "rails", "golang", "kotlin", "swift",
+#    "dotnet", "aws", "azure", "gcp", "docker", "kubernetes", "git", "github",
+#    "ajax", "rest", "graphql", "redux", "express", "webpack", "sass", "less",
+#    "xml", "json", "linux", "c", "c++", "c#", "r", "scala", "perl", "bash",
+#    "shell", "matlab", "sqlite", "oracle", "firebase", "npm", "yarn",
+#}
+#
+#_SPOKEN_LANGUAGE_KEYWORDS = {
+#    "english", "hindi", "spanish", "french", "german", "mandarin", "chinese",
+#    "cantonese", "arabic", "portuguese", "russian", "japanese", "korean",
+#    "italian", "punjabi", "bengali", "tamil", "telugu", "marathi", "gujarati",
+#    "urdu", "kannada", "malayalam", "dutch", "turkish", "vietnamese", "thai",
+#    "polish", "swedish", "greek", "hebrew", "indonesian", "farsi", "persian",
+#}
+#
+#_WORD_TOKEN_RE = re.compile(r"[a-zA-Z+#.]+")
+#
+#
+#def _looks_like_tech_stack_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _TECH_STACK_KEYWORDS for w in words)
+#
+#
+#def _looks_like_spoken_language_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _SPOKEN_LANGUAGE_KEYWORDS for w in words)
+#
+#
+#def _resolve_unknown_heading(stripped: str):
+#    colon_idx = stripped.find(":")
+#    if colon_idx != -1 and stripped[colon_idx + 1:].strip():
+#        return None
+#
+#    if len(stripped.split()) > 4:
+#        return None
+#
+#    lower = stripped.lower()
+#    
+#    if "technical interests" in lower:
+#        return "skills"
+#    
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in lower:
+#            return mapped_label
+#    return None
+
+
+##def split_into_sections(text: str) -> list:
+##    lines = text.split("\n")
+##    sections = []
+##    current_label = "header"
+##    current_start = 0
+##    current_lines = []
+##    current_confidence = 0.9
+##    experience_seen = False
+##    deferred_contact_lines = []
+##    skip_next = False
+##
+##    for i, line in enumerate(lines):
+##        if skip_next:
+##            skip_next = False
+##            continue
+##
+##        stripped = line.strip()
+##        label, confidence = detect_section_label(stripped, prev_lines=lines[:i])
+##        inline_content = None
+##
+##        if label is not None and stripped != "" and i + 1 < len(lines):
+##            nxt = lines[i + 1].strip()
+##            if (nxt and not _LEADING_BULLET_RE.match(nxt)
+##                    and len(nxt.split()) <= 5 and not _JOB_DATE_RANGE.search(nxt)):
+##                combined = _clean_heading_candidate(f"{stripped} {nxt}")
+##                for combined_label, pattern in SECTION_PATTERNS.items():
+##                    if pattern.match(combined):
+##                        label = combined_label
+##                        confidence = max(confidence, 0.9)
+##                        skip_next = True
+##                        break
+##
+##        if label is None and stripped != "":
+##            two_line_label, two_line_confidence = _try_two_line_heading(lines, i)
+##            if two_line_label is not None:
+##                label = two_line_label
+##                confidence = two_line_confidence
+##                skip_next = True
+##
+##        if label is None and stripped != "":
+##            if current_label not in _LIST_SECTION_LABELS:
+##                heading_candidate, remaining = split_inline_heading(stripped)
+##                if heading_candidate is not None:
+##                    label, confidence = detect_section_label(heading_candidate, prev_lines=lines[:i])
+##                    if label is not None:
+##                        inline_content = remaining
+##
+##        if label is None and stripped != "":
+##            letter_spaced_label = _resolve_letter_spaced_heading(stripped)
+##            if letter_spaced_label is not None:
+##                label = letter_spaced_label
+##                confidence = 0.85
+##
+##        if label is None and stripped != "":
+##            if not _is_wrapped_word(stripped, lines[:i]):
+##                fuzzy_label = _fuzzy_heading_label(stripped)
+##                if fuzzy_label is not None:
+##                    label = fuzzy_label
+##                    confidence = 0.8
+##
+##        if label is None and stripped != "":
+##            if not _is_wrapped_word(stripped, lines[:i]):
+##                if _looks_like_caps_heading_shape(stripped) and _next_line_is_job_entry(i, lines):
+##                    label = "experience"
+##                    confidence = 0.85
+##
+##        if label is None and stripped != "":
+##            if not _is_wrapped_word(stripped, lines[:i]):
+##                heading_score = score_heading_line(stripped, i, lines)
+##                if heading_score >= 0.65:
+##                    resolved = _resolve_unknown_heading(stripped)
+##                    if resolved is not None:
+##                        label = resolved
+##                        confidence = max(heading_score, 0.8)
+##                    else:
+##                        label = "unknown"
+##                        confidence = heading_score
+##
+##        if label == "languages" and stripped != "":
+##            lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
+##            if lookahead and _looks_like_tech_stack_content(lookahead) and not _looks_like_spoken_language_content(lookahead):
+##                label = None
+##                confidence = 0.0
+##                inline_content = None
+##
+##        if label == "summary" and not experience_seen and stripped != "":
+##            upcoming = _next_nonblank_line(lines, i + 1)
+##            if _looks_like_job_entry(upcoming):
+##                label = "experience"
+##                confidence = 0.85
+##
+##        if label is not None and label == current_label:
+##            current_lines.append(line)
+##            continue
+##
+##        if current_label in _LIST_SECTION_LABELS and label == "unknown":
+##            promoted_label = _resolve_unknown_heading(stripped)
+##            if promoted_label is None:
+##                current_lines.append(line)
+##                continue
+##            label = promoted_label
+##            confidence = 0.8
+##
+##        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
+##            if label in {"achievements", "roles_responsibilities"} or stripped.endswith(":") or stripped.endswith(":-"):
+##                current_lines.append(line)
+##                continue
+##
+##        if label is not None and stripped != "":
+##            if label == "experience":
+##                experience_seen = True
+##            section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+##            if section_text:
+##                sections.append(Section(
+##                    label=current_label,
+##                    raw_text=section_text,
+##                    start_line=current_start,
+##                    confidence=current_confidence
+##                ))
+##            current_label = label
+##            current_start = i
+##            current_lines = []
+##            if inline_content:
+##                current_lines.append(inline_content)
+##            current_confidence = confidence
+##        else:
+##            if current_label != "header" and _is_bare_contact_line(stripped):
+##                deferred_contact_lines.append(stripped)
+##            else:
+##                if current_label == "education" and stripped.upper() in ["DETAILS", "DETAIL"]:
+##                    continue
+##                current_lines.append(line)
+##
+##    section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+##    if section_text:
+##        sections.append(Section(
+##            label=current_label,
+##            raw_text=section_text,
+##            start_line=current_start,
+##            confidence=current_confidence
+##        ))
+##
+##    if deferred_contact_lines:
+##        for s in sections:
+##            if s.label == "header":
+##                s.raw_text = (s.raw_text + "\n" + "\n".join(deferred_contact_lines)).strip()
+##                break
+##        else:
+##            sections.insert(0, Section(
+##                label="header",
+##                raw_text="\n".join(deferred_contact_lines),
+##                start_line=0,
+##                confidence=0.9,
+##            ))
+##
+##    return sections
+
+#def split_into_sections(text: str) -> list:
+#    lines = text.split("\n")
+#    sections = []
+#    current_label = "header"
+#    current_start = 0
+#    current_lines = []
+#    current_confidence = 0.9
+#    experience_seen = False
+#    deferred_contact_lines = []
+#    skip_next = False
+#
+#    for i, line in enumerate(lines):
+#        if skip_next:
+#            skip_next = False
+#            continue
+#
+#        stripped = line.strip()
+#        label, confidence = detect_section_label(stripped, prev_lines=lines[:i])
+#        inline_content = None
+#
+#        if label is not None and stripped != "" and i + 1 < len(lines):
+#            nxt = lines[i + 1].strip()
+#            if (nxt and not _LEADING_BULLET_RE.match(nxt)
+#                    and len(nxt.split()) <= 5 and not _JOB_DATE_RANGE.search(nxt)):
+#                combined = _clean_heading_candidate(f"{stripped} {nxt}")
+#                for combined_label, pattern in SECTION_PATTERNS.items():
+#                    if pattern.match(combined):
+#                        label = combined_label
+#                        confidence = max(confidence, 0.9)
+#                        skip_next = True
+#                        break
+#
+#        if label is None and stripped != "":
+#            two_line_label, two_line_confidence = _try_two_line_heading(lines, i)
+#            if two_line_label is not None:
+#                label = two_line_label
+#                confidence = two_line_confidence
+#                skip_next = True
+#
+#        if label is None and stripped != "":
+#            if current_label not in _LIST_SECTION_LABELS:
+#                heading_candidate, remaining = split_inline_heading(stripped)
+#                if heading_candidate is not None:
+#                    label, confidence = detect_section_label(heading_candidate, prev_lines=lines[:i])
+#                    if label is not None:
+#                        inline_content = remaining
+#
+#        if label is None and stripped != "":
+#            letter_spaced_label = _resolve_letter_spaced_heading(stripped)
+#            if letter_spaced_label is not None:
+#                label = letter_spaced_label
+#                confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                fuzzy_label = _fuzzy_heading_label(stripped)
+#                if fuzzy_label is not None:
+#                    label = fuzzy_label
+#                    confidence = 0.8
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                if _looks_like_caps_heading_shape(stripped) and _next_line_is_job_entry(i, lines):
+#                    label = "experience"
+#                    confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                heading_score = score_heading_line(stripped, i, lines)
+#                if heading_score >= 0.65:
+#                    resolved = _resolve_unknown_heading(stripped)
+#                    if resolved is not None:
+#                        label = resolved
+#                        confidence = max(heading_score, 0.8)
+#                    else:
+#                        label = "unknown"
+#                        confidence = heading_score
+#
+#        if label == "languages" and stripped != "":
+#            lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
+#            if lookahead and _looks_like_tech_stack_content(lookahead) and not _looks_like_spoken_language_content(lookahead):
+#                label = None
+#                confidence = 0.0
+#                inline_content = None
+#
+#        if label == "summary" and not experience_seen and stripped != "":
+#            upcoming = _next_nonblank_line(lines, i + 1)
+#            if _looks_like_job_entry(upcoming):
+#                label = "experience"
+#                confidence = 0.85
+#
+#        # --- FIX: When in experience section, be conservative about starting new sections ---
+#        if current_label == "experience":
+#            # If we're in experience section, don't start a new section unless:
+#            # 1. It's clearly a section heading (all caps, short, blank line above)
+#            # 2. OR confidence is very high (>= 0.9)
+#            # 3. OR it matches a section pattern strongly
+#            if label is not None and label != "experience":
+#                # Check if it's a clear section heading
+#                is_clear_heading = (
+#                    stripped == stripped.upper() and 
+#                    len(stripped.split()) <= 4 and 
+#                    (i > 0 and lines[i-1].strip() == "")
+#                )
+#                if not is_clear_heading and confidence < 0.9:
+#                    # It's probably a company name or job detail - keep in experience
+#                    current_lines.append(line)
+#                    continue
+#        # --- END FIX ---
+#
+#        if label is not None and label == current_label:
+#            current_lines.append(line)
+#            continue
+#
+#        if current_label in _LIST_SECTION_LABELS and label == "unknown":
+#            promoted_label = _resolve_unknown_heading(stripped)
+#            if promoted_label is None:
+#                current_lines.append(line)
+#                continue
+#            label = promoted_label
+#            confidence = 0.8
+#
+#        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
+#            if label in {"achievements", "roles_responsibilities"} or stripped.endswith(":") or stripped.endswith(":-"):
+#                current_lines.append(line)
+#                continue
+#
+#        if label is not None and stripped != "":
+#            if label == "experience":
+#                experience_seen = True
+#            section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#            if section_text:
+#                sections.append(Section(
+#                    label=current_label,
+#                    raw_text=section_text,
+#                    start_line=current_start,
+#                    confidence=current_confidence
+#                ))
+#            current_label = label
+#            current_start = i
+#            current_lines = []
+#            
+#            # Add the heading line(s) to the new section
+#            if skip_next and i + 1 < len(lines):
+#                # If we skipped a line (two-line heading), include both
+#                current_lines.append(stripped)
+#                current_lines.append(lines[i + 1].strip())
+#            else:
+#                # Normal case: add the heading itself
+#                current_lines.append(stripped)
+#            
+#            if inline_content:
+#                current_lines.append(inline_content)
+#            current_confidence = confidence
+#        else:
+#            if current_label != "header" and _is_bare_contact_line(stripped):
+#                deferred_contact_lines.append(stripped)
+#            else:
+#                if current_label == "education" and stripped.upper() in ["DETAILS", "DETAIL"]:
+#                    continue
+#                current_lines.append(line)
+#
+#    section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#    if section_text:
+#        sections.append(Section(
+#            label=current_label,
+#            raw_text=section_text,
+#            start_line=current_start,
+#            confidence=current_confidence
+#        ))
+#
+#    if deferred_contact_lines:
+#        for s in sections:
+#            if s.label == "header":
+#                s.raw_text = (s.raw_text + "\n" + "\n".join(deferred_contact_lines)).strip()
+#                break
+#        else:
+#            sections.insert(0, Section(
+#                label="header",
+#                raw_text="\n".join(deferred_contact_lines),
+#                start_line=0,
+#                confidence=0.9,
+#            ))
+#
+#    return sections
+#
+#
+#def get_section_text(sections: list, label: str) -> str:
+#    matching = [s for s in sections if s.label == label]
+#    if not matching:
+#        return ""
+#    return "\n\n".join([s.raw_text for s in matching])
+#
+##not worked - fixing parveen resume to work well.
+#import re
+#from dataclasses import dataclass
+#
+#
+#def _build_section_pattern(core_alternatives: list) -> "re.Pattern":
+#    core = "|".join(core_alternatives)
+#    return re.compile(
+#        rf"^(?:{core})(\s*(&|and|/)\s*[a-z]+(\s+[a-z]+){{0,2}})?$",
+#        re.IGNORECASE
+#    )
+#
+#
+#_SKILL_PREFIX_WORDS = (
+#    r"(technical|core|key|professional|functional|domain|business|"
+#    r"soft|hard|tech|it|general|primary|specialized|relevant)"
+#)
+#_SKILLS_PATTERN = re.compile(
+#    rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise)(?:\s+(sets?|matrix))?"
+#    rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
+#    rf"|function(al)?\s+(and\s+)?technical\s+specialization"
+#    rf"|technical\s+specialization"
+#    rf"|functional\s+specialization"
+#    rf"|technology\s+stack"
+#    rf"|technology\s+summary"
+#    rf"|knowledge\s+summary"
+#    rf"|knowledge\s+base"
+#    rf"|technical\s+snapshot)$",
+#    re.IGNORECASE
+#)
+#
+#_PROJECTS_PATTERN = re.compile(
+#    r"^(?:(personal\s+|side\s+|key\s+|notable\s+|academic\s+|live\s+)?projects?"
+#    r"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){0,2})?"
+#    r"|portfolio"
+#    r"|projects?\s*#?\s*\d+)$",
+#    re.IGNORECASE
+#)
+#
+## A resume heading can carry a trailing date-range qualifier right on the
+## same line, e.g. "PAST EXPERIENCE FROM 2005 TO 2015", "EXPERIENCE
+## (2015-2020)", "WORK HISTORY 2010-2015" -- the base experience pattern
+## (built from _build_section_pattern, like every other section) only
+## allows an optional "& word"/"and word" suffix, so any trailing date
+## range broke the match completely, and the heading fell through as
+## ordinary body text. Confirmed on a real resume (Mrityunjay Prasad Roy):
+## "PAST EXPERIENCE FROM 2005 TO 2015" -- a genuine section heading
+## introducing a list of past employers -- stayed absorbed inside "header"
+## for exactly this reason. Two separate fixes bundled here: (1) "past"
+## and "prior" added to the allowed prefix words (previously only
+## work/industry/relevant/professional/previous), (2) an optional trailing
+## date-range tail appended to the whole pattern. Once the heading line
+## itself matches, split_into_sections()'s existing loop already sweeps
+## every following line into the new "experience" section automatically
+## until the next real heading -- no separate logic is needed for the
+## date range or company names appearing on the SAME line vs the NEXT
+## line, since a bare "Past Experience" heading (no date suffix at all)
+## matches this pattern just as well and the following lines get absorbed
+## exactly the same way either way.
+#_EXPERIENCE_DATE_RANGE_TAIL = (
+#    r"(?:\s*[:\-\u2013\u2014]?\s*\(?\s*(?:from\s+)?\d{4}\s*"
+#    r"(?:to|-|\u2013|\u2014)\s*\d{4}\s*\)?)?"
+#)
+#_EXPERIENCE_PATTERN = re.compile(
+#    rf"^(?:((work|industry|relevant|professional|previous|past|prior)\s*(and\s*)?){{0,2}}experience"
+#    rf"|employment(\s+(history|details|records?|background))?"
+#    rf"|professional\s*background"
+#    rf"|career\s*history|work\s*history|internships?"
+#    rf"|corporate\s+success|career\s+journey|professional\s+journey"
+#    rf"|career\s+chronology|employment\s+timeline)"
+#    rf"{_EXPERIENCE_DATE_RANGE_TAIL}$",
+#    re.IGNORECASE
+#)
+#
+#
+#SECTION_PATTERNS = {
+#    "summary": _build_section_pattern([
+#        r"(professional\s+|personal\s+|profile\s+|executive\s+|career\s+|brief\s+)?summary",
+#        r"objective", r"profile",
+#        r"about\s+me", r"career\s+objective", r"personal\s+statement",
+#    ]),
+#    "experience": _EXPERIENCE_PATTERN,
+#    "education": _build_section_pattern([
+#        r"education(al)?(\s+background)?",
+#        r"academics?(\s+background)?",
+#        r"academic\s+qualifications?", r"educational\s+qualifications?",
+#        r"qualifications?",
+#        r"degrees?", r"university", r"college",
+#    ]),
+#    "skills": _SKILLS_PATTERN,
+#    "projects": _PROJECTS_PATTERN,
+#    "certifications": _build_section_pattern([
+#        r"certif(ication|icate)s?(\s*\([^)]*\))?", r"licen[sc]es?(\s*\([^)]*\))?",
+#        r"accreditations?", r"credentials?", r"professional\s+certifications?",
+#        r"trainings?",
+#    ]),
+#    "achievements": _build_section_pattern([
+#        r"(key|major|notable|special|top)\s+achievements?",
+#        r"achievements?", r"awards?", r"honou?rs?", r"recognitions?",
+#        r"accomplishments?", r"accolades?",
+#        r"rewards?",
+#    ]),
+#    "languages": _build_section_pattern([
+#        r"languages?(\s+(skills|known|proficiency))?", r"spoken\s+languages?",
+#        r"language\s+skills",
+#    ]),
+#    "interests": _build_section_pattern([
+#        r"interests?", r"hobbies", r"activities",
+#    ]),
+#    "other": _build_section_pattern([
+#        r"custom\s+section", r"additional\s+information",
+#        r"miscellaneous", r"additional\s+details",
+#    ]),
+#    "strengths": _build_section_pattern([
+#        r"(key\s+)?strengths?", r"core\s+strengths?",
+#    ]),
+#    "personal_details": _build_section_pattern([
+#        r"personal\s+(details|information|profile|data)",
+#        r"bio\s*-?\s*data",
+#    ]),
+#    "declaration": _build_section_pattern([
+#        r"declaration", r"self[\s-]?declaration",
+#    ]),
+#    "roles_responsibilities": re.compile(
+#        r"^roles?\s+(and|&)?\s*responsibilit(y|ies)\s*(and|&)?$",
+#        re.IGNORECASE
+#    ),
+#    "early_career": re.compile(
+#        r"^(?:early\s+career(s)?"
+#        r"|last\s+\d+\s+(years?\s+)?career\s+timeline"
+#        r"|career\s+synopsis"
+#        r"|career\s+snapshot"
+#        r"|career\s+at\s+a\s+glance"
+#        r"|(prior|past|previous)\s+engagements?)$",
+#        re.IGNORECASE
+#    ),
+#}
+#
+#
+#_LIST_SECTION_LABELS = {
+#    "skills", "education", "certifications", "achievements",
+#    "languages", "projects", "interests", "strengths", "experience",
+#    "early_career",
+#}
+#
+#
+#_SECTION_KEYWORDS = [
+#    "skill", "experience", "education", "project", "certif", "licen",
+#    "achievement", "award", "honor", "honour", "summary", "objective",
+#    "qualification", "employment", "career", "academic", "competenc",
+#    "expertise", "technolog", "portfolio", "credential", "accreditation",
+#    "recognition", "accomplishment", "language", "interest", "hobbies",
+#    "research", "leadership", "internship", "training", "volunteer",
+#    "publication", "reference", "extracurricular", "strength",
+#    "personal", "declaration", "responsibilit",
+#    "corporate", "success", "journey", "chronology", "timeline",
+#    "reward", "synopsis", "snapshot", "glance", "engagement",
+#]
+#
+#
+#_KEYWORD_TO_LABEL = {
+#    "summary": "summary", "objective": "summary",
+#    "skill": "skills", "expertise": "skills", "competenc": "skills", "technolog": "skills",
+#    "career timeline": "early_career", "career synopsis": "early_career",
+#    "career snapshot": "early_career", "career at a glance": "early_career",
+#    "early career": "early_career", "timeline": "early_career",
+#    "synopsis": "early_career", "snapshot": "early_career",
+#    "experience": "experience", "employment": "experience", "career": "experience",
+#    "internship": "experience",
+#    "education": "education", "qualification": "education", "academic": "education",
+#    "project": "projects", "portfolio": "projects",
+#    "certif": "certifications", "licen": "certifications", "credential": "certifications",
+#    "accreditation": "certifications", "training": "certifications",
+#    "achievement": "achievements", "award": "achievements", "honor": "achievements",
+#    "honour": "achievements", "recognition": "achievements", "accomplishment": "achievements",
+#    "reward": "achievements",
+#    "language": "languages",
+#    "interest": "interests", "hobbies": "interests",
+#    "strength": "strengths",
+#    "declaration": "declaration",
+#    "personal": "personal_details",
+#    "responsibilit": "roles_responsibilities",
+#}
+
+
+#@dataclass
+#class Section:
+#    label: str
+#    raw_text: str
+#    start_line: int
+#    confidence: float
+#
+#
+#def _clean_heading_candidate(line: str) -> str:
+#    cleaned = line.strip()
+#    cleaned = re.sub(r"^[•●○◦▪➤►‣✓✔☑\-\*]+\s*", "", cleaned)
+#    cleaned = cleaned.strip(":-—–_ ")
+#    return cleaned
+#
+#
+#def _is_wrapped_word(candidate: str, prev_lines: list) -> bool:
+#    if " " in candidate:
+#        return False
+#    if candidate != candidate.lower():
+#        return False
+#    for prev in reversed(prev_lines):
+#        prev_stripped = prev.strip()
+#        if prev_stripped:
+#            return prev_stripped[-1] not in {'.', ':', ';', '?', '!'}
+#    return False
+#
+#
+#def split_inline_heading(line: str):
+#    stripped = line.strip()
+#    for separator in ["•", "●", ":", "-", "–", "—"]:
+#        if separator not in stripped:
+#            continue
+#        heading_candidate = stripped.split(separator, 1)[0].strip()
+#        if not heading_candidate:
+#            continue
+#        for label, pattern in SECTION_PATTERNS.items():
+#            if pattern.match(heading_candidate):
+#                remaining = stripped[len(heading_candidate):].strip()
+#                remaining = remaining.lstrip("•●:-–— ").strip()
+#                return heading_candidate, remaining
+#    return None, None
+#
+#
+#def normalize_inline_bullets(text: str) -> str:
+#    normalized = []
+#    for raw_line in text.splitlines():
+#        bullet_count = raw_line.count("•") + raw_line.count("●")
+#        if bullet_count <= 1:
+#            normalized.append(raw_line)
+#            continue
+#        pieces = [p.strip() for p in re.split(r"[•●]", raw_line) if p.strip()]
+#        for piece in pieces:
+#            normalized.append(f"• {piece}")
+#    return "\n".join(normalized)
+#
+#
+#_BARE_EMAIL_LINE = re.compile(r"^[\w.\-+]+@[\w.\-]+\.\w+$")
+#_BARE_PHONE_LINE = re.compile(
+#    r"^(mob(ile)?\.?\s*(no\.?|number)?\s*[:\-]?\s*|contact\s*[:\-]?\s*|"
+#    r"phone\s*[:\-]?\s*|tel\s*[:\-]?\s*)?\+?\d[\d\-\s()]{6,}\d$",
+#    re.IGNORECASE,
+#)
+#
+#
+#def _is_bare_contact_line(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped:
+#        return False
+#    if _JOB_DATE_RANGE.search(stripped):
+#        return False
+#    stripped = re.sub(r"^[^\w+]+", "", stripped).strip()
+#    return bool(_BARE_EMAIL_LINE.match(stripped) or _BARE_PHONE_LINE.match(stripped))
+#
+#
+#_JOB_MONTH_NAMES = (
+#    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|"
+#    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
+#    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+#)
+#
+#_JOB_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.]*{_JOB_MONTH_NAMES}[\s,.]*\d{{4}}"
+#
+#_JOB_DATE_RANGE = re.compile(
+#    rf"(?:,\s*)?(?:{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))"
+#    rf"\s*(?:[-–—\u2013\u2014]+\s*|(?=(?:Current|Present|Now|Till)\b))"
+#    rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|current|present|now|"
+#    rf"{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))",
+#    re.IGNORECASE
+#)
+#
+#
+#_FUZZY_HEADING_KEYWORDS = {
+#    "experience": "experience",
+#    "summary": "summary",
+#    "objective": "summary",
+#    "profile": "summary",
+#    "education": "education",
+#    "skills": "skills",
+#    "projects": "projects",
+#    "certifications": "certifications",
+#    "achievements": "achievements",
+#    "languages": "languages",
+#    "interests": "interests",
+#    "declaration": "declaration",
+#    "strengths": "strengths",
+#}
+#
+#import difflib
+#
+#
+#def _fuzzy_heading_label(candidate: str):
+#    word = candidate.strip().lower()
+#    if not word.isalpha() or len(word) < 5:
+#        return None
+#    for keyword, label in _FUZZY_HEADING_KEYWORDS.items():
+#        if abs(len(word) - len(keyword)) > 2:
+#            continue
+#        if difflib.get_close_matches(word, [keyword], n=1, cutoff=0.82):
+#            return label
+#    return None
+#
+#
+#def _looks_like_job_entry(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped or len(stripped) > 120:
+#        return False
+#    return bool(_JOB_DATE_RANGE.search(stripped))
+#
+#
+#def _next_nonblank_line(lines: list, start_index: int) -> str:
+#    i = start_index
+#    while i < len(lines):
+#        if lines[i].strip():
+#            return lines[i].strip()
+#        i += 1
+#    return ""
+#
+#
+#_CAPS_HEADING_SHAPE = re.compile(r"^[A-Z\s&/]+$")
+#
+#
+#def _looks_like_caps_heading_shape(stripped: str) -> bool:
+#    return bool(
+#        stripped == stripped.upper()
+#        and _CAPS_HEADING_SHAPE.match(stripped)
+#        and len(stripped.split()) <= 4
+#        and not stripped.endswith(".")
+#    )
+#
+#
+#def _next_line_is_job_entry(line_index: int, all_lines: list) -> bool:
+#    upcoming = _next_nonblank_line(all_lines, line_index + 1)
+#    return _looks_like_job_entry(upcoming)
+#
+#
+#_LEADING_BULLET_RE = re.compile(r"^[•●○◦▪➤►‣✓✔☑\-\*]")
+#
+#
+#def _try_two_line_heading(lines: list, i: int):
+#    if i + 1 >= len(lines):
+#        return None, 0.0
+#    first = lines[i].strip()
+#    second = lines[i + 1].strip()
+#    if not first or not second:
+#        return None, 0.0
+#    if _LEADING_BULLET_RE.match(second):
+#        return None, 0.0
+#    if _is_wrapped_word(first, lines[:i]):
+#        return None, 0.0
+#
+#    joined = _clean_heading_candidate(f"{first} {second}")
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(joined):
+#            return label, 0.9
+#    return None, 0.0
+#
+#
+#def detect_section_label(line: str, prev_lines: list = None) -> tuple:
+#    if prev_lines is None:
+#        prev_lines = []
+#    candidate = _clean_heading_candidate(line)
+#    if not candidate:
+#        return None, 0.0
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(candidate):
+#            if _is_wrapped_word(candidate, prev_lines):
+#                return None, 0.0
+#            return label, 0.95
+#    return None, 0.0
+#
+#
+#def _contains_section_keyword(line: str) -> bool:
+#    lower = line.lower()
+#    return any(keyword in lower for keyword in _SECTION_KEYWORDS)
+#
+#
+#def score_heading_line(line: str, line_index: int, all_lines: list) -> float:
+#    stripped = line.strip()
+#    if len(stripped) == 0:
+#        return 0.0
+#    if stripped[:1] in ("•", "●"):
+#        return 0.0
+#    if line_index <= 1:
+#        return 0.0
+#    word_count = len(stripped.split())
+#    if word_count > 8 or len(stripped) > 60:
+#        return 0.0
+#    if stripped.endswith("."):
+#        return 0.0
+#    score = 0.0
+#    is_all_caps = stripped == stripped.upper() and re.match(r"^[A-Z\s&/]+$", stripped)
+#    if is_all_caps:
+#        score += 0.3
+#    if word_count <= 4:
+#        score += 0.2
+#    elif word_count <= 6:
+#        score += 0.1
+#    blank_below = (line_index + 1 < len(all_lines) and all_lines[line_index + 1].strip() == "")
+#    blank_above = (line_index > 0 and all_lines[line_index - 1].strip() == "")
+#    if blank_below:
+#        score += 0.2
+#    if blank_above:
+#        score += 0.15
+#    if stripped.endswith(":"):
+#        score += 0.15
+#    if "," not in stripped and ". " not in stripped:
+#        score += 0.1
+#    if _contains_section_keyword(stripped):
+#        score += 0.35
+#    else:
+#        if not blank_below and not blank_above:
+#            score *= 0.5
+#
+#    if re.search(r':\s*[A-Za-z0-9]', stripped) and not stripped.endswith(':'):
+#        score *= 0.3
+#
+#    return min(score, 1.0)
+
+
+#_LETTER_SPACED_TOKEN_RE = re.compile(r"^[A-Za-z0-9&]$")
+
+
+#def _is_letter_spaced_heading(line: str) -> bool:
+#    tokens = line.split()
+#    if len(tokens) < 4:
+#        return False
+#    single_char = sum(1 for t in tokens if _LETTER_SPACED_TOKEN_RE.match(t))
+#    return (single_char / len(tokens)) >= 0.7
+#
+#
+#def _resolve_letter_spaced_heading(line: str):
+#    if not _is_letter_spaced_heading(line):
+#        return None
+#    collapsed = "".join(line.split()).lower()
+#    if len(collapsed) < 4:
+#        return None
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in collapsed:
+#            return mapped_label
+#    return None
+#
+#
+#_TECH_STACK_KEYWORDS = {
+#    "php", "html", "html5", "css", "css3", "javascript", "js", "java", "python",
+#    "sql", "mysql", "postgresql", "postgres", "mongodb", "nosql", "react",
+#    "reactjs", "angular", "angularjs", "vue", "vuejs", "node", "nodejs",
+#    "jquery", "bootstrap", "laravel", "codeigniter", "django", "flask",
+#    "spring", "typescript", "ruby", "rails", "golang", "kotlin", "swift",
+#    "dotnet", "aws", "azure", "gcp", "docker", "kubernetes", "git", "github",
+#    "ajax", "rest", "graphql", "redux", "express", "webpack", "sass", "less",
+#    "xml", "json", "linux", "c", "c++", "c#", "r", "scala", "perl", "bash",
+#    "shell", "matlab", "sqlite", "oracle", "firebase", "npm", "yarn",
+#}
+#
+#_SPOKEN_LANGUAGE_KEYWORDS = {
+#    "english", "hindi", "spanish", "french", "german", "mandarin", "chinese",
+#    "cantonese", "arabic", "portuguese", "russian", "japanese", "korean",
+#    "italian", "punjabi", "bengali", "tamil", "telugu", "marathi", "gujarati",
+#    "urdu", "kannada", "malayalam", "dutch", "turkish", "vietnamese", "thai",
+#    "polish", "swedish", "greek", "hebrew", "indonesian", "farsi", "persian",
+#}
+#
+#_WORD_TOKEN_RE = re.compile(r"[a-zA-Z+#.]+")
+#
+#
+#def _looks_like_tech_stack_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _TECH_STACK_KEYWORDS for w in words)
+#
+#
+#def _looks_like_spoken_language_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _SPOKEN_LANGUAGE_KEYWORDS for w in words)
+#
+#
+#def _resolve_unknown_heading(stripped: str):
+#    """
+#    Guard 2 (word-count cap) added: only promote a SHORT candidate
+#    (<=4 words) via this fuzzy, substring-based keyword match. A genuine
+#    section heading reached through this fallback is almost always
+#    compact ("Certifications", "Last 5 Career Timeline" -- both <=4
+#    words). A longer, descriptive subheading that merely CONTAINS a
+#    keyword as one word among several is a different thing -- it's still
+#    describing the same ongoing topic as its neighboring, correctly-
+#    absorbed subheadings, not introducing a real new section. Confirmed
+#    on a real resume (Mrityunjay Prasad Roy): "TRADE MARK & OTHER
+#    LICENSES" is one of several all-caps subheadings inside a long "Areas
+#    of Expertise" list (siblings "FEMA / RBI COMPLIANCES" and "SECURITIES
+#    LAW & EXCHANGE COMPLIANCES" were correctly absorbed as plain content,
+#    since neither contains a recognized keyword). This one subheading
+#    alone happened to contain the word "LICENSES", matching the "licen"
+#    -> "certifications" mapping, and got incorrectly promoted into its
+#    own "certifications" section -- even though it's the same kind of
+#    topic subheading as its unpromoted siblings, not an actual list of
+#    the candidate's certifications (no certificate names, issuing
+#    bodies, or dates anywhere in the content that followed).
+#    """
+#    colon_idx = stripped.find(":")
+#    if colon_idx != -1 and stripped[colon_idx + 1:].strip():
+#        return None
+#
+#    if len(stripped.split()) > 4:
+#        return None
+#
+#    lower = stripped.lower()
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in lower:
+#            return mapped_label
+#    return None
+#
+#
+#def split_into_sections(text: str) -> list:
+#    lines = text.split("\n")
+#    sections = []
+#    current_label = "header"
+#    current_start = 0
+#    current_lines = []
+#    current_confidence = 0.9
+#    experience_seen = False
+#    deferred_contact_lines = []
+#    skip_next = False
+#
+#    for i, line in enumerate(lines):
+#        if skip_next:
+#            skip_next = False
+#            continue
+#
+#        stripped = line.strip()
+#        label, confidence = detect_section_label(stripped, prev_lines=lines[:i])
+#        inline_content = None
+#
+#        if label is not None and stripped != "" and i + 1 < len(lines):
+#            nxt = lines[i + 1].strip()
+#            if (nxt and not _LEADING_BULLET_RE.match(nxt)
+#                    and len(nxt.split()) <= 5 and not _JOB_DATE_RANGE.search(nxt)):
+#                combined = _clean_heading_candidate(f"{stripped} {nxt}")
+#                for combined_label, pattern in SECTION_PATTERNS.items():
+#                    if pattern.match(combined):
+#                        label = combined_label
+#                        confidence = max(confidence, 0.9)
+#                        skip_next = True
+#                        break
+#
+#        if label is None and stripped != "":
+#            two_line_label, two_line_confidence = _try_two_line_heading(lines, i)
+#            if two_line_label is not None:
+#                label = two_line_label
+#                confidence = two_line_confidence
+#                skip_next = True
+#
+#        if label is None and stripped != "":
+#            if current_label not in _LIST_SECTION_LABELS:
+#                heading_candidate, remaining = split_inline_heading(stripped)
+#                if heading_candidate is not None:
+#                    label, confidence = detect_section_label(heading_candidate, prev_lines=lines[:i])
+#                    if label is not None:
+#                        inline_content = remaining
+#
+#        if label is None and stripped != "":
+#            letter_spaced_label = _resolve_letter_spaced_heading(stripped)
+#            if letter_spaced_label is not None:
+#                label = letter_spaced_label
+#                confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                fuzzy_label = _fuzzy_heading_label(stripped)
+#                if fuzzy_label is not None:
+#                    label = fuzzy_label
+#                    confidence = 0.8
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                if _looks_like_caps_heading_shape(stripped) and _next_line_is_job_entry(i, lines):
+#                    label = "experience"
+#                    confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                heading_score = score_heading_line(stripped, i, lines)
+#                if heading_score >= 0.65:
+#                    resolved = _resolve_unknown_heading(stripped)
+#                    if resolved is not None:
+#                        label = resolved
+#                        confidence = max(heading_score, 0.8)
+#                    else:
+#                        label = "unknown"
+#                        confidence = heading_score
+#
+#        if label == "languages" and stripped != "":
+#            lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
+#            if lookahead and _looks_like_tech_stack_content(lookahead) and not _looks_like_spoken_language_content(lookahead):
+#                label = None
+#                confidence = 0.0
+#                inline_content = None
+#
+#        if label == "summary" and not experience_seen and stripped != "":
+#            upcoming = _next_nonblank_line(lines, i + 1)
+#            if _looks_like_job_entry(upcoming):
+#                label = "experience"
+#                confidence = 0.85
+#
+#        if label is not None and label == current_label:
+#            current_lines.append(line)
+#            continue
+#
+#        if current_label in _LIST_SECTION_LABELS and label == "unknown":
+#            promoted_label = _resolve_unknown_heading(stripped)
+#            if promoted_label is None:
+#                current_lines.append(line)
+#                continue
+#            label = promoted_label
+#            confidence = 0.8
+#
+#        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
+#            if label in {"achievements", "roles_responsibilities"} or stripped.endswith(":") or stripped.endswith(":-"):
+#                current_lines.append(line)
+#                continue
+#
+#        if label is not None and stripped != "":
+#            if label == "experience":
+#                experience_seen = True
+#            section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#            if section_text:
+#                sections.append(Section(
+#                    label=current_label,
+#                    raw_text=section_text,
+#                    start_line=current_start,
+#                    confidence=current_confidence
+#                ))
+#            current_label = label
+#            current_start = i
+#            current_lines = []
+#            if inline_content:
+#                current_lines.append(inline_content)
+#            current_confidence = confidence
+#        else:
+#            if current_label != "header" and _is_bare_contact_line(stripped):
+#                deferred_contact_lines.append(stripped)
+#            else:
+#                current_lines.append(line)
+#
+#    section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#    if section_text:
+#        sections.append(Section(
+#            label=current_label,
+#            raw_text=section_text,
+#            start_line=current_start,
+#            confidence=current_confidence
+#        ))
+#
+#    if deferred_contact_lines:
+#        for s in sections:
+#            if s.label == "header":
+#                s.raw_text = (s.raw_text + "\n" + "\n".join(deferred_contact_lines)).strip()
+#                break
+#        else:
+#            sections.insert(0, Section(
+#                label="header",
+#                raw_text="\n".join(deferred_contact_lines),
+#                start_line=0,
+#                confidence=0.9,
+#            ))
+#
+#    return sections
+#
+#
+#def get_section_text(sections: list, label: str) -> str:
+#    matching = [s for s in sections if s.label == label]
+#    if not matching:
+#        return ""
+#    return "\n\n".join([s.raw_text for s in matching])
+#
+#
+
+
+
+
+
+
+
+
+##worked - final one, changing just for to work docx resumes
+#r"""
+#Section Splitter — Layer 1 (Fixed Production Version, revision 22)
+#
+#CHANGELOG (rev 22):
+#- _is_bare_contact_line() no longer misclassifies numeric date ranges
+#  ("2022-04-03 - 2023-07-15") as bare phone-number lines. Confirmed on a
+#  real resume (Rohit Shivnath Zimbar): four of five job date ranges
+#  (every one using a plain ASCII hyphen) were silently deferred out of
+#  the "experience" section entirely and dumped into "header", because
+#  _BARE_PHONE_LINE's character class has no way to distinguish a phone
+#  number from a same-shaped date range. Checking _JOB_DATE_RANGE first
+#  and bailing out on a real match fixes this.
+#
+#CHANGELOG (rev 21):
+#- _JOB_DATE_RANGE now recognizes day-first date ranges ("04 May, 2023 –
+#  08 Dec 2025"), mirroring the same fix applied to experience.py's
+#  DATE_RANGE_RE. Confirmed on a real resume (Sachin Chauhan).
+#
+#CHANGELOG (rev 20):
+#- _JOB_DATE_RANGE now recognizes month-name date ranges ("Oct 2023 –
+#  Nov 2025"), not just numeric formats. This directly fixes the
+#  summary->experience promotion check for resumes whose real job
+#  history sits under a heading that also matches "summary" (e.g. a
+#  second "PROFESSIONAL SUMMARY" heading actually introducing detailed
+#  job entries) when those job entries use month names rather than
+#  numeric dates. Confirmed on a real resume (Sachin Chitranshi).
+#
+#CHANGELOG (rev 19):
+#- Widened the "skills" pattern to cover a broader alias list: "technical
+#  expertise", "technology stack", "technology summary", "knowledge
+#  summary", "knowledge base", "technical snapshot", "skill matrix".
+#- Added tech-stack vs spoken-language disambiguation for the "languages"
+#  label. Confirmed on a real resume (Sachin Chauhan): a skills-matrix
+#  table used "Languages" as a row label ("Languages: PHP, JavaScript"),
+#  which correctly matched the real "languages" section pattern by its
+#  own rules, but wrongly split the skills matrix into a separate
+#  "languages" section and dragged every following row into it. Now,
+#  before committing a "languages" match, we check what follows the
+#  heading -- tech-stack terms (php, react, mysql...) suppress the split
+#  so the line falls through and gets absorbed into whatever section
+#  (usually "skills") is already open; recognizable spoken-language names
+#  (English, Hindi...) still split normally. See
+#  _looks_like_tech_stack_content / _looks_like_spoken_language_content.
+#
+#CHANGELOG (rev 18):
+#- Added a new "early_career" section label for condensed one-line-per-job
+#  recap tables (e.g. "LAST 5 CAREER TIMELINE" followed by lines like
+#  "Oct-2023 - Nov-2025 | Manager | KPMG"), kept distinct from the main
+#  "experience" section so detailed bullets and condensed recap entries
+#  don't get merged into one messy section.
+#- Generalized unknown-heading resolution: previously _resolve_unknown_heading()
+#  only ran when deciding whether to absorb a heading-scored line into an
+#  already-open list-type section. A heading transitioning FROM a
+#  non-list section (e.g. "summary") straight into "unknown" never got a
+#  chance to resolve at all -- confirmed on a real resume (Sachin
+#  Chitranshi) where this was exactly why "LAST 5 CAREER TIMELINE" landed
+#  as a bare "unknown" section instead of a real label. Resolution now
+#  runs at the point "unknown" is first assigned, not just later at the
+#  absorption-check.
+#
+#CHANGELOG (rev 17):
+#- Added _is_letter_spaced_heading() / _resolve_letter_spaced_heading() to
+#  handle resume templates whose headings extract with a literal space
+#  between every letter (e.g. "P R O F E S S I O N A L S U M M A R Y"),
+#  which defeats both SECTION_PATTERNS (word-boundary regexes) and
+#  score_heading_line (word-count cutoff) simultaneously. Confirmed on a
+#  real resume (Ritika Jain) where this collapsed the entire document
+#  into one "header" section. See _resolve_letter_spaced_heading's
+#  docstring for the matching approach.
+#
+#CHANGELOG (rev 16):
+#- certifications/achievements patterns widened to tolerate a trailing
+#  parenthetical qualifier (e.g. "Certifications (Technical + Management)")
+#  and, for achievements, a leading qualifier word (e.g. "KEY ACHIEVEMENTS"),
+#  matching the prefix support "skills" already had.
+#- Added _resolve_unknown_heading() + updated the _LIST_SECTION_LABELS
+#  absorption check in split_into_sections(). Previously ANY line scoring
+#  "unknown" inside a list-type section (skills/education/experience/etc.)
+#  was silently absorbed into that section, with no way to tell a harmless
+#  sub-label ("Programming Languages:" inside a skills list) apart from a
+#  genuine new section heading whose exact phrasing wasn't in
+#  SECTION_PATTERNS (e.g. "Certifications (Technical + Management)" landing
+#  inside "experience", "KEY ACHIEVEMENTS" landing inside "strengths" --
+#  both confirmed on real resumes, Sachin Singh and Saheb Jaggi). Now, before
+#  absorbing, we try to resolve the line to a real label via the same
+#  keyword set score_heading_line already used to flag it as heading-shaped
+#  in the first place. Only promotes when the line looks like a bare heading
+#  (nothing meaningful after a trailing colon) so a genuine in-list bullet
+#  like "Certifications: AWS, Azure" is NOT mistaken for a new section.
+#"""
+#
+#import re
+#from dataclasses import dataclass
+#
+#
+#def _build_section_pattern(core_alternatives: list) -> "re.Pattern":
+#    core = "|".join(core_alternatives)
+#    return re.compile(
+#        rf"^(?:{core})(\s*(&|and|/)\s*[a-z]+(\s+[a-z]+){{0,2}})?$",
+#        re.IGNORECASE
+#    )
+#
+#
+#_SKILL_PREFIX_WORDS = (
+#    r"(technical|core|key|professional|functional|domain|business|"
+#    r"soft|hard|tech|it|general|primary|specialized|relevant)"
+#)
+## Core keywords widened to also cover "expertise" (e.g. "technical
+## expertise"), and the optional suffix widened to also cover "matrix"
+## (e.g. "skill matrix") alongside the existing "sets?" ("skill set").
+## Standalone phrases that don't have "skill"/"competenc*"/"expertise" as
+## their own head noun at all -- "technology stack", "technology summary",
+## "knowledge summary", "knowledge base", "technical snapshot" -- are
+## added as separate top-level alternatives instead, since they don't fit
+## the prefix+core structure.
+#_SKILLS_PATTERN = re.compile(
+#    rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise)(?:\s+(sets?|matrix))?"
+#    rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
+#    rf"|function(al)?\s+(and\s+)?technical\s+specialization"
+#    rf"|technical\s+specialization"
+#    rf"|functional\s+specialization"
+#    rf"|technology\s+stack"
+#    rf"|technology\s+summary"
+#    rf"|knowledge\s+summary"
+#    rf"|knowledge\s+base"
+#    rf"|technical\s+snapshot)$",
+#    re.IGNORECASE
+#)
+#
+#_PROJECTS_PATTERN = re.compile(
+#    r"^(?:(personal\s+|side\s+|key\s+|notable\s+|academic\s+|live\s+)?projects?"
+#    r"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){0,2})?"
+#    r"|portfolio"
+#    r"|projects?\s*#?\s*\d+)$",
+#    re.IGNORECASE
+#)
+#
+#
+#SECTION_PATTERNS = {
+#    "summary": _build_section_pattern([
+#        r"(professional\s+|personal\s+|profile\s+|executive\s+|career\s+|brief\s+)?summary",
+#        r"objective", r"profile",
+#        r"about\s+me", r"career\s+objective", r"personal\s+statement",
+#    ]),
+#    "experience": _build_section_pattern([
+#        r"((work|industry|relevant|professional|previous)\s*(and\s*)?){0,2}experience",
+#        r"employment(\s+(history|details|records?|background))?", r"professional\s*background",
+#        r"career\s*history", r"work\s*history", r"internships?",
+#        r"corporate\s+success", r"career\s+journey", r"professional\s+journey",
+#        r"career\s+chronology", r"employment\s+timeline",
+#    ]),
+#    "education": _build_section_pattern([
+#        r"education(al)?(\s+background)?",
+#        r"academics?(\s+background)?",
+#        r"academic\s+qualifications?", r"educational\s+qualifications?",
+#        r"qualifications?",
+#        r"degrees?", r"university", r"college",
+#    ]),
+#    "skills": _SKILLS_PATTERN,
+#    "projects": _PROJECTS_PATTERN,
+#    # Widened to tolerate a trailing parenthetical qualifier, e.g.
+#    # "Certifications (Technical + Management)" (confirmed on Sachin
+#    # Singh's resume) which the old pattern rejected outright since it
+#    # only allowed an "& word" / "and word" suffix, not a parenthetical.
+#    "certifications": _build_section_pattern([
+#        r"certif(ication|icate)s?(\s*\([^)]*\))?", r"licen[sc]es?(\s*\([^)]*\))?",
+#        r"accreditations?", r"credentials?", r"professional\s+certifications?",
+#        r"trainings?",
+#    ]),
+#    # Widened to tolerate a leading qualifier word, e.g. "KEY ACHIEVEMENTS"
+#    # (confirmed on Saheb Jaggi's resume) -- "skills" already supported an
+#    # analogous prefix group; achievements never got the same treatment.
+#    "achievements": _build_section_pattern([
+#        r"(key|major|notable|special|top)\s+achievements?",
+#        r"achievements?", r"awards?", r"honou?rs?", r"recognitions?",
+#        r"accomplishments?", r"accolades?",
+#        r"rewards?",
+#    ]),
+#    "languages": _build_section_pattern([
+#        r"languages?(\s+(skills|known|proficiency))?", r"spoken\s+languages?",
+#        r"language\s+skills",
+#    ]),
+#    "interests": _build_section_pattern([
+#        r"interests?", r"hobbies", r"activities",
+#    ]),
+#    "other": _build_section_pattern([
+#        r"custom\s+section", r"additional\s+information",
+#        r"miscellaneous", r"additional\s+details",
+#    ]),
+#    "strengths": _build_section_pattern([
+#        r"(key\s+)?strengths?", r"core\s+strengths?",
+#    ]),
+#    "personal_details": _build_section_pattern([
+#        r"personal\s+(details|information|profile|data)",
+#        r"bio\s*-?\s*data",
+#    ]),
+#    "declaration": _build_section_pattern([
+#        r"declaration", r"self[\s-]?declaration",
+#    ]),
+#    "roles_responsibilities": re.compile(
+#        r"^roles?\s+(and|&)?\s*responsibilit(y|ies)\s*(and|&)?$",
+#        re.IGNORECASE
+#    ),
+#    # Condensed "here's my last N jobs in one line each" recap, distinct
+#    # from the full "experience" section's detailed per-job bullets.
+#    # Confirmed on a real resume (Sachin Chitranshi): "LAST 5 CAREER
+#    # TIMELINE" headed a block of one-line entries like "Oct-2023 -
+#    # Nov-2025 | Manager | KPMG" that restate the same jobs covered in
+#    # full detail later in the document. Kept as its own label (not
+#    # folded into "experience") so the detailed section isn't polluted
+#    # with duplicate condensed entries -- the two are merged only at the
+#    # total-years-of-experience calculation step (see experience.py),
+#    # where the interval-merge logic already collapses overlapping/
+#    # identical date ranges.
+#    "early_career": re.compile(
+#        r"^(?:early\s+career(s)?"
+#        r"|last\s+\d+\s+(years?\s+)?career\s+timeline"
+#        r"|career\s+timeline"
+#        r"|career\s+synopsis"
+#        r"|career\s+snapshot"
+#        r"|career\s+at\s+a\s+glance"
+#        r"|(prior|past|previous)\s+engagements?)$",
+#        re.IGNORECASE
+#    ),
+#}
+#
+#
+#_LIST_SECTION_LABELS = {
+#    "skills", "education", "certifications", "achievements",
+#    "languages", "projects", "interests", "strengths", "experience",
+#    "early_career",
+#}
+#
+#
+#_SECTION_KEYWORDS = [
+#    "skill", "experience", "education", "project", "certif", "licen",
+#    "achievement", "award", "honor", "honour", "summary", "objective",
+#    "qualification", "employment", "career", "academic", "competenc",
+#    "expertise", "technolog", "portfolio", "credential", "accreditation",
+#    "recognition", "accomplishment", "language", "interest", "hobbies",
+#    "research", "leadership", "internship", "training", "volunteer",
+#    "publication", "reference", "extracurricular", "strength",
+#    "personal", "declaration", "responsibilit",
+#    "corporate", "success", "journey", "chronology", "timeline",
+#    "reward", "synopsis", "snapshot", "glance", "engagement",
+#]
+#
+#
+## Maps a keyword substring (same vocabulary as _SECTION_KEYWORDS, which is
+## what caused score_heading_line to flag a line as heading-shaped in the
+## first place) to the actual section label it corresponds to. Used by
+## _resolve_unknown_heading() to turn a generic "unknown" classification
+## into a real label instead of the line being blindly absorbed into
+## whatever list-type section happens to be open.
+#_KEYWORD_TO_LABEL = {
+#    "summary": "summary", "objective": "summary",
+#    "skill": "skills", "expertise": "skills", "competenc": "skills", "technolog": "skills",
+#    # Checked BEFORE the generic "career" -> "experience" mapping below,
+#    # since dict iteration order determines which mapping wins first on
+#    # a substring match, and these are more specific than a bare "career".
+#    "career timeline": "early_career", "career synopsis": "early_career",
+#    "career snapshot": "early_career", "career at a glance": "early_career",
+#    "early career": "early_career", "timeline": "early_career",
+#    "synopsis": "early_career", "snapshot": "early_career",
+#    "experience": "experience", "employment": "experience", "career": "experience",
+#    "internship": "experience",
+#    "education": "education", "qualification": "education", "academic": "education",
+#    "project": "projects", "portfolio": "projects",
+#    "certif": "certifications", "licen": "certifications", "credential": "certifications",
+#    "accreditation": "certifications", "training": "certifications",
+#    "achievement": "achievements", "award": "achievements", "honor": "achievements",
+#    "honour": "achievements", "recognition": "achievements", "accomplishment": "achievements",
+#    "reward": "achievements",
+#    "language": "languages",
+#    "interest": "interests", "hobbies": "interests",
+#    "strength": "strengths",
+#    "declaration": "declaration",
+#    "personal": "personal_details",
+#    "responsibilit": "roles_responsibilities",
+#}
+#
+#
+#@dataclass
+#class Section:
+#    label: str
+#    raw_text: str
+#    start_line: int
+#    confidence: float
+#
+#
+#def _clean_heading_candidate(line: str) -> str:
+#    cleaned = line.strip()
+#    cleaned = re.sub(r"^[•●○◦▪➤►‣✓✔☑\-\*]+\s*", "", cleaned)
+#    cleaned = cleaned.strip(":-—–_ ")
+#    return cleaned
+#
+#
+#def _is_wrapped_word(candidate: str, prev_lines: list) -> bool:
+#    if " " in candidate:
+#        return False
+#    if candidate != candidate.lower():
+#        return False
+#    for prev in reversed(prev_lines):
+#        prev_stripped = prev.strip()
+#        if prev_stripped:
+#            return prev_stripped[-1] not in {'.', ':', ';', '?', '!'}
+#    return False
+#
+#
+#def split_inline_heading(line: str):
+#    stripped = line.strip()
+#    for separator in ["•", "●", ":", "-", "–", "—"]:
+#        if separator not in stripped:
+#            continue
+#        heading_candidate = stripped.split(separator, 1)[0].strip()
+#        if not heading_candidate:
+#            continue
+#        for label, pattern in SECTION_PATTERNS.items():
+#            if pattern.match(heading_candidate):
+#                remaining = stripped[len(heading_candidate):].strip()
+#                remaining = remaining.lstrip("•●:-–— ").strip()
+#                return heading_candidate, remaining
+#    return None, None
+#
+#
+#def normalize_inline_bullets(text: str) -> str:
+#    normalized = []
+#    for raw_line in text.splitlines():
+#        bullet_count = raw_line.count("•") + raw_line.count("●")
+#        if bullet_count <= 1:
+#            normalized.append(raw_line)
+#            continue
+#        pieces = [p.strip() for p in re.split(r"[•●]", raw_line) if p.strip()]
+#        for piece in pieces:
+#            normalized.append(f"• {piece}")
+#    return "\n".join(normalized)
+#
+#
+#_BARE_EMAIL_LINE = re.compile(r"^[\w.\-+]+@[\w.\-]+\.\w+$")
+#_BARE_PHONE_LINE = re.compile(
+#    r"^(mob(ile)?\.?\s*(no\.?|number)?\s*[:\-]?\s*|contact\s*[:\-]?\s*|"
+#    r"phone\s*[:\-]?\s*|tel\s*[:\-]?\s*)?\+?\d[\d\-\s()]{6,}\d$",
+#    re.IGNORECASE,
+#)
+#
+#
+#def _is_bare_contact_line(line: str) -> bool:
+#    """
+#    Confirmed on a real resume (Rohit Shivnath Zimbar): _BARE_PHONE_LINE's
+#    character class ([\\d\\-\\s()], bookended by digits, min length 8) has
+#    no way to tell a phone number apart from a numeric date range --
+#    "2022-04-03 - 2023-07-15" is entirely digits/hyphens/spaces and well
+#    over 8 characters, so it matched. Four of his five job date ranges
+#    (every one written with a plain ASCII hyphen rather than an en-dash)
+#    got misclassified as bare contact info and silently deferred out of
+#    the "experience" section entirely, landing at the top of "header"
+#    instead -- not a parsing-quality issue, the date lines were deleted
+#    from the section that needed them. _JOB_DATE_RANGE already recognizes
+#    this exact numeric YYYY-MM-DD shape, so checking it first and bailing
+#    out on a real date-range match fixes this without narrowing what
+#    _BARE_PHONE_LINE itself is allowed to match (still needed for actual
+#    phone numbers that happen to be dash-grouped).
+#    """
+#    stripped = line.strip()
+#    if not stripped:
+#        return False
+#    if _JOB_DATE_RANGE.search(stripped):
+#        return False
+#    stripped = re.sub(r"^[^\w+]+", "", stripped).strip()
+#    return bool(_BARE_EMAIL_LINE.match(stripped) or _BARE_PHONE_LINE.match(stripped))
+#
+#
+#_JOB_MONTH_NAMES = (
+#    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|"
+#    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
+#    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+#)
+#
+## Day-first format: "04 May, 2023", "08 Dec 2025" -- see the matching fix
+## in experience.py's DATE_RANGE_RE (Sachin Chauhan's resume: his current
+## job's date range used this shape on both ends, and nothing in the old
+## alternation set -- "Month YYYY" or numeric-only -- could match it).
+## Mirrored here so _looks_like_job_entry() recognizes this shape too.
+#_JOB_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.]*{_JOB_MONTH_NAMES}[\s,.]*\d{{4}}"
+#
+## Widened to also recognize month-name dates ("Oct 2023 – Nov 2025"), not
+## just numeric formats. Confirmed on a real resume (Sachin Chitranshi):
+## a "PROFESSIONAL SUMMARY" heading sits directly above "KPMG (Oct 2023 –
+## Nov 2025)" -- the detailed job history for all 5 roles, not an actual
+## summary. The summary->experience promotion check further down (see
+## split_into_sections) already exists for exactly this shape of mistake
+## (confirmed working on Aarti Suranje's resume), but it depends entirely
+## on _looks_like_job_entry() recognizing the date range on the next
+## line -- and a month-name-only date range like "Oct 2023 – Nov 2025"
+## never matched here, so the promotion silently never fired and this
+## entire job history (KPMG, HCL, EY, Sailfin, MobiQuest -- ~100 lines of
+## real experience) stayed mislabeled as "summary".
+#_JOB_DATE_RANGE = re.compile(
+#    rf"(?:,\s*)?(?:{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))"
+#    # Same bare-space-before-open-ended-marker widening as experience.py's
+#    # DATE_RANGE_RE (see the "till date" fix from earlier), applied here
+#    # too for consistency.
+#    rf"\s*(?:[-–—\u2013\u2014]+\s*|(?=(?:Current|Present|Now|Till)\b))"
+#    rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|current|present|now|"
+#    rf"{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
+#    rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
+#    rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))",
+#    re.IGNORECASE
+#)
+#
+#
+#_FUZZY_HEADING_KEYWORDS = {
+#    "experience": "experience",
+#    "summary": "summary",
+#    "objective": "summary",
+#    "profile": "summary",
+#    "education": "education",
+#    "skills": "skills",
+#    "projects": "projects",
+#    "certifications": "certifications",
+#    "achievements": "achievements",
+#    "languages": "languages",
+#    "interests": "interests",
+#    "declaration": "declaration",
+#    "strengths": "strengths",
+#}
+#
+#import difflib
+#
+#
+#def _fuzzy_heading_label(candidate: str):
+#    word = candidate.strip().lower()
+#    if not word.isalpha() or len(word) < 5:
+#        return None
+#    for keyword, label in _FUZZY_HEADING_KEYWORDS.items():
+#        if abs(len(word) - len(keyword)) > 2:
+#            continue
+#        if difflib.get_close_matches(word, [keyword], n=1, cutoff=0.82):
+#            return label
+#    return None
+#
+#
+#def _looks_like_job_entry(line: str) -> bool:
+#    stripped = line.strip()
+#    if not stripped or len(stripped) > 120:
+#        return False
+#    return bool(_JOB_DATE_RANGE.search(stripped))
+#
+#
+#def _next_nonblank_line(lines: list, start_index: int) -> str:
+#    i = start_index
+#    while i < len(lines):
+#        if lines[i].strip():
+#            return lines[i].strip()
+#        i += 1
+#    return ""
+#
+#
+#_CAPS_HEADING_SHAPE = re.compile(r"^[A-Z\s&/]+$")
+#
+#
+#def _looks_like_caps_heading_shape(stripped: str) -> bool:
+#    return bool(
+#        stripped == stripped.upper()
+#        and _CAPS_HEADING_SHAPE.match(stripped)
+#        and len(stripped.split()) <= 4
+#        and not stripped.endswith(".")
+#    )
+#
+#
+#def _next_line_is_job_entry(line_index: int, all_lines: list) -> bool:
+#    upcoming = _next_nonblank_line(all_lines, line_index + 1)
+#    return _looks_like_job_entry(upcoming)
+#
+#
+#_LEADING_BULLET_RE = re.compile(r"^[•●○◦▪➤►‣✓✔☑\-\*]")
+#
+#
+#def _try_two_line_heading(lines: list, i: int):
+#    if i + 1 >= len(lines):
+#        return None, 0.0
+#    first = lines[i].strip()
+#    second = lines[i + 1].strip()
+#    if not first or not second:
+#        return None, 0.0
+#    if _LEADING_BULLET_RE.match(second):
+#        return None, 0.0
+#    if _is_wrapped_word(first, lines[:i]):
+#        return None, 0.0
+#
+#    joined = _clean_heading_candidate(f"{first} {second}")
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(joined):
+#            return label, 0.9
+#    return None, 0.0
+#
+#
+#def detect_section_label(line: str, prev_lines: list = None) -> tuple:
+#    if prev_lines is None:
+#        prev_lines = []
+#    candidate = _clean_heading_candidate(line)
+#    if not candidate:
+#        return None, 0.0
+#    for label, pattern in SECTION_PATTERNS.items():
+#        if pattern.match(candidate):
+#            if _is_wrapped_word(candidate, prev_lines):
+#                return None, 0.0
+#            return label, 0.95
+#    return None, 0.0
+#
+#
+#def _contains_section_keyword(line: str) -> bool:
+#    lower = line.lower()
+#    return any(keyword in lower for keyword in _SECTION_KEYWORDS)
+#
+#
+#def score_heading_line(line: str, line_index: int, all_lines: list) -> float:
+#    stripped = line.strip()
+#    if len(stripped) == 0:
+#        return 0.0
+#    if stripped[:1] in ("•", "●"):
+#        return 0.0
+#    if line_index <= 1:
+#        return 0.0
+#    word_count = len(stripped.split())
+#    if word_count > 8 or len(stripped) > 60:
+#        return 0.0
+#    if stripped.endswith("."):
+#        return 0.0
+#    score = 0.0
+#    is_all_caps = stripped == stripped.upper() and re.match(r"^[A-Z\s&/]+$", stripped)
+#    if is_all_caps:
+#        score += 0.3
+#    if word_count <= 4:
+#        score += 0.2
+#    elif word_count <= 6:
+#        score += 0.1
+#    blank_below = (line_index + 1 < len(all_lines) and all_lines[line_index + 1].strip() == "")
+#    blank_above = (line_index > 0 and all_lines[line_index - 1].strip() == "")
+#    if blank_below:
+#        score += 0.2
+#    if blank_above:
+#        score += 0.15
+#    if stripped.endswith(":"):
+#        score += 0.15
+#    if "," not in stripped and ". " not in stripped:
+#        score += 0.1
+#    if _contains_section_keyword(stripped):
+#        score += 0.35
+#    else:
+#        if not blank_below and not blank_above:
+#            score *= 0.5
+#
+#    if re.search(r':\s*[A-Za-z0-9]', stripped) and not stripped.endswith(':'):
+#        score *= 0.3
+#
+#    return min(score, 1.0)
+#
+#
+#_LETTER_SPACED_TOKEN_RE = re.compile(r"^[A-Za-z0-9&]$")
+#
+#
+#def _is_letter_spaced_heading(line: str) -> bool:
+#    """
+#    Some resume templates (Canva-style / heavily tracked heading fonts)
+#    render section headings with a literal space inserted between every
+#    letter after PDF text extraction, e.g. "P R O F E S S I O N A L
+#    S U M M A R Y". Word boundaries are lost in the process -- there's no
+#    double-space between "PROFESSIONAL" and "SUMMARY" either, both are
+#    single spaces, identical to the inter-letter spacing -- so none of
+#    the normal SECTION_PATTERNS regexes (which expect whole words) can
+#    ever match. score_heading_line can't rescue it either: word_count
+#    balloons past its own >8-word cutoff since every letter counts as
+#    its own "word" (e.g. "EDUCATION" alone becomes word_count == 9).
+#    Confirmed on a real resume (Ritika Jain): every heading in the
+#    document used this style and the entire file collapsed into one
+#    "header" section as a result -- not a partial miss, a total one.
+#    """
+#    tokens = line.split()
+#    if len(tokens) < 4:
+#        return False
+#    single_char = sum(1 for t in tokens if _LETTER_SPACED_TOKEN_RE.match(t))
+#    return (single_char / len(tokens)) >= 0.7
+#
+#
+#def _resolve_letter_spaced_heading(line: str):
+#    """
+#    Collapses a letter-spaced heading candidate back into one solid
+#    string and matches it against the same keyword vocabulary used
+#    elsewhere (_KEYWORD_TO_LABEL), rather than trying to reconstruct
+#    word boundaries -- which isn't recoverable from spacing alone, since
+#    inter-word and inter-letter spacing are identical in the source.
+#    "P R O F E S S I O N A L S U M M A R Y" -> "professionalsummary",
+#    which contains "summary" -> resolves to the "summary" label.
+#    """
+#    if not _is_letter_spaced_heading(line):
+#        return None
+#    collapsed = "".join(line.split()).lower()
+#    if len(collapsed) < 4:
+#        return None
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in collapsed:
+#            return mapped_label
+#    return None
+#
+#
+#_TECH_STACK_KEYWORDS = {
+#    "php", "html", "html5", "css", "css3", "javascript", "js", "java", "python",
+#    "sql", "mysql", "postgresql", "postgres", "mongodb", "nosql", "react",
+#    "reactjs", "angular", "angularjs", "vue", "vuejs", "node", "nodejs",
+#    "jquery", "bootstrap", "laravel", "codeigniter", "django", "flask",
+#    "spring", "typescript", "ruby", "rails", "golang", "kotlin", "swift",
+#    "dotnet", "aws", "azure", "gcp", "docker", "kubernetes", "git", "github",
+#    "ajax", "rest", "graphql", "redux", "express", "webpack", "sass", "less",
+#    "xml", "json", "linux", "c", "c++", "c#", "r", "scala", "perl", "bash",
+#    "shell", "matlab", "sqlite", "oracle", "firebase", "npm", "yarn",
+#}
+#
+#_SPOKEN_LANGUAGE_KEYWORDS = {
+#    "english", "hindi", "spanish", "french", "german", "mandarin", "chinese",
+#    "cantonese", "arabic", "portuguese", "russian", "japanese", "korean",
+#    "italian", "punjabi", "bengali", "tamil", "telugu", "marathi", "gujarati",
+#    "urdu", "kannada", "malayalam", "dutch", "turkish", "vietnamese", "thai",
+#    "polish", "swedish", "greek", "hebrew", "indonesian", "farsi", "persian",
+#}
+#
+#_WORD_TOKEN_RE = re.compile(r"[a-zA-Z+#.]+")
+#
+#
+#def _looks_like_tech_stack_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _TECH_STACK_KEYWORDS for w in words)
+#
+#
+#def _looks_like_spoken_language_content(text: str) -> bool:
+#    words = _WORD_TOKEN_RE.findall(text.lower())
+#    return any(w in _SPOKEN_LANGUAGE_KEYWORDS for w in words)
+#
+#
+#def _resolve_unknown_heading(stripped: str):
+#    """
+#    A line inside a list-type section that scored 'unknown' via
+#    score_heading_line is ambiguous: it could be a harmless sub-label
+#    (e.g. "Programming Languages:" inside a skills list, followed on the
+#    same line by the actual list of languages) or a genuine new section
+#    whose heading just didn't match any SECTION_PATTERNS regex (e.g.
+#    "Certifications (Technical + Management)" landing inside "experience",
+#    "KEY ACHIEVEMENTS" landing inside "strengths" -- both confirmed on
+#    real resumes). Both look identical to the caller: label == "unknown".
+#
+#    We re-derive a real label here from the same keyword vocabulary that
+#    caused score_heading_line to score this line highly in the first
+#    place (_SECTION_KEYWORDS / _contains_section_keyword), instead of
+#    silently absorbing it either way.
+#
+#    Guard: only promote when the line looks like a BARE heading. If there
+#    is real content after a trailing colon (e.g. "Certifications: AWS,
+#    Azure" as one bullet-style line among others in a skills list), this
+#    is a sub-label with inline content, not a new section -- so we leave
+#    it alone and let it be absorbed as before.
+#    """
+#    colon_idx = stripped.find(":")
+#    if colon_idx != -1 and stripped[colon_idx + 1:].strip():
+#        return None
+#
+#    lower = stripped.lower()
+#    for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
+#        if keyword in lower:
+#            return mapped_label
+#    return None
+#
+#
+#def split_into_sections(text: str) -> list:
+#    lines = text.split("\n")
+#    sections = []
+#    current_label = "header"
+#    current_start = 0
+#    current_lines = []
+#    current_confidence = 0.9
+#    experience_seen = False
+#    deferred_contact_lines = []
+#    skip_next = False
+#
+#    for i, line in enumerate(lines):
+#        if skip_next:
+#            skip_next = False
+#            continue
+#
+#        stripped = line.strip()
+#        label, confidence = detect_section_label(stripped, prev_lines=lines[:i])
+#        inline_content = None
+#
+#        # A heading can legitimately match on its own but still be the FIRST
+#        # half of a line-wrapped heading (e.g. "Achievements" / "and
+#        # Appreciations:"). Before committing, check whether folding in the
+#        # very next line also produces a valid match -- if so, treat the
+#        # next line as part of the heading, not as body text. Only extends
+#        # when the next line is short, has no bullet marker, and isn't
+#        # itself a date-range line, so this can't misfire on a heading
+#        # immediately followed by real bullet/date content.
+#        if label is not None and stripped != "" and i + 1 < len(lines):
+#            nxt = lines[i + 1].strip()
+#            if (nxt and not _LEADING_BULLET_RE.match(nxt)
+#                    and len(nxt.split()) <= 5 and not _JOB_DATE_RANGE.search(nxt)):
+#                combined = _clean_heading_candidate(f"{stripped} {nxt}")
+#                for combined_label, pattern in SECTION_PATTERNS.items():
+#                    if pattern.match(combined):
+#                        label = combined_label
+#                        confidence = max(confidence, 0.9)
+#                        skip_next = True
+#                        break
+#
+#        if label is None and stripped != "":
+#            two_line_label, two_line_confidence = _try_two_line_heading(lines, i)
+#            if two_line_label is not None:
+#                label = two_line_label
+#                confidence = two_line_confidence
+#                skip_next = True
+#
+#        if label is None and stripped != "":
+#            if current_label not in _LIST_SECTION_LABELS:
+#                heading_candidate, remaining = split_inline_heading(stripped)
+#                if heading_candidate is not None:
+#                    label, confidence = detect_section_label(heading_candidate, prev_lines=lines[:i])
+#                    if label is not None:
+#                        inline_content = remaining
+#
+#        # Letter-spaced heading check runs before the fuzzy-match fallback:
+#        # a letter-spaced candidate like "P R O F E S S I O N A L
+#        # S U M M A R Y" still contains real spaces, so it would never
+#        # pass _fuzzy_heading_label's word.isalpha() check anyway (spaces
+#        # aren't alphabetic), but resolving it here first is more direct
+#        # and avoids relying on that accidental non-collision.
+#        if label is None and stripped != "":
+#            letter_spaced_label = _resolve_letter_spaced_heading(stripped)
+#            if letter_spaced_label is not None:
+#                label = letter_spaced_label
+#                confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                fuzzy_label = _fuzzy_heading_label(stripped)
+#                if fuzzy_label is not None:
+#                    label = fuzzy_label
+#                    confidence = 0.8
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                if _looks_like_caps_heading_shape(stripped) and _next_line_is_job_entry(i, lines):
+#                    label = "experience"
+#                    confidence = 0.85
+#
+#        if label is None and stripped != "":
+#            if not _is_wrapped_word(stripped, lines[:i]):
+#                heading_score = score_heading_line(stripped, i, lines)
+#                if heading_score >= 0.65:
+#                    # Try to resolve straight to a real label here, not
+#                    # only later when deciding whether to absorb into an
+#                    # already-open list section. Confirmed on a real
+#                    # resume (Sachin Chitranshi): "LAST 5 CAREER
+#                    # TIMELINE" transitions out of a "summary" section
+#                    # (not a list-type section), so the absorption check
+#                    # further down never even runs for it -- without
+#                    # resolving here, it opens as a bare "unknown"
+#                    # section instead of "early_career".
+#                    resolved = _resolve_unknown_heading(stripped)
+#                    if resolved is not None:
+#                        label = resolved
+#                        confidence = max(heading_score, 0.8)
+#                    else:
+#                        label = "unknown"
+#                        confidence = heading_score
+#
+#        # "Languages" is genuinely ambiguous on resumes: it can mean spoken
+#        # languages (English, Hindi...) OR it can be a row label inside a
+#        # technical skills matrix ("Languages: PHP, JavaScript"). The
+#        # SECTION_PATTERNS regex matches the bare word correctly either
+#        # way -- it has no way to know which sense is meant. Confirmed on
+#        # a real resume (Sachin Chauhan): a skills-matrix table with row
+#        # labels "Database" / "Languages" / "Frameworks & Libraries" /
+#        # "Web Tools" / "Tools" had its "Languages" row label match the
+#        # real "languages" section pattern, splitting the skills matrix in
+#        # half and dragging every subsequent row into a bogus "languages"
+#        # section. Disambiguate using what actually follows the heading --
+#        # tech-stack terms (php, react, mysql...) mean this is a skills
+#        # row, not a spoken-languages section -- and suppress the split in
+#        # that case so the line falls through and gets absorbed into
+#        # whatever section (usually "skills") is already open.
+#        if label == "languages" and stripped != "":
+#            lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
+#            if lookahead and _looks_like_tech_stack_content(lookahead) and not _looks_like_spoken_language_content(lookahead):
+#                label = None
+#                confidence = 0.0
+#                inline_content = None
+#
+#        # This must run BEFORE the same-label-absorb check directly below:
+#        # a second "summary"-labelled heading (e.g. "Professional Summary"
+#        # appearing after an earlier "Personal Summary") sometimes isn't
+#        # really a second summary at all -- it's actually introducing the
+#        # first job entry (confirmed on a real resume, Aarti Suranje: her
+#        # "PROFESSIONAL SUMMARY" heading sits directly above "PRINCIPAL
+#        # CONSULTANT, 01/2023 - Current"). If this promotion ran AFTER the
+#        # same-label-absorb check instead, the absorb-and-continue would
+#        # fire first (both headings map to "summary") and this promotion
+#        # would never get a chance to run -- her entire job history
+#        # (Principal Consultant, Technology Lead, ...) would silently
+#        # merge into "summary" instead of becoming its own "experience"
+#        # section.
+#        if label == "summary" and not experience_seen and stripped != "":
+#            upcoming = _next_nonblank_line(lines, i + 1)
+#            if _looks_like_job_entry(upcoming):
+#                label = "experience"
+#                confidence = 0.85
+#
+#        if label is not None and label == current_label:
+#            current_lines.append(line)
+#            continue
+#
+#        if current_label in _LIST_SECTION_LABELS and label == "unknown":
+#            # Don't blindly absorb: this line scored heading-shaped and
+#            # contains a section keyword -- check whether it actually
+#            # resolves to a real, different section label before treating
+#            # it as harmless in-list noise. See _resolve_unknown_heading().
+#            promoted_label = _resolve_unknown_heading(stripped)
+#            if promoted_label is None:
+#                current_lines.append(line)
+#                continue
+#            label = promoted_label
+#            confidence = 0.8
+#
+#        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
+#            if label in {"achievements", "roles_responsibilities"} or stripped.endswith(":") or stripped.endswith(":-"):
+#                current_lines.append(line)
+#                continue
+#
+#        if label is not None and stripped != "":
+#            if label == "experience":
+#                experience_seen = True
+#            section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#            if section_text:
+#                sections.append(Section(
+#                    label=current_label,
+#                    raw_text=section_text,
+#                    start_line=current_start,
+#                    confidence=current_confidence
+#                ))
+#            current_label = label
+#            current_start = i
+#            current_lines = []
+#            if inline_content:
+#                current_lines.append(inline_content)
+#            current_confidence = confidence
+#        else:
+#            if current_label != "header" and _is_bare_contact_line(stripped):
+#                deferred_contact_lines.append(stripped)
+#            else:
+#                current_lines.append(line)
+#
+#    section_text = normalize_inline_bullets("\n".join(current_lines).strip())
+#    if section_text:
+#        sections.append(Section(
+#            label=current_label,
+#            raw_text=section_text,
+#            start_line=current_start,
+#            confidence=current_confidence
+#        ))
+#
+#    if deferred_contact_lines:
+#        for s in sections:
+#            if s.label == "header":
+#                s.raw_text = (s.raw_text + "\n" + "\n".join(deferred_contact_lines)).strip()
+#                break
+#        else:
+#            sections.insert(0, Section(
+#                label="header",
+#                raw_text="\n".join(deferred_contact_lines),
+#                start_line=0,
+#                confidence=0.9,
+#            ))
+#
+#    return sections
+#
+#
+#def get_section_text(sections: list, label: str) -> str:
+#    matching = [s for s in sections if s.label == label]
+#    if not matching:
+#        return ""
+#    return "\n\n".join([s.raw_text for s in matching])
+#
 
 
 

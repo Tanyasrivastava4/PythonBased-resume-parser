@@ -73,12 +73,56 @@ def _normalize_pua_glyphs(text: str) -> str:
     return text
 
 
+# Words/phrases whose presence right after a heading-shaped word means the
+# text that follows is grammatically CONTINUING the same sentence/clause,
+# not a separate, unrelated fragment that got glued onto a real heading.
+# This is the key signal _split_merged_headings() was missing: many
+# section-heading keywords ("Experience", "Summary", "Skills", "Profile",
+# "Personal", "Objective"...) are also completely ordinary English words,
+# so a ton of normal sentences legitimately start with one of them --
+# "Experience with RESTful Web Services.", "Summary of the project.".
+# Those must NOT be split. Confirmed on a real resume (Amit Kumar Som):
+# five separate bullet sentences starting with "Experience with ..." /
+# "Experience in ..." were each getting torn into a bare "Experience"
+# line (which the segmenter then misread as a brand-new section heading)
+# plus an orphaned continuation line -- fragmenting one long "summary"
+# section into a spurious extra "experience" section partway through.
+_CONTINUATION_STARTERS = re.compile(
+    r"^(with|in|of|for|on|at|to|from|using|including|and|is|are|was|were|"
+    r"that|which|who|as|by|into|through|during|about|across|within|"
+    r"under|over|toward|towards)\b",
+    re.IGNORECASE
+)
+
+
+_LEADING_BULLET_RE = re.compile(r"^[•●○◦▪➤►‣✓✔☑\-\*]")
+
+
 def _split_merged_headings(text: str) -> str:
     lines = text.split("\n")
     result = []
     for line in lines:
         stripped = line.strip()
         split_done = False
+
+        # A line that already starts with a bullet marker is body content
+        # by definition -- a genuine section heading is never itself a
+        # bullet item. Cheap, second guard alongside the continuation-word
+        # check below: catches the case where a bullet glyph DID survive
+        # extraction (manually-typed bullets, some PDF fonts), which the
+        # continuation-word list can't cover on its own since it only
+        # recognizes specific words, not punctuation/formatting cues.
+        # NOTE: this does nothing for resumes using Word's native list
+        # formatting (<w:numPr>), where python-docx's Paragraph.text never
+        # includes a bullet character at all -- confirmed on a real
+        # resume (Amit Kumar Som), which has zero bullet characters
+        # anywhere in its extracted text despite being fully bulleted in
+        # the rendered document. That's why the continuation-word check
+        # below is the primary fix, and this is a supplementary one.
+        if _LEADING_BULLET_RE.match(stripped):
+            result.append(line)
+            continue
+
         for heading in _SIDEBAR_HEADINGS:
             pattern = re.compile(
                 rf"^({re.escape(heading)})\s+([•●\-\*]?\s*[A-Za-z0-9][^\n]{{3,}})$",
@@ -86,8 +130,17 @@ def _split_merged_headings(text: str) -> str:
             )
             match = pattern.match(stripped)
             if match:
-                result.append(match.group(1))
-                result.append(match.group(2))
+                heading_part, content_part = match.group(1), match.group(2)
+                if _CONTINUATION_STARTERS.match(content_part):
+                    # The text after the heading-shaped word reads as a
+                    # continuation of the same sentence (e.g. "Experience
+                    # with ...", "Summary of ..."), not a genuinely glued
+                    # heading+unrelated-content pair (e.g. "Education Live
+                    # Link"). Leave the line untouched.
+                    result.append(line)
+                else:
+                    result.append(heading_part)
+                    result.append(content_part)
                 split_done = True
                 break
         if not split_done:
@@ -153,18 +206,387 @@ def read_resume_file(file_path: str) -> str:
     if ext == ".pdf":
         from ingestion.pdf_reader import read_pdf
         raw_text = read_pdf(file_path)
-    elif ext in [".docx", ".doc"]:
+    elif ext == ".docx":
         from ingestion.docx_reader import read_docx
         raw_text = read_docx(file_path)
+    elif ext == ".doc":
+        from ingestion.docx_reader import read_docx
+        from ingestion.doc_converter import convert_doc_to_docx_tmp
+        with convert_doc_to_docx_tmp(file_path) as converted_path:
+            raw_text = read_docx(converted_path)
     elif ext in [".jpg", ".jpeg", ".png", ".tiff", ".tif"]:
         from ingestion.ocr_reader import read_with_surya
         raw_text = read_with_surya(file_path)
     else:
-        raise ValueError(f"Unsupported file type: {ext}. Supported: PDF, DOCX, JPG, PNG, TIFF")
+        raise ValueError(f"Unsupported file type: {ext}. Supported: PDF, DOCX, DOC, JPG, PNG, TIFF")
 
     return normalise_text(raw_text)
 
 
+
+
+
+
+
+
+
+
+#"""
+#ingestion/__init__.py
+#Text normalisation utilities — cleans raw text before parsing.
+#"""
+#
+#import re
+#import unicodedata
+#
+#
+#_SIDEBAR_HEADINGS = [
+#    "PROFESSIONAL SUMMARY", "PERSONAL SUMMARY", "PERSONAL DETAILS",
+#    "CORE COMPETENCIES", "PROFILE SUMMARY", "LIVE PROJECTS",
+#    "WORK EXPERIENCE", "WORK HISTORY", "EMPLOYMENT HISTORY",
+#    "KEY SKILLS", "IT SKILLS", "TECHNICAL SKILLS", "LANGUAGE SKILLS",
+#    "ROLES & RESPONSIBILITIES", "ROLES RESPONSIBILITIES",
+#    "CUSTOM SECTION", "ACADEMIC BACKGROUND",
+#    "CERTIFICATION", "CERTIFICATIONS", "EDUCATION", "EXPERIENCE",
+#    "DECLARATION", "SUMMARY", "OBJECTIVE", "PROFILE",
+#    "SKILLS", "PROJECTS", "ACHIEVEMENTS", "AWARDS",
+#    "LANGUAGES", "INTERESTS", "HOBBIES", "REFERENCES",
+#    "PERSONAL",
+#]
+#
+#_CID_GLYPH_PATTERN = re.compile(r"\(cid:\d+\)")
+#
+#
+#def _replace_cid_glyphs_with_bullets(text: str) -> str:
+#    return _CID_GLYPH_PATTERN.sub("•", text)
+#
+#
+## Matches a PDF text-extraction fallback for an unmapped glyph from a
+## legacy Wingdings/Symbol-style font, e.g. U+F076, U+F0B7, U+F0A7.
+## Confirmed on a real resume (Ajit Kumar): five distinct PUA codepoints
+## appeared, all bullet markers of one kind or another (section-heading
+## bullets used a different codepoint than body-bullet-list markers) --
+## same underlying bug family as _CID_GLYPH_PATTERN above (PDF extraction
+## hit a glyph with no real Unicode mapping and fell back to something
+## else), just a different fallback shape: an actual Unicode codepoint
+## in the Private Use Area rather than a literal "(cid:N)" string.
+##
+## U+F020 is handled separately (see _normalize_pua_glyphs below) because
+## it is reliably NOT a bullet: legacy symbol fonts map their internal
+## byte codes into the PUA as 0xF000 + original_byte, and byte 0x20 is
+## space in essentially every such encoding -- confirmed by testing,
+## U+F020 always appeared glued to the end of the previous word (e.g.
+## "years.\uf020") immediately before the next real bullet glyph, exactly
+## where a plain space belongs.
+#_PUA_STANDALONE_TOKEN_RE = re.compile(r"(?<!\S)[\uE000-\uF8FF](?!\S)")
+#
+#
+#def _normalize_pua_glyphs(text: str) -> str:
+#    """
+#    Cleans up Private Use Area glyph fallbacks from legacy Wingdings/
+#    Symbol-style fonts. Two passes, order matters:
+#
+#      1. U+F020 -> a real space (it's a space in the original font's
+#         encoding, not a bullet -- see docstring on the regex above).
+#         Must run FIRST, since it's often glued directly onto the
+#         previous word with no space in between (e.g. "years.\uf020"),
+#         and doing this first means the bullet glyph that follows it
+#         becomes properly whitespace-delimited for step 2 to catch.
+#
+#      2. Any remaining PUA character appearing as its own
+#         whitespace-delimited token -> a real bullet "•". This is safe
+#         specifically because it only touches STANDALONE PUA tokens
+#         (surrounded by whitespace on both sides) -- a PUA character
+#         glued into the middle of a real word is left alone, since that
+#         pattern doesn't match a "this glyph IS the whole token" bullet
+#         marker.
+#    """
+#    text = text.replace("\uf020", " ")
+#    text = _PUA_STANDALONE_TOKEN_RE.sub("•", text)
+#    return text
+#
+#
+#def _split_merged_headings(text: str) -> str:
+#    lines = text.split("\n")
+#    result = []
+#    for line in lines:
+#        stripped = line.strip()
+#        split_done = False
+#        for heading in _SIDEBAR_HEADINGS:
+#            pattern = re.compile(
+#                rf"^({re.escape(heading)})\s+([•●\-\*]?\s*[A-Za-z0-9][^\n]{{3,}})$",
+#                re.IGNORECASE
+#            )
+#            match = pattern.match(stripped)
+#            if match:
+#                result.append(match.group(1))
+#                result.append(match.group(2))
+#                split_done = True
+#                break
+#        if not split_done:
+#            result.append(line)
+#    return "\n".join(result)
+#
+#
+#def _join_split_headings(text: str) -> str:
+#    multi_word_headings = [h for h in _SIDEBAR_HEADINGS if " " in h]
+#    lines = text.split("\n")
+#    result = []
+#    i = 0
+#    while i < len(lines):
+#        line = lines[i].strip()
+#        joined = False
+#        if i + 1 < len(lines):
+#            next_line = lines[i+1].strip()
+#            combined = line + " " + next_line
+#            for heading in multi_word_headings:
+#                if combined.upper() == heading.upper():
+#                    result.append(heading)
+#                    i += 2
+#                    joined = True
+#                    break
+#        if not joined:
+#            result.append(lines[i])
+#            i += 1
+#    return "\n".join(result)
+#
+#
+#def normalise_text(raw_text: str) -> str:
+#    if not raw_text:
+#        return ""
+#    text = unicodedata.normalize("NFC", raw_text)
+#    for char in ["\u200b", "\u200c", "\u200d", "\ufeff", "\u00ad"]:
+#        text = text.replace(char, "")
+#    text = _replace_cid_glyphs_with_bullets(text)
+#    text = _normalize_pua_glyphs(text)
+#    text = text.replace("\r\n", "\n").replace("\r", "\n")
+#    text = re.sub(r"\(\s+", "(", text)
+#    text = re.sub(r"\s+\)", ")", text)
+#    text = _split_merged_headings(text)
+#    text = _join_split_headings(text)
+#    lines = [line.strip() for line in text.split("\n")]
+#    cleaned_lines = []
+#    blank_count = 0
+#    for line in lines:
+#        if line == "":
+#            blank_count += 1
+#            if blank_count <= 2:
+#                cleaned_lines.append(line)
+#        else:
+#            blank_count = 0
+#            cleaned_lines.append(line)
+#    return "\n".join(cleaned_lines).strip()
+#
+#
+#def read_resume_file(file_path: str) -> str:
+#    from pathlib import Path
+#    path = Path(file_path)
+#    ext = path.suffix.lower()
+#
+#    if ext == ".pdf":
+#        from ingestion.pdf_reader import read_pdf
+#        raw_text = read_pdf(file_path)
+#    elif ext == ".docx":
+#        from ingestion.docx_reader import read_docx
+#        raw_text = read_docx(file_path)
+#    elif ext == ".doc":
+#        from ingestion.docx_reader import read_docx
+#        from ingestion.doc_converter import convert_doc_to_docx_tmp
+#        with convert_doc_to_docx_tmp(file_path) as converted_path:
+#            raw_text = read_docx(converted_path)
+#    elif ext in [".jpg", ".jpeg", ".png", ".tiff", ".tif"]:
+#        from ingestion.ocr_reader import read_with_surya
+#        raw_text = read_with_surya(file_path)
+#    else:
+#        raise ValueError(f"Unsupported file type: {ext}. Supported: PDF, DOCX, DOC, JPG, PNG, TIFF")
+#
+#    return normalise_text(raw_text)
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##worked- just changing to handle .doc format files.
+#"""
+#ingestion/__init__.py
+#Text normalisation utilities — cleans raw text before parsing.
+#"""
+#
+#import re
+#import unicodedata
+#
+#
+#_SIDEBAR_HEADINGS = [
+#    "PROFESSIONAL SUMMARY", "PERSONAL SUMMARY", "PERSONAL DETAILS",
+#    "CORE COMPETENCIES", "PROFILE SUMMARY", "LIVE PROJECTS",
+#    "WORK EXPERIENCE", "WORK HISTORY", "EMPLOYMENT HISTORY",
+#    "KEY SKILLS", "IT SKILLS", "TECHNICAL SKILLS", "LANGUAGE SKILLS",
+#    "ROLES & RESPONSIBILITIES", "ROLES RESPONSIBILITIES",
+#    "CUSTOM SECTION", "ACADEMIC BACKGROUND",
+#    "CERTIFICATION", "CERTIFICATIONS", "EDUCATION", "EXPERIENCE",
+#    "DECLARATION", "SUMMARY", "OBJECTIVE", "PROFILE",
+#    "SKILLS", "PROJECTS", "ACHIEVEMENTS", "AWARDS",
+#    "LANGUAGES", "INTERESTS", "HOBBIES", "REFERENCES",
+#    "PERSONAL",
+#]
+#
+#_CID_GLYPH_PATTERN = re.compile(r"\(cid:\d+\)")
+#
+#
+#def _replace_cid_glyphs_with_bullets(text: str) -> str:
+#    return _CID_GLYPH_PATTERN.sub("•", text)
+#
+#
+## Matches a PDF text-extraction fallback for an unmapped glyph from a
+## legacy Wingdings/Symbol-style font, e.g. U+F076, U+F0B7, U+F0A7.
+## Confirmed on a real resume (Ajit Kumar): five distinct PUA codepoints
+## appeared, all bullet markers of one kind or another (section-heading
+## bullets used a different codepoint than body-bullet-list markers) --
+## same underlying bug family as _CID_GLYPH_PATTERN above (PDF extraction
+## hit a glyph with no real Unicode mapping and fell back to something
+## else), just a different fallback shape: an actual Unicode codepoint
+## in the Private Use Area rather than a literal "(cid:N)" string.
+##
+## U+F020 is handled separately (see _normalize_pua_glyphs below) because
+## it is reliably NOT a bullet: legacy symbol fonts map their internal
+## byte codes into the PUA as 0xF000 + original_byte, and byte 0x20 is
+## space in essentially every such encoding -- confirmed by testing,
+## U+F020 always appeared glued to the end of the previous word (e.g.
+## "years.\uf020") immediately before the next real bullet glyph, exactly
+## where a plain space belongs.
+#_PUA_STANDALONE_TOKEN_RE = re.compile(r"(?<!\S)[\uE000-\uF8FF](?!\S)")
+#
+#
+#def _normalize_pua_glyphs(text: str) -> str:
+#    """
+#    Cleans up Private Use Area glyph fallbacks from legacy Wingdings/
+#    Symbol-style fonts. Two passes, order matters:
+#
+#      1. U+F020 -> a real space (it's a space in the original font's
+#         encoding, not a bullet -- see docstring on the regex above).
+#         Must run FIRST, since it's often glued directly onto the
+#         previous word with no space in between (e.g. "years.\uf020"),
+#         and doing this first means the bullet glyph that follows it
+#         becomes properly whitespace-delimited for step 2 to catch.
+#
+#      2. Any remaining PUA character appearing as its own
+#         whitespace-delimited token -> a real bullet "•". This is safe
+#         specifically because it only touches STANDALONE PUA tokens
+#         (surrounded by whitespace on both sides) -- a PUA character
+#         glued into the middle of a real word is left alone, since that
+#         pattern doesn't match a "this glyph IS the whole token" bullet
+#         marker.
+#    """
+#    text = text.replace("\uf020", " ")
+#    text = _PUA_STANDALONE_TOKEN_RE.sub("•", text)
+#    return text
+#
+#
+#def _split_merged_headings(text: str) -> str:
+#    lines = text.split("\n")
+#    result = []
+#    for line in lines:
+#        stripped = line.strip()
+#        split_done = False
+#        for heading in _SIDEBAR_HEADINGS:
+#            pattern = re.compile(
+#                rf"^({re.escape(heading)})\s+([•●\-\*]?\s*[A-Za-z0-9][^\n]{{3,}})$",
+#                re.IGNORECASE
+#            )
+#            match = pattern.match(stripped)
+#            if match:
+#                result.append(match.group(1))
+#                result.append(match.group(2))
+#                split_done = True
+#                break
+#        if not split_done:
+#            result.append(line)
+#    return "\n".join(result)
+#
+#
+#def _join_split_headings(text: str) -> str:
+#    multi_word_headings = [h for h in _SIDEBAR_HEADINGS if " " in h]
+#    lines = text.split("\n")
+#    result = []
+#    i = 0
+#    while i < len(lines):
+#        line = lines[i].strip()
+#        joined = False
+#        if i + 1 < len(lines):
+#            next_line = lines[i+1].strip()
+#            combined = line + " " + next_line
+#            for heading in multi_word_headings:
+#                if combined.upper() == heading.upper():
+#                    result.append(heading)
+#                    i += 2
+#                    joined = True
+#                    break
+#        if not joined:
+#            result.append(lines[i])
+#            i += 1
+#    return "\n".join(result)
+#
+#
+#def normalise_text(raw_text: str) -> str:
+#    if not raw_text:
+#        return ""
+#    text = unicodedata.normalize("NFC", raw_text)
+#    for char in ["\u200b", "\u200c", "\u200d", "\ufeff", "\u00ad"]:
+#        text = text.replace(char, "")
+#    text = _replace_cid_glyphs_with_bullets(text)
+#    text = _normalize_pua_glyphs(text)
+#    text = text.replace("\r\n", "\n").replace("\r", "\n")
+#    text = re.sub(r"\(\s+", "(", text)
+#    text = re.sub(r"\s+\)", ")", text)
+#    text = _split_merged_headings(text)
+#    text = _join_split_headings(text)
+#    lines = [line.strip() for line in text.split("\n")]
+#    cleaned_lines = []
+#    blank_count = 0
+#    for line in lines:
+#        if line == "":
+#            blank_count += 1
+#            if blank_count <= 2:
+#                cleaned_lines.append(line)
+#        else:
+#            blank_count = 0
+#            cleaned_lines.append(line)
+#    return "\n".join(cleaned_lines).strip()
+#
+#
+#def read_resume_file(file_path: str) -> str:
+#    from pathlib import Path
+#    path = Path(file_path)
+#    ext = path.suffix.lower()
+#
+#    if ext == ".pdf":
+#        from ingestion.pdf_reader import read_pdf
+#        raw_text = read_pdf(file_path)
+#    elif ext in [".docx", ".doc"]:
+#        from ingestion.docx_reader import read_docx
+#        raw_text = read_docx(file_path)
+#    elif ext in [".jpg", ".jpeg", ".png", ".tiff", ".tif"]:
+#        from ingestion.ocr_reader import read_with_surya
+#        raw_text = read_with_surya(file_path)
+#    else:
+#        raise ValueError(f"Unsupported file type: {ext}. Supported: PDF, DOCX, JPG, PNG, TIFF")
+#
+#    return normalise_text(raw_text)
+#
+#
 
 
 

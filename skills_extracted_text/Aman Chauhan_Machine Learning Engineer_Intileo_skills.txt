@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Aman Chauhan_Machine Learning Engineer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages & Libraries:  Python, SQL, Pandas, NumPy, SciPy, Scikit-learn, TensorFlow, Keras, NLTK
+ML / DL Frameworks:  XGBoost, LightGBM, GBM, ANN, CNN, RNN, LSTM, Transformers (NLP)
+GenAI & LLMs:  LangChain, OpenAI GPT, Google Gemini, Vertex AI, GitHub Copilot
+Data Visualization:  Power BI, Matplotlib, Seaborn, Plotly
+Deployment & APIs:  FastAPI, REST APIs, React.js (frontend integration)
+Databases & Cloud:  RDBMS, Pinecone (Vector DB), AWS, GCP
+Version Control:  Git, GitHub
+Core Competencies:  Predictive Modeling, Feature Engineering, NLP, Clustering, Dimensionality Reduction, A/B Testing, EDA
+
+── Extraction Results ──
+Skills found   : 41
+Confidence     : 0.92
+Time           : 55.42 ms
+Method         : flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), Transformers→Transformer(96%), GenAI→Generative AI(100%), OpenAI GPT→GPT(100%), Google Gemini→Gemini(100%)...)
+
+── All Skills (41) ──
+A/B Testing, ANN, AWS, CNN, Data Visualization, Deep Learning, Exploratory Data Analysis, FastAPI, GCP, GPT, Gemini, Generative AI, Git, GitHub, GitHub Copilot, Keras, LLM, LSTM, LangChain, LightGBM, Machine Learning, Matplotlib, NLP, NumPy, Pandas, Pinecone, Plotly, Power BI, Python, REST API, RNN, React, SQL, SciPy, Seaborn, TensorFlow, Transformer, Vector Databases, Vertex AI, XGBoost, scikit-learn
+
+── By Category ──
+  ai_ml                          ['ANN', 'CNN', 'Deep Learning', 'GPT', 'Keras', 'LSTM', 'LightGBM', 'Machine Learning', 'Matplotlib', 'NLP', 'NumPy', 'Pandas', 'Plotly', 'RNN', 'SciPy', 'Seaborn', 'TensorFlow', 'Transformer', 'XGBoost', 'scikit-learn']
+  cloud_infra                    ['AWS', 'GCP']
+  data_science                   ['A/B Testing', 'Data Visualization', 'Exploratory Data Analysis', 'Power BI']
+  database                       ['SQL']
+  dev_tool                       ['Git', 'GitHub']
+  genai                          ['Gemini', 'Generative AI', 'GitHub Copilot', 'LLM', 'LangChain', 'Vector Databases', 'Vertex AI']
+  programming_language           ['Python']
+  search                         ['Pinecone']
+  web_framework                  ['FastAPI', 'REST API', 'React']

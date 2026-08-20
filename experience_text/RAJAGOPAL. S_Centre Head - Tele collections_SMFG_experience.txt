@@ -1,0 +1,212 @@
+======================================================================
+FILE: RAJAGOPAL. S_Centre Head - Tele collections_SMFG_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Mar 2023 till date – Piramal Capital and Housing finance Ltd – Branch Recovery Manager.
+Dec 2018 till Feb 2023 Alphentrix Global Services Pvt Ltd – Senior Manager Collections cum operation.
+Mar 2018 to Dec 2018 First Abu Dhabi Bank – Collection Officer
+Jul 2017 to Nov 2017 Riddhi Corporate Services ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 15
+Confidence     : 0.88
+Needs review   : True
+Total exp      : 20.8 years (250 months, 11 overlapping periods merged)
+
+Entry 1
+  Role         : Branch Recovery Manager.
+  Company      : Piramal Capital and Housing finance Ltd
+  Location     : None
+  Start - End  : Mar 2023 - till date
+  Duration     : 42 months
+  Bullets      : 1
+    • Dec 2018 till Feb 2023 Alphentrix Global Services Pvt Ltd – Senior Manager Collections cum operation.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Collection Officer
+  Company      : First Abu Dhabi Bank
+  Location     : None
+  Start - End  : Mar 2018 - Dec 2018
+  Duration     : 10 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Business Development Manager.
+  Company      : Riddhi Corporate Services Ltd
+  Location     : None
+  Start - End  : Jul 2017 - Nov 2017
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Reliance Communication Ltd
+  Company      : Recovery Collection process & Call center
+  Location     : None
+  Start - End  : Jan 2016 - Mar 2017
+  Duration     : 15 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Reliance process Collections cum Operation Manager & DUBAI Skip customer tracing team, Sales Manager ICICI Bank.
+  Company      : RETCOL MANAGEMENT SERVICES
+  Location     : None
+  Start - End  : Sep 2011 - Jan 2016
+  Duration     : 53 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : None
+  Company      : Optimus Global Services
+  Location     : ICICI BANK Process
+  Start - End  : Oct 2005 - Sep 2011
+  Duration     : 72 months
+  Bullets      : 1
+    • Asst Manager (Collection cum Operation)
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 7
+  Role         : None
+  Company      : HSBC BANK
+  Location     : None
+  Start - End  : Mar 2001 - Oct 2005
+  Duration     : 56 months
+  Bullets      : 1
+    • VRCS Backend Officer (Collection Process) PROFESSIONAL EXPERIENCE:
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 8
+  Role         : None
+  Company      : Piramal Capital and Housing Finance Limited- Branch Recovery Manger.
+  Location     : None
+  Start - End  : Mar 2023 - till date
+  Duration     : 42 months
+  Bullets      : 2
+    • Managing entire TN portfolio.
+    • Handling the products of UCL, UBL, PL & App loans of all the buckets and Recoveries.
+  Sub-sections : ['Portfolio size – 114 crs', 'Experience', 'in Agency Audits, Billing, Repo & Field collections.', 'Responsible for Agency Management and portfolio performance.', 'Maintaining trackers with respect to data input and daily movement.', 'Conceptualizing and implementing the strategy for the collections.', 'Dec 2018 till Feb 2023 – Alphentrix Global Services Pvt Ltd - Senior Manager Collection cum operation.', 'Roles and responsibilities.', 'Managing both Domestic and International process.', 'Domestic:', 'Bajaj Finserve, L&T Finance, Fullerton India, Kotak,', 'International:', 'Etisalat, Dubai Islamic Bank & DU Telecom.', 'Handling 0 till Recovery.', 'Products Personal Loans, Two-Wheeler & Tele-com process', 'Managing POS of 160 crores in Recovery including penal, TW – Buckets 7 crores. Tele-com – 346 million (Count - Around 1.2 lakhs of accounts)', 'Portfolio Analysis in terms of Count, POS, Cycle Date & Repayment Mode.', 'Handling both Tele-calling and Field. (2 Asst Managers, 6 Team Leaders ,85 Tele-callers & 22 FOS)', 'Managing productivity to the best levels by being on par with daily DRR benefitting client and management.', 'Maintaining trackers with respect to data input and daily movement’s month on month.', 'Conceptualizing and implementing the strategy for the collections.']
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 9
+  Role         : First Abu Dhabi Bank as Collection Officer
+  Company      : None
+  Location     : None
+  Start - End  : Mar 2018 - Dec 2018
+  Duration     : 10 months
+  Bullets      : 4
+    • Role and Responsibilities.
+    • Managing Fresh flow customers with portfolio size of approx 30 million.
+    • Tracing customers like not contactable Skip & Fraud Customers by using good tracking tools.
+    • Ensuring achievement of 100% of the assigned targets.
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 10
+  Role         : Riddhi corporate Services Ltd Business Development Manager.
+  Company      : Implementing new workflow systems & ensuring compliance with set guidelines
+  Location     : None
+  Start - End  : Jul 2017 - Nov 2017
+  Duration     : 5 months
+  Bullets      : 6
+    • Role and responsibilities.
+    • Meeting new clients to serve the client requirements by explaining the company profile and the potentials.
+    • Analyzing the prospective client base to suit our requirements.
+    • Fixing up prior appointments and schedule appropriate meetings with the clients.
+    • Calculating the profit viability and planning accordingly.
+    • Organizing conference calls for the detailed requirements of business.
+  Method       : date_regex+title_dict
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 11
+  Role         : Reliance Communication Ltd.  as Asst. Manager.
+  Company      : None
+  Location     : None
+  Start - End  : Jan 2016 - Mar 2017
+  Duration     : 15 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 12
+  Role         : TN Retail Recovery collection Lead for  Jan’
+  Company      : Role and responsibilities.
+  Location     : None
+  Start - End  : 2016 - Mar 2017
+  Duration     : 15 months
+  Bullets      : 6
+    • Managing 90 Plus Recovery Collections, with portfolio size of approx. 8.5 Crores, with the down line of        10 Agencies Tracing customers like not contactable Skip & Fraud Customers by using good tracking tools and arranging field visits.
+    • Coordinating with the overseas collection agencies for Not Contactable, Skip & Fraud customer’s feedback.
+    • Resolving customer issues, negotiating settlements as per the guidelines as per the policy.
+    • Ensuring achievement of 100% of the assigned targets including backflow and normalization.
+    • Implementing new workflow systems & ensuring compliance with set guidelines.
+    • Reducing Bad debts from the recovery collections.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 13
+  Role         : RETCOL MANAGEMENT SERVICES  India as Manager Collection.
+  Company      : None
+  Location     : None
+  Start - End  : Sep 2011 - Jan 2016
+  Duration     : 53 months
+  Bullets      : 1
+    • Allset Deals with Major Telecom & Banking project in southern part of India
+  Sub-sections : ['Role and responsibilities', 'Monitoring day in and out collections by setting a credit day to all customers by segmenting into group.', 'Analyzing mobility portfolios: product-wise, region-wise, POS–wise; Collection/Mob database allocation depending upon the constitution of POS', 'Implied a new strategy to trace customers who’s overdue were more than 90 days.', 'Handling team strength of 150 representative (Tele calling & Field) and 10 team leaders.', 'Managing their productivity by setting a weekly and monthly DRR on the receivables.', 'Maintaining trackers with respect to data input and daily movement’s month on month.', 'Ensured that the minimum realization of 85% is met on every month from the receivables.', 'Achievements:', 'Have been recognized as best manager for achieving the super incentive slab for consecutive three months in my process during the period of 2013.']
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 14
+  Role         : M
+  Company      : ICICI BANK
+  Location     : None
+  Start - End  : Oct 2005 - Sep 2011
+  Duration     : 72 months
+  Bullets      : 5
+    • Portfolio Analysis in terms of Count, POS, Cycle Date & Repayment Mode Have worked on different DPD (0 – 90) data’s of ICICI collection recoveries process.
+    • Handling different type of portfolio like HL, Auto Loan, TW, PL, CV & UC Managing productivity to the best levels by being on par with daily DRR benefitting client and management.
+    • Maintaining trackers with respect to data input and daily movement’s month on month.
+    • Conceptualizing and implementing the strategy for the collections.
+    • Coordinating with various departments of ICICI bank during various collection campaigns.
+  Method       : date_regex+inline_parens
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 15
+  Role         : VRCS  India as Backend Officer
+  Company      : None
+  Location     : None
+  Start - End  : Mar 2001 - Oct 2005
+  Duration     : 56 months
+  Bullets      : 2
+    • Key result areas / Job role: - HSBC BANK Co-ordinate with tele callers of HSBC operations who fixes up appointment to solicit payments from customer who holds HSBC credit card and whose credit card outstanding were in days-past-due of 30+ Visiting the customer’s place to collect payment and issue receipt on behalf of HSBC.
+    • Negotiating with customers and in due course streamlining their payment obligations Imparting customers about the tenets of credit discipline and the rating mechanism in place for tracking default borrowers.
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True

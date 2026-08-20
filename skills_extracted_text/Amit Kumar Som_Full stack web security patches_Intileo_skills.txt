@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Amit Kumar Som_Full stack web security patches_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages	: Java
+Framework	: Spring, Spring Boot, Spring Security, Junit, Microservices,
+Scripting Languages	: JavaScript, Reactjs, NodeJS
+Database	: SQL Server, MySQL, MariaDB
+Repository, PMT	: GIT, Bitbucket, JIRA, TFS, GitLab
+Operating System	: Window, Linux, Mac OS
+Tools	: Docker, Kubernetes, New Relic, Jenkins, Bamboo, Postman
+IDEs	: IntelliJ IDEA, Spring Tool Suite, Eclipse
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 30.75 ms
+Method         : flashtext_skills_section | fuzzy(Junit→JUnit(100%), Reactjs→React(100%), JIRA→Jira(100%))
+
+── All Skills (21) ──
+Bitbucket, Docker, Git, GitLab, JUnit, Java, JavaScript, Jenkins, Jira, Kubernetes, Linux, MSSQL, MariaDB, Microservices, MySQL, New Relic, Node.js, Postman, React, Spring, Spring Boot
+
+── By Category ──
+  architecture                   ['Microservices']
+  database                       ['MSSQL', 'MariaDB', 'MySQL']
+  dev_tool                       ['Bitbucket', 'Git', 'GitLab', 'Postman']
+  devops                         ['Docker', 'Jenkins', 'Kubernetes', 'New Relic']
+  os_system                      ['Linux']
+  programming_language           ['Java', 'JavaScript']
+  project_mgmt                   ['Jira']
+  testing                        ['JUnit']
+  web_framework                  ['Node.js', 'React', 'Spring', 'Spring Boot']

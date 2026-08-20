@@ -1,0 +1,38 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/P. Sravan_Full Stack Web Developer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Frontend: React.js, Angular, HTML5, CSS3, JavaScript, TypeScript, Bootstrap, Material UI, SASS, AJAX, jQuery, Responsive Web Design, Cross-Browser Compatibility
+Backend: Java, Spring, Spring Boot, Hibernate, Node.js, Express.js, .NET (C#), RESTful Web Services, SOAP Web Services, Microservices Architecture, API Development
+Database: SQL, MySQL, PostgreSQL, Oracle, MongoDB, PL/SQL, Query Optimization, Data Modeling, ORM Tools (Hibernate/JPA)
+DevOps & Tools: Git, GitHub, Bitbucket, Jenkins, Maven, Gradle, Docker, Kubernetes (basic), VS Code, Eclipse, IntelliJ IDEA, Postman, JMeter, Swagger
+Testing & QA: Unit Testing (JUnit, Mockito), Integration Testing, End-to-End Testing, Selenium (basic), Load & Performance Testing (JMeter), Test Case Design
+Cloud & Deployment: AWS (EC2, S3, Lambda – basic), Azure (basic), CI/CD Pipelines, Automated Deployment
+Project & Methodology: Agile/Scrum, Kanban, JIRA, Confluence, Requirement Analysis, Code Review, Documentation, Sprint Planning, Stand-ups
+Other Skills: Web Security Best Practices, JWT/OAuth2 Authentication, Cross-Origin Resource Sharing (CORS), JSON/XML, Data Validation, Logging & Monitoring
+
+── Extraction Results ──
+Skills found   : 57
+Confidence     : 0.92
+Time           : 108.88 ms
+Method         : flashtext_skills_section | fuzzy(RESTful Web Services→REST API(95%), Microservices Architecture→Microservices(100%), Maven→Apache Maven(100%), JMeter→Apache JMeter(100%), JMeter→Apache JMeter(100%)...)
+
+── All Skills (57) ──
+.NET, AJAX, API Design, AWS, AWS EC2, AWS S3, Agile, Angular, Apache JMeter, Apache Maven, Azure, Bitbucket, Blog Writing, Bootstrap, C#, CI/CD, CSS3, Code Reviews, Confluence, Data Modeling, Data Validation, DevOps, Docker, Express.js, Git, GitHub, Gradle, HTML5, JPA, JUnit, Java, JavaScript, Jenkins, Jira, Kanban, Kubernetes, Microservices, MongoDB, MySQL, Node.js, PL/SQL, Performance Testing, PostgreSQL, Postman, Quality Assurance, REST API, React, Responsive Web Design, SQL, Scrum, Selenium, Spring, Spring Boot, Swagger, TypeScript, VS Code, jQuery
+
+── By Category ──
+  architecture                   ['API Design', 'Microservices']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3', 'Azure']
+  collaboration                  ['Confluence']
+  content                        ['Blog Writing']
+  data_engineering               ['Data Validation']
+  data_science                   ['Data Modeling']
+  database                       ['MongoDB', 'MySQL', 'PL/SQL', 'PostgreSQL', 'SQL']
+  dev_tool                       ['Apache Maven', 'Bitbucket', 'Code Reviews', 'Git', 'GitHub', 'Postman', 'Swagger', 'VS Code']
+  devops                         ['CI/CD', 'DevOps', 'Docker', 'Jenkins', 'Kubernetes']
+  operations                     ['Quality Assurance']
+  programming_language           ['.NET', 'Apache JMeter', 'C#', 'Gradle', 'Java', 'JavaScript', 'TypeScript']
+  project_mgmt                   ['Agile', 'Jira', 'Kanban', 'Scrum']
+  testing                        ['JUnit', 'Performance Testing', 'Selenium']
+  web_framework                  ['AJAX', 'Angular', 'Bootstrap', 'CSS3', 'Express.js', 'HTML5', 'JPA', 'Node.js', 'REST API', 'React', 'Responsive Web Design', 'Spring', 'Spring Boot', 'jQuery']

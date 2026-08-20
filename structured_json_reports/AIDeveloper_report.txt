@@ -1,0 +1,41 @@
+======================================================================
+FILE: AIDeveloper_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'projects', 'skills']
+Overall conf.  : 0.87
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : An Ant Bisht  (conf 0.9, regex)
+  email     : ianantbisht@gmail.com  (conf 0.99, regex)
+  phone     : +91 9910774419  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : make.com  (conf 0.85, regex)
+
+SKILLS (43) — confidence 0.92
+----------------------------------------------------------------------
+AWS, AWS EC2, AWS S3, Apache Kafka, Caching, Claude Code, Cursor, Docker, Elasticsearch, ElevenLabs, Express.js, FastAPI, GCP, GPT, Gemini, Git, GitHub, GitHub Copilot, GraphDB, GraphRAG, Groq, Hugging Face, JavaScript, LLM, LangChain, LangGraph, LlamaIndex, MCP Server, Make, MongoDB, MySQL, Node.js, Ollama, Prompt Engineering, Python, RAG, React, Redis, Supabase, TypeScript, Vector Databases, Zapier, n8n
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 2.5 years (30 months, 1 overlaps merged)
+----------------------------------------------------------------------
+  1. Associate AI Engineer @ 1to10X (MAY’25 - Present) [conf 0.98, review=False]
+  2. AI Developer @ Robot Wallah (SEP’24 - APRIL’25) [conf 0.98, review=False]
+  3. Full Stack Developer @ Webjini Technologies (MAR’24 - SEP’24) [conf 0.98, review=False]
+
+EDUCATION (1) — confidence 0.8
+----------------------------------------------------------------------
+  1. BCA — None (2021 - 2024) [conf 0.8, review=False]
+
+CERTIFICATIONS (3) — confidence 0.73
+----------------------------------------------------------------------
+  1. of completion in Frontend Web Development by Google — Google (None) [conf 0.8]
+  2. of completion in Frontend Web Development by Microsoft — Microsoft (None) [conf 0.8]
+  3. ──────────────────────────────────────────────────────────── — None (None) [conf 0.6]
+
+REVIEW QUEUE (2 flagged fields)
+----------------------------------------------------------------------
+  certifications                      conf=0.73  reason=low_confidence
+  certifications.items[2]             conf=0.6  reason=incomplete_fields

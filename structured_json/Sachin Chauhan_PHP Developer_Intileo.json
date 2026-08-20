@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "source_file": "Sachin Chauhan_PHP Developer_Intileo_segmented.txt",
+    "generated_at": "2026-08-06T07:16:21.829187+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sachin Chauhan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "chauhansachin0204@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91- 9818161624",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AJAX",
+      "CodeIgniter",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "Laravel",
+      "MySQL",
+      "PHP",
+      "Postman",
+      "React",
+      "VS Code",
+      "jQuery"
+    ],
+    "by_category": {
+      "web_framework": [
+        "AJAX",
+        "CodeIgniter",
+        "HTML5",
+        "Laravel",
+        "React",
+        "jQuery"
+      ],
+      "dev_tool": [
+        "Git",
+        "Postman",
+        "VS Code"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP"
+      ],
+      "database": [
+        "MySQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(CodeIgniter 3→CodeIgniter(95%), React.js→React(100%), HTML→HTML5(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Developer",
+        "company": "Dams Alpha. Pvt. Ltd",
+        "location": "Noida",
+        "start": "04 May, 2023",
+        "end": "08 Dec 2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 32,
+        "bullets": [
+          "Title: Dams Alpha Role: Software developer; Team Size: 6; Duration: 6M Environment: PHP, Git, React.js, MYSQL, Scope: End-to-end web application development for user management and business workflows. Contributions: Database Handling, Business logic, Web Development.",
+          "Title: Partner Dams Role: software developer; Team Size: 6; Duration: 6M Environment: PHP, Git, React.js, MYSQL, Scope: Web platform enabling partner and client collaboration within the DAMS ecosystem. Contributions: Database Handling, Business logic, Web Development.",
+          "Title: Admin Dams Role: software developer; Team Size: 6; Duration: 6M Environment: PHP, Git, React.js, MYSQL, Scope: Administrative dashboard for centralised management of users, content, and analytics Contributions: Database Handling, Business logic, Web Development. Aarna Tech Consultants, Résumé of Sachin Chauhan/ Page 1 of 2"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "software developer .",
+        "company": "Key Contributions:",
+        "location": null,
+        "start": "Dec 2021",
+        "end": "March 2023",
+        "method": "date_regex+title_dict",
+        "duration_months": 16,
+        "bullets": [
+          "Title: York Role: software developer; Team Size: 5; Duration: 7M Environment: PHP, CodeIgniter3, Git, MYSQL,"
+        ],
+        "sub_sections": [
+          "Scope: Blog Management Application",
+          "Contributions: Database Handling, Business logic, Web Development."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Developer",
+        "company": "Vibes Communication Pvt Ltd",
+        "location": "Noida",
+        "start": "Nov 2019",
+        "end": "Dec 2021",
+        "method": "date_regex+title_dict",
+        "duration_months": 26,
+        "bullets": [
+          "Title: social sports Role: Developer; Team Size: 5; Duration: 18M Environment: PHP, CodeIgniter3, MYSQL, Scope: Web-based application for managing creative content and user interactions. Contributions: Database Handling, Business logic, Web Development.",
+          "Title: Central Vista Role: Developer; Team Size: 5; Duration: 3M Environment: PHP, CodeIgniter3, MYSQL, Scope: Web application designed to streamline online product management and growth tracking. Contributions: Database Handling, Business logic, Web Development.",
+          "Title: Kutanga Role: Developer; Team Size: 5; Duration: 3M Environment: PHP, Laravel, jQuery 3.1.0, Bootstrap 3.3.7, and MySQL. Scope: E-commerce web application for product catalog management and online transactions. Contributions: Database Handling, Business logic, Web Development."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.1,
+      "total_months": 73,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• BCA from CCS University -2025",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "CCS University",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• 12th Standard from U.P. Board in 2017.",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Board",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "• 10th Standard from U.P. Board in 2015.",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Board",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education.entries[2]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

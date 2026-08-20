@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "source_file": "Ritika Jain_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
+    "generated_at": "2026-08-06T07:16:21.453728+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Chartered Accountant",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ritzsre13@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8307789271",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "M.Com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with 4+ years of post-qualification experience leading audits and ensuring compliance with\nPCAOB/AICPA standards across the Asset & Wealth Management industry. Skilled in managing audit teams, executing\ncomplex substantive testing, and delivering high-quality financial reporting and regulatory compliance. Proven track record of\nworking with global clients including BlackRock, driving efficiency and accuracy in audit engagements.",
+  "skills": {
+    "items": [
+      "Adaptability",
+      "Cross-functional Collaboration",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "Private Equity",
+      "Problem Solving",
+      "Taxation",
+      "Time Management"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Adaptability",
+        "Cross-functional Collaboration",
+        "Problem Solving",
+        "Time Management"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "finance": [
+        "Private Equity"
+      ],
+      "finance_ops": [
+        "Taxation"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Associate",
+        "company": "PwC Acceleration Centers | Gurugram",
+        "location": null,
+        "start": "July 2021",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 62,
+        "bullets": [
+          "Led end-to-end audits for public and non-public clients in the Asset & Wealth Management industry, ensuring compliance with PCAOB and AICPA standards.",
+          "Managed audit teams, reviewed work papers, and coordinated with clients and offshore teams to deliver timely, high- quality audit outcomes.",
+          "Executed substantive testing on statements of cash flows and schedules of investments at InHedge, including testing of ASC 815 derivative contracts.",
+          "Analyzed changes in unrealized appreciation/depreciation of financial instruments, performed investment manager report tie-outs, and validated realized gains and losses on derivatives.",
+          "At iShares, executed substantive testing across realized gain/loss, ASC 740 capital gains, affiliates, cross-trade transactions, bank confirmations, and income/expense areas.",
+          "Reviewed financial statements for accuracy and consistency; conducted N-1A testing including Prospectus, SAI, and Additional Disclosures for regulatory compliance.",
+          "Partnered with global clients including BlackRock iShares, Hedge Funds, Private Equity Funds, and Commodities Funds."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Paid Assistant",
+        "company": "Sanjay Singhal & Associates | Saharanpur",
+        "location": null,
+        "start": "June 2019",
+        "end": "May 2020",
+        "method": "date_regex+title_dict",
+        "duration_months": 12,
+        "bullets": [
+          "Prepared and submitted Income Tax Returns and assisted in preparation and filing of GST Returns for clients across varied business domains.",
+          "Conducted inventory audits comprising review of internal controls, physical verification, reconciliation with accounting records, and analysis of inventory ageing and scrutiny of inventory registers.",
+          "Assisted in finalization and closure of books of accounts for multiple clients."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.2,
+      "total_months": 74,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Chartered Accountant (CA) 2020",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": "CA",
+        "institution": "Institute of Chartered Accountants of India",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Master of Commerce (M.Com) 2017",
+        "degree_name": "M.Com",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "University",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "Bachelor of Commerce (B.Com) 2015",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "University",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education.entries[2]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

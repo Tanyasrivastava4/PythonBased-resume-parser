@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "source_file": "Sahith_Saraswathi CV_segmented.txt",
+    "generated_at": "2026-08-06T07:16:22.299504+00:00",
+    "sections_found": [
+      "certifications",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sahith.dingi@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91 7093939581",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/sahith-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/sahith003",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Data scientist with practical experience in analytics, machine learning, and statistical modeling through focused training and projects.\nSkilled in Python, SQL, and visualization tools to extract insights and support data-driven decisions.\nDriven, analytical, and passionate about turning complex data into strategic value.",
+  "skills": {
+    "items": [
+      "CNN",
+      "ChromaDB",
+      "Classification Web",
+      "Data Analytics",
+      "Data Science",
+      "Data Visualization",
+      "Deep Learning",
+      "E-commerce",
+      "FAISS",
+      "Fine-tuning",
+      "Gemini",
+      "Generative AI",
+      "Hugging Face",
+      "Keras",
+      "LLM",
+      "LLaMA",
+      "LangChain",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Excel",
+      "NLP",
+      "NumPy",
+      "OpenAI API",
+      "OpenCV",
+      "Pandas",
+      "Prompt Engineering",
+      "PyTorch",
+      "Python",
+      "RAG",
+      "SANS",
+      "SQL",
+      "SciPy",
+      "Seaborn",
+      "Stable Diffusion",
+      "Statistics",
+      "Tableau",
+      "Time Series Forecasting",
+      "Vector Databases",
+      "XGBoost",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "CNN",
+        "Data Science",
+        "Deep Learning",
+        "Keras",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "OpenCV",
+        "Pandas",
+        "PyTorch",
+        "SciPy",
+        "Seaborn",
+        "Time Series Forecasting",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "search": [
+        "ChromaDB",
+        "Classification Web",
+        "FAISS"
+      ],
+      "data_science": [
+        "Data Analytics",
+        "Data Visualization",
+        "Statistics",
+        "Tableau"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "genai": [
+        "Fine-tuning",
+        "Gemini",
+        "Generative AI",
+        "Hugging Face",
+        "LLM",
+        "LLaMA",
+        "LangChain",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG",
+        "Stable Diffusion",
+        "Vector Databases"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "security_ops": [
+        "SANS"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(e-commerce→E-commerce(100%), sklearn→scikit-learn(100%), matplotlib→Matplotlib(100%), seaborn→Seaborn(100%), pytorch→PyTorch(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Data Scientist",
+        "company": "PES University",
+        "location": null,
+        "start": "December 2022",
+        "end": "May 2023",
+        "method": "date_regex+title_dict",
+        "duration_months": 6,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Masters degree in Data science and Machine Learning",
+        "location": null,
+        "start": "2020",
+        "end": "2022",
+        "method": "date_regex",
+        "duration_months": 25,
+        "bullets": [
+          ",also build the disease prediction model with 98% accuracy.",
+          "Marri Laxman Reddy Institute Technology Extracted structured data from clinical report tables using OCR, table & Management detection (TableNet), and classification techniques, achieving 93% classification accuracy and 0.1 loss in detection."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Bachelors Degree in Computer Science Engineering",
+        "location": null,
+        "start": "2015",
+        "end": "2019",
+        "method": "date_regex",
+        "duration_months": 49,
+        "bullets": [
+          "data extraction from reports, enhancing monitoring, data usability, and reporting efficiency."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.7,
+      "total_months": 80,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.79
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "diagnostic tool to support early detection and treatment planning",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "RBI Regularity Chatbot (RAG)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Developed an AI chatbot using Langchain and RAG to provide context",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Advanced Generative AI  from aware answers on RBI risk guidelines, leveraging FAISS and OpenAI for",
+        "issuer": null,
+        "year": "2024",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Innomatics research labs semantic search and response generation.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Career Essentials in Generative Ai Applied NLP to simplify complex regulations, enhancing clarity and",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "by Microsoft supporting compliance workflows.",
+        "issuer": "Microsoft",
+        "year": "2024",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Health Insurance Prediction",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Achieved high-accuracy insurance premium prediction (R² = 0.98) using",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "customer demographics and health attributes.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Enhanced pricing fairness and personalization, boosting customer",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "satisfaction and data-driven decision-making for insurers.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "────────────────────────────────────────────────────────────",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.64
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.64,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

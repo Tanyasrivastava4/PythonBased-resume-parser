@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "source_file": "Aasma_Resume__segmented.txt",
+    "generated_at": "2026-08-06T07:16:19.757083+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills",
+      "strengths",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aasma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "aaasma587@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7982692144",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "B.Com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Customer-oriented and result-driven professional with over 8 years of experience in the automobile\nindustry, seeking a challenging role as a Customer Relationship Executive where I can utilize my\ncommunication, coordination, and service skills to enhance customer satisfaction and contribute to\nthe organization’s growth.",
+  "skills": {
+    "items": [
+      "CRM Tools",
+      "Call Handling",
+      "Communication",
+      "Customer Handling",
+      "Data Management",
+      "English",
+      "Hindi",
+      "Interpersonal Skills",
+      "MS Office",
+      "Problem Solving"
+    ],
+    "by_category": {
+      "sales": [
+        "CRM Tools"
+      ],
+      "customer_service": [
+        "Call Handling",
+        "Customer Handling"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Interpersonal Skills",
+        "Problem Solving"
+      ],
+      "productivity": [
+        "Data Management",
+        "MS Office"
+      ],
+      "language": [
+        "English",
+        "Hindi"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%), Email communication→Communication(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Thirty Six Toyota",
+        "location": "Faridabad",
+        "start": "June 2022",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 51,
+        "bullets": [
+          "Handling customer inquiries, feedback, and service scheduling",
+          "Ensuring customer satisfaction and timely service delivery",
+          "Coordinating with workshop and service teams for issue resolution",
+          "Maintaining service records in CRM and achieving satisfaction KPIs"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Ford",
+        "location": "Faridabad",
+        "start": "June 2021",
+        "end": "May 2022",
+        "method": "date_regex",
+        "duration_months": 12,
+        "bullets": [
+          "Managed inbound and outbound calls for service bookings and follow-ups",
+          "Handled customer complaints and escalations with professionalism"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Mahadev Hyundai",
+        "location": "Faridabad",
+        "start": "June 2020",
+        "end": "May 2021",
+        "method": "date_regex",
+        "duration_months": 12,
+        "bullets": [
+          "Supported the service department by tracking vehicle servicing and updates",
+          "Improved service follow-up quality and maintained customer feedback logs"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Pasco",
+        "location": "Faridabad",
+        "start": "June 2018",
+        "end": "May 2020",
+        "method": "date_regex",
+        "duration_months": 24,
+        "bullets": [
+          "Assisted customers with service requests and appointment coordination",
+          "Contributed to customer retention through prompt support"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "ABC Motors",
+        "location": "Faridabad",
+        "start": "June 2016",
+        "end": "May 2018",
+        "method": "date_regex",
+        "duration_months": 24,
+        "bullets": [
+          "Handled customer calls and maintained satisfaction reports",
+          "Helped streamline service appointment processes for better customer experience"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 10.2,
+      "total_months": 123,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• B.Com, Delhi University – 2020",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Delhi University",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Higher Secondary (12th), Haryana Board",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Haryana Board",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• Secondary (10th), Haryana Board",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Haryana Board",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}
