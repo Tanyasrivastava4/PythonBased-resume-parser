@@ -3,6 +3,10 @@ SKILLS EXTRACTED FROM: segmented_text/Rohit Ravi Pandey_AVP- Internal Audit (ITI
 ────────────────────────────────────────────────────────────
 
 ── Skills Section Text (raw, as segmented) ──
+in managing security operations, risk management, incident handling, and disaster recovery planning. Skilled in regulatory compliance and conducting regular audits to
+ensure alignment with industry best practices. Committed to developing cross-functional security awareness programs and continuously improving the organization’s overall
+security posture to minimize vulnerabilities and enhance data protection.
+Technical Skills:
 ▪ Security Devices: WAF, Firewall, VPN, DLP, CDN, Load balancer, IDS/IPS, ATD, Proxy, PIM/PAM, MDM.
 ▪ Security Tools: NMAP, Wireshark, Nessus, Accunetix, IRM/DRM, Endpoint security.
 ▪ Monitoring Solutions: Network monitoring tools, SIEM, Domain monitoring.
@@ -13,19 +17,23 @@ the database.
 ▪
 
 ── Extraction Results ──
-Skills found   : 37
+Skills found   : 43
 Confidence     : 0.92
-Time           : 76.89 ms
-Method         : flashtext_skills_section | fuzzy(Load balancer→Load Balancer(100%), Accunetix→Acunetix(100%), OWASP→OWASP Top 10(100%), CIS controls→CIS Controls(100%), Encryption→Cryptography(100%)...)
+Time           : 186.0 ms
+Method         : flashtext_skills_section | fuzzy(risk management→Risk Management(100%), incident handling→Incident Response(100%), cross-functional→Cross-functional Collaboration(100%), Load balancer→Load Balancer(100%), Accunetix→Acunetix(100%)...)
 
-── All Skills (37) ──
-ATD, AWS, Acunetix, Azure, CDN, CERT-In, CIS Controls, Cryptography, DLP, Domain Monitoring, Endpoint Security, Firewall, Hyper-V, IDS/IPS, IRM/DRM, ISO 27001, JBoss, Java, Linux, Load Balancer, MDM, Microsoft Windows, NIST, Nessus, Network Monitoring Tools, Nmap, OWASP Top 10, PCI-DSS, PostgreSQL, Proxy, SANS, SIEM, VACA, VPN, VirtualBox, WAF, Wireshark
+── All Skills (43) ──
+ATD, AWS, Acunetix, Azure, CDN, CERT-In, CIS Controls, Cross-functional Collaboration, Cryptography, DLP, Disaster Recovery, Domain Monitoring, Endpoint Security, Firewall, Hyper-V, IDS/IPS, IRM/DRM, ISO 27001, Incident Response, JBoss, Java, Linux, Load Balancer, MDM, Microsoft Windows, NIST, Nessus, Network Monitoring Tools, Nmap, OWASP Top 10, PCI-DSS, PostgreSQL, Proxy, Regulatory Compliance, Risk Management, SANS, SIEM, Security Awareness Training, VACA, VPN, VirtualBox, WAF, Wireshark
 
 ── By Category ──
   cloud_infra                    ['AWS', 'Azure', 'CDN', 'Hyper-V', 'VirtualBox', 'Wireshark']
   database                       ['PostgreSQL']
   devops                         ['JBoss', 'Load Balancer', 'Network Monitoring Tools']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Disaster Recovery']
   os_system                      ['Linux', 'Microsoft Windows']
   programming_language           ['Java']
+  project_mgmt                   ['Risk Management']
   security                       ['Nmap']
-  security_ops                   ['ATD', 'Acunetix', 'CERT-In', 'CIS Controls', 'Cryptography', 'DLP', 'Domain Monitoring', 'Endpoint Security', 'Firewall', 'IDS/IPS', 'IRM/DRM', 'ISO 27001', 'MDM', 'NIST', 'Nessus', 'OWASP Top 10', 'PCI-DSS', 'Proxy', 'SANS', 'SIEM', 'VACA', 'VPN', 'WAF']
+  security_ops                   ['ATD', 'Acunetix', 'CERT-In', 'CIS Controls', 'Cryptography', 'DLP', 'Domain Monitoring', 'Endpoint Security', 'Firewall', 'IDS/IPS', 'IRM/DRM', 'ISO 27001', 'Incident Response', 'MDM', 'NIST', 'Nessus', 'OWASP Top 10', 'PCI-DSS', 'Proxy', 'SANS', 'SIEM', 'Security Awareness Training', 'VACA', 'VPN', 'WAF']
+  soft_skill                     ['Cross-functional Collaboration']

@@ -1,0 +1,32 @@
+======================================================================
+FILE: test_scan_combined_worst_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+May 2023 - Present
+AAA Technologies Ltd. (Information Security Consultant)
+· In Depth Involvement in Security Audit/Vulnerability Assessment/Penetration Testing/Dynamic is
+Application Security Testing (DAST) of Web Applications, Mobiles Applications and Web Services using
+tools like Netsparker, Burp...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 1
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.4 years (41 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Information Security Consultant
+  Company      : AAA Technologies Ltd.
+  Location     : None
+  Start - End  : May 2023 - Present
+  Duration     : 41 months
+  Bullets      : 4
+    • · In Depth Involvement in Security Audit/Vulnerability Assessment/Penetration Testing/Dynamic is Application Security Testing (DAST) of Web Applications, Mobiles Applications and Web Services using tools like Netsparker, Burpsuite, Metasploit, Sqlmap, Acunetix etc.
+    • Experience in Static Application Security Testing (SAST) / Source Code Review by using like Syhunt · Experience in Network Audit by using tool like Nessus etc. Tool etc.
+    • Review/Analysis and verification of Audited Applications. · Security Testing according to OWASP TOP 10 Security Risks. Perform both Automated and Manual Testing of the application to find vulnerable part of the application. . Provide solution of the vulnerability and help users to fix the issue.
+    • Handling the client query and providing them solution for patching the vulnerabilities. ──────────────────────────────────────────────────────────── [Found 3 sections total: ['header', 'summary', 'experience']]
+  Method       : date_regex+paren_title
+  Confidence   : 0.98
+  Needs Review : False

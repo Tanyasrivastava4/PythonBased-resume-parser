@@ -1,0 +1,102 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/scanned_resume_AMOL_JADHAV_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+IT Infrastructure Management
+Cloud and DevOps Operations
+Compliance & Audit management
+Planning, Scheduling & Controlling
+Network & Storage management
+Server/ System Administration
+Pre-sales, Budgeting & Cost Control
+Technical Support/Documentation
+Clients engagement and support
+OPERATING SYSTEMS & VIRTUALIZATION
+Modern OS Platforms: Windows Server 2025/2022/2019/2016, Linux (RHEL, Ubuntu, Debian, CentOS, Fedora), MacOS
+Enterprise Virtualization: VMware vSphere/ESXi, vCenter, Microsoft Hyper-V - deployment, lifecycle management,
+•
+performance tuning, Containerization & Orchestration - Docker, Kubernetes
+•
+CYBERSECURITY & THREAT MANAGEMENT
+Endpoint Protection & XDR: CrowdStrike Falcon, Microsoft Sentinel, Defender for Endpoint, Sophos, McAfee ePO,
+•
+Symantec, Dark Trace. OT security and compliance framework ICS & SCADA, physical safety measurements
+Network Security & Firewalls: Fortinet, SonicWALL, PFSense, SOPHOS UTM, Squid Proxy
+•
+Email & Web Security: MIMECAST, Microsoft Defender for Office 365, Proofpoint, FortiMail, Abnormal Security
+•
+Security Governance: SIEM integration, secure configuration baselines, Zero Trust principles.
+•
+INFRASTRUCTURE, NETWORKING & IDENTITY
+Core Network Services: Cisco Routing & Switching, VLAN, VPN, SD-WAN, DNS, DHCP
+•
+Windows Infrastructure: Active Directory, Group Policy, Certificate Services, File Services
+•
+Identity & Access Management: Entra ID, LDAP, SSO/Federation, Role-based Access Control (RBAC)
+•
+PRODUCTIVITY & COLLABORATION PLATFORMS
+Microsoft 365 Ecosystem: Exchange Online, SharePoint Online, Teams, OneDrive, Entra ID (Azure AD)
+•
+Governance & Compliance: DLP, Conditional Access, MFA, Data Retention Policies
+•
+CLOUD INFRASTRUCTURE & DEVOPS
+Cloud Platforms: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP)
+•
+Cloud-Native Skills: laaS, PaaS, hybrid cloud deployment, cost optimization, landing zone setup, identity & access
+•
+Management, PySpark, Airflow, Glue ETL, Athena, AWS CodePipeline, Jenkins, GitHub Actions
+•
+DevOps & Automation Tools - Terraform, Ansible, CI/CD pipelines - GitHub Actions, Azure DevOps
+•
+BACKUP, STORAGE & DISASTER RECOVERY
+Enterprise Backup Solutions: Commvault, Veeam, Acronis, IDrive
+•
+Storage Systems: Dell PowerStore, HPE, NetApp - SAN/NAS, iSCSI, Tape Autoloaders
+•
+DR/BCP: End-to-end planning & testing - RPO/RTO alignment, regulatory compliance (esp. financial services)
+•
+WEB, DATABASE & APPLICATION HOSTING
+• Web & Application Servers: IIS, Apache, NGINX
+Database Platforms: MongoDB, NoSQL, SQL Server - performance tuning, backup, HA
+•
+Hosting & Monitoring: Web hosting lifecycle, SSL, app performance monitoring tools,
+•
+Hosting and VPS platforms - Go daddy, Big Rock, Digital Ocean, AWS Amplify, Lightsail
+•
+SERVICE MANAGEMENT & IT GOVERNANCE
+ITSM Platforms: JIRA Service Management, ServiceNow, Confluence
+Frameworks & Standards: ITIL v4, ISO/IEC 27001, ISO 20000, NIST Cybersecurity
+•
+Processes: Incident, Problem, Change Management - process optimization and automation
+•
+
+── Extraction Results ──
+Skills found   : 61
+Confidence     : 0.92
+Time           : 392.82 ms
+Method         : flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%), RHEL→Linux(100%), Debian→Linux(100%), CentOS→Linux(100%), Fedora→Linux(100%)...)
+
+── All Skills (61) ──
+AWS, AWS Amplify, AWS Athena, Active Directory, Ansible, Apache Airflow, Auditing, Azure, Azure DevOps, BCP, Budgeting, CI/CD, Change Management, Collaboration, Confluence, Cost Analysis, DLP, DevOps, DigitalOcean, Disaster Recovery, Docker, ETL, Endpoint Security, Firewall, GCP, GitHub Actions, Go, Hyper-V, Jenkins, Jira, Kubernetes, Linux, MSSQL, McAfee, Microsoft Defender, Microsoft Sentinel, Microsoft Teams, Microsoft Windows, Microsoft Windows Server, MongoDB, NIST, Network Security, Networking, Nginx, NoSQL, Office 365, Performance Monitoring, Performance Optimization, Process Improvement, Proxy, PySpark, Regulatory Compliance, SIEM, ServiceNow, SharePoint, SonicWall, Technical Support, Terraform, Ubuntu, VMware, VPN
+
+── By Category ──
+  biz_dev                        ['Networking']
+  cloud_infra                    ['AWS', 'AWS Amplify', 'AWS Athena', 'Azure', 'DigitalOcean', 'GCP', 'Hyper-V', 'Microsoft Windows Server', 'VMware']
+  collaboration                  ['Confluence']
+  data_engineering               ['Apache Airflow', 'ETL']
+  database                       ['MSSQL', 'MongoDB', 'NoSQL', 'PySpark']
+  dev_tool                       ['Performance Optimization']
+  devops                         ['Ansible', 'Azure DevOps', 'CI/CD', 'DevOps', 'Docker', 'GitHub Actions', 'Jenkins', 'Kubernetes', 'Nginx', 'Terraform']
+  finance_ops                    ['Auditing', 'Budgeting', 'Cost Analysis']
+  integration                    ['Office 365', 'ServiceNow', 'SharePoint']
+  legal                          ['Regulatory Compliance']
+  operations                     ['BCP', 'Disaster Recovery', 'Performance Monitoring', 'Process Improvement']
+  os_system                      ['Linux', 'Microsoft Windows', 'Ubuntu']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Go']
+  project_mgmt                   ['Change Management', 'Jira']
+  security                       ['McAfee']
+  security_ops                   ['Active Directory', 'DLP', 'Endpoint Security', 'Firewall', 'Microsoft Defender', 'Microsoft Sentinel', 'NIST', 'Network Security', 'Proxy', 'SIEM', 'SonicWall', 'VPN']
+  soft_skill                     ['Collaboration']
+  support                        ['Technical Support']

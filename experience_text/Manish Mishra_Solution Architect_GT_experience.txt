@@ -3,28 +3,27 @@ FILE: Manish Mishra_Solution Architect_GT_segmented.txt
 ======================================================================
 RAW EXPERIENCE SECTION (first 300 chars)
 ----------------------------------------------------------------------
-in Component Based framework Angular2.
-Experience
-in Devops tools for version control and deployment automation.
-Client interaction on daily basis to share development status and queries if any.
-PRESENT EMPLOYER
 Infinite Computer Solution. (31st Jan 2024 – Present)
 Designation: Solution Architect
-PR...
+PREVIOUS EMPLOYER DETAILS
+1. Zamanzar Advisory Pvt ltd. (14th December 2007 – 20th April 2010)
+Designation: Software Engineer
+2. impetus infotech (India) pvt ltd. (December 2010 – September 2013)
+Designation: Softw...
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 3
-Confidence     : 0.98
-Needs review   : False
-Total exp      : 10.7 years (128 months, 0 overlapping periods merged)
+Entries found  : 7
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 15.8 years (190 months, 5 overlapping periods merged)
 
 Entry 1
   Role         : Designation: Solution Architect
-  Company      : PRESENT EMPLOYER
+  Company      : Infinite Computer Solution.
   Location     : None
   Start - End  : Jan 2024 - Present
-  Duration     : 32 months
+  Duration     : 33 months
   Bullets      : 1
     • Zamanzar Advisory Pvt ltd. (14th December 2007 – 20th April 2010)
   Method       : date_regex+title_dict
@@ -51,7 +50,69 @@ Entry 3
   Bullets      : 2
     • Conduent Business Services (29th November 2018 – 15th Sep 2022)
     • Sonata Software Ltd. (16th Sep 2022 – 30th Jan 2024)
-  Sub-sections : ['Designation: lead software engineer', 'Designation: Digital Architect']
+  Sub-sections : ['Designation: lead software engineer']
   Method       : date_regex+title_dict
   Confidence   : 0.98
   Needs Review : False
+
+Entry 4
+  Role         : Designation: Digital Architect
+  Company      : Project Details
+  Location     : None
+  Start - End  : Jan 2024 - Present
+  Duration     : 33 months
+  Bullets      : 1
+    • Skills: Java 21, Spring boot, Microservices, Restful web services, AWS, Design pattern, Gen AI, MySQL, Oracle, Jenkins, GitHub
+  Sub-sections : ['Role and Responsibuility: Application Architect', 'In running applications, provide technical solutions to the development team.', 'monitor the whole system, understand all interactions between components on a given level of abstraction, as well as to define limitations and requirements for source code.', 'Make sure applications are scalable and reliable, and assists enterprises in identifying gaps in functionality.', 'Discussion with clients to determine objectives and requirements for structures.', 'Prepare structure specifications.', 'Proposed microservice based application architecture in cloud native environment.']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : None
+  Company      : Project:  edcast marketplace
+  Location     : None
+  Start - End  : Sep 2022 - Jan 2024
+  Duration     : 17 months
+  Bullets      : 5
+    • Environment: Java8, Spring boot, Restful Web Services, Microservices, MySQL, Maven, AWS, Kafka, Jenkins, GIT Hub, Kibana Business Requirements: The EdCast Marketplace started as a product marketplace for one seller (ITpreneurs) and multiple buyers.
+    • Edcast marketplace is a web-based platform that provide online and offline courses to the learner.
+    • The learner can enroll the courses and exam.
+    • In EdCast, the primary model for driving sales via the platform and to offer (sell) Courses (Instructor Led and Self Paced) courses directly to learners.
+    • A course is a complete structured learning intervention that results in a learner acquiring the knowledge that was defined as part of the course objectives.
+  Sub-sections : ['Role: Technical Lead/ Lead Software Developer', 'Estimations of the development components required for the sprint.', 'Delivering a relevant technical solution based on best practice / experience.', 'Different critical stages of development and integration in or between applications.', 'Implementing software development life cycle policies.', 'Create PR/ code review.', 'Build and deployment the code in testing environment.']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : None
+  Company      : Daily standup call with team.
+  Location     : None
+  Start - End  : Nov 2018 - Sep 2022
+  Duration     : 47 months
+  Bullets      : 5
+    • Environment: Java8, Spring4, Restful Web Services, Microservices, Angular2.0, Oracle12C, Maven, Sonar Lint, JQuery, TFS GIT, JSON.
+    • Business Requirements: Lifeatwork is a web based front-end portal for core RKS system providing benefit administration for Defined Contribution (DC), Defined Benefit (DB), Health & Welfare (HW) plans.
+    • The lifeatwork framework has evolved to become the flagship portal framework for HRS product.
+    • Lifeatwork framework is a presentation tier framework that is scalable, configurable and loosely couple.
+    • The participant (end user) can perform activity in the product like review their health coverage, add/update dependent, update address, initiate retirement, monitor 410k, update beneficiaries, make health election for self and family during annual enrollment.
+  Sub-sections : ['Role: Technical Lead/Lead Software Engineer', 'Estimations of the development components required for the entire solution.', 'Delivering a relevant technical solution based on best practice / experience.', 'Different critical stages of development and integration in or between applications.', 'Established and documented metrics leading to correctly assessing project estimations.', 'Conducting code reviews for the development team.']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 7
+  Role         : None
+  Company      : Weekly Client interaction
+  Location     : None
+  Start - End  : Dec 2016 - Nov 2018
+  Duration     : 24 months
+  Bullets      : 3
+    • Environment: Java8, Spring Boot, Restful Web Services, Microservices, Angular2.0, Aspera API Implementation, Oracle12C, Maven, GitHub, SonarLint, JQuery, IntelliJ IDEA CIB application is a centralized exchange platform for facilitate secure and asynchronous file transfer between CLUWE and third party organization (TPO’s).
+    • This application provides capability of transfer clinical research data between TPOs and CLUWE.
+    • At high level, this application provides following features and function:
+  Sub-sections : ['Role Based Authentication', 'Invitation and Registration']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

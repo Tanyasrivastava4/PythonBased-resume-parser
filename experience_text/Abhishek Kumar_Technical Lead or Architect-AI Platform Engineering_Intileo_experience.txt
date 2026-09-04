@@ -9,10 +9,10 @@ solu?ons, and oversee end-to-end development and deployment, driving technologic
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 4
-Confidence     : 0.85
+Entries found  : 11
+Confidence     : 0.83
 Needs review   : True
-Total exp      : 8.7 years (104 months, 2 overlapping periods merged)
+Total exp      : 17.8 years (214 months, 7 overlapping periods merged)
 
 Entry 1
   Role         : : Kalp Digital Infra Pvt. Ltd., Noida as Engineering Manager
@@ -65,4 +65,81 @@ Entry 4
   Sub-sections : ['Key Achievements', '➢ Enhanced internal systems by elimina?ng unnecessary procedures, improving quality, and saving 24 hours per month', '➢ Automated content management process, allowing online content submission and saving 4 hours per week of manual data entry', '➢ Invented Universal GUI to provide graphical interface to command-line apps, improving UX and streamlining complicated tasks', '➢ Received best innova?on cer?ficate and award for saving $1 million worth of effort by providing & implemen?ng value idea', '➢ Led Robot Framework training, built Scrum performance engine, & enhanced enterprise architecture to improve tes?ng, repor?ng, design.']
   Method       : date_regex+title_dict
   Confidence   : 0.85
+  Needs Review : True
+
+Entry 5
+  Role         : Engineering Lead
+  Company      : ➢ Agnity India Technology Pvt. Ltd., Noida, U.P.
+  Location     : India
+  Start - End  : May’14 - Jan’16
+  Duration     : 21 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 6
+  Role         : Tech Architect/Project Manager
+  Company      : ➢ In>gate Technologies Pvt. Ltd., Noida, U.P.
+  Location     : India
+  Start - End  : Oct’13 - May’14
+  Duration     : 8 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 7
+  Role         : Team Lead
+  Company      : ➢ IOMEDIA Inc., Gurgaon, Haryana
+  Location     : India
+  Start - End  : Jul’13 - Oct’13
+  Duration     : 4 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 8
+  Role         : Senior So)ware Engineer
+  Company      : ➢ Mobilous Inc., Gurgaon, Haryana
+  Location     : India
+  Start - End  : Sep’11 - Jul’13
+  Duration     : 23 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 9
+  Role         : So)ware Engineer
+  Company      : ➢ NIIT Ltd., New Delhi
+  Location     : India
+  Start - End  : Mar’10 - Aug’11
+  Duration     : 18 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 10
+  Role         : System Engineer
+  Company      : ➢ Geine Technologies India Pvt. Ltd., Gurgaon, Haryana
+  Location     : India
+  Start - End  : Oct’09 - Mar’10
+  Duration     : 6 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 11
+  Role         : So)ware Engineer
+  Company      : ➢ G-Cube Solu>ons Pvt. Ltd., Noida, U.P.
+  Location     : India
+  Start - End  : Nov’06 - Sep’09
+  Duration     : 35 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.7
   Needs Review : True

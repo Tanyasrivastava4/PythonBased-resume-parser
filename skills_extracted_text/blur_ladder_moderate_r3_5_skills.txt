@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/blur_ladder_moderate_r3_5_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+« EC-Council Certification - Certified Ethical Hacker (CEH Practical)
+¢ Udemy online Certification. Ethical hacking for beginner
+¢ Udemy Online Certification - Ethical hacking,
+
+Automation Testing Tools
+
+Nukto, Nessus. NMAP. IBM AppScan
+
+Application Tools
+
+Network Tools
+Nessus. NMAP
+Mobile App Toots
+
+e Gender: Male
+
+. Date of Birth: 15 May 2000
+e Language: Hindi, English
+
+¢ | hereby declare that the information given about is correct to the best of my
+knowledge and belief.
+
+── Extraction Results ──
+Skills found   : 5
+Confidence     : 0.92
+Time           : 131.23 ms
+Method         : flashtext_skills_section | fuzzy(Nessus.→Nessus(92%), NMAP.→Nmap(89%), Nessus.→Nessus(92%), NMAP→Nmap(100%), English ¢→English(95%))
+
+── All Skills (5) ──
+CEH, English, Hindi, Nessus, Nmap
+
+── By Category ──
+  language                       ['English', 'Hindi']
+  security                       ['Nmap']
+  security_ops                   ['CEH', 'Nessus']

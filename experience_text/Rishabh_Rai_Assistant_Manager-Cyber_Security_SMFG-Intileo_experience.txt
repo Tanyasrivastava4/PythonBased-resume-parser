@@ -1,4 +1,53 @@
 ======================================================================
 FILE: Rishabh_Rai_Assistant_Manager-Cyber_Security_SMFG-Intileo_segmented.txt
 ======================================================================
-No 'experience' section found in this file.
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+C-EDGE TECHNOLOGIES
+Feb - 2025 - Apr 2026
+• Provide advanced incident response for security alerts escalated from Level 1, prioritizing critical events to
+minimize the impact on business operations.
+• Lead investigations into security incidents, analyzing network traffic, system logs, and endpoint d...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 3.0 years (36 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : C-EDGE TECHNOLOGIES
+  Location     : None
+  Start - End  : Feb 2025 - Apr 2026
+  Duration     : 15 months
+  Bullets      : 10
+    • Provide advanced incident response for security alerts escalated from Level 1, prioritizing critical events to minimize the impact on business operations.
+    • Lead investigations into security incidents, analyzing network traffic, system logs, and endpoint data to determine the scope of the attack.
+    • Utilize SIEM tools such as Splunk and QRadar to correlate and analyze data from multiple sources, identifying emerging threats and vulnerabilities.
+    • Perform in-depth analysis of malware, identifying indicators of compromise (IOCs), and aiding in the development of remediation plans.
+    • Collaborate with IT and network teams to contain and mitigate security threats, ensuring proper follow-up and documentation in incident response tools.
+    • Support the creation and refinement of security playbooks for various attack scenarios and procedures.
+    • Act as the primary point of contact for escalated security incidents, providing guidance and mentorship to junior analysts.
+    • Prepare detailed post-incident reports for leadership and management, summarizing incident timelines, root cause analysis, and lessons learned.
+    • Conduct periodic vulnerability assessments, identifying and remediating security gaps across the organization's infrastructure.
+    • Maintain up-to-date knowledge of the threat landscape and emerging cyber threats, advising on proactive security measures.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : System Engineer
+  Company      : Sattva EngiTech PVT LTD
+  Location     : None
+  Start - End  : May 2023 - Feb 2025
+  Duration     : 22 months
+  Bullets      : 4
+    • Monitored and triaged security events using SIEM platforms, escalating critical incidents to Level 2 as necessary.
+    • Conducted initial analysis of security incidents, identifying and reporting false positives, as well as gathering relevant data for further investigation.
+    • Assisted in the development of incident response protocols and workflows to improve response times and effectiveness.
+    • Helped maintain and update asset inventory and vulnerability management systems. Supported daily SOC operations by ensuring proper handling of alerts and continuous monitoring of security tools.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

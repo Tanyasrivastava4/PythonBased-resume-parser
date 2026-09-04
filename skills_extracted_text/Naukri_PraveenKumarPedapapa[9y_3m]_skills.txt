@@ -3,15 +3,52 @@ SKILLS EXTRACTED FROM: segmented_text/Naukri_PraveenKumarPedapapa[9y_3m]_segment
 ────────────────────────────────────────────────────────────
 
 ── Skills Section Text (raw, as segmented) ──
-(none found)
+Java
+J2EE
+Spring
+Spring boot
+Microservices
+Hibernate
+JPA
+Spring MVC
+Sprng ORM
+Eclipse
+IntelliJ
+Angular
+Node JS
+AWS
+React JS
+HTML
+CSS
+Javascript
+Rest API
+Maven
+Jenkins
+Jira
+Multithreading
+GIT
+SQL
+PostgreSQL
+Postman
+Bit bucket
+SonarQube
 
 ── Extraction Results ──
-Skills found   : 0
-Confidence     : 0.0
-Time           : 0.0 ms
-Method         : none
+Skills found   : 21
+Confidence     : 0.92
+Time           : 21.75 ms
+Method         : flashtext_skills_section | fuzzy(Sprng→Spring(91%), Node→Node.js(100%), HTML→HTML5(100%), Javascript→JavaScript(100%), Maven→Apache Maven(100%))
 
-── All Skills (0) ──
-None found
+── All Skills (21) ──
+AWS, Angular, Apache Maven, CSS3, Git, HTML5, JPA, Java, JavaScript, Jenkins, Jira, Microservices, Node.js, PostgreSQL, Postman, REST API, React, SQL, SonarQube, Spring, Spring Boot
 
 ── By Category ──
+  architecture                   ['Microservices']
+  cloud_infra                    ['AWS']
+  database                       ['PostgreSQL', 'SQL']
+  dev_tool                       ['Apache Maven', 'Git', 'Postman']
+  devops                         ['Jenkins']
+  programming_language           ['Java', 'JavaScript']
+  project_mgmt                   ['Jira']
+  testing                        ['SonarQube']
+  web_framework                  ['Angular', 'CSS3', 'HTML5', 'JPA', 'Node.js', 'REST API', 'React', 'Spring', 'Spring Boot']

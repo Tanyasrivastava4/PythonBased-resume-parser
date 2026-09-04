@@ -4,12 +4,54 @@ FILE: Naukri_RituVerma[11y_0m]_segmented.txt
 
 RAW EDUCATION SECTION
 ----------------------------------------------------------------------
-No education section found.
+Examination	School/University	Year Of Passing	Board
+B.com(Bachelor)	Dr. Bhim Rao Ambedkar University , Agra	2005-07	Agra University
+HSC	S. S. D. Girls Inter College, Agra	2003-04	U.P. Board
+SSC	S. S. D. Girls Inter College, Agra	2001-02	U.P. Board
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found : 0
-Confidence    : 0.0
-Time          : 0.00 ms
+Entries found : 4
+Confidence    : 0.85
+Time          : 0.40 ms
 
-No education entries extracted.
+Entry 1
+Degree       : None
+Degree Name  : None
+Degree Type  : None
+Institution  : Examination School
+Year         : None
+GPA          : None
+Needs Review : True
+Confidence   : 0.55
+
+Entry 2
+Degree       : B.com(Bachelor)	Dr. Bhim Rao Ambedkar University , Agra	2005-07	Agra University
+Degree Name  : B.Com
+Degree Type  : bachelors
+Institution  : Bhim Rao Ambedkar University
+Year         : 2005
+GPA          : None
+Needs Review : False
+Confidence   : 0.95
+
+Entry 3
+Degree       : HSC	S. S. D. Girls Inter College, Agra	2003-04	U.P. Board
+Degree Name  : 12th
+Degree Type  : 12th
+Institution  : S. D. Girls Inter College
+Year         : 2003
+GPA          : None
+Needs Review : False
+Confidence   : 0.95
+
+Entry 4
+Degree       : SSC	S. S. D. Girls Inter College, Agra	2001-02	U.P. Board
+Degree Name  : 10th
+Degree Type  : 10th
+Institution  : S. D. Girls Inter College
+Year         : 2001
+GPA          : None
+Needs Review : False
+Confidence   : 0.95
+

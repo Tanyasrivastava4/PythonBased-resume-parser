@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/scanned_resume_priya_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Python, SQL, C
+GenAI: LLMs, RAG, LangChain, Hugging Face, Prompt Engineering
+ML/DL: Scikit-learn, TensorFlow, PyTorch
+Tools: Git, GitHub, Docker, FastAPI, Redis, Qdrant, FAISS
+
+── Extraction Results ──
+Skills found   : 20
+Confidence     : 0.92
+Time           : 10.52 ms
+Method         : flashtext_skills_section | fuzzy(Prompt Engineering ML→Prompt Engineering(95%))
+
+── All Skills (20) ──
+Deep Learning, Docker, FAISS, FastAPI, Generative AI, Git, GitHub, Hugging Face, LLM, LangChain, Machine Learning, Prompt Engineering, PyTorch, Python, Qdrant, RAG, Redis, SQL, TensorFlow, scikit-learn
+
+── By Category ──
+  ai_ml                          ['Deep Learning', 'Machine Learning', 'PyTorch', 'TensorFlow', 'scikit-learn']
+  database                       ['Redis', 'SQL']
+  dev_tool                       ['Git', 'GitHub']
+  devops                         ['Docker']
+  genai                          ['Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'Prompt Engineering', 'RAG']
+  programming_language           ['Python']
+  search                         ['FAISS', 'Qdrant']
+  web_framework                  ['FastAPI']

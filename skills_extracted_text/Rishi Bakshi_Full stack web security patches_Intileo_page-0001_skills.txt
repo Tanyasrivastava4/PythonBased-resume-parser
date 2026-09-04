@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Rishi Bakshi_Full stack web security patches_Intileo_page-0001_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+React
+deployment	Java Spring Boot NodeJs
+Python
+Software Engineer Xcelence Web Solutions	Microservices Docker CI/CD
+菌 07/2014 - 05/2016 • Involved in requirement design and implementation Mohali, Punjab, India	Angular	MERN Stack
+Sonarqube
+• Analyzing, validating and fixing the defects	Travis
+. Involved in automation testing . Worked on design and test case document preparation	GIT	SQS/SNS
+Event Stream
+AWS S3	IBM Cloud - Code Engin
+
+── Extraction Results ──
+Skills found   : 19
+Confidence     : 0.92
+Time           : 72.28 ms
+Method         : flashtext_skills_section | fuzzy(Spring→Spring(100%), NodeJs→Node.js(100%), fixing→FishXing(86%))
+
+── All Skills (19) ──
+AWS S3, AWS SNS, AWS SQS, Angular, CI/CD, Docker, FishXing, Git, IBM Cloud, Java, MERN Stack, Microservices, Node.js, Python, React, SonarQube, Spring, Spring Boot, Travis
+
+── By Category ──
+  architecture                   ['Microservices']
+  cloud_infra                    ['AWS S3', 'AWS SNS', 'AWS SQS']
+  data_science                   ['FishXing']
+  database                       ['IBM Cloud']
+  dev_tool                       ['Git']
+  devops                         ['CI/CD', 'Docker']
+  programming_language           ['Java', 'Python']
+  testing                        ['SonarQube', 'Travis']
+  web_framework                  ['Angular', 'MERN Stack', 'Node.js', 'React', 'Spring', 'Spring Boot']

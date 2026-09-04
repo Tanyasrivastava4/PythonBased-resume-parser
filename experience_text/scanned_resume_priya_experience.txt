@@ -1,0 +1,43 @@
+======================================================================
+FILE: scanned_resume_priya_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Generative AI Engineer - ABC Technologies, Gurugram
+July 2025 - Present
+• Developed an ATS resume parser supporting PDF, DOC and DOCX formats.
+. Implemented hybrid retrieval using BM25 and semantic embeddings.
+. Built OCR-based document processing workflows for image-based documents.
+• Created FastA...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 1.8 years (21 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Generative AI Engineer
+  Company      : ABC Technologies
+  Location     : Gurugram
+  Start - End  : July 2025 - Present
+  Duration     : 15 months
+  Bullets      : 2
+    • Developed an ATS resume parser supporting PDF, DOC and DOCX formats. . Implemented hybrid retrieval using BM25 and semantic embeddings. . Built OCR-based document processing workflows for image-based documents.
+    • Created FastAPI endpoints for resume upload and structured JSON extraction.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : AI
+  Company      : None
+  Location     : None
+  Start - End  : January 2025 - June 2025
+  Duration     : 6 months
+  Bullets      : 1
+    • Built an invoice OCR pipeline using OpenCV, Tesseract and Python. . Designed preprocessing steps for noisy and low-quality document images.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

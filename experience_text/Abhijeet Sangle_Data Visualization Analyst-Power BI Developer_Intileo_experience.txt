@@ -14,10 +14,10 @@ stakeholders, ensuring that ...
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 3
-Confidence     : 0.98
-Needs review   : False
-Total exp      : 10.0 years (120 months, 1 overlapping periods merged)
+Entries found  : 5
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 14.0 years (168 months, 1 overlapping periods merged)
 
 Entry 1
   Role         : Power BI Developer
@@ -62,6 +62,39 @@ Entry 2
   Needs Review : False
 
 Entry 3
+  Role         : None
+  Company      : T-Web Exponent
+  Location     : Kolkata
+  Start - End  : Feb 2024 - May 2024
+  Duration     : 4 months
+  Bullets      : 5
+    • Facilitated KPI analysis by partnering with stakeholders to define metrics and translate business requirements into actionable BI solutions.
+    • Enhanced dashboard performance through DAX optimization and improved query structuring, reducing load time and improving user experience.
+    • Developed static and dynamic visuals to meet comprehensive reporting needs across multiple departments.
+    • Collaborated closely with data engineering teams to develop ETL pipelines, enhancing data consistency and establishing robust data lineage.
+    • Developed various solution driven views and dashboards by developing different chart types including Pie Charts, Bar Charts, Tree Maps, Circle Views, Line Charts, Area Charts, Scatter Plots in Power BI.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Junior Data Analyst
+  Company      : Mind Spark Technologies
+  Location     : Pune
+  Start - End  : Jun 2020 - Jan 2024
+  Duration     : 44 months
+  Bullets      : 6
+    • Architected and optimized Power BI dashboards to enhance data-driven insights into KPIs, including Sales, Finance, and Operations, achieving a noticeable increase in stakeholder engagement.
+    • Migrated legacy dashboards from Tableau to Microsoft Power BI, optimizing data models and improving performance.
+    • Recreated Tableau visualizations using Power BI, ensuring metric consistency and business logic validation.
+    • Integrated Power BI with disparate data sources, including Azure Data Lake and SQL Server, to build a centralized reporting hub that provided real-time data access.
+    • Maintained documentation for data sources, transformation processes, and dashboard features, streamlining future updates, and knowledge sharing.
+    • Developed and published standard or custom Power BI reports summarizing business data for reviewed by executives, managers, clients, and other stakeholders
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
   Role         : Assistant Prof
   Company      : YTCEM
   Location     : Karjat

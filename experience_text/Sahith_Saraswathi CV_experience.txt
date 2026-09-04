@@ -13,10 +13,10 @@ Marri Laxman Reddy Inst...
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 3
-Confidence     : 0.79
+Entries found  : 4
+Confidence     : 0.84
 Needs review   : True
-Total exp      : 6.7 years (80 months, 0 overlapping periods merged)
+Total exp      : 7.2 years (86 months, 0 overlapping periods merged)
 
 Entry 1
   Role         : Data Scientist
@@ -53,3 +53,17 @@ Entry 3
   Method       : date_regex
   Confidence   : 0.85
   Needs Review : True
+
+Entry 4
+  Role         : Data Scientist Intern
+  Company      : Soulpage IT solutions.
+  Location     : None
+  Start - End  : June 2022 - November 2022
+  Duration     : 6 months
+  Bullets      : 2
+    • Programming: Python, SQL Developed a recommendation system for a jewellery e-commerce platform Frameworks: Pandas, NumPy, SciPy, sklearn, using matrix factorization and text similarity to deliver personalized product matplotlib, seaborn,OpenCV,pytorch and keras suggestions.
+    • Data Science: Machine Learning, Deep Learning, Implemented advanced model validation and selection techniques in the Natural Language Processing, Time Series company’s internal AutoML tool, improving the efficiency and reliability of Forecasting, statistics, Data Analytics, Computer automated model building.
+  Sub-sections : ['Vision, Data Visualization, Excel and basic']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

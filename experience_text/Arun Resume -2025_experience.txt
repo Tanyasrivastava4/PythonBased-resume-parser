@@ -9,17 +9,17 @@ July 2013 to till Date	Club Mahindra	Collection and  Credit Management (Senior M
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 8
+Entries found  : 12
 Confidence     : 0.81
 Needs review   : True
-Total exp      : 18.1 years (217 months, 5 overlapping periods merged)
+Total exp      : 18.2 years (218 months, 9 overlapping periods merged)
 
 Entry 1
   Role         : Club Mahindra	Collection and  Credit Management  Joined as off Roll collection Executive - Current Role Senior Manager .
   Company      : Period	Company	Designation
   Location     : None
   Start - End  : July 2013 - till Date
-  Duration     : 158 months
+  Duration     : 159 months
   Bullets      : 0
   Method       : date_regex+title_dict
   Confidence   : 0.98
@@ -30,7 +30,7 @@ Entry 2
   Company      : Current Role Senior Manager .
   Location     : None
   Start - End  : July 2013 - till Date
-  Duration     : 158 months
+  Duration     : 159 months
   Bullets      : 0
   Method       : date_regex+dash_split
   Confidence   : 0.98
@@ -101,3 +101,55 @@ Entry 8
   Method       : date_regex+title_dict
   Confidence   : 0.85
   Needs Review : True
+
+Entry 9
+  Role         : None
+  Company      : Club Mahindra
+  Location     : None
+  Start - End  : July 2013 - Till date
+  Duration     : 159 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 10
+  Role         : ➢ Working as a Senior Collection Manager in Club Mahindra from
+  Company      : None
+  Location     : None
+  Start - End  : July’13 - till date
+  Duration     : 159 months
+  Bullets      : 1
+    • ✓ Handling higher and Mid Bucket collection for Chennai & Coimbatore ✓ Strategic Planning & Execution. ✓ Develop and implement collection strategies to meet and exceed recovery targets for the region. ✓ Analyze Branch collection performance and adjust strategies to address emerging trends and issues. ✓ Collaborate with senior management to set collection goals aligned with overall business objectives. ✓ Lead, mentor, and manage a team of collection officers and supervisors, providing guidance, training, and support. ✓ Conduct regular performance reviews and provide actionable feedback to team members. ✓ Implementing collection policies and procedures to avoid excessive outstanding credit. ✓ Negotiating with high profile customers in cases when non-payment occurs.
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 11
+  Role         : None
+  Company      : ✓ Ensure Collection Process and Legal guidelines are adhered to and Collections Code of Conduct is followed
+  Location     : None
+  Start - End  : Dec 2009 - June 2013
+  Duration     : 43 months
+  Bullets      : 5
+    • Firstsource's deep domain expertise, technical innovation, process excellence and    Rightshoring model combine to deliver best in class solutions and make it a global leader in                                     providing business process outsourcing (BPO) services.
+    • Job Responsibility: Ensure the Team achieves the target on input metrics.
+    • Monitor the Productivity and Performance of Individuals.
+    • Control Attrition/Shrinkage.
+    • Communication of Company/ Process/Product update to the team.
+  Sub-sections : ['Participate in team reviews and meetings', 'Time to time feedback and coaching.', 'Motivate the team and ensure people connect']
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 12
+  Role         : Timely escalation on issues / anomalies to the reporting manager
+  Company      : Handle escalation calls
+  Location     : None
+  Start - End  : August 2008 - November 2009
+  Duration     : 16 months
+  Bullets      : 1
+    • Adventity is a market leading full service KPO/BPO firm for the Banking & Financial Services and the Airlines & Travel industry, offering comprehensive & innovative knowledge services, transaction services and customer contact support solutions to clients across the globe.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

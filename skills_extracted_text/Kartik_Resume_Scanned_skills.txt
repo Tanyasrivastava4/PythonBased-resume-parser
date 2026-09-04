@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/Kartik_Resume_Scanned_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages/ Technologies: Python, PySpark, SQL, C#, Apache Iceberg, Hive Metastore, Trino, Docker, Kubernetes (K8s),
+Microservices, REST/gRPC APIs, FAST API, OpenTelemetry, Shell Scripting
+Data Platforms & Storage: SQL Server, Oracle, PostgreSQL, MongoDB, ClickHouse, Hive Metastore, Databricks,
+Snowflake, AWS (S3, Glue, Lambda, Athena), MinIO (S3-compatible)
+Development Tools: PyCharm, Visual Studio Code, Visual Studio, Postman, BloomRPC, Rancher, Grafana, SonarQube,
+APM, pgAdmin, Studio 3T, Oracle SQL Developer, DBeaver
+Version Control & CI/CD: Git, GitHub, Azure DevOps, Jenkins, Jira
+Monitoring & Observability: OpenTelemetry, Grafana, APM
+
+── Extraction Results ──
+Skills found   : 32
+Confidence     : 0.92
+Time           : 84.31 ms
+Method         : flashtext_skills_section | fuzzy(gRPC APIs→gRPC(94%), FAST API→FastAPI(100%), Athena→AWS Athena(100%))
+
+── All Skills (32) ──
+AWS, AWS Athena, AWS S3, Apache Hive, Azure DevOps, Bash, C#, CI/CD, Databricks, Docker, FastAPI, Git, GitHub, Grafana, Jenkins, Jira, Kubernetes, MSSQL, Microservices, MongoDB, Observability, Oracle SQL Developer, PostgreSQL, Postman, PySpark, Python, SQL, Snowflake, SonarQube, VS Code, Visual Studio, gRPC
+
+── By Category ──
+  architecture                   ['Microservices']
+  cloud_infra                    ['AWS', 'AWS Athena', 'AWS S3']
+  data_engineering               ['Apache Hive', 'Databricks']
+  database                       ['MSSQL', 'MongoDB', 'PostgreSQL', 'PySpark', 'SQL', 'Snowflake']
+  dev_tool                       ['Git', 'GitHub', 'Oracle SQL Developer', 'Postman', 'VS Code', 'Visual Studio']
+  devops                         ['Azure DevOps', 'CI/CD', 'Docker', 'Grafana', 'Jenkins', 'Kubernetes', 'Observability']
+  os_system                      ['Bash']
+  programming_language           ['C#', 'Python']
+  project_mgmt                   ['Jira']
+  testing                        ['SonarQube']
+  web_framework                  ['FastAPI', 'gRPC']

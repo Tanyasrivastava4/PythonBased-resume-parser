@@ -1,0 +1,39 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/blur_ladder_mild_r1_5_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+۰	Automation Testing Tools
+Burp Suite, Acunetix, Wireshark, Soap UI, Postman, Emulator, Genymotion, Nox, MOBSF, VCG, Nmap, SQLMAP,
+Nikto, Nessus, NMAP, IBM AppScan
+Application Tools
+•
+Burp Suite, Netsparker, Acunetix, CSRF Tester, Directory Buster, Nmap, SQLMAP.
+۰	Network Tools
+Nessus, NMAP
+۰	Mobile App Tools
+Genymotion, MOBSF, Dozer, dex2jar, apktool, adbshell
+Web Service Tools
+Rest API, Postman, SOAP UI
+۰	Operating System
+Windows, Linux
+۰	Technology Experience (Security Assessment)
+.Net, PHP, Java, CMS Based, Drupal, Joomla
+
+── Extraction Results ──
+Skills found   : 18
+Confidence     : 0.92
+Time           : 64.82 ms
+Method         : flashtext_skills_section | fuzzy(Soap UI→SoapUI(100%), Emulator→Emulators(94%), MOBSF→MobSF(100%), NMAP→Nmap(100%), MOBSF→MobSF(100%)...)
+
+── All Skills (18) ──
+.NET, Acunetix, Burp Suite, Drupal, Emulators, Java, Joomla, Linux, Microsoft Windows, MobSF, Nessus, Nmap, PHP, Postman, REST API, Security Assessment, SoapUI, Wireshark
+
+── By Category ──
+  cloud_infra                    ['Wireshark']
+  dev_tool                       ['Postman', 'SoapUI']
+  os_system                      ['Emulators', 'Linux', 'Microsoft Windows']
+  programming_language           ['.NET', 'Java', 'PHP']
+  security                       ['Nmap']
+  security_ops                   ['Acunetix', 'Burp Suite', 'MobSF', 'Nessus', 'Security Assessment']
+  web_framework                  ['Drupal', 'Joomla', 'REST API']

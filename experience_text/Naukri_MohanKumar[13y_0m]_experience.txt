@@ -1,4 +1,112 @@
 ======================================================================
 FILE: Naukri_MohanKumar[13y_0m]_segmented.txt
 ======================================================================
-No 'experience' section found in this file.
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Role: Chief Manager – Tele sales (Handling South India leads)
+Organization: Shriram finance limited from Nov 2023 to till date
+Description: Part of a Digital transformation and Strategy team Involved in developing process transformation for Tele sales vertical of Shriram Finance ltd. Building a Tele...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 14.7 years (176 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : Role: Chief Manager
+  Company      : Tele sales
+  Location     : None
+  Start - End  : Nov 2023 - till date
+  Duration     : 35 months
+  Bullets      : 5
+    • Description: Part of a Digital transformation and Strategy team Involved in developing process transformation for Tele sales vertical of Shriram Finance ltd.
+    • Building a Tele sales journey for lead generated via various touch point of investment, Insurance and landing products lead like Website journey, Shriram one app touch point, Chat Bot, Talk to US feature, Marketing Journeys, Affiliate marketing journeys.
+    • Responsibility: Managing Tele sales outbound team of Investment and lending (South India) Coordinating with all internal stakeholders and external stakeholders to achieve the assigned target.
+    • Market analysis and product analysis for better improvement of launched products Cab analysis of all the business departments and providing necessary training support Post launching the products providing feedback and reviews to improve the further Process enhancement for existing process which used in the B2B environment.
+    • Providing necessary strategy and process implementation updates to director’s levels Stakeholder for Call Centre Transformation and B2B application capability enhancement Revamping the existing process without impacting company’s regulations Lead conversion analysis for entire data movements.
+  Sub-sections : ['SOLUTION ENVIRONMENT: CSMS']
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Role: Senior Manager – Tele sales call Centre
+  Company      : CAREER PROFILE: 5
+  Location     : None
+  Start - End  : Dec 2019 - Nov 2023
+  Duration     : 48 months
+  Bullets      : 4
+    • Description: Handling HDFC bank Tele sales team to drive the business.
+    • Involving with new digital platform implementation for STP (Loan disbursement, Insurance process and card sourcing for both inhouse and open market customers).
+    • Need to generate the revenue using assigned team.
+    • Responsibility: Mentoring the Tele sales business and ensure all the Tele sales team getting proper support and delivering the targeted business As a part of digital banking team, I need to ensure that all the customer journey has no issues while doing loan process and other product processing Need to work on Target vs Achievement with resource level
+  Sub-sections : ['BQ upliftment for non-performing employees', 'Working on bulk hiring to set up the new team and location', 'Quality monitoring and ensuring the TSEs are following the bank policies and regulation as per the process', 'Report preparing for weekly and monthly reviews with ZH and RH.', 'Additional responsibility:', 'Responsible for audit and compliance of assigned products, ensure there is no bank policy and RBI regulatory violence on the digital products, if its find need to report to concern product team to rectify the same.']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Role: Manager – Premier Acquisition
+  Company      : CAREER PROFILE: 4
+  Location     : None
+  Start - End  : June 2019 - Dec 2019
+  Duration     : 7 months
+  Bullets      : 1
+    • Description: Business banking, handling high value CA customers Responsibility: Acquisition of NTB current account customers minimum value worth 1lakh and above
+  Sub-sections : ['Asset management solutions up to 500cr']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Role: Team Manager – Business Sales & Operations
+  Company      : CAREER PROFILE: 3
+  Location     : None
+  Start - End  : Feb 2019 - June 2019
+  Duration     : 5 months
+  Bullets      : 11
+    • Description: Handling Bank Bazaar Tele calling team size of 75 members along with 3TL’s.
+    • Need to make team members achieve the monthly target basis on the business requirement.
+    • Service requests need to be processed as per SLA’s.
+    • Responsibility: Need to ensure all officers are equipped with Bank Bazaar process and client product knowledge.
+    • Make sure CRO’s deliver the day-to-day target on a daily basis.
+    • EOD tracker maintenance to ensure CRO’s are meeting all KRI’s daily basis.
+    • Daily team huddles with TLs to understand officer’s concern and new update sharing.
+    • Team roster, leave shrinkage, UPL shrinkage handling.
+    • Adherence monitoring and short login management.
+    • Additional responsibility: Working with sales team and finding scop of improvement on customer journey.
+    • Providing feedback and improvement request which will help the sales team to achieve the target without compliance issue SOLUTION ENVIRONMENT : CSDB-CRM, Ameyo – Dialer
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Role: Associate Manger – Global Desk
+  Company      : CAREER PROFILE: 2
+  Location     : None
+  Start - End  : July 2015 - January 2019
+  Duration     : 43 months
+  Bullets      : 4
+    • Description: Building a new channel in Chennai which will have complete customer digital journeys with credit card and debit card process.
+    • Need to handle (size 25 to 35 members) team.
+    • Working with service delivery team and ensuring all the new products lunch logical testing, software enhancement, Customer engagement for feedback.
+    • Responsibility: Need to ensure all GD officers are equipped with Banking and Credit card process and           product knowledge Global desk hiring in Chennai location, attrition control and cross training process of the officers Working on End-to-End new process SOP creation, process flow, officers training and other unit training (Email channel banking and cards, SME team, compliant team) for contact Centre Additional responsibility: Dissemination file sharing for entire contact Centre for more than 150 team members
+  Sub-sections : ['AYIC audit for Chennai contact Centre', 'As a learning and development team involving various projects like new process and product implementation', 'SOLUTION ENVIRONMENT: ECS, ARIS, LOS, ACS, AIR2WEB, BITZZ, TALISMA, FINACLE, DCMS, REWARDS LOILTY, RED APP.IWORKS']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Role: Junior Officer-Phone banking .
+  Company      : CAREER PROFILE: 1
+  Location     : None
+  Start - End  : February 2012 - June 2015
+  Duration     : 41 months
+  Bullets      : 2
+    • Description: Handled HDFC bank credit card inbound customer service Responsibility: Need to solve the customer queries & complaints such as address change, mobile number Change, charges reversals of the over limit charges, Finance charges reversals.
+    • SOLUTION ENVIRONMENT: CBCI, ELEARNING, LMS OF HDFC BANK.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

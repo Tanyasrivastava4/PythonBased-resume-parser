@@ -1,7 +1,8 @@
 
 ────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 0
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
 ────────────────────────────────────────────────────────────
+MURUSU VENU
 Mobile: +91-9663620619
 Email: murusuvenu96@gmail.com
 
@@ -87,9 +88,8 @@ Protocols: TCP/IP, HTTP/HTTPS, SOAP, SMTP
 Testing Tools: PyTest, Testify, Selenium, Bugzilla and JIRA, Maven, Junit, ANT, SVN, Log4j, CVS/Win CVS, Toad, MS Visio, Find Bugs, Jira, Hudson, Git, Cobertura.
 
 ────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.95   START LINE: 69
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 71
 ────────────────────────────────────────────────────────────
-Project #4:
 Client	BTI Groups
 Period	July 2025 to Feb 2026
 Description	BTI Communications Group is a business-technology provider specializing in integrated IT services, communications systems, and physical security solutions. The company delivers end-to-end technology support—managed IT, network infrastructure, unified communications, video surveillance, access control, and cloud services—helping organizations streamline operations, strengthen security, and modernize their technology environments. BTI serves clients across healthcare, commercial, and industrial sectors with a focus on reliability, compliance, and 24/7 service delivery.
@@ -113,7 +113,10 @@ Provided guidance to development team working on PySpark as ETL platform
 Responsible for ETL and orchestration process using Airflow and NiFi tool
 Added support for Amazon AWS S3 and RDS to host files and the database into Amazon Cloud.
 Debugged the application and followed messages in log files, to figure out the error if existing
-Project #3:
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 95
+────────────────────────────────────────────────────────────
 Client	FedEx Corporation
 Period	Jun 2024 to Oct 2024
 Description	FedEx Office Print & Ship Services Inc. (doing business as FedEx Office; formerly FedEx Kinko's, and earlier simply Kinko's) is an American retail chain that provides an outlet for FedEx Express and FedEx Ground (including Home Delivery) shipping, as well as printing, copying, and binding services. While FedEx dropped the Kinko's name in 2008, to the dismay of the founder,[1] the name remains in use. Unlike its main competitor, The UPS Store, which is franchised, all FedEx Office stores are corporate-owned.
@@ -138,7 +141,10 @@ Developed Complex database objects like Stored Procedures, Functions, Packages a
 Working knowledge in Junit and Maven for testing, building and logging information.
 Used Ajax calls extensively - using jQuery, inside the WebApps and create a seamless flow of Quotes.
 Developing the Microservices using Spring Boot that create, update, delete and get the assignment information from backend.
-Project #2:
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 120
+────────────────────────────────────────────────────────────
 Client	ADMC
 Period	Dec 2021 to April 2024
 Description	The Archer Daniels Midland Company (ADM) is an American global food processing and commodities trading corporation, headquartered in Chicago, Illinois. The company operates more than 270 plants and 420 crop procurement facilities worldwide, where cereal grains and oilseeds are processed into products used in food, beverage, nutraceutical, industrial, and animal feed markets worldwide.
@@ -158,7 +164,10 @@ Developed various helper classes needed following Core Java multi-threaded progr
 Involved in configuration and usage of Apache Log4J for logging and debugging purposes. Used RAD as IDE tool to develop the application. • Prepared Documentation for Unit Test Plan and Unit Test Results for the QA purpose.
 Built S3 buckets and managed policies for S3 buckets and used S3 bucket and Glacier for storage and backup on AWS.
 Configured an AWS Virtual Private Cloud (VPC) and Data Base subnet group for isolation of resources within AWS RDS.
-Project #1:
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 140
+────────────────────────────────────────────────────────────
 Client	Sears Holdings and Kmart
 Period	May 2018 to Aug 2021
 Description	Sears Holdings Corporation (now referred to as "Old Sears") was an American holding company headquartered in Hoffman Estates, Illinois. It was the parent company of the chain stores Kmart and Sears and was founded after the former purchased the latter in 2005.The new corporation announced that it would continue to operate stores under both the Sears and Kmart brands. The merger of Kmart and Sears closed on March 24, 2005, following affirmative shareholder votes of both companies. The result of the merger was Kmart and parent Kmart Holding Corporation and Sears became subsidiaries of the new Sears Holdings Corporation.
@@ -191,4 +200,4 @@ Used CSS and advanced level java scripting like AJAX, jQuery.
 Place: - Bangalore                                                                                                             (Murusu venu)
 
 ────────────────────────────────────────────────────────────
-[Found 7 sections total: ['experience', 'summary', 'experience', 'education', 'experience', 'skills', 'experience']]
+[Found 10 sections total: ['header', 'summary', 'experience', 'education', 'experience', 'skills', 'experience', 'experience', 'experience', 'experience']]

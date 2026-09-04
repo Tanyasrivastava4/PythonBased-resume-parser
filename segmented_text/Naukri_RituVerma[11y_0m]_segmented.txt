@@ -32,11 +32,7 @@ Recruitment
 5) Informing candidates about the opening, explaining them the job profile and company details.
 6) Handling a Team of 5 employees in Human Resource Team.
 7) Updating Recruitment related data on daily base.
-Employee Engagement and Operational
-
-────────────────────────────────────────────────────────────
-LABEL: interests   CONFIDENCE: 0.85   START LINE: 22
-────────────────────────────────────────────────────────────
+Employee Engagement and Operational Activities
 1) Handling Employee Documentation, Salary Negotiation, Employee Onboarding. 2) Preparing Offer letters, Appointment letters, Joining formalities and employment terms & conditions.
 3) Processing Probation, Confirmation, Extension, Transfer and Termination papers of the employees in the system.
 4) Maintaining attendance and leave records, coordinating with employees to solve their queries.
@@ -56,7 +52,10 @@ Dashboards Presentation
 Software Handling
 Payroll/Incentive.
 End to End Recruitment
-Interest
+
+────────────────────────────────────────────────────────────
+LABEL: interests   CONFIDENCE: 0.95   START LINE: 44
+────────────────────────────────────────────────────────────
 Listening to music
 Travelling
 Cricket
@@ -74,6 +73,10 @@ Gender: Male
 LABEL: languages   CONFIDENCE: 0.95   START LINE: 56
 ────────────────────────────────────────────────────────────
 Known: English, Hindi and Marathi.
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 58
+────────────────────────────────────────────────────────────
 Torrent Power Ltd.     (16th Sept 2012 to 15th Nov 2016.)
 Designation (B): HR (internal transfer)
 
@@ -98,8 +101,15 @@ Actively played a major role in quarterly audits.
 Generating Introduction letters for new bank account opening.s
 Organisation: Torrent Power Pvt. Ltd.
 Designation (A): Assistant in Finance
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 79
+────────────────────────────────────────────────────────────
 Department: Finance & Accountants: - Sept. 2009 to 12th Sep. 2012
-Roles and Responsibilities:
+
+────────────────────────────────────────────────────────────
+LABEL: roles_responsibilities   CONFIDENCE: 0.95   START LINE: 80
+────────────────────────────────────────────────────────────
 Coordinating with Finance & operation departments across the city.
 Operation Process - Developing process for data management for various verticals like- Finance, Cash Management, Job costing, Vendor data, petty cash.
 Finance Management-Actively Involved in the entire Cash management which included the backend development.
@@ -134,4 +144,4 @@ Was a part of the core team in conducting the training needs of the organization
 Analysis' and 'Nomination based Trainings' department.
 
 ────────────────────────────────────────────────────────────
-[Found 10 sections total: ['header', 'summary', 'experience', 'interests', 'personal_details', 'languages', 'roles_responsibilities', 'declaration', 'education', 'projects']]
+[Found 13 sections total: ['header', 'summary', 'experience', 'interests', 'personal_details', 'languages', 'experience', 'roles_responsibilities', 'experience', 'roles_responsibilities', 'declaration', 'education', 'projects']]

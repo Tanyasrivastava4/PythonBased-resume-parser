@@ -11,7 +11,51 @@ ITGC, ITAC, and SDLC controls Services clients (Banking...
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 0
-Confidence     : 0.0
+Entries found  : 3
+Confidence     : 0.94
 Needs review   : True
-Total exp      : 0.0 years (0 months, 0 overlapping periods merged)
+Total exp      : 10.8 years (130 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Testing, SOX 404 Co Consultant
+  Company      : None
+  Location     : None
+  Start - End  : 2 Jul 2022 - Feb 2025
+  Duration     : 31 months
+  Bullets      : 6
+    • Ernst & Young (India & Bahrain) - Gurugram
+    • International Secondment (EY Bahrain): Selected for a high-profile auditing SAP ERP (FI international assignment in the Middle East, delivering Technology Risk services to a diverse portfolio of regional clients in the Energy, Oil & Gas, Identity & Access Management: and Banking sectors.
+    • Cross-Border Compliance: Evaluated IT control environments against local Resilience & GRC: BCP/DR Report and international frameworks, ensuring compliance with Central Bank of Reviews, Backup Ma Bahrain (CBB) requirements and global EY methodologies.
+    • SOC Attestation: Led fieldwork for SOC 1 and SOC 2 (Type 1 & 2) hird-Party Risk: SOC 1 & SOC 2 reports, assessing control design and operating effectiveness for third-party (Type I/II) Evaluat service providers.
+    • BCP/DR & Backup Management: Audited critical backup protocols and disaster recovery readiness for large-scale industrial and financial enterprises.
+    • SDLC Testing: Conducted detailed reviews of system implementation projects, focusing on project governance, security by design, and post- implementation reviews.
+  Sub-sections : ['ERP & Systems: Proficiency in', 'Segregation of Dutie']
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Manager
+  Company      : English
+  Location     : None
+  Start - End  : Jan 2019 - Jul 2022
+  Duration     : 43 months
+  Bullets      : 2
+    • Evaluated the design and effectiveness of ITGCs across Access Management, Change Management, and System Operations.
+    • Conducted detailed testing of Segregation of Duties (SoD) and system configuration settings to prevent unauthorized financial activity.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Deputy Manager
+  Company      : Axis Bank Limited
+  Location     : New Delhi
+  Start - End  : May 2014 - Jan 2019
+  Duration     : 57 months
+  Bullets      : 2
+    • Managed retail and wholesale banking operations, including Forex transactions and outward/inward remittances.
+    • Optimized account opening processes and monitored portfolio performance for high-retention levels.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

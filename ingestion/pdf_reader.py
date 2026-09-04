@@ -1,437 +1,3 @@
-#"""
-#PDF Reader — Layer 0
-#"""
-#
-#import re
-#import statistics
-#import pdfplumber
-#import fitz  # PyMuPDF
-#from pathlib import Path
-#from collections import Counter
-#
-#from ingestion.ocr_region import (
-#    classify_page,
-#    get_ocr_worthy_image_blocks,
-#    ocr_region_to_words,
-#)
-#from ingestion.ocr_reader import read_with_surya_pages
-#
-#
-#def _find_sidebar_split(words: list, page_width: float):
-#    if not words:
-#        return None
-#
-#    x0_counter = Counter(round(w["x0"]) for w in words)
-#
-#    content_start_x = None
-#    best_count = 0
-#    for x0, count in x0_counter.items():
-#        if 80 < x0 < page_width * 0.45 and count > best_count:
-#            best_count = count
-#            content_start_x = x0
-#
-#    if content_start_x is None or best_count < 3:
-#        return None
-#
-#    sidebar_candidates = [w for w in words if w["x0"] < content_start_x - 10]
-#
-#    if not sidebar_candidates:
-#        return None
-#    if len(sidebar_candidates) > 25:
-#        return None
-#
-#    sidebar_x0s = sorted(set(round(w["x0"]) for w in sidebar_candidates))
-#    heading_boundary = sidebar_x0s[-1]
-#    for i in range(len(sidebar_x0s) - 1):
-#        inner_gap = sidebar_x0s[i + 1] - sidebar_x0s[i]
-#        if inner_gap > 30:
-#            heading_boundary = sidebar_x0s[i]
-#            break
-#
-#    gap = content_start_x - heading_boundary
-#    if gap < 30:
-#        return None
-#
-#    split = (heading_boundary + content_start_x) / 2
-#    return split
-#
-#
-#def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str:
-#    heading_lines = {}
-#    sorted_sidebar = sorted(sidebar_words, key=lambda w: (round(w["top"], 1), w["x0"]))
-#
-#    current_top = None
-#    current_words = []
-#    for word in sorted_sidebar:
-#        if current_top is None:
-#            current_top = word["top"]
-#            current_words = [word]
-#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 1.5:
-#            current_words.append(word)
-#            current_top = word["top"]
-#        else:
-#            heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
-#            heading_lines[round(current_top)] = heading_text
-#            current_top = word["top"]
-#            current_words = [word]
-#    if current_words:
-#        heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
-#        heading_lines[round(current_top)] = heading_text
-#
-#    content_line_list = []
-#    sorted_content = sorted(content_words, key=lambda w: (round(w["top"], 1), w["x0"]))
-#
-#    current_top = None
-#    current_words = []
-#    for word in sorted_content:
-#        if current_top is None:
-#            current_top = word["top"]
-#            current_words = [word]
-#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 0.5:
-#            current_words.append(word)
-#        else:
-#            line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
-#            content_line_list.append((round(current_top), line_text))
-#            current_top = word["top"]
-#            current_words = [word]
-#    if current_words:
-#        line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
-#        content_line_list.append((round(current_top), line_text))
-#
-#    result_lines = []
-#    used_headings = set()
-#
-#    for content_top, content_text in content_line_list:
-#        for heading_top, heading_text in sorted(heading_lines.items()):
-#            if heading_top in used_headings:
-#                continue
-#            if abs(heading_top - content_top) <= 20:
-#                result_lines.append(heading_text)
-#                used_headings.add(heading_top)
-#                break
-#        result_lines.append(content_text)
-#
-#    for heading_top, heading_text in sorted(heading_lines.items()):
-#        if heading_top not in used_headings:
-#            result_lines.append(heading_text)
-#
-#    return "\n".join(result_lines)
-#
-#
-#def _find_column_split(words: list, page_width: float):
-#    if not words:
-#        return None
-#
-#    x0_counter = Counter(round(w["x0"]) for w in words)
-#    all_x0 = sorted(x0_counter.keys())
-#
-#    if len(all_x0) < 2:
-#        return None
-#
-#    best_split = None
-#    best_score = 0
-#
-#    for i in range(len(all_x0) - 1):
-#        gap = all_x0[i + 1] - all_x0[i]
-#        if gap < 15:
-#            continue
-#
-#        split_x = (all_x0[i] + all_x0[i + 1]) / 2
-#        left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
-#        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
-#
-#        if left_count < 20 or right_count < 20:
-#            continue
-#        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
-#            continue
-#
-#        balance = min(left_count, right_count) / max(left_count, right_count)
-#        score = gap * balance
-#
-#        if score > best_score:
-#            best_score = score
-#            best_split = split_x
-#
-#    if best_split is None:
-#        return None
-#
-#    left_words = [w for w in words if w["x1"] <= best_split]
-#    right_words = [w for w in words if w["x0"] > best_split]
-#
-#    return best_split, left_words, right_words
-#
-#
-#def _group_words_into_rows(words: list) -> list:
-#    """
-#    Groups words into visual rows by vertical position -- same clustering
-#    rule _extract_words_to_lines() uses, but returns the row groups
-#    themselves instead of joined text, since the row-aware column split
-#    below needs to inspect each row individually.
-#    """
-#    if not words:
-#        return []
-#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
-#    rows, current_row, current_top = [], [], None
-#    for w in sorted_words:
-#        if current_top is None:
-#            current_top, current_row = w["top"], [w]
-#        elif abs(w["top"] - current_top) <= max(w["height"], 1) * 0.5:
-#            current_row.append(w)
-#        else:
-#            rows.append(current_row)
-#            current_row, current_top = [w], w["top"]
-#    if current_row:
-#        rows.append(current_row)
-#    return rows
-#
-#
-#def _split_rows_by_column(words: list, split_x: float, min_gap: float = 30, heading_size_ratio: float = 1.4):
-#    """
-#    Row-aware column split. Confirmed necessary on a real resume (Sahith
-#    Saraswathi): the page has a full-width name banner and a full-width
-#    summary paragraph ABOVE a genuine two-column body (education/skills/
-#    certifications on the left, experience/projects on the right). The
-#    old whole-page gutter check (reject the whole page if more than 5
-#    words anywhere straddle split_x) rejected this page outright.
-#
-#    Two things happen, in order, per row:
-#
-#    1. Look for the row's own largest internal gap between consecutive
-#       words; if it's substantial (>= min_gap), split there. Ordinary
-#       word-to-word spacing within a sentence is typically under 15pt,
-#       so a 30pt+ gap is unambiguously a real column boundary on its own
-#       merits -- no need to check proximity to the page-wide split_x
-#       estimate (confirmed necessary: two genuine column gaps measured
-#       176pt and 203pt wide, with midpoints comfortably outside a
-#       +/-50pt window around split_x, which an earlier, stricter version
-#       of this fix wrongly rejected).
-#
-#    2. If no such gap exists, the row has no internal break to split on
-#       -- either because it's short content confined entirely to one
-#       side (nothing to split against), or because it's a full-width
-#       CENTERED heading (common in template resumes: a "SUMMARY" or
-#       "EDUCATION" divider bar centered across the page, so its x0 can
-#       land past split_x purely because centering pushed it there, not
-#       because it's genuinely right-column content). These two cases are
-#       distinguished by font size: confirmed by testing that section
-#       headings render at ~1.8x the page's median word height while
-#       ordinary one-sided content (e.g. a lone job-title line) renders
-#       at only ~1.2x -- comfortably separated by the heading_size_ratio
-#       threshold. A row whose words are heading-sized goes to `primary`
-#       as a full-width line regardless of which side it nominally falls
-#       on; otherwise it's routed by which side it actually sits on.
-#    """
-#    median_height = statistics.median(w["height"] for w in words) if words else 1
-#    rows = _group_words_into_rows(words)
-#    primary_words, secondary_words = [], []
-#    for row in rows:
-#        row_sorted = sorted(row, key=lambda w: w["x0"])
-#        local_split, best_gap = None, 0
-#        for i in range(len(row_sorted) - 1):
-#            gap = row_sorted[i + 1]["x0"] - row_sorted[i]["x1"]
-#            if gap >= min_gap and gap > best_gap:
-#                best_gap = gap
-#                local_split = (row_sorted[i]["x1"] + row_sorted[i + 1]["x0"]) / 2
-#
-#        if local_split is not None:
-#            primary_words.extend(w for w in row_sorted if w["x1"] <= local_split)
-#            secondary_words.extend(w for w in row_sorted if w["x0"] >= local_split)
-#        else:
-#            row_avg_height = sum(w["height"] for w in row_sorted) / len(row_sorted)
-#            if median_height > 0 and row_avg_height / median_height >= heading_size_ratio:
-#                primary_words.extend(row_sorted)
-#                continue
-#            row_min_x0 = row_sorted[0]["x0"]
-#            row_max_x1 = row_sorted[-1]["x1"]
-#            if row_min_x0 >= split_x:
-#                secondary_words.extend(row_sorted)
-#            elif row_max_x1 <= split_x:
-#                primary_words.extend(row_sorted)
-#            else:
-#                primary_words.extend(row_sorted)
-#    return primary_words, secondary_words
-#
-#
-#def _is_true_two_column(words: list, page_width: float):
-#    """
-#    Determines whether a page genuinely has a two-column layout, AND
-#    returns the correctly split word groups if so.
-#
-#    Qualification (unchanged from before): both naive left/right sides
-#    from _find_column_split must be substantial (>=30 words each), and
-#    the right column must span a reasonable share of the left column's
-#    vertical height. This step still uses the simple, naive left_words/
-#    right_words split -- it's just a sanity check that a real two-column
-#    region exists on this page at all, not the final content split.
-#
-#    The ACTUAL content split (this revision) uses _split_rows_by_column()
-#    instead of the old blanket gutter-word rejection -- see that
-#    function's docstring for why: it lets a page mix full-width bands
-#    (header, summary) with a genuine two-column body, instead of
-#    rejecting the whole page because full-width prose has words
-#    straddling the split point.
-#    """
-#    result = _find_column_split(words, page_width)
-#    if result is None:
-#        return None
-#
-#    split_x, left_words, right_words = result
-#
-#    if len(left_words) < 30 or len(right_words) < 30:
-#        return None
-#
-#    if right_words and left_words:
-#        right_top = min(w["top"] for w in right_words)
-#        right_bottom = max(w["bottom"] for w in right_words)
-#        right_span = right_bottom - right_top
-#
-#        left_top = min(w["top"] for w in left_words)
-#        left_bottom = max(w["bottom"] for w in left_words)
-#        left_span = left_bottom - left_top
-#
-#        if left_span > 0 and right_span / left_span < 0.15:
-#            return None
-#
-#    primary_words, secondary_words = _split_rows_by_column(words, split_x)
-#    if len(primary_words) < 30 or len(secondary_words) < 15:
-#        return None
-#
-#    return primary_words, secondary_words
-#
-#
-#def _extract_words_to_lines(words: list) -> str:
-#    if not words:
-#        return ""
-#
-#    lines = []
-#    current_line = []
-#    current_top = None
-#
-#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
-#
-#    for word in sorted_words:
-#        if current_top is None:
-#            current_top = word["top"]
-#            current_line = [word]
-#            continue
-#
-#        line_tolerance = max(word["height"], 1) * 0.5
-#        if abs(word["top"] - current_top) <= line_tolerance:
-#            current_line.append(word)
-#        else:
-#            lines.append(current_line)
-#            current_line = [word]
-#            current_top = word["top"]
-#
-#    if current_line:
-#        lines.append(current_line)
-#
-#    text_lines = []
-#    for line in lines:
-#        line_sorted = sorted(line, key=lambda w: w["x0"])
-#        parts = [w["text"] for w in line_sorted]
-#        text_lines.append(" ".join(parts))
-#
-#    return "\n".join(text_lines)
-#
-#
-#def read_text_pdf(pdf_path: str) -> str:
-#    primary_parts = []
-#    secondary_parts = []
-#
-#    with pdfplumber.open(pdf_path) as pdf, fitz.open(pdf_path) as fdoc:
-#        page_native_words = []
-#        classifications = []
-#        for page_index in range(len(pdf.pages)):
-#            page = pdf.pages[page_index]
-#            fpage = fdoc[page_index]
-#
-#            char_count = len(fpage.get_text().strip())
-#            if char_count < 20:
-#                page_native_words.append([])
-#                classifications.append("scanned")
-#                continue
-#
-#            words = page.extract_words(
-#                x_tolerance=1.5,
-#                y_tolerance=3,
-#                keep_blank_chars=False,
-#            )
-#            page_native_words.append(words)
-#            classifications.append(classify_page(fpage, native_words=words))
-#
-#        scanned_indices = [i for i, c in enumerate(classifications) if c == "scanned"]
-#
-#        scanned_text_map = {}
-#        if scanned_indices:
-#            scanned_text_map = read_with_surya_pages(pdf_path, scanned_indices)
-#
-#        for page_index, page in enumerate(pdf.pages):
-#            classification = classifications[page_index]
-#            page_width = page.width
-#
-#            if classification == "scanned":
-#                text = scanned_text_map.get(page_index, "")
-#                if text.strip():
-#                    primary_parts.append(text.strip())
-#                continue
-#
-#            words = page_native_words[page_index]
-#
-#            if classification == "hybrid":
-#                fpage = fdoc[page_index]
-#                for bbox in get_ocr_worthy_image_blocks(fpage, native_words=words):
-#                    ocr_words = ocr_region_to_words(fpage, bbox)
-#                    words = words + ocr_words
-#
-#            if not words:
-#                continue
-#
-#            sidebar_split = _find_sidebar_split(words, page_width)
-#            if sidebar_split:
-#                sidebar_words = [w for w in words if w["x0"] < sidebar_split]
-#                content_words = [w for w in words if w["x0"] > sidebar_split]
-#                text = _merge_sidebar_with_content(sidebar_words, content_words)
-#                if text.strip():
-#                    primary_parts.append(text.strip())
-#                continue
-#
-#            two_col_result = _is_true_two_column(words, page_width)
-#            if two_col_result:
-#                left_words, right_words = two_col_result
-#                left_text = _extract_words_to_lines(left_words)
-#                right_text = _extract_words_to_lines(right_words)
-#                if left_text.strip():
-#                    primary_parts.append(left_text.strip())
-#                if right_text.strip():
-#                    secondary_parts.append(right_text.strip())
-#                continue
-#
-#            text = _extract_words_to_lines(words)
-#            if text.strip():
-#                primary_parts.append(text.strip())
-#
-#    primary_text = "\n\n".join(primary_parts)
-#    secondary_text = "\n\n".join(secondary_parts)
-#
-#    if secondary_text:
-#        return primary_text + "\n\n" + secondary_text
-#    return primary_text
-#
-#
-#def read_pdf(pdf_path: str) -> str:
-#    path = Path(pdf_path)
-#    if not path.exists():
-#        raise FileNotFoundError(f"File not found: {pdf_path}")
-#    if path.suffix.lower() != ".pdf":
-#        raise ValueError(f"Expected a PDF file, got: {path.suffix}")
-#
-#    return read_text_pdf(pdf_path)
-#
-
-
-#writing again after the mess
-
 """
 PDF Reader — Layer 0
 
@@ -444,7 +10,7 @@ Per PAGE (not per document), classifies the page as one of:
               words into the same word stream native text uses
  "text"    -> normal page, handled exactly as before
 
-REVISION (this version) — replaced the old whole-document
+REVISION (earlier) — replaced the old whole-document
 is_scanned_pdf() gate with per-page classification. That old check
 combined the first 3 pages' text and returned one True/False for the
 entire file, so it could not handle:
@@ -477,6 +43,69 @@ MERGE NOTE (carried over from the previous revision, still applies):
  primary-then-secondary once at the very end. See the docstrings on
  _is_true_two_column() and read_text_pdf() below for the full
  reasoning; unchanged from the prior version of this file.
+
+HEADER-GAP FIX (earlier):
+ Many designed/styled resume templates (Canva, Zety, resume-builder
+ PDFs) render the header area (name, title, contact row) as a single
+ flattened raster image, as vector-path outlines (drawn shapes, not
+ character data), or inside annotation/form layers that pdfplumber's
+ content-stream reader never touches. In all three cases,
+ pdfplumber.extract_words() returns zero words for that region, and
+ the page is classified "text" (because the body below has plenty of
+ real text). The header simply vanishes from the output.
+
+ Fixed by detecting the "header gap": if the first native word on a
+ page starts significantly below the page top (>100pt, roughly 1.4
+ inches), there is likely an unextracted header region above it. That
+ gap is OCR'd with pytesseract (PSM=4, single column with variable
+ text sizes — correct for a multi-line header with large name +
+ smaller subtitle + small contact row) and the recovered words are
+ prepended to the word list before layout detection runs, so they
+ flow through the existing sidebar/two-column/single-column logic
+ unchanged.
+
+ This is format-agnostic: it works regardless of WHY the header text
+ is missing (image, vector paths, annotations, form objects), because
+ pytesseract renders the visual page region to a raster and reads
+ whatever is visible there.
+
+ REQUIRES ocr_region.py's ocr_region_to_words() to accept a `psm`
+ keyword argument (added specifically to support this call, which
+ needs PSM 4 for a multi-line variable-size header, unlike this
+ function's other call site below which uses the default PSM 6 for
+ single-line contact bars). If you see
+ "TypeError: unexpected keyword argument 'psm'" here, ocr_region.py
+ needs that parameter added -- it is NOT optional for this fix to work.
+
+PAGE-DEDUP FIX (earlier):
+ Some resume-builder PDFs include duplicate pages (e.g. a "display"
+ page and a "print" page with identical content). Both pages get
+ processed, producing double output. Fixed by deduplicating
+ consecutive identical entries in primary_parts / secondary_parts
+ before joining.
+
+NOTE ON SCANNED-PAGE OCR: this file is intentionally NOT shared with
+the OCR modules (ocr_reader.py / ocr_reader_pytesseract.py). Scanned-
+page layout reconstruction has its own separate, independent copy of
+this logic in ingestion/ocr_layout_reconstruction.py, which is free
+to diverge and be tuned for OCR-specific quirks (e.g. tightly-packed
+scanned tables needed a different heading-merge tolerance than resume
+sidebars do) WITHOUT any risk of that tuning affecting this file's
+already-proven behavior on native PDF/DOCX text.
+
+NOTE ON THE PRE-OCR IMAGE QUALITY GATE (blur rejection / deskew /
+brightness correction, added in ocr_reader.py and
+ocr_reader_pytesseract.py): this file does NOT need any changes for
+that either. This file never touches image pixels itself -- it only
+calls read_with_surya_pages() (imported below) and receives back a
+plain {page_index: text} dict. If a scanned page fails the blur gate,
+read_with_surya_pages() raises ImageQualityError, which is not caught
+anywhere in this file, so it propagates naturally up through
+read_text_pdf() -> read_pdf() -> read_resume_file() to the caller
+(test_manager.py already prints any such exception via its existing
+`except Exception as e: print(f"ERROR: {e}")`, so no changes are
+needed there either). This holds true regardless of which OCR engine
+import is active below.
 """
 
 import re
@@ -490,7 +119,84 @@ from ingestion.ocr_region import (
     get_ocr_worthy_image_blocks,
     ocr_region_to_words,
 )
+
+# ── OCR ENGINE SELECTION ──
+# Production default: Surya primary, with its own automatic fallback to
+# pytesseract on failure (see ocr_reader.py's read_with_surya_pages()).
 from ingestion.ocr_reader import read_with_surya_pages
+
+# TESTING OVERRIDE: to force pytesseract only (bypassing Surya entirely,
+# e.g. to compare output quality between engines), comment out the
+# import above and uncomment the one below instead. Note this is a
+# manual, all-or-nothing override -- it does NOT go through Surya's own
+# try-Surya-then-fall-back-to-tesseract logic, it skips Surya entirely.
+# The pre-OCR quality gate (blur/deskew/brightness) still runs correctly
+# either way, since both ocr_reader.py and ocr_reader_pytesseract.py
+# call it identically.
+# from ingestion.ocr_reader_pytesseract import read_with_surya_pages
+
+
+# ──────────────────────────────────────────────────────────────
+# HEADER-GAP DETECTION
+# ──────────────────────────────────────────────────────────────
+
+def _detect_header_gap(words: list, page_rect, min_gap: float = 100.0):
+    """
+    Checks whether native words start well below the top of the page,
+    indicating an unextracted header region (image, vector paths, or
+    annotation-layer text that pdfplumber cannot see).
+
+    Returns a fitz.Rect covering the gap (full page width, from page
+    top to the first word's vertical position) if a gap is detected,
+    or None if no gap exists.
+
+    min_gap: minimum vertical distance (in PDF points, 72pt = 1 inch)
+      between the page top and the first word's top to trigger header
+      gap detection. Default 100pt (~1.4 inches) avoids false positives
+      from normal top margins (typically 36–72pt) while catching
+      designed-template headers that take up 1.5–3 inches at the top.
+
+    The returned Rect is passed to ocr_region_to_words() which renders
+    that region at high resolution and OCRs it. This works regardless
+    of WHY the text is unextractable — the OCR sees whatever is
+    visually rendered in that region.
+    """
+    if not words:
+        return None
+
+    first_word_top = min(w["top"] for w in words)
+    gap = first_word_top - page_rect.y0
+
+    if gap > min_gap:
+        return fitz.Rect(
+            page_rect.x0,       # full page width (left edge)
+            page_rect.y0,       # page top
+            page_rect.x1,       # full page width (right edge)
+            first_word_top      # stop at first native word
+        )
+    return None
+
+
+# ──────────────────────────────────────────────────────────────
+# PAGE-DEDUP HELPER
+# ──────────────────────────────────────────────────────────────
+
+def _dedup_consecutive(parts: list) -> list:
+    """
+    Removes consecutive identical entries from a list of page text
+    contributions. Handles the case where a resume-builder PDF has
+    duplicate pages (e.g. display + print copies) that would otherwise
+    produce double output.
+
+    Uses stripped-text comparison to ignore minor whitespace differences.
+    """
+    if len(parts) <= 1:
+        return parts
+    result = [parts[0]]
+    for p in parts[1:]:
+        if p.strip() != result[-1].strip():
+            result.append(p)
+    return result
 
 
 # ──────────────────────────────────────────────────────────────
@@ -753,7 +459,7 @@ def read_text_pdf(pdf_path: str) -> str:
     PASS 1: classify every page ("scanned" / "hybrid" / "text").
     Collect the indices of "scanned" pages.
     PASS 1.5: if any pages were classified "scanned", batch-OCR just
-    those pages in ONE Surya call via read_with_surya_pages(), so
+    those pages in ONE call via read_with_surya_pages(), so
     model loading happens at most once per document regardless of
     how many scanned pages it has. Build a {page_index: text} map.
     PASS 2: walk the pages again in order. For each page:
@@ -763,10 +469,24 @@ def read_text_pdf(pdf_path: str) -> str:
     normal sidebar/two-column/single-column detection on the
     combined set.
     - "text": unchanged, normal word extraction + layout detection.
+
+    - Header gap detection: after extracting words for "text" and
+      "hybrid" pages, checks if native text starts well below the page
+      top. If so, OCRs the gap region to recover unextracted header
+      content (name, contact info rendered as images or vector paths).
+    - Page deduplication: removes consecutive identical page
+      contributions from primary_parts and secondary_parts before
+      joining, fixing double output from PDFs with duplicate pages.
+
     Two-column pages still split into primary_parts (left column, main
     narrative, contiguous across page breaks) and secondary_parts
     (right column short lists), joined primary-then-secondary once at
     the very end -- unchanged from the prior revision.
+
+    If any "scanned" page fails the pre-OCR quality gate (see
+    ocr_reader.py / ocr_reader_pytesseract.py), read_with_surya_pages()
+    below raises ImageQualityError, which is intentionally NOT caught
+    here -- it propagates straight up to read_pdf()'s caller.
     """
     primary_parts = []
     secondary_parts = []
@@ -811,11 +531,29 @@ def read_text_pdf(pdf_path: str) -> str:
 
             words = page_native_words[page_index]
 
+            # fpage needed for ALL non-scanned pages (not just "hybrid"),
+            # since header-gap detection below runs on "text" pages too.
+            fpage = fdoc[page_index]
+
             if classification == "hybrid":
-                fpage = fdoc[page_index]
                 for bbox in get_ocr_worthy_image_blocks(fpage, native_words=words):
                     ocr_words = ocr_region_to_words(fpage, bbox)
                     words = words + ocr_words
+
+            # Header gap detection: if native words start well below the
+            # page top, the gap likely contains an unextracted header
+            # (image, vector paths, or annotation-layer text). OCR that
+            # region to recover it. Uses PSM=4 (single column, variable
+            # text sizes) instead of the default PSM=6 (uniform text
+            # block), because header regions typically have a large
+            # name, smaller subtitle, and small contact text -- three
+            # very different text sizes.
+            header_gap = _detect_header_gap(words, fpage.rect)
+            if header_gap:
+                header_words = ocr_region_to_words(
+                    fpage, header_gap, psm=4
+                )
+                words = header_words + words
 
             if not words:
                 continue
@@ -844,6 +582,13 @@ def read_text_pdf(pdf_path: str) -> str:
             if text.strip():
                 primary_parts.append(text.strip())
 
+    # Deduplicate consecutive identical page contributions -- some
+    # resume-builder PDFs include duplicate pages (e.g. a "display"
+    # page and a "print" page with identical content), which would
+    # otherwise produce double output.
+    primary_parts = _dedup_consecutive(primary_parts)
+    secondary_parts = _dedup_consecutive(secondary_parts)
+
     primary_text = "\n\n".join(primary_parts)
     secondary_text = "\n\n".join(secondary_parts)
 
@@ -865,6 +610,1660 @@ def read_pdf(pdf_path: str) -> str:
     return read_text_pdf(pdf_path)
 
 
+
+
+
+
+
+
+
+
+#commenting code after coming from home-
+#"""
+#PDF Reader — Layer 0
+#
+#Reads a PDF file and returns clean text.
+#Per PAGE (not per document), classifies the page as one of:
+# "scanned" -> essentially no extractable text; OCR'd via Surya
+# "hybrid"  -> has real text AND embedded image regions with text
+#              (e.g. a contact bar rendered as one flattened graphic);
+#              OCR's just those regions and merges the recognised
+#              words into the same word stream native text uses
+# "text"    -> normal page, handled exactly as before
+#
+#REVISION (earlier) — replaced the old whole-document
+#is_scanned_pdf() gate with per-page classification. That old check
+#combined the first 3 pages' text and returned one True/False for the
+#entire file, so it could not handle:
+# - a document where page 1 is a scanned image and page 2 is real text
+#   (or vice versa)
+# - a page that is mostly real text but has one embedded image
+#   (typically a contact bar / icon+label row) that also carries text
+#
+#Confirmed on a real resume (Adarsh Bhagat): the entire phone/email/
+#LinkedIn row was a single flattened raster image sitting between the
+#name and the "Summary" heading. pdfplumber's raw page.chars had zero
+#characters there, and PyMuPDF's get_text("dict") showed it as an
+#image block (type=1), not a text block -- so no text-extraction
+#approach could have recovered it without OCR. classify_page() detects
+#this ("hybrid"), get_ocr_worthy_image_blocks() finds the image
+#region, and ocr_region_to_words() OCRs just that crop and returns
+#pdfplumber-shaped word dicts that get merged into `words` BEFORE
+#layout detection runs -- so the recovered text flows through the
+#existing sidebar/two-column/single-column logic unchanged and lands
+#in the correct reading-order position.
+#
+#Layout handling within a "text" or "hybrid" page (unchanged from
+#before): sidebar layout, true two-column layout, single column
+#fallback, in that order.
+#
+#MERGE NOTE (carried over from the previous revision, still applies):
+# Two-column pages split into a `primary_parts` stream (left column /
+# main narrative, contiguous across page breaks) and a
+# `secondary_parts` stream (right column short lists), joined
+# primary-then-secondary once at the very end. See the docstrings on
+# _is_true_two_column() and read_text_pdf() below for the full
+# reasoning; unchanged from the prior version of this file.
+#
+#HEADER-GAP FIX (earlier):
+# Many designed/styled resume templates (Canva, Zety, resume-builder
+# PDFs) render the header area (name, title, contact row) as a single
+# flattened raster image, as vector-path outlines (drawn shapes, not
+# character data), or inside annotation/form layers that pdfplumber's
+# content-stream reader never touches. In all three cases,
+# pdfplumber.extract_words() returns zero words for that region, and
+# the page is classified "text" (because the body below has plenty of
+# real text). The header simply vanishes from the output.
+#
+# Fixed by detecting the "header gap": if the first native word on a
+# page starts significantly below the page top (>100pt, roughly 1.4
+# inches), there is likely an unextracted header region above it. That
+# gap is OCR'd with pytesseract (PSM=4, single column with variable
+# text sizes — correct for a multi-line header with large name +
+# smaller subtitle + small contact row) and the recovered words are
+# prepended to the word list before layout detection runs, so they
+# flow through the existing sidebar/two-column/single-column logic
+# unchanged.
+#
+# This is format-agnostic: it works regardless of WHY the header text
+# is missing (image, vector paths, annotations, form objects), because
+# pytesseract renders the visual page region to a raster and reads
+# whatever is visible there.
+#
+# REQUIRES ocr_region.py's ocr_region_to_words() to accept a `psm`
+# keyword argument (added specifically to support this call, which
+# needs PSM 4 for a multi-line variable-size header, unlike this
+# function's other call site below which uses the default PSM 6 for
+# single-line contact bars). If you see
+# "TypeError: unexpected keyword argument 'psm'" here, ocr_region.py
+# needs that parameter added -- it is NOT optional for this fix to work.
+#
+#PAGE-DEDUP FIX (earlier):
+# Some resume-builder PDFs include duplicate pages (e.g. a "display"
+# page and a "print" page with identical content). Both pages get
+# processed, producing double output. Fixed by deduplicating
+# consecutive identical entries in primary_parts / secondary_parts
+# before joining.
+#
+#NOTE ON SCANNED-PAGE OCR: this file is intentionally NOT shared with
+#the OCR modules (ocr_reader.py / ocr_reader_pytesseract.py). Scanned-
+#page layout reconstruction has its own separate, independent copy of
+#this logic in ingestion/ocr_layout_reconstruction.py, which is free
+#to diverge and be tuned for OCR-specific quirks (e.g. tightly-packed
+#scanned tables needed a different heading-merge tolerance than resume
+#sidebars do) WITHOUT any risk of that tuning affecting this file's
+#already-proven behavior on native PDF/DOCX text.
+#
+#NOTE ON THE PRE-OCR IMAGE QUALITY GATE (blur rejection / deskew /
+#brightness correction, added in ocr_reader.py and
+#ocr_reader_pytesseract.py): this file does NOT need any changes for
+#that either. This file never touches image pixels itself -- it only
+#calls read_with_surya_pages() (imported below) and receives back a
+#plain {page_index: text} dict. If a scanned page fails the blur gate,
+#read_with_surya_pages() raises ImageQualityError, which is not caught
+#anywhere in this file, so it propagates naturally up through
+#read_text_pdf() -> read_pdf() -> read_resume_file() to the caller
+#(test_manager.py already prints any such exception via its existing
+#`except Exception as e: print(f"ERROR: {e}")`, so no changes are
+#needed there either). This holds true regardless of which OCR engine
+#import is active below.
+#"""
+#
+#import re
+#import pdfplumber
+#import fitz  # PyMuPDF
+#from pathlib import Path
+#from collections import Counter
+#
+#from ingestion.ocr_region import (
+#    classify_page,
+#    get_ocr_worthy_image_blocks,
+#    ocr_region_to_words,
+#)
+#
+## ── OCR ENGINE SELECTION ──
+## Production default: Surya primary, with its own automatic fallback to
+## pytesseract on failure (see ocr_reader.py's read_with_surya_pages()).
+#from ingestion.ocr_reader import read_with_surya_pages
+#
+## TESTING OVERRIDE: to force pytesseract only (bypassing Surya entirely,
+## e.g. to compare output quality between engines), comment out the
+## import above and uncomment the one below instead. Note this is a
+## manual, all-or-nothing override -- it does NOT go through Surya's own
+## try-Surya-then-fall-back-to-tesseract logic, it skips Surya entirely.
+## The pre-OCR quality gate (blur/deskew/brightness) still runs correctly
+## either way, since both ocr_reader.py and ocr_reader_pytesseract.py
+## call it identically.
+## from ingestion.ocr_reader_pytesseract import read_with_surya_pages
+#
+#
+## ──────────────────────────────────────────────────────────────
+## HEADER-GAP DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _detect_header_gap(words: list, page_rect, min_gap: float = 100.0):
+#    """
+#    Checks whether native words start well below the top of the page,
+#    indicating an unextracted header region (image, vector paths, or
+#    annotation-layer text that pdfplumber cannot see).
+#
+#    Returns a fitz.Rect covering the gap (full page width, from page
+#    top to the first word's vertical position) if a gap is detected,
+#    or None if no gap exists.
+#
+#    min_gap: minimum vertical distance (in PDF points, 72pt = 1 inch)
+#      between the page top and the first word's top to trigger header
+#      gap detection. Default 100pt (~1.4 inches) avoids false positives
+#      from normal top margins (typically 36–72pt) while catching
+#      designed-template headers that take up 1.5–3 inches at the top.
+#
+#    The returned Rect is passed to ocr_region_to_words() which renders
+#    that region at high resolution and OCRs it. This works regardless
+#    of WHY the text is unextractable — the OCR sees whatever is
+#    visually rendered in that region.
+#    """
+#    if not words:
+#        return None
+#
+#    first_word_top = min(w["top"] for w in words)
+#    gap = first_word_top - page_rect.y0
+#
+#    if gap > min_gap:
+#        return fitz.Rect(
+#            page_rect.x0,       # full page width (left edge)
+#            page_rect.y0,       # page top
+#            page_rect.x1,       # full page width (right edge)
+#            first_word_top      # stop at first native word
+#        )
+#    return None
+#
+#
+## ──────────────────────────────────────────────────────────────
+## PAGE-DEDUP HELPER
+## ──────────────────────────────────────────────────────────────
+#
+#def _dedup_consecutive(parts: list) -> list:
+#    """
+#    Removes consecutive identical entries from a list of page text
+#    contributions. Handles the case where a resume-builder PDF has
+#    duplicate pages (e.g. display + print copies) that would otherwise
+#    produce double output.
+#
+#    Uses stripped-text comparison to ignore minor whitespace differences.
+#    """
+#    if len(parts) <= 1:
+#        return parts
+#    result = [parts[0]]
+#    for p in parts[1:]:
+#        if p.strip() != result[-1].strip():
+#            result.append(p)
+#    return result
+#
+#
+## ──────────────────────────────────────────────────────────────
+## SIDEBAR LAYOUT DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _find_sidebar_split(words: list, page_width: float):
+#    """
+#    Detects if a page has a sidebar layout — a narrow left column
+#    containing ONLY section headings, and a wide right column with content.
+#    Returns the x-coordinate of the split point if sidebar detected,
+#    or None if not a sidebar layout.
+#    """
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    content_start_x = None
+#    best_count = 0
+#
+#    for x0, count in x0_counter.items():
+#        if 80 < x0 < page_width * 0.45 and count > best_count:
+#            best_count = count
+#            content_start_x = x0
+#
+#    if content_start_x is None or best_count < 3:
+#        return None
+#
+#    sidebar_candidates = [w for w in words if w["x0"] < content_start_x - 10]
+#
+#    if not sidebar_candidates:
+#        return None
+#    if len(sidebar_candidates) > 25:
+#        return None
+#
+#    sidebar_x0s = sorted(set(round(w["x0"]) for w in sidebar_candidates))
+#    heading_boundary = sidebar_x0s[-1]
+#    for i in range(len(sidebar_x0s) - 1):
+#        inner_gap = sidebar_x0s[i + 1] - sidebar_x0s[i]
+#        if inner_gap > 30:
+#            heading_boundary = sidebar_x0s[i]
+#            break
+#
+#    gap = content_start_x - heading_boundary
+#    if gap < 30:
+#        return None
+#
+#    split = (heading_boundary + content_start_x) / 2
+#    return split
+#
+#
+#def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str:
+#    """
+#    Merges sidebar heading words with content words by vertical position.
+#    """
+#    heading_lines = {}
+#    sorted_sidebar = sorted(sidebar_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_sidebar:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 1.5:
+#            current_words.append(word)
+#            current_top = word["top"]
+#        else:
+#            heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            heading_lines[round(current_top)] = heading_text
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        heading_lines[round(current_top)] = heading_text
+#
+#    content_line_list = []
+#    sorted_content = sorted(content_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_content:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 0.5:
+#            current_words.append(word)
+#        else:
+#            line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            content_line_list.append((round(current_top), line_text))
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        content_line_list.append((round(current_top), line_text))
+#
+#    result_lines = []
+#    used_headings = set()
+#
+#    for content_top, content_text in content_line_list:
+#        for heading_top, heading_text in sorted(heading_lines.items()):
+#            if heading_top in used_headings:
+#                continue
+#            if abs(heading_top - content_top) <= 20:
+#                result_lines.append(heading_text)
+#                used_headings.add(heading_top)
+#                break
+#        result_lines.append(content_text)
+#
+#    for heading_top, heading_text in sorted(heading_lines.items()):
+#        if heading_top not in used_headings:
+#            result_lines.append(heading_text)
+#
+#    return "\n".join(result_lines)
+#
+#
+## ──────────────────────────────────────────────────────────────
+## TWO-COLUMN LAYOUT DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _find_column_split(words: list, page_width: float):
+#    """
+#    Finds the actual column split point for a two-column layout, using
+#    the gap in x0 start positions rather than assuming the page midpoint.
+#    """
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    all_x0 = sorted(x0_counter.keys())
+#
+#    if len(all_x0) < 2:
+#        return None
+#
+#    best_split = None
+#    best_score = 0
+#
+#    for i in range(len(all_x0) - 1):
+#        gap = all_x0[i + 1] - all_x0[i]
+#        if gap < 15:
+#            continue
+#
+#        split_x = (all_x0[i] + all_x0[i + 1]) / 2
+#        left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
+#        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
+#
+#        if left_count < 20 or right_count < 20:
+#            continue
+#
+#        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
+#            continue
+#
+#        balance = min(left_count, right_count) / max(left_count, right_count)
+#        score = gap * balance
+#
+#        if score > best_score:
+#            best_score = score
+#            best_split = split_x
+#
+#    if best_split is None:
+#        return None
+#
+#    left_words = [w for w in words if w["x1"] <= best_split]
+#    right_words = [w for w in words if w["x0"] > best_split]
+#    return best_split, left_words, right_words
+#
+#
+#def _is_true_two_column(words: list, page_width: float):
+#    """
+#    Determines whether a page genuinely has a two-column layout, AND
+#    returns the correctly split word groups if so.
+#    Requires: both sides substantial (>=30 words), near-empty gutter
+#    (<5 straddling words), right column spans >=15% of left column's
+#    vertical height.
+#    """
+#    result = _find_column_split(words, page_width)
+#    if result is None:
+#        return None
+#
+#    split_x, left_words, right_words = result
+#
+#    if len(left_words) < 30 or len(right_words) < 30:
+#        return None
+#
+#    gutter_words = [
+#        w for w in words
+#        if w["x0"] < split_x - 2 and w["x1"] > split_x + 2
+#    ]
+#    if len(gutter_words) > 5:
+#        return None
+#
+#    if right_words and left_words:
+#        right_top = min(w["top"] for w in right_words)
+#        right_bottom = max(w["bottom"] for w in right_words)
+#        right_span = right_bottom - right_top
+#
+#        left_top = min(w["top"] for w in left_words)
+#        left_bottom = max(w["bottom"] for w in left_words)
+#        left_span = left_bottom - left_top
+#
+#        if left_span > 0 and right_span / left_span < 0.15:
+#            return None
+#
+#    return left_words, right_words
+#
+#
+## ──────────────────────────────────────────────────────────────
+## LINE RECONSTRUCTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _extract_words_to_lines(words: list) -> str:
+#    """
+#    Reconstructs text lines from word dicts, grouping by vertical (top)
+#    position and joining with a single space. Works identically whether
+#    a word came from pdfplumber's native extraction or from
+#    ocr_region_to_words() -- both use the same dict shape.
+#    """
+#    if not words:
+#        return ""
+#
+#    lines: list = []
+#    current_line: list = []
+#    current_top = None
+#
+#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    for word in sorted_words:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_line = [word]
+#            continue
+#
+#        line_tolerance = max(word["height"], 1) * 0.5
+#        if abs(word["top"] - current_top) <= line_tolerance:
+#            current_line.append(word)
+#        else:
+#            lines.append(current_line)
+#            current_line = [word]
+#            current_top = word["top"]
+#
+#    if current_line:
+#        lines.append(current_line)
+#
+#    text_lines = []
+#    for line in lines:
+#        line_sorted = sorted(line, key=lambda w: w["x0"])
+#        parts = [w["text"] for w in line_sorted]
+#        text_lines.append(" ".join(parts))
+#
+#    return "\n".join(text_lines)
+#
+#
+## ──────────────────────────────────────────────────────────────
+## MAIN PDF TEXT READER
+## ──────────────────────────────────────────────────────────────
+#
+#def read_text_pdf(pdf_path: str) -> str:
+#    """
+#    Reads a PDF page by page.
+#    PASS 1: classify every page ("scanned" / "hybrid" / "text").
+#    Collect the indices of "scanned" pages.
+#    PASS 1.5: if any pages were classified "scanned", batch-OCR just
+#    those pages in ONE call via read_with_surya_pages(), so
+#    model loading happens at most once per document regardless of
+#    how many scanned pages it has. Build a {page_index: text} map.
+#    PASS 2: walk the pages again in order. For each page:
+#    - "scanned": use the pre-computed OCR text from the map.
+#    - "hybrid": extract native words, OCR the flagged image regions,
+#    merge the OCR'd words into the same words list, then run the
+#    normal sidebar/two-column/single-column detection on the
+#    combined set.
+#    - "text": unchanged, normal word extraction + layout detection.
+#
+#    - Header gap detection: after extracting words for "text" and
+#      "hybrid" pages, checks if native text starts well below the page
+#      top. If so, OCRs the gap region to recover unextracted header
+#      content (name, contact info rendered as images or vector paths).
+#    - Page deduplication: removes consecutive identical page
+#      contributions from primary_parts and secondary_parts before
+#      joining, fixing double output from PDFs with duplicate pages.
+#
+#    Two-column pages still split into primary_parts (left column, main
+#    narrative, contiguous across page breaks) and secondary_parts
+#    (right column short lists), joined primary-then-secondary once at
+#    the very end -- unchanged from the prior revision.
+#
+#    If any "scanned" page fails the pre-OCR quality gate (see
+#    ocr_reader.py / ocr_reader_pytesseract.py), read_with_surya_pages()
+#    below raises ImageQualityError, which is intentionally NOT caught
+#    here -- it propagates straight up to read_pdf()'s caller.
+#    """
+#    primary_parts = []
+#    secondary_parts = []
+#
+#    with pdfplumber.open(pdf_path) as pdf, fitz.open(pdf_path) as fdoc:
+#        page_native_words = []
+#        classifications = []
+#
+#        for page_index in range(len(pdf.pages)):
+#            page = pdf.pages[page_index]
+#            fpage = fdoc[page_index]
+#
+#            char_count = len(fpage.get_text().strip())
+#            if char_count < 20:
+#                page_native_words.append([])
+#                classifications.append("scanned")
+#                continue
+#
+#            words = page.extract_words(
+#                x_tolerance=1.5,
+#                y_tolerance=3,
+#                keep_blank_chars=False,
+#            )
+#            page_native_words.append(words)
+#            classifications.append(classify_page(fpage, native_words=words))
+#
+#        scanned_indices = [i for i, c in enumerate(classifications) if c == "scanned"]
+#
+#        scanned_text_map = {}
+#        if scanned_indices:
+#            scanned_text_map = read_with_surya_pages(pdf_path, scanned_indices)
+#
+#        for page_index, page in enumerate(pdf.pages):
+#            classification = classifications[page_index]
+#            page_width = page.width
+#
+#            if classification == "scanned":
+#                text = scanned_text_map.get(page_index, "")
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            words = page_native_words[page_index]
+#
+#            # fpage needed for ALL non-scanned pages (not just "hybrid"),
+#            # since header-gap detection below runs on "text" pages too.
+#            fpage = fdoc[page_index]
+#
+#            if classification == "hybrid":
+#                for bbox in get_ocr_worthy_image_blocks(fpage, native_words=words):
+#                    ocr_words = ocr_region_to_words(fpage, bbox)
+#                    words = words + ocr_words
+#
+#            # Header gap detection: if native words start well below the
+#            # page top, the gap likely contains an unextracted header
+#            # (image, vector paths, or annotation-layer text). OCR that
+#            # region to recover it. Uses PSM=4 (single column, variable
+#            # text sizes) instead of the default PSM=6 (uniform text
+#            # block), because header regions typically have a large
+#            # name, smaller subtitle, and small contact text -- three
+#            # very different text sizes.
+#            header_gap = _detect_header_gap(words, fpage.rect)
+#            if header_gap:
+#                header_words = ocr_region_to_words(
+#                    fpage, header_gap, psm=4
+#                )
+#                words = header_words + words
+#
+#            if not words:
+#                continue
+#
+#            sidebar_split = _find_sidebar_split(words, page_width)
+#            if sidebar_split:
+#                sidebar_words = [w for w in words if w["x0"] < sidebar_split]
+#                content_words = [w for w in words if w["x0"] > sidebar_split]
+#                text = _merge_sidebar_with_content(sidebar_words, content_words)
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            two_col_result = _is_true_two_column(words, page_width)
+#            if two_col_result:
+#                left_words, right_words = two_col_result
+#                left_text = _extract_words_to_lines(left_words)
+#                right_text = _extract_words_to_lines(right_words)
+#                if left_text.strip():
+#                    primary_parts.append(left_text.strip())
+#                if right_text.strip():
+#                    secondary_parts.append(right_text.strip())
+#                continue
+#
+#            text = _extract_words_to_lines(words)
+#            if text.strip():
+#                primary_parts.append(text.strip())
+#
+#    # Deduplicate consecutive identical page contributions -- some
+#    # resume-builder PDFs include duplicate pages (e.g. a "display"
+#    # page and a "print" page with identical content), which would
+#    # otherwise produce double output.
+#    primary_parts = _dedup_consecutive(primary_parts)
+#    secondary_parts = _dedup_consecutive(secondary_parts)
+#
+#    primary_text = "\n\n".join(primary_parts)
+#    secondary_text = "\n\n".join(secondary_parts)
+#
+#    if secondary_text:
+#        return primary_text + "\n\n" + secondary_text
+#    return primary_text
+#
+#
+#def read_pdf(pdf_path: str) -> str:
+#    """
+#    Main entry point for Layer 0's PDF handling.
+#    """
+#    path = Path(pdf_path)
+#    if not path.exists():
+#        raise FileNotFoundError(f"File not found: {pdf_path}")
+#    if path.suffix.lower() != ".pdf":
+#        raise ValueError(f"Expected a PDF file, got: {path.suffix}")
+#
+#    return read_text_pdf(pdf_path)
+#
+#
+#
+#
+
+
+
+
+
+
+
+
+##commenting the code after coming from home-
+#"""
+#PDF Reader — Layer 0
+#
+#Reads a PDF file and returns clean text.
+#Per PAGE (not per document), classifies the page as one of:
+# "scanned" -> essentially no extractable text; OCR'd via Surya
+# "hybrid"  -> has real text AND embedded image regions with text
+#              (e.g. a contact bar rendered as one flattened graphic);
+#              OCR's just those regions and merges the recognised
+#              words into the same word stream native text uses
+# "text"    -> normal page, handled exactly as before
+#
+#REVISION (this version) — replaced the old whole-document
+#is_scanned_pdf() gate with per-page classification. That old check
+#combined the first 3 pages' text and returned one True/False for the
+#entire file, so it could not handle:
+# - a document where page 1 is a scanned image and page 2 is real text
+#   (or vice versa)
+# - a page that is mostly real text but has one embedded image
+#   (typically a contact bar / icon+label row) that also carries text
+#
+#Confirmed on a real resume (Adarsh Bhagat): the entire phone/email/
+#LinkedIn row was a single flattened raster image sitting between the
+#name and the "Summary" heading. pdfplumber's raw page.chars had zero
+#characters there, and PyMuPDF's get_text("dict") showed it as an
+#image block (type=1), not a text block -- so no text-extraction
+#approach could have recovered it without OCR. classify_page() detects
+#this ("hybrid"), get_ocr_worthy_image_blocks() finds the image
+#region, and ocr_region_to_words() OCRs just that crop and returns
+#pdfplumber-shaped word dicts that get merged into `words` BEFORE
+#layout detection runs -- so the recovered text flows through the
+#existing sidebar/two-column/single-column logic unchanged and lands
+#in the correct reading-order position.
+#
+#Layout handling within a "text" or "hybrid" page (unchanged from
+#before): sidebar layout, true two-column layout, single column
+#fallback, in that order.
+#
+#MERGE NOTE (carried over from the previous revision, still applies):
+# Two-column pages split into a `primary_parts` stream (left column /
+# main narrative, contiguous across page breaks) and a
+# `secondary_parts` stream (right column short lists), joined
+# primary-then-secondary once at the very end. See the docstrings on
+# _is_true_two_column() and read_text_pdf() below for the full
+# reasoning; unchanged from the prior version of this file.
+#
+#HEADER-GAP FIX (this version):
+# Many designed/styled resume templates (Canva, Zety, resume-builder
+# PDFs) render the header area (name, title, contact row) as a single
+# flattened raster image, as vector-path outlines (drawn shapes, not
+# character data), or inside annotation/form layers that pdfplumber's
+# content-stream reader never touches. In all three cases,
+# pdfplumber.extract_words() returns zero words for that region, and
+# the page is classified "text" (because the body below has plenty of
+# real text). The header simply vanishes from the output.
+#
+# Fixed by detecting the "header gap": if the first native word on a
+# page starts significantly below the page top (>100pt, roughly 1.4
+# inches), there is likely an unextracted header region above it. That
+# gap is OCR'd with pytesseract (PSM=4, single column with variable
+# text sizes — correct for a multi-line header with large name +
+# smaller subtitle + small contact row) and the recovered words are
+# prepended to the word list before layout detection runs, so they
+# flow through the existing sidebar/two-column/single-column logic
+# unchanged.
+#
+# This is format-agnostic: it works regardless of WHY the header text
+# is missing (image, vector paths, annotations, form objects), because
+# pytesseract renders the visual page region to a raster and reads
+# whatever is visible there.
+#
+#PAGE-DEDUP FIX (this version):
+# Some resume-builder PDFs include duplicate pages (e.g. a "display"
+# page and a "print" page with identical content). Both pages get
+# processed, producing double output. Fixed by deduplicating
+# consecutive identical entries in primary_parts / secondary_parts
+# before joining.
+#"""
+#
+#import re
+#import pdfplumber
+#import fitz  # PyMuPDF
+#from pathlib import Path
+#from collections import Counter
+#
+#from ingestion.ocr_region import (
+#    classify_page,
+#    get_ocr_worthy_image_blocks,
+#    ocr_region_to_words,
+#)
+#from ingestion.ocr_reader import read_with_surya_pages
+##commented the above one and written the below just to make the fallback at pytesseract temporarily instead of using surya just to see the o/p quality.
+#from ingestion.ocr_reader_pytesseract import read_with_surya_pages
+#
+#
+## ──────────────────────────────────────────────────────────────
+## HEADER-GAP DETECTION (NEW)
+## ──────────────────────────────────────────────────────────────
+#
+#def _detect_header_gap(words: list, page_rect, min_gap: float = 100.0):
+#    """
+#    Checks whether native words start well below the top of the page,
+#    indicating an unextracted header region (image, vector paths, or
+#    annotation-layer text that pdfplumber cannot see).
+#
+#    Returns a fitz.Rect covering the gap (full page width, from page
+#    top to the first word's vertical position) if a gap is detected,
+#    or None if no gap exists.
+#
+#    min_gap: minimum vertical distance (in PDF points, 72pt = 1 inch)
+#      between the page top and the first word's top to trigger header
+#      gap detection. Default 100pt (~1.4 inches) avoids false positives
+#      from normal top margins (typically 36–72pt) while catching
+#      designed-template headers that take up 1.5–3 inches at the top.
+#
+#    The returned Rect is passed to ocr_region_to_words() which renders
+#    that region at high resolution and OCRs it. This works regardless
+#    of WHY the text is unextractable — the OCR sees whatever is
+#    visually rendered in that region.
+#    """
+#    if not words:
+#        return None
+#
+#    first_word_top = min(w["top"] for w in words)
+#    gap = first_word_top - page_rect.y0
+#
+#    if gap > min_gap:
+#        return fitz.Rect(
+#            page_rect.x0,       # full page width (left edge)
+#            page_rect.y0,       # page top
+#            page_rect.x1,       # full page width (right edge)
+#            first_word_top      # stop at first native word
+#        )
+#    return None
+#
+#
+## ──────────────────────────────────────────────────────────────
+## PAGE-DEDUP HELPER (NEW)
+## ──────────────────────────────────────────────────────────────
+#
+#def _dedup_consecutive(parts: list) -> list:
+#    """
+#    Removes consecutive identical entries from a list of page text
+#    contributions. Handles the case where a resume-builder PDF has
+#    duplicate pages (e.g. display + print copies) that would otherwise
+#    produce double output.
+#
+#    Uses stripped-text comparison to ignore minor whitespace differences.
+#    """
+#    if len(parts) <= 1:
+#        return parts
+#    result = [parts[0]]
+#    for p in parts[1:]:
+#        if p.strip() != result[-1].strip():
+#            result.append(p)
+#    return result
+#
+#
+## ──────────────────────────────────────────────────────────────
+## SIDEBAR LAYOUT DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _find_sidebar_split(words: list, page_width: float):
+#    """
+#    Detects if a page has a sidebar layout — a narrow left column
+#    containing ONLY section headings, and a wide right column with content.
+#    Returns the x-coordinate of the split point if sidebar detected,
+#    or None if not a sidebar layout.
+#    """
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    content_start_x = None
+#    best_count = 0
+#
+#    for x0, count in x0_counter.items():
+#        if 80 < x0 < page_width * 0.45 and count > best_count:
+#            best_count = count
+#            content_start_x = x0
+#
+#    if content_start_x is None or best_count < 3:
+#        return None
+#
+#    sidebar_candidates = [w for w in words if w["x0"] < content_start_x - 10]
+#
+#    if not sidebar_candidates:
+#        return None
+#    if len(sidebar_candidates) > 25:
+#        return None
+#
+#    sidebar_x0s = sorted(set(round(w["x0"]) for w in sidebar_candidates))
+#    heading_boundary = sidebar_x0s[-1]
+#    for i in range(len(sidebar_x0s) - 1):
+#        inner_gap = sidebar_x0s[i + 1] - sidebar_x0s[i]
+#        if inner_gap > 30:
+#            heading_boundary = sidebar_x0s[i]
+#            break
+#
+#    gap = content_start_x - heading_boundary
+#    if gap < 30:
+#        return None
+#
+#    split = (heading_boundary + content_start_x) / 2
+#    return split
+#
+#
+#def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str:
+#    """
+#    Merges sidebar heading words with content words by vertical position.
+#    """
+#    heading_lines = {}
+#    sorted_sidebar = sorted(sidebar_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_sidebar:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 1.5:
+#            current_words.append(word)
+#            current_top = word["top"]
+#        else:
+#            heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            heading_lines[round(current_top)] = heading_text
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        heading_lines[round(current_top)] = heading_text
+#
+#    content_line_list = []
+#    sorted_content = sorted(content_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_content:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 0.5:
+#            current_words.append(word)
+#        else:
+#            line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            content_line_list.append((round(current_top), line_text))
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        content_line_list.append((round(current_top), line_text))
+#
+#    result_lines = []
+#    used_headings = set()
+#
+#    for content_top, content_text in content_line_list:
+#        for heading_top, heading_text in sorted(heading_lines.items()):
+#            if heading_top in used_headings:
+#                continue
+#            if abs(heading_top - content_top) <= 20:
+#                result_lines.append(heading_text)
+#                used_headings.add(heading_top)
+#                break
+#        result_lines.append(content_text)
+#
+#    for heading_top, heading_text in sorted(heading_lines.items()):
+#        if heading_top not in used_headings:
+#            result_lines.append(heading_text)
+#
+#    return "\n".join(result_lines)
+#
+#
+## ──────────────────────────────────────────────────────────────
+## TWO-COLUMN LAYOUT DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _find_column_split(words: list, page_width: float):
+#    """
+#    Finds the actual column split point for a two-column layout, using
+#    the gap in x0 start positions rather than assuming the page midpoint.
+#    """
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    all_x0 = sorted(x0_counter.keys())
+#
+#    if len(all_x0) < 2:
+#        return None
+#
+#    best_split = None
+#    best_score = 0
+#
+#    for i in range(len(all_x0) - 1):
+#        gap = all_x0[i + 1] - all_x0[i]
+#        if gap < 15:
+#            continue
+#
+#        split_x = (all_x0[i] + all_x0[i + 1]) / 2
+#        left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
+#        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
+#
+#        if left_count < 20 or right_count < 20:
+#            continue
+#
+#        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
+#            continue
+#
+#        balance = min(left_count, right_count) / max(left_count, right_count)
+#        score = gap * balance
+#
+#        if score > best_score:
+#            best_score = score
+#            best_split = split_x
+#
+#    if best_split is None:
+#        return None
+#
+#    left_words = [w for w in words if w["x1"] <= best_split]
+#    right_words = [w for w in words if w["x0"] > best_split]
+#    return best_split, left_words, right_words
+#
+#
+#def _is_true_two_column(words: list, page_width: float):
+#    """
+#    Determines whether a page genuinely has a two-column layout, AND
+#    returns the correctly split word groups if so.
+#    Requires: both sides substantial (>=30 words), near-empty gutter
+#    (<5 straddling words), right column spans >=15% of left column's
+#    vertical height.
+#    """
+#    result = _find_column_split(words, page_width)
+#    if result is None:
+#        return None
+#
+#    split_x, left_words, right_words = result
+#
+#    if len(left_words) < 30 or len(right_words) < 30:
+#        return None
+#
+#    gutter_words = [
+#        w for w in words
+#        if w["x0"] < split_x - 2 and w["x1"] > split_x + 2
+#    ]
+#    if len(gutter_words) > 5:
+#        return None
+#
+#    if right_words and left_words:
+#        right_top = min(w["top"] for w in right_words)
+#        right_bottom = max(w["bottom"] for w in right_words)
+#        right_span = right_bottom - right_top
+#
+#        left_top = min(w["top"] for w in left_words)
+#        left_bottom = max(w["bottom"] for w in left_words)
+#        left_span = left_bottom - left_top
+#
+#        if left_span > 0 and right_span / left_span < 0.15:
+#            return None
+#
+#    return left_words, right_words
+#
+#
+## ──────────────────────────────────────────────────────────────
+## LINE RECONSTRUCTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _extract_words_to_lines(words: list) -> str:
+#    """
+#    Reconstructs text lines from word dicts, grouping by vertical (top)
+#    position and joining with a single space. Works identically whether
+#    a word came from pdfplumber's native extraction or from
+#    ocr_region_to_words() -- both use the same dict shape.
+#    """
+#    if not words:
+#        return ""
+#
+#    lines: list = []
+#    current_line: list = []
+#    current_top = None
+#
+#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    for word in sorted_words:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_line = [word]
+#            continue
+#
+#        line_tolerance = max(word["height"], 1) * 0.5
+#        if abs(word["top"] - current_top) <= line_tolerance:
+#            current_line.append(word)
+#        else:
+#            lines.append(current_line)
+#            current_line = [word]
+#            current_top = word["top"]
+#
+#    if current_line:
+#        lines.append(current_line)
+#
+#    text_lines = []
+#    for line in lines:
+#        line_sorted = sorted(line, key=lambda w: w["x0"])
+#        parts = [w["text"] for w in line_sorted]
+#        text_lines.append(" ".join(parts))
+#
+#    return "\n".join(text_lines)
+#
+#
+## ──────────────────────────────────────────────────────────────
+## MAIN PDF TEXT READER
+## ──────────────────────────────────────────────────────────────
+#
+#def read_text_pdf(pdf_path: str) -> str:
+#    """
+#    Reads a PDF page by page.
+#    PASS 1: classify every page ("scanned" / "hybrid" / "text").
+#    Collect the indices of "scanned" pages.
+#    PASS 1.5: if any pages were classified "scanned", batch-OCR just
+#    those pages in ONE Surya call via read_with_surya_pages(), so
+#    model loading happens at most once per document regardless of
+#    how many scanned pages it has. Build a {page_index: text} map.
+#    PASS 2: walk the pages again in order. For each page:
+#    - "scanned": use the pre-computed OCR text from the map.
+#    - "hybrid": extract native words, OCR the flagged image regions,
+#    merge the OCR'd words into the same words list, then run the
+#    normal sidebar/two-column/single-column detection on the
+#    combined set.
+#    - "text": unchanged, normal word extraction + layout detection.
+#
+#    NEW in this version:
+#    - Header gap detection: after extracting words for "text" and
+#      "hybrid" pages, checks if native text starts well below the page
+#      top. If so, OCRs the gap region to recover unextracted header
+#      content (name, contact info rendered as images or vector paths).
+#    - Page deduplication: removes consecutive identical page
+#      contributions from primary_parts and secondary_parts before
+#      joining, fixing double output from PDFs with duplicate pages.
+#
+#    Two-column pages still split into primary_parts (left column, main
+#    narrative, contiguous across page breaks) and secondary_parts
+#    (right column short lists), joined primary-then-secondary once at
+#    the very end -- unchanged from the prior revision.
+#    """
+#    primary_parts = []
+#    secondary_parts = []
+#
+#    with pdfplumber.open(pdf_path) as pdf, fitz.open(pdf_path) as fdoc:
+#        page_native_words = []
+#        classifications = []
+#
+#        for page_index in range(len(pdf.pages)):
+#            page = pdf.pages[page_index]
+#            fpage = fdoc[page_index]
+#
+#            char_count = len(fpage.get_text().strip())
+#            if char_count < 20:
+#                page_native_words.append([])
+#                classifications.append("scanned")
+#                continue
+#
+#            words = page.extract_words(
+#                x_tolerance=1.5,
+#                y_tolerance=3,
+#                keep_blank_chars=False,
+#            )
+#            page_native_words.append(words)
+#            classifications.append(classify_page(fpage, native_words=words))
+#
+#        scanned_indices = [i for i, c in enumerate(classifications) if c == "scanned"]
+#
+#        scanned_text_map = {}
+#        if scanned_indices:
+#            scanned_text_map = read_with_surya_pages(pdf_path, scanned_indices)
+#
+#        for page_index, page in enumerate(pdf.pages):
+#            classification = classifications[page_index]
+#            page_width = page.width
+#
+#            if classification == "scanned":
+#                text = scanned_text_map.get(page_index, "")
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            words = page_native_words[page_index]
+#
+#            # ── CHANGED: get fpage for ALL non-scanned pages (was only
+#            #    set for "hybrid" before). Needed for header gap detection
+#            #    on "text" pages as well.
+#            fpage = fdoc[page_index]
+#
+#            if classification == "hybrid":
+#                for bbox in get_ocr_worthy_image_blocks(fpage, native_words=words):
+#                    ocr_words = ocr_region_to_words(fpage, bbox)
+#                    words = words + ocr_words
+#
+#            # ── NEW: Header gap detection ──
+#            # If native words start well below the page top, the gap
+#            # likely contains an unextracted header (image, vector paths,
+#            # or annotation-layer text). OCR that region to recover it.
+#            # Uses PSM=4 (single column, variable text sizes) instead of
+#            # the default PSM=6 (uniform text block), because header
+#            # regions typically have a large name, smaller subtitle, and
+#            # small contact text — three very different sizes.
+#            header_gap = _detect_header_gap(words, fpage.rect)
+#            if header_gap:
+#                header_words = ocr_region_to_words(
+#                    fpage, header_gap, psm=4
+#                )
+#                words = header_words + words
+#
+#            if not words:
+#                continue
+#
+#            sidebar_split = _find_sidebar_split(words, page_width)
+#            if sidebar_split:
+#                sidebar_words = [w for w in words if w["x0"] < sidebar_split]
+#                content_words = [w for w in words if w["x0"] > sidebar_split]
+#                text = _merge_sidebar_with_content(sidebar_words, content_words)
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            two_col_result = _is_true_two_column(words, page_width)
+#            if two_col_result:
+#                left_words, right_words = two_col_result
+#                left_text = _extract_words_to_lines(left_words)
+#                right_text = _extract_words_to_lines(right_words)
+#                if left_text.strip():
+#                    primary_parts.append(left_text.strip())
+#                if right_text.strip():
+#                    secondary_parts.append(right_text.strip())
+#                continue
+#
+#            text = _extract_words_to_lines(words)
+#            if text.strip():
+#                primary_parts.append(text.strip())
+#
+#    # ── NEW: Deduplicate consecutive identical page contributions ──
+#    # Some resume-builder PDFs include duplicate pages (e.g. a "display"
+#    # page and a "print" page with identical content), which would
+#    # otherwise produce double output.
+#    primary_parts = _dedup_consecutive(primary_parts)
+#    secondary_parts = _dedup_consecutive(secondary_parts)
+#
+#    primary_text = "\n\n".join(primary_parts)
+#    secondary_text = "\n\n".join(secondary_parts)
+#
+#    if secondary_text:
+#        return primary_text + "\n\n" + secondary_text
+#    return primary_text
+#
+#
+#def read_pdf(pdf_path: str) -> str:
+#    """
+#    Main entry point for Layer 0's PDF handling.
+#    """
+#    path = Path(pdf_path)
+#    if not path.exists():
+#        raise FileNotFoundError(f"File not found: {pdf_path}")
+#    if path.suffix.lower() != ".pdf":
+#        raise ValueError(f"Expected a PDF file, got: {path.suffix}")
+#
+#    return read_text_pdf(pdf_path)
+#
+
+
+
+
+
+
+# worked one just commenting to see the code given by antigravity works or not
+##writing again after the mess
+#
+#"""
+#PDF Reader — Layer 0
+#
+#Reads a PDF file and returns clean text.
+#Per PAGE (not per document), classifies the page as one of:
+# "scanned" -> essentially no extractable text; OCR'd via Surya
+# "hybrid"  -> has real text AND embedded image regions with text
+#              (e.g. a contact bar rendered as one flattened graphic);
+#              OCR's just those regions and merges the recognised
+#              words into the same word stream native text uses
+# "text"    -> normal page, handled exactly as before
+#
+#REVISION (this version) — replaced the old whole-document
+#is_scanned_pdf() gate with per-page classification. That old check
+#combined the first 3 pages' text and returned one True/False for the
+#entire file, so it could not handle:
+# - a document where page 1 is a scanned image and page 2 is real text
+#   (or vice versa)
+# - a page that is mostly real text but has one embedded image
+#   (typically a contact bar / icon+label row) that also carries text
+#
+#Confirmed on a real resume (Adarsh Bhagat): the entire phone/email/
+#LinkedIn row was a single flattened raster image sitting between the
+#name and the "Summary" heading. pdfplumber's raw page.chars had zero
+#characters there, and PyMuPDF's get_text("dict") showed it as an
+#image block (type=1), not a text block -- so no text-extraction
+#approach could have recovered it without OCR. classify_page() detects
+#this ("hybrid"), get_ocr_worthy_image_blocks() finds the image
+#region, and ocr_region_to_words() OCRs just that crop and returns
+#pdfplumber-shaped word dicts that get merged into `words` BEFORE
+#layout detection runs -- so the recovered text flows through the
+#existing sidebar/two-column/single-column logic unchanged and lands
+#in the correct reading-order position.
+#
+#Layout handling within a "text" or "hybrid" page (unchanged from
+#before): sidebar layout, true two-column layout, single column
+#fallback, in that order.
+#
+#MERGE NOTE (carried over from the previous revision, still applies):
+# Two-column pages split into a `primary_parts` stream (left column /
+# main narrative, contiguous across page breaks) and a
+# `secondary_parts` stream (right column short lists), joined
+# primary-then-secondary once at the very end. See the docstrings on
+# _is_true_two_column() and read_text_pdf() below for the full
+# reasoning; unchanged from the prior version of this file.
+#"""
+#
+#import re
+#import pdfplumber
+#import fitz  # PyMuPDF
+#from pathlib import Path
+#from collections import Counter
+##from ingestion.scanned_pdf_reader import read_scanned_pdf
+#
+#from ingestion.ocr_region import (
+#    classify_page,
+#    get_ocr_worthy_image_blocks,
+#    ocr_region_to_words,
+#)
+#from ingestion.ocr_reader import read_with_surya_pages
+#
+#
+## ──────────────────────────────────────────────────────────────
+## SIDEBAR LAYOUT DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _find_sidebar_split(words: list, page_width: float):
+#    """
+#    Detects if a page has a sidebar layout — a narrow left column
+#    containing ONLY section headings, and a wide right column with content.
+#    Returns the x-coordinate of the split point if sidebar detected,
+#    or None if not a sidebar layout.
+#    """
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    content_start_x = None
+#    best_count = 0
+#
+#    for x0, count in x0_counter.items():
+#        if 80 < x0 < page_width * 0.45 and count > best_count:
+#            best_count = count
+#            content_start_x = x0
+#
+#    if content_start_x is None or best_count < 3:
+#        return None
+#
+#    sidebar_candidates = [w for w in words if w["x0"] < content_start_x - 10]
+#
+#    if not sidebar_candidates:
+#        return None
+#    if len(sidebar_candidates) > 25:
+#        return None
+#
+#    sidebar_x0s = sorted(set(round(w["x0"]) for w in sidebar_candidates))
+#    heading_boundary = sidebar_x0s[-1]
+#    for i in range(len(sidebar_x0s) - 1):
+#        inner_gap = sidebar_x0s[i + 1] - sidebar_x0s[i]
+#        if inner_gap > 30:
+#            heading_boundary = sidebar_x0s[i]
+#            break
+#
+#    gap = content_start_x - heading_boundary
+#    if gap < 30:
+#        return None
+#
+#    split = (heading_boundary + content_start_x) / 2
+#    return split
+#
+#
+#def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str:
+#    """
+#    Merges sidebar heading words with content words by vertical position.
+#    """
+#    heading_lines = {}
+#    sorted_sidebar = sorted(sidebar_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_sidebar:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 1.5:
+#            current_words.append(word)
+#            current_top = word["top"]
+#        else:
+#            heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            heading_lines[round(current_top)] = heading_text
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        heading_lines[round(current_top)] = heading_text
+#
+#    content_line_list = []
+#    sorted_content = sorted(content_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_content:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 0.5:
+#            current_words.append(word)
+#        else:
+#            line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            content_line_list.append((round(current_top), line_text))
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        content_line_list.append((round(current_top), line_text))
+#
+#    result_lines = []
+#    used_headings = set()
+#
+#    for content_top, content_text in content_line_list:
+#        for heading_top, heading_text in sorted(heading_lines.items()):
+#            if heading_top in used_headings:
+#                continue
+#            if abs(heading_top - content_top) <= 20:
+#                result_lines.append(heading_text)
+#                used_headings.add(heading_top)
+#                break
+#        result_lines.append(content_text)
+#
+#    for heading_top, heading_text in sorted(heading_lines.items()):
+#        if heading_top not in used_headings:
+#            result_lines.append(heading_text)
+#
+#    return "\n".join(result_lines)
+#
+#
+## ──────────────────────────────────────────────────────────────
+## TWO-COLUMN LAYOUT DETECTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _find_column_split(words: list, page_width: float):
+#    """
+#    Finds the actual column split point for a two-column layout, using
+#    the gap in x0 start positions rather than assuming the page midpoint.
+#    """
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    all_x0 = sorted(x0_counter.keys())
+#
+#    if len(all_x0) < 2:
+#        return None
+#
+#    best_split = None
+#    best_score = 0
+#
+#    for i in range(len(all_x0) - 1):
+#        gap = all_x0[i + 1] - all_x0[i]
+#        if gap < 15:
+#            continue
+#
+#        split_x = (all_x0[i] + all_x0[i + 1]) / 2
+#        left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
+#        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
+#
+#        if left_count < 20 or right_count < 20:
+#            continue
+#
+#        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
+#            continue
+#
+#        balance = min(left_count, right_count) / max(left_count, right_count)
+#        score = gap * balance
+#
+#        if score > best_score:
+#            best_score = score
+#            best_split = split_x
+#
+#    if best_split is None:
+#        return None
+#
+#    left_words = [w for w in words if w["x1"] <= best_split]
+#    right_words = [w for w in words if w["x0"] > best_split]
+#    return best_split, left_words, right_words
+#
+#
+#def _is_true_two_column(words: list, page_width: float):
+#    """
+#    Determines whether a page genuinely has a two-column layout, AND
+#    returns the correctly split word groups if so.
+#    Requires: both sides substantial (>=30 words), near-empty gutter
+#    (<5 straddling words), right column spans >=15% of left column's
+#    vertical height.
+#    """
+#    result = _find_column_split(words, page_width)
+#    if result is None:
+#        return None
+#
+#    split_x, left_words, right_words = result
+#
+#    if len(left_words) < 30 or len(right_words) < 30:
+#        return None
+#
+#    gutter_words = [
+#        w for w in words
+#        if w["x0"] < split_x - 2 and w["x1"] > split_x + 2
+#    ]
+#    if len(gutter_words) > 5:
+#        return None
+#
+#    if right_words and left_words:
+#        right_top = min(w["top"] for w in right_words)
+#        right_bottom = max(w["bottom"] for w in right_words)
+#        right_span = right_bottom - right_top
+#
+#        left_top = min(w["top"] for w in left_words)
+#        left_bottom = max(w["bottom"] for w in left_words)
+#        left_span = left_bottom - left_top
+#
+#        if left_span > 0 and right_span / left_span < 0.15:
+#            return None
+#
+#    return left_words, right_words
+#
+#
+## ──────────────────────────────────────────────────────────────
+## LINE RECONSTRUCTION
+## ──────────────────────────────────────────────────────────────
+#
+#def _extract_words_to_lines(words: list) -> str:
+#    """
+#    Reconstructs text lines from word dicts, grouping by vertical (top)
+#    position and joining with a single space. Works identically whether
+#    a word came from pdfplumber's native extraction or from
+#    ocr_region_to_words() -- both use the same dict shape.
+#    """
+#    if not words:
+#        return ""
+#
+#    lines: list = []
+#    current_line: list = []
+#    current_top = None
+#
+#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    for word in sorted_words:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_line = [word]
+#            continue
+#
+#        line_tolerance = max(word["height"], 1) * 0.5
+#        if abs(word["top"] - current_top) <= line_tolerance:
+#            current_line.append(word)
+#        else:
+#            lines.append(current_line)
+#            current_line = [word]
+#            current_top = word["top"]
+#
+#    if current_line:
+#        lines.append(current_line)
+#
+#    text_lines = []
+#    for line in lines:
+#        line_sorted = sorted(line, key=lambda w: w["x0"])
+#        parts = [w["text"] for w in line_sorted]
+#        text_lines.append(" ".join(parts))
+#
+#    return "\n".join(text_lines)
+#
+#
+## ──────────────────────────────────────────────────────────────
+## MAIN PDF TEXT READER
+## ──────────────────────────────────────────────────────────────
+#
+#def read_text_pdf(pdf_path: str) -> str:
+#    """
+#    Reads a PDF page by page.
+#    PASS 1: classify every page ("scanned" / "hybrid" / "text").
+#    Collect the indices of "scanned" pages.
+#    PASS 1.5: if any pages were classified "scanned", batch-OCR just
+#    those pages in ONE Surya call via read_with_surya_pages(), so
+#    model loading happens at most once per document regardless of
+#    how many scanned pages it has. Build a {page_index: text} map.
+#    PASS 2: walk the pages again in order. For each page:
+#    - "scanned": use the pre-computed OCR text from the map.
+#    - "hybrid": extract native words, OCR the flagged image regions,
+#    merge the OCR'd words into the same words list, then run the
+#    normal sidebar/two-column/single-column detection on the
+#    combined set.
+#    - "text": unchanged, normal word extraction + layout detection.
+#    Two-column pages still split into primary_parts (left column, main
+#    narrative, contiguous across page breaks) and secondary_parts
+#    (right column short lists), joined primary-then-secondary once at
+#    the very end -- unchanged from the prior revision.
+#    """
+#    primary_parts = []
+#    secondary_parts = []
+#
+#    with pdfplumber.open(pdf_path) as pdf, fitz.open(pdf_path) as fdoc:
+#        page_native_words = []
+#        classifications = []
+#
+#        for page_index in range(len(pdf.pages)):
+#            page = pdf.pages[page_index]
+#            fpage = fdoc[page_index]
+#
+#            char_count = len(fpage.get_text().strip())
+#            if char_count < 20:
+#                page_native_words.append([])
+#                classifications.append("scanned")
+#                continue
+#
+#            words = page.extract_words(
+#                x_tolerance=1.5,
+#                y_tolerance=3,
+#                keep_blank_chars=False,
+#            )
+#            page_native_words.append(words)
+#            classifications.append(classify_page(fpage, native_words=words))
+#
+#        scanned_indices = [i for i, c in enumerate(classifications) if c == "scanned"]
+#
+#        #commenting just to make that scaned image code work-
+#        scanned_text_map = {}
+#        if scanned_indices:
+#            scanned_text_map = read_with_surya_pages(pdf_path, scanned_indices)
+##
+#        ## NEW
+#        #scanned_text_map = {}
+#        #if scanned_indices:
+#        #    scanned_results = read_scanned_pdf(pdf_path, scanned_indices)
+#        #    # read_scanned_pdf returns per-page diagnostics (which OCR
+#        #    # engine actually ran, and why Surya fell back to Tesseract
+#        #    # if it did) alongside the text -- see that module's
+#        #    # docstring. Only the text is needed here; the engine info
+#        #    # is already printed by read_scanned_pdf() as it runs.
+#        #    scanned_text_map = {
+#        #        idx: info["text"] for idx, info in scanned_results.items()
+#        #    }
+#
+#        for page_index, page in enumerate(pdf.pages):
+#            classification = classifications[page_index]
+#            page_width = page.width
+#
+#            if classification == "scanned":
+#                text = scanned_text_map.get(page_index, "")
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            words = page_native_words[page_index]
+#
+#            if classification == "hybrid":
+#                fpage = fdoc[page_index]
+#                for bbox in get_ocr_worthy_image_blocks(fpage, native_words=words):
+#                    ocr_words = ocr_region_to_words(fpage, bbox)
+#                    words = words + ocr_words
+#
+#            if not words:
+#                continue
+#
+#            sidebar_split = _find_sidebar_split(words, page_width)
+#            if sidebar_split:
+#                sidebar_words = [w for w in words if w["x0"] < sidebar_split]
+#                content_words = [w for w in words if w["x0"] > sidebar_split]
+#                text = _merge_sidebar_with_content(sidebar_words, content_words)
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            two_col_result = _is_true_two_column(words, page_width)
+#            if two_col_result:
+#                left_words, right_words = two_col_result
+#                left_text = _extract_words_to_lines(left_words)
+#                right_text = _extract_words_to_lines(right_words)
+#                if left_text.strip():
+#                    primary_parts.append(left_text.strip())
+#                if right_text.strip():
+#                    secondary_parts.append(right_text.strip())
+#                continue
+#
+#            text = _extract_words_to_lines(words)
+#            if text.strip():
+#                primary_parts.append(text.strip())
+#
+#    primary_text = "\n\n".join(primary_parts)
+#    secondary_text = "\n\n".join(secondary_parts)
+#
+#    if secondary_text:
+#        return primary_text + "\n\n" + secondary_text
+#    return primary_text
+#
+#
+#def read_pdf(pdf_path: str) -> str:
+#    """
+#    Main entry point for Layer 0's PDF handling.
+#    """
+#    path = Path(pdf_path)
+#    if not path.exists():
+#        raise FileNotFoundError(f"File not found: {pdf_path}")
+#    if path.suffix.lower() != ".pdf":
+#        raise ValueError(f"Expected a PDF file, got: {path.suffix}")
+#
+#    return read_text_pdf(pdf_path)
+#
+#
 
 
 
@@ -1789,6 +3188,440 @@ def read_pdf(pdf_path: str) -> str:
 
 
 
+
+
+
+
+#"""
+#PDF Reader — Layer 0
+#"""
+#
+#import re
+#import statistics
+#import pdfplumber
+#import fitz  # PyMuPDF
+#from pathlib import Path
+#from collections import Counter
+#
+#from ingestion.ocr_region import (
+#    classify_page,
+#    get_ocr_worthy_image_blocks,
+#    ocr_region_to_words,
+#)
+#from ingestion.ocr_reader import read_with_surya_pages
+#
+#
+#def _find_sidebar_split(words: list, page_width: float):
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#
+#    content_start_x = None
+#    best_count = 0
+#    for x0, count in x0_counter.items():
+#        if 80 < x0 < page_width * 0.45 and count > best_count:
+#            best_count = count
+#            content_start_x = x0
+#
+#    if content_start_x is None or best_count < 3:
+#        return None
+#
+#    sidebar_candidates = [w for w in words if w["x0"] < content_start_x - 10]
+#
+#    if not sidebar_candidates:
+#        return None
+#    if len(sidebar_candidates) > 25:
+#        return None
+#
+#    sidebar_x0s = sorted(set(round(w["x0"]) for w in sidebar_candidates))
+#    heading_boundary = sidebar_x0s[-1]
+#    for i in range(len(sidebar_x0s) - 1):
+#        inner_gap = sidebar_x0s[i + 1] - sidebar_x0s[i]
+#        if inner_gap > 30:
+#            heading_boundary = sidebar_x0s[i]
+#            break
+#
+#    gap = content_start_x - heading_boundary
+#    if gap < 30:
+#        return None
+#
+#    split = (heading_boundary + content_start_x) / 2
+#    return split
+#
+#
+#def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str:
+#    heading_lines = {}
+#    sorted_sidebar = sorted(sidebar_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_sidebar:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 1.5:
+#            current_words.append(word)
+#            current_top = word["top"]
+#        else:
+#            heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            heading_lines[round(current_top)] = heading_text
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        heading_lines[round(current_top)] = heading_text
+#
+#    content_line_list = []
+#    sorted_content = sorted(content_words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    current_top = None
+#    current_words = []
+#    for word in sorted_content:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_words = [word]
+#        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 0.5:
+#            current_words.append(word)
+#        else:
+#            line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#            content_line_list.append((round(current_top), line_text))
+#            current_top = word["top"]
+#            current_words = [word]
+#    if current_words:
+#        line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
+#        content_line_list.append((round(current_top), line_text))
+#
+#    result_lines = []
+#    used_headings = set()
+#
+#    for content_top, content_text in content_line_list:
+#        for heading_top, heading_text in sorted(heading_lines.items()):
+#            if heading_top in used_headings:
+#                continue
+#            if abs(heading_top - content_top) <= 20:
+#                result_lines.append(heading_text)
+#                used_headings.add(heading_top)
+#                break
+#        result_lines.append(content_text)
+#
+#    for heading_top, heading_text in sorted(heading_lines.items()):
+#        if heading_top not in used_headings:
+#            result_lines.append(heading_text)
+#
+#    return "\n".join(result_lines)
+#
+#
+#def _find_column_split(words: list, page_width: float):
+#    if not words:
+#        return None
+#
+#    x0_counter = Counter(round(w["x0"]) for w in words)
+#    all_x0 = sorted(x0_counter.keys())
+#
+#    if len(all_x0) < 2:
+#        return None
+#
+#    best_split = None
+#    best_score = 0
+#
+#    for i in range(len(all_x0) - 1):
+#        gap = all_x0[i + 1] - all_x0[i]
+#        if gap < 15:
+#            continue
+#
+#        split_x = (all_x0[i] + all_x0[i + 1]) / 2
+#        left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
+#        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
+#
+#        if left_count < 20 or right_count < 20:
+#            continue
+#        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
+#            continue
+#
+#        balance = min(left_count, right_count) / max(left_count, right_count)
+#        score = gap * balance
+#
+#        if score > best_score:
+#            best_score = score
+#            best_split = split_x
+#
+#    if best_split is None:
+#        return None
+#
+#    left_words = [w for w in words if w["x1"] <= best_split]
+#    right_words = [w for w in words if w["x0"] > best_split]
+#
+#    return best_split, left_words, right_words
+#
+#
+#def _group_words_into_rows(words: list) -> list:
+#    """
+#    Groups words into visual rows by vertical position -- same clustering
+#    rule _extract_words_to_lines() uses, but returns the row groups
+#    themselves instead of joined text, since the row-aware column split
+#    below needs to inspect each row individually.
+#    """
+#    if not words:
+#        return []
+#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#    rows, current_row, current_top = [], [], None
+#    for w in sorted_words:
+#        if current_top is None:
+#            current_top, current_row = w["top"], [w]
+#        elif abs(w["top"] - current_top) <= max(w["height"], 1) * 0.5:
+#            current_row.append(w)
+#        else:
+#            rows.append(current_row)
+#            current_row, current_top = [w], w["top"]
+#    if current_row:
+#        rows.append(current_row)
+#    return rows
+#
+#
+#def _split_rows_by_column(words: list, split_x: float, min_gap: float = 30, heading_size_ratio: float = 1.4):
+#    """
+#    Row-aware column split. Confirmed necessary on a real resume (Sahith
+#    Saraswathi): the page has a full-width name banner and a full-width
+#    summary paragraph ABOVE a genuine two-column body (education/skills/
+#    certifications on the left, experience/projects on the right). The
+#    old whole-page gutter check (reject the whole page if more than 5
+#    words anywhere straddle split_x) rejected this page outright.
+#
+#    Two things happen, in order, per row:
+#
+#    1. Look for the row's own largest internal gap between consecutive
+#       words; if it's substantial (>= min_gap), split there. Ordinary
+#       word-to-word spacing within a sentence is typically under 15pt,
+#       so a 30pt+ gap is unambiguously a real column boundary on its own
+#       merits -- no need to check proximity to the page-wide split_x
+#       estimate (confirmed necessary: two genuine column gaps measured
+#       176pt and 203pt wide, with midpoints comfortably outside a
+#       +/-50pt window around split_x, which an earlier, stricter version
+#       of this fix wrongly rejected).
+#
+#    2. If no such gap exists, the row has no internal break to split on
+#       -- either because it's short content confined entirely to one
+#       side (nothing to split against), or because it's a full-width
+#       CENTERED heading (common in template resumes: a "SUMMARY" or
+#       "EDUCATION" divider bar centered across the page, so its x0 can
+#       land past split_x purely because centering pushed it there, not
+#       because it's genuinely right-column content). These two cases are
+#       distinguished by font size: confirmed by testing that section
+#       headings render at ~1.8x the page's median word height while
+#       ordinary one-sided content (e.g. a lone job-title line) renders
+#       at only ~1.2x -- comfortably separated by the heading_size_ratio
+#       threshold. A row whose words are heading-sized goes to `primary`
+#       as a full-width line regardless of which side it nominally falls
+#       on; otherwise it's routed by which side it actually sits on.
+#    """
+#    median_height = statistics.median(w["height"] for w in words) if words else 1
+#    rows = _group_words_into_rows(words)
+#    primary_words, secondary_words = [], []
+#    for row in rows:
+#        row_sorted = sorted(row, key=lambda w: w["x0"])
+#        local_split, best_gap = None, 0
+#        for i in range(len(row_sorted) - 1):
+#            gap = row_sorted[i + 1]["x0"] - row_sorted[i]["x1"]
+#            if gap >= min_gap and gap > best_gap:
+#                best_gap = gap
+#                local_split = (row_sorted[i]["x1"] + row_sorted[i + 1]["x0"]) / 2
+#
+#        if local_split is not None:
+#            primary_words.extend(w for w in row_sorted if w["x1"] <= local_split)
+#            secondary_words.extend(w for w in row_sorted if w["x0"] >= local_split)
+#        else:
+#            row_avg_height = sum(w["height"] for w in row_sorted) / len(row_sorted)
+#            if median_height > 0 and row_avg_height / median_height >= heading_size_ratio:
+#                primary_words.extend(row_sorted)
+#                continue
+#            row_min_x0 = row_sorted[0]["x0"]
+#            row_max_x1 = row_sorted[-1]["x1"]
+#            if row_min_x0 >= split_x:
+#                secondary_words.extend(row_sorted)
+#            elif row_max_x1 <= split_x:
+#                primary_words.extend(row_sorted)
+#            else:
+#                primary_words.extend(row_sorted)
+#    return primary_words, secondary_words
+#
+#
+#def _is_true_two_column(words: list, page_width: float):
+#    """
+#    Determines whether a page genuinely has a two-column layout, AND
+#    returns the correctly split word groups if so.
+#
+#    Qualification (unchanged from before): both naive left/right sides
+#    from _find_column_split must be substantial (>=30 words each), and
+#    the right column must span a reasonable share of the left column's
+#    vertical height. This step still uses the simple, naive left_words/
+#    right_words split -- it's just a sanity check that a real two-column
+#    region exists on this page at all, not the final content split.
+#
+#    The ACTUAL content split (this revision) uses _split_rows_by_column()
+#    instead of the old blanket gutter-word rejection -- see that
+#    function's docstring for why: it lets a page mix full-width bands
+#    (header, summary) with a genuine two-column body, instead of
+#    rejecting the whole page because full-width prose has words
+#    straddling the split point.
+#    """
+#    result = _find_column_split(words, page_width)
+#    if result is None:
+#        return None
+#
+#    split_x, left_words, right_words = result
+#
+#    if len(left_words) < 30 or len(right_words) < 30:
+#        return None
+#
+#    if right_words and left_words:
+#        right_top = min(w["top"] for w in right_words)
+#        right_bottom = max(w["bottom"] for w in right_words)
+#        right_span = right_bottom - right_top
+#
+#        left_top = min(w["top"] for w in left_words)
+#        left_bottom = max(w["bottom"] for w in left_words)
+#        left_span = left_bottom - left_top
+#
+#        if left_span > 0 and right_span / left_span < 0.15:
+#            return None
+#
+#    primary_words, secondary_words = _split_rows_by_column(words, split_x)
+#    if len(primary_words) < 30 or len(secondary_words) < 15:
+#        return None
+#
+#    return primary_words, secondary_words
+#
+#
+#def _extract_words_to_lines(words: list) -> str:
+#    if not words:
+#        return ""
+#
+#    lines = []
+#    current_line = []
+#    current_top = None
+#
+#    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+#
+#    for word in sorted_words:
+#        if current_top is None:
+#            current_top = word["top"]
+#            current_line = [word]
+#            continue
+#
+#        line_tolerance = max(word["height"], 1) * 0.5
+#        if abs(word["top"] - current_top) <= line_tolerance:
+#            current_line.append(word)
+#        else:
+#            lines.append(current_line)
+#            current_line = [word]
+#            current_top = word["top"]
+#
+#    if current_line:
+#        lines.append(current_line)
+#
+#    text_lines = []
+#    for line in lines:
+#        line_sorted = sorted(line, key=lambda w: w["x0"])
+#        parts = [w["text"] for w in line_sorted]
+#        text_lines.append(" ".join(parts))
+#
+#    return "\n".join(text_lines)
+#
+#
+#def read_text_pdf(pdf_path: str) -> str:
+#    primary_parts = []
+#    secondary_parts = []
+#
+#    with pdfplumber.open(pdf_path) as pdf, fitz.open(pdf_path) as fdoc:
+#        page_native_words = []
+#        classifications = []
+#        for page_index in range(len(pdf.pages)):
+#            page = pdf.pages[page_index]
+#            fpage = fdoc[page_index]
+#
+#            char_count = len(fpage.get_text().strip())
+#            if char_count < 20:
+#                page_native_words.append([])
+#                classifications.append("scanned")
+#                continue
+#
+#            words = page.extract_words(
+#                x_tolerance=1.5,
+#                y_tolerance=3,
+#                keep_blank_chars=False,
+#            )
+#            page_native_words.append(words)
+#            classifications.append(classify_page(fpage, native_words=words))
+#
+#        scanned_indices = [i for i, c in enumerate(classifications) if c == "scanned"]
+#
+#        scanned_text_map = {}
+#        if scanned_indices:
+#            scanned_text_map = read_with_surya_pages(pdf_path, scanned_indices)
+#
+#        for page_index, page in enumerate(pdf.pages):
+#            classification = classifications[page_index]
+#            page_width = page.width
+#
+#            if classification == "scanned":
+#                text = scanned_text_map.get(page_index, "")
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            words = page_native_words[page_index]
+#
+#            if classification == "hybrid":
+#                fpage = fdoc[page_index]
+#                for bbox in get_ocr_worthy_image_blocks(fpage, native_words=words):
+#                    ocr_words = ocr_region_to_words(fpage, bbox)
+#                    words = words + ocr_words
+#
+#            if not words:
+#                continue
+#
+#            sidebar_split = _find_sidebar_split(words, page_width)
+#            if sidebar_split:
+#                sidebar_words = [w for w in words if w["x0"] < sidebar_split]
+#                content_words = [w for w in words if w["x0"] > sidebar_split]
+#                text = _merge_sidebar_with_content(sidebar_words, content_words)
+#                if text.strip():
+#                    primary_parts.append(text.strip())
+#                continue
+#
+#            two_col_result = _is_true_two_column(words, page_width)
+#            if two_col_result:
+#                left_words, right_words = two_col_result
+#                left_text = _extract_words_to_lines(left_words)
+#                right_text = _extract_words_to_lines(right_words)
+#                if left_text.strip():
+#                    primary_parts.append(left_text.strip())
+#                if right_text.strip():
+#                    secondary_parts.append(right_text.strip())
+#                continue
+#
+#            text = _extract_words_to_lines(words)
+#            if text.strip():
+#                primary_parts.append(text.strip())
+#
+#    primary_text = "\n\n".join(primary_parts)
+#    secondary_text = "\n\n".join(secondary_parts)
+#
+#    if secondary_text:
+#        return primary_text + "\n\n" + secondary_text
+#    return primary_text
+#
+#
+#def read_pdf(pdf_path: str) -> str:
+#    path = Path(pdf_path)
+#    if not path.exists():
+#        raise FileNotFoundError(f"File not found: {pdf_path}")
+#    if path.suffix.lower() != ".pdf":
+#        raise ValueError(f"Expected a PDF file, got: {path.suffix}")
+#
+#    return read_text_pdf(pdf_path)
+#
 
 
 

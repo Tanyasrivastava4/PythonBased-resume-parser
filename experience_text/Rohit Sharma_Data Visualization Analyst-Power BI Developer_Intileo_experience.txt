@@ -11,10 +11,10 @@ standardization.
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 3
-Confidence     : 0.98
-Needs review   : False
-Total exp      : 4.4 years (53 months, 0 overlapping periods merged)
+Entries found  : 6
+Confidence     : 0.81
+Needs review   : True
+Total exp      : 4.4 years (53 months, 4 overlapping periods merged)
 
 Entry 1
   Role         : Data Analyst
@@ -51,3 +51,40 @@ Entry 3
   Method       : date_regex+title_dict
   Confidence   : 0.98
   Needs Review : False
+
+Entry 4
+  Role         : None
+  Company      : BI Reporting Modernization
+  Location     : None
+  Start - End  : September 2025 - March 2026
+  Duration     : 7 months
+  Bullets      : 1
+    • •Migrated 50+ legacy reports from Tableau and MicroStrategy to Power BI. •Reduced dashboard refresh time by ~30% through optimized data models and DAX calculations. •Improved reporting consistency and KPI standardization across business teams.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 5
+  Role         : None
+  Company      : •Tech Stack : Power BI, SQL, DAX, Tableau
+  Location     : MicroStrategy
+  Start - End  : March 2025 - September 2025
+  Duration     : 7 months
+  Bullets      : 1
+    • •Built a multi-touch attribution dashboard analyzing customer engagement across marketing funnel stages. •Developed clustering models on visitation datasets to identify high-performing Points of Interest (POIs). •Improved marketing optimization and reduced ineffective campaign spend by 22%. •Applied statistical analysis and trend analysis using Python libraries.
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 6
+  Role         : None
+  Company      : •Tech Stack: Python, Pandas, NumPy, Power BI
+  Location     : SQL
+  Start - End  : January 2023 - September 2024
+  Duration     : 21 months
+  Bullets      : 1
+    • •Performed exploratory data analysis on telecom customer datasets to identify churn behavior and customer retention patterns. •Built Power BI dashboards visualizing churn trends, customer segments, and usage behavior. •Applied SQL and Python analysis techniques to generate actionable business insights supporting proactive customer retention strategies.
+  Sub-sections : ['•Tech Stack: Python, SQL, Power BI']
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True

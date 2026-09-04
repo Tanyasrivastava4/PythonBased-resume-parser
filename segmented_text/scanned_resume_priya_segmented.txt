@@ -1,0 +1,60 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+PRIYA SHARMA
+Generative AI Engineer
+Gurugram, Haryana | +91 98765 43210 | priya.sharma@email.com
+linkedin.com/in/priyasharma | github.com/priyasharma
+
+────────────────────────────────────────────────────────────
+LABEL: summary   CONFIDENCE: 0.95   START LINE: 4
+────────────────────────────────────────────────────────────
+Generative AI Engineer with 1+ year of experience building LLM-powered
+applications, document processing pipelines, RAG systems and Python APIs.
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 7
+────────────────────────────────────────────────────────────
+Languages: Python, SQL, C
+GenAI: LLMs, RAG, LangChain, Hugging Face, Prompt Engineering
+ML/DL: Scikit-learn, TensorFlow, PyTorch
+Tools: Git, GitHub, Docker, FastAPI, Redis, Qdrant, FAISS
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 12
+────────────────────────────────────────────────────────────
+Generative AI Engineer - ABC Technologies, Gurugram
+July 2025 - Present
+• Developed an ATS resume parser supporting PDF, DOC and DOCX formats.
+. Implemented hybrid retrieval using BM25 and semantic embeddings.
+. Built OCR-based document processing workflows for image-based documents.
+• Created FastAPI endpoints for resume upload and structured JSON extraction.
+AI/ML Intern - XYZ Solutions
+January 2025 - June 2025
+• Built an invoice OCR pipeline using OpenCV, Tesseract and Python.
+. Designed preprocessing steps for noisy and low-quality document images.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.95   START LINE: 23
+────────────────────────────────────────────────────────────
+ATS Resume Parser
+Hybrid resume parsing pipeline with section detection, specialized extractors,
+confidence scoring and structured JSON output.
+Invoice OCR Extraction
+OCR pipeline for extracting invoice fields from different document layouts.
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 29
+────────────────────────────────────────────────────────────
+B.Tech - Computer Science & Engineering
+Babu Banarasi Das University | 2021 - 2025 | CGPA: 7.6/10
+
+────────────────────────────────────────────────────────────
+LABEL: certifications   CONFIDENCE: 0.95   START LINE: 32
+────────────────────────────────────────────────────────────
+Generative AI with Large Language Models
+Python for Data Science and Machine Learning
+
+────────────────────────────────────────────────────────────
+[Found 7 sections total: ['header', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']]

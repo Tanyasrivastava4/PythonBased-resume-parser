@@ -3,39 +3,15 @@ SKILLS EXTRACTED FROM: segmented_text/Sahith_Saraswathi CV_segmented.txt
 ────────────────────────────────────────────────────────────
 
 ── Skills Section Text (raw, as segmented) ──
-Data Scientist Intern
-Soulpage IT solutions. | June 2022 - November 2022
-Programming: Python, SQL Developed a recommendation system for a jewellery e-commerce platform
-Frameworks: Pandas, NumPy, SciPy, sklearn, using matrix factorization and text similarity to deliver personalized product
-matplotlib, seaborn,OpenCV,pytorch and keras suggestions.
-Data Science: Machine Learning, Deep Learning, Implemented advanced model validation and selection techniques in the
-Natural Language Processing, Time Series company’s internal AutoML tool, improving the efficiency and reliability of
-Forecasting, statistics, Data Analytics, Computer automated model building.
-Vision, Data Visualization, Excel and basic PERSONAL PROJECTS
-algorithms.
-GenAI: LLM (large language model), OpenAI,
-Gemini, Llama, Hugging Face, LangChain, RAG, Alzheimer's Disease Prediction using CNN-XGBOOST
-prompt engineering, fine tuning, stable diffusion. Developed a multiclass classification model using CNN-XGBOOST and
-vector database (ChromaDB),FAISS. stacked pretrained models to detect Alzheimer’s stages from MRI scans,
-Business Intelligence Tool: Tableau achieving 93% accuracy.
-The model outperformed other deep learning approaches, offering a
+(none found)
 
 ── Extraction Results ──
-Skills found   : 40
-Confidence     : 0.92
-Time           : 224.47 ms
-Method         : flashtext_skills_section | fuzzy(e-commerce→E-commerce(100%), sklearn→scikit-learn(100%), matplotlib→Matplotlib(100%), seaborn→Seaborn(100%), pytorch→PyTorch(100%)...)
+Skills found   : 0
+Confidence     : 0.0
+Time           : 0.0 ms
+Method         : none
 
-── All Skills (40) ──
-CNN, ChromaDB, Classification Web, Data Analytics, Data Science, Data Visualization, Deep Learning, E-commerce, FAISS, Fine-tuning, Gemini, Generative AI, Hugging Face, Keras, LLM, LLaMA, LangChain, Machine Learning, Matplotlib, Microsoft Excel, NLP, NumPy, OpenAI API, OpenCV, Pandas, Prompt Engineering, PyTorch, Python, RAG, SANS, SQL, SciPy, Seaborn, Stable Diffusion, Statistics, Tableau, Time Series Forecasting, Vector Databases, XGBoost, scikit-learn
+── All Skills (0) ──
+None found
 
 ── By Category ──
-  ai_ml                          ['CNN', 'Data Science', 'Deep Learning', 'Keras', 'Machine Learning', 'Matplotlib', 'NLP', 'NumPy', 'OpenCV', 'Pandas', 'PyTorch', 'SciPy', 'Seaborn', 'Time Series Forecasting', 'XGBoost', 'scikit-learn']
-  data_science                   ['Data Analytics', 'Data Visualization', 'Statistics', 'Tableau']
-  database                       ['SQL']
-  genai                          ['Fine-tuning', 'Gemini', 'Generative AI', 'Hugging Face', 'LLM', 'LLaMA', 'LangChain', 'OpenAI API', 'Prompt Engineering', 'RAG', 'Stable Diffusion', 'Vector Databases']
-  productivity                   ['Microsoft Excel']
-  programming_language           ['Python']
-  retail                         ['E-commerce']
-  search                         ['ChromaDB', 'Classification Web', 'FAISS']
-  security_ops                   ['SANS']

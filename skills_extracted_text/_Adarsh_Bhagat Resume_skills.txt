@@ -11,7 +11,7 @@ Fine tuning, Kusto Query Language (KQL), Phishing, Dynamic Malware Analysis , Se
 ── Extraction Results ──
 Skills found   : 21
 Confidence     : 0.92
-Time           : 37.65 ms
+Time           : 37.27 ms
 Method         : flashtext_skills_section | fuzzy(Any.run→Any.Run(100%), MITRE ATT→MITRE ATT&CK(86%), NIST IR→NIST(100%), Threat Analysis→Threat Intelligence(100%), Fine tuning→Fine-tuning(100%))
 
 ── All Skills (21) ──
