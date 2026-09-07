@@ -18,6 +18,7 @@ Usage:
 import sys
 import glob
 from pathlib import Path
+from ingestion import read_resume_file
 from segmenter import split_into_sections, get_section_text
 
 
@@ -57,8 +58,11 @@ def process_file(file_path: str):
     print(f"FILE : {Path(file_path).name}")
     print(f"{'═' * 65}")
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        text = f.read()
+    if file_path.lower().endswith((".pdf", ".docx", ".doc")):
+        text = read_resume_file(file_path)
+    else:
+        with open(file_path, "r", encoding="utf-8") as f:
+            text = f.read()
 
     sections = split_into_sections(text)
 

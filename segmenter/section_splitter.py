@@ -16,8 +16,10 @@ _SKILL_PREFIX_WORDS = (
     r"soft|hard|tech|it|general|primary|specialized|relevant)"
 )
 _SKILLS_PATTERN = re.compile(
-    rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise)(?:\s+(sets?|matrix))?"
+    rf"^(?:({_SKILL_PREFIX_WORDS}\s+){{0,2}}(skills?|competenc(y|ies)|expertise|proficienc(y|ies))(?:\s+(sets?|matrix))?"
     rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
+    rf"|technolog(y|ies)(\s+known|\s+stack|\s+summary|\s+used)?"
+    rf"|technical\s+proficienc(y|ies)"
     rf"|function(al)?\s+(and\s+)?technical\s+specialization"
     rf"|technical\s+specialization"
     rf"|functional\s+specialization"
@@ -25,6 +27,7 @@ _SKILLS_PATTERN = re.compile(
     rf"|technology\s+summary"
     rf"|knowledge\s+summary"
     rf"|knowledge\s+base"
+    rf"|skill\s*sets?"
     rf"|technical\s+snapshot)$",
     re.IGNORECASE
 )
@@ -47,7 +50,11 @@ _EXPERIENCE_PATTERN = re.compile(
     rf"|professional\s*background"
     rf"|career\s*history|work\s*history|internships?"
     rf"|corporate\s+success|career\s+journey|professional\s+journey"
-    rf"|career\s+chronology|employment\s+timeline)"
+    rf"|career\s+chronology|employment\s+timeline"
+    rf"|key\s+tasks?(\s+performed|\s+handled)?"
+    rf"|tasks?\s+performed"
+    rf"|key\s+responsibilities|core\s+responsibilities|professional\s+responsibilities"
+    rf"|roles?\s+(&|and)\s+responsibilities)"
     rf"{_EXPERIENCE_DATE_RANGE_TAIL}$",
     re.IGNORECASE
 )

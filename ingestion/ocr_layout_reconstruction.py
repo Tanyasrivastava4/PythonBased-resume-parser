@@ -604,6 +604,145 @@ def sort_lines_only(lines: list) -> str:
     return "\n".join(l["text"] for l in sorted_lines)
 
 
+# adding code from antigravity
+def _sort_lines_with_column_detection(lines: list, page_width: float) -> str:
+    """
+    Surya-specific entry point for line-level OCR output.
+
+    Attempts to detect a two-column layout from Surya line bounding
+    boxes (x0, x1, top), then outputs left column lines first and right
+    column lines after -- so the segmenter receives each section's text
+    contiguously rather than left-right-left-right interleaved.
+
+    Falls back to sort_lines_only() (the previous behavior, unchanged)
+    when:
+      - No clear column gap is found in the x0 distribution
+      - Either column has fewer than 5 lines
+      - More than 3 lines straddle the column split (below the header)
+      - The right column spans less than 15% of the left column's height
+      - Any line is missing "x1" (e.g. table placeholders -- those pages
+        fall back safely to the existing sort)
+
+    Tuned for LINE-level Surya items (one item per recognized visual
+    line): minimum counts are much lower than the word-level
+    _is_true_two_column() thresholds (5 lines vs 30 words).
+
+    Header-aware gutter check: full-width header lines (name, title,
+    contact bar spanning the whole page) straddle the split and would
+    otherwise veto detection. We find where actual column content starts
+    (topmost line purely in either column) and ignore lines above it.
+    """
+    if not lines:
+        return ""
+
+    # If any line is missing x1 (e.g. a table placeholder from
+    # merge_tables_into_words), fall back to the plain sort.
+    if not all("x1" in l for l in lines):
+        return sort_lines_only(lines)
+
+    # ── Find the best column split x-coordinate ──────────────────────
+    x0_counter = Counter(round(l["x0"]) for l in lines)
+    all_x0 = sorted(x0_counter.keys())
+
+    if len(all_x0) < 2:
+        return sort_lines_only(lines)
+
+    best_split = None
+    best_score = 0
+
+    for i in range(len(all_x0) - 1):
+        gap = all_x0[i + 1] - all_x0[i]
+        if gap < 15:
+            continue
+
+        split_x = (all_x0[i] + all_x0[i + 1]) / 2
+
+        # Lower threshold for line-level items (4 each side vs 20 for words).
+        left_count  = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
+        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
+        if left_count < 4 or right_count < 4:
+            continue
+
+        # Split must land in the middle 60% of the page width.
+        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
+            continue
+
+        balance = min(left_count, right_count) / max(left_count, right_count)
+        score = gap * balance
+
+        if score > best_score:
+            best_score = score
+            best_split = split_x
+
+    if best_split is None:
+        return sort_lines_only(lines)
+
+    # ── Find the actual column boundary (right column's leftmost x0) ──
+    # best_split is the midpoint of the two x0 STARTING clusters, which
+    # for line-level data lands INSIDE the left column content (lines are
+    # wide). The real column gap is between where left-column content ENDS
+    # (max x1 of content that starts in the left cluster) and where the
+    # right column STARTS (min x0 of the right cluster).
+    right_cluster_min_x0 = min(l["x0"] for l in lines if l["x0"] >= best_split)
+
+    # ── Assign lines to left / right, with headers separated out ──────
+    # left_lines:   start on the left side AND end before the right column
+    # right_lines:  start on the right side (x0 >= the cluster boundary)
+    # header_lines: start on the left BUT extend to/past the right column
+    #               start -- these are full-width lines (name, title bar)
+    left_lines   = [l for l in lines if l["x0"] < best_split and l["x1"] < right_cluster_min_x0]
+    right_lines  = [l for l in lines if l["x0"] >= best_split]
+    header_lines = [l for l in lines if l["x0"] < best_split and l["x1"] >= right_cluster_min_x0]
+
+    # Both column sides must have at least 5 lines for a real two-column layout.
+    if len(left_lines) < 5 or len(right_lines) < 5:
+        return sort_lines_only(lines)
+
+    # ── Header-aware gutter check ─────────────────────────────────────
+    # header_lines (full-width) straddle the column gap. We find where
+    # actual column content starts (topmost line in either column) and
+    # only count gutter lines below that point, so the header area
+    # doesn't veto a genuine two-column layout.
+    column_starts_y = min(
+        min(l["top"] for l in left_lines),
+        min(l["top"] for l in right_lines)
+    )
+    # A gutter line straddles the real gap: starts before right column
+    # and ends past it, and sits in the column body (not the header).
+    gutter_lines = [
+        l for l in lines
+        if l["x0"] < right_cluster_min_x0 - 2
+        and l["x1"] > right_cluster_min_x0 + 2
+        and l["top"] >= column_starts_y
+    ]
+    # Threshold 3 for lines (tighter than 5 for words): one or two stray
+    # wide lines are tolerated; more than 3 suggests not genuinely two-column.
+    if len(gutter_lines) > 3:
+        return sort_lines_only(lines)
+
+    # ── Vertical span check ───────────────────────────────────────────
+    right_span = max(l["top"] for l in right_lines) - min(l["top"] for l in right_lines)
+    left_span  = max(l["top"] for l in left_lines)  - min(l["top"] for l in left_lines)
+    if left_span > 0 and right_span / left_span < 0.15:
+        return sort_lines_only(lines)
+
+    # ── Two-column confirmed: header → left column → right column ─────
+    # Header lines go first (sorted by top -- they naturally sit above
+    # column content). Left column then right column, each sorted top-to-
+    # bottom so the segmenter receives each section contiguously.
+    sorted_header = sorted(header_lines, key=lambda l: (round(l["top"], 1), l["x0"]))
+    sorted_left   = sorted(left_lines,   key=lambda l: (round(l["top"], 1), l["x0"]))
+    sorted_right  = sorted(right_lines,  key=lambda l: (round(l["top"], 1), l["x0"]))
+
+    parts = []
+    if sorted_header:
+        parts.append("\n".join(l["text"] for l in sorted_header))
+    parts.append("\n".join(l["text"] for l in sorted_left))
+    parts.append("\n".join(l["text"] for l in sorted_right))
+    return "\n".join(parts)
+
+
+
 # ──────────────────────────────────────────────────────────────
 # SHARED ENTRY POINT — used by ocr_reader_pytesseract.py
 # ──────────────────────────────────────────────────────────────

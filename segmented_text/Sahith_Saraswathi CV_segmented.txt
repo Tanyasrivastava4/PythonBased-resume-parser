@@ -16,57 +16,79 @@ Skilled in Python, SQL, and visualization tools to extract insights and support 
 Driven, analytical, and passionate about turning complex data into strategic value.
 
 ────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.95   START LINE: 10
+LABEL: education   CONFIDENCE: 0.95   START LINE: 10
 ────────────────────────────────────────────────────────────
-Data Scientist
 PES University
-Soulpage IT solutions | December 2022 - May 2023
 Masters degree in Data science and Machine Learning
-2020 – 2022 Developed a risk prediction model using patient vitals and disease status
-,also build the disease prediction model with 98% accuracy.
-Marri Laxman Reddy Institute Technology Extracted structured data from clinical report tables using OCR, table
-& Management detection (TableNet), and classification techniques, achieving 93%
-classification accuracy and 0.1 loss in detection.
+2020 – 2022
+Marri Laxman Reddy Institute
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.85   START LINE: 14
+────────────────────────────────────────────────────────────
+& Management
 Bachelors Degree in Computer Science Engineering
-Designed features for patient risk assessment and enabled automated
 2015 – 2019
-data extraction from reports, enhancing monitoring, data usability, and
-reporting efficiency.
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 26
-────────────────────────────────────────────────────────────
-Data Scientist Intern
-Soulpage IT solutions. | June 2022 - November 2022
-Programming: Python, SQL Developed a recommendation system for a jewellery e-commerce platform
-Frameworks: Pandas, NumPy, SciPy, sklearn, using matrix factorization and text similarity to deliver personalized product
-matplotlib, seaborn,OpenCV,pytorch and keras suggestions.
-Data Science: Machine Learning, Deep Learning, Implemented advanced model validation and selection techniques in the
-Natural Language Processing, Time Series company’s internal AutoML tool, improving the efficiency and reliability of
-Forecasting, statistics, Data Analytics, Computer automated model building.
+SKILLS
+Programming: Python, SQL
+Frameworks: Pandas, NumPy, SciPy, sklearn,
+matplotlib, seaborn,OpenCV,pytorch and keras
+Data Science: Machine Learning, Deep Learning,
+Natural Language Processing, Time Series
+Forecasting, statistics, Data Analytics, Computer
 Vision, Data Visualization, Excel and basic
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.85   START LINE: 34
-────────────────────────────────────────────────────────────
 algorithms.
 GenAI: LLM (large language model), OpenAI,
-Gemini, Llama, Hugging Face, LangChain, RAG, Alzheimer's Disease Prediction using CNN-XGBOOST
-prompt engineering, fine tuning, stable diffusion. Developed a multiclass classification model using CNN-XGBOOST and
-vector database (ChromaDB),FAISS. stacked pretrained models to detect Alzheimer’s stages from MRI scans,
-Business Intelligence Tool: Tableau achieving 93% accuracy.
-The model outperformed other deep learning approaches, offering a
+Gemini, Llama, Hugging Face, LangChain, RAG,
+prompt engineering, fine tuning, stable diffusion.
+vector database (ChromaDB),FAISS.
+Business Intelligence Tool: Tableau
 
 ────────────────────────────────────────────────────────────
-LABEL: certifications   CONFIDENCE: 0.95   START LINE: 42
+LABEL: certifications   CONFIDENCE: 0.95   START LINE: 32
 ────────────────────────────────────────────────────────────
+Advanced Generative AI (2024) from
+Innomatics research labs
+Career Essentials in Generative Ai
+by Microsoft(2024)
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 38
+────────────────────────────────────────────────────────────
+Data Scientist
+Soulpage IT solutions | December 2022 - May 2023
+Developed a risk prediction model using patient vitals and disease status
+,also build the disease prediction model with 98% accuracy.
+Extracted structured data from clinical report tables using OCR, table
+detection (TableNet), and classification techniques, achieving 93%
+classification accuracy and 0.1 loss in detection.
+Designed features for patient risk assessment and enabled automated
+data extraction from reports, enhancing monitoring, data usability, and
+reporting efficiency.
+Data Scientist Intern
+Soulpage IT solutions. | June 2022 - November 2022
+Developed a recommendation system for a jewellery e-commerce platform
+using matrix factorization and text similarity to deliver personalized product
+suggestions.
+Implemented advanced model validation and selection techniques in the
+company’s internal AutoML tool, improving the efficiency and reliability of
+automated model building.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.9   START LINE: 57
+────────────────────────────────────────────────────────────
+Alzheimer's Disease Prediction using CNN-XGBOOST
+Developed a multiclass classification model using CNN-XGBOOST and
+stacked pretrained models to detect Alzheimer’s stages from MRI scans,
+achieving 93% accuracy.
+The model outperformed other deep learning approaches, offering a
 diagnostic tool to support early detection and treatment planning
 RBI Regularity Chatbot (RAG)
 Developed an AI chatbot using Langchain and RAG to provide context-
-Advanced Generative AI (2024) from aware answers on RBI risk guidelines, leveraging FAISS and OpenAI for
-Innomatics research labs semantic search and response generation.
-Career Essentials in Generative Ai Applied NLP to simplify complex regulations, enhancing clarity and
-by Microsoft(2024) supporting compliance workflows.
+aware answers on RBI risk guidelines, leveraging FAISS and OpenAI for
+semantic search and response generation.
+Applied NLP to simplify complex regulations, enhancing clarity and
+supporting compliance workflows.
 Health Insurance Prediction
 Achieved high-accuracy insurance premium prediction (R² = 0.98) using
 customer demographics and health attributes.
@@ -74,4 +96,4 @@ Enhanced pricing fairness and personalization, boosting customer
 satisfaction and data-driven decision-making for insurers.
 
 ────────────────────────────────────────────────────────────
-[Found 6 sections total: ['header', 'summary', 'experience', 'experience', 'projects', 'certifications']]
+[Found 7 sections total: ['header', 'summary', 'education', 'skills', 'certifications', 'experience', 'projects']]

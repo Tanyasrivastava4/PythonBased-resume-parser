@@ -12,6 +12,8 @@ _SIDEBAR_HEADINGS = [
     "CORE COMPETENCIES", "PROFILE SUMMARY", "LIVE PROJECTS",
     "WORK EXPERIENCE", "WORK HISTORY", "EMPLOYMENT HISTORY",
     "KEY SKILLS", "IT SKILLS", "TECHNICAL SKILLS", "LANGUAGE SKILLS",
+    "TECHNOLOGIES", "PROFICIENCIES", "TECHNICAL PROFICIENCY", "TECHNICAL PROFICIENCIES",
+    "SKILL SET", "SKILLSET",
     "ROLES & RESPONSIBILITIES", "ROLES RESPONSIBILITIES",
     "CUSTOM SECTION", "ACADEMIC BACKGROUND",
     "CERTIFICATION", "CERTIFICATIONS", "EDUCATION", "EXPERIENCE",
@@ -171,6 +173,40 @@ def _join_split_headings(text: str) -> str:
     return "\n".join(result)
 
 
+_SINGLE_WORD_HEADINGS = {
+    "EXPERIENCE", "SUMMARY", "PROFILE", "SKILLS", "PROJECTS", "OBJECTIVE", "EDUCATION", "CERTIFICATIONS"
+}
+
+
+def _join_split_continuation_lines(text: str) -> str:
+    """
+    Joins lines where a single heading-shaped word (e.g. "Experience") was broken
+    by a line break right before its continuation sentence/bullet
+    (e.g. Line N: "Experience", Line N+1: "designing, building...").
+
+    If Line N+1 starts with a lowercase letter or a continuation word (in, with,
+    designing, etc.), Line N is NOT a genuine section heading -- it is the first word
+    of a sentence that got wrapped onto its own line. Merging them back into one line
+    prevents the section segmenter from falsely creating a new section mid-sentence.
+    """
+    lines = text.split("\n")
+    result = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        stripped = line.strip()
+        if stripped.upper() in _SINGLE_WORD_HEADINGS and not stripped.endswith(":") and not stripped.endswith(":-"):
+            if i + 1 < len(lines):
+                next_line = lines[i + 1].strip()
+                if next_line and (next_line[0].islower() or _CONTINUATION_STARTERS.match(next_line)):
+                    result.append(f"{stripped} {next_line}")
+                    i += 2
+                    continue
+        result.append(line)
+        i += 1
+    return "\n".join(result)
+
+
 def normalise_text(raw_text: str) -> str:
     if not raw_text:
         return ""
@@ -184,6 +220,7 @@ def normalise_text(raw_text: str) -> str:
     text = re.sub(r"\s+\)", ")", text)
     text = _split_merged_headings(text)
     text = _join_split_headings(text)
+    text = _join_split_continuation_lines(text)
     lines = [line.strip() for line in text.split("\n")]
     cleaned_lines = []
     blank_count = 0

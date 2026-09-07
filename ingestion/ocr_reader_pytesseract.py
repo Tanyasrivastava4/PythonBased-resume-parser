@@ -162,6 +162,8 @@ from ingestion.table_grid_detector import (
     merge_tables_into_words,
     splice_placeholders,
 )
+# adding code from antigravity
+from ingestion.ocr_output_quality import check_not_degenerate, DegenerateOCROutputError
 
 logger = logging.getLogger(__name__)
 
@@ -200,7 +202,8 @@ def _warn_once(message: str):
 def _render_page(fitz_page, dpi: int = OCR_DPI) -> Image.Image:
     zoom = dpi / 72
     pix = fitz_page.get_pixmap(matrix=fitz.Matrix(zoom, zoom))
-    return Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    return ImageOps.expand(img, border=30, fill="white")
 
 
 def _extract_words_from_image(img: Image.Image) -> list:
@@ -328,6 +331,14 @@ def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
                     f"other pages/files are unaffected."
                 )
                 text = _ocr_page_plain_fallback(img)
+            # adding code from antigravity
+            # Last-resort quality gate: tesseract is the final engine,
+            # so degenerate output here is a genuine hard rejection.
+            # DegenerateOCROutputError propagates uncaught -- never
+            # swallowed by the layout-reconstruction try/except above
+            # (that block only guards HOW text is reconstructed, not
+            # WHETHER the final text is trustworthy).
+            check_not_degenerate(text, context=f"page {page_index + 1} of {pdf_path}")
             results[page_index] = text
 
     return results
@@ -353,14 +364,18 @@ def read_with_surya(file_path: str) -> str:
                 img = _render_page(page)
                 img = preprocess_scanned_image(img, context=file_path)
                 try:
-                    texts.append(_ocr_page_with_layout(img, page.rect.width))
+                    _pg_text = _ocr_page_with_layout(img, page.rect.width)
                 except Exception as e:
                     _warn_once(
                         f"Word-level layout reconstruction failed on at least "
                         f"one page ({type(e).__name__}: {e}). Falling back to "
                         f"plain whole-page OCR for any page where this happens."
                     )
-                    texts.append(_ocr_page_plain_fallback(img))
+                    _pg_text = _ocr_page_plain_fallback(img)
+                # adding code from antigravity
+                # Last-resort quality gate per page.
+                check_not_degenerate(_pg_text, context=file_path)
+                texts.append(_pg_text)
     elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
         img = Image.open(file_path).convert("RGB")
         img = preprocess_scanned_image(img, context=file_path)
@@ -400,6 +415,9 @@ def read_with_surya(file_path: str) -> str:
                 f"image ({type(e).__name__}: {e}). Falling back to plain OCR."
             )
             texts = [pytesseract.image_to_string(img, config=f"--psm {OCR_PSM}").strip()]
+        # adding code from antigravity
+        # Last-resort quality gate for standalone image.
+        check_not_degenerate(texts[0], context=file_path)
     else:
         raise ValueError(f"Unsupported file type for OCR: {path.suffix}")
 

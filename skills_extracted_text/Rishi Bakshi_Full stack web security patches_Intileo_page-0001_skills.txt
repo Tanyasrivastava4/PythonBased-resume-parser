@@ -3,33 +3,47 @@ SKILLS EXTRACTED FROM: segmented_text/Rishi Bakshi_Full stack web security patch
 ────────────────────────────────────────────────────────────
 
 ── Skills Section Text (raw, as segmented) ──
-React
-deployment	Java Spring Boot NodeJs
 Python
-Software Engineer Xcelence Web Solutions	Microservices Docker CI/CD
-菌 07/2014 - 05/2016 • Involved in requirement design and implementation Mohali, Punjab, India	Angular	MERN Stack
+Java Spring Boot
+NodeJs
+React
+CI/CD
+Angular
+Microservices
+Docker
+GIT
+Travis
 Sonarqube
-• Analyzing, validating and fixing the defects	Travis
-. Involved in automation testing . Worked on design and test case document preparation	GIT	SQS/SNS
+MERN Stack
+AWS S3
 Event Stream
-AWS S3	IBM Cloud - Code Engin
+SQS/SNS
+IBM Cloud - Code Engine
+Microservices
+ELB
+AWS CloudWatch
+IBM AppID
+Kubernetes
+曲 06/2013 ● Chandigarh, India
+Dimploa in Information Technology
+NIIT
+菌 06/2010 - 06/2013 ● Chandigarh, India
 
 ── Extraction Results ──
 Skills found   : 19
 Confidence     : 0.92
-Time           : 72.28 ms
-Method         : flashtext_skills_section | fuzzy(Spring→Spring(100%), NodeJs→Node.js(100%), fixing→FishXing(86%))
+Time           : 38.96 ms
+Method         : flashtext_skills_section | fuzzy(Sonarqube→SonarQube(100%), MERN→MERN Stack(100%), CloudWatch→AWS CloudWatch(100%))
 
 ── All Skills (19) ──
-AWS S3, AWS SNS, AWS SQS, Angular, CI/CD, Docker, FishXing, Git, IBM Cloud, Java, MERN Stack, Microservices, Node.js, Python, React, SonarQube, Spring, Spring Boot, Travis
+AWS CloudWatch, AWS S3, AWS SNS, AWS SQS, Angular, CI/CD, Docker, Git, IBM Cloud, Java, Kubernetes, MERN Stack, Microservices, Node.js, Python, React, SonarQube, Spring Boot, Travis
 
 ── By Category ──
   architecture                   ['Microservices']
-  cloud_infra                    ['AWS S3', 'AWS SNS', 'AWS SQS']
-  data_science                   ['FishXing']
+  cloud_infra                    ['AWS CloudWatch', 'AWS S3', 'AWS SNS', 'AWS SQS']
   database                       ['IBM Cloud']
   dev_tool                       ['Git']
-  devops                         ['CI/CD', 'Docker']
+  devops                         ['CI/CD', 'Docker', 'Kubernetes']
   programming_language           ['Java', 'Python']
   testing                        ['SonarQube', 'Travis']
-  web_framework                  ['Angular', 'MERN Stack', 'Node.js', 'React', 'Spring', 'Spring Boot']
+  web_framework                  ['Angular', 'MERN Stack', 'Node.js', 'React', 'Spring Boot']

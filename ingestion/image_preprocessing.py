@@ -234,6 +234,13 @@ def preprocess_scanned_image(img: Image.Image, context: str = "") -> Image.Image
     Raises ImageQualityError if the image fails the blur gate. Callers
     must let this propagate -- do not catch it as a generic OCR failure.
     """
+    # Blank / solid-color page check: a blank page (e.g. empty trailing page in a PDF)
+    # has zero edges, so its Laplacian variance is 0.00. It is NOT a blurry scan,
+    # just an empty page. Bypass blur rejection for blank images (std < 5.0).
+    gray_arr = np.array(img.convert("L"))
+    if np.std(gray_arr) < 5.0:
+        return img
+
     blur_score = compute_blur_score(img)
     if blur_score < MIN_BLUR_VARIANCE:
         raise ImageQualityError(
@@ -245,6 +252,8 @@ def preprocess_scanned_image(img: Image.Image, context: str = "") -> Image.Image
             context=context,
         )
 
+    from PIL import ImageOps
+    img = ImageOps.expand(img, border=30, fill="white")
     img, angle, corrected = deskew_image(img)
     if corrected:
         logger.info(f"Deskewed {context or 'image'} by {angle:.2f} degrees")

@@ -194,12 +194,20 @@ from pathlib import Path
 from PIL import Image
 import fitz  # PyMuPDF
 
-from ingestion.ocr_layout_reconstruction import sort_lines_only
+# adding code from antigravity
+from ingestion.ocr_layout_reconstruction import sort_lines_only, _sort_lines_with_column_detection
 from ingestion.image_preprocessing import preprocess_scanned_image, ImageQualityError
 from ingestion.table_grid_detector import (
     detect_and_ocr_tables,
     merge_tables_into_words,
     splice_placeholders,
+)
+# adding code from antigravity
+from ingestion.ocr_output_quality import (
+    repeated_ngram_ratio,
+    check_not_degenerate,
+    DegenerateOCROutputError,
+    MAX_REPEATED_NGRAM_RATIO,
 )
 
 logger = logging.getLogger(__name__)
@@ -285,6 +293,8 @@ _surya_predictors = None   # (det_predictor, rec_predictor) once loaded
 _surya_import_failed = False
 _surya_warned = False
 _bbox_warned = False
+# adding code from antigravity
+_degenerate_warned = False
 
 # Surya renders at 200 DPI (see pdf_to_images below). Used to convert a
 # TextLine's bbox (pixel coordinates) into PDF points, same coordinate
@@ -320,6 +330,121 @@ def _warn_bbox_once(message: str):
         _bbox_warned = True
 
 
+# adding code from antigravity
+def _warn_degenerate_once(message: str):
+    global _degenerate_warned
+    if not _degenerate_warned:
+        logger.warning(message)
+        print(f"[WARNING] {message}")
+        _degenerate_warned = True
+
+
+# adding code from antigravity
+def _retry_degenerate_pages_with_tesseract(pdf_path: str, results: dict) -> dict:
+    """
+    After Surya runs, checks each page's text for degenerate/looping
+    output (see ocr_output_quality.py). Any page that looks degenerate
+    is re-OCR'd via tesseract for just that page. If tesseract's retry
+    is ALSO degenerate, raises DegenerateOCROutputError -- both engines
+    failed, this is a genuine hard rejection.
+
+    Does NOT set _surya_import_failed -- a single page looping is a
+    content-quality problem for that page, not a Surya engine failure.
+    """
+    degenerate_indices = [
+        idx for idx, text in results.items()
+        if repeated_ngram_ratio(text) > MAX_REPEATED_NGRAM_RATIO
+    ]
+    if not degenerate_indices:
+        return results
+
+    _warn_degenerate_once(
+        f"Surya produced degenerate (repeating/looping) output on "
+        f"{len(degenerate_indices)} page(s) of {pdf_path}. Re-OCRing "
+        f"just those pages via tesseract before deciding whether to "
+        f"reject -- see ocr_output_quality.py."
+    )
+
+    from ingestion.ocr_reader_pytesseract import read_with_surya_pages as _tesseract_pages
+    retried = _tesseract_pages(pdf_path, degenerate_indices)
+
+    for idx in degenerate_indices:
+        retried_text = retried.get(idx, "")
+        ratio = repeated_ngram_ratio(retried_text)
+        if ratio > MAX_REPEATED_NGRAM_RATIO:
+            raise DegenerateOCROutputError(
+                f"OCR output for page {idx + 1} of {pdf_path} looks "
+                f"degenerate on BOTH the primary (Surya) and fallback "
+                f"(tesseract) engines (repeated-phrase ratio {ratio:.3f}, "
+                f"threshold {MAX_REPEATED_NGRAM_RATIO}). Please re-upload "
+                f"a clearer scan or photo of this page.",
+                repeated_ratio=ratio,
+                context=f"page {idx + 1} of {pdf_path}",
+            )
+        results[idx] = retried_text
+
+    return results
+
+
+# adding code from antigravity
+def _retry_degenerate_whole_file(file_path: str, all_text: list) -> list:
+    """
+    Same idea as _retry_degenerate_pages_with_tesseract(), for
+    read_with_surya()'s whole-file path. Returns a new list with any
+    degenerate entries replaced by tesseract's retry, or raises
+    DegenerateOCROutputError if still degenerate after retry.
+    """
+    from pathlib import Path as _Path
+    degenerate_indices = [
+        i for i, text in enumerate(all_text)
+        if repeated_ngram_ratio(text) > MAX_REPEATED_NGRAM_RATIO
+    ]
+    if not degenerate_indices:
+        return all_text
+
+    _warn_degenerate_once(
+        f"Surya produced degenerate (repeating/looping) output on "
+        f"{len(degenerate_indices)} page(s) of {file_path}. Re-OCRing "
+        f"just those pages via tesseract before deciding whether to reject."
+    )
+
+    new_all_text = list(all_text)
+    path = _Path(file_path)
+
+    if path.suffix.lower() == ".pdf":
+        from ingestion.ocr_reader_pytesseract import read_with_surya_pages as _tesseract_pages
+        retried = _tesseract_pages(file_path, degenerate_indices)
+        for idx in degenerate_indices:
+            retried_text = retried.get(idx, "")
+            ratio = repeated_ngram_ratio(retried_text)
+            if ratio > MAX_REPEATED_NGRAM_RATIO:
+                raise DegenerateOCROutputError(
+                    f"OCR output for page {idx + 1} of {file_path} looks "
+                    f"degenerate on BOTH engines (repeated-phrase ratio "
+                    f"{ratio:.3f}, threshold {MAX_REPEATED_NGRAM_RATIO}). "
+                    f"Please re-upload a clearer scan or photo of this page.",
+                    repeated_ratio=ratio,
+                    context=f"page {idx + 1} of {file_path}",
+                )
+            new_all_text[idx] = retried_text
+    else:
+        # Standalone image: re-run tesseract on the whole file.
+        from ingestion.ocr_reader_pytesseract import read_with_surya as _tesseract_file
+        retried_text = _tesseract_file(file_path)
+        ratio = repeated_ngram_ratio(retried_text)
+        if ratio > MAX_REPEATED_NGRAM_RATIO:
+            raise DegenerateOCROutputError(
+                f"OCR output for {file_path} looks degenerate on BOTH engines "
+                f"(repeated-phrase ratio {ratio:.3f}, threshold "
+                f"{MAX_REPEATED_NGRAM_RATIO}). Please re-upload a clearer scan.",
+                repeated_ratio=ratio,
+                context=file_path,
+            )
+        new_all_text = [retried_text]
+
+    return new_all_text
+
+
 def _load_surya_predictors():
     """Loads and caches Surya's detection + recognition predictors.
     Raises on any failure -- callers must catch and fall back to
@@ -344,15 +469,20 @@ def _load_surya_predictors():
 def _text_line_to_line_dict(line) -> dict:
     """
     Converts one Surya TextLine into the dict shape sort_lines_only()
-    expects: {"text", "x0", "top"}. Raises AttributeError if `.bbox`
-    isn't present in the shape expected -- caller catches this per
-    page (see PRODUCTION SAFETY note below).
+    expects: {"text", "x0", "top"}. Also stores "x1" and "bottom" so
+    that _sort_lines_with_column_detection() can determine which column
+    each line belongs to (left vs right). sort_lines_only() ignores
+    the extra fields, so adding them is fully backward-compatible.
+    Raises AttributeError if `.bbox` isn't present in the shape
+    expected -- caller catches this per page.
     """
     x0, top, x1, bottom = line.bbox
     return {
-        "text": line.text,
-        "x0": x0 * _PIXEL_TO_POINT,
-        "top": top * _PIXEL_TO_POINT,
+        "text":   line.text,
+        "x0":     x0 * _PIXEL_TO_POINT,
+        "x1":     x1 * _PIXEL_TO_POINT,
+        "top":    top * _PIXEL_TO_POINT,
+        "bottom": bottom * _PIXEL_TO_POINT,
     }
 
 
@@ -393,7 +523,15 @@ def _run_surya_on_images(images: list) -> list:
                 )
             else:
                 placeholder_map = {}
-            page_text = sort_lines_only(line_dicts)
+            # adding code from antigravity
+            # Use column-aware sort instead of plain sort_lines_only.
+            # Detects two-column layouts (e.g. Experience left / Summary+Skills
+            # right) and outputs left column first, then right -- so the
+            # segmenter receives each section contiguously rather than
+            # left-right-left-right interleaved. Falls back to sort_lines_only
+            # for single-column pages, so existing resumes are unaffected.
+            page_width = images[page_idx].width * _PIXEL_TO_POINT
+            page_text = _sort_lines_with_column_detection(line_dicts, page_width)
             if not page_text.strip():
                 raise ValueError("reconstruction produced empty text")
         except Exception as e:
@@ -463,8 +601,17 @@ def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
         try:
             images = pdf_to_images(pdf_path, page_indices=page_indices)
             texts = _run_surya_on_images(images)
-            return dict(zip(page_indices, texts))
+            # adding code from antigravity
+            # Check each page's Surya output for degenerate/looping text.
+            # Degenerate pages are retried via tesseract; if still bad,
+            # DegenerateOCROutputError is raised (never caught here).
+            results = dict(zip(page_indices, texts))
+            results = _retry_degenerate_pages_with_tesseract(pdf_path, results)
+            return results
         except ImageQualityError:
+            raise
+        # adding code from antigravity
+        except DegenerateOCROutputError:
             raise
         except Exception as e:
             _surya_import_failed = True
@@ -503,8 +650,16 @@ def read_with_surya(file_path: str) -> str:
             else:
                 raise ValueError(f"Unsupported file type for OCR: {path.suffix}")
             all_text = _run_surya_on_images(images)
+            # adding code from antigravity
+            # Check each page for degenerate/looping Surya output.
+            # Degenerate pages are retried via tesseract; if still bad,
+            # DegenerateOCROutputError is raised (never caught here).
+            all_text = _retry_degenerate_whole_file(file_path, all_text)
             return "\n\n".join(all_text)
         except ImageQualityError:
+            raise
+        # adding code from antigravity
+        except DegenerateOCROutputError:
             raise
         except Exception as e:
             _surya_import_failed = True

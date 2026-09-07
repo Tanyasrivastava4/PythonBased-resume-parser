@@ -1,4 +1,35 @@
 ======================================================================
 FILE: test_scan_blurry_segmented.txt
 ======================================================================
-No 'experience' section found in this file.
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+*
+AAA Technologies Ltd. (Information Security Consultant) May 2023 Present
+-
+In Depth Involvement in Security Audit/Vulnerability Assessment /Penetration Testing/Dynamic is
+*
+Application Security Testing (DAST) of Web Applications, Mobiles Applications and Web Services using
+tools hike Netsparker, B...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 1
+Confidence     : 0.85
+Needs review   : True
+Total exp      : 3.4 years (41 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : *
+  Location     : None
+  Start - End  : May 2023 - Present
+  Duration     : 41 months
+  Bullets      : 4
+    • In Depth Involvement in Security Audit/Vulnerability Assessment /Penetration Testing/Dynamic is * Application Security Testing (DAST) of Web Applications, Mobiles Applications and Web Services using tools hike Netsparker, Burpsuite, Metasploit.
+    • Sqimap, Acunetix etc.
+    • Experience in Static Application Security Testing (SAST) / Source Code Review by using like Syhunt * Tool etc.
+    • Experience in Network Audit by using tool like Nessus etc. e Review /Analysis and verific ation of Audited Applications e Security Testing according to OWASP TOP 10 Security Risks. e Perform both Automated and Manual Testing of the application to find vulnerable part of the application e Provide solution of the vulmerabélity and help users to fix the issue. e Handling the chent query and providing them solution for patching the vulnet abalities e | stabon ────────────────────────────────────────────────────────────
+  Sub-sections : ["[Found 2 sections total: ['header', 'experience']]"]
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

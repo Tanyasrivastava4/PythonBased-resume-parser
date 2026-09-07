@@ -5,9 +5,9 @@ LABEL: header   CONFIDENCE: 0.9   START LINE: 0
 Rimjhim Jha Human Resource
 rimjhimjha2004@gmail.com
 12 9325131534
-Q Kalyan, Maharashtra
+O Kalyan, Maharashtra
 2004-09-10
-OJ Female
+o Female
 
 ────────────────────────────────────────────────────────────
 LABEL: summary   CONFIDENCE: 0.95   START LINE: 6
@@ -54,37 +54,37 @@ interview scheduling via Internshala and Naukri.
 services.
 • CTC discussion, negotiation, preparing offer drafts.
 
-────────────────────────────────────────────────────────────
-LABEL: education   CONFIDENCE: 0.95   START LINE: 46
-────────────────────────────────────────────────────────────
-Bachelor of Commerce (B.COM) 2021 - 2024
 K.J Somaiya College of Arts and Commerce
-77.99\%
-H.S.C (Commerce) 2020 - 2021
 Birla College of Arts, Science and Commerce
-• 92.83%
-S.S.C 2018 - 2019
+Took initiative to streamline employees data in the system.
+Successfully closed 2 open positions within a month after joining.
+Bachelor of Commerce (B.COM)
+77.99\%
+H.S.C (Commerce)
+-92.83%
+S.S.C
 Priti Academy School
-• 82.60%
-
-────────────────────────────────────────────────────────────
-LABEL: skills   CONFIDENCE: 0.95   START LINE: 56
-────────────────────────────────────────────────────────────
+82.60%
 • Communication
 • Teamwork and Collaboration
 • Detail-oriented
-• Administrative Skills
+• Administrative
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.85   START LINE: 60
+────────────────────────────────────────────────────────────
 • Data management
 • Spine HRMS & Payroll
 • Pet Pooja HRMS
 • Ms Excel, Power Point, Word.
-
-────────────────────────────────────────────────────────────
-LABEL: achievements   CONFIDENCE: 0.95   START LINE: 65
-────────────────────────────────────────────────────────────
-Took initiative to streamline employees data in the system.
 Prepared HR process document
-Successfully closed 2 open positions within a month after joining.
 
 ────────────────────────────────────────────────────────────
-[Found 6 sections total: ['header', 'summary', 'experience', 'education', 'skills', 'achievements']]
+LABEL: education   CONFIDENCE: 0.95   START LINE: 66
+────────────────────────────────────────────────────────────
+2021 - 2024
+2020 - 2021
+2018 - 2019
+
+────────────────────────────────────────────────────────────
+[Found 5 sections total: ['header', 'summary', 'experience', 'skills', 'education']]

@@ -18,7 +18,10 @@ LABEL: education   CONFIDENCE: 0.95   START LINE: 6
 Passed B. TECH in (COMPUTER SCIENCE & ENGINEERING) from GBTU University in 2011, Ghaziabad.
 Passed DIPLOMA in (ELECTRONICS ENGINEERING) from Govt.Polytechnic Jhansi in 2008, Jhansi.
 Passed High School in (SCIENECE SIDE) From U.P Board from Ghaziabad.
-TECHNOLOGIES:
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 10
+────────────────────────────────────────────────────────────
 Operating System	Windows
 Language	CoreJava/J2EE,Java8, Python(Basic)
 Web Technologies	Servlet, HTML, CSS, JavaScript, JSP, Socket, RMI, JDBC
@@ -174,4 +177,4 @@ DATE:
 PLACE:						   	    	(REENA RANI)
 
 ────────────────────────────────────────────────────────────
-[Found 15 sections total: ['header', 'summary', 'education', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'certifications', 'interests', 'personal_details', 'languages']]
+[Found 16 sections total: ['header', 'summary', 'education', 'skills', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'certifications', 'interests', 'personal_details', 'languages']]

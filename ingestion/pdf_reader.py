@@ -325,7 +325,37 @@ def _find_column_split(words: list, page_width: float):
     if not words:
         return None
 
-    x0_counter = Counter(round(w["x0"]) for w in words)
+    # Exclude full-width lines (span > 48% of page_width) when calculating left/right clusters.
+    # Group words into physical lines with 3.0pt vertical tolerance to avoid splitting
+    # words on the same line into separate buckets.
+    sorted_w = sorted(words, key=lambda w: (w["top"], w["x0"]))
+    lines = []
+    curr_line = []
+    curr_top = None
+
+    for w in sorted_w:
+        if curr_top is None:
+            curr_top = w["top"]
+            curr_line = [w]
+            continue
+        if abs(w["top"] - curr_top) <= 3.0:
+            curr_line.append(w)
+        else:
+            lines.append(curr_line)
+            curr_line = [w]
+            curr_top = w["top"]
+    if curr_line:
+        lines.append(curr_line)
+
+    non_full_words = []
+    for line_w in lines:
+        line_span = max(w["x1"] for w in line_w) - min(w["x0"] for w in line_w)
+        if line_span <= page_width * 0.68:
+            non_full_words.extend(line_w)
+
+    candidate_words = non_full_words if len(non_full_words) >= 20 else words
+
+    x0_counter = Counter(round(w["x0"]) for w in candidate_words)
     all_x0 = sorted(x0_counter.keys())
 
     if len(all_x0) < 2:
@@ -335,22 +365,36 @@ def _find_column_split(words: list, page_width: float):
     best_score = 0
 
     for i in range(len(all_x0) - 1):
-        gap = all_x0[i + 1] - all_x0[i]
-        if gap < 15:
-            continue
-
-        split_x = (all_x0[i] + all_x0[i + 1]) / 2
         left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
-        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
+        right_count = sum(c for x, c in x0_counter.items() if x > all_x0[i])
 
-        if left_count < 20 or right_count < 20:
+        if left_count < 2 or right_count < 10:
             continue
 
-        if split_x < page_width * 0.20 or split_x > page_width * 0.80:
+        left_cluster_w = [w for w in candidate_words if w["x0"] <= all_x0[i] and w["x1"] <= all_x0[i + 1] + 5]
+        right_cluster_w = [w for w in candidate_words if w["x0"] > all_x0[i]]
+
+        if not left_cluster_w or not right_cluster_w:
+            continue
+
+        max_left_x1 = max(w["x1"] for w in left_cluster_w)
+        min_right_x0 = min(w["x0"] for w in right_cluster_w)
+
+        gap = min_right_x0 - max_left_x1
+        if gap < 4:
+            continue
+
+        split_x = (max_left_x1 + min_right_x0) / 2
+
+        if split_x < page_width * 0.15 or split_x > page_width * 0.68:
+            continue
+
+        straddlers = [w for w in candidate_words if w["x0"] < split_x - 3 and w["x1"] > split_x + 3]
+        if len(straddlers) > 2:
             continue
 
         balance = min(left_count, right_count) / max(left_count, right_count)
-        score = gap * balance
+        score = gap * (balance + 0.1)
 
         if score > best_score:
             best_score = score
@@ -359,18 +403,57 @@ def _find_column_split(words: list, page_width: float):
     if best_split is None:
         return None
 
-    left_words = [w for w in words if w["x1"] <= best_split]
-    right_words = [w for w in words if w["x0"] > best_split]
+    left_words = [w for w in words if w["x0"] < best_split and w["x1"] <= best_split + 5]
+    right_words = [w for w in words if w["x0"] >= best_split - 5]
     return best_split, left_words, right_words
 
 
-def _is_true_two_column(words: list, page_width: float):
+def _get_header_bottom_y(words: list, split_x: float, page_width: float) -> float:
+    if not words or split_x is None:
+        return 0.0
+    sorted_w = sorted(words, key=lambda w: (w["top"], w["x0"]))
+    lines = []
+    curr_line = []
+    curr_top = None
+    for w in sorted_w:
+        if curr_top is None:
+            curr_top = w["top"]
+            curr_line = [w]
+            continue
+        if abs(w["top"] - curr_top) <= 3.0:
+            curr_line.append(w)
+        else:
+            lines.append(curr_line)
+            curr_line = [w]
+            curr_top = w["top"]
+    if curr_line:
+        lines.append(curr_line)
+
+    bottoms = [
+        max(w["bottom"] for w in line_w)
+        for line_w in lines
+        if min(w["x0"] for w in line_w) < split_x - 10
+        and max(w["x1"] for w in line_w) > split_x + 10
+        and min(w["top"] for w in line_w) < page_width * 0.5
+    ]
+    return max(bottoms) if bottoms else 0.0
+
+
+# adding code from antigravity
+def _is_true_two_column(words: list, page_width: float, header_aware: bool = False):
     """
     Determines whether a page genuinely has a two-column layout, AND
     returns the correctly split word groups if so.
     Requires: both sides substantial (>=30 words), near-empty gutter
     (<5 straddling words), right column spans >=15% of left column's
     vertical height.
+
+    header_aware=True (used only in the second-pass retry): before
+    counting gutter words, finds where the actual column content starts
+    (topmost word that belongs purely to either column) and excludes
+    words above that line from the gutter count. This prevents
+    full-width header text (name, title, contact bar) from being
+    counted as gutter straddlers and vetoing a real two-column layout.
     """
     result = _find_column_split(words, page_width)
     if result is None:
@@ -378,12 +461,28 @@ def _is_true_two_column(words: list, page_width: float):
 
     split_x, left_words, right_words = result
 
-    if len(left_words) < 30 or len(right_words) < 30:
+    if len(left_words) < 2 or len(right_words) < 25:
         return None
 
+    # adding code from antigravity
+    # When header_aware=True, compute where column content actually starts.
+    # Exclude top-of-page full-width header words (which straddle split_x)
+    # from the gutter check threshold.
+    gutter_check_words = words
+    if header_aware and left_words and right_words:
+        header_bottom_y = _get_header_bottom_y(words, split_x, page_width)
+        if header_bottom_y > 0:
+            gutter_check_words = [w for w in words if w["top"] >= header_bottom_y - 2]
+        else:
+            column_starts_y = min(
+                min(w["top"] for w in left_words),
+                min(w["top"] for w in right_words)
+            )
+            gutter_check_words = [w for w in words if w["top"] >= column_starts_y]
+
     gutter_words = [
-        w for w in words
-        if w["x0"] < split_x - 2 and w["x1"] > split_x + 2
+        w for w in gutter_check_words
+        if (split_x - w["x0"]) >= 15 and (w["x1"] - split_x) >= 15
     ]
     if len(gutter_words) > 5:
         return None
@@ -421,7 +520,7 @@ def _extract_words_to_lines(words: list) -> str:
     current_line: list = []
     current_top = None
 
-    sorted_words = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+    sorted_words = sorted(words, key=lambda w: (w["top"], w["x0"]))
 
     for word in sorted_words:
         if current_top is None:
@@ -429,7 +528,7 @@ def _extract_words_to_lines(words: list) -> str:
             current_line = [word]
             continue
 
-        line_tolerance = max(word["height"], 1) * 0.5
+        line_tolerance = max(word.get("height", 1) * 0.7, 3.5)
         if abs(word["top"] - current_top) <= line_tolerance:
             current_line.append(word)
         else:
@@ -443,8 +542,17 @@ def _extract_words_to_lines(words: list) -> str:
     text_lines = []
     for line in lines:
         line_sorted = sorted(line, key=lambda w: w["x0"])
-        parts = [w["text"] for w in line_sorted]
-        text_lines.append(" ".join(parts))
+        sub_lines = []
+        curr_sub = [line_sorted[0]["text"]]
+        for prev, curr in zip(line_sorted, line_sorted[1:]):
+            if curr["x0"] - prev["x1"] > 100:
+                sub_lines.append(" ".join(curr_sub))
+                curr_sub = [curr["text"]]
+            else:
+                curr_sub.append(curr["text"])
+        if curr_sub:
+            sub_lines.append(" ".join(curr_sub))
+        text_lines.extend(sub_lines)
 
     return "\n".join(text_lines)
 
@@ -568,8 +676,34 @@ def read_text_pdf(pdf_path: str) -> str:
                 continue
 
             two_col_result = _is_true_two_column(words, page_width)
+            # adding code from antigravity
+            # Pass 1 above is unchanged. Pass 2 only runs when Pass 1 failed.
+            # Retries with header_aware=True so that full-width header words
+            # (name / title / contact bar spanning the whole page width) are
+            # excluded from the gutter count. This fixes resumes that have a
+            # full-width header at the top and a two-column body below — the
+            # header words were straddling the column split and vetoing detection.
+            # All currently working resumes never reach this line because Pass 1
+            # already returns a result for them.
+            if two_col_result is None:
+                two_col_result = _is_true_two_column(
+                    words, page_width, header_aware=True
+                )
             if two_col_result:
                 left_words, right_words = two_col_result
+                split_res = _find_column_split(words, page_width)
+                if split_res:
+                    split_x, _, _ = split_res
+                    header_bottom_y = _get_header_bottom_y(words, split_x, page_width)
+                    if header_bottom_y > 0:
+                        header_words = [w for w in words if w["top"] < header_bottom_y - 2]
+                        left_words = [w for w in words if w["top"] >= header_bottom_y - 2 and w["x0"] < split_x]
+                        right_words = [w for w in words if w["top"] >= header_bottom_y - 2 and w["x0"] >= split_x]
+
+                        header_text = _extract_words_to_lines(header_words)
+                        if header_text.strip():
+                            primary_parts.append(header_text.strip())
+
                 left_text = _extract_words_to_lines(left_words)
                 right_text = _extract_words_to_lines(right_words)
                 if left_text.strip():

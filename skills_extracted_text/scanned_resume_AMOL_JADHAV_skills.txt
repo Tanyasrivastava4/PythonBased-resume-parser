@@ -5,15 +5,15 @@ SKILLS EXTRACTED FROM: segmented_text/scanned_resume_AMOL_JADHAV_segmented.txt
 ── Skills Section Text (raw, as segmented) ──
 IT Infrastructure Management
 Cloud and DevOps Operations
-Compliance & Audit management
 Planning, Scheduling & Controlling
-Network & Storage management
+Compliance & Audit management
 Server/ System Administration
 Pre-sales, Budgeting & Cost Control
+Network & Storage management
 Technical Support/Documentation
-Clients engagement and support
 OPERATING SYSTEMS & VIRTUALIZATION
 Modern OS Platforms: Windows Server 2025/2022/2019/2016, Linux (RHEL, Ubuntu, Debian, CentOS, Fedora), MacOS
+•
 Enterprise Virtualization: VMware vSphere/ESXi, vCenter, Microsoft Hyper-V - deployment, lifecycle management,
 •
 performance tuning, Containerization & Orchestration - Docker, Kubernetes
@@ -57,7 +57,8 @@ Storage Systems: Dell PowerStore, HPE, NetApp - SAN/NAS, iSCSI, Tape Autoloaders
 DR/BCP: End-to-end planning & testing - RPO/RTO alignment, regulatory compliance (esp. financial services)
 •
 WEB, DATABASE & APPLICATION HOSTING
-• Web & Application Servers: IIS, Apache, NGINX
+Web & Application Servers: IIS, Apache, NGINX
+•
 Database Platforms: MongoDB, NoSQL, SQL Server - performance tuning, backup, HA
 •
 Hosting & Monitoring: Web hosting lifecycle, SSL, app performance monitoring tools,
@@ -66,6 +67,7 @@ Hosting and VPS platforms - Go daddy, Big Rock, Digital Ocean, AWS Amplify, Ligh
 •
 SERVICE MANAGEMENT & IT GOVERNANCE
 ITSM Platforms: JIRA Service Management, ServiceNow, Confluence
+•
 Frameworks & Standards: ITIL v4, ISO/IEC 27001, ISO 20000, NIST Cybersecurity
 •
 Processes: Incident, Problem, Change Management - process optimization and automation
@@ -74,7 +76,7 @@ Processes: Incident, Problem, Change Management - process optimization and autom
 ── Extraction Results ──
 Skills found   : 61
 Confidence     : 0.92
-Time           : 392.82 ms
+Time           : 388.87 ms
 Method         : flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%), RHEL→Linux(100%), Debian→Linux(100%), CentOS→Linux(100%), Fedora→Linux(100%)...)
 
 ── All Skills (61) ──

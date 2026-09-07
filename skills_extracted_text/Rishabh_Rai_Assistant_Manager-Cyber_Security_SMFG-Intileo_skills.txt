@@ -3,6 +3,11 @@ SKILLS EXTRACTED FROM: segmented_text/Rishabh_Rai_Assistant_Manager-Cyber_Securi
 ────────────────────────────────────────────────────────────
 
 ── Skills Section Text (raw, as segmented) ──
+April 2021 - April 2023
+Relevant coursework Cybersecurity Principles, Network Defense, Threat Intelligence, Incident Management,
+Encryption Technologies, Penetration Testing
+
+TECHNICAL SKILLSSIEM
 Tools: Splunk, QRadar, ArcSight, ELK, LogRhythm
 Endpoint Detection & Response (EDR): CrowdStrike, SentinelOne, Carbon Black
 Vulnerability Management: Nessus, Qualys, OpenVAS
@@ -14,13 +19,13 @@ Version Control: Git
 Incident Management Tools: ServiceNow, Jira, Remedy
 
 ── Extraction Results ──
-Skills found   : 20
+Skills found   : 23
 Confidence     : 0.92
-Time           : 49.86 ms
+Time           : 88.71 ms
 Method         : flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%))
 
-── All Skills (20) ──
-AWS, Azure, Bash, EDR, ELK Stack, GCP, Git, Incident Management, Jira, Linux, Microsoft Windows, Nessus, Nmap, OpenVAS, PowerShell, Python, ServiceNow, Splunk, Tcpdump, Wireshark
+── All Skills (23) ──
+AWS, Azure, Bash, Cryptography, EDR, ELK Stack, GCP, Git, Incident Management, Jira, Linux, Microsoft Windows, Nessus, Nmap, OpenVAS, Penetration Testing, PowerShell, Python, ServiceNow, Splunk, Tcpdump, Threat Intelligence, Wireshark
 
 ── By Category ──
   cloud_infra                    ['AWS', 'Azure', 'GCP', 'Tcpdump', 'Wireshark']
@@ -31,4 +36,4 @@ AWS, Azure, Bash, EDR, ELK Stack, GCP, Git, Incident Management, Jira, Linux, Mi
   programming_language           ['Python']
   project_mgmt                   ['Jira']
   security                       ['Nmap', 'OpenVAS']
-  security_ops                   ['EDR', 'Incident Management', 'Nessus', 'Splunk']
+  security_ops                   ['Cryptography', 'EDR', 'Incident Management', 'Nessus', 'Penetration Testing', 'Splunk', 'Threat Intelligence']

@@ -119,45 +119,20 @@ principles.
 
 • Project:2:
 
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 99
-────────────────────────────────────────────────────────────
-Client Progressive Insurance Domain
-Role Software Engineer
-Organization Quest Global
-Team Size 25 Markets: USA
-
-────────────────────────────────────────────────────────────
-LABEL: roles_responsibilities   CONFIDENCE: 0.95   START LINE: 104
-────────────────────────────────────────────────────────────
-• Developed and maintained scalable enterprise applications for Progressive Insurance using
-Spring Boot and Spring MVC, applying core J2EE design patterns including Factory, DAO,
-Singleton, and MVC for structured and efficient server-side logic.
-• Designed and implemented microservices for customer onboarding, quote generation, and
-policy renewals using Spring Boot and deployed them on AWS Lambda/Azure App Services.
-• Implemented role-based access and secure data handling for PII (Personally Identifiable
-Information) in compliance with industry regulations such as HIPAA and GDPR.
-• Leveraged Hibernate ORM to interact with relational databases, employing HQL and Criteria
-APIs within the DAO layer for robust data operations.
-• Built and consumed RESTful web services within a microservices architecture; utilized Rest
-Template and Feign Clients to enable seamless communication across heterogeneous services.
-• Integrated React-based front-end modules with Spring Boot APIs to ensure responsive UI and
-real-time data flow, enhancing user experience for policy management and claim processing
-modules.
-• Containerized insurance microservices with Docker, orchestrated deployments with Kubernetes
-(EKS/AKS), and enabled scalability during peak insurance events (e.g., open enrollment).
-• Engineered high-throughput backend services with multi-threading support for quote generation
-and policy lifecycle workflows, optimizing latency-sensitive insurance operations.
-• Designed and optimized database schemas for Oracle and PostgreSQL; authored complex,
-performance-tuned SQL queries to support transactional operations and reporting needs.
-• Worked with MongoDB to manage semi-structured data related to customer behavior analytics
-and real-time notification systems.
-• Conducted thorough unit and integration testing using JUnit 5 and Mockito to ensure reliability
-and accuracy of policy and claims services.
-• Actively contributed in Agile ceremonies including sprint planning, daily stand-ups, and
-retrospectives; ensured timely delivery of user stories and feature enhancements.
-• Participated in Progressive-specific release cycles by coordinating with QA, DevOps, and
-product stakeholders, supporting successful deployments and post-release issue resolution.
+Roles
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
 
 • Managed complex transaction workflows in policy renewals and claims adjudication, ensuring
 data integrity and ACID compliance throughout the application lifecycle.
@@ -170,7 +145,7 @@ and maintain a high standard of engineering practices.
 • Project:1:
 
 ────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 143
+LABEL: projects   CONFIDENCE: 0.8   START LINE: 124
 ────────────────────────────────────────────────────────────
 Client Lloyds Banking Group plc (banking domain)
 Role Software Engineer
@@ -178,7 +153,7 @@ Organization Cognizant
 Team Size 20 Markets: USA
 
 ────────────────────────────────────────────────────────────
-LABEL: roles_responsibilities   CONFIDENCE: 0.95   START LINE: 148
+LABEL: roles_responsibilities   CONFIDENCE: 0.95   START LINE: 129
 ────────────────────────────────────────────────────────────
 • Designed, developed, and maintained microservices for Lloyds Banking applications using Java
 8, Spring Boot 2+, and Spring Framework, ensuring modular and scalable service components.
@@ -220,4 +195,41 @@ key banking modules, ensuring test coverage and code reliability.
 standards, and continuous integration best practices.
 
 ────────────────────────────────────────────────────────────
-[Found 11 sections total: ['header', 'experience', 'experience', 'education', 'skills', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities']]
+LABEL: projects   CONFIDENCE: 0.8   START LINE: 169
+────────────────────────────────────────────────────────────
+Client Progressive Insurance Domain
+Role Software Engineer
+Organization Quest Global
+Team Size 25 Markets: USA
+and Responsibilities:
+Developed and maintained scalable enterprise applications for Progressive Insurance using
+Spring Boot and Spring MVC, applying core J2EE design patterns including Factory, DAO,
+Singleton, and MVC for structured and efficient server-side logic.
+Designed and implemented microservices for customer onboarding, quote generation, and
+policy renewals using Spring Boot and deployed them on AWS Lambda/Azure App Services.
+Implemented role-based access and secure data handling for PII (Personally Identifiable
+Information) in compliance with industry regulations such as HIPAA and GDPR.
+Leveraged Hibernate ORM to interact with relational databases, employing HQL and Criteria
+APIs within the DAO layer for robust data operations.
+Built and consumed RESTful web services within a microservices architecture; utilized Rest
+Template and Feign Clients to enable seamless communication across heterogeneous services.
+Integrated React-based front-end modules with Spring Boot APIs to ensure responsive UI and
+real-time data flow, enhancing user experience for policy management and claim processing
+modules.
+Containerized insurance microservices with Docker, orchestrated deployments with Kubernetes
+(EKS/AKS), and enabled scalability during peak insurance events (e.g., open enrollment).
+Engineered high-throughput backend services with multi-threading support for quote generation
+and policy lifecycle workflows, optimizing latency-sensitive insurance operations.
+Designed and optimized database schemas for Oracle and PostgreSQL; authored complex,
+performance-tuned SQL queries to support transactional operations and reporting needs.
+Worked with MongoDB to manage semi-structured data related to customer behavior analytics
+and real-time notification systems.
+Conducted thorough unit and integration testing using JUnit 5 and Mockito to ensure reliability
+and accuracy of policy and claims services.
+Actively contributed in Agile ceremonies including sprint planning, daily stand-ups, and
+retrospectives; ensured timely delivery of user stories and feature enhancements.
+Participated in Progressive-specific release cycles by coordinating with QA, DevOps, and
+product stakeholders, supporting successful deployments and post-release issue resolution.
+
+────────────────────────────────────────────────────────────
+[Found 10 sections total: ['header', 'experience', 'experience', 'education', 'skills', 'projects', 'roles_responsibilities', 'projects', 'roles_responsibilities', 'projects']]

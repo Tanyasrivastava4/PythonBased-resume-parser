@@ -3,24 +3,20 @@ SKILLS EXTRACTED FROM: segmented_text/Rimjhim Jha_HR Operations_Intileo_page-000
 ────────────────────────────────────────────────────────────
 
 ── Skills Section Text (raw, as segmented) ──
-• Communication
-• Teamwork and Collaboration
-• Detail-oriented
-• Administrative Skills
 • Data management
 • Spine HRMS & Payroll
 • Pet Pooja HRMS
 • Ms Excel, Power Point, Word.
+Prepared HR process document
 
 ── Extraction Results ──
-Skills found   : 5
+Skills found   : 3
 Confidence     : 0.92
-Time           : 23.91 ms
-Method         : flashtext_skills_section | fuzzy(Data management→Data Management(100%), Ms Excel→Microsoft Excel(100%), Word.→Microsoft Word(89%))
+Time           : 16.48 ms
+Method         : flashtext_skills_section | fuzzy(Data management→Data Management(100%), Ms Excel→Microsoft Excel(100%))
 
-── All Skills (5) ──
-Collaboration, Communication, Data Management, Microsoft Excel, Microsoft Word
+── All Skills (3) ──
+Data Management, Microsoft Excel, Microsoft Word
 
 ── By Category ──
   productivity                   ['Data Management', 'Microsoft Excel', 'Microsoft Word']
-  soft_skill                     ['Collaboration', 'Communication']

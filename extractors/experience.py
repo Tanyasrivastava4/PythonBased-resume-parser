@@ -58,7 +58,7 @@ MONTH_NAMES = (
 # end alternation. No valid match existed anywhere in the line, so this
 # job was never anchored and silently dropped entirely by
 # _find_job_blocks, not just parsed incompletely.
-_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.]*{MONTH_NAMES}[\s,.]*\d{{4}}"
+_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.-]*{MONTH_NAMES}[\s,.-]*\d{{4}}"
 
 DATE_RANGE_RE = re.compile(
     rf"(?P<start>{_DAY_MONTH_YEAR}|{MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]\d{{2}})|\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|\d{{1,2}}[/.]\d{{4}}|\d{{4}})"
@@ -322,6 +322,8 @@ def _looks_like_prose(line: str) -> bool:
 # _reflow_body() (a different, unrelated no-bullet-marker case,
 # confirmed working on Satyadip Ray's resume), completely untouched.
 def _looks_like_previous_job_trailing_line(line: str) -> bool:
+    if TITLE_RE.search(line) or " at " in line.lower():
+        return False
     words = line.split()
     if not words or len(words) <= 6:
         return False
@@ -331,6 +333,13 @@ def _looks_like_previous_job_trailing_line(line: str) -> bool:
 
 def _find_job_blocks(lines: list):
     anchor_idx = [i for i, l in enumerate(lines) if DATE_RANGE_RE.search(l)]
+    if not anchor_idx:
+        anchor_idx = [
+            i for i, l in enumerate(lines)
+            if _WIDOW_START_DATE_RE.search(l) and i > 0 and (
+                TITLE_RE.search(lines[i-1]) or " at " in lines[i-1].lower() or " – " in lines[i-1] or " - " in lines[i-1] or ":-" in lines[i-1]
+            )
+        ]
     if not anchor_idx:
         return []
 
@@ -378,6 +387,12 @@ def _parse_header(header_lines: list, date_line: str):
         job["start"] = m.group("start").strip()
         job["end"] = m.group("end").strip()
         job["method"].append("date_regex")
+    else:
+        sm = _WIDOW_START_DATE_RE.search(date_line)
+        if sm:
+            job["start"] = sm.group(1).strip()
+            job["end"] = "Present"
+            job["method"].append("single_date_regex")
 
     cleaned = []
     for l in header_lines:
@@ -387,6 +402,10 @@ def _parse_header(header_lines: list, date_line: str):
         dm = DATE_RANGE_RE.search(l)
         if dm:
             l = (l[:dm.start()] + l[dm.end():])
+            l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
+        sm = _WIDOW_START_DATE_RE.search(l)
+        if sm:
+            l = (l[:sm.start()] + l[sm.end():])
             l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
         if l:
             cleaned.append(l)
@@ -425,6 +444,17 @@ def _parse_header(header_lines: list, date_line: str):
                         job["role"], job["company"] = left, right
                     job["method"].append("dash_split")
                 break
+
+    if not job["role"] and not job["company"] and cleaned:
+        at_match = re.search(r'^(.*?)\s+\bat\b\s+(.*)$', cleaned[0], re.IGNORECASE)
+        if at_match:
+            role_candidate = at_match.group(1).strip()
+            comp_candidate = at_match.group(2).strip()
+            comp_candidate = re.sub(r'[:\-–—\s]*\d+\s*(?:yrs?|years?|mos?|months?).*$', '', comp_candidate, flags=re.IGNORECASE).strip()
+            if role_candidate and comp_candidate:
+                job["role"] = role_candidate
+                job["company"] = comp_candidate
+                job["method"].append("at_split")
 
     if not job["role"] and not job["company"] and cleaned:
         paren_match = re.search(r'\(([^)]+)\)', cleaned[0])
@@ -546,7 +576,7 @@ def parse_job_block(header_lines: list, body_lines: list):
 
     extra_header_lines, bullets, subheadings = _reflow_body(body_lines)
 
-    date_line = next((l for l in header_lines if DATE_RANGE_RE.search(l)), "")
+    date_line = next((l for l in header_lines if DATE_RANGE_RE.search(l) or _WIDOW_START_DATE_RE.search(l)), "")
     job = _parse_header(header_lines + extra_header_lines, date_line)
 
     job["duration_months"] = calculate_duration_months(job["start"], job["end"]) if job["start"] else 0

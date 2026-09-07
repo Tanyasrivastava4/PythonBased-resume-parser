@@ -43,11 +43,12 @@ Entry 2
   Location     : None
   Start - End  : May 2023 - Feb 2025
   Duration     : 22 months
-  Bullets      : 4
+  Bullets      : 5
     • Monitored and triaged security events using SIEM platforms, escalating critical incidents to Level 2 as necessary.
     • Conducted initial analysis of security incidents, identifying and reporting false positives, as well as gathering relevant data for further investigation.
     • Assisted in the development of incident response protocols and workflows to improve response times and effectiveness.
-    • Helped maintain and update asset inventory and vulnerability management systems. Supported daily SOC operations by ensuring proper handling of alerts and continuous monitoring of security tools.
+    • Helped maintain and update asset inventory and vulnerability management systems.
+    • Supported daily SOC operations by ensuring proper handling of alerts and continuous monitoring of security tools.
   Method       : date_regex+title_dict
   Confidence   : 0.98
   Needs Review : False
