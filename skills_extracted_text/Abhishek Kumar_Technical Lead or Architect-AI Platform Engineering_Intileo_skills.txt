@@ -32,13 +32,13 @@ Cloud Development
 ➢ SoEware Maintenance: Disaster Recovery, Mi?ga?on Planning
 
 ── Extraction Results ──
-Skills found   : 117
+Skills found   : 121
 Confidence     : 0.92
-Time           : 222.7 ms
+Time           : 239.39 ms
 Method         : flashtext_skills_section | fuzzy(Project Delivery→Project Management(100%), Innova?on→Creativity(84%), Communica?on→Communication(88%), Cross-func?onal Collabora?on→Cross-functional Collaboration(90%), Presenta?on Skills→Presentation Skills(92%)...)
 
-── All Skills (117) ──
-.NET, .NET Core, A2A Protocol, AWS, Agile, Android, Angular, Apache Flex, Apache Maven, Azure, Bash, Bitbucket, Bootstrap, C#, C++, CI/CD, CSS3, Communication, Confluence, Cordova, Creativity, Cross-functional Collaboration, Crucible, Dart, Deno, DevOps, Disaster Recovery, Docker, ELK Stack, Express.js, Flask, GCP, Git, GitHub, GitLab, Go, Google Workspace, Gradle, Grafana, GraphQL, Graphic Design, HTML5, Handlebars, Java, JavaScript, Jenkins, Jest, Jira, Kanban, Kubernetes, LangChain, Leadership, Linux, MCP Server, MSSQL, Materialize, Matplotlib, MeiliSearch, Microservices, Microsoft Excel, Microsoft PowerPoint, Microsoft Windows, MongoDB, Mustache, MySQL, NoSQL, Node.js, NumPy, OOAD, Office 365, PHP, PWA, Pandas, Performance Management, PhoneGap, Pinecone, PlantUML, PostgreSQL, Power BI, PowerShell, Presentation Skills, Problem Solving, Project Management, Prometheus, Puppet, Puppeteer, Python, Quality Assurance, RAG, RTMP, React, Redis, Robot Framework, Rust, SDLC, SOA, SQLite, Scrum, Selenium, SharePoint, SourceTree, Stakeholder Management, Supply Chain Management, Svelte, TDengine, Trello, TypeScript, UPnP, VBA, VirtualBox, WebAssembly, WebRTC, Zendesk, i18next, iOS, jQuery, webpack
+── All Skills (121) ──
+.NET, .NET Core, A2A Protocol, AWS, Agile, Android, Angular, Apache Flex, Apache Maven, Azure, Bash, Bitbucket, Bootstrap, C#, C++, CI/CD, CSS3, Communication, Confluence, Cordova, Creativity, Cross-functional Collaboration, Crucible, Dart, Deno, DevOps, Disaster Recovery, Docker, ELK Stack, Express.js, Flask, GCP, Git, GitHub, GitLab, Go, Google Workspace, Gradle, Grafana, GraphQL, Graphic Design, HTML5, Handlebars, JSON, Java, JavaScript, Jenkins, Jest, Jira, Kanban, Kubernetes, LangChain, Leadership, Linux, MCP Server, MSSQL, Materialize, Matplotlib, MeiliSearch, Microservices, Microsoft Excel, Microsoft PowerPoint, Microsoft Windows, MongoDB, Mustache, MySQL, NoSQL, Node.js, NumPy, OOAD, Office 365, PHP, PWA, Pandas, Performance Management, PhoneGap, Pinecone, PlantUML, PostgreSQL, Power BI, PowerShell, Presentation Skills, Problem Solving, Project Management, Prometheus, Puppet, Puppeteer, Python, Quality Assurance, RAG, RTMP, React, Redis, Robot Framework, Rust, SASS, SDLC, SOA, SQLite, SVN, Scrum, Selenium, SharePoint, SourceTree, Stakeholder Management, Supply Chain Management, Svelte, TDengine, Trello, TypeScript, UPnP, VBA, VirtualBox, WebAssembly, WebRTC, XML, Zendesk, i18next, iOS, jQuery, webpack
 
 ── By Category ──
   ai_ml                          ['Matplotlib', 'NumPy', 'Pandas']
@@ -49,7 +49,7 @@ Method         : flashtext_skills_section | fuzzy(Project Delivery→Project Man
   database                       ['MSSQL', 'Materialize', 'MeiliSearch', 'MongoDB', 'MySQL', 'NoSQL', 'PostgreSQL', 'Redis', 'SQLite', 'TDengine']
   design                         ['Graphic Design']
   dev_tool                       ['Apache Maven', 'Bitbucket', 'Crucible', 'Git', 'GitHub', 'GitLab', 'PhoneGap', 'PlantUML', 'Puppeteer', 'SourceTree']
-  devops                         ['CI/CD', 'DevOps', 'Docker', 'ELK Stack', 'Grafana', 'Jenkins', 'Kubernetes', 'Prometheus', 'Puppet']
+  devops                         ['CI/CD', 'DevOps', 'Docker', 'ELK Stack', 'Grafana', 'Jenkins', 'Kubernetes', 'Prometheus', 'Puppet', 'SVN']
   genai                          ['A2A Protocol', 'LangChain', 'MCP Server', 'RAG']
   hr                             ['Performance Management']
   integration                    ['Office 365', 'RTMP', 'SharePoint', 'UPnP']
@@ -64,4 +64,4 @@ Method         : flashtext_skills_section | fuzzy(Project Delivery→Project Man
   soft_skill                     ['Communication', 'Creativity', 'Cross-functional Collaboration', 'Leadership', 'Presentation Skills', 'Problem Solving', 'Stakeholder Management']
   support                        ['Zendesk']
   testing                        ['Jest', 'Robot Framework', 'Selenium']
-  web_framework                  ['.NET Core', 'Angular', 'Apache Flex', 'Bootstrap', 'CSS3', 'Express.js', 'Flask', 'GraphQL', 'HTML5', 'Handlebars', 'Mustache', 'Node.js', 'PWA', 'React', 'Svelte', 'WebAssembly', 'WebRTC', 'i18next', 'jQuery', 'webpack']
+  web_framework                  ['.NET Core', 'Angular', 'Apache Flex', 'Bootstrap', 'CSS3', 'Express.js', 'Flask', 'GraphQL', 'HTML5', 'Handlebars', 'JSON', 'Mustache', 'Node.js', 'PWA', 'React', 'SASS', 'Svelte', 'WebAssembly', 'WebRTC', 'XML', 'i18next', 'jQuery', 'webpack']

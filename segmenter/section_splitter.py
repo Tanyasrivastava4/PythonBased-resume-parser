@@ -35,8 +35,7 @@ _SKILLS_PATTERN = re.compile(
 _PROJECTS_PATTERN = re.compile(
     r"^(?:(personal\s+|side\s+|key\s+|notable\s+|academic\s+|live\s+)?projects?"
     r"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){0,2})?"
-    r"|portfolio"
-    r"|projects?\s*#?\s*\d+)$",
+    r"|portfolio)$",
     re.IGNORECASE
 )
 
@@ -129,6 +128,12 @@ _LIST_SECTION_LABELS = {
     "languages", "projects", "interests", "strengths", "experience",
     "early_career",
 }
+
+
+_SUB_PROJECT_HEADER_RE = re.compile(
+    r"^(project\s*#?\s*\d+|project\s+title|project\s+description|project\s+name|project\s+code)\b",
+    re.IGNORECASE
+)
 
 
 _SECTION_KEYWORDS = [
@@ -726,6 +731,10 @@ def split_into_sections(text: str) -> list:
                     label = fuzzy_label
                     confidence = 0.8
 
+        if label == "projects" and current_label == "experience":
+            if _SUB_PROJECT_HEADER_RE.match(stripped):
+                label = None
+
         if label is None and stripped != "":
             if not _is_wrapped_word(stripped, lines[:i]):
                 # GUARD (see REVISION note below): none of these three
@@ -822,15 +831,9 @@ def split_into_sections(text: str) -> list:
             confidence = 0.8
 
         if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
-            # NEW GUARD (see _achievements_heading_is_injob docstring):
-            # a confident "achievements"/"Key Achievements" match while
-            # already inside experience gets a lookahead check BEFORE
-            # the old confidence<0.9 rule below even runs -- this is
-            # the one case that rule was letting through, because an
-            # exact "Key Achievements" heading scores full (0.95)
-            # confidence via detect_section_label(), not the low
-            # confidence the old rule assumed an in-job subheading
-            # would have.
+            if label == "projects" and _SUB_PROJECT_HEADER_RE.match(stripped):
+                current_lines.append(line)
+                continue
             if label == "achievements" and _achievements_heading_is_injob(i, lines):
                 current_lines.append(line)
                 continue

@@ -26,26 +26,27 @@ Certificate for Developing Application “BOOK DISTRIBUTION MANAGEMENT V1.0” f
 Done Training in AWS.
 
 ── Extraction Results ──
-Skills found   : 36
+Skills found   : 53
 Confidence     : 0.92
-Time           : 173.62 ms
+Time           : 163.98 ms
 Method         : flashtext_skills_section | fuzzy(Spring Cloud→Spring(100%), Java SE→Java(100%), HTML→HTML5(100%), Windows 7→Microsoft Windows(95%), Maven→Apache Maven(100%)...)
 
-── All Skills (36) ──
-API Design, AWS, Agile, Analytical Thinking, Apache JMeter, Apache Maven, Azure, Bash, Bitbucket, Communication, Confluence, Eclipse IDE, Git, GitHub, HTML5, IBM DB2, IBM WebSphere MQ, Java, Jenkins, Jira, Linux, Microsoft Excel, Microsoft PowerPoint, Microsoft Windows, Microsoft Windows XP, Microsoft Word, Mulesoft, PostgreSQL, RabbitMQ, SQL, ServiceNow, SharePoint, Spring, Spring Boot, Waterfall, WinSCP
+── All Skills (53) ──
+API Design, AWS, AWS API Gateway, Agile, Analytical Thinking, Apache Maven, Azure, Bash, Bitbucket, Communication, Confluence, Eclipse, Git, GitHub, HTML5, Hibernate, IBM DB2, IBM WebSphere MQ, IntelliJ IDEA, J2EE, JDBC, JMS, JMeter, JSF, JSP, Java, Jenkins, Jira, Linux, Liquibase, Microsoft Excel, Microsoft PowerPoint, Microsoft Windows, Microsoft Windows XP, Microsoft Word, Mulesoft, PgAdmin, PostgreSQL, REST, RabbitMQ, SOAP, SQL, SVN, ServiceNow, Servlets, SharePoint, Spring, Spring Boot, TablePlus, Waterfall, WinSCP, XHTML, XML
 
 ── By Category ──
   architecture                   ['API Design']
-  cloud_infra                    ['AWS', 'Azure', 'IBM WebSphere MQ']
+  cloud_infra                    ['AWS', 'AWS API Gateway', 'Azure', 'IBM WebSphere MQ']
   collaboration                  ['Confluence']
   data_engineering               ['RabbitMQ']
-  database                       ['IBM DB2', 'PostgreSQL', 'SQL']
-  dev_tool                       ['Apache Maven', 'Bitbucket', 'Eclipse IDE', 'Git', 'GitHub', 'WinSCP']
-  devops                         ['Jenkins']
-  integration                    ['Mulesoft', 'ServiceNow', 'SharePoint']
+  database                       ['IBM DB2', 'JDBC', 'Liquibase', 'PgAdmin', 'PostgreSQL', 'SQL', 'TablePlus']
+  dev_tool                       ['Apache Maven', 'Bitbucket', 'Eclipse', 'Git', 'GitHub', 'IntelliJ IDEA', 'WinSCP']
+  devops                         ['Jenkins', 'SVN']
+  integration                    ['JMS', 'Mulesoft', 'REST', 'ServiceNow', 'SharePoint']
   os_system                      ['Bash', 'Linux', 'Microsoft Windows', 'Microsoft Windows XP']
   productivity                   ['Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
-  programming_language           ['Apache JMeter', 'Java']
+  programming_language           ['J2EE', 'Java']
   project_mgmt                   ['Agile', 'Jira', 'Waterfall']
   soft_skill                     ['Analytical Thinking', 'Communication']
-  web_framework                  ['HTML5', 'Spring', 'Spring Boot']
+  testing                        ['JMeter']
+  web_framework                  ['HTML5', 'Hibernate', 'JSF', 'JSP', 'SOAP', 'Servlets', 'Spring', 'Spring Boot', 'XHTML', 'XML']

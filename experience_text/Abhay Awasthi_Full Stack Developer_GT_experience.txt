@@ -15,31 +15,31 @@ Worked at Indian Council of Medical Research (ICMR)...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 5
-Confidence     : 0.85
+Confidence     : 0.79
 Needs review   : True
 Total exp      : 6.1 years (73 months, 2 overlapping periods merged)
 
 Entry 1
-  Role         : Worked at Morbous Technologies Pvt. Ltd. as a PHP Developer
-  Company      : None
+  Role         : Worked
+  Company      : Morbous Technologies Pvt. Ltd. as a PHP Developer
   Location     : None
   Start - End  : July 2018 - Dec 2018
   Duration     : 6 months
   Bullets      : 0
-  Method       : date_regex+title_dict
-  Confidence   : 0.85
+  Method       : date_regex+at_split
+  Confidence   : 0.7
   Needs Review : True
 
 Entry 2
-  Role         : Worked at Holistic Partners as a PHP Developer .
-  Company      : None
+  Role         : Worked
+  Company      : Holistic Partners as a PHP Developer ().
   Location     : None
   Start - End  : Dec 2018 - Jun 2020
   Duration     : 19 months
   Bullets      : 1
     • Worked at IME Department in IIT Kanpur as a Asst.
-  Method       : date_regex+title_dict
-  Confidence   : 0.85
+  Method       : date_regex+at_split
+  Confidence   : 0.7
   Needs Review : True
 
 Entry 3
@@ -54,13 +54,13 @@ Entry 3
   Needs Review : True
 
 Entry 4
-  Role         : Delhi as a Project Scientist- I .
-  Company      : Worked at Indian Council of Medical Research  in
+  Role         : Worked
+  Company      : Indian Council of Medical Research (ICMR) in
   Location     : None
   Start - End  : May 2023 - June 2024
   Duration     : 14 months
   Bullets      : 0
-  Method       : date_regex+title_dict
+  Method       : date_regex+at_split
   Confidence   : 0.7
   Needs Review : True
 

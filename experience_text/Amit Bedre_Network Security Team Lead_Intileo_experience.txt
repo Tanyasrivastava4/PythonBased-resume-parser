@@ -12,13 +12,13 @@ Handing M...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 3
-Confidence     : 0.94
+Confidence     : 0.89
 Needs review   : True
 Total exp      : 10.4 years (125 months, 0 overlapping periods merged)
 
 Entry 1
-  Role         : Network Engineer L2- ABC Ltd.	 Aug 2023
-  Company      : Dec 2024
+  Role         : Network Engineer L2- ABC Ltd.	 Aug 20
+  Company      : None
   Location     : None
   Start - End  : Dec 2024 - Aug 2025
   Duration     : 9 months
@@ -27,9 +27,9 @@ Entry 1
     • Configuration of Huawei, cisco, Firewall, ZTE switches configuration.
     • Providing L1 support to configure Forti-Gate firewall
   Sub-sections : ['Handing Mpls4G network', 'Handling Microsoft Operation with new delivery. Installing new AVADA mux card', 'Proactively handling escalations from end customers and clients, mitigating issues to maintain service quality.', 'Ensuring rigorous internal controls and process compliance across IT organizations through regular audits and assessments.', 'Orchestrating key activities including business movements, migrations, mass deployments, and new business setups.', 'Compiling and preparing detailed reports, ensuring optimal performance, and meticulously maintaining records of service level agreements for customers.', 'Coordinating with NOC (Network Operations Centre) and RE/SAM (Regional Engineering/Service Assurance Management) for root cause analysis and resolution of repeat ticket incidents.', 'Project Manager- DEF Ltd.', 'As a Project Manager at Reecomps Teleservices, responsible for the end-to-end management of telecom projects, ensuring timely delivery, budget control, and high-quality implementation of network solutions. Acts as the primary point of contact between clients, vendors, and internal teams to deliver telecom infrastructure projects aligned with business goals.', 'Plan, execute, and manage telecom projects from initiation to closure, ensuring adherence to timelines, scope, and budget.• Manage project lifecycle including requirement gathering, planning, resource allocation, execution, monitoring, and final delivery.', 'Coordinate with clients, vendors, and internal teams (Network Engineers, Field Engineers, Operations) to ensure seamlessproject execution.', 'Define project scope, goals, deliverables, and resource requirements.', 'Monitor and track project progress using project management tools and KPIs.', 'Manage risks, identify potential bottlenecks, and implement mitigation strategies.', 'Ensure projects comply with telecom industry standards, safety regulations, and internal policies.', 'Facilitate regular project status meetings and communicate project progress to stakeholders.', 'Prepare and maintain detailed project documentation, including project plans, schedules, budgets, and reports.', 'Oversee installation, commissioning, and testing of network equipment (routers, switches, fiber installations).', 'Handle vendor management, procurement of materials, and budget tracking.', 'Manage multiple projects simultaneously, ensuring on-time delivery without compromising quality.', 'Ensure customer satisfaction by addressing queries, resolving issues, and providing regular updates.', 'Post-project analysis and documentation of lessons learned for process improvements.']
-  Method       : date_regex+dash_split
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+title_dict
+  Confidence   : 0.85
+  Needs Review : True
 
 Entry 2
   Role         : Network Engineer- XYZ Ltd.

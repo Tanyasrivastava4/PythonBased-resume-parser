@@ -26,15 +26,15 @@ e Language: Hindi, English
 knowledge and belief.
 
 ── Extraction Results ──
-Skills found   : 5
+Skills found   : 6
 Confidence     : 0.92
-Time           : 131.25 ms
-Method         : flashtext_skills_section | fuzzy(Nessus.→Nessus(92%), NMAP.→Nmap(89%), Nessus.→Nessus(92%), NMAP→Nmap(100%), English ¢→English(95%))
+Time           : 138.93 ms
+Method         : flashtext_skills_section | fuzzy(Nessus.→Nessus(92%), NMAP.→Nmap(89%), AppScan→IBM AppScan(100%), Nessus.→Nessus(92%), NMAP→Nmap(100%)...)
 
-── All Skills (5) ──
-CEH, English, Hindi, Nessus, Nmap
+── All Skills (6) ──
+CEH, English, Hindi, IBM AppScan, Nessus, Nmap
 
 ── By Category ──
   language                       ['English', 'Hindi']
-  security                       ['Nmap']
+  security                       ['IBM AppScan', 'Nmap']
   security_ops                   ['CEH', 'Nessus']

@@ -13,13 +13,13 @@ SKILLS EXTRACTED FROM: segmented_text/S.A. Matheen_Full stack web security patch
 • Project:3:
 
 ── Extraction Results ──
-Skills found   : 29
+Skills found   : 32
 Confidence     : 0.92
-Time           : 34.84 ms
+Time           : 33.49 ms
 Method         : flashtext_skills_section | fuzzy(Node JS.→Node.js(93%), CloudWatch→AWS CloudWatch(100%), Azure App Services→Azure App Service(94%), Azure SQL.→Azure SQL(95%), Maven→Apache Maven(100%)...)
 
-── All Skills (29) ──
-AWS CloudWatch, AWS EKS, Agile, Apache Maven, Azure, Azure App Service, Azure SQL, CSS3, Docker, Git, GitHub, HTML5, Java, JavaScript, Jenkins, Jira, Kubernetes, Microservices, MySQL, Node.js, PostgreSQL, Postman, React, SQL, Scrum, Spring, Spring Boot, TypeScript, VS Code
+── All Skills (32) ──
+AWS CloudWatch, AWS EKS, Agile, Apache Maven, Azure, Azure App Service, Azure SQL, CSS3, Docker, Git, GitHub, HTML5, Hibernate, Java, JavaScript, Jenkins, Jira, Kubernetes, Material UI, Microservices, MySQL, Node.js, PostgreSQL, Postman, REST, React, SQL, Scrum, Spring, Spring Boot, TypeScript, VS Code
 
 ── By Category ──
   architecture                   ['Microservices']
@@ -27,6 +27,7 @@ AWS CloudWatch, AWS EKS, Agile, Apache Maven, Azure, Azure App Service, Azure SQ
   database                       ['Azure SQL', 'MySQL', 'PostgreSQL', 'SQL']
   dev_tool                       ['Apache Maven', 'Git', 'GitHub', 'Postman', 'VS Code']
   devops                         ['Docker', 'Jenkins', 'Kubernetes']
+  integration                    ['REST']
   programming_language           ['Java', 'JavaScript', 'TypeScript']
   project_mgmt                   ['Agile', 'Jira', 'Scrum']
-  web_framework                  ['CSS3', 'HTML5', 'Node.js', 'React', 'Spring', 'Spring Boot']
+  web_framework                  ['CSS3', 'HTML5', 'Hibernate', 'Material UI', 'Node.js', 'React', 'Spring', 'Spring Boot']

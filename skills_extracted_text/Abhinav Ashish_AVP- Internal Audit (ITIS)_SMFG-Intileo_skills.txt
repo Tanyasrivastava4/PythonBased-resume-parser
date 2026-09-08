@@ -15,13 +15,15 @@ Management Systems
 Tools, VAPT
 
 ── Extraction Results ──
-Skills found   : 1
-Confidence     : 0.75
-Time           : 15.04 ms
+Skills found   : 7
+Confidence     : 0.92
+Time           : 11.61 ms
 Method         : flashtext_skills_section
 
-── All Skills (1) ──
-VAPT
+── All Skills (7) ──
+BI Tools, Business Continuity Management, Cyber Security Governance, GRC, ISMS, Information Systems Audit, VAPT
 
 ── By Category ──
-  security_ops                   ['VAPT']
+  data_science                   ['BI Tools']
+  operations                     ['Business Continuity Management']
+  security_ops                   ['Cyber Security Governance', 'GRC', 'ISMS', 'Information Systems Audit', 'VAPT']

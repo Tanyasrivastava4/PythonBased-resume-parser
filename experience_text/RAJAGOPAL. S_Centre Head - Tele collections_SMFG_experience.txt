@@ -11,7 +11,7 @@ Jul 2017 to Nov 2017 Riddhi Corporate Services ...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 13
-Confidence     : 0.88
+Confidence     : 0.85
 Needs review   : True
 Total exp      : 20.9 years (251 months, 9 overlapping periods merged)
 
@@ -21,22 +21,21 @@ Entry 1
   Location     : None
   Start - End  : Mar 2023 - till date
   Duration     : 43 months
-  Bullets      : 1
-    • Dec 2018 till Feb 2023 Alphentrix Global Services Pvt Ltd – Senior Manager Collections cum operation.
+  Bullets      : 0
   Method       : date_regex+dash_split
   Confidence   : 0.98
   Needs Review : False
 
 Entry 2
-  Role         : Collection Officer
-  Company      : First Abu Dhabi Bank
+  Role         : Senior Manager Collections cum operation.
+  Company      : Dec 2018 till Feb 2023 Alphentrix Global Services Pvt Ltd
   Location     : None
   Start - End  : Mar 2018 - Dec 2018
   Duration     : 10 months
   Bullets      : 0
   Method       : date_regex+dash_split
-  Confidence   : 0.98
-  Needs Review : False
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 3
   Role         : Business Development Manager.

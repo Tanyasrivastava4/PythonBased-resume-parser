@@ -11,8 +11,8 @@ identity environments; managed incident lifecycles in ServiceNow with 100...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 2
-Confidence     : 0.92
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 3.8 years (45 months, 1 overlapping periods merged)
 
 Entry 1
@@ -34,13 +34,13 @@ Entry 1
   Needs Review : False
 
 Entry 2
-  Role         : Intern at PricewaterhouseCoopers Services LLP- PwC India
-  Company      : None
+  Role         : Intern
+  Company      : PricewaterhouseCoopers Services LLP- PwC India
   Location     : None
   Start - End  : Jan 2023 - July 2023
   Duration     : 7 months
   Bullets      : 1
     • Security Monitoring & Incident Documentation: Managed initial threat detection and alert triage within the SIEM environment, analyzing network and endpoint telemetry to identify potential IOCs; documented investigation findings and performed initial analysis to support rapid incident containment and closure.
-  Method       : date_regex+title_dict
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False

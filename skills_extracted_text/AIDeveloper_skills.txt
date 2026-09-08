@@ -13,24 +13,22 @@ Web Dev: React.js, Node.js, Express.js, FastAPI, Version control: Git, Github
 Redis, Kafka Cloud: AWS(EC2, S3, Elastic Cache), GCP, Docker
 
 ── Extraction Results ──
-Skills found   : 43
+Skills found   : 46
 Confidence     : 0.92
-Time           : 47.67 ms
-Method         : flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), ClaudeCode→Claude Code(100%), HuggingFace→Hugging Face(100%), make.com→Make(100%))
+Time           : 40.27 ms
+Method         : flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), ClaudeCode→Claude Code(100%), HuggingFace→Hugging Face(100%), make.com→Make(100%), Elastic Cache→AWS ElastiCache(100%))
 
-── All Skills (43) ──
-AWS, AWS EC2, AWS S3, Apache Kafka, Caching, Claude Code, Cursor, Docker, Elasticsearch, ElevenLabs, Express.js, FastAPI, GCP, GPT, Gemini, Git, GitHub, GitHub Copilot, GraphDB, GraphRAG, Groq, Hugging Face, JavaScript, LLM, LangChain, LangGraph, LlamaIndex, MCP Server, Make, MongoDB, MySQL, Node.js, Ollama, Prompt Engineering, Python, RAG, React, Redis, Supabase, TypeScript, Vector Databases, Zapier, n8n
+── All Skills (46) ──
+AWS, AWS EC2, AWS ElastiCache, AWS S3, Agentic AI, Antigravity, Apache Kafka, Claude Code, Cursor, Docker, ElevenLabs, Express.js, FastAPI, GCP, GPT, Gemini, Git, GitHub, GitHub Copilot, GraphDB, GraphRAG, Groq, Hugging Face, JavaScript, LLM, LangChain, LangGraph, LlamaIndex, MCP Server, Make, MiniMax, MongoDB, MySQL, Node.js, Ollama, Prompt Engineering, Python, RAG, React, Redis, Supabase, TypeScript, UltraRAG, Vector Databases, Zapier, n8n
 
 ── By Category ──
   ai_ml                          ['GPT']
-  architecture                   ['Caching']
-  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3', 'GCP']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS ElastiCache', 'AWS S3', 'GCP']
   data_engineering               ['Apache Kafka']
   database                       ['GraphDB', 'MongoDB', 'MySQL', 'Redis', 'Supabase']
   dev_tool                       ['Claude Code', 'Cursor', 'Git', 'GitHub']
   devops                         ['Docker']
-  genai                          ['ElevenLabs', 'Gemini', 'GitHub Copilot', 'GraphRAG', 'Groq', 'Hugging Face', 'LLM', 'LangChain', 'LangGraph', 'LlamaIndex', 'MCP Server', 'Ollama', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  genai                          ['Agentic AI', 'Antigravity', 'ElevenLabs', 'Gemini', 'GitHub Copilot', 'GraphRAG', 'Groq', 'Hugging Face', 'LLM', 'LangChain', 'LangGraph', 'LlamaIndex', 'MCP Server', 'MiniMax', 'Ollama', 'Prompt Engineering', 'RAG', 'UltraRAG', 'Vector Databases']
   programming_language           ['JavaScript', 'Python', 'TypeScript']
   rpa                            ['Make', 'Zapier', 'n8n']
-  search                         ['Elasticsearch']
   web_framework                  ['Express.js', 'FastAPI', 'Node.js', 'React']

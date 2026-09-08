@@ -13,21 +13,22 @@ Version Control & CI/CD: Git, GitHub, Azure DevOps, Jenkins, Jira
 Monitoring & Observability: OpenTelemetry, Grafana, APM
 
 ── Extraction Results ──
-Skills found   : 32
+Skills found   : 36
 Confidence     : 0.92
-Time           : 79.28 ms
-Method         : flashtext_skills_section | fuzzy(gRPC APIs→gRPC(94%), FAST API→FastAPI(100%), Athena→AWS Athena(100%))
+Time           : 74.42 ms
+Method         : flashtext_skills_section | fuzzy(gRPC APIs→gRPC(94%), FAST API→FastAPI(100%), Athena→AWS Athena(100%), pgAdmin→PgAdmin(100%))
 
-── All Skills (32) ──
-AWS, AWS Athena, AWS S3, Apache Hive, Azure DevOps, Bash, C#, CI/CD, Databricks, Docker, FastAPI, Git, GitHub, Grafana, Jenkins, Jira, Kubernetes, MSSQL, Microservices, MongoDB, Observability, Oracle SQL Developer, PostgreSQL, Postman, PySpark, Python, SQL, Snowflake, SonarQube, VS Code, Visual Studio, gRPC
+── All Skills (36) ──
+AWS, AWS Athena, AWS S3, Azure DevOps, Bash, C#, CI/CD, Databricks, Docker, FastAPI, Git, GitHub, Grafana, Hive Metastore, Jenkins, Jira, Kubernetes, MSSQL, Microservices, MongoDB, Observability, OpenTelemetry, Oracle SQL Developer, PgAdmin, PostgreSQL, Postman, PyCharm, PySpark, Python, REST, SQL, Snowflake, SonarQube, VS Code, Visual Studio, gRPC
 
 ── By Category ──
   architecture                   ['Microservices']
   cloud_infra                    ['AWS', 'AWS Athena', 'AWS S3']
-  data_engineering               ['Apache Hive', 'Databricks']
-  database                       ['MSSQL', 'MongoDB', 'PostgreSQL', 'PySpark', 'SQL', 'Snowflake']
-  dev_tool                       ['Git', 'GitHub', 'Oracle SQL Developer', 'Postman', 'VS Code', 'Visual Studio']
-  devops                         ['Azure DevOps', 'CI/CD', 'Docker', 'Grafana', 'Jenkins', 'Kubernetes', 'Observability']
+  data_engineering               ['Databricks', 'Hive Metastore']
+  database                       ['MSSQL', 'MongoDB', 'PgAdmin', 'PostgreSQL', 'PySpark', 'SQL', 'Snowflake']
+  dev_tool                       ['Git', 'GitHub', 'Oracle SQL Developer', 'Postman', 'PyCharm', 'VS Code', 'Visual Studio']
+  devops                         ['Azure DevOps', 'CI/CD', 'Docker', 'Grafana', 'Jenkins', 'Kubernetes', 'Observability', 'OpenTelemetry']
+  integration                    ['REST']
   os_system                      ['Bash']
   programming_language           ['C#', 'Python']
   project_mgmt                   ['Jira']

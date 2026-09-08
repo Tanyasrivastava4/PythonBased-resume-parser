@@ -74,22 +74,23 @@ Processes: Incident, Problem, Change Management - process optimization and autom
 •
 
 ── Extraction Results ──
-Skills found   : 61
+Skills found   : 68
 Confidence     : 0.92
-Time           : 388.87 ms
+Time           : 384.36 ms
 Method         : flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%), RHEL→Linux(100%), Debian→Linux(100%), CentOS→Linux(100%), Fedora→Linux(100%)...)
 
-── All Skills (61) ──
-AWS, AWS Amplify, AWS Athena, Active Directory, Ansible, Apache Airflow, Auditing, Azure, Azure DevOps, BCP, Budgeting, CI/CD, Change Management, Collaboration, Confluence, Cost Analysis, DLP, DevOps, DigitalOcean, Disaster Recovery, Docker, ETL, Endpoint Security, Firewall, GCP, GitHub Actions, Go, Hyper-V, Jenkins, Jira, Kubernetes, Linux, MSSQL, McAfee, Microsoft Defender, Microsoft Sentinel, Microsoft Teams, Microsoft Windows, Microsoft Windows Server, MongoDB, NIST, Network Security, Networking, Nginx, NoSQL, Office 365, Performance Monitoring, Performance Optimization, Process Improvement, Proxy, PySpark, Regulatory Compliance, SIEM, ServiceNow, SharePoint, SonicWall, Technical Support, Terraform, Ubuntu, VMware, VPN
+── All Skills (68) ──
+AWS, AWS Amplify, AWS Athena, AWS CodePipeline, Abnormal Security, Acronis, Active Directory, Ansible, Apache Airflow, Auditing, Azure, Azure DevOps, BCP, Budgeting, CI/CD, Change Management, Collaboration, Confluence, Cost Analysis, DLP, DevOps, DigitalOcean, Disaster Recovery, Docker, ETL, Endpoint Security, Firewall, GCP, GitHub Actions, Go, Hyper-V, Jenkins, Jira, Kubernetes, LDAP, Linux, MSSQL, McAfee, Microsoft Defender, Microsoft Sentinel, Microsoft Teams, Microsoft Windows, Microsoft Windows Server, MongoDB, NIST, Network Security, Networking, Nginx, NoSQL, Office 365, Performance Monitoring, Performance Optimization, Process Improvement, Proxy, PySpark, Regulatory Compliance, Routing & Switching, SCADA, SIEM, ServiceNow, SharePoint, SonicWall, Technical Support, Terraform, Ubuntu, VLAN, VMware, VPN
 
 ── By Category ──
   biz_dev                        ['Networking']
-  cloud_infra                    ['AWS', 'AWS Amplify', 'AWS Athena', 'Azure', 'DigitalOcean', 'GCP', 'Hyper-V', 'Microsoft Windows Server', 'VMware']
+  cloud_infra                    ['AWS', 'AWS Amplify', 'AWS Athena', 'Azure', 'DigitalOcean', 'GCP', 'Hyper-V', 'Microsoft Windows Server', 'Routing & Switching', 'VLAN', 'VMware']
   collaboration                  ['Confluence']
   data_engineering               ['Apache Airflow', 'ETL']
   database                       ['MSSQL', 'MongoDB', 'NoSQL', 'PySpark']
   dev_tool                       ['Performance Optimization']
-  devops                         ['Ansible', 'Azure DevOps', 'CI/CD', 'DevOps', 'Docker', 'GitHub Actions', 'Jenkins', 'Kubernetes', 'Nginx', 'Terraform']
+  devops                         ['AWS CodePipeline', 'Ansible', 'Azure DevOps', 'CI/CD', 'DevOps', 'Docker', 'GitHub Actions', 'Jenkins', 'Kubernetes', 'Nginx', 'Terraform']
+  engineering_hardware           ['SCADA']
   finance_ops                    ['Auditing', 'Budgeting', 'Cost Analysis']
   integration                    ['Office 365', 'ServiceNow', 'SharePoint']
   legal                          ['Regulatory Compliance']
@@ -98,7 +99,7 @@ AWS, AWS Amplify, AWS Athena, Active Directory, Ansible, Apache Airflow, Auditin
   productivity                   ['Microsoft Teams']
   programming_language           ['Go']
   project_mgmt                   ['Change Management', 'Jira']
-  security                       ['McAfee']
+  security                       ['Abnormal Security', 'Acronis', 'LDAP', 'McAfee']
   security_ops                   ['Active Directory', 'DLP', 'Endpoint Security', 'Firewall', 'Microsoft Defender', 'Microsoft Sentinel', 'NIST', 'Network Security', 'Proxy', 'SIEM', 'SonicWall', 'VPN']
   soft_skill                     ['Collaboration']
   support                        ['Technical Support']

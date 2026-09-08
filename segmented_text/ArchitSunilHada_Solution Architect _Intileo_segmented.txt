@@ -53,30 +53,17 @@ Well versed in working with both waterfall and Agile models of SDLC.
 LABEL: experience   CONFIDENCE: 0.95   START LINE: 42
 ────────────────────────────────────────────────────────────
 IGATE Global Solutions Limited			 15th March 2012 – 02nd February 2015
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 45
-────────────────────────────────────────────────────────────
+Project#1
 Project Title eXPD2 (Web team)
 Duration Oct 2012 – Feb 2013
 Role Java Developer
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 48
-────────────────────────────────────────────────────────────
+Project Description
 Gexpro is a world-class electrical products supplier. The project contains different applications supporting day-to-day business functions at sales and distribution facilities located throughout the United States. It is said to be an “OSB” system, but it is an ERP system, covering all the important functions like Supply Chain, Inventory Management, Order-ship-bill, Price-cost management etc.
 Project#2
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 51
-────────────────────────────────────────────────────────────
 Project Title MetLifeMetCompliance (Internal Portal)
 Duration April 2013 – August 2013
 Role Java Developer
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 54
-────────────────────────────────────────────────────────────
+Project Description
 This project is developed from the scratch. User of this application are top level management of the account. The main purpose of this application is to provide a web based application using which Metlife project managers will be able to view and export consolidated report of their employees along with their respective Exhibit C forms. They will also be able to update few employee details like ‘Consultant ID’, ‘Metnet ID’.
 Project#3
 Project Title Metlife Alico eServices.
@@ -84,15 +71,8 @@ Duration August 2013 – Feb 2015
 Role Java Developer
 Project Description
 MetLife ALICO eServices Portal is a web application used by Members, Policy Holders and Intermediaries (Agents/Brokers) in the Gulf region. The Portal provides multiple functional features for all these user groups. The application required some additional features along with some enhancement in the existing functionality.
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.9   START LINE: 62
-────────────────────────────────────────────────────────────
 Capgemini Consulting India Pvt. Ltd.			     16th February 2015 – 23rd April 2021
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.95   START LINE: 63
-────────────────────────────────────────────────────────────
+Project#1
 Project Title MBCPOS(Mercedes Benz Point Of Sales)
 Duration Feb 2015-Oct2019
 Role Java,UI Developer
@@ -100,93 +80,48 @@ Project Description
 It’s a point of sales application for Mercedes Benz.It is being used by Dealers across different countries like UK,Turkey,Switzerland etc for selling of the Mercedes Benz Cars.
 This Application configures car do Sales Lead Management and also provides an Order Offering System.This Application is connected to 28 different systems to get various information like Financial,Car parts etc.
 Project#2
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 71
-────────────────────────────────────────────────────────────
 Project Title Artifical Transformation Hub(THub)
 Duration Oct 2019- Jan 2020
 Role Java Developer
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 74
-────────────────────────────────────────────────────────────
+Project Description
 It is a Transformation Hub which is used to translate the OV(Opel Vauxhall) vehicles related data so the warranty claim system(SAGAI) can used to process the warranty claims.
 Here the THub receives the vehicle,parts and Labour data from 2 different systems and translate the same and provides the data to Warranty Claim system.
 Project#3
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 78
-────────────────────────────────────────────────────────────
 Project Title Application Development Centre
 Duration Jan 2020-Present
 Role Microservices Developer
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 81
-────────────────────────────────────────────────────────────
+Project Description
 Here various microservices are being created using Spring Boot.
 Basically, a Pub Sub Mechanism is created where a subscriber subscribes for a particular resource and an event.
 The Publisher publishes the information on RabbitMQ and Subscriber listens to the queue and get the information on their webhook URL.
 Two types of subscription are available here Continuous and Polling
 So various APIs had been exposed here for publising, subscribing,revoking,registering various information.
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.9   START LINE: 87
-────────────────────────────────────────────────────────────
 Price Waterhouse Coopers (PWC)       			     26th April 2021 – 15 Nov 2023
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 89
-────────────────────────────────────────────────────────────
+Project#1
 Project Title Axis
 Duration May 2021 – Nov 2021
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 91
-────────────────────────────────────────────────────────────
+Project Description
 Role Java Developer,UI Developer,Intergation Lead
 Its a Bancassurance Project.Axis had a front end through which they connect to middleware.
 Midleware connects to Bharti Axa insurance through which Policies has been buyed and payment had been done.All the Transactional level details are being stored on Middleware which is a spring boot hosted on premises server.
 Project#2
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 96
-────────────────────────────────────────────────────────────
 Project Title Aditya Birla Life Insurance
 Duration Dec 2021 –  Jan2022
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 98
-────────────────────────────────────────────────────────────
+Project Description
 Role Integration Lead(ESB)
 Its a Bancassurance Project.Various Portal connects to ESB which is a Microsoft Biz talk server
 which is returns connects to Downstream application. All the data to downstream has to route to ESB.ESB maps the Data which is received from portals and pass it to downstream application.
 Project#3
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.85   START LINE: 103
-────────────────────────────────────────────────────────────
 Project Title IDFC Bancassurance Project
 Duration Feb 2022 –  Nov 2023
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.8   START LINE: 105
-────────────────────────────────────────────────────────────
+Project Description
 Role Technical Manager
 IDFC FIRST Bank intends to setup Bancassurance platform with all its tied-up insurers across categories Health & Savings.
 Its a Bancansurance Project.Backend is being developed in Java.
 The frontend customized journeys for the Assisted channel would be through Salesforce platform and for the unassisted (D2C) channel same would be driven through React.
 Mainly branch personnel such as Relationship Manager (RM) / Lead Generator (LG) who will be assisting customers during issuance journey would use the Salesforce platform. For assisted channels, each application would require approval from assigned Specified Person (SP). If a SP himself is performing the journey, approval won't be required to sell the insurance products to customers.
-
-────────────────────────────────────────────────────────────
-LABEL: experience   CONFIDENCE: 0.9   START LINE: 111
-────────────────────────────────────────────────────────────
 Liberty General Insurance 		      			     13th Nov 2023 – current
-
-────────────────────────────────────────────────────────────
-LABEL: projects   CONFIDENCE: 0.95   START LINE: 112
-────────────────────────────────────────────────────────────
+Project#1
 Project Title BBPS
 Project Description
 Role Integration Architect
@@ -247,4 +182,4 @@ Certificate for Developing Application “BOOK DISTRIBUTION MANAGEMENT V1.0” f
 Done Training in AWS.
 
 ────────────────────────────────────────────────────────────
-[Found 24 sections total: ['header', 'summary', 'experience', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'experience', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'skills', 'skills']]
+[Found 5 sections total: ['header', 'summary', 'experience', 'skills', 'skills']]

@@ -35,16 +35,16 @@ Dr. A.P.J. Abdul Kalam Technical
 ── Extraction Results ──
 Skills found   : 28
 Confidence     : 0.92
-Time           : 36.15 ms
-Method         : flashtext_skills_section | fuzzy(Neural Networks GANs→ANN(95%), Transformer Models→Transformer(97%), Javascript→JavaScript(100%), Langchain→LangChain(100%), System Architecture→System Design(100%)...)
+Time           : 38.3 ms
+Method         : flashtext_skills_section | fuzzy(Neural Networks GANs→ANN(95%), Transformer Models→Transformers(100%), Javascript→JavaScript(100%), Langchain→LangChain(100%), System Architecture→System Design(100%)...)
 
 ── All Skills (28) ──
-ANN, API Design, Agentic AI, Agile, Deep Learning, Docker, FastAPI, Flask, GAN, Git, GitHub, Hyperparameter Tuning, JavaScript, LLM, LangChain, LangGraph, Machine Learning, Model Optimization, MongoDB, NLP, Pandas, Python, RAG, Semantic Search, Statistical Analysis, System Design, TensorFlow, Transformer
+ANN, API Design, Agentic AI, Agile, Deep Learning, Docker, FastAPI, Flask, GAN, Git, GitHub, Hyperparameter Tuning, JavaScript, LLM, LangChain, LangGraph, Machine Learning, Model Optimization, MongoDB, NLP, Pandas, Python, RAG, Semantic Search, Statistical Analysis, System Design, TensorFlow, Transformers
 
 ── By Category ──
-  ai_ml                          ['ANN', 'Deep Learning', 'GAN', 'Machine Learning', 'NLP', 'Pandas', 'TensorFlow', 'Transformer']
+  ai_ml                          ['ANN', 'Deep Learning', 'GAN', 'Machine Learning', 'NLP', 'Pandas', 'TensorFlow']
   architecture                   ['API Design', 'System Design']
-  data_science                   ['Hyperparameter Tuning', 'Model Optimization', 'Statistical Analysis']
+  data_science                   ['Hyperparameter Tuning', 'Model Optimization', 'Statistical Analysis', 'Transformers']
   database                       ['MongoDB']
   dev_tool                       ['Git', 'GitHub']
   devops                         ['Docker']

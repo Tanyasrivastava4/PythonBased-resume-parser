@@ -434,7 +434,7 @@ def _get_header_bottom_y(words: list, split_x: float, page_width: float) -> floa
         for line_w in lines
         if min(w["x0"] for w in line_w) < split_x - 10
         and max(w["x1"] for w in line_w) > split_x + 10
-        and min(w["top"] for w in line_w) < page_width * 0.5
+        and min(w["top"] for w in line_w) < 100
     ]
     return max(bottoms) if bottoms else 0.0
 
@@ -706,10 +706,17 @@ def read_text_pdf(pdf_path: str) -> str:
 
                 left_text = _extract_words_to_lines(left_words)
                 right_text = _extract_words_to_lines(right_words)
-                if left_text.strip():
-                    primary_parts.append(left_text.strip())
-                if right_text.strip():
-                    secondary_parts.append(right_text.strip())
+
+                if split_res and (split_res[0] / page_width) < 0.38:
+                    if right_text.strip():
+                        primary_parts.append(right_text.strip())
+                    if left_text.strip():
+                        secondary_parts.append(left_text.strip())
+                else:
+                    if left_text.strip():
+                        primary_parts.append(left_text.strip())
+                    if right_text.strip():
+                        secondary_parts.append(right_text.strip())
                 continue
 
             text = _extract_words_to_lines(words)
@@ -741,7 +748,11 @@ def read_pdf(pdf_path: str) -> str:
     if path.suffix.lower() != ".pdf":
         raise ValueError(f"Expected a PDF file, got: {path.suffix}")
 
-    return read_text_pdf(pdf_path)
+    try:
+        return read_text_pdf(pdf_path)
+    except Exception as e:
+        print(f"[WARN] Text PDF reader failed for {pdf_path} ({e}); falling back to OCR...")
+        return read_with_surya_pages(pdf_path)
 
 
 

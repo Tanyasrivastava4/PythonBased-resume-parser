@@ -13,14 +13,15 @@ Monitoring tools: panorama, checkpoint
 Ticketing tools: Suvidha ticketing/HRMS/service now
 
 ── Extraction Results ──
-Skills found   : 5
+Skills found   : 6
 Confidence     : 0.92
-Time           : 43.39 ms
+Time           : 40.74 ms
 Method         : flashtext_skills_section | fuzzy(Firewall:→Firewall(94%), checkpoint→Check Point(100%), service now→ServiceNow(100%))
 
-── All Skills (5) ──
-Check Point, Firewall, Palo Alto Networks, ServiceNow, VPN
+── All Skills (6) ──
+Check Point, Firewall, Palo Alto Networks, ServiceNow, VLAN, VPN
 
 ── By Category ──
+  cloud_infra                    ['VLAN']
   integration                    ['ServiceNow']
   security_ops                   ['Check Point', 'Firewall', 'Palo Alto Networks', 'VPN']

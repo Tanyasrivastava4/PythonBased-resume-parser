@@ -12,8 +12,8 @@ Information Security Officer
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 7
-Confidence     : 0.78
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 10.9 years (131 months, 1 overlapping periods merged)
 
 Entry 1
@@ -44,8 +44,8 @@ Entry 1
   Needs Review : False
 
 Entry 2
-  Role         : Senior Manager
-  Company      : 2. Worked at Kotak Mahindra Bank Limited
+  Role         : 2. Worked
+  Company      : Kotak Mahindra Bank Limited
   Location     : Mumbai from
   Start - End  : June 2023 - November 2023
   Duration     : 6 months
@@ -55,13 +55,13 @@ Entry 2
     • Reviewing VA, CA and PT observations of applications to handle the same over web application firewall.
     • Performing review of security polices on periodic basis to fine tune implemented policy and enhance security control.
     • Active team member in the DR and cluster drills.
-  Method       : date_regex+title_dict
-  Confidence   : 0.7
-  Needs Review : True
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 3
-  Role         : Assistant Manager
-  Company      : 3. Worked at National Stock Exchange IT
+  Role         : 3. Worked
+  Company      : National Stock Exchange IT
   Location     : Mumbai from
   Start - End  : April 2021 - June 2023
   Duration     : 27 months
@@ -76,13 +76,13 @@ Entry 3
     • Third party technology risk assessment from engagement to implementation and so on.
     • Addressing security related queries and concerns of clients in the engagement meets.
     • Jointly working with the investigating officer in responding to the false allegations with the written report and evidence.
-  Method       : date_regex+title_dict
-  Confidence   : 0.7
-  Needs Review : True
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 4
-  Role         : None
-  Company      : 4. Worked at Infosec Ventures Private Limited
+  Role         : 4. Worked
+  Company      : Infosec Ventures Private Limited
   Location     : Mumbai from
   Start - End  : October 2019 - September 2020
   Duration     : 12 months
@@ -95,13 +95,13 @@ Entry 4
     • Planning and performing DR drills.
     • Planning and decision making of IT operations while executing upgrade, license renewal and fail-over test.
     • Performing BAU task such as signature/hotfix updates, periodic reporting, and escalating ticket handling.
-  Method       : date_regex
-  Confidence   : 0.55
-  Needs Review : True
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 5
-  Role         : Cyber Security Analyst
-  Company      : 5. Worked at National Stock Exchange IT
+  Role         : 5. Worked
+  Company      : National Stock Exchange IT
   Location     : Mumbai from
   Start - End  : December 2016 - September 2019
   Duration     : 34 months
@@ -118,20 +118,20 @@ Entry 5
     • Documentation: SOPs, Network Diagram, Inventory.
     • Solutions evaluated: Fortinet WAF, Zendesk, Freshdesk, Ameyo (Call center solution), SAMAS Matrix (VMS), Manage Engine (Firewall Analyzer), Trend Micro, Seqrite (Endpoint and Server Security), f5 (WAF and LTM), Data resolve Indefend (DLP), Accops (VPN).
     • Successfully evaluated and implemented helpdesk and ack-office solution system – Ameyo.
-  Method       : date_regex+title_dict
-  Confidence   : 0.7
-  Needs Review : True
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 6
-  Role         : None
-  Company      : 6. Worked at Pratima Computer Services
+  Role         : 6. Worked
+  Company      : Pratima Computer Services
   Location     : Mumbai from
   Start - End  : May 2011 - April 2012
   Duration     : 12 months
   Bullets      : 0
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 7
   Role         : Desktop Engineer

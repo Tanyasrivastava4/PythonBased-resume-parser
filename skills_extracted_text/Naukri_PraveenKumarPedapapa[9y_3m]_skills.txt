@@ -34,21 +34,22 @@ Bit bucket
 SonarQube
 
 ── Extraction Results ──
-Skills found   : 21
+Skills found   : 27
 Confidence     : 0.92
-Time           : 21.46 ms
-Method         : flashtext_skills_section | fuzzy(Sprng→Spring(91%), Node→Node.js(100%), HTML→HTML5(100%), Javascript→JavaScript(100%), Maven→Apache Maven(100%))
+Time           : 10.65 ms
+Method         : flashtext_skills_section | fuzzy(Sprng→Spring(91%), IntelliJ→IntelliJ IDEA(100%), Node→Node.js(100%), HTML→HTML5(100%), Javascript→JavaScript(100%)...)
 
-── All Skills (21) ──
-AWS, Angular, Apache Maven, CSS3, Git, HTML5, JPA, Java, JavaScript, Jenkins, Jira, Microservices, Node.js, PostgreSQL, Postman, REST API, React, SQL, SonarQube, Spring, Spring Boot
+── All Skills (27) ──
+AWS, Angular, Apache Maven, CSS3, Eclipse, Git, HTML5, Hibernate, IntelliJ IDEA, J2EE, JPA, Java, JavaScript, Jenkins, Jira, Microservices, Multithreading, Node.js, PostgreSQL, Postman, REST, REST API, React, SQL, SonarQube, Spring, Spring Boot
 
 ── By Category ──
   architecture                   ['Microservices']
   cloud_infra                    ['AWS']
   database                       ['PostgreSQL', 'SQL']
-  dev_tool                       ['Apache Maven', 'Git', 'Postman']
+  dev_tool                       ['Apache Maven', 'Eclipse', 'Git', 'IntelliJ IDEA', 'Postman']
   devops                         ['Jenkins']
-  programming_language           ['Java', 'JavaScript']
+  integration                    ['REST']
+  programming_language           ['J2EE', 'Java', 'JavaScript', 'Multithreading']
   project_mgmt                   ['Jira']
   testing                        ['SonarQube']
-  web_framework                  ['Angular', 'CSS3', 'HTML5', 'JPA', 'Node.js', 'REST API', 'React', 'Spring', 'Spring Boot']
+  web_framework                  ['Angular', 'CSS3', 'HTML5', 'Hibernate', 'JPA', 'Node.js', 'REST API', 'React', 'Spring', 'Spring Boot']

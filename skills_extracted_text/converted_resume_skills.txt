@@ -23,18 +23,18 @@ Operating System
 Windows, Linux
 
 ── Extraction Results ──
-Skills found   : 12
+Skills found   : 23
 Confidence     : 0.92
-Time           : 60.04 ms
+Time           : 33.65 ms
 Method         : flashtext_skills_section | fuzzy(Soap UI→SoapUI(100%), Emulator→Emulators(94%), MOBSF→MobSF(100%), NMAP→Nmap(100%), MOBSF→MobSF(100%)...)
 
-── All Skills (12) ──
-Acunetix, Burp Suite, Emulators, Linux, Microsoft Windows, MobSF, Nessus, Nmap, Postman, REST API, SoapUI, Wireshark
+── All Skills (23) ──
+Acunetix, Apktool, Burp Suite, CSRF Tester, Directory Buster, Dozer, Emulators, Genymotion, IBM AppScan, Linux, Microsoft Windows, MobSF, Nessus, Netsparker, Nikto, Nmap, Postman, REST API, SQLMAP, SoapUI, Wireshark, adb shell, dex2jar
 
 ── By Category ──
   cloud_infra                    ['Wireshark']
-  dev_tool                       ['Postman', 'SoapUI']
+  dev_tool                       ['Genymotion', 'Postman', 'SoapUI', 'adb shell']
   os_system                      ['Emulators', 'Linux', 'Microsoft Windows']
-  security                       ['Nmap']
+  security                       ['Apktool', 'CSRF Tester', 'Directory Buster', 'Dozer', 'IBM AppScan', 'Netsparker', 'Nikto', 'Nmap', 'SQLMAP', 'dex2jar']
   security_ops                   ['Acunetix', 'Burp Suite', 'MobSF', 'Nessus']
   web_framework                  ['REST API']

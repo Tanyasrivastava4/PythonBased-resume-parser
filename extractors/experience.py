@@ -625,15 +625,31 @@ def _extract_jobs_from_text(section_text: str) -> list:
 
 
 def calculate_total_experience(jobs: list) -> dict:
-    intervals = []
+    parsed_jobs = []
     for job in jobs:
         if not job.get("start") or not job.get("end"):
             continue
-        start = parse_date(job["start"])
-        end = parse_date(job["end"])
-        if start and end and end > start:
-            intervals.append((start, end))
+        s = parse_date(job["start"])
+        e = parse_date(job["end"])
+        raw_end = str(job.get("end", "")).strip().lower()
+        is_present = raw_end in ("present", "current", "now", "till date", "till now")
+        if s and e and e > s:
+            parsed_jobs.append({"start": s, "end": e, "is_present": is_present, "raw": job})
 
+    if not parsed_jobs:
+        return {"total_years": 0.0, "total_months": 0, "overlapping_periods_merged": 0}
+
+    # Cap outdated "Present" on earlier sub-projects if a later job has start > s and is also Present
+    present_jobs = [j for j in parsed_jobs if j["is_present"]]
+    if len(present_jobs) > 1:
+        present_jobs.sort(key=lambda x: x["start"])
+        for p_job in present_jobs[:-1]:
+            next_jobs = [j for j in parsed_jobs if j["start"] > p_job["start"] and j != p_job]
+            if next_jobs:
+                next_start = min(j["start"] for j in next_jobs)
+                p_job["end"] = max(p_job["start"], next_start)
+
+    intervals = [(j["start"], j["end"]) for j in parsed_jobs if j["end"] > j["start"]]
     if not intervals:
         return {"total_years": 0.0, "total_months": 0, "overlapping_periods_merged": 0}
 

@@ -23,19 +23,19 @@ Windows, Linux
 .Net, PHP, Java, CMS Based, Drupal, Joomla
 
 ── Extraction Results ──
-Skills found   : 18
+Skills found   : 29
 Confidence     : 0.92
-Time           : 71.21 ms
-Method         : flashtext_skills_section | fuzzy(Soap UI→SoapUI(100%), Emulator→Emulators(94%), MOBSF→MobSF(100%), NMAP→Nmap(100%), NMAP→Nmap(100%)...)
+Time           : 45.01 ms
+Method         : flashtext_skills_section | fuzzy(Soap UI→SoapUI(100%), Emulator→Emulators(94%), MOBSF→MobSF(100%), NMAP→Nmap(100%), SQLMAP.→SQLMAP(92%)...)
 
-── All Skills (18) ──
-.NET, Acunetix, Burp Suite, Drupal, Emulators, Java, Joomla, Linux, Microsoft Windows, MobSF, Nessus, Nmap, PHP, Postman, REST API, Security Assessment, SoapUI, Wireshark
+── All Skills (29) ──
+.NET, Acunetix, Apktool, Burp Suite, CSRF Tester, Directory Buster, Dozer, Drupal, Emulators, Genymotion, IBM AppScan, Java, Joomla, Linux, Microsoft Windows, MobSF, Nessus, Netsparker, Nikto, Nmap, PHP, Postman, REST API, SQLMAP, Security Assessment, SoapUI, Wireshark, adb shell, dex2jar
 
 ── By Category ──
   cloud_infra                    ['Wireshark']
-  dev_tool                       ['Postman', 'SoapUI']
+  dev_tool                       ['Genymotion', 'Postman', 'SoapUI', 'adb shell']
   os_system                      ['Emulators', 'Linux', 'Microsoft Windows']
   programming_language           ['.NET', 'Java', 'PHP']
-  security                       ['Nmap']
+  security                       ['Apktool', 'CSRF Tester', 'Directory Buster', 'Dozer', 'IBM AppScan', 'Netsparker', 'Nikto', 'Nmap', 'SQLMAP', 'dex2jar']
   security_ops                   ['Acunetix', 'Burp Suite', 'MobSF', 'Nessus', 'Security Assessment']
   web_framework                  ['Drupal', 'Joomla', 'REST API']

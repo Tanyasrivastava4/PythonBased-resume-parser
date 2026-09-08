@@ -15,16 +15,16 @@ Core Competencies:  Predictive Modeling, Feature Engineering, NLP, Clustering, D
 ── Extraction Results ──
 Skills found   : 41
 Confidence     : 0.92
-Time           : 55.19 ms
-Method         : flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), Transformers→Transformer(96%), GenAI→Generative AI(100%), OpenAI GPT→GPT(100%), Google Gemini→Gemini(100%)...)
+Time           : 57.35 ms
+Method         : flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), GenAI→Generative AI(100%), OpenAI GPT→GPT(100%), Google Gemini→Gemini(100%), REST APIs→REST API(100%)...)
 
 ── All Skills (41) ──
-A/B Testing, ANN, AWS, CNN, Data Visualization, Deep Learning, Exploratory Data Analysis, FastAPI, GCP, GPT, Gemini, Generative AI, Git, GitHub, GitHub Copilot, Keras, LLM, LSTM, LangChain, LightGBM, Machine Learning, Matplotlib, NLP, NumPy, Pandas, Pinecone, Plotly, Power BI, Python, REST API, RNN, React, SQL, SciPy, Seaborn, TensorFlow, Transformer, Vector Databases, Vertex AI, XGBoost, scikit-learn
+A/B Testing, ANN, AWS, CNN, Data Visualization, Deep Learning, Exploratory Data Analysis, FastAPI, GCP, GPT, Gemini, Generative AI, Git, GitHub, GitHub Copilot, Keras, LLM, LSTM, LangChain, LightGBM, Machine Learning, Matplotlib, NLP, NumPy, Pandas, Pinecone, Plotly, Power BI, Python, REST API, RNN, React, SQL, SciPy, Seaborn, TensorFlow, Transformers, Vector Databases, Vertex AI, XGBoost, scikit-learn
 
 ── By Category ──
-  ai_ml                          ['ANN', 'CNN', 'Deep Learning', 'GPT', 'Keras', 'LSTM', 'LightGBM', 'Machine Learning', 'Matplotlib', 'NLP', 'NumPy', 'Pandas', 'Plotly', 'RNN', 'SciPy', 'Seaborn', 'TensorFlow', 'Transformer', 'XGBoost', 'scikit-learn']
+  ai_ml                          ['ANN', 'CNN', 'Deep Learning', 'GPT', 'Keras', 'LSTM', 'LightGBM', 'Machine Learning', 'Matplotlib', 'NLP', 'NumPy', 'Pandas', 'Plotly', 'RNN', 'SciPy', 'Seaborn', 'TensorFlow', 'XGBoost', 'scikit-learn']
   cloud_infra                    ['AWS', 'GCP']
-  data_science                   ['A/B Testing', 'Data Visualization', 'Exploratory Data Analysis', 'Power BI']
+  data_science                   ['A/B Testing', 'Data Visualization', 'Exploratory Data Analysis', 'Power BI', 'Transformers']
   database                       ['SQL']
   dev_tool                       ['Git', 'GitHub']
   genai                          ['Gemini', 'Generative AI', 'GitHub Copilot', 'LLM', 'LangChain', 'Vector Databases', 'Vertex AI']

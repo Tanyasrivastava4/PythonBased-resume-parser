@@ -17,19 +17,20 @@ Cloud Infrastructure: Microsoft Azure, AWS
 Embedded Systems: Raspberry Pi, NVIDIA Jetson, GPIO Interfacing
 
 ── Extraction Results ──
-Skills found   : 37
+Skills found   : 44
 Confidence     : 0.92
-Time           : 59.26 ms
-Method         : flashtext_skills_section | fuzzy(Retrieval-Augmented Generation→RAG(100%), Preprocessing→Data Preprocessing(100%), Kafka→Apache Kafka(100%), GPIO Interfacing→GPIO(100%))
+Time           : 51.26 ms
+Method         : flashtext_skills_section | fuzzy(Hugging Face Transformers→Transformers(98%), Retrieval-Augmented Generation→RAG(100%), Preprocessing→Data Preprocessing(100%), Kafka→Apache Kafka(100%), GPIO Interfacing→GPIO(100%))
 
-── All Skills (37) ──
-ANN, AWS, AWS SQS, Agentic AI, Apache Kafka, Azure, CNN, Computer Vision, Contour Analysis, Data Cleaning, Data Preprocessing, Deep Learning, GPIO, GPT, Generative AI, Hugging Face, K-means Clustering, LLM, LangChain, MCP Server, Machine Learning, NVIDIA Jetson, NoSQL, OpenAI API, OpenCV, PostgreSQL, Prompt Engineering, PyTorch, Python, RAG, Raspberry Pi, Redis, SQL, TensorFlow, Transfer Learning, Vector Databases, YOLO
+── All Skills (44) ──
+ANN, AWS, AWS SQS, Agentic AI, Apache Kafka, ArUco Markers, Azure, Azure OpenAI, CNN, Computer Vision, Contour Analysis, Data Cleaning, Data Preprocessing, Deep Learning, End-to-End AI Pipelines, GPIO, GPT, Generative AI, Hugging Face, K-means Clustering, LLM, LangChain, MCP Server, Machine Learning, Model Deployment Workflows, Model Evaluation Metrics, NVIDIA Jetson, NoSQL, OpenCV, PostgreSQL, Prompt Engineering, PyTorch, Python, RAG, Raspberry Pi, Redis, SQL, Similarity Search Techniques, TensorFlow, Transfer Learning, Transformers, Vector Databases, Vector Search, YOLO
 
 ── By Category ──
-  ai_ml                          ['ANN', 'CNN', 'Computer Vision', 'Contour Analysis', 'Deep Learning', 'GPT', 'K-means Clustering', 'Machine Learning', 'OpenCV', 'PyTorch', 'TensorFlow', 'Transfer Learning', 'YOLO']
+  ai_ml                          ['ANN', 'ArUco Markers', 'CNN', 'Computer Vision', 'Contour Analysis', 'Deep Learning', 'End-to-End AI Pipelines', 'GPT', 'K-means Clustering', 'Machine Learning', 'Model Deployment Workflows', 'Model Evaluation Metrics', 'OpenCV', 'PyTorch', 'TensorFlow', 'Transfer Learning', 'YOLO']
   cloud_infra                    ['AWS', 'AWS SQS', 'Azure']
   data_engineering               ['Apache Kafka', 'Data Cleaning', 'Data Preprocessing']
+  data_science                   ['Transformers']
   database                       ['NoSQL', 'PostgreSQL', 'Redis', 'SQL']
   embedded_systems               ['GPIO', 'NVIDIA Jetson', 'Raspberry Pi']
-  genai                          ['Agentic AI', 'Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'MCP Server', 'OpenAI API', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  genai                          ['Agentic AI', 'Azure OpenAI', 'Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'MCP Server', 'Prompt Engineering', 'RAG', 'Similarity Search Techniques', 'Vector Databases', 'Vector Search']
   programming_language           ['Python']
