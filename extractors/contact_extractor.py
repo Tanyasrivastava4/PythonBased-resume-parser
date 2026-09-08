@@ -79,12 +79,12 @@ PHONE_PATTERN = re.compile(
 )
 
 LINKEDIN_PATTERN = re.compile(
-    r"(?:https?://)?(?:www\.)?linkedin\.com/in/([\w\-]+)/?",
+    r"(?:https?://)?(?:www\.)?(?:linkedin\.com/(?:in|pub|profile)/|in/|linkedin/)([\w\-]{3,100})/?",
     re.IGNORECASE
 )
 
 GITHUB_PATTERN = re.compile(
-    r"(?:https?://)?(?:www\.)?github\.com/([\w\-]+)/?",
+    r"(?:https?://)?(?:www\.)?(?:github\.com/|github/)([\w\-]{3,50})/?",
     re.IGNORECASE
 )
 
@@ -102,15 +102,21 @@ PHONE_BLACKLIST = re.compile(r"^(19|20)\d{2}$|^\d{3,4}$")
 # as not a real contact email.
 PLACEHOLDER_DOMAINS = {"example.com", "example.org", "domain.com", "test.com", "email.com"}
 
+# Keywords that indicate an email belongs to a reference, boss, manager, or supervisor
+SKIP_EMAIL_KEYWORDS = [
+    "reference", "referred by", "manager email", "supervisor email", "boss email", "ref email", "reference email"
+]
+
 # GitHub reserves these path names for its own site navigation -- they
 # can never be real usernames, so a match here is a false positive from
 # a GitHub link that isn't actually a profile (e.g. "github.com/pricing").
-GITHUB_RESERVED_PATHS = {"features", "about", "contact", "pricing", "login", "settings", "explore"}
+GITHUB_RESERVED_PATHS = {"features", "about", "contact", "pricing", "login", "settings", "explore", "trending", "topics"}
 
 # ── NAME EXTRACTION CONSTANTS ─────────────────────────────
 PHONE_HINT_PATTERN = re.compile(r"\d{3}.{0,3}\d{3}.{0,4}\d{3,4}")
 URL_HINT_PATTERN = re.compile(r"(linkedin\.com|github\.com|https?://|www\.)", re.IGNORECASE)
 DIGIT_PATTERN = re.compile(r"\d")
+NAME_PREFIX_CLEANER = re.compile(r"^(?:name|candidate name|cv|curriculum vitae)\s*[:\-]\s*", re.IGNORECASE)
 
 NON_NAME_BLACKLIST = {
     "resume", "curriculum vitae", "cv", "biodata", "profile",
@@ -134,10 +140,7 @@ def _strip_known_matches(text: str) -> str:
     Removes every email, LinkedIn URL, and GitHub URL from a COPY of the
     text. Used before searching for phone numbers or websites, so that
     digits or domain-shaped fragments INSIDE those URLs never get a
-    chance to be mistaken for something else. This is what fixes bug 1
-    and the second half of bug 2 -- and crucially, it works regardless
-    of which order these things appear in the text, unlike an approach
-    that just takes "whichever valid match comes first."
+    chance to be mistaken for something else.
     """
     cleaned = EMAIL_PATTERN.sub(" ", text)
     cleaned = LINKEDIN_PATTERN.sub(" ", cleaned)
@@ -148,20 +151,28 @@ def _strip_known_matches(text: str) -> str:
 def _is_placeholder_email(email: str) -> bool:
     """
     Checks only the DOMAIN portion of an email against known placeholder
-    domains. Fixes bug 3: checking the whole email string for the
-    substring "example" would wrongly reject a real email like
-    "sarah.example.recruiter@gmail.com".
+    domains.
     """
     domain = email.rsplit("@", 1)[-1].lower()
     return domain in PLACEHOLDER_DOMAINS
 
 
+def _is_reference_email(email: str, text: str) -> bool:
+    """
+    Checks if an email is listed under a reference/manager context line.
+    """
+    email_low = email.lower()
+    for line in text.splitlines():
+        if email_low in line.lower():
+            line_low = line.lower()
+            if any(kw in line_low for kw in SKIP_EMAIL_KEYWORDS):
+                return True
+    return False
+
+
 def clean_phone(raw_phone: str) -> str:
     """
     Cleans and validates a raw phone-number-shaped string.
-    Returns None if it doesn't actually look like a real phone number
-    (too short, too long, or matches a known non-phone pattern like a
-    bare year).
     """
     digits_only = re.sub(r"\D", "", raw_phone)
 
@@ -179,11 +190,7 @@ def clean_phone(raw_phone: str) -> str:
 
 def extract_header_section(full_text: str) -> str:
     """
-    Pulls just the "header" block out of a Layer 1 *_segmented.txt file
-    (splits on the '─────' rule lines and 'LABEL: xxx' markers). If no
-    such labelled header block is found (e.g. caller passed raw Layer 0
-    text instead of Layer 1 output), falls back to just the first few
-    non-empty lines of the text -- the name is almost always at the top.
+    Pulls just the "header" block out of a Layer 1 *_segmented.txt file.
     """
     blocks = re.split(r"─{5,}", full_text)
     for i, block in enumerate(blocks):
@@ -213,10 +220,18 @@ def _is_blacklisted_line(line: str) -> bool:
 def _regex_name_candidate(header_text: str) -> Optional[str]:
     for raw_line in header_text.splitlines():
         line = raw_line.strip()
-        if not line or _is_contact_line(line) or _is_address_line(line) or _is_blacklisted_line(line):
+        if not line or _is_blacklisted_line(line):
             continue
-        if NAME_LINE_PATTERN.match(line) or (line.isupper() and 1 <= len(line.split()) <= 4):
-            return " ".join(w.capitalize() for w in line.split())
+
+        parts = [p.strip() for p in re.split(r"[|•]", line) if p.strip()]
+        for part in parts:
+            part = NAME_PREFIX_CLEANER.sub("", part).strip()
+            if not part or _is_contact_line(part) or _is_address_line(part) or _is_blacklisted_line(part):
+                continue
+            if NAME_LINE_PATTERN.match(part) or (part.isupper() and 1 <= len(part.split()) <= 4):
+                words = part.split()
+                if 1 <= len(words) <= 4:
+                    return " ".join(w.capitalize() for w in words)
     return None
 
 
@@ -232,16 +247,7 @@ def _ner_name_candidate(header_text: str) -> Optional[str]:
 
 def extract_name(full_text: str) -> dict:
     """
-    Extracts candidate name. Restricts itself to the HEADER section
-    (via extract_header_section()) rather than the full resume text,
-    since a name has no unique syntax and scanning the whole document
-    invites false positives from job titles/company names that are
-    also Title-Case or ALL-CAPS.
-
-    Regex-first (confidence 0.9), spaCy PERSON NER fallback if regex
-    finds nothing (confidence 0.6, lower because NER can mislabel
-    companies/locations as PERSON), else None (confidence 0.0) so
-    Layer 3 can flag it for the review queue.
+    Extracts candidate name.
     """
     result = {"value": None, "confidence": 0.0, "method": "regex"}
 
@@ -265,19 +271,6 @@ def extract_name(full_text: str) -> dict:
 def extract_contact(full_text: str) -> dict:
     """
     Main entry point for the contact extractor.
-
-    Takes the FULL resume text (Layer 1's *_segmented.txt content) and
-    returns every contact field found -- name, email, phone, linkedin,
-    github, website -- each with a confidence score, matching the
-    architecture's Layer 3 design where every extracted field carries a
-    confidence value so low-confidence fields can be flagged for review
-    later.
-
-    We deliberately search the entire resume for email/phone/URLs (not
-    just the header), since candidates sometimes place a LinkedIn/GitHub
-    link in a project description or footer rather than only at the
-    top. NAME is the one exception -- it's restricted to the header
-    internally by extract_name(), for the reasons documented there.
     """
     result = {
         "name": {"value": None, "confidence": 0.0, "method": "regex"},
@@ -294,9 +287,17 @@ def extract_contact(full_text: str) -> dict:
     # ── EMAIL ──────────────────────────────────────────────
     raw_emails = EMAIL_PATTERN.findall(full_text)
     real_emails = [e for e in raw_emails if not _is_placeholder_email(e)]
-    if real_emails:
+    primary_email = None
+    for e in real_emails:
+        if not _is_reference_email(e, full_text):
+            primary_email = e
+            break
+    if not primary_email and real_emails:
+        primary_email = real_emails[0]
+
+    if primary_email:
         result["email"] = {
-            "value": real_emails[0].lower(),
+            "value": primary_email.lower(),
             "confidence": 0.99,
             "method": "regex",
         }
@@ -323,8 +324,6 @@ def extract_contact(full_text: str) -> dict:
             }
 
     # ── PHONE ──────────────────────────────────────────────
-    # Search only the text with emails/LinkedIn/GitHub already removed,
-    # so a URL's digits can never be mistaken for a phone number.
     phone_search_text = _strip_known_matches(full_text)
     for raw_match in PHONE_PATTERN.findall(phone_search_text):
         cleaned = clean_phone(raw_match)
@@ -337,9 +336,6 @@ def extract_contact(full_text: str) -> dict:
             break
 
     # ── WEBSITE ────────────────────────────────────────────
-    # Same reasoning as phone: search only the text with emails/
-    # LinkedIn/GitHub already removed, so e.g. "gmail.com" inside an
-    # email address is never reported as someone's personal website.
     website_search_text = _strip_known_matches(full_text)
     website_match = WEBSITE_PATTERN.search(website_search_text)
     if website_match:

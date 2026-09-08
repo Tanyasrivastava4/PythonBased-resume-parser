@@ -283,6 +283,26 @@ def read_docx(docx_path: str) -> str:
        elif tag == qn("w:tbl"):
            table = Table(element, doc)
            text_parts.extend(_extract_table_rows(table))
+
+   # Extract embedded hyperlink relationship targets
+   docx_links = []
+   try:
+       for rel in doc.part.rels.values():
+           if "hyperlink" in rel.reltype and rel.target_ref:
+               target = rel.target_ref.strip()
+               if target.startswith("mailto:"):
+                   clean = target[7:].strip()
+                   if clean:
+                       docx_links.append(clean)
+               elif target.startswith("http://") or target.startswith("https://") or target.startswith("www."):
+                   docx_links.append(target)
+   except Exception:
+       pass
+
+   if docx_links:
+       unique_links = list(dict.fromkeys(docx_links))
+       text_parts.append("Links:\n" + "\n".join(unique_links))
+
    return "\n".join(text_parts)
 
 

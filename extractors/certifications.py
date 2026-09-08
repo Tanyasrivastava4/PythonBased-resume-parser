@@ -116,6 +116,8 @@ def extract_certifications(cert_section_text: str, achievement_section_text: str
             line = line.strip()
             if not line or len(line) < 5:
                 continue
+            if line.startswith("─") or line.startswith("[") or line.startswith("LABEL:"):
+                continue
             # skip section-heading-only lines like "Certifications" / "Licenses"
             if re.match(r'^certif|^licen', line, re.IGNORECASE) and len(line) < 25:
                 continue

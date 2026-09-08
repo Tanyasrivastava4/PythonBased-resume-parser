@@ -111,7 +111,7 @@ def match_degree(line: str) -> tuple[str, str, int, int] | tuple[None, None, Non
 
 _FIELD_PAREN_RE = re.compile(r'^\(([^)]+)\)')
 _FIELD_COLON_RE = re.compile(r'^:\s*(.+)')
-_FIELD_CONNECTOR_RE = re.compile(r'^(?:in|of)\s+(.+)', re.IGNORECASE)
+_FIELD_CONNECTOR_RE = re.compile(r'^(?:in|of|with|stream\s*:?|specialization\s*:?)\s+(.+)', re.IGNORECASE)
 _FIELD_DASH_RE = re.compile(r'^[-\u2013]\s*(.+)')
 
 
@@ -308,13 +308,17 @@ def _match_full_name(entry_text: str) -> str | None:
 
 
 _INSTITUTION_KEYWORDS_SAFE_RE = re.compile(
-    r'\b(university|institute|institution|college|school|board|iit|nit|bits|iim|ignou)\b',
+    r'\b(university|institute|institution|college|school|board|iit|nit|bits|iim|ignou|'
+    r'nmims|aktu|vtu|rntu|srm|vit|vesit|hvn|polytechnic|vidyalaya|vidya\s*niketan|'
+    r'vishwa\s*vidyalaya|shikshan|parishad|kendriya|convent|high\s+school|public\s+school)\b',
     re.IGNORECASE
 )
 _INSTITUTION_KEYWORDS_RISKY_RE = re.compile(r'\b(academy)\b', re.IGNORECASE)
 # Kept for _extract_institution's final-string matching, where both matter equally
 _INSTITUTION_KEYWORDS_RE = re.compile(
-    r'\b(university|institute|institution|academy|college|school|board|iit|nit|bits|iim|ignou)\b',
+    r'\b(university|institute|institution|academy|college|school|board|iit|nit|bits|iim|ignou|'
+    r'nmims|aktu|vtu|rntu|srm|vit|vesit|hvn|polytechnic|vidyalaya|vidya\s*niketan|'
+    r'vishwa\s*vidyalaya|shikshan|parishad|kendriya|convent|high\s+school|public\s+school)\b',
     re.IGNORECASE
 )
 _BARE_GENERIC_INSTITUTION = {"school", "college", "university", "institute", "board"}

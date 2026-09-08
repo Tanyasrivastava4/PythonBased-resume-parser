@@ -723,12 +723,31 @@ def read_text_pdf(pdf_path: str) -> str:
             if text.strip():
                 primary_parts.append(text.strip())
 
+    # Extract embedded hyperlink annotations across all PDF pages
+    all_pdf_links = []
+    with fitz.open(pdf_path) as fdoc:
+        for fpage in fdoc:
+            for link in fpage.get_links():
+                uri = link.get("uri", "")
+                if uri:
+                    uri = uri.strip()
+                    if uri.startswith("mailto:"):
+                        clean = uri[7:].strip()
+                        if clean:
+                            all_pdf_links.append(clean)
+                    elif uri.startswith("http://") or uri.startswith("https://") or uri.startswith("www."):
+                        all_pdf_links.append(uri)
+
     # Deduplicate consecutive identical page contributions -- some
     # resume-builder PDFs include duplicate pages (e.g. a "display"
     # page and a "print" page with identical content), which would
     # otherwise produce double output.
     primary_parts = _dedup_consecutive(primary_parts)
     secondary_parts = _dedup_consecutive(secondary_parts)
+
+    if all_pdf_links:
+        unique_links = list(dict.fromkeys(all_pdf_links))
+        primary_parts.append("Links:\n" + "\n".join(unique_links))
 
     primary_text = "\n\n".join(primary_parts)
     secondary_text = "\n\n".join(secondary_parts)
