@@ -204,6 +204,11 @@ def build_resume_record(segmented_filepath: str) -> dict:
     # ── Education ────────────────────────────────────────────────
     edu_text = sections.get("education", "")
     education_result = extract_education(edu_text)
+    if not education_result.get("education") and full_text:
+        fallback_res = extract_education(full_text)
+        if fallback_res.get("education"):
+            education_result = fallback_res
+
     if education_result["education"]:
         component_confidences.append(education_result["_confidence"])
         if education_result["_confidence"] < REVIEW_THRESHOLD:

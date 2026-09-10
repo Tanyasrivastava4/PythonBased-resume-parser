@@ -339,11 +339,15 @@ def extract_contact(full_text: str) -> dict:
     website_search_text = _strip_known_matches(full_text)
     website_match = WEBSITE_PATTERN.search(website_search_text)
     if website_match:
-        result["website"] = {
-            "value": website_match.group(1),
-            "confidence": 0.85,
-            "method": "regex",
-        }
+        val = website_match.group(1).strip()
+        val_clean = val.rstrip('.').lower()
+        # Reject academic degrees (e.g. B.Com, M.Com) matching generic website TLDs
+        if val_clean not in {"b.com", "m.com", "d.com", "e.com", "bcom", "mcom"} and not re.search(r'^(?:b|m|d|e)\.com$', val_clean, re.I):
+            result["website"] = {
+                "value": val,
+                "confidence": 0.85,
+                "method": "regex",
+            }
 
     return result
 

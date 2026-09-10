@@ -20,7 +20,7 @@ _SKILLS_PATTERN = re.compile(
     rf"(\s*(&|and)\s*[a-z]+(\s+[a-z]+){{0,2}})?"
     rf"|technolog(y|ies)(\s+known|\s+stack|\s+summary|\s+used)?"
     rf"|technical\s+proficienc(y|ies)"
-    rf"|function(al)?\s+(and\s+)?technical\s+specialization"
+    rf"|function(al)?\s+(and\s+)?technical(\s+specialization)?"
     rf"|technical\s+specialization"
     rf"|functional\s+specialization"
     rf"|technology\s+stack"

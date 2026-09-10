@@ -234,6 +234,14 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
             suffix  = "..." if len(fuzzy_hits) > 5 else ""
             methods_used.append(f"fuzzy({preview}{suffix})")
 
+    # Safe Fallback: If section-restricted matching yielded low/zero skills (< 5 skills),
+    # scan full_text using FlashText keyword matcher for canonical skills.
+    if len(found_skills) < 5 and full_text and full_text.strip():
+        fallback_matches = _KP.extract_keywords(full_text)
+        if fallback_matches:
+            found_skills.update(fallback_matches)
+            methods_used.append("flashtext_full_text_fallback")
+
     sorted_skills = sorted(found_skills)
 
     skills_by_category = {}
