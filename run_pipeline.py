@@ -23,6 +23,7 @@ Python API Usage:
 """
 
 import sys
+import gc
 import glob
 import json
 import argparse
@@ -164,7 +165,6 @@ def process_all(
     results = []
     success_count = 0
     fail_count = 0
-
     for idx, f in enumerate(files, 1):
         print(f"\n[{idx}/{len(files)}]")
         try:
@@ -174,6 +174,8 @@ def process_all(
         except Exception as e:
             print(f"❌ ERROR processing {f}: {e}")
             fail_count += 1
+        finally:
+            gc.collect()
 
     print(f"\n{'═' * 65}")
     print(f"BATCH COMPLETE: {success_count} succeeded, {fail_count} failed out of {len(files)} files.")

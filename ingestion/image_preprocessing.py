@@ -237,11 +237,14 @@ def preprocess_scanned_image(img: Image.Image, context: str = "") -> Image.Image
     # Blank / solid-color page check: a blank page (e.g. empty trailing page in a PDF)
     # has zero edges, so its Laplacian variance is 0.00. It is NOT a blurry scan,
     # just an empty page. Bypass blur rejection for blank images (std < 5.0).
+    import gc
     gray_arr = np.array(img.convert("L"))
     if np.std(gray_arr) < 5.0:
+        del gray_arr
         return img
 
     blur_score = compute_blur_score(img)
+    del gray_arr
     if blur_score < MIN_BLUR_VARIANCE:
         raise ImageQualityError(
             f"Image quality too low to process reliably "
@@ -261,6 +264,7 @@ def preprocess_scanned_image(img: Image.Image, context: str = "") -> Image.Image
     brightness_score = compute_brightness_score(img)
     img = adjust_brightness(img, brightness_score)
 
+    gc.collect()
     return img
 
 

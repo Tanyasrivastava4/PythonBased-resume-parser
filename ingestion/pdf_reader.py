@@ -123,7 +123,7 @@ from ingestion.ocr_region import (
 # ── OCR ENGINE SELECTION ──
 # Production default: Surya primary, with its own automatic fallback to
 # pytesseract on failure (see ocr_reader.py's read_with_surya_pages()).
-from ingestion.ocr_reader import read_with_surya_pages
+from ingestion.ocr_reader import read_with_surya_pages, read_with_surya
 
 # TESTING OVERRIDE: to force pytesseract only (bypassing Surya entirely,
 # e.g. to compare output quality between engines), comment out the
@@ -771,7 +771,7 @@ def read_pdf(pdf_path: str) -> str:
         return read_text_pdf(pdf_path)
     except Exception as e:
         print(f"[WARN] Text PDF reader failed for {pdf_path} ({e}); falling back to OCR...")
-        return read_with_surya_pages(pdf_path)
+        return read_with_surya(pdf_path)
 
 
 

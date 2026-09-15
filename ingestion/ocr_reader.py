@@ -457,6 +457,11 @@ def _load_surya_predictors():
     # load_model()/load_processor() functions -- see module docstring.
     from surya.detection import DetectionPredictor
     from surya.recognition import RecognitionPredictor
+    import torch
+    try:
+        torch.set_num_threads(2)
+    except Exception:
+        pass
 
     print("[INFO] Loading Surya OCR predictors (first call only; cached after)...")
     det_predictor = DetectionPredictor()
@@ -488,12 +493,15 @@ def _text_line_to_line_dict(line) -> dict:
 
 def _run_surya_on_images(images: list) -> list:
     """Raises on any failure -- callers must catch and fall back."""
+    import torch
     det_predictor, rec_predictor = _load_surya_predictors()
 
     # 0.14.7 dropped the explicit `langs` parameter entirely -- passing
     # it raises TypeError. Detection is supplied via det_predictor, and
     # recognition runs language-agnostic OCR by default.
-    results = rec_predictor(images, det_predictor=det_predictor)
+    # Wrap in torch.no_grad() to disable autograd graph memory allocation during inference.
+    with torch.no_grad():
+        results = rec_predictor(images, det_predictor=det_predictor)
 
     all_text = []
     for page_idx, page_result in enumerate(results):
@@ -557,6 +565,21 @@ def _run_surya_on_images(images: list) -> list:
     return all_text
 
 
+def _free_ocr_memory():
+    """
+    Triggers explicit Python garbage collection and PyTorch memory cache release
+    after heavy OCR passes to prevent RAM accumulation during batch execution.
+    """
+    import gc
+    gc.collect()
+    try:
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    except Exception:
+        pass
+
+
 def pdf_to_images(pdf_path: str, page_indices: list = None) -> list:
     """Converts pages of a PDF into PIL Images at 200 DPI (good balance
     of Surya accuracy vs. speed). page_indices=None converts every page.
@@ -570,14 +593,17 @@ def pdf_to_images(pdf_path: str, page_indices: list = None) -> list:
     doc = fitz.open(pdf_path)
     images = []
     indices = page_indices if page_indices is not None else range(len(doc))
-    for page_num in indices:
-        page = doc[page_num]
-        mat = fitz.Matrix(200 / 72, 200 / 72)
-        pix = page.get_pixmap(matrix=mat)
-        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-        img = preprocess_scanned_image(img, context=f"page {page_num + 1} of {pdf_path}")
-        images.append(img)
-    doc.close()
+    try:
+        for page_num in indices:
+            page = doc[page_num]
+            mat = fitz.Matrix(200 / 72, 200 / 72)
+            pix = page.get_pixmap(matrix=mat)
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            pix = None  # Free pixmap buffer
+            img = preprocess_scanned_image(img, context=f"page {page_num + 1} of {pdf_path}")
+            images.append(img)
+    finally:
+        doc.close()
     return images
 
 
@@ -598,6 +624,7 @@ def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
 
     global _surya_import_failed
     if not _surya_import_failed:
+        images = []
         try:
             images = pdf_to_images(pdf_path, page_indices=page_indices)
             texts = _run_surya_on_images(images)
@@ -621,6 +648,13 @@ def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
                 f"Check `pip show surya-ocr` is exactly 0.6.13, and that model "
                 f"downloads aren't being blocked by network/firewall."
             )
+        finally:
+            # Explicitly close PIL images and sweep memory
+            for img in images:
+                if hasattr(img, "close"):
+                    img.close()
+            del images
+            _free_ocr_memory()
 
     from ingestion.ocr_reader_pytesseract import read_with_surya_pages as tesseract_fallback
     return tesseract_fallback(pdf_path, page_indices)
@@ -640,6 +674,7 @@ def read_with_surya(file_path: str) -> str:
     path = Path(file_path)
 
     if not _surya_import_failed:
+        images = []
         try:
             if path.suffix.lower() == ".pdf":
                 images = pdf_to_images(file_path)
@@ -667,6 +702,12 @@ def read_with_surya(file_path: str) -> str:
                 f"Surya OCR failed ({type(e).__name__}: {e}). "
                 f"Falling back to pytesseract."
             )
+        finally:
+            for img in images:
+                if hasattr(img, "close"):
+                    img.close()
+            del images
+            _free_ocr_memory()
 
     from ingestion.ocr_reader_pytesseract import read_with_surya as tesseract_fallback
     return tesseract_fallback(file_path)

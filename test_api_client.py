@@ -83,7 +83,7 @@ def test_single_file(file_path: str):
 def test_all_files(input_dir: str = "resumes"):
     """Sends all resumes from input_dir to the server one after another."""
     folder = Path(input_dir)
-    files = sorted(glob.glob(str(folder / "*.pdf")) + glob.glob(str(folder / "*.docx")))
+    files = sorted([str(p) for p in folder.iterdir() if p.is_file() and not p.name.startswith(".")])
 
     if not files:
         print(f"No files found in {input_dir}/")

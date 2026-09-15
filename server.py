@@ -17,6 +17,16 @@ Run Server:
 """
 
 import os
+# Cap PyTorch & OpenMP CPU threads to 2 to prevent RAM/CPU spikes that cause VSCode/OS OOM killer to close applications
+os.environ["OMP_NUM_THREADS"] = "2"
+os.environ["MKL_NUM_THREADS"] = "2"
+os.environ["OPENBLAS_NUM_THREADS"] = "2"
+try:
+    import torch
+    torch.set_num_threads(2)
+except Exception:
+    pass
+
 import uuid
 import logging
 from typing import List, Optional
@@ -35,12 +45,27 @@ from run_pipeline import process_resume, EXTRACTED_TEXT_DIR, SEGMENTED_DIR, FLAT
 logger = logging.getLogger("ats_server")
 logging.basicConfig(level=logging.INFO)
 
-# Temporary directory for API file uploads
-UPLOAD_TEMP_DIR = Path("resumes")
+import gc
+
+# Temporary directory for API file uploads (isolated from resumes/ benchmark directory)
+UPLOAD_TEMP_DIR = Path("tmp_uploads")
 UPLOAD_TEMP_DIR.mkdir(parents=True, exist_ok=True)
 
-# In-memory store for async background OCR jobs
+# In-memory store for async background OCR jobs with Bounded LRU Storage Cap
+MAX_JOBS = 50
 JOBS = {}
+
+
+def _purge_oldest_jobs_if_needed():
+    """Keeps the in-memory JOBS storage bounded under MAX_JOBS to prevent RAM leaks."""
+    if len(JOBS) >= MAX_JOBS:
+        # Purge oldest completed or failed jobs first
+        completed = [k for k, v in JOBS.items() if v.get("status") in ("completed", "failed")]
+        if completed:
+            del JOBS[completed[0]]
+        else:
+            del JOBS[next(iter(JOBS))]
+        gc.collect()
 
 
 # ── Lifespan Startup Manager: Pre-load Models into RAM ─────────────────────────
@@ -110,20 +135,33 @@ def _is_scanned_pdf(file_path: str) -> bool:
         return False
 
 
+import threading
+
+_ocr_lock = threading.Lock()
+
+
 def _run_background_parsing(job_id: str, file_path: str):
-    """Executes heavy background OCR parsing and updates job state."""
-    logger.info(f"⏳ [ASYNC JOB {job_id}] Starting background OCR parsing for: {file_path}")
-    try:
-        result = process_resume(file_path, verbose=False)
-        JOBS[job_id]["status"] = "completed"
-        JOBS[job_id]["result"] = result
-        JOBS[job_id]["completed_at"] = datetime.now(timezone.utc).isoformat()
-        logger.info(f"✅ [ASYNC JOB {job_id}] Background OCR completed successfully!")
-    except Exception as e:
-        logger.error(f"❌ [ASYNC JOB {job_id}] Background OCR failed: {e}")
-        JOBS[job_id]["status"] = "failed"
-        JOBS[job_id]["error"] = str(e)
-        JOBS[job_id]["completed_at"] = datetime.now(timezone.utc).isoformat()
+    """Executes heavy background OCR parsing sequentially (one job at a time) to prevent RAM spikes."""
+    with _ocr_lock:
+        logger.info(f"⏳ [ASYNC JOB {job_id}] Starting background OCR parsing for: {file_path}")
+        try:
+            result = process_resume(file_path, verbose=False)
+            JOBS[job_id]["status"] = "completed"
+            JOBS[job_id]["result"] = result
+            JOBS[job_id]["completed_at"] = datetime.now(timezone.utc).isoformat()
+            logger.info(f"✅ [ASYNC JOB {job_id}] Background OCR completed successfully!")
+        except Exception as e:
+            logger.error(f"❌ [ASYNC JOB {job_id}] Background OCR failed: {e}")
+            JOBS[job_id]["status"] = "failed"
+            JOBS[job_id]["error"] = str(e)
+            JOBS[job_id]["completed_at"] = datetime.now(timezone.utc).isoformat()
+        finally:
+            # Auto-delete temporary upload file from disk after background task completes
+            try:
+                Path(file_path).unlink(missing_ok=True)
+            except Exception:
+                pass
+            gc.collect()
 
 
 # ── API Endpoints ────────────────────────────────────────────────────────────
@@ -146,6 +184,7 @@ def health_check():
             "surya_ocr": surya_cached,
         },
         "active_background_jobs": sum(1 for j in JOBS.values() if j["status"] == "processing"),
+        "total_jobs_in_ram": len(JOBS),
     }
 
 
@@ -190,9 +229,14 @@ async def parse_resume_endpoint(
             )
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Parsing error: {str(e)}")
+        finally:
+            # Auto-delete temporary upload file after fast-path parsing completes
+            save_path.unlink(missing_ok=True)
+            gc.collect()
 
     else:
         # Async-Path: Scanned/Image document -> queue in background task
+        _purge_oldest_jobs_if_needed()
         job_id = f"job_{uuid.uuid4().hex[:12]}"
         JOBS[job_id] = {
             "job_id": job_id,
