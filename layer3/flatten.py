@@ -37,12 +37,13 @@ def _fmt_cert_line(i: int, cert: dict) -> str:
     return f"{i}. {name}{issuer}{year} [conf {cert['confidence']}]"
 
 
-def _extract_languages_simple(text: str) -> str:
-    if not text:
+def _extract_languages_simple(text: str, fallback_text: str = "") -> str:
+    text_to_scan = text if (text and text.strip()) else fallback_text
+    if not text_to_scan:
         return ""
     found = []
-    for word in text.replace(",", " ").split():
-        clean = word.strip(".,;:()").lower()
+    for word in text_to_scan.replace(",", " ").replace("\n", " ").split():
+        clean = word.strip(".,;:()•·-").lower()
         if clean in _SPOKEN_LANGUAGE_KEYWORDS and clean.capitalize() not in found:
             found.append(clean.capitalize())
     return ", ".join(found)
@@ -132,7 +133,7 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
         "skills": record["skills"]["items"],
         "skills_confidence": record["skills"]["_confidence"],
 
-        "languages": _extract_languages_simple(languages_text),
+        "languages": _extract_languages_simple(languages_text, full_text),
         "languages_confidence": None,  # no dedicated language extractor yet — see note below
 
         "total_experience": te["total_years"],

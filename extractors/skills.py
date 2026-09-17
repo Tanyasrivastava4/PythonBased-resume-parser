@@ -242,6 +242,10 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
             found_skills.update(fallback_matches)
             methods_used.append("flashtext_full_text_fallback")
 
+    # Filter out spoken human languages (e.g. English, Hindi, Spanish) so they live exclusively in languages field
+    from segmenter.section_splitter import _SPOKEN_LANGUAGE_KEYWORDS
+    found_skills = {s for s in found_skills if s.lower() not in _SPOKEN_LANGUAGE_KEYWORDS}
+
     sorted_skills = sorted(found_skills)
 
     skills_by_category = {}
