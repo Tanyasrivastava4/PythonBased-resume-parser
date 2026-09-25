@@ -1,0 +1,53 @@
+======================================================================
+FILE: 75b809ca_Revashankar Kaushik_Full Stack Web Developer_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+EntSol360 — Senior Software Engineer - Feb 2020 – Present (~6 years)
+⚫ Developing and maintaining scalable web and mobile applications using Node.js, Java (Spring Boot),
+MySQL, React.js, React-Native, and Flutter
+⚫ Designing RESTful APIs and backend services with a focus on performance and security
+...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 13.3 years (160 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Software Engineer
+  Company      : EntSol360
+  Location     : None
+  Start - End  : Feb 2020 - Present
+  Duration     : 80 months
+  Bullets      : 1
+    • ⚫ Developing and maintaining scalable web and mobile applications using Node.js, Java (Spring Boot),
+  Sub-sections : ['MySQL, React.js, React-Native, and Flutter', '⚫ Designing RESTful APIs and backend services with a focus on performance and security', '⚫ Working with AWS cloud infrastructure for deployment and maintenance', '⚫ Taking end-to-end ownership of features and troubleshooting critical production issues for high-', 'scale applications.']
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : ⚫ Collaborating with cross-functional teams to deliver production-ready solutions
+  Location     : None
+  Start - End  : Oct 2014 - Feb 2020
+  Duration     : 65 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 3
+  Role         : Silicon Tech, Indore — Software Developer
+  Company      : ⚫ Managed project planning
+  Location     : task allocation
+  Start - End  : June2013 - Oct 2014
+  Duration     : 17 months
+  Bullets      : 1
+    • ⚫ Worked on web development and mobile application projects ⚫ Contributed to backend logic, UI development, and API integration
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

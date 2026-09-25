@@ -1,0 +1,78 @@
+======================================================================
+FILE: Mohit R Gaurishankar_ TSM NPS_ ABSLI_ Nagpur_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+PROFESSIONAL PROFILE
+Organization 	:- 	Bajaj Finserv
+Profile		:- 	sales officer(insurance   distribution)
+Tenure		:- 	Nov 2018 To Jun 2020
+Organization	:- 	Pramerica life insurance company limited.
+Profile		:- 	Associate Sales Manager
+Tenure		:- 	Oct 2020 To Feb 2021
+Organization	:-	 HDFC bank loan ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.4 years (65 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : sales officer(insurance   distribution)
+  Company      : Bajaj Finserv
+  Location     : None
+  Start - End  : Nov 2018 - Jun 2020
+  Duration     : 20 months
+  Bullets      : 0
+  Method       : date_regex+subfield_label_company+subfield_label_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Associate Sales Manager
+  Company      : Pramerica life insurance company limited
+  Location     : None
+  Start - End  : Oct 2020 - Feb 2021
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+subfield_label_company+subfield_label_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Sales Executive
+  Company      : HDFC bank loan against property
+  Location     : None
+  Start - End  : Jun 2023 - Dec 2024
+  Duration     : 19 months
+  Bullets      : 0
+  Method       : date_regex+subfield_label_company+subfield_label_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Pension Manager (Annuity)
+  Company      : Kotak Life Insurance
+  Location     : None
+  Start - End  : Jan 2024 - Aug 2025
+  Duration     : 20 months
+  Bullets      : 0
+  Method       : date_regex+subfield_label_company+subfield_label_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Relationship Manager
+  Company      : Shriram Life Insurance
+  Location     : None
+  Start - End  : Aug 2025 - Still Working
+  Duration     : 0 months
+  Bullets      : 3
+    • Handling daily operational activities.
+    • Handling client queries.
+    • Team handling.
+  Method       : date_regex+subfield_label_company+subfield_label_role
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,56 @@
+======================================================================
+FILE: deacac07_Naukri_AshishMishra[12y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Manager- TA & Operations Nov 2024 Onwards: Completed 3
+
+EDUCATIONAL QUALIFICATIONS Nov 2019 to Oct 2022: M.P. Infra Projects (Construction & Hospitality)
+Designation: Asst. HR Manager
+MBA- HRM, DAVV Indore Team size: 8 (4 Jr. Managers, 4 Executives)
+B.Tech.- Mechanical, UEC Ujjain Job Responsibiliti...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.79
+Needs review   : True
+Total exp      : 5.8 years (69 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Asst. HR Manager
+  Company      : EDUCATIONAL QUALIFICATIONS : M.P. Infra Projects (Construction & Hospitality)
+  Location     : None
+  Start - End  : Nov 2019 - Oct 2022
+  Duration     : 36 months
+  Bullets      : 2
+    • MBA- HRM, DAVV Indore Team size: 8 (4 Jr.
+    • Managers, 4 Executives)
+  Sub-sections : ['B.Tech.- Mechanical, UEC Ujjain Job Responsibilities', 'PGDCA, MCU Bhopal', 'HSC, MPBSE Bhopal', 'HSSC, MPBSE Bhopal']
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : Sr. HR Officer
+  Company      : ATTRIBUTES : Janhvi Constructions & Infrastructure Advisory
+  Location     : None
+  Start - End  : June 2014 - Feb 2016
+  Duration     : 21 months
+  Bullets      : 2
+    • Team size: 6 (2 Jr. Officer, 4 Executives)
+    • Strategic thinking
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Engineering Manager
+  Company      : Administrative expert : Janhvi Constructions
+  Location     : None
+  Start - End  : June 2013 - May 2014
+  Duration     : 12 months
+  Bullets      : 0
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.98
+  Needs Review : False

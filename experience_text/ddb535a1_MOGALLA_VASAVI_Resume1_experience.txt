@@ -1,0 +1,69 @@
+======================================================================
+FILE: ddb535a1_MOGALLA_VASAVI_Resume1_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Security Consultant (SOC)
+Capgemini Technology Services India Limited
+Oct 2022 – Present | Gurugram
+
+SOC Analyst (L1)
+Oct 2022 – Current | Gurugram
+Key Responsibilities:
+• Monitor and analyse security events in a 24×7 SOC environment.
+• Investigate real-time alerts to identify true positive threats ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.0 years (60 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Security Consultant
+  Company      : Capgemini Technology Services India Limited
+  Location     : None
+  Start - End  : Oct 2022 - Present
+  Duration     : 48 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : SOC Analyst
+  Company      : Gurugram
+  Location     : None
+  Start - End  : Oct 2022 - Current
+  Duration     : 48 months
+  Bullets      : 10
+    • Monitor and analyse security events in a 24×7 SOC environment.
+    • Investigate real-time alerts to identify true positive threats and minimize false positives using Splunk, Qradar, ArcSight.
+    • Conduct malware and threat analysis to support prompt incident response.
+    • Operate SIEM (Splunk) and Endpoint Detection & Response (EDR) systems for continuous security monitoring.
+    • Create, update, and resolve tickets through standardized incident management platforms.
+    • Identify vulnerabilities by reviewing log data and network traffic patterns.
+    • Prepare knowledge base documentation for incident resolution, change requests, and system improvements.
+    • Participate in cyber threat intelligence operations, including IOC collection and threat actor tracking.
+    • Perform phishing analysis, infrastructure threat monitoring, and unauthorized access investigations.
+    • Collaborate with stakeholders to implement security improvements and fine-tune detection rules.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : SAP ABAP Analyst
+  Company      : Chennai
+  Location     : None
+  Start - End  : Oct 2021 - Oct 2022
+  Duration     : 13 months
+  Bullets      : 5
+    • Designed and developed custom reports, smart forms, and system enhancements using SAP ABAP.
+    • Translated business requirements into clear and effective technical specifications.
+    • Debugged and optimized existing ABAP code to improve performance and reliability.
+    • Liaised with functional and business teams to ensure high-quality deliverables.
+    • Provided production support for ABAP development and resolved technical issues.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

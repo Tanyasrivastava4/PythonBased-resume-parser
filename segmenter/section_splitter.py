@@ -44,9 +44,10 @@ _EXPERIENCE_DATE_RANGE_TAIL = (
     r"(?:to|-|\u2013|\u2014)\s*\d{4}\s*\)?)?"
 )
 _EXPERIENCE_PATTERN = re.compile(
-    rf"^(?:((work|industry|relevant|professional|previous|past|prior)\s*(and\s*)?){{0,2}}experience"
+    rf"^(?:((working|work|industry|relevant|professional|previous|past|prior)\s*(and\s*)?){{0,2}}experience"
     rf"|employment(\s+(history|details|records?|background))?"
     rf"|professional\s*background"
+    rf"|professional\s*profile"
     rf"|career\s*history|work\s*history|internships?"
     rf"|corporate\s+success|career\s+journey|professional\s+journey"
     rf"|career\s+chronology|employment\s+timeline"
@@ -69,6 +70,7 @@ SECTION_PATTERNS = {
     "education": _build_section_pattern([
         r"education(al)?(\s+background)?",
         r"academics?(\s+background)?",
+        r"academic\s+details?",
         r"academic\s+qualifications?", r"educational\s+qualifications?",
         r"qualifications?",
         r"degrees?", r"university", r"college",
@@ -261,8 +263,8 @@ _JOB_DATE_RANGE = re.compile(
     rf"(?:,\s*)?(?:{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
     rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
     rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))"
-    rf"\s*(?:[-–—\u2013\u2014]+\s*|\bto\b\s*|(?=(?:Current|Present|Now|Till)\b))"
-    rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|current|present|now|"
+    rf"\s*(?:[-–—\u2013\u2014]+\s*|\bto\b\s*|(?=(?:Current|Present|Now|Till|Ongoing|On-going)\b))"
+    rf"(?:Current|Present|Now|Till\s*(?:Date|Now)|Ongoing|On-going|current|present|now|ongoing|on-going|"
     rf"{_JOB_DAY_MONTH_YEAR}|{_JOB_MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]?\d{{2}})|"
     rf"\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|"
     rf"(?:\d{{1,2}}/)?(?:\d{{4}}|['’‘`´]?\d{{2}}))",
@@ -290,6 +292,8 @@ _FUZZY_HEADING_KEYWORDS = {
 def _fuzzy_heading_label(candidate: str):
     word = candidate.strip().lower()
     if not word.isalpha() or len(word) < 5:
+        return None
+    if word in ("duration", "description", "designation", "direction", "location", "position", "organization", "organisation"):
         return None
     for keyword, label in _FUZZY_HEADING_KEYWORDS.items():
         if abs(len(word) - len(keyword)) > 2:
@@ -358,6 +362,8 @@ def _looks_like_company_entry(line: str) -> bool:
         return False
     if _NON_COMPANY_LINE_PREFIXES.match(stripped):
         return False
+    if re.search(r"\b(university|college|school|board|campus|institute\s+of|vidyalaya|academy)\b", stripped, re.IGNORECASE):
+        return False
     match = _JOB_DATE_RANGE.search(stripped)
     if not match:
         return False
@@ -365,6 +371,7 @@ def _looks_like_company_entry(line: str) -> bool:
         return False
     prefix = stripped[:match.start()].strip(" \t:-")
     return len(prefix.split()) >= 2
+
 
 
 def _next_nonblank_line(lines: list, start_index: int) -> str:
@@ -518,13 +525,23 @@ def _try_two_line_heading(lines: list, i: int):
 def detect_section_label(line: str, prev_lines: list = None) -> tuple:
     if prev_lines is None:
         prev_lines = []
+    if "\t" in line:
+        return None, 0.0
+    if re.match(r"^\s*(?:managed|responsible|led|executed|developed|created|oversee|daily|ensuring|conduct|coordinate|collaborate|underwritten)\b", line, re.IGNORECASE):
+        return None, 0.0
     candidate = _clean_heading_candidate(line)
     if not candidate:
         return None, 0.0
+    cand_lower = candidate.lower()
+    if cand_lower in ("professional profile", "working experience", "work experience"):
+        return "experience", 0.95
     for label, pattern in SECTION_PATTERNS.items():
         if pattern.match(candidate):
             if _is_wrapped_word(candidate, prev_lines):
                 return None, 0.0
+            if label == "certifications":
+                if any(t in cand_lower for t in ["10th", "12th", "examination", "secondary", "senior", "education", "academic"]):
+                    continue
             return label, 0.95
     return None, 0.0
 
@@ -642,6 +659,10 @@ def _resolve_unknown_heading(stripped: str):
         return None
 
     lower = stripped.lower()
+    if "qualification" in lower:
+        if any(w in lower for w in ["hr", "signature", "technical", "functional", "core", "key", "domain", "professional"]) and not any(w in lower for w in ["academic", "educational"]):
+            return "skills"
+
     for keyword, mapped_label in _KEYWORD_TO_LABEL.items():
         if keyword in lower:
             if mapped_label == "roles_responsibilities" and "role" not in lower:
@@ -663,6 +684,10 @@ def _find_embedded_heading_split(line: str):
         candidate_clean = _clean_heading_candidate(" ".join(tail_words))
         for label, pattern in SECTION_PATTERNS.items():
             if label == "interests" and n == 1:
+                continue
+            if label == "education" and n == 1 and candidate_clean.lower() in {"college", "university", "degrees", "school", "academy", "institution", "campus", "qualifications"}:
+                continue
+            if label == "projects" and n == 1 and candidate_clean.lower() in {"project", "projects"}:
                 continue
             if pattern.match(candidate_clean):
                 prefix = " ".join(words[:-n]).strip()
@@ -735,6 +760,10 @@ def split_into_sections(text: str) -> list:
             if _SUB_PROJECT_HEADER_RE.match(stripped):
                 label = None
 
+        if label == "education" and current_label == "projects":
+            if re.search(r"educational?\s*(&|and|\s+)\s*(institutional|projects?|domain|sector|clients?|category)", stripped, re.IGNORECASE) or _LEADING_BULLET_RE.match(stripped):
+                label = None
+
         if label is None and stripped != "":
             if not _is_wrapped_word(stripped, lines[:i]):
                 # GUARD (see REVISION note below): none of these three
@@ -773,12 +802,24 @@ def split_into_sections(text: str) -> list:
                     label = "experience"
                     confidence = 0.85
                     inline_content = stripped
+                elif _JOB_DATE_RANGE.search(stripped) and len(stripped) <= 60 and not stripped.endswith("."):
+                    nxt = _next_nonblank_line(lines, i + 1)
+                    if nxt and len(nxt) <= 80 and not nxt.endswith(".") and not nxt.startswith("•"):
+                        label = "experience"
+                        confidence = 0.85
+                        inline_content = stripped
 
         if label is None and stripped != "":
             if not _is_wrapped_word(stripped, lines[:i]):
                 if _looks_like_job_block_header(stripped, i, lines):
                     label = "experience"
                     confidence = 0.9
+
+        if label is None and stripped != "" and current_label != "education":
+            if re.search(r"^[•●\s]*(?:master\b|bachelor\b|mca\b|bca\b|b\.tech|btech|m\.tech|mtech|b\.com|bcom|m\.com|mcom|b\.sc|bsc|m\.sc|msc|phd\b|doctorate\b|diploma\b)", stripped, re.IGNORECASE):
+                label = "education"
+                confidence = 0.85
+
 
         if label is None and stripped != "":
             if not _is_wrapped_word(stripped, lines[:i]):
@@ -795,9 +836,12 @@ def split_into_sections(text: str) -> list:
         if label is None and stripped != "":
             embed_prefix, embed_heading_text, embed_label = _find_embedded_heading_split(stripped)
             if embed_label is not None and embed_label != current_label:
-                current_lines.append(embed_prefix)
-                label = embed_label
-                confidence = 0.85
+                if current_label == "education" and embed_label == "certifications":
+                    pass
+                else:
+                    current_lines.append(embed_prefix)
+                    label = embed_label
+                    confidence = 0.85
 
         if label == "languages" and stripped != "":
             lookahead = inline_content if inline_content else _next_nonblank_line(lines, i + 1)
@@ -806,9 +850,10 @@ def split_into_sections(text: str) -> list:
                 confidence = 0.0
                 inline_content = None
 
-        if label == "summary" and not experience_seen and stripped != "":
+        if label == "summary" and stripped != "":
             upcoming = _next_nonblank_line(lines, i + 1)
-            if _looks_like_job_entry(upcoming):
+            is_job = _looks_like_job_entry(upcoming) or _looks_like_job_block_header(upcoming, i + 1, lines) or _looks_like_company_entry(upcoming) or bool(re.search(r"^\s*organization\s*[:-]", upcoming, re.I))
+            if is_job:
                 label = "experience"
                 confidence = 0.85
 
@@ -817,6 +862,21 @@ def split_into_sections(text: str) -> list:
                 label = "experience"
                 confidence = 0.9
                 inline_content = stripped
+
+        if current_label == "projects" and label == "education" and stripped != "":
+            upcoming_lines = [stripped] + [lines[k].strip() for k in range(i + 1, min(i + 6, len(lines))) if lines[k].strip()]
+            upcoming_text = " ".join(upcoming_lines).lower()
+            edu_degree_pattern = re.compile(
+                r"\b(mca|bca|b\.com|bcom|m\.com|mcom|b\.tech|btech|m\.tech|mtech|b\.e|be|m\.e|me|b\.sc|bsc|m\.sc|msc|phd|doctorate|bachelor|master|diploma|university|college|10th|12th|hsc|sslc|cbse|icse)\b"
+                r"|\b(?:19|20)\d{2}\s*[-–—\u2013\u2014\s\tto]+\s*(?:(?:19|20)\d{2}|present|current)\b",
+                re.IGNORECASE
+            )
+            is_project_cat = bool(re.search(r"\b(website|web\s+site|portal|dashboard|ecommerce|e-commerce|apps?|web-app)\b", upcoming_text, re.IGNORECASE))
+            if not edu_degree_pattern.search(upcoming_text) or is_project_cat:
+                label = None
+                confidence = 0.0
+
+
 
         if label is not None and label == current_label:
             current_lines.append(line)
@@ -830,7 +890,13 @@ def split_into_sections(text: str) -> list:
             label = promoted_label
             confidence = 0.8
 
-        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities"}:
+        if label == "projects" and re.search(r"^\s*project\s+(?:manager|lead|architect|coordinator|executive|engineer|director|head)\b", stripped, re.IGNORECASE):
+            label = None
+
+        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities", "skills"}:
+            if label == "skills" and not re.match(r'^\s*(?:technical\s+skills?|skills?|core\s+competencies|key\s+skills?)\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
+                current_lines.append(line)
+                continue
             if label == "projects" and _SUB_PROJECT_HEADER_RE.match(stripped):
                 current_lines.append(line)
                 continue
@@ -839,9 +905,17 @@ def split_into_sections(text: str) -> list:
                 continue
             if confidence < 0.9 and (label in {"achievements", "roles_responsibilities"} or stripped.endswith(":") or stripped.endswith(":-")):
                 current_lines.append(line)
-                continue
-
         if label is not None and stripped != "":
+            pulled_header = None
+            if label == "experience" and current_label not in ("header", "summary") and current_lines:
+                last_l = current_lines[-1].strip()
+                words_l = last_l.split()
+                if (1 <= len(words_l) <= 6 and 
+                    not last_l.startswith(('•', '●', '○', '◦', '▪', '▫', '■', '□', '▸', '►', '‣', '➤', '✓', '✔', '➢', '❖', '✦', '★', '✪', '', '', '-', '*', '➢')) and
+                    not last_l.rstrip().endswith(('.', ';', ':')) and
+                    any(c.isupper() for c in last_l)):
+                    pulled_header = current_lines.pop()
+
             if label == "experience":
                 experience_seen = True
             section_text = normalize_inline_bullets("\n".join(current_lines).strip())
@@ -855,6 +929,8 @@ def split_into_sections(text: str) -> list:
             current_label = label
             current_start = i
             current_lines = []
+            if pulled_header:
+                current_lines.append(pulled_header)
             if inline_content:
                 current_lines.append(inline_content)
             elif label == "unknown":

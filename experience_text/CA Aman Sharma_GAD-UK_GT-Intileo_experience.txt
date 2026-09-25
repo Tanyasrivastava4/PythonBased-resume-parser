@@ -1,0 +1,48 @@
+======================================================================
+FILE: CA Aman Sharma_GAD-UK_GT-Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Ernst and Young GDS LLP
+Assurance Senior / Sep 2025 – May 2026
+• Performed correlation (3 Way), trial balance tie-outs and analytical procedure to ensure accuracy of
+financial reporting.
+• Preparation of Letter of representation and Audit report.
+• Working on trade payables and trade receivables cut...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.8 years (46 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Assurance Senior
+  Company      : Ernst and Young GDS LLP
+  Location     : None
+  Start - End  : Sep 2025 - May 2026
+  Duration     : 9 months
+  Bullets      : 4
+    • Performed correlation (3 Way), trial balance tie-outs and analytical procedure to ensure accuracy of financial reporting.
+    • Preparation of Letter of representation and Audit report.
+    • Working on trade payables and trade receivables cutoff analysis and test of details.
+    • Understand the procedures of Global audits.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Article Assistant
+  Company      : B R Maheswari & Co LLP
+  Location     : Delhi
+  Start - End  : Mar 2022 - Mar 2025
+  Duration     : 37 months
+  Bullets      : 4
+    • Statutory Audit: o Executed Statutory audit & Limited review of 3rd largest cement manufacturers company having turnover more than 23000+ Crores which was part of Nifty 50 Index wherein I reviewed internal financial controls (Section 143) and Ind As Compliances in preparation of financial statements, Consolidation adjustments as per Ind AS 110, Analytical review of expenses, Ledger scrutiny (100+) etc. & CARO reporting (Clause 1,2,11,13,21). o Conducted Analysis of Ratios, Variances, Trends, and Prepared Financial Statements as per AS & Schedule- III of Companies Act 2013 of manufacturing, retail and service industry clients. o Worked on area such as Investment, Property plant and Equipment, External commercial borrowing, leases and have gained practical implications of INDAS such as 109, 16, 116 etc.
+    • Accounting and Financial Reporting: o Preparation of financial statements (30+) including Balance Sheet, P&L, Cash Flow statements, notes to accounts and significant accounting policies in accordance with applicable AS and Ind AS.
+    • Taxation: o Conduct Tax audit (Section 44AB) of listed, unlisted, MSME, partnership firms and others under Form 3CA, 3CB and 3CD. o GST return filing (GSTR 1 and 3B) and GST audit (GSTR 9 and 9C).
+    • Client Interaction & Documentation: o Liaised with clients for data collection, clarification of audit queries, and compliance matters. Maintained proper documentation and working papers for audit assignments.
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

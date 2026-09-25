@@ -1,0 +1,74 @@
+======================================================================
+FILE: 71dcfa7a_Pragati resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Progenesis Fertility Center
+Financial Counselor | Oct 2025 – Present
+•	Provide end-to-end financial counseling to patients, explaining fertility treatment plans, pricing structures, and payment options.
+•	Drive patient conversion by aligning clinical treatment recommendations with financial feasibil...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 6.0 years (72 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Progenesis Fertility Center
+  Location     : None
+  Start - End  : Oct 2025 - Present
+  Duration     : 12 months
+  Bullets      : 5
+    • Provide end-to-end financial counseling to patients, explaining fertility treatment plans, pricing structures, and payment options.
+    • Drive patient conversion by aligning clinical treatment recommendations with financial feasibility and patient comfort.
+    • Collaborate closely with doctors, patient care coordinators, and operations teams to ensure a seamless patient journey.
+    • Handle sensitive and high-value cases with empathy, confidentiality, and strong negotiation skills.
+    • Consistently achieve monthly conversion ratios and revenue targets through a consultative sales approach.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Inside Sales Senior Associate
+  Company      : Breathe WellBeing
+  Location     : None
+  Start - End  : Jan 2022 - Oct 2025
+  Duration     : 46 months
+  Bullets      : 4
+    • Managed 50+ daily inbound and outbound sales calls converting leads into paid chronic care program enrollments.
+    • Tracked sales performance, follow-ups, and revenue pipeline using CRM tools to ensure steady business flow.
+    • Coordinated with doctors, nutritionists, and health coaches to improve patient engagement and retention.
+    • Supported feedback planning and process improvements to enhance overall conversion rates and customer satisfaction.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Senior Counsellor
+  Company      : Board Infinity
+  Location     : None
+  Start - End  : May 2021 - Jan 2022
+  Duration     : 9 months
+  Bullets      : 3
+    • Conducted 100+ daily counseling calls with students and parents for higher education and upskilling programs.
+    • Consistently achieved weekly and monthly sales targets through needs-based selling and strong objection handling.
+    • Assisted in lead quality improvement and customer issue resolution.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Business Development Executive
+  Company      : UFaber
+  Location     : None
+  Start - End  : Oct 2020 - Apr 2021
+  Duration     : 7 months
+  Bullets      : 2
+    • Converted prospects through structured follow-ups, revenue tracking, and referral generation.
+    • Maintained consistent achievement of individual sales goals.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

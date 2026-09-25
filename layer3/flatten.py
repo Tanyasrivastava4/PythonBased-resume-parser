@@ -24,10 +24,19 @@ def _fmt_education_line(i: int, entry: dict) -> str:
 def _fmt_experience_line(i: int, job: dict) -> str:
     role = job["role"] or "Unknown role"
     company = job["company"] or "Unknown company"
-    start = job["start"] or "?"
-    end = job["end"] or "?"
-    return (f"{i}. {role} @ {company} ({start} - {end}) "
+    start = job["start"]
+    end = job["end"]
+    if not start and end:
+        date_str = f"({end})"
+    elif start and not end:
+        date_str = f"({start})"
+    elif start and end:
+        date_str = f"({start} - {end})"
+    else:
+        date_str = "(? - ?)"
+    return (f"{i}. {role} @ {company} {date_str} "
             f"[conf {job['confidence']}, review={job['needs_review']}]")
+
 
 
 def _fmt_cert_line(i: int, cert: dict) -> str:

@@ -51,6 +51,6 @@ Entry 2
   Bullets      : 2
     • . NDRP (National Digital Recruitment Platform):The National Digital Recruitment Platform (NDRP) is a centralized online system developed to streamline recruitment for various government examinations. It provides candidates with a single portal for One- Time Registration (OTR), profile creation, exam applications, admit card downloads, and scorecards/result, eliminating the need for multiple registrations across different agencies.
     • SVA (Smart Verification App) : Smart Verification App makes candidate verification easier by capturing the candidate's live photo at the exam center, along with photos of the OMR sheet and other documents.
-  Method       : date_regex
+  Method       : date_regex+company_suffix_match
   Confidence   : 0.85
   Needs Review : True

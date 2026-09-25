@@ -1,0 +1,53 @@
+======================================================================
+FILE: 7c1afeaa_Sachin_Singh_CV_updated_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Cybersecurity Specialist @ Aguna	Jan 2025 – May 2026
+Conducted penetration testing on web applications. Identified critical security flaws in client applications.
+Performed Network vulnerability assessments using tools such as Nessus, Nmap.
+Prepared detailed VAPT reports including risk ratings, proo...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 3.9 years (47 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Cybersecurity Specialist @ Aguna
+  Company      : Performed Network vulnerability assessments using tools such as Nessus
+  Location     : None
+  Start - End  : Jan 2025 - May 2026
+  Duration     : 17 months
+  Bullets      : 2
+    • Conducted penetration testing on web applications.
+    • Identified critical security flaws in client applications.
+  Method       : date_regex+title_dict
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : Cybersecurity Analyst @ Alphatec
+  Company      : Performed VAPT for web applications, APIs
+  Location     : None
+  Start - End  : July 2023 - Dec 2024
+  Duration     : 18 months
+  Bullets      : 2
+    • Led the transition of a hardware-based AI security solution to a Docker-based containerized deployment, supporting early customer adoption.
+    • Conducted POCs for potential clients.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : Penetration Tester @ Krishna Automation
+  Location     : None
+  Start - End  : July 2022 - June 2023
+  Duration     : 12 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

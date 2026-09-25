@@ -1,0 +1,52 @@
+======================================================================
+FILE: latest 18Aug-1-1-1_segmented.txt
+======================================================================
+
+RAW EDUCATION SECTION
+----------------------------------------------------------------------
+M.M.S. (Marketing)
+Lucknow University
+07/1998 - 04/2000 Lucknow
+M.A. (Economics)
+St. John’s College
+07/1995 - 06/1997 Agra
+B.A. (Economics)
+St. John’s College
+07/1992 - 06/1995 Agra
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found : 3
+Confidence    : 0.68
+Time          : 2.02 ms
+
+Entry 1
+Degree       : M.M.S. (Marketing)
+Degree Name  : M.S.
+Degree Type  : masters
+Institution  : Lucknow University
+Year         : 2000
+GPA          : None
+Needs Review : False
+Confidence   : 0.95
+
+Entry 2
+Degree       : M.A. (Economics)
+Degree Name  : M.A.
+Degree Type  : masters
+Institution  : College
+Year         : 1997
+GPA          : None
+Needs Review : True
+Confidence   : 0.55
+
+Entry 3
+Degree       : B.A. (Economics)
+Degree Name  : B.A.
+Degree Type  : bachelors
+Institution  : College
+Year         : 1995
+GPA          : None
+Needs Review : True
+Confidence   : 0.55
+

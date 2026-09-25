@@ -206,7 +206,7 @@ def _dedup_consecutive(parts: list) -> list:
 def _find_sidebar_split(words: list, page_width: float):
     """
     Detects if a page has a sidebar layout — a narrow left column
-    containing ONLY section headings, and a wide right column with content.
+    containing section headings or dates, and a wide right column with content.
     Returns the x-coordinate of the split point if sidebar detected,
     or None if not a sidebar layout.
     """
@@ -225,34 +225,89 @@ def _find_sidebar_split(words: list, page_width: float):
     if content_start_x is None or best_count < 3:
         return None
 
-    sidebar_candidates = [w for w in words if w["x0"] < content_start_x - 10]
+    # Exclude full-width straddling lines (e.g. headers, contact lines) spanning across content_start_x
+    straddling_words = set()
+    line_groups = {}
+    for w in words:
+        top_key = round(w["top"] / 3.0) * 3.0
+        line_groups.setdefault(top_key, []).append(w)
+
+    for top_key, line_w in line_groups.items():
+        min_x = min(w["x0"] for w in line_w)
+        max_x = max(w["x1"] for w in line_w)
+        if min_x < content_start_x - 10 and max_x > content_start_x + 30:
+            for w in line_w:
+                straddling_words.add(id(w))
+
+    sidebar_candidates = [
+        w for w in words 
+        if w["x0"] < content_start_x - 10 and id(w) not in straddling_words
+    ]
 
     if not sidebar_candidates:
         return None
-    if len(sidebar_candidates) > 25:
+
+    max_sidebar_x1 = max(w["x1"] for w in sidebar_candidates)
+    gap = content_start_x - max_sidebar_x1
+
+    if gap < 20:
         return None
 
-    sidebar_x0s = sorted(set(round(w["x0"]) for w in sidebar_candidates))
-    heading_boundary = sidebar_x0s[-1]
-    for i in range(len(sidebar_x0s) - 1):
-        inner_gap = sidebar_x0s[i + 1] - sidebar_x0s[i]
-        if inner_gap > 30:
-            heading_boundary = sidebar_x0s[i]
-            break
-
-    gap = content_start_x - heading_boundary
-    if gap < 30:
-        return None
-
-    split = (heading_boundary + content_start_x) / 2
+    split = (max_sidebar_x1 + content_start_x) / 2
     return split
+
+
+def _combine_sidebar_date_tuples(sidebar_line_tuples: list) -> list:
+    """
+    Combines consecutive date fragment lines in narrow sidebar columns
+    (e.g. '01-05-' / '2020 -' / '28-02-' / '2021' -> '01-05-2020 - 28-02-2021').
+    """
+    if not sidebar_line_tuples:
+        return []
+
+    is_date_frag = lambda s: bool(re.search(r'(\d{1,4}[-/.]?|\bTill\b|\bPresent\b|\bCurrent\b|[-–—])', s, re.I))
+    is_section_hdr = lambda s: any(kw in s.upper() for kw in ["EXPERIENCE", "EDUCATION", "SKILLS", "LANGUAGES", "OBJECTIVE", "PERSONAL", "REFERENCE", "SUMMARY"])
+
+    combined = []
+    i = 0
+    n = len(sidebar_line_tuples)
+
+    while i < n:
+        top, text = sidebar_line_tuples[i]
+        if is_date_frag(text) and not is_section_hdr(text):
+            group_top = top
+            group_texts = [text]
+            j = i + 1
+            while j < n:
+                next_top, next_text = sidebar_line_tuples[j]
+                if next_top - sidebar_line_tuples[j-1][0] <= 25 and is_date_frag(next_text) and not is_section_hdr(next_text):
+                    group_texts.append(next_text)
+                    j += 1
+                else:
+                    break
+            
+            combined_str = " ".join(group_texts)
+            # Fix dates like "01-05- 2020" -> "01-05-2020"
+            combined_str = re.sub(r'(\d{1,2})\s*[-/. \t]+\s*(\d{1,2})\s*[-/. \t]+\s*(\d{2,4})', r'\1-\2-\3', combined_str)
+            # Fix range separators
+            combined_str = re.sub(r'(\d{4}|\bTill\b|\bPresent\b)\s*[-–—\s]+\s*(\d{1,2}[-/.]|\d{4}|\bTill\b|\bPresent\b)', r'\1 - \2', combined_str, flags=re.I)
+            combined_str = re.sub(r'\s+', ' ', combined_str).strip()
+            combined_str = re.sub(r'[\s\-–—]+$', '', combined_str)
+            
+            combined.append((group_top, combined_str))
+            i = j
+        else:
+            combined.append((top, text))
+            i += 1
+
+    return combined
 
 
 def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str:
     """
     Merges sidebar heading words with content words by vertical position.
     """
-    heading_lines = {}
+    sidebar_line_tuples = []
     sorted_sidebar = sorted(sidebar_words, key=lambda w: (round(w["top"], 1), w["x0"]))
 
     current_top = None
@@ -261,17 +316,19 @@ def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str
         if current_top is None:
             current_top = word["top"]
             current_words = [word]
-        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 1.5:
+        elif abs(word["top"] - current_top) <= max(word.get("height", 1) * 0.5, 3.5):
             current_words.append(word)
-            current_top = word["top"]
         else:
             heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
-            heading_lines[round(current_top)] = heading_text
+            sidebar_line_tuples.append((current_top, heading_text))
             current_top = word["top"]
             current_words = [word]
     if current_words:
         heading_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
-        heading_lines[round(current_top)] = heading_text
+        sidebar_line_tuples.append((current_top, heading_text))
+
+    sidebar_line_tuples = _combine_sidebar_date_tuples(sidebar_line_tuples)
+    heading_lines = {round(top): text for top, text in sidebar_line_tuples}
 
     content_line_list = []
     sorted_content = sorted(content_words, key=lambda w: (round(w["top"], 1), w["x0"]))
@@ -282,7 +339,7 @@ def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str
         if current_top is None:
             current_top = word["top"]
             current_words = [word]
-        elif abs(word["top"] - current_top) <= max(word["height"], 1) * 0.5:
+        elif abs(word["top"] - current_top) <= max(word.get("height", 1), 1) * 0.5:
             current_words.append(word)
         else:
             line_text = " ".join(w["text"] for w in sorted(current_words, key=lambda w: w["x0"]))
@@ -297,14 +354,28 @@ def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str
     used_headings = set()
 
     for content_top, content_text in content_line_list:
+        before_headings = []
+        after_headings = []
         for heading_top, heading_text in sorted(heading_lines.items()):
             if heading_top in used_headings:
                 continue
-            if abs(heading_top - content_top) <= 20:
-                result_lines.append(heading_text)
-                used_headings.add(heading_top)
-                break
+            if any(kw in heading_text.upper() for kw in ["EXPERIENCE", "EDUCATION", "SKILLS", "LANGUAGES", "OBJECTIVE", "PERSONAL"]):
+                if -5 <= (content_top - heading_top) <= 25:
+                    before_headings.append((heading_top, heading_text))
+                    used_headings.add(heading_top)
+            else:
+                if abs(heading_top - content_top) <= 20:
+                    if heading_top <= content_top + 3:
+                        before_headings.append((heading_top, heading_text))
+                    else:
+                        after_headings.append((heading_top, heading_text))
+                    used_headings.add(heading_top)
+
+        for h_top, h_text in sorted(before_headings, key=lambda x: x[0]):
+            result_lines.append(h_text)
         result_lines.append(content_text)
+        for h_top, h_text in sorted(after_headings, key=lambda x: x[0]):
+            result_lines.append(h_text)
 
     for heading_top, heading_text in sorted(heading_lines.items()):
         if heading_top not in used_headings:
@@ -317,7 +388,53 @@ def _merge_sidebar_with_content(sidebar_words: list, content_words: list) -> str
 # TWO-COLUMN LAYOUT DETECTION
 # ──────────────────────────────────────────────────────────────
 
-def _find_column_split(words: list, page_width: float):
+def _is_line_straddling(line_w: list, split_x: float) -> bool:
+    for w in line_w:
+        if w["x0"] < split_x - 5 and w["x1"] > split_x + 5:
+            return True
+    lefts = [w for w in line_w if w["x0"] < split_x]
+    rights = [w for w in line_w if w["x0"] >= split_x]
+    if lefts and rights:
+        max_left = max(w["x1"] for w in lefts)
+        min_right = min(w["x0"] for w in rights)
+        return (min_right - max_left < 20)
+    elif lefts:
+        return max(w["x1"] for w in lefts) > split_x + 5
+    elif rights:
+        return min(w["x0"] for w in rights) < split_x - 5
+    return False
+
+
+def _get_header_bottom_y(words: list, split_x: float, page_height: float = 842.0) -> float:
+    if not words or split_x is None:
+        return 0.0
+    sorted_w = sorted(words, key=lambda w: (w["top"], w["x0"]))
+    lines = []
+    curr_line = []
+    curr_top = None
+    for w in sorted_w:
+        if curr_top is None:
+            curr_top = w["top"]
+            curr_line = [w]
+            continue
+        if abs(w["top"] - curr_top) <= 3.0:
+            curr_line.append(w)
+        else:
+            lines.append(curr_line)
+            curr_line = [w]
+            curr_top = w["top"]
+    if curr_line:
+        lines.append(curr_line)
+
+    bottoms = [
+        max(w["bottom"] for w in line_w)
+        for line_w in lines
+        if _is_line_straddling(line_w, split_x) and min(w["top"] for w in line_w) < page_height * 0.45
+    ]
+    return max(bottoms) if bottoms else 0.0
+
+
+def _find_column_split(words: list, page_width: float, page_height: float = 842.0, header_aware: bool = False):
     """
     Finds the actual column split point for a two-column layout, using
     the gap in x0 start positions rather than assuming the page midpoint.
@@ -325,10 +442,13 @@ def _find_column_split(words: list, page_width: float):
     if not words:
         return None
 
-    # Exclude full-width lines (span > 48% of page_width) when calculating left/right clusters.
-    # Group words into physical lines with 3.0pt vertical tolerance to avoid splitting
-    # words on the same line into separate buckets.
-    sorted_w = sorted(words, key=lambda w: (w["top"], w["x0"]))
+    h_bottom_y = 0.0
+    if header_aware:
+        h_bottom_y = _get_header_bottom_y(words, page_width * 0.5, page_height)
+
+    words_to_check = [w for w in words if w["top"] >= h_bottom_y - 2] if (header_aware and h_bottom_y > 0) else words
+
+    sorted_w = sorted(words_to_check, key=lambda w: (w["top"], w["x0"]))
     lines = []
     curr_line = []
     curr_top = None
@@ -349,11 +469,24 @@ def _find_column_split(words: list, page_width: float):
 
     non_full_words = []
     for line_w in lines:
-        line_span = max(w["x1"] for w in line_w) - min(w["x0"] for w in line_w)
-        if line_span <= page_width * 0.68:
-            non_full_words.extend(line_w)
+        line_w_sorted = sorted(line_w, key=lambda w: w["x0"])
+        segments = []
+        curr_seg = [line_w_sorted[0]]
+        for prev, curr in zip(line_w_sorted, line_w_sorted[1:]):
+            if curr["x0"] - prev["x1"] > 25:
+                segments.append(curr_seg)
+                curr_seg = [curr]
+            else:
+                curr_seg.append(curr)
+        if curr_seg:
+            segments.append(curr_seg)
 
-    candidate_words = non_full_words if len(non_full_words) >= 20 else words
+        for seg in segments:
+            seg_span = max(w["x1"] for w in seg) - min(w["x0"] for w in seg)
+            if seg_span <= page_width * 0.68:
+                non_full_words.extend(seg)
+
+    candidate_words = non_full_words if len(non_full_words) >= 20 else words_to_check
 
     x0_counter = Counter(round(w["x0"]) for w in candidate_words)
     all_x0 = sorted(x0_counter.keys())
@@ -366,13 +499,13 @@ def _find_column_split(words: list, page_width: float):
 
     for i in range(len(all_x0) - 1):
         left_count = sum(c for x, c in x0_counter.items() if x <= all_x0[i])
-        right_count = sum(c for x, c in x0_counter.items() if x > all_x0[i])
+        right_count = sum(c for x, c in x0_counter.items() if x >= all_x0[i + 1])
 
         if left_count < 2 or right_count < 10:
             continue
 
-        left_cluster_w = [w for w in candidate_words if w["x0"] <= all_x0[i] and w["x1"] <= all_x0[i + 1] + 5]
-        right_cluster_w = [w for w in candidate_words if w["x0"] > all_x0[i]]
+        left_cluster_w = [w for w in candidate_words if w["x0"] <= all_x0[i] + 5]
+        right_cluster_w = [w for w in candidate_words if w["x0"] >= all_x0[i + 1] - 5]
 
         if not left_cluster_w or not right_cluster_w:
             continue
@@ -408,39 +541,8 @@ def _find_column_split(words: list, page_width: float):
     return best_split, left_words, right_words
 
 
-def _get_header_bottom_y(words: list, split_x: float, page_width: float) -> float:
-    if not words or split_x is None:
-        return 0.0
-    sorted_w = sorted(words, key=lambda w: (w["top"], w["x0"]))
-    lines = []
-    curr_line = []
-    curr_top = None
-    for w in sorted_w:
-        if curr_top is None:
-            curr_top = w["top"]
-            curr_line = [w]
-            continue
-        if abs(w["top"] - curr_top) <= 3.0:
-            curr_line.append(w)
-        else:
-            lines.append(curr_line)
-            curr_line = [w]
-            curr_top = w["top"]
-    if curr_line:
-        lines.append(curr_line)
-
-    bottoms = [
-        max(w["bottom"] for w in line_w)
-        for line_w in lines
-        if min(w["x0"] for w in line_w) < split_x - 10
-        and max(w["x1"] for w in line_w) > split_x + 10
-        and min(w["top"] for w in line_w) < 100
-    ]
-    return max(bottoms) if bottoms else 0.0
-
-
 # adding code from antigravity
-def _is_true_two_column(words: list, page_width: float, header_aware: bool = False):
+def _is_true_two_column(words: list, page_width: float, page_height: float = 842.0, header_aware: bool = False):
     """
     Determines whether a page genuinely has a two-column layout, AND
     returns the correctly split word groups if so.
@@ -455,7 +557,7 @@ def _is_true_two_column(words: list, page_width: float, header_aware: bool = Fal
     full-width header text (name, title, contact bar) from being
     counted as gutter straddlers and vetoing a real two-column layout.
     """
-    result = _find_column_split(words, page_width)
+    result = _find_column_split(words, page_width, page_height, header_aware=header_aware)
     if result is None:
         return None
 
@@ -464,13 +566,9 @@ def _is_true_two_column(words: list, page_width: float, header_aware: bool = Fal
     if len(left_words) < 2 or len(right_words) < 25:
         return None
 
-    # adding code from antigravity
-    # When header_aware=True, compute where column content actually starts.
-    # Exclude top-of-page full-width header words (which straddle split_x)
-    # from the gutter check threshold.
     gutter_check_words = words
     if header_aware and left_words and right_words:
-        header_bottom_y = _get_header_bottom_y(words, split_x, page_width)
+        header_bottom_y = _get_header_bottom_y(words, split_x, page_height)
         if header_bottom_y > 0:
             gutter_check_words = [w for w in words if w["top"] >= header_bottom_y - 2]
         else:
@@ -485,6 +583,32 @@ def _is_true_two_column(words: list, page_width: float, header_aware: bool = Fal
         if (split_x - w["x0"]) >= 15 and (w["x1"] - split_x) >= 15
     ]
     if len(gutter_words) > 5:
+        return None
+
+    # Check if lines are being sliced through continuous text (small gaps < 15pt between left and right words on the same line)
+    sorted_w = sorted(words, key=lambda w: (w["top"], w["x0"]))
+    lines, curr_line, curr_top = [], [], None
+    for w in sorted_w:
+        if curr_top is None or abs(w["top"] - curr_top) > 3.0:
+            if curr_line:
+                lines.append(curr_line)
+            curr_line = [w]
+            curr_top = w["top"]
+        else:
+            curr_line.append(w)
+    if curr_line:
+        lines.append(curr_line)
+
+    small_gap_lines = 0
+    for line in lines:
+        left_w = [w for w in line if w["x1"] <= split_x + 5]
+        right_w = [w for w in line if w["x0"] >= split_x - 5]
+        if left_w and right_w:
+            gap = min(w["x0"] for w in right_w) - max(w["x1"] for w in left_w)
+            if gap < 15.0:
+                small_gap_lines += 1
+
+    if small_gap_lines > 2:
         return None
 
     if right_words and left_words:
@@ -545,7 +669,7 @@ def _extract_words_to_lines(words: list) -> str:
         sub_lines = []
         curr_sub = [line_sorted[0]["text"]]
         for prev, curr in zip(line_sorted, line_sorted[1:]):
-            if curr["x0"] - prev["x1"] > 100:
+            if curr["x0"] - prev["x1"] > 40:
                 sub_lines.append(" ".join(curr_sub))
                 curr_sub = [curr["text"]]
             else:
@@ -675,7 +799,7 @@ def read_text_pdf(pdf_path: str) -> str:
                     primary_parts.append(text.strip())
                 continue
 
-            two_col_result = _is_true_two_column(words, page_width)
+            two_col_result = _is_true_two_column(words, page_width, page.height)
             # adding code from antigravity
             # Pass 1 above is unchanged. Pass 2 only runs when Pass 1 failed.
             # Retries with header_aware=True so that full-width header words
@@ -687,14 +811,14 @@ def read_text_pdf(pdf_path: str) -> str:
             # already returns a result for them.
             if two_col_result is None:
                 two_col_result = _is_true_two_column(
-                    words, page_width, header_aware=True
+                    words, page_width, page.height, header_aware=True
                 )
             if two_col_result:
                 left_words, right_words = two_col_result
-                split_res = _find_column_split(words, page_width)
+                split_res = _find_column_split(words, page_width, page.height, header_aware=True)
                 if split_res:
                     split_x, _, _ = split_res
-                    header_bottom_y = _get_header_bottom_y(words, split_x, page_width)
+                    header_bottom_y = _get_header_bottom_y(words, split_x, page.height)
                     if header_bottom_y > 0:
                         header_words = [w for w in words if w["top"] < header_bottom_y - 2]
                         left_words = [w for w in words if w["top"] >= header_bottom_y - 2 and w["x0"] < split_x]

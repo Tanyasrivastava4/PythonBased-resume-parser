@@ -12,7 +12,7 @@ IT...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 4
-Confidence     : 0.92
+Confidence     : 0.91
 Needs review   : True
 Total exp      : 9.8 years (118 months, 1 overlapping periods merged)
 
@@ -43,13 +43,13 @@ Entry 1
     • Key performance indicators include SLA, call ageing and customer complaint management metrics.
     • Site Support team will provide and will be engaged in all quality management activities to support performance.
     • Project Management Tools(MS Project) and Techniques (Project Charter ,WBS, Gantt Chart, PERT/CPM..etc.) Participation Knowledge :- RFI,RFQ,RFP,BOQ(SOR),EMD,RP-BG,POC(Proof of Concept), Inspections (RDSO, STQC, Type Test, Consignee), Factory Acceptance Test , Site Acceptance ,PAC(Provisional Acceptance Certificate) , Site Survey Basic Knowledge of service delivery under PMP-JiRA /ITIL / ITAM / ITSM Infra Support Services, ServiceNow Basic Knowledge of Agile/Waterfall methodology, Office 365,Cloud (SaaS,PaaS,IaaS)- Google/ Azure/Amazon ,CCNA, Linux , VMware ,MCSE,MS Project , ServiceNow, ZOHO Project, Cloud Data Migration , IT Security and IT governance Policy , GRC Project- Governance , Risk and IT compliance , ISO27001,RACI Matrix, NOC,SOC, Kubernetes ,docker IT Infrastructure- Remote IT infrastructure (RIM), Hyper converged Data center(HCI), Edge / Container /Modular Data center
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False
 
 Entry 2
-  Role         : Deputy Manager
-  Company      : None
+  Role         : Deputy Manager / Project Manager
+  Company      : ICA EDU SKILL PVT LTD
   Location     : None
   Start - End  : Dec’16 - Nov’22
   Duration     : 72 months
@@ -69,24 +69,21 @@ Entry 2
     • Responsible of Application Support – SAP , ORACLE , MICROSOFT ,MRIGS ,HSDM , SIP(Skill India Portal), HKCL ,ERP,SQL Managing the IT infrastructure including: Software, Hardware, Networking, firewalls, Servers, Switches, Desktops, laptops, Routers & printers etc.
     • Manage project implementations ensuring they are completed on time, within budget and performed as planned.
     • Basic Knowledge of service delivery under PMP-JiRA /ITIL / ITAM / IT Infra Support Services, ServiceNow Basic Knowledge of Agile/Waterfall methodology, G-Suit, Office 365, Cloud (SaaS, PaaS, IaaS)- Google/ Azure/Amazon, CCNA, Linux , VMware
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+next_line_company
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 3
-  Role         : MIS State Head
-  Company      : None
+  Role         : MIS State Head / Project Manager
+  Company      : IKYA HUMAN CAPITAL SOLUTIONS LTD A Division of QUESS CORP LTD
   Location     : None
   Start - End  : July’14 - Nov’16
   Duration     : 29 months
-  Bullets      : 5
+  Bullets      : 2
     • (Ministry of Rural Development & Haryana state rural livelihood Mission PROJECT) IKYA HUMAN CAPITAL SOLUTIONS LTD A Division of QUESS CORP LTD MIS / Regional Coordinator  Program Manager  Establishes New site  Check Site According to SOP Aajiveeka Skill& DDU-GKY    Data maintenance  Backup & Recovery  Training  Cross-functional Coordination Managing IT Helpdesk and IT Infrastructure and Operation team Manage project according to company policy, company standards, and client satisfaction Managing Client/ and understanding their requirements for new functionality and enhancing existing ones Monitor the day to day activity, planning & execution of Operations and Services Team.
-    • Managing operations and services Team, Documentations, Vendors Managements, Coordinate with clients.
-    • Prepare MIS day to day report, Monthly progress report, Target Report, Income MIS etc.
-    • Strengthening IT Infrastructure through to implementing new Technologies.
     • Responsible for IT operational metrics, planning and conducting client and internal businesses IT operational governance and tracking action items to closure Monitored IT infrastructure process and ensured compliance to service level  agreements(SLA) Supporting the desktop OS and Other client application software, including re-loading and configuring , Troubleshooting on system, Printer and office automation products, resolve and escalate to vendors, Remote Desktop support - Using the available tools to configure the desktop parameters, troubleshoot and resolve the problems, Carrying out desk-side support towards rapid resolution, when an incident can't be handled remotely, Ensure records of all new machines installed, movement of machines within site, changes and configuration of machines with the help of asset management tool Conduct monthly review meeting with Vendor on Breakdown Calls, ensuring prompt closure of pending issues at sites
   Method       : date_regex
-  Confidence   : 0.85
+  Confidence   : 0.7
   Needs Review : True
 
 Entry 4
@@ -96,6 +93,6 @@ Entry 4
   Start - End  : Feb’09 - Nov’09
   Duration     : 10 months
   Bullets      : 0
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False

@@ -13,8 +13,8 @@ July 2025 - Present
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 2
-Confidence     : 0.92
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 1.8 years (21 months, 0 overlapping periods merged)
 
 Entry 1
@@ -31,8 +31,8 @@ Entry 1
   Needs Review : False
 
 Entry 2
-  Role         : AI
-  Company      : None
+  Role         : AI/ML Intern
+  Company      : XYZ Solutions
   Location     : None
   Start - End  : January 2025 - June 2025
   Duration     : 6 months
@@ -40,6 +40,6 @@ Entry 2
     • .
     • Built an invoice OCR pipeline using OpenCV, Tesseract and Python. .
     • Designed preprocessing steps for noisy and low-quality document images.
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False

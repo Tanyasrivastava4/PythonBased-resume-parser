@@ -27,8 +27,8 @@ Total exp      : 1.3 years (16 months, 0 overlapping periods merged)
 
 Entry 1
   Role         : HR Executive
-  Company      : Marks Marine Radio
-  Location     : None
+  Company      : Ghatkopar West
+  Location     : 
   Start - End  : 11/2025 - 01/2026
   Duration     : 3 months
   Bullets      : 6
@@ -38,7 +38,7 @@ Entry 1
     • Streamlined employees data in the system.
     • Prepared HR process document.
     • Prepared Induction PPT.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False
 
@@ -48,7 +48,7 @@ Entry 2
   Location     : None
   Start - End  : 09/2024 - 09/2025
   Duration     : 13 months
-  Bullets      : 19
+  Bullets      : 20
     • Onboarding and Offboarding using Spine HRMS and Payroll software.
     • Verifying documents of upcoming joinees.
     • Handling ex-employees verification requests and initiating new joinee's background verifications with BGV vendors.
@@ -64,11 +64,12 @@ Entry 2
     • Coordinating with hiring managers to understand their requirements.
     • Coordinating with external vendors for recruitment and HR support services.
     • CTC discussion, negotiation, preparing offer drafts. K.J Somaiya College of Arts and Commerce Birla College of Arts, Science and Commerce Took initiative to streamline employees data in the system. Successfully closed 2 open positions within a month after joining.
+    • 92.83%
     • Communication
     • Teamwork and Collaboration
     • Detail-oriented
     • Administrative
-  Sub-sections : ['Bachelor of Commerce (B.COM)', '77.99\\%', 'H.S.C (Commerce)', '-92.83%', 'S.S.C', 'Priti Academy School', '82.60%']
-  Method       : date_regex+title_dict
+  Sub-sections : ['Bachelor of Commerce (B.COM)', '77.99\\%', 'H.S.C (Commerce)', 'S.S.C', 'Priti Academy School', '82.60%']
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False

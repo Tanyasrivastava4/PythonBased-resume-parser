@@ -36,6 +36,11 @@ TAXONOMY = {
     "Diploma": {"category": "diploma", "aliases": [
         "diploma", "polytechnic diploma", "polytechnic",
     ]},
+    "Foundation Degree": {"category": "diploma", "aliases": [
+        "foundational degree", "foundation degree", "foundational course",
+        "foundation course", "foundational program", "foundation program",
+        "foundational certificate", "foundation certificate",
+    ]},
     "PGDM": {"category": "diploma", "aliases": [
         "pgdm", "post graduate diploma in management",
     ]},
@@ -54,7 +59,7 @@ TAXONOMY = {
         "b.e.", "be", "b.e", "bachelor of engineering",
     ]},
     "B.Sc": {"category": "bachelors", "aliases": [
-        "b.sc", "bsc", "b sc", "bachelor of science",
+        "b.sc", "bsc", "b sc", "b.s.", "bs", "b s", "bachelor of science",
     ]},
     "B.A.": {"category": "bachelors", "aliases": [
         "b.a.", "ba", "b.a", "bachelor of arts",

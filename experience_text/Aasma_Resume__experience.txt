@@ -27,7 +27,7 @@ Entry 1
     • Ensuring customer satisfaction and timely service delivery
     • Coordinating with workshop and service teams for issue resolution
     • Maintaining service records in CRM and achieving satisfaction KPIs
-  Method       : date_regex
+  Method       : date_regex+comma_company_location
   Confidence   : 0.85
   Needs Review : True
 
@@ -40,7 +40,7 @@ Entry 2
   Bullets      : 2
     • Managed inbound and outbound calls for service bookings and follow-ups
     • Handled customer complaints and escalations with professionalism
-  Method       : date_regex
+  Method       : date_regex+comma_company_location
   Confidence   : 0.85
   Needs Review : True
 
@@ -53,7 +53,7 @@ Entry 3
   Bullets      : 2
     • Supported the service department by tracking vehicle servicing and updates
     • Improved service follow-up quality and maintained customer feedback logs
-  Method       : date_regex
+  Method       : date_regex+comma_company_location
   Confidence   : 0.85
   Needs Review : True
 
@@ -66,7 +66,7 @@ Entry 4
   Bullets      : 2
     • Assisted customers with service requests and appointment coordination
     • Contributed to customer retention through prompt support
-  Method       : date_regex
+  Method       : date_regex+comma_company_location
   Confidence   : 0.85
   Needs Review : True
 
@@ -79,6 +79,6 @@ Entry 5
   Bullets      : 2
     • Handled customer calls and maintained satisfaction reports
     • Helped streamline service appointment processes for better customer experience
-  Method       : date_regex
+  Method       : date_regex+comma_company_location
   Confidence   : 0.85
   Needs Review : True

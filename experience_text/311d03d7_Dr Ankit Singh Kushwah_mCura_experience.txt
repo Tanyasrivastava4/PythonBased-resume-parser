@@ -1,0 +1,85 @@
+======================================================================
+FILE: 311d03d7_Dr Ankit Singh Kushwah_mCura_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+DRNB RESIDENT, 01/2023 - Current
+Artemis Hospital, New Delhi, India
+• Managed patient care plans and coordinated treatment among multidisciplinary
+teams.
+• Assisted & Performed independently in Nephrology procedures, Tunnelled
+Hemodialysis catheter insertion, renal biopsy, peritoneal dialysis cathet...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.9
+Needs review   : True
+Total exp      : 13.2 years (159 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Artemis Hospital
+  Location     : New Delhi
+  Start - End  : 01/2023 - Current
+  Duration     : 45 months
+  Bullets      : 5
+    • Managed patient care plans and coordinated treatment among multidisciplinary teams.
+    • Assisted & Performed independently in Nephrology procedures, Tunnelled Hemodialysis catheter insertion, renal biopsy, peritoneal dialysis catheter insertion with proper sterilization and instrument availability.
+    • Participated in case reviews, contributing insights to improve patient outcomes.
+    • Trained in Renal transplant (ABO compatible ABO incompatible HLA incompatible).
+    • Active participation in immnuosuppresion tailoring along with densitization protocols.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : SENIOR RESIDENT NEPHROLOGY (ADHOC)
+  Company      : VMMC & SAFDARJUNG HOSPITAL
+  Location     : None
+  Start - End  : 02/2022 - 05/2022
+  Duration     : 4 months
+  Bullets      : 3
+    • Participated in cases and made key decisions regarding patient treatment.
+    • Prescribed medications or treatment regimens to address patient conditions.
+    • Supervised patient care activities to ensure adherence to hospital protocols.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : SENIOR RESIDENT (GENERAL MEDICINE)
+  Company      : VMMC & SAFDARJUNG HOSPITAL
+  Location     : None
+  Start - End  : 08/2021 - 11/2021
+  Duration     : 4 months
+  Bullets      : 2
+    • Supervision of emergency duties
+    • Team collaboration
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : None
+  Company      : MD GENERAL MEDICINE
+  Location     : None
+  Start - End  : 05/2018 - 08/2021
+  Duration     : 40 months
+  Bullets      : 2
+    • Diverse experience with various diseases.
+    • Learning skills in medicine.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 5
+  Role         : None
+  Company      : MBBS
+  Location     : None
+  Start - End  : 08/2012 - 02/2018
+  Duration     : 67 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

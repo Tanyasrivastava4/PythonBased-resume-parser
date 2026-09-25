@@ -1,0 +1,65 @@
+======================================================================
+FILE: 8682d7d2_K Vinay Kumar_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+BI Consultant · Co Strategix · July 2021– Jan 2026
+UnitedHealth Group — Healthcare Analytics	Jan 2023 – Present
+Power BI Developer | Healthcare | Tools: Power BI · SQL Server · Power Query · Power Apps · Power Automate · Snowflake
+Collaborated with healthcare business stakeholders to gather and anal...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : True
+Total exp      : 7.2 years (87 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : BI Consultant · Co Strategix ·
+  Company      : Global Operations BI
+  Location     : None
+  Start - End  : July 2021 - Jan 2026
+  Duration     : 55 months
+  Bullets      : 5
+    • Power BI Developer | FMCG | Tools: Power BI · SQL Server · Power Apps · Power Automate Architected an enterprise Power BI reporting suite consolidating multi-source sales, supply chain, and finance data across 3 regions into a single governed BI layer for global stakeholders.
+    • Developed 5 interactive dashboards replacing fragmented Excel-based reporting, reducing manual data consolidation effort by 40–50%.
+    • Implemented Row-Level Security (RLS) and dynamic bookmarks to deliver role-specific, personalised report views for sales, finance, and operations leads — ensuring data confidentiality across departments.
+    • Automated recurring approval workflows using Power Apps (Canvas Apps) and Power Automate, cutting manual coordination time by ~45% across cross-functional teams.
+    • Configured scheduled dataset refresh and gateway connections in Power BI Service, providing stakeholders with always-current data without manual intervention.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : True
+
+Entry 2
+  Role         : UnitedHealth Group
+  Company      : Healthcare Analytics
+  Location     : None
+  Start - End  : Jan 2023 - Present
+  Duration     : 45 months
+  Bullets      : 6
+    • Power BI Developer | Healthcare | Tools: Power BI · SQL Server · Power Query · Power Apps · Power Automate · Snowflake Collaborated with healthcare business stakeholders to gather and analyse reporting requirements around patient data, claims, billing, and operational KPIs for one of the largest healthcare companies globally.
+    • Designed and developed 8+ interactive Power BI dashboards tracking patient admissions, discharge trends, claims processing, revenue cycle, and provider performance — adopted across 3 departments within the first month of launch.
+    • Built complex DAX measures including YTD, MTD, QTD time-intelligence functions and performed advanced Power Query transformations (Split, Merge, Append, Pivot, Group By) across large datasets.
+    • Configured On-Premises Data Gateway with scheduled refresh cycles, eliminating manual data pulls and ensuring real-time reporting accuracy for 200+ daily users.
+    • Automated healthcare approval processes using Power Automate integrated with Power BI datasets, reducing manual workflow effort by ~40%.
+    • Managed L2/L3 production support — triaged and resolved RNA tickets in coordination with Snowflake and infrastructure teams while maintaining SLA compliance.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : CIGNA Group
+  Company      : Employee Adherence Dashboard
+  Location     : None
+  Start - End  : Jul 2019 - Jun 2021
+  Duration     : 24 months
+  Bullets      : 5
+    • Power BI Developer | Insurance | Tools: Power BI · Tableau · Snowflake · DAX Built an enterprise-level Adherence Dashboard monitoring employee login-logout patterns, break compliance, and productivity benchmarks — enabling real-time adherence tracking for management.
+    • Developed parameterised drill-through and drill-down reports allowing managers to investigate individual adherence anomalies, significantly reducing manual HR audit time.
+    • Created Scorecards, Bookmarks, and QR Codes for reports; published to Power BI Service with gateway configuration and scheduled refresh.
+    • Provided access control for new report users and workspace governance based on BMC tickets and business requirements.
+    • Managed L2/L3 production support — triaged RNA tickets in coordination with Snowflake and infrastructure teams, maintaining SLA compliance.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False

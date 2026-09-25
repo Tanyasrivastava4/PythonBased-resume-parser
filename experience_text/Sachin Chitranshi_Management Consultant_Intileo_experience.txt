@@ -12,12 +12,12 @@ aimed at modernizing legacy operations, improving customer...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 5
-Confidence     : 0.93
+Confidence     : 0.95
 Needs review   : True
 Total exp      : 17.4 years (209 months, 4 overlapping periods merged)
 
 Entry 1
-  Role         : None
+  Role         : across Customer Service, Network Operations, Sales, and Finance. The initiative focused on digitizing legacy,
   Company      : KPMG
   Location     : None
   Start - End  : Oct 2023 - Nov 2025
@@ -35,8 +35,8 @@ Entry 1
     • AP (Vendor master and configuration, Purchase Order creation, Invoice reconciliation), AR (Customer master and configuration, Payment processing, receivable reporting), FinOps (Reconciliations, Manual Journal entries, Master Data Management, Fixed Asset management), HR (hire to retire, Chatbot), ITOps (operations monitoring, IT Tickets, system health, user account setup, asset requests, license management, software audits, migration and validation, anomaly detection and audit logs, etc.)
   Sub-sections : ['Client: Leading Telecom Company', 'Project 2: Enterprise Digital Transformation and Automation Program', 'Project Description: Delivered a large-scale digital transformation and intelligent automation program for a', 'leading telecom operator to modernize operations, enhance customer experience, and drive cost efficiency', 'across Customer Service, Network Operations, Sales, and Finance. The initiative focused on digitizing legacy,', 'manual, and siloed processes by implementing workflow automation, AI-driven decisioning, analytics, and', 'RPA, enabling faster service delivery, improved SLA adherence, and scalable digital operations.', 'Client: Major Indian Airport', 'Project 3: Digital Transformation & Intelligent Automation on Newgen Software Platform', 'Project Description: Executed an enterprise-wide digital transformation and process automation program for', 'a leading airport operator in India, aimed at modernizing operational workflows, improving passenger', 'experience, and ensuring regulatory compliance using the Newgen BPM, ECM, and OmniDocs platform.', 'Overall Roles and Responsibility in KPMG']
   Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 2
   Role         : None
@@ -60,8 +60,8 @@ Entry 2
   Needs Review : True
 
 Entry 3
-  Role         : Position: Sr. Consultant
-  Company      : Ernst & Young LLP
+  Role         : Sr. Consultant
+  Company      : Ernst & Young LLP ()
   Location     : None
   Start - End  : July 2019 - Sep 2021
   Duration     : 27 months
@@ -75,13 +75,13 @@ Entry 3
     • Developed reusable GBS transformation resources, accelerators, and benchmarks to standardize solutions and minimize time-to-value.
     • Promoted the use of process mining and value stream mapping to uncover opportunities for automation and simplification.
     • Created tool for audit, transaction & error log.
-  Method       : date_regex+title_dict
+  Method       : date_regex+subfield_label_role+next_line_company
   Confidence   : 0.98
   Needs Review : False
 
 Entry 4
-  Role         : Position: Solution Architect
-  Company      : Sailfin Technologies Pvt Ltd
+  Role         : Solution Architect
+  Company      : Sailfin Technologies Pvt Ltd ()
   Location     : None
   Start - End  : Apr 2016 - Jul 2019
   Duration     : 40 months
@@ -94,13 +94,13 @@ Entry 4
     • Designing reusable components to save cost and time.
     • Created BOT monitoring tool.
     • Project Lead and worked as a focal for RPA projects.
-  Method       : date_regex+title_dict
+  Method       : date_regex+subfield_label_role+next_line_company
   Confidence   : 0.98
   Needs Review : False
 
 Entry 5
-  Role         : Position: Technical Manager
-  Company      : MobiQuest Mobile Technologies
+  Role         : Technical Manager
+  Company      : MobiQuest Mobile Technologies ()
   Location     : None
   Start - End  : Jul 2008 - Apr 2016
   Duration     : 94 months
@@ -110,6 +110,6 @@ Entry 5
     • Handled End to End deliverables.
     • Responsible for PoC of Sales & Marketing product. (Loyalty program)
     • Created Loyalty platform & customer acquisition engine.
-  Method       : date_regex+title_dict
+  Method       : date_regex+subfield_label_role+next_line_company
   Confidence   : 0.98
   Needs Review : False

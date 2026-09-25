@@ -1,0 +1,206 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+ANAND KUMAR SHRIVASTAV
+Gen AI/Machine learning Engineer
++91-8400209798
+shrivastavanand001@gmail.com
+linkedin.com/in/anand-shrivastav-a8b12637b
+Location: Noida Sector-73
+
+────────────────────────────────────────────────────────────
+LABEL: summary   CONFIDENCE: 0.95   START LINE: 6
+────────────────────────────────────────────────────────────
+Results-driven Data Scientist and Generative AI Engineer with 3.5+ years of experience designing and deploying
+Machine Learning and Retrieval-Augmented Generation (RAG) solutions across healthcare, financial analytics, and
+digital payment fraud detection systems. Strong expertise in LLMs, semantic search, embeddings, vector databases,
+predictive modeling, and anomaly detection to build intelligent decision-support systems. Experienced in
+developing end-to-end ML and GenAI pipelines including data ingestion, EDA, feature engineering, model training,
+evaluation, and production deployment using Python-based microservices. Proven ability to deliver scalable AI
+solutions that improve operational efficiency, enhance decision-making, and reduce manual effort through FastAPI,
+Docker, and AWS-based cloud deployments.
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 15
+────────────────────────────────────────────────────────────
+Generative AI & NLP: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt
+Engineering, LangChain, Transformers, Semantic Search, Embeddings, Vector Databases (Pinecone)
+Machine Learning & Data Science: Machine Learning, Predictive Modeling, Anomaly Detection, Feature
+Engineering, Exploratory Data Analysis (EDA), Model Evaluation, Model Optimization
+Algorithms & Frameworks: Logistic Regression, Random Forest, XGBoost, Isolation Forest, Deep Learning,
+TensorFlow, PyTorch, Scikit-learn
+Programming & Data Tools: Python, SQL, Pandas, NumPy, MySQL, MongoDB
+Deployment & MLOps: FastAPI, REST APIs, Docker, AWS Cloud, CI/CD, Model Serving, Microservices
+Architecture, Model Monitoring
+Data Visualization: Matplotlib, Seaborn, Power BI, Tableau
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 26
+────────────────────────────────────────────────────────────
+Data Scientist
+Oct 2022 – Present
+TECEON Software Pvt.Ltd., New Delhi
+• Develop and deploy enterprise-scale Machine Learning and Generative AI solutions across healthcare
+analytics, financial intelligence systems, and digital payment fraud detection using Python, NLP, and predictive
+modeling techniques.
+• Design and implement Retrieval-Augmented Generation (RAG) architectures using Large Language Models,
+embeddings, semantic search, and vector databases to build intelligent document retrieval and
+decisionsupport systems.
+• Build end-to-end data science pipelines including data preprocessing, exploratory data analysis (EDA), feature
+engineering, model training, and evaluation using algorithms such as Logistic Regression, Random Forest,
+XGBoost, and Isolation Forest.
+• Develop scalable AI-powered APIs and microservices using FastAPI, Docker, and AWS, enabling real-time
+fraud risk scoring, financial insights generation, and patient clinical data summarization.
+1
+
+• Improve business outcomes by implementing advanced model evaluation and monitoring techniques
+including Precision, Recall, F1-score, AUC, KS statistics, retrieval accuracy, and latency optimization to ensure
+reliable and production-ready AI systems.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.95   START LINE: 46
+────────────────────────────────────────────────────────────
+Patient History Intelligence Engine using RAG Pipelines Project
+Duration: 3 months | Team Size: 5
+Description:
+Developed an enterprise-grade Retrieval-Augmented Generation (RAG) based Patient History Intelligence
+Engine to retrieve and summarize structured EHR data and unstructured clinical documents. The solution enables
+accurate, context-grounded clinical insights, reduces manual chart review effort, and supports data-driven clinical
+decision-making in a privacy-compliant environment.
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 54
+────────────────────────────────────────────────────────────
+• Designed and implemented enterprise-grade RAG-based Generative AI solutions for healthcare use cases
+using secure, closed-source LLMs.
+• Owned end-to-end GenAI and data science workflows, including data preprocessing, embedding generation,
+and LLM integration for clinical insights.
+• Built and optimized patient-specific RAG pipelines leveraging semantic search to deliver accurate,
+contextgrounded clinical summaries.
+• Applied machine learning and NLP techniques to clean, normalize, and structure EHR and unstructured
+clinical text data.
+• Performed prompt engineering, retrieval tuning, and system evaluation using retrieval accuracy, response
+relevance, and latency metrics, and deployed solutions via FastAPI-based production APIs with
+privacycompliant workflows.
+• Containerized the application using Docker and prepared it for scalable cloud deployment.
+Outcomes:
+• Reduced clinical chart review time by 60% +.
+• Improved clinician productivity and faster decision-making.
+• Minimized LLM hallucinations through retrieval-grounded responses.
+• Enhanced accuracy and completeness of patient history insights.
+• Enabled scalable foundation for AI-driven clinical decision support.
+Tech Stack:
+Python, SQL, Pandas, NumPy, Machine Learning, Natural Language Processing (NLP) Large Language Models
+(LLMs–Closed Source), Retrieval-Augmented Generation (RAG), Embeddings, Semantic Search, Vector Databases
+(Pinecone), Prompt Engineering, Prompt Guardrails, Hallucination Mitigation, Context Grounding, FastAPI REST
+APIs, Docker, AWS(Secure Cloud), Data Privacy and Compliance (HIPAA-aligned), Model
+Evaluation (Retrieval Accuracy, Relevance, Latency)
+Enterprise Financial Insights Bot using Multi-Source RAG
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.85   START LINE: 79
+────────────────────────────────────────────────────────────
+Duration: 4-5 months | Team Size: 5
+Description:
+Developed an enterprise-grade Multi-Source Retrieval-Augmented Generation (RAG) financial insights platform
+to deliver accurate, context-aware financial analysis. The system integrates structured financial data and
+unstructured documents to support decision-making, risk assessment, compliance, and audit readiness through
+natural-language queries in a secure enterprise environment.
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 86
+────────────────────────────────────────────────────────────
+• Designed and implemented an enterprise-scale Multi-Source RAG system for financial analytics, compliance,
+and executive decision-support use cases.
+• Performed data understanding and preprocessing on structured financial datasets (SQL, CSV) and
+unstructured sources (PDFs, reports).
+2
+
+• Built scalable data pipelines including chunking, embedding generation, metadata enrichment, and semantic
+retrieval using vector databases.
+• Engineered prompt templates and guardrails to ensure accurate financial reasoning, KPI summaries, and
+source-grounded LLM responses.
+• Integrated closed-source LLMs into production APIs using FastAPI, and evaluated system performance using
+precision, recall, relevance, and latency metrics.
+Outcomes:
+• Reduced manual financial analysis and reporting effort by 60% +.
+• Improved insight accuracy through grounded, source-based LLM responses.
+• Enabled self-service financial querying for business and leadership users.
+• Strengthened compliance and audit readiness with traceable explanations.
+• Increased operational efficiency by minimizing dependency on manual data interpretation.
+Tech Stack:
+Python, SQL, Pandas, NumPy, Machine Learning, Natural Language Processing (NLP) Large Language Models
+(LLMs–Enterprise), Retrieval-Augmented Generation (RAG), Embeddings, Semantic Search, Vector Databases
+(Pinecone), Prompt Engineering, Prompt Guardrails, Context Grounding, Chunking Strategies, Metadata
+Enrichment, FastAPI, REST APIs, Docker, AWS(Secure Cloud), Data Security and Compliance, Model
+Evaluation (Retrieval Accuracy, Relevance, Latency)
+End-to-End Fraud Detection Pipeline for Digital Payments
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.85   START LINE: 111
+────────────────────────────────────────────────────────────
+Duration: 4 months | Team Size: 5
+Description:
+Designed and implemented an end-to-end, production-grade fraud detection pipeline for digital payment
+transactions to identify high-risk and anomalous activities in near real time. The system analyzes transactional,
+behavioral, and device-level data to generate fraud risk scores, enabling proactive fraud prevention, reduced
+financial losses, and improved customer trust while maintaining regulatory compliance.
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 118
+────────────────────────────────────────────────────────────
+• Analyzed large-scale digital payment transaction data to identify fraud patterns, anomalies, and high-risk
+behaviors across multiple channels.
+• Performed data cleaning, EDA, and advanced feature engineering on behavioral, velocity, geo-location, and
+device fingerprinting features.
+• Developed and optimized fraud detection models using Logistic Regression, Random Forest, XGBoost, and
+Isolation Forest with threshold tuning to control false positives.
+• Evaluated model performance using Precision, Recall, F1-score, AUC, and KS statistics, aligning model
+outcomes with business risk objectives.
+• Deployed scalable fraud risk scoring services via FastAPI-based REST APIs on cloud infrastructure and
+monitored performance using drift and stability checks.
+Outcomes:
+• Improved fraud detection recall by 30% while maintaining controlled false positive rates.
+• Improved customer satisfaction by 38%.
+• Enabled near real-time fraud risk scoring for transaction blocking and step-up authentication.
+• Reduced financial losses through early fraud identification and prevention.
+• Decreased manual review effort and operational costs using automated fraud screening.
+• Enhanced platform security, customer trust, and regulatory compliance.
+Tech Stack:
+Python and SQL, Pandas, NumPy, machine learning, Anomaly Detection, Logistic Regression, Random Forest,
+XGBoost, and Isolation Forest, Feature Engineering, Exploratory Data Analysis (EDA), FastAPI and REST APIs,
+PostgreSQL/MySQL databases, Docker, Cloud Deployment (AWS), Model Monitoring, Data Drift Detection, Model
+Evaluation (Precision, Recall, F1-Score, AUC, KS), Power BI, Tableau
+3
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 143
+────────────────────────────────────────────────────────────
+• GenAI Application Development
+• Machine Learning
+• Predictive Modeling
+• Deep Learning Architectures
+• Time Series & Forecasting
+• Model Evaluation & Validation
+• Risk & Fraud Analytics
+
+────────────────────────────────────────────────────────────
+LABEL: languages   CONFIDENCE: 0.95   START LINE: 151
+────────────────────────────────────────────────────────────
+• English
+• Hindi
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 154
+────────────────────────────────────────────────────────────
+Bachelor of Computer Applications (BCA)
+North East Frontier Technical University(NEFTU), Aalo,West Siang District
+2019 – 2022
+4
+
+Links:
+https://www.linkedin.com/in/anand-shrivastav-a8b12637b
+
+────────────────────────────────────────────────────────────
+[Found 13 sections total: ['header', 'summary', 'skills', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'experience', 'skills', 'languages', 'education']]

@@ -1,0 +1,66 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+PRIYANSH KURMI
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.85   START LINE: 1
+────────────────────────────────────────────────────────────
++91-7318019209 | priyanshpatel360@gmail.com | LinkedIn
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 2
+────────────────────────────────────────────────────────────
+Indian Institute of Technology (IIT), Kanpur | 2021 | 7.2/10
+Dual Degree in Electrical Engineering
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 5
+────────────────────────────────────────────────────────────
+Languages & Databases: Python, SQL, PySpark, MySQL, PostgreSQL, MongoDB, Snowflake, Delta Lake​
+Big Data: Apache Spark, Kafka, Databricks, Airflow, NiFi​
+Cloud : AWS (S3, EC2, Glue, Lambda, EMR, Athena, Redshift, SNS), Azure (ADLS, ADF, Databricks)​
+Data Engineering: ETL/ELT, Data Warehousing, Lakehouse Architecture, Star Schema Modelling, Data Archival, Data
+Migration, Query Optimization​
+Governance & Compliance: PII Masking, RBAC, GDPR, DPDPA, AWS Secrets Manager
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 12
+────────────────────────────────────────────────────────────
+Data Engineer | SMTS - Oracle | Bengaluru | Mar, 2025 – Apr, 2026
+●​ Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary
+source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%
+●​ Collaborated on designing and implementing a star schema data model from scratch for Oracle Transportation
+Management (OTM) on Oracle ADW, built 5 fact tables and 35 dimension tables covering end-to-end stages from
+requirement analysis to testing, supporting millions of rows per fact table.
+Data Product Engineer, Nuclei | Bengaluru | Jan, 2023 – Mar, 2025
+●​ Refactored 25+ unversioned cron-based reporting scripts into a modular Python framework with centralized logging
+and access controls, orchestrated via Apache Airflow, achieving 100% DAG visibility and reducing undetected failures
+from days to minutes via centralized alerting.
+●​ Implemented a PII data masking framework for MySQL protecting 1M+ user records, enforced role-based masked
+views with granular RBAC, AES encryption via AWS Secrets Manager, and CloudWatch audit logging to achieve
+GDPR and DPDPA compliance.
+●​ Configured AWS DMS and Kinesis Firehose to automate data archival from a production database processing 1M+
+daily transactions, streamed historical records into partitioned S3 Parquet, cutting hot-tier storage costs by 40% and
+p95 query time by 30%.
+Data Analyst, Nuclei | Bengaluru | Aug, 2021 – Dec, 2022
+●​ Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration
+strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and
+reducing churn by 40%.
+●​ Optimized 50+ slow MySQL queries across millions-of-rows tables by adding targeted indexes, rewriting correlated
+subqueries, and eliminating redundant joins, reduced runtime from 1–2 hours to under 5 minutes and automated secure
+report delivery to external clients via Apache NiFi and SFTP.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.95   START LINE: 36
+────────────────────────────────────────────────────────────
+Production-Grade Data Pipeline for Incentive Program | PySpark, AWS S3 (boto3), SparkSQL, Data Mart
+●​Implemented a scalable production-grade data pipeline to read, validate, and transform sales data from
+S3 for daily and monthly reporting. Data processed for business incentives based on customer spending.
+●​Integrated PySpark for transformations and pushed processed data to a data mart for reporting, ensuring
+secure data handling through encryption, decryption, and logging.
+ETL Pipeline for Large-Scale Product Performance Analysis | PySpark, Databricks, AWS S3, SparkSQL
+●​ Built a PySpark ETL pipeline on Databricks ingesting multi-format data (CSV + Parquet) from AWS
+S3; applied broadcast joins, window functions, and partition/bucketing strategies to transform and
+aggregate product performance metrics, reducing query response time by 40%.

@@ -1,0 +1,163 @@
+======================================================================
+FILE: 25e995c0_CV - Mohan Babu (2)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+REGIONAL SALES MANAGER
+Prime Home Loans & LAP, RBL Bank
+Jan’24 - Till date
+REGIONAL HEAD
+Finance ltd., Aug ’22 - Jan’24.
+GENERAL MANAGER
+Sales & Mktg, Lancor Holdings Ltd.,
+Dec ’21 - Apr ‘22
+ASSITANT VICE PRESIDENT
+Home Loans, Axis Bank, Apr ’21 - Oct ‘21
+REGIONAL HEAD SALES
+Mortgages, ICICI Bank, N...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 12
+Confidence     : 0.96
+Needs review   : True
+Total exp      : 22.9 years (275 months, 5 overlapping periods merged)
+
+Entry 1
+  Role         : REGIONAL SALES MANAGER
+  Company      : Prime Home Loans & LAP
+  Location     : RBL Bank
+  Start - End  : Jan’24 - Present
+  Duration     : 33 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : REGIONAL HEAD
+  Company      : Finance ltd
+  Location     : .
+  Start - End  : Aug ’22 - Jan’24
+  Duration     : 18 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : GENERAL MANAGER
+  Company      : Sales & Mktg, Lancor Holdings Ltd
+  Location     : 
+  Start - End  : Dec ’21 - Apr ‘22
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : ASSITANT VICE PRESIDENT
+  Company      : Home Loans
+  Location     : Axis Bank
+  Start - End  : Apr ’21 - Oct ‘21
+  Duration     : 7 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : REGIONAL HEAD SALES
+  Company      : Mortgages
+  Location     : ICICI Bank
+  Start - End  : Nov ’16 - Apr ‘21
+  Duration     : 54 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Sales & Marketing, Lancor Holdings Ltd.,
+  Company      : AGM
+  Location     : None
+  Start - End  : Mar ’12 - Nov ’16
+  Duration     : 57 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : CITY HEAD
+  Company      : Retail Assets
+  Location     : Deutsche Bank
+  Start - End  : Feb ’10 - Sep ’11
+  Duration     : 20 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 8
+  Role         : RELATIONSHIP MANAGER
+  Company      : Mortgages
+  Location     : Reliance Capital Ltd.
+  Start - End  : Feb ’08 - June ‘09
+  Duration     : 17 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 9
+  Role         : RELATIONSHIP MANAGER
+  Company      : Personal & Small Business Loans
+  Location     : None
+  Start - End  : Mar ’06 - Jan ’08
+  Duration     : 23 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 10
+  Role         : SALES OFFICER
+  Company      : Home Loan
+  Location     : HSBC
+  Start - End  : Feb ’03 - Feb ’04
+  Duration     : 13 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 11
+  Role         : SALES MANAGER
+  Company      : JAIN HOUSING &
+  Location     : None
+  Start - End  : Jul 2000 - Feb ’03
+  Duration     : 32 months
+  Bullets      : 3
+    • To ensure MOM business targets are achieved through various channels.
+    • Strategizing and implementing various schemes and marketing activities for increasing business.
+    • Train, motivate and monitor the performance of the team Implement MIS to analyze and improve on the performance Market analysis to understand the market opportunities Ensure and check that policies, process and standards are being implemented
+  Sub-sections : ['Developing inter-personnel relationships within the organization', 'Enhancing customer, channel, builder satisfaction & retaining their loyalty', 'KEY ACHIE VEM ENT S', 'All time high disbursal in PHL - OMT, Chennai, RBL Bank - July 2024.']
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 12
+  Role         : Post graduate diploma in Sales and Marketing from Small Industries Service
+  Company      : Pan India 2nd in ETRG Mortgage Disbursement
+  Location     : ICICI
+  Start - End  : April ’20 - Mar ‘21
+  Duration     : 12 months
+  Bullets      : 2
+    • Organized Builder Meet for top builders of Chennai in ICCI during July 2017 Represented Lancor in all Overseas Property Expo during my stint.
+    • Won an award - Flying high with DB Mortgages - 2011 Won 2 quarterly contests - Trip to Malaysia, Singapore, Indonesia & another trip to
+  Sub-sections : ['Thailand - 2009', 'Won a trophy & trip to Bangkok with a shopping voucher of USD 250 - 2005', 'Won the Torch Bearer award for exceptional performance - 2002', 'EDUC ATIONAL CREDENT IAL S', 'MBA [Marketing & Systems] from Madurai Kamaraj University, May ’02.', 'B.Sc., [Statistics] from Loyola College, April ’97.', 'Post graduate diploma in Sales and Marketing from Small Industries Service', 'Institute, April ’98.', 'Association of Mutual Funds in India (AMFI) Certification, Feb ’06.', 'Insurance Regulatory & Development Authority (IRDA) Certification, April’10.', 'COMP UTER PRO FICIENC Y', 'Web Programming from Software Solutions Integrated Limited(SSI),April ’01', 'Higher diploma in software engineering from Aptech Computer Education, June', '’97.', 'Played for school Cricket team.', 'Active member of NSS in school and college.', 'PERSON AL DET AIL S', 'Date of Birth April 16, 1977', 'Father’s Name S Jegatheesan, Retd., Banker', 'Spouse Name M Subha Devi, Home Maker', 'Son’s Name M Roshan, X Std', 'Nationality Indian']
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.7
+  Needs Review : True

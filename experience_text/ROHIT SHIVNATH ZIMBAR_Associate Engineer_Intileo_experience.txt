@@ -28,22 +28,23 @@ Entry 1
   Location     : None
   Start - End  : 2023-07-24 - 2025-12-17
   Duration     : 29 months
-  Bullets      : 1
-    • with industry standards and regulations.
-  Sub-sections : ['*Create detailed technical', 'documentation, including design', 'specifications, engineering drawings, and', 'operating procedures, to support the', 'manufacturing and installation processes.', '*Software usedProdok']
-  Method       : date_regex+title_dict
+  Bullets      : 3
+    • Design, develop, and implement instrumentation systems for various industrial processes, ensuring compliance with industry standards and regulations.
+    • Create detailed technical documentation, including design specifications, engineering drawings, and operating procedures, to support the manufacturing and installation processes.
+    • Software usedProdok
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False
 
 Entry 2
   Role         : Instrumentation Engineer
-  Company      : ZEECO INDIA PVT. LTD.
+  Company      : ZEECO INDIA PVT. LTD
   Location     : None
   Start - End  : 2022-04-03 - 2023-07-15
   Duration     : 16 months
   Bullets      : 1
     • commissioning activity of VRU system. * Reviewing the project related documents such as Engineering specifications, * Instrument index, cable schedules, Cable Tray Layout, JB schedules. * Laying of control, signal, and OFC cables.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False
 
@@ -56,7 +57,7 @@ Entry 3
   Bullets      : 2
     • Worked as Graduate Apprentice Trainee in Instrumentation Department, with GAIL(INDIA) LTD. at Dabhol base. * Calibration and loop checking of field instruments. * Monitor and control the gas plant operation through SCADA.
     • Gas chromatograph calibration & validation * Speed of sound(SOS) validation of Flow computer. * prepared daily report & Daily log record of cylinders Pressure.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False
 

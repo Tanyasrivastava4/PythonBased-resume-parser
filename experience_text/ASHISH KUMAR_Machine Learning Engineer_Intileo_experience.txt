@@ -1,0 +1,54 @@
+======================================================================
+FILE: ASHISH KUMAR_Machine Learning Engineer_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior AI/ML Engineer Apr 2025 – Present
+MEDISYNCAI INC. · Remote (San Francisco HQ)
+▸ Architected 7-agent Agentic RAG system for clinical workflows (LangChain, LangGraph, Azure OpenAI) →
+physician review time -25%, early detection +42%
+▸ Built real-time LLM voice agent (FastAPI, WebSockets, OpenAI ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 3.8 years (45 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior AI/ML Engineer
+  Company      : MEDISYNCAI INC. · Remote (San Francisco HQ)
+  Location     : None
+  Start - End  : Apr 2025 - Present
+  Duration     : 18 months
+  Bullets      : 7
+    • Architected 7-agent Agentic RAG system for clinical workflows (LangChain, LangGraph, Azure OpenAI) → physician review time -25%, early detection +42%
+    • Built real-time LLM voice agent (FastAPI, WebSockets, OpenAI Realtime API, Twilio) → <200ms latency, nurse workload -30%
+    • Deployed 7B-parameter fine-tuned clinical LLM (LoRA/PEFT on Azure ML) serving 1,000+ patient records/day → 500+ concurrent users, 99.95% uptime
+    • Designed FHIR R4/R5 + HL7 EHR integration pipelines across 5 hospital systems → 100% data fidelity, zero
+    • Designed distributed LLM systems with streaming inference and fault-tolerant pipelines → 40% query speedup, sub-second clinical decision support
+    • Built model evaluation framework at scale (F1 ≥ 0.92, AUC, RLHF preference scoring) embedded in CI/CD → automated quality gates on every deployment
+    • Mentored 4 engineers on LLM system design, RLHF workflows, and production ML best practices
+  Sub-sections : ['HIPAA audit findings']
+  Method       : date_regex
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : AI/ML Engineer
+  Company      : THE UNIFIED CLOUD · Noida
+  Location     : India
+  Start - End  : Jan 2023 - Mar 2025
+  Duration     : 27 months
+  Bullets      : 6
+    • Built time-series forecasting system (lag features, rolling stats, Scikit-learn on Databricks) → $2.1M annual savings, 35% cost reduction across 15K+ nodes
+    • Engineered end-to-end ML pipeline (Delta Lake → PySpark -> Azure ML -> FastAPI) with canary deploys, auto-retraining, and drift detection
+    • Designed multi-agent IT automation system (LangChain, GPT-4, tool use) → 4,800+ ops hours saved/year, MTTR
+    • 60%
+    • Led migration of 12 legacy systems to cloud-native microservices → release velocity 3×, failure rate -65%
+    • Led and mentored team of 6 engineers across ML, data pipelines, and platform infrastructure
+  Sub-sections : ['OPEN SOURCE & PUBLICATIONS', 'Agentic-RAG-Clinical ·', 'Open-source 7-agent clinical orchestration framework (LangGraph + FHIR). 200+ GitHub stars. Used in production healthcare', 'AI deployments.', 'Technical Article · "How We Reduced Clinical LLM Latency by 96%" · Medium / Towards Data Science', 'Deep-dive on distributed inference architecture, streaming pipelines, and fault-tolerant multi-agent design. 5,000+ reads.']
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

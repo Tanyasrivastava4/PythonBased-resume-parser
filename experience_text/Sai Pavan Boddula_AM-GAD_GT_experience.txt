@@ -12,15 +12,15 @@ methodology and auditing standards and leveraging the technology.
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 2
-Confidence     : 0.92
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 9.5 years (114 months, 0 overlapping periods merged)
 
 Entry 1
-  Role         : PricewaterhouseCoopers Senior Associate, HYDERABAD
-  Company      : None
+  Role         : PricewaterhouseCoopers Senior Associate
+  Company      : HYDERABAD
   Location     : None
-  Start - End  : May 2022 - till date
+  Start - End  : May 2022 - Present
   Duration     : 53 months
   Bullets      : 10
     • Spearheaded and delivered over 10 high quality audit engagements by adhering to the audit methodology and auditing standards and leveraging the technology.
@@ -33,9 +33,9 @@ Entry 1
     • Compiled financial statements for multiple private entities under Canadian GAAP ensuring full compliance and accuracy in reporting.
     • Developed 2 Copilot AI Agents to handle the repetitive tasks and achieved 80% of savings in hours and increased efficiency.
     • Developed Copilot AI Agents to streamline administrative tasks.
-  Method       : date_regex+title_dict
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 2
   Role         : Article assistant & Paid Assistant
@@ -46,6 +46,6 @@ Entry 2
   Bullets      : 2
     • Executed statutory and tax audits for multiple Indian private companies within the manufacturing and service sectors, ensuring compliance with relevant accounting standards.
     • Conducted Internal Audit of a listed manufacturing company.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False

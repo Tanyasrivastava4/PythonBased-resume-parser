@@ -1,0 +1,98 @@
+======================================================================
+FILE: AMAN_CV_BCA_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Asha Tech (Asha Learnology)
+Full-Stack Developer - Full Time
+Feb 2025 - Present
+Successfully completed 6-month internship and transitioned to full-time Full-
+Stack Developer.
+
+Aug 2025 - Oct 2025
+Sustainable Women's Activewear Brand - Headless Shopify Solution (Live &
+Complete)
+• Built high-performa...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 1.7 years (20 months, 4 overlapping periods merged)
+
+Entry 1
+  Role         : Full-Stack Developer - Full Time
+  Company      : Asha Tech
+  Location     : None
+  Start - End  : Feb 2025 - Present
+  Duration     : 20 months
+  Bullets      : 1
+    • Successfully completed 6-month internship and transitioned to full-time Full- Stack Developer.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Sustainable Women's Activewear Brand
+  Company      : Headless Shopify Solution (Live &
+  Location     : None
+  Start - End  : Aug 2025 - Oct 2025
+  Duration     : 3 months
+  Bullets      : 4
+    • Built high-performance headless e-commerce platform using Next.js 15 &
+    • Implemented advanced animations with Framer Motion & GSAP, increasing user engagement by 40%
+    • Developed microservices API architecture for cart, checkout, and payment processing with Razorpay
+    • Optimized performance with SSR, Redux Saga, and CDN integration for enhanced user experience
+  Sub-sections : ['Complete)', 'React 19 with Shopify integration', 'Full-Stack']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : TGES Travel & Transport Management
+  Location     : None
+  Start - End  : May 2025 - Present
+  Duration     : 17 months
+  Bullets      : 4
+    • Architected comprehensive B2B travel platform managing 5+ service categories (Cab, Flight, Train, Hotel, Bus)
+    • Built microservices architecture with Node.js/Express and MongoDB for scalable booking management system
+    • Developed vendor & admin panels with React Router v7, Redux Saga & Toolkit for invoice generation
+    • Implemented real-time quotation system between vendors and clients with automated reminders
+  Sub-sections : ['Full-Stack']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Asha Learnology
+  Company      : EdTech Platform
+  Location     : None
+  Start - End  : Mar 2025 - May 2025
+  Duration     : 3 months
+  Bullets      : 4
+    • Developed comprehensive LMS platform with 10+ technical course categories
+    • Built course management system with curriculum structure, prerequisites, and certification tracking
+    • Implemented JWT authentication, user roles, and progress tracking system for student management
+    • Designed responsive user interface with modern course catalog and enrollment system
+  Sub-sections : ['(Data Science, Python, Java, etc.)', 'Frontend Developer (Freelance)']
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Adiroha
+  Company      : Cybersecurity Website
+  Location     : None
+  Start - End  : Sep 2025 - Oct 2025
+  Duration     : 2 months
+  Bullets      : 4
+    • Enterprise Cybersecurity Services Website - Freelance Project (In Progress)
+    • Built modern cybersecurity company website with Next.js 15, showcasing 20+ specialized services
+    • Developed multi-industry solutions for Healthcare, Finance, E-commerce with compliance standards
+    • Implemented advanced animations, lead generation forms, and enterprise- grade UI/UX design Links: http://www.linkedin.com/in/Amankanojiya27 https://github.com/Amankanojiya27 https://amankanojiya27.vercel.app/ https://sowhot.in/ https://vendor.tgestravel.com/login https://admin.tgestravel.com/login https://ashalearnology.vercel.app/ https://adiroha.vercel.app/
+  Sub-sections : ['(Shopify APIs, cloud storage, PDF', 'generation)', 'Collaboration', 'Fast learner, proactive, and', 'collaborative', '────────────────────────────────────────────────────────────', "[Found 10 sections total: ['header', 'projects', 'summary', 'experience', 'projects', 'experience', 'skills', 'education', 'strengths', 'experience']]"]
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False

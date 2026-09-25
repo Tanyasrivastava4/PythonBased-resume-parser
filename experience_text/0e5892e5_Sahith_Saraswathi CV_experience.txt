@@ -1,0 +1,70 @@
+======================================================================
+FILE: 0e5892e5_Sahith_Saraswathi CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Data Scientist
+PES University
+Soulpage IT solutions | December 2022 - May 2023
+Masters degree in Data science and Machine Learning
+2020 – 2022
+Developed a risk prediction model using patient vitals and disease status
+,also build the disease prediction model with 98% accuracy.
+Marri Laxman Reddy Inst...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 7.2 years (86 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Data Scientist
+  Company      : Soulpage IT solutions
+  Location     : None
+  Start - End  : December 2022 - May 2023
+  Duration     : 6 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : Masters degree in Data science and Machine Learning
+  Location     : None
+  Start - End  : 2020 - 2022
+  Duration     : 25 months
+  Bullets      : 1
+    • Developed a risk prediction model using patient vitals and disease status ,also build the disease prediction model with 98% accuracy.
+  Sub-sections : ['& Management', 'detection (TableNet), and classification techniques, achieving 93%', 'Bachelors Degree in Computer Science Engineering classification accuracy and 0.1 loss in detection.']
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : data extraction from reports, enhancing monitoring
+  Location     : None
+  Start - End  : 2015 - 2019
+  Duration     : 49 months
+  Bullets      : 1
+    • Designed features for patient risk assessment and enabled automated data extraction from reports, enhancing monitoring, data usability, and reporting efficiency.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Data Scientist Intern
+  Company      : Soulpage IT solutions
+  Location     : None
+  Start - End  : June 2022 - November 2022
+  Duration     : 6 months
+  Bullets      : 2
+    • Developed a recommendation system for a jewellery e-commerce platform Frameworks: Pandas, NumPy, SciPy, sklearn, using matrix factorization and text similarity to deliver personalized product matplotlib, seaborn,OpenCV,pytorch and keras suggestions.
+    • Data Science: Machine Learning, Deep Learning, Implemented advanced model validation and selection techniques in the Natural Language Processing, Time Series company’s internal AutoML tool, improving the efficiency and reliability of Forecasting, statistics, Data Analytics, Computer automated model building.
+  Sub-sections : ['Vision, Data Visualization, Excel and basic']
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

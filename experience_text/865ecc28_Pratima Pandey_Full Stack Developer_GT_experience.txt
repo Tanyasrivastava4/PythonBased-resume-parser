@@ -1,0 +1,129 @@
+======================================================================
+FILE: 865ecc28_Pratima Pandey_Full Stack Developer_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Global Logic Technology Pvt Ltd July 2023 to Present.
+Senior Software Engineer
+Straive April 2022 to June 2023.
+Senior Executive
+R Systems July 2021 to April 2022.
+Sr. Software Engineer
+Chetu India Pvt Ltd Sep 2019 to March 2021.
+Sr. Software Engineer
+Anshika Technologies Oct 2015 to June 2019
+Web S...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 9
+Confidence     : 0.91
+Needs review   : True
+Total exp      : 11.3 years (136 months, 4 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Global Logic Technology Pvt Ltd
+  Location     : None
+  Start - End  : July 2023 - Present
+  Duration     : 39 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Senior Software Engineer
+  Company      : Straive
+  Location     : None
+  Start - End  : April 2022 - June 2023
+  Duration     : 15 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Senior Executive
+  Company      : R Systems
+  Location     : None
+  Start - End  : July 2021 - April 2022
+  Duration     : 10 months
+  Bullets      : 1
+    • Description - This is third party payment gateway which is using in US .they are providing api to intrigate payment gateway in the product.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Sr. Software Engineer
+  Company      : Chetu India Pvt Ltd
+  Location     : None
+  Start - End  : Sep 2019 - March 2021
+  Duration     : 19 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Sr. Software Engineer
+  Company      : Anshika Technologies
+  Location     : None
+  Start - End  : Oct 2015 - June 2019
+  Duration     : 45 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Web Software Developer
+  Company      : First Logic Pvt Ltd
+  Location     : None
+  Start - End  : Feb 2015 - Sep 2015
+  Duration     : 8 months
+  Bullets      : 3
+    • Provides on-going support.
+    • Responsible in coordinating with team members for Issue and users for requirements gathering and handling escalation.
+    • Involving in Designing, Developing, Enhancement and Maintenance.
+  Sub-sections : ['Performing analysis, design, implementation, testing and', 'documentation of new applications and change requests.', 'To develop quality code and its associated documentation adhering', 'to team and departmental development standards.', 'To ensure current skills are up-to-date through research and', 'practice.', 'To participate in team activities and team planning with the aim of', 'improving team skills, awareness and quality of work.', 'To engage professionally with support partners when required.', 'Trains users in the use of forms and complex reports and provides', 'technical assistance', 'in defining authorization roles, custom workflows, and other related', 'areas.']
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : Technology
+  Company      : Core PHP, Laravel-8, Mysql, Javascript, HTML, CSS, APi
+  Location     : Heidsql
+  Start - End  : April 2022 - July 2022
+  Duration     : 4 months
+  Bullets      : 1
+    • Description - This is Software for blind persons specially. in which we are just write the script of images and video description in the documents and then provide that doc to publisher who are writing a book of blind person.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 8
+  Role         : Technology
+  Company      : Description - This is medical website which is using in US.They are checking ingrients and formula of all the medicien and check which used how much alcohal and some other harmful things and also take action according to their rules.
+  Location     : 
+  Start - End  : Aug 2019 - Dec 2019
+  Duration     : 5 months
+  Bullets      : 1
+    • Description - This is medical website which is using in US.They are checking ingrients and formula of all the medicien and check which used how much alcohal and some other harmful things and also take action according to their rules.
+  Method       : date_regex+dash_split
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 9
+  Role         : Technology
+  Company      : None
+  Location     : 
+  Start - End  : Jan 2020 - Feb 2021
+  Duration     : 14 months
+  Bullets      : 0
+  Sub-sections : ['Responsibilities', '────────────────────────────────────────────────────────────', "[Found 10 sections total: ['header', 'experience', 'projects', 'experience', 'projects', 'experience', 'projects', 'education', 'skills', 'experience']]"]
+  Method       : date_regex+dash_split
+  Confidence   : 0.85
+  Needs Review : True

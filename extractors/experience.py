@@ -42,7 +42,7 @@ from datetime import datetime
 
 MONTH_NAMES = (
     r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|"
-    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
+    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|"
     r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 )
 
@@ -57,85 +57,167 @@ MONTH_NAMES = (
 # separator and the end group) -- and "08" alone matches nothing in the
 # end alternation. No valid match existed anywhere in the line, so this
 # job was never anchored and silently dropped entirely by
-# _find_job_blocks, not just parsed incompletely.
-_DAY_MONTH_YEAR = rf"\d{{1,2}}[\s,.-]*{MONTH_NAMES}[\s,.-]*\d{{4}}"
+_VALID_YEAR = r"(?:19[6-9]\d|20[0-3]\d)"
+_MONTH_DAY_YEAR = rf"{MONTH_NAMES}[\s,.-]*\d{{1,2}}(?:st|nd|rd|th)?[\s,.-]*{_VALID_YEAR}"
+_DAY_MONTH_YEAR = rf"\d{{1,2}}(?:st|nd|rd|th)?[\s,.-]*{MONTH_NAMES}[\s,.-]*{_VALID_YEAR}"
+_MONTH_YEAR = rf"{MONTH_NAMES}[\s,/.-]*(?:{_VALID_YEAR}|['’‘`´]?\s*\d{{2}})"
+_YYYY_MM = rf"{_VALID_YEAR}[-/.]\s*(?:0[1-9]|1[0-2])\b"
 
 DATE_RANGE_RE = re.compile(
-    rf"(?P<start>{_DAY_MONTH_YEAR}|{MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]\d{{2}})|\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|\d{{1,2}}[/.]\d{{4}}|\d{{4}})"
-    # The dash/"to" separator is the common case, but some resumes write
-    # "<start date> till date" with NO connecting dash or "to" at all --
-    # just a space (confirmed on a real resume, Sai Pavan Boddula: "May
-    # 2022 till date"). Without a third alternative here, that line never
-    # matches DATE_RANGE_RE at all -- not a parsing-quality issue, a
-    # total miss. With only one date-range anchor left for the whole
-    # experience section, _find_job_blocks built exactly one block
-    # (correctly, for the OTHER job) and silently dropped every line
-    # before it, including this entire job's header and bullets, since
-    # they never fell inside any block's header_ids/body_ids range.
-    # The added alternative is a lookahead (consumes nothing itself), so
-    # it doesn't eat into the "end" group's own match of "Till Date" --
-    # it only fires when a bare run of whitespace is immediately
-    # followed by one of the open-ended markers, so it can't misfire on
-    # two unrelated adjacent dates that just happen to be space-separated.
-    rf"(?:\s*[-–—]\s*|\s+to\s+|\s+(?=(?:Present|Current|Now|Till)\b))"
-    rf"(?P<end>Present|Current|Now|Till\s*(?:Date|Now)|{_DAY_MONTH_YEAR}|{MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]\d{{2}})|\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|\d{{1,2}}[/.]\d{{4}}|\d{{4}})",
+    rf"(?P<start>{_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|{_VALID_YEAR}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]{_VALID_YEAR}|\d{{1,2}}[/.]{_VALID_YEAR}|{_VALID_YEAR})"
+    rf"(?:\s*[-–—]?\s*|\s+to\s+|\s+(?=(?:Present|Current|Now|Till|Still|Ongoing|On-going)\b))"
+    rf"(?P<end>Present|Current|Now|Till(?:\s*(?:Date|Now))?|Still(?:\s*Working)?|Ongoing|On-going|{_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|{_VALID_YEAR}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]{_VALID_YEAR}|\d{{1,2}}[/.]{_VALID_YEAR}|{_VALID_YEAR})",
     re.IGNORECASE
 )
 
 _WIDOW_START_DATE_RE = re.compile(
-    rf"({_DAY_MONTH_YEAR}|{MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]\d{{2}})|\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|\d{{1,2}}[/.]\d{{4}}|\d{{4}})\s*$",
+    rf"({_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|{_VALID_YEAR}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]{_VALID_YEAR}|\d{{1,2}}[/.]{_VALID_YEAR}|{_VALID_YEAR})\s*$",
     re.IGNORECASE
 )
 _WIDOW_END_DATE_RE = re.compile(
     rf"^[-–—]\s*(Present|Current|Now|Till\s*(?:Date|Now)|"
-    rf"{_DAY_MONTH_YEAR}|{MONTH_NAMES}[\s,.]*(?:\d{{4}}|['’‘`´]\d{{2}})|\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]\d{{4}}|\d{{1,2}}[/.]\d{{4}}|\d{{4}})\s*$",
+    rf"{_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|{_VALID_YEAR}[-/.]\d{{1,2}}[-/.]\d{{1,2}}|\d{{1,2}}[-/.]\d{{1,2}}[-/.]{_VALID_YEAR}|\d{{1,2}}[/.]{_VALID_YEAR}|{_VALID_YEAR})\s*$",
     re.IGNORECASE
 )
+
+_START_WITH_DASH_RE = re.compile(
+    rf"^(?P<start>{_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|\d{{1,2}}[/.-]\d{{4}})\s*[-–—]\s*(?P<rest>.*)",
+    re.IGNORECASE
+)
+
+_END_DATE_START_RE = re.compile(
+    rf"^(?P<end>Present|Current|Now|Till(?:\s*(?:Date|Now))?|Still(?:\s*Working)?|{_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|\d{{1,2}}[/.-]\d{{4}})\b(?P<comp_rest>.*)",
+    re.IGNORECASE
+)
+
+_YEAR_RANGE_SHORT_RE = re.compile(rf"\b(?P<start>{_VALID_YEAR})\s*[-–—]\s*(?P<end_short>\d{{2,4}})\b")
+_SINGLE_YEAR_LINE_RE = re.compile(rf"^\s*\(?({_VALID_YEAR})\)?\s*$")
+_SINCE_DATE_RE = re.compile(rf"\bSince\s+(?P<start>{_MONTH_DAY_YEAR}|{_DAY_MONTH_YEAR}|{_MONTH_YEAR}|{_YYYY_MM}|{_VALID_YEAR})\b", re.IGNORECASE)
 
 
 _TRAILING_TO_RE = re.compile(r"\s*\bto\s*$", re.IGNORECASE)
 
+_STATED_DURATION_RE = re.compile(
+    r"(?:^|[\s|/,\-(])(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>years?|yrs?|months?|mos?)\b",
+    re.IGNORECASE
+)
+
 
 def _merge_widow_date_lines(lines: list) -> list:
-    merged = list(lines)
-    for i in range(len(merged) - 1):
-        cur = merged[i].rstrip()
-        nxt = merged[i + 1].strip()
-        if not cur or not nxt:
+    # 1. Pre-scan for '❖ Since <start_date>' table headers
+    start_dates = []
+    for l in lines:
+        if "Since" in l:
+            for m in re.finditer(r"Since\s+([A-Za-z0-9\-\./]+)", l, re.IGNORECASE):
+                dt = m.group(1).strip()
+                if dt.lower() not in ("may", "jun", "jul", "aug", "sep", "oct", "nov", "dec") or len(dt) > 3:
+                    start_dates.append(dt)
+
+    line_colon_pat = re.compile(
+        r"^(?:[❖–\-]|to)?\s*(?:Since\s*)?(?P<date>[A-Za-z0-9\s\-\u2013]+?)\s*:\s*(?P<body>M/s\..*|.*?(?:Company Secretary|Legal|Manager|Executive|Officer|Trainee|Partner|Lead|Director|Head|Consultant).*)$",
+        re.IGNORECASE
+    )
+
+    merged = []
+    i = 0
+    n = len(lines)
+    start_idx = 0
+    while i < n:
+        cur = lines[i].rstrip()
+        if not cur:
+            merged.append(lines[i])
+            i += 1
             continue
+
+        m_colon = line_colon_pat.match(cur.strip())
+        if m_colon and not cur.strip().startswith(("Contact:", "Address:", "Phone:", "E-Mail:")):
+            d_str = m_colon.group("date").strip()
+            body = m_colon.group("body").strip()
+            range_m = DATE_RANGE_RE.search(d_str)
+            if range_m:
+                merged.append(f"{range_m.group('start')} - {range_m.group('end')} | {body}")
+                i += 1
+                continue
+            elif "-" in d_str and len(d_str) >= 6 and re.search(r"\d{2,4}", d_str):
+                parts = re.split(r"\s*[-–—]\s*", d_str)
+                if len(parts) == 2:
+                    merged.append(f"{parts[0]} - {parts[1]} | {body}")
+                    i += 1
+                    continue
+            end_d = "Present" if re.search(r"till|present|current", d_str, re.IGNORECASE) else d_str
+            start_d = start_dates[start_idx] if start_idx < len(start_dates) else "Unknown"
+            start_idx += 1
+            merged.append(f"{start_d} - {end_d} | {body}")
+            i += 1
+            continue
+
         if DATE_RANGE_RE.search(cur):
+            merged.append(lines[i])
+            i += 1
             continue
-        if _WIDOW_START_DATE_RE.search(cur) and _WIDOW_END_DATE_RE.match(nxt):
-            merged[i] = cur + " " + nxt
-            merged[i + 1] = ""
-            continue
-        # A "to"-continuation widow: the date RANGE ITSELF splits across
-        # two lines at the separator word, e.g.
-        #   "...as a PHP Developer (Dec 2018 to"
-        #   "Jun 2020)."
-        # Confirmed on a real resume (Abhay Awasthi). Distinct from the
-        # dash-continuation case above (that one has no "to" at all --
-        # just a start date, then a line starting with "-EndDate"). Only
-        # merges when the text before the trailing "to" itself ends in a
-        # recognizable start date, so this can't misfire on an unrelated
-        # sentence that happens to wrap at the word "to".
-        to_match = _TRAILING_TO_RE.search(cur)
-        if to_match:
-            before_to = cur[:to_match.start()].rstrip()
-            if _WIDOW_START_DATE_RE.search(before_to):
-                merged[i] = cur + " " + nxt
-                merged[i + 1] = ""
+
+        if i + 1 < n:
+            nxt = lines[i + 1].strip()
+            if (_WIDOW_START_DATE_RE.search(cur) or re.search(rf"{MONTH_NAMES}\s+\d{{1,2}}\s*$", cur, re.IGNORECASE)) and (_WIDOW_END_DATE_RE.match(nxt) or re.match(r"^\d{4}\b", nxt)):
+                merged.append(cur + " " + nxt)
+                i += 2
+                continue
+            to_match = _TRAILING_TO_RE.search(cur)
+            if to_match:
+                before_to = cur[:to_match.start()].rstrip()
+                if _WIDOW_START_DATE_RE.search(before_to):
+                    merged.append(cur + " " + nxt)
+                    i += 2
+                    continue
+
+        m_start = _START_WITH_DASH_RE.match(cur.strip())
+        if m_start:
+            found = False
+            for offset in range(1, 4):
+                if i + offset < n:
+                    nxt = lines[i + offset].strip()
+                    m_end = _END_DATE_START_RE.match(nxt)
+                    if m_end:
+                        start_d = m_start.group("start")
+                        title_r = m_start.group("rest")
+                        end_d = m_end.group("end")
+                        comp_r = m_end.group("comp_rest")
+                        clean_title = re.sub(r"R\s+e\s+g\s+ional", "Regional", title_r, flags=re.IGNORECASE).strip()
+                        clean_comp = comp_r.strip()
+                        merged.append(f"{start_d} - {end_d} | {clean_title} | {clean_comp}")
+                        for mid_idx in range(1, offset):
+                            merged.append(lines[i + mid_idx])
+                        i += offset + 1
+                        found = True
+                        break
+            if found:
+                continue
+
+        merged.append(lines[i])
+        i += 1
     return merged
 
 TITLE_KEYWORDS = [
     "engineer", "developer", "manager", "analyst", "consultant",
     "designer", "architect", "lead", "head", "director", "vp", "svp", "cto", "ceo",
     "intern", "associate", "senior", "junior", "principal", "staff",
-    "specialist", "coordinator", "executive", "officer", "president",
+    "specialist", "coordinator", "executive", "officer", "president", "supervisor",
     "scientist", "researcher", "administrator", "technician", "professor",
-    "assistant", "trainee", "fresher", "apprentice"
+    "assistant", "trainee", "fresher", "apprentice", "sales", "customer service",
+    "accountant", "auditor", "controller", "bookkeeper", "treasurer"
 ]
 TITLE_RE = re.compile(r'\b(' + '|'.join(TITLE_KEYWORDS) + r')\b', re.IGNORECASE)
+
+_TECH_SKILL_KEYWORDS = {
+    'mysql', 'sql', 'postgresql', 'mongodb', 'oracle', 'sqlite', 'nosql',
+    'scikit-learn', 'scikitlearn', 'sklearn', 'pytorch', 'tensorflow', 'numpy', 'pandas', 'opencv',
+    'django', 'fastapi', 'fast api', 'flask', 'react', 'angular', 'vue', 'node.js', 'nodejs',
+    'aws', 'aws cloud', 'azure', 'gcp', 'docker', 'kubernetes', 'git', 'github', 'jira',
+    'tableau', 'power bi', 'spark', 'hadoop', 'kafka', 'elasticsearch', 'redis',
+    'graphql', 'rest', 'grpc', 'html', 'css', 'javascript', 'typescript', 'python',
+    'java', 'c#', 'c++', 'yolo', 'yolov8', 'yolov11', 'llama', 'llama3', 'llama3.2', 'langchain',
+    'huggingface', 'spacy', 'deepseek', 'agents', 'chatgpt', 'segmentation', 'object detection', 'annotation'
+}
 
 _DASH_NORMALIZE_TABLE = str.maketrans({
     "－": "-",
@@ -169,7 +251,7 @@ _MONTH_YEAR_GLUE_DASH_RE = re.compile(
 def _normalize_month_year_glue(text: str) -> str:
     return _MONTH_YEAR_GLUE_DASH_RE.sub(r"\1 \2", text)
 
-BULLET_RE = re.compile(r'^[•●○◦▪➤►‣\-\*]\s+|^\d+[\.\)]?\s+')
+BULLET_RE = re.compile(r'^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*]\s*|^\d+[\.\)]?\s+')
 
 def _looks_like_subheading(line: str) -> bool:
     words = line.split()
@@ -200,11 +282,19 @@ else:
 
 def _expand_apostrophe_year(date_str: str) -> str:
     m = re.search(r"['’‘`´](\d{2})\b", date_str)
-    if not m:
-        return date_str
-    two_digit = int(m.group(1))
-    century = "20" if two_digit <= 49 else "19"
-    return date_str[:m.start()] + century + m.group(1) + date_str[m.end():]
+    if m:
+        two_digit = int(m.group(1))
+        century = "20" if two_digit <= 49 else "19"
+        date_str = date_str[:m.start()] + " " + century + m.group(1) + date_str[m.end():]
+
+    m_slash = re.search(rf"\b({MONTH_NAMES})[/.-](\d{{2}})\b", date_str, re.IGNORECASE)
+    if m_slash:
+        month_name = m_slash.group(1)
+        two_digit = int(m_slash.group(2))
+        century = "20" if two_digit <= 49 else "19"
+        date_str = date_str[:m_slash.start()] + f"{month_name} {century}{two_digit:02d}" + date_str[m_slash.end():]
+
+    return date_str
 
 
 # Confirmed on a real resume (Abhijeet Sangle): dates written numerically
@@ -227,14 +317,16 @@ def _try_parse_mm_yyyy(date_str: str):
     m = _MM_YYYY_RE.match(date_str.strip())
     if not m:
         return None
-    month, year = int(m.group(1)), int(m.group(2))
-    if 1 <= month <= 12:
-        return datetime(year, month, 1)
+    val1, year = int(m.group(1)), int(m.group(2))
+    if 1 <= val1 <= 12:
+        return datetime(year, val1, 1)
+    elif val1 > 12:
+        return datetime(year, 12, 1)
     return None
 
 
 def parse_date(date_str: str):
-    if not date_str or re.match(r'present|current|now|till\s*(?:date|now)', date_str, re.IGNORECASE):
+    if not date_str or re.match(r'present|current|now|till\s*(?:date|now)|ongoing|on-going', date_str, re.IGNORECASE):
         return datetime.now()
     date_str = _expand_apostrophe_year(date_str)
     mm_yyyy = _try_parse_mm_yyyy(date_str)
@@ -274,6 +366,12 @@ def _inclusive_month_diff(start, end) -> int:
 
 
 def calculate_duration_months(start_str: str, end_str: str) -> int:
+    if not start_str and end_str:
+        dur_m = _STATED_DURATION_RE.search(end_str)
+        if dur_m:
+            num = float(dur_m.group("num"))
+            unit = dur_m.group("unit").lower()
+            return int(num * 12) if "y" in unit else int(num)
     start = parse_date(start_str)
     end = parse_date(end_str)
     return _inclusive_month_diff(start, end)
@@ -322,6 +420,11 @@ def _looks_like_prose(line: str) -> bool:
 # _reflow_body() (a different, unrelated no-bullet-marker case,
 # confirmed working on Satyadip Ray's resume), completely untouched.
 def _looks_like_previous_job_trailing_line(line: str) -> bool:
+    l_strip = line.strip().lower()
+    if l_strip.startswith(("environment", "application", "tools")):
+        return True
+    if re.search(r"^\s*(?:organization|organisation|company|employer|profile|designation|role|position|title)\s*[:\-–—\t]", l_strip):
+        return False
     if TITLE_RE.search(line) or " at " in line.lower():
         return False
     words = line.split()
@@ -332,13 +435,30 @@ def _looks_like_previous_job_trailing_line(line: str) -> bool:
 
 
 def _find_job_blocks(lines: list):
-    anchor_idx = [i for i, l in enumerate(lines) if DATE_RANGE_RE.search(l)]
+    anchor_idx = []
+    for i, l in enumerate(lines):
+        l_str = l.strip()
+        if DATE_RANGE_RE.search(l_str) or _YEAR_RANGE_SHORT_RE.search(l_str) or _SINCE_DATE_RE.search(l_str):
+            anchor_idx.append(i)
+        elif _SINGLE_YEAR_LINE_RE.match(l_str):
+            if i > 0 and not BULLET_RE.match(l_str):
+                prev_has_context = any(
+                    TITLE_RE.search(lines[k]) or " at " in lines[k].lower() or any(w in lines[k].lower() for w in ("ltd", "inc", "co", "corp", "pvt", "llc", "llp", "bank", "technologies", "solutions", "limited", "company", "analytics", "group", "services"))
+                    for k in range(max(0, i-2), i)
+                )
+                if prev_has_context or i == 1:
+                    anchor_idx.append(i)
     if not anchor_idx:
         anchor_idx = [
             i for i, l in enumerate(lines)
             if _WIDOW_START_DATE_RE.search(l) and i > 0 and (
                 TITLE_RE.search(lines[i-1]) or " at " in lines[i-1].lower() or " – " in lines[i-1] or " - " in lines[i-1] or ":-" in lines[i-1]
             )
+        ]
+    if not anchor_idx:
+        anchor_idx = [
+            i for i, l in enumerate(lines)
+            if _STATED_DURATION_RE.search(l) and not _SECTION_HEADER_RE.match(l) and not BULLET_RE.match(l.strip())
         ]
     if not anchor_idx:
         return []
@@ -349,9 +469,14 @@ def _find_job_blocks(lines: list):
         steps = 0
         while j >= 0 and steps < 2:
             l = lines[j].strip()
-            if not l or BULLET_RE.match(l) or j in anchor_idx:
+            if not l or j in anchor_idx:
                 break
+            if BULLET_RE.match(l):
+                if not (TITLE_RE.search(l) or " at " in l.lower() or "worked as" in l.lower() or "working as" in l.lower()):
+                    break
             if l[0].islower():
+                break
+            if "\t" in l or re.match(r"^\s*technical\s+skills?\b", l, re.I):
                 break
             if l.rstrip().endswith(":"):
                 break
@@ -379,45 +504,153 @@ def _find_job_blocks(lines: list):
     return blocks
 
 
+_TABLE_HEADER_ROW_RE = re.compile(
+    r'^\s*(?:period|date|dates|sl\.?\s*no|company|organization|institution|designation|role|duration|location)'
+    r'[\s\t|,/]+'
+    r'(?:period|date|dates|sl\.?\s*no|company|organization|institution|designation|role|duration|location)',
+    re.IGNORECASE
+)
+
+
+_SECTION_HEADER_RE = re.compile(
+    r'^\s*(?:work\s+experience|experience|employment\s+history|professional\s+experience|career\s+history|organizational\s+experience)[\s:\-]*$',
+    re.IGNORECASE
+)
+
+
 def _parse_header(header_lines: list, date_line: str):
     job = {"role": None, "company": None, "location": None, "start": None, "end": None, "method": []}
 
+    date_line = re.sub(r'[{}]', '', date_line).strip()
+    clean_header_lines = [
+        re.sub(r'[{}]', '', l).strip() for l in header_lines 
+        if not l.strip().startswith(('─', 'LABEL:', 'CONFIDENCE:')) 
+        and not re.match(r'^[\─\-\=\_\s]+$', l.strip())
+        and not _TABLE_HEADER_ROW_RE.match(l.strip()) 
+        and not _SECTION_HEADER_RE.match(l.strip())
+    ]
+    if not clean_header_lines:
+        clean_header_lines = [re.sub(r'[{}]', '', l).strip() for l in header_lines if not l.strip().startswith(('─', 'LABEL:', 'CONFIDENCE:')) and not re.match(r'^[\─\-\=\_\s]+$', l.strip())]
+
     m = DATE_RANGE_RE.search(date_line)
+    m_short = _YEAR_RANGE_SHORT_RE.search(date_line)
+    m_single = _SINGLE_YEAR_LINE_RE.match(date_line)
+    m_since = _SINCE_DATE_RE.search(date_line)
     if m:
         job["start"] = m.group("start").strip()
         job["end"] = m.group("end").strip()
         job["method"].append("date_regex")
+        date_prefix = date_line[:m.start()].strip(" |–-—,\t")
+        if date_prefix and TITLE_RE.search(date_prefix):
+            job["role"] = date_prefix
+            job["method"].append("date_prefix_title")
+    elif m_short:
+        start_yr = m_short.group("start").strip()
+        end_short = m_short.group("end_short").strip()
+        full_end = start_yr[:2] + end_short if len(end_short) == 2 else end_short
+        job["start"] = start_yr
+        job["end"] = full_end
+        job["method"].append("year_range_short_regex")
+        date_prefix = date_line[:m_short.start()].strip(" |–-—,\t")
+        if date_prefix and TITLE_RE.search(date_prefix):
+            job["role"] = date_prefix
+            job["method"].append("date_prefix_title")
+    elif m_since:
+        job["start"] = m_since.group("start").strip()
+        job["end"] = "Present"
+        job["method"].append("since_date_regex")
+        date_prefix = date_line[:m_since.start()].strip(" |–-—,\t")
+        if date_prefix and TITLE_RE.search(date_prefix):
+            job["role"] = date_prefix
+            job["method"].append("date_prefix_title")
+    elif m_single:
+        single_yr = m_single.group(1).strip()
+        job["start"] = single_yr
+        job["end"] = single_yr
+        job["method"].append("single_year_regex")
     else:
         sm = _WIDOW_START_DATE_RE.search(date_line)
         if sm:
             job["start"] = sm.group(1).strip()
             job["end"] = "Present"
             job["method"].append("single_date_regex")
+        else:
+            dur_m = _STATED_DURATION_RE.search(date_line)
+            if dur_m:
+                num = float(dur_m.group("num"))
+                unit = dur_m.group("unit").lower()
+                dur_str = f"{num:g} Year" if "y" in unit else f"{num:g} Month"
+                if num != 1:
+                    dur_str += "s"
+                job["start"] = None
+                job["end"] = dur_str
+                job["method"].append("stated_duration_regex")
 
     cleaned = []
-    for l in header_lines:
+    for l in clean_header_lines:
         l = l.strip()
-        if not l:
+        if not l or _SECTION_HEADER_RE.match(l):
             continue
+        l = re.sub(r'\bASSISTANTMANAGER\b', 'ASSISTANT MANAGER', l, flags=re.IGNORECASE)
         dm = DATE_RANGE_RE.search(l)
         if dm:
             l = (l[:dm.start()] + l[dm.end():])
+            l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
+        m_since_clean = _SINCE_DATE_RE.search(l)
+        if m_since_clean:
+            l = (l[:m_since_clean.start()] + l[m_since_clean.end():])
+            l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
+        m_short_clean = _YEAR_RANGE_SHORT_RE.search(l)
+        if m_short_clean:
+            l = (l[:m_short_clean.start()] + l[m_short_clean.end():])
             l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
         sm = _WIDOW_START_DATE_RE.search(l)
         if sm:
             l = (l[:sm.start()] + l[sm.end():])
             l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
-        if l:
+        dur_m = _STATED_DURATION_RE.search(l)
+        if dur_m:
+            l = (l[:dur_m.start()] + l[dur_m.end():])
+            l = re.sub(r'^[\s\-–—,/|]+|[\s\-–—,/|]+$', '', l)
+        if l and l.lower().strip() not in {"duration", "role", "designation", "period", "tenure", "responsibilities", "key responsibilities"} and not l.lower().startswith(("environment", "application", "tools")):
             cleaned.append(l)
 
-    if cleaned and "/" in cleaned[0] and "|" not in cleaned[0]:
+    for l in clean_header_lines:
+        m_org = re.search(r'^\s*(?:organization|organisation|company|employer)\s*[:\-–—\t]+\s*(.+)$', l, re.IGNORECASE)
+        if m_org and not job["company"]:
+            job["company"] = m_org.group(1).strip()
+            job["method"].append("subfield_label_company")
+        m_role = re.search(r'^\s*(?:profile|designation|role|position|title)\s*[:\-–—\t]+\s*(.+)$', l, re.IGNORECASE)
+        if m_role and not job["role"]:
+            job["role"] = m_role.group(1).strip()
+            job["method"].append("subfield_label_role")
+
+    if not job["role"] and not job["company"] and cleaned and "\t" in cleaned[0]:
+        parts = [p.strip() for p in cleaned[0].split("\t") if p.strip()]
+        if parts:
+            if re.search(r'\b(period|date|sl\.?\s*no)\b', parts[0], re.I):
+                parts = parts[1:]
+            if len(parts) >= 2:
+                cand_comp = parts[0]
+                cand_role = parts[1]
+                if cand_comp.strip().lower() not in {"company", "organization", "organisation", "employer", "designation", "role", "position", "title"}:
+                    job["company"] = cand_comp
+                if cand_role.strip().lower() not in {"company", "organization", "organisation", "employer", "designation", "role", "position", "title"}:
+                    job["role"] = cand_role
+                job["method"].append("tab_split")
+
+    if cleaned and "/" in cleaned[0] and "|" not in cleaned[0] and not job["role"]:
         parts = [p.strip() for p in cleaned[0].split("/") if p.strip()]
         if parts:
-            job["role"] = parts[0]
-            paren = re.search(r'\(([^)]+)\)', cleaned[0])
-            if paren:
+            if len(parts) >= 2 and all(TITLE_RE.search(p) for p in parts):
+                job["role"] = cleaned[0]
+            elif paren := re.search(r'\(([^)]+)\)', cleaned[0]):
+                job["role"] = parts[0]
                 job["company"] = paren.group(1).strip()
                 job["method"].append("inline_parens")
+            elif TITLE_RE.search(parts[0]):
+                job["role"] = parts[0]
+                job["method"].append("slash_split_role")
 
     if not job["role"] and not job["company"] and cleaned and "|" in cleaned[0]:
         parts = [p.strip() for p in cleaned[0].split("|") if p.strip()]
@@ -429,28 +662,62 @@ def _parse_header(header_lines: list, date_line: str):
                 job["company"] = other_parts[0]
             job["method"].append("pipe_split")
 
-    if not job["role"] and not job["company"] and cleaned:
+    if not job["role"] and cleaned:
+        for line in cleaned[:3]:
+            wm = re.search(r"working as a?\s+(.*?)\s+(?:in|at|for)\s+(.*)", line, re.IGNORECASE)
+            if wm:
+                role_candidate = wm.group(1).strip()
+                comp_candidate = wm.group(2).strip()
+                comp_candidate = re.sub(r"\s+from.*$", "", comp_candidate, flags=re.IGNORECASE).strip()
+                if role_candidate and comp_candidate:
+                    job["role"] = role_candidate
+                    if not job["company"] or _TABLE_HEADER_ROW_RE.search(job["company"]):
+                        job["company"] = comp_candidate
+                    job["method"].append("working_as_split")
+                    break
+
+    if cleaned and not (job["role"] and job["company"]):
         for sep in (" – ", " — ", " - "):
             if sep in cleaned[0]:
                 left, right = (p.strip() for p in cleaned[0].split(sep, 1))
-                left = re.sub(r'\([^)]*\)', '', left).strip()
-                right = re.sub(r'\([^)]*\)', '', right).strip()
-                if left and right:
-                    left_is_title = bool(TITLE_RE.search(left))
-                    right_is_title = bool(TITLE_RE.search(right))
-                    if right_is_title and not left_is_title:
-                        job["role"], job["company"] = right, left
-                    else:
-                        job["role"], job["company"] = left, right
-                    job["method"].append("dash_split")
+                left_clean = re.sub(r'\([^)]*\)', '', left).strip()
+                right_clean = re.sub(r'\([^)]*\)', '', right).strip()
+                if left_clean and right_clean:
+                    left_is_title = bool(TITLE_RE.search(left_clean))
+                    right_is_title = bool(TITLE_RE.search(right_clean))
+                    if job["role"] and not job["company"]:
+                        job["company"] = left_clean
+                        if not job.get("location"):
+                            job["location"] = right_clean
+                        job["method"].append("company_loc_dash_split")
+                    elif not job["role"] and not job["company"]:
+                        if right_is_title and not left_is_title:
+                            job["role"], job["company"] = right_clean, left_clean
+                            job["method"].append("dash_split")
+                        elif left_is_title and len(cleaned) > 1 and not TITLE_RE.search(cleaned[1]):
+                            job["role"] = cleaned[0]
+                            job["company"] = cleaned[1]
+                            job["method"].append("dash_title_next_line_company")
+                        else:
+                            job["role"], job["company"] = left_clean, right_clean
+                            job["method"].append("dash_split")
                 break
 
     if not job["role"] and not job["company"] and cleaned:
-        at_match = re.search(r'^(.*?)\s+\bat\b\s+(.*)$', cleaned[0], re.IGNORECASE)
+        full_hdr = " ".join(cleaned)
+        full_hdr = DATE_RANGE_RE.sub("", full_hdr)
+        full_hdr = re.sub(r'[\s.\-–—,/|(\[]*\b(?:from|to)\b.*$', '', full_hdr, flags=re.IGNORECASE).strip()
+        at_match = re.search(r'^(?:Worked\s+as|Working\s+as|[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*])*\s*(.*?)\s+\bat\b\s+(.*)$', full_hdr, re.IGNORECASE)
+        if not at_match:
+            at_match = re.search(r'^(?:Worked\s+as|Working\s+as|[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*])*\s*(.*?)\s+\bat\b\s+(.*)$', cleaned[0], re.IGNORECASE)
         if at_match:
             role_candidate = at_match.group(1).strip()
+            role_candidate = re.sub(r'^.*?\)\.\s*', '', role_candidate).strip()
+            role_candidate = re.sub(r'^(?:Worked\s+as|Working\s+as|[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\s])+', '', role_candidate, flags=re.IGNORECASE).strip()
             comp_candidate = at_match.group(2).strip()
+            comp_candidate = re.sub(r'[\s.\-–—,/|(\[]*\b(?:from|to)\b.*$', '', comp_candidate, flags=re.IGNORECASE).strip()
             comp_candidate = re.sub(r'[:\-–—\s]*\d+\s*(?:yrs?|years?|mos?|months?).*$', '', comp_candidate, flags=re.IGNORECASE).strip()
+            comp_candidate = comp_candidate.rstrip(" .–-—,/|(").strip()
             if role_candidate and comp_candidate:
                 job["role"] = role_candidate
                 job["company"] = comp_candidate
@@ -466,21 +733,91 @@ def _parse_header(header_lines: list, date_line: str):
                 job["company"] = outside
                 job["method"].append("paren_title")
 
-    if not job["role"] and not job["company"]:
-        for line in cleaned[:3]:
-            line = re.sub(r'\([^)]*\)', '', line).strip()
-            if not line:
+    if not job["role"] and not job["company"] and cleaned:
+        if "," in cleaned[0]:
+            left, right = [p.strip() for p in cleaned[0].split(",", 1)]
+            left_clean = re.sub(r'\([^)]*\)', '', left).strip()
+            right_clean = re.sub(r'\([^)]*\)', '', right).strip()
+            if left_clean and right_clean:
+                if TITLE_RE.search(left_clean):
+                    job["role"] = left_clean
+                    job["company"] = right_clean
+                    job["method"].append("comma_title_company_split")
+                elif TITLE_RE.search(right_clean):
+                    job["company"] = left_clean
+                    m_loc = re.match(r'^([A-Z][a-z]+)\s+(.+)$', right_clean)
+                    if m_loc and TITLE_RE.search(m_loc.group(2)):
+                        job["location"] = m_loc.group(1).strip()
+                        job["role"] = m_loc.group(2).strip()
+                    else:
+                        job["role"] = right_clean
+                    job["method"].append("comma_company_role_split")
+
+    if job["role"] and not job["company"] and cleaned:
+        for line in cleaned:
+            line_clean = re.sub(r'\([^)]*\)', '', line).strip()
+            if not line_clean or line == job["role"] or TITLE_RE.search(line_clean):
                 continue
-            if TITLE_RE.search(line) and not job["role"]:
-                job["role"] = line
+            job["company"] = line
+            job["method"].append("next_line_company")
+            break
+
+    valid_cleaned = []
+    for l in cleaned:
+        l_low = l.lower().strip()
+        l_clean = re.sub(r'[^\w\s]', '', l_low)
+        if l_low in _TECH_SKILL_KEYWORDS or l_clean in _TECH_SKILL_KEYWORDS or (len(l_low.split()) <= 2 and any(w in _TECH_SKILL_KEYWORDS for w in l_low.split())):
+            continue
+        valid_cleaned.append(l)
+
+    if not job["role"] or not job["company"]:
+        search_lines = valid_cleaned if valid_cleaned else cleaned
+        for line in search_lines:
+            line_clean = re.sub(r'\([^)]*\)', '', line).strip()
+            if not line_clean or line_clean.isdigit():
+                continue
+            if TITLE_RE.search(line_clean) and not job["role"]:
+                job["role"] = line_clean
                 job["method"].append("title_dict")
-            elif not job["company"]:
-                job["company"] = line
+
+        if not job["company"]:
+            for line in search_lines:
+                line_clean = re.sub(r'\([^)]*\)', '', line).strip()
+                if not line_clean or line_clean.isdigit() or line_clean == job.get("role"):
+                    continue
+                if "," in line_clean:
+                    parts = [p.strip() for p in line_clean.rsplit(",", 1)]
+                    if len(parts) == 2 and len(parts[1].split()) <= 3 and not TITLE_RE.search(parts[0]):
+                        job["company"], job["location"] = parts
+                        job["method"].append("comma_company_location")
+                        break
+                if any(re.search(rf"\b{kw}\b", line_clean, re.IGNORECASE) for kw in ("ltd", "llc", "inc", "corp", "gmbh", "pvt", "limited", "company", "bpo", "systems", "group", "solutions")):
+                    job["company"] = line_clean
+                    job["method"].append("company_suffix_match")
+                    break
+
+        if not job["company"]:
+            for line in search_lines:
+                line_clean = re.sub(r'\([^)]*\)', '', line).strip()
+                if not line_clean or line_clean.isdigit() or line_clean == job.get("role") or DATE_RANGE_RE.search(line_clean) or _SINCE_DATE_RE.search(line_clean) or _WIDOW_START_DATE_RE.search(line_clean):
+                    continue
+                if not line_clean.endswith("."):
+                    job["company"] = line_clean
+                    break
+
+    if job.get("end") and job["end"].lower() in ("till", "till date", "till now", "currently", "continuing", "till present"):
+        job["end"] = "Present"
 
     if job["company"] and "," in job["company"]:
         parts = [p.strip() for p in job["company"].rsplit(",", 1)]
         if len(parts) == 2 and len(parts[1].split()) <= 3:
             job["company"], job["location"] = parts
+
+    if job["role"] and "," in job["role"]:
+        m_loc = re.search(r'\s+([A-Z][a-z]+,\s*[A-Z][a-zA-Z]+)$', job["role"])
+        if m_loc:
+            job["location"] = m_loc.group(1).strip()
+            job["role"] = job["role"][:m_loc.start()].strip()
 
     if job["company"] and " - " in job["company"]:
         left, _, right = job["company"].rpartition(" - ")
@@ -495,12 +832,31 @@ def _parse_header(header_lines: list, date_line: str):
             job["company"] = spacy_company
             job["method"].append("spacy_ORG")
 
-    if not job["role"] and not job["company"] and cleaned:
-        job["role"] = cleaned[0]
+    if date_line and (not job.get("company") or _TABLE_HEADER_ROW_RE.search(job.get("company") or "")):
+        dm = DATE_RANGE_RE.search(date_line)
+        if dm:
+            before_date = date_line[:dm.start()].strip(" -–—,\t")
+            if before_date and len(before_date.split()) <= 6:
+                b_clean = re.sub(r'[\s:\-–—\t]+$', '', before_date).strip().lower()
+                if b_clean not in {"tenure", "period", "duration", "date", "dates", "time", "sl", "sno", "no", "organization", "organisation", "company", "profile", "designation", "role"}:
+                    if TITLE_RE.search(before_date):
+                        job["role"] = before_date
+                    else:
+                        job["company"] = before_date
 
-    for key in ("role", "company"):
-        if job[key]:
-            job[key] = job[key].strip(" /-").strip()
+    for key in ("role", "company", "location"):
+        if job.get(key):
+            job[key] = re.sub(r'^[{\[\s:\-–—,/|]+|[{\}\]\s:\-–—,/|]+$', '', job[key]).strip()
+            job[key] = job[key].strip(" /:.-{}[]").strip()
+
+    if job.get("role") and job.get("company") and job["role"].startswith(job["company"]):
+        job["role"] = job["role"][len(job["company"]):].lstrip(" –-—:").strip()
+
+    if job["company"]:
+        comp_low = job["company"].lower().strip()
+        comp_clean = re.sub(r'[^\w\s]', '', comp_low)
+        if comp_low in _TECH_SKILL_KEYWORDS or comp_clean in _TECH_SKILL_KEYWORDS or any(w in _TECH_SKILL_KEYWORDS for w in comp_low.split()):
+            job["company"] = None
 
     return job
 
@@ -576,12 +932,56 @@ def parse_job_block(header_lines: list, body_lines: list):
 
     extra_header_lines, bullets, subheadings = _reflow_body(body_lines)
 
-    date_line = next((l for l in header_lines if DATE_RANGE_RE.search(l) or _WIDOW_START_DATE_RE.search(l)), "")
+    date_line = next((l for l in header_lines if DATE_RANGE_RE.search(l) or _WIDOW_START_DATE_RE.search(l) or _STATED_DURATION_RE.search(l)), "")
     job = _parse_header(header_lines + extra_header_lines, date_line)
 
-    job["duration_months"] = calculate_duration_months(job["start"], job["end"]) if job["start"] else 0
+    # If role or company is still missing (common when date line sits above title/company in sidebar layouts),
+    # inspect the top lines of body_lines before the first bullet marker.
+    if not job["role"] or not job["company"]:
+        top_body_lines = []
+        for l in body_lines:
+            l_str = l.strip()
+            if not l_str or BULLET_RE.match(l_str):
+                break
+            top_body_lines.append(l_str)
+        if top_body_lines:
+            fallback_job = _parse_header(header_lines + top_body_lines, date_line)
+            if fallback_job.get("role") and not job["role"]:
+                job["role"] = fallback_job["role"]
+            if fallback_job.get("company") and not job["company"]:
+                job["company"] = fallback_job["company"]
+            # Remove top_body_lines from bullets if they were incorrectly placed in bullets
+            bullets = [b for b in bullets if b not in top_body_lines]
+
+    if not job["role"] and subheadings:
+        for sub in subheadings:
+            if TITLE_RE.search(sub):
+                m_loc = re.search(r'\s+([A-Z][a-z]+,\s*[A-Z][a-zA-Z]+)$', sub)
+                if m_loc:
+                    if not job.get("location"):
+                        job["location"] = m_loc.group(1).strip()
+                    job["role"] = sub[:m_loc.start()].strip()
+                else:
+                    job["role"] = sub
+                break
+
+    if not job["company"] and bullets:
+        for b in bullets[:6]:
+            b_low = b.lower().strip()
+            b_clean = re.sub(r'[^\w\s]', '', b_low)
+            if not b_clean or TITLE_RE.search(b) or b_low in _TECH_SKILL_KEYWORDS or b_clean in _TECH_SKILL_KEYWORDS or any(w in _TECH_SKILL_KEYWORDS for w in b_low.split()):
+                continue
+            job["company"] = b
+            break
+
+    job["duration_months"] = calculate_duration_months(job["start"], job["end"]) if (job["start"] or job["end"]) else 0
     job["bullets"] = bullets
     job["sub_sections"] = subheadings
+
+    if job["company"]:
+        job["company"] = re.sub(r"^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\s]+", "", job["company"]).strip()
+    if job["role"]:
+        job["role"] = re.sub(r"^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\s]+", "", job["role"]).strip()
 
     job["confidence"] = _score_confidence(job)
     job["needs_review"] = job["confidence"] < 0.75 or not job["company"] or not job["role"]
@@ -590,6 +990,9 @@ def parse_job_block(header_lines: list, body_lines: list):
     if not job["company"] and not job["role"] and not job["bullets"]:
         return None
     return job
+
+
+
 
 
 def _extract_jobs_from_text(section_text: str) -> list:
@@ -620,23 +1023,42 @@ def _extract_jobs_from_text(section_text: str) -> list:
         body_lines = [lines[i] for i in body_ids]
         parsed = parse_job_block(header_lines, body_lines)
         if parsed:
+            if not parsed.get("role") and jobs and jobs[-1].get("role") and any(w in jobs[-1]["role"].lower() for w in ("article", "intern", "trainee", "apprentice")):
+                parsed["role"] = jobs[-1]["role"]
+                parsed["method"] = parsed["method"] + "+inherited_role" if parsed["method"] else "inherited_role"
             jobs.append(parsed)
     return jobs
 
 
+
 def calculate_total_experience(jobs: list) -> dict:
     parsed_jobs = []
+    fallback_months = 0
     for job in jobs:
         if not job.get("start") or not job.get("end"):
+            if job.get("end"):
+                dur_m = _STATED_DURATION_RE.search(job["end"])
+                if dur_m:
+                    num = float(dur_m.group("num"))
+                    unit = dur_m.group("unit").lower()
+                    fallback_months += int(num * 12) if "y" in unit else int(num)
             continue
         s = parse_date(job["start"])
         e = parse_date(job["end"])
         raw_end = str(job.get("end", "")).strip().lower()
-        is_present = raw_end in ("present", "current", "now", "till date", "till now")
+        is_present = any(w in raw_end for w in ("present", "current", "now", "till"))
+        if is_present:
+            e = datetime.now()
         if s and e and e > s:
             parsed_jobs.append({"start": s, "end": e, "is_present": is_present, "raw": job})
 
     if not parsed_jobs:
+        if fallback_months > 0:
+            return {
+                "total_years": round(fallback_months / 12, 1),
+                "total_months": fallback_months,
+                "overlapping_periods_merged": 0,
+            }
         return {"total_years": 0.0, "total_months": 0, "overlapping_periods_merged": 0}
 
     # Cap outdated "Present" on earlier sub-projects if a later job has start > s and is also Present
@@ -662,7 +1084,7 @@ def calculate_total_experience(jobs: list) -> dict:
         else:
             merged.append((s, e))
 
-    total_months = sum(_inclusive_month_diff(s, e) for s, e in merged)
+    total_months = sum(_inclusive_month_diff(s, e) for s, e in merged) + fallback_months
 
     return {
         "total_years": round(total_months / 12, 1),
@@ -671,33 +1093,264 @@ def calculate_total_experience(jobs: list) -> dict:
     }
 
 
+
+_STATED_NUMBERED_RE = re.compile(
+    r"^\s*\d+[\).]\s*(\d+(?:\.\d+)?)\s*(years?|yrs?|months?|mos?)\s+(?:in|at|with|as\s+(?:a\s+)?)?\s*(.+)",
+    re.IGNORECASE
+)
+
+_STATED_INLINE_RE = re.compile(
+    r"^\s*(\d+(?:\.\d+)?)\s*(years?|yrs?|months?|mos?)\s+(?:in|at|with|as\s+(?:a\s+)?)?\s*(.+)",
+    re.IGNORECASE
+)
+
+
+def _extract_additional_stated_jobs(text: str, existing_jobs: list = None) -> tuple[list, float]:
+    """
+    Non-breaking additive fallback helper: extracts jobs that state their duration
+    (e.g., '1) 2 years as a Center head incharge in Viesa Technologies', '5) 3 months as Sales Executive')
+    without having explicit date ranges (e.g. Jan 2020 - Dec 2022).
+    
+    Guarantees zero regression on existing date-ranged jobs.
+    """
+    if not text or not text.strip():
+        return [], 0.0
+
+    existing_companies = set()
+    if existing_jobs:
+        for j in existing_jobs:
+            comp = (j.get("company") or "").lower().strip()
+            if comp and comp != "unknown company" and comp != "*":
+                existing_companies.add(comp)
+
+    additional_jobs = []
+    additional_years = 0.0
+
+    for line in text.splitlines():
+        line_str = line.strip()
+        if not line_str:
+            continue
+
+        match = _STATED_NUMBERED_RE.match(line_str) or _STATED_INLINE_RE.match(line_str)
+        if match:
+            val_str, unit, rest = match.groups()
+            try:
+                val = float(val_str)
+            except ValueError:
+                continue
+
+            if "month" in unit.lower() or "mo" in unit.lower():
+                years = round(val / 12.0, 2)
+            else:
+                years = val
+
+            rest_clean = rest.strip(" .;")
+            company = ""
+            role = rest_clean
+
+            sep_match = re.search(r"\s+(?:in|at|with)\s+", rest_clean, re.IGNORECASE)
+            if sep_match:
+                role = rest_clean[:sep_match.start()].strip()
+                company = rest_clean[sep_match.end():].strip()
+
+            if company and company.lower() in existing_companies:
+                continue
+
+            job_obj = {
+                "company": company or "Unknown company",
+                "role": role or "Unknown role",
+                "start": None,
+                "end": None,
+                "location": None,
+                "bullets": [],
+                "sub_sections": [],
+                "confidence": 0.90,
+                "needs_review": False,
+                "source": "stated_duration",
+                "method": "stated_duration",
+                "duration_years": years,
+                "duration_months": int(years * 12),
+            }
+            additional_jobs.append(job_obj)
+            additional_years += years
+
+    return additional_jobs, round(additional_years, 1)
+
+
+_DEDUP_MONTH_MAP = {
+    'january': 'jan', 'february': 'feb', 'march': 'mar', 'april': 'apr',
+    'may': 'may', 'june': 'jun', 'july': 'jul', 'august': 'aug',
+    'september': 'sep', 'sept': 'sep', 'october': 'oct', 'november': 'nov', 'december': 'dec'
+}
+
+
+def _norm_dedup_date(d_str: str) -> str:
+    if not d_str:
+        return ''
+    d = d_str.lower().strip()
+    d = _expand_apostrophe_year(d)
+    for f, t in _DEDUP_MONTH_MAP.items():
+        d = re.sub(rf'\b{f}\b', t, d)
+    d = re.sub(r'[\s\.\-]+', ' ', d).strip()
+    return d
+
+
+def _norm_dedup_text(s: str) -> str:
+    if not s:
+        return ''
+    s = s.lower().strip()
+    s = re.sub(r'^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\s]+', '', s)
+    s = re.sub(r'^(company:\s*|working as a\s*|role\s*/\s*designation:\s*|role:\s*|designation:\s*|for\s+|at\s+)', '', s).strip()
+    return s
+
+
+def _clean_company_core(s: str) -> str:
+    if not s:
+        return ''
+    t = _norm_dedup_text(s)
+    t = re.sub(r'\b(ltd|pvt|inc|co|corp|llc|llp|limited|private|bpo|solutions|solution|services|service)\b', '', t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def _is_clean_company_name(s: str) -> bool:
+    if not s or s.lower().strip() in ("unknown company", "*", ""):
+        return False
+    s_lower = s.lower().strip()
+    if s_lower.startswith(("✓", "➢", "•", "timely", "ensure", "handle", "working as")):
+        return False
+    if s_lower in ("courses", "coursework", "relevant coursework", "key courses", "education", "academics"):
+        return False
+    if any(w in s_lower for w in ("escalation", "process", "guidelines", "anomalies", "reporting manager")):
+        return False
+    return True
+
+
+def _is_clean_role_name(s: str) -> bool:
+    if not s or s.lower().strip() in ("unknown role", "*", ""):
+        return False
+    s_lower = s.lower().strip()
+    if s_lower.startswith(("✓", "➢", "•", "timely escalation")):
+        return False
+    return True
+
+
+def _deduplicate_jobs(jobs: list) -> list:
+    """
+    Deduplicates job entries that refer to the same job role/company with
+    matching or overlapping date ranges (common when a resume has a top-level summary
+    table AND a detailed experience section, or when bullet points repeat dates).
+    """
+    if not jobs:
+        return jobs
+
+    # Filter out entries created from education subheadings like 'Courses' or 'Coursework'
+    cleaned_input_jobs = []
+    for j in jobs:
+        comp = j.get('company', '') or ''
+        if comp and not _is_clean_company_name(comp) and comp.lower().strip() in ("courses", "coursework", "relevant coursework", "key courses", "education"):
+            continue
+        cleaned_input_jobs.append(j)
+
+    jobs = cleaned_input_jobs
+    if len(jobs) <= 1:
+        return jobs
+
+    deduped = []
+    for job in jobs:
+        comp = _norm_dedup_text(job.get('company'))
+        role = _norm_dedup_text(job.get('role'))
+        comp_core = _clean_company_core(job.get('company'))
+        start = _norm_dedup_date(job.get('start'))
+        end = _norm_dedup_date(job.get('end'))
+
+        is_dup = False
+        for existing in deduped:
+            e_comp = _norm_dedup_text(existing.get('company'))
+            e_role = _norm_dedup_text(existing.get('role'))
+            e_comp_core = _clean_company_core(existing.get('company'))
+            e_start = _norm_dedup_date(existing.get('start'))
+            e_end = _norm_dedup_date(existing.get('end'))
+
+            exact_start_match = bool(start and e_start and start == e_start)
+            exact_end_match = bool(end and e_end and end == e_end)
+
+            start_match = bool(
+                start and e_start and (
+                    start == e_start or
+                    start[:5] == e_start[:5] or
+                    start in e_start or e_start in start
+                )
+            )
+
+            end_match = bool(
+                end == e_end or
+                not end or not e_end or
+                (any(w in end for w in ('till', 'present', 'current')) and any(w in e_end for w in ('till', 'present', 'current')))
+            )
+
+            comp_match = bool(
+                (comp and e_comp and (comp == e_comp or comp in e_comp or e_comp in comp or comp in e_role or e_comp in role)) or
+                (comp_core and e_comp_core and (comp_core == e_comp_core or comp_core in e_comp_core or e_comp_core in comp_core)) or
+                (e_comp in ('unknown company', '*', '') and comp not in ('unknown company', '*', '')) or
+                (comp in ('unknown company', '*', '') and e_comp not in ('unknown company', '*', ''))
+            )
+
+            role_match = bool(
+                (role and e_role and (role == e_role or role in e_role or e_role in role or role in e_comp or e_role in comp)) or
+                (e_role in ('unknown role', '*', '') and role not in ('unknown role', '*', '')) or
+                (role in ('unknown role', '*', '') and e_role not in ('unknown role', '*', ''))
+            )
+
+            date_match = (exact_start_match and exact_end_match) or ((start_match and end_match) and (comp_match or role_match)) or (comp_match and (start_match or end_match))
+
+            if date_match and (comp_match or role_match or (exact_start_match and exact_end_match)):
+                is_dup = True
+
+                if _is_clean_company_name(job.get('company')):
+                    if not _is_clean_company_name(existing.get('company')) or len(job.get('company') or '') > len(existing.get('company') or ''):
+                        existing['company'] = job['company']
+
+                if _is_clean_role_name(job.get('role')):
+                    if not _is_clean_role_name(existing.get('role')) or len(job.get('role') or '') > len(existing.get('role') or ''):
+                        existing['role'] = job['role']
+
+                existing_bullets = set(existing.get('bullets', []))
+                for b in job.get('bullets', []):
+                    if b not in existing_bullets:
+                        existing['bullets'].append(b)
+                        existing_bullets.add(b)
+
+                if job.get('confidence', 0) > existing.get('confidence', 0):
+                    existing['confidence'] = job['confidence']
+                break
+
+        if not is_dup:
+            deduped.append(job)
+
+    return deduped
+
+
 def extract_experience(experience_section_text: str, early_career_section_text: str = "") -> dict:
     """
-    Parses the main "experience" section as before. If early_career_section_text
-    is also given (from a section the splitter labeled "early_career" --
-    a condensed one-line-per-job recap like "LAST 5 CAREER TIMELINE"),
-    it's parsed with the same anchor-based logic and kept in its own
-    "early_career" list rather than merged into "experience", so the
-    detailed job list isn't polluted with duplicate condensed entries.
-
-    Both lists ARE combined, however, for `_total_experience`: the same
-    jobs are often restated in both places (confirmed on a real resume,
-    Sachin Chitranshi, where 5 jobs appear both in a condensed timeline
-    AND in full detail later), and calculate_total_experience() already
-    merges overlapping/identical date intervals, so restating a job in
-    both sections does not inflate the total years figure -- it only
-    helps in the case where the condensed recap includes an older job
-    that isn't detailed anywhere else in the document.
+    Parses main experience and early career sections.
+    Integrates non-breaking stated duration fallback for entries without date ranges.
     """
     empty_total = {"total_years": 0.0, "total_months": 0, "overlapping_periods_merged": 0}
 
     jobs = _extract_jobs_from_text(experience_section_text)
+    jobs = _deduplicate_jobs(jobs)
     for j in jobs:
         j["source"] = "experience"
 
     early_career_jobs = _extract_jobs_from_text(early_career_section_text)
+    early_career_jobs = _deduplicate_jobs(early_career_jobs)
     for j in early_career_jobs:
         j["source"] = "early_career"
+
+    # Additive Fallback: Extract stated-duration jobs (e.g. "2 years as Center Head...") that lack date ranges
+    stated_jobs, stated_years = _extract_additional_stated_jobs(experience_section_text, jobs)
+    if stated_jobs:
+        jobs.extend(stated_jobs)
 
     if not jobs and not early_career_jobs:
         return {
@@ -712,12 +1365,17 @@ def extract_experience(experience_section_text: str, early_career_section_text: 
     avg_conf = round(sum(j["confidence"] for j in combined) / len(combined), 2) if combined else 0.0
     needs_review = any(j["needs_review"] for j in combined)
 
+    total_exp = calculate_total_experience(combined)
+    if stated_years > 0.0:
+        total_exp["total_years"] = round(total_exp["total_years"] + stated_years, 1)
+        total_exp["total_months"] = int(total_exp["total_years"] * 12)
+
     return {
         "experience": jobs,
         "early_career": early_career_jobs,
         "_confidence": avg_conf,
         "_needs_review": needs_review,
-        "_total_experience": calculate_total_experience(combined),
+        "_total_experience": total_exp,
     }
 
 

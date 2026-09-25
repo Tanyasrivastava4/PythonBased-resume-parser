@@ -3,8 +3,6 @@ FILE: Abhijeet Sangle_Data Visualization Analyst-Power BI Developer_Intileo_segm
 ======================================================================
 RAW EXPERIENCE SECTION (first 300 chars)
 ----------------------------------------------------------------------
-Azure, Power BI Service
-
 Power BI Developer
 I-source Info System Pvt Ltd, Pune
 Dec 2024- April 2026
@@ -12,12 +10,12 @@ Dec 2024- April 2026
 complex DAX, dynamic parameters, and scenario-driven business
 logic.
 ● Gathered and analyzed business requirements from cross-functional
-sta...
+stakeholders, ensuring that ...
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 5
-Confidence     : 0.93
+Confidence     : 0.9
 Needs review   : True
 Total exp      : 14.0 years (168 months, 1 overlapping periods merged)
 
@@ -27,7 +25,7 @@ Entry 1
   Location     : Pune
   Start - End  : Dec 2024 - April 2026
   Duration     : 17 months
-  Bullets      : 13
+  Bullets      : 12
     • Designed and developed advanced Power BI dashboards using complex DAX, dynamic parameters, and scenario-driven business logic.
     • Gathered and analyzed business requirements from cross-functional stakeholders, ensuring that all reports and visualizations aligned with organizational goals and delivered relevant KPIs.
     • Monitored and optimized Power BI datasets, DAX queries, semantic models, and report behavior to enhance report responsiveness and reduce refresh times.
@@ -40,37 +38,28 @@ Entry 1
     • Developed incentive calculation dashboards to track employee incentive payouts, achievements, targets, and performance metrics.
     • Built dynamic KPI scorecards and ranking visuals for leadership visibility.
     • Implemented row-level security for role-based access.
-    • Power BI Dashboard
-  Sub-sections : ['Finance Dashboard', 'Incentive Dashboard', 'Power BI Analyst']
-  Method       : date_regex+title_dict
+  Sub-sections : ['Finance Dashboard', 'Incentive Dashboard']
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False
 
 Entry 2
-  Role         : None
-  Company      : Development
-  Location     : None
+  Role         : Power BI Analyst
+  Company      : Senvion India
+  Location     : Mumbai
   Start - End  : Jun 2024 - Dec 2024
   Duration     : 7 months
-  Bullets      : 14
-    • Advanced DAX & Data
-    • Conducted knowledge transfer sessions with end-users to explain Modeling
-    • Power Query & ETL dashboard functionalities, enable data-driven decision-making, and Transformation enhance business intelligence practices.
-    • KPI & Executive Reporting
-    • Transformed static Excel reports into dynamic Power BI
-    • Forecasting & Variance dashboards, streamlining reporting processes.
-    • Tableau to Power BI
-    • Conducted data profiling and cleansing initiatives, resulting in an Migration improvement in data accuracy and relevance for reporting. ● Power BI Service
-    • Assisted in developing data dictionaries and supporting Administration documentation, enhancing data transparency and reducing ● Row Level Security (RLS) onboarding time for new analysts.
-    • SQL Troubleshooting &
-    • Utilized Power Query in Power BI to Pivot and Unpivot the data
-    • Power Platform & Power model for data cleansing and data massaging
+  Bullets      : 7
+    • Conducted knowledge transfer sessions with end-users to explain dashboard functionalities, enable data-driven decision-making, and enhance business intelligence practices.
+    • Transformed static Excel reports into dynamic Power BI dashboards, streamlining reporting processes.
+    • Conducted data profiling and cleansing initiatives, resulting in an improvement in data accuracy and relevance for reporting.
+    • Assisted in developing data dictionaries and supporting documentation, enhancing data transparency and reducing onboarding time for new analysts.
+    • Utilized Power Query in Power BI to Pivot and Unpivot the data model for data cleansing and data massaging
     • Implemented RLS (Row Level Security) on many reports by using Manage Roles and adding users into those roles in Power BI Service as per the Business Requirements.
     • Executed platform upgrades, patch management, migration activities, and environment validation with minimal business disruption.
-  Sub-sections : ['Analysis', 'Optimization']
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 3
   Role         : None
@@ -84,13 +73,13 @@ Entry 3
     • Developed static and dynamic visuals to meet comprehensive reporting needs across multiple departments.
     • Collaborated closely with data engineering teams to develop ETL pipelines, enhancing data consistency and establishing robust data lineage.
     • Developed various solution driven views and dashboards by developing different chart types including Pie Charts, Bar Charts, Tree Maps, Circle Views, Line Charts, Area Charts, Scatter Plots in Power BI.
-  Method       : date_regex
+  Method       : date_regex+comma_company_location
   Confidence   : 0.85
   Needs Review : True
 
 Entry 4
   Role         : Junior Data Analyst
-  Company      : Mind Spark Technologies
+  Company      : Maintained documentation for data sources, transformation processes, and dashboard features, streamlining future updates, and knowledge sharing.
   Location     : Pune
   Start - End  : Jun 2020 - Jan 2024
   Duration     : 44 months
@@ -101,9 +90,9 @@ Entry 4
     • Integrated Power BI with disparate data sources, including Azure Data Lake and SQL Server, to build a centralized reporting hub that provided real-time data access.
     • Maintained documentation for data sources, transformation processes, and dashboard features, streamlining future updates, and knowledge sharing.
     • Developed and published standard or custom Power BI reports summarizing business data for reviewed by executives, managers, clients, and other stakeholders
-  Method       : date_regex+title_dict
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 5
   Role         : Assistant Prof
@@ -111,11 +100,9 @@ Entry 5
   Location     : Karjat
   Start - End  : 12.2011 - 12.2019
   Duration     : 97 months
-  Bullets      : 3
+  Bullets      : 1
     • Dedicated Mechanical Engineering Professor with a decade of expertise in curriculum design, student mentoring, and technical research.
-    • Business Skills: Agile
-    • Other Skills: Agile
-  Sub-sections : ['Methodology, Business Process', 'Optimization, Requirements', 'Elicitation, Stakeholder', 'Management', 'Methodology, Business Process', 'Analysis, Requirements', 'Gathering,Sigma']
+  Sub-sections : ['Mob No 91- 8976365575']
   Method       : date_regex+inline_parens
   Confidence   : 0.98
   Needs Review : False

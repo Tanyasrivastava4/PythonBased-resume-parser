@@ -12,13 +12,13 @@ ITGC, ITAC, and SDLC controls Services clients (Banking...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 3
-Confidence     : 0.94
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 10.8 years (130 months, 1 overlapping periods merged)
 
 Entry 1
-  Role         : Testing, SOX 404 Co Consultant
-  Company      : None
+  Role         : SOX 404 Co Consultant
+  Company      : Testing
   Location     : None
   Start - End  : 2 Jul 2022 - Feb 2025
   Duration     : 31 months
@@ -30,20 +30,20 @@ Entry 1
     • BCP/DR & Backup Management: Audited critical backup protocols and disaster recovery readiness for large-scale industrial and financial enterprises.
     • SDLC Testing: Conducted detailed reviews of system implementation projects, focusing on project governance, security by design, and post- implementation reviews.
   Sub-sections : ['ERP & Systems: Proficiency in', 'Segregation of Dutie']
-  Method       : date_regex+title_dict
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 2
   Role         : Manager
-  Company      : English
-  Location     : None
+  Company      : HDFC Bank Limited
+  Location     : Noida
   Start - End  : Jan 2019 - Jul 2022
   Duration     : 43 months
   Bullets      : 2
     • Evaluated the design and effectiveness of ITGCs across Access Management, Change Management, and System Operations.
     • Conducted detailed testing of Segregation of Duties (SoD) and system configuration settings to prevent unauthorized financial activity.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False
 
@@ -56,6 +56,6 @@ Entry 3
   Bullets      : 2
     • Managed retail and wholesale banking operations, including Forex transactions and outward/inward remittances.
     • Optimized account opening processes and monitored portfolio performance for high-retention levels.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+company_suffix_match
   Confidence   : 0.98
   Needs Review : False

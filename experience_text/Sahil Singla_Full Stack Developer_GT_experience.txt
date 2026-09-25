@@ -30,7 +30,7 @@ Entry 1
     • Developed secure login systems using JWT.
     • Built microservices and provided authentication.
     • Implemented SAML 2.0–based SSO integration, configuring Identity Provider ↔ Service Provider redirection, XML-assertions, and HTTP-Redirect/POST bindings to enable seamless cross-domain authentication and centralized user management
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False
 
@@ -46,7 +46,7 @@ Entry 2
     • Revamp Self Help Portal from core PHP to Laravel 10 and front end in react JS.
     • Maintained the complete portal from developing to deploying on the server and maintaining on production.
     • Created wrappers of APIs for vendors and integrated 3rd party services in our modules.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.7
   Needs Review : True
 
@@ -61,7 +61,7 @@ Entry 3
     • Developed CSC – IRCTC- based application ecosystem for availing IRCTC services and facilitating real-time agent creation.
     • Worked on projects like Business Management systems and Service Desk build on PHP, Vue.js, jQuery, react.js, etc.
     • Designed and developed database structure on MySQL.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.7
   Needs Review : True
 
@@ -71,10 +71,9 @@ Entry 4
   Location     : Delhi
   Start - End  : 09/2018 - 01/2019
   Duration     : 5 months
-  Bullets      : 2
+  Bullets      : 1
     • My job includes th e deployment Router Configuring of DHCP, NAT& default Router Protocol Deployment of servers, configuring NAS, Firewall (basic working) V LANs in Cisco L2 switches, installation & troubleshooting IT equipment including printers, scanners, biometric devices, configuring outlook, installation of desktop, laptop & NUC
-    • Project Management
-  Sub-sections : ['Install IP Cameras with POE Switch', 'Survey the sites then architect the network design']
-  Method       : date_regex+title_dict
+  Sub-sections : ['Install IP Cameras with POE Switch', 'Survey the sites then architect the network design and deploy the network equipment.']
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False

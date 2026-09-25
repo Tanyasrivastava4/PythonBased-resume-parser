@@ -1,0 +1,77 @@
+======================================================================
+FILE: 13ca2c67_Deepanshu Gupta_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior Accountant, Pradeep K Saini & Associates, Gurugram
+Oct’22- Dec’25
+• Coordinated with clients to finalise accounting records and prepare accurate financial statements in compliance with applicable standards.
+• Conducted reconciliations for GSTR filings, such as E-Invoice reconciliation, Sales ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 25.6 years (307 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Accountant
+  Company      : Pradeep K Saini & Associates
+  Location     : Gurugram
+  Start - End  : Oct’22 - Dec’25
+  Duration     : 39 months
+  Bullets      : 6
+    • Coordinated with clients to finalise accounting records and prepare accurate financial statements in compliance with applicable standards.
+    • Conducted reconciliations for GSTR filings, such as E-Invoice reconciliation, Sales reconciliation, and E-Way Bill reconciliation to ensure data accuracy and compliance.
+    • Supported clients by delivering guidance and consultation on Income Tax and GST compliance and planning.
+    • Conducted statutory audits of organisations in diverse sectors, including Construction, FMCG, Hospitality, and Manufacturing, ensuring adherence to internal controls and compliance requirements.
+    • Supported the preparation of replies and documentation for GST notices, assessments, and related cases.
+    • Executed Income Tax audits for diverse clients, ensuring compliance with statutory requirements.
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Executive Accountant
+  Company      : Mazars Advisory LLP
+  Location     : Gurugram
+  Start - End  : May 22 - Sep’22
+  Duration     : 268 months
+  Bullets      : 3
+    • Outsourced to the Accounts Payable team of one of the leading Airlines with highest domestic market share.
+    • Assisted in the reconciliation of accounts payable ledger for airport charges, maintaining accuracy and timely resolution of discrepancies. Also involving preparation of fortnightly statutory reports.
+    • Ensuring issuance of Debit/Credit Note for incorrect billing and coordinated with airports to resolve invoice discrepancies.
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Industrial Trainee
+  Company      : Indian Oil Corporation Limited
+  Location     : Delhi
+  Start - End  : Apr’18 - Feb’19
+  Duration     : 11 months
+  Bullets      : 5
+    • Assistance in accurate calculation and finalization of monthly VAT & CST, ensuring compliance with tax regulations.
+    • Preparation & consolidation of data for Input Tax Credit used for filing the quarterly returns.
+    • Collected, organised, and compiled financial data to assist in the preparation and filing of quarterly VAT and CST returns.
+    • Preparation of various MIS for onward submission to HO/Regional office to support business decision-making and data analysis.
+    • Compiled and prepared monthly sales tax MIS reports for submission to the HVAT Department.
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Article Assistant
+  Company      : Pravesh Jain & Co
+  Location     : Delhi
+  Start - End  : Feb’16 - Mar’18
+  Duration     : 26 months
+  Bullets      : 3
+    • Managed day-to-day accounting operations by accurately entering bank statements and sales/purchase vouchers in Tally to ensure up-to- date financial records.
+    • Efficiently managed the preparation and filing of income tax returns through CompuTax software ensuring timely submissions.
+    • Executed statutory audit for a manufacturing company, reviewing financial statements and internal controls.
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False

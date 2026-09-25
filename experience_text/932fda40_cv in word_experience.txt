@@ -1,0 +1,84 @@
+======================================================================
+FILE: 932fda40_cv in word_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Working with Ernst&Young LLP as a senior consultant in Tech consulting from December 2025
+#	Designation	Organization	Employment Duration
+1	Project Manager, UIDAI (Aadhaar)	UIDAI Gov. of India on Roll of National Institute for Smart Government (NISG).	September 2022 to November 2025
+2	State Project C...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 16.0 years (192 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Working with Ernst&Young LLP as a senior consultant in Tech consulting from
+  Company      : #	Designation	Organization	Employment Duration
+  Location     : None
+  Start - End  : December 2025 - Present
+  Duration     : 10 months
+  Bullets      : 0
+  Method       : single_date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : State Project Coordinator
+  Company      : 2
+  Location     : None
+  Start - End  : October 2020 - September 2022
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : date_regex+tab_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : E-District Manager
+  Company      : 3
+  Location     : None
+  Start - End  : November 2014 - September 2020
+  Duration     : 71 months
+  Bullets      : 0
+  Method       : date_regex+tab_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Associate – Network Management
+  Company      : 4
+  Location     : None
+  Start - End  : September 2012 - November 2014
+  Duration     : 27 months
+  Bullets      : 0
+  Method       : date_regex+tab_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Network Engineer
+  Company      : 5
+  Location     : None
+  Start - End  : December 2009 - June 2012
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex+tab_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Junior Engineer - IT
+  Company      : 6
+  Location     : None
+  Start - End  : June 2007 - December 2009
+  Duration     : 31 months
+  Bullets      : 1
+    • MCA	Computer	Sikkim Manipal University of Health, Medical and Technology Science	First
+  Sub-sections : ['Application', 'B. Sc.\tIT\tHemwati Nandan Bahuguna Garhwal University\tFirst']
+  Method       : date_regex+tab_split
+  Confidence   : 0.98
+  Needs Review : False

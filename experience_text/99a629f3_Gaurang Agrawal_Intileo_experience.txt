@@ -1,0 +1,88 @@
+======================================================================
+FILE: 99a629f3_Gaurang Agrawal_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+AKVM Solutions, Software Engineer QA II, Gurgaon
+May ’ 25 - July ‘ 25
+Web App: “Travel platform” containing different features (Flight Booking, Hotel Booking,Enquiry Forms for”Car & Cruise bookings”)
+▪ It includes complete flow from Search Locations(Source & Destination>Select Date>Select Traveller ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 7.1 years (85 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Engineer QA II, Noida
+  Company      : Covenant Security Solutions
+  Location     : Software
+  Start - End  : Dec ’23 - June ’24
+  Duration     : 7 months
+  Bullets      : 5
+    • (Web App): 10K-MA refers to 10K Minority Appraisers committed to diversity & change in the appraisal industry “Real Estate service including Dashboards, end user allocated access to LMS Portal”
+    • Two Platforms:(Public/End Users & Admin.) & Six Forms/Applications:(Initial, Secondary, College, Licensee, Certified, Donation)
+    • Options selected in Initial Form will further redirect to specific Secondary form
+    • Admin. Dashboard (fetch realtime status of application with Status) can control applications at any stage> once user is approved- Confirmation Email sent to the end User with access to specific course, link where user gets logged in view (LMS portal) (Web App): MCD refers to My Condolences which is a “Virtual Obituary Memorial service”
+    • Contains modules:(create a Memorial Page, allow anyone to attend via Video Live streaming, invite family/friends via email/social media to access Memorial Page, make Donations, Leave a Tribute share their memories, access different articles/videos for Grief
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : AAPC, Software Engineer , Noida
+  Company      : Support Resources) etc
+  Location     : None
+  Start - End  : May ’21 - Dec ’23
+  Duration     : 32 months
+  Bullets      : 4
+    • (Web & Mobile App): Platform to guide medical professionals with the help of tutorials videos i.e. ‘E-Learning’ accessible via Blackboard, Webinar, Workshops, E-Books of different Authors etc “Healthcare, E-Learning & E-Commerce service”
+    • Users participate in Quiz “MCQ's” after submission/evaluation is done, Certifications & CEU's are given
+    • Worked on Scantron/Enterprise Exams, where system monitoring done via screen recorders, video/audio Recorders
+    • An E-commerce platform, contains variety of products, paying them via(Climb, Affirm) creating Invoice/Quotes (Phoenix): CSR team utilizes to manage inventory items, edit Invoice/Refund of a user from backend using payment modes
+  Sub-sections : ['(Purchase Order/Short Pay/Check/Bucks)', '(SSRS) SQL Server Reporting Services: Used by PO/Sales team, Customer support & Fetch Reports', '(Dashboards & Application) Services: Track application status, their submission & approval via dashboard to provide access to the', 'specific users']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Test
+  Company      : Rocket Media Technology
+  Location     : Engineer, Gurgaon
+  Start - End  : Oct ’19 - May ’21
+  Duration     : 20 months
+  Bullets      : 2
+    • Web & Mobile (Customer App.): Used by Customers/End users, explore food items, customize them, pricing, default items, tip, choose Delivery Address/Time etc “Food Delivery apps.
+    • Offer realtime Tracking & other services as a Driver app./KDU/POS ” Web (User App.): Used by Store persons, customize (Menu, Coupons, Marketing Campaigns, Store/Brand Settings to manage
+  Sub-sections : ['Inventory stocks) etc', 'Mobile (Driver App.): Used by Delivery persons, i.e. (Accept Order, Expected Delivery Time, (GMap) Delivery Address, Order', 'Amount, Payment mode, Instructions, Ratings etc)', 'Kitchen Display Unit (KDU) Tablet App: Used by Chef to manage orders within a timeframe, customization details, updating Order', 'Id’s with their Status when it gets ready', 'Point Of Sale (POS): App. at Billing Counter, where employees can Log in with their Id’s, add order details, make Bill Pay via', 'Card/Cash, Print Receipt, coordinate with chef KDU as per requirement']
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Test
+  Company      : QA Infotech/QUALITEST
+  Location     : Engineer, Noida
+  Start - End  : June ’19 - Aug ’19
+  Duration     : 3 months
+  Bullets      : 1
+    • E-Learning Website: Platform for guiding students with the help of Tutorials videos, E-Books of different Authors, here students after completion, participate in Quiz which consists of MCQ's “E-Learning & Scan OMR other services” Mobile App: Platform used by Teachers to scan OMR Sheets Hardcopy containing (Answers, Student’s Roll Number), OMR sheets which have unique Barcode gets evaluated automatically further Student's Performance gets updated to the Web Dashboard
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : QA
+  Company      : Surya Roshni Limited
+  Location     : Engineer, Kashipur
+  Start - End  : Sep ’16 - Sep ’18
+  Duration     : 25 months
+  Bullets      : 2
+    • Web & Mobile App: For Customers/End users, look Products, with their (Datasheets, Specifications, Technical Parameters, Pricing) etc, also track end-users’ data or feedback “Electronic industry>ERP deals with Inventory Management>E-way Bills with
+    • Responsible for making changes inside raw materials Codes, Pricing, BOM, Inventory management etc JourneyHoper FITPASS 10K-MA AAPC Papa Global PD Surya Live Tripocompare Website & Website & Website Romanos Website & Website
+  Sub-sections : ['Warehouse & other services”', 'Enterprise Resource Planning (ERP): To create/store/maintain all Bills used in Purchasing raw materials, E-way Bills of any goods', 'dispatched via (Store/Warehouse) updating in ERP, cross verify it at regular intervals & Fetch Reports.']
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False

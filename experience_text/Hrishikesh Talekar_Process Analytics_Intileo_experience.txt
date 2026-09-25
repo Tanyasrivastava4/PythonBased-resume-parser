@@ -1,0 +1,80 @@
+======================================================================
+FILE: Hrishikesh Talekar_Process Analytics_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+City Mumbai
+Country INDIA
+Mar 2024 - Jan 2026
+Process and Quality Analyst
+Scottish and Southern Energy - Business Operations
+
+Japanese
+Feb 2024 - Mar 2024
+Social links
+Machine Operator - Production Quality Support
+Brose Limited (Automotive Tier 1 Supplier)
+• Supported production quality through dail...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 3.7 years (44 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Process and Quality Analyst
+  Company      : City Mumbai
+  Location     : None
+  Start - End  : Mar 2024 - Jan 2026
+  Duration     : 23 months
+  Bullets      : 1
+    • Scottish and Southern Energy - Business Operations
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : Brose Limited
+  Location     : None
+  Start - End  : Feb 2024 - Mar 2024
+  Duration     : 2 months
+  Bullets      : 3
+    • Supported production quality through daily inspections, risk assessments https://www.linkedin.com/in/hrishi-talekar/ and preventive maintenance checks.
+    • Identified and corrected minor process and equipment deviations,
+    • Assisted in scrap reduction and waste minimization initiatives aligned with lean manufacturing principles.
+  Sub-sections : ['Extra curricular', 'ensuring zero unplanned downtime.', 'Six Sigma']
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : Freelance Designer
+  Company      : Delivered 20+ commissioned sketches
+  Location     : None
+  Start - End  : Nov 2022 - Dec 2023
+  Duration     : 14 months
+  Bullets      : 3
+    • quality standards.
+    • Maintained process accuracy and quality in high-volume order fulfilment sections.
+    • Used inventory systems to manage 500+ SKUs, ensuring data accuracy and compliance.
+  Sub-sections : ['The Range']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Quality Intern
+  Company      : Adarsh Surgical Works
+  Location     : None
+  Start - End  : Nov 2021 - Apr 2022
+  Duration     : 6 months
+  Bullets      : 3
+    • Conducted inspections of 500+ precision surgical components monthly, ensuring full compliance with ISO 9001 standards.
+    • Identified defects, performed root cause analysis using 5 Whys, and supported CAPA implementation.
+    • Assisted supplier quality checks, helping maintain supplier conformance and reduce defect rates.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,89 @@
+======================================================================
+FILE: 2efea15e_Naukri_NeetuSingh[14y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior HR Business Partner | Indigrid Infra | April 2025 – Jan 2026
+• HRBP for two business units supporting 300+ employees across multi-location
+environments.
+• Led end-to-end performance management cycles ensuring goal alignment and
+leadership calibration.
+• Partnered with leaders on succession pl...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 14.1 years (169 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : Senior HR Business Partner
+  Company      : Indigrid Infra
+  Location     : None
+  Start - End  : April 2025 - Jan 2026
+  Duration     : 10 months
+  Bullets      : 4
+    • HRBP for two business units supporting 300+ employees across multi-location environments.
+    • Led end-to-end performance management cycles ensuring goal alignment and leadership calibration.
+    • Partnered with leaders on succession planning, workforce strategy, and capability development.
+    • Improved governance of appraisal timelines and strengthened performance documentation processes.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : HR Lead – People & Culture (India)
+  Company      : CANDI Solar
+  Location     : None
+  Start - End  : Sept 2023 - March 2025
+  Duration     : 19 months
+  Bullets      : 4
+    • Built India HR roadmap aligned with business scale-up objectives.
+    • Owned end-to-end HR operations including payroll, compliance, onboarding, and audits.
+    • Designed HR dashboards for leadership reporting and manpower planning.
+    • Standardized recruitment governance and structured performance frameworks.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Manager – HR (Unit HR Head)
+  Company      : SMR – Motherson Group
+  Location     : None
+  Start - End  : Jan 2018 - Sept 2023
+  Duration     : 69 months
+  Bullets      : 4
+    • Led HR operations for 500+ professionals in Global Automation vertical.
+    • Facilitated KPI setting, KRAs, and performance reviews for India and global teams.
+    • Implemented Individual Development Plans (IDPs) and quarterly Training Needs Analysis.
+    • Strengthened onboarding documentation and reduced process delays.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Senior HR Executive / HRBP
+  Company      : Managed end-to-end HR for 150-employee engineering and R&D vertical.
+  Location     : None
+  Start - End  : May 2015 - Jan 2018
+  Duration     : 33 months
+  Bullets      : 2
+    • Managed end-to-end HR for 150-employee engineering and R&D vertical.
+    • Handled hiring, retention strategy, payroll coordination, and employee engagement.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 5
+  Role         : • HR Consultant
+  Company      : Signature Staff
+  Location     : None
+  Start - End  : Jan 2012 - May 2015
+  Duration     : 41 months
+  Bullets      : 2
+    • Managed campus hiring, bulk recruitment, and cross-sector hiring initiatives.
+    • Drafted job descriptions and ensured structured onboarding processes.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False

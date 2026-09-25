@@ -10,15 +10,15 @@ Description: Part of a Digital transformation and Strategy team Involved in deve
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 6
-Confidence     : 0.98
-Needs review   : False
+Confidence     : 0.7
+Needs review   : True
 Total exp      : 14.7 years (176 months, 3 overlapping periods merged)
 
 Entry 1
-  Role         : Role: Chief Manager
-  Company      : Tele sales
+  Role         : Chief Manager – Tele sales (Handling South India leads)
+  Company      : Shriram finance limited from Nov 2023 to till date
   Location     : None
-  Start - End  : Nov 2023 - till date
+  Start - End  : Nov 2023 - Present
   Duration     : 35 months
   Bullets      : 5
     • Description: Part of a Digital transformation and Strategy team Involved in developing process transformation for Tele sales vertical of Shriram Finance ltd.
@@ -27,13 +27,13 @@ Entry 1
     • Market analysis and product analysis for better improvement of launched products Cab analysis of all the business departments and providing necessary training support Post launching the products providing feedback and reviews to improve the further Process enhancement for existing process which used in the B2B environment.
     • Providing necessary strategy and process implementation updates to director’s levels Stakeholder for Call Centre Transformation and B2B application capability enhancement Revamping the existing process without impacting company’s regulations Lead conversion analysis for entire data movements.
   Sub-sections : ['SOLUTION ENVIRONMENT: CSMS']
-  Method       : date_regex+dash_split
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 2
-  Role         : Role: Senior Manager – Tele sales call Centre
-  Company      : CAREER PROFILE: 5
+  Role         : Senior Manager – Tele sales call Centre (Retail asset and insurance products)
+  Company      : HDFC Bank limited from Dec 2019 to Nov 2023
   Location     : None
   Start - End  : Dec 2019 - Nov 2023
   Duration     : 48 months
@@ -43,26 +43,26 @@ Entry 2
     • Need to generate the revenue using assigned team.
     • Responsibility: Mentoring the Tele sales business and ensure all the Tele sales team getting proper support and delivering the targeted business As a part of digital banking team, I need to ensure that all the customer journey has no issues while doing loan process and other product processing Need to work on Target vs Achievement with resource level
   Sub-sections : ['BQ upliftment for non-performing employees', 'Working on bulk hiring to set up the new team and location', 'Quality monitoring and ensuring the TSEs are following the bank policies and regulation as per the process', 'Report preparing for weekly and monthly reviews with ZH and RH.', 'Additional responsibility:', 'Responsible for audit and compliance of assigned products, ensure there is no bank policy and RBI regulatory violence on the digital products, if its find need to report to concern product team to rectify the same.']
-  Method       : date_regex+title_dict
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 3
-  Role         : Role: Manager – Premier Acquisition
-  Company      : CAREER PROFILE: 4
+  Role         : Manager – Premier Acquisition (Business Banking)
+  Company      : Yes Bank limited from June 2019 to Dec 2019
   Location     : None
   Start - End  : June 2019 - Dec 2019
   Duration     : 7 months
   Bullets      : 1
     • Description: Business banking, handling high value CA customers Responsibility: Acquisition of NTB current account customers minimum value worth 1lakh and above
   Sub-sections : ['Asset management solutions up to 500cr']
-  Method       : date_regex+title_dict
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 4
-  Role         : Role: Team Manager – Business Sales & Operations
-  Company      : CAREER PROFILE: 3
+  Role         : Team Manager – Business Sales & Operations (Outbound)
+  Company      : Bank Bazaar limited from Feb 2019 to June 2019
   Location     : None
   Start - End  : Feb 2019 - June 2019
   Duration     : 5 months
@@ -78,13 +78,13 @@ Entry 4
     • Adherence monitoring and short login management.
     • Additional responsibility: Working with sales team and finding scop of improvement on customer journey.
     • Providing feedback and improvement request which will help the sales team to achieve the target without compliance issue SOLUTION ENVIRONMENT : CSDB-CRM, Ameyo – Dialer
-  Method       : date_regex+title_dict
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 5
-  Role         : Role: Associate Manger – Global Desk
-  Company      : CAREER PROFILE: 2
+  Role         : Associate Manger – Global Desk
+  Company      : IndusInd bank limited from July 2015 to January 2019
   Location     : None
   Start - End  : July 2015 - January 2019
   Duration     : 43 months
@@ -94,19 +94,19 @@ Entry 5
     • Working with service delivery team and ensuring all the new products lunch logical testing, software enhancement, Customer engagement for feedback.
     • Responsibility: Need to ensure all GD officers are equipped with Banking and Credit card process and           product knowledge Global desk hiring in Chennai location, attrition control and cross training process of the officers Working on End-to-End new process SOP creation, process flow, officers training and other unit training (Email channel banking and cards, SME team, compliant team) for contact Centre Additional responsibility: Dissemination file sharing for entire contact Centre for more than 150 team members
   Sub-sections : ['AYIC audit for Chennai contact Centre', 'As a learning and development team involving various projects like new process and product implementation', 'SOLUTION ENVIRONMENT: ECS, ARIS, LOS, ACS, AIR2WEB, BITZZ, TALISMA, FINACLE, DCMS, REWARDS LOILTY, RED APP.IWORKS']
-  Method       : date_regex+title_dict
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True
 
 Entry 6
-  Role         : Role: Junior Officer-Phone banking .
-  Company      : CAREER PROFILE: 1
+  Role         : Junior Officer-Phone banking (Credit Cards)
+  Company      : ADFC(HDFC Bank) from February 2012 to June 2015
   Location     : None
   Start - End  : February 2012 - June 2015
   Duration     : 41 months
   Bullets      : 2
     • Description: Handled HDFC bank credit card inbound customer service Responsibility: Need to solve the customer queries & complaints such as address change, mobile number Change, charges reversals of the over limit charges, Finance charges reversals.
     • SOLUTION ENVIRONMENT: CBCI, ELEARNING, LMS OF HDFC BANK.
-  Method       : date_regex+title_dict
-  Confidence   : 0.98
-  Needs Review : False
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True

@@ -246,6 +246,12 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
     from segmenter.section_splitter import _SPOKEN_LANGUAGE_KEYWORDS
     found_skills = {s for s in found_skills if s.lower() not in _SPOKEN_LANGUAGE_KEYWORDS}
 
+    # Filter out single-letter R if it only matched a middle initial in candidate name/header (e.g. Mohit R. Gaurishankar)
+    if "R" in found_skills and full_text:
+        has_r_tech_context = bool(re.search(r'\b(?:r\s+programming|r\s+language|r\s+studio|rstudio|r\s+shiny|python[,\s/]+r|r[,\s/]+python|r\s+code|r\s+package)\b', full_text, re.I))
+        if not has_r_tech_context and re.search(r'\b(?:mr\.?|shri|dr\.?|[a-z]+)\s+R\.?\s+[a-z]', full_text, re.I):
+            found_skills.remove("R")
+
     sorted_skills = sorted(found_skills)
 
     skills_by_category = {}

@@ -1,0 +1,74 @@
+======================================================================
+FILE: 094a807f_Chandni Khatri_AM-GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior Auditor (Big 4)
+April 2023 – Present
+KPMG Resource Centre Pvt. Ltd
+Gurugram, Haryana
+• Performed statutory audit for various Australian clients including manufacturing, healthcare, retail sector, and
+service sector including non-profit clients ensuring 100% compliance with IFRS and regulatory...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 10.9 years (131 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Auditor
+  Company      : KPMG Resource Centre Pvt. Ltd
+  Location     : None
+  Start - End  : April 2023 - Present
+  Duration     : 42 months
+  Bullets      : 5
+    • Performed statutory audit for various Australian clients including manufacturing, healthcare, retail sector, and service sector including non-profit clients ensuring 100% compliance with IFRS and regulatory framework.
+    • Performed Test of Details during audit procedures on multiple areas including revenue, accounts receivable and payable, inventory, investments, treasury and debts, resulting in 25% reduction in audit-related risks.
+    • Review of financial statements for any inconsistencies, inaccuracy and casting errors & preparing disclosures for the financial statements.
+    • Managed portfolio of 3-4 concurrent clients with revenue ranging from $200M to $2.2B, prioritizing tasks and ensuring timely completion of deliverables, and maintaining strong onshore and client communication.
+    • Led audit teams of 3-4 members, managing workflow allocation, utilization, supervision and review of work papers, resulting in increase in team efficiency through structured planning and targeted coaching.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Audit Executive
+  Company      : KPMG Resource Centre Pvt. Ltd
+  Location     : None
+  Start - End  : May 2022 - March 2023
+  Duration     : 11 months
+  Bullets      : 3
+    • Performed 100+Walkthrough procedures, minute’s summarization and prepared planning & final analytics.
+    • Worked on substantive audit procedures during audit, Reconciliations etc. identifying and resolving material variances. Used various sampling tools as well as techniques such as MUS, Random sampling etc.
+    • Ensured 100% compliance with audit documentation standards and internal quality review requirements.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Audit Assistant
+  Company      : Bikaner
+  Location     : Rajasthan
+  Start - End  : May 2018 - Sep 2021
+  Duration     : 41 months
+  Bullets      : 2
+    • Supported senior auditors in conducting complex financial analysis and fieldwork, examining 6 0 + client records and operational processes.
+    • Participated in 10+ on-site audits, collecting essential documentation and verifying accuracy of financial statements.
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Article Trainee
+  Company      : Bikaner
+  Location     : Rajasthan
+  Start - End  : Jan 2014 - Jan 2017
+  Duration     : 37 months
+  Bullets      : 2
+    • Preparation and finalization of Financial Statements like Balance sheet, P&L A/c along with annexure 10-15 entities.
+    • Application of Accounting Standards and checking the compliance thereof, Checking of 100% compliance related to Revised schedule III.
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,69 @@
+======================================================================
+FILE: f24805e7_Anandu Chandran_Area Credit Manager_SMFG-Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Worked as FLO at Larsen & Turbo (L&T) Micro Finance Ltd
+from December 04 2017 to September 21 2020. (Sales,
+Operations and Credit support).
+• Worked as IRO at IDFC FIRST BHARAT Ltd from October 05
+2020 to June 01 2021.(Business loan, Personal loan-Sales,
+Proof verification, Customer Point verifica...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.87
+Needs review   : True
+Total exp      : 26.1 years (313 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : from  to September 21 2020. (Sales
+  Company      : from
+  Location     : None
+  Start - End  : December 04 - 2017
+  Duration     : 193 months
+  Bullets      : 2
+    • Operations and Credit support).
+    • Worked as IRO at IDFC FIRST BHARAT Ltd from October 05
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : loan-Sales
+  Company      : 2021.(Business loan
+  Location     : Personal
+  Start - End  : 2020 - June 01
+  Duration     : 0 months
+  Bullets      : 2
+    • Proof verification, Customer Point verification, Cibil and financial tracks checking.)
+    • Working as Credit Manager -Centralized Credit at Bajaj
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : Finserv Ltd from  to September 14 2023
+  Location     : None
+  Start - End  : October 25 - 2021
+  Duration     : 243 months
+  Bullets      : 1
+    • Working as Branch Credit Manager at Cholamandalam
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 4
+  Role         : Ø SUPPORT TO SALES & BRANCHES THROUG OUT KERALA
+  Company      : Finance and Investment Company Ltd from
+  Location     : None
+  Start - End  : September 18 - Present
+  Duration     : 313 months
+  Bullets      : 1
+    • Ø CREDIT UNDERWRITING. Ø WHOLE PROCESS OF PERSONAL LOAN , PROFESSIONAL LOAN
+  Sub-sections : ['AND BUSINESS LOAN APPROVAL', 'Ø KYC QC VERIFICTION AND PROCESSING AS PER RBI GUIDELINES', 'AND COMPANY POLICY .', 'Ø PHYSICAL PD.', 'Ø SUPPORT TO SALES & BRANCHES THROUG OUT KERALA.', 'Ø REGULAR MAIL INTERACTION& BACKEND SUPPORT .', 'Ø TEAM LEADING.', 'Ø PERSONAL AND PROFESSIONAL CREDIBILITY .']
+  Method       : single_date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

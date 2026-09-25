@@ -1,0 +1,78 @@
+======================================================================
+FILE: c4660a3e_CV_2025121723255028_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+2020 - 2021 IBBI Land and Building Valuer (Prodipta Das).
+Back Office staff and Junior Accountant
+Joined as back Office staff and Junior Accountant for
+1. Tally Operator
+2. Back office related work.
+3. Collect Data from various Govt. and Private Website.
+4. Manage Company Account.
+5. Project Prepara...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.91
+Needs review   : True
+Total exp      : 6.8 years (81 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : Back Office staff and Junior Accountant
+  Company      : Joined as back Office staff and Junior Accountant for
+  Location     : None
+  Start - End  : 2020 - 2021
+  Duration     : 13 months
+  Bullets      : 5
+    • Tally Operator
+    • Back office related work.
+    • Collect Data from various Govt. and Private Website.
+    • Manage Company Account.
+    • Project Preparation
+  Method       : date_regex+title_dict
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : Branch Manager and Accountant
+  Company      : Customer Sale, service and satisfaction.
+  Location     : None
+  Start - End  : 2021 - 2023
+  Duration     : 25 months
+  Bullets      : 3
+    • Branch Assistant Manager.
+    • Customer Sale, service and satisfaction.
+    • Stock Management.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Sales & Service Manager
+  Company      : Customer Sale, service and satisfaction.
+  Location     : None
+  Start - End  : 2023 - 2024
+  Duration     : 13 months
+  Bullets      : 3
+    • Area Sales Manager.
+    • Customer Sale, service and satisfaction.
+    • Stock Management
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : SALES EXECUTIVE
+  Company      : PS HR Services
+  Location     : None
+  Start - End  : 2024 - Present
+  Duration     : 33 months
+  Bullets      : 3
+    • New Client Acquisition.
+    • Service Provided Associate.
+    • Complete monthly target 🎯
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

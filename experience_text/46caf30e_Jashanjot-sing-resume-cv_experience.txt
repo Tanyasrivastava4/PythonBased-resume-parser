@@ -1,0 +1,66 @@
+======================================================================
+FILE: 46caf30e_Jashanjot-sing-resume-cv_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+AI Agent Framework for Web Automation | AI Developer
+02/2025 – 05/2025
+Jio Platform Limited
+Gurugram
+Built an LLM-powered agentic web automation framework using Microsoft AutoGen and
+• Granite3-8B (Ollama).
+Developed a RAG Q&A system with LangChain, Qdrant/ChromaDB, and LLaMA over
+• uploaded documen...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 1.7 years (20 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : AI Developer
+  Company      : AI Agent Framework for Web Automation
+  Location     : None
+  Start - End  : 02/2025 - 05/2025
+  Duration     : 4 months
+  Bullets      : 4
+    • Built an LLM-powered agentic web automation framework using Microsoft AutoGen and
+    • Granite3-8B (Ollama). Developed a RAG Q&A system with LangChain, Qdrant/ChromaDB, and LLaMA over
+    • uploaded documents. Integrated FastAPI to expose agent workflows as scalable automation services.
+    • 
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : AIML Developer
+  Company      : Xpedicr Pvt LTD
+  Location     : None
+  Start - End  : 05/2025 - 09/2025
+  Duration     : 5 months
+  Bullets      : 6
+    • Developed a medical chatbot for symptom detection and disease prediction.
+    • Suggested precautions, home remedies, and nutrition plans via chatbot.
+    • Used LLaMA 3.2, Granite, Meditron, Bio_ClinicalBERT for medical Q&A.
+    • Integrated XrayGPT for X-ray/MRI image analysis.
+    • Fine-tuned TrOCR on IAM dataset to read handwritten prescriptions.
+    • 
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : AI Engineer
+  Company      : Hyderabad
+  Location     : India
+  Start - End  : 10/2025 - Present
+  Duration     : 12 months
+  Bullets      : 3
+    • Built AI agents for business workflows using CrewAI.
+    • Implemented a RAG agent over 10,000+ company documents for fast, accurate retrieval.
+    • Fine-tuned custom LLMs for domain-specific performance improvements.
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

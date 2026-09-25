@@ -11,7 +11,7 @@ Design security infrastructure and Policies, Liaising across the e...
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 3
-Confidence     : 0.85
+Confidence     : 0.89
 Needs review   : True
 Total exp      : 5.2 years (62 months, 1 overlapping periods merged)
 
@@ -21,13 +21,10 @@ Entry 1
   Location     : None
   Start - End  : 16 Aug 2022 - 03 Nov 2025
   Duration     : 39 months
-  Bullets      : 5
-    • Troubleshooting the connectivity issues within the server zones.
-    • Have hands-on experience of troubleshooting user access issues on Palo alto and checkpoint Firewall.
+  Bullets      : 2
     • Design security infrastructure and Policies, Liaising across the enterprise Monitor and respond to cybersecurity threats, ensuring 100% network uptime.
     • Co-ordinate with SOC team to check and Block CVE on our infra Working on the tickets booked by customer for various issues troubleshooting using ticketing tools.
-    • Configuring and monitor Palo alto and checkpoint firewalls as per customer request.
-  Method       : date_regex
+  Method       : date_regex+company_suffix_match
   Confidence   : 0.85
   Needs Review : True
 
@@ -40,20 +37,18 @@ Entry 2
   Bullets      : 2
     • Managing and updates dray tech switch & router Coordinate field operator to resolve the customer issues.
     • Providing device health heck report on daily basis. troubleshoot the speed issues and work on VPN for UAE based customer.
-  Method       : date_regex
+  Method       : date_regex+company_suffix_match
   Confidence   : 0.85
   Needs Review : True
 
 Entry 3
-  Role         : None
+  Role         : Fiber survey and implementation, submitting site report at JIO centre manager
   Company      : Job Responsibility: For Co-Excel Enterprises since
   Location     : None
   Start - End  : 23 Oct 2017 - 20 Jan 2019
   Duration     : 15 months
-  Bullets      : 3
+  Bullets      : 1
     • Wi-Fi survey, deployment, integrate, Testing (ATP11A, ATP11B), troubleshooting Fiber survey and implementation, submitting site report at JIO centre manager.
-    • Co-ordinate with field engineer and remote support for site issues.
-    • IOS installation upgradation and active site co-ordinate with ISP team.
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

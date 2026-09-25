@@ -1,0 +1,133 @@
+======================================================================
+FILE: 61e4a357_Naukri_RAJAGOPALS[21y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Mar 2023 till date – Piramal Capital and Housing finance Ltd – Branch Recovery Manager.
+Dec 2018 till Feb 2023 Alphentrix Global Services Pvt Ltd – Senior Manager Collections cum operation.
+Mar 2018 to Dec 2018 First Abu Dhabi Bank – Collection Officer
+Jul 2017 to Nov 2017 Riddhi Corporate Services ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 9
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 25.1 years (301 months, 6 overlapping periods merged)
+
+Entry 1
+  Role         : First Abu Dhabi Bank as Collection Officer
+  Company      : Piramal Capital and Housing Finance Limited- Branch Recovery Manger
+  Location     : None
+  Start - End  : Mar 2023 - Present
+  Duration     : 43 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Alphentrix Global Services Pvt Ltd - Senior Manager Collection cum operation
+  Company      : Feb 2023 Alphentrix Global Services Pvt Ltd
+  Location     : None
+  Start - End  : Dec 2018 - Present
+  Duration     : 94 months
+  Bullets      : 9
+    • Roles and responsibilities.
+    • Managing both Domestic and International process.
+    • Domestic: Bajaj Finserve, L&T Finance, Fullerton India, Kotak, International: Etisalat, Dubai Islamic Bank & DU Telecom.
+    • Handling 0 till Recovery.
+    • Products Personal Loans, Two-Wheeler & Tele-com process Managing POS of 160 crores in Recovery including penal, TW – Buckets 7 crores.
+    • Tele-com – 346 million (Count - Around 1.2 lakhs of accounts) Portfolio Analysis in terms of Count, POS, Cycle Date & Repayment Mode.
+    • Handling both Tele-calling and Field. (2 Asst Managers, 6 Team Leaders ,85 Tele-callers & 22 FOS) Managing productivity to the best levels by being on par with daily DRR benefitting client and management.
+    • Maintaining trackers with respect to data input and daily movement’s month on month.
+    • Conceptualizing and implementing the strategy for the collections.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : True
+
+Entry 3
+  Role         : Collection Officer
+  Company      : First Abu Dhabi Bank
+  Location     : None
+  Start - End  : Mar 2018 - Dec 2018
+  Duration     : 10 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Riddhi corporate Services Ltd Business Development Manager
+  Company      : Riddhi Corporate Services Ltd
+  Location     : None
+  Start - End  : Jul 2017 - Nov 2017
+  Duration     : 5 months
+  Bullets      : 6
+    • Role and responsibilities.
+    • Meeting new clients to serve the client requirements by explaining the company profile and the potentials.
+    • Analyzing the prospective client base to suit our requirements.
+    • Fixing up prior appointments and schedule appropriate meetings with the clients.
+    • Calculating the profit viability and planning accordingly.
+    • Organizing conference calls for the detailed requirements of business.
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Reliance Communication Ltd.  as Asst. Manager
+  Company      : Recovery Collection process & Call center
+  Location     : None
+  Start - End  : Jan 2016 - Mar 2017
+  Duration     : 15 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Reliance process Collections cum Operation Manager & DUBAI Skip customer tracing team, Sales Manager ICICI Bank
+  Company      : Monitoring day in and out collections by setting a credit day to all customers by segmenting into group
+  Location     : None
+  Start - End  : Sep 2011 - Jan 2016
+  Duration     : 53 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : None
+  Company      : Optimus Global Services
+  Location     : ICICI BANK Process
+  Start - End  : Oct 2005 - Sep 2011
+  Duration     : 72 months
+  Bullets      : 1
+    • Asst Manager (Collection cum Operation)
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 8
+  Role         : None
+  Company      : HSBC BANK
+  Location     : None
+  Start - End  : Mar 2001 - Oct 2005
+  Duration     : 56 months
+  Bullets      : 1
+    • VRCS Backend Officer (Collection Process) PROFESSIONAL EXPERIENCE:
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 9
+  Role         : TN Retail Recovery collection Lead for  Jan’
+  Company      : Ensuring achievement of 100% of the assigned targets including backflow and normalization
+  Location     : None
+  Start - End  : 2016 - Mar 2017
+  Duration     : 15 months
+  Bullets      : 1
+    • Managing 90 Plus Recovery Collections, with portfolio size of approx. 8.5 Crores, with the down line of        10 Agencies Tracing customers like not contactable Skip & Fraud Customers by using good tracking tools and arranging field visits.
+  Method       : date_regex+title_dict
+  Confidence   : 0.7
+  Needs Review : True

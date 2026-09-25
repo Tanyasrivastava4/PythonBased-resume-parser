@@ -1,0 +1,186 @@
+======================================================================
+FILE: Jayesh Anil Jadhav_Network Engineer_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Current Employment: Axis Bank Ltd. | Mumbai | Nov 2022 – Present
+Site
+: Axis Bank Datacenter
+Project : Network Security
+Designation : Senior Manager
+• Network Security and Operations:
+• Managing a team of 30+ engineers handling day-to-day operations across Proxy, NAC, Firewalls, SSLV, DNS, and
+Load ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.7
+Needs review   : True
+Total exp      : 13.3 years (160 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Manager
+  Company      : Current Employment: Axis Bank Ltd. | Mumbai
+  Location     : None
+  Start - End  : Nov 2022 - Present
+  Duration     : 47 months
+  Bullets      : 26
+    • Network Security and Operations:
+    • Managing a team of 30+ engineers handling day-to-day operations across Proxy, NAC, Firewalls, SSLV, DNS, and Load Balancer infrastructure.
+    • Administered Bluecoat Proxy and CASMA with advanced URL/content filtering, SSL inspection, and PAC file tuning.
+    • Deployed and managed new CAS (Content Analysis System) and Management Appliance to enhance proxy posture and visibility.
+    • Successfully migrated 1 lakh+ users from legacy WSS Proxy to Zscaler ZIA with zero downtime.
+    • Defined and enforced Zscaler ZIA policies for secure browsing, SSL decryption, and sandboxing.
+    • Decommissioned legacy Nevis NAC solution and independently implemented HPE Aruba ClearPass NAC, serving over 1 lakh users.
+    • Designed and deployed dot1x authentication, posture checks, and quarantine enforcement per bank security policies.
+    • Migrated VPN access for over 1 lakh users from Accops to Zscaler ZPA to strengthen remote access security.
+    • Deployed SSL Visibility (SSLV) for decrypting encrypted internet-bound traffic to enhance monitoring and threat visibility.
+    • Utilized Arbor to detect and mitigate DDoS attacks across perimeter infrastructure.
+    • Ensured complete coverage and response readiness for L3/L7 security scenarios.
+    • Oversaw Skybox-driven firewall rule reviews, policy validations, and daily change ticket resolution.
+    • Performed configuration, management, and policy audits on Checkpoint, ASA, Palo Alto (PA-5445) and other security appliances.
+    • Drove ongoing compliance checks across all network security layers to align with internal and RBI audit expectations.
+    • Designed and configured F5 Load Balancer (VIPs, SSL certs, virtual servers, health monitors) for critical banking applications.
+    • Built new PROD and UAT network setups to support secure and scalable deployments in hybrid environments.
+    • Delivered infrastructure implementations across Azure (Application Gateway, DNS, CDN, Traffic Manager) with security-first design.
+    • ITIL Process & RCA Management:
+    • Followed full ITIL lifecycle including Change Management (RFCs, CABs), Problem Management (RCA), and Incident Management.
+    • Created SOPs, HLDs, and LLDs to standardize infrastructure deployment and operations.
+    • Led RCA sessions for recurring issues and raised risks to proactively prevent security non-compliance.
+    • Vendor Governance & Procurement:
+    • Acted as technical SPOC for vendor evaluations, proposal reviews, and POC validations.
+    • Managed commercial workflows: negotiated proposals, initiated purchase requests, and released POs in compliance with bank policy.
+    • Ensured timely delivery and SLA adherence through continuous vendor engagement.
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : Senior Consultant
+  Company      : Previous Employment: Capgemini Technology Services India | Navi Mumbai
+  Location     : None
+  Start - End  : Jun 2019 - Nov 2022
+  Duration     : 42 months
+  Bullets      : 21
+    • Network and Network Security Operations:
+    • Implemented and managed LAN, Wireless, Proxy, and WAN infrastructure across data centers.
+    • Handled multi-vendor switching environments (Cisco, HP, D-Link) and led migration from Motorola to Cisco Meraki Wi-Fi.
+    • Troubleshot LAN/WAN connectivity and wireless issues involving Cisco Meraki, Motorola, and traditional setups.
+    • Administered and resolved Zscaler proxy operations (URL/content filtering, SSL inspection, PAC files).
+    • Supported 802.1x NAC integrations for secure wireless access.
+    • Configured and maintained firewall rules on Checkpoint and Cisco ASA.
+    • Established and supported IPsec/SSL VPN tunnels between client and remote sites.
+    • Performed packet captures and log analysis for in-depth troubleshooting and RCA.
+    • Azure & Cloud Infrastructure:
+    • Managed Azure Webfarm technologies: Application Gateway, Load Balancer, Traffic Manager, CDN.
+    • Hosted websites by configuring DNS entries on global DNS (Studio Barbero).
+    • Renewed SSL certificates and configured NAT/PAT rules via Checkpoint on Azure.
+    • Managed ExpressRoute setups for Azure-to-on-prem communication.
+    • Load Balancing & Tools:
+    • Configured Citrix NetScaler (VIPs, GSLB, virtual servers); performed firmware/patch upgrades and cert renewals.
+    • Deployed monitoring tools (CA Spectrum), integrated with ServiceNow (SNOW).
+    • Operations & ITIL Process:
+    • Managed P1 incidents and led Major Incident Management (MIM) calls.
+    • Created SOPs, LLDs, and HLDs; followed complete ITIL lifecycle — change management, RCA, RITMs, SCTASKs.
+    • Attended OPMC and contributed to root cause and preventive actions during problem management sessions.
+  Sub-sections : ['Designation : Senior Consultant']
+  Method       : date_regex
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Manager
+  Company      : Previous employment: HDFC Bank Ltd. | Mumbai
+  Location     : None
+  Start - End  : March 2019 - June 2019
+  Duration     : 4 months
+  Bullets      : 14
+    • Datacenter Infrastructure & Migration:
+    • Led migration of core datacenter switches from Cisco 4500 to Cisco Nexus 9k in preparation for ACI (Application Centric Infrastructure) deployment.
+    • Managed capacity planning across the datacenter and branch-level networks, ensuring scalability and future growth.
+    • Developed detailed High-Level Design (HLD) and Low-Level Design (LLD) documentation for infrastructure rollouts.
+    • Identified critical interfaces and port configurations for terminating new devices into Cisco switching fabric.
+    • Managed and responded to incidents involving Fortinet, Cisco ASA, and Checkpoint firewalls.
+    • Supervised daily operations of QoS policies via Allot devices and active-active load balancing for high-availability systems.
+    • Incident & Problem Management:
+    • Handled incident and problem management for datacenter and third-party hosted setups.
+    • Responded to escalations from application owners related to application uptime and performance degradation.
+    • Acted as the single point of contact for coordination between internal teams and customer-facing entities.
+    • Team Leadership & Vendor Coordination:
+    • Directed a 30+ engineer team managing day-to-day datacenter operations and change implementations.
+    • Drove vendors to meet compliance and performance expectations, ensuring project timelines and SLA adherence.
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 4
+  Role         : Deputy Manager
+  Company      : Previous employment: Axis Bank Ltd. |Navi Mumbai
+  Location     : None
+  Start - End  : June 2014 - Feb 2019
+  Duration     : 57 months
+  Bullets      : 47
+    • Branch Network Infrastructure & Uptime Management:
+    • Maintained 99.5% uptime across PAN India branches by coordinating with service providers and internal teams for proactive resolution of link failures.
+    • Handled rollout and monitoring of broadband and backup links; coordinated commissioning with branches and ISPs.
+    • Implemented migration from mesh to hub-and-spoke topology across all branches for simplified architecture and better control.
+    • Ensured overall SLA management for branch connectivity, routing, switching, and link health.
+    • Network Operations:
+    • Configured, implemented, and audited firewall policies on Cisco ASA, Checkpoint, and Fortinet for LAN and WAN environments.
+    • Handled daily firewall change requests, backup, and compliance through proper CMR processes.
+    • Enabled URL/content filtering via Bluecoat proxy and enforced access controls for unmanaged devices (ATM, BNA, PBK, IP cameras) through VLAN-based segmentation.
+    • Supported internet broadband rollout at branches secured via datacenter firewalls.
+    • Implemented and monitored Wi-Fi connectivity (WIPS-enabled) for branches and head office; ensured security posture and uptime.
+    • Tested and supported deployment of SD-WAN (Cisco Viptela) for next-gen branch connectivity.
+    • Integrated Symantec Endpoint Protection with SCCM to push policy updates and antivirus definitions.
+    • Network Monitoring & Tools:
+    • Used Nagios, Centreon, and HP NNMi for real-time link and device monitoring across all network layers.
+    • Maintained CMDB to manage inventory of all network devices and configurations.
+    • Hands-on experience with Cisco Prime and Infoblox for network insights and IPAM.
+    • Team & Vendor Leadership
+    • Led a team of 25+ engineers supporting end-to-end network operations for 3,000+ branches.
+    • Engaged with vendors to resolve issues within SLA and delivered infrastructure improvements per audit/compliance requirements.
+    • Regularly reviewed link incidents, outages, and coordinated root cause analysis with third-party providers. Previous employment: Polaris Financial Technologies (Netscout IT Technologies) |Thane | May 2013 – April 2014
+    • Data Center Network & Security Operations:
+    • Supported the Core Banking Solution (CBS) project by managing network infrastructure at the Primary Data Center (PDC) and Secondary Data Center (ODC).
+    • Installed, configured, and maintained Cisco switches and APV 2600 Load Balancers for high availability and performance.
+    • Executed CRF requests for rule creation, deletion, and modification on switches and load balancers in compliance with security protocols.
+    • Managed server load balancing using SLB technology — configured real/virtual services, clustering, and SSL certificates.
+    • Performed image upgrades, restored services, and monitored logs, traffic buffers, and alerts on Array Load Balancer appliances.
+    • Maintained accurate SSL deployment and availability using load balancer console monitoring tools.
+    • Switching & IOS Management:
+    • Deployed and upgraded Cisco IOS on core switches; ensured post-deployment stability and version compliance.
+    • Monitored switch health, CPU usage, memory, and link utilization to proactively prevent outages or performance degradation.
+    • Backup, Monitoring & Security Readiness:
+    • Scheduled, restored, and maintained regular backups of key configurations and network appliances.
+    • Actively monitored infrastructure for security alerts, errors, performance spikes, and link failures; ensured RCA and escalation readiness. Previous Employment: Wipro Infotech (Information Technology Management Pvt. Ltd.)| Mumbai | Aug 2012 –
+    • Router Configuration & WAN Setup:
+    • Configured Cisco 1800/2800 routers for single and dual MPLS links with minimal business impact and downtime.
+    • Hardened branch routers and implemented secure communication between core and branch infrastructure.
+    • Configured BGP on routers to ensure stable routing and redundancy.
+    • Liaised with ISPs to check feasibility and provision new links for branch connectivity.
+    • Coordinated with Facility Management (FM) team to arrange operational downtime windows for upgrades or migrations.
+    • Upgraded IOS on Cisco 1800/2800 series routers to meet security and performance standards.
+    • Conducted failover and link failure testing; monitored bandwidth and load utilization metrics across branch links.
+    • VSAT & Remote Connectivity:
+    • Deployed and maintained VSAT-based internet links in remote regions lacking MPLS or broadband coverage.
+    • Ensured seamless fallback and access to banking applications in low-bandwidth environments.
+    • Documentation & IP Management:
+    • Maintained centralized records of IP address schemes and link databases for efficient troubleshooting and audits.
+  Sub-sections : ['Site', ': RBI Datacenter (Reserve Bank Of India)', 'Project : Core Banking Solution (CBS)', 'Designation : Network Engineer', 'Feb 2013', 'Site', ': HDFC Bank Ltd.', 'Project : New Core Banking', 'Designation : Network Engineer']
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 5
+  Role         : Technical Support Engineer
+  Company      : Previous Employment: D-Link (Ramp Green Solutions Pvt. Ltd.) | Navi Mumbai
+  Location     : None
+  Start - End  : Sept 2011 - Aug 2012
+  Duration     : 12 months
+  Bullets      : 1
+    • Technical Support & Product
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True

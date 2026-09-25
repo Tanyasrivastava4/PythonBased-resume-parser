@@ -1,0 +1,61 @@
+======================================================================
+FILE: CA Yogesh Gupta_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+JIVAP & Associates LLP (Chartered Accountants)
+Article Assistant (Jun 2019-Feb 2020)
+GGPS & Associates (Chartered Accountants)
+Article Assistant (Feb 2020- Jun 2022)
+• Manage concurrent audit of CAD function within Credit risk mgt. at
+corporate branch on individual basis.
+• Analyse financial stateme...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 3.4 years (41 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Article Assistant
+  Company      : JIVAP & Associates LLP
+  Location     : None
+  Start - End  : Jun 2019 - Feb 2020
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Article Assistant
+  Company      : GGPS & Associates
+  Location     : None
+  Start - End  : Feb 2020 - Jun 2022
+  Duration     : 29 months
+  Bullets      : 3
+    • Manage concurrent audit of CAD function within Credit risk mgt. at corporate branch on individual basis.
+    • Analyse financial statements, identified key risk factors, and prepare due
+    • Team Leader
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : Contractual
+  Location     : None
+  Start - End  : Jan 2025 - April 2025
+  Duration     : 4 months
+  Bullets      : 6
+    • Self-motivated
+    • Time Management
+    • Establish Trial balance & Execute preliminary Analytical review
+    • Decision Maker
+    • Prepared Investment roll forward for investment reconciliation at the year end.
+    • Performed various Audit Testing like Bank Reconciliation Testing, Investment
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

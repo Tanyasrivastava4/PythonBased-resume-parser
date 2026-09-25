@@ -1,0 +1,46 @@
+======================================================================
+FILE: Parul Yadav_Data Scientist_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+VaaaN Infra Pvt Ltd
+12/2022 – 05/2024
+R & D Engineer - Data Science
+Delhi,NCR
+• Built a traffic forecasting model using time series to optimize toll operations, and predict revenue across major
+highways.
+• Developed a real-time toll operations monitoring and alert system to detect high traffic flow ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 2.1 years (25 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : R & D Engineer - Data Science
+  Company      : VaaaN Infra Pvt Ltd
+  Location     : None
+  Start - End  : 12/2022 - 05/2024
+  Duration     : 18 months
+  Bullets      : 4
+    • Built a traffic forecasting model using time series to optimize toll operations, and predict revenue across major highways.
+    • Developed a real-time toll operations monitoring and alert system to detect high traffic flow and violations, improving incident response and operational transparency.
+    • Deployed responsive web applications using Python (Flask, FastAPI), Docker, and CI/CD pipelines; visualized insights with Plotly and Seaborn for stakeholder dashboards.
+    • Monitored production deployments with Grafana and Prometheus, ensuring uptime and seamless system performance across environments.
+  Sub-sections : ['Delhi,NCR']
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : AiVariant
+  Location     : None
+  Start - End  : 12/2021 - 06/2022
+  Duration     : 7 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

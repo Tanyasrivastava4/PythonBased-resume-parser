@@ -5,22 +5,45 @@ RAW EXPERIENCE SECTION (first 300 chars)
 ----------------------------------------------------------------------
 Designation: QA Engineer
 Company: Zenesys Technosys Pvt Ltd | Noida, Sec-62 (U.P)
-Zenesys Technosys Pvt Ltd is a software development company
-Mobile and Web development I used to handle testing for multiple
-Momento.
-Designation: Software Tester
-Company: Gagan Consultant Services| Mathura (U.P) Durat...
+Duration: From June 2023 To Current
+Zenesys Technosys Pvt Ltd is a software development company which works on RPA, CMS, Cloud,
+Mobile and Web development I used to handle testing for multiple projects Including Accust...
 
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
-Entries found  : 5
-Confidence     : 0.85
+Entries found  : 4
+Confidence     : 0.91
 Needs review   : True
-Total exp      : 7.0 years (84 months, 3 overlapping periods merged)
+Total exp      : 7.8 years (94 months, 3 overlapping periods merged)
 
 Entry 1
-  Role         : None
-  Company      : Designation: Software Tester
+  Role         : QA Engineer
+  Company      : Zenesys Technosys Pvt Ltd | Noida
+  Location     : Sec-62 (U.P)
+  Start - End  : June 2023 - Current
+  Duration     : 40 months
+  Bullets      : 1
+    • Zenesys Technosys Pvt Ltd is a software development company which works on RPA, CMS, Cloud, Mobile and Web development I used to handle testing for multiple projects Including Accustore, RTA,
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Software Tester
+  Company      : Gagan Consultant Services| Mathura (U.P) Duration: From Feb 2022 To June 2023
+  Location     : None
+  Start - End  : Feb 2022 - June 2023
+  Duration     : 17 months
+  Bullets      : 2
+    • Gagan is a service Based company which works on Asp.net, CMS, Cloud, Mobile and Web development I used to handle testing for multiple projects Including Clinikk, DefiniteSeo.
+    • I have worked on the Web&mob Application.
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Software Tester
+  Company      : Imarticus Learning | Delhi
   Location     : None
   Start - End  : Dec 2019 - Feb 2022
   Duration     : 27 months
@@ -28,13 +51,13 @@ Entry 1
     • Imarticus Learning is a software development / E-learning company which build software’s, mostly for the asp.net websites.
     • I used to handle testing for multiple projects, and Software etc.
     • I have worked on E- learning, and travel domain project Web App.
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.98
+  Needs Review : False
 
-Entry 2
-  Role         : None
-  Company      : Designation: Jr.Software Tester
+Entry 4
+  Role         : Jr.Software Tester
+  Company      : Timble Technology | Delhi
   Location     : None
   Start - End  : Dec 2018 - Dec 2019
   Duration     : 13 months
@@ -46,67 +69,6 @@ Entry 2
     • Electronic Residence Physical Verification (including geo-tagging)
     • PAN / Aadhar / Driving-License Fraud Detection
     • Bank Statement Analyzer — automated financial data assessment for credit/risk decisions
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
-
-Entry 3
-  Role         : None
-  Company      : • Duration : From
-  Location     : None
-  Start - End  : Aug 2024 - Present
-  Duration     : 26 months
-  Bullets      : 12
-    • Testing Environment : Cucumber Automation Framework
-    • Role : QA Engineer Project Summary: RTA Forward is an integrated transit-user platform for the New Orleans Regional Transit Authority. It provides live transit information (bus, streetcar, ferry), trip planning, system overview, alerts, and route schedules. Responsibilities :
-    • Involved in analyzing the requirements and communicating with the BA team.
-    • Identified test cases to automate , prioritized suitable candidates for automation and automated test cases using Selenium WebDriver , Cucumber Framework and java.
-    • Developed the Automation framework using selenium and perform the Regression testing and Smoke Testing.
-    • Take the Daily Basis Push on the Git which branch I have worked on it.
-    • Execute the test Script on GitHub server and Analyze the Passed and Failed Test Cases Report.
-    • Identified End to End Test Scenarios, Test Cases, and Test Data.
-    • Writing effective and optimized Test Cases using Black Box Testing techniques.
-    • Performing Integration and regression testing.
-    • Involved in Bugs Tracking & Prepare Bug Report Document.
-    • Perform UAT Testing.
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
-
-Entry 4
-  Role         : None
-  Company      : • Duration :
-  Location     : None
-  Start - End  : Jan 2023 - June 2025
-  Duration     : 30 months
-  Bullets      : 8
-    • Testing Environment : Cucumber Automation Framework
-    • Role : QA Engineer Project Summary: It is a GSP Company, is the result of more than 40 years of helping retailers gain store-level intelligence to enhance operations, marketing, facilities management, loss prevention, and human resources. Its enhanced store profiling technology makes it easy for consumer- facing businesses to access real-time information about every site. Responsibilities :
-    • Involved in analyzing the requirements and communicating with the BA team.
-    • Identified test cases to automate , prioritized suitable candidates for automation and automated test cases using Selenium WebDriver , Cucumber Framework and java.
-    • Developed the Automation framework using selenium and perform the Regression testing and Smoke Testing.
-    • Take the Daily Basis Push on the Git which branch I have worked on it.
-    • Execute the test Script on GitHub server and Analyze the Passed and Failed Test Cases Report.
-    • Identified End to End Test Scenarios, Test Cases, and Test Data.
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
-
-Entry 5
-  Role         : None
-  Company      : • Duration :
-  Location     : None
-  Start - End  : June 2024 - Present
-  Duration     : 28 months
-  Bullets      : 8
-    • Role : QA Engineer Project Summary: Zenesys AI Chat Bot is an intelligent conversational assistant built using advanced Artificial Intelligence and Natural Language Processing (NLP). It enables users to interact through text chat as well as voice input/output, providing a natural and human-like communication experience. Responsibilities :
-    • Identified and documented end-to-end test scenarios, detailed test cases, and required test data based on project requirements.
-    • Designed and executed manual test cases using Black Box Testing techniques to validate application functionality.
-    • Performed different types of testing including functional, integration, regression, and smoke testing across web and mobile platforms.
-    • Logged, tracked, and verified defects using a bug-tracking tool; prepared detailed bug reports and coordinated with developers to ensure timely resolution.
-    • Conducted test execution for each build and analyzed results to ensure application stability.
-    • Participated in daily stand-up meetings and communicated testing progress, issues, and risks to the team.
-    • Assisted in preparing test summary reports and maintained documentation for all testing activities
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+subfield_label_role+subfield_label_company
+  Confidence   : 0.98
+  Needs Review : False

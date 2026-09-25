@@ -1,0 +1,64 @@
+======================================================================
+FILE: 76763067_Amit Pratap Singh_Project Manager_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Project Management
+Nativebyte Software LLP | Nov 2022 – Present
+Led and managed a team of 40+ developers and 5+ business analysts as the primary client
+liaison for the high-impact UPSC project.
+Oversaw successful delivery of 15+ client projects, including QOTY, Siksha App, Airport
+Genie, Biographix,...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 10.6 years (127 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Project Management
+  Location     : None
+  Start - End  : Nov 2022 - Present
+  Duration     : 47 months
+  Bullets      : 4
+    • Led and managed a team of 40+ developers and 5+ business analysts as the primary client liaison for the high-impact UPSC project.
+    • Oversaw successful delivery of 15+ client projects, including QOTY, Siksha App, Airport Genie, Biographix, SavingBunch, and others.
+    • Managed end-to-end project delivery, ensuring seamless coordination between development teams and business analysts.
+    • Handled project timelines, cost estimation, and change requests (CRs), consistently optimizing delivery efficiency and ensuring client satisfaction.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Software Developer/Team Lead
+  Company      : Nativebyte Software LLP
+  Location     : None
+  Start - End  : Jan 2017 - Oct 2022
+  Duration     : 70 months
+  Bullets      : 5
+    • Managed Infrastructure & Networking Team for client Birla Texmaco.
+    • Led a team of 20+ developers for client UWML LTD in building Ira (Intelligent Responsive Application) using Django REST Framework.
+    • Integrated APIs between an Indian client and a Chinese company using Django REST Framework.
+    • Developed Online Blogging Systems using Django/Flask (Self-Initiated Projects).
+    • Built an E-Commerce Platform using Django (Self-Directed Project).
+  Method       : date_regex+next_line_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Software Developer
+  Company      : Nativebyte Software LLP
+  Location     : None
+  Start - End  : Mar 2016 - Dec 2016
+  Duration     : 10 months
+  Bullets      : 4
+    • Contributed to WordPress website development as a team member, integrating new plugins and customizing themes to enhance user experience.
+    • Developed front-end web components using HTML5 and CSS3, ensuring cross-browser compatibility and responsive design.
+    • Collaborated on database design and management with MySQL, optimizing queries for performance.
+    • Proficient in network troubleshooting, including Wi-Fi security implementation and website security vulnerability mitigation.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

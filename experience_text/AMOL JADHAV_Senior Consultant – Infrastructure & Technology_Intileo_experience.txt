@@ -1,0 +1,96 @@
+======================================================================
+FILE: AMOL JADHAV_Senior Consultant – Infrastructure & Technology_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+R I E N C E
+July’ 25 – JAN ‘26 CEO – Woodapple
+AI LLP (Cyber Security Startup)
+• Dual-hat executive serving as
+CEO at Woodapple AI LLP and CISO for a subsidiary of SAID Technologies Pvt. Ltd., Pune, with
+extensive experience leading
+technology, cybersecurity, and operational strategy for complex ent...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.88
+Needs review   : True
+Total exp      : 24.4 years (293 months, 4 overlapping periods merged)
+
+Entry 1
+  Role         : Associate Director
+  Company      : IntraEdge Technologies  from
+  Location     : None
+  Start - End  : MAY 24 - OCT 2024
+  Duration     : 293 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Senior Transformation
+  Company      : Manager – AERIES Technology Group  from
+  Location     : None
+  Start - End  : 2021 - 2024
+  Duration     : 37 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Global IT Manager
+  Company      : Application Software Technologies (AST) from
+  Location     : None
+  Start - End  : 2019 - 2021
+  Duration     : 25 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Senior Consultant
+  Company      : Infrastructure & Services - Net connect Global as a Freelance from
+  Location     : None
+  Start - End  : 2019 - 2019
+  Duration     : 1 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 5
+  Role         : HEAD IT - Innoplexus
+  Company      : Consulting Services Pvt. Ltd. In Pune from
+  Location     : None
+  Start - End  : 2018 - 2018
+  Duration     : 1 months
+  Bullets      : 0
+  Method       : date_regex+dash_title_next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 6
+  Role         : Municipal Affairs and Urban Planning, Bahrain as a “Project Manager” from
+  Company      : Ministry of Works
+  Location     : 
+  Start - End  : 2012 - 2018
+  Duration     : 73 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : None
+  Company      : Codewalla Software Development Pvt. Ltd
+  Location     : Pune from
+  Start - End  : 2010 - 2011
+  Duration     : 13 months
+  Bullets      : 0
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True

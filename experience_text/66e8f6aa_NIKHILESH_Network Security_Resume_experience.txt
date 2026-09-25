@@ -1,0 +1,136 @@
+======================================================================
+FILE: 66e8f6aa_NIKHILESH_Network Security_Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Sahayog Multistate Credit Cooperative Bank November 2025-Till Now
+Network Engineer
+Creative Info-Link Pvt. Ltd (Bajaj Finance Ltd) June 2025 -October 2025
+Network Support Engineer
+• Administered Palo Alto PA3200 and PA820 firewalls, including configuration, policy
+management, and performance monitor...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 6.3 years (76 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Sahayog Multistate Credit Cooperative Bank
+  Location     : None
+  Start - End  : November 2025 - Present
+  Duration     : 11 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Network Engineer
+  Company      : Creative Info-Link Pvt. Ltd
+  Location     : None
+  Start - End  : June 2025 - October 2025
+  Duration     : 5 months
+  Bullets      : 8
+    • Administered Palo Alto PA3200 and PA820 firewalls, including configuration, policy management, and performance monitoring.
+    • Designed and implemented firewall policies, Source/Destination NAT rules, and security profiles to ensure robust perimeter defense.
+    • Completed firewall hardening to mitigate vulnerabilities and strengthen perimeter defenses.
+    • Monitored and responded to Security Operations Center (SOC) alerts, contributing to proactive threat mitigation and incident response.
+    • Managed Layer 2 and Layer 3 network protocols, including VLAN configuration, EtherChannel setup, and Port-Security enforcement for secure and efficient data flow.
+    • Diagnosed and resolved Global Protect VPN issues, ensuring seamless remote access for users.
+    • Handled technical troubleshooting calls, providing real-time support and resolution for network and security-related issues.
+    • Executed switch migration activities, ensuring minimal downtime and optimized network performance during infrastructure upgrades.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Senior System Engineer
+  Company      : Infosys BPM Limited
+  Location     : None
+  Start - End  : December 2024 - April 2025
+  Duration     : 5 months
+  Bullets      : 7
+    • Network Device Configured: Switches configuration including port security, VLAN.
+    • Firewall Management: Creating policies on checkpoint firewall and FTD as per the CR.
+    • Checkpoint Firewall Hardening.
+    • FTD configuration and adding FTD to FMC.
+    • DNAC: Adding network devices like switches and router on DNAC.
+    • Switches IOS upgradations.
+    • Nagios: Integrating devices and managing interfaces using Nagios.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Network Security Engineer
+  Company      : Softenger India Pvt. Ltd
+  Location     : None
+  Start - End  : Jan 2024 - Nov 2024
+  Duration     : 11 months
+  Bullets      : 10
+    • Network Security & Firewall Management: Regular health checks and configuration of Checkpoint 16200 Firewall and Palo Alto PA-5520, ensuring optimal network security.
+    • Traffic & URL Monitoring: Managed URL and IP blocking for the entire network using MDS Checkpoint Firewall.
+    • Firewall OS Upgrade: Upgraded Checkpoint Firewall OS from R81 to R81.20 to ensure security patches and performance enhancements.
+    • Policy Configuration: Developed and implemented Time-based and Permanent policies for firewall rules across different zones.
+    • Backup & Maintenance: Scheduled regular firewall backups using Putty and Gaia portal, maintaining system integrity and ensuring quick recovery.
+    • VLAN & Interface Configuration: Configured interfaces and VLANs on Checkpoint Firewall for segmented network traffic.
+    • NAT Troubleshooting: Resolved NAT-related issues, ensuring smooth communication between different network segments.
+    • Hotfix & Patch Management: Installed Jumbo hotfixes for Checkpoint Firewalls to ensure system stability and security.
+    • Incident Management: Led daily operation and CRF (Change Request Form) processing for RBI locations.
+    • Collaboration & Troubleshooting: Coordinated with teams to resolve issues related to intranet and internet applications at the RO-wise locations.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Desktop Support Engineer
+  Company      : Busybees Logistic Solution Pvt. Ltd
+  Location     : None
+  Start - End  : June 2022 - Dec2023
+  Duration     : 19 months
+  Bullets      : 7
+    • Firewall Management: Installed, configured, and monitored FortiGate 80E Firewall and Cisco 1852E Wireless Access Points for network security and wireless connectivity.
+    • VLAN Configuration & Switching: Configured VLANs, Ether Channel, Trunking, and Switchport security on Cisco devices to ensure secure and efficient network traffic management.
+    • MAC Binding & Load Balancing: Configured MAC-based policies on FortiGate and TP-Link Load Balancers, optimizing traffic distribution across available links.
+    • Remote IT Support: Provided remote troubleshooting support using AnyDesk for resolving IT-related issues across the company.
+    • Printer & Device Troubleshooting: Configured and troubleshooted thermal printers, laser printers, and HHD devices, ensuring minimal downtime.
+    • Asset Management: Managed and maintained inventory for IT assets, coordinating with vendors for hardware replacements and procurement.
+    • Multiple New Locations set up done: Planning & Requirements Assessment, Hardware
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : None
+  Company      : Procurement
+  Location     : Networking Setup
+  Start - End  : Dec2021 - June2022
+  Duration     : 7 months
+  Bullets      : 4
+    • Networking Device Configuration: Configured and managed network devices such as Cisco 2960/9200/9300 switches, Cisco Wireless Controllers (WLC), and Access Points, ensuring stable network performance across branches.
+    • Network Troubleshooting: Handled issues related to VLAN configurations and performed troubleshooting to restore network functionality.
+    • System Administration: Managed Windows Server configurations and performed routine maintenance, ensuring system uptime and security.
+    • Managed multiple locations IT project.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 7
+  Role         : IT Support Technician
+  Company      : Amazon Seller Services Pvt. Ltd
+  Location     : None
+  Start - End  : May2020 - Dec2021
+  Duration     : 20 months
+  Bullets      : 5
+    • Configured Cisco switches 9300
+    • OS & Infrastructure Management: Performed OS installations, build deployments, and infrastructure management for hardware and software across the organization.
+    • Barcode & Printer Configuration: Configured and troubleshooted barcode printers (GX430t, ZD620) and LaserJet printers, supporting the operations team.
+    • CCTV & Security Systems: Managed and supported CCTV camera systems to ensure surveillance across facilities.
+    • Network Monitoring: Supported Internet link monitoring, identifying potential issues and ensuring connectivity for the workforce.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

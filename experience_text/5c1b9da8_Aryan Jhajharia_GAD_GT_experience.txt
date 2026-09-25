@@ -1,0 +1,82 @@
+======================================================================
+FILE: 5c1b9da8_Aryan Jhajharia_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior
+BSR & Co. LLP (KPMG - Mumbai) October 2025 – Current
+Executive
+Larsen & Toubro (Mumbai) May 2025 – October 2025
+Article Assistant
+D.N Gupta & Co. (Sikar) February 2024 - April 2025
+BSR & Co. LLP (KPMG - Mumbai) September 2022 – January 2024
+S.K Patodia & Associates (Mumbai) April 2022 - Augus...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 4.5 years (54 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Senior
+  Company      : BSR & Co. LLP
+  Location     : None
+  Start - End  : October 2025 - Current
+  Duration     : 12 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Executive
+  Company      : Larsen & Toubro
+  Location     : None
+  Start - End  : May 2025 - October 2025
+  Duration     : 6 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Article Assistant
+  Company      : D.N Gupta & Co. (Sikar)
+  Location     : None
+  Start - End  : February 2024 - April 2025
+  Duration     : 15 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : BSR & Co. LLP (KPMG
+  Company      : Mumbai)
+  Location     : None
+  Start - End  : September 2022 - January 2024
+  Duration     : 17 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : None
+  Company      : S.K Patodia & Associates
+  Location     : None
+  Start - End  : April 2022 - August 2022
+  Duration     : 5 months
+  Bullets      : 7
+    • Collaborated on Limited Reviews and Statutory audit of a listed and unlisted public company operating in Hotel, Infrastructure, Automotive and Plywood industries with turnover exceeding INR 10000 million, focusing on key areas such as purchase, payroll, inventory, provision, other income and expenses, and statutory compliance. Statutory audit ➢ Executed Statutory audits of a private companies operating in Pharmaceutical and Logistic industry.
+    • Identified discrepancies in PPE asset records under CARO reporting during substantive testing; recommended corrective actions to align records with regulatory compliance.
+    • Undertook analytical reviews of key financial variances, identifying discrepancies and recommending corrective actions.
+    • Led stock audits for clients in the Hotel, automobile, electronics, and chemical sectors, ensuring accurate inventory valuation, physical verification, and reconciliation with financial records.
+    • Performed audits of major refinery, construction, building, and fabrication projects handled by L&T, valued at over ₹20,000 million, reviewing processes for statutory compliance, cost control, and adherence to internal policies.
+    • Audited a key segment of India’s first bullet train project (High-Speed Rail) valued at over Internal audit ₹70,000 million, focusing on cost verification, contract compliance, and internal control testing.
+    • Participated in site audits and on-site physical inspections to assess Health, Safety & Environment (HSE) compliance, ensuring proper implementation of safety protocols and procedures.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

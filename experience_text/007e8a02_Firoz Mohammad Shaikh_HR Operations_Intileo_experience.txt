@@ -1,0 +1,48 @@
+======================================================================
+FILE: 007e8a02_Firoz Mohammad Shaikh_HR Operations_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+*INDUSIND BANK LTD - (May 2025 – Till Date)
+Worked as a HR Assistant
+Managed the full employee onboarding lifecycle by coordinating with recruiters, candidates, and backend teams to
+ensure seamless process integration.
+Using the Workline Pulse HRMS, I conducted rigorous document verification and cre...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.2 years (38 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Worked as a HR Assistant
+  Company      : *INDUSIND BANK LTD
+  Location     : None
+  Start - End  : May 2025 - Present
+  Duration     : 17 months
+  Bullets      : 5
+    • Managed the full employee onboarding lifecycle by coordinating with recruiters, candidates, and backend teams to ensure seamless process integration.
+    • Using the Workline Pulse HRMS, I conducted rigorous document verification and credential auditing to validate all candidate paperwork before updating and releasing formal offer letters.
+    • This role involved generating CIBIL and CFR reports for risk assessment, maintaining organized soft and hard copy employee records, and resolving candidate or employee grievances with professional care.
+    • By working closely with HR managers and cross-functional teams, I ensured all operational tasks remained in strict compliance with company policies and regulatory standards.
+    • Maintained accurate onboarding Tracker On Weekly and Monthly basis on excel.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Worked as a Relationship Executive
+  Company      : LiquiLoans
+  Location     : None
+  Start - End  : June 2023 - Feb 2025
+  Duration     : 21 months
+  Bullets      : 3
+    • We provide education loans through a straightforward two-step process.
+    • First, we pre-approve applications by statements.
+    • Once approved, we finalize the loan agreement and set up an auto policy.
+  Sub-sections : ['Bachelor Of Commerce', 'Chandrabhan Sharma College (Mumbai University)', 'Grade – B 2023', 'HSC', 'Shrinivas Bagarga']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

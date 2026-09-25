@@ -31,7 +31,7 @@ Entry 1
     • Prepared and delivered persuasive sales presentations and proposals to potential clients.
     • Monitored sales performance metrics and reported progress to senior management, recommending adjustments as needed.
     • Negotiated contracts and agreements with clients to maximice profit margins while maintaining long- term relationships.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False
 
@@ -47,7 +47,7 @@ Entry 2
     • Coordinated visual merchandising and store layout to maximice product visibility and sales.
     • Handled customer queries and resolved complaints promptly to maintain high customer satisfaction.
     • Analyzed sales data and prepared reports to support strategic planning and achieve store targets.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False
 
@@ -61,6 +61,6 @@ Entry 3
     • Collaborated with cross-functional teams to develop strategic plans for market expansion.
     • Monitored competitor activities and compiled reports to inform business strategies.
   Sub-sections : ['COURSES', 'GRAPHIC DESIGN 2018', 'TALLY & GST 2021', '────────────────────────────────────────────────────────────', "[Found 8 sections total: ['header', 'personal_details', 'education', 'experience', 'skills', 'languages', 'interests', 'experience']]"]
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False

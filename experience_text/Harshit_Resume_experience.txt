@@ -1,0 +1,44 @@
+======================================================================
+FILE: Harshit_Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Associate Data Scientist
+AlgoForge Studios
+Nov 2024 – Present
+– JD: Responsible for building and deploying end-to-end AI solutions in computer vision and natural language processing
+domains. Worked with deep learning architectures and contributed to product-oriented machine learning systems.
+– Proje...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.4 years (29 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Associate Data Scientist
+  Company      : AlgoForge Studios
+  Location     : None
+  Start - End  : Nov 2024 - Present
+  Duration     : 23 months
+  Bullets      : 2
+    • – JD: Responsible for building and deploying end-to-end AI solutions in computer vision and natural language processing domains.
+    • Worked with deep learning architectures and contributed to product-oriented machine learning systems. – Project: Skin Disease Prediction System – Built and trained a multi-class CNN model to classify various skin diseases from dermoscopic images with high accuracy. – Contribution: Handled data preprocessing, model architecture design, hyperparameter tuning, and deployment using FastAPI. – Project: Automated Driving System (Prototype) – Developed a vision-based system using CNN and NLP to assist in autonomous navigation decisions. – Contribution: Designed the image processing pipeline, implemented object detection and lane detection models, and integrated voice command processing using NLP. – Project: Face Detection System – Implemented a real-time face detection and recognition system for access control and surveillance. – Contribution: Utilized OpenCV and deep learning models, improved detection speed, and deployed via a web interface.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Python Developer Intern
+  Company      : Versai Technology
+  Location     : None
+  Start - End  : May 2024 - Nov 2024
+  Duration     : 7 months
+  Bullets      : 2
+    • – JD: Worked on backend development using Python frameworks to support automation and AI model deployment.
+    • Created and maintained scalable APIs for internal tools and machine learning services. – Project: AI Model Deployment Platform – Created a backend system to host and manage AI models through APIs. – Contribution: Built scalable REST APIs using Flask, Django, and FastAPI to serve ML models; implemented endpoints for predictions and model monitoring. – Project: Automation and Analytics Dashboard – Backend infrastructure for a dashboard providing business insights. – Contribution: Wrote Python scripts to automate data collection and reporting; integrated APIs with frontend and optimized query performance.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

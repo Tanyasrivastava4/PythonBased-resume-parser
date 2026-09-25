@@ -1,0 +1,58 @@
+======================================================================
+FILE: 4288df9c_Naukri_SatyavratSavarn[10y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Career Progression
+PwC AC— Mumbai | Senior Associate | Jun 2021 Present
+e
+—
+Capgemini Technology Services Pune | Consultant | Jan 2021 May 2021
+e
+— —
+Deloitte Consulting Mumbai | Consultant | Jul 2018 —Jan 2021
+e
+—
+L&T Infotech Mumbai | Software Engineer | Jun 2016 —Jun 2018
+e
+—
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 8.2 years (99 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : L&T Infotech Mumbai | Software Engineer
+  Company      : Career Progression
+  Location     : None
+  Start - End  : Jun 2021 - Present
+  Duration     : 64 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Capgemini Technology Services Pune | Consultant
+  Company      : —
+  Location     : None
+  Start - End  : Jan 2021 - May 2021
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Deloitte Consulting Mumbai | Consultant
+  Company      : — —
+  Location     : None
+  Start - End  : Jul 2018 - Jan 2021
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,41 @@
+======================================================================
+FILE: Ramakant Kaushik_Data Scientist_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Research Associate, AI
+Keywords Studios | April 2025 – September 2025
+• Trained advanced AI agents for a confidential AGI project, maintaining over 92% accuracy on complex tasks.
+• Supported model fine-tuning, alignment, and evaluation across multimodal inputs, improving model consistency, logical r...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 1.0 years (12 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Research Associate
+  Company      : AI
+  Location     : None
+  Start - End  : April 2025 - September 2025
+  Duration     : 6 months
+  Bullets      : 2
+    • Trained advanced AI agents for a confidential AGI project, maintaining over 92% accuracy on complex tasks.
+    • Supported model fine-tuning, alignment, and evaluation across multimodal inputs, improving model consistency, logical reasoning, and adaptability.
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Data Science Intern
+  Company      : AAM Infotech Pvt. Ltd
+  Location     : None
+  Start - End  : October 2024 - March 2025
+  Duration     : 6 months
+  Bullets      : 1
+    • Experience in Machine Learning, Deep Learning, and NLP projects, including recommender systems and predictive modeling.
+  Method       : date_regex+title_dict+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

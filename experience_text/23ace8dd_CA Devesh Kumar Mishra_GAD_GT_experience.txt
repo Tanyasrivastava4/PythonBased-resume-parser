@@ -1,0 +1,51 @@
+======================================================================
+FILE: 23ace8dd_CA Devesh Kumar Mishra_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Linkedin
+
+Sr. Associate
+Jan 2025 - Sep 2025
+Abhijit Sharma & Associates
+Jaipur, Rajasthan
+Most renowned CA firm in Jaipur, well known for Statutory & Internal
+Audits with 200+ clients.
+Article -> Jr. Associate
+Jun 2018 - Dec 2021
+Shah Patni & Co.
+Jaipur, Rajasthan
+Leading CA firm in Jaipur over 40 Y...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 4.3 years (52 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Sr. Associate
+  Company      : Jaipur
+  Location     : Rajasthan
+  Start - End  : Jan 2025 - Sep 2025
+  Duration     : 9 months
+  Bullets      : 1
+    • Most renowned CA firm in Jaipur, well known for Statutory & Internal
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Article -> Jr. Associate
+  Company      : Jaipur
+  Location     : Rajasthan
+  Start - End  : Jun 2018 - Dec 2021
+  Duration     : 43 months
+  Bullets      : 2
+    • Leading CA firm in Jaipur over 40 Yr. of experience with 4 partners servicing 300+ clients.
+    • 2(X), chapter VIA deductions.
+  Sub-sections : ['Statutory Audit', 'Key Clientele : Precious Jewels Corporation, PC Totuka, Nidhi Kamal', 'Automobile.', 'Understanding the Business of new client from ground level,', 'analysis of Financial Statements & performance of substantive', 'audit procedures.', 'Performed process walkthrough of key processes (Revenue,', 'Payroll, Procurement, Treasury) identified potential risk areas and', 'executed tests of controls.', 'Performed substantive audit procedure on areas involving', 'Accounts Payable, Accounts Receivable, Payroll, Fixed asset,', 'Cash & Bank, TDS, and Other Expenses.', 'Obtained external confirmation from debtors, creditor and bank', 'balances as per SA 505. Applied substantive analytical procedures', 'i.e trend analysis, periodic comparisons to identify unusual', 'deviations according to SA 520.', 'Assisted in the finalization of financial statements and the', 'preparation of Audit Report as per SA 700.', 'Ensured compliance with applicable FRF, i.e., Ind-AS while', 'reviewing finalization of financial statements including notes to', 'accounts as per Schedule III of the Companies Act, 2013, and', 'reporting under CARO, 2020.', 'Variance analysis of income and expenses.', 'Reviewed recognition of consultancy income in accordance with', 'Ind AS 115 (Revenue from Contracts with Customers) and ensured', 'compliance with CERC guidelines.', 'Verified capitalization of assets and depreciation calculations in', 'compliance with Ind AS 16 (PPE), ensuring accurate classification,', 'recognition, and systematic allocation over useful life.', 'Conducted various Stock audits.', 'Internal and Financial Audit', 'Key Clientele : Aavas Finance Ltd, Finova Capital, SK Finance Ltd, AU', 'Bank, Universal Auto foundry.', 'Verification of Management Fees, Tested Design and Efficiency of', 'controls, credit risk assessment, Procure-to-Pay (P2P), Checking', 'of petty cash transaction and verification of Physical cash at Front', 'Office.', 'Test checking of PF and ESI details of employees.', 'Taxation', 'Prepared and filed 200+ income tax returns for clients with', 'incomes up to ₹1 crores, ensuring accuracy and adherence to', 'statutory deadlines.', 'Comprehensive and accurate taxation advice to clients related Sec']
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

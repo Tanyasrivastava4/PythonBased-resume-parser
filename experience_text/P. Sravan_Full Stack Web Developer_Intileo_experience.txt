@@ -11,24 +11,24 @@ Designed and developed scalable full-stack applications using Java, Spring Boot,
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 2
-Confidence     : 0.92
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 6.7 years (80 months, 0 overlapping periods merged)
 
 Entry 1
-  Role         : Working as A Software Engineer with ADP, Since .
-  Company      : None
+  Role         : Working as A Software Engineer with ADP
+  Company      : Since
   Location     : None
-  Start - End  : Oct 2022 - till date
+  Start - End  : Oct 2022 - Present
   Duration     : 48 months
   Bullets      : 0
-  Method       : date_regex+title_dict
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+comma_title_company_split
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 2
-  Role         : Worked as Software Engineer with Cognizant Technology Solutions, from .
-  Company      : Managerial Abilities:
+  Role         : Worked as Software Engineer with Cognizant Technology Solutions
+  Company      : from
   Location     : None
   Start - End  : Feb 2020 - Sep 2022
   Duration     : 32 months
@@ -56,6 +56,6 @@ Entry 2
     • Produced technical design documents, UML diagrams, sequence flows, and deployment guides.
     • Engaged in client discussions, requirement gathering, and solution walkthroughs.
     • Optimized backend queries, API performance, and front-end rendering for improved system efficiency and user experience.
-  Method       : date_regex+title_dict
+  Method       : date_regex+comma_title_company_split
   Confidence   : 0.98
   Needs Review : False

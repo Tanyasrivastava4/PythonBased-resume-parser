@@ -73,7 +73,7 @@ EMAIL_PATTERN = re.compile(
 
 PHONE_PATTERN = re.compile(
     r"(?<!\w)"                  # not preceded by a letter/digit/underscore
-    r"(\+?[\d\s\-().]{7,18})"   # the phone number itself
+    r"(\+?[\d \t\-().]{7,18})"  # the phone number itself (spaces/tabs only, no newlines)
     r"(?!\w)",                  # not followed by a letter/digit/underscore
     re.IGNORECASE
 )
@@ -132,7 +132,7 @@ TITLE_WORDS = {
     "coordinator", "designer", "officer", "intern", "resume", "profile",
 }
 
-NAME_LINE_PATTERN = re.compile(r"^[A-Z][a-zA-Z.\-']*(?:\s+[A-Z][a-zA-Z.\-']*){0,3}$")
+NAME_LINE_PATTERN = re.compile(r"^[A-Z][a-zA-Z.\-']*(?:\s+[a-zA-Z.\-']+){0,3}$")
 
 
 def _strip_known_matches(text: str) -> str:
@@ -170,11 +170,31 @@ def _is_reference_email(email: str, text: str) -> bool:
     return False
 
 
+def _is_date_of_birth(raw_phone: str) -> bool:
+    digits_only = re.sub(r"\D", "", raw_phone)
+    if len(digits_only) == 8:
+        try:
+            first2 = int(digits_only[:2])
+            mid2 = int(digits_only[2:4])
+            year = int(digits_only[4:])
+            if 1 <= first2 <= 31 and 1 <= mid2 <= 12 and 1950 <= year <= 2035:
+                return True
+            year_f = int(digits_only[:4])
+            mid2_f = int(digits_only[4:6])
+            last2_f = int(digits_only[6:])
+            if 1950 <= year_f <= 2035 and 1 <= mid2_f <= 12 and 1 <= last2_f <= 31:
+                return True
+        except ValueError:
+            pass
+    return False
+
+
 def clean_phone(raw_phone: str) -> str:
     """
     Cleans and validates a raw phone-number-shaped string.
     """
-    digits_only = re.sub(r"\D", "", raw_phone)
+    raw_phone_fix = re.sub(r'(?<=\d|\+|-)\s+(?=\d|-)', '', raw_phone)
+    digits_only = re.sub(r"\D", "", raw_phone_fix)
 
     if len(digits_only) < 7 or len(digits_only) > 15:
         return None
@@ -182,7 +202,10 @@ def clean_phone(raw_phone: str) -> str:
     if PHONE_BLACKLIST.match(digits_only):
         return None
 
-    cleaned = re.sub(r"[^\d+\-\s()]", "", raw_phone).strip()
+    if _is_date_of_birth(raw_phone_fix):
+        return None
+
+    cleaned = re.sub(r"[^\d+\-\s()]", "", raw_phone_fix).strip()
     return cleaned
 
 
@@ -206,8 +229,16 @@ def _is_contact_line(line: str) -> bool:
     return bool(EMAIL_PATTERN.search(line) or URL_HINT_PATTERN.search(line) or PHONE_HINT_PATTERN.search(line))
 
 
+ADDRESS_KEYWORDS = {
+    "township", "nagar", "street", "road", "block", "sector", "apartment",
+    "society", "colony", "enclave", "villa", "phase", "layout", "district",
+    "city", "state", "pincode", "marg", "lane", "drive", "avenue", "cross", "plot", "no"
+}
+
+
 def _is_address_line(line: str) -> bool:
-    return bool(DIGIT_PATTERN.search(line))
+    words = [w.lower().strip(",.") for w in line.split()]
+    return any(w in ADDRESS_KEYWORDS for w in words) or bool(DIGIT_PATTERN.search(line))
 
 
 def _is_blacklisted_line(line: str) -> bool:
@@ -218,20 +249,43 @@ def _is_blacklisted_line(line: str) -> bool:
 
 
 def _regex_name_candidate(header_text: str) -> Optional[str]:
+    candidates = []
     for raw_line in header_text.splitlines():
         line = raw_line.strip()
         if not line or _is_blacklisted_line(line):
             continue
 
-        parts = [p.strip() for p in re.split(r"[|•]", line) if p.strip()]
+        has_contact_label = bool(re.search(r"\b(?:mail|email|mobile|phone|tel)\b", line, re.I))
+
+        line_no_email = EMAIL_PATTERN.sub("", line)
+        line_no_email = re.sub(r"\b(?:mail|email|mobile|phone|tel)\s*:\s*.*$", "", line_no_email, flags=re.I).strip()
+        line_no_email = re.sub(r"[\s.\-]+$", "", line_no_email).strip()
+
+        parts = [p.strip() for p in re.split(r"[|•\t]", line_no_email) if p.strip()]
         for part in parts:
             part = NAME_PREFIX_CLEANER.sub("", part).strip()
-            if not part or _is_contact_line(part) or _is_address_line(part) or _is_blacklisted_line(part):
+            part = re.sub(r"\s*\.\s*", " ", part).strip()
+            part = re.sub(r"\s*\([^)]*(?:exp|years?|yrs?|yr|experience)[^)]*\)", "", part, flags=re.I).strip()
+            if not part or _is_address_line(part) or _is_blacklisted_line(part):
                 continue
+
             if NAME_LINE_PATTERN.match(part) or (part.isupper() and 1 <= len(part.split()) <= 4):
                 words = part.split()
                 if 1 <= len(words) <= 4:
-                    return " ".join(w.capitalize() for w in words)
+                    cand_name = " ".join(w.capitalize() for w in words)
+                    score = 0.5
+                    if len(words) >= 2:
+                        score += 0.3
+                    if has_contact_label or EMAIL_PATTERN.search(raw_line):
+                        score += 0.2
+                    if part.isupper():
+                        score += 0.1
+                    candidates.append((score, cand_name))
+
+    if candidates:
+        candidates.sort(key=lambda x: x[0], reverse=True)
+        return candidates[0][1]
+
     return None
 
 
@@ -281,21 +335,31 @@ def extract_contact(full_text: str) -> dict:
         "website": {"value": None, "confidence": 0.0, "method": "regex"},
     }
 
+    # Reconnect emails line-wrapped across line breaks (e.g. user@gm\nail.com -> user@gmail.com)
+    full_text_clean = re.sub(r'([a-zA-Z0-9._%+-]+@\w{1,5})\n\s*(\w{2,10}\.[a-zA-Z]{2,})', r'\1\2', full_text)
+    # Fix spaced emails (e.g. "a nandu127 @gmail.com" -> "anandu127@gmail.com")
+    full_text_clean = re.sub(
+        r"\b([a-zA-Z0-9._%+-]+(?:\s+[a-zA-Z0-9._%+-]+)*)\s*@\s*([a-zA-Z0-9.-]+(?:\s+[a-zA-Z0-9.-]+)*\.[a-zA-Z]{2,})\b",
+        lambda m: m.group(1).replace(" ", "") + "@" + m.group(2).replace(" ", ""),
+        full_text_clean
+    )
+
     # ── NAME ───────────────────────────────────────────────
-    result["name"] = extract_name(full_text)
+    result["name"] = extract_name(full_text_clean)
 
     # ── EMAIL ──────────────────────────────────────────────
-    raw_emails = EMAIL_PATTERN.findall(full_text)
+    raw_emails = EMAIL_PATTERN.findall(full_text_clean)
     real_emails = [e for e in raw_emails if not _is_placeholder_email(e)]
     primary_email = None
     for e in real_emails:
-        if not _is_reference_email(e, full_text):
+        if not _is_reference_email(e, full_text_clean):
             primary_email = e
             break
     if not primary_email and real_emails:
         primary_email = real_emails[0]
 
     if primary_email:
+        primary_email = re.sub(r"^(?:\$+[a-zA-Z0-9]{1,4}[ib]?|\b(?:mbi|eoi|eo|mb|MBi|MBI|EOi)\b|\$MBi?)\s*(?=[a-zA-Z0-9._%+-]+@)", "", primary_email)
         result["email"] = {
             "value": primary_email.lower(),
             "confidence": 0.99,
@@ -303,7 +367,7 @@ def extract_contact(full_text: str) -> dict:
         }
 
     # ── LINKEDIN ───────────────────────────────────────────
-    linkedin_match = LINKEDIN_PATTERN.search(full_text)
+    linkedin_match = LINKEDIN_PATTERN.search(full_text_clean)
     if linkedin_match:
         username = linkedin_match.group(1)
         result["linkedin"] = {
@@ -313,7 +377,7 @@ def extract_contact(full_text: str) -> dict:
         }
 
     # ── GITHUB ─────────────────────────────────────────────
-    github_match = GITHUB_PATTERN.search(full_text)
+    github_match = GITHUB_PATTERN.search(full_text_clean)
     if github_match:
         username = github_match.group(1)
         if username.lower() not in GITHUB_RESERVED_PATHS:
@@ -324,7 +388,8 @@ def extract_contact(full_text: str) -> dict:
             }
 
     # ── PHONE ──────────────────────────────────────────────
-    phone_search_text = _strip_known_matches(full_text)
+    phone_search_text = _strip_known_matches(full_text_clean)
+    phone_search_text = re.sub(r'(?<=\d|\+|-)\s+(?=\d|-)', '', phone_search_text)
     for raw_match in PHONE_PATTERN.findall(phone_search_text):
         cleaned = clean_phone(raw_match)
         if cleaned:
@@ -336,7 +401,7 @@ def extract_contact(full_text: str) -> dict:
             break
 
     # ── WEBSITE ────────────────────────────────────────────
-    website_search_text = _strip_known_matches(full_text)
+    website_search_text = _strip_known_matches(full_text_clean)
     website_match = WEBSITE_PATTERN.search(website_search_text)
     if website_match:
         val = website_match.group(1).strip()

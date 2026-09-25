@@ -1,0 +1,132 @@
+======================================================================
+FILE: CV - Mohan Babu (2)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+REGIONAL
+SALES MANAGER
+Prime Home
+Loans & LAP, RBL Bank
+Jan’24
+- Till date
+REGIONAL
+HEAD
+
+Finance
+ltd., Aug ’22 - Jan’24.
+To pursue a challenging
+GENERAL
+MANAGER
+Sales &
+Mktg, Lancor Holdings Ltd., career in management,
+Dec ’21
+- Apr ‘22 where my competence
+can be used to deliver
+ASSITANT
+VICE PRESI...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 8
+Confidence     : 0.91
+Needs review   : True
+Total exp      : 14.2 years (170 months, 5 overlapping periods merged)
+
+Entry 1
+  Role         : HEAD
+  Company      : Loans & LAP
+  Location     : RBL Bank
+  Start - End  : Jan’24 - Present
+  Duration     : 33 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : MANAGER
+  Company      : ltd
+  Location     : .
+  Start - End  : Aug ’22 - Jan’24
+  Duration     : 18 months
+  Bullets      : 2
+    • Mktg, Lancor Holdings Ltd., career in management,
+    • Apr ‘22 where my competence can be used to deliver
+  Sub-sections : ['Dec ’21', 'ASSITANT', 'VICE PRESIDENT', 'Home Loans,', 'value to the organization']
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : Axis Bank
+  Location     : None
+  Start - End  : Apr ’21 - Oct ‘21
+  Duration     : 7 months
+  Bullets      : 0
+  Sub-sections : ['REGIONAL']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : HEAD SALES
+  Company      : Mortgages
+  Location     : 
+  Start - End  : Nov ’16 - Apr ‘21
+  Duration     : 54 months
+  Bullets      : 0
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : None
+  Company      : Express
+  Location     : challenges
+  Start - End  : Mar ’06 - Jan ’08
+  Duration     : 23 months
+  Bullets      : 0
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : MANAGER
+  Company      : Highly motivated
+  Location     : 
+  Start - End  : Feb ’04 - Mar ’06
+  Duration     : 26 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : SALES MANAGER,
+  Company      : | Positive attitude
+  Location     : 
+  Start - End  : Feb ’03 - Feb ’04
+  Duration     : 13 months
+  Bullets      : 3
+    • To ensure MOM business targets are achieved through various channels.
+    • Strategizing and implementing various schemes and marketing activities for increasing business.
+    • Train, motivate and monitor the performance of the team Implement MIS to analyze and improve on the performance Market analysis to understand the market opportunities Ensure and check that policies, process and standards are being implemented
+  Sub-sections : ['Developing inter-personnel relationships within the organization', 'Enhancing customer, channel, builder satisfaction & retaining their loyalty', 'KEY ACHIE VEM ENT S', 'All time high disbursal in PHL - OMT, Chennai, RBL Bank - July 2024.']
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 8
+  Role         : Post graduate diploma in Sales and Marketing from Small Industries Service
+  Company      : Pan India 2nd in ETRG Mortgage Disbursement
+  Location     : ICICI
+  Start - End  : April ’20 - Mar ‘21
+  Duration     : 12 months
+  Bullets      : 2
+    • Organized Builder Meet for top builders of Chennai in ICCI during July 2017 Represented Lancor in all Overseas Property Expo during my stint.
+    • Won an award - Flying high with DB Mortgages - 2011 Won 2 quarterly contests - Trip to Malaysia, Singapore, Indonesia & another trip to
+  Sub-sections : ['Thailand - 2009', 'Won a trophy & trip to Bangkok with a shopping voucher of USD 250 - 2005', 'Won the Torch Bearer award for exceptional performance - 2002', 'EDUC ATIONAL CREDENT IAL S', 'MBA [Marketing & Systems] from Madurai Kamaraj University, May ’02.', 'B.Sc., [Statistics] from Loyola College, April ’97.', 'Post graduate diploma in Sales and Marketing from Small Industries Service', 'Institute, April ’98.', 'Association of Mutual Funds in India (AMFI) Certification, Feb ’06.', 'Insurance Regulatory & Development Authority (IRDA) Certification, April’10.', 'COMP UTER PRO FICIENC Y', 'Web Programming from Software Solutions Integrated Limited(SSI),April ’01', 'Higher diploma in software engineering from Aptech Computer Education, June', '’97.', 'Played for school Cricket team.', 'Active member of NSS in school and college.', 'PERSON AL DET AIL S', 'Date of Birth', 'April 16, 1977', 'Father’s Name', 'S Jegatheesan, Retd., Banker', 'Spouse Name', 'M Subha Devi, Home Maker', 'Son’s Name', 'M Roshan, X Std', 'Nationality', 'Indian']
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.7
+  Needs Review : True

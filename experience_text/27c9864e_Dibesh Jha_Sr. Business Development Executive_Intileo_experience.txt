@@ -1,0 +1,94 @@
+======================================================================
+FILE: 27c9864e_Dibesh Jha_Sr. Business Development Executive_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+BDA – House of EdTech
+Dec 2025 – Feb 2026
+• Built strong relationships with customers
+• Explained product features effectively
+• Maintained data reports
+• Achieved average monthly sales of n1,50,000
+Senior Officer – Business Development
+PhonePe Pvt. Ltd., Kolkata
+Nov 2023 – Oct 2024
+• Acquired merch...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.8 years (70 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : BDA
+  Company      : House of EdTech
+  Location     : None
+  Start - End  : Dec 2025 - Feb 2026
+  Duration     : 3 months
+  Bullets      : 4
+    • Built strong relationships with customers
+    • Explained product features effectively
+    • Maintained data reports
+    • Achieved average monthly sales of n1,50,000
+  Method       : date_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Senior Officer – Business Development
+  Company      : PhonePe Pvt. Ltd
+  Location     : Kolkata
+  Start - End  : Nov 2023 - Oct 2024
+  Duration     : 12 months
+  Bullets      : 4
+    • Acquired merchants across schools, restaurants, and retail outlets for EDC machine deployment
+    • Conducted product demonstrations and explained features
+    • Managed onboarding and activation
+    • Provided post-sales support
+  Method       : date_regex+dash_title_next_line_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Business Development Officer
+  Company      : Prama India Pvt. Ltd
+  Location     : Kolkata
+  Start - End  : Mar 2023 - Nov 2023
+  Duration     : 9 months
+  Bullets      : 4
+    • Built partnerships with SI partners
+    • Gathered requirements for CCTV and networking products
+    • Managed purchase orders in SAP CRM
+    • Achieved average monthly sales of n50,000
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Field Sales Associate
+  Company      : Reliance Jio Fiber
+  Location     : Kolkata
+  Start - End  : Nov 2020 - Oct 2022
+  Duration     : 24 months
+  Bullets      : 3
+    • Generated leads through cold calling and field visits
+    • Managed onboarding and documentation
+    • Achieved 45 units/month sales
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Field Sales Executive
+  Company      : Spring Air Mattresses
+  Location     : Kolkata
+  Start - End  : May 2018 - Mar 2020
+  Duration     : 23 months
+  Bullets      : 2
+    • Product demos and negotiations
+    • Sales reporting and client handling
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

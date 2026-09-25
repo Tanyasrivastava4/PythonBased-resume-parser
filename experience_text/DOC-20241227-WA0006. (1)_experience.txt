@@ -1,0 +1,69 @@
+======================================================================
+FILE: DOC-20241227-WA0006. (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Relationship Officer in ICICI Bank Ltd, (Casa & Life Insurance) Raebareli up
+28 August 2013 - 7th Dec 2018
+Sales officer (casa)
+Indusind Bank Raebareli
+17th Dec 2018 - 7th August 2019
+Business development manager (casa & Life insurance) Raibareli
+Casa
+Bajaj Allianz Life. (agency)
+18th August 2019 ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.88
+Needs review   : True
+Total exp      : 2.5 years (30 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Sales officer
+  Company      : Indusind Bank Raebareli
+  Location     : None
+  Start - End  : 17th Dec 2018 - 7th August 2019
+  Duration     : 8 months
+  Bullets      : 1
+    • Business development manager (casa & Life insurance) Raibareli
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : Casa
+  Location     : None
+  Start - End  : 18th August 2019 - 12th October 2020
+  Duration     : 14 months
+  Bullets      : 1
+    • 
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : • PNB met life insurance company
+  Location     : None
+  Start - End  : 12th October 2020 - 16June 2021
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : None
+  Company      : SRM
+  Location     : None
+  Start - End  : 12 October 2020 - 16th June 2021
+  Duration     : 9 months
+  Bullets      : 1
+    • India first'life insurance company 19th July to - Till date
+  Sub-sections : ['BDM', 'RRB(Baroda up bank)']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

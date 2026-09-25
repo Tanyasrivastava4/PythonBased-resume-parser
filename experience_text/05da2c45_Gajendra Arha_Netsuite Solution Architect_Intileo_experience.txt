@@ -1,0 +1,118 @@
+======================================================================
+FILE: 05da2c45_Gajendra Arha_Netsuite Solution Architect_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Honors & Awards – Oracle (05/2022 - Present)
+Oracle India Pvt Ltd
+Winner, Probono Buildathon (2022).
+Silver Bullet Award, GDC AI Ideathon (FY24).
+Value Champ, Q4 FY24.
+Rockstar Team Recognition, Q1 & Q2 FY25.
+Northern Star Award, Q3 FY25.
+Suite Knowledge: Ultimate Contributor, Q4 FY25.
+Honors & Awar...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 8
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 16.2 years (194 months, 7 overlapping periods merged)
+
+Entry 1
+  Role         : Honors & Awards
+  Company      : Pvt Ltd
+  Location     : None
+  Start - End  : 05/2022 - Present
+  Duration     : 53 months
+  Bullets      : 0
+  Method       : date_regex+dash_split
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Outstanding Consultant
+  Company      : Northern Star Award
+  Location     : Q3 FY25.
+  Start - End  : 08/2010 - 03/2022
+  Duration     : 140 months
+  Bullets      : 0
+  Sub-sections : ['Outstanding Consultant (Asia Pacific Region)', 'Star Performer', 'Star of the Quarter Key']
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Led end-to-end NetSuite Financials implementations for 50+ clients, specializing Functional Consultant
+  Company      : USA
+  Location     : Canada
+  Start - End  : 06/2022 - Present
+  Duration     : 52 months
+  Bullets      : 2
+    • Led end-to-end NetSuite Financials implementations for 50+ clients, specializing Functional Consultant in wholesale distribution & manufacturing.
+    • Managed financial cutover activities during go-live, customized financial reports & dashboards, and integrated Bank Vaal Triangle Systems Pvt Ltd
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : design, configuration, data migration, UAT, go-live, and post-implementation Lead Support Consultant
+  Company      : Managed full-cycle project delivery including business analysis, solution www.vaal-triangle.com
+  Location     : None
+  Start - End  : 02/2016 - 05/2022
+  Duration     : 76 months
+  Bullets      : 2
+    • Managed full-cycle project delivery including business analysis, solution www.vaal-triangle.com, Pune, India design, configuration, data migration, UAT, go-live, and post-implementation Lead Support Consultant support.
+    • Designed and customized workflows, saved searches, dashboards, and reports to meet client specific KPIs.
+  Method       : date_regex
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 5
+  Role         : Support Engineer
+  Company      : SigmaTEK Systems India Pvt
+  Location     : None
+  Start - End  : 08/2014 - 01/2016
+  Duration     : 18 months
+  Bullets      : 1
+    • workshops, resolved configuration issues, conducted user training, and contributed www.sigmanest.com, New Delhi, India to solution architecture, proposal writing, and proof-of-concept presentations.
+  Sub-sections : ['Software Application &', 'In-House NetSuite ERP Implementation', 'Support Engineer']
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : None
+  Company      : Vaal Triangle Systems PVT Ltd
+  Location     : None
+  Start - End  : 08/2018 - 05/2022
+  Duration     : 46 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 7
+  Role         : None
+  Company      : www.amadaindia.co.in
+  Location     : New Delhi
+  Start - End  : 09/2010 - 07/2014
+  Duration     : 47 months
+  Bullets      : 2
+    • Led the successful in-house NetSuite ERP implementation, aligning system Lecturer capabilities with business goals to enhance efficiency and decision-making.
+    • Oversaw the full project lifecycle —architecture, configuration, testing, training, Maharaja College of and support—while streamlining core workflows and improving data visibility Engineering, Udaipur through tailored solutions and analytics.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 8
+  Role         : None
+  Company      : Shopfloor Success: VPSS IoT Solution Implementation www.maharajacolleges.org
+  Location     : Udaipur
+  Start - End  : 04/2019 - 07/2019
+  Duration     : 4 months
+  Bullets      : 0
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.55
+  Needs Review : True

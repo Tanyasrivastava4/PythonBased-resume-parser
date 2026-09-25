@@ -1,0 +1,60 @@
+======================================================================
+FILE: de8fbe9a_brijesh updated cv_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Wordpress (elementor , guttenberg)
+2023 - 2024
+Html
+Rajeev rock productions
+6 months
+Multimedia designer
+Css
+bootstrap
+2025
+Javascript
+Brainfoster Tech Private Limited
+5 months
+Wordpress Developer
+Jquery
+Photoshop
+2025 - 2026
+Figma
+Wildnet Technologies Inc.
+5 months
+Canva
+Web Developer
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.2 years (26 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Multimedia designer
+  Company      : Wordpress
+  Location     : None
+  Start - End  : 2023 - 2024
+  Duration     : 13 months
+  Bullets      : 2
+    • months
+    • months
+  Sub-sections : ['Multimedia designer', 'Css', 'bootstrap', '2025', 'Javascript', 'Brainfoster Tech Private Limited', 'Wordpress Developer']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Web Developer
+  Company      : Wildnet Technologies Inc
+  Location     : None
+  Start - End  : 2025 - 2026
+  Duration     : 13 months
+  Bullets      : 1
+    • months
+  Sub-sections : ['Canva', 'Web Developer']
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

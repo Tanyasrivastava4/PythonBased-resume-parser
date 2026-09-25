@@ -1,0 +1,42 @@
+======================================================================
+FILE: Devesh Sharma_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Security Delivery Analyst
+Oct 2021 - Present
+Accenture
+Gurugram, Haryana
+4.5 years of experience managing end-to-end SOC operations and cloud security services for multiple global clients,
+ensuring effective monitoring, detection, and response to evolving threats. Proven ability to strengthen securi...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.94
+Needs review   : False
+Total exp      : 10.0 years (120 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Security Delivery Analyst
+  Company      : Gurugram
+  Location     : Haryana
+  Start - End  : Oct 2021 - Present
+  Duration     : 60 months
+  Bullets      : 2
+    • 4.5 years of experience managing end-to-end SOC operations and cloud security services for multiple global clients, ensuring effective monitoring, detection, and response to evolving threats.
+    • Proven ability to strengthen security postures through incident response, threat hunting, and automation across diverse cloud environments.
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : of experience managing end-to-end SOC operations and cloud security services for multiple global clients,
+  Company      : Unknown company
+  Location     : None
+  Start - End  : None - None
+  Duration     : 60 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False

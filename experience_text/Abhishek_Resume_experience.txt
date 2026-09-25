@@ -3,7 +3,8 @@ FILE: Abhishek_Resume_segmented.txt
 ======================================================================
 RAW EXPERIENCE SECTION (first 300 chars)
 ----------------------------------------------------------------------
-AI Engineer Dec 2024 – Oct 2025
+AI Engineer
+Dec 2024 – Oct 2025
 Digiquanta / Mondee, Hyderabad
 • Designed and deployed LLM-driven autonomous travel agents for flight/hotel search, itinerary generation, and personal-
 ized recommendations.
@@ -31,13 +32,13 @@ Entry 1
     • Implemented RAG pipelines with semantic chunking and embedding-based retrieval to improve factual accuracy of LLM responses.
     • Implemented a multilingual AI medical assistant (English, Hindi, Telugu) with sub-10s inference latency using OpenAI and Gemini APIs.
     • Improved flight and hotel price prediction accuracy by 30% through feature engineering and ensemble learning.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False
 
 Entry 2
   Role         : Backend Developer Intern
-  Company      : Enthuons Technologies Pvt. Ltd.
+  Company      : Enthuons Technologies Pvt. Ltd
   Location     : Noida
   Start - End  : Jan 2024 - Jun 2024
   Duration     : 6 months
@@ -45,6 +46,6 @@ Entry 2
     • Developed and deployed 12+ RESTful APIs using Node.js and Express.js, supporting 1,000+ requests/min.
     • Optimized database queries, middleware, and error handling, reducing backend failures by 20%.
     • Collaborated in Agile sprints, contributing to code reviews, debugging, and version control using Git and GitHub.
-  Method       : date_regex+title_dict
+  Method       : date_regex+title_dict+comma_company_location
   Confidence   : 0.98
   Needs Review : False

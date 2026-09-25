@@ -14,12 +14,12 @@ Spring Boot and Node.js, supporting high-availability, cloud-native applications
 EXTRACTION RESULTS
 ----------------------------------------------------------------------
 Entries found  : 2
-Confidence     : 0.85
-Needs review   : True
+Confidence     : 0.98
+Needs review   : False
 Total exp      : 7.4 years (89 months, 0 overlapping periods merged)
 
 Entry 1
-  Role         : None
+  Role         : Senior Software Engineer
   Company      : IBM India Pvt Ltd
   Location     : None
   Start - End  : 09/2021 - Present
@@ -35,12 +35,12 @@ Entry 1
     • Led and mentored junior developers across Angular and Node.js projects, enforcing best practices, code quality standards, and scalable design patterns
     • Collaborated with product owners and cross-functional teams to document user stories, technical specifications, and feature requirements, ensuring alignment across engineering, QA, and business stakeholders
   Sub-sections : ['(COS) bucket operations and event-driven workloads', 'Senior Software Engineer']
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
 
 Entry 2
-  Role         : None
+  Role         : Software Developer
   Company      : Trantor Pyt Ltd
   Location     : None
   Start - End  : 04/2019 - 07/2021
@@ -53,6 +53,6 @@ Entry 2
     • Actively participated in bi-weekly agile sprint planning
     • Mentored three junior developers in test-driven development and pair programming practices, improving team productivity by 10%
   Sub-sections : ['Software Developer']
-  Method       : date_regex
-  Confidence   : 0.85
-  Needs Review : True
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

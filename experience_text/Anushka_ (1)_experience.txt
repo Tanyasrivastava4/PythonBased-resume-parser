@@ -1,0 +1,52 @@
+======================================================================
+FILE: Anushka_ (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Software Development Engineer | The HRAlly | Remote
+April 2025 - Present
+• Developed AI-powered HR chatbot with natural language to SQL conversion with Role-Based Access Control
+(RBAC) and Redis caching for real-time database queries and enabling users to access complex HR data
+independently.
+• Buil...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.5 years (42 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Software Development Engineer
+  Company      : The HRAlly
+  Location     : None
+  Start - End  : April 2025 - Present
+  Duration     : 18 months
+  Bullets      : 5
+    • Developed AI-powered HR chatbot with natural language to SQL conversion with Role-Based Access Control (RBAC) and Redis caching for real-time database queries and enabling users to access complex HR data independently.
+    • Built comprehensive Xero API integration for bidirectional payroll data synchronization, including employees, pay runs, and leave applications reducing payroll processing time by 80 percent.
+    • Developed and maintained 15+ Django modules for end-to-end flow of HR management system spanning recruitment, payroll, attendance, leave, and asset tracking workflows.
+    • Deployed Django HR application to AWS Elastic Beanstalk with AWS S3 static file storage, implementing automated deployment pipeline and environment configuration management.
+    • Built AI resume filtration module using OpenAI, tiktoken for tokenization, and Django Celery background tasks, creating an intelligent candidate screening system with NLP-based resume parsing, skill matching, and automated ranking algorithms, processing 500+ resumes daily
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Software Development Engineer
+  Company      : GeeksforGeeks
+  Location     : None
+  Start - End  : Apr 2023 - Apr 2025
+  Duration     : 25 months
+  Bullets      : 7
+    • Developed and optimized scalable AI-powered backend services using Django, Python, and LangChain, integrating NLP models (GPT, BERT) to improve data retrieval by 30 percent
+    • Built and optimized Django REST APIs for AI-driven applications, reducing latency and improving response time.
+    • Designed and implemented high-performance backend data retrieval systems using Django ORM, Elasticsearch, PostgreSQL, and AWS Lambda, reducing query time by 40 percent.
+    • Developed and maintained user authentication role-based access control in Django to enhance security
+    • Integrated Django Celery for asynchronous task execution, enhancing system efficiency.
+    • Collaborated with cross-functional teams to define system architecture and align RAG implementations with business requirements.
+    • Implemented Redis caching and optimized Django ORM queries, reducing DB load and improving API response time by 35 percent.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False

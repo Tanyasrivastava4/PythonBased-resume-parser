@@ -1,0 +1,94 @@
+======================================================================
+FILE: 59d81872_Deepak Taneja_HRBP Leader_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Organization Experience
+Sept’23 – Till Date
+D Marketing Pro, NOIDA
+Role: HR Business Partner
+Built and executed the people strategy for a fast-growing digital marketing startup, scaling teams across performance marketing,
+content, tech, and client servicing while supporting business growth.
+Owned en...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.9
+Needs review   : True
+Total exp      : 9.9 years (119 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : HR Business Partner
+  Company      : Organization Experience
+  Location     : None
+  Start - End  : Sept’23 - Present
+  Duration     : 37 months
+  Bullets      : 5
+    • Built and executed the people strategy for a fast-growing digital marketing startup, scaling teams across performance marketing, content, tech, and client servicing while supporting business growth.
+    • Owned end-to-end talent acquisition, reducing average time-to-hire by ~30% and improving offer-to-join ratio through sharper role design and data-led sourcing.
+    • Designed HR governance from ground up—policies, payroll, compliance, HRIS, and workforce planning—bringing process maturity and cost discipline to a scaling organization.
+    • Drove measurable gains in employee engagement and retention by launching performance-linked rewards, manager capability interventions, and structured feedback cycles.
+    • Managed HR budgets and compensation frameworks, aligning rewards with performance metrics and revenue growth while maintaining cost efficiency in a startup environment.
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : NwN India
+  Location     : Gurugram Role:
+  Start - End  : Jul’21 - April’23
+  Duration     : 22 months
+  Bullets      : 6
+    • Led PAN-India talent acquisition for political consulting programs, hiring high-impact consultants and associates across multiple states while managing and scaling a 12-member recruitment team.
+    • Built and executed structured hiring pipelines for EILP & GILP programs, driving campus hiring from Tier 1 & Tier 2 institutions and ensuring consistent quality-to-scale outcomes.
+    • Owned end-to-end onboarding and induction for GILP Associates, enabling faster role readiness and smoother assimilation into field-intensive assignments.
+    • Spearheaded HR technology transformation—led needs analysis, vendor evaluation, negotiations, and implementation of Keka (HRMS) and Zaggle (Expense Management), improving data accuracy and process turnaround.
+    • Designed and maintained organization-wide dashboards for workforce analytics, leadership reporting, and compliance, enabling data-backed decision-making in a dynamic operating environment.
+    • Drove performance management through a 360-degree feedback framework, strengthening leadership accountability and improving role clarity across consulting cohorts.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : Domain Partner
+  Company      : 3EA
+  Location     : Lucknow
+  Start - End  : Sep’20 - Jul’21
+  Duration     : 11 months
+  Bullets      : 3
+    • Led feasibility studies and business planning for SME and startup clients, influencing go-to-market and hiring strategies.
+    • Managed a cross-functional team of 5 and owned recruitment, HR setup, and business development for 4 client organizations.
+    • Built knowledge frameworks and drove campus outreach and employer branding to strengthen early-talent pipelines.
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Consultant – HR
+  Company      : A&A Business Consulting
+  Location     : Ludhiana Role:
+  Start - End  : Jun’18 - Jun’20
+  Duration     : 25 months
+  Bullets      : 5
+    • We We Help Help You You Grow Grow Led core HR operations across functions, including rightsizing, compensation structuring, manpower planning, recruitment, performance appraisals, L&D, and grievance redressal.
+    • Partnered with leadership on culture, productivity, and talent decisions using HR metrics, dashboards, and workforce trend analysis.
+    • Owned end-to-end employee lifecycle management across business verticals—hiring, onboarding, performance management, employee relations, and exits—ensuring consistency and compliance.
+    • Standardized HR policies, SOPs, and documentation frameworks to strengthen governance, audit readiness, and employee experience.
+    • Coordinated payroll operations and statutory compliance (PF, ESIC, Shops & Establishments) with vendors, ensuring accuracy and timely execution.
+  Method       : date_regex+title_dict+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Manager – Human Resources
+  Company      : Times OOH, The Times of India Group
+  Location     : None
+  Start - End  : May'16 - Jun’18
+  Duration     : 26 months
+  Bullets      : 0
+  Sub-sections : ['TIMES TIMES COH COH', 'Manager – Human Resources', 'Led end-to-end campus recruitment (Times BLAZE) at premier B-schools for summer and management trainees; designed', 'structured induction framework and onboarding playbooks.', 'Benchmarked competitor sales incentive plans and designed performance-linked incentives for revenue teams, improving', 'motivation and alignment with growth goals.', 'Owned organization-wide performance management and rewards cycles—monthly, quarterly, annual R&R and mid-year/annual', 'appraisals.', 'Reviewed and upgraded HR policies, induction, and training architecture, deploying TNI-based quarterly and annual learning', 'calendars.', 'Designed and executed a multi-location employee engagement agenda (Connect–Celebrate–Develop), strengthening culture', 'and participation across teams.', 'Links:', '────────────────────────────────────────────────────────────', "[Found 7 sections total: ['header', 'summary', 'education', 'achievements', 'skills', 'certifications', 'experience']]"]
+  Method       : date_regex
+  Confidence   : 0.7
+  Needs Review : True

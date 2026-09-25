@@ -22,12 +22,16 @@ Python API Usage:
     result_json = process_resume("resumes/candidate.pdf")
 """
 
+import os
 import sys
 import gc
 import glob
+import time
 import json
+import hashlib
 import argparse
 from pathlib import Path
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from ingestion import read_resume_file
 from segmenter import split_into_sections
@@ -39,21 +43,27 @@ SEGMENTED_DIR = Path("segmented_text")
 FLAT_JSON_DIR = Path("flat_json")
 
 
-def _save_raw_text(file_path: str, text: str, output_dir: Path) -> Path:
+def _generate_unique_id(file_path: str) -> str:
+    """Generates an 8-character unique hex ID for a given file path."""
+    resolved_path = str(Path(file_path).resolve())
+    return hashlib.md5(resolved_path.encode("utf-8")).hexdigest()[:8]
+
+
+def _save_raw_text(file_path: str, text: str, output_dir: Path, unique_id: str) -> Path:
     """Saves Layer 0 extracted raw text to extracted_text/ folder."""
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(file_path).stem
-    out_path = output_dir / f"{stem}.txt"
+    out_path = output_dir / f"{unique_id}_{stem}.txt"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(text)
     return out_path
 
 
-def _save_segmented_text(file_path: str, sections: list, output_dir: Path) -> Path:
+def _save_segmented_text(file_path: str, sections: list, output_dir: Path, unique_id: str) -> Path:
     """Saves Layer 1 segmented section output to segmented_text/ folder."""
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(file_path).stem
-    out_path = output_dir / f"{stem}_segmented.txt"
+    out_path = output_dir / f"{unique_id}_{stem}_segmented.txt"
 
     with open(out_path, "w", encoding="utf-8") as f:
         for section in sections:
@@ -88,15 +98,17 @@ def process_resume(
         verbose: Whether to print progress to console
         
     Returns:
-        dict: The final flat JSON output record
+        dict: The final flat JSON output record containing unique ID
     """
     input_path = Path(file_path)
     if not input_path.exists():
         raise FileNotFoundError(f"Resume file not found: {file_path}")
 
+    unique_id = _generate_unique_id(str(input_path))
+
     if verbose:
         print(f"\n{'═' * 65}")
-        print(f"PROCESSING RESUME : {input_path.name}")
+        print(f"PROCESSING RESUME [{unique_id}] : {input_path.name}")
         print(f"{'═' * 65}")
 
     # Layer 0: Ingestion
@@ -105,13 +117,13 @@ def process_resume(
     else:
         raw_text = read_resume_file(str(input_path))
 
-    extracted_txt_path = _save_raw_text(str(input_path), raw_text, EXTRACTED_TEXT_DIR)
+    extracted_txt_path = _save_raw_text(str(input_path), raw_text, EXTRACTED_TEXT_DIR, unique_id)
     if verbose:
         print(f"✓ Layer 0 (Ingestion)     : Extracted {len(raw_text):,} characters -> {extracted_txt_path}")
 
     # Layer 1: Section Segmentation
     sections = split_into_sections(raw_text)
-    segmented_txt_path = _save_segmented_text(str(input_path), sections, SEGMENTED_DIR)
+    segmented_txt_path = _save_segmented_text(str(input_path), sections, SEGMENTED_DIR, unique_id)
     if verbose:
         labels = [s.label for s in sections]
         print(f"✓ Layer 1 (Segmentation)  : Found {len(sections)} sections {labels} -> {segmented_txt_path}")
@@ -121,7 +133,10 @@ def process_resume(
     out_dir_path.mkdir(parents=True, exist_ok=True)
     flat_record = flatten_resume_record(str(segmented_txt_path))
 
-    flat_json_path = out_dir_path / f"{input_path.stem}_flat.json"
+    # Insert unique ID at top of record
+    flat_record = {"id": unique_id, **flat_record}
+
+    flat_json_path = out_dir_path / f"{unique_id}_{input_path.stem}_flat.json"
     with open(flat_json_path, "w", encoding="utf-8") as f:
         json.dump(flat_record, f, indent=2, ensure_ascii=False)
 
@@ -132,9 +147,20 @@ def process_resume(
     return flat_record
 
 
+def _worker_process_resume(file_path: str, output_dir: str) -> tuple[str, bool, str]:
+    """Helper worker for process_all parallel execution."""
+    try:
+        process_resume(file_path, output_dir=output_dir, verbose=False)
+        return (file_path, True, "")
+    except Exception as e:
+        return (file_path, False, str(e))
+
+
 def process_all(
     input_dir: str = "resumes",
-    output_dir: str = "flat_json"
+    output_dir: str = "flat_json",
+    parallel: bool = True,
+    workers: int = None
 ) -> list[dict]:
     """
     Processes all resume files in a folder through the ATS parser pipeline.
@@ -142,6 +168,8 @@ def process_all(
     Args:
         input_dir: Directory containing resume files
         output_dir: Directory to save flat JSON outputs
+        parallel: Whether to run in parallel using CPU worker processes
+        workers: Max parallel workers (defaults to os.cpu_count())
         
     Returns:
         list[dict]: List of generated flat JSON records
@@ -150,39 +178,81 @@ def process_all(
     if not folder.exists():
         raise FileNotFoundError(f"Input directory not found: {input_dir}")
 
-    supported_extensions = ["*.pdf", "*.docx", "*.doc", "*.png", "*.jpg", "*.jpeg"]
+    supported_extensions = ["*.pdf", "*.docx", "*.doc", "*.png", "*.jpg", "*.jpeg", "*.txt"]
     files = []
     for ext in supported_extensions:
         files.extend(glob.glob(str(folder / ext)))
         files.extend(glob.glob(str(folder / ext.upper())))
 
     files = sorted(list(set(files)))
+    total_files = len(files)
     if not files:
         print(f"No supported resume files found in {input_dir}/")
         return []
 
-    print(f"\n🚀 Starting batch execution for {len(files)} resume(s) in '{input_dir}/'...")
-    results = []
-    success_count = 0
-    fail_count = 0
-    for idx, f in enumerate(files, 1):
-        print(f"\n[{idx}/{len(files)}]")
-        try:
-            res = process_resume(f, output_dir=output_dir, verbose=True)
-            results.append(res)
-            success_count += 1
-        except Exception as e:
-            print(f"❌ ERROR processing {f}: {e}")
-            fail_count += 1
-        finally:
-            gc.collect()
+    num_workers = workers or os.cpu_count() or 4
 
-    print(f"\n{'═' * 65}")
-    print(f"BATCH COMPLETE: {success_count} succeeded, {fail_count} failed out of {len(files)} files.")
-    print(f"Outputs saved to: {output_dir}/")
-    print(f"{'═' * 65}\n")
+    if parallel and num_workers > 1:
+        print(f"\n🚀 Starting PARALLEL batch execution for {total_files} resumes in '{input_dir}/'...")
+        print(f"⚙️  Using {num_workers} parallel CPU processes...")
+        start_time = time.time()
+        success_count = 0
+        fail_count = 0
+        failures = []
 
-    return results
+        with ProcessPoolExecutor(max_workers=num_workers) as executor:
+            future_map = {
+                executor.submit(_worker_process_resume, f, output_dir): f
+                for f in files
+            }
+            completed = 0
+            for future in as_completed(future_map):
+                completed += 1
+                f_path, success, err = future.result()
+                stem = Path(f_path).name
+                elapsed = time.time() - start_time
+                rate = completed / elapsed if elapsed > 0 else 0
+                remaining = (total_files - completed) / rate if rate > 0 else 0
+
+                if success:
+                    success_count += 1
+                    print(f"✓ [{completed}/{total_files}] Processed: {stem} | Elapsed: {elapsed:.1f}s | Est. Left: {remaining:.1f}s")
+                else:
+                    fail_count += 1
+                    failures.append((stem, err))
+                    print(f"❌ [{completed}/{total_files}] Failed: {stem} ({err})")
+
+        total_elapsed = time.time() - start_time
+        print(f"\n{'═' * 65}")
+        print(f"BATCH COMPLETE IN {total_elapsed:.1f}s ({total_elapsed/60:.2f} mins)")
+        print(f"Summary: {success_count} succeeded, {fail_count} failed out of {total_files} files.")
+        print(f"Outputs saved to: {output_dir}/")
+        print(f"{'═' * 65}\n")
+
+        return []
+    else:
+        print(f"\n🚀 Starting batch execution for {total_files} resume(s) in '{input_dir}/'...")
+        results = []
+        success_count = 0
+        fail_count = 0
+        for idx, f in enumerate(files, 1):
+            print(f"\n[{idx}/{total_files}]")
+            try:
+                res = process_resume(f, output_dir=output_dir, verbose=True)
+                results.append(res)
+                success_count += 1
+            except Exception as e:
+                print(f"❌ ERROR processing {f}: {e}")
+                fail_count += 1
+            finally:
+                gc.collect()
+
+        print(f"\n{'═' * 65}")
+        print(f"BATCH COMPLETE: {success_count} succeeded, {fail_count} failed out of {total_files} files.")
+        print(f"Outputs saved to: {output_dir}/")
+        print(f"{'═' * 65}\n")
+
+        return results
 
 
 if __name__ == "__main__":
@@ -191,14 +261,18 @@ if __name__ == "__main__":
     parser.add_argument("--all", action="store_true", help="Process all resumes in the default resumes/ folder.")
     parser.add_argument("--dir", type=str, default=None, help="Process all resumes in a custom directory.")
     parser.add_argument("--output", type=str, default="flat_json", help="Directory to save flat JSON outputs.")
+    parser.add_argument("--sequential", action="store_true", help="Run sequentially instead of parallel.")
 
     args = parser.parse_args()
 
     if args.all or args.dir:
         target_dir = args.dir if args.dir else "resumes"
-        process_all(input_dir=target_dir, output_dir=args.output)
+        process_all(input_dir=target_dir, output_dir=args.output, parallel=not args.sequential)
+        sys.exit(0)
     elif args.file:
         process_resume(args.file, output_dir=args.output, verbose=True)
     else:
         # Default behavior if no arguments passed: process resumes/ folder
-        process_all(input_dir="resumes", output_dir=args.output)
+        process_all(input_dir="resumes", output_dir=args.output, parallel=not args.sequential)
+        sys.exit(0)
+
