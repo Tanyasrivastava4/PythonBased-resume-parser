@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "source_file": "0ae428d8_17fe35c5_Naga Jyothi Konreddy_AM-GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:57:50.475941+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Naga Jyothi Konreddy",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "konreddynagajyothi17@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917981182437 / 20215475",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To pursue a career in an organization where my skills, knowledge and attitude\nareutilized thereby resulting in a mutual benefit by creating maximum value to the\norganization while enhancing my professional competence.",
+  "skills": {
+    "items": [
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Windows",
+      "Microsoft Word",
+      "QuickBooks",
+      "Tally"
+    ],
+    "by_category": {
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "os_system": [
+        "Microsoft Windows"
+      ],
+      "finance_ops": [
+        "QuickBooks",
+        "Tally"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Quick Books→QuickBooks(100%), PowerPoint→Microsoft PowerPoint(100%), Excel→Microsoft Excel(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Audit Senior : EY Global Services India LLP",
+        "company": "Obtained an understanding of internal financial controls over financial reporting and performing detailed test of controls.",
+        "location": null,
+        "start": "12/2021",
+        "end": "31/2025",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 49,
+        "bullets": [
+          "Performed Financial Statement Audits ensuring compliance with SEC regulations and Generally Accepted Accounting Principles (GAAP).",
+          "Managed audit engagement from planning to conclusion and coordinating with core audit team.",
+          "Performed detailed review and test of scoping Balance sheet and Profit and Loss Accounts.",
+          "Involved in the preparation of Placemats to understand various business process of a client",
+          "Performed detailed substantive testing of account balances, analyzing supporting documentation and performing reconciliations.",
+          "Performed end to end Substantive testing for Cash accounts, Debt accounts, Investment Accounts, Expenses Accounts, Commissions testing which includes testing of Investment Banking revenue, Merger & Acquisition, Underwriting commission, Asset Management fee.",
+          "Staying up to date with changes in accounting regulations and industry practices, implementing updated technologies.",
+          "Mentoring and training junior team members on audit techniques and procedures.",
+          "Responsible for high quality deliverables, adherence to engagement or task deadlines.",
+          "Article Trainee at Garla Chandra Sekhar & Co.",
+          "Key Assignments handled:",
+          "Accounting",
+          "Engaged in Books Closing, Reconciliation of Accounts & Preparation of Financial Statements from books of accounts.",
+          "Month end Book closing analysis and Finalizing the books of accounts as per Accounting records.",
+          "Preparation of working capital loan proposals & projected financial statements.",
+          "Conducted stock takes of few manufacturing and trading concerns.",
+          "General accounting, Accounts Payable and Accounts Receivable, Bank Reconciliation, summarizes current financial status by collecting information; preparing balance sheet, profit and loss statement, and Finalization of account.",
+          "Preparing financials as per generally accepted accounting principles",
+          "Audit",
+          "Statutory Audits of Banks as per companies act",
+          "Tax audits under Income tax Act.",
+          "Internal Audits of Private limited Companies.",
+          "Performed audits of various entities & reporting under GST and VAT.",
+          "Taxation",
+          "Tax audits of various Corporate &Non Corporate Assesses and also preparation and filing of form 3CD.",
+          "Filing of various returns such as GST returns, TDS returns, Income Tax returns, Wealth Tax returns, Service Tax returns etc.",
+          "Company Secretarial",
+          "Preparation of Financial Statements to Private companies in compliance with Schedule III and Accounting Standards."
+        ],
+        "sub_sections": [
+          "Roles and the responsibilities",
+          "I have undergone 3years of articleship and working as paid assistant with Garla",
+          "Chandrasekhar Chartered accountancy firm, kadapa.",
+          "(GAAP), Accounting standards (AS)"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.1,
+      "total_months": 49,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final group-2",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2018",
+        "gpa": "54.75%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA-IPCC",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2014",
+        "gpa": "53.00%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA-CPT",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2013",
+        "gpa": "73.50%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Yogi Vemana University",
+        "year": "2015",
+        "gpa": "63.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Board of Intermediate",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Board of",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class XII",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Board of",
+        "year": "2013",
+        "gpa": "95.1%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "(M.E.C)",
+        "degree_name": "M.E.",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "Class X",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Board of",
+        "year": "2010",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.82
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "86.7%",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "User recognition and SPOT awards",
+      "Streamlined Audit Processes",
+      "Developed Automation Tools"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.8
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

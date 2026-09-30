@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "source_file": "6d3bc37b_fc838d23_Param Preet Singh - Resume_segmented.txt",
+    "generated_at": "2026-09-30T06:59:06.949056+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Param Preet Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "preet.param.ca@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "83609-87213 / 20213103",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Analytical Thinking",
+      "IFRS",
+      "Interpersonal Skills",
+      "MS Office",
+      "Microsoft Excel",
+      "Professional Ethics",
+      "Report Writing",
+      "SAP",
+      "Screener.in",
+      "Statutory Audit",
+      "Variance Analysis"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Analytical Thinking",
+        "Interpersonal Skills"
+      ],
+      "finance_ops": [
+        "IFRS",
+        "Statutory Audit"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel"
+      ],
+      "soft_skills": [
+        "Professional Ethics"
+      ],
+      "content": [
+        "Report Writing"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "finance": [
+        "Screener.in"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), Analytical Skills→Analytical Thinking(100%), Ethics→Professional Ethics(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Article Assistant at RR &",
+        "company": "A leading CA firm with a presence of 25+ years having 2 branches and 4 partners providing services to 150+ clients like Statutory",
+        "location": "Associates, Punjab",
+        "start": "August 2021",
+        "end": "August 2024",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 37,
+        "bullets": [
+          "A leading CA firm with a presence of 25+ years having 2 branches and 4 partners providing services to 150+ clients like Statutory Audits, Tax Audits, Bank Audits, Project Financing, GST, Income Tax and personalized tax planning.",
+          "Performed end-to-end Statutory Audits, conducted in-depth ledger scrutiny, substantive audit procedures, vouching and verification, ensuring compliance with Standards on Auditing (SAs), Accounting Standards (AS), Companies Act, 2013, and other relevant laws.",
+          "Managed Tax Audits as per Income Act, 1961 of a varied client base across industries like manufacturing, trading and service sector having turnover of ₹ 90+ Crores.",
+          "Performed pre-planning and initial audit engagement procedures, including client background checks, communication with predecessor auditors, drafting of engagement letters and reconciliation of opening balances with audited financial statements of prior period.",
+          "Worked closely with principal on Statutory Audits of public sector bank branches, including audit planning, drafting Long Form Audit Report, performing audit procedures for test of controls across significant areas such as cash, valuable stationery items like FDRs, DDs, cheque leaves, and fixed assets.",
+          "Conducted comprehensive audit procedures for Statutory Audit of public sector insurance companies, including determination of materiality level for sample selection to test various types of insurance claims paid, and drafting of auditor’s report.",
+          "Led an engagement to audit Procure to Pay (P2P) process of a manufacturing entity having turnover of more than ₹ 200 crores using advanced Excel functions, identifying control gaps, resulting in the recommendation of process improvements.",
+          "Performed periodic verification of inventory items, assessing internal controls, identifying material variances and reporting of audit findings to senior management.",
+          "Assisted various clients in preparation and finalisation of accounting books complying with Accounting Standards (AS) and other relevant tax laws, resulting in the reduction in audit errors.",
+          "Filed quarterly TDS and TCS returns as per tax laws, ensuring accurate filing and minimum expense disallowance in the tax audit report.",
+          "Filed monthly GST returns, including GSTR-1/IFF, GSTR-3B, and reconciliation of books with GSTR-2A and GSTR-2B.",
+          "Drafted and filed replies for income tax notices, performing case law research, filing appeals with CIT (Appeals), resulting in a favourable order in a case involving an addition of ₹ 25+ Lakhs.",
+          "Managed filing of Income Tax Returns for 50+ clients, ensuring accurate computation of total income, tax liability and timely submissions."
+        ],
+        "sub_sections": [
+          "Statutory Audit",
+          "Taxation"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.1,
+      "total_months": 37,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final: 337/600",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": "337/600",
+        "institution": "Chartered Institute of Chartered subjects. Accountancy Accountants of India",
+        "year": "2021",
+        "gpa": "83.86%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Accountancy Accountants of India September 2025 CA Intermediate: 406/800 Cleared in respective First",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": "406/800 Cleared in respective First",
+        "institution": "Chartered Institute of Chartered subjects. Accountancy Accountants of India",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA Foundation: 245/400 Cleared in First Attempt",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": "245/400 Cleared in First Attempt",
+        "institution": "Chartered Institute of Chartered subjects. Accountancy Accountants of India",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class XII Punjab School Education March 2018 414/450 (92%)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Punjab School Education",
+        "year": "2018",
+        "gpa": "92%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class X",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Punjab School Education",
+        "year": "2016",
+        "gpa": "94.15%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Earned certifications on Forage for various Virtual Job Simulation courses on Audit by top firms like Grant Thornton",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Australia, KPMG UK, PwC Switzerland and EY.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Undergoing certificate course of 25+ hours on Statutory Audit Masterclass by CA Shivam Palan from CA Monk.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Awarded Third Rank for Best Presenter in Advanced (ICITSS) MCS Course, demonstrating strong interpersonal",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "skills.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "CA Final: 337/600",
+      "Secured Exemption in 3",
+      "Chartered Institute of Chartered",
+      "subjects.",
+      "Accountancy Accountants of India September 2025 CA Intermediate: 406/800 Cleared in respective First",
+      "Attempts with 1 Exemption.",
+      "CA Foundation: 245/400 Cleared in First Attempt.",
+      "Panjab University,",
+      "Secured First Division in a",
+      "in Accounting and Finance.",
+      "Class XII Punjab School Education March 2018 414/450 (92%)",
+      "Commerce with Mathematics",
+      "Board, Mohali",
+      "as an additional subject.",
+      "Punjab School Education March 2016 612/650 (94.15%)",
+      "School Topper.",
+      "Board, Mohali"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.82
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

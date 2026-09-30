@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "source_file": "3c013c4d_c84e1a79_CA Udit Singh_CVs_segmented.txt",
+    "generated_at": "2026-09-30T06:58:20.294574+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Udit Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "cauditsingh@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9026559474",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/uditsingh97",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with strong academic performance including 5 exemptions in CA Final, and professional experience in statutory audit,\nSOX / ICFR controls testing, and financial reporting within consulting and financial services environments. Skilled in Risk & Control Matrix (RCM)\ndocumentation, risk assessment, analytical review, and evaluation of internal financial controls across R2R, P2P and O2C cycles under Ind AS /\nIFRS frameworks. Experienced in supporting audit engagements, financial statement reviews, and coordinating with global teams to strengthen\ninternal control environments and ensure regulatory compliance.",
+  "skills": {
+    "items": [
+      "Alteryx",
+      "Auditing",
+      "Control Testing",
+      "Data Analysis",
+      "Financial Analysis",
+      "Financial Reporting",
+      "Financial Statement Analysis",
+      "GST",
+      "IFRS",
+      "Ind AS",
+      "Internal Financial Controls",
+      "Microsoft Access",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Microsoft Word",
+      "Order-to-Cash",
+      "Pivot Tables",
+      "Power BI",
+      "Procure-to-Pay",
+      "Record-to-Report",
+      "Regulatory Compliance",
+      "Risk & Control Matrix",
+      "Risk Assessment",
+      "SAP",
+      "SOX",
+      "Statutory Audit",
+      "Tally",
+      "Taxation",
+      "VLOOKUP",
+      "Variance Analysis"
+    ],
+    "by_category": {
+      "data_science": [
+        "Alteryx",
+        "Data Analysis",
+        "Power BI"
+      ],
+      "finance_ops": [
+        "Auditing",
+        "Financial Analysis",
+        "Financial Reporting",
+        "IFRS",
+        "SOX",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "finance": [
+        "Control Testing",
+        "Financial Statement Analysis",
+        "Ind AS",
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Record-to-Report",
+        "Risk & Control Matrix"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "database": [
+        "Microsoft Access"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Teams",
+        "Microsoft Word",
+        "Pivot Tables"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "office": [
+        "VLOOKUP"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), MS Access→Microsoft Access(100%), MS Word→Microsoft Word(100%), MS PowerPoint→Microsoft PowerPoint(100%), Financial Data Analysis→Financial Analysis(95%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Trainee",
+        "company": "Genpact India Private Limited",
+        "location": "Management",
+        "start": "June 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 16,
+        "bullets": [
+          "– Facilitated process walkthroughs and documentation of Risk & Control Matrices (RCM) for key financial cycles including R2R, P2P and O2C. – Supported SOX / ICFR control testing, including documentation of Design and Operating Effectiveness (DOE) and evaluation of Internal Financial Controls (IFC). – Contributed to financial reporting risk assessments and assisted in identification and remediation tracking of control deficiencies. – Coordinated with US onshore audit teams during audit cycles by providing audit evidence, reconciliations and financial reporting schedules. – Performed analytical review procedures, account reconciliations and variance analysis to enhance reporting accuracy under IFRS and Ind AS frameworks. – Assisted in preparation of financial reporting schedules and supported financial statement review during statutory and compliance audits."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager",
+        "company": "ICICI Home Finance Company Limited",
+        "location": "Deputy",
+        "start": "Jan 2025",
+        "end": "June 2025",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 6,
+        "bullets": [
+          "– Conducted detailed credit risk evaluations to determine loan eligibility under AS & Ind AS frameworks – Identified early warning signals and applied risk mitigation strategies, including collateral evaluation and personal discussions with borrowers. – Ensured compliance with internal credit policy, RBI norms, SOX control and audit requirements to maintain portfolio quality."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager",
+        "company": "P Kant Tandon & Co",
+        "location": "Chartered Accountants",
+        "start": "May 2024",
+        "end": "January 2025",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 9,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Specialist",
+        "company": "V S Verma & Associates",
+        "location": "Compliance",
+        "start": "October 2022",
+        "end": "April 2024",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant",
+        "company": "P Kant Tandon & Co",
+        "location": "Chartered Accountants",
+        "start": "September 2019",
+        "end": "September 2022",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 37,
+        "bullets": [
+          "Executed statutory audits of 10+ entities across Manufacturing, FMCG and Logistics sectors with turnover ranging from ₹20 Cr to ₹180 Cr.",
+          "Performed risk assessment and substantive audit procedures across key financial areas including Revenue, Purchases, Fixed Assets, Inventory and Statutory Dues.",
+          "Contributed to finalization of financial statements and preparation of detailed audit schedules under Ind AS / AS framework.",
+          "Conducted analytical review procedures and identified material misstatements requiring management adjustments.",
+          "Verified GST, TDS and Income Tax compliances and supported CARO reporting requirements.",
+          "Assisted in drafting audit reports and ensuring compliance with statutory reporting standards.",
+          "Coordinated with client finance teams and supervised junior articles during audit fieldwork.",
+          "Independently prepared and reviewed Form 3CD of 20+ Companies & LLPs, ensuring compliance with relevant provisions of the Income Tax Act.",
+          "Filed Income Tax Returns for individuals, companies, partnership firms and LLPs including NRIs.",
+          "Drafted Statement of Facts and Grounds of Appeal and filed Form 35 with detailed submissions before the Commissioner of Income Tax (Appeals)."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.1,
+      "total_months": 85,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• CA – Final | ICAI | 2024 | 62.14% | 5 Exemptions in Final Paper",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2024",
+        "gpa": "62.14%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• B.com, Dr. Ram Manohar Lohia Avadh University | 2018",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Dr. Ram Manohar Lohia Avadh University",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Owned and managed a YouTube channel focused on CA Final preparation with 20K+ views",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Completed Prompt Engineering for ChatGPT AI course from Great Learning Academy.",
+      "Certification Quiz on Insolvency and Bankruptcy Code organized by Government of India.",
+      "Owned and managed a YouTube channel focused on CA Final preparation with 20K+ views"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "source_file": "895c769f_7a367bfa_Naukri_MrityunjayPrasadRoy[20y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:59:35.671859+00:00",
+    "sections_found": [
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Cs Mrityunjay Prasad Roy",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "997126966 / 7678438592",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Business Planning",
+      "Collaboration",
+      "Contract Management",
+      "Corporate Law",
+      "Due Diligence",
+      "GST",
+      "Intellectual Property",
+      "Pinterest",
+      "Private Equity",
+      "RBI",
+      "Route",
+      "Scheme",
+      "Working Capital Financing",
+      "Zoom"
+    ],
+    "by_category": {
+      "biz_dev": [
+        "Business Planning"
+      ],
+      "soft_skill": [
+        "Collaboration"
+      ],
+      "legal": [
+        "Contract Management",
+        "Corporate Law",
+        "Intellectual Property"
+      ],
+      "finance": [
+        "Due Diligence",
+        "Private Equity"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "search": [
+        "Pinterest"
+      ],
+      "domain": [
+        "RBI"
+      ],
+      "cloud_infra": [
+        "Route"
+      ],
+      "dev_tool": [
+        "Scheme"
+      ],
+      "banking": [
+        "Working Capital Financing"
+      ],
+      "productivity": [
+        "Zoom"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(interest→Pinterest(94%), route→Route(100%), Business Loan→Business Planning(92%), Working Capital Loan→Working Capital Financing(95%), Trademark→Intellectual Property(95%)...)"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Mr. Mrityunjay Prasad Roy (FCS, LL.B) is fellow member of Institute of Company Secretaries of India (ICSI) and a Law Graduate. I have more than 18+ years of experience in corporate laws and compliances, Due Diligence, Acquisition, Take Over and Corporate Restructuring of Listed & unlisted Company Revocation of Suspension, Direct Listing, Preferential Issues and compliances pertaining to the Companies Act, and I have worked with various Groups/Corporate Houses in India. My experience in the field of Corporate Law, RBI and RBI matters like ECB, FDI. Acquisition & transfer of Ownership of NBFC, Foreign Investment, Loan Documentation, Joint Venture, Strategic Alliances, and Intellectual Property like Trade mark. Vast experience for setting up and its compliances for NIDHI company, Producer Company, Multi State Cooperative Society Under Ministry of Agriculture, and Govt. of India. He has also worked for arrangement of Fund/Business Loan/ Working Capital Loan/ LAP etc. from Bank and Private Financial Institutions and also compounding, approvals/sanctions of Department of Company Affairs, Company Law Tribunals, Regional Director, NCLT matters with respect to various matters under the Companies Act, 2013",
+        "degree_name": "LLB",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Mr. Mrityunjay Prasad Roy FCS, is fellow member of Institute of Company Secretaries of India (ICSI) and a Law Graduate. I have more than",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

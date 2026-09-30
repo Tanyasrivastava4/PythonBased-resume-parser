@@ -1,0 +1,624 @@
+{
+  "meta": {
+    "source_file": "bf0fef68_65fbffc0_Resume_Anil6PG_segmented.txt",
+    "generated_at": "2026-09-30T07:00:16.004641+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anil Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "anil.sharma1144@outlook.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9870670907 / 27001-2022",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/anil-sharma-96077255",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Senior Infrastructure and Information Security Leader with 16+ years’ expertise in enterprise vulnerability management,\nregulatory compliance, IT operations resilience, audit automation, and predictive security. Proven record as primary CXO-\nlevel liaison for RBI and ISO audits, ISMS governance, and strategic vendor management. Holds an MBA in IT Operations\nand certifications including AWS Certified Security – Specialty (SCS-C02) and Certified Information Security Manager\n(CISM). Proficient in cloud security architecture, governance, risk management, and aligning security strategies with\nbusiness objectives to strengthen cyber resilience and compliance maturity across hybrid and cloud environments.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "CEH",
+      "CISM",
+      "Cross-functional Collaboration",
+      "Data Management",
+      "ISMS",
+      "ISO 27001",
+      "IT Infrastructure Management",
+      "IT Ops",
+      "IT Risk Management",
+      "IT Security",
+      "Identity Management",
+      "Incident Management",
+      "Information Security",
+      "Leadership",
+      "Microsoft Teams",
+      "Objective C",
+      "RBI",
+      "Regulatory Compliance",
+      "Risk Management",
+      "SDLC",
+      "SIEM",
+      "Security Architecture",
+      "Security Awareness Training",
+      "Vendor Management",
+      "Vulnerability Management"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2"
+      ],
+      "security_ops": [
+        "CEH",
+        "CISM",
+        "ISMS",
+        "ISO 27001",
+        "SIEM",
+        "Security Architecture",
+        "Security Awareness Training"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams"
+      ],
+      "it_ops": [
+        "IT Infrastructure Management"
+      ],
+      "domain": [
+        "IT Ops",
+        "RBI"
+      ],
+      "security": [
+        "IT Risk Management",
+        "IT Security",
+        "Identity Management",
+        "Incident Management",
+        "Information Security",
+        "Vulnerability Management"
+      ],
+      "programming_language": [
+        "Objective C"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "operations": [
+        "Vendor Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Cism→CISM(100%), risk management→Risk Management(100%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%), regulatory compliance→Regulatory Compliance(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Sr Manager",
+        "company": "Infrastructure, Enterprise Security & Cybersecurity",
+        "location": null,
+        "start": "Dec 2022",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 46,
+        "bullets": [
+          "Equifax Inc. is a leading financial services provider in India, delivering credit reports and scores to banks, BFSI institutions, and MFIs, operating under the regulatory framework of the Reserve Bank of India.",
+          "Enterprise Security & Vulnerability Management",
+          "Directed enterprise-wide Vulnerability Management Program across Windows, Linux, Unix, databases, on-prem data centers, and cloud platforms.",
+          "Implemented risk-based remediation frameworks leveraging predictive analytics, reducing false positives by 15% and improving patch SLA compliance by 10%.",
+          "Established automated patch orchestration and compliance tracking, increasing deployment success rate by 15%.",
+          "Security Operations Center (SOC) & Threat Management",
+          "Built and matured 24x7 SOC operations, enabling real-time threat detection, incident response, and threat hunting.",
+          "Led implementation of SIEM & SOAR platforms including Splunk Enterprise Security, IBM QRadar, Microsoft Sentinel, ArcSight, LogRhythm, Palo Alto Cortex XSOAR, and Splunk SOAR to automate incident response and improve SOC efficiency.",
+          "Cloud Security & Governance (AWS)",
+          "Architected and governed enterprise cloud security framework on AWS, implementing services such as AWS Security Hub, GuardDuty, WAF, Shield, IAM, CloudWatch, and AWS Config.",
+          "Ensured secure cloud adoption aligned with Zero Trust principles, CIS benchmarks, and regulatory requirements.",
+          "Data Center & Infrastructure Leadership",
+          "Led design and operations of highly available, fully redundant Tier III/IV data centers, supporting IaaS and PaaS environments with 24x7 uptime.",
+          "Delivered Disaster Recovery (DR) and Business Continuity Planning (BCP) strategies ensuring minimal downtime and operational resilience.",
+          "Drove capacity planning, performance optimization, and operational insights, improving infrastructure efficiency by 15%.",
+          "Regulatory Compliance & ISMS Governance",
+          "Served as Primary SPOC for RBI and ISO/IEC 27001:2022 audits, managing end-to-end audit lifecycle including governance, risk assessment, evidence management, and remediation.",
+          "Architected and governed Information Security Management System (ISMS), defining policies, controls, and enterprise security frameworks.",
+          "Compliance automation, reducing audit response time by 20%.",
+          "IT Strategy, Financial Planning & Vendor Management",
+          "Defined and executed enterprise IT infrastructure strategy and roadmap, aligning with business goals.",
+          "Managed IT budgeting, cost optimization, and financial planning, ensuring ROI-driven investments.",
+          "Led vendor governance, OEM partnerships, and techno-commercial negotiations, ensuring alignment with cybersecurity and infrastructure strategy.",
+          "Enterprise IT Operations & Workplace Services",
+          "Managed end-user computing, workplace services, and unified communication (UC) infrastructure, including AV systems.",
+          "Oversaw enterprise data platforms and analytics ecosystems such as Azure Synapse, AWS Redshift, and Google BigQuery"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager - Head of Information Security (InfoSec) & IT",
+        "company": "Worked with Axis Trustee Services Limited, a subsidiary of Axis Bank, supporting finance domain platforms across debentures (NCDs), securitization, AIFs, REITs/InvITs, and escrow-based structured lending solutions.",
+        "location": "Head of Information Security  & IT",
+        "start": "Nov 2019",
+        "end": "Dec 2022",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 38,
+        "bullets": [
+          "Defined and executed enterprise IT strategy and technology roadmap, aligning infrastructure, security, and application initiatives with business objectives in a regulated financial environment.",
+          "Led end-to-end data center operations and cloud transformation, ensuring high availability, scalability, and resilience across critical systems with focus on IaaS/PaaS adoption and hybrid cloud architecture.",
+          "Directed infrastructure and application delivery teams, driving secure software development, system integration, and cross-functional collaboration for high-quality and reliable platform delivery.",
+          "Designed and implemented enterprise cybersecurity strategy, covering network security, endpoint protection, vulnerability management, and SOC operations, strengthening overall security posture.",
+          "Ensured regulatory compliance and governance aligned with Securities and Exchange Board of India guidelines and industry standards, including audit readiness, risk management, and control implementation.",
+          "Established and operationalized incident response and crisis management frameworks, improving response time and minimizing business impact of security incidents.",
+          "Led information security awareness and training programs, enhancing organizational security culture and reducing human risk factors."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Engineer",
+        "company": "Digiphoto Entertainment Imaging (DEI",
+        "location": null,
+        "start": "Feb 2019",
+        "end": "Nov 2019",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 10,
+        "bullets": [
+          "Planned and executed new projects by designing scalable network architectures, enhancing system performance and reliability by 30%.",
+          "Delivered third-level technical support, resolving escalated issues within SLA timelines to minimize downtime and boost user satisfaction by 25%.",
+          "Managed IT installations, ensuring 100% compliance with regulatory frameworks and ISO quality management standards.",
+          "Implemented proactive issue management strategies to identify and mitigate potential risks, reducing incident frequency by 20%.",
+          "Coordinated vendor relationships to optimize service delivery and negotiate cost-effective contracts, achieving a 15% reduction in operational expenses.",
+          "Finalized project budgets, aligning with financial goals and ensuring efficient resource allocation to meet 98% of project milestones on time."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager",
+        "company": "Information Security & Cybersecurity",
+        "location": null,
+        "start": "Feb 2017",
+        "end": "Feb 2019",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "IT Executive",
+        "company": "Bharat Diamond Bourse",
+        "location": null,
+        "start": "May 2012",
+        "end": "Feb 2017",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 58,
+        "bullets": [
+          "Led end-to-end delivery of large-scale IT infrastructure, data center, and integrated security projects for a high-security enterprise, ensuring seamless execution and compliance with stringent security standards.",
+          "Designed and implemented Primary Data Center and Disaster Recovery (DR) site, achieving 99.99% system availability and robust business continuity.",
+          "Deployed over 3,500 IP-based CCTV systems, 10,000+ device fire alarm system (Siemens panels), and 5,000+ speaker PA system (Bose), enhancing enterprise-wide security monitoring and alert capabilities.",
+          "Architected and implemented segmented network architecture across 14 towers, optimizing core, aggregation, and access layers to support CCTV and enterprise security systems with improved performance and scalability.",
+          "Executed installation of physical security solutions including boom barriers, flap barriers, and advanced access control systems, strengthening perimeter security and access management.",
+          "Delivered business center IT infrastructure by managing end-to-end project execution, consistently achieving on-time delivery and meeting project milestones within budget."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Application Support Engineer - Banking & ATM Switch Operations",
+        "company": "Opus software solutions",
+        "location": null,
+        "start": "Aug 2011",
+        "end": "May 2012",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 10,
+        "bullets": [
+          "Delivered Level 2 and Level 3 production support for ATM switch and card management systems, ensuring seamless banking operations and minimizing downtime.",
+          "Maintained 99.9% system uptime by executing rapid incident resolution and implementing proactive system monitoring.",
+          "Managed the complete ATM card lifecycle, resolving transaction discrepancies to enhance operational efficiency and regulatory compliance.",
+          "Generated detailed MIS and regulatory reports, facilitating successful audit processes and informed business decision- making.",
+          "Ensured data integrity through regular backups, disaster recovery preparedness, and accurate transaction validation.",
+          "Collaborated cross-functionally to optimize system performance and strengthen overall infrastructure reliability."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Support Engineer at Banking & ATM Operations",
+        "company": "Deployed at Tata Communications Transformation Services",
+        "location": null,
+        "start": "Jan 2011",
+        "end": "Aug 2011",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 8,
+        "bullets": [
+          "Delivered end-to-end technical support and maintenance for ATM networks across major public and private sector banks, including State Bank of India, Bank of Baroda, Bank of India, and IDBI Bank.",
+          "Executed L1/L2 technical support for ATM machines, encompassing software installation, OS/image downloads, patch updates, and configuration management.",
+          "Coordinated cash loading processes with cash management teams, ensuring over 99% ATM uptime and seamless operational continuity.",
+          "Diagnosed and resolved hardware, network, and application issues to minimize downtime and enhance service availability by approximately 15%.",
+          "Managed incident handling, service reporting, and SLA tracking, consistently achieving timely resolution in compliance with stringent banking standards.",
+          "Collaborated with cross-functional teams including field engineers, vendors, and bank stakeholders to facilitate issue resolution and preventive maintenance.",
+          "Fostered strong client relationships with banking partners, driving high service quality and operational efficiency."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Support Engineer at Banking & ATM Operations Diebold Inno",
+        "company": "Deployed at Diebold Innovation",
+        "location": null,
+        "start": "Feb 2010",
+        "end": "Jan 2011",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 12,
+        "bullets": [
+          "Delivered comprehensive end-to-end technical support and maintenance for ATM networks across multiple major public and private sector banks, ensuring optimal operational efficiency.",
+          "Executed L1/L2 support activities including installation, OS imaging, patching, and device configuration to enhance system stability and reliability.",
+          "Coordinated cash loading operations and implemented preventive measures, achieving over 99% ATM uptime and uninterrupted transaction processing.",
+          "Diagnosed and resolved hardware, network, and application issues promptly, reducing downtime by approximately 20% and improving system availability.",
+          "Managed incident resolution and ensured strict SLA compliance by collaborating effectively with cross-functional stakeholders to maintain high service quality and customer satisfaction."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "company": "Unknown company",
+        "role": "of experience",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 16.0,
+        "duration_months": 192
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 32.7,
+      "total_months": 392,
+      "overlapping_periods_merged": 7
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA/PGDM | Operations",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Sikkim Manipal University (SMU)",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.A - Bachelor of Arts | Economics",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": "Bachelor of Arts",
+        "institution": "Mumbai University",
+        "year": "2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2011",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "10th",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2000",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "MCITP Issued by Microsoft",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Led enterprise-wide information security governance, risk management, and compliance initiatives, ensuring alignment",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "with industry standards and safeguarding critical business assets.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Spearheaded the development and implementation of Information Security policies, standards, and procedures in",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "compliance with ISO/IEC 27001: framework, achieving 100% audit readiness and organizational compliance.",
+        "issuer": null,
+        "year": "2013",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Acted as primary point of contact for client and regulatory audits, managing the entire audit lifecycle including gap",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "assessment, evidence collection, control validation, and remediation, resulting in a 30% reduction in audit findings year",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "over-year.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Conducted comprehensive risk and vulnerability assessments, alongside detailed security reviews, proactively identifying",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "and mitigating potential cyber threats that decreased incident response time by 25%.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Led and mentored a team of security professionals, enhancing team capabilities and ensuring effective protection of",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "sensitive and critical information assets, contributing to a 15% improvement in security incident detection.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Integrated robust security controls into the Software Development Life Cycle (SDLC), enabling secure application",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "development and reducing security vulnerabilities by 40% during the initial development phases.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Designed and delivered organization-wide security awareness and training programs, increasing employee compliance",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "and reducing security-related incidents by 20%.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Collaborated with cross-functional teams to implement risk mitigation strategies, enforce security controls, and establish",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "continuous monitoring mechanisms, enhancing overall organizational security posture.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.62
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.62,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[13]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[14]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[15]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[16]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[17]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

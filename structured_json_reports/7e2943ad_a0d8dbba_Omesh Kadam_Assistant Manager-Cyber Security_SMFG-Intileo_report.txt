@@ -1,0 +1,53 @@
+======================================================================
+FILE: 7e2943ad_a0d8dbba_Omesh Kadam_Assistant Manager-Cyber Security_SMFG-Intileo_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'personal_details', 'skills', 'summary']
+Overall conf.  : 0.83
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Omesh Kadam  (conf 0.9, regex)
+  email     : omeshvkadam@gmail.com  (conf 0.99, regex)
+  phone     : +919867634243  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Experienced SOC Analyst with 4 years in incident response, and security monitoring. Skilled in security incident
+handling and developing mitigation strategies. Proficient in analyzing security alerts and optimizing detection
+capabilities. Committed to continuous improvement and staying updated with the latest cybersecurity trends.
+
+SKILLS (18) — confidence 0.92
+----------------------------------------------------------------------
+.NET, CCNA, CEH, Check Point, Classification Web, Continuous Improvement, Cryptography, DLP, Endpoint Security, Fortinet, Incident Management, Incident Response, Load Balancer, Palo Alto Networks, Proxy, SIEM, SOC Operations, WAF
+
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.7
+Total experience: 5.7 years (68 months, 2 overlaps merged)
+----------------------------------------------------------------------
+  1. | L A Technologies @ Ensured timely ticket resolution across cross-functional teams and external vendors (05/2024 - Present) [conf 0.7, review=True]
+  2. | IDBI Intech Limited @ Monitored and analyzed security alerts using RSA Net Witness (11/2021 - 05/2024) [conf 0.7, review=True]
+  3. | Thinkparms Infotech Pvt Ltd @ Analyze spatial data through mapping software (GIS). (05/2021 - 11/2021) [conf 0.7, review=True]
+  4. IT Intern @ Talent Corner H.R. Services Pvt Ltd Mumbai (04/2020 - 06/2020) [conf 0.7, review=True]
+
+EDUCATION (2) — confidence 0.88
+----------------------------------------------------------------------
+  1. PGDM — None (2019 - 2021) [conf 0.8, review=False]
+  2. B.Sc — Mumbai University (2016 - 2019) [conf 0.95, review=False]
+
+CERTIFICATIONS (2) — confidence 0.7
+----------------------------------------------------------------------
+  1. CEH V12 Certification. — None (None) [conf 0.6]
+  2. Cisco Certified Network Administrator training (CCNA) — Cisco (None) [conf 0.8]
+
+REVIEW QUEUE (7 flagged fields)
+----------------------------------------------------------------------
+  experience                          conf=0.7  reason=low_confidence
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.7  reason=incomplete_fields
+  certifications                      conf=0.7  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields

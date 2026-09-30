@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "source_file": "9252e486_40fb92fd_Resume_VikitUnadkat_Senior_Manager_Digital_Transformation_segmented.txt",
+    "generated_at": "2026-09-30T06:59:43.343087+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Vikit Unadkat",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "vikitunadket@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918108808667",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/vikit-unadkat-csm",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Agile",
+      "BFSI",
+      "BRD",
+      "Communication",
+      "Confluence",
+      "Digital Transformation",
+      "E-learning",
+      "Functional Testing",
+      "Jira",
+      "Kaizen",
+      "Leadership",
+      "Lean Six Sigma",
+      "MSME Lending",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Payments",
+      "Process Improvement",
+      "Product Management",
+      "Quality Assurance",
+      "RACI",
+      "Regulatory Compliance",
+      "Retail & Corporate Banking",
+      "Risk Management",
+      "SDLC",
+      "Salesforce",
+      "Six Sigma",
+      "Stakeholder Management",
+      "UAT",
+      "Vendor Management"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile",
+        "Jira",
+        "Product Management",
+        "Risk Management"
+      ],
+      "domain": [
+        "BFSI",
+        "Payments",
+        "Retail & Corporate Banking"
+      ],
+      "business_analysis": [
+        "BRD"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Leadership",
+        "Stakeholder Management"
+      ],
+      "collaboration": [
+        "Confluence"
+      ],
+      "consulting": [
+        "Digital Transformation"
+      ],
+      "education_domain": [
+        "E-learning"
+      ],
+      "testing": [
+        "Functional Testing",
+        "UAT"
+      ],
+      "operations": [
+        "Kaizen",
+        "Process Improvement",
+        "Quality Assurance",
+        "Six Sigma",
+        "Vendor Management"
+      ],
+      "process": [
+        "Lean Six Sigma"
+      ],
+      "banking": [
+        "MSME Lending"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint"
+      ],
+      "project_management": [
+        "RACI"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "integration": [
+        "Salesforce"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MSME Lending LOS→MSME Lending(95%), DMAC→Six Sigma(89%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Manager - Automation, Process Re-engineering Finance and Credit Risk",
+        "company": "Piramal Finance Limited",
+        "location": null,
+        "start": "Nov 21",
+        "end": "Present",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 311,
+        "bullets": [
+          "Senior Manager - Automation, Process Re-engineering Finance and Credit Risk Led end-to-end implementation of LOS, LMS, Fintech integrations, and DHW across Business Loans, Used Car Loans, and Mortgages."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager",
+        "company": "Built and managed multiple Salesforce-based LOS product journeys across retail lending products. Axis Bank Limited",
+        "location": "A's",
+        "start": "May 21",
+        "end": "Nov 21",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 7,
+        "bullets": [
+          "Manager - IT Initiatives and Business Excellence BANK Drove process modeling, measurement systems, and re-engineering to strengthen operational excellence."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Manager -BPR, Credit Risk, Training and Quality Management Piramal",
+        "company": "Implemented a Field Verification system for Credit and FI teams across desktop and mobile platforms with compliant",
+        "location": "role-based",
+        "start": "Dec 17",
+        "end": "May 21",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 0,
+        "bullets": [
+          "Manager -BPR, Credit Risk, Training and Quality Management Piramal Finance: Implemented automated underwriting and process systems improving process efficiency, SLA compliance, reporting, tracking, and error correction, resulting in faster turnaround times.",
+          "Led testing and integration of underwriting modules with CRM and Loan Servicing systems, delivering 30% improvement in TAT for salaried loan applicants."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Hub Credit Manager - Leading Retail Lending Products Underwriting",
+        "company": "5,000+ employees on new processes and updated credit policies. HDB Financial Services Limited",
+        "location": null,
+        "start": "Jun 17",
+        "end": "Dec 17",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 7,
+        "bullets": [],
+        "sub_sections": [
+          "Process",
+          "Led and managed Credit Managers, Tele-callers, and Vendor teams, ensuring strict credit quality control and delinquency",
+          "minimization."
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Credit Manager",
+        "company": "improve portfolio performance. IndusInd Bank Limited",
+        "location": null,
+        "start": "Mar 16",
+        "end": "Jun 17",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 4,
+        "bullets": [
+          "Credit Manager - Leading Retail Lending Products Indusind Underwriting Bank Process Managed staffing, performance, training, and service delivery to achieve business targets with high dealer and customer satisfaction.",
+          "Led a data analytics-driven underwriting team (SQL, Advanced Excel, VBA), achieving 30% reduction in document review timelines through process automation."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Lead Trainer",
+        "company": "Altisource Business Solutions Limited",
+        "location": null,
+        "start": "Dec 12",
+        "end": "Mar 16",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 0,
+        "bullets": [
+          "Lead Trainer - US Mortgage Credit Underwriting Process Altisource Delivered process and system training for new hires, managed certifications, on-the-job training, and performance tracking to ensure compliance."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "refresher programs, and cross-skilling modules, reducing process errors through continuous staff sensitization",
+        "company": "Developed training manuals",
+        "location": null,
+        "start": "Feb 11",
+        "end": "Dec 12",
+        "method": "date_regex+comma_company_role_split",
+        "duration_months": 11,
+        "bullets": [
+          "Process Associate - Band 1 - CITI Bank"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 26.7,
+      "total_months": 320,
+      "overlapping_periods_merged": 4
+    },
+    "_confidence": 0.86
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Distance Executive MBA - Banking Management",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Banking Management",
+        "institution": "Banking Management Himalayan University UCG Certified",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

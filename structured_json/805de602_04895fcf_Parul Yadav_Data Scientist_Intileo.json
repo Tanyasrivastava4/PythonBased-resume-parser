@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "source_file": "805de602_04895fcf_Parul Yadav_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:26.138780+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Parul Yadav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "parulyadav092022@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9407893469",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/parul-yadav-26b582160",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/parulyadavv",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "datascienceportfol.io/Yadavvparul02",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "AI/ML Engineer with 2 years of experience in building and deploying ML and AI solutions. Proficient in Python,\nSQL, and machine learning algorithms, with expertise in EDA, feature engineering, NLP, and scalable deployment\nusing FastAPI and Docker.",
+  "skills": {
+    "items": [
+      "C++",
+      "Data Science",
+      "Databricks",
+      "Docker",
+      "Exploratory Data Analysis",
+      "FastAPI",
+      "Feature Engineering",
+      "Flask",
+      "Generative AI",
+      "GitHub",
+      "HTML5",
+      "LLM",
+      "LinkedIn",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Excel",
+      "NLP",
+      "NumPy",
+      "Pandas",
+      "Plotly",
+      "Python",
+      "R",
+      "RAG",
+      "SQL",
+      "Seaborn",
+      "Tableau"
+    ],
+    "by_category": {
+      "programming_language": [
+        "C++",
+        "Python",
+        "R"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "Plotly",
+        "Seaborn"
+      ],
+      "data_engineering": [
+        "Databricks"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "data_science": [
+        "Exploratory Data Analysis",
+        "Feature Engineering",
+        "Tableau"
+      ],
+      "web_framework": [
+        "FastAPI",
+        "Flask",
+        "HTML5",
+        "LinkedIn"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM",
+        "RAG"
+      ],
+      "dev_tool": [
+        "GitHub"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), LLMs→LLM(100%), Retrieval-Augmented Generation→RAG(100%), Excel→Microsoft Excel(100%), EXCELR→Microsoft Excel(91%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "R & D Engineer - Data Science",
+        "company": "VaaaN Infra Pvt Ltd",
+        "location": null,
+        "start": "12/2022",
+        "end": "05/2024",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 18,
+        "bullets": [
+          "Built a traffic forecasting model using time series to optimize toll operations, and predict revenue across major highways.",
+          "Developed a real-time toll operations monitoring and alert system to detect high traffic flow and violations, improving incident response and operational transparency.",
+          "Deployed responsive web applications using Python (Flask, FastAPI), Docker, and CI/CD pipelines; visualized insights with Plotly and Seaborn for stakeholder dashboards.",
+          "Monitored production deployments with Grafana and Prometheus, ensuring uptime and seamless system performance across environments."
+        ],
+        "sub_sections": [
+          "Delhi,NCR"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "AiVariant",
+        "location": null,
+        "start": "12/2021",
+        "end": "06/2022",
+        "method": "date_regex",
+        "duration_months": 7,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.1,
+      "total_months": 25,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech - Computer Science and Engineering - CGPA - 7.5",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science and Engineering - CGPA - 7.5",
+        "institution": "Rajasthan Institute of Engineering And Technology",
+        "year": "2017 - 2021",
+        "gpa": "7.5",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Data Science Training Certification - EXCELR SOLUTIONS",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Generative AI With LLMs",
+        "issuer": "COURSERA",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Machine Learning With Python",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Generative AI Fundamentals",
+        "issuer": "DATABRICKS",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/parul-yadav-26b582160/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/parulyadavv",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://datascienceportfol.io/Yadavvparul02",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/parulyadavv/medical-chatbot",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/parulyadavv/GenAI_cold_email__generator",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.66
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.66,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "source_file": "8c8f931d_7af84860_Omkar Pandit Hodale_Process Analytics_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:38.983807+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Omkar Pandit Hodale",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "omkarhodale1234567@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9137465943",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "5.Dev",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Process Engineer with 3+ years of experience in manufacturing process optimization, Lean implementation, OEE\nmonitoring, and data-driven performance improvement. Experienced in Kaizen facilitation, TPM execution, Root\nCause Analysis (5 Why, Fishbone, Pareto), KPI development, audit preparation, and SOP standardization. Six\nSigma certified professional focused on productivity enhancement, waste reduction, and cross-functional\ncollaboration.",
+  "skills": {
+    "items": [
+      "5 Whys",
+      "AutoCAD",
+      "Continuous Improvement",
+      "Cross-functional Collaboration",
+      "KPI",
+      "Kaizen",
+      "Lean Manufacturing",
+      "MS CIT",
+      "MS Office",
+      "Microsoft Excel",
+      "Problem Solving",
+      "Process Audit",
+      "Process Improvement",
+      "Prototyping",
+      "Rapide",
+      "Risk Assessment",
+      "Root Cause Analysis",
+      "SOP",
+      "Sigma Computing",
+      "Six Sigma",
+      "SolidWorks",
+      "Workshop Facilitation"
+    ],
+    "by_category": {
+      "operations": [
+        "5 Whys",
+        "Continuous Improvement",
+        "Kaizen",
+        "Lean Manufacturing",
+        "Process Audit",
+        "Process Improvement",
+        "Root Cause Analysis",
+        "SOP",
+        "Six Sigma"
+      ],
+      "engineering": [
+        "AutoCAD",
+        "SolidWorks"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Problem Solving"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "certification": [
+        "MS CIT"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel"
+      ],
+      "design": [
+        "Prototyping"
+      ],
+      "programming_language": [
+        "Rapide"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "data_science": [
+        "Sigma Computing"
+      ],
+      "consulting": [
+        "Workshop Facilitation"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Rapid→Rapide(91%), MSCIT→MS CIT(100%), facilitation→Workshop Facilitation(100%), 5 Why→5 Whys(100%), Sigma→Sigma Computing(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Product Engineer",
+        "company": "MT&T 10",
+        "location": null,
+        "start": "Mar/2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 31,
+        "bullets": [
+          "Leading Kaizen & TPM initiatives to improve productivity and reduce downtime.",
+          "Conducting time studies and workflow optimization to improve process efficiency.",
+          "Preparing SOPs and standardizing processes to reduce variation and errors.",
+          "Supporting internal audits and compliance documentation activities.",
+          "Preparing production & performance reports for management review."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Junior Engineer",
+        "company": "Connectwell Industry",
+        "location": null,
+        "start": "10/10/2022",
+        "end": "10/03/2024",
+        "method": "date_regex+title_dict",
+        "duration_months": 24,
+        "bullets": [
+          "Facilitated continuous improvement initiatives and Kaizen events.",
+          "Conducted Root Cause Analysis to reduce recurring defects and improve quality.",
+          "Monitored and improved OEE by analyzing major downtime losses.",
+          "Conducted 5S audits and improved shop-floor discipline. 5.Developed KPI tracking formats and monthly performance reports."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.0,
+      "total_months": 48,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Safety Training Certification",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Rapid Prototyping – 5 Days Training Program",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Basic Automobile Engineering Course",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Basic Electrical Training",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "MSCIT Certification",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "source_file": "24b7ae1a_c70e9fe5_Naukri_SaurabhKumarDubey[16y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:08.203647+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "roles_responsibilities",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Saurabh Dubey",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "saurabhk.dubey@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7738353837",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Collaboration",
+      "Communication",
+      "Mentoring",
+      "Microsoft Teams",
+      "Problem Solving",
+      "Project Management",
+      "Team Leadership"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Mentoring",
+        "Problem Solving",
+        "Team Leadership"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(teams→Microsoft Teams(100%), Communication:→Communication(96%), mentoring→Mentoring(100%), teams→Microsoft Teams(100%), Problem-Solving:→Problem Solving(97%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "▶ TechnicalExperience Accenture Solution Pvt Ltd  Cloud Migration & Imp Associate",
+        "company": null,
+        "location": null,
+        "start": "Feb-21",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 68,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Reliance Jio Infocomm Pvt Ltd",
+        "location": "IP- FM-L2",
+        "start": "Sep-12",
+        "end": "Apr 2016",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 44,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Network Engineer”",
+        "company": "3i-infotech",
+        "location": "Network Engineer”",
+        "start": "Nov 2008",
+        "end": "Jan 2010",
+        "method": "date_regex+title_dict",
+        "duration_months": 15,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 10.6,
+      "total_months": 127,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "▶ Bachelor of Engineering (Computer Science): 65.89%",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": null,
+        "year": "1984",
+        "gpa": "65.89%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "source_file": "9500bdab_da1bf922_Pramod Sahu_Full Stack Web Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:45.112157+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "projects"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pramod Sahu",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "psahu733@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7049711016",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pramod-sahu",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "linkedin.com/in/pr",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "AWS S3",
+      "Angular",
+      "Bootstrap",
+      "CI/CD",
+      "Creativity",
+      "Docker",
+      "ERP",
+      "Express.js",
+      "Food & Beverage",
+      "GCP",
+      "Git",
+      "Java",
+      "LinkedIn",
+      "MERN Stack",
+      "MongoDB",
+      "MySQL",
+      "Next.js",
+      "Node.js",
+      "PWA",
+      "Postman",
+      "Public Relations",
+      "React",
+      "React Native",
+      "Spring Boot",
+      "Tailwind CSS",
+      "TypeScript",
+      "VS Code",
+      "Vercel",
+      "jQuery"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS S3",
+        "GCP",
+        "Vercel"
+      ],
+      "web_framework": [
+        "Angular",
+        "Bootstrap",
+        "Express.js",
+        "LinkedIn",
+        "MERN Stack",
+        "Next.js",
+        "Node.js",
+        "PWA",
+        "React",
+        "Spring Boot",
+        "Tailwind CSS",
+        "jQuery"
+      ],
+      "devops": [
+        "CI/CD",
+        "Docker"
+      ],
+      "soft_skill": [
+        "Creativity"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "hospitality": [
+        "Food & Beverage"
+      ],
+      "dev_tool": [
+        "Git",
+        "Postman",
+        "VS Code"
+      ],
+      "programming_language": [
+        "Java",
+        "TypeScript"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "marketing": [
+        "Public Relations"
+      ],
+      "mobile": [
+        "React Native"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Software Engineer",
+        "company": null,
+        "location": "",
+        "start": "Aug 2022",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 50,
+        "bullets": [
+          "Developed and deployed 11+ projects across Java, MEAN, and MERN stacks Bootstrap, jQuery, NextJs,",
+          "Architected & launched a PWA for Employee Sales Visit Tracking,",
+          "Integrated payment gateway for AI-powered site builder Sites60, improving Backend: Node.js, Express, transaction security.",
+          "Built customer and waiter portals for a restaurant management app (QR Tools: Postman, VS Code, Git Cafe).",
+          "Modernized legacy Java ERP to a React-based web app, reducing page load Deployment/Cloud times by 40%."
+        ],
+        "sub_sections": [
+          "Tailwind, ReactNative",
+          "optimizing field data capture.",
+          "Springboot, MongoDB, MySQL"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Netlify, Vercel, Docker, CI/CD Software Engineer",
+        "company": null,
+        "location": "",
+        "start": "Apr 2022",
+        "end": "Aug 2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant Systems Engineer",
+        "company": "PLEASE VISIT",
+        "location": null,
+        "start": "Nov 2020",
+        "end": "Apr 2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 18,
+        "bullets": [
+          "Led end-to-end test planning, case design, and execution for TCS Bancs, a LinkedIn: banking software. https://www.linkedin.com/in/pr"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "amod-sahu Junior Software Engineer",
+        "company": "PLEASE VISIT",
+        "location": null,
+        "start": "Oct 2019",
+        "end": "Oct 2020",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.0,
+      "total_months": 84,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.88
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "source_file": "a8ab7d15_e2de6569_Pawan Pandey_Associate Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:58.313083+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pawan Panday",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ppanday684@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9768478503 / 2015-167385",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pawan-panday-b038021b4",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To secure a challenging and rewarding Service Engineer position in a technology-driven\norganization, where 4.8 years of experience in the installation, commissioning, and\nmaintenance of CEMS and CAAQMS can be leveraged to drive service excellence, manage\nhigh-value projects, and lead a high-performing service team. Seeking to progressively learn\nand strategically deliver solutions to complex client and business needs",
+  "skills": {
+    "items": [
+      "Conflict Resolution",
+      "Customer Service",
+      "LinkedIn",
+      "Professional Ethics",
+      "Revenue Generation"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Conflict Resolution"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "soft_skills": [
+        "Professional Ethics"
+      ],
+      "sales": [
+        "Revenue Generation"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Revenue Growth→Revenue Generation(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "",
+        "company": "Service & Technical Expertise: Successfully managed the full lifecycle of complex air quality monitoring projects, including the installation, commissioning, and calibration of advanced Gas Analyzers (Gas chromatography, SO2, NOX, PM, and CO) and weather sensors.",
+        "location": null,
+        "start": "April 2021",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 66,
+        "bullets": [
+          "Customer Relationship Management: Provided dedicated technical service and support based on Annual Maintenance Contracts (AMC) and Comprehensive Maintenance Contracts (CMC), focusing on reducing downtime and ensuring regulatory compliance for key clients.",
+          "Problem Resolution: Specialized in advanced troubleshooting and analytical instrument diagnostics to quickly resolve complex analyzer issues, maintaining high levels of system uptime.",
+          "Revenue Management: Managed administrative tasks related to service operations, including the submission of monthly and quarterly invoice bills, directly supporting the company's Revenue Growth.",
+          "Key Projects and Clients: Managed service and support for prominent environmental projects, including those for the Maharashtra Pollution Control Board, Brihanmumbai Municipal Corporation, and Century Rayon Grasim CEMS."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.5,
+      "total_months": 66,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.55
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BE Instrumentation Engineering",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Bharati Vidyapeeth University of",
+        "year": "2016 - 2020",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "H.S.C",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Instrumentation College of Engineering Mumbai Khalsa College",
+        "year": "2015",
+        "gpa": "73.85%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "S.S.C",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Matunga Gurunank State Board Sitaram Prakash High Maharashtra",
+        "year": "2014",
+        "gpa": "84.80%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.82
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "1st Rank in Instrumentation Department of whole 4 year of academic.",
+      "1st Rank in University Exam During the Academic Year 2017-18",
+      "3rd Prize in Intercollegiate Seedling Event 2017",
+      "2nd Prize in Technical Paper Presentation",
+      "Publish paper presentation."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.81
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.55,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education.entries[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

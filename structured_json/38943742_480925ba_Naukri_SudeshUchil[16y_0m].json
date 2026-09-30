@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "source_file": "38943742_480925ba_Naukri_SudeshUchil[16y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:16.985484+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "roles_responsibilities",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sudesh Uchil",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sudesh.uchil@live.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919820968103 / 2535130",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/sudeshluchil",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Seas oned technology leader with over 16 years of experience aligning people,\nproc esses, and technology to drive organizational performance. Recognized for\nshap ing strategy, leading high-performing teams, and fostering a culture of\ncont inuous improvement and innovation.\nProv en track record in leading enterprise-scale initiatives and managing cross-\nfunc tional teams to optimize technology environments. Expertise in infrastructure,\ncrisi s and vendor management with hands-on leadership in infrastructure security\nmod ules to strengthen threat detection, automate risk mitigation, and continuous\nimp rovement in cybersecurity frameworks.",
+  "skills": {
+    "items": [
+      "Audit & Compliance",
+      "Azure",
+      "Budgeting",
+      "CCNA",
+      "CISM",
+      "CISSP",
+      "Cost Analysis",
+      "Creativity",
+      "DLP",
+      "Digital Transformation",
+      "Enterprise Sales",
+      "Firewall",
+      "GCP",
+      "Juniper",
+      "Leadership",
+      "Mechanical Engineering",
+      "Mentoring",
+      "Microsoft Teams",
+      "Networking",
+      "PMP",
+      "Palo Alto Networks",
+      "RBI",
+      "Risk Management",
+      "SHAP",
+      "SQL",
+      "Scrum",
+      "Solution Design",
+      "VMware",
+      "Vendor Management"
+    ],
+    "by_category": {
+      "domain": [
+        "Audit & Compliance",
+        "RBI"
+      ],
+      "cloud_infra": [
+        "Azure",
+        "GCP",
+        "VMware"
+      ],
+      "finance_ops": [
+        "Budgeting",
+        "Cost Analysis"
+      ],
+      "networking": [
+        "CCNA"
+      ],
+      "security_ops": [
+        "CISM",
+        "CISSP",
+        "DLP",
+        "Firewall",
+        "Palo Alto Networks"
+      ],
+      "soft_skill": [
+        "Creativity",
+        "Leadership",
+        "Mentoring"
+      ],
+      "consulting": [
+        "Digital Transformation"
+      ],
+      "sales": [
+        "Enterprise Sales"
+      ],
+      "hardware": [
+        "Juniper"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "project_mgmt": [
+        "PMP",
+        "Risk Management",
+        "Scrum"
+      ],
+      "ai_ml": [
+        "SHAP"
+      ],
+      "database": [
+        "SQL"
+      ],
+      "architecture": [
+        "Solution Design"
+      ],
+      "operations": [
+        "Vendor Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Costing→Cost Analysis(100%), Palo Alto→Palo Alto Networks(100%), CISM®→CISM(89%), CISSP*→CISSP(91%), shap→SHAP(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Vice President – Technology",
+        "company": "MSCI Inc. (Morgan Stanley Capital International",
+        "location": null,
+        "start": "Jan 2022",
+        "end": "Present",
+        "method": "date_regex+title_dash_company+next_line_company",
+        "duration_months": 57,
+        "bullets": [
+          "Led and mentored a high-performing team responsible for continuous coverage and smooth, secure operations across MSCI’s global sites in India, Budapest, London, and the U.S.",
+          "Successfully upheld SLA commitments by directing timely response and resolution of data, email, and infrastructure security incidents across MSCI’s security landscape.",
+          "Successfully transitioned the external certificate authority landscape from Entrust to GlobalSign, ensuring seamless service continuity, stakeholder satisfaction, and completion within agreed timelines.",
+          "Effectively collaborated with business users, developers, and infrastructure teams to design and deliver cloud-based solutions that met business SLAs while optimizing cost.",
+          "Contributed to creation and ongoing maintenance of organizational standards, policies, and procedures to ensure adherence to SOX, SOC Type I/II, and EU-BMR compliance frameworks.",
+          "Reduced critical and high-severity cybersecurity findings across platforms including BitSight, ISS, and IONIX, strengthening the organization’s overall security rating and competitive posture.",
+          "Demonstrated ability to make sound decisions and lead incident management teams in resolving critical and high-priority issues impacting business-critical applications.",
+          "Established and enforced a FIPS 140-2 compliant framework governing all code-signing certificates used for internal purposes and external software distribution.",
+          "Built an enhanced, structured record producer to colle ct high-quality data inputs, supporting future expansion into data-driven modules, including ChatGPT.",
+          "Enhanced operational efficiency for internal certificate notifications by implementing RPA to streamline processes and improve scalability.",
+          "Integrated AKV with GlobalSign to automate certificate lifecycle workflows, achieving zero-touch provisioning and seamless renewals.",
+          "Partnered with C-level executives and senior stakeholders to align security initiatives with business objectives and drive strategic outcomes.",
+          "Defined and implemented a robust security onboarding process to support the deployment of Enterprise SSO into production."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technology Consultant",
+        "company": "CyberRim Inc",
+        "location": "Infotek Inc. | HAYS plc",
+        "start": "June 2019",
+        "end": "Aug 2021",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 27,
+        "bullets": [
+          "Technology Consultant - IT Infrastructure & Security Services Clie nt: Grant Thornton LLP (Canada) – on-site",
+          "Redesigned client portfolio and CRM platforms, integrating advanced security controls and reducing operational overhead.",
+          "Deployed a Public Key Infrastructure (PKI) framework, replacing wildcard certificates with OV-validated certificates across all external websites.",
+          "Authored and standardized security procedures for server provisioning on both on-premises and Azure cloud environments.",
+          "Implemented security best practices across high-risk systems identified in the Rapid7 penetration testing report, mitigating critical vulnerabilities ."
+        ],
+        "sub_sections": [
+          "Roles & Responsibilities"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant Vice President | Technology Solution Group",
+        "company": "YES BANK LTD",
+        "location": null,
+        "start": "Oct 2016",
+        "end": "May 2019",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 32,
+        "bullets": [
+          "Migrated Bank’s reporting platform from legacy to modern infrastructure, enhancing availability, resiliency, and disaster recovery.",
+          "Implemented NetApp modular hybrid storage for centralized document management and high I/O applications.",
+          "Led migration of Credit Card services (First Data) with secure MPLS connectivity, HSM integration, and API enablement.",
+          "Deployed Oracle® SuperCluster for database consolidation, achieving cost savings and performance optimization.",
+          "Executed migration of corporate, retail, and API websites behind Akamai WAF, strengthening perimeter security.",
+          "Launched YES4YOU, a digital HCM mobile platform, driving employee engagement and digital transformation.",
+          "Designed and implemented infrastructure for Retail Net Banking upgrade to OBDX, delivering a modern, scalable digital banking platform.",
+          "Migrated IBM® Integration Bus and DataPower to new infrastructure, enabling flexible and secure data exchange.",
+          "Implemented CKYC (CERSAI) across the Bank, ensuring regulatory compliance and streamlined KYC operations.",
+          "Planned and successfully executed the migration of the FinnOne Application (Customer Acquisition System) from a legacy platform to the bank’s standardized infrastructure.",
+          "Prepared and presented recurring dashboard insights to management, covering program progress and potential future initiatives within TSG."
+        ],
+        "sub_sections": [
+          "Role s & Responsibilities"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager",
+        "company": "IT",
+        "location": "Information",
+        "start": "Mar 2016",
+        "end": "Sep 2016",
+        "method": "date_regex+title_dash_company",
+        "duration_months": 7,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Analyst",
+        "company": "DBS Bank Ltd",
+        "location": "Development Bank of Singapore",
+        "start": "May 2011",
+        "end": "Feb 2016",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 58,
+        "bullets": [
+          "IT | Information Technology Group",
+          "Designed and deployed the Bank’s EMC VMAX storage infrastructure to support VMware ESXi clusters and Tier-1/Tier-2 high IOPS applications. in utilization of resource – Year 2013",
+          "Implemented VMware virtualization in collaboration with the VMware EMC VMAX - Bank’s Open System",
+          "Configured and deployed Symantec VCS for business-critical applications, enabling",
+          "Led the rollout of IPC Unigy and NICE Unified Communications platform for",
+          "Implemented key RBI regulatory applications (NG-RTGS, NEFT, RBI-ADF,",
+          "Executed multiple infrastructure enhancement projects, including backup restructuring (IBM TSM), file server consolidation (EMC Celerra), infrastructure monitoring (IBM ITM), and SMS/email alerting (SendQuick).",
+          "Periodic dashboard reports to management on current program & future opportunities under TSG."
+        ],
+        "sub_sections": [
+          "DBS Connect Award",
+          "Roles & Responsibilities",
+          "Server Virtualization – Breakthrough",
+          "Professional",
+          "Services team, migrating 200 physical servers across two data",
+          "centers",
+          "and reducing physical footprint significantly. SAN standard – Year 2014",
+          "Successful completion of IPC Unigy",
+          "RTO/RPO",
+          "automated failover within and across data centers and improving",
+          "metrics. Project – Year 2015",
+          "Treasury",
+          "& Markets, enhancing trading communication security and",
+          "reliability.",
+          "YES Pulse & Shining star award",
+          "CCIL",
+          "CTS/CHI) across the Bank’s network, ensuring regulatory compliance CKYC roll-out Pan bank – Year 2017",
+          "and",
+          "operational continuity. HCM Mobile APP Project – Year 2018"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Consultant",
+        "company": "L&T Infotech Ltd",
+        "location": "Polaris Lab Ltd",
+        "start": "Oct 2010",
+        "end": "May 2011",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 8,
+        "bullets": [
+          "IT, Client: Condé Nast, Fidelity Investments, US",
+          "Identified and analyzed OS/IOS bugs on network devices; provided recommendations on appropriate software versions and upgrades.",
+          "Planned, scheduled, and implemented global firewall policy changes across U.S. regions in compliance with change management protocols.",
+          "Validated and tested post-implementation changes with clients, ensuring successful deployment and minimal service disruption."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sr Executive",
+        "company": "Siro Clinpharm Pvt Ltd",
+        "location": null,
+        "start": "Oct 2008",
+        "end": "Sep 2010",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 24,
+        "bullets": [
+          "Information Technology",
+          "Installed, configured, and maintained network infrastructure and devices, including internet services and VPN solutions, to ensure optimal performance and minimal latency.",
+          "Managed and supported a wide range of security and network appliances, including NOKIA IP 390, Juniper SSG 520 / SSL SA 4000, PineApp Anti-Spam,",
+          "Conducted end-user training sessions covering new technologies, information security, 21 CFR Part 11 compliance, and IT onboarding/induction programs.",
+          "Served as the primary IT point of contact for key enterprise clients such as Pfizer, Johnson & Johnson, Baxter, and Merck, ensuring seamless support and service delivery.",
+          "Planned and executed large-scale infrastructure initiatives, including visitor wireless solutions, Exchange SCR implementation, network teaming, and backup modernization using Symantec and Citrix platforms."
+        ],
+        "sub_sections": [
+          "Symantec",
+          "HIDS/IPS, Radware LinkProof, and Bluecoat PacketShaper.",
+          "Roles & Responsibilities",
+          "Roles & Responsibilities",
+          "Block 11|607, Sion, Mumbai.",
+          "www.linkedin.com/in/sudeshluchil"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 17.7,
+      "total_months": 212,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Post Graduation in Information",
+        "degree_name": "Post Graduation",
+        "degree_type": "masters",
+        "degree_field": "Information",
+        "institution": "Institute",
+        "year": null,
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "Bachelor of Commerce – University of",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "University of",
+        "institution": "University of Mumbai EMC VMAX Symmetric",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Masters in Networking & Data",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "MSFT Certified Professional®",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "CCNA - ID # CSCO11486899",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ITIL® V3 Foundation",
+        "issuer": "ITIL",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Professional Scrum Master® - I",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "PMP Trained - ME ID: 2535130*",
+        "issuer": "PMP",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "CISM®",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Pursuing CISSP*",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Trainings",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.64
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.84
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.64,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

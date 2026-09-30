@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "source_file": "197ff93a_c60b4e94_Dattatray S. Phad_Desktop Support Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:00.934972+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "interests",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Dedicated and resourceful IT Desktop Support Engineer with over 5 years of experience in providing hands-on desktop, hardware, and network support. Skilled in system configura on, Ac ve Directory administra on, and IT asset management. Proven ability to troubleshoot and resolve complex issues, deliver high-quality support to end-users (including VIPs), and streamline IT onboarding processes. Known for a strong technical founda on, a en on to detail, and a commitment to service excellence.",
+  "skills": {
+    "items": [
+      "AnyDesk",
+      "Asset Management",
+      "CCNA",
+      "CEH",
+      "DHCP",
+      "DNS",
+      "Desktop Support",
+      "Group Policy",
+      "Kali Linux",
+      "Microsoft Windows",
+      "Networking",
+      "Onboarding",
+      "RDP",
+      "Remote Diagnostics",
+      "Route",
+      "TCP/IP",
+      "TeamViewer"
+    ],
+    "by_category": {
+      "dev_tool": [
+        "AnyDesk",
+        "TeamViewer"
+      ],
+      "sysadmin": [
+        "Asset Management",
+        "Desktop Support",
+        "Group Policy",
+        "Remote Diagnostics"
+      ],
+      "networking": [
+        "CCNA",
+        "DHCP",
+        "DNS",
+        "RDP",
+        "TCP/IP"
+      ],
+      "security_ops": [
+        "CEH"
+      ],
+      "testing": [
+        "Kali Linux"
+      ],
+      "os_system": [
+        "Microsoft Windows"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "cloud_infra": [
+        "Route"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%), router→Route(91%), group policies→Group Policy(100%), onboarding→Onboarding(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "IT Desktop Support Engineer",
+        "company": "Troubleshoot hardware, so ware, and networking issues for desktops and laptops",
+        "location": "Mumbai, India",
+        "start": "Jun 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 16,
+        "bullets": [
+          "Provide end-to-end technical support to users, including VIP and C-level staff Troubleshoot hardware, so ware, and networking issues for desktops and laptops Install, configure, and update so ware based on department requirements Maintain and manage IT asset inventory and daily movement logs Support new employee onboarding by provisioning devices and se\tng up access"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Desktop Support Engineer Mumbai, India",
+        "company": "Delivered desktop support to internal teams and ensured minimal down me",
+        "location": "Mumbai, India",
+        "start": "Jun 2023",
+        "end": "Mar 2025",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 22,
+        "bullets": [
+          "Delivered desktop support to internal teams and ensured minimal down me Installed and configured OS, applica ons, and drivers as per role-based requirements Resolved day-to-day user issues related to system performance and connec vity Managed asset alloca on, tracking, and onboarding IT setup"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "IT Support Specialist",
+        "company": "Handled Ac ve Directory opera ons including user crea on and system joins",
+        "location": "Mumbai, India",
+        "start": "Jan 2021",
+        "end": "May 2023",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 29,
+        "bullets": [
+          "Provided hardware repair, upgrades, and virus protec on services for clients Installed and configured so ware and basic networks for home/small business setups Communicated with clients to understand needs and provide customized solu ons"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Network Support Technician",
+        "company": "Offered on-site and remote support to ensure high customer sa sfac on",
+        "location": "Mumbai, India",
+        "start": "Sep 2019",
+        "end": "Sep 2021",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 25,
+        "bullets": [
+          "Performed OS installa ons, updates, and applica on configura on for clients Diagnosed and resolved issues in wired and wireless networks Assisted with router/access point setup and cable management"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Hardware Assistant Trainee",
+        "company": "Supported the moun ng and configura on of network devices on client premises",
+        "location": "Mumbai, India",
+        "start": "Jul 2019",
+        "end": "Sep 2019",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 3,
+        "bullets": [
+          "Assisted in installing and repairing desktops and hardware components Supported senior technicians with diagnos cs and part replacements"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.1,
+      "total_months": 85,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Commerce (B.Com)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2013 - 2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Higher Secondary Cer ficate (HSC)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "School Cer ficate",
+        "year": "2011 - 2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Secondary School Cer ficate (SSC)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "School Cer ficate",
+        "year": "2007 - 2010",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Red Hat Cer fied System Administrator (RHCSA/RHCE) – RST Forum",
+        "issuer": "Red Hat",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Cer fied Ethical Hacker (CEH) – RST Forum",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Cisco Cer fied Network Associate (CCNA) – RST Forum",
+        "issuer": "Cisco",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "CPIT – Crystal Solu ons Ltd.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Computer Hardware Assistant – Maharashtra State Skill Development Society",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.79
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

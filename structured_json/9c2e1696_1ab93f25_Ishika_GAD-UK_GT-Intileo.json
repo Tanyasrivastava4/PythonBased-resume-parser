@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "source_file": "9c2e1696_1ab93f25_Ishika_GAD-UK_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:50.253311+00:00",
+    "sections_found": [
+      "achievements",
+      "early_career",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Chartered Accountant",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ishikakhankariyal@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919310075068 / 2019-20944",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ishikaca",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "A Qualified Chartered Accountant with strong analytical skills and academic credentials seeking to grow by learning and\ncontributing meaningfully in a dynamic and experienced team environment.",
+  "skills": {
+    "items": [
+      "Analytical Thinking",
+      "Communication",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "SAP"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Analytical Thinking",
+        "Communication"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "integration": [
+        "SAP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Word→Microsoft Word(100%), Excel→Microsoft Excel(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "(OYO Hotels and Homes Private Limited",
+        "company": "Handled month-end and year-end closing of books of accounts of subsidiary entities.",
+        "location": null,
+        "start": "Aug’24",
+        "end": "Feb’26",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 19,
+        "bullets": [
+          "Assisted in audit engagement by performing vouching, Ledger Scrutiny and preparation of Audit working papers.",
+          "Prepare reconciliations and provide support in statutory and tax compliances."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Article trainee",
+        "company": "K G SOMANI & CO. LLP, Delhi WORK AREAS WORK PERFORMED",
+        "location": null,
+        "start": "Feb’23",
+        "end": "Aug’24",
+        "method": "date_regex+at_split",
+        "duration_months": 19,
+        "bullets": [
+          "Statutory audit • Conducted statutory audits of various Listed and unlisted company.",
+          "Thoroughly examined financial records and statements to ensure adherence to regulatory standards.",
+          "Communicated audit findings and recommendations clearly and concisely to both clients and management, facilitating informed decision-making.",
+          "Performed Internal audit of Human resources to assess the effectiveness of internal controls, risk management, and governance processes.",
+          "Successfully led SOX audit, ensuring adherence to regulatory standards and improving internal controls.",
+          "Identified and analyzed risk areas, offering actionable recommendations to mitigate risks.",
+          "Conducted follow-up audits to ensure corrective actions were implemented and maintained, improving overall organizational performance. Other assignments • Conducted thorough testing of payroll expenses and ensured the accuracy of data submitted to actuaries for gratuity and leave encashment valuation.",
+          "Conducted ASM Audit & transaction monitoring of Companies having sanction limit of more than INR1200 Crore.",
+          "Conducted thorough quarterly reviews of accounts, identifying areas for improvement, and ensuring financial accuracy.",
+          "Led physical inventory counts, reconciling discrepancies between physical counts and inventory records."
+        ],
+        "sub_sections": [
+          "Internal audit"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.1,
+      "total_months": 37,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Class XIIth",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Delhi University",
+        "year": "2019",
+        "gpa": "61.85%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class Xth",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE Delhi",
+        "year": "2019",
+        "gpa": "94.4%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Engaged actively in diverse cultural initiatives throughout my academic journey in school.",
+      "Enthusiastic for playing Badminton, participated in school and inter school competition.",
+      "Dedicate time to spiritual awakening for peace of mind.",
+      "OTHER INFORMATION",
+      "Hobbies: Painting, Reading Books, Cooking",
+      "Language: Hindi and English",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

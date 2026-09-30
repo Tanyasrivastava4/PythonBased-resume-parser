@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "source_file": "55059b93_50e42b19_Naukri_VirendraNarayanBihari[1y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:41.614365+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Virendra Narayan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "bvirendra1995@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Virendra123-tech",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "codeforces.com/profile/abthecoder23",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "• Detail-oriented professional with knowledge of Python, SQL, and Machine Learning. Skilled in data analysis,\nvisualization, and building predictive models. Passionate about solving real-world problems using data-driven\napproaches.",
+  "skills": {
+    "items": [
+      "Data Analysis",
+      "Data Science",
+      "Deep Learning",
+      "GitHub",
+      "LinkedIn",
+      "MLOps",
+      "Machine Learning",
+      "Microsoft Excel",
+      "MySQL",
+      "NumPy",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "RAG",
+      "SQL"
+    ],
+    "by_category": {
+      "data_science": [
+        "Data Analysis",
+        "Power BI"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Deep Learning",
+        "Machine Learning",
+        "NumPy",
+        "Pandas"
+      ],
+      "dev_tool": [
+        "GitHub"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "genai": [
+        "MLOps",
+        "RAG"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "database": [
+        "MySQL",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Numpy→NumPy(100%), github.com→GitHub(100%), github.com→GitHub(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Data Scientist",
+        "company": "Role",
+        "location": "Data Scientist",
+        "start": "Aug 2024",
+        "end": "Sept 2025",
+        "method": "date_regex+subfield_label_role+company_loc_dash_split",
+        "duration_months": 14,
+        "bullets": [
+          "Handle missing values, outliers, and inconsistencies to prepare clean datasets.",
+          "Developed and optimized machine learning models (Regression, Classification, and Deep Learning) to solve business problems and improve decision-making.",
+          "Built and fine-tuned LLMs (Large Language Models) for generating insights and automating text-based tasks.",
+          "Designed data preprocessing pipelines for structured and unstructured datasets to enhance model accuracy.",
+          "",
+          "Develop statistical models, machine learning algorithms, and predictive analytics solutions to address business challenges."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.2,
+      "total_months": 14,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Technology(B.Tech) Electronic And Communication - 2020",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "DR.MGR University",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Data Scientist - Uncodemy",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://codeforces.com/profile/abthecoder23",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/company/gvcloudsecure/?originalSubdomain=in/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/Virendra123-tech/House_Price/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/Virendra123-tech/SQL_PROJECT",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

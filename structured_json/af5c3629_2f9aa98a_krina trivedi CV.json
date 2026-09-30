@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "source_file": "af5c3629_2f9aa98a_krina trivedi CV_segmented.txt",
+    "generated_at": "2026-09-30T07:00:03.830941+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Krina Trivedi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "mtrivedikrinal2@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7226098311",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Communication",
+      "Decision Making",
+      "GST",
+      "MS Office",
+      "SAP",
+      "TANKS",
+      "Tally"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Communication",
+        "Decision Making"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "productivity": [
+        "MS Office"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "data_science": [
+        "TANKS"
+      ],
+      "finance_ops": [
+        "Tally"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(tank→TANKS(89%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "am and MBA",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": "2023",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

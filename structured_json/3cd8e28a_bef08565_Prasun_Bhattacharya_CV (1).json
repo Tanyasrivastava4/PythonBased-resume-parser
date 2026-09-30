@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "source_file": "3cd8e28a_bef08565_Prasun_Bhattacharya_CV (1)_segmented.txt",
+    "generated_at": "2026-09-30T06:58:22.329178+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prasun Bhattacharya",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "prasunb21@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7098348186",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Fiber",
+      "Field Sales",
+      "Medical Sales",
+      "Sales Management",
+      "Telecalling"
+    ],
+    "by_category": {
+      "web_framework": [
+        "Fiber"
+      ],
+      "sales": [
+        "Field Sales",
+        "Medical Sales",
+        "Sales Management",
+        "Telecalling"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Address: 3A",
+        "location": "Haladhar Bardhan Lane",
+        "start": "26/01/1995",
+        "end": "Present",
+        "method": "single_date_regex+comma_company_location",
+        "duration_months": 381,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 31.8,
+      "total_months": 381,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Higher Secondary – W.B.C.H.S.E",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "W.B.C.H.S.E",
+        "institution": null,
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• B.Com (General), University of Calcutta (2017)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "General",
+        "institution": "General), University of Calcutta",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

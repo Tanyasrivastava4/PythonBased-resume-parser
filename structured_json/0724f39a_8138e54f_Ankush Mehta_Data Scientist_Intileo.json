@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "source_file": "0724f39a_8138e54f_Ankush Mehta_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:48.127117+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ankush Mehta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ankushmehta243@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919953523447",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ankush04",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/ankushmehta123",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "AWS S3",
+      "Agentic AI",
+      "BERT",
+      "CNN",
+      "Data Analytics",
+      "Deep Learning",
+      "Docker",
+      "Fine-tuning",
+      "GPT",
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "LSTM",
+      "LangChain",
+      "MLOps",
+      "MLflow",
+      "Machine Learning",
+      "Microsoft Excel",
+      "NLP",
+      "NumPy",
+      "Pandas",
+      "Power BI",
+      "PyTorch",
+      "Python",
+      "RAG",
+      "RNN",
+      "SQL",
+      "Seaborn",
+      "Tableau",
+      "TensorFlow",
+      "Transfer Learning",
+      "Transformer",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS S3"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Fine-tuning",
+        "Generative AI",
+        "LangChain",
+        "MLOps",
+        "RAG"
+      ],
+      "ai_ml": [
+        "BERT",
+        "CNN",
+        "Deep Learning",
+        "GPT",
+        "LSTM",
+        "MLflow",
+        "Machine Learning",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "RNN",
+        "Seaborn",
+        "TensorFlow",
+        "Transfer Learning",
+        "Transformer",
+        "scikit-learn"
+      ],
+      "data_science": [
+        "Data Analytics",
+        "Power BI",
+        "Tableau"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Transformer Architecture→Transformer(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "AI",
+        "company": "Trained and cross-validated AutoNHITS and AutoLSTM on 80+ series with automatic best-model selection and scheduled weekly retraining to keep forecasts current.",
+        "location": "Engineer, Isourse",
+        "start": "August 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 14,
+        "bullets": [
+          "Built a RAG system within the CRMS using Gemini File Search and product-specific document stores to generate BRDs, acceptance criteria, and dependency maps, reducing BA documentation time by 50%.",
+          "Developed an AI-driven change-request rewriting pipeline for the CRMS that enriched incomplete client submissions via contextual retrieval, improving request quality and cutting processing time by 30%.",
+          "Implemented a production-ready Nixtla-based time-series pipeline for intermittent gig-worker demand forecasting across 5 designations and 40+ cities, with automated ingestion, validation, and cleaning.",
+          "Optimized CRM lead generation scoring by 55% using LLM prompt engineering and an ensemble NLP approach, preventing bad-fit companies from receiving inflated scores.",
+          "Implemented a weighted text similarity layer combining cosine semantic similarity, Jaccard/keyword overlap, and a custom LLM prompt function between product information and client requirements to generate more reliable lead scores."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "AI Developer",
+        "company": "Noida, UP",
+        "location": "Intern, Buyogo",
+        "start": "May 2025",
+        "end": "July 2025",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 3,
+        "bullets": [
+          "Built an analytical chatbot that enables natural language querying across 40+ apparel operations SQL tables by designing a custom few-shot–based SQL generation framework, achieving 85% accuracy on complex queries.",
+          "Developed a Retrieval-Augmented Generation (RAG) knowledge base chatbot to assist new users and clients in navigating the product; improved BLEU score by 30% (from 0.60 to 0.78) using Flash Reranker and other advanced techniques.",
+          "Created backend APIs, including a reset API to reinitialize the vector DB pipeline and a feedback API with like/dislike ratings; reduced manual reset time by 70% and enabled iterative model improvement through user input.",
+          "Containerized the complete application stack (Streamlit UI, backend APIs) using Docker; created production-ready images to streamline deployment and manage dependencies."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Generative AI Intern, Everyday Series",
+        "company": "London",
+        "location": "UK",
+        "start": "April 2025",
+        "end": "June 2025",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 3,
+        "bullets": [
+          "Developed Micro SaaS products for solopreneurs, leveraging Generative AI solve niche problems.",
+          "Created an autonomous multi-agent system that identified real-time discounts, cutting search time by 70%.",
+          "Utilized no-code/low-code tools like Loveable AI and Supabase to optimize backend automation and UI/UX workflows.",
+          "Built workflow automations with n8n to orchestrate AI agents, APIs, and databases, reducing manual ops by 80%.",
+          "Integrated n8n with LLMs and third-party services (Stripe, email, webhooks) to enable real-time data syncing and event-driven actions."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Data Science Intern, Tata Power DDL",
+        "company": "Evaluated models using MAPE: SARIMA (68.67), SARIMAX with exogenous variables (58.79), and LSTM (21.67).",
+        "location": "India",
+        "start": "July 2024",
+        "end": "August 2024",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 2,
+        "bullets": [
+          "Developed time series models to forecast customer service call volumes, optimizing staffing and improving operational efficiency.",
+          "Conducted EDA to identify seasonal trends, peak call times, and differences between holidays and non-holidays.",
+          "Performed stationarity checks using ADF and KPSS tests; applied first-order differencing for model stability.",
+          "Implemented LSTM model for final predictions, achieving the lowest MAPE and enhancing forecast accuracy."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.7,
+      "total_months": 20,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech in Computer Science Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science Engineering",
+        "institution": "HMR INSTITUTE OF TECHNOLOGY and Management Delhi",
+        "year": "2021 - 2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

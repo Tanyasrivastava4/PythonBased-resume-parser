@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "source_file": "f0ef8706_R. Lokesh_Branch Collection Incharge_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:45.139796+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "R Lokesh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "lokeshravikumar9042@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7010559420",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Which updates my knowledge. Improve my skills and provides a room to give out my to\nwork in a challenging environment best to the organization",
+  "skills": {
+    "items": [
+      "MS Office",
+      "Scheme",
+      "Tally"
+    ],
+    "by_category": {
+      "productivity": [
+        "MS Office"
+      ],
+      "dev_tool": [
+        "Scheme"
+      ],
+      "finance_ops": [
+        "Tally"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BBA",
+        "degree_name": "BBA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Mahendra Periyar University",
+        "year": "2020",
+        "gpa": "65%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HSC Gugai Hr. Sec. School",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Gugai Hr. Sec. School State board",
+        "year": "2017",
+        "gpa": "70%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SSLC Gugai Hr. Sec. School",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Gugai Hr. Sec. School State board",
+        "year": "Apr 2024 - Aug 2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

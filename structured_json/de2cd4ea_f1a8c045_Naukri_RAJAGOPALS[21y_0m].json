@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "source_file": "de2cd4ea_f1a8c045_Naukri_RAJAGOPALS[21y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:32.414880+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "roles_responsibilities",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rajagopal S",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "srg.thrisha@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919884053087",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To be part of a highly motivated team and use my diverse background to obtain a challenging position in an esteemed organization.\nProfessional Summary\nDynamic professional with 20+ years of experience in Collections (Both Field and Tele calling) & Team Management.\nExpertise in managing all service operations key focus on top line / bottom line profitability thereby ensuring optimal utilization of resources.\nLearned to value commitment and goal setting, time bound & result oriented mission & initiatives. Experience of handling collection operations Team.\nDeft at handling day to day activities in co-ordination with internal / external departments for smooth business operations. Experience of handling collections operation.\nA proactive leader and planner with expertise in strategic planning in collection portfolio.\nMaximum Team size handled – 150 FOS and 140 Tele-callers.\nExposure on products handling capacity – PL, TW, Home Loan, Auto Loans, Used car loans & Commercial vehicle.\nExceptionally well organized with a record of accomplishment that demonstrates self-motivation, creativity, and initiatives to achieve both personal and corporate goals.",
+  "skills": {
+    "items": [
+      "Auto Loan",
+      "Business Development",
+      "Communication",
+      "Creativity",
+      "Operations Management",
+      "Payments",
+      "Personal Loan",
+      "Strategic Thinking",
+      "Telecalling",
+      "Telecom",
+      "Xplanner"
+    ],
+    "by_category": {
+      "finance": [
+        "Auto Loan",
+        "Personal Loan"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Creativity",
+        "Strategic Thinking"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "domain": [
+        "Payments",
+        "Telecom"
+      ],
+      "sales": [
+        "Telecalling"
+      ],
+      "database": [
+        "Xplanner"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(planner→Xplanner(93%), Auto Loans→Auto Loan(100%), creativity→Creativity(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Asst Manager (Collection cum Operation",
+        "company": "Piramal Capital and Housing finance Ltd",
+        "location": null,
+        "start": "Mar 2023",
+        "end": "Present",
+        "method": "date_regex+dash_split",
+        "duration_months": 43,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Alphentrix Global Services Pvt Ltd - Senior Manager Collection cum operation",
+        "company": "Conceptualizing and implementing the strategy for the collections",
+        "location": null,
+        "start": "Dec 2018",
+        "end": "Feb 2023",
+        "method": "date_regex+dash_split",
+        "duration_months": 51,
+        "bullets": [
+          "Roles and responsibilities.",
+          "Managing both Domestic and International process.",
+          "Domestic: Bajaj Finserve, L&T Finance, Fullerton India, Kotak, International: Etisalat, Dubai Islamic Bank & DU Telecom.",
+          "Handling 0 till Recovery.",
+          "Products Personal Loans, Two-Wheeler & Tele-com process Managing POS of 160 crores in Recovery including penal, TW – Buckets 7 crores.",
+          "Tele-com – 346 million (Count - Around 1.2 lakhs of accounts) Portfolio Analysis in terms of Count, POS, Cycle Date & Repayment Mode.",
+          "Handling both Tele-calling and Field. (2 Asst Managers, 6 Team Leaders ,85 Tele-callers & 22 FOS) Managing productivity to the best levels by being on par with daily DRR benefitting client and management.",
+          "Maintaining trackers with respect to data input and daily movement’s month on month."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "First Abu Dhabi Bank as Collection Officer",
+        "company": "Conceptualizing and implementing the strategy for the collections",
+        "location": null,
+        "start": "Mar 2018",
+        "end": "Dec 2018",
+        "method": "date_regex+dash_split",
+        "duration_months": 10,
+        "bullets": [
+          "Role and Responsibilities.",
+          "Managing Fresh flow customers with portfolio size of approx 30 million.",
+          "Tracing customers like not contactable Skip & Fraud Customers by using good tracking tools.",
+          "Ensuring achievement of 100% of the assigned targets."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Implementing new workflow systems & ensuring compliance with set guidelines  Riddhi corporate Services Ltd Business Development Manager",
+        "company": "Riddhi Corporate Services Ltd",
+        "location": null,
+        "start": "Jul 2017",
+        "end": "Nov 2017",
+        "method": "date_regex+dash_split",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Reliance process Collections cum Operation Manager & DUBAI Skip customer tracing team, Sales Manager ICICI Bank",
+        "company": "Allset Deals with Major Telecom & Banking project in southern part of India",
+        "location": null,
+        "start": "Sep 2011",
+        "end": "Jan 2016",
+        "method": "date_regex+dash_split",
+        "duration_months": 53,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Optimus Global Services",
+        "location": "ICICI BANK Process",
+        "start": "Oct 2005",
+        "end": "Sep 2011",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 72,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Organizing conference calls for the detailed requirements of business.  Reliance Communication Ltd.  as Asst. Manager",
+        "company": "Managing 90 Plus Recovery Collections, with portfolio size of approx. 8.5 Crores, with the down line of        10 Agencies",
+        "location": null,
+        "start": "Jan 2016",
+        "end": "Mar 2017",
+        "method": "date_regex+title_dict",
+        "duration_months": 15,
+        "bullets": [
+          "Managing 90 Plus Recovery Collections, with portfolio size of approx. 8.5 Crores, with the down line of        10 Agencies Tracing customers like not contactable Skip & Fraud Customers by using good tracking tools and arranging field visits."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "VRCS  India as Backend Officer",
+        "company": "Key result areas / Job role",
+        "location": null,
+        "start": "Mar 2001",
+        "end": "Oct 2005",
+        "method": "date_regex+title_dict",
+        "duration_months": 56,
+        "bullets": [
+          "Key result areas / Job role: - HSBC BANK Co-ordinate with tele callers of HSBC operations who fixes up appointment to solicit payments from customer who holds HSBC credit card and whose credit card outstanding were in days-past-due of 30+ Visiting the customer’s place to collect payment and issue receipt on behalf of HSBC.",
+          "Negotiating with customers and in due course streamlining their payment obligations Imparting customers about the tenets of credit discipline and the rating mechanism in place for tracking default borrowers."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 25.1,
+      "total_months": 301,
+      "overlapping_periods_merged": 4
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Business Administration (BBA) – June2005",
+        "degree_name": "BBA",
+        "degree_type": "bachelors",
+        "degree_field": "June2005",
+        "institution": null,
+        "year": "1980",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Have been recognized as best manager for achieving the super incentive slab for consecutive three months in my process during the period of 2013.",
+      "Oct 2005 – Sep 2011 M/s. Optimus Global services Pvt Ltd. India (ICICI BANK) as Assistant Manager Collections"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[6]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

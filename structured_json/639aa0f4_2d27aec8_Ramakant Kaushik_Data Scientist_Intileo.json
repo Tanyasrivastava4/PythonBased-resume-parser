@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "source_file": "639aa0f4_2d27aec8_Ramakant Kaushik_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:00.720990+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ramakant Kaushik",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ramakantkaus@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/kausramakant",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/ramakantkaus-sys",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "ramakantportfolipage.net",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Passionate AI professional and AI engineer with a strong foundation in building intelligent systems. Specialized in Large Language Models\n(LLMs), Retrieval-Augmented Generation (RAG), and conversational AI. Skilled in developing scalable AI solutions using modern\nframeworks like LangChain, LangGraph, and transformer architectures to deliver impactful, production-ready applications.",
+  "skills": {
+    "items": [
+      "ANN",
+      "Agentic AI",
+      "CNN",
+      "Classification Web",
+      "Communication",
+      "Cross-functional Collaboration",
+      "Deep Learning",
+      "Embeddings",
+      "FAISS",
+      "Feature Engineering",
+      "Fine-tuning",
+      "GPT",
+      "Generative AI",
+      "Git",
+      "Hugging Face",
+      "Keras",
+      "LLM",
+      "LSTM",
+      "LangChain",
+      "LangGraph",
+      "Machine Learning",
+      "Make",
+      "NER",
+      "NLP",
+      "Problem Solving",
+      "Prompt Engineering",
+      "PyTorch",
+      "Python",
+      "RAG",
+      "RNN",
+      "SQL",
+      "System Design",
+      "TensorFlow",
+      "Transfer Learning",
+      "Transformer",
+      "Transformers",
+      "Vector Search",
+      "Zapier",
+      "n8n"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "ANN",
+        "CNN",
+        "Deep Learning",
+        "Embeddings",
+        "GPT",
+        "Keras",
+        "LSTM",
+        "Machine Learning",
+        "NER",
+        "NLP",
+        "PyTorch",
+        "RNN",
+        "TensorFlow",
+        "Transfer Learning",
+        "Transformer"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Fine-tuning",
+        "Generative AI",
+        "Hugging Face",
+        "LLM",
+        "LangChain",
+        "LangGraph",
+        "Prompt Engineering",
+        "RAG",
+        "Vector Search"
+      ],
+      "search": [
+        "Classification Web",
+        "FAISS"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Cross-functional Collaboration",
+        "Problem Solving"
+      ],
+      "data_science": [
+        "Feature Engineering",
+        "Transformers"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "rpa": [
+        "Make",
+        "Zapier",
+        "n8n"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "database": [
+        "SQL"
+      ],
+      "architecture": [
+        "System Design"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(LLMs→LLM(100%), Retrieval-Augmented Generation→RAG(100%), embeddings→Embeddings(100%), vector search→Vector Search(100%), Prompt engineering→Prompt Engineering(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Research Associate, AI Keywords Studios",
+        "company": "Supported model fine-tuning, alignment, and evaluation across multimodal inputs, improving model consistency, logical reasoning, and adaptability.",
+        "location": null,
+        "start": "April 2025",
+        "end": "September 2025",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 6,
+        "bullets": [
+          "Trained advanced AI agents for a confidential AGI project, maintaining over 92% accuracy on complex tasks."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Data Science Intern AAM Infotech Pvt. Ltd",
+        "company": "Experience in Machine Learning, Deep Learning, and NLP projects, including recommender systems and predictive modeling.",
+        "location": null,
+        "start": "October 2024",
+        "end": "March 2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 6,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.0,
+      "total_months": 12,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Science (Physics, Chemistry, Mathematics) | 70.6%",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Physics, Chemistry, Mathematics",
+        "institution": "KLP College IGU University",
+        "year": "2020 - 2023",
+        "gpa": "70.6%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Senior Secondary & Secondary Education | 90%+",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "RMS Sr. Sec. School Mohindergarh",
+        "year": null,
+        "gpa": "90%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

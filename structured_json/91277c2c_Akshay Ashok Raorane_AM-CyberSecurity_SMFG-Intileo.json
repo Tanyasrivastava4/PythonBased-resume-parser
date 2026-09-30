@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "source_file": "91277c2c_Akshay Ashok Raorane_AM-CyberSecurity_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:42.791988+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "strengths",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Akshay Ashok Raorane",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "araorane2@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8291707014",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To work in an environment which encourages me to succeed and grow professionally where I can utilize my skills\nand knowledge appropriately & contribute to the growth of organization as well as self.\nCareer Summary\nCybersecurity professional with 4+ years of experience in Security Operations, Incident Response, SIEM, and\nEndpoint Detection. Proficient with tools like Google Chronicle SIEM, CrowdStrike EDR, and ARCON PAM. Currently\nworking at client side as a Security Consultant, handling real-time threat detection, SOC monitoring, and incident\ntriage. completed CEH (Certified Ethical Hacker) to enhance offensive and defensive security skills.",
+  "skills": {
+    "items": [
+      "ARCON PAM",
+      "ArcSight",
+      "Azure",
+      "CCNA",
+      "CEH",
+      "Client Relationship Management",
+      "CrowdStrike",
+      "DHCP",
+      "DNS",
+      "Defensive Security",
+      "EDR",
+      "ERP",
+      "Endpoint Security",
+      "Firewall",
+      "Google",
+      "Google Chronicle",
+      "Incident Management",
+      "Linux",
+      "Log Analysis",
+      "Mechanical Engineering",
+      "Microsoft Windows",
+      "NetEnrich",
+      "Networking",
+      "OTDR",
+      "Proxy",
+      "Root Cause Analysis",
+      "SAP",
+      "SIEM",
+      "TCP/IP"
+    ],
+    "by_category": {
+      "security_ops": [
+        "ARCON PAM",
+        "ArcSight",
+        "CEH",
+        "CrowdStrike",
+        "EDR",
+        "Endpoint Security",
+        "Firewall",
+        "Google Chronicle",
+        "Log Analysis",
+        "NetEnrich",
+        "Proxy",
+        "SIEM"
+      ],
+      "cloud_infra": [
+        "Azure"
+      ],
+      "networking": [
+        "CCNA",
+        "DHCP",
+        "DNS",
+        "TCP/IP"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "security": [
+        "Defensive Security",
+        "Incident Management"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "database": [
+        "Google"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "hardware": [
+        "OTDR"
+      ],
+      "operations": [
+        "Root Cause Analysis"
+      ],
+      "integration": [
+        "SAP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(ArcSight ESM→ArcSight(100%), NetEnrich MDR→NetEnrich(100%), Windows→Microsoft Windows(100%), Incident Response→Incident Management(100%), Google→Google(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Client: NUVAMA – Sequretek Pvt. Ltd Designation: Security Consultant | Duration",
+        "company": "Ltd Designation: Security Consultant",
+        "location": "Duration",
+        "start": "Jan 2024",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 33,
+        "bullets": [
+          "Managing day-to-day SOC operations at client site, acting as Incident Responder and Security Operations Lead.",
+          "Hands-on with Google Chronicle SIEM - Google SecOps for real-time threat detection and hunting.",
+          "Monitoring and alert triage using NetEnrich MDR platform, responding to high-severity incidents.",
+          "Investigating alerts from CrowdStrike EDR, correlating endpoint activity with SIEM data.",
+          "Coordinating with cross-functional teams for incident containment and root cause analysis.",
+          "Performing integration of devices and connectors with SIEM and logging platforms.",
+          "Utilizing ARCON PAM to monitor and secure privileged user activity.",
+          "Maintaining incident documentation, generating weekly/monthly reports, and participating in RCA and improvement planning. Tools & Technologies: Google Chronicle, NetEnrich MDR, CrowdStrike, ARCON PAM, Azure, MITRE ATT&CK,"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sequretek Pvt. Ltd Designation: Security Analyst | Duration",
+        "company": "Ltd Designation: Security Analyst",
+        "location": "Duration",
+        "start": "Dec 2021",
+        "end": "Jan 2024",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 26,
+        "bullets": [
+          "Provided security monitoring and incident analysis using ArcSight ESM and XDR platforms.",
+          "Handled threat intelligence and malware analysis using multiple tools: FireEye, Sophos, Symantec ATP, CrowdStrike, Palo Alto, and SonicWALL.",
+          "Created reports (daily/weekly/monthly) and collaborated with L2/L3 teams for incident escalation and closure.",
+          "Log correlation from firewalls, endpoints, proxies, and cloud platforms.",
+          "Supported Azure cloud environments for basic monitoring and investigation.",
+          "Offered 24x7 on-call support and contributed to connector setup and device onboarding in SIEM.",
+          "Worked on various client environments while on service provider side. Tools & Technologies: ArcSight, CrowdStrike, Microsoft Azure, MITRE ATT&CK."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Reliance JIO Infocom Ltd Designation: Deputy Manager  | Duration",
+        "company": "Reliance JIO Infocom Ltd Designation: Deputy Manager (Home Connect",
+        "location": "Duration",
+        "start": "Oct 2020",
+        "end": "Jun 2021",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 9,
+        "bullets": [
+          "Led a team of 50+ engineers for router-based home networking and fault resolution.",
+          "Coordinated with maintenance and construction teams to support end-customer connect."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "NoBrokerHood Technologies Pvt. Ltd Designation: Key Accounts Manager | Duration",
+        "company": "Ltd Designation: Key Accounts Manager",
+        "location": "Duration",
+        "start": "Dec 2019",
+        "end": "Oct 2020",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 11,
+        "bullets": [
+          "Delivered VMS/ERP-based residential society security solutions and user training."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "| Duration",
+        "company": "Reliance JIO Infocom Ltd Designation: Team Lead",
+        "location": "Duration",
+        "start": "Jul 2017",
+        "end": "Dec 2019",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 30,
+        "bullets": [
+          "Oversaw FTTH installation teams; managed escalations and resource planning."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Duration",
+        "company": "TATA Communications Ltd Designation: O&M Engineer",
+        "location": "Duration",
+        "start": "Sep 2015",
+        "end": "Mar 2016",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 7,
+        "bullets": [
+          "Maintained optical fiber lines and used OTDR tools for troubleshooting and performance monitoring."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.4,
+      "total_months": 113,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Bachelor of Engineering – Electronics & Telecommunication",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics & Telecommunication",
+        "institution": "College of Engineering, Mumbai University",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "CEH (Certified Ethical Hacker) – EC-Council",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

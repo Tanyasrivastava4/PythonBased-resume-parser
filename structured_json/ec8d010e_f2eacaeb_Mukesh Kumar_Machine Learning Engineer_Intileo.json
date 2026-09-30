@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "source_file": "ec8d010e_f2eacaeb_Mukesh Kumar_Machine Learning Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:40.373183+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mukesh Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Data Scientist with 4+ years in BFSI, adept at turning intricate datasets into actionable insights. Experienced in predictive modeling, model validation, A/B testing, model optimization, forecasting and data visualization.\nProficient in SQL, Python, R, Tableau and PySpark with strong foundation in statistics and ML from IIT Madras.\nProven ability to lead teams, extract measurable business value from large-scale financial datasets, deliver scalable data-driven solutions, and communicate findings effectively to both technical and business audiences.",
+  "skills": {
+    "items": [
+      "A/B Testing",
+      "Apache Hadoop",
+      "BFSI",
+      "Bagging",
+      "Boosting",
+      "Data Science",
+      "Data Visualization",
+      "Decision Trees",
+      "Exploratory Data Analysis",
+      "GCP",
+      "K-means Clustering",
+      "KPI",
+      "Machine Learning",
+      "Microsoft Teams",
+      "Model Optimization",
+      "Pandas",
+      "PySpark",
+      "Python",
+      "R",
+      "Random Forest",
+      "Regularization",
+      "SQL",
+      "Statistics",
+      "Tableau",
+      "Time Series Forecasting",
+      "XGBoost",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Bagging",
+        "Boosting",
+        "Data Visualization",
+        "Decision Trees",
+        "Exploratory Data Analysis",
+        "Model Optimization",
+        "Regularization",
+        "Statistics",
+        "Tableau"
+      ],
+      "data_engineering": [
+        "Apache Hadoop"
+      ],
+      "domain": [
+        "BFSI"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "K-means Clustering",
+        "Machine Learning",
+        "Pandas",
+        "Random Forest",
+        "Time Series Forecasting",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "cloud_infra": [
+        "GCP"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "database": [
+        "PySpark",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python",
+        "R"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Scikit - Learn→scikit-learn(95%), Hadoop→Apache Hadoop(100%), KMeans→K-means Clustering(100%), KPI Tracking→KPI(100%), model optimization→Model Optimization(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Manager - Data Science & Analytics",
+        "company": "ABC Ltd",
+        "location": "Gurugram, Haryana",
+        "start": "Oct 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+company_loc_dash_split",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Data Scientist",
+        "company": "XYZ Ltd",
+        "location": "Indore, Madhya Pradesh",
+        "start": "Jan 2022",
+        "end": "Jun 2024",
+        "method": "date_regex+pipe_company_loc_role+company_suffix_match",
+        "duration_months": 30,
+        "bullets": [
+          "Designed and deployed a high-accuracy demand forecasting model for U.S. natural gas (Python, Scikit-learn) with R² > 90%, quantifying weather and commodity sensitivities to inform $50M+ portfolio risk decisions.",
+          "Streamlined data pipelines and BI workflows across 100+ SQL assets and 50+ Tableau dashboards, boosting trading decisions by 55% via long-term fundamentals and live market data integration, driving $10M+ revenue.",
+          "Delivered a 38% improvement in forecast accuracy by upgrading time-series models to XGBoost and applying targeted feature engineering to reduce dimensionality by 98%, enhancing driver-level explainability."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.5,
+      "total_months": 42,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Technology (M.Tech), Industrial Mathematics & Scientific Computing",
+        "degree_name": "M.Tech",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Industrial Mathematics & Scientific Computing Indian Institute of Technology Madras",
+        "year": "Jul 2019 - Jul 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    }
+  ]
+}

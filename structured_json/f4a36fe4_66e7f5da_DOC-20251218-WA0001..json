@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "source_file": "f4a36fe4_66e7f5da_DOC-20251218-WA0001._segmented.txt",
+    "generated_at": "2026-09-30T07:00:48.420744+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ritik Gupta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "guptaritik905@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917518610112",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ritik-gupta-583727189",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Ritik-gupta13",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "CodeBasics.io",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Data professional with 3+ years of experience in data analysis, visualization, ETL, and data modeling. Skilled in SQL, Python,\nPower BI, Excel, and PySpark for transforming raw data into actionable insights and building scalable data pipelines. Passionate\nabout leveraging analytics and engineering skills to deliver efficient, end-to-end data solutions that drive business decisions.",
+  "skills": {
+    "items": [
+      "Creative Writing",
+      "DAX",
+      "Data Analysis",
+      "Data Modeling",
+      "Data Pipeline",
+      "Data Visualization",
+      "ETL",
+      "KPI",
+      "MSSQL",
+      "Matplotlib",
+      "Microsoft Excel",
+      "MySQL",
+      "NumPy",
+      "Pandas",
+      "Pivot Tables",
+      "PostgreSQL",
+      "Power BI",
+      "Power Query",
+      "PySpark",
+      "Python",
+      "Reporting",
+      "SQL",
+      "Seaborn",
+      "Spreadsheets",
+      "Tableau",
+      "Time Series Forecasting"
+    ],
+    "by_category": {
+      "content": [
+        "Creative Writing"
+      ],
+      "data_science": [
+        "DAX",
+        "Data Analysis",
+        "Data Modeling",
+        "Data Visualization",
+        "Power BI",
+        "Power Query",
+        "Tableau"
+      ],
+      "data_engineering": [
+        "Data Pipeline",
+        "ETL"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "database": [
+        "MSSQL",
+        "MySQL",
+        "PostgreSQL",
+        "PySpark",
+        "SQL"
+      ],
+      "ai_ml": [
+        "Matplotlib",
+        "NumPy",
+        "Pandas",
+        "Seaborn",
+        "Time Series Forecasting"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Pivot Tables",
+        "Spreadsheets"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Pyspark→PySpark(100%), Excel→Microsoft Excel(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Data Analyst",
+        "company": "Leveraged data visualization techniques to present complex data in a clear and actionable manner, enabling business leaders to make strategic decisions.",
+        "location": "India",
+        "start": "Oct 2023",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 36,
+        "bullets": [
+          "Proficient in SQL for data extraction, transformation, and analysis.",
+          "Strong understanding of data ethics and privacy regulations, ensuring compliance and ethical data usage. Proficient in using data visualization tools such as Power Bi.",
+          "Utilized Power BI to create interactive data dashboards for executive leadership, enabling real-time insights and informed decision-making.",
+          "Proficient in writing complex SQL queries for data extraction using JOINs, UNIONs, and filtering conditions. Skilled in using Excel functions like VLOOKUP, XLOOKUP, INDEX, nested formulas, and conditional formatting for advanced data analysis.",
+          "Adept at using Power Query to automate data cleaning and transformation workflows, ensuring clean and structured data for reporting.",
+          "Executed UAT processes during system upgrade, verifying data accuracy and performance across 50+ Power BI dashboards and Excel reports to maintain reporting quality and stakeholder confidence.",
+          "Supported process automation and data validation workflows, enhancing reporting accuracy and scalability.",
+          "Regularly interact with stakeholders to gather requirements and deliver customized data-driven solutions. Collaborated with technical teams to develop and implement data collection and analysis system"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "MIS Analyst",
+        "company": "Ensured data quality and consistency by validating source data, monitoring discrepancies, and optimizing data workflows across multiple systems.",
+        "location": "India",
+        "start": "Nov 2021",
+        "end": "Sep 2023",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 23,
+        "bullets": [
+          "Automated daily and weekly MIS reporting processes using Advanced Excel, SQL, and Power BI, improving reporting accuracy and enabling real-time tracking of key sales and operational KPIs.",
+          "Analyzed performance data for 15+ sales teams to identify trends, variances, and improvement opportunities.",
+          "Designed and developed interactive Power BI dashboards and visual reports for leadership teams, reducing manual reporting effort by 40% and improving visibility into key business metrics.."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Sales Executive",
+        "company": "Ensured data quality and consistency by validating source data, monitoring discrepancies, and optimizing data workflows across multiple systems.",
+        "location": "India",
+        "start": "Aug 2019",
+        "end": "Oct 2021",
+        "method": "date_regex+date_prefix_title+next_line_company+inherited_company",
+        "duration_months": 27,
+        "bullets": [
+          "Led a team of 10+ telesales professionals, driving sales growth through data-driven performance tracking and coaching.",
+          "Implemented customer retention strategies, improving brand loyalty and repeat sales by 20%.",
+          "Designed and executed sales strategies that increased cross-selling opportunities by 30%."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.2,
+      "total_months": 86,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.75
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Post Graduate Diploma in Big Data Analytics (PG-DBDA)",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Big Data Analytics (PG-DBDA)",
+        "institution": "Big Data Analytics PG-DBDA Dr. A.P.J. Abdul Kalam Technical University Lucknow",
+        "year": "Aug 2015 - Jun 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics and Communication Engineering",
+        "institution": null,
+        "year": "Aug 2015 - Jun 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "“IBM Certified Data Analysis with Python” — Coursera",
+      "“SQL Beginner to Advanced for Data Professionals” — CodeBasics.io",
+      "“Get Job Ready: Power BI Data Analytics for All Levels 2.0” — CodeBasics.io",
+      "“Excel: Mother of Business Intelligence” — CodeBasics.io",
+      "“Introduction to Computers and Operating Systems and Security” — Microsoft",
+      "https://www.linkedin.com/in/ritik-gupta-583727189/",
+      "https://github.com/Ritik-gupta13",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

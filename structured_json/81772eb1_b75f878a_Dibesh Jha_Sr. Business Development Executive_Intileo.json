@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "source_file": "81772eb1_b75f878a_Dibesh Jha_Sr. Business Development Executive_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:26.602332+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Dibesh Jha",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jhadivesh5@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917003983994",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Business Development professional with 4+ years of experience across telecom,\nfintech, and security solutions industries. Skilled in merchant acquisition, field sales, client\nrelationship management, and revenue growth.",
+  "skills": {
+    "items": [
+      "Business Development",
+      "CRM Tools",
+      "Client Relationship Management",
+      "Cold Calling",
+      "Communication",
+      "Field Sales",
+      "Fintech",
+      "Lead Generation",
+      "Negotiation",
+      "Revenue Generation",
+      "SAP",
+      "Telecom",
+      "Time Management"
+    ],
+    "by_category": {
+      "biz_dev": [
+        "Business Development"
+      ],
+      "sales": [
+        "CRM Tools",
+        "Cold Calling",
+        "Field Sales",
+        "Lead Generation",
+        "Revenue Generation"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Negotiation",
+        "Time Management"
+      ],
+      "domain": [
+        "Fintech",
+        "Telecom"
+      ],
+      "integration": [
+        "SAP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(telecom→Telecom(100%), fintech→Fintech(100%), field sales→Field Sales(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "BDA – House of EdTech",
+        "location": null,
+        "start": "Dec 2025",
+        "end": "Feb 2026",
+        "method": "date_regex",
+        "duration_months": 3,
+        "bullets": [
+          "Built strong relationships with customers",
+          "Explained product features effectively",
+          "Maintained data reports"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Officer – Business Development",
+        "company": "PhonePe Pvt. Ltd",
+        "location": "Kolkata",
+        "start": "Nov 2023",
+        "end": "Oct 2024",
+        "method": "date_regex+title_dash_company+next_line_company",
+        "duration_months": 12,
+        "bullets": [
+          "Acquired merchants across schools, restaurants, and retail outlets for EDC machine deployment",
+          "Conducted product demonstrations and explained features",
+          "Managed onboarding and activation"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Business Development Officer",
+        "company": "Prama India Pvt. Ltd",
+        "location": "Kolkata",
+        "start": "Mar 2023",
+        "end": "Nov 2023",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 9,
+        "bullets": [
+          "Built partnerships with SI partners",
+          "Gathered requirements for CCTV and networking products",
+          "Managed purchase orders in SAP CRM"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Field Sales Associate",
+        "company": "Reliance Jio Fiber",
+        "location": "Kolkata",
+        "start": "Nov 2020",
+        "end": "Oct 2022",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 24,
+        "bullets": [
+          "Generated leads through cold calling and field visits",
+          "Managed onboarding and documentation"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Field Sales Executive",
+        "company": "Spring Air Mattresses",
+        "location": "Kolkata",
+        "start": "May 2018",
+        "end": "Mar 2020",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 23,
+        "bullets": [
+          "Product demos and negotiations",
+          "Sales reporting and client handling"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.8,
+      "total_months": 70,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Commerce (Hons.)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "Hons.",
+        "institution": "Hons. Capital University Jharkhand",
+        "year": "2018 - 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "source_file": "bc50aa4d_2ecea23f_Pooja Pal_segmented.txt",
+    "generated_at": "2026-09-30T07:00:10.747698+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills",
+      "strengths",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pooja Pal",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "gunjanpal1316@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+916351186507",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Software Engineer with over 6 months of Management Operations experiences\nand 1.5 years of experience in developing and maintaining web applications using ASP.NET,\nC#, and SQL Server. Skilled in full software development lifecycle, from requirement gathering\nand coding to deployment and support. Adept at working in team environments and\ndelivering scalable, high-quality solutions.",
+  "skills": {
+    "items": [
+      "ASP.NET",
+      "C#",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "MSSQL",
+      "Problem Solving",
+      "SDLC",
+      "Visual Studio"
+    ],
+    "by_category": {
+      "web_framework": [
+        "ASP.NET",
+        "HTML5"
+      ],
+      "programming_language": [
+        "C#",
+        "JavaScript"
+      ],
+      "dev_tool": [
+        "Git",
+        "Visual Studio"
+      ],
+      "database": [
+        "MSSQL"
+      ],
+      "soft_skill": [
+        "Problem Solving"
+      ],
+      "architecture": [
+        "SDLC"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), problem-solving→Problem Solving(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Engineer and Management Operations",
+        "company": "TKSR Global Trade",
+        "location": "Application Support",
+        "start": "Jun 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 16,
+        "bullets": [
+          "Providing application support and management for business-critical systems.",
+          "Monitoring, troubleshooting, and resolving issues to ensure smooth operations.",
+          "Coordinating with development and infrastructure teams for issue resolution.",
+          "Preparing technical documentation and user guides for supported applications."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate Software Engineer",
+        "company": "Tecnoglare Infotech Pvt. Ltd",
+        "location": "Associate Software Engineer  | Janakpuri, Delhi",
+        "start": "Nov 2023",
+        "end": "Jan 2025",
+        "method": "date_regex+pipe_company_loc_role+company_suffix_match",
+        "duration_months": 15,
+        "bullets": [
+          "Designed and developed web applications using ASP.NET (C#).",
+          "Worked on database-driven solutions using MS SQL Server.",
+          "Collaborated with cross-functional teams to deliver client requirements on time.",
+          "Improved application performance and fixed bugs to ensure smooth operations."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Net Developer Trainee",
+        "company": "CompuRx Infotech Pvt. Ltd",
+        "location": "Asp.Net Developer Trainee  | Khanpur Saket, New Delhi",
+        "start": "Jun 2023",
+        "end": "Nov 2023",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 6,
+        "bullets": [
+          "Assisted in development and maintenance of web applications.",
+          "Worked on front-end enhancements using HTML, CSS, JavaScript.",
+          "Contributed to backend development and database queries in SQL Server. Internship: Web Development (ASP.NET, C#) – ESSAR Power Plant Company, Dwarka, Gujarat Project (MCA Final Year): Task Management System using ASP.NET & C#"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.0,
+      "total_months": 36,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MCA – Master of Computer Applications, JVIMS College (GTU) | 2018",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": "Master of Computer Applications",
+        "institution": "Master of Computer Applications, JVIMS College (GTU)",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BCA – Bachelor of Computer Applications, Platinum College (Saurashtra University)",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": "Bachelor of Computer Applications",
+        "institution": "Bachelor of Computer Applications, Platinum College Saurashtra University",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "HSC - Gujarat Secondary and Higher Secondary Education Board (GSHEB)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "Gujarat Secondary and Higher Secondary Education Board (GSHEB)",
+        "institution": "Gujarat Secondary and Higher Secondary Education Board (GSHEB).",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "SSC - Gujarat Secondary and Higher Secondary Education Board (GSEB)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "Gujarat Secondary and Higher Secondary Education Board (GSEB)",
+        "institution": "Gujarat Secondary and Higher Secondary Education Board (GSEB)",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.84
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

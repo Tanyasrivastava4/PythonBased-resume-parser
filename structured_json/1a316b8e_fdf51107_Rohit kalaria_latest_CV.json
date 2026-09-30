@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "source_file": "1a316b8e_fdf51107_Rohit kalaria_latest_CV_segmented.txt",
+    "generated_at": "2026-09-30T06:58:01.451105+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rohit Kalaria",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rohitkalaria3@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Having 8 Years of experience including Oracle Apps Finance-Functional consultant on Oracle Fusion Cloud and R12 Finance modules.\nExperience in Implementation and supporting projects on P2P, GL and other Finance modules.\nConducted comprehensive workshops to gather business requirements, analyze processes, and map business requirements to Oracle Fusion\ncapabilities.\nConducted user training sessions and provided ongoing support to ensure successful adoption of Oracle solutions.\nResolved complex functional issues and performance bottlenecks, optimizing system performance and reliability.\nProvided process enhancement strategies and created SOP documents to organize and stabilize the existing process.\nDelivered post-production support and enhancements based on client feedback and evolving business needs.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Adaptability",
+      "Analyze",
+      "General Ledger",
+      "Jira",
+      "Leadership",
+      "Linux",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft Outlook",
+      "Microsoft Teams",
+      "Microsoft Windows",
+      "Microsoft Word",
+      "MySQL",
+      "Networking",
+      "Oracle Fusion Cloud",
+      "Procure-to-Pay",
+      "Property Management",
+      "SOP",
+      "SQL",
+      "Toad",
+      "Zoom"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Accounts Payable",
+        "Accounts Receivable"
+      ],
+      "soft_skill": [
+        "Adaptability",
+        "Leadership"
+      ],
+      "data_science": [
+        "Analyze"
+      ],
+      "accounting": [
+        "General Ledger"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft Outlook",
+        "Microsoft Teams",
+        "Microsoft Word",
+        "Zoom"
+      ],
+      "database": [
+        "MySQL",
+        "SQL",
+        "Toad"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "oracle_erp": [
+        "Oracle Fusion Cloud"
+      ],
+      "finance": [
+        "Procure-to-Pay"
+      ],
+      "real_estate": [
+        "Property Management"
+      ],
+      "operations": [
+        "SOP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Account Payables→Accounts Payable(94%), General ledger→Accounting(100%), Property manager→Property Management(100%), Account receivables→Accounts Receivable(95%), MS Teams→Microsoft Teams(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Consultant",
+        "company": "AWC Software",
+        "location": null,
+        "start": "01-jul 2022",
+        "end": "4 Years",
+        "method": "stated_duration_regex+header_line_widow_date+at_split",
+        "duration_months": 0,
+        "bullets": [
+          "Leading team of finance and managing team of 4 members.",
+          "Supporting issues related to post Implementation for GST module.",
+          "Configuration of new transaction types and document categories for Oracle receivables.",
+          "Document sequencing of all modules for new financial year as a part of new financial year activity.",
+          "Configuration of TDS, LTDC and GST rates.",
+          "Enabling Audit trails in Fusion for all modules.",
+          "Worked on Audit for the financial year 23-24 which involved providing supporting documents of all system configurations, development of custom reports as per the audit requirement.",
+          "Implementation of process of GST.",
+          "Knowledge of handling issues and creating dashboard on JIRA tool.",
+          "Creation of Custom Roles and Access related issues for user.",
+          "Preparation of audit documentation as required by the auditors.",
+          "Creation of Approval hierarchy for Invoice approvals, Supplier approvals in BPM worklist.",
+          "Updating profile options and SQL scripts to fix the issues."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Consultant",
+        "company": "Connaissant Soft Solution",
+        "location": null,
+        "start": "01-Sep 2019",
+        "end": "3 Years",
+        "method": "stated_duration_regex+header_line_widow_date+at_split",
+        "duration_months": 0,
+        "bullets": [
+          "Post implement support for P2P cycle and other finance modules.",
+          "Log SR, actively participating in expertise resolution of the SR.",
+          "Configuration of Approval rules in BPM.",
+          "Define Customer, Transaction type, Transaction Source, System Options, Receivable Activities in Receivables.",
+          "Setting up GL Chart of accounts, Calendar, Define Transaction Calendar, Open and Close Accounting periods (AR and GL).",
+          "Worked on User creation, Menus, Responsibility and other AOL activities.",
+          "Worked on creation of Business Group, Ledger, Legal Entity, Operating Unit and Inventory Org.",
+          "Responsible to Create Bank/ Bank Branches / Bank Account setup.",
+          "Worked on Audit for the financial year 22-23 which involved providing supporting documents of all system configurations, development of custom reports as per the audit requirement.",
+          "Solving issues of Transactions, Receipts and Invoices.",
+          "Define Security Rule, CVR and Document Sequencing.",
+          "Knowledge of TDS & GST.",
+          "Testing New Business Requirements in the Test Instance and validating the same in Productions.",
+          "Solving the issues within the time boundaries based on the Severity."
+        ],
+        "sub_sections": [
+          "Resolving Period end closing"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Name of Board",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.E",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Chandigarh University",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "source_file": "d72ab02f_6eefbbb0_PRIYA AGRAWAL_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:30.083397+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "priya.agrawal213@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9425407551",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with ~6 years of post-qualification experience in Audit – assurance.\nWorking with EY GDS as Assistant Manager.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Data Analytics",
+      "DataSnipper",
+      "Financial Reporting",
+      "Financial Statement Analysis",
+      "Helix",
+      "Income Tax Return",
+      "Mechanical Engineering",
+      "Payroll Administration",
+      "Statutory Audit",
+      "Tax Audit",
+      "Taxation",
+      "Test of Details",
+      "Variance Analysis"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Taxation"
+      ],
+      "data_science": [
+        "Data Analytics"
+      ],
+      "finance": [
+        "DataSnipper",
+        "Financial Statement Analysis",
+        "Helix",
+        "Income Tax Return",
+        "Test of Details"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "accounting": [
+        "Tax Audit"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "audit assistant from",
+        "company": "Rathi & Company",
+        "location": "Gwalior",
+        "start": "March 2020",
+        "end": "September 2021",
+        "method": "date_regex+date_prefix_title+with_as_split",
+        "duration_months": 19,
+        "bullets": [
+          "Involved in statutory and tax audits of various entities where work included – Verification, ledger scrutiny and audit finalization.",
+          "Preparation of Tax Audit Reports, Income tax computations and filing of Income Tax Returns.",
+          "Lead and managed both Listed and Private clients in the finalization and closure of their books of accounts.",
+          "Conducted internal audits for a variety of entities across different sectors.",
+          "Articleship:"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Assurance – Assistant Manager",
+        "company": "Ernst & Young Global Delivery Services India LLP",
+        "location": "Gurugram",
+        "start": "December 2021",
+        "end": "Present",
+        "method": "date_regex+dash_split",
+        "duration_months": 58,
+        "bullets": [
+          "Supervised and managed a team of ~6-8 resources of semi-qualified Chartered Accountants and staff accountants.",
+          "Conducted statutory audits for clients based in the U.S., regularly interacting with both the EY US team and client representatives.",
+          "Performed substantive analytical procedures on key audit areas such as revenue, payroll, and expenses.",
+          "Executed statutory audits across multiple industries, including food and beverage, aviation, and automotive.",
+          "Carried out test of details on various audit sections including Cash, Revenue, Property, Plant & Equipment (PPE), Accounts Receivable, Accounts Payable, Accruals, Debt, and Expenses.",
+          "Prepared the Summary of Audit Differences for identified misstatements and drafted the Management Representation Letter.",
+          "Utilized data analytics tools (e.g., General Ledger Analyzer) to perform Balance Sheet, Income Statement, and Journal Entry Testing.",
+          "Prepared lead sheets for various accounts and conducted variance analysis in comparison to prior year figures.",
+          "Participated in analytical reviews and the financial statement review and tie-out process.",
+          "Proficient in digital audit tools such as EY Helix, EY Canvas, EY Random, EY Microstart, and Data Snipper.",
+          "Built and maintained strong working relationships with clients and the EY US team, proactively coordinating to obtain required information."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Article Trainee",
+        "company": "Gupta Deepak and company",
+        "location": "Gwalior",
+        "start": "August 2011",
+        "end": "August 2014",
+        "method": "date_regex+dash_split",
+        "duration_months": 37,
+        "bullets": [
+          "Finalization of Financial Statements of Individual, Firms & Companies.",
+          "Preparation and e-filling of ITR.",
+          "Calculation of Advance Tax, MAT.",
+          "Tax Audits under section 44AB of Income Tax Act 1961."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.5,
+      "total_months": 114,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Chartered Accountant – Institute of Chartered accountants of India (August 2019)",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": "Institute of Chartered accountants of India (August 2019)",
+        "institution": "Institute of Chartered accountants of India",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "MBA-Amity university, Noida (2019)",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Amity university",
+        "institution": "AMITY University Noida",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Com – Jiwaji University, Gwalior ()",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "Jiwaji University",
+        "institution": "Jiwaji University, Gwalior",
+        "year": "2010 - 2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Secured exemption in Cost Accounting & Financial Management in CA Intermediate examination",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Institute of Chartered accountants of India",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "Secured exemption in 2 subjects (Information systems control and audit and Direct Taxation) in CA Final examination",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Institute of Chartered accountants of India",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "Hands on experience in software like Tally. Well versed with MS Excel, MS word and Power point",
+        "degree_name": "M.S.",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "Career Objective\t To work in a dynamic environment that provides me a wide spectrum of experience and exposure. To bring a dynamic and Versatile portfolio of skills at workplace and to serve the organization with positive attitude and efficiency",
+        "degree_name": "M.E.",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": "March 2020 - September 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Recipient of “User recognition award”.",
+      "Secured exemption in Cost Accounting & Financial Management in CA Intermediate examination.",
+      "Secured exemption in 2 subjects (Information systems control and audit and Direct Taxation) in CA Final examination.",
+      "Hands on experience in software like Tally. Well versed with MS Excel, MS word and Power point.",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

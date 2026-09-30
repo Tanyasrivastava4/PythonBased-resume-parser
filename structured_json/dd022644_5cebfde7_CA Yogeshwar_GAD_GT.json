@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "source_file": "dd022644_5cebfde7_CA Yogeshwar_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T07:00:32.033752+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Yogeshwar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "yogeshwargoyal9896@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9817618476",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/yogeshwargoyal",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "SAP",
+      "Tally"
+    ],
+    "by_category": {
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "finance_ops": [
+        "Tally"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Article Trainee at Lodha & Co LLP",
+        "company": "Statutory Audit",
+        "location": null,
+        "start": "April 2022",
+        "end": "April 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 37,
+        "bullets": [
+          "Assisted in planning and executing statutory audits of Large corporate and non-corporate clients in 3+ sectors such as Paper & Board Manufacturing, Glass Bottle Manufacturing, Tyre & Tube Manufacturing Including listed companies having Turnover more than 6,000 crores.",
+          "Managed Key Audit Area of the financial statement in various companies, Including Revenue from operation, Account Receivable, Account Payables, Lease Obligation, Borrowings, Consumption of Power & Fuel and Store & Spare, Payroll Expenses and Other Operating Expenses.",
+          "Conducted comprehensive analysis and verification of financial statements, including income statements, balance sheets, and cash flow statements to ensure accuracy and compliance with reporting standards, while also utilizing ratio analysis for deeper financial insights.",
+          "Ensured compliance with statutory regulations such as Companies Act, CARO, GST, TDS, TCS, PF, and ESI provisions.",
+          "Drafted and Prepared Independent Audit Report in accordance with Standards of Auditing (SA), CARO & IFC Testing Report along with all the engagement letter according to SA 210.",
+          "Conducted stock audits in accordance with SA 501, utilizing both the floor-to-sheet and sheet-to-floor methods to ensure accurate inventory records and valuation along with the verification of Property, Plant, and Equipment (PPE).",
+          "Led the team of 3 members and performed the audit of private company having the turnover of Rs 500 crore, collaborated with audit teams to ensure timely completion of assignments while maintaining high standards of quality and accuracy.",
+          "Performed procedures in key operational areas including Order-to-Cash, Procure-to-Pay, Hire-to-Retire, Cash Management, Clearing & Forwarding Agent and Logistic Process, ensuring process efficiency and compliance with established standards",
+          "Prepared the final report, incorporating findings and recommendations, under the guidance of the Senior Manager to ensure accuracy, clarity, and practical recommendations.",
+          "Examine the financial records, accounts, and documents of the Listed companies to verify the accuracy, completeness and timely filing of their form 3CD.",
+          "Assisted in the preparation and review of Form 3CD."
+        ],
+        "sub_sections": [
+          "Internal Audit :-",
+          "Tax Audit: -"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.1,
+      "total_months": 37,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA Intermediate",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA Foundation",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.COM",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Guru Jambheshwar University",
+        "year": "2023",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Scored exemption in 2 subjects in in CA Final Examination and 3 subjects in CA Intermediate examination",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "• Received award of accounts topper in 12th class",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "school commerce Olympiad",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.89
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Scored exemption in 2 subjects in in CA Final Examination and 3 subjects in CA Intermediate examination.",
+      "Received award of accounts topper in 12th class.",
+      "Runner Up in school commerce Olympiad",
+      "Won Zonal level Competition in Yoga"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

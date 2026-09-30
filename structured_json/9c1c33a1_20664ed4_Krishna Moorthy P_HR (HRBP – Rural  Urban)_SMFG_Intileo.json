@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "source_file": "9c1c33a1_20664ed4_Krishna Moorthy P_HR (HRBP – Rural  Urban)_SMFG_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:50.161631+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Krishna Moorthy P",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "krishmoorthy.sp@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9500653414",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Seasoned HR professional with 12.5 years of experience in the BFSI, NBFC, and MFI sectors, excelling in HR Business Partnering,\nemployee relations, and talent acquisition.\nExpertise in managing multi-state HR operations across 4 South Indian states, supporting a workforce of 4000+ employees and leading HR\nteams of 7-10 members.\nProven track record of enhancing employee engagement, reducing attrition rates, and strategically aligning HR initiatives with business\nobjectives to drive growth.\nProficient in HR analytics and MIS reporting, utilizing data-driven insights to inform HR strategies and improve organizational performance.\nSuccessfully reduced time-to-fill key positions by 15% through optimized hiring processes and effective talent acquisition strategies.\nImplemented comprehensive employee engagement programs that improved employee satisfaction and contributed to a positive workplace\nculture.\nLed HR operations encompassing recruitment, employee relations, compliance, and training across various locations and business units.\nStrong understanding of statutory compliance and payroll inputs, ensuring adherence to legal and regulatory requirements.\nAdept at employee grievance handling, performance management, and stakeholder management to create a harmonious and productive\nwork environment.",
+  "skills": {
+    "items": [
+      "BFSI",
+      "Collaboration",
+      "Communication",
+      "Employee Engagement",
+      "HR Management",
+      "Leadership",
+      "MIS Reporting",
+      "Microsoft Teams",
+      "Objective C",
+      "Payroll Administration",
+      "Performance Management",
+      "Problem Solving",
+      "Recruitment",
+      "Regulatory Compliance",
+      "Stakeholder Management",
+      "Team Leadership"
+    ],
+    "by_category": {
+      "domain": [
+        "BFSI"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Leadership",
+        "Problem Solving",
+        "Stakeholder Management",
+        "Team Leadership"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "HR Management",
+        "Payroll Administration",
+        "Performance Management",
+        "Recruitment"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "programming_language": [
+        "Objective C"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Problem-solving→Problem Solving(100%), teams→Microsoft Teams(100%), objectives→Objective C(90%), hiring→Recruitment(100%), recruitment→Recruitment(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Program Manager) Reliance Jio Infocom Ltd (Chennai",
+        "company": "State HR",
+        "location": null,
+        "start": "Dec 2024",
+        "end": "present",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 22,
+        "bullets": [
+          "Oversaw and managed state-level HR operations, including complete hiring cycles, onboarding protocols, and comprehensive HR business partnering.",
+          "Directed end-to-end talent acquisition processes, from sourcing to onboarding, to meet the staffing needs of state-level operations.",
+          "Delivered dedicated HRBP support, fostering robust employee relations and contributing to a positive work environment.",
+          "Collaborated closely with business leaders to strategize and implement effective manpower planning initiatives, ensuring optimal resource allocation.",
+          "Developed and executed targeted employee engagement programs designed to elevate satisfaction scores and promote a thriving workplace.",
+          "Achievements: Decreased time-to-fill by 15% via upgraded recruitment strategies.",
+          "Improved employee satisfaction metrics through focused projects."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Deputy General Manager) I MFI / NBFC Satin Creditcare Network Ltd (Chennai",
+        "company": "Zonal HR",
+        "location": null,
+        "start": "Dec 2022",
+        "end": "Aug 2024",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 21,
+        "bullets": [
+          "Oversaw human resources management and strategies for assigned region.",
+          "Directed comprehensive HR operations spanning Tamil Nadu, Karnataka, AP, and Telangana, supporting a workforce exceeding 3000 employees.",
+          "Led a team of 7 Regional HR professionals, driving the execution of hiring initiatives, employee relations, compliance protocols, and employee lifecycle management.",
+          "Strengthened HRBP function by aligning HR strategies with key business performance objectives, ensuring HR activities directly contributed to company goals.",
+          "Implemented structured retention and engagement initiatives to reduce attrition across assigned states.",
+          "Drove hiring initiatives, ensuring adequate staffing levels across diverse locations.",
+          "Oversight of compliance practices to maintain legal and company standards.",
+          "Achievements: Reduced attrition across states through targeted retention initiatives Bolstered alignment between HR and business goals by focusing HR strategies."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "(Chennai",
+        "company": "Manager HR I MFI / NBFC L&T Financial Services",
+        "location": null,
+        "start": "May 2021",
+        "end": "Nov 2022",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 19,
+        "bullets": [
+          "Managed field HR activities ensuring statutory compliance, HR functioning and more.",
+          "Directed HR operations for 4000+ employees across 4 states within a dynamic microfinance setting.",
+          "Cultivated employee satisfaction and minimized grievances via consistent field HR visits and responsive support mechanisms.",
+          "Collaborated with zonal leadership on essential HR functions, encompassing manpower planning, performance management systems (PMS), engagement strategies, and statutory compliance.",
+          "Oversaw comprehensive HR procedures, including performance evaluations, employee discipline, and conflict management.",
+          "Achievements:"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "(Chennai",
+        "company": "Deputy Manager HRBP I BFSI / Insurance Pramerica Life Insurance Ltd",
+        "location": null,
+        "start": "Sep 2017",
+        "end": "May 2021",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 45,
+        "bullets": [
+          "HR Business Partner for given region including talent acquisition, onboarding, employee relations, and exit interviews.",
+          "Managed HRBP responsibilities for TN, KL & KA, including hiring, onboarding, ER & exit processes.",
+          "Streamlined recruitment with consultant coordination reducing hiring TAT.",
+          "Strengthened employee onboarding through improved induction (EMBARK program)."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "(Chennai",
+        "company": "Assistant Manager HR I MFI / NBFC Muthoot Microfin Ltd",
+        "location": null,
+        "start": "Nov 2013",
+        "end": "Aug 2017",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 46,
+        "bullets": [
+          "Handled all responsibilities related to human resources management for assigned branches.",
+          "Managed comprehensive HR operations for 40 branches within a microfinance context, overseeing recruitment, employee relations, compliance and training.",
+          "Ensured adherence to all statutory compliance requirements (PF, ESI, audits, branch HR processes).",
+          "Contributed to a positive new-hire experience which included onboarding improvements.",
+          "Achievements: Improved onboarding and new hire experience via streamlined processes.",
+          "Achieved 100% compliance with PF, ESI and audit requirements."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "US IT Recruiter Newt Global India Pvt Ltd",
+        "location": null,
+        "start": "Dec 2012",
+        "end": "Oct 2013",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 11,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 13.6,
+      "total_months": 163,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.77
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA - Human Resources ()",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Human Resources (2009 - 2011)",
+        "institution": "Prist University Chennai",
+        "year": "2009 - 2011",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BCA ()",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": "2006 - 2009",
+        "institution": "Madurai Kamaraj University Chennai",
+        "year": "2006 - 2009",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

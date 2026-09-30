@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "source_file": "78d0a669_80eaec1a_Jayesh Anil Jadhav_Network Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:21.925306+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Jayesh Anil Jadhav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jayeshjadhav55@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9028321327",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Dynamic and result-driven Network & Security Specialist with 13+ years of hands-on experience in designing,\nimplementing, and managing secure IT infrastructure across banking and enterprise environments. Proven leader with\nexpertise in Network Access Control (NAC), Proxies, Routing, Switching, Firewalls, SD-WAN, Load Balancers and Azure\ncloud. Adept in leading cross-functional teams (30+ engineers), managing audits, driving vendor coordination, and\nensuring SLA adherence. Adept at driving strategic cyber security initiatives, leading audits, and coordinating regulatory\ncompliance, while also mentoring teams and overseeing critical infrastructure. Currently responsible for Network\nSecurity, cybersecurity, compliance, internal audit, and RBI audit at Axis Bank. Seeking to leverage deep technical\nexpertise and leadership skills in a strategic Network Security or Infrastructure Management role.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "Axios",
+      "Azure",
+      "BGP",
+      "CCNA",
+      "CDN",
+      "Check Point",
+      "Citrix NetScaler",
+      "Communication",
+      "Cross-functional Collaboration",
+      "DNS",
+      "Firewall",
+      "Fortinet",
+      "IT Infrastructure Management",
+      "IT Security",
+      "Leadership",
+      "Load Balancer",
+      "Mentoring",
+      "Microsoft Teams",
+      "Nagios",
+      "Network Security",
+      "OSPF",
+      "Palo Alto Networks",
+      "Proxy",
+      "RBI",
+      "Regulatory Compliance",
+      "Remote Diagnostics",
+      "Responsible AI",
+      "SD-WAN",
+      "SLA Management",
+      "VLAN",
+      "VPN",
+      "Vendor Management"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing"
+      ],
+      "web_framework": [
+        "Axios"
+      ],
+      "cloud_infra": [
+        "Azure",
+        "CDN",
+        "Nagios",
+        "VLAN"
+      ],
+      "networking": [
+        "BGP",
+        "CCNA",
+        "DNS",
+        "OSPF",
+        "SD-WAN"
+      ],
+      "security_ops": [
+        "Check Point",
+        "Citrix NetScaler",
+        "Firewall",
+        "Network Security",
+        "Palo Alto Networks",
+        "Proxy",
+        "VPN"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring"
+      ],
+      "security": [
+        "Fortinet",
+        "IT Security"
+      ],
+      "it_ops": [
+        "IT Infrastructure Management"
+      ],
+      "devops": [
+        "Load Balancer"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "domain": [
+        "RBI"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "sysadmin": [
+        "Remote Diagnostics"
+      ],
+      "genai": [
+        "Responsible AI"
+      ],
+      "support": [
+        "SLA Management"
+      ],
+      "operations": [
+        "Vendor Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(SLA Monitoring→SLA Management(100%), Firewalls→Firewall(100%), Checkpoint→Check Point(100%), Palo Alto→Palo Alto Networks(100%), Microsoft Azure→Azure(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Unknown - Designation | Senior Manager",
+        "company": "Current Employment: Axis Bank Ltd",
+        "location": "Mumbai",
+        "start": "Nov 2022",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict+company_suffix_match",
+        "duration_months": 47,
+        "bullets": [
+          "Network Security and Operations:",
+          "Managing a team of 30+ engineers handling day-to-day operations across Proxy, NAC, Firewalls, SSLV, DNS, and Load Balancer infrastructure.",
+          "Administered Bluecoat Proxy and CASMA with advanced URL/content filtering, SSL inspection, and PAC file tuning.",
+          "Deployed and managed new CAS (Content Analysis System) and Management Appliance to enhance proxy posture and visibility.",
+          "Successfully migrated 1 lakh+ users from legacy WSS Proxy to Zscaler ZIA with zero downtime.",
+          "Defined and enforced Zscaler ZIA policies for secure browsing, SSL decryption, and sandboxing.",
+          "Decommissioned legacy Nevis NAC solution and independently implemented HPE Aruba ClearPass NAC, serving over 1 lakh users.",
+          "Designed and deployed dot1x authentication, posture checks, and quarantine enforcement per bank security policies.",
+          "Migrated VPN access for over 1 lakh users from Accops to Zscaler ZPA to strengthen remote access security.",
+          "Deployed SSL Visibility (SSLV) for decrypting encrypted internet-bound traffic to enhance monitoring and threat visibility.",
+          "Utilized Arbor to detect and mitigate DDoS attacks across perimeter infrastructure.",
+          "Ensured complete coverage and response readiness for L3/L7 security scenarios.",
+          "Oversaw Skybox-driven firewall rule reviews, policy validations, and daily change ticket resolution.",
+          "Performed configuration, management, and policy audits on Checkpoint, ASA, Palo Alto (PA-5445) and other security appliances.",
+          "Drove ongoing compliance checks across all network security layers to align with internal and RBI audit expectations.",
+          "Designed and configured F5 Load Balancer (VIPs, SSL certs, virtual servers, health monitors) for critical banking applications.",
+          "Built new PROD and UAT network setups to support secure and scalable deployments in hybrid environments.",
+          "Delivered infrastructure implementations across Azure (Application Gateway, DNS, CDN, Traffic Manager) with security-first design.",
+          "ITIL Process & RCA Management:",
+          "Followed full ITIL lifecycle including Change Management (RFCs, CABs), Problem Management (RCA), and Incident Management.",
+          "Created SOPs, HLDs, and LLDs to standardize infrastructure deployment and operations.",
+          "Led RCA sessions for recurring issues and raised risks to proactively prevent security non-compliance.",
+          "Vendor Governance & Procurement:",
+          "Acted as technical SPOC for vendor evaluations, proposal reviews, and POC validations.",
+          "Managed commercial workflows: negotiated proposals, initiated purchase requests, and released POs in compliance with bank policy."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Unknown - Designation | Senior Consultant",
+        "company": "Previous Employment: Capgemini Technology Services India",
+        "location": "Navi Mumbai",
+        "start": "Jun 2019",
+        "end": "Nov 2022",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 42,
+        "bullets": [
+          "Network and Network Security Operations:",
+          "Implemented and managed LAN, Wireless, Proxy, and WAN infrastructure across data centers.",
+          "Handled multi-vendor switching environments (Cisco, HP, D-Link) and led migration from Motorola to Cisco Meraki Wi-Fi.",
+          "Troubleshot LAN/WAN connectivity and wireless issues involving Cisco Meraki, Motorola, and traditional setups.",
+          "Administered and resolved Zscaler proxy operations (URL/content filtering, SSL inspection, PAC files).",
+          "Supported 802.1x NAC integrations for secure wireless access.",
+          "Configured and maintained firewall rules on Checkpoint and Cisco ASA.",
+          "Established and supported IPsec/SSL VPN tunnels between client and remote sites.",
+          "Performed packet captures and log analysis for in-depth troubleshooting and RCA.",
+          "Azure & Cloud Infrastructure:",
+          "Managed Azure Webfarm technologies: Application Gateway, Load Balancer, Traffic Manager, CDN.",
+          "Hosted websites by configuring DNS entries on global DNS (Studio Barbero).",
+          "Renewed SSL certificates and configured NAT/PAT rules via Checkpoint on Azure.",
+          "Managed ExpressRoute setups for Azure-to-on-prem communication.",
+          "Load Balancing & Tools:",
+          "Configured Citrix NetScaler (VIPs, GSLB, virtual servers); performed firmware/patch upgrades and cert renewals.",
+          "Deployed monitoring tools (CA Spectrum), integrated with ServiceNow (SNOW).",
+          "Operations & ITIL Process:",
+          "Managed P1 incidents and led Major Incident Management (MIM) calls.",
+          "Created SOPs, LLDs, and HLDs; followed complete ITIL lifecycle — change management, RCA, RITMs, SCTASKs."
+        ],
+        "sub_sections": [
+          "Unknown - Designation | Senior Consultant"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Unknown - Designation | Manager",
+        "company": "Site",
+        "location": "Mumbai",
+        "start": "March 2019",
+        "end": "June 2019",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 4,
+        "bullets": [
+          "Datacenter Infrastructure & Migration:",
+          "Led migration of core datacenter switches from Cisco 4500 to Cisco Nexus 9k in preparation for ACI (Application Centric Infrastructure) deployment.",
+          "Managed capacity planning across the datacenter and branch-level networks, ensuring scalability and future growth.",
+          "Developed detailed High-Level Design (HLD) and Low-Level Design (LLD) documentation for infrastructure rollouts.",
+          "Identified critical interfaces and port configurations for terminating new devices into Cisco switching fabric.",
+          "Managed and responded to incidents involving Fortinet, Cisco ASA, and Checkpoint firewalls.",
+          "Supervised daily operations of QoS policies via Allot devices and active-active load balancing for high-availability systems.",
+          "Incident & Problem Management:",
+          "Handled incident and problem management for datacenter and third-party hosted setups.",
+          "Responded to escalations from application owners related to application uptime and performance degradation.",
+          "Acted as the single point of contact for coordination between internal teams and customer-facing entities.",
+          "Team Leadership & Vendor Coordination:",
+          "Directed a 30+ engineer team managing day-to-day datacenter operations and change implementations.",
+          "Drove vendors to meet compliance and performance expectations, ensuring project timelines and SLA adherence."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Unknown - Designation | Deputy Manager",
+        "company": "Previous employment: Axis Bank Ltd",
+        "location": "Navi Mumbai",
+        "start": "June 2014",
+        "end": "Feb 2019",
+        "method": "date_regex+pipe_company_loc_role+title_dict+company_suffix_match",
+        "duration_months": 57,
+        "bullets": [
+          "Branch Network Infrastructure & Uptime Management:",
+          "Maintained 99.5% uptime across PAN India branches by coordinating with service providers and internal teams for proactive resolution of link failures.",
+          "Handled rollout and monitoring of broadband and backup links; coordinated commissioning with branches and ISPs.",
+          "Implemented migration from mesh to hub-and-spoke topology across all branches for simplified architecture and better control.",
+          "Ensured overall SLA management for branch connectivity, routing, switching, and link health.",
+          "Network Operations:",
+          "Configured, implemented, and audited firewall policies on Cisco ASA, Checkpoint, and Fortinet for LAN and WAN environments.",
+          "Handled daily firewall change requests, backup, and compliance through proper CMR processes.",
+          "Enabled URL/content filtering via Bluecoat proxy and enforced access controls for unmanaged devices (ATM, BNA, PBK, IP cameras) through VLAN-based segmentation.",
+          "Supported internet broadband rollout at branches secured via datacenter firewalls.",
+          "Implemented and monitored Wi-Fi connectivity (WIPS-enabled) for branches and head office; ensured security posture and uptime.",
+          "Tested and supported deployment of SD-WAN (Cisco Viptela) for next-gen branch connectivity.",
+          "Integrated Symantec Endpoint Protection with SCCM to push policy updates and antivirus definitions.",
+          "Network Monitoring & Tools:",
+          "Used Nagios, Centreon, and HP NNMi for real-time link and device monitoring across all network layers.",
+          "Maintained CMDB to manage inventory of all network devices and configurations.",
+          "Hands-on experience with Cisco Prime and Infoblox for network insights and IPAM.",
+          "Team & Vendor Leadership",
+          "Led a team of 25+ engineers supporting end-to-end network operations for 3,000+ branches.",
+          "Engaged with vendors to resolve issues within SLA and delivered infrastructure improvements per audit/compliance requirements.",
+          "Regularly reviewed link incidents, outages, and coordinated root cause analysis with third-party providers."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Network Engineer",
+        "company": "Previous employment: Polaris Financial Technologies (Netscout IT Technologies",
+        "location": "Thane",
+        "start": "May 2013",
+        "end": "April 2014",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 12,
+        "bullets": [
+          "Data Center Network & Security Operations:",
+          "Supported the Core Banking Solution (CBS) project by managing network infrastructure at the Primary Data Center (PDC) and Secondary Data Center (ODC).",
+          "Installed, configured, and maintained Cisco switches and APV 2600 Load Balancers for high availability and performance.",
+          "Executed CRF requests for rule creation, deletion, and modification on switches and load balancers in compliance with security protocols.",
+          "Managed server load balancing using SLB technology — configured real/virtual services, clustering, and SSL certificates.",
+          "Performed image upgrades, restored services, and monitored logs, traffic buffers, and alerts on Array Load Balancer appliances.",
+          "Maintained accurate SSL deployment and availability using load balancer console monitoring tools.",
+          "Switching & IOS Management:",
+          "Deployed and upgraded Cisco IOS on core switches; ensured post-deployment stability and version compliance.",
+          "Monitored switch health, CPU usage, memory, and link utilization to proactively prevent outages or performance degradation.",
+          "Backup, Monitoring & Security Readiness:",
+          "Scheduled, restored, and maintained regular backups of key configurations and network appliances.",
+          "Actively monitored infrastructure for security alerts, errors, performance spikes, and link failures; ensured RCA and escalation readiness."
+        ],
+        "sub_sections": [
+          "Project : Core Banking Solution (CBS)",
+          "Designation : Network Engineer"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Network Engineer",
+        "company": "Router Configuration & WAN Setup:",
+        "location": "Mumbai",
+        "start": "Aug 2012",
+        "end": "Feb 2013",
+        "method": "date_regex+pipe_company_loc_role+subfield_label_role",
+        "duration_months": 7,
+        "bullets": [
+          "Configured Cisco 1800/2800 routers for single and dual MPLS links with minimal business impact and downtime.",
+          "Hardened branch routers and implemented secure communication between core and branch infrastructure.",
+          "Configured BGP on routers to ensure stable routing and redundancy.",
+          "Liaised with ISPs to check feasibility and provision new links for branch connectivity.",
+          "Coordinated with Facility Management (FM) team to arrange operational downtime windows for upgrades or migrations.",
+          "Upgraded IOS on Cisco 1800/2800 series routers to meet security and performance standards.",
+          "Conducted failover and link failure testing; monitored bandwidth and load utilization metrics across branch links.",
+          "VSAT & Remote Connectivity:",
+          "Deployed and maintained VSAT-based internet links in remote regions lacking MPLS or broadband coverage.",
+          "Ensured seamless fallback and access to banking applications in low-bandwidth environments.",
+          "Documentation & IP Management:",
+          "Maintained centralized records of IP address schemes and link databases for efficient troubleshooting and"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Support Engineer",
+        "company": "Technical Support & Product",
+        "location": "Navi Mumbai",
+        "start": "Sept 2011",
+        "end": "Aug 2012",
+        "method": "date_regex+pipe_company_loc_role+subfield_label_role",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 14.8,
+      "total_months": 178,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• B.E. in Electronics & Telecommunication – University of Pune – 64.13% (2011)",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics & Telecommunication – University of Pune – 64.13% (2011)",
+        "institution": "University of Pune",
+        "year": "2011",
+        "gpa": "64.13%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Diploma in EXTC – M.S.B.T.E – 73.52% (2008)",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "EXTC – M.S.B.T.E – 73.52% (2008)",
+        "institution": null,
+        "year": "2008",
+        "gpa": "73.52%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• S.S.C. – Maharashtra State Board – 68.13% (2005)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Maharashtra State Board",
+        "year": "2005",
+        "gpa": "68.13%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Cisco Certified Network Associate (CCNA – 640-802)",
+        "issuer": "Cisco",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Cisco Certified Network Professional – Routing (CCNP – 642-902)",
+        "issuer": "Cisco",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Cisco Certified Network Professional – Switching (CCNP – 642-813)",
+        "issuer": "Cisco",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Cisco Certified Network Associate Security (CCNA Security – 210-260)",
+        "issuer": "Cisco",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "ITIL v4 Foundation",
+        "issuer": "ITIL",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

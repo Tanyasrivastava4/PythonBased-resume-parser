@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "source_file": "7ed8cb2f_51937d5e_Rahul Shirodkar_Executive-Sr. Executive - Purchase_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:25.581228+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Procurement And Supply",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rahulshirodkar25@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8779841032 / 2018-11-2022",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "MS Office",
+      "Microsoft Teams",
+      "Procurement",
+      "Public Relations",
+      "Quality Assurance",
+      "SAP S/4HANA",
+      "Supply Chain"
+    ],
+    "by_category": {
+      "productivity": [
+        "MS Office",
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Procurement",
+        "Quality Assurance"
+      ],
+      "marketing": [
+        "Public Relations"
+      ],
+      "integration": [
+        "SAP S/4HANA"
+      ],
+      "domain": [
+        "Supply Chain"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(procurement→Procurement(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Purchase Executive | Sanathan Textiles Limited",
+        "company": null,
+        "location": "Maharashtra",
+        "start": "2022-07",
+        "end": "Present",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 51,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.2,
+      "total_months": 51,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "PGDM – Logistics & Supply Chain",
+        "degree_name": "PGDM",
+        "degree_type": "diploma",
+        "degree_field": "Logistics & Supply Chain",
+        "institution": "Mumbai University Mumbai MH",
+        "year": "2009",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Mumbai, MH",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Mumbai, MH",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Maintained 99% material availability with zero",
+      "stockouts in peak production seasons.",
+      "Successfully migrated procurement workflows to",
+      "SAP S/4HANA MM, reducing manual errors and",
+      "improving real-time visibility."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

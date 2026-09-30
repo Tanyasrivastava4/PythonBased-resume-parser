@@ -1,4 +1,2089 @@
 {
+  "Linear Regression": {
+    "aliases": [
+      "linear regression",
+      "linear regression models",
+      "linear models"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Speech-to-Text": {
+    "aliases": [
+      "speech-to-text",
+      "speech to text",
+      "stt",
+      "deepgram speech-to-text"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Text-to-Speech": {
+    "aliases": [
+      "text-to-speech",
+      "text to speech",
+      "tts",
+      "elevenlabs text-to-speech"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Black-Scholes Model": {
+    "aliases": [
+      "black-scholes model",
+      "black-scholes",
+      "black scholes"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Monte Carlo Simulation": {
+    "aliases": [
+      "monte carlo simulation",
+      "monte-carlo simulation",
+      "monte carlo"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Hypothesis Testing": {
+    "aliases": [
+      "hypothesis testing"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Chi-Square Test": {
+    "aliases": [
+      "chi-square test",
+      "chi square test"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Product Analytics": {
+    "aliases": [
+      "product analytics",
+      "product & growth analytics"
+    ],
+    "category": "business_analysis",
+    "source": "custom"
+  },
+  "Growth Analytics": {
+    "aliases": [
+      "growth analytics"
+    ],
+    "category": "business_analysis",
+    "source": "custom"
+  },
+  "Deepgram": {
+    "aliases": [
+      "deepgram"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "ElevenLabs": {
+    "aliases": [
+      "elevenlabs"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Community Detection": {
+    "aliases": [
+      "community detection",
+      "community detection algorithm"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Sensitivity Analysis": {
+    "aliases": [
+      "sensitivity analysis"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Derivatives Pricing": {
+    "aliases": [
+      "derivatives pricing",
+      "otc derivatives",
+      "financial instruments pricing"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Desktop Support": {
+    "aliases": [
+      "desktop support",
+      "desktop/laptop troubleshooting",
+      "desktop & laptop support",
+      "desktop support engineer"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Data Recovery": {
+    "aliases": [
+      "data recovery",
+      "dato recovery"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Data Backup": {
+    "aliases": [
+      "data backup",
+      "user data backup",
+      "backup and restoration",
+      "backup & restoration"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Hardware Installation": {
+    "aliases": [
+      "hardware installation",
+      "computer hardware installation"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Software Installation": {
+    "aliases": [
+      "software installation",
+      "appicotion instalotions"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Remote Diagnostics": {
+    "aliases": [
+      "remote diagnostics",
+      "remote support",
+      "remote dlognostics"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Printer Support": {
+    "aliases": [
+      "printer support",
+      "printer installation"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "CCTV": {
+    "aliases": [
+      "cctv",
+      "cctv maintenance",
+      "cctv installation",
+      "cctv maintenance and installation"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Biometrics": {
+    "aliases": [
+      "biometrics",
+      "biometric systems",
+      "biometrics and security systems"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Video Conferencing": {
+    "aliases": [
+      "video conferencing",
+      "video conference support"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Network Troubleshooting": {
+    "aliases": [
+      "network troubleshooting",
+      "internet & basic network issue resolution"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "macOS": {
+    "aliases": [
+      "macos",
+      "mac os",
+      "moc os"
+    ],
+    "category": "os_system",
+    "source": "custom"
+  },
+  "IT Asset Management": {
+    "aliases": [
+      "it asset management",
+      "asset management",
+      "asset coordinator",
+      "asset executive"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Revenue Optimization": {
+    "aliases": [
+      "revenue optimization",
+      "revenue growth",
+      "revenue management"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Marketing Automation": {
+    "aliases": [
+      "marketing automation"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Data Studio": {
+    "aliases": [
+      "data studio",
+      "google data studio",
+      "looker studio"
+    ],
+    "category": "business_analysis",
+    "source": "custom"
+  },
+  "Process Re-Engineering": {
+    "aliases": [
+      "process re-engineering",
+      "process reengineering",
+      "business transformation",
+      "workflow optimization"
+    ],
+    "category": "consulting",
+    "source": "custom"
+  },
+  "Program Management": {
+    "aliases": [
+      "program management",
+      "enterprise program leadership",
+      "program leadership"
+    ],
+    "category": "project_mgmt",
+    "source": "custom"
+  },
+  "Growth Strategy": {
+    "aliases": [
+      "growth strategy",
+      "marketing & growth strategy"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Portfolio Management": {
+    "aliases": [
+      "portfolio management",
+      "project & portfolio management"
+    ],
+    "category": "project_mgmt",
+    "source": "custom"
+  },
+  "Technology Enablement": {
+    "aliases": [
+      "technology enablement"
+    ],
+    "category": "consulting",
+    "source": "custom"
+  },
+  "Linear Programming": {
+    "aliases": [
+      "linear programming"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Customer Segmentation": {
+    "aliases": [
+      "customer segmentation"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Performance Marketing": {
+    "aliases": [
+      "performance marketing",
+      "performance media"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "D2C Marketing": {
+    "aliases": [
+      "d2c marketing",
+      "direct-to-consumer marketing",
+      "d2c"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Customer Data Platform": {
+    "aliases": [
+      "customer data platform",
+      "cdp"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Regularization": {
+    "aliases": [
+      "regularization",
+      "l1 regularization",
+      "l2 regularization",
+      "l1/l2"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Bagging": {
+    "aliases": [
+      "bagging",
+      "bootstrap aggregating"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Boosting": {
+    "aliases": [
+      "boosting",
+      "gbm",
+      "gradient boosting"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Decision Trees": {
+    "aliases": [
+      "decision tree",
+      "decision trees"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Feature Engineering": {
+    "aliases": [
+      "feature engineering"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Dimensionality Reduction": {
+    "aliases": [
+      "dimensionality reduction"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Credit Scorecard": {
+    "aliases": [
+      "credit scorecard",
+      "credit scorecards",
+      "application scorecard",
+      "scorecard"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Weight of Evidence": {
+    "aliases": [
+      "weight of evidence",
+      "woe",
+      "woe binning"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Propensity Modeling": {
+    "aliases": [
+      "propensity modeling",
+      "propensity scorecard",
+      "propensity-to-pay"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Generalized Linear Models": {
+    "aliases": [
+      "generalized linear models",
+      "glm",
+      "glm-based"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Fraud Detection": {
+    "aliases": [
+      "fraud detection",
+      "fraud patterns"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Risk-Based Pricing": {
+    "aliases": [
+      "risk-based pricing",
+      "risk based pricing"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Demand Forecasting": {
+    "aliases": [
+      "demand forecasting"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Nephrology": {
+    "aliases": [
+      "nephrology",
+      "nephrology procedures"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Hemodialysis": {
+    "aliases": [
+      "hemodialysis",
+      "haemodialysis"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Peritoneal Dialysis": {
+    "aliases": [
+      "peritoneal dialysis",
+      "pd catheter"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Continuous Renal Replacement Therapy": {
+    "aliases": [
+      "continuous renal replacement therapy",
+      "crrt"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Plasma Exchange": {
+    "aliases": [
+      "plasma exchange",
+      "plasma exchanges",
+      "plasmapheresis"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Renal Transplant": {
+    "aliases": [
+      "renal transplant",
+      "kidney transplant",
+      "renal transplantation"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Renal Biopsy": {
+    "aliases": [
+      "renal biopsy",
+      "kidney biopsy"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Dialysis Catheter Insertion": {
+    "aliases": [
+      "catheter insertion",
+      "hemodialysis catheter insertion",
+      "peritoneal dialysis catheter insertion",
+      "tunnelled hemodialysis catheter insertion"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Immunosuppression": {
+    "aliases": [
+      "immunosuppression",
+      "immnuosuppresion",
+      "immunosuppressive therapy"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Desensitization Protocols": {
+    "aliases": [
+      "desensitization",
+      "densitization",
+      "desensitization protocols"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Medical Ethics": {
+    "aliases": [
+      "medical ethics"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "Mongoose": {
+    "aliases": [
+      "mongoose"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "React Testing Library": {
+    "aliases": [
+      "react testing library",
+      "rtl"
+    ],
+    "category": "testing",
+    "source": "custom"
+  },
+  "AWS ECS": {
+    "aliases": [
+      "aws ecs",
+      "ecs",
+      "amazon ecs"
+    ],
+    "category": "cloud",
+    "source": "custom"
+  },
+  "Spring Security": {
+    "aliases": [
+      "spring security"
+    ],
+    "category": "framework",
+    "source": "custom"
+  },
+  "Design Thinking": {
+    "aliases": [
+      "design thinking"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Visual Design": {
+    "aliases": [
+      "visual design"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Design Systems": {
+    "aliases": [
+      "design systems",
+      "design system"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Information Architecture": {
+    "aliases": [
+      "information architecture"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "User Research": {
+    "aliases": [
+      "user research"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Professional Ethics": {
+    "aliases": [
+      "professional ethics",
+      "ethics"
+    ],
+    "category": "soft_skills",
+    "source": "custom"
+  },
+  "Screener.in": {
+    "aliases": [
+      "screener.in",
+      "screener"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Financial Modelling": {
+    "aliases": [
+      "financial modelling",
+      "financial modeling",
+      "financial modelling and valuation",
+      "financial modeling and valuation"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Fastlane": {
+    "aliases": [
+      "fastlane"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "Qt": {
+    "aliases": [
+      "qt",
+      "qt framework",
+      "qt/c++"
+    ],
+    "category": "software_engineering",
+    "source": "custom"
+  },
+  "QNX": {
+    "aliases": [
+      "qnx",
+      "qnx os",
+      "qnx rtos"
+    ],
+    "category": "embedded",
+    "source": "custom"
+  },
+  "HLD/LLD": {
+    "aliases": [
+      "hld/lld",
+      "hld",
+      "lld",
+      "high level design",
+      "low level design"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "3D Secure": {
+    "aliases": [
+      "3ds",
+      "3d secure",
+      "3ds card authentication"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "FIX Protocol": {
+    "aliases": [
+      "fix protocol",
+      "fix",
+      "fast fix",
+      "financial information eXchange"
+    ],
+    "category": "fintech",
+    "source": "custom"
+  },
+  "SHAP": {
+    "aliases": [
+      "shap",
+      "shapley values",
+      "shapley additive explanations"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Chroma": {
+    "aliases": [
+      "chroma",
+      "chromadb",
+      "chroma db"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Seaborn": {
+    "aliases": [
+      "seaborn"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Semantic Search": {
+    "aliases": [
+      "semantic search"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Hugging Face": {
+    "aliases": [
+      "hugging face",
+      "huggingface",
+      "huggingface transformers",
+      "transformers"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Information Architecture": {
+    "aliases": [
+      "information architecture",
+      "ia"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "User Flows": {
+    "aliases": [
+      "user flows",
+      "user flow",
+      "task flows"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Usability Testing": {
+    "aliases": [
+      "usability testing",
+      "user testing",
+      "usability test"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Visual Design": {
+    "aliases": [
+      "visual design",
+      "ui design",
+      "visual designer"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Zoho Books": {
+    "aliases": [
+      "zoho books",
+      "zoho"
+    ],
+    "category": "finance_ops",
+    "source": "custom"
+  },
+  "Procure-to-Pay": {
+    "aliases": [
+      "procure-to-pay",
+      "p2p",
+      "procure to pay"
+    ],
+    "category": "finance_ops",
+    "source": "custom"
+  },
+  "Order-to-Cash": {
+    "aliases": [
+      "order-to-cash",
+      "o2c",
+      "order to cash"
+    ],
+    "category": "finance_ops",
+    "source": "custom"
+  },
+  "Internal Financial Controls": {
+    "aliases": [
+      "internal financial controls",
+      "icfr",
+      "icfr testing",
+      "ifc testing"
+    ],
+    "category": "audit",
+    "source": "custom"
+  },
+  "Standard Operating Procedures": {
+    "aliases": [
+      "standard operating procedures",
+      "sop",
+      "sops"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "Consolidated Financial Statements": {
+    "aliases": [
+      "consolidated financial statements"
+    ],
+    "category": "accounting",
+    "source": "custom"
+  },
+  "Business Process Automation": {
+    "aliases": [
+      "business process automation",
+      "bpa"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "Page Object Model": {
+    "aliases": [
+      "page object model",
+      "pom pattern"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "Data Lineage": {
+    "aliases": [
+      "data lineage"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Pydantic": {
+    "aliases": [
+      "pydantic",
+      "pydantic models"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "Prophet": {
+    "aliases": [
+      "prophet",
+      "fbprophet",
+      "facebook prophet"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "ARIMA": {
+    "aliases": [
+      "arima",
+      "auto-regressive integrated moving average"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Credit Risk Modeling": {
+    "aliases": [
+      "credit risk modeling",
+      "credit risk model"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Hypothesis Testing": {
+    "aliases": [
+      "hypothesis testing"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Z-Test": {
+    "aliases": [
+      "z-test",
+      "z test",
+      "z-tests"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "T-Test": {
+    "aliases": [
+      "t-test",
+      "t test",
+      "t-tests"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "SFDC": {
+    "aliases": [
+      "sfdc",
+      "salesforce.com"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "ATL Marketing": {
+    "aliases": [
+      "atl marketing",
+      "atl activities",
+      "above the line"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "BTL Marketing": {
+    "aliases": [
+      "btl marketing",
+      "btl activities",
+      "below the line"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Project Sales": {
+    "aliases": [
+      "project sales"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "OEM Sales": {
+    "aliases": [
+      "oem sales"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Loyalty Program": {
+    "aliases": [
+      "loyalty program",
+      "loyalty management"
+    ],
+    "category": "marketing",
+    "source": "custom"
+  },
+  "Channel Development": {
+    "aliases": [
+      "channel development"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Dealer Management": {
+    "aliases": [
+      "dealer management"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "E-Governance": {
+    "aliases": [
+      "e-governance",
+      "egovernance",
+      "e governance"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "PMKVY": {
+    "aliases": [
+      "pmkvy",
+      "pradhan mantri kaushal vikas yojana"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "Project Coordination": {
+    "aliases": [
+      "project coordination",
+      "project coordinator"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "Project Monitoring": {
+    "aliases": [
+      "project monitoring"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "XLOOKUP": {
+    "aliases": [
+      "xlookup"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "HLOOKUP": {
+    "aliases": [
+      "hlookup"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "Conditional Formatting": {
+    "aliases": [
+      "conditional formatting"
+    ],
+    "category": "software",
+    "source": "custom"
+  },
+  "Fixed Deposit": {
+    "aliases": [
+      "fixed deposit",
+      "fixed deposits",
+      "fd operations"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "BDO Harmony": {
+    "aliases": [
+      "bdo harmony",
+      "bdo harmony audit tool"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "APT Platform": {
+    "aliases": [
+      "apt platform",
+      "bdo apt"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Test of Details": {
+    "aliases": [
+      "test of details",
+      "tod testing"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Vouching": {
+    "aliases": [
+      "vouching",
+      "vouching and verification"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Fundamental Analysis": {
+    "aliases": [
+      "fundamental analysis"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Personal Finance": {
+    "aliases": [
+      "personal finance",
+      "personal finance management"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "DataSnipper": {
+    "aliases": [
+      "data snipper",
+      "datasnipper"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Helix": {
+    "aliases": [
+      "helix general ledger analyzer",
+      "helix",
+      "helix audit tool"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Aura": {
+    "aliases": [
+      "aura audit tool",
+      "aura"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Smart Audit Tool": {
+    "aliases": [
+      "smart audit tool"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Sampling Automation Tool": {
+    "aliases": [
+      "sampling automation tool"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Carve-out Audit": {
+    "aliases": [
+      "carve-out audit",
+      "carve out audit"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Control Testing": {
+    "aliases": [
+      "control testing",
+      "internal control testing",
+      "controls testing"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Performance Appraisal": {
+    "aliases": [
+      "performance appraisal",
+      "performance appraisals"
+    ],
+    "category": "hr",
+    "source": "custom"
+  },
+  "Background Verification": {
+    "aliases": [
+      "background verification",
+      "bgv",
+      "background verification checks"
+    ],
+    "category": "hr",
+    "source": "custom"
+  },
+  "CIBIL": {
+    "aliases": [
+      "cibil",
+      "cibil score"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "RT-PCR": {
+    "aliases": [
+      "rt-pcr",
+      "rt pcr",
+      "rt pcr testing"
+    ],
+    "category": "healthcare",
+    "source": "custom"
+  },
+  "MS CIT": {
+    "aliases": [
+      "ms cit",
+      "mscit",
+      "mscit certification"
+    ],
+    "category": "certification",
+    "source": "custom"
+  },
+  "HR Generalist": {
+    "aliases": [
+      "hr generalist"
+    ],
+    "category": "hr",
+    "source": "custom"
+  },
+  "HMI": {
+    "aliases": [
+      "human machine interface",
+      "hmi panel",
+      "hmi"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "VFD": {
+    "aliases": [
+      "vfd panel",
+      "vfd",
+      "variable frequency drive"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "Field Instruments": {
+    "aliases": [
+      "field instruments",
+      "field instrumentation",
+      "field device"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "RO Plant": {
+    "aliases": [
+      "ro plant",
+      "reverse osmosis plant",
+      "reverse osmosis"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "Gas Chromatograph": {
+    "aliases": [
+      "gas chromatograph",
+      "gas chromatography"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "Vapor Recovery System": {
+    "aliases": [
+      "vapor recovery system",
+      "vru system",
+      "vapor recovery unit"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "Prodok": {
+    "aliases": [
+      "prodok",
+      "prodok software"
+    ],
+    "category": "engineering",
+    "source": "custom"
+  },
+  "Outbound Sales": {
+    "aliases": [
+      "outbound sales",
+      "outbound calling"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "DSA Channel": {
+    "aliases": [
+      "dsa channel",
+      "dsa management",
+      "dsa partners"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Personal Loan": {
+    "aliases": [
+      "personal loan",
+      "personal loans"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Auto Loan": {
+    "aliases": [
+      "auto loan",
+      "auto loans"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "General Insurance": {
+    "aliases": [
+      "general insurance"
+    ],
+    "category": "insurance",
+    "source": "custom"
+  },
+  "Bancassurance": {
+    "aliases": [
+      "bancassurance",
+      "banca channel",
+      "banca",
+      "banca sales"
+    ],
+    "category": "insurance",
+    "source": "custom"
+  },
+  "Agency Sales": {
+    "aliases": [
+      "agency sales",
+      "agency channel",
+      "agency manager"
+    ],
+    "category": "insurance",
+    "source": "custom"
+  },
+  "Life Insurance": {
+    "aliases": [
+      "life insurance",
+      "life surance"
+    ],
+    "category": "insurance",
+    "source": "custom"
+  },
+  "Dialer Management": {
+    "aliases": [
+      "dialer management",
+      "auto dialer",
+      "dialer metrics"
+    ],
+    "category": "operations",
+    "source": "custom"
+  },
+  "Google Chronicle": {
+    "aliases": [
+      "google chronicle siem",
+      "google chronicle",
+      "chronicle siem"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Google SecOps": {
+    "aliases": [
+      "google secops"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "CrowdStrike": {
+    "aliases": [
+      "crowdstrike edr",
+      "crowdstrike falcon",
+      "crowdstrike"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "SailPoint": {
+    "aliases": [
+      "sailpoint",
+      "sailpoint identityiq"
+    ],
+    "category": "iam",
+    "source": "custom"
+  },
+  "Carbon Black": {
+    "aliases": [
+      "carbon black",
+      "vmware carbon black"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "MITRE ATT&CK": {
+    "aliases": [
+      "mitre att&ck",
+      "mitre attack"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "ArcSight": {
+    "aliases": [
+      "arcsight esm",
+      "hp arcsight"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "NetEnrich": {
+    "aliases": [
+      "netenrich mdr",
+      "netenrich"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "ARCON PAM": {
+    "aliases": [
+      "arcon pam",
+      "arcon"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "MITRE ATT&CK": {
+    "aliases": [
+      "mitre att&ck",
+      "mitre attack"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "FireEye": {
+    "aliases": [
+      "fireeye threat intelligence",
+      "fireeye security"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Sophos": {
+    "aliases": [
+      "sophos antivirus",
+      "sophos endpoint"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Symantec": {
+    "aliases": [
+      "symantec atp",
+      "symantec endpoint protection"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Palo Alto Networks": {
+    "aliases": [
+      "palo alto networks",
+      "palo alto firewall",
+      "palo alto"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "SonicWALL": {
+    "aliases": [
+      "sonicwall firewall",
+      "sonicwall"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "OTDR": {
+    "aliases": [
+      "optical time-domain reflectometer",
+      "otdr testing"
+    ],
+    "category": "hardware",
+    "source": "custom"
+  },
+  "Isolation Forest": {
+    "aliases": [
+      "isolation forest"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Random Forest": {
+    "aliases": [
+      "random forest",
+      "random forest classifier"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Logistic Regression": {
+    "aliases": [
+      "logistic regression"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Prompt Guardrails": {
+    "aliases": [
+      "prompt guardrails",
+      "llm guardrails"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Hallucination Mitigation": {
+    "aliases": [
+      "hallucination mitigation",
+      "hallucination control"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Context Grounding": {
+    "aliases": [
+      "context grounding"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Data Drift Detection": {
+    "aliases": [
+      "data drift detection",
+      "data drift"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "LLM Orchestration": {
+    "aliases": [
+      "llm orchestration"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Amazon Nova Pro": {
+    "aliases": [
+      "amazon nova pro",
+      "amazon nova"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Amazon Titan": {
+    "aliases": [
+      "amazon titan embeddings",
+      "amazon titan"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Llama CPP": {
+    "aliases": [
+      "llama.cpp",
+      "llama cpp"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Vision-Language Models": {
+    "aliases": [
+      "vision language models",
+      "vision-language models",
+      "vlm"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Topic Modeling": {
+    "aliases": [
+      "topic modeling"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "Sentence Transformers": {
+    "aliases": [
+      "sentence transformers",
+      "sentence-transformers"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "SQLAlchemy": {
+    "aliases": [
+      "sqlalchemy orm"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "BeautifulSoup": {
+    "aliases": [
+      "beautifulsoup4",
+      "bs4"
+    ],
+    "category": "library",
+    "source": "custom"
+  },
+  "Stripe": {
+    "aliases": [
+      "stripe payment gateway",
+      "stripe api",
+      "stripe integration"
+    ],
+    "category": "payment_gateway",
+    "source": "custom"
+  },
+  "SD-WAN": {
+    "aliases": [
+      "sdwan",
+      "sd-wan networking"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "WLC": {
+    "aliases": [
+      "wireless lan controller"
+    ],
+    "category": "hardware",
+    "source": "custom"
+  },
+  "VDI": {
+    "aliases": [
+      "virtual desktop infrastructure"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "AVD": {
+    "aliases": [
+      "azure virtual desktop"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "HPSM": {
+    "aliases": [
+      "hp service manager"
+    ],
+    "category": "itsm",
+    "source": "custom"
+  },
+  "Symphony Summit": {
+    "aliases": [
+      "symphony summititsm",
+      "summititsm"
+    ],
+    "category": "itsm",
+    "source": "custom"
+  },
+  "Oracle PPMS": {
+    "aliases": [
+      "oracle ppms"
+    ],
+    "category": "project_management",
+    "source": "custom"
+  },
+  "RACI": {
+    "aliases": [
+      "raci matrix"
+    ],
+    "category": "project_management",
+    "source": "custom"
+  },
+  "UAM": {
+    "aliases": [
+      "user access management",
+      "uam governance"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Data Center Migration": {
+    "aliases": [
+      "datacenter migration",
+      "dc migration"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "ClickHouse": {
+    "aliases": [
+      "clickhouse db",
+      "clickhouse database"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "PyTesseract": {
+    "aliases": [
+      "pytesseract ocr",
+      "tesseract ocr"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "EasyOCR": {
+    "aliases": [
+      "easy ocr"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "DBeaver": {
+    "aliases": [
+      "dbeaver database manager"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Zoho Analytics": {
+    "aliases": [
+      "zoho analytics reporting"
+    ],
+    "category": "analytics",
+    "source": "custom"
+  },
+  "Looker Studio": {
+    "aliases": [
+      "google looker studio",
+      "google data studio"
+    ],
+    "category": "analytics",
+    "source": "custom"
+  },
+  "CloudWatch": {
+    "aliases": [
+      "amazon cloudwatch",
+      "aws cloudwatch"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Streamlit": {
+    "aliases": [
+      "streamlit web app"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "CARO 2020": {
+    "aliases": [
+      "caro",
+      "caro 2020 compliance"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "Schedule III": {
+    "aliases": [
+      "schedule iii",
+      "schedule 3"
+    ],
+    "category": "financial_reporting",
+    "source": "custom"
+  },
+  "GSTR-1": {
+    "aliases": [
+      "gstr 1",
+      "gstr1"
+    ],
+    "category": "taxation",
+    "source": "custom"
+  },
+  "GSTR-3B": {
+    "aliases": [
+      "gstr 3b",
+      "gstr3b"
+    ],
+    "category": "taxation",
+    "source": "custom"
+  },
+  "TDS": {
+    "aliases": [
+      "tax deducted at source",
+      "tds return",
+      "tds filing"
+    ],
+    "category": "taxation",
+    "source": "custom"
+  },
+  "ERP": {
+    "aliases": [
+      "enterprise resource planning",
+      "erp systems"
+    ],
+    "category": "erp",
+    "source": "custom"
+  },
+  "DNBS Returns": {
+    "aliases": [
+      "dnbs",
+      "nbfc dnbs returns"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "CIC Reports": {
+    "aliases": [
+      "cic reporting",
+      "credit information company"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "Bank Reconciliation": {
+    "aliases": [
+      "brs",
+      "bank reconciliation statement"
+    ],
+    "category": "accounting",
+    "source": "custom"
+  },
+  "CCNA": {
+    "aliases": [
+      "cisco certified network associate"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "EIGRP": {
+    "aliases": [
+      "eigrp routing"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "OSPF": {
+    "aliases": [
+      "ospf routing"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "BGP": {
+    "aliases": [
+      "bgp routing"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "FortiGate": {
+    "aliases": [
+      "fortigate firewall",
+      "fortinet fortigate"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "ZTE": {
+    "aliases": [
+      "zte switches"
+    ],
+    "category": "hardware",
+    "source": "custom"
+  },
+  "Huawei": {
+    "aliases": [
+      "huawei switches"
+    ],
+    "category": "hardware",
+    "source": "custom"
+  },
+  "Juniper": {
+    "aliases": [
+      "juniper networks",
+      "juniper hardware"
+    ],
+    "category": "hardware",
+    "source": "custom"
+  },
+  "SWIFT": {
+    "aliases": [
+      "swift network",
+      "swift infrastructure"
+    ],
+    "category": "integration",
+    "source": "custom"
+  },
+  "WebEngage": {
+    "aliases": [
+      "webengage analytics"
+    ],
+    "category": "analytics",
+    "source": "custom"
+  },
+  "Remote Config": {
+    "aliases": [
+      "firebase remote config"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Firebase Analytics": {
+    "aliases": [
+      "google analytics for firebase"
+    ],
+    "category": "analytics",
+    "source": "custom"
+  },
+  "State Management": {
+    "aliases": [
+      "flutter state management"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Cross-Platform Development": {
+    "aliases": [
+      "cross-platform mobile development"
+    ],
+    "category": "mobile",
+    "source": "custom"
+  },
+  "Dremio": {
+    "aliases": [
+      "dremio data virtualization"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "Starburst": {
+    "aliases": [
+      "starburst trino",
+      "starburst enterprise"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "SnapLogic": {
+    "aliases": [
+      "snaplogic ipaas"
+    ],
+    "category": "integration",
+    "source": "custom"
+  },
+  "TOGAF": {
+    "aliases": [
+      "togaf architecture",
+      "togaf 9"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Sitecore": {
+    "aliases": [
+      "sitecore cms",
+      "sitecore 9"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "DAMA-DMBOK": {
+    "aliases": [
+      "dmbok",
+      "dama dmbok"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Data Mesh": {
+    "aliases": [
+      "data mesh architecture"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Data Fabric": {
+    "aliases": [
+      "data fabric architecture"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Data Virtualization": {
+    "aliases": [
+      "logical data warehousing"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "DataOps": {
+    "aliases": [
+      "data ops"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Informatica": {
+    "aliases": [
+      "informatica powercenter",
+      "informatica iics",
+      "informatica mdm"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "Synapse Analytics": {
+    "aliases": [
+      "azure synapse",
+      "azure synapse analytics"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Cloud Composer": {
+    "aliases": [
+      "google cloud composer",
+      "gcp composer"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Dataflow": {
+    "aliases": [
+      "google cloud dataflow",
+      "gcp dataflow"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Bloc": {
+    "aliases": [
+      "flutter bloc",
+      "bloc pattern",
+      "bloc state management"
+    ],
+    "category": "mobile",
+    "source": "custom"
+  },
+  "GetX": {
+    "aliases": [
+      "getx",
+      "getx state management"
+    ],
+    "category": "mobile",
+    "source": "custom"
+  },
+  "MVVM": {
+    "aliases": [
+      "mvvm architecture",
+      "model-view-viewmodel"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Android Studio": {
+    "aliases": [
+      "android studio ide"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Socket.io": {
+    "aliases": [
+      "socketio",
+      "sockets.io"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "Offline Sync": {
+    "aliases": [
+      "offline caching",
+      "offline data sync"
+    ],
+    "category": "mobile",
+    "source": "custom"
+  },
+  "Competency Mapping": {
+    "aliases": [
+      "competency mapping"
+    ],
+    "category": "hr",
+    "source": "custom"
+  },
+  "Talent Acquisition": {
+    "aliases": [
+      "talent acquisition"
+    ],
+    "category": "hr",
+    "source": "custom"
+  },
+  "Payroll Administration": {
+    "aliases": [
+      "payroll administration",
+      "payroll"
+    ],
+    "category": "hr",
+    "source": "custom"
+  },
+  "ChatGPT": {
+    "aliases": [
+      "chat gpt"
+    ],
+    "category": "productivity",
+    "source": "custom"
+  },
+  "Claude": {
+    "aliases": [
+      "cloude"
+    ],
+    "category": "productivity",
+    "source": "custom"
+  },
+  "CompuBal": {
+    "aliases": [
+      "compubal"
+    ],
+    "category": "office",
+    "source": "custom"
+  },
+  "Online ITR": {
+    "aliases": [
+      "online itr"
+    ],
+    "category": "office",
+    "source": "custom"
+  },
   "AdSense Tracker": {
     "aliases": [
       "adsensetracker"
@@ -342,6 +2427,9 @@
   },
   "Oracle Database": {
     "aliases": [
+      "oracle",
+      "oracle db",
+      "oracle database",
       "oracle 10g",
       "oracledatabase"
     ],
@@ -4752,6 +6840,7 @@
   },
   "GitLab": {
     "aliases": [
+      "gitlab",
       "gitlab repo",
       "gitlab.com"
     ],
@@ -20117,7 +22206,8 @@
     "aliases": [
       "bank recon",
       "bankreconciliation",
-      "cash reconciliation"
+      "cash reconciliation",
+      "brs"
     ],
     "category": "accounting",
     "source": "custom"
@@ -20283,6 +22373,7 @@
     "aliases": [
       "aws lambda",
       "awslambda",
+      "lambda",
       "lambda functions"
     ],
     "category": "cloud_infra",
@@ -20310,6 +22401,7 @@
   },
   "AWS RDS": {
     "aliases": [
+      "aws rds",
       "amazon rds",
       "awsrds",
       "rds"
@@ -22798,6 +24890,8 @@
     "aliases": [
       "supplier management",
       "third party management",
+      "vendor coordination",
+      "vendor management",
       "vendor relations",
       "vendormanagement"
     ],
@@ -22948,6 +25042,8 @@
   },
   "QuickBooks": {
     "aliases": [
+      "quickbooks",
+      "quick books",
       "qbo",
       "quickbooks accounting"
     ],
@@ -23651,11 +25747,10 @@
   },
   "Photography": {
     "aliases": [
-      "photo editing",
-      "photographer",
-      "product photography"
+      "photography",
+      "professional photography"
     ],
-    "category": "design",
+    "category": "media",
     "source": "custom"
   },
   "Illustration": {
@@ -26633,10 +28728,12 @@
   },
   "Incident Management": {
     "aliases": [
-      "incidentmanagement",
-      "it incident management"
+      "incident management",
+      "security incident management",
+      "incident response",
+      "security incident response"
     ],
-    "category": "security_ops",
+    "category": "security",
     "source": "custom"
   },
   "Sandboxing": {
@@ -26799,7 +28896,9 @@
   },
   "Disaster Recovery": {
     "aliases": [
+      "disaster recovery",
       "disasterrecovery",
+      "dr",
       "it disaster recovery"
     ],
     "category": "operations",
@@ -27653,6 +29752,1278 @@
       "servicescheduling"
     ],
     "category": "customer_service",
+    "source": "custom"
+  },
+  "DHCP": {
+    "aliases": [
+      "dhcp",
+      "dhcp server"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "DNS": {
+    "aliases": [
+      "dns",
+      "domain name system",
+      "dns server"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "SCCM": {
+    "aliases": [
+      "sccm",
+      "system center configuration manager",
+      "sccm 2012",
+      "microsoft sccm"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Fortinet": {
+    "aliases": [
+      "fortinet",
+      "fortigate",
+      "fortios"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Cyberoam": {
+    "aliases": [
+      "cyberoam",
+      "cyberoam firewall"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Symantec": {
+    "aliases": [
+      "symantec",
+      "symantec endpoint protection"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "SentinelOne": {
+    "aliases": [
+      "sentinelone",
+      "sentinel one",
+      "sentinel1"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Cortex": {
+    "aliases": [
+      "cortex",
+      "cortex xdr",
+      "palo alto cortex"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "TeamViewer": {
+    "aliases": [
+      "teamviewer",
+      "team viewer"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "AnyDesk": {
+    "aliases": [
+      "anydesk",
+      "any desk"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "RDP": {
+    "aliases": [
+      "rdp",
+      "remote desktop protocol",
+      "remote desktop"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "NAS": {
+    "aliases": [
+      "nas",
+      "network attached storage"
+    ],
+    "category": "storage",
+    "source": "custom"
+  },
+  "SAN": {
+    "aliases": [
+      "san",
+      "storage area network",
+      "san backup"
+    ],
+    "category": "storage",
+    "source": "custom"
+  },
+  "MPLS": {
+    "aliases": [
+      "mpls",
+      "mpls link",
+      "multiprotocol label switching"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "Ethernet": {
+    "aliases": [
+      "ethernet",
+      "ethernet link"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "SIP": {
+    "aliases": [
+      "sip",
+      "sip trunk",
+      "sip trunking"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "PRI": {
+    "aliases": [
+      "pri",
+      "pri link",
+      "pri gateway"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "WebEx": {
+    "aliases": [
+      "webex",
+      "cisco webex"
+    ],
+    "category": "collaboration",
+    "source": "custom"
+  },
+  "TCP/IP": {
+    "aliases": [
+      "tcp/ip",
+      "tcp ip",
+      "tcp"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "OSI Model": {
+    "aliases": [
+      "osi model",
+      "osi models"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "LAN": {
+    "aliases": [
+      "lan",
+      "local area network"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "WAN": {
+    "aliases": [
+      "wan",
+      "wide area network"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "SPF": {
+    "aliases": [
+      "spf",
+      "sender policy framework"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "DKIM": {
+    "aliases": [
+      "dkim",
+      "domainkeys identified mail"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "DMARC": {
+    "aliases": [
+      "dmarc"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Exchange Server": {
+    "aliases": [
+      "exchange server",
+      "microsoft exchange",
+      "microsoft exchange server",
+      "exchange online"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "OneDrive": {
+    "aliases": [
+      "onedrive",
+      "onedrive for business",
+      "microsoft onedrive"
+    ],
+    "category": "cloud",
+    "source": "custom"
+  },
+  "Mac OS": {
+    "aliases": [
+      "mac os",
+      "macos",
+      "mac os x"
+    ],
+    "category": "os",
+    "source": "custom"
+  },
+  "Identity Management": {
+    "aliases": [
+      "identity management",
+      "identity and access management",
+      "iam",
+      "access management"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Multifactor Authentication": {
+    "aliases": [
+      "multifactor authentication",
+      "multi-factor authentication",
+      "mfa"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Enterprise Architecture": {
+    "aliases": [
+      "enterprise architecture"
+    ],
+    "category": "it_ops",
+    "source": "custom"
+  },
+  "IT Infrastructure Management": {
+    "aliases": [
+      "it infrastructure management",
+      "it infrastructure support",
+      "infrastructure management"
+    ],
+    "category": "it_ops",
+    "source": "custom"
+  },
+  "IT Security": {
+    "aliases": [
+      "it security",
+      "cyber security",
+      "information security"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Group Policy": {
+    "aliases": [
+      "group policy",
+      "group policies",
+      "gpo"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Mobile Application Development": {
+    "aliases": [
+      "mobile app development",
+      "mobile development",
+      "mobile application development",
+      "mobile app dev"
+    ],
+    "category": "mobile",
+    "source": "custom"
+  },
+  "Native API": {
+    "aliases": [
+      "native apis",
+      "native api integration",
+      "native api"
+    ],
+    "category": "mobile",
+    "source": "custom"
+  },
+  "Wireframing": {
+    "aliases": [
+      "wireframes",
+      "wireframe",
+      "wireframing"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Prototyping": {
+    "aliases": [
+      "prototypes",
+      "prototype",
+      "prototyping"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "COBIT": {
+    "aliases": [
+      "cobit",
+      "cobit 5",
+      "cobit 2019",
+      "control objectives for information and related technology"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "User Access Review": {
+    "aliases": [
+      "uar",
+      "user access review",
+      "user access reviews",
+      "access review"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "AuditBoard": {
+    "aliases": [
+      "auditboard",
+      "audit board"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Risk Assessment": {
+    "aliases": [
+      "risk assessment",
+      "risk assessments",
+      "risk assessment techniques",
+      "it risk assessment"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "IT Attestation": {
+    "aliases": [
+      "it attestation",
+      "attestation",
+      "external audit coordination"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "Financial Advisory": {
+    "aliases": [
+      "financial advisory",
+      "financial consultancy"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "GST": {
+    "aliases": [
+      "gst",
+      "goods and services tax",
+      "gst filing",
+      "gst compliance"
+    ],
+    "category": "accounting",
+    "source": "custom"
+  },
+  "Automation Testing": {
+    "aliases": [
+      "automation testing",
+      "test automation",
+      "automated testing"
+    ],
+    "category": "testing",
+    "source": "custom"
+  },
+  "VADER": {
+    "aliases": [
+      "vader",
+      "vader sentiment",
+      "vader nltk"
+    ],
+    "category": "machine_learning",
+    "source": "custom"
+  },
+  "Access Governance": {
+    "aliases": [
+      "access governance",
+      "identity and access governance",
+      "iag"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "ISO 17025": {
+    "aliases": [
+      "iso 17025",
+      "iso/iec 17025",
+      "iso/iec 17025:2017",
+      "iso 17025:2017"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "UV-Vis Spectrophotometry": {
+    "aliases": [
+      "uv-vis",
+      "uv vis",
+      "uv-vis spectrophotometer",
+      "uv-vis spectrophotometry"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "FTIR": {
+    "aliases": [
+      "ftir",
+      "ftir spectroscopy",
+      "fourier transform infrared spectroscopy"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "DSC": {
+    "aliases": [
+      "dsc",
+      "differential scanning calorimetry"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "TGA": {
+    "aliases": [
+      "tga",
+      "thermogravimetric analysis"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "ED-XRF": {
+    "aliases": [
+      "ed-xrf",
+      "edxrf",
+      "edx-7200",
+      "energy dispersive x-ray fluorescence"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "Karl Fischer Titration": {
+    "aliases": [
+      "karl fischer",
+      "karl fischer titrator",
+      "karl fischer titration"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "Dissolution Testing": {
+    "aliases": [
+      "dissolution",
+      "dissolution tester",
+      "dissolution testing"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "Loss on Drying": {
+    "aliases": [
+      "lod",
+      "loss on drying",
+      "lod apparatus"
+    ],
+    "category": "instrumentation",
+    "source": "custom"
+  },
+  "MSDS": {
+    "aliases": [
+      "msds",
+      "sds",
+      "material safety data sheet",
+      "safety data sheet",
+      "pss"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "RoHS": {
+    "aliases": [
+      "rohs",
+      "rohs compliance",
+      "rohs-reach-svhc"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "REACH": {
+    "aliases": [
+      "reach",
+      "reach compliance"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "SVHC": {
+    "aliases": [
+      "svhc",
+      "substances of very high concern"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "Conflict Minerals": {
+    "aliases": [
+      "conflict minerals",
+      "3tg",
+      "3tg compliance"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "California Proposition 65": {
+    "aliases": [
+      "california proposition 65",
+      "prop 65",
+      "proposition 65"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "GMP": {
+    "aliases": [
+      "gmp",
+      "good manufacturing practice",
+      "cgmp"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "VB.NET": {
+    "aliases": [
+      "vb.net",
+      "vb .net",
+      "visual basic .net",
+      "visual basic.net"
+    ],
+    "category": "programming_language",
+    "source": "custom"
+  },
+  "Network Attached Storage": {
+    "aliases": [
+      "nas",
+      "nas backup",
+      "network attached storage"
+    ],
+    "category": "storage",
+    "source": "custom"
+  },
+  "Zoho Mail": {
+    "aliases": [
+      "zoho mail",
+      "zoho email"
+    ],
+    "category": "productivity",
+    "source": "custom"
+  },
+  "Microsoft Outlook": {
+    "aliases": [
+      "microsoft outlook",
+      "ms outlook",
+      "outlook"
+    ],
+    "category": "productivity",
+    "source": "custom"
+  },
+  "Symantec Backup Exec": {
+    "aliases": [
+      "symantec backup exec",
+      "backup exec",
+      "symantec endpoint antivirus"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Cobian Backup": {
+    "aliases": [
+      "cobian backup",
+      "cobian"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Sophos": {
+    "aliases": [
+      "sophos",
+      "sophos xgs",
+      "sophos firewall",
+      "sophos xgs 2100"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Seqrite": {
+    "aliases": [
+      "seqrite",
+      "seqrite endpoint security",
+      "seqrite antivirus"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Bitdefender": {
+    "aliases": [
+      "bitdefender",
+      "bitdefender gravityzone",
+      "gravityzone"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "3CX": {
+    "aliases": [
+      "3cx",
+      "3cx phone system",
+      "3cx dialer"
+    ],
+    "category": "telephony",
+    "source": "custom"
+  },
+  "Avhan Dialer": {
+    "aliases": [
+      "avhan dialer",
+      "avhan"
+    ],
+    "category": "telephony",
+    "source": "custom"
+  },
+  "PHPList": {
+    "aliases": [
+      "phplist",
+      "php list"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "IT Security & Compliance": {
+    "aliases": [
+      "it security & compliance",
+      "it security and compliance",
+      "it compliance"
+    ],
+    "category": "compliance",
+    "source": "custom"
+  },
+  "Asset Management": {
+    "aliases": [
+      "asset management",
+      "it asset management",
+      "itam"
+    ],
+    "category": "sysadmin",
+    "source": "custom"
+  },
+  "Microsoft Hyper-V": {
+    "aliases": [
+      "hyper-v",
+      "hyper v",
+      "microsoft hyper-v"
+    ],
+    "category": "virtualization",
+    "source": "custom"
+  },
+  "Hikvision": {
+    "aliases": [
+      "hikvision",
+      "hikvision cctv",
+      "cctv"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Microsoft Dynamics NAV": {
+    "aliases": [
+      "microsoft dynamics nav",
+      "dynamics nav",
+      "navision"
+    ],
+    "category": "erp",
+    "source": "custom"
+  },
+  "Lotus Notes": {
+    "aliases": [
+      "lotus notes",
+      "hcl notes",
+      "ibm lotus notes"
+    ],
+    "category": "productivity",
+    "source": "custom"
+  },
+  "Interaction Design": {
+    "aliases": [
+      "interaction design",
+      "ixd"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Design Research": {
+    "aliases": [
+      "design research",
+      "designing research"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Web Design": {
+    "aliases": [
+      "web design",
+      "web designing"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Bootstrap 5": {
+    "aliases": [
+      "bootstrap 5",
+      "bootstrap5"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "Yii": {
+    "aliases": [
+      "yii",
+      "yii2",
+      "yii2 framework",
+      "yii framework"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "Role-Based Access Control": {
+    "aliases": [
+      "rbac",
+      "role-based access control",
+      "role based access control"
+    ],
+    "category": "security_ops",
+    "source": "custom"
+  },
+  "Markdown": {
+    "aliases": [
+      "markdown",
+      "md"
+    ],
+    "category": "documentation",
+    "source": "custom"
+  },
+  "MVC Architecture": {
+    "aliases": [
+      "mvc",
+      "mvc architecture",
+      "model view controller"
+    ],
+    "category": "software_engineering",
+    "source": "custom"
+  },
+  "Lean Six Sigma": {
+    "aliases": [
+      "lean six sigma",
+      "lean six sigma black belt",
+      "lean six sigma green belt",
+      "six sigma black belt",
+      "six sigma green belt"
+    ],
+    "category": "process",
+    "source": "custom"
+  },
+  "Business Process Re-Engineering": {
+    "aliases": [
+      "bpr",
+      "business process re-engineering",
+      "business process reengineering",
+      "business process re engineering"
+    ],
+    "category": "process",
+    "source": "custom"
+  },
+  "Operational Excellence": {
+    "aliases": [
+      "operational excellence",
+      "process excellence"
+    ],
+    "category": "process",
+    "source": "custom"
+  },
+  "Procure-to-Pay": {
+    "aliases": [
+      "p2p",
+      "procure-to-pay",
+      "procure to pay",
+      "purchase to pay",
+      "p2p framework",
+      "p2p frameworks",
+      "p2p optimization"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Annual Operating Plan": {
+    "aliases": [
+      "aop",
+      "annual operating plan",
+      "annual operating plans"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "Net Promoter Score": {
+    "aliases": [
+      "nps",
+      "net promoter score"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "Order-to-Cash": {
+    "aliases": [
+      "o2c",
+      "order to cash",
+      "order-to-cash"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Turnaround Time": {
+    "aliases": [
+      "tat",
+      "turnaround time"
+    ],
+    "category": "management",
+    "source": "custom"
+  },
+  "Babel": {
+    "aliases": [
+      "babel",
+      "babeljs",
+      "babel.js"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Ant Design": {
+    "aliases": [
+      "ant design",
+      "antd",
+      "ant-design"
+    ],
+    "category": "framework",
+    "source": "custom"
+  },
+  "Vitria": {
+    "aliases": [
+      "vitria",
+      "vitria oi"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Camunda": {
+    "aliases": [
+      "camunda",
+      "camunda bpm",
+      "camunda bpa"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "Internal Financial Controls": {
+    "aliases": [
+      "icfr",
+      "internal financial controls",
+      "ifc",
+      "ifc evaluation",
+      "internal financial control"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Risk & Control Matrix": {
+    "aliases": [
+      "rcm",
+      "risk & control matrix",
+      "risk and control matrix",
+      "rcm documentation"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Financial Statement Analysis": {
+    "aliases": [
+      "financial statement analysis",
+      "financial statement review",
+      "financial statement reviews"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Ind AS": {
+    "aliases": [
+      "ind as",
+      "indian accounting standards",
+      "ind-as"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "VLOOKUP": {
+    "aliases": [
+      "vlookup",
+      "v-lookup"
+    ],
+    "category": "office",
+    "source": "custom"
+  },
+  "Microsoft Access": {
+    "aliases": [
+      "ms access",
+      "microsoft access"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "Record-to-Report": {
+    "aliases": [
+      "r2r",
+      "record-to-report",
+      "record to report"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "CARO Reporting": {
+    "aliases": [
+      "caro",
+      "caro reporting"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Computer Literacy": {
+    "aliases": [
+      "basic computer knowledge",
+      "computer literacy",
+      "basic computer skills",
+      "computer basics"
+    ],
+    "category": "office",
+    "source": "custom"
+  },
+  "Telecalling": {
+    "aliases": [
+      "telecaller",
+      "telecalling",
+      "inbound calls",
+      "inbound process",
+      "tele-calling",
+      "tele calling"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Field Sales": {
+    "aliases": [
+      "field work",
+      "field sales",
+      "field operations"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Medical Sales": {
+    "aliases": [
+      "medical representative",
+      "medical sales",
+      "pharma sales",
+      "pharmaceutical sales"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Sales Management": {
+    "aliases": [
+      "area sales manager",
+      "area sales management",
+      "sales management"
+    ],
+    "category": "sales",
+    "source": "custom"
+  },
+  "Security Compliance": {
+    "aliases": [
+      "security compliance",
+      "information security compliance",
+      "it security compliance"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "IT Audit": {
+    "aliases": [
+      "it audit",
+      "information security audit",
+      "information security auditor",
+      "it auditing"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "IT Risk Management": {
+    "aliases": [
+      "it risk management",
+      "information security risk management",
+      "cyber risk management"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Vulnerability Management": {
+    "aliases": [
+      "vulnerability management",
+      "vulnerability assessment",
+      "vulnerability assessment and management"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Information Security": {
+    "aliases": [
+      "information security",
+      "infosec",
+      "information security management"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Computax": {
+    "aliases": [
+      "computax"
+    ],
+    "category": "office",
+    "source": "custom"
+  },
+  "Tax Cloud": {
+    "aliases": [
+      "tax cloud",
+      "taxcloud"
+    ],
+    "category": "office",
+    "source": "custom"
+  },
+  "GST Return Filing": {
+    "aliases": [
+      "gst return",
+      "gst returns",
+      "gstr 1",
+      "gstr 3b",
+      "gstr 9",
+      "gstr 9c",
+      "gst return filing",
+      "gst filing",
+      "gstr"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "E-Way Bill": {
+    "aliases": [
+      "e-way bill",
+      "eway bill",
+      "e way bill"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Concurrent Audit": {
+    "aliases": [
+      "concurrent audit",
+      "concurrent auditing"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Stock Audit": {
+    "aliases": [
+      "stock audit",
+      "inventory audit",
+      "inventory audits",
+      "stock & inventory audit"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Bank Audit": {
+    "aliases": [
+      "bank audit",
+      "bank branch audit",
+      "bank branch stat. audit",
+      "bank statutory audit"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Due Diligence": {
+    "aliases": [
+      "due diligence",
+      "financial due diligence"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Income Tax Return": {
+    "aliases": [
+      "itr",
+      "income tax return",
+      "income tax returns",
+      "itr filing"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "ROC Filing": {
+    "aliases": [
+      "roc filing",
+      "mca filing",
+      "mca portal",
+      "aoc-4",
+      "mgt-7a",
+      "mgt 7a"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Trial Balance": {
+    "aliases": [
+      "trial balance",
+      "trial balance preparation"
+    ],
+    "category": "finance",
+    "source": "custom"
+  },
+  "Mockito": {
+    "aliases": [
+      "mockito"
+    ],
+    "category": "testing",
+    "source": "custom"
+  },
+  "OAuth 2.0": {
+    "aliases": [
+      "oauth",
+      "oauth2",
+      "oauth 2.0",
+      "oauth2.0",
+      "oauth2 authentication"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "JSON Web Token": {
+    "aliases": [
+      "jwt",
+      "json web token",
+      "json web tokens",
+      "jwt authentication"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Resilience4j": {
+    "aliases": [
+      "resilience4j"
+    ],
+    "category": "framework",
+    "source": "custom"
+  },
+  "Hystrix": {
+    "aliases": [
+      "hystrix",
+      "netflix hystrix"
+    ],
+    "category": "framework",
+    "source": "custom"
+  },
+  "Spring Cloud": {
+    "aliases": [
+      "spring cloud",
+      "spring cloud eureka",
+      "eureka",
+      "zuul"
+    ],
+    "category": "framework",
+    "source": "custom"
+  },
+  "Apache Tomcat": {
+    "aliases": [
+      "tomcat",
+      "apache tomcat"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "WebLogic": {
+    "aliases": [
+      "weblogic",
+      "oracle weblogic"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "CORS": {
+    "aliases": [
+      "cors",
+      "cross-origin resource sharing"
+    ],
+    "category": "web_development",
+    "source": "custom"
+  },
+  "Role-Based Access Control": {
+    "aliases": [
+      "rbac",
+      "role-based access control",
+      "role based access control"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Context API": {
+    "aliases": [
+      "context api",
+      "react context api"
+    ],
+    "category": "frontend",
     "source": "custom"
   }
 }

@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "source_file": "96f54a17_fcefbed5_Divyanshu Kumar_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:47.132290+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Email-",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ca.divyanshukumar@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "-7033437950 / 20245920",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/cadivyanshu03",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Qualified CA with over 4 years of experience in financial statement analysis, auditing, and\nstatutory compliance. Seeking to leverage my expertise in IT, travel agency, or Other sectors\nto strengthen financial controls, optimize reporting processes, and support strategic growth.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Auditing",
+      "Communication",
+      "Dynamics 365",
+      "Financial Statement Analysis",
+      "MS Office",
+      "Microsoft Dynamics",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "Reporting",
+      "Tally",
+      "Team Leadership"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Tally"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reporting",
+        "Team Leadership"
+      ],
+      "integration": [
+        "Dynamics 365"
+      ],
+      "finance": [
+        "Financial Statement Analysis"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "crm": [
+        "Microsoft Dynamics"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(accounting→Accounting(100%), Dynamics→Microsoft Dynamics(100%), MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant Manager",
+        "company": "K G Somani and Co LLP",
+        "location": null,
+        "start": "Sep’24",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate",
+        "company": "J A P S and Associates",
+        "location": null,
+        "start": "Feb’22",
+        "end": "Mar’23",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 14,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Article Assistant",
+        "company": "H K Chaudhry & Co",
+        "location": null,
+        "start": "Jan’19",
+        "end": "Jan’22",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 37,
+        "bullets": [
+          "Led and executed more than 10 statutory audits, special purpose audits, and limited reviews for companies across diverse sectors, ensuring adherence to Indian GAAP, Schedule III and compliance with applicable IND AS.",
+          "Prepared comprehensive audit schedules for statutory, tax audit and corporate compliances such as AOC-4 & MGT-7.",
+          "Drafted detailed audit reports encompassing both qualified and unqualified opinions, ensuring full compliance with CARO 2020.",
+          "Identified and documented KAM, EOM and OM paragraphs, aligned with relevant auditing standards and regulatory guidelines.",
+          "Spearheaded the audit of consolidated financial statements for a group with a total income exceeding ₹4,000 crores across 45+ entities, identification and elimination of intercompany transactions and balances ensuring compliance with Ind AS 110.",
+          "Prepared Management information system (MIS) reports, and balance sheet reconciliations and managed intercompany transactions—including the preparation and reconciliation of balances—collaborating with teams to resolve discrepancies and enhance the accuracy and timeliness of financial reporting.",
+          "Evaluated internal controls of an IT company and online travel agency through ICFR compliance audits across key areas including revenue, inventory, cash & bank, and the financial closing process—identifying deficiencies and reporting as per relevant auditing standards and regulatory guidelines.",
+          "Compiled, analyzed, and presented detailed financial reports as an agency for Specialized Monitoring (ASM) and Lender Financial Advisors (LFA) across sectors such as steel, ethanol, and solar power, ensuring precise financial analysis and adherence to IBA and NBFC guidelines.",
+          "Assisted in SPA review and key commercial term analysis, aligning business intent with contractual documentation of disposal of a business unit of an IT Company.",
+          "Conducted valuation of unquoted equity shares of a company having a net worth above Rs. 500 crores in compliance with Rule 11UA of the Income Tax Rules, 1962.",
+          "Prepared and filed over 50 Income Tax Returns for individuals, HUF, companies and trusts ensuring compliance with due dates, deadlines, and Section 92E reporting requirements,",
+          "Executed and compiled comprehensive tax audit reports for 10+ clients—including individuals, partnerships, and corporate entities—in strict compliance with the Income Tax Act, utilizing Form 3CA-3CD and Form 3CB-3CD as applicable.",
+          "Managed the filing of GST returns (GSTR-1, GSTR-3B, CMP-08) and annual returns (GSTR-9) for various proprietorships, firms, and private limited companies with turnovers ranging from ₹30 lakhs to ₹50 crores, ensuring compliance with statutory deadlines.",
+          "Filed Form RFD-01 to claim ITC refunds on zero-rated supplies in compliance with GST provisions.",
+          "Determined ITC disallowances under CGST Rules 42 and 43, ensuring compliance through detailed Excel models and GST portal reconciliation."
+        ],
+        "sub_sections": [
+          "Taxation"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.3,
+      "total_months": 76,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Intermediate",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Com IGNOU",
+        "year": "2016",
+        "gpa": "59.50%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Matriculation",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2014",
+        "gpa": "8.20",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

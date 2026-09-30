@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "source_file": "bbbaad23_5b1a74fe_PRAGATI KHARE_GM-HRBP_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:10.232994+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pragati Khare",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "pragati_ims@rediffmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919213960894 / +919582947405",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pragati-khare-dey-8115b814",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Change Management",
+      "Credit Scorecard",
+      "Digital Transformation",
+      "Diversity & Inclusion",
+      "Due Diligence",
+      "Employee Engagement",
+      "Leadership",
+      "Operational Excellence",
+      "Performance Management",
+      "Recruitment",
+      "Resource Planning",
+      "Talent Management"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Change Management",
+        "Resource Planning"
+      ],
+      "finance": [
+        "Credit Scorecard",
+        "Due Diligence"
+      ],
+      "consulting": [
+        "Digital Transformation"
+      ],
+      "hr": [
+        "Diversity & Inclusion",
+        "Employee Engagement",
+        "Performance Management",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "soft_skill": [
+        "Leadership"
+      ],
+      "process": [
+        "Operational Excellence"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Head",
+        "company": "Act as a strategic advisor to promoters, CXOs, and investors on organization design, workforce strategy, and governance",
+        "location": "Group HR",
+        "start": "Nov 2019",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 83,
+        "bullets": [
+          "Lead enterprise-wide HR strategy for diversified businesses (Warehousing, NBFC, Technology) covering 4,000+ workforce across 22 states",
+          "Drove HR transformation agenda, including org structuring, policy standardization, and scalable operating models",
+          "Led HR digitization (HRMS, ESOP platforms) to enable data-led decision-making and efficiency",
+          "Delivered 30+ HR process transformations and automation initiatives aligned with scale and governance",
+          "Architected workforce planning strategy, reducing manpower cost by ~30% through role rationalization and program-based deployment",
+          "Led end-to-end HR due diligence, HR audits, and compliance frameworks for fundraising and investor evaluations",
+          "Ensured strong statutory compliance (PF, ESIC, CLRA, POSH, etc.) across all locations",
+          "Designed ESOP and leadership compensation frameworks aligned with long-term business goals",
+          "Drove DEI, gender inclusion, and culture transformation initiatives",
+          "Built and mentored HR leadership team delivering strategic and operational excellence"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Head HR",
+        "company": "Established India HR function from ground up; scaled to 400+ employees within 12 months",
+        "location": null,
+        "start": "Jun 2017",
+        "end": "Feb 2019",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 21,
+        "bullets": [
+          "Built end-to-end HR architecture including hiring, PMS, rewards, and governance frameworks",
+          "Enabled market entry through strong employer branding and talent strategy",
+          "Ensured full statutory compliance and HR governance during rapid scale-up"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "India) Ltd. Senior Manager – HR (HRBP, TA, TM",
+        "company": "Intex Technologies",
+        "location": null,
+        "start": "Jul 2010",
+        "end": "May 2017",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 83,
+        "bullets": [
+          "Managed HR Business Partner responsibilities for a workforce of 11,000+ employees across multiple business units",
+          "Led talent management, performance frameworks, and HR automation initiatives",
+          "Played a key role in senior-level hiring, ensuring strong cultural alignment",
+          "Supported compliance, audits, and governance frameworks at scale",
+          "Designed and developed goal-setting frameworks using the Balanced Scorecard approach, and implemented new performance evaluation systems",
+          "Implemented performance pay frameworks for both existing and new employees, supported by structured change management initiatives",
+          "Built employee engagement frameworks aligned with organizational priorities and reward strategies"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant Manager HR (PMS and OD",
+        "company": "Earlier Career NetAmbit Infosource Pvt. Ltd",
+        "location": "Assistant Manager HR",
+        "start": "2009",
+        "end": "2010",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Recruitment Executive",
+        "company": "Denave India Pvt. Ltd",
+        "location": "Recruitment Executive",
+        "start": "2008",
+        "end": "2009",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 13,
+        "bullets": [
+          "HR Strategy & CXO Partnering | Org Design & Workforce Planning HR Transformation & Digitization | Governance, Compliance & Risk HR Audits & Due Diligence | Talent & Leadership Development Performance & Rewards | DEI & Culture Transformation"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 17.7,
+      "total_months": 212,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.87
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "PGDBM (HR), IMS Ghaziabad | B.Sc",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

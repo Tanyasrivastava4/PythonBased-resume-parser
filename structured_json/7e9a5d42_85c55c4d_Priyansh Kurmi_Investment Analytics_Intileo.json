@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "source_file": "7e9a5d42_85c55c4d_Priyansh Kurmi_Investment Analytics_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:25.342997+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Priyansh Kurmi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "priyanshpatel360@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7318019209",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/priyansh-kurmi",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS Athena",
+      "AWS EC2",
+      "AWS S3",
+      "AWS SNS",
+      "Apache Airflow",
+      "Apache Kafka",
+      "Apache Spark",
+      "Azure",
+      "Data Warehousing",
+      "Databricks",
+      "ETL",
+      "Electronic Health Records",
+      "GDPR",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "PySpark",
+      "Python",
+      "Query Optimization",
+      "Redshift",
+      "Role-Based Access Control",
+      "SQL",
+      "Snowflake"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS Athena",
+        "AWS EC2",
+        "AWS S3",
+        "AWS SNS",
+        "Azure"
+      ],
+      "data_engineering": [
+        "Apache Airflow",
+        "Apache Kafka",
+        "Apache Spark",
+        "Data Warehousing",
+        "Databricks",
+        "ETL"
+      ],
+      "healthcare": [
+        "Electronic Health Records"
+      ],
+      "legal": [
+        "GDPR"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "PySpark",
+        "Query Optimization",
+        "Redshift",
+        "SQL",
+        "Snowflake"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "security_ops": [
+        "Role-Based Access Control"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Kafka→Apache Kafka(100%), Airflow→Apache Airflow(100%), Athena→AWS Athena(100%), RBAC→Role-Based Access Control(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "| SMTS",
+        "company": "Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%",
+        "location": "SMTS - Oracle | Bengaluru",
+        "start": "Mar, 2025",
+        "end": "Apr, 2026",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 14,
+        "bullets": [
+          "Collaborated on designing and implementing a star schema data model from scratch for Oracle Transportation"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "requirement analysis to testing, supporting millions of rows per fact table. Data Product Engineer, Nuclei | Bengaluru",
+        "company": "Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%",
+        "location": "Nuclei",
+        "start": "Jan, 2023",
+        "end": "Mar, 2025",
+        "method": "date_regex+pipe_company_loc_role+title_dict+inherited_company",
+        "duration_months": 27,
+        "bullets": [
+          "Refactored 25+ unversioned cron-based reporting scripts into a modular Python framework with centralized logging and access controls, orchestrated via Apache Airflow, achieving 100% DAG visibility and reducing undetected failures from days to minutes via centralized alerting.",
+          "Implemented a PII data masking framework for MySQL protecting 1M+ user records, enforced role-based masked views with granular RBAC, AES encryption via AWS Secrets Manager, and CloudWatch audit logging to achieve GDPR and DPDPA compliance.",
+          "Configured AWS DMS and Kinesis Firehose to automate data archival from a production database processing 1M+ daily transactions, streamed historical records into partitioned S3 Parquet, cutting hot-tier storage costs by 40% and"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "p95 query time by 30%. Data Analyst, Nuclei | Bengaluru",
+        "company": "Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and reducing churn by 40%.",
+        "location": "Nuclei",
+        "start": "Aug, 2021",
+        "end": "Dec, 2022",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 17,
+        "bullets": [
+          "Optimized 50+ slow MySQL queries across millions-of-rows tables by adding targeted indexes, rewriting correlated subqueries, and eliminating redundant joins, reduced runtime from 1–2 hours to under 5 minutes and automated secure report delivery to external clients via Apache NiFi and SFTP."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.8,
+      "total_months": 57,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.75
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

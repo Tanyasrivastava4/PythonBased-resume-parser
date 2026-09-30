@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "source_file": "4743cefd_76d97262_Pavan Babalad_Business Analyst_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:58:30.658205+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "other",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pavan Babalad",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "pavanbabalad7@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917411817829",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pavanbabalad",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "ERP Functional Consultant with 5 years of experience (4 years ERP/HRMS) in requirement gathering, business process mapping,\nconfiguration, UAT, and post–go-live support. Skilled in SQL, data validation, workflow setup, HRMS/Payroll, DIGIGOV, and INFOR ERP.\nStrong client handling, documentation, and delivery ownership with experience supporting government and enterprise projects.",
+  "skills": {
+    "items": [
+      "BRD",
+      "Data Validation",
+      "ERP",
+      "Go",
+      "Linux",
+      "MySQL",
+      "Payroll Administration",
+      "PostgreSQL",
+      "Problem Solving",
+      "PuTTY",
+      "Reporting",
+      "SQL",
+      "Stakeholder Management",
+      "Standard Operating Procedures",
+      "Technical Writing",
+      "UAT",
+      "WinSCP"
+    ],
+    "by_category": {
+      "business_analysis": [
+        "BRD"
+      ],
+      "data_engineering": [
+        "Data Validation"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "programming_language": [
+        "Go"
+      ],
+      "os_system": [
+        "Linux"
+      ],
+      "database": [
+        "MySQL",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "soft_skill": [
+        "Problem Solving",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "dev_tool": [
+        "PuTTY",
+        "WinSCP"
+      ],
+      "management": [
+        "Standard Operating Procedures"
+      ],
+      "content": [
+        "Technical Writing"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%), SOPs→Standard Operating Procedures(100%), data validation→Data Validation(100%), Payroll→Payroll Administration(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Junior engineer R&D",
+        "company": "Stumpp Schuele and Somappa Springs Pvt Ltd",
+        "location": null,
+        "start": "2020",
+        "end": "2022",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 25,
+        "bullets": [
+          "Coordinated with OEM clients for suspension component design & testing.",
+          "Handled requirement validation, documentation, and customer communication."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.1,
+      "total_months": 25,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B-Tech Mechanical",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Reva University Bengaluru",
+        "year": "2017 - 2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Serving Notice Period — Last Working Day: 15 Jan 2026 Immediate Joiner",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

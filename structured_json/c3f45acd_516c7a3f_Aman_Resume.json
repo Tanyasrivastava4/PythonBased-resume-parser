@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "source_file": "c3f45acd_516c7a3f_Aman_Resume_segmented.txt",
+    "generated_at": "2026-09-30T07:00:17.255955+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aman Kumar Choudhary",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "krchoudharyaman@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919540203874",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/amkran",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Detail-oriented BCA (Data Science) graduate with experience in data handling, structured documentation, research projects, and data-focused\ninternship programs. Skilled in maintaining accuracy, following detailed guidelines, and working with large datasets using Excel, Python, and SQL.\nStrong written and verbal communication skills with the ability to perform repetitive, quality-critical tasks consistently. Interested in data analytics,\nbusiness intelligence, reporting roles.",
+  "skills": {
+    "items": [
+      "Attention to Detail",
+      "Communication",
+      "Data Analytics",
+      "Data Cleaning",
+      "Data Management",
+      "Data Preprocessing",
+      "Data Science",
+      "Exploratory Data Analysis",
+      "Generative AI",
+      "Google",
+      "Machine Learning",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "MongoDB",
+      "MySQL",
+      "Power BI",
+      "Python",
+      "Reporting",
+      "SQL",
+      "TensorFlow",
+      "Time Management"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Attention to Detail",
+        "Communication",
+        "Reporting",
+        "Time Management"
+      ],
+      "data_science": [
+        "Data Analytics",
+        "Exploratory Data Analysis",
+        "Power BI"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Preprocessing"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
+      "database": [
+        "Google",
+        "MongoDB",
+        "MySQL",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%), Excel→Microsoft Excel(100%), Data preprocessing→Data Preprocessing(100%), verbal communication→Communication(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Research Intern",
+        "company": "Indian Institute of Information Technology (IIIT) Dharwad",
+        "location": null,
+        "start": "Feb 2026",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 8,
+        "bullets": [
+          "Working as part of a student research team on topic- Generative AI and Quantum Computing, contributing to research, review, documentation, and ideation. AI Intern – TechSaksham (Microsoft & SAP CSR Initiative)",
+          "Built an AI Powered Medical Diagnosis System involving ML model development for healthcare data, gained hands-on exposure to labelling, preprocessing, and structuring real-world datasets.",
+          "Maintained structured records of all interactions and handled applicant communications via email and phone.",
+          "Participated in information sessions, demonstrating strong verbal communication and ability to work under supervision."
+        ],
+        "sub_sections": [
+          "Mar 2025 · 1 mo",
+          "Edunet Foundation | Remote",
+          "Intern – Admissions Department",
+          "Apr – Jul 2025 · 4 mos",
+          "Lingaya's Vidyapeeth | Faridabad, On-site"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Research Intern",
+        "company": "Links: https://www.linkedin.com/in/amkran/ ────────────────────────────────────────────────────────────",
+        "location": null,
+        "start": "2023",
+        "end": "2025",
+        "method": "date_regex+inherited_role",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.8,
+      "total_months": 33,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.77
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Computer Applications (BCA) – Data Science",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": "Data Science",
+        "institution": "Lingaya's Vidyapeeth Faridabad",
+        "year": "2023 - 2026",
+        "gpa": "8.8",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Programming with Generative AI (IIT)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Foundations of Data Science (Google)",
+        "issuer": "Google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Python Programming (IBM)",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Databases & SQL for",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Data Science (IBM) • Power BI Data Analyst (Microsoft)",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "EXTRACURRICULAR",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Stage Committee – Member & Subhead",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.69
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.69,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

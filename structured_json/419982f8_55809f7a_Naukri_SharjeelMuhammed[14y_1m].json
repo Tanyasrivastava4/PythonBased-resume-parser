@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "source_file": "419982f8_55809f7a_Naukri_SharjeelMuhammed[14y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:28.399589+00:00",
+    "sections_found": [
+      "achievements",
+      "early_career",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Muhammed",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "msharjeel3005@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919324422899 / 192003-2006",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Accounts Receivable",
+      "Agile",
+      "Analytics Strategy",
+      "Asset Management",
+      "BFSI",
+      "Business Strategy",
+      "Change Management",
+      "Communication",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Data Warehousing",
+      "Design Thinking",
+      "Digital Transformation",
+      "Go",
+      "Lease Management",
+      "Life Insurance",
+      "Logistics",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft Power Automate",
+      "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Microsoft Visio",
+      "Microsoft Word",
+      "Operational Excellence",
+      "Oracle Fusion Cloud",
+      "Order-to-Cash",
+      "Payments",
+      "Power BI",
+      "Problem Solving",
+      "Process Improvement",
+      "Procure-to-Pay",
+      "Product Design",
+      "Project Management",
+      "Record-to-Report",
+      "Reporting",
+      "SAP",
+      "SAP FICO",
+      "Salesforce",
+      "Shared Services",
+      "Six Sigma",
+      "Stakeholder Management",
+      "Team Leadership",
+      "Xplanner"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounts Receivable",
+        "SAP FICO"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Change Management",
+        "Project Management"
+      ],
+      "data_science": [
+        "Analytics Strategy",
+        "Power BI"
+      ],
+      "sysadmin": [
+        "Asset Management"
+      ],
+      "domain": [
+        "BFSI",
+        "Payments",
+        "Shared Services"
+      ],
+      "consulting": [
+        "Business Strategy",
+        "Digital Transformation"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Problem Solving",
+        "Reporting",
+        "Stakeholder Management",
+        "Team Leadership"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
+      ],
+      "data_engineering": [
+        "Data Warehousing"
+      ],
+      "design": [
+        "Design Thinking"
+      ],
+      "programming_language": [
+        "Go"
+      ],
+      "real_estate": [
+        "Lease Management"
+      ],
+      "insurance": [
+        "Life Insurance"
+      ],
+      "operations": [
+        "Logistics",
+        "Process Improvement",
+        "Six Sigma"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Teams",
+        "Microsoft Word"
+      ],
+      "rpa": [
+        "Microsoft Power Automate"
+      ],
+      "dev_tool": [
+        "Microsoft Visio"
+      ],
+      "process": [
+        "Operational Excellence"
+      ],
+      "oracle_erp": [
+        "Oracle Fusion Cloud"
+      ],
+      "finance": [
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Record-to-Report"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "integration": [
+        "SAP",
+        "Salesforce"
+      ],
+      "database": [
+        "Xplanner"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%), analytical thinking→Problem Solving(100%), Communicator→Communication(88%), Planner→Xplanner(93%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Manager",
+        "company": null,
+        "location": null,
+        "start": "2016",
+        "end": "2018",
+        "method": "date_regex+title_dict",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Deloitte Touche Tohmatsu India LLP Senior Mumbai",
+        "company": "Accountants of India",
+        "location": null,
+        "start": "Jan’23",
+        "end": "Present",
+        "method": "single_date_regex+title_dict",
+        "duration_months": 45,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Business Analyst",
+        "company": "Overview",
+        "location": null,
+        "start": "Jun’17",
+        "end": "Present",
+        "method": "date_regex+dash_split",
+        "duration_months": 112,
+        "bullets": [
+          "+"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "01 st Time Horizon",
+        "location": null,
+        "start": "May’14",
+        "end": "Jun’17",
+        "method": "date_regex",
+        "duration_months": 38,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Overview – Operations",
+        "location": null,
+        "start": "Jan’12",
+        "end": "May’14",
+        "method": "date_regex",
+        "duration_months": 29,
+        "bullets": [
+          "Performed day to day investment operations with 98% accuracy.",
+          "Ensure smooth operations, reporting and audit management for daily business operations.",
+          "Actively participated in the business migration of fund accounting business for one of the largest Asset Managers.",
+          "Ensured building of adequate process controls through active identification of automation opportunities.",
+          "Achieved operational efficiencies by absorbing attrition through process automation. 2"
+        ],
+        "sub_sections": [
+          "FTE save process Efficiency through",
+          "Re-engineering Automation",
+          "Domains : Investment Management Operations, Fund Accounting",
+          "Industry/ Sector : Asset and Wealth Management, Insurance"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 14.8,
+      "total_months": 177,
+      "overlapping_periods_merged": 4
+    },
+    "_confidence": 0.9
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Rated 10/10 by several clients for outstanding project deliveries and project success.",
+      "Turnaround a 40% loss making bank to 8% profit making bank during covid era.",
+      "Automation of regulatory reporting through Robotic Process Automation leading to save of 15 man-days of overall",
+      "processing time and 4 FTE save in total.",
+      "Voted \"out-of-the-box thinker\" by PwC Mauritius.",
+      "CEO Appreciation for quality of delivery and value realization on Policy Admin System transformation.",
+      "Assisted an Asset Manager to become fully digital and saved nearly 35% of annual FTE costs.",
+      "Client Appreciation for first ever implementation of Multifonds in India leading to save of more than 25% of FTE costs.",
+      "Achieved 40% efficiency in processes through automation and standardization of rudimentary processes.",
+      "Client Appreciation for successful implementation of order management solution project assuring quality delivery and",
+      "meeting client expectations.",
+      "Above and Beyond performance Award for achieving 20% FTE save and operational efficiency in business",
+      "processes.",
+      "RARE Award for successful fund accounting business migration of a leading asset management company."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "source_file": "4081c91f_cd3e96b3_Rishi Bakshi_Full stack web security patches_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:25.955786+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rishi Bakshi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rishi.bakshi06@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "91-8847534902",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/rishi-bakshi-3704b312a",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "linkedin.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Full-Stack Engineer with 11.6\u0000 years of experience\nspecializing in Java \u0000Spring Boot), Node.js, React, and\nAngular. Proven expertise in designing and building\nscalable backend services, REST APIs, and cloud-native\napplications. Strong experience across the MERN stack,\nmodern frontend architectures, and server-side\ndevelopment, with hands-on exposure to AWS services\nincluding SQS, CloudFront, Lambda, and S3.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS CloudWatch",
+      "AWS S3",
+      "AWS SNS",
+      "AWS SQS",
+      "Angular",
+      "CI/CD",
+      "Docker",
+      "Git",
+      "IBM Cloud",
+      "Java",
+      "Kubernetes",
+      "MERN Stack",
+      "Microservices",
+      "Node.js",
+      "Python",
+      "REST API",
+      "React",
+      "SonarQube",
+      "Spring",
+      "Spring Boot",
+      "Travis"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS CloudWatch",
+        "AWS S3",
+        "AWS SNS",
+        "AWS SQS"
+      ],
+      "web_framework": [
+        "Angular",
+        "MERN Stack",
+        "Node.js",
+        "REST API",
+        "React",
+        "Spring",
+        "Spring Boot"
+      ],
+      "devops": [
+        "CI/CD",
+        "Docker",
+        "Kubernetes"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "database": [
+        "IBM Cloud"
+      ],
+      "programming_language": [
+        "Java",
+        "Python"
+      ],
+      "architecture": [
+        "Microservices"
+      ],
+      "testing": [
+        "SonarQube",
+        "Travis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Spring→Spring(100%), NodeJs→Node.js(100%), Sonarqube→SonarQube(100%), MERN→MERN Stack(100%), CloudWatch→AWS CloudWatch(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Full-Stack Developer",
+        "company": "IBM India Pvt Ltd  Gurugram",
+        "location": "Haryana",
+        "start": "09/2021",
+        "end": "Present",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 61,
+        "bullets": [
+          "Designed and developed scalable backend services and RESTful APIs using Java Spring Boot and Node.js, supporting high-availability, cloud-native applications.",
+          "Built and maintained modern frontend applications using React and Angular, delivering responsive, maintainable, and user-friendly interfaces",
+          "Managed and integrated AWS services including S3, Kinesis, Rekognition, Lambda, and CloudFront to support real-time data processing, content analysis, and media workflows",
+          "Implemented AWS Rekognition for content moderation and automated analysis within distributed backend systems",
+          "Worked extensively with IBM Cloud Code Engine to process Cloud Object Storage",
+          "Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 50% and enabling reliable, daily production releases",
+          "Authored comprehensive unit and functional test suites for backend and frontend modules, resulting in a 30% reduction in post-deployment defects",
+          "Led and mentored junior developers across Angular and Node.js projects, enforcing best practices, code quality standards, and scalable design patterns",
+          "Collaborated with product owners and cross-functional teams to document user stories, technical specifications, and feature requirements, ensuring alignment across engineering, QA, and business stakeholders"
+        ],
+        "sub_sections": [
+          "\u0000COS\u0000 bucket operations and event-driven workloads"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Trantor Pvt Ltd  Chandigarh",
+        "location": "India",
+        "start": "04/2019",
+        "end": "07/2021",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 28,
+        "bullets": [
+          "Developed an order fulfilment and logistic project using React and TypeScript",
+          "Enhanced user authentication and security by implementing OAuth and JWT, securing user data across platforms",
+          "Optimized SQL database queries, reducing load times by 20% and enhancing user experience",
+          "Documented the technical specifications and dependencies of applications",
+          "Actively participated in bi-weekly agile sprint planning",
+          "Mentored three junior developers in test-driven development and pair programming practices, improving team productivity by 10%"
+        ],
+        "sub_sections": [
+          "Software Developer"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Chandigarh",
+        "location": "India",
+        "start": "06/2010",
+        "end": "06/2013",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 37,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 10.5,
+      "total_months": 126,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "AWS Developer Associate",
+      "27 Feb,2025 - Credly",
+      "Mentorship Excellence Award",
+      "Awarded for dedication to mentoring junior",
+      "developer, significantly boosting code quality and",
+      "team performance."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

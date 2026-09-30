@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "source_file": "1ce0ce4f_Naukri_KISHANKUMARIIMAmazon[3y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:03.516477+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Kishankumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "kishankumar.a.pagad@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7259265314",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Collaboration",
+      "DCF",
+      "Data Analysis",
+      "Fixed Income",
+      "Generative AI",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "Monte Carlo Simulation",
+      "NumPy",
+      "Onboarding",
+      "Pandas",
+      "Portfolio Management",
+      "Product Management",
+      "Python",
+      "Quality Assurance",
+      "Reporting",
+      "Risk Assessment",
+      "Root Cause Analysis",
+      "SQL",
+      "Tableau",
+      "Time Series Forecasting",
+      "UPI",
+      "VaR",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Collaboration",
+        "Reporting"
+      ],
+      "finance": [
+        "DCF",
+        "Fixed Income",
+        "VaR"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "Monte Carlo Simulation",
+        "Tableau"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
+      "ai_ml": [
+        "Machine Learning",
+        "Matplotlib",
+        "NumPy",
+        "Pandas",
+        "Time Series Forecasting",
+        "scikit-learn"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "project_mgmt": [
+        "Portfolio Management",
+        "Product Management"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "operations": [
+        "Quality Assurance",
+        "Root Cause Analysis"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "database": [
+        "SQL"
+      ],
+      "domain": [
+        "UPI"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Business Intelligence Engineer",
+        "company": "Amazon",
+        "location": null,
+        "start": "2025",
+        "end": "present",
+        "method": "date_regex+title_dict",
+        "duration_months": 21,
+        "bullets": [
+          "Enabled AI-driven self-serve analytics by onboarding 10+ KPIs into Flamingo (GenAI platform), reducing root cause analysis time from hours to minutes and cutting manual deep-dive effort by 60%+.",
+          "Collated feedback from 10+ programs to build a unified dashboard identifying low-resolution address IDs, enabling targeted interventions and improving feedback resolution rate by 30% within 2 months.",
+          "Led analytics for bottom 10% underperforming rural stations (Project Sanitize), influencing network strategy to reduce connectivity gap from 1.93% to 1.6% (~17% relative improvement target) across the US Last Mile network.",
+          "Designed and automated 5+ geospatial coverage benchmarking metrics (RSM vs HERE/3P) across attributes (max height, width, weight, lane count), uncovering key data gaps impacting heavy vehicle routing accuracy at scale (10M+ records).",
+          "Optimized complex SQL pipelines processing 10M+ rows, reducing reporting latency by 35% and enabling faster WBRs.",
+          "Defined and operationalized Last Mile KPIs (delivery success, connectivity, routing accuracy) in collaboration with cross- functional teams, contributing to $15M+ estimated operational impact.",
+          "Automated data quality validation frameworks using Python, cutting manual QA effort by 80% and improving data reliability.",
+          "Performed deep-dive root cause analysis on delays, identifying bottlenecks % interventions that improved OTD by 7%.",
+          "Conducted deep-dive analysis on unresolved feedbacks, identifying underperforming ML models overriding manual edits; benchmarked manual vs ML performance and recommended reranking, driving a 10% reduction in unresolved feedbacks within 6 months."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Strategy Consultant",
+        "company": "Mind Share Analytics",
+        "location": null,
+        "start": "2024",
+        "end": "2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 13,
+        "bullets": [
+          "Developed strategic disinvestment plans for the Karnataka State Government to optimize and monetize 100+ state-owned PSUs, including the merger of 8 entities for enhanced efficiency and value realization.",
+          "Classified 3000+ corporate bonds based on ratings by Moody’s using SQL join operations & recommended a portfolio of 80 bonds to buy/sell & hold for a fixed tenure with valuations.",
+          "Developed and maintained financial models in compliance with audit guidelines, ensuring accurate valuation of investment portfolios of 30+ incubated Start-ups and Co-ordinated Global Investor Meet 2025 at the party’s end.",
+          "Underwritten municipal bonds for BBMP to increase the revenue receipts of the municipality worth 900 crores."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Product Management Intern",
+        "company": "Yes Bank",
+        "location": null,
+        "start": "2023",
+        "end": "2023",
+        "method": "single_year_regex+title_dict",
+        "duration_months": 1,
+        "bullets": [
+          "Computed MeitY incentives for UPI by technology intervention using Python & SQL, reducing CT by 22%",
+          "Built valuation models DCF & WACC, CAPM to evaluate performance and investment feasibility for Yes securities",
+          "Conducted sensitivity and scenario analysis to evaluate risks and returns across multiple financial projections.",
+          "Designed derivative strategies such as double straddle & condor spreads, optimizing risk-reward trade-offs.",
+          "Developed Monte Carlo simulation models to calculate VaR and stress-testing portfolios across multiple scenarios"
+        ],
+        "sub_sections": [
+          "Contractual"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Trade Finance Consultant",
+        "company": "Euro EXIM Bank",
+        "location": null,
+        "start": "2023",
+        "end": "2024",
+        "method": "year_range_short_regex+title_dict",
+        "duration_months": 13,
+        "bullets": [
+          "Underwritten 12 Letter of Credit worth $200000 to 8 clients from 4 different nations ensuring end-to-end transaction",
+          "Conducted risk assessments & compliance audits, ensuring adherence to international trade regulations"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 45,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "M.B.A",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Indian Institute of Management Indore",
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Professional Certificate",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Corporate Finance Institute",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Scholarships",
+      "Received 10.6 L Rs from Govt. of Madya Pradesh for exceptional performance over 5 years",
+      "Business Events",
+      "National Winner in AlphaBeta Portfolio Management Competition",
+      "Co-Curricular",
+      "Winner in Quiz competitions conducted on the occasion of National Book Week.",
+      "Athletics",
+      "Gold Medal in 100m hurdles & Silver in 100m sprint, Cluster level Annual Athletic meet",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

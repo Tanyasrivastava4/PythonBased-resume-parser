@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "source_file": "86e8cc75_ASHISH KUMAR_Machine Learning Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:32.543825+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "roles_responsibilities",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Senior AI/ML Engineer with 3+ years building production GenAI systems, multi-agent architectures, and scalable ML pipelines.\nSpecialized in Agentic RAG, real-time LLM inference, RLHF-aligned system design, and end-to-end ML lifecycle across healthcare and cloud domains.\n\nTo predict patient vitals in real time and identify safe/unsafe ranges for early alerts.(upper and lower)\n\nTo predict hospitalization risk using patient vitals and historical data.\n\nTo model patient health progression and predict deterioration trends.\n\nTo predict VM, VAS, and database resource usage for cost optimization and scaling.",
+  "skills": {
+    "items": [
+      "A/B Testing",
+      "AWS",
+      "AWS S3",
+      "Azure",
+      "Azure DevOps",
+      "Bedrock",
+      "C++",
+      "CI/CD",
+      "CrewAI",
+      "Databricks",
+      "Deep Learning",
+      "Docker",
+      "ETL",
+      "Electronic Health Records",
+      "FastAPI",
+      "Feature Engineering",
+      "Fine-tuning",
+      "GCP",
+      "GPT-4",
+      "Generative AI",
+      "GitHub Actions",
+      "HIPAA",
+      "Healthcare",
+      "Hugging Face",
+      "Hyperparameter Tuning",
+      "Kubernetes",
+      "LLM",
+      "LangChain",
+      "LangGraph",
+      "LangSmith",
+      "MLOps",
+      "MLflow",
+      "Machine Learning",
+      "Multi-Agent",
+      "NLP",
+      "OpenAI API",
+      "Pinecone",
+      "Prompt Engineering",
+      "PySpark",
+      "R",
+      "RAG",
+      "SQL",
+      "System Design",
+      "Time Series Forecasting",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Feature Engineering",
+        "Hyperparameter Tuning"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS S3",
+        "Azure",
+        "GCP"
+      ],
+      "devops": [
+        "Azure DevOps",
+        "CI/CD",
+        "Docker",
+        "GitHub Actions",
+        "Kubernetes"
+      ],
+      "genai": [
+        "Bedrock",
+        "CrewAI",
+        "Fine-tuning",
+        "GPT-4",
+        "Generative AI",
+        "Hugging Face",
+        "LLM",
+        "LangChain",
+        "LangGraph",
+        "LangSmith",
+        "MLOps",
+        "Multi-Agent",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG"
+      ],
+      "programming_language": [
+        "C++",
+        "R"
+      ],
+      "data_engineering": [
+        "Databricks",
+        "ETL"
+      ],
+      "ai_ml": [
+        "Deep Learning",
+        "MLflow",
+        "Machine Learning",
+        "NLP",
+        "Time Series Forecasting",
+        "scikit-learn"
+      ],
+      "healthcare": [
+        "Electronic Health Records",
+        "HIPAA"
+      ],
+      "web_framework": [
+        "FastAPI"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "search": [
+        "Pinecone"
+      ],
+      "database": [
+        "PySpark",
+        "SQL"
+      ],
+      "architecture": [
+        "System Design"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(GenAI→Generative AI(100%), Azure ML Pipelines→Azure DevOps(95%), OpenAI→OpenAI API(100%), HIPAA Compliance→HIPAA(100%), Bedrock:→Bedrock(93%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior AI/ML Engineer",
+        "company": "Intileo Technologies  ·  Remote (San Francisco HQ",
+        "location": null,
+        "start": "Apr 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 18,
+        "bullets": [
+          "Architected 7-agent Agentic RAG system for clinical workflows (LangChain, LangGraph, Azure OpenAI) → physician review time -25%, early detection +42%",
+          "Built real-time LLM voice agent (FastAPI, WebSockets, OpenAI Realtime API, Twilio) → <200ms latency, nurse workload -30%",
+          "Deployed 7B-parameter fine-tuned clinical LLM (LoRA/PEFT on Azure ML) serving 1,000+ patient records/day → 500+ concurrent users, 99.95% uptime",
+          "Designed FHIR R4/R5 + HL7 EHR integration pipelines across 5 hospital systems → 100% data fidelity, zero HIPAA audit findings",
+          "Designed distributed LLM systems with streaming inference and fault-tolerant pipelines → 40% query speedup, sub-second clinical decision support"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "▸ Mentored 4 engineers on LLM system design, RLHF workflows, and production ML best practices AI/ML Engineer",
+        "company": "▸ Built model evaluation framework at scale (F1 ≥ 0.92, AUC, RLHF preference scoring) embedded in CI/CD → automated quality gates on every deployment",
+        "location": null,
+        "start": "Jan 2023",
+        "end": "Mar 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 27,
+        "bullets": [
+          "Built time-series forecasting system (lag features, rolling stats, Scikit-learn on Databricks) → $2.1M annual savings, 35% cost reduction across 15K+ nodes",
+          "Engineered end-to-end ML pipeline (Delta Lake → PySpark -> Azure ML -> FastAPI) with canary deploys, auto-retraining, and drift detection",
+          "Designed multi-agent IT automation system (LangChain, GPT-4, tool use) → 4,800+ ops hours saved/year, MTTR -60%",
+          "Led migration of 12 legacy systems to cloud-native microservices → release velocity 3×, failure rate -65%",
+          "Led and mentored team of 6 engineers across ML, data pipelines, and platform infrastructure"
+        ],
+        "sub_sections": [
+          "OPEN SOURCE & PUBLICATIONS",
+          "Agentic-RAG-Clinical  ·",
+          "Open-source 7-agent clinical orchestration framework (LangGraph + FHIR). 200+ GitHub stars. Used in production healthcare AI deployments.",
+          "Technical Article  ·  \"How We Reduced Clinical LLM Latency by 96%\"  ·  Medium / Towards Data Science",
+          "Deep-dive on distributed inference architecture, streaming pipelines, and fault-tolerant multi-agent design. 5,000+ reads."
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 45,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MCA — Computer Science  ·  GPA 8.65  ·",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Gurukula Kangri Deemed University",
+        "year": "2021 - 2023",
+        "gpa": "8.65",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BSc — Computer Science  ·  GPA 8.18  ·",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2018 - 2021",
+        "gpa": "8.18",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "▸ AWS Bedrock: Generative AI Foundations",
+        "issuer": "AWS",
+        "year": "2024",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "▸ Machine Learning & Deep Learning Specialization",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "▸ Data Structures & Algorithms in C++",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.72
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.82
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.72,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

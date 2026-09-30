@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "source_file": "e157c4fa_3d0e2e5a_Kartik-Garg-Appsec-Consultant_segmented.txt",
+    "generated_at": "2026-09-30T07:00:34.660622+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Kartik Garg",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "omnamokartikey@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8273059938 / 2023-43331",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/kartik-garg-6370b6232",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Kartikhunter",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "github.io",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Application Security Consultant and Penetration Tester with\n3+ years of hands-on experience across Web, API, mobile\n(Android & IOS) and network environments and SAST. Skilled\nin identifying real-world vulnerabilities through VAPT,\nbusiness logic abuse and manual exploitation techniques\nacross complex application flows.\nExperienced in securing 100+ applications across banking and\nenterprise environments, with strong contributions in bug\nbounty and VDP programs including Hall of Fame recognition\nand CVE credits. Proficient in automation using Bash and\nPython to streamline security testing and improve operational\nefficiency.\nCurrently focused on advancing expertise in cloud security,\nred teaming and reverse engineering to better understand\nmodern attack techniques and evolving attack surfaces.",
+  "skills": {
+    "items": [
+      "AWS S3",
+      "Active Directory",
+      "Acunetix",
+      "Android",
+      "Azure",
+      "Bash",
+      "Burp Suite",
+      "CEH",
+      "Client Relationship Management",
+      "DAST",
+      "Directory Buster",
+      "Firewall",
+      "GitHub",
+      "LLM",
+      "LinkedIn",
+      "Metasploit",
+      "Nessus",
+      "Network Vulnerability Assessment",
+      "Nmap",
+      "OWASP ZAP",
+      "Offensive Security",
+      "Operations Management",
+      "Penetration Testing",
+      "Phishing",
+      "Postman",
+      "Public Relations",
+      "Python",
+      "Reverse Engineering",
+      "SAST",
+      "SDLC",
+      "SQLMAP",
+      "Software Composition Analysis",
+      "VAPT",
+      "WAF",
+      "Wireshark",
+      "XSS",
+      "iOS"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS S3",
+        "Azure",
+        "Wireshark"
+      ],
+      "security_ops": [
+        "Active Directory",
+        "Acunetix",
+        "Burp Suite",
+        "CEH",
+        "DAST",
+        "Firewall",
+        "Nessus",
+        "OWASP ZAP",
+        "Penetration Testing",
+        "Phishing",
+        "Reverse Engineering",
+        "SAST",
+        "Software Composition Analysis",
+        "VAPT",
+        "WAF",
+        "XSS"
+      ],
+      "mobile": [
+        "Android",
+        "iOS"
+      ],
+      "os_system": [
+        "Bash"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "security": [
+        "Directory Buster",
+        "Metasploit",
+        "Network Vulnerability Assessment",
+        "Nmap",
+        "Offensive Security",
+        "SQLMAP"
+      ],
+      "dev_tool": [
+        "GitHub",
+        "Postman"
+      ],
+      "genai": [
+        "LLM"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "marketing": [
+        "Public Relations"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "architecture": [
+        "SDLC"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(SQLmap→SQLMAP(100%), Burp→Burp Suite(100%), SQLmap→SQLMAP(100%), Gobuster→Directory Buster(100%), Publications→Public Relations(89%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Associate Consultant, CyberCube Services Pvt Ltd",
+        "company": "Performed Web, API, Mobile (Android & IOS) and Network",
+        "location": null,
+        "start": "05/2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 29,
+        "bullets": [
+          "VAPT across multiple client environments and SAST. Conducted security assessments on banking and enterprise",
+          "applications to identify critical vulnerabilities and business logic flaws Executed ASV scans and analyzed results to ensure",
+          "compliance with security standards Developed automation scripts using Bash and Python,",
+          "reducing manual testing efforts and improving efficiency Designed and hosted internal CTF challenges to train and",
+          "evaluate security teams Collaborated with teams to validate vulnerabilities and",
+          "improve overall security posture Attended Multiple Meeting with client for walk through &",
+          "scope documentation",
+          ""
+        ],
+        "sub_sections": [
+          "Participated in Cert-In Exam"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Security Auditor & Penetration Tester",
+        "company": "Pheonix Technocyber Company",
+        "location": null,
+        "start": "06/2023",
+        "end": "03/2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 10,
+        "bullets": [
+          "testing, API Testing, Web Application Testing on-site in a banking environment as well as company environment Secure Testing 100+ Banking sites & Completed learning on",
+          "LLMs attacks & Successfully completed 30+ projects",
+          "security training on-site in a banking environment Attended Multiple Meeting with client for walk through &",
+          "scope documentation"
+        ],
+        "sub_sections": [
+          "Managed client relationships and delivered comprehensive"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Cyber Security Researcher Intern",
+        "company": "Bureau of Police Research & Development",
+        "location": null,
+        "start": "09/2022",
+        "end": "11/2022",
+        "method": "date_regex+title_dict",
+        "duration_months": 3,
+        "bullets": [
+          "Worked on confidential security-related projects and",
+          "research activities"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Security Analyst Intern, Craw Security Pvt. Ltd",
+        "company": "Injection, IDOR and Subdomain Takeover",
+        "location": null,
+        "start": "04/02/2021",
+        "end": "04/07/2021",
+        "method": "date_regex+title_dash_company",
+        "duration_months": 1,
+        "bullets": [
+          "environments Identified vulnerabilities including XSS, Blind SSRF, SQL",
+          "strategies"
+        ],
+        "sub_sections": [
+          "Prepared detailed vulnerability reports with mitigation"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.6,
+      "total_months": 43,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.91
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Science",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "H.N.B Garhwal University",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Advance Diploma in Information",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Information",
+        "institution": null,
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Master of Computer Application",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Pursuing), Abdul Kalam Technical University",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "eWPTX v3 – eLearnSecurity",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "eJPT – eLearnSecurity",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "CEH v12 – EC-Council",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "CRTP – Certified Red Team",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Professional",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "CAP – Certified AppSec Practitioner",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/kartik-garg-6370b6232/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://kartikhunter.github.io/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/Kartikhunter",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://kartik001.medium.com/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://x.com/kartikxwd",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://kartik001.medium.com/what-i-learned-from-ewptx-v3-a-journey-into-advanced-web-app-penetration-testing-c5407820992f",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://medium.com/@kartik001/cross-site-scripting-xss-on-small-crm-portal-cve--43331-d6668e97ef6",
+        "issuer": null,
+        "year": "2023",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "https://github.com/Kartikhunter/CTF-Challenge-SSTI-XSS-Exploitation-Lab",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.61
+  },
+  "achievements": {
+    "items": [
+      "Secured 100+ web applications",
+      "across banking and enterprise",
+      "environments",
+      "Earned multiple Hall of Fame",
+      "recognitions (Apple, NASA, US Gov,",
+      "Nokia, etc.)",
+      "Discovered and reported CVE-2023-",
+      "Recognized by companies like",
+      "QuickHeal, LG, Julo, Thales, Drexel,",
+      "Successfully delivered 30+ security",
+      "testing projects",
+      "Designed and hosted internal",
+      "Capture The Flag (CTF) challenges"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.61,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[14]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

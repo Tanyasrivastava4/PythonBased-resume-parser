@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "source_file": "798a5e47_Ankita_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:22.307690+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Chartered Accountant",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ankita04choubey@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8796021745",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-ankita-1b4198179",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "• Experienced Chartered Accountant with around 5years of post-qualification experience with\nbackground in conducting Statutory Audit for US and UK based Public listed and Private Companies.\n• Proficient in financial statement analysis and skilled in utilizing various relevant tools.\n• Significant Exposure in Control Testing, Risk assessment analytics and Substantive testing of different\nFSLIs like revenue, inventory, payroll etc.\n• Technically proficient in Microsoft office and Auditing software such as Aura, Data snipper, Sampling\nAutomation tool, Helix General Ledger Analyzer Tool etc.\n• Proficient in maintaining cordial relationships as have been coordinating with Engagement Team\nmembers, Clients as well as co-team members within the organization on regular basis to provide quality\nwork.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "Aura",
+      "Control Testing",
+      "DataSnipper",
+      "Financial Statement Analysis",
+      "Google Workspace",
+      "Helix",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Payroll Administration",
+      "Risk Assessment",
+      "SAP",
+      "Sampling Automation Tool",
+      "Smart Audit Tool",
+      "Statutory Audit",
+      "Substantive Testing"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Statutory Audit",
+        "Substantive Testing"
+      ],
+      "finance": [
+        "Aura",
+        "Control Testing",
+        "DataSnipper",
+        "Financial Statement Analysis",
+        "Helix",
+        "Sampling Automation Tool",
+        "Smart Audit Tool"
+      ],
+      "productivity": [
+        "Google Workspace",
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft Word"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "integration": [
+        "SAP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Google Docs→Google Workspace(100%), Data Snipper→DataSnipper(100%), Data snipper→DataSnipper(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "",
+        "company": "Perform risk assessment, audit planning, and scoping procedures in accordance with ISA and firm methodology.",
+        "location": null,
+        "start": "August 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 14,
+        "bullets": [
+          "Lead and manage audit engagements for global clients in coordination with onshore audit teams.",
+          "Review audit workpapers, testing procedures, and financial statement disclosures.",
+          "Evaluate internal controls and perform substantive testing across key financial statement areas.",
+          "Executed audit procedures including substantive testing, analytical review, and control testing.",
+          "Supervise and mentor audit seniors and associates, ensuring quality and timely completion of work.",
+          "Ensure compliance with firm quality standards, independence policies, and regulatory requirements.",
+          "Successfully managed multiple audit engagements with tight reporting deadlines."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "",
+        "company": "Conduct Statutory audit of various private companies.",
+        "location": null,
+        "start": "October 2024",
+        "end": "July 2025",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 10,
+        "bullets": [
+          "Prepare audit working papers, schedules, and financial statement reviews.",
+          "Perform risk assessment and internal control evaluation.",
+          "Coordinate with clients for financial information, reconciliations, and supporting documents"
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "",
+        "company": "PwC Acceleration Centre India Senior Associate",
+        "location": null,
+        "start": "July 2023",
+        "end": "September 2024",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 15,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "",
+        "company": "Planned and executed audits in accordance with accepted standards on auditing. Have been involved in engagement from planning stage including determining the materiality and scoping of accounts, working in execution stage performing testing over the accounts, till the completion stage.",
+        "location": null,
+        "start": "September 2021",
+        "end": "June 2023",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 22,
+        "bullets": [
+          "Managed a team of 4+ in auditing corporate clients, overseeing project planning, work allocation, and compliance.",
+          "Reviewed tie-out procedures on Annual & Quarterly Financial Statements (10-K/10-Q) including prior year check, mathematical accuracy check, and internal consistency check.",
+          "Conducted substantive testing procedures of different FSLI’s (Inventory, Revenue, AR/AP, Cash & cash equivalents and EPS etc.)",
+          "Performed various Business Processes Walkthroughs including control testing.",
+          "Prepare documents as per audit policy including information gathering and population of templates and documents based on PwC methodology.",
+          "Worked on 4 Carve-out Audit Projects of an ESP Client. Also well versed with the carve-out Journal Entry Adjustments and the tie-outs of the adjusted Financial Statements.",
+          "Worked on the “HALO FOR ERP” Project, in which I worked on the execution and review of the output related to revenue FSLI in an efficient and timely manner. Also Lead that project.",
+          "Coordinated with the DAT (Digital Assurance Team) and developed an Audit Tool for the “Lead Schedule Preparation” which led to the saving of processing time on the Engagement."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "ICICI Bank (Business Loan Department) Credit Manager",
+        "company": "Analyse financial statements and credit history to better understand credit worthiness and how much risk could be involved in extending credit to customers.",
+        "location": null,
+        "start": "April 2021",
+        "end": "August 2021",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 5,
+        "bullets": [
+          "Meeting with the Client to have better understanding of the business.",
+          "Identify and assess credit and other risk areas.",
+          "Carry out detailed and independent credit evaluation for underwriting.",
+          "Ensuring proper Compliance of company policies, Legal & regulatory regulations in loan sanctioning, disbursements and post disbursement process. Periodically reviewed lender portfolios to identify possible risks",
+          "Conducted Statutory Audit and Limited review of for a diverse portfolio of clients, ranging from listed corporations to non-listed entities.",
+          "Compliances under Income Tax Act, TDS and Service Tax.",
+          "Analysis of deductions & disallowances under Income Tax Act, 1961.",
+          "Preparation and finalization of Balance Sheet of Individuals, Firms and Companies.",
+          "Preparation of Computations and filing of Income Tax returns of all kinds of assesses.",
+          "Assist in Scrutiny Assessments under Income Tax Act, 1961 of various Clients."
+        ],
+        "sub_sections": [
+          "ARTICLESHIP EXPERIENCE"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.5,
+      "total_months": 66,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.64
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA-Final [Passed with 3 Exemptions]",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Exemptions ICAI",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA-IPCC [Passed with 3 Exemptions]",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Exemptions ICAI",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA-CPT [Scored 70% marks]",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Exemptions ICAI",
+        "year": null,
+        "gpa": "70%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Completed graduation with 67% marks",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": "67% marks",
+        "institution": "Baba Saheb Ambedkar University",
+        "year": null,
+        "gpa": "67%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Completed Senior Secondary School with 82% marks",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Completed School with",
+        "year": null,
+        "gpa": "82%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Completed Secondary School with 91% marks",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Completed School with",
+        "year": null,
+        "gpa": "91%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "SPOT Award and Territory SPOT Award from Global Engagement Team.",
+      "Real Time Recognition Award.",
+      "Standout Performance Recognition from PwC Leader.",
+      "PwC Central Awards.",
+      "Recognition award from the PwC Leader.",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.64,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

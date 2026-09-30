@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "source_file": "b9816f4a_605aca91_Deepak MIS CV-1_segmented.txt",
+    "generated_at": "2026-09-30T07:00:08.749412+00:00",
+    "sections_found": [
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Deepak Kataria",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "deepkataria4@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91) 8076802721",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Active Directory",
+      "Budgeting",
+      "Data Analysis",
+      "Data Management",
+      "Financial Analysis",
+      "KPI",
+      "Leadership",
+      "Logistics",
+      "MIS Reporting",
+      "MSSQL",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "Pivot Tables",
+      "Power BI",
+      "Reporting",
+      "SQL",
+      "Supply Chain",
+      "Supply Chain Management",
+      "Team Leadership",
+      "Time Series Forecasting",
+      "Turnaround Time",
+      "VBA",
+      "Variance Analysis"
+    ],
+    "by_category": {
+      "security_ops": [
+        "Active Directory"
+      ],
+      "finance_ops": [
+        "Budgeting",
+        "Financial Analysis"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "Power BI"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Excel",
+        "Microsoft Teams",
+        "Pivot Tables"
+      ],
+      "business_analysis": [
+        "KPI",
+        "Variance Analysis"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Reporting",
+        "Team Leadership"
+      ],
+      "operations": [
+        "Logistics",
+        "Supply Chain Management"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "database": [
+        "MSSQL",
+        "SQL"
+      ],
+      "domain": [
+        "Supply Chain"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "management": [
+        "Turnaround Time"
+      ],
+      "programming_language": [
+        "VBA"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "MIS",
+        "location": null,
+        "start": "Aug 2022",
+        "end": "Aug 2025",
+        "method": "date_regex",
+        "duration_months": 37,
+        "bullets": [
+          "Macros Aligned with Finance Operations vertical and helping in performing Financial planning, budgeting,",
+          "VBA forecasting, reporting, variance analysis activities, collecting operational data/reports Fetch data(Export) through SQL Server & making different kinds of reports Like (Revenue Report., Email ❖ Power BI Performance Report) As per Company requirements, Using Macros for daily repetitive work or Making",
+          "SQL responsible for supporting the Team Lead in managing daily operations, data analysis, and reporting. The role combines technical proficiency in data management with the team leadership skills necessary to drive efficiency, ensure data accuracy, and meet business objectives and provide actionable insights (Ad-"
+        ],
+        "sub_sections": [
+          "Automation for Daily Stats",
+          "Hock MIS Reports)"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Collect, manage, and maintain accurate data related to sales, inventory, and customer information",
+        "company": "Hindi",
+        "location": null,
+        "start": "Mar 2018",
+        "end": "Mar 2021",
+        "method": "date_regex",
+        "duration_months": 37,
+        "bullets": [
+          "Collect, manage, and maintain accurate data related to sales, inventory, and customer information, Handling multiple reports (Daily, weekly, Monthly MIS), working with formula & pivot tables(GPS Tracker) and various other excel sheet components for accurate data EDUCATION providing insights & analytical support to leadership on key performance indicators by developing dashboards for Multiple Sales Teams as per their requirement Delhi University (SOL),"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Delhi — BA(Bachelor of",
+        "location": null,
+        "start": "OCT 2010",
+        "end": "MAY 2014",
+        "method": "date_regex",
+        "duration_months": 44,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "GOJAVAS), Gurgaon(Gurugram) — MIS Executive (SCM",
+        "company": "SNAPDEAL",
+        "location": null,
+        "start": "Jun 2015",
+        "end": "July 2017",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 26,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Sec. School",
+        "company": "Co-ordinating and relying on reports generated from systems to help the business in validating the",
+        "location": null,
+        "start": "APR 2008",
+        "end": "May 2009",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 14,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "GBSSS",
+        "location": "New Delhi",
+        "start": "APR 2006",
+        "end": "May 2007",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 14,
+        "bullets": [
+          "Work with various departments, including operations and logistics, to understand their data needs and provide tailored solutions Troubleshoot and resolve any system-related issues or data discrepancies that arise in the warehouse"
+        ],
+        "sub_sections": [
+          "MARITAL STATUS",
+          "Develop and generate daily, weekly, monthly, and annual reports on key performance indicators (KPIs)",
+          "such as inventory levels, order fulfillment, and shipment status",
+          "Married (2021)",
+          "────────────────────────────────────────────────────────────"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 14.3,
+      "total_months": 172,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.87
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "source_file": "257ad643_Naukri_DipanshuPatel[0y_10m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:08.696109+00:00",
+    "sections_found": [
+      "certifications",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Dipanshu Patel",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "dipanshupatel857@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "6388208718",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/dipanshu-patel-388a1b285",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/pateldipanshu",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "github.io",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Motivated Frontend Developer skilled in React.js, JavaScript (ES6+), with a focus on creating seamless user\nexperiences. With strong problem-solving and collaboration skills, aiming to contribute to innovative web\nprojects in a dynamic environment. I aim to grow in a progressive organization that values innovation,\nexcellence, and teamwork.",
+  "skills": {
+    "items": [
+      "Bootstrap",
+      "CSS3",
+      "Collaboration",
+      "Creativity",
+      "ES6+",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "JavaScript",
+      "MERN Stack",
+      "MSSQL",
+      "Problem Solving",
+      "R",
+      "React",
+      "Route",
+      "VS Code"
+    ],
+    "by_category": {
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "MERN Stack",
+        "React"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Creativity",
+        "Problem Solving"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript",
+        "R"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "VS Code"
+      ],
+      "database": [
+        "MSSQL"
+      ],
+      "cloud_infra": [
+        "Route"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Bootstrap.→Bootstrap(95%), Router→Route(91%), problem-solving.→Problem Solving(97%), React.js→React(100%), problem-solving→Problem Solving(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "React.js Training",
+        "location": "",
+        "start": "July 2024",
+        "end": "December 2024",
+        "method": "date_regex",
+        "duration_months": 6,
+        "bullets": [
+          "Covered key concepts like React components, hooks, state management, and API integration."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.5,
+      "total_months": 6,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Verified by (KG - Coding) real-time coding tests, focusing on ES6+ concepts and problem-solving.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Achievements.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Completed JavaScript certification with practical coding tests.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://pateldipanshu.github.io/weather-app",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

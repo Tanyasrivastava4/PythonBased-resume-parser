@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "source_file": "6f93c879_82f8beba_Naukri_Rohitzimbar[5y_8m]_segmented.txt",
+    "generated_at": "2026-09-30T06:59:10.652749+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Shivnath Zimbar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rohitzimbar15196@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8378012812 / 965869258",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Reading books, Playing Cricket,\nInstrumentation Engineer with over 4 years & 8 months of an experience\nTrekking\nin the field of project designing, erection and commissioning, as well as\noperation and maintenance of plants. Ability to work independently. Self-\nCertifications motivated with the ability to manage changing priorities.\nPost graduate diploma in\nautomation",
+  "skills": {
+    "items": [
+      "Calibration",
+      "Field Instruments",
+      "Gas Chromatograph",
+      "HMI",
+      "Instrumentation",
+      "Maintenance Management",
+      "PLC",
+      "RO Plant",
+      "SCADA",
+      "TANKS",
+      "VFD",
+      "Vapor Recovery System"
+    ],
+    "by_category": {
+      "engineering_hardware": [
+        "Calibration",
+        "Instrumentation",
+        "PLC",
+        "SCADA"
+      ],
+      "engineering": [
+        "Field Instruments",
+        "Gas Chromatograph",
+        "HMI",
+        "Maintenance Management",
+        "RO Plant",
+        "VFD",
+        "Vapor Recovery System"
+      ],
+      "data_science": [
+        "TANKS"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Instrumentation Designer engineer",
+        "company": "Instrumentation design",
+        "location": "",
+        "start": "2023",
+        "end": "2007",
+        "method": "year_range_short_regex+title_dict+comma_company_location",
+        "duration_months": 0,
+        "bullets": [
+          "Design, develop, and implement instrumentation systems for various"
+        ],
+        "sub_sections": [
+          "Udemy",
+          "industrial processes, ensuring compliance with industry standards and"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Instrumentation design",
+        "location": "15",
+        "start": "2022-04-03",
+        "end": "2023-07",
+        "method": "date_regex+inherited_company",
+        "duration_months": 15,
+        "bullets": [
+          "Working as a Instrumentation engineer in Vapor Recovery System, with Zeeco India Pvt. ltd. * Installation, calibration, troubleshooting, and loop checking of the field instruments. * Vapor recovery Unit Operation & maintenance. * Maintenance of statics/ rotary equipment, instruments, PLC/VFD panel, XEFD analyzer. * Maintain daily product recovery and Spare consumption record. * Experienced in erection & commissioning activity of VRU system. * Reviewing the project related documents such as Engineering specifications, * Instrument index, cable schedules, Cable Tray Layout, JB schedules. * Laying of control, signal, and OFC cables."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Graduate Apprentice Trainee",
+        "company": "GAIL INDIA LIMITED",
+        "location": null,
+        "start": "2021-03-30",
+        "end": "2022-03",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 12,
+        "bullets": [
+          "Worked as Graduate Apprentice Trainee in Instrumentation Department, with GAIL(INDIA) LTD. at Dabhol base. * Calibration and loop checking of field instruments. * Monitor and control the gas plant operation through SCADA. * Gas chromatograph calibration & validation * Speed of sound(SOS) validation of Flow computer. * prepared daily report & Daily log record of cylinders Pressure."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "RO plant supervisor",
+        "company": "H2O management services (Perrigo Laboratories Pvt. Ltd",
+        "location": null,
+        "start": "2020-01-31",
+        "end": "2020-06",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 5,
+        "bullets": [
+          "Worked as a RO plant supervisor in H2O management services. Working side – Perrigo Laboratories India Private Limited (Ambernath) * RO plant operation & maintenance"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Junior Engineer",
+        "company": "Tangent Engineering (Perrigo Laboratories Pvt. Ltd",
+        "location": null,
+        "start": "2018-05-07",
+        "end": "2020-01",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 20,
+        "bullets": [
+          "Worked as a Junior Engineer in Project and Engineering Department, With Tangent Engineering * RO plant & HVAC operation & Maintenance * Spray ball validation of SS Tanks * Commissioning of MBR plant. * Pharma machineries & equipment maintenance."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.3,
+      "total_months": 52,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.87
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "ssc",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "SMT R.P.P. VIDYALAYA PALSHET",
+        "year": null,
+        "gpa": "87.27%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "SMT R.P.P. VIDYALAYA PALSHET",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "B.E. Instrumentation",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.7
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    }
+  ]
+}

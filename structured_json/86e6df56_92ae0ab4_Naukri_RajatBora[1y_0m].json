@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "source_file": "86e6df56_92ae0ab4_Naukri_RajatBora[1y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:59:32.228599+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rajat Bora",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rajatbora869@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8433424948",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/rajat-bora-17134b220",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "KushelDigi.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Motivated and detail-oriented Frontend Developer with 1 year of professional experience in\nbuilding responsive and user-friendly web applications. Seeking an opportunity to contribute my\ntechnical expertise, problem-solving abilities, growing MERN Stack knowledge to a growth-\noriented organization while advancing my professional career in software development.\nProfessional Summary\n• Frontend Developer with 1 year of hands-on experience in real-world projects\n• Strong expertise in HTML, CSS, JavaScript, React.js, and Next.js\n• Experience working in team-based development environments\n• Skilled in creating responsive, cross-browser compatible web applications\n• Currently developing MERN Stack projects to strengthen full-stack development and backend skill",
+  "skills": {
+    "items": [
+      "Bootstrap",
+      "CSS3",
+      "Collaboration",
+      "Communication",
+      "ES6+",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "MERN Stack",
+      "Next.js",
+      "Problem Solving",
+      "REST API",
+      "React",
+      "Responsive Web Design",
+      "Tailwind CSS"
+    ],
+    "by_category": {
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "MERN Stack",
+        "Next.js",
+        "REST API",
+        "React",
+        "Responsive Web Design",
+        "Tailwind CSS"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Problem Solving"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript"
+      ],
+      "dev_tool": [
+        "Git"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(React.js→React(100%), REST APIs→REST API(100%), Problem-solving→Problem Solving(100%), MERN→MERN Stack(100%), React.js→React(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Frontend Developer",
+        "company": "KushelDigi Solutions",
+        "location": null,
+        "start": null,
+        "end": "1 Year",
+        "method": "stated_duration_regex+title_dict+company_suffix_match",
+        "duration_months": 12,
+        "bullets": [
+          "Developed and maintainedresponsive websites using HTML, CSS, JavaScript,",
+          "Converted UI/UX designsintofully functional web pages",
+          "Ensured cross-browser compatibility and mobile responsiveness",
+          "Collaborated with designersandbackend developers to meet project requirements.",
+          "FixedUI bugsandimprovedoveralluserexperience.",
+          "Actively participated in testing, debugging, and enhancements.",
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "JWT Authentication",
+          "MongoDB ."
+        ],
+        "sub_sections": [
+          "Bootstrap, React.js, and Next.js",
+          "Backend & Database (Working Knowledge)"
+        ],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.0,
+      "total_months": 12,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.8
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Mastero f ComputerApplications(MCA)",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Mastero f ComputerApplications Uttaranchal University",
+        "year": "2023 - 2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Bachelor ofC ommerce(B.Com)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Bachelor ofC ommerce Kumaon University",
+        "year": "2017 - 2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Intern of the Month — KushelDigi Solutions",
+      "Recognized for outstanding performance during internship and continued contribution as a",
+      "Frontend Developer, including accurate UI implementation, timely delivery, and consistent",
+      "quality across multiple client projects."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

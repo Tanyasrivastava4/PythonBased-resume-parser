@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "source_file": "a4967c4e_Imran Khan_Sr. Business Development Executive_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:55.353723+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Imran Khan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "imrankhan224960@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9967324612",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Client Relationship Management",
+      "Cross-functional Collaboration",
+      "Incident Management",
+      "Lead Generation",
+      "Market Research",
+      "Root Cause Analysis",
+      "SLA Management",
+      "Ticketing Systems",
+      "Time Management"
+    ],
+    "by_category": {
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Time Management"
+      ],
+      "security": [
+        "Incident Management"
+      ],
+      "sales": [
+        "Lead Generation"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "operations": [
+        "Root Cause Analysis"
+      ],
+      "support": [
+        "SLA Management",
+        "Ticketing Systems"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Issue Tracking→Ticketing Systems(100%), Cross-functional→Cross-functional Collaboration(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Sales Officer",
+        "company": "Reliance SMSL Pvt Ltd",
+        "location": null,
+        "start": "August 2020",
+        "end": "February 2023",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 31,
+        "bullets": [
+          "Managed B2B field sales operations by visiting multiple Kirana outlets and retail stores daily.",
+          "Generated business by taking regular product orders from shop owners and maintaining strong outlet relationships.",
+          "Promoted and sold POS machines (Price: ₹3000) used for billing, customer orders, and card transactions.",
+          "Explained product usage, service benefits, and payment solutions to business owners. Maintained outlet records, sales reports, and regular follow-up activities for business continuity.",
+          "Achieved sales targets through repeat business generation and strong customer satisfaction.",
+          "Built long-term professional relationships with clients through regular engagement and reliable support."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sales Support Executive",
+        "company": "Ank IT Solutions Pvt Ltd",
+        "location": null,
+        "start": "March 2023",
+        "end": "December 2023",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 10,
+        "bullets": [
+          "Assisted in promoting company services and generating business opportunities for clients.",
+          "Supported lead generation activities and followed up with prospective customers. Coordinated with internal teams to ensure smooth onboarding and service delivery.",
+          "Maintained client communication and handled basic customer queries regarding services."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Corporate Sales Executive",
+        "company": "IRIS Business Service",
+        "location": null,
+        "start": "January 2024",
+        "end": "October 2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 22,
+        "bullets": [
+          "Presented company products and services to corporate clients through professional demonstrations and presentations.",
+          "Explained product features, business benefits, and long-term value propositions to potential clients.",
+          "Managed B2B client acquisition for annual contracts worth ₹10–15 Lakhs based on business requirements.",
+          "Converted prospects into long-term clients through successful negotiation and contract closures.",
+          "Handled agreement signings for 1-year, 2-year, and 3-year service bonds with clients. Provided post-sales support and coordinated with internal teams for issue resolution and client satisfaction."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sales Executive / Customer Acquisition Executive",
+        "company": "Cityflo",
+        "location": null,
+        "start": "October 2025",
+        "end": "April 2026",
+        "method": "date_regex+title_dict",
+        "duration_months": 7,
+        "bullets": [
+          "Promoted and pitched premium bus transport services to potential customers across different locations.",
+          "Explained monthly travel packages, pricing plans, and service benefits to customers. Converted leads into active customers by offering attractive plans starting from ₹2500 to ₹4500 per month.",
+          "Provided promotional coupons, free rides, and special offers to encourage customer onboarding.",
+          "Maintained strong customer relationships and ensured high satisfaction for repeat subscriptions.",
+          "Worked closely with teams to improve customer retention and service adoption."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.8,
+      "total_months": 69,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Maharashtra Board",
+        "year": "2016",
+        "gpa": "52%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BSC.IT",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "MSG SGKM College art and science",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

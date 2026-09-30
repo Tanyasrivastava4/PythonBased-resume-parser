@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "source_file": "284436f2_0952edce_Priyanshu Mishra_WordPress Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:09.415561+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Priyanshu Mishra",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "priyanshu3316@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918802126780",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/priyanshu3316",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Priyanshu3316",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "github.io/react-portfolio",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Associate Frontend Developer with 2 years of hands-on experience in building performant, SEO-friendly websites for clients. Expertise in HTML5, CSS3, JavaScript (ES6+), Bootstrap, and WordPress.\nProven ability to drive results, including reducing bounce rate by 20% and improving page speed scores by 25% through dedicated UI/UX and asset optimization.",
+  "skills": {
+    "items": [
+      "Adaptability",
+      "Attention to Detail",
+      "Bootstrap",
+      "CSS3",
+      "Canva",
+      "Collaboration",
+      "Communication",
+      "ES6+",
+      "Figma",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "JavaScript",
+      "LinkedIn",
+      "Problem Solving",
+      "React",
+      "Responsive Web Design",
+      "SASS",
+      "SEO",
+      "Tailwind CSS",
+      "VS Code",
+      "Vercel",
+      "WordPress",
+      "jQuery"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Adaptability",
+        "Attention to Detail",
+        "Collaboration",
+        "Communication",
+        "Problem Solving"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "LinkedIn",
+        "React",
+        "Responsive Web Design",
+        "SASS",
+        "Tailwind CSS",
+        "jQuery"
+      ],
+      "design": [
+        "Canva",
+        "Figma"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "VS Code"
+      ],
+      "marketing": [
+        "SEO"
+      ],
+      "cloud_infra": [
+        "Vercel"
+      ],
+      "content": [
+        "WordPress"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Sass→SASS(100%), Github→GitHub(100%), Responsive Design→Responsive Web Design(100%), github.com→GitHub(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Frontend Developer, Technoiconic",
+        "company": null,
+        "location": "Developer, Technoiconic",
+        "start": "July 2024",
+        "end": "Dec 2025",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 18,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Web Designer Intern, Info Web Software",
+        "company": null,
+        "location": "Info Web Software",
+        "start": "Nov 2023",
+        "end": "June 2024",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 8,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.2,
+      "total_months": 26,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Indira Gandhi National Open University, Bachelor of Computer Applications\t",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indira Gandhi National Open University",
+        "year": "June 2023 - June 2026",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Kendriya Vidyalaya Sangathan, Senior Secondary (CBSE)\t",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "CBSE",
+        "institution": "Kendriya Vidyalaya Sangathan",
+        "year": "Apr 2010 - Apr 2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "source_file": "f9a326df_8dcf6e76_Milan Shivaji Mohite_Associate Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:51.297583+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Milan Shivaji Mohite",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "milan1406@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8779566967",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "I am looking forward for a job which would provide me competitive as well as professional environment\nthat would help me to flourish, hence achieving self as well as organizational goal.",
+  "skills": {
+    "items": [
+      "Calibration",
+      "Data Acquisition",
+      "Dissolution Testing",
+      "Mechanical Engineering",
+      "PID Controllers",
+      "Technical Support",
+      "Transmitters"
+    ],
+    "by_category": {
+      "engineering_hardware": [
+        "Calibration",
+        "Data Acquisition",
+        "PID Controllers",
+        "Transmitters"
+      ],
+      "instrumentation": [
+        "Dissolution Testing"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "support": [
+        "Technical Support"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Service Engineer in Labindia Analytical Instruments Pvt. Ltd",
+        "company": "Working Experience on ph & Conductivity Meter, Automatic Titrators, Tablet Hardness Tester, Tablet Dissolution Tester, Friability Tester, Tap Density Tester, Melting Point Apparatus, Leak Tester Apparatus. Working Experience on Muffle furnace, Microwave Digestion System, Microwave Synthesizer Microwave Peptide Synthesizer.",
+        "location": null,
+        "start": "September 2022",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 49,
+        "bullets": [
+          "Performed Installation Qualification and Operational Qualification.",
+          "Provide troubleshooting, diagnostic assessment and other technical support on Instruments.",
+          "Resolve technical service issue according to standard process and procedure..",
+          "Installation, Calibration, Maintains Instruments.",
+          "Give Technical knowledge and helping them to find out the suitable product to the machinery.",
+          "Giving Technical Support to Client."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Calibration Engineer in TOTAL CALIBRATION SERVICE",
+        "company": "Installation and Calibration Pressure Gauge, Compound Gauge, Vaccum Gauge.",
+        "location": null,
+        "start": "February 2016",
+        "end": "August 2019",
+        "method": "date_regex+title_dict",
+        "duration_months": 43,
+        "bullets": [
+          "Installation and Calibration Digital Temperature Controller, Digital Temperature Indicator,",
+          "Temperature Sensor, Thermometer, Temperature Gauge, Infrared Thermometer,"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Glass Thermometer. Graduate Trainee Engineer in CEAT TYRE CO",
+        "company": "Calibration of Electrical, Mechanical, Pressure Instruments.",
+        "location": null,
+        "start": "December 2014",
+        "end": "December 2015",
+        "method": "date_regex+title_dict",
+        "duration_months": 13,
+        "bullets": [
+          "Completing all tasks set by the supervisor and assisting wherever possible.",
+          "Understand the Production Process of Tyre Production."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.8,
+      "total_months": 105,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.79
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Bachelor of Engineering in INSTRUMENTATION from Mumbai University",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "INSTRUMENTATION from Mumbai University",
+        "institution": "Mumbai University (A C Patil College of Engineering",
+        "year": "2010",
+        "gpa": "56.40%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Diploma in INSRUMENTATION Mumbai board in 2010 with FIRST CLASS 74.56%",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "INSRUMENTATION Mumbai board in 2010 with FIRST CLASS 74.56%",
+        "institution": "INSRUMENTATION Mumbai board",
+        "year": "2010",
+        "gpa": "74.56%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• HSC from Mumbai board in 2006 with 60%",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Mumbai board",
+        "year": "2006",
+        "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• SSC from Mumbai board in 2004 with 56%",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Mumbai board",
+        "year": "2004",
+        "gpa": "56%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

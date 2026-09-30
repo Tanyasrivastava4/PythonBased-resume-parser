@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "source_file": "78c804e4_918f551c_Nikhil N. Boralkar_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:21.411312+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Nikhil N Boralkar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "nikhilnboralkar@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918698251008",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/nikbora9",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Data analyst with 4+ years of experience delivering data solutions that increased business\nperformance by 30%. Expert in developing interactive dashboards and building ETL workflows that reduced manual\nreporting time by 30%. Proven track record in translating complex datasets into actionable business insights using\nPower BI, SQL, Python, VBA and Azure Data Factory.",
+  "skills": {
+    "items": [
+      "DAX",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Modeling",
+      "Data Science",
+      "Data Visualization",
+      "ETL",
+      "Joins",
+      "LinkedIn",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Azure Data Factory",
+      "Microsoft Excel",
+      "Pandas",
+      "Pivot Tables",
+      "Power BI",
+      "Power Query",
+      "Python",
+      "Reporting",
+      "SQL",
+      "Statistical Analysis",
+      "Stored Procedures",
+      "Tableau",
+      "Time Series Forecasting",
+      "VBA"
+    ],
+    "by_category": {
+      "data_science": [
+        "DAX",
+        "Data Analysis",
+        "Data Modeling",
+        "Data Visualization",
+        "Power BI",
+        "Power Query",
+        "Statistical Analysis",
+        "Tableau"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "ETL"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Machine Learning",
+        "Matplotlib",
+        "Pandas",
+        "Time Series Forecasting"
+      ],
+      "database": [
+        "Joins",
+        "SQL",
+        "Stored Procedures"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "cloud_infra": [
+        "Microsoft Azure Data Factory"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Pivot Tables"
+      ],
+      "programming_language": [
+        "Python",
+        "VBA"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Data Modelling→Data Modeling(96%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "ata Analyst",
+        "company": "Tytan Tech",
+        "location": "D",
+        "start": "03/2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 19,
+        "bullets": [
+          "A data analytics and tech consulting company that provides BI, analytics, and data-driven solutions to businesses.",
+          "Developed interactive Power BI dashboards for financial and hedge fund analytics, tracking portfolio performance, investment exposure, and financial KPIs.",
+          "Designed data models (Star Schema) and built advanced DAX measures for KPI calculations, improving dashboard performance and analytical insights.",
+          "Built ETL pipelines using Azure Data Factory, SQL Server, and Power Query to integrate and transform data from multiple sources.",
+          "Applying SQL and Python to clean, transform, and analyse datasets for performance metrics.",
+          "Implemented Row-Level Security (RLS) and governance policies to ensure secure and role-based data access.",
+          "Designed and optimized Power BI dashboards for mobile and tablet view using responsive layouts and mobile-friendly visual configurations.",
+          "Delivered financial, insurance, and operational dashboards with drill-through analysis, dynamic filters, and KPI visuals for business stakeholders.",
+          "Automated manual reporting processes in Excel using VBA, improving efficiency and accuracy in weekly data refresh cycles.",
+          "Collaborated with stakeholders to gather requirements, perform data validation, and deliver data-driven insights for strategic decision-making.",
+          "Developed and maintained interactive Power BI and Tableau dashboards for market, recruitment, insurance, and financial performance reporting.",
+          "Designed and developed user-friendly Power BI dashboards by translating Figma and Canva prototypes into interactive reporting solutions with modern UI/UX design standards."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate (Short-term project",
+        "company": "Acuity KP",
+        "location": null,
+        "start": "11/2024",
+        "end": "03/2025",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 5,
+        "bullets": [
+          "A company focused on delivering credit reporting and finance dashboard development",
+          "Supported development and maintenance of Power BI dashboards for financial reporting and credit bureau analytics, analysing Bloomberg market data and financial KPIs.",
+          "Extracted and transformed financial datasets using SQL Server (SSMS), Power Query, and APIs, ensuring accurate data integration and reporting.",
+          "Built DAX measures, calculated columns, and KPI visuals for credit risk, portfolio exposure, and financial performance analysis.",
+          "Performed data validation and reconciliation using Python (Pandas) and SQL to ensure consistency between source systems and BI reports.",
+          "Assisted in data modelling, dataset refresh optimization, and ad-hoc financial reporting for business stakeholders."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "BI Developer",
+        "company": "Insource Software",
+        "location": "BI Developer  Pune",
+        "start": "11/2021",
+        "end": "10/2024",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 36,
+        "bullets": [
+          "A technology company specializing in data-driven solution and reporting analytics",
+          "Collected, cleaned, and analysed large datasets using Python-pandas and NumPy to derive actionable business insights.",
+          "Developed interactive dashboards in Power BI to track portfolio performance, cost analysis, and broker interactions, improving data visibility for hedge fund portfolio managers.",
+          "Automated data transformation and reporting using Power Query and Python, reducing manual effort by 30% and increasing reporting accuracy.",
+          "Performed internal vs. external data comparison analysis to assess portfolio performance against market trends.",
+          "Coordinated with U.S.-based clients, attending late-night meetings to align analytical insights with their business needs.",
+          "Extracted and analysed coverage information from top brokers, creating detailed quarterly reports to support financial decision-making."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.9,
+      "total_months": 59,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA – Finance – Deogiri Institute of Engineering and management studies 07/2017 – 08/2019 Aurangabad",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Finance – Deogiri Institute of Engineering and management studies 07/2017 – 08/2019 Aurangabad",
+        "institution": "Deogiri Institute of Engineering and management studies",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.com – Banking and finance – Deogiri commerce and science College 06/2013 – 05/2016 Aurangabad",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "Banking and finance – Deogiri commerce and science College 06/2013 – 05/2016 Aurangabad",
+        "institution": "Deogiri commerce and science College",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "PL-300 Microsoft Power BI Data Analyst Associate – Microsoft – May",
+        "issuer": "Microsoft",
+        "year": "2025",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Data Science and Machine Learning using R and Python – IIM Raipur – Dec",
+        "issuer": null,
+        "year": "2020",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Data Analysis with MS Power BI – Nulearn – Mar",
+        "issuer": null,
+        "year": "2021",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Mahindra Master Class Training – Jun",
+        "issuer": null,
+        "year": "2019",
+        "confidence": 0.75,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

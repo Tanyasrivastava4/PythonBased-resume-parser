@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "source_file": "5fd4e485_8b41541a_harish_kumawat_CV_segmented.txt",
+    "generated_at": "2026-09-30T06:58:48.265478+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Harish Kumawat",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "harish020201@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "6357772088",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "wikipedia.org/wiki/JECRC_University",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Data Scientist with 5 years of experience designing and deploying data-driven\nsolutions to enhance business decision-making and operational efficiency.\nStrong expertise in machine learning, deep learning, generative AI, and advanced\nanalytics, with hands-on experience building scalable models and end-to-end AI\nsystems.\nProven ability to transform complex datasets into actionable insights through\npredictive modeling, NLP solutions, and AI-powered applications.\nExperienced in developing and optimizing data pipelines, feature engineering, and\nmodel evaluation to improve performance and accuracy.\nHands-on experience with Generative AI, LLMs, and Agentic AI frameworks to\nsolve real-world problems and enable intelligent automation.\nSkilled in translating business problems into data science solutions, delivering\nmeasurable impact and driving strategic outcomes.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Agentic AI",
+      "Chroma",
+      "Classification Web",
+      "Customer Experience",
+      "Data Pipeline",
+      "Data Science",
+      "Deep Learning",
+      "Docker",
+      "FAISS",
+      "FastAPI",
+      "Feature Engineering",
+      "GPT",
+      "Generative AI",
+      "LLM",
+      "LLaMA",
+      "LangChain",
+      "Machine Learning",
+      "Microsoft Teams",
+      "NLP",
+      "NumPy",
+      "Operations Management",
+      "Pandas",
+      "Pinecone",
+      "Python",
+      "RAG",
+      "SHAP",
+      "Turnaround Time",
+      "Vector Databases",
+      "Weaviate",
+      "XGBoost",
+      "jQuery",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Generative AI",
+        "LLM",
+        "LLaMA",
+        "LangChain",
+        "RAG",
+        "Vector Databases"
+      ],
+      "ai_ml": [
+        "Chroma",
+        "Data Science",
+        "Deep Learning",
+        "GPT",
+        "Machine Learning",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "SHAP",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "search": [
+        "Classification Web",
+        "FAISS",
+        "Pinecone",
+        "Weaviate"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
+      ],
+      "data_engineering": [
+        "Data Pipeline"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "web_framework": [
+        "FastAPI",
+        "jQuery"
+      ],
+      "data_science": [
+        "Feature Engineering"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "management": [
+        "Turnaround Time"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(GEN-AI→Generative AI(91%), query→jQuery(91%), classification→Classification Web(95%), teams.→Microsoft Teams(91%), Scikit-learn→scikit-learn(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Data Scientist",
+        "company": "HCL Technologies",
+        "location": null,
+        "start": "2021",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 69,
+        "bullets": [
+          "Data Scientist with 5 years of experience building machine learning, deep learning, and generative AI solutions to drive business insights and operational efficiency.",
+          "Experienced in developing scalable pipelines, predictive models, and AI-powered applications in enterprise environments."
+        ],
+        "sub_sections": [
+          "KEY RESPONSIBILITIES",
+          "Developed and deployed machine learning",
+          "models (classification, regression, clustering) to",
+          "solve business problems and improve decision-",
+          "making.",
+          "Performed EDA, data preprocessing, and feature",
+          "engineering on large structured and semi-",
+          "structured datasets.",
+          "Built end-to-end ML pipelines using Python and",
+          "SQL, covering data ingestion, model training, and",
+          "deployment.",
+          "Implemented deep learning, NLP, and Generative",
+          "AI solutions for automation, document",
+          "processing, and knowledge retrieval.",
+          "Explored Agentic AI workflows to enable multi-",
+          "step task automation.",
+          "Collaborated with cross-functional teams to",
+          "deliver scalable data-driven solutions.",
+          "TECHNICAL STACK",
+          "Programming Languages",
+          "Strong command of Python and SQL for data processing, querying, and building scalable",
+          "data systems.",
+          "Adept at writing optimized, production-grade code and managing high-volume datasets.",
+          "Machine Learning & Deep Learning",
+          "Hands-on experience in machine learning and deep learning using Scikit-learn and TensorFlow.",
+          "Applied techniques including classification, regression, clustering, along with feature",
+          "engineering, model validation, and hyperparameter optimization.",
+          "LLM Engineering & Generative AI",
+          "Practical experience working with LLMs, prompt design, and RAG-based architectures.",
+          "Skilled in using LangChain, along with OpenAI APIs and HuggingFace Transformers, to",
+          "develop intelligent AI applications.",
+          "Familiar with context handling and retrieval optimization for improving model responses.",
+          "Agentic AI Systems",
+          "Experience building agent-based systems with multi-agent coordination and autonomous",
+          "workflows.",
+          "Proficient in task orchestration, tool integration, and step-wise automation for complex",
+          "problem- solving.",
+          "Reduced information retrieval time by 60–70%",
+          "Improved decision-making with accurate contextual answers",
+          "Enabled self-service knowledge access across teams",
+          "PROJECT 3: NLP & MACHINE LEARNING – CUSTOMER SUPPORT",
+          "AUTOMATION SYSTEM"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.8,
+      "total_months": 69,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

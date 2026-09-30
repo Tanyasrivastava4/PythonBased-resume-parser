@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "source_file": "a469011a_3bbae430_Revashankar Kaushik_Full Stack Web Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:55.323061+00:00",
+    "sections_found": [
+      "certifications",
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Revashankar Kaushik",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "reva.silicon@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919425984395",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Seeking a challenging role where I can leverage my expertise in cloud technologies, and development of\nscalable application architecture to deliver high-quality, business-driven solutions.\nProfessional Summary\nSeasoned senior Software Engineer with 12+ years of experience in designing and delivering scalable web\nand mobile applications. Strong expertise in Flutter, Dart, Java (Spring Boot), Node.js, REST APIs, React,\nMySQL, and AWS, with a proven ability to build high-performance platforms, optimize systems, and mentor\nteams.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "AWS S3",
+      "Bloc",
+      "Bootstrap",
+      "CI/CD",
+      "CSS3",
+      "Cross-Platform Development",
+      "Dart",
+      "DevOps",
+      "Express.js",
+      "Firebase",
+      "Flutter",
+      "Git",
+      "HTML5",
+      "Java",
+      "JavaScript",
+      "LLM",
+      "MSSQL",
+      "MVVM",
+      "Microsoft Teams",
+      "MySQL",
+      "Node.js",
+      "REST API",
+      "React",
+      "React Native",
+      "Spring Boot",
+      "State Management"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS S3"
+      ],
+      "mobile": [
+        "Bloc",
+        "Cross-Platform Development",
+        "Flutter",
+        "React Native"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "Express.js",
+        "HTML5",
+        "Node.js",
+        "REST API",
+        "React",
+        "Spring Boot"
+      ],
+      "devops": [
+        "CI/CD",
+        "DevOps"
+      ],
+      "programming_language": [
+        "Dart",
+        "Java",
+        "JavaScript"
+      ],
+      "database": [
+        "Firebase",
+        "MSSQL",
+        "MySQL"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "genai": [
+        "LLM"
+      ],
+      "architecture": [
+        "MVVM",
+        "State Management"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS SQL→MSSQL(100%), REST APIs→REST API(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "EntSol360",
+        "location": "Senior Software Engineer",
+        "start": "Feb 2020",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 80,
+        "bullets": [
+          "⚫ Developing and maintaining scalable web and mobile applications using Node.js, Java (Spring Boot),"
+        ],
+        "sub_sections": [
+          "MySQL, React.js, React-Native, and Flutter",
+          "⚫ Designing RESTful APIs and backend services with a focus on performance and security",
+          "⚫ Working with AWS cloud infrastructure for deployment and maintenance",
+          "⚫ Taking end-to-end ownership of features and troubleshooting critical production issues for high-",
+          "scale applications."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "⚫ Collaborating with cross-functional teams to deliver production-ready solutions Webvillee Technology Pvt. Ltd",
+        "location": "Indore",
+        "start": "Oct 2014",
+        "end": "Feb 2020",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 65,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": ", Indore — Software Developer",
+        "company": "⚫ Ensured timely delivery and adherence to coding standards Silicon Tech",
+        "location": "Indore",
+        "start": "June2013",
+        "end": "Oct 2014",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 17,
+        "bullets": [
+          "⚫ Worked on web development and mobile application projects ⚫ Contributed to backend logic, UI development, and API integration"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 13.3,
+      "total_months": 160,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.74
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Computer Applications (MCA)",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "MCA ACROPOLIS INSTITUTE OF TECHNOLOGY AND RESEARCH Indore (RGPV",
+        "year": "2010 - 2013",
+        "gpa": "7.8",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "BCA Shri Cloth Market Institute of Professional Studies",
+        "year": "2007 - 2010",
+        "gpa": "63.2%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HSC: 65.2% | MP Board |",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "65.2%",
+        "institution": "MP Board",
+        "year": "2004 - 2005",
+        "gpa": "65.2%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "⚫ Microsoft Technology Associate (98-364): Database Administration Fundamentals",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.74,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

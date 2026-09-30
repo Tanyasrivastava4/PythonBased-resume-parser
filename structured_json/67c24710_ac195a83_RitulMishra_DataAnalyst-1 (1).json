@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "source_file": "67c24710_ac195a83_RitulMishra_DataAnalyst-1 (1)_segmented.txt",
+    "generated_at": "2026-09-30T06:59:04.848118+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ritul Mishra",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ritulmishra24@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918447803014",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ritul-mishra24",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "live.net/55FE3BAC310B37A3/Desktop/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Data Analyst with 2+ years of experience transforming complex business data into actionable insights using\nPower BI, advanced Excel, and SQL. Proven track record of designing interactive dashboards, automating\nreports, and driving data-informed decisions across business functions. Delivered performance monitoring\ntools that improved reporting efficiency by 40% and reduced manual data work by 50%. Certified in data\nanalytics and visualization, with strong skills in KPI tracking, data modeling, and stakeholder communication.\nDetail-oriented, fast learner, and confident working in cross-functional teams within Agile environments.",
+  "skills": {
+    "items": [
+      ".NET",
+      "Adaptability",
+      "Aggregations",
+      "Agile",
+      "Attention to Detail",
+      "Budget Tracking",
+      "Client Reporting",
+      "Communication",
+      "Cross-functional Collaboration",
+      "DAX",
+      "Data Analytics",
+      "Data Cleaning",
+      "Data Modeling",
+      "Data Visualization",
+      "Google",
+      "Google Workspace",
+      "Joins",
+      "KPI",
+      "LinkedIn",
+      "Looker",
+      "MIS Reporting",
+      "Mac OS",
+      "Marketing Analytics",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "MySQL",
+      "Performance Monitoring",
+      "Pivot Tables",
+      "Power BI",
+      "Problem Solving",
+      "Reporting",
+      "SQL",
+      "Subqueries",
+      "Tableau",
+      "Time Management",
+      "Trend Forecasting"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "soft_skill": [
+        "Adaptability",
+        "Attention to Detail",
+        "Communication",
+        "Cross-functional Collaboration",
+        "Problem Solving",
+        "Reporting",
+        "Time Management"
+      ],
+      "database": [
+        "Aggregations",
+        "Google",
+        "Joins",
+        "MySQL",
+        "SQL",
+        "Subqueries"
+      ],
+      "project_mgmt": [
+        "Agile"
+      ],
+      "finance_ops": [
+        "Budget Tracking"
+      ],
+      "content": [
+        "Client Reporting"
+      ],
+      "data_science": [
+        "DAX",
+        "Data Analytics",
+        "Data Modeling",
+        "Data Visualization",
+        "Looker",
+        "Power BI",
+        "Tableau",
+        "Trend Forecasting"
+      ],
+      "data_engineering": [
+        "Data Cleaning"
+      ],
+      "productivity": [
+        "Google Workspace",
+        "Microsoft Excel",
+        "Microsoft Teams",
+        "Pivot Tables"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "os": [
+        "Mac OS"
+      ],
+      "marketing": [
+        "Marketing Analytics"
+      ],
+      "operations": [
+        "Performance Monitoring"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Macros→Mac OS(91%), Google Sheets→Google Workspace(100%), MIS Automation→MIS Reporting(100%), Campaign Analysis→Marketing Analytics(91%), Trend Forecasting.→Trend Forecasting(97%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "ata Analyst",
+        "company": "All India Achievers' Conference",
+        "location": "D",
+        "start": "June 2023",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 40,
+        "bullets": [
+          "Worked as part of the analytics and reporting team, delivering data-driven solutions for internal stakeholders and business clients. Focused on performance tracking, dashboard automation, and actionable reporting using Power BI, Excel, and SQL.",
+          "Built Power BI dashboards to track KPIs, sales trends, regional performance, and participation funnels from contact → payment → event attendance.",
+          "Automated Excel reports and templates, cutting manual workload by 40% and improving accuracy.",
+          "Cleaned, transformed, and modeled datasets using SQL and Power Query for timely, actionable insights.",
+          "Analysed campaign performance (open, response, conversion rates) to identify best-performing times, templates, industries, and regions.",
+          "Developed an Excel-based lead scoring model for 25,000+ prospects using company size, industry, and award history.",
+          "Created forecasting models based on outreach trends and conversion history, guiding quarterly sales targets.",
+          "Improved CRM accuracy by eliminating duplicates, bounces, and outdated contacts.",
+          "Collaborated with stakeholders in Agile sprints to define KPIs and deliver reporting milestones."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.3,
+      "total_months": 40,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Commerce (M.Com)",
+        "degree_name": "M.Com",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Mangalayatan University, Aligarh",
+        "year": "Aug 2022 - June 2024",
+        "gpa": "8 / 10",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Google Data Analytics Professional Certificate",
+        "issuer": "Coursera",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Data Visualization with Power BI",
+        "issuer": "Great Learning",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Excel for Data Analytics – Simplilearn SkillUp",
+        "issuer": "Simplilearn",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Fundamentals of Data Analytics",
+        "issuer": "Great Learning",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://d.docs.live.net/55FE3BAC310B37A3/Desktop/linkedin.com/in/himanshumishra1113",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.73
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.73,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

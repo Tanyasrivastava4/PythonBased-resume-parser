@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "source_file": "eeda92b2_Anandu Chandran_Area Credit Manager_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:43.093379+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anandu Chandran",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "nandu127@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8943637073",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To be part of a challenging team for the growth of company by utilizing my personal\nskills, this will exploit my abilities to the maximum while providing me wide\nexposure, sufficient responsibilities and independence of thought and opportunity\nto learn.",
+  "skills": {
+    "items": [
+      "CIBIL",
+      "KYC",
+      "Mechanical Engineering",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Pandas",
+      "Personal Loan",
+      "Quality Control",
+      "RBI"
+    ],
+    "by_category": {
+      "finance": [
+        "CIBIL",
+        "Personal Loan"
+      ],
+      "legal": [
+        "KYC"
+      ],
+      "engineering": [
+        "Mechanical Engineering",
+        "Quality Control"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Word"
+      ],
+      "ai_ml": [
+        "Pandas"
+      ],
+      "domain": [
+        "RBI"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Proof verification",
+        "location": null,
+        "start": "October 05 2020",
+        "end": "June 01 2021",
+        "method": "date_regex",
+        "duration_months": 8,
+        "bullets": [
+          "Proof verification, Customer Point verification, Cibil and financial tracks checking.)"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Working as Credit Manager -Centralized Credit at Bajaj Finserv Ltd from",
+        "company": null,
+        "location": "",
+        "start": "October 25 2021",
+        "end": "September 14 2023",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 23,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Ø SUPPORT TO SALES & BRANCHES THROUG OUT KERALA",
+        "company": "DAILY WORK SCHEDULE",
+        "location": null,
+        "start": "September 18 2023",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 37,
+        "bullets": [
+          "Ø CREDIT UNDERWRITING. Ø WHOLE PROCESS OF PERSONAL LOAN , PROFESSIONAL LOAN"
+        ],
+        "sub_sections": [
+          "AND BUSINESS LOAN APPROVAL",
+          "Ø KYC QC VERIFICTION AND PROCESSING AS PER RBI GUIDELINES",
+          "AND COMPANY POLICY .",
+          "Ø PHYSICAL PD.",
+          "Ø SUPPORT TO SALES & BRANCHES THROUG OUT KERALA.",
+          "Ø REGULAR MAIL INTERACTION& BACKEND SUPPORT .",
+          "Ø TEAM LEADING.",
+          "Ø PERSONAL AND PROFESSIONAL CREDIBILITY ."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.7,
+      "total_months": 68,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "M.COM Madurai kamaraj V.V.M College",
+        "degree_name": "M.Com",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Madurai kamaraj V.V.M College Kottarakara",
+        "year": null,
+        "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.COM Kerala university St.Stephens College",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Kerala University St.Stephens College",
+        "year": null,
+        "gpa": "53.5%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Plus Two Kerala Higher Govt.HSS Punalur",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Board",
+        "year": null,
+        "gpa": "79%",
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "Secondary Board",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Board",
+        "year": null,
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "S.S.L.C Kerala State",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Board",
+        "year": null,
+        "gpa": "85%",
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.69
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.69,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

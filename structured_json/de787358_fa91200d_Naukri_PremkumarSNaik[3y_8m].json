@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "source_file": "de787358_fa91200d_Naukri_PremkumarSNaik[3y_8m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:32.457618+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prem Naik",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "premnaik0599@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918747923587",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/premkumar-naik",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Adobe Analytics",
+      "Apache Hadoop",
+      "Apache Hive",
+      "MS Office",
+      "Machine Learning",
+      "Power BI",
+      "PySpark",
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "by_category": {
+      "data_science": [
+        "Adobe Analytics",
+        "Power BI",
+        "Tableau"
+      ],
+      "data_engineering": [
+        "Apache Hadoop",
+        "Apache Hive"
+      ],
+      "productivity": [
+        "MS Office"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ],
+      "database": [
+        "PySpark",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Hive→Apache Hive(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Data Analyst | US Consumer Marketing",
+        "company": "AMERICAN EXPRESS",
+        "location": null,
+        "start": "Apr’25",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 18,
+        "bullets": [
+          "supporting 870M+ marketing investment, translating performance trends into budgeting decisions."
+        ],
+        "sub_sections": [
+          "§ Evaluated post-offer",
+          "spend behaviour to measure incremental ROI and long-term LTV impact across products and channels.",
+          "§ Built cohort frameworks",
+          "to assess acquisition quality, early spend velocity, and retention trends across customer segments.",
+          "§ Designed incrementality",
+          "and test-and-learn analyses to optimize channel allocation and offer efficiency.",
+          "DATA PLATFORMS &",
+          "DECISION SYSTEMS",
+          "§ Built scalable growth",
+          "reporting infrastructure standardizing acquisition KPIs across teams.",
+          "§ Migrated legacy Python",
+          "ETL to GCP BigQuery, reducing inefficiencies, manual coding, and latency from 6 hours to 5 minutes.",
+          "§ Automated GCP-to-PowerBI",
+          "pipelines enabling near real-time performance reporting & standardized KPI tracking across teams.",
+          "§ Implemented monitoring",
+          "frameworks & metric governance standards to detect acquisition anomalies & improve accuracy."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Analyst | Enterprise Digital and Data Solutions (EDDS",
+        "company": "AMERICAN EXPRESS",
+        "location": "Digital Product",
+        "start": "July’22",
+        "end": "Mar’25",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 33,
+        "bullets": [
+          "of the Quarter for executing search-driven growth strategies, increased acquisition traffic by 12%."
+        ],
+        "sub_sections": [
+          "GROWTH & ACQUISITION",
+          "ANALYTICS",
+          "§ Uncovered 12M+ business",
+          "opportunity via conversion funnel analysis on prospect-driven article pages; managed deployment",
+          "with Tech and Market",
+          "teams to deploy targeted banners, resulting in 2x projected acquisition growth after launch.",
+          "§ Systematized analytics",
+          "engine for 300K+ keyword portfolio, reducing manual effort by 95% and enabling algorithmic bidding",
+          "strategies that unlocked",
+          "100M+ revenue.",
+          "§ Executed A/B test by",
+          "pausing paid search for 'Cobalt' credit card queries to track paid search traffic shift to natural search.",
+          "§ Investigated JP Priority",
+          "Pass page post-optimization performance, delivering search insights that improved page ranking by 40%.",
+          "SEARCH, ATTRIBUTION",
+          "& PERFORMANCE PLATFORMS",
+          "§ Co-Created an SEO",
+          "performance tracker with 15+ metrics across 50K+ Amex web pages, enabling real-time page monitoring.",
+          "§ Engineered traffic classification",
+          "logic to track 100M+ visits across marketing channels, enhancing spend and marketing strategy.",
+          "§ Developed performance",
+          "forecasting model integrating financial data; benchmarked through ARIMA & time series techniques.",
+          "§ Presented 50M+ business",
+          "search opportunities through data and delivered 40+ ad hoc analyses to drive traffic and acquisition."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "SILVERNOX TECH VENTURES",
+        "location": "Data Science",
+        "start": "May’20",
+        "end": "Jun’20",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 2,
+        "bullets": [
+          "from the founder & CEO; Research Lab for AI/Deep Tech applications in insurance claims."
+        ],
+        "sub_sections": [
+          "§ Annotated 4.5K+ car",
+          "damage images across 10+ categories, training an ML model for automated insurance claim review.",
+          "§ Boosted ML model",
+          "accuracy by 17%, enabling mechanized damage analysis & 21% reduction in claim assessment costs."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "PHYSICS-INFORMED NEURAL § Constructed a physics-informed NETWORKS FOR MULTIPHASE HEAT TRANSFER",
+        "location": "Master’s Thesis-IIT Bombay",
+        "start": "May’21",
+        "end": "Jun’22",
+        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "duration_months": 14,
+        "bullets": [
+          "neural network model in Python (TensorFlow, Scikit-Learn) to simulate and predict complex heat transfer patterns, improving computational efficiency and accuracy over traditional methods."
+        ],
+        "sub_sections": [
+          "§ Enhanced the model",
+          "to handle phase transitions & enable faster and more reliable scenario testing for industrial problems."
+        ],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "§ Institute Athletics Secretary, IIT Bombay  – Led a 22-member council, managed an INR 1.5M+ budget",
+        "location": "and",
+        "start": "Apr’20",
+        "end": "Apr’21",
+        "method": "date_regex+comma_company_location+inherited_role",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "§ Department Student Mentor  - Guided 8 students with academic and professional decisions; helped an",
+        "location": null,
+        "start": "May'20",
+        "end": "Apr'21",
+        "method": "date_regex+inherited_role",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [
+          "EXTRACURRICULARS",
+          "§ Recipient",
+          "of KVPY Fellowship (AIR 12, Govt. of India) – Ranked top 0.1% of 200K+ national research scholars.",
+          "Accolades § Institute",
+          "Sports Color (for excellence in track and field Kho-Kho and leadership).",
+          "§ Back-to-back",
+          "gold medalist in Kho-Kho as Team Captain at Udghosh (IIT Kanpur Sports Fest).",
+          "Sports",
+          "§ 4th",
+          "place in Inter IIT 4x400m relay running event; completed the IITB Half Marathon on first attempt.",
+          "Social § Taught",
+          "30+ underprivileged children; designed shelters for salt-pan workers; volunteered for COVID-19 relief."
+        ],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.5,
+      "total_months": 78,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.77
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

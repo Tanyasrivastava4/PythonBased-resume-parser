@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "source_file": "66c50b79_9625abb7_Naukri_SAGARV.NAGARKAR[5y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T06:59:03.934236+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sagar8712@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9503716260",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Ladder Logic",
+      "PLC",
+      "SCADA",
+      "SOP",
+      "Transformer",
+      "WHONET"
+    ],
+    "by_category": {
+      "dev_tool": [
+        "Ladder Logic"
+      ],
+      "engineering_hardware": [
+        "PLC",
+        "SCADA"
+      ],
+      "operations": [
+        "SOP"
+      ],
+      "ai_ml": [
+        "Transformer"
+      ],
+      "database": [
+        "WHONET"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Honest→WHONET(83%), PLC programming→PLC(100%), ladder logic→Ladder Logic(100%), SCADA.→SCADA(91%), Siemens PLC→PLC(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "SAI VIGHNESH ELECTRICALS (ENGINEER) Date",
+        "company": "SAI VIGHNESH ELECTRICALS  Date",
+        "location": null,
+        "start": "January 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 21,
+        "bullets": [
+          "Project Site : TATA POWER PSP (TATA Project JV HCC) 1000MW",
+          "Installation and commissioning of 3300 Kv sub station for client.",
+          "HT LT control Cable laying, Material management, Coupling of all bus bar, termination of HT LT Cable, Jointing of HT Cable, tray, looping Earth pit, SLD. Hi pot test 18kw,22kw , CRM Test, megger test, relay testing.",
+          "Testing equipment & operation, Breaker testing, Fault analysis,",
+          "VCB Installation, DG Installing and termination, Charging of APFC, COP Panels. Transformer assembly, Testing of transformer. Megger, CRM Test Magnetic flux, no load loss, sound, current leakage test, voltage ratio, Load interlock test. Clear Documentation, Site management, safety.",
+          "Project Site : DIGHI PUNE DATA CENTRE",
+          "HT, LT, control Cable laying, Material management, Coupling of all bus bar, termination of HT LT Cable, Jointing of HT Cable, Earth pit, SLD. tray, looping . Coordinated with various vendors and companies.",
+          "OVERALL EXPERIENCE",
+          "Testing equipment & operation, Clear Documentation, Site management, safety .",
+          "Supervised Installation of EV charging station in accordance with local utility std...",
+          "Involved in installation, testing & commissioning of HT and LT breakers and switchgear. Conducted site surveys, prepared single line diagram, ensure safety of employee.",
+          "Solar Panel installation, Commissioning Of Solar On and Off Grid, Roof Top, Ground Mounted solar, EV Charging, Commissioning Of Ev Station AC DC (TATA POWER), Households Ev Charger.",
+          "Conducting Preventive maintenance, Coordinating With Clients, Vendors, Internal teams, Project execution"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "MATHERAN MUNICIPAL COUNCIL (City Coordinator) Date",
+        "company": "MATHERAN MUNICIPAL COUNCIL  Date",
+        "location": null,
+        "start": "July 2019",
+        "end": "March 2020",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 9,
+        "bullets": [
+          "Contract, Procurement, DPR, General administration & Community relation.",
+          "Working on12.5 KW DG which is operated on Bio gas, Protection of 11KV Feeder to 230V line.",
+          "O&M under EESL Company, Working on Solar panel installed at Matheran.",
+          "Maintenance of street lights, Automation of street lights using LDR.",
+          "Handling 20 person in a day and completing given task.",
+          "Transformer repairing, Installing, charging.",
+          "Data entry, Data collection, Implementation"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "TATA POWER & STEEL 134 MW CP Plant (O & M Engineer) Date",
+        "company": "TATA POWER & STEEL 134 MW CP Plant  Date",
+        "location": null,
+        "start": "2018",
+        "end": "2019",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 13,
+        "bullets": [
+          "Enhancement for Plant start up, Performance, Electrical, Isolations & safety, Cost Management, SOP, FMEA",
+          "Responsible for creating, improving & developing plant performance. Worked on Waste Heat recovery boiler.",
+          "5 S & Worked on Mobile Application \"LUBE OIL CELL DIGITALISATION\" .Worked on Cooling towers operation.",
+          "Maintenance of Vacuum breakers ABB,HT Megger test, Contract Timing test, Contact Resistance measurement",
+          "Maintenance of 415 V breakers, Transformer routine test, GIS instrument checking, Interlocks and permissive.",
+          "Knowledge of the plant in operation as well as maintenance department. OT,CT,VT relay testing.",
+          "Maintenance in all plant regarding instruments and electrical equipment."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "TATA POWER 4150 MW Thermal Power Plant (O & M Trainee) Date",
+        "company": "TATA POWER 4150 MW Thermal Power Plant  Date",
+        "location": null,
+        "start": "2016",
+        "end": "2018",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 25,
+        "bullets": [
+          "Maintain 5 S. Working in Different area in pant such as BOP, Lubrication, Electrical and Turbine, Boiler (Corner fired)",
+          "Calibration of all types of transmitters (LT, FT, TT) Gauges, switches, CV. 440 KV Switchyard, HT & LT breakers.",
+          "Thermal Power plant, Automobile Industry & Maintenance Department.",
+          "Interested in Automation & Telecommunication Industry.",
+          "Interested in Steel, Power, Mining, Green energy & Sustainability",
+          "Maintenance of Flame Scanner, Spark Igniter, O2, CO, SOx, NOx, Dust analyzers.AC DC Motors,",
+          "Handled Calibration device like HART (GE), DPI 620, DV 623, Deadweight tester.",
+          "During Plant shut Down Worked On Allen Bradley & Siemens PLC & DCS",
+          "Maintenance of Vacuum breakers ABB,HT Megger test, Contract Timing test, Contact Resistance measurement.",
+          "Transformer routine test, GIS instrument checking, Interlocks and permissive.",
+          "Maintenance in all plant regarding instruments and electrical equipment."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.6,
+      "total_months": 67,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• -- Diploma Engineer, University Of Mumbai",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": null,
+        "institution": "Engineer, University Of Mumbai.",
+        "year": "2008 - 2011",
+        "gpa": "80.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• 2008--S.S.C.- Maharashtra State Board",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Maharashtra State Board",
+        "year": "2008",
+        "gpa": "86.15%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "PLC programming, ladder logic, Automation, DCS, SCADA.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Looping and Tuning workshop & PLC training on Allen Bradley & Siemens PLC & DCS at CGPL.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Workshop on “Level one Robotics” in based on remote control wired car.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Have the certificate of participation & professional membership in IEEE.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Extra curricular Activity",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Winner: Volleyball College – Level Competitions.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Won Prize in Paper Presentation, Zonal level Athletic Event.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Won Prize in Inter college Cricket competition.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "DECLARATION : I do hereby declare that the above information is true to the best of my knowledge.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Place",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Date",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Got selected in Tata Power Distribution at Orissa, Appeared for Mains Examination of PCS.",
+      "Appreciation Certificate By TATA Power,CGPL,IEL Kalinganagr",
+      "Emergency plant handling on field During Fanni cyclone at Orrisa.",
+      "Won 10 cr price money from government of India for Matheran City.",
+      "During Unit 1 & 2 Emergency took proper decision and Save Plant.",
+      "Draw Fire line diagram of Tata Power Kalinganagar Plant for Emergency.",
+      "Make Matheran City 3 Star in SLB,",
+      "All India Industrial Drawing Competition. Rank 1st."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

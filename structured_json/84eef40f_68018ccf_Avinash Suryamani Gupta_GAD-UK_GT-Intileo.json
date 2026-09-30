@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "source_file": "84eef40f_68018ccf_Avinash Suryamani Gupta_GAD-UK_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:30.686021+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Avinash Suryamani Gupta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "guptaavinash1470@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918433959630 / 2026344",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-avinash-gupta-41411b21b",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with experience in statutory audit, financial due diligence, financial reporting and internal controls across\nlogistics, fintech and energy sectors. Skilled in financial statement analysis, audit procedures, management reporting and risk\nassessment, with exposure to large enterprises including a ₹900+ Cr turnover company and a ₹500+ Cr listed entity.",
+  "skills": {
+    "items": [
+      "ClearEDGE",
+      "Due Diligence",
+      "Financial Modelling",
+      "Financial Reporting",
+      "Financial Statement Analysis",
+      "Fintech",
+      "Internal Controls Testing",
+      "LinkedIn",
+      "Logistics",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "Risk Assessment",
+      "Statutory Audit",
+      "Tally"
+    ],
+    "by_category": {
+      "database": [
+        "ClearEDGE"
+      ],
+      "finance": [
+        "Due Diligence",
+        "Financial Modelling",
+        "Financial Statement Analysis"
+      ],
+      "finance_ops": [
+        "Financial Reporting",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Tally"
+      ],
+      "domain": [
+        "Fintech"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "operations": [
+        "Logistics"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Cleared→ClearEDGE(88%), Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%), logistics→Logistics(100%), fintech→Fintech(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant",
+        "company": "V. R. SABNIS AND ASSOCIATES",
+        "location": "Articled",
+        "start": "Feb 2023",
+        "end": "Feb 2026",
+        "method": "date_regex+comma_company_role_split",
+        "duration_months": 37,
+        "bullets": [
+          "Audit & Risk Advisory (A) Statutory & Tax Audit – Logistics and Customs House Agency Sector",
+          "Led statutory and tax audits for 10+ companies, including a ₹225+ Cr logistics entity and a listed company subsidiary, reviewing key balance sheet accounts for reporting accuracy.",
+          "Identified ₹1+ Cr expense misclassification through ledger scrutiny, improving financial reporting accuracy.",
+          "Evaluated CARO 2020 compliance across Key areas including fixed assets, inventory, statutory dues and loan transactions. (B) Internal Audit – Energy Sector (CSR Programme)",
+          "Performed internal audit of CSR programme for a leading energy company (₹4,000+ Cr turnover), reviewing grant agreements, procurement processes and project expenditure to assess compliance with CSR policies.",
+          "Evaluated financial controls over CSR fund utilisation, recommending improvements to strengthen governance & transparency. (C) Risk Control Matrix (RCM) Implementation – Logistics Sector",
+          "Developed a Risk Control Matrix (RCM) for a logistics company (₹225+ Cr turnover), mapping risks across 12 key business processes including revenue, procurement, inventory, fixed assets and statutory compliance.",
+          "Designed & documented 150+ control points to strengthen internal financial control monitoring and mitigate process-level risks.",
+          "Deal Advisory & Transaction Support (A) Financial Due Diligence - Acquisition (Cold Storage Sector - ₹900+ Cr Turnover)",
+          "Conducted financial due diligence of a ₹900+ Cr turnover cold storage company for a proposed acquisition, identifying unrealistic PAT projections from ₹2 Cr to ~₹40 Cr (~1900%) within a year, while reviewing valuation assumptions.",
+          "Performed financial analysis including revenue trends, liquidity assessment and ratio analysis to evaluate financial performance and identify potential transaction risks.",
+          "Financial Reporting & Analysis (A) Financial Reporting – Listed Cargo / Shipping Company",
+          "Executed quarterly and annual financial closures and prepared Consolidated Financial Statements (CFS) for a ₹500+ Cr turnover listed shipping company, reconciling intercompany balances and ensuring reporting timelines. (B) Fintech Startup – Virtual CFO Services & MIS Reporting",
+          "Managed finance operations and MIS reporting for a ₹100+ Cr fintech startup, overseeing payouts and commission automation for 900+ agents, and supporting performance tracking, financial monitoring and operational decision-making. (C) Ind AS Transition – Post Acquisition Accounting Integration and Financial Reporting",
+          "Executed restatement of financial statements for a ₹225+ Cr acquired entity, delivering ₹8+ Cr in adjustments to enable seamless post-merger consolidation and post-acquisition financial integration.",
+          "Tax & Regulatory Compliance",
+          "Handled income tax scrutiny and tax litigation matters exceeding ₹3+ Cr, including preparation of submissions and representation before the PCIT, resulting in a favourable order for the client.",
+          "Handled Income Tax and GST appellate matters and tax return compliance for corporate and individual clients.",
+          "Led team of 6 articles across 10+ Statutory audits covering diverse sectors, ensuring 100% on-time filing compliance.",
+          "Coordinated team deliverables and client communication across audit and compliance assignments. ACHIEVEMENTS,"
+        ],
+        "sub_sections": [
+          "POSITIONS OF RESPONSIBILITY"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.1,
+      "total_months": 37,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2026",
+        "gpa": "57.33%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA Intermediate Nov-2022 440/800 (55%) Cleared both groups in the first attempt with Exemption in 3 subjects",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2022",
+        "gpa": "55%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA Foundation Dec-2021 266/400 (66.5%)",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2021",
+        "gpa": "66.5%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class XII – HSC Feb-2021 545/600 (90.83%) Including 97 marks in Bookkeeping and 90+ marks in four subjects",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "HSC Feb-2021 545/600 (90.83%) Including 97 marks in Bookkeeping and 90+ marks in four subjects",
+        "institution": null,
+        "year": "2021",
+        "gpa": "90.83%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class X – SSC",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "SSC",
+        "institution": null,
+        "year": "2019",
+        "gpa": "82.20%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

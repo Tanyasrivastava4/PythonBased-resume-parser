@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "source_file": "e40d201c_613d85b6_Devesh Sharma_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:36.248256+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Devesh Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "deveshsharma6392@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+916392683988",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/devesh-sharma-63a8b41a1",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Cloud Security Analyst with 4.5 years of experience in SOC operations, cloud security, and cyber defense. Skilled in\nSIEM, log management, firewalls, and Microsoft security tools (Sentinel, 365 Defender, Azure). Proven expertise in\nthreat hunting, incident response, and regulatory compliance, with strong knowledge of MITRE ATTACK, Cyber Kill\nChain, Email security solutions and cloud security frameworks. Recognized for enhancing global client security\npostures through proactive monitoring and automation.",
+  "skills": {
+    "items": [
+      "Active Directory",
+      "Azure",
+      "Cyber Kill Chain",
+      "DLP",
+      "Firewall",
+      "Google Chronicle",
+      "Incident Management",
+      "KQL",
+      "MITRE ATT&CK",
+      "Microsoft Azure Sentinel",
+      "Microsoft Defender",
+      "Microsoft Sentinel",
+      "Network Security",
+      "Office 365",
+      "PostgreSQL",
+      "Regulatory Compliance",
+      "SIEM",
+      "SOAR",
+      "SOC Operations",
+      "Security Operations Center",
+      "Threat Hunting"
+    ],
+    "by_category": {
+      "security_ops": [
+        "Active Directory",
+        "Cyber Kill Chain",
+        "DLP",
+        "Firewall",
+        "Google Chronicle",
+        "KQL",
+        "MITRE ATT&CK",
+        "Microsoft Defender",
+        "Microsoft Sentinel",
+        "Network Security",
+        "SIEM",
+        "SOAR",
+        "Security Operations Center",
+        "Threat Hunting"
+      ],
+      "cloud_infra": [
+        "Azure",
+        "Microsoft Azure Sentinel"
+      ],
+      "security": [
+        "Incident Management",
+        "SOC Operations"
+      ],
+      "integration": [
+        "Office 365"
+      ],
+      "database": [
+        "PostgreSQL"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Defender→Microsoft Defender(100%), Google Chronicle SIEM→Google Chronicle(95%), firewalls→Firewall(100%), Sentinel→Microsoft Sentinel(100%), incident response→Incident Management(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "cloud security services for multiple global clients, threats.",
+        "location": "Haryana",
+        "start": "Oct 2021",
+        "end": "Present",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 60,
+        "bullets": [
+          "Proven ability to strengthen security across diverse cloud environments. responses, collaborating with the Incident/Change Microsoft 365 Defender tools (MDE, MDI, O365 developed KQL-based detection rules aligned with executing remediation actions and ensuring regulatory to strengthen threat detection capabilities. configurations, adding log sources, developing Hunting teams to enhance client security posture. ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "company": "Unknown company",
+        "role": "of experience managing end-to-end SOC operations and",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 5.0,
+        "duration_months": 60
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 10.0,
+      "total_months": 120,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.73
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech (Computer Sci. & Engineering)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Sci. & Engineering",
+        "institution": "Dr A. P.J. Abdul Kalam Technical University Lucknow",
+        "year": "2017 - 2021",
+        "gpa": "83.3%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Security, Compliance & Identity Fundamentals (SC-900)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Security Operation Analyst",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Tech Expressway- Techgenics",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Azure Fundamentals (AZ-900)",
+        "issuer": "Azure",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Google Chronicle SIEM & SOAR",
+        "issuer": "Google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "achievements": {
+    "items": [
+      "Received Accenture Celebrate Excellence (ACE) Award for key star valued member.",
+      "Top performer (Rating 5) in recent years at Accenture.",
+      "Received Growth Catalyst Award for top-Quality Achievers from Client.",
+      "Managed more than 200 Highly Suspicious incidents & Cases, achieving a 95% resolution rate",
+      "within SLA parameters.",
+      "Enhanced security posture for five global clients, reducing vulnerabilities by 40% within six",
+      "https://in.linkedin.com/in/devesh-sharma-63a8b41a1",
+      "SIEM (Security Information & Event Manager)",
+      "EDR (Endpoint Detection and Response)",
+      "Incident/Change Investigation and Management"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.73,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

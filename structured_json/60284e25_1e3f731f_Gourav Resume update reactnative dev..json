@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "source_file": "60284e25_1e3f731f_Gourav Resume update reactnative dev._segmented.txt",
+    "generated_at": "2026-09-30T06:58:48.570509+00:00",
+    "sections_found": [
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Proficient",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "gourava0556@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/gourav-a-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/store/apps/details",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AJAX",
+      "API Design",
+      "AWS",
+      "AWS EC2",
+      "AWS S3",
+      "Agile",
+      "Android",
+      "Bootstrap",
+      "CI/CD",
+      "CSS3",
+      "Code Reviews",
+      "Communication",
+      "DevOps",
+      "Docker",
+      "Elasticsearch",
+      "Firebase",
+      "Git",
+      "Google",
+      "Grafana",
+      "GraphQL",
+      "HTML5",
+      "Heroku",
+      "InfluxDB",
+      "JSON",
+      "JUnit",
+      "Java",
+      "JavaScript",
+      "Jest",
+      "Kotlin",
+      "Kubernetes",
+      "LinkedIn",
+      "Microsoft Teams",
+      "Mobile Application Development",
+      "MongoDB",
+      "MySQL",
+      "Observability",
+      "Payments",
+      "PostgreSQL",
+      "Prometheus",
+      "Quality Assurance",
+      "REACH",
+      "REST",
+      "React",
+      "React Native",
+      "Redis",
+      "Redux",
+      "Ruby",
+      "SQLite",
+      "SVN",
+      "Scrum",
+      "Swift",
+      "TypeScript",
+      "XML",
+      "iOS",
+      "jQuery"
+    ],
+    "by_category": {
+      "web_framework": [
+        "AJAX",
+        "Bootstrap",
+        "CSS3",
+        "GraphQL",
+        "HTML5",
+        "JSON",
+        "LinkedIn",
+        "React",
+        "Redux",
+        "XML",
+        "jQuery"
+      ],
+      "architecture": [
+        "API Design"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS S3",
+        "Heroku"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Scrum"
+      ],
+      "mobile": [
+        "Android",
+        "Mobile Application Development",
+        "React Native",
+        "iOS"
+      ],
+      "devops": [
+        "CI/CD",
+        "DevOps",
+        "Docker",
+        "Grafana",
+        "Kubernetes",
+        "Observability",
+        "Prometheus",
+        "SVN"
+      ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "search": [
+        "Elasticsearch"
+      ],
+      "database": [
+        "Firebase",
+        "Google",
+        "InfluxDB",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Redis",
+        "SQLite"
+      ],
+      "testing": [
+        "JUnit",
+        "Jest"
+      ],
+      "programming_language": [
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Ruby",
+        "Swift",
+        "TypeScript"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "operations": [
+        "Quality Assurance"
+      ],
+      "compliance": [
+        "REACH"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.75,
+    "_method": "flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Cloud & Deployment : AWS (EC2, S3, Cloud services), Heroku, App Software Developer",
+        "company": "Kapil Services",
+        "location": null,
+        "start": "JULY 2018",
+        "end": "DEC. 2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 54,
+        "bullets": [
+          "Implement native modules and bridge communication between React Native and updates (CodePush) native Android (Java/Kotlin) / iOS (Swift/Objective-C) when required."
+        ],
+        "sub_sections": [
+          "Testing & Debugging: Jest, React",
+          "Ensure code quality through unit testing, integration testing, and tools like Jest,",
+          "Native Testing Library, RSpec, JUnit,",
+          "Detox, etc.",
+          "MiniTest, Capybara , Logging &",
+          "Manage app builds, deployment, and release processes to Google Play Store and",
+          "debugging with Flipper, Chrome",
+          "Apple App Store, including certificates, provisioning profiles, and OTA updates",
+          "DevTools, Observability &",
+          "(CodePush).",
+          "monitoring: Prometheus, Grafana,",
+          "Sentry",
+          "Follow Agile/Scrum methodologies—participate in sprint planning, daily",
+          "DevOps & CI/CD : Docker,",
+          "standups, code reviews, and retrospectives.",
+          "Kubernetes",
+          "Maintain proper documentation, adhere to industry best practices, and ensure",
+          "Tools & Version Control: Git, SVN",
+          "compliance with security and performance guidelines.",
+          "Others",
+          "Continuously research and adopt emerging technologies, libraries, tools, and",
+          "trends in the React Native ecosystem.",
+          "Developed a feature-rich shopping app enabling users to browse and purchase products from 100+ stores, resulting in a",
+          "30% increase in product discoverability and offering a scalable retail experience.",
+          "Integrated secure user authentication, real-time product updates, and category-based filtering, which reduced user",
+          "search time by 40% and improved navigation efficiency.",
+          "Designed and implemented a 100% responsive user interface with a 3-step seamless checkout flow, leading to a 25%",
+          "increase in user retention and positive user reviews.",
+          "Project: Authenticator app",
+          "App Link: https://play.google.com/store/apps/details?id=com.anonymous.authenticator",
+          "Tech Stack: React Native, TypeScript, JavaScript, Fireabase, Map",
+          "Role & Responsibilities:",
+          "This React Native authenticator app generates 6 digit TOTP codes for secure multi-platform logins.",
+          "It ensures strong protection with encrypted key storage, instant code generation, and smooth integration with standard",
+          "authentication flows.",
+          "Project: Bottle spin (gaming project)",
+          "App Link : https://play.google.com/store/apps/details?id=com.bestpeers.bottleSpin",
+          "Tech Stack: React Native, TypeScript, JavaScript, Fireabase, Map",
+          "Role & Responsibilities:",
+          "A simple multiplayer gaming app where players take turns rotating a virtual bottle.",
+          "Each spin randomly selects a winner, offering a fun, fast, and interactive way to play with friends.",
+          "All of my shared projects are a reflection of my Strivepool journey.",
+          "I am a React Native developer based in India, available to work across any global timezone and open to immediate joining.",
+          "Please feel free to reach out using the contact details in my resume to schedule a quick interview.",
+          "Thanks,",
+          "Gourav",
+          "Links:",
+          "https://www.linkedin.com/in/gourav-a-a003b4287/",
+          "https://novoed.com/",
+          "https://play.google.com/store/apps/details?id=nrt.satocci.com",
+          "https://play.google.com/store/apps/details?id=com.anonymous.authenticator",
+          "https://play.google.com/store/apps/details?id=com.bestpeers.bottleSpin",
+          "────────────────────────────────────────────────────────────"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.5,
+      "total_months": 54,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

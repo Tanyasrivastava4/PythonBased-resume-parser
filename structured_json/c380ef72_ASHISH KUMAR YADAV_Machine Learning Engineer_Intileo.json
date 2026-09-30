@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "source_file": "c380ef72_ASHISH KUMAR YADAV_Machine Learning Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:17.044818+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Kumar Yadav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ashish854380@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8077586754",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Strategic Data & Machine Learning Professional with 6+ years of experience driving\nbusiness transformation through advanced analytics across Supply Chain & Logistics\n(3PL), Banking/BFSI, and E-commerce ecosystems. Possess 5+ years of hands-on\nexpertise in predictive modeling, regression analysis, credit risk scoring, loan eligibility\nmodeling, customer segmentation, and demand forecasting.\nExperienced in architecting scalable ML solutions using Python, MLOps frameworks, and\nCloud Platforms (GCP/Azure), enabling data-driven decision-making across financial risk\nmanagement, supply chain optimization, and digital commerce growth strategies. Proven\nability to convert complex data landscapes into structured, automated, and governance-\naligned analytical systems delivering tangible ROI.\n2.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Azure",
+      "BFSI",
+      "BigQuery",
+      "Customer Segmentation",
+      "Data Visualization",
+      "Deep Learning",
+      "Demand Forecasting",
+      "E-Governance",
+      "E-commerce",
+      "GCP",
+      "Git",
+      "GitHub",
+      "Java",
+      "Jira",
+      "Leadership",
+      "Logistics",
+      "MLOps",
+      "Machine Learning",
+      "Mentoring",
+      "MySQL",
+      "NumPy",
+      "Pandas",
+      "Photography",
+      "Power BI",
+      "Process Re-Engineering",
+      "Project Management",
+      "Python",
+      "RAG",
+      "Risk Management",
+      "SQL",
+      "Stakeholder Management",
+      "Supply Chain",
+      "Supply Chain Management",
+      "System Design",
+      "Time Series Forecasting"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ],
+      "domain": [
+        "BFSI",
+        "Supply Chain"
+      ],
+      "database": [
+        "BigQuery",
+        "MySQL",
+        "SQL"
+      ],
+      "marketing": [
+        "Customer Segmentation"
+      ],
+      "data_science": [
+        "Data Visualization",
+        "Demand Forecasting",
+        "Power BI"
+      ],
+      "ai_ml": [
+        "Deep Learning",
+        "Machine Learning",
+        "NumPy",
+        "Pandas",
+        "Time Series Forecasting"
+      ],
+      "management": [
+        "E-Governance"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub"
+      ],
+      "programming_language": [
+        "Java",
+        "Python"
+      ],
+      "project_mgmt": [
+        "Jira",
+        "Project Management",
+        "Risk Management"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Mentoring",
+        "Stakeholder Management"
+      ],
+      "operations": [
+        "Logistics",
+        "Supply Chain Management"
+      ],
+      "genai": [
+        "MLOps",
+        "RAG"
+      ],
+      "media": [
+        "Photography"
+      ],
+      "consulting": [
+        "Process Re-Engineering"
+      ],
+      "architecture": [
+        "System Design"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Stakeholder Management Git→Stakeholder Management(95%), customer segmentation→Customer Segmentation(100%), forecasting.→Time Series Forecasting(96%), governance-→E-Governance(91%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "DATA SCIENTIST (Assistant Manager) Drona Logitech",
+        "company": null,
+        "location": null,
+        "start": "Dec 2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 22,
+        "bullets": [
+          "Engineered and deployed an end-to-end ML-driven automation system using Python to process complex Uniecomrce, Eshopbox, P&L,YMS, TMS and SAP data files, resulting in an estimated 30% reduction in manual data processing time and boosting system efficiency.",
+          "Designed and implemented a centralized data management system for 3PL supply chain and warehouse operations, providing a single source of truth for all projects and IT teams.",
+          "Led the monitoring of e-commerce website order statuses, SLA breaches, and order pendency, applying data analytics to ensure optimal logistics efficiency and service delivery."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "DATA SCIENTIST",
+        "company": "TATA Consultancy Services",
+        "location": "Client: Lloyds Banking Group",
+        "start": "Feb 2022",
+        "end": "Dec 2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 35,
+        "bullets": [
+          "Developed and deployed multiple high-impact regression and predictive modeling solutions using Python (Scikit-learn, XGBoost) to generate actionable financial risk insights and improve client-level decision-making accuracy.",
+          "Designed and implemented a Credit Score Prediction Model using customer transaction behavior, repayment history, utilization ratio, and income patterns, achieving improved risk segmentation and default prediction accuracy.",
+          "Built an intelligent Loan Offer Recommendation System that analyzed customer credit score, credit card usage patterns, repayment capacity, and transaction volume to recommend personalized loan products (e.g., personal loan, credit line enhancement, business loan), increasing targeted offer efficiency",
+          "Automated daily, weekly, and monthly data collection and reporting processes using Python and SQL, leading to an estimated 15 hours of saved weekly manual effort and ensuring high data accuracy.",
+          "Applied advanced data mining algorithms and statistical analysis to solve complex business problems, directly contributing to departmental efficiency goals.",
+          "Collaborated with cross-functional teams (risk, finance, product, and business stakeholders) to define analytical requirements, identify high-value data sources, and design scalable data architectures for mission-critical financial reporting systems."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "DATA SCIENTIST Seabird Logisolution",
+        "company": "Automated ingestion, validation, and transformation of SAP operational data, warehouse reports, and field-level operational inputs, enabling faster decision-making and minimizing data discrepancies across logistics workflows.",
+        "location": "Apl",
+        "start": "2021",
+        "end": "Feb 2022",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 14,
+        "bullets": [
+          "Engineered and deployed an end-to-end ML-driven automation system using Python to process complex datasets sourced from SAP systems and Operations teams, significantly reducing manual data processing efforts by ~30% and improving overall system efficiency.",
+          "Designed and implemented a centralized data management framework for 3PL supply chain and warehouse operations, establishing a single source of truth across finance, operations, and IT teams for accurate and consistent reporting.",
+          "Led monitoring and analysis of e-commerce and logistics order lifecycles, including order status tracking, SLA adherence, breach identification, and pendency analysis, to ensure smooth service delivery and operational excellence.",
+          "Provided L1 level working support to the Hosting team, managing network and server health (e.g., Sys. Logs, Event Logs, Hardware Health).",
+          "AWS and Azure cloud infra support of some services.",
+          "Monitored IT infrastructure and services using tools like Pingdom and Op-Manager to ensure high uptime and proactively address potential issues.",
+          "Gained foundational experience in data handling and processing while assisting in basic data analysis tasks. 4."
+        ],
+        "sub_sections": [
+          "DATA ANALYST/SUPPORT ENGINEER",
+          "NIIT LIMITED | May 2019 – Apl 2021"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.8,
+      "total_months": 69,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Technology (B.Tech)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Institute of Engineering & Technology",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Institution",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Core Java Language Training (10 Jun – 05 Aug ) B2ECODER TRAINING INSTITUTE",
+        "issuer": null,
+        "year": "2018",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "PERSONAL INTERESTS",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Music, Photography, Traveling, Organizing Events (Showing personality and work",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "life balance)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.63
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.63,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

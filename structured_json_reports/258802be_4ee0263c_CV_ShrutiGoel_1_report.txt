@@ -1,0 +1,58 @@
+======================================================================
+FILE: 258802be_4ee0263c_CV_ShrutiGoel_1_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header']
+Overall conf.  : 0.87
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : S Ummary  (conf 0.9, regex)
+  email     : shrutigoel2026@gmail.com  (conf 0.99, regex)
+  phone     : +919650002339  (conf 0.95, regex)
+  linkedin  : linkedin.com/in/shruti-goel-splunk-aws  (conf 0.99, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SKILLS (44) — confidence 0.92
+----------------------------------------------------------------------
+.NET, AWS, AWS CloudWatch, AWS EC2, AWS S3, Ansible, Azure, Bash, C#, C++, CI/CD, Change Management, Collaboration, Cross-functional Collaboration, Decision Making, Disaster Recovery, Docker, Elasticsearch, Express.js, Financial Reporting, Go, Grafana, Healthcare, Helm, Java, Jenkins, Kubernetes, Leadership, Microsoft Teams, New Relic, Observability, OpenTelemetry, Performance Optimization, Prometheus, Python, Reporting, Reverse Engineering, Salesforce, Scrum, SharePoint, Splunk, Terraform, UAT, WebFOCUS
+
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 18.5 years (222 months, 3 overlaps merged)
+----------------------------------------------------------------------
+  1. SENIOR PROJECT MANAGER @ Macquarie Global Services, London (08/2016 - Jan 2026) [conf 0.98, review=False]
+  2. SR SOFTWARE ENGINEER @ Fidelity International (09/2010 - 08/2016) [conf 0.98, review=False]
+  3. BUSINESS SUPPORT MANAGER @ American Express (05/2009 - 09/2010) [conf 0.98, review=False]
+  4. Reporting Tool) SOFTWARE ENGINEER @ NTT DATA (08/2007 - 05/2009) [conf 0.98, review=False]
+
+EDUCATION (0) — confidence 0.0
+----------------------------------------------------------------------
+
+CERTIFICATIONS (11) — confidence 0.64
+----------------------------------------------------------------------
+  1. Application Recovery plans Management and coordination — None (None) [conf 0.6]
+  2. Application decommissioning (IW correspondence), Application on-boarding (Kofax — None (None) [conf 0.6]
+  3. etc.) — None (None) [conf 0.6]
+  4. Disaster Recovery Management of existing system WebFocus, XTRAC, IW, and FileNet — None (None) [conf 0.6]
+  5. and developed ARPs of new applications like CMIS, Kofax — None (None) [conf 0.6]
+  6. Replaced Pivotal with Salesforce: Requirement analysis and documentation for — Salesforce (None) [conf 0.8]
+  7. Salesforce, Application administration and user management — Salesforce (None) [conf 0.8]
+  8. Participated in architecture, design and implementation of back-end features using — None (None) [conf 0.6]
+  9. C++, C# and Python. — None (None) [conf 0.6]
+  10. Explored and created new ways to resolve problems with processes, technology or — None (None) [conf 0.6]
+  11. team members to improve overall efficiency. — None (None) [conf 0.6]
+
+REVIEW QUEUE (11 flagged fields)
+----------------------------------------------------------------------
+  education                           conf=0.0  reason=section_present_but_empty
+  certifications                      conf=0.64  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields
+  certifications.items[1]             conf=0.6  reason=incomplete_fields
+  certifications.items[2]             conf=0.6  reason=incomplete_fields
+  certifications.items[3]             conf=0.6  reason=incomplete_fields
+  certifications.items[4]             conf=0.6  reason=incomplete_fields
+  certifications.items[7]             conf=0.6  reason=incomplete_fields
+  certifications.items[8]             conf=0.6  reason=incomplete_fields
+  certifications.items[9]             conf=0.6  reason=incomplete_fields
+  certifications.items[10]            conf=0.6  reason=incomplete_fields

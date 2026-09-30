@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "source_file": "e5ba96e0_45cecc5c_Naukri_SudhirKumarRautray[19y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:37.252231+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sudhir Kumar Rautray",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "09703898420@sudhir.rautray",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "gmail.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "I am a customer-oriented General Manager with 18 years of experience focused on increasing revenues and expanding margins. My adaptive and deadline-oriented approach allows me to consistently execute and complete multiple projects in high-stress environments. As a meticulous leader and strategic planner, I leverage my comprehensive managerial acumen to offer vision and motivate teams towards achieving targets\nForecasting & Scheduling",
+  "skills": {
+    "items": [
+      "Client Relationship Management",
+      "Cost Analysis",
+      "Decision Making",
+      "Mechanical Engineering",
+      "Microsoft Teams",
+      "Microsoft Visio",
+      "Negotiation",
+      "Time Series Forecasting",
+      "Xplanner"
+    ],
+    "by_category": {
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
+      "soft_skill": [
+        "Decision Making",
+        "Negotiation"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "dev_tool": [
+        "Microsoft Visio"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "database": [
+        "Xplanner"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Negotiations→Negotiation(96%), planner→Xplanner(93%), vision→Microsoft Visio(91%), teams→Microsoft Teams(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Deputy General Manager - Tele sales & Vendor Management",
+        "company": "Bank Bazaar .com  \t Chennai",
+        "location": null,
+        "start": "12/2018",
+        "end": "Current",
+        "method": "date_regex+dash_title_next_line_company",
+        "duration_months": 94,
+        "bullets": [
+          "A financial services company specializing in various financial products Led Contact Center Operations including In-house G Vendor line of business across PAN India for cards"
+        ],
+        "sub_sections": [
+          "Outsourcing",
+          "Established 300 Seats business externally with 40% reduction in cost",
+          "Increased month-on-month revenue growth by transitioning in-house business to external and ensuring positive margins",
+          "Managed a portfolio of 400 FTEs for Cards G loans ensuring profitability",
+          "Established effective utilization of telephonic metrics as per COPC standards",
+          "Collaborated with Service Excellence, Quality, LGD teams to improve Processes and TAT"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Operations Manager - Tele sales",
+        "company": "Concentrix Daksh Services India Private Limited \t Vishakhapatnam & Hyderabad",
+        "location": null,
+        "start": "04/2018",
+        "end": "11/2018",
+        "method": "date_regex+dash_split",
+        "duration_months": 8,
+        "bullets": [
+          "A company focused on technology-based solutions and services Led 250 Pre-sales tele calling associates to generate quality walk-ins across various projects Performed outbound sales activities such as cold calling, lead follow-up, and sales qualifications Converted prospects into customers by showcasing appropriate residential properties Identified and resolved unauthorized, unsafe, or ineffective practices",
+          "A leading global provider of business services Managed Contact Center for constant performance achievements of 300 FTEs Achieved annually 70 Cr Revenue (Premium) with 7% (NOP) conversion Drove cost reduction initiatives in processes with automation opportunities Negotiated contracts with clients to obtain best pricing and terms Developed systems G procedures to improve operational quality G team efficiency"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Executive",
+        "company": null,
+        "location": null,
+        "start": "02/2007",
+        "end": "01/2011",
+        "method": "date_regex+dash_split",
+        "duration_months": 48,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 12.5,
+      "total_months": 150,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Mahatma Gandhi University",
+        "year": "2012",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BBA",
+        "degree_name": "BBA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Guru Ghasidas University",
+        "year": "2007",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Higher Secondary",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Kendriya Vidyalaya Ballygunge",
+        "year": "2004",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

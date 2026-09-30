@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "source_file": "18723769_d7ba42e5_CV_Hitesh_segmented.txt",
+    "generated_at": "2026-09-30T06:57:59.774312+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Hitesh Kapoor",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "hiteshkapoor023@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9540042848",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      ".NET",
+      "AWS",
+      "Agile",
+      "Azure",
+      "Background Verification",
+      "Budgeting",
+      "Communication",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Data Science",
+      "DevOps",
+      "E-learning",
+      "Financial Analysis",
+      "Help Desk",
+      "Java",
+      "Leadership",
+      "Learning & Development",
+      "Logistics",
+      "MIS Reporting",
+      "Machine Learning",
+      "Microsoft Teams",
+      "Onboarding",
+      "Payments",
+      "Power BI",
+      "Python",
+      "Recruitment",
+      "Reporting",
+      "SAP",
+      "Salesforce",
+      "ServiceNow",
+      "SharePoint",
+      "Shared Services",
+      "Stakeholder Management",
+      "Team Leadership",
+      "UAT"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET",
+        "Java",
+        "Python"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "Azure"
+      ],
+      "project_mgmt": [
+        "Agile"
+      ],
+      "hr": [
+        "Background Verification",
+        "Learning & Development",
+        "Onboarding",
+        "Recruitment"
+      ],
+      "finance_ops": [
+        "Budgeting",
+        "Financial Analysis"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Reporting",
+        "Stakeholder Management",
+        "Team Leadership"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Machine Learning"
+      ],
+      "devops": [
+        "DevOps"
+      ],
+      "education_domain": [
+        "E-learning"
+      ],
+      "support": [
+        "Help Desk"
+      ],
+      "operations": [
+        "Logistics"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "domain": [
+        "Payments",
+        "Shared Services"
+      ],
+      "data_science": [
+        "Power BI"
+      ],
+      "integration": [
+        "SAP",
+        "Salesforce",
+        "ServiceNow",
+        "SharePoint"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "NAB India Innovation Centre Pvt. Ltd. Analyst",
+        "company": "HR Talent Acquisition",
+        "location": null,
+        "start": "Oct 2023",
+        "end": "Sep 2025",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 24,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Contract for NAB) Assistant Manager – HR Talent Acquisition (Shared Services",
+        "company": "ANSR Private Limited",
+        "location": null,
+        "start": "Jun 2023",
+        "end": "Sep 2023",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 4,
+        "bullets": [
+          "Conducted HR screening and competency-based interviews to assess candidates' technical expertise, functional capabilities, cultural fit, and overall role suitability.",
+          "Partnered with hiring managers and technical stakeholders to align candidate evaluations with business and workforce requirements.",
+          "Managed end-to-end interview coordination, feedback consolidation, and hiring decisions to ensure efficient recruitment outcomes.",
+          "Evaluated candidate qualifications, compensation expectations, notice periods, and organizational fit to support informed hiring decisions.",
+          "Maintained recruitment data, interview records, and hiring metrics within ATS platforms, ensuring process compliance and reporting accuracy.",
+          "Supported high-volume and niche hiring initiatives by driving seamless candidate assessment, stakeholder engagement, and offer conversion processes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Edtech Key Account Manager-Learning Coordinator",
+        "company": "Teamlease",
+        "location": "Edtech Key Account Manager-Learning Coordinator",
+        "start": "Apr-22",
+        "end": "Mar-23",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 12,
+        "bullets": [
+          "Managed end-to-end training operations across ~5 client accounts, successfully delivering 10–20 concurrent technology and non-technology training batches through classroom, virtual, and web-based platforms.",
+          "Recruited, screened, onboarded, and managed freelance technical trainers across domains including Java, Python, .NET, Full Stack Development, AWS, Azure, DevOps, Cybersecurity, Data Science, AI/ML, Salesforce, SAP, and ServiceNow.",
+          "Coordinated international training programs, overseeing training schedules, trainer allocation, budgeting, participant communication, content readiness, reporting, and client governance reviews.",
+          "Partnered with clients, business leaders, SMEs, and vendors to identify training needs, map qualified trainers, and ensure seamless delivery aligned with business objectives.",
+          "Maintained training compliance through attendance tracking, session recordings, LMS updates, audit-ready documentation, and weekly/monthly MIS dashboards on training effectiveness and utilization.",
+          "Managed trainer contracts, purchase orders, invoicing, and payment processing in coordination with Finance, while supporting BGV documentation and onboarding activities for trainers and participants."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "NIIT Limited Assistant Manager-Learning Coordinator",
+        "company": "StackRoute",
+        "location": "NIIT Limited Assistant Manager-Learning Coordinator",
+        "start": "Jul-21",
+        "end": "Apr-22",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 10,
+        "bullets": [
+          "Led a team of 4 and managed training operations for 8 client accounts, successfully delivering 30–40 concurrent technology and non-technology training batches while ensuring quality, timelines, and stakeholder satisfaction.",
+          "Recruited, evaluated, and onboarded freelance and contract technical trainers across technologies such as Java, Python, .NET, Full Stack Development, AWS, Azure, DevOps, Cybersecurity, Data Science, AI/ML, Salesforce, SAP, ServiceNow, Power BI, and Agile methodologies.",
+          "Planned and executed international technology training programs, managing training schedules, participant communication, content alignment, budgeting, reporting, and weekly client governance reviews.",
+          "Partnered with clients, business leaders, SMEs, vendors, and training partners to identify learning requirements, source qualified trainers, and ensure seamless program delivery.",
+          "Managed end-to-end trainer operations including onboarding, contracts, logistics, virtual training setup, session recordings, attendance tracking, compliance documentation, and audit readiness."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Published client-wise dashboards and training MIS reports, providing insights on utilization, trainer performance, learner participation, training effectiveness, budget adherence, and overall program outcomes during leadership and client cadence calls. NatWest Group",
+        "location": null,
+        "start": "Sep-13",
+        "end": "Dec-20",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 88,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Analyst",
+        "company": "HR Shared Services",
+        "location": null,
+        "start": "May 15",
+        "end": "Dec 20",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 8,
+        "bullets": [
+          "Led large-scale L&D programs, training 1,000+ managers under NatWest’s Determined to Lead initiative.",
+          "Owned end-to-end learning operations—calendars, trainers, logistics, vendors, inventories, and PAN-India delivery.",
+          "Managed budgets, financial analysis, vendor negotiations, and approvals; delivered ₹2.75 lakh+ annual cost savings.",
+          "Published learning MIS, feedback analytics, and automated dashboards to drive data-backed improvements.",
+          "Served as single point of contact for leadership trainers; ensured seamless pre- and post-session execution.",
+          "Handled quality checks on nominations, Workday offers, and HRBP reports prior to leadership release.",
+          "Supported talent acquisition—screening, interviewing, selection communication, and contract hiring.",
+          "Independently managed onboarding, BGV initiation, adverse case resolution, and Day-1 induction.",
+          "Led facilities and admin operations—POs, vendors, bill clearance, transport, helpdesk, and on/offsite events.",
+          "Managed projects, contractors, safety compliance, space planning, cafeteria operations, and central services."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sr. Client Service Specialist—Knowledge Management Centre",
+        "company": "Computer Science Corporation",
+        "location": null,
+        "start": "Sep 08",
+        "end": "Jul 13",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 0,
+        "bullets": [
+          "Managed UKBA-approved website content across Training, UAT, and Production environments.",
+          "Resolved escalated VAC immigration queries and complaints via WIS.",
+          "Tested and validated WIS 2.0 releases before production deployment.",
+          "Administered KMC helpdesk server and coordinated with cross-functional teams.",
+          "Audited ISCC cases and calls across regions; maintained BAU, billing, and SLA reports on SharePoint."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 12.1,
+      "total_months": 145,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Share Point Development Diploma – Ducat, Noida \t\t\t\t\t\t\tFeb 2011",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Ducat",
+        "institution": null,
+        "year": "2011",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Graduation from Rani Durgavati University, Jabalpur (M.P)\t\t\t\t\t   Jul-2000—Aug-2003",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Rani Durgavati University Jabalpur (M.P)",
+        "year": "2003",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Multiple awards and leadership recognitions for excellence in virtual delivery, cost optimization, and process improvement.",
+      "Achieved ₹1.5 lakh and ₹2.75 lakh annual cost savings through independent optimization initiatives.",
+      "Promoted to Senior HR Associate within one year at NatWest Group based on performance.",
+      "Recognized for seamless execution of high-impact workshops and L&D programs.",
+      "Received continuous rewards at CSC India for website enhancement, automation, and productivity improvements.",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

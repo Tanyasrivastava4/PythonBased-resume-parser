@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "source_file": "93dc9926_7891dcee_Parth Pathak Resume_segmented.txt",
+    "generated_at": "2026-09-30T06:59:44.955974+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Parth Pathak",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "giet.parthpathak@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "6377307043 / 9413051533",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/parth",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/pycpathak",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Dynamic Full Stack Developer with 2+ years of hands-on experience in PHP frameworks like Laravel and CodeIgniter.\nEnhanced application performance through optimized SQL queries, while demonstrating strong problem-solving skills.\nAdept at API integrations and managing WordPress sites, delivering impactful solutions that improve user experi-\nence and operational efficiency. Eager to contribute enthusiasm, adaptability, and a fresh perspective to a dynamic\nteam.",
+  "skills": {
+    "items": [
+      "AJAX",
+      "API Design",
+      "API Testing",
+      "Adaptability",
+      "Bootstrap",
+      "CSS3",
+      "Client Relationship Management",
+      "CodeIgniter",
+      "Cost Analysis",
+      "Customer Service",
+      "Git",
+      "GraphQL",
+      "HTML5",
+      "JavaScript",
+      "Laravel",
+      "MySQL",
+      "Operations Management",
+      "PHP",
+      "Postman",
+      "Problem Solving",
+      "REST API",
+      "SQL",
+      "Shopify",
+      "WordPress",
+      "jQuery"
+    ],
+    "by_category": {
+      "web_framework": [
+        "AJAX",
+        "Bootstrap",
+        "CSS3",
+        "CodeIgniter",
+        "GraphQL",
+        "HTML5",
+        "Laravel",
+        "REST API",
+        "jQuery"
+      ],
+      "architecture": [
+        "API Design"
+      ],
+      "testing": [
+        "API Testing"
+      ],
+      "soft_skill": [
+        "Adaptability",
+        "Problem Solving"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management",
+        "Customer Service"
+      ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
+      "dev_tool": [
+        "Git",
+        "Postman"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP"
+      ],
+      "database": [
+        "MySQL",
+        "SQL"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "retail": [
+        "Shopify"
+      ],
+      "content": [
+        "WordPress"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), hosting→Cost Analysis(86%), CodeIgniter.→CodeIgniter(96%), problem-solving→Problem Solving(100%), adaptability→Adaptability(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": ", Noida, UP: Full-Stack Developer (Product Development",
+        "company": "TUMBLEDRY",
+        "location": "Noida",
+        "start": "Feb 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+comma_company_location",
+        "duration_months": 20,
+        "bullets": [
+          "Maintained and enhanced in-house CodeIgniter apps; delivered 8 feature releases and resolved production bugs , code improvements to improve system stability.",
+          "Owned the Lead CRM (CodeIgniter) used by 80+ sales agents — implemented enhancements , API integrations and supported day-to-day operations that increased lead processing throughput by 35%.",
+          "Integrated Shopify Admin GraphQL into Laravel backend and deployed cron syncs (runs 4×/hour) — eliminated 80% of manual reconciliation and improved data freshness.",
+          "Optimized MySQL queries and indexing in the Factory Module — refactored slow queries and added pagination, reducing average page load from 6.0s → 1.8s (approx. 70% faster).",
+          "Managed WordPress (Elementor) site: built 10+ pages via PHP templates and partnered with SEO to raise organic sessions by 25% over 3 months.",
+          "Built and supported a Ticket Management System (CodeIgniter) — centralized issue tracking and cut average ticket resolution time from 48h → 18h.",
+          "Introduced Git-based workflows and created technical documentation for handovers and new hires.",
+          "Core tech: PHP, CodeIgniter, Laravel, MySQL (query optimization), Shopify Admin GraphQL, WordPress (Ele- mentor), JavaScript/jQuery, Git, Cron jobs, REST APIs."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Noida, UP: Full-Stack Developer",
+        "company": "FIRSTVITE E-LEARNING PVT. LTD",
+        "location": "Noida",
+        "start": "Jan 2024",
+        "end": "Jan 2025",
+        "method": "date_regex+date_prefix_title+comma_company_location",
+        "duration_months": 13,
+        "bullets": [
+          "Developed and maintained projects (GoingBo, IIMSR, CollegeVihar) serving 5,000+ monthly users; implemented secure form handling and admin panels that processed 6,000+ monthly submissions.",
+          "Integrated REST APIs (Tek Travels) and Razorpay payments — improved transaction success rate to 98% and reduced failed-payment support tickets by 40%.",
+          "Used AJAX/jQuery for dynamic UX improvements, reducing full-page reloads and improving user flow completion rates by 20%.",
+          "Built a Bulk SMS marketing system (Sirf SMS JSON API) that delivered 5,000+ messages across campaigns and supported targeted outreach.",
+          "Led code reviews and QA for the Genlead project as senior developer — improved code quality and reduced post-release defects by 40%.",
+          "Core tech: PHP, Laravel, HTML5/CSS3, JavaScript, AJAX, jQuery, Bootstrap, MySQL, REST APIs, Razorpay, Sirf"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "DAZZLER SOFTWARE PVT. LTD., Kota, Raj.: Junior Web Developer",
+        "location": null,
+        "start": "Dec 2022",
+        "end": "Jan 2024",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 14,
+        "bullets": [
+          "Gained hands-on experience as a Web Developer with a strong focus on both front-end and back-end technologies using PHP, MySQL, HTML5, CSS3 & Bootstrap5.",
+          "My responsibilities encompassed creating and maintaining web applications, ensuring they are user-friendly, re- sponsive, and feature-rich."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 46,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

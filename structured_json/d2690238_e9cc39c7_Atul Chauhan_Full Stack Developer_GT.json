@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "source_file": "d2690238_e9cc39c7_Atul Chauhan_Full Stack Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T07:00:25.917608+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "strengths"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Recently I Joined Ltimindtree",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "atulji.star@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917982650358 / 2019-01-2025",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/atul-chauhan-81952a14b",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/staratul",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "planetkitesurfholidays.com/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      ".NET",
+      ".NET Core",
+      "AJAX",
+      "API Design",
+      "AWS",
+      "Agile",
+      "Angular",
+      "Azure",
+      "Bootstrap",
+      "CSS3",
+      "DNS",
+      "HTML5",
+      "JavaScript",
+      "Laravel",
+      "MSSQL",
+      "MVC Architecture",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Nginx",
+      "Node.js",
+      "Payments",
+      "PostgreSQL",
+      "Project Management",
+      "Python",
+      "REST API",
+      "React",
+      "Responsive Web Design",
+      "System Design",
+      "jQuery"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET",
+        "JavaScript",
+        "Python"
+      ],
+      "web_framework": [
+        ".NET Core",
+        "AJAX",
+        "Angular",
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "Laravel",
+        "Node.js",
+        "REST API",
+        "React",
+        "Responsive Web Design",
+        "jQuery"
+      ],
+      "architecture": [
+        "API Design",
+        "Microservices",
+        "System Design"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "Azure"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Project Management"
+      ],
+      "networking": [
+        "DNS"
+      ],
+      "database": [
+        "MSSQL",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "software_engineering": [
+        "MVC Architecture"
+      ],
+      "devops": [
+        "Nginx"
+      ],
+      "domain": [
+        "Payments"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(React.js→React(100%), Python3→Python(100%), Payment→Payments(93%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Specialist - Product Engineering",
+        "company": "Noida-62",
+        "location": null,
+        "start": "01/2025",
+        "end": "Present",
+        "method": "date_regex+title_dash_company+next_line_company",
+        "duration_months": 21,
+        "bullets": [
+          "LTIMindtree is a global technology consulting and digital solutions company.",
+          "Working on DL-TNM-MMA-McGriff App Migration project, migrating enterprise apps from on- premises Azure to Azure Bubble.",
+          "Analyzing application documentation to prepare runbooks, Smartsheet trackers, and architecture workflows",
+          "Reviewing and auditing Azure resource groups and infrastructure details to ensure deployment readiness",
+          "Addressing security vulnerabilities flagged by tools such as GitGuardian, Snyk, and Black Duck, ensuring compliance with secure coding practices. .Supporting applications like OUNet and CCDM, both built on .NET and SQL Server, by working on new client requirements, enhancements, and bug fixes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Full Stack Developer & Team Lead",
+        "company": "09/-2025 Noida-63",
+        "location": null,
+        "start": "2019",
+        "end": "2001",
+        "method": "year_range_short_regex+title_dict",
+        "duration_months": 0,
+        "bullets": [
+          "A company specializing in technology solutions for the travel industry.",
+          "Project Enhancement: Played a crucial role in enhancing and developing various web applications, leading to improved functionality and user experience.",
+          "Flight & Hotel Booking System: Successfully revamped the flight booking system, resulting in a smoother booking process and higher user satisfaction.",
+          "Admin Module Development: Designed, developed, and maintained robust admin modules for various web applications, ensuring efficient user management.",
+          "Payment Gateway Integration: Integrated multiple secure payment gateways, offering users convenient payment options and improving transaction security.",
+          "API Integration Expertise: Proficient in integrating various APIs for flights, hotels, and local attractions, expanding the range of services offered on the platform.",
+          "System Design: Applied knowledge of system design principles to create scalable and efficient web applications that meet user needs.",
+          "Project Management: Demonstrated effective project management skills, ensuring timely delivery of projects while coordinating tasks across development teams.",
+          "Team Leadership: Led a team of developers, providing guidance and support to ensure high-quality code and project success.",
+          "Technical Skills: Familiar with AWS services, CAPTCHA integration for enhanced security, and solid understanding of Data Structures and Algorithms (DSA)."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.8,
+      "total_months": 21,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MCA",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "New Delhi Indira Gandhi National Open University ATUL CHAUHAN",
+        "year": "2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "01/2015 - 12/2018 BCA",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "New Delhi Indira Gandhi National Open University",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "01/2014 - 12/2015 Intermediate",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "New Delhi CBSE",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Matriculation",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "New Delhi CBSE Portal",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.91
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Project Leadership and User Satisfaction",
+      "Successfully led the development of several high-traffic",
+      "web applications that significantly improved user",
+      "experience and engaged a broader audience."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

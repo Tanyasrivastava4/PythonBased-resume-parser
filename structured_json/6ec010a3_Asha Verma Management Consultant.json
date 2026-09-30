@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "source_file": "6ec010a3_Asha Verma Management Consultant_segmented.txt",
+    "generated_at": "2026-09-30T06:59:08.427648+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Asha Verma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ashaverma24@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9820007875",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/asha-verma-ab768123",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Senior transformation and marketing leader with 20+ years of experience driving large-scale digital, data, marketing, and revenue\nprograms across diverse industries. Proven ability to convert business strategy into high-impact execution through advanced analytics,\ncampaign leadership, digital transformation, and regulatory modernization. Recognized for building scalable growth engines, optimizing\ncustomer experience, and delivering measurable business outcomes.",
+  "skills": {
+    "items": [
+      "Adobe Analytics",
+      "Business Strategy",
+      "Campaign Management",
+      "Change Management",
+      "Client Relationship Management",
+      "Customer Experience",
+      "Data Studio",
+      "Digital Transformation",
+      "Growth Strategy",
+      "KPI",
+      "Leadership",
+      "Marketing Automation",
+      "Program Management",
+      "Reporting",
+      "Revenue Optimization",
+      "Tableau",
+      "Technology Enablement"
+    ],
+    "by_category": {
+      "data_science": [
+        "Adobe Analytics",
+        "Tableau"
+      ],
+      "consulting": [
+        "Business Strategy",
+        "Digital Transformation",
+        "Technology Enablement"
+      ],
+      "marketing": [
+        "Campaign Management",
+        "Growth Strategy",
+        "Marketing Automation",
+        "Revenue Optimization"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Program Management"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management",
+        "Customer Experience"
+      ],
+      "business_analysis": [
+        "Data Studio",
+        "KPI"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Reporting"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(digital transformation→Digital Transformation(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant Vice President- Consumer Banking Since",
+        "company": "Axis Bank Ltd",
+        "location": "Mumbai",
+        "start": "Sep 2017",
+        "end": "July 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 95,
+        "bullets": [
+          "Owned end-to-end digital transformation strategy from ideation through execution, aligning technology initiatives with business growth and customer experience objectives.",
+          "Designed and executed enterprise digital roadmaps modernizing core platforms, customer journeys, and operational systems.",
+          "Directed complex, multi-stakeholder digital programs with full accountability for scope, timelines, budget, risk, and business outcomes.",
+          "Established strong delivery governance, success metrics, and execution frameworks ensuring consistent on-time, on-budget, high- quality delivery.",
+          "Architected scalable, secure, and future-ready digital platforms supporting long-term business growth.",
+          "Provided technical leadership and mentorship to engineering and product teams, significantly raising delivery maturity and technical excellence.",
+          "Enforced best practices across software development, DevOps, cybersecurity, and data governance.",
+          "Acted as strategic advisor to senior leadership, translating business priorities into high-impact digital solutions.",
+          "Built strong partnerships with business units, vendors, and technology partners to accelerate innovation and execution.",
+          "Recruited, developed, and scaled high-performing digital teams, fostering a culture of innovation, accountability, and continuous learning."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Campaign Management & Analytics",
+        "location": null,
+        "start": "May 2007",
+        "end": "Sept 2017",
+        "method": "date_regex",
+        "duration_months": 125,
+        "bullets": [
+          "Led strategic planning and execution of enterprise marketing campaigns aligned to core business objectives including Retention, New Acquisition, Contextual Communication, and Communication Frequency Optimization.",
+          "Conceptualized and designed high-impact D2C marketing campaigns to drive customer spend, revenue growth, and accelerated digital acquisition.",
+          "Orchestrated large-scale multi-channel marketing programs leveraging email marketing, mobile (SMS / notifications), and performance media across Facebook, Instagram, and Google Ads.",
+          "Converted deep consumer insights and advanced analytics into actionable marketing strategies that consistently generated measurable customer and business value.",
+          "Served as key liaison between Marketing and Technology, translating business objectives into data and technical requirements while resolving complex data challenges.",
+          "Owned end-to-end marketing reporting and performance monitoring in partnership with Analytics teams, delivering real-time visibility for leadership and channel owners.",
+          "Enabled faster, data-driven decision-making by providing real-time reports, projections, and optimization insights across channels.",
+          "Designed and implemented a Linear Programming optimization model to create optimal weekly CRM calendars and drive efficient budget allocation for social prospecting channels.",
+          "Built executive-level dashboards and performance reports using Adobe Analytics and Report Builder, delivering clear and actionable insights for stakeholders.",
+          "Led creation of monthly and daily traffic targets and detailed traffic planning for all digital channels and categories.",
+          "Acted as Single Point of Contact for all ad-hoc marketing analytics, data requests, and performance deep-dives across Adobe Analytics and marketing metrics.",
+          "Conceptualized and operationalized a customer segmentation framework enabling CRM channels to convert recent buyers into high-frequency customers.",
+          "Directed analytics-driven transformation projects including automation of daily MIS reporting using Data Studio and Tableau, and continuous industry and competitor benchmarking.",
+          "Transformed Campaign Capabilities: Delivered a major transformation project to enhance Vodafone India's campaign capabilities across various outbound/inbound conventional and digital channels, resulting in an increase in campaign reach and engagement.",
+          "Awarded “Best Employee”: Conferred with the “Best Employee Award” for outstanding performance in the FlyTxt Rollout Work, recognizing exceptional contributions and achievements."
+        ],
+        "sub_sections": [
+          "Marketing Analytics, Technology & Decision Enablement",
+          "Transformation and Recognition"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Executive-Technical & Strategy Consulting",
+        "company": "",
+        "location": "Mumbai",
+        "start": "Nov 2004",
+        "end": "May 2007",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 31,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Executive- Information",
+        "company": "",
+        "location": "Mumbai",
+        "start": "Mar 2003",
+        "end": "Nov 2004",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 21,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 22.4,
+      "total_months": 269,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.88
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "2013 | MBA in Marketing | JBIMS, Mumbai | 2002 | B.Com. | ICL Motilal Jhunjhunwala College, Mumbai",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Marketing",
+        "institution": "ICL Motilal Jhunjhunwala College Mumbai TECHNICAL FORTE",
+        "year": "2002",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Delivered multiple enterprise transformation programs on time and within budget.",
+      "Accelerated revenue growth and improved forecast accuracy through analytics-led strategy.",
+      "Increased cross-sell penetration and customer engagement across digital and assisted channels.",
+      "Built scalable marketing and analytics engines supporting long-term business growth."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

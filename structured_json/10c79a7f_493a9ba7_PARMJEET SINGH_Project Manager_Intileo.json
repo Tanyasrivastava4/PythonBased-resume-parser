@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "source_file": "10c79a7f_493a9ba7_PARMJEET SINGH_Project Manager_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:53.435224+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "projects",
+      "roles_responsibilities",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Parmjeet Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "parmjeetsingh22@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918076949086",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "ariasyasociados.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "• Seasoned Software Engineer and Team Lead with over 13 years of expertise in PHP and full-stack web application development, adept at building scalable,\nrobust solutions using frameworks like Laravel, CakePHP and node.js, complemented by front-end technologies such as React.js and JavaScript.\n• Insightful Project Management professional with extensive experience in directing cross-functional teams and managing all project phases—planning, design,\nscope definition, estimation, and resource administration—while consistently delivering high-quality results within strict time and budgetary constraints.\n• Skilled in leading end-to-end software development lifecycle (SDLC) for multiple projects, including requirements gathering, design, development,\ntesting, deployment, and maintenance, ensuring high-quality deliverables and timely project completion.\n• Proficient in database architecture and optimization, leveraging both relational (MySQL, MariaDB, MS SQL Server) and NoSQL (MongoDB)\ntechnologies to ensure high performance, data integrity, and seamless application integration.\n• Experienced in cloud infrastructure management and deployment, utilizing AWS services—including EC2, RDS, S3, and SNS—to develop secure,\nscalable SaaS platforms that enhance operational efficiency and reliability.\n• Dynamic team leader and problem solver with a strong focus on mentorship, task allocation, and progress monitoring, driving collaborative work\nenvironments that enhance productivity, while continuously adapting to emerging technologies and evolving project requirements to maximize\nbusiness impact.",
+  "skills": {
+    "items": [
+      ".NET",
+      "AWS",
+      "AWS EC2",
+      "AWS RDS",
+      "AWS S3",
+      "AWS SNS",
+      "Agile",
+      "C#",
+      "C++",
+      "Client Relationship Management",
+      "Code Reviews",
+      "CodeIgniter",
+      "Cross-functional Collaboration",
+      "Decision Making",
+      "HTML5",
+      "IT Infrastructure Management",
+      "Interpersonal Skills",
+      "Java",
+      "JavaScript",
+      "Joomla",
+      "Laravel",
+      "Leadership",
+      "Linux",
+      "MERN Stack",
+      "MSSQL",
+      "MariaDB",
+      "Mentoring",
+      "Microsoft Access",
+      "Microsoft Teams",
+      "Microsoft Windows",
+      "MongoDB",
+      "MySQL",
+      "Negotiation",
+      "NoSQL",
+      "Node.js",
+      "Operations Management",
+      "PHP",
+      "PMP",
+      "Performance Optimization",
+      "Professional Ethics",
+      "Quality Assurance",
+      "React",
+      "Requirements Gathering",
+      "SDLC",
+      "SQLite",
+      "Scrum",
+      "Shopify",
+      "Team Leadership",
+      "Technical Writing",
+      "Ubuntu",
+      "WordPress",
+      "XML",
+      "jQuery"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET",
+        "C#",
+        "C++",
+        "Java",
+        "JavaScript",
+        "PHP"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS RDS",
+        "AWS S3",
+        "AWS SNS"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "PMP",
+        "Scrum"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "dev_tool": [
+        "Code Reviews",
+        "Performance Optimization"
+      ],
+      "web_framework": [
+        "CodeIgniter",
+        "HTML5",
+        "Joomla",
+        "Laravel",
+        "MERN Stack",
+        "Node.js",
+        "React",
+        "XML",
+        "jQuery"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Decision Making",
+        "Interpersonal Skills",
+        "Leadership",
+        "Mentoring",
+        "Negotiation",
+        "Team Leadership"
+      ],
+      "it_ops": [
+        "IT Infrastructure Management"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows",
+        "Ubuntu"
+      ],
+      "database": [
+        "MSSQL",
+        "MariaDB",
+        "Microsoft Access",
+        "MongoDB",
+        "MySQL",
+        "NoSQL",
+        "SQLite"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Operations Management",
+        "Quality Assurance"
+      ],
+      "soft_skills": [
+        "Professional Ethics"
+      ],
+      "business_analysis": [
+        "Requirements Gathering"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "retail": [
+        "Shopify"
+      ],
+      "content": [
+        "Technical Writing",
+        "WordPress"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Core Java→Java(100%), HTML→HTML5(100%), MS Access→Microsoft Access(100%), Ethics→Professional Ethics(100%), Requirement Gathering→Requirements Gathering(98%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Engineer – Team Lead",
+        "company": "LWD: 31/10/2025",
+        "location": null,
+        "start": "Aug 2017",
+        "end": "Oct 2025",
+        "method": "date_regex+pipe_split",
+        "duration_months": 99,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Billing Section",
+        "location": "New Delhi",
+        "start": "Mar 2005",
+        "end": "Jun 2011",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 76,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 14.6,
+      "total_months": 175,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Engineering (Electronics & Communication)",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics & Communication",
+        "institution": "Electronics & Communication M.D. University (C.R. State College of Engineering",
+        "year": "2004",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Software Development Life Cycle (SDLC)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Requirement Gathering & Analysis",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Cross-functional Collaboration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "PHP & Laravel Framework",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Agile & Scrum Methodologies",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Performance Optimization",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "React.js Development (MERN)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Code Review & Quality Assurance",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Technical Documentation",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Database Design & Management",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Client Relationship Management",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Troubleshooting & Debugging",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "source_file": "5d9b7e38_f81ecbf4_Naukri_YogitaGaikwad[5y_5m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:45.931075+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Yogita Gaikwad",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "yogitagaikwad2904@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9004232736",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Conditional Formatting",
+      "Financial Analysis",
+      "HLOOKUP",
+      "MIS Reporting",
+      "MS Office",
+      "Microsoft Excel",
+      "Pivot Tables",
+      "VLOOKUP"
+    ],
+    "by_category": {
+      "software": [
+        "Conditional Formatting",
+        "HLOOKUP"
+      ],
+      "finance_ops": [
+        "Financial Analysis"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Pivot Tables"
+      ],
+      "office": [
+        "VLOOKUP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Advanced Excel→Microsoft Excel(100%), Pivot Table→Pivot Tables(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "NOVAC mis executive cum finance",
+        "company": "Notice Period : 15 Days or less",
+        "location": null,
+        "start": "Oct 2020",
+        "end": "Nov 2024",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 50,
+        "bullets": [
+          "fixed deposit related data handling and payment related queries data entry make",
+          "as an mis executive making reports using various formulas vlookup,hlookup,sumif,countif,sumifs,countifs,index- match,conditional formatting,pivot,datedif and etc.. adavance excel,Outlook. no 0"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.2,
+      "total_months": 50,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Commerce (B.Com) (Commerce)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Commerce Mumbai University",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Yogita",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

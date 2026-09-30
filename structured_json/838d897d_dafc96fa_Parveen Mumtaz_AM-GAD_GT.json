@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "source_file": "838d897d_dafc96fa_Parveen Mumtaz_AM-GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:28.650043+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Parveen Mumtaz",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "caparveenmumtaz@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8985457525",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with 8.5 years of auditing experience, including 3.5 years of post-\nqualification tenure at a Big Four firm and 5 years of pre-qualification experience(including\nArticleship of 3 years). Seeking a dynamic role in a reputed organization where I can continuously\nexpand my expertise, contribute meaningfully to organizational success and skilled in financial\nstatement analysis, risk assessment, walkthrough, control testing and compliance with various\naccounting standards.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Auditing",
+      "Collaboration",
+      "Communication",
+      "Control Testing",
+      "Financial Statement Analysis",
+      "GAAP",
+      "IFRS",
+      "Ind AS",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Microsoft Word",
+      "Power BI",
+      "Problem Solving",
+      "Risk Assessment",
+      "Risk Management",
+      "SAP",
+      "Team Leadership",
+      "Time Management",
+      "Tutoring"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "GAAP",
+        "IFRS"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Problem Solving",
+        "Team Leadership",
+        "Time Management"
+      ],
+      "finance": [
+        "Control Testing",
+        "Financial Statement Analysis",
+        "Ind AS"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Teams",
+        "Microsoft Word"
+      ],
+      "data_science": [
+        "Power BI"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "education_domain": [
+        "Tutoring"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(communication.→Communication(96%), coaching→Tutoring(100%), teams→Microsoft Teams(100%), teams.→Microsoft Teams(91%), Excel→Microsoft Excel(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Associate",
+        "company": "PricewaterhouseCoopers SDC Pvt. Ltd",
+        "location": null,
+        "start": "6/2022",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 52,
+        "bullets": [
+          "Coordinate & Spearheaded 5+ audit engagements for prominent US listed clients in the Product and service sector, in Health and Education industries, achieving a 100% satisfaction rate.",
+          "Served as a main point of contact from team, achieved 100% timely delivery rate by efficient task allocation, daily check in and workflow management.",
+          "Boosted seamless collaboration by maintaining regular client and Onshore team interaction, aligning audit objectives with client priorities Engaged in regular interaction.",
+          "Actively involved in all stages of engagement, from planning to execution, review, completion and reporting. Conducted risk assessment, scoping determination and other various work papers i.e terms of Engagement, Understanding the entity and its environment, Internal controls implemented (COSO), independence procedures, Analytics and Materiality and SOC audit.",
+          "Conducted client walkthroughs, identifying key risks and ensuring thorough audit coverage and testing controls. Financial Analysis and Substantive Testing:",
+          "Analyzed balance sheets and income statements, evaluated significant variances.",
+          "Conducted substantive analytics and testing on various financial statement lines, ensuring accuracy of balances.",
+          "Summarized findings from key client documents like board minutes, internal audit reports, contracts, and legal letters, tracing unusual transaction and enhancing report comprehensiveness.",
+          "Performed and reviewed tie-outs (Internal Consistency, Mathematical Accuracy, Prior period checks) for financial statement line items. Engagement Completion and Reporting:",
+          "Activly involved in Finalizing audit reports along with onshore team, and other completion workpapers ensuring adherence to disclosure requirements."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Paid Assistant",
+        "company": "MKPR & Associates",
+        "location": null,
+        "start": "03/2020",
+        "end": "4/2022",
+        "method": "date_regex+title_dict",
+        "duration_months": 26,
+        "bullets": [
+          "Led a team for Stat audit of a PSU and Banks.",
+          "Prepared project reports for financing.",
+          "Responsible for company audits and tax audits, training staff on auditing methodology and reports.",
+          "Financial Accounting & Reporting: Assisted in the meticulous compilation of annual financial statements, managed fixed assets, investment schedules, variance analysis, and bank reconciliations.",
+          "Audit: Conducted statutory audits of banks, trusts, and companies, ensuring strict compliance, comprehensive analysis of financial statements and offering valuable recommendations for improvement.",
+          "Taxation: Provided support in tax representations, complex filings, Tax Audit report preparation, GST filings, reconciliations, and other tax-related tasks."
+        ],
+        "sub_sections": [
+          "Articled Assistant",
+          "Durga Prasad & Associates",
+          "Completed Article ship on 24th JUNE 2016 from DURGA PRASAD ASSOCIATES a reputed Chartered",
+          "Accountant firm of having more than 34 years of existence."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.5,
+      "total_months": 78,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "The Institute of Chartered Accountant",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "CA The Institute of of India",
+        "year": "2021",
+        "gpa": "51%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• PG(Diploma) in Business Managment",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": null,
+        "institution": "Business Managment Osmania University, Hyderabad",
+        "year": "2015",
+        "gpa": "78%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Osmania University, Hyderabad",
+        "year": "2014",
+        "gpa": "85%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Received spot territory awards and extra miler",
+      "Showcasing dedication and excellence in project",
+      "delivery.",
+      "Recognized for Deliver Quality, Work Together,",
+      "Deliver Value, and regularly appreciated by",
+      "seniors and Onshore team.",
+      "Demonstrating a strong commitment to",
+      "professional excellence.",
+      "Optimized Team Workflows",
+      "Managed cross-functional teams, ensuring timely",
+      "delivery of audit engagements."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

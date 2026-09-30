@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "source_file": "d4b71010_e0362a40_Dushyant Goyal_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:27.889870+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Dushyant Goyal",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "goyaldushyant1611@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9650914837",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/dushyant-goyal-6545a4251",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "AI-focused Software Engineer with hands-on experience in Machine Learning, Deep Learning, NLP, and\nLLM-based systems. Proficient in Python, PyTorch, LangChain, LangGraph, RAG pipelines, and Django\nREST Framework. Experienced in building AI agents, model training, resume-parsing pipelines, and\ninterview automation platforms. Strong background in backend APIs and production-ready AI workflows.",
+  "skills": {
+    "items": [
+      "ANN",
+      "Agentic AI",
+      "C++",
+      "Chroma",
+      "Dart",
+      "Data Analysis",
+      "Deep Learning",
+      "Django",
+      "Docker",
+      "Embeddings",
+      "FastAPI",
+      "Feature Engineering",
+      "Firebase",
+      "Git",
+      "GitHub",
+      "Google Workspace",
+      "Java",
+      "JavaScript",
+      "Jupyter",
+      "Kotlin",
+      "LLM",
+      "LangChain",
+      "LangGraph",
+      "Machine Learning",
+      "Microsoft Excel",
+      "MongoDB",
+      "NLP",
+      "Pivot Tables",
+      "Prompt Engineering",
+      "PyTorch",
+      "Python",
+      "Qdrant",
+      "RAG",
+      "REST",
+      "React",
+      "Reporting",
+      "SQL",
+      "Transformers",
+      "VS Code",
+      "XLOOKUP",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "ANN",
+        "Chroma",
+        "Deep Learning",
+        "Embeddings",
+        "Machine Learning",
+        "NLP",
+        "PyTorch",
+        "scikit-learn"
+      ],
+      "genai": [
+        "Agentic AI",
+        "LLM",
+        "LangChain",
+        "LangGraph",
+        "Prompt Engineering",
+        "RAG"
+      ],
+      "programming_language": [
+        "C++",
+        "Dart",
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Python"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "Feature Engineering",
+        "Transformers"
+      ],
+      "web_framework": [
+        "Django",
+        "FastAPI",
+        "React"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "database": [
+        "Firebase",
+        "MongoDB",
+        "SQL"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Jupyter",
+        "VS Code"
+      ],
+      "productivity": [
+        "Google Workspace",
+        "Microsoft Excel",
+        "Pivot Tables"
+      ],
+      "search": [
+        "Qdrant"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ],
+      "software": [
+        "XLOOKUP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Unsupervised Learning→Machine Learning(100%), Neural Networks→ANN(100%), Retrieval-Augmented Generation→RAG(100%), Scikit-Learn→scikit-learn(100%), Django REST Framework→Django(95%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "AI Associate Remote",
+        "company": "Sensekore Technologies",
+        "location": "AI Associate Remote",
+        "start": "January 2025",
+        "end": "December 2025",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 12,
+        "bullets": [
+          "Built AI-driven applications using Machine Learning, Deep Learning concepts, LLMs, and LangChain Designed Retrieval-Augmented Generation (RAG) pipelines for document search, semantic retrieval, and intelligent Q&A Integrated Google Gemini API, vector databases (Chroma, Qdrant), and embeddings for chatbot intelligence Worked on resume parsing, NLP-based information extraction, interview automation, and workflow orchestration Applied prompt engineering, Python scripting, and LLM tool calling for real-world AI agents Contributed to intelligent interview assistant systems with contextual memory and multi-step reasoning"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Android Development Intern Noida",
+        "company": "Tecxon Technology",
+        "location": "Android Development Intern Noida",
+        "start": "May 2024",
+        "end": "July 2024",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 3,
+        "bullets": [
+          "Developed Android applications focused on ride-sharing and productivity platforms Designed UI using XML and Jetpack components for responsive user experience"
+        ],
+        "sub_sections": [
+          "Integrated Firebase Authentication, Firestore, REST APIs",
+          "Collaborated on feature development, bug fixes, and performance optimization",
+          "Tech Stack: Java, Kotlin, Android Studio, Firebase, REST APIs"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Android Development Intern Noida",
+        "company": "Aptron Android Certificate",
+        "location": null,
+        "start": "06/2022",
+        "end": "10/2022",
+        "method": "date_regex+inherited_role",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.7,
+      "total_months": 20,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Mastero fComputer Applications (MCA)",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Mastero fComputer Applications Vivekananda Institute of Professional Studies",
+        "year": "2023 - 2025",
+        "gpa": "92%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "BCA Maharshi Dayanand University Haryana",
+        "year": "2020 - 2023",
+        "gpa": "86%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Senior Secondary (Class XII)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "XII CBSE Board",
+        "year": "2019 - 2020",
+        "gpa": "86%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "NPTEL Machine Learning Certificate",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "IBM CSRBOX Certificate",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.7
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

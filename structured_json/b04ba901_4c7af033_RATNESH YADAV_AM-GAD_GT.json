@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "source_file": "b04ba901_4c7af033_RATNESH YADAV_AM-GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T07:00:05.060302+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ratnesh Yadav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ratnesh.yadav81300@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8920381577",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "❖ Seasoned Chartered Accountant with 3 years of extensive experience in conducting internal audits, ensuring compliance, and\nmanaging enterprise risk\n❖ Demonstrated proficiency in performing Internal audits, analyzing financial data, and enhancing operational processes\n❖ Proficient in effectively managing clients and stakeholders, providing strong leadership, and developing strategic plans\n❖ Distinguished capabilities of developing frameworks for enhancing Risk & Governance functions, studying the\nprocess/division/business goals and facilitating decision-making process\n❖ Skilled in driving financial & commercial accounting and finalization of accounts\n❖ Highly skilled in utilizing MS Office, Lucid flowchart, IT software (Genius), Tally and SAP for efficient data management and analysis\n❖ Exceptional ability to manage time effectively and maintain a goal-driven mindset",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Auditing",
+      "Communication",
+      "Cost Analysis",
+      "Data Management",
+      "Leadership",
+      "Lucidchart",
+      "MIS Reporting",
+      "MS Office",
+      "Process Improvement",
+      "Risk Management",
+      "SAP",
+      "Statutory Audit",
+      "Tally",
+      "Workshop Facilitation"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Cost Analysis",
+        "Statutory Audit",
+        "Tally"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Leadership"
+      ],
+      "productivity": [
+        "Data Management",
+        "MS Office"
+      ],
+      "design": [
+        "Lucidchart"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "operations": [
+        "Process Improvement"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "consulting": [
+        "Workshop Facilitation"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), Communications→Communication(96%), facilitating→Workshop Facilitation(92%), accounting→Accounting(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant Manager",
+        "company": "Deloitte Touche Tohmatsu India LLP",
+        "location": "New Delhi",
+        "start": "Nov’23",
+        "end": "Present",
+        "method": "date_regex+pipe_split",
+        "duration_months": 35,
+        "bullets": [
+          "Conducted detailed internal audits and reviewed the effectiveness of internal controls in major areas, ensuring compliance with industry standards and regulations",
+          "Prepared comprehensive audit reports, including process flowcharts and analysis of general ledger and expenses, providing valuable insights for process improvement and cost optimization",
+          "Created audit committee decks and conducted trend analysis of expenses and income",
+          "Tracked and assessed the existing internal controls and made recommendations on the same",
+          "Drafted audit reports and finalized the same to reflect the audit results and documentation process",
+          "Prepared Audit Committee Deck and reviewed GL & nature of expenses expense",
+          "Performed trend analysis of expenses and income",
+          "Conducted test of design and test of control to assess and verify the effectiveness and implementation of internal controls. Key Audit Assignments Handled:",
+          "Jubilant Pharmova limited",
+          "Jubilant Therapeutics India Limited and US Subsidiaries.",
+          "Toppan Specialty Film Private Limited"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Executive",
+        "company": "❖ Saurav Chemicals Limited",
+        "location": null,
+        "start": "Sep’22",
+        "end": "Sep’23",
+        "method": "date_regex+pipe_split",
+        "duration_months": 13,
+        "bullets": [
+          "Conducted detailed internal audits and reviewed the effectiveness of internal controls in major areas, ensuring compliance with industry standards and regulations",
+          "Prepared comprehensive audit reports, including process flowcharts and analysis of general ledger and expenses, providing valuable insights for process improvement and cost optimization",
+          "Created audit committee decks and conducted trend analysis of expenses and income",
+          "Performed audits of various processes as per the “Scope of Work”, like: Hire to Retire, Order- To- Cash, Statutory Compliances,",
+          "Tracked and assessed the existing internal controls and made recommendations on the same",
+          "Drafted audit reports and finalized the same to reflect the audit results and documentation process",
+          "Prepared Audit Committee Deck and reviewed GL & nature of expenses expense",
+          "Performed trend analysis of expenses and income Key Audit Assignments Handled:",
+          "Britannia Industries Limited",
+          "Sopra Steria India Private Limited",
+          "Linxon India Private Limited"
+        ],
+        "sub_sections": [
+          "Procurement- To- Pay"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Naresh K. Gupta & Co., Chartered Accountant, New Delhi",
+        "company": "ARTICLESHIP",
+        "location": null,
+        "start": "Mar’15",
+        "end": "Sep’17",
+        "method": "date_regex+pipe_split",
+        "duration_months": 31,
+        "bullets": [
+          "Assisted in the computation of income and filing of income tax returns for various assesses, ensuring accurate and timely compliance with tax regulations",
+          "Conducted tax audits and assisted in the preparation of financial statements, providing valuable support in ensuring accurate financial reporting and compliance"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Kumar Piyush & Co., Chartered Accountant, New Delhi",
+        "company": "❖ Supported in ROC annual filings for companies and LLPs",
+        "location": null,
+        "start": "Jun’14",
+        "end": "Dec’14",
+        "method": "date_regex+pipe_split",
+        "duration_months": 7,
+        "bullets": [
+          "Assisted in the preparation of Income Tax returns and filing of TDS returns, ensuring compliance with tax laws and regulations",
+          "Assisted in the preparation of financial statements and ROC annual filings"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.2,
+      "total_months": 86,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.91
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Chartered Accountant, The Institute of Chartered Accountants of",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "The Institute of Chartered Accountants of High Business Ethics India",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Com., Veer Bahadur Singh Paranuchal University Jaunpur, 2013",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Veer Bahadur Singh Paranuchal University Jaunpur",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th, Shibli National Inter College (UP Board), 2010",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Shibli National Inter College (UP Board)",
+        "year": "2010",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "10th, Ghandhi Inter College (UP Board), 2008",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Ghandhi Inter College (UP Board)",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "❖ Advanced Integrated Course on Information Technology and Soft Skills (AICITSS) – July",
+        "issuer": null,
+        "year": "2022",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "❖ General Management Communications Skills Program (GMCS) - Aug.",
+        "issuer": null,
+        "year": "2022",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "❖ Information Technology Training (ITT) – July",
+        "issuer": null,
+        "year": "2013",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "❖ Orientation Program – Dec.",
+        "issuer": null,
+        "year": "2013",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "❖ Exemption in 2 papers in CA final",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.72
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.72,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

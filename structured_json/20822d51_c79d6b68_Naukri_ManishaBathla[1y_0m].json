@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "source_file": "20822d51_c79d6b68_Naukri_ManishaBathla[1y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:06.161162+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Cs Manisha Bathla",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "manishabathla8@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7827882814",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Qualified Company Secretary with hands-on experience in corporate law, secretarial\ncompliance, legal drafting, governance support, ROC filings, and FEMA regulations. Proficient\nin company incorporations, capital restructuring, and regulatory submissions. Known for\naccuracy, timely execution, and strong problem-solving skills. Seeking to contribute legal and\ncompliance expertise to a growth-oriented organization.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Corporate Law",
+      "DSC",
+      "ERP",
+      "Financial Reporting",
+      "GST",
+      "Income Tax Return",
+      "KYC",
+      "Problem Solving",
+      "RBI",
+      "ROC Filing",
+      "Tally",
+      "Taxation"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Financial Reporting",
+        "Tally",
+        "Taxation"
+      ],
+      "legal": [
+        "Corporate Law",
+        "KYC"
+      ],
+      "instrumentation": [
+        "DSC"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "finance": [
+        "Income Tax Return",
+        "ROC Filing"
+      ],
+      "soft_skill": [
+        "Problem Solving"
+      ],
+      "domain": [
+        "RBI"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(ROC filings→ROC Filing(95%), problem-solving→Problem Solving(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Incorporation of Private Companies, Public Companies, Section 8 Companies and LLPs.",
+        "location": null,
+        "start": "June 19, 2024",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 28,
+        "bullets": [
+          "CS Trainee — Tarun Goel & Associates (Practicing Company Secretary Firm),",
+          "Conversion of LLP into Private Company.",
+          "Change of Name of the company.",
+          "Increase in Authorized Share Capital and Paid up share capital of the companies by way of Right issue and Private Placement of shares.",
+          "Alteration of Memorandum of Association (MOA) and Alteration of Articles of Association (AOA).",
+          "Appointment and Re-appointment of Directors and Key Managerial Personnels of the",
+          "Shifting of Registered Office of the Company.",
+          "Complied with the provisions of the appointment of Statutory Auditors, Internal Auditor, Secretarial Auditors and Cost Auditors of the Company",
+          "Drafted notices, agenda, minutes and other relevant documents for conducting Board meetings and other Committee Meetings and Annual General Meeting of companies.",
+          "Annual filing for Companies and LLPs including XBRL filings.",
+          "Compliance of KYC of Director by DIR- 3KYC.",
+          "Drafted & vetted Non-Disclosure Agreements, Contractual agreements, Power of Attorney, Lease deed etc.",
+          "Strike-off of companies",
+          "Transfer/Split of shares & debentures.",
+          "Registration of Business User and Entity User on RBI FIRMS Portal.",
+          "Filing of FC-GPR, FC-TRS and other FEMA-related forms.",
+          "Filing of FLA (Foreign Liabilities and Assets) Return.",
+          "Assisted in FEMA Compounding applications.",
+          "GST Registration, Amendments and Returns Filing.",
+          "Filing of Income Tax Returns.",
+          "Liaisoning with GST and Income Tax Departments."
+        ],
+        "sub_sections": [
+          "Ghaziabad for 21 Months",
+          "DETAILED RESPONSIBILITIES & EXPERIENCE",
+          "Corporate & ROC Compliance",
+          "Company",
+          "FEMA & RBI Compliance",
+          "Taxation, GST & Other Filings"
+        ],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.3,
+      "total_months": 28,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.55
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Qualified Company Secretary & Member of Institute of Company Secretaries of India | 2024",
+        "degree_name": "CS",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Qualified & Member of Institute of Company Secretaries of India",
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• LL.B. (Pursuing)- Dr. Bhimrao Ambedkar Law University, Jaipur | 2025",
+        "degree_name": "LLB",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Pursuing)- Dr. Bhimrao Ambedkar Law University Jaipur",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• M.Com- CCS University| 2020",
+        "degree_name": "M.Com",
+        "degree_type": "masters",
+        "degree_field": "CCS University",
+        "institution": "CCS University",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• B.Com- CCS University University | 2018",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "CCS University University",
+        "institution": "CCS University University",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• 12th (CBSE)- CBSE Board, | 2015",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "CBSE",
+        "institution": "CBSE",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• 10th (CBSE)- CBSE Board | 2013",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "CBSE",
+        "institution": "CBSE",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Start-Up Registration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "DSC Registration & Renewal",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "DIN Application & Modification",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Trademark Registration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "MSME, IEC & NITI Aayog-Darpan Registration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "PF/ESI Registration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "FSSAI Basic/State/Central License",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Shop & Establishment Registration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "80G & 12A Registration (Income Tax Act)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "RERA Agent Registration",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Financial & Accounting Support",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Assisted with preparation of Financial Statements for Companies, LLPs, and Firms.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Working knowledge of Tally Prime & Telly ERP-9.0",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Secured 23rd Joint Rank (AIR 23) in Foundation Programme of ICSI."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.79
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.55,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

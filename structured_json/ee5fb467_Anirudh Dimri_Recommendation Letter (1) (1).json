@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "source_file": "ee5fb467_Anirudh Dimri_Recommendation Letter (1) (1)_segmented.txt",
+    "generated_at": "2026-09-30T07:00:42.952127+00:00",
+    "sections_found": [
+      "experience",
+      "header"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Recommendation Letter",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "info@data-hat.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+44771-996-9113",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "data-hat.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "API Design",
+      "Agentic AI",
+      "Agile",
+      "Data Preprocessing",
+      "Mechanical Engineering",
+      "Problem Solving",
+      "SAN",
+      "Vector Databases"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Vector Databases"
+      ],
+      "project_mgmt": [
+        "Agile"
+      ],
+      "data_engineering": [
+        "Data Preprocessing"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "soft_skill": [
+        "Problem Solving"
+      ],
+      "storage": [
+        "SAN"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

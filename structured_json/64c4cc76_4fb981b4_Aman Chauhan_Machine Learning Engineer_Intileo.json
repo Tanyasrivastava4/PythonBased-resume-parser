@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "source_file": "64c4cc76_4fb981b4_Aman Chauhan_Machine Learning Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:01.392715+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Senior Data Scientist with 3+ years of experience delivering end-to-end AI/ML solutions. Proven track record of architecting and deploying production-grade machine learning systems that deliver measurable business impact — including a 92% accurate sales forecasting engine, a GenAI-powered student query system that cut manual support workload by 48%, and an AI-driven LMS that boosted student engagement by 35%. Adept at leading cross-functional teams, translating complex data into actionable insights, and scaling AI products from prototype to production.",
+  "skills": {
+    "items": [
+      "A/B Testing",
+      "ANN",
+      "AWS",
+      "Boosting",
+      "CNN",
+      "Classroom Management",
+      "Cross-functional Collaboration",
+      "Data Science",
+      "Data Visualization",
+      "Deep Learning",
+      "Dimensionality Reduction",
+      "E-learning",
+      "Exploratory Data Analysis",
+      "FastAPI",
+      "Feature Engineering",
+      "GCP",
+      "GPT",
+      "Gemini",
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "GitHub Copilot",
+      "Keras",
+      "LLM",
+      "LSTM",
+      "LangChain",
+      "LightGBM",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Teams",
+      "NLP",
+      "NumPy",
+      "Pandas",
+      "Pinecone",
+      "Plotly",
+      "Power BI",
+      "Prototyping",
+      "Python",
+      "REST API",
+      "RNN",
+      "React",
+      "SQL",
+      "SciPy",
+      "Seaborn",
+      "TensorFlow",
+      "Time Series Forecasting",
+      "Transformers",
+      "Vector Databases",
+      "Vertex AI",
+      "XGBoost",
+      "jQuery",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Boosting",
+        "Data Visualization",
+        "Dimensionality Reduction",
+        "Exploratory Data Analysis",
+        "Feature Engineering",
+        "Power BI",
+        "Transformers"
+      ],
+      "ai_ml": [
+        "ANN",
+        "CNN",
+        "Data Science",
+        "Deep Learning",
+        "GPT",
+        "Keras",
+        "LSTM",
+        "LightGBM",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "Plotly",
+        "RNN",
+        "SciPy",
+        "Seaborn",
+        "TensorFlow",
+        "Time Series Forecasting",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "GCP"
+      ],
+      "education_domain": [
+        "Classroom Management",
+        "E-learning"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "web_framework": [
+        "FastAPI",
+        "REST API",
+        "React",
+        "jQuery"
+      ],
+      "genai": [
+        "Gemini",
+        "Generative AI",
+        "GitHub Copilot",
+        "LLM",
+        "LangChain",
+        "Vector Databases",
+        "Vertex AI"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "search": [
+        "Pinecone"
+      ],
+      "design": [
+        "Prototyping"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), GenAI→Generative AI(100%), OpenAI GPT→GPT(100%), Google Gemini→Gemini(100%), REST APIs→REST API(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "|  Intileo Technologies",
+        "company": null,
+        "location": "Intileo Technologies",
+        "start": "Aug 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 14,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Drove a 25%+ improvement in operational decision-making efficiency through AI-driven analytics dashboards and automated reporting pipelines. Data Scientist  |  Intileo Technologies  |     7 mos",
+        "company": null,
+        "location": "Intileo Technologies",
+        "start": "Jan 2024",
+        "end": "Jul 2025",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Delivered 50+ live training sessions on Python, Data Science, ML, and AI using project-based learning methodologies. Data Science Trainee  |  Intileo Technologies",
+        "company": null,
+        "location": "Intileo Technologies",
+        "start": "Jan 2023",
+        "end": "Dec 2023",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 45,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Technology (B.Tech)   |   APJ Abdul Kalam Technical University, Lucknow, UP   |",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "APJ Abdul Kalam Technical University Lucknow",
+        "year": "2019 - 2023",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

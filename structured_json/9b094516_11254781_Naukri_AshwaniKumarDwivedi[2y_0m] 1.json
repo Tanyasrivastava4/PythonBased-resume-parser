@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "source_file": "9b094516_11254781_Naukri_AshwaniKumarDwivedi[2y_0m] 1_segmented.txt",
+    "generated_at": "2026-09-30T06:59:49.266048+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashwani Kumar Dwivedi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ashwanidwivedi076@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-6263717559",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ashwani-kumar-dwivedi-b55b46228",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/ashwanidwivedi356",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Designed and developed a robust IT Hub Management System\nusing Python, Django, and Django REST Framework, aimed at\nstreamlining internal operations and data management for tech\ncompanies. Built secure and scalable CRUD APIs for managing\ncompany resources such as employees, projects, assets, and client\ndata. Integrated MySQL for structured data storage and optimized\ncomplex queries for fast and reliable data retrieval. Ensured\nmodular design with clean separation of concerns across models,\nviews, serializers, and permissions. Implemented role-based access\ncontrol (RBAC) using DRF’s permission classes to enforce data\nsecurity. Designed a responsive and user-friendly admin dashboard\nusing Bootstrap and Django templates for real-time monitoring\nand updates. Enabled filtered data views, search functionality, and\nrelational data management for seamless navigation and usability.\nFocused on performance, security, and maintainability, ensuring\nthe system can scale with growing business needs. \u0000 Outcome:\nDelivered a complete IT management solution that significantly\nimproved data accessibility, operational transparency, and digital\nworkflow efficiency across departments.\nGithub\n\n────────────────────────────────────────────────────────────",
+  "skills": {
+    "items": [
+      "AWS",
+      "Agentic AI",
+      "Bootstrap",
+      "Data Management",
+      "Django",
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "LLM",
+      "LangChain",
+      "Modula",
+      "MySQL",
+      "NumPy",
+      "Pandas",
+      "Python",
+      "Role-Based Access Control",
+      "Vector Databases"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Generative AI",
+        "LLM",
+        "LangChain",
+        "Vector Databases"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "Django"
+      ],
+      "productivity": [
+        "Data Management"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub"
+      ],
+      "programming_language": [
+        "Modula",
+        "Python"
+      ],
+      "database": [
+        "MySQL"
+      ],
+      "ai_ml": [
+        "NumPy",
+        "Pandas"
+      ],
+      "security_ops": [
+        "Role-Based Access Control"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MYSQL→MySQL(100%), GITHUB→GitHub(100%), GENAI→Generative AI(100%), AgenticAI→Agentic AI(100%), Langchain→LangChain(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Developer-Associate",
+        "company": "SmartSchool Education Private Limited",
+        "location": null,
+        "start": "12/2023",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 34,
+        "bullets": [
+          "\u0000 ️ SmartSchool – Feature-Rich E-commerce & Learning Platform Role : Full-Stack Developer Tech Stack: Python, Django, Django REST Framework (DRF), Bootstrap, jQuery, Celery, Redis, Docker, Docker Compose, AWS (EC2, S3, RDS, CloudFront, CloudWatch), PostgreSQL/MySQL, Django Channels, WebSockets, Pandas, NumPy, LLM, LangChain, RAG, Git, CI/CD (GitHub Actions), Stripe/Razorpay/PayPal \u0000 Key Contributions: Developed and deployed SmartSchool, a robust e-commerce and learning platform using Python, Django, and DRF, featuring scalable APIs for product management, order workflows, and real-time delivery tracking.",
+          "Implemented pagination, filtering, query optimization, and role- based access control (RBAC) using DRF permissions for secure and scalable operations.",
+          "Enhanced Django Admin for operational efficiency and integrated Razorpay, Stripe, and PayPal for seamless, secure payment transactions.",
+          "Built a responsive frontend using Django Templates, Bootstrap, and jQuery, ensuring mobile-first UI/UX.",
+          "Integrated Celery + Redis to handle background tasks (order confirmation emails, inventory sync, analytics).",
+          "Enabled real-time updates (order status, admin notifications) using Django Channels + WebSockets.",
+          "Leveraged Pandas and NumPy for generating user behavior and sales analytics dashboards.",
+          "Used LLMs and LangChain agents to build an internal AI assistant for handling support queries and summarizing user behavior using RAG pipelines.",
+          "Ensured high availability and zero-downtime deployments via Django migrations, Docker containers, and Docker Compose orchestration.",
+          "Deployed on AWS cloud using: EC2 for backend hosting S3 for static/media storage RDS (MySQL) for scalable DB CloudFront for fast content delivery CloudWatch for monitoring & logging Built and automated CI/CD pipelines using GitHub Actions, streamlining deployment and updates.",
+          "Applied advanced indexing, database tuning, and AWS backup strategies to ensure platform performance and reliability."
+        ],
+        "sub_sections": [
+          "Achievements/Tasks",
+          "Backend- Django,DRF,ORM,JWT AUTH,Pagination",
+          "Database-MYSQL",
+          "API Testing - Postman",
+          "Version Control - GIT , GITHUB",
+          "Cloud - AWS(IAM,EC2,S3,RDS)",
+          "Hosting Platform - AWS",
+          "Extra - Docker,Linux,Numpy,Pandas,LLM,Langchain,GENAI",
+          "Links:",
+          "https://www.linkedin.com/in/ashwani-kumar-dwivedi-b55b46228/",
+          "https://github.com/ashwanidwivedi356",
+          "https://github.com/ashwanidwivedi356/PharmaManagementsystem",
+          "https://github.com/ashwanidwivedi356/IT-HUB/tree/main/python with mysql",
+          "+91-6263717559",
+          "linkedin.com/in/ashwani-kumar-dwivedi-b55b46228"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "powered assistant capable of answering domain-specific questions",
+        "company": "SmartSchool Education Private Limited",
+        "location": null,
+        "start": "03/2025",
+        "end": "06/2025",
+        "method": "date_regex+inherited_company",
+        "duration_months": 4,
+        "bullets": [
+          "\u0000 Project Summary: Designed and implemented a Retrieval- Augmented Generation (RAG) based chatbot that provides accurate and context-aware answers by combining OpenAI LLMs with a vector-based document retrieval system.",
+          "Leveraged LangChain to orchestrate the LLM and vector store integration, enabling users to upload documents (PDF/TXT) and query them conversationally.",
+          "Used FAISS/ChromaDB to store document embeddings for fast semantic search.",
+          "Employed LangChain’s retrieval and chaining features to construct a dynamic question- answering pipeline.",
+          "Embedded documents using OpenAI Embeddings or HuggingFace Transformers for retrieval accuracy.",
+          "Developed a frontend using Streamlit (or API with FastAPI) for user-friendly interaction.",
+          "Added Pandas and NumPy to analyze and summarize tabular content within the documents.",
+          "Applied chunking and metadata tagging to handle large files and maintain retrieval precision. \u0000 Outcome: Delivered a fully functional GenAI- powered assistant capable of answering domain-specific questions from uploaded documents in real time — ideal for use cases like medical, legal, or academic document Q&A."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.8,
+      "total_months": 34,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master Of Computer Application",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": "2023",
+        "gpa": "95",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

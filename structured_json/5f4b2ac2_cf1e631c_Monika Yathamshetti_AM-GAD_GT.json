@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "source_file": "5f4b2ac2_cf1e631c_Monika Yathamshetti_AM-GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:58:46.890081+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mounika Yathamshetti",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "camounikayathamshetti@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+916281422241 / 2016-12-2023-04",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Data Analysis",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "QuickBooks",
+      "SAP",
+      "Tally",
+      "Zoho Books"
+    ],
+    "by_category": {
+      "data_science": [
+        "Data Analysis"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint"
+      ],
+      "finance_ops": [
+        "QuickBooks",
+        "Tally",
+        "Zoho Books"
+      ],
+      "integration": [
+        "SAP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Quick Books→QuickBooks(100%), Excel→Microsoft Excel(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Audit Manager & Article Assistant",
+        "company": "KGM & Co. Chartered Accountants",
+        "location": "Hyderabad",
+        "start": "2016-12",
+        "end": "2023-04",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 77,
+        "bullets": [
+          "Performed internal audits for the industries (Logistics, Automobile, Construction), covering all the major processes.",
+          "Conducted audits and prepared audit reports for statutory, GST, inventory, and tax audits in accordance with the law.",
+          "Prepared financial statements, consolidated financial statements for companies (including ROC filings), LLPs, and partnership firms.",
+          "Independently designed audit program's and handled around 5 team members in conducting the audit."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.4,
+      "total_months": 77,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2017",
+        "gpa": "51%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA IPCC",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": null,
+        "gpa": "55%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "CA-Final Secured 62 marks in FR and 68 marks in SFM and 60 in Risk",
+      "Management paper.",
+      "CA-IPCC 78 marks in Advanced Accounts and 62 in Accounts."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,39 @@
+======================================================================
+FILE: ecc5e124_e35eb77d_Naukri_priyanshKurmi[4y_5m]_segmented.txt
+======================================================================
+Sections found : ['education', 'experience', 'header', 'projects', 'skills']
+Overall conf.  : 0.88
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Priyansh Kurmi  (conf 0.9, regex)
+  email     : priyanshpatel360@gmail.com  (conf 0.99, regex)
+  phone     : +91-7318019209  (conf 0.95, regex)
+  linkedin  : linkedin.com/in/priyansh-kurmi  (conf 0.99, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SKILLS (24) — confidence 0.92
+----------------------------------------------------------------------
+AWS, AWS Athena, AWS EC2, AWS S3, AWS SNS, Apache Airflow, Apache Kafka, Apache Spark, Azure, Data Warehousing, Databricks, ETL, Electronic Health Records, GDPR, MongoDB, MySQL, PostgreSQL, PySpark, Python, Query Optimization, Redshift, Role-Based Access Control, SQL, Snowflake
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.75
+Total experience: 4.8 years (57 months, 1 overlaps merged)
+----------------------------------------------------------------------
+  1. | SMTS @ Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90% (Mar, 2025 - Apr, 2026) [conf 0.7, review=True]
+  2. requirement analysis to testing, supporting millions of rows per fact table. Data Product Engineer, Nuclei | Bengaluru @ Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90% (Jan, 2023 - Mar, 2025) [conf 0.85, review=True]
+  3. p95 query time by 30%. Data Analyst, Nuclei | Bengaluru @ Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and reducing churn by 40%. (Aug, 2021 - Dec, 2022) [conf 0.7, review=True]
+
+EDUCATION (0) — confidence 0.0
+----------------------------------------------------------------------
+
+CERTIFICATIONS (0) — confidence 0.0
+----------------------------------------------------------------------
+
+REVIEW QUEUE (4 flagged fields)
+----------------------------------------------------------------------
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  education                           conf=0.0  reason=section_present_but_empty

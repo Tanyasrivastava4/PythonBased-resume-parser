@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "source_file": "dc22f883_64ee4adf_Aman Bhatnagar_resume_segmented.txt",
+    "generated_at": "2026-09-30T07:00:31.759473+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aman Bhatnagar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "amanbhatnagar05@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919870563849 / 2020886",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/aman-bhatnagar-75bb0b249",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/drive/folders/1WovkLxburb_SCKPNOk7YndI9v2Z2kPef",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Bloomberg Terminal",
+      "Comps",
+      "Conflict Resolution",
+      "Cross-functional Collaboration",
+      "DCF",
+      "Equities",
+      "Factor Risk",
+      "Financial Analysis",
+      "Google",
+      "Leadership",
+      "LinkedIn",
+      "Management Consulting",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Options & Futures",
+      "Recruitment",
+      "Report Writing",
+      "Risk Management",
+      "Time Series Forecasting"
+    ],
+    "by_category": {
+      "finance": [
+        "Bloomberg Terminal",
+        "Comps",
+        "DCF",
+        "Equities",
+        "Factor Risk",
+        "Options & Futures"
+      ],
+      "soft_skill": [
+        "Conflict Resolution",
+        "Cross-functional Collaboration",
+        "Leadership"
+      ],
+      "finance_ops": [
+        "Financial Analysis"
+      ],
+      "database": [
+        "Google"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "consulting": [
+        "Management Consulting"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint"
+      ],
+      "hr": [
+        "Recruitment"
+      ],
+      "content": [
+        "Report Writing"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(PowerPoint→Microsoft PowerPoint(100%), Bloomberg→Bloomberg Terminal(100%))"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Cleared level 1 of CFA",
+        "degree_name": "CFA",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ITL Public School Dwarka",
+        "year": "2020",
+        "gpa": "88.6%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CFA Institute",
+        "degree_name": "CFA",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Shaheed Bhagat Singh College",
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      }
+    ],
+    "_confidence": 0.75
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "2.The Valuation School- Technical Analysis Certification",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "3.NISM XV- Research Analyst Certification",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "4.JP Morgan Chase&Co- Commercial Bank job Simulation (Forage)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "TECHNICAL AND 1.Tools: MS Excel (Advanced), PowerPoint, Bloomberg (Basic)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "OTHER SKILL 2.Financial Skills: Financial Modeling, DCF, Relative Valuation, Forecasting",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "3.Research: Equity Research, Industry/Company Analysis, Report Writing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/aman-bhatnagar-75bb0b249/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://drive.google.com/drive/folders/1WovkLxburb_SCKPNOk7YndI9v2Z2kPef",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.62
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.81
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    },
+    {
+      "field": "education.entries[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.62,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

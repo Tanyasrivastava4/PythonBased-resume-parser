@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "source_file": "3f54532b_Amol Sake_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:24.402966+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "personal_details",
+      "skills",
+      "strengths",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Amol Sake",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "amolsake007@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919503581428",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "• Overall, 11 Years of experience in Telecom and Networking. To work with an organization which will give an\nexcellent working environment and a challenging job where I can learn continuously and add value to myself as\nwell as to the organization.",
+  "skills": {
+    "items": [
+      "Analytical Thinking",
+      "Change Management",
+      "Facebook",
+      "Firewall",
+      "Google",
+      "Grafana",
+      "HPSM",
+      "Huawei",
+      "Mentoring",
+      "Microsoft Teams",
+      "Networking",
+      "Postman",
+      "Process Improvement",
+      "PuTTY",
+      "Root Cause Analysis",
+      "Route",
+      "Standard Operating Procedures",
+      "Team Leadership",
+      "Telecom",
+      "Wireshark",
+      "Zendesk"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Analytical Thinking",
+        "Mentoring",
+        "Team Leadership"
+      ],
+      "project_mgmt": [
+        "Change Management"
+      ],
+      "web_framework": [
+        "Facebook"
+      ],
+      "security_ops": [
+        "Firewall"
+      ],
+      "database": [
+        "Google"
+      ],
+      "devops": [
+        "Grafana"
+      ],
+      "itsm": [
+        "HPSM"
+      ],
+      "hardware": [
+        "Huawei"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "dev_tool": [
+        "Postman",
+        "PuTTY"
+      ],
+      "operations": [
+        "Process Improvement",
+        "Root Cause Analysis"
+      ],
+      "cloud_infra": [
+        "Route",
+        "Wireshark"
+      ],
+      "management": [
+        "Standard Operating Procedures"
+      ],
+      "domain": [
+        "Telecom"
+      ],
+      "support": [
+        "Zendesk"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Networking.→Networking(95%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "as a Assistant Manager",
+        "company": "Handling priority escalations email from client, so that end user is not impacted with the service provider.",
+        "location": null,
+        "start": "September 2025",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 13,
+        "bullets": [
+          "Working as a mentor for team and solving their technical queries related to SMS, APIs, RCS, WhatsApp.",
+          "Working on preparing SOPs for team for smooth operations handling.",
+          "Handling customer critical issues like AIT, Bot Attack, billing disputes which are impacting Tata Business.",
+          "Supporting Outsource customers over call and emails regarding their technical issues.",
+          "Attending internal teams meetings to discuss the outages, critical issues, Process change update and improvement scope."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "as a Team Lead",
+        "company": "Responsible for take an action on escalations emails from client so that client is not impacted with our service and managing the team of 15 engineers.",
+        "location": null,
+        "start": "May 2023",
+        "end": "August 2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 28,
+        "bullets": [
+          "Working on product IoT, Mobile (2G, 3G, 4G Signaling and Data), SMS, Voice and supporting to team regarding technical and critical issues.",
+          "Providing technical and process training and mentoring to new team members for smooth operations.",
+          "Handling customer’s calls and emails regarding Mobile (Signaling and Data), IoT, SMS and RCS, Voice related issues.",
+          "Working on Mobile issue (SAI and UL failure and traffic degradation, SRI failures, MTSMS failures, Network congestion, Link flapping, link down).",
+          "Working on 3 IoT profiles (KPN, MEO, Verizon) issues (Sim card issue, Unable to register, User Authentication Failed, Steering of Roaming issues, provisioning related issues, SIM reset, IoT Portal issues, Network Latching issues, IoT SMS issues).",
+          "Working on SMS L2 level task (Connection issues, TPS allocation, IP whitelisting, configuration changes, fraud SMS traffic detection and blocking, Sender ID registration, Routing changes) and providing end to end support to team and critical customers.",
+          "Handling RCS related issues (RCS messages failure) and taking appropriate action to resolve the issues.",
+          "Working on Voice related issues (Call failure, FAS, DTMF, Fraud issues, Low ACD, Flash call issues, Route change and blocking in case of degradations).",
+          "Handling outages related to Voice, Mobile (GMS, GRX, and LTE), IoT, SMS and creating bridge with internal respective teams (Signaling, IoT, IP and Voice Engineering) to resolve the outage.",
+          "Preparing chronology and RCA document when outage restored.",
+          "Prepared the SOPs for SMS, Mobile (GMS, LTE) and IoT for team to troubleshoot the issues.",
+          "Working on Process Optimization and Team Management and customer satisfaction by providing resolution with in the SLA.",
+          "Goal setting and checking individual team member performance and sharing feedback to team. Also monthly 1:1 discussion with team members to resolve their queries."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Experience:5 Infobip Private Limited from  as a Core Operation Engineer",
+        "company": "TelQ",
+        "location": "Alaris",
+        "start": "November 2021",
+        "end": "April 2023",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 18,
+        "bullets": [
+          "Responsible for take an action on priority emails from client so that client is not impacted with our service.",
+          "Working on product SMS, API, DLT, Email, WhatsApp",
+          "On daily basis handling the issues related to SMS, DLT, Email and WhatsApp by using Super User tool.",
+          "Working on SMS traffic OTP, OTT, Transactional, Promotional via SMPP, HTTP, API Protocol.",
+          "Monitoring the NSE, Kotak, Facebook traffic and proactivity raising issues to operators if any abnormalities observed.",
+          "Doing the routing changes if any client facing issue on primary route after confirmation from Account Managers.",
+          "We are doing provisioning changes in client and supplier profiles. E.g.- TPS Change, Data coding change, Increase the binds for client after confirmation from client.",
+          "On daily basis we are handling SMS outages and sending the notifications to client and our internal team. Also doing end to end follow up with operator to restore the outage.",
+          "Tools for investigation- Super User, Grafana, Audit logs, TelQ, Zendesk, Postman tool."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "as a Senior Core Engineer",
+        "company": "Working knowledge of STP, SPS (DRA) and protocols such as SS7, Sigtran and diagnosis of faults and troubleshooting the same.",
+        "location": null,
+        "start": "March 2020",
+        "end": "Oct 2021",
+        "method": "date_regex+title_dict",
+        "duration_months": 20,
+        "bullets": [
+          "24 X 7 monitoring and maintaining of all available media with Trace analysis.",
+          "Monitoring of 12 STP & 16 SPS/DRA nodes (Pan India VIL network).",
+          "Creation of Trouble Ticket by using HPSM Portal for STP/SPS if any fault observed in Nodes.",
+          "Checking and updating of LRN at STP/SPS end and daily health check, daily and weekly TT reports.",
+          "Daily basis checking MNP database and Health checkup of all STP/SPS nodes.",
+          "Coordinating with VOLTE, Roaming, NSS, Packet core, Circle team to resolve the customer complaint related to Voice and Data.",
+          "GT routing checking at STP/SPS end and Backup of STPs as per schedule.",
+          "Raising CR to circle team and take the approval and forwarding to change management to do the activity. Once activity completed, we close the CR. Unknown - ol used for monitoring | HUAWEI- iManager, U2000, SG7000, PGW, Citrix, HPSM, E5MS, Putty."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Experience: 3 Monty Telecom Development Private Ltd from  as a SMS NOC Engineer",
+        "company": "Working on complaint tickets and provide the resolution to client by using tool B-PAL software.",
+        "location": null,
+        "start": "May 2019",
+        "end": "Feb 2020",
+        "method": "date_regex+title_dict",
+        "duration_months": 10,
+        "bullets": [
+          "Handling the SMS related issues like Messages non- delivery issue, Fake delivery issue, Messages pending issue and Content modification and Flooding messages issue using the BPAL software. Also checking outages and HUB related issue.",
+          "Proactively monitoring the Facebook traffic and send the daily report to our internal teams.",
+          "Daily doing OTT testing for exclusive destinations to find out the leakages and blocked at firewall end.",
+          "On daily basis we are doing SMS routing and Rating for the client after confirmation from account manager. Once Rating changes done for client, we send notification to client.",
+          "Worked on to check the route at same cost to change the route if clients facing any undelivered message issue or fake delivery issue.",
+          "We are blocking the SIM leakage, international leakages and local leakages to improve the quality of our route."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "as a SMS NOC Engineer",
+        "company": "Handling priority email from client, so that end user is not impacted with the service provider.",
+        "location": null,
+        "start": "Feb 2017",
+        "end": "April 2019",
+        "method": "date_regex+title_dict",
+        "duration_months": 27,
+        "bullets": [
+          "Working on the critical SLA tickets which are important for customer and business of TATA.",
+          "Our International and Domestic customers are connected with SMPP and HTTP protocols and Operators are connected with SMPP and SS7 Protocols.",
+          "Proactively monitoring the SMS traffic of enterprise customers like Google, Facebook and if issue observed check with operators and internal teams to resolved issue on priority.",
+          "Proactively monitoring the SMS traffic and if issue observed check with operator partners and at necessary condition change the Route by co- ordination with Routing team.",
+          "To check the customer and supplier provisioning files and do the necessary changes in provisioning if required. e. g- Bind allocation, TPS allocation, Window size, MO DLRs provisioning, SMSC Default data coding provisioning as per customer requirement.",
+          "To check the Customer and Supplier throttling issue and if required increase the TPS (Transaction per second) in provisioning portal.",
+          "Knowledge of MMX IT portal, REGP portal, Wireshark traces and session traces, Agilent and MOHOCH software, RERT and Protocol analysis. Citrix portal.",
+          "By using Agilent, we can check Protocol analysis, session trace of SS7 customers and Link connectivity."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Nokia Solutions and Networks Ltd.   as a LTE Support Engineer",
+        "company": "Client: BHARTI AIRTEL LIMITED",
+        "location": null,
+        "start": "Feb 2015",
+        "end": "Jan 2017",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 24,
+        "bullets": [
+          "Core circuit knowledge of EPS LTE architecture MME, HSS, HLR and interfaces of 2G 3G &4G.",
+          "Handling of Voice and Data Connectivity related issues and worked on TSG KPIs.",
+          "Analysis of call flows-Location Update, LTE call flow, SMS MO/MT Call flow.",
+          "To check the 4G coverage using parameters such as RSRP, RSSI, SINR, Uplink and Downlink Throughput and ENBID related to 4G number."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.7,
+      "total_months": 140,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.78
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.TECH",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "of ENTC G. S. Moze college of Pune University",
+        "year": "2014",
+        "gpa": "63.13%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Residential Junior College State Board of Ahmednagar Maharashtra",
+        "year": "2010",
+        "gpa": "78.79%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SSC",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Yeshwantrao Chavan State Board of Vidyalaya",
+        "year": "2008",
+        "gpa": "83.43%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

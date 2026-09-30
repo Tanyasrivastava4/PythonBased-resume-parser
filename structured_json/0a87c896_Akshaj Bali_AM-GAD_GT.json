@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "source_file": "0a87c896_Akshaj Bali_AM-GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:57:49.249282+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Akshaj Bali",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "akshajbali12@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918360172327",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Finance graduate with hands-on experience in Internal audit, risk advisory and IFC / SOX testing for listed and private entities\nacross pharma, textile, and automotive and engineering industries. Having sound knowledge of domains such as business consulting,\nrisk management and internal audit with a targeted interest in Internal audit, strategy consulting, deals advisory and core consulting\nroles.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "Collaboration",
+      "Communication",
+      "Internal Financial Controls",
+      "Leadership",
+      "MS Office",
+      "Management Consulting",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Microsoft Word",
+      "Pinterest",
+      "Risk Management",
+      "SAP S/4HANA",
+      "SOX 404",
+      "Stakeholder Management"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Leadership",
+        "Stakeholder Management"
+      ],
+      "finance": [
+        "Internal Financial Controls"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Teams",
+        "Microsoft Word"
+      ],
+      "consulting": [
+        "Management Consulting"
+      ],
+      "search": [
+        "Pinterest"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
+      "integration": [
+        "SAP S/4HANA"
+      ],
+      "accounting": [
+        "SOX 404"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(SAP S4→SAP S/4HANA(100%), S4 HANA→SAP S/4HANA(93%), PowerPoint→Microsoft PowerPoint(100%), Word→Microsoft Word(100%), teams→Microsoft Teams(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Consultant, Internal Audit",
+        "company": "Ernst and Young  LLP",
+        "location": null,
+        "start": "Jul 2022",
+        "end": "Current",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 51,
+        "bullets": [
+          "Conducted business and risk reviews across multiple domains for various listed and unlisted clients.",
+          "Independently led ~20 reviews within the domain of internal audit, risk consulting, process improvement and IFC / SOX testing within a span of 3 years for various listed and unlisted clients within industries such as textile, pharma, automotive and engineering.",
+          "Conducted reviews for multiple merged, acquired and demerged entities of listed companies in the textile, automotive and engineering sector.",
+          "Presented review observations and strategic & risk assessments to upper management and board members, facilitating informed and effective decision-making for multiple Fortune 500 clients.",
+          "Executed in-depth reviews within domains such as Production, Sales and Marketing, Investment, Procure to Pay, HR Payroll, EXIM, Governance & Compliances, Order to Cash, IFC / SOX Controls etc.",
+          "Validated process understanding through market research, data analytics, strategic analysis, and risk assessments related to process flow."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Marketing Executive",
+        "company": "Blue Basic India",
+        "location": "Mohali",
+        "start": "Jun 2021",
+        "end": "Feb 2022",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 9,
+        "bullets": [
+          "Handled marketing and sales for the brand and its subsidiaries within automotive industry.",
+          "Conducted business planning to lay down a market approach for the brand and helping the company establish a digital footprint via relevant SEO optimized blogs and articles."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Marketing Executive and Content Manager",
+        "company": "Crea Brand Management",
+        "location": "Chandigarh",
+        "start": "Apr 2021",
+        "end": "Oct 2021",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 7,
+        "bullets": [
+          "Handled marketing and advertising campaigns for numerous homegrown and international hospitality clients."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Department Head",
+        "company": "Empowering Hands Foundation",
+        "location": "Chandigarh",
+        "start": "Mar 2021",
+        "end": "Sep 2021",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 7,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Content Writer – Bewakoof Brands Private Limited",
+        "location": "Mumbai",
+        "start": "Dec 2019",
+        "end": "Dec 2020",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.3,
+      "total_months": 76,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Commerce (Financial Market)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "Financial Market",
+        "institution": "Kishinchand Chellaram College University of Mumbai",
+        "year": "2019 - 2022",
+        "gpa": "8.93",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Central Board of Secondary Education (CBSE) (Class - XII) - Commerce",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Central Board of Education (CBSE)",
+        "year": "2019",
+        "gpa": "86%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

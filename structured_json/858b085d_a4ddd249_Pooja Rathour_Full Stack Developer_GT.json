@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "source_file": "858b085d_a4ddd249_Pooja Rathour_Full Stack Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:30.999745+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pooja Rathaur",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "poojarathour0793@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7379648425",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pooja-rathour",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Solution-focused Full-Stack Web Developer with 5.5+ years of experience, including 2.8 years in a full-stack\nrole since March 2023. Previously worked in UI/UX design and front-end development (3.5 years). Skilled in\ndeveloping scalable and high-performance web applications using Angular, TypeScript, Node.js, and\nMongoDB. Experienced in implementing caching with Redis and asynchronous messaging with RabbitMQ for\noptimized backend performance and system reliability. Proficient in REST API development, Agile\nmethodology, and tools like GitLab, Postman, and BrowserStack. Committed to writing clean, maintainable\ncode and delivering seamless user experiences.",
+  "skills": {
+    "items": [
+      "API Design",
+      "Aggregations",
+      "Agile",
+      "Angular",
+      "CSS3",
+      "Caching",
+      "Content Marketing",
+      "ES6+",
+      "Express.js",
+      "Figma",
+      "Git",
+      "GitLab",
+      "GraphQL",
+      "HTML5",
+      "Instagram",
+      "JavaScript",
+      "Manual Testing",
+      "MongoDB",
+      "MySQL",
+      "Node.js",
+      "Postman",
+      "REST",
+      "REST API",
+      "RabbitMQ",
+      "React",
+      "Redis",
+      "TypeScript",
+      "UX Design",
+      "jQuery"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design",
+        "Caching"
+      ],
+      "database": [
+        "Aggregations",
+        "MongoDB",
+        "MySQL",
+        "Redis"
+      ],
+      "project_mgmt": [
+        "Agile"
+      ],
+      "web_framework": [
+        "Angular",
+        "CSS3",
+        "Express.js",
+        "GraphQL",
+        "HTML5",
+        "Instagram",
+        "Node.js",
+        "REST API",
+        "React",
+        "jQuery"
+      ],
+      "marketing": [
+        "Content Marketing"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "design": [
+        "Figma",
+        "UX Design"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitLab",
+        "Postman"
+      ],
+      "testing": [
+        "Manual Testing"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "data_engineering": [
+        "RabbitMQ"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Angular+2→Angular(88%), ReactJS→React(100%), Mongoose→MongoDB(100%), Aggregation→Aggregations(100%), HTML→HTML5(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "(iTM",
+        "company": null,
+        "location": null,
+        "start": "March, 2023",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 43,
+        "bullets": [
+          "Developed and integrated data-driven dashboards using Angular and React for enhanced interactivity and user experience.",
+          "Implemented RabbitMQ-based asynchronous processing to generate and download user registration reports Optimized API performance by 30% using advanced MongoDB queries and basic Redis caching strategies."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Cybernauts technologies private limited",
+        "location": null,
+        "start": "July 2022",
+        "end": "February 2023",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 8,
+        "bullets": [
+          "Designed and developed responsive web interfaces using HTML5, CSS3, Bootstrap, and JavaScript for consistent cross-device performance.",
+          "Built modular and reusable front-end components using React.js, improving code maintainability and scalability.",
+          "Applied mobile-first design principles with touch-friendly layouts and Bootstrap utilities to enhance user experience."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Junior Designer",
+        "company": "ITH Technologies Pvt. Ltd",
+        "location": null,
+        "start": "September 2016",
+        "end": "April 2019",
+        "method": "date_regex+comma_title_company_split",
+        "duration_months": 32,
+        "bullets": [
+          "Developed responsive, mobile-first applications using the Ionic framework with AngularJS and Angular (2, 4, 6), ensuring fast performance across platforms.",
+          "Built dynamic single-page applications (SPAs) using Angular and optimized UI/UX for mobile and web users.",
+          "Created and maintained web applications using PHP, .NET, and Django, contributing to both frontend functionality and backend integration.",
+          "Performed cross-browser and cross-device testing using BrowserStack to ensure consistent UI and smooth functionality across platforms."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.9,
+      "total_months": 83,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Computer Applications (MCA)",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "MCA PSIT Pranveer Singh INSTITUTE OF TECHNOLOGY",
+        "year": "2018 - 2022",
+        "gpa": "73%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "BCA CSJM University (Chhatrapati Shahu Ji Maharaj University)",
+        "year": "2020 - 2026",
+        "gpa": "71%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Udemy HTML certified",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "CONTENT CREATION AND TECHNICAL OUTREACH",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Content Creation and Technical Outreach",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Co-founded a technical Instagram page (@EduRise-Learn to Code Free) focused on",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ReactJS learning and coding tutorials; organically built and managed a community of 266K+",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "followers.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.63
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.63,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+======================================================================
+FILE: 928d6068_5e9552ee_Kunal Naresh_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt
+======================================================================
+Sections found : ['education', 'experience', 'header', 'skills', 'summary']
+Overall conf.  : 0.88
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Ca Kunal Naresh  (conf 0.9, regex)
+  email     : kunal.naresh12@gmail.com  (conf 0.99, regex)
+  phone     : 7649078440  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Chartered Accountant with 6+ years of experience across Big4 and global financial
+institutions, specializing in Financial Reporting, Record to Report and Accounting Advisory
+(US GAAP / IFRS / Ind AS). Strong expertise in financial reporting and technical accounting.
+
+SKILLS (11) — confidence 0.92
+----------------------------------------------------------------------
+ASC 815, Accounting, Budgeting, Financial Reporting, GAAP, IFRS, Ind AS, Record-to-Report, Stakeholder Management, Time Series Forecasting, Variance Analysis
+
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.7
+Total experience: 7.5 years (90 months, 3 overlaps merged)
+----------------------------------------------------------------------
+  1. Assistant Manager @ Macquarie Group (05/2025 - Present) [conf 0.98, review=False]
+  2. None @ Drafted technical accounting whitepapers on different topics under IFRS and USGAAP (02/2023 - 05/2025) [conf 0.55, review=True]
+  3. None @ Prepared accounting memos on: o Business Combinations (ASC 805 / IFRS 3) o Debt vs Equity classification under USGAAP o Revenue Recognition (IFRS 15) (08/2021 - 02/2023) [conf 0.55, review=True]
+  4. Assistant Manager @ o Consolidation assessment (ASC 810) Deloitte India (04/2019 - 08/2021) [conf 0.7, review=True]
+
+EDUCATION (2) — confidence 0.95
+----------------------------------------------------------------------
+  1. CA — ICAI (2018) [conf 0.95, review=False]
+  2. B.Com — University of Delhi (2016) [conf 0.95, review=False]
+
+CERTIFICATIONS (0) — confidence 0.0
+----------------------------------------------------------------------
+
+REVIEW QUEUE (4 flagged fields)
+----------------------------------------------------------------------
+  experience                          conf=0.7  reason=low_confidence
+  experience.jobs[1]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.7  reason=incomplete_fields

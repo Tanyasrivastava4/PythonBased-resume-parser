@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "source_file": "5d947859_ec104e88_Nishant Kumar_Project Management Officer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:58:45.892602+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Nishant Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "apnanishant1@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91) 9039713139",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/apnanishant",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Partnered with Business Project Management staff to manage\nand deliver customer projects on time and within budget.",
+  "skills": {
+    "items": [
+      "Agile",
+      "Communication",
+      "Continuous Improvement",
+      "Data Analysis",
+      "Digital Marketing",
+      "KPI",
+      "LinkedIn",
+      "PMP",
+      "Power BI",
+      "Project Management",
+      "Strategic Thinking",
+      "Waterfall"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile",
+        "PMP",
+        "Project Management",
+        "Waterfall"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Strategic Thinking"
+      ],
+      "operations": [
+        "Continuous Improvement"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "Power BI"
+      ],
+      "marketing": [
+        "Digital Marketing"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(agile→Agile(100%), waterfall→Waterfall(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Center Manager",
+        "company": "Tonar Systems",
+        "location": null,
+        "start": "Jul 2014",
+        "end": "May 2017",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 35,
+        "bullets": [
+          "Appointment & Meeting with Directors, TPOs & HODs Study Requirements from the client, analyze the requirements.",
+          "Prepare a unique and complete proposal and submit it to the client."
+        ],
+        "sub_sections": [
+          "Seminar presentation",
+          "Workshops & seminars arrangements",
+          "Maintain the healthy relationship with the customers",
+          "Acquiring the new customer for the company",
+          "Managing Centre",
+          "Counselling",
+          "Performing Administrative Duties",
+          "Supervising staff"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Hire staff",
+        "company": "a.i.automation pvt ltd",
+        "location": null,
+        "start": "Aug 2013",
+        "end": "Apr 2014",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 9,
+        "bullets": [
+          "PLC Installation, VFD Drives Installation.",
+          "PLC & SCADA, HMI Communication.",
+          "Provide Training to Engineers in PLC, DRIVES, SCADA System"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.7,
+      "total_months": 44,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech/B.E., 2013",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Digital marketing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Project Management Professional",
+        "issuer": "PMP",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/apnanishant/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

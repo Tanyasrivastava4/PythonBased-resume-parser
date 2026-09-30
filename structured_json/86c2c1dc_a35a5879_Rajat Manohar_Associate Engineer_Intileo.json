@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "source_file": "86c2c1dc_a35a5879_Rajat Manohar_Associate Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:31.894632+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rajat Manohar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "manohar.rajat9@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919167949269",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/rajatpm21",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/reyfreeman32",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AutoCAD",
+      "Business Development",
+      "CSS3",
+      "Calibration",
+      "Customer Service",
+      "Data Collection",
+      "Django",
+      "GitHub",
+      "HMI",
+      "HTML5",
+      "Instrumentation",
+      "JavaScript",
+      "LinkedIn",
+      "Mentoring",
+      "PLC",
+      "Python",
+      "SCADA"
+    ],
+    "by_category": {
+      "engineering": [
+        "AutoCAD",
+        "HMI"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "web_framework": [
+        "CSS3",
+        "Django",
+        "HTML5",
+        "LinkedIn"
+      ],
+      "engineering_hardware": [
+        "Calibration",
+        "Instrumentation",
+        "PLC",
+        "SCADA"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "research": [
+        "Data Collection"
+      ],
+      "dev_tool": [
+        "GitHub"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "Python"
+      ],
+      "soft_skill": [
+        "Mentoring"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Service Engineer",
+        "company": "Labindia Analytical Instruments Pvt Ltd",
+        "location": null,
+        "start": "06/2024",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 28,
+        "bullets": [
+          "Performed troubleshooting and maintenance of analytical instruments to ensure optimal performance and minimal downtime.",
+          "Developed and maintained strong relationships with clients to ensure high levels of customer satisfaction and loyalty.",
+          "Managed customer interactions, addressing inquiries and resolving issues promptly and professionally.",
+          "Provided both sales support and technical service for analytical instruments, contributing to business growth and client retention."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Customer Service Engineer",
+        "company": "ENVEA India Pvt Ltd",
+        "location": null,
+        "start": "05/2021",
+        "end": "02/2023",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 22,
+        "bullets": [
+          "Perform regular maintenance and calibration of air monitoring analyzers to ensure accurate data collection and adherence to quality standards.",
+          "Manage and operate Continuous Ambient Air Quality Monitoring Stations (CAAQMS) in multiple locations, including Amravati, Akola, Bandra, Malad, and Borivali, to monitor air quality and pollutant levels.",
+          "Oversee and mentor Junior Service Engineers, providing guidance, training, and support to ensure their proficiency in analyzer maintenance and operation."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Avishkar Research Convention",
+        "location": null,
+        "start": "2020",
+        "end": "2021",
+        "method": "year_range_short_regex",
+        "duration_months": 13,
+        "bullets": [
+          "(09/2019) Transmission Of Audio Signal And Text Using Li-Fi"
+        ],
+        "sub_sections": [
+          "Science category",
+          "Technical Poster Presentation Competition",
+          "(02/2020)",
+          "Got 2nd prize in Technical Poster Presentation",
+          "Competition.",
+          "National level Technical Paper Presentation"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.2,
+      "total_months": 63,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BE Instrumentation",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Instrumentation Bharati Vidyapeeth College of Engineering",
+        "year": "2021",
+        "gpa": "77.615%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "H.S.C",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "St. Rocks Jr. College of Commerce and Science",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Industrial Automation Training (Precon",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Automation & System Pvt Ltd)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Best Promising New Engineer (09/2025)",
+      "Best Promising New Engineer at Labindia Analytical",
+      "Instruments Pvt. Ltd.",
+      "XhibiTech 2021 (04/2021)",
+      "Secured 2nd position in Project Presentation Competition"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

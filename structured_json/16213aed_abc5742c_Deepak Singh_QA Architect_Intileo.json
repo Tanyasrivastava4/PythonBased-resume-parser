@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "source_file": "16213aed_abc5742c_Deepak Singh_QA Architect_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:58.769426+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Deepak Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "deepakcareer07@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9930538235 / 7721929628",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "Programmers.io",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      ".NET",
+      "Apache Maven",
+      "Azure DevOps",
+      "Bugzilla",
+      "C#",
+      "Data Cleaning",
+      "Data Management",
+      "Fintech",
+      "Generative AI",
+      "GitHub",
+      "JMeter",
+      "Java",
+      "Jenkins",
+      "Jira",
+      "LLM",
+      "Linux",
+      "MSSQL",
+      "Mac OS",
+      "Microsoft Windows",
+      "Performance Testing",
+      "Playwright",
+      "Postman",
+      "Python",
+      "REST API",
+      "REST Assured",
+      "SQL",
+      "Selenium",
+      "SoapUI",
+      "TestNG",
+      "UNIX"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET",
+        "C#",
+        "Java",
+        "Python"
+      ],
+      "dev_tool": [
+        "Apache Maven",
+        "GitHub",
+        "Postman",
+        "SoapUI"
+      ],
+      "devops": [
+        "Azure DevOps",
+        "Jenkins"
+      ],
+      "testing": [
+        "Bugzilla",
+        "JMeter",
+        "Performance Testing",
+        "Playwright",
+        "REST Assured",
+        "Selenium",
+        "TestNG"
+      ],
+      "data_engineering": [
+        "Data Cleaning"
+      ],
+      "productivity": [
+        "Data Management"
+      ],
+      "domain": [
+        "Fintech"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows",
+        "UNIX"
+      ],
+      "database": [
+        "MSSQL",
+        "SQL"
+      ],
+      "os": [
+        "Mac OS"
+      ],
+      "web_framework": [
+        "REST API"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(SOAP UI→SoapUI(100%), Maven→Apache Maven(100%), Core Java→Java(100%), data management→Data Management(100%), Gen AI→Generative AI(91%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Experience",
+        "company": "Company Name",
+        "location": null,
+        "start": "3 March 2025",
+        "end": "Present",
+        "method": "date_regex+tab_split",
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Quality Manger",
+        "company": "Jio Tesseract Imaging Ltd",
+        "location": null,
+        "start": "6 Dec 2024",
+        "end": "4 Feb 2025",
+        "method": "date_regex+tab_split",
+        "duration_months": 2,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Technical Quality Engineer",
+        "company": "WebMatrix Pvt Ltd",
+        "location": null,
+        "start": "3 Aug 2021",
+        "end": "5 Dec 2024",
+        "method": "date_regex+tab_split",
+        "duration_months": 41,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager-Quality Assurance",
+        "company": "Associated Corporate Consultants India Pvt Ltd",
+        "location": null,
+        "start": "8 Feb 2021",
+        "end": "19 Jul 2021",
+        "method": "date_regex+tab_split",
+        "duration_months": 6,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "QA Games Lead",
+        "company": "Square Panda India LLP",
+        "location": null,
+        "start": "7 Sep 2020",
+        "end": "5 Feb 2021",
+        "method": "date_regex+tab_split",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Test Lead, Test Manager & Business Analyst",
+        "company": "Capgemini Technology Service India Limited",
+        "location": null,
+        "start": "18 Sep 2010",
+        "end": "31 Aug 2020",
+        "method": "date_regex+tab_split",
+        "duration_months": 120,
+        "bullets": [
+          "Having 15 Years 6 Months of rich work experience in Software Testing, Game Testing, Test Management & Business Analysis of various project domains which includes Insurance, Financial Market, Automobile, Oil and gas, Risk management, Information System, Banking Applications, E-Learning, Digital Media & Advertisement, Identity and Access Management, Artificial Intelligence, AR/VR/MR Experience in Regulatory Compliance awareness, Transaction/payment system understanding, Security Risk management, Data analytics Worked in Programmers.io, Jio Tesseract, WebMatrix, ACC India, Square Panda and Capgemini as a Manager-Quality Assurance, Business Analyst and QA Lead.",
+          "Created Test Automation framework from scratch with Selenium using Java and Python Have experience on Data Driven, Keyword Driven and Hybrid framework Integrated Test Automation framework using TestNG, Junit and CI/CD with help of Jenkins and Azure DevOps Created REST Assured API Automation framework from the scratch and Integrated with CI/CD Tools Experience in code review of Automation test script considering completeness, reusability, and maintenance of the test script Hands-on experience in Playwright automation using JavaScript and TypeScript Hands-on experience in creating Mobile automation framework using Appium, UI Automator and XCUITEST Working Experience as a Business Analyst in Daimler Project of Automobile Domain Worked at Client location (Munich-Germany) as a Test Lead for UAT support, SIT knowledge transfer to client Daimler and Tec Alliance.",
+          "Expertise in Test Case Development using Automation Tools, Test Execution, defect tracking and overall testing status reporting to stakeholders.",
+          "Strong and very well experience in testing of Complex Projects.",
+          "Strong and very well experience in Selenium WebDriver and Selenium IDE.",
+          "Hands-on experience in REST API, SOAP UI, RFT and Ghost Inspector Hands-on experience in JMeter Tool for Performance, Load & Stress Testing Hands on experience in Security testing using Burp Suite Tool to find out the Vulnerabilities Extensive hand on experience with all levels of testing including Smoke Testing, Functional Testing, Integration Testing, System Testing, Regression Testing including Test Plan and Test Strategy.",
+          "Experience in interacting with Clients and partners, Business analysts, Developers on daily basis to prepare test plan and test strategy.",
+          "Strong knowledge of STLC, SDLC and Agile Methodology.",
+          "Experience in writing and executing SQL queries to verify data validation.",
+          "Interacted with Business Users and Client to represent overall testing status.",
+          "Working experience of Data Migration Testing.",
+          "Working experience in Cloud based applications.",
+          "Exposure of visit at client side for UAT testing.",
+          "Supporting development team & customer for defect verification in UAT.",
+          "Strong communication skills with an ability to grasp new things quickly.",
+          "Good team player with strong interpersonal skills.",
+          "Involved in preparing test execution plan for regression test Defect reporting and tracking through JIRA to manage the lifecycle of the Defects.",
+          "Reporting daily and weekly status to higher management and clients.",
+          "Acts as a mentor for Test team and Development team members for functional queries Preparing Test Plan and Test Strategy and involved in Test Estimation, Scheduling and Tracking Involved in Test data preparation and test scenario identification Giving functional understanding to testing team and assigning them daily work Involved in the execution complex and critical test cases.",
+          "Involved in planning, execution of Performance and Load Testing Creating test scenarios and test cases for End-to-End Business Transactions Executing the Functional and Integration test cases.",
+          "Coordinating with development team for defect resolution and status tracking.",
+          "Using Test link as test management tool and JIRA to manage the lifecycle of the Defects.",
+          "Reporting daily and weekly status to higher management and clients.",
+          "Great exposure and experience in handling large team of 30 Members.",
+          "Identifying & escalating issues earlier and chase up till resolution."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "company": "Unknown company",
+        "role": "6 Months",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 15.0,
+        "duration_months": 180
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 31.1,
+      "total_months": 373,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.97
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Engineering in Information Technology\tVivekananda Education Society’s Institute of Technology\tUniversity of Mumbai\tJune 2010\t75.10%",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Information Technology\tVivekananda Education Society’s Institute of Technology\tUniversity of Mumbai\tJune 2010\t75.10%",
+        "institution": "INSTITUTE OF TECHNOLOGY University of",
+        "year": "2010",
+        "gpa": "75.10%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Diploma in Information Technology\tInstitute of Technology, Ulhasnagar\tMaharashtra State Board of Technical Education\tJuly 2007\t80.92%",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Information Technology\tInstitute of Technology",
+        "institution": "Information Technology INSTITUTE OF TECHNOLOGY",
+        "year": "2007",
+        "gpa": "80.92%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Selenium Web Driver.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "JMeter tool for Performance Testing.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ISTQB Foundation Level Certification.",
+        "issuer": "ISTQB",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Engagement Level 0 Certification",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": ".Net 4.0 with C#",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Core Java",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Ghost Inspector",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.63
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.63,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

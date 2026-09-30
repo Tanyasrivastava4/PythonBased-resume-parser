@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "source_file": "b295aa18_8ee473cd_Prashant Balu lalge_AM-CyberSecurity_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:05.850899+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prashant Balu Lalge",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "prashantlalge9768@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919768691862",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/prashant-lalge-4b6425143",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "CEH",
+      "Cryptography",
+      "Information Security",
+      "Phishing",
+      "Proxy",
+      "Redmine",
+      "SIEM",
+      "SentinelOne"
+    ],
+    "by_category": {
+      "security_ops": [
+        "CEH",
+        "Cryptography",
+        "Phishing",
+        "Proxy",
+        "SIEM"
+      ],
+      "security": [
+        "Information Security",
+        "SentinelOne"
+      ],
+      "project_mgmt": [
+        "Redmine"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Information security→Information Security(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "DESIGNATION | Deputy Manager-Security Operation Center",
+        "company": "the date",
+        "location": "EURONET SERVICES INDIA PVT LTD",
+        "start": "August 2017",
+        "end": "Present",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 110,
+        "bullets": [
+          "Unknown - DESIGNATION | Deputy Manager-Security Operation Center Key Result Areas:",
+          "Working in Security Operation Centre (24x7), monitoring of SOC events, detecting, and preventing the Intrusion attempts. Monitoring and analyzing real- time events using SIEM tools and responding to infrastructure threats. Collecting the logs of all the network devices and analyses the logs to find the suspicious activities. Analysis of bank threat hunting across all IT assets and providing trend analysis reports on daily basis, monthly basis, and quarterly basis to customer. Collecting the logs of all the network devices and analyses the logs to find the suspicious activities. Coordination with support team to define various Use-cases and fine tune existing correlation rules to reduce false positive tickets and configure the various Log sources/multiple devices, setting up Dashboard with SIEM. Event source Integration for SIEM environment like (Cisco’s, checkpoint, Oracle dB, Windows, Solaris, MySQL, PIM, MacAfee). Analyzing the raw log & Meta value from the respond engine and handling the incident till the closure. Investigation, Analysis, Reporting and Escalations of Security Events from SIEM tool QRADAR. Forensic Investigation of Phishing alert & Cloud alerts for Global Soc. Basic Troubleshooting of Inactive Devices & Servers. Whitelisting URLs and Domain Blocking, Bypass Domain observe on Zscaler Proxy. Handling Privilege Access Management tool ARCOS for centralized session management.",
+          "Monthly user access review to improve privilege access management system.",
+          "Work to close any observations counter by auditor and to provide appropriate justification on those observations in timely manner."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.2,
+      "total_months": 110,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Bachelor of Science in Information Technology from Mumbai University",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Information Technology from Mumbai University",
+        "institution": "Mumbai University",
+        "year": "1995",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• HSC from Maharashtra state board",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Maharashtra state board",
+        "year": "1995",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• SSC from Maharashtra state board",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Maharashtra state board",
+        "year": "1995",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Certified as CEH (Certified Ethical Hacker v 9.0) from EC-Council.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

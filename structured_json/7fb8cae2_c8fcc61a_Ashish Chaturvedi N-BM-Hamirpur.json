@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "source_file": "7fb8cae2_c8fcc61a_Ashish Chaturvedi N-BM-Hamirpur_segmented.txt",
+    "generated_at": "2026-09-30T06:59:25.869131+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "skills",
+      "strengths",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Chaturvedi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "uidashish@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919793240003",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To be at responsible position in organization where skill, knowledgeand\na an my\nexperience be converted into the organizations growth, profitability and self\ncan\ndevelopment.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "Identity Management",
+      "KPI",
+      "MS Office",
+      "Microsoft Windows",
+      "Recruitment",
+      "Responsible AI",
+      "SOP"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing"
+      ],
+      "security": [
+        "Identity Management"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "productivity": [
+        "MS Office"
+      ],
+      "os_system": [
+        "Microsoft Windows"
+      ],
+      "hr": [
+        "Recruitment"
+      ],
+      "genai": [
+        "Responsible AI"
+      ],
+      "operations": [
+        "SOP"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(responsible→Responsible AI(95%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "6) Currently Working Senior Agency Development Manager in MaxLife",
+        "company": "as a Insurance Kanpur from",
+        "location": "",
+        "start": "29 July 2019",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 87,
+        "bullets": [
+          "Job Roll- Recruitment and Development of Agency.",
+          "Quality Recruitment in month in Jan 2020 a Qualified 2 times Coach of the Batch in April and May 2020 Qualified Regional Coach of the Batch in May 2020 Qualified Regional Lakhpati Manager in I Quarter (AMJ) Qualified Star of the Quarter in (AMJ)"
+        ],
+        "sub_sections": [
+          "Archivments-",
+          "Qualified MY 5",
+          "Qualified ZVP ANGELS"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "company": "Viesa Technologies",
+        "role": "UIDAI (AADHAAR) Center head incharge",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 2.0,
+        "duration_months": 24
+      },
+      {
+        "company": "Unknown company",
+        "role": "K.V.S.S. (Govt. N.G.O.) District Co-Ordinator",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 3.0,
+        "duration_months": 36
+      },
+      {
+        "company": "Sarthak Estate Noida",
+        "role": "Sales Advisor",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 2.0,
+        "duration_months": 24
+      },
+      {
+        "company": "Nutnbolt Infra Pvt.Ltd Kanpur",
+        "role": "Sales Executive",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 0.25,
+        "duration_months": 3
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 14.4,
+      "total_months": 172,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "S. D.V. M.Inter College\tHIGH SCHOOL(10\")\tUP\t2001-02",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "10\"",
+        "institution": "S. D.V. M.Inter College",
+        "year": "2001",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "S. J. V. N. Inter College\tINTERMEDIATE(1 Dth) SCIENCE\tUP\t2003-04",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "1 Dth",
+        "institution": "S. J. V. N. Inter College",
+        "year": "2003",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "source_file": "3ce69284_ff5a2144_Anjusha Gupta HRBP_segmented.txt",
+    "generated_at": "2026-09-30T06:58:22.756882+00:00",
+    "sections_found": [
+      "achievements",
+      "early_career",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anjusha Gupta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "guptaanjusha@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917379666673",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "Better.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Change Management",
+      "Collaboration",
+      "Conflict Resolution",
+      "Customer Retention",
+      "Data-Driven Decision Making",
+      "Employee Engagement",
+      "Leadership",
+      "Learning & Development",
+      "Onboarding",
+      "Performance Management",
+      "Regulatory Compliance",
+      "Resource Planning",
+      "Stakeholder Management",
+      "Talent Management",
+      "Workshop Facilitation"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Change Management",
+        "Resource Planning"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Conflict Resolution",
+        "Data-Driven Decision Making",
+        "Leadership",
+        "Stakeholder Management"
+      ],
+      "client_mgmt": [
+        "Customer Retention"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "Learning & Development",
+        "Onboarding",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "consulting": [
+        "Workshop Facilitation"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Succession Planning→Talent Management(100%), Retention Strategies→Customer Retention(90%), succession planning→Talent Management(100%), facilitating→Workshop Facilitation(92%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "planning insights and recommendations to managers, contributing to business-aligned talent decisions. Assistant Manager HR | Zenith Pharmaceuticals",
+        "company": "Manpower Planning & Workforce Optimization: Spearheaded manpower planning and workforce deployment strategies, ensuring strict alignment with approved FTE forecasts and HR budget controls.",
+        "location": null,
+        "start": "Apr'14",
+        "end": "Jun'18",
+        "method": "date_regex",
+        "duration_months": 51,
+        "bullets": [
+          "HR Business Partnering: Championed HR business partnering by aligning people HR strategies and compliance mandates in collaboration with the senior leaders.",
+          "Organizational Restructuring & Talent Mobility: Orchestrated organizational restructuring initiatives including role realignments, promotions, and workforce transitions in compliance with corporate policies and SuccessFactors governance.",
+          "Audit & Regulatory Compliance Management: Directed coordination with leadership teams during internal and external audits, ensuring seamless compliance.",
+          "Change Management Implementation: Engineered and executed change management frameworks to strengthen workforce adaptability during operational and structural transformations.",
+          "Employee Relations & Conflict Resolution: Guided managers on employee relations matters, conflict resolution, and disciplinary actions to maintain a compliant and positive workplace environment.",
+          "Compensation & Benefits Administration: Administered compensation programs including pay grade evaluations, merit cycle management, and increment communication to ensure equitable reward practices.",
+          "Employee Engagement & Retention Strategy: Implemented action plans to elevate employee engagement, strengthening participation levels and retention of high-potential talent.",
+          "Attrition Analysis & Retention Planning: Conducted exit interviews and performed attrition trend analysis to design targeted retention interventions and reduce workforce turnover.",
+          "HR Analytics & Workforce Reporting: Developed HR dashboards tracking manpower costs, overtime utilization, attrition trends, and compliance metrics to enable data-driven leadership decisions."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "setting frameworks while supporting employee relations initiatives to sustain a performance-driven workplace. HR Trainee | IIFL Securities",
+        "company": "IIFL Securities",
+        "location": "",
+        "start": "Jul'20",
+        "end": "Jan'21",
+        "method": "date_regex",
+        "duration_months": 7,
+        "bullets": [
+          "HR Analytics & Leadership Reporting: Engineered HR dashboards and analytics reports for leadership reviews, enabling visibility into manpower utilization, attrition patterns, and performance indicators.",
+          "Talent Acquisition Support & HRBP Contributions: Supported recruitment and talent review initiatives while delivering workforce"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Cognizant | Remote",
+        "company": "Organizational Restructuring & Succession Planning: Spearheading restructuring and succession initiatives to strengthen leadership pipelines and expand coverage for critical roles by 35%.",
+        "location": "Cognizant | Remote",
+        "start": "Apr'22",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 54,
+        "bullets": [
+          "Strategic HR Business Partnering: Driving HR partnership with 70+ senior leaders to align people strategies with business priorities, supporting workforce planning and capability development.",
+          "Career Pathing & Internal Mobility: Architecting and implementing structured career pathways and internal mobility frameworks, increasing internal talent movement by 20%.",
+          "Onboarding & Workforce Expansion: Facilitating onboarding of 20,000 employees across business verticals, ensuring seamless integration and alignment with organizational goals.",
+          "Workforce Analytics & Manpower Planning: Conducting workforce analytics, skill-gap assessments, and manpower planning to optimize FTE allocation and reduce readiness gaps by 25%.",
+          "Leadership Development: Designing and delivering leadership development programs to enhance managerial effectiveness and role readiness, achieving 92% participant satisfaction.",
+          "HR Analytics & Data-Driven Decision Making: Developing and deploying HR dashboards using Power BI and Qlik to track attrition, succession depth, manpower costs, and performance metrics, accelerating leadership decision-making by 30%.",
+          "HR Governance & Policy Compliance: Strengthening HR governance by ensuring policy adherence and standardizing HR processes to enhance compliance and operational efficiency.",
+          "Compensation & Employee Engagement: Managing compensation cycles, merit reviews, and engagement initiatives, driving an"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "18% year-over-year increase in participation and strengthening employee experience. HR",
+        "location": "Better.com",
+        "start": "Mar'21",
+        "end": "Apr'22",
+        "method": "date_regex",
+        "duration_months": 14,
+        "bullets": [
+          "Onboarding Program Management & HRBP Support: Orchestrated large-scale onboarding and development initiatives for 1,000+ employees, partnering with business units to align programs with organizational goals and accelerate workforce integration.",
+          "New Hire Productivity Improvement: Engineered structured onboarding journeys and manager enablement frameworks that increased new hire productivity by 15%.",
+          "Employee Experience & Learning Design: Revamped onboarding learning programs and training experiences, resulting in a 22% improvement in new hire satisfaction scores.",
+          "HR Compliance & Audit Governance: Ensured 100% audit readiness by strengthening HR documentation standards, maintaining HRIS data accuracy, and enforcing policy compliance.",
+          "Performance Management & Employee Relations: Facilitated performance management cycles, confirmation processes, and goal-"
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 10.4,
+      "total_months": 125,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.74
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "resource allocation, and support large-scale workforce planning initiatives. MBA – Human Resources",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Human Resources",
+        "institution": "Learning & Development Indian Institute of Management Lucknow",
+        "year": "2026",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "supporting business transformation, structural realignments, and cultural BBA – Human Resources",
+        "degree_name": "BBA",
+        "degree_type": "bachelors",
+        "degree_field": "Human Resources",
+        "institution": "ICFAI Business School Hyderabad",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "collaboration, partnering with HR COEs and leadership teams across India,",
+      "EMEA, APAC, Latin America, and North America to deliver integrated HR",
+      "Global Recognition: Participated in a Guinness",
+      "solutions within global delivery environments.",
+      "World Records attempt for developing an HR",
+      "analytics dashboard using the Lovable tool,",
+      "contributing to a large-scale collaborative",
+      "innovation initiative."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.74,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

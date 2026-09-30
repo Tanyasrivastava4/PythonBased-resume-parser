@@ -1,0 +1,48 @@
+======================================================================
+FILE: 971a3026_8692ee75_CV - Mohan Babu (2)_segmented.txt
+======================================================================
+Sections found : ['education', 'experience', 'header', 'languages', 'personal_details', 'skills']
+Overall conf.  : 0.91
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Mohan  (conf 0.9, regex)
+  email     : jmohanbabu@yahoo.com  (conf 0.99, regex)
+  phone     : 9025885908 / 250-2005  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SKILLS (6) — confidence 0.92
+----------------------------------------------------------------------
+Analyze, Communication, Express.js, Market Research, PyTorch, Sales Management
+
+EXPERIENCE (10 jobs, 0 early_career entries) — confidence 0.91
+Total experience: 17.2 years (206 months, 6 overlaps merged)
+----------------------------------------------------------------------
+  1. HEAD @ Loans & LAP (Jan’24 - Present) [conf 0.98, review=False]
+  2. MANAGER @ To pursue a challenging (Aug ’22 - Jan’24) [conf 0.98, review=False]
+  3. Sales & @ Mktg, Lancor Holdings Ltd (Dec ’21 - Apr ‘22) [conf 0.98, review=False]
+  4. VICE PRESIDENT @ Home Loans (Apr ’21 - Oct ‘21) [conf 0.98, review=False]
+  5. HEAD SALES @ Mortgages (Nov ’16 - Apr ‘21) [conf 0.98, review=False]
+  6. None @ American Express (Mar ’06 - Jan ’08) [conf 0.85, review=True]
+  7. MANAGER | Highly motivated @ Mortgages, ABN AMRO (Feb ’04 - Mar ’06) [conf 0.98, review=False]
+  8. SALES OFFICER @ Home Loan, HSBC (Feb ’03 - Feb ’04) [conf 0.98, review=False]
+  9. None @ LTD (Jul 2000 - Feb ’03) [conf 0.85, review=True]
+  10. None @ All time high disbursal in PHL - OMT, Chennai, RBL Bank - July 2024. Pan India 2nd in ETRG Mortgage Disbursement (April ’20 - Mar ‘21) [conf 0.55, review=True]
+
+EDUCATION (3) — confidence 0.85
+----------------------------------------------------------------------
+  1. Diploma — Small Industries Service Institute (1977) [conf 0.95, review=False]
+  2. Diploma — Played for school Cricket team. Active member of NSS (1977) [conf 0.95, review=False]
+  3. 10th — None (None) [conf 0.65, review=False]
+
+CERTIFICATIONS (0) — confidence 0.0
+----------------------------------------------------------------------
+
+REVIEW QUEUE (3 flagged fields)
+----------------------------------------------------------------------
+  experience.jobs[5]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[8]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[9]                  conf=0.55  reason=incomplete_fields

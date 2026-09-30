@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "source_file": "cb19bc1a_25e707ce_Naukri_sachinbhaskarZagade[6y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:20.323187+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sachin Bhaskar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "zagadeks@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91) 9552582177",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "My experience includes developing technical studies\nand investigations, as well as working with PLC-based\nequipment, environmental monitoring systems, and\nother pharma equipment. I have been responsible for\nbreakdown and preventive maintenance of electrical\nsystems, organizing and directing maintenance\nshutdowns and have experience in customer handling,\nand Equipment Qualification(IQ, OQ,PQ).",
+  "skills": {
+    "items": [
+      "Customer Handling",
+      "Data Validation",
+      "Electrical Engineering",
+      "Maintenance Management",
+      "PLC",
+      "Responsible AI"
+    ],
+    "by_category": {
+      "customer_service": [
+        "Customer Handling"
+      ],
+      "data_engineering": [
+        "Data Validation"
+      ],
+      "engineering": [
+        "Electrical Engineering",
+        "Maintenance Management"
+      ],
+      "engineering_hardware": [
+        "PLC"
+      ],
+      "genai": [
+        "Responsible AI"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(responsible→Responsible AI(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Qualified, calibrated, validated",
+        "location": "maintained",
+        "start": "01/2019",
+        "end": "10/2020",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 22,
+        "bullets": [
+          "LIFECARE EQUIPMENT PVT. LTD. and other pharma equipment. Performed DQ, IQ, OQ, PQ, and technical documentation. Installed and qualified data acquisition system software Comply (21CFR PART 11). Installed and qualified remote view and alarm system (RVAS) and web-based software (ICDAS 2.1 AND",
+          "Years 0 Month"
+        ],
+        "sub_sections": [
+          "ICDAS1.2). Installed and qualified web-based data",
+          "logging & real-time monitoring system. Responsible",
+          "for breakdown and preventive maintenance of all",
+          "electrical systems. Organized and directed",
+          "maintenance shutdowns and startups. Completed",
+          "partial or full dismantling of equipment to quickly",
+          "repair or replace defective components and restore",
+          "functionality. Troubleshot and repaired complex",
+          "electrical equipment, including HT, LT Motors,",
+          "Compressors, Generator, and Furnace. Visually",
+          "inspected and tested machinery and equipment,",
+          "performing routine preventive maintenance.",
+          "Troubleshot and performed preventive maintenance",
+          "for pharma equipment (incubator, walk-in incubator,",
+          "humidity chamber, walk-in humidity chamber, deep",
+          "freezer, oven, photostability and thaw chamber).",
+          "Troubleshot Allen Bradley and Schneider (PLC, HMI)",
+          "panels. Identified specific cables, connectors, fuses,",
+          "circuit breakers, and other electrical devices required",
+          "for installation of systems. Rendered technical",
+          "drawings and electrical systems specifications",
+          "exceeding company standards. Troubleshot electrical",
+          "equipment problems such as electrical control panel",
+          "and sensors."
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Service Engineer",
+        "company": "Aimil Ltd",
+        "location": null,
+        "start": "06/2024",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 28,
+        "bullets": [
+          "issues for 100+ customers, resulting in a 20% increase in customer satisfaction."
+        ],
+        "sub_sections": [
+          "Collaborated with cross-functional teams to",
+          "streamline service processes, leading to a 15%",
+          "reduction in service delivery time.",
+          "Implemented proactive maintenance strategies,",
+          "reducing equipment downtime by 25% and saving an",
+          "estimated $50,000 in maintenance costs annually."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Executive Service Support",
+        "company": "SAKSHAM ANALYTICAL INSTRUMENT PVT LTD",
+        "location": null,
+        "start": "09/2022",
+        "end": "05/2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 21,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "company": "Unknown company",
+        "role": "0 Month",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 7.0,
+        "duration_months": 84
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 12.9,
+      "total_months": 154,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.93
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech/B.E. - Electrical",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Pune University",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2008",
+        "gpa": "60",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "10th",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2006",
+        "gpa": "50",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

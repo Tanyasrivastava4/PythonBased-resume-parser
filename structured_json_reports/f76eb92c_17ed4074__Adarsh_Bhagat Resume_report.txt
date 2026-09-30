@@ -1,0 +1,54 @@
+======================================================================
+FILE: f76eb92c_17ed4074__Adarsh_Bhagat Resume_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'skills', 'summary']
+Overall conf.  : 0.86
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Adarsh Bhagat  (conf 0.9, regex)
+  email     : adarshbhgt8@gmail.com  (conf 0.99, regex)
+  phone     : +918250205647  (conf 0.95, regex)
+  linkedin  : linkedin.com/in/adarsh031  (conf 0.99, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Cybersecurity Analyst with nearly 3 years of experience managing SIEM/EDR operations within the Microsoft ecosystem.
+Proven success in optimizing Microsoft Sentinel workbooks and leveraging KQL for proactive threat hunting and custom
+detection engineering. Demonstrated ability to automate incident response workflows using Logic Apps, significantly
+improving SOC efficiency. Deep technical knowledge in OWASP and MITRE frameworks for investigating cloud, identity, and
+endpoint-based security breaches.
+
+SKILLS (26) — confidence 0.92
+----------------------------------------------------------------------
+Any.Run, Azure, CEH, Cyber Kill Chain, EDR, Fine-tuning, ISO 31000, Incident Management, Incident Response, KQL, Log Analysis, MITRE ATT&CK, Malware Analysis, Microsoft Defender, Microsoft Sentinel, NIST, OWASP Top 10, Phishing, SIEM, SOAR, Security Awareness Training, ServiceNow, Splunk, Threat Hunting, Threat Intelligence, VirusTotal
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.84
+Total experience: 7.2 years (86 months, 2 overlaps merged)
+----------------------------------------------------------------------
+  1. Associate @ Cyber Security (July 2023 - Present) [conf 0.98, review=False]
+  2. Intern at PricewaterhouseCoopers Services LLP- PwC India @ Security Monitoring & Incident Documentation: Managed initial threat detection and alert triage within the SIEM environment, analyzing network and endpoint telemetry to identify potential IOCs; documented investigation findings and performed initial analysis to support rapid incident containment and closure. (Jan 2023 - July 2023) [conf 0.7, review=True]
+  3. Intern at PricewaterhouseCoopers Services LLP- PwC India @ Electronics and Communication Engineering - CGPA (Aug 2019 - June 2023) [conf 0.85, review=True]
+
+EDUCATION (0) — confidence 0.0
+----------------------------------------------------------------------
+
+CERTIFICATIONS (5) — confidence 0.72
+----------------------------------------------------------------------
+  1. CEH — None (None) [conf 0.6]
+  2. SC 200: Microsoft Security Operations Analyst Associate — Microsoft (None) [conf 0.8]
+  3. AZ 900: Microsoft Azure Fundamentals — Microsoft Azure (None) [conf 0.8]
+  4. SC 900: Microsoft Security, Compliance, and Identity Fundamentals — Microsoft (None) [conf 0.8]
+  5. ISO 31000 — None (None) [conf 0.6]
+
+REVIEW QUEUE (6 flagged fields)
+----------------------------------------------------------------------
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
+  education                           conf=0.0  reason=section_present_but_empty
+  certifications                      conf=0.72  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields
+  certifications.items[4]             conf=0.6  reason=incomplete_fields

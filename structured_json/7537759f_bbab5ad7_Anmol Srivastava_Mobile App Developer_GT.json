@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "source_file": "7537759f_bbab5ad7_Anmol Srivastava_Mobile App Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:17.701195+00:00",
+    "sections_found": [
+      "early_career",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anmol Srivastava",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "anmolsrivastava60669@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9335642311",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/anmol-srivastava-24b39420b",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Anmolsri12",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/store/apps/details",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Android",
+      "Bitbucket",
+      "Bloc",
+      "Dart",
+      "Firebase",
+      "Flutter",
+      "GetX",
+      "GitHub",
+      "Google",
+      "Jira",
+      "Payments",
+      "Postman",
+      "State Management",
+      "Stripe",
+      "VS Code"
+    ],
+    "by_category": {
+      "mobile": [
+        "Android",
+        "Bloc",
+        "Flutter",
+        "GetX"
+      ],
+      "dev_tool": [
+        "Bitbucket",
+        "GitHub",
+        "Postman",
+        "VS Code"
+      ],
+      "programming_language": [
+        "Dart"
+      ],
+      "database": [
+        "Firebase",
+        "Google"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "architecture": [
+        "State Management"
+      ],
+      "payment_gateway": [
+        "Stripe"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Payment→Payments(93%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Flutter Developer",
+        "company": "Ongraph Technologies Private Limited",
+        "location": null,
+        "start": "04/2022",
+        "end": "06/2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 27,
+        "bullets": [
+          "Koomoo: KooMoo is a groundbreaking mental well-being app fostering empathy through real-time mood sharing on a map.",
+          "Users express emotions and reasons, fostering community support.",
+          "KooMoo promotes understanding and encouragement, building a network of compassion. https://play.google.com/store/apps/details? id=com.ongraph.koomoo Sudanese Express:Sudanese Express is the simplest and most convenient app for sending money from Europe to Sudan.",
+          "With this app, you can effortlessly transfer money to your loved ones in Sudan from any European country, right from your device. https://play.google.com/store/apps/details? id=com.sudanese_moneytransfer.app Fujairah Government :The Fujairah Government's Department of Human Resources launched the \" Fujairah Government \" smartphone app, offering information on job vacancies, training programs, HR activities, and events.",
+          "The app also provides agendas, news, and surveys, enhancing public access to HR-related information and services.https://play.google.com/store/apps/details?"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Pioneer E Solutions",
+        "location": null,
+        "start": "07/2024",
+        "end": "Present",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 27,
+        "bullets": [
+          "Digital Recruitment Platform (NDRP) is a centralized online system developed to streamline recruitment for various government examinations.",
+          "It provides candidates with a single portal for One- Time Registration (OTR), profile creation, exam applications, admit card downloads, and scorecards/result, eliminating the need for multiple registrations across different agencies.",
+          "SVA (Smart Verification App) : Smart Verification App makes candidate verification easier by capturing the candidate’s live photo at the exam center, along with photos of the OMR sheet and other documents."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.5,
+      "total_months": 54,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Technology in Computer Science",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": "Computer Science Babu Banarsi Das University",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

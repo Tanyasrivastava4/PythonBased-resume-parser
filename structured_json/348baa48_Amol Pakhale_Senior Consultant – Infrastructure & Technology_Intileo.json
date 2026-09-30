@@ -1,0 +1,517 @@
+{
+  "meta": {
+    "source_file": "348baa48_Amol Pakhale_Senior Consultant – Infrastructure & Technology_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:15.247971+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Amol Pakhale",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "amol.pakhale90@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9969960955",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Technology professional with 13+ years delivering enterprise IT Infrastructure programs in regulated\nBFSI/NBFC and consulting services environments. Core strengths include data center migrations, DC-DR\nstrategy and execution, network transformation, compute/storage/virtualization upgrades, cloud\nreadiness, and ITIL-based service delivery. Experienced in PMO governance, budgeting/forecasting,\nRFP/RFQ and vendor management, regulatory alignment (RBI Master Directions), UAM/privileged access\ngovernance, IT Incident Management and audit readiness.\nRecognized for non-disruptive cutovers, service stability, and stakeholder management across CXO,\ntechnology, and operations.",
+  "skills": {
+    "items": [
+      "AVD",
+      "Access Governance",
+      "BFSI",
+      "Budgeting",
+      "Collaboration",
+      "Contract Management",
+      "Customer Success",
+      "Data Center Migration",
+      "Disaster Recovery",
+      "Due Diligence",
+      "Endpoint Security",
+      "Firewall",
+      "HPSM",
+      "Incident Management",
+      "Jira",
+      "KPI",
+      "MDM",
+      "MS Office",
+      "MS Project",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Observability",
+      "Oracle PPMS",
+      "PMP",
+      "Prince2",
+      "Project Management",
+      "Quality Management System",
+      "RBI",
+      "RFP",
+      "RFQ",
+      "Reporting",
+      "Root Cause Analysis",
+      "SD-WAN",
+      "SOP",
+      "Scrum",
+      "ServiceNow",
+      "SharePoint",
+      "Six Sigma",
+      "Stakeholder Management",
+      "Symphony Summit",
+      "Time Series Forecasting",
+      "Trello",
+      "UAM",
+      "VDI",
+      "Vendor Management",
+      "WAN",
+      "WLC"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AVD",
+        "Data Center Migration",
+        "VDI"
+      ],
+      "compliance": [
+        "Access Governance"
+      ],
+      "domain": [
+        "BFSI",
+        "RBI"
+      ],
+      "finance_ops": [
+        "Budgeting"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "legal": [
+        "Contract Management"
+      ],
+      "support": [
+        "Customer Success"
+      ],
+      "operations": [
+        "Disaster Recovery",
+        "Quality Management System",
+        "Root Cause Analysis",
+        "SOP",
+        "Six Sigma",
+        "Vendor Management"
+      ],
+      "finance": [
+        "Due Diligence"
+      ],
+      "security_ops": [
+        "Endpoint Security",
+        "Firewall",
+        "MDM",
+        "UAM"
+      ],
+      "itsm": [
+        "HPSM",
+        "Symphony Summit"
+      ],
+      "security": [
+        "Incident Management"
+      ],
+      "project_mgmt": [
+        "Jira",
+        "MS Project",
+        "PMP",
+        "Prince2",
+        "Project Management",
+        "Scrum"
+      ],
+      "business_analysis": [
+        "KPI",
+        "RFP",
+        "RFQ"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Teams",
+        "Trello"
+      ],
+      "devops": [
+        "Observability"
+      ],
+      "project_management": [
+        "Oracle PPMS"
+      ],
+      "networking": [
+        "SD-WAN",
+        "WAN"
+      ],
+      "integration": [
+        "ServiceNow",
+        "SharePoint"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "hardware": [
+        "WLC"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS Teams→Microsoft Teams(100%), endpoint security→Endpoint Security(100%), Contract Management ▪ RFP→Contract Management(95%), JIRA→Jira(100%), PowerPoint→Microsoft PowerPoint(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "PROFESSIONAL EXPERIENCE Manager",
+        "company": "Leading multi tower Data Center migration & Infra modernization programs for leading banks; ensuring application cutovers for critical banking systems with zero/minimal disruption",
+        "location": "Deloitte India",
+        "start": "Sept 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 13,
+        "bullets": [
+          "Owned end-to-end program management (scope, schedule, budget, risks) and CXO-level reporting; improved delivery predictability and governance compliance",
+          "Established infra governance frameworks aligned to RBI/ISO, delivering PMO controls, risk logs,",
+          "Performed tech due diligence, as-is/to-be analysis, and gap assessments across infra and applications,"
+        ],
+        "sub_sections": [
+          "RAID, and stakeholder governance"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| SMFG India",
+        "company": "Owned DR readiness, DC DR documentation, replication checks, runbooks, and periodic DR drills ensuring minimal disruption to the core business applications and zero end user impact",
+        "location": "SMFG India",
+        "start": "Feb 2024",
+        "end": "Aug 2025",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 19,
+        "bullets": [
+          "Managed Infra-led project activities covering planning, RAID management, stakeholder interaction and vendor alignment for 100+ projects/initiatives (IT Stability Program)",
+          "Led IT Service Delivery, Managed Services, User Access Management (UAM), and Incident/Problem/Change Management for business-critical lending platforms (LOS & LMS)",
+          "Coordinated with credit, operations, risk, and fintech vendors to streamline workflow processing",
+          "Drove RCA and corrective/preventive actions production issues; strengthened monitoring and governance to sustain 99%+ system availability",
+          "Authored BRDs/SOPs/process documentation for lending systems, ensuring alignment with RBI Master",
+          "Implemented stability initiatives and continual service improvement programs; improved SLA/KPI adherence and reduced downtime for lending operations",
+          "Partnered with audit, risk, and compliance functions for assessment, audit readiness, and remediation"
+        ],
+        "sub_sections": [
+          "Directions and internal risk/governance standards"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "closure; ensured disciplined change governance Manager",
+        "company": "Partnered with CXO leadership of a leading NBFC to drive IT modernization, data center strategy, governance programs, and technology roadmap aligned to business growth",
+        "location": "Deloitte India",
+        "start": "Jun 2022",
+        "end": "Feb 2024",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 21,
+        "bullets": [
+          "Led infra transformation (Server modernization, DC-DR deployment, Cloud adoption, System Stability)",
+          "Delivered strategy and transformation program for BFSI/NBFC clients include technology modernization, platform assessments, and roadmap execution",
+          "Conducted due diligence and infrastructure/application assessments; authored process frameworks, approach notes, and regulatory-aligned documentation for digital lending",
+          "Managed multi-phase program financials, resources, and risks; instituted PMO governance and reporting for predictable delivery",
+          "Developed executive dashboards, RFPs, proposals, and high-level solution designs for cloud migration and application modernization",
+          "Managed Cyber Incident Response and Business Resumption Program (BRP) for a major NBFC client,"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| NTT GDC India",
+        "company": "protecting critical lending and customer-facing services Technical Services Manager",
+        "location": "NTT GDC India",
+        "start": "Dec 2021",
+        "end": "Apr 2022",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 5,
+        "bullets": [
+          "Directed global Infra delivery across APAC/EMEA/US regions managing transitions, migrations programs",
+          "Handled MBR/QBR governance, incident escalations, stability tracking and vendor performance",
+          "Aligned change windows and production controls for banking/enterprise applications supporting digital operations",
+          "Maintained high CSAT/VOC; led revenue realization and collections through disciplined delivery and stakeholder management"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| MITS Global",
+        "company": "Governed FRD, RACI, and issue/risk registers, ensuring alignment across technology, operations, and business teams",
+        "location": "MITS Global",
+        "start": "Feb 2021",
+        "end": "Aug 2021",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 7,
+        "bullets": [
+          "Delivered IT Infrastructure program for BFSI client including secure and scalable 3-tier architectures",
+          "Managed the full project lifecycle covering scope, schedule, cost, risks, and quality",
+          "Led Agile ceremonies and sprint execution to drive coordinated and timely Infra delivery",
+          "Handled stakeholder management, documentation, budgeting, and resource planning for Infrastructure"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "initiatives Project Manager",
+        "company": "NTT Ltd",
+        "location": null,
+        "start": "Sept 2018",
+        "end": "Jan 2021",
+        "method": "date_regex+pipe_split",
+        "duration_months": 29,
+        "bullets": [
+          "Managed large-scale infrastructure programs including WAN/SD-WAN, wireless, firewall, and Data Center upgrades for BFSI, Enterprise, Manufacturing, Software and various industry clients across India geography",
+          "Delivered Bank of India’s nationwide network and data center refresh across 5000+ branches with minimal disruption to business operations",
+          "Led end-to-end delivery for the Reserve Bank of India’s data center augmentation (Primary, DR, Test/Dev) ensuring application readiness and non-disruptive cutovers for critical banking workloads",
+          "Maintained comprehensive risk registers and proactive mitigation; achieved strong CSAT/VOC outcomes",
+          "Conducted steerco meetings and handled CXO-Leadership reporting, client escalations and project"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "documentation Project Manager",
+        "company": "Fluous Solutions Pvt. Ltd",
+        "location": null,
+        "start": "Jul 2016",
+        "end": "Jul 2018",
+        "method": "date_regex+pipe_split",
+        "duration_months": 25,
+        "bullets": [
+          "Led end-to-end project lifecycle for HRMS payroll application and its mobile platforms on a secure, high-availability 3-tier infrastructure with DC-DR resilience",
+          "Managed a 15+ member cross-functional team across development, BAU support, and DC support teams",
+          "Developed SOPs, governance frameworks, regulatory documentation, and user guides to support compliant delivery",
+          "Enforced structured change control (RFC) and ensured disciplined releases across environments",
+          "Coordinated infrastructure teams and vendors for environmental readiness, UAT cycles, and controlled production cutovers",
+          "Oversaw project financials, budgeting, and resource allocation to ensure cost-efficient delivery"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "| Learning",
+        "company": "Prepared project charters, rollout plans, MIS reports, and supported client and board presentations",
+        "location": "Point, Mumbai",
+        "start": "Feb 2016",
+        "end": "Jul 2016",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 6,
+        "bullets": [
+          "Delivered Android and web-based e-learning platform with strong scope, cost, schedule, and resource governance",
+          "Led daily stand-ups, tracked progress via RAID logs, and resolved execution dependencies",
+          "Managed staging and UAT infra setup, testing cycles, and production deployment"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "▪ Provided team coaching and created functional documentation for smoother execution Early Career  Wipro Infotech",
+        "location": "Harjai Computers | Nirmal Datacomm | Career Academy",
+        "start": "2011",
+        "end": "2014",
+        "method": "date_regex",
+        "duration_months": 37,
+        "bullets": [
+          "Managed IT server administration, datacenter operations, desktop/application, end user support for BFSI, government, and corporate clients across Mumbai region",
+          "Ensured IT uptime, managed BAU operations, Ensured Asset security compliance as per IT Security guidelines",
+          "Handled network infrastructure support, server hardware/software AMC, and enforced SLA-based service governance",
+          "Led Software and Hardware Asset Reconciliation program for leading BFSI client",
+          "Ensured high customer satisfaction across all client deliveries and end user support ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 13.3,
+      "total_months": 160,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.75
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "▪ MBA Operations Management | D Y Patil University (2014–16)",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "D Y Patil University",
+        "year": "2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "▪ B.Sc. IT | University of Mumbai (2008–11)",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "University of Mumbai",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "CSM – Certified Scrum Master",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Prince2 Foundation & Practitioner Certificate in Project Management",
+        "issuer": "Prince2",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "ISO Certified Internal Auditor – QMS, EMS (9001:,14001:2015",
+        "issuer": null,
+        "year": "2015",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Six Sigma – Green & Yellow Belt Professional",
+        "issuer": "Six Sigma",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "PMP Certificate Training",
+        "issuer": "PMP",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "ITIL v3 Foundation Training",
+        "issuer": "ITIL",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.76
+  },
+  "achievements": {
+    "items": [
+      "‘Live the Dot’ Award - Deloitte India (2023): Recognized for leadership, collaboration, and client-centric",
+      "delivery on high-impact engagements – NBFC clients",
+      "Top CSAT/VOC Performer - NTT India (2020–2021): Recognized by key clients for superior customer"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[7]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[8]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

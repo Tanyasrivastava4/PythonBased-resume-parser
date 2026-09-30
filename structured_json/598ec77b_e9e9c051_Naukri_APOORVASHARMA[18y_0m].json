@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "source_file": "598ec77b_e9e9c051_Naukri_APOORVASHARMA[18y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:43.063405+00:00",
+    "sections_found": [
+      "achievements",
+      "early_career",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Apoorva Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sharmaapoorva85@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919811590975",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "▶ Strategic HR Business Partner with 15+ years of experience driving people strategy and\norganizational effectiveness across EPC, infrastructure, and energy sectors.\n▶ Trusted advisor to CXOs and senior leadership, aligning workforce planning, succession\nmanagement, and performance strategy with long-term business growth objectives.\n▶ Expertise in talent architecture, leading end-to-end hiring up to Vice President level and\nstrengthening leadership pipelines through data-led recruitment models.\n▶ Builder of high-performance cultures, designing learning & development frameworks,\nsuccession plans, and engagement initiatives to improve productivity and retention.\n▶ Operationally strong HR leader with ownership of HR governance, including PMS, payroll,\ncompliance, budgeting, policy formulation, and HR digitization.\n▶ Analytics-driven HR professional leveraging dashboards and workforce insights to enable\ninformed decision-making and process improvement.\n▶ Proven change enabler, delivering structured onboarding and leadership communication\nplatforms to enhance employee experience and alignment.",
+  "skills": {
+    "items": [
+      "Budgeting",
+      "Business Development",
+      "Communication",
+      "Digital Transformation",
+      "Electrical Engineering",
+      "Employee Engagement",
+      "Leadership",
+      "Learning & Development",
+      "Nursing",
+      "Onboarding",
+      "Payroll Administration",
+      "Process Improvement",
+      "Recruitment",
+      "Resource Planning",
+      "Stakeholder Management",
+      "Talent Management"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Budgeting"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Leadership",
+        "Stakeholder Management"
+      ],
+      "consulting": [
+        "Digital Transformation"
+      ],
+      "engineering": [
+        "Electrical Engineering"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "Learning & Development",
+        "Onboarding",
+        "Payroll Administration",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "healthcare": [
+        "Nursing"
+      ],
+      "operations": [
+        "Process Improvement"
+      ],
+      "project_mgmt": [
+        "Resource Planning"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%), hiring→Recruitment(100%), recruitment→Recruitment(100%), payroll→Payroll Administration(100%), digitization.→Digital Transformation(96%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "intelligence, executive networking, campus programs, and data-driven recruitment",
+        "company": "",
+        "location": "Noida",
+        "start": "July 2020",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 75,
+        "bullets": [
+          "▶ Talent Acquisition & Pipeline Excellence: Built proactive talent pipelines using market intelligence, executive networking, campus programs, and data-driven recruitment models, improving diversity, cost efficiency, and time-to-hire. ▶ Strategic Workforce & Talent Partnering: Drove workforce planning, HR budgeting, senior leadership hiring (up to VP level), and succession planning to align talent strategy with business growth, scalability, and leadership continuity. ▶ Performance, Capability & Leadership Development: Led enterprise PMS, conducted organization-wide TNA, and designed integrated L&D frameworks to strengthen leadership bench strength, capability building, and employee engagement. ▶ HR Operations, Governance & Analytics: Institutionalized recruitment dashboards, governed payroll and statutory compliance, and embedded analytics-driven decision-"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "including goal alignment, mid-year and annual reviews, calibration support, and manager",
+        "company": "Tata Projects Limited",
+        "location": "Noida",
+        "start": "Aug 2018",
+        "end": "July 2020",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 24,
+        "bullets": [
+          "▶ Onboarding, Learning & Capability Building: Designed structured onboarding programs (Buddy Program, 30-60-90 Day Plan), drove TNI, and co-created annual technical and behavioral learning calendars, tracking effectiveness through data-driven assessments. ▶ Engagement, Leadership & Culture: Enabled leadership connect forums, Skip-levels, Coffee with Leaders and masterclasses series while building engagement calendars and recognition frameworks to foster collaboration, trust, and a high-performance culture. ▶ Performance Management (PMS): Led end-to-end Performance Management System cycles including goal alignment, mid-year and annual reviews, calibration support, and manager enablement to drive differentiated performance and merit outcomes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Executive – Human Resources",
+        "company": "BGC Company Limited",
+        "location": "Delhi",
+        "start": "Feb 2018",
+        "end": "Aug 2018",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 7,
+        "bullets": [
+          "▶ Strategic Talent Acquisition & Workforce Planning: Led end-to-end talent acquisition aligned with workforce plans and evolving business priorities.",
+          "▶ End-to-End Recruitment Lifecycle Management: Managed the complete recruitment lifecycle, achieving timely closures and high-quality hiring outcomes. ▶ Hiring Manager Collaboration & Requirement Translation: Partnered with hiring managers to translate manpower requirements into precise role specifications and coordinated interview and evaluation processes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.7,
+      "total_months": 104,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "PGDM – Human Resource",
+        "degree_name": "PGDM",
+        "degree_type": "diploma",
+        "degree_field": "Human Resource",
+        "institution": "Human Resource Management Institute of Management Education",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Punjab University | 2006"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

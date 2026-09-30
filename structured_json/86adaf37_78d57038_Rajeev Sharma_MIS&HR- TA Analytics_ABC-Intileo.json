@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "source_file": "86adaf37_78d57038_Rajeev Sharma_MIS&HR- TA Analytics_ABC-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:31.856478+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rajeev Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sharmarajeev1998@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919922598654",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Senior TA Reporting & Analytics Specialist with 8+ years of experience in Talent\nAcquisition MIS, HR analytics, dashboarding, and data automation across large-scale\noperations. Proven expertise in digitizing hiring data, building TA dashboards, multi-\ndimensional analysis, and stakeholder reporting for senior HR leadership. Strong\nbackground in data extraction, cleansing, dashboard visualization, and delivering\nactionable hiring insights to enable data-driven workforce decisions. Advanced skills in\nExcel automation, reporting frameworks, and cross-functional stakeholder management.",
+  "skills": {
+    "items": [
+      "CARO Reporting",
+      "Cross-functional Collaboration",
+      "Data Cleaning",
+      "Data Management",
+      "Data Validation",
+      "Data Wrangling",
+      "Funnel Analysis",
+      "HRIS",
+      "KPI",
+      "Leadership",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "Recruitment",
+      "RegMon",
+      "Reporting",
+      "SQL",
+      "Stakeholder Management",
+      "Trend Analysis"
+    ],
+    "by_category": {
+      "finance": [
+        "CARO Reporting"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Validation",
+        "Data Wrangling"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "data_science": [
+        "Funnel Analysis",
+        "Trend Analysis"
+      ],
+      "hr": [
+        "HRIS",
+        "Recruitment"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "testing": [
+        "RegMon"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(CHRO Reporting→CARO Reporting(93%), Data Cleansing→Data Cleaning(100%), Region→RegMon(83%), hiring→Recruitment(100%), leadership.→Leadership(95%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Reporting Analyst",
+        "company": "Gallagher Centre of Excellence",
+        "location": null,
+        "start": "Jul 2024",
+        "end": "Jan 2026",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 19,
+        "bullets": [
+          "Manage onboarding and hiring reports to ensure accurate and timely tracking of new hires across India.",
+          "Digitized and automated hiring MIS datasets to improve reporting accuracy and turnaround time.",
+          "Delivered leadership dashboards for HR stakeholders highlighting hiring funnel metrics, demand vs fulfilment, and recruiter productivity.",
+          "Performed multi-dimensional hiring analysis (LOB, region, recruiter, source, time-to- fill).",
+          "Provided actionable hiring insights to TA leadership to support workforce planning decisions.",
+          "Managed end-to-end MIS lifecycle: data extraction, cleansing, transformation, visualization, and reporting.",
+          "Supported TA teams with ad-hoc reports, hiring statistics, and analytics requirements.",
+          "Monitored referral payouts, onboarding reports, and joining trends to ensure process compliance.",
+          "Consolidate recruiter performance and activity metrics at a pan-India level.",
+          "Track and maintain hiring demands for multiple departments.",
+          "Oversee reporting related to employee joining and referral bonus payouts."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Business Analyst",
+        "company": "Market Expertise",
+        "location": "Pune, India",
+        "start": "Feb 2024",
+        "end": "May 2024",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 4,
+        "bullets": [
+          "Conducted root cause analysis (RCA) to identify operational gaps and recommend corrective actions.",
+          "Developed and maintained quality management systems.",
+          "Streamlined business processes to reduce operational costs."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Business Analyst (MIS",
+        "company": "Market Expertise",
+        "location": "Pune, India",
+        "start": "Oct 2022",
+        "end": "Jan 2024",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 16,
+        "bullets": [
+          "Analyzed business performance drivers and presented insights to senior management."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Team Lead – MIS",
+        "company": "Startek (Aegis BPO",
+        "location": null,
+        "start": "Aug 2017",
+        "end": "Oct 2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 63,
+        "bullets": [
+          "Managed end-to-end MIS and reporting for large-scale operations, including HR, workforce and HR performance analytics.",
+          "Led MIS operations and managed a team of 12 MIS executives across Pune and Mumbai.",
+          "Gathered business requirements through stakeholder interviews, surveys, and workshops.",
+          "Analyzed data to identify trends and support strategic decision-making for HR and Operation.",
+          "Created KPI dashboards, APRs, invoices, YTD, hygiene, and schedule adherence reports.",
+          "Supported TA teams with ad-hoc reports, hiring statistics, and analytics requirements.",
+          "Improved processes through business process mapping and automation.",
+          "Coordinated with IT teams for MIS solution development and implementation.",
+          "Identified project risks and implemented mitigation strategies."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.4,
+      "total_months": 101,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Com – Accounting & Business Management | May 2019",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "Accounting & Business Management",
+        "institution": null,
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "HSC – Commerce | Mar 2016",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "Commerce",
+        "institution": null,
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "SSC | Mar 2014",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Employee of the Month – October 2020"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

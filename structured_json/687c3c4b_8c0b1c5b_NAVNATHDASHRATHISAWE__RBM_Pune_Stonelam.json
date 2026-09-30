@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "source_file": "687c3c4b_8c0b1c5b_NAVNATHDASHRATHISAWE__RBM_Pune_Stonelam_segmented.txt",
+    "generated_at": "2026-09-30T06:59:05.333273+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "navnath.isawe@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919409262761 / +919850484677",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To be the part of such an organization that provides me\nchallenging environment and opportunities where I can utilize\nmy knowledge and skills efficiently to facilitate the growth of\norganization and to grow professionally.\nAbout Me\nExperienced sales and marketing professional with proven track\nrecord in Channel sales, Direct Sales, Business development,\nsecondary sales management and effective implementation of\nmarketing strategies in assigned territories.",
+  "skills": {
+    "items": [
+      "Business Development",
+      "Channel Sales",
+      "Creativity",
+      "Leadership",
+      "Mechanical Engineering",
+      "Microsoft DirectX",
+      "Negotiation",
+      "Problem Solving",
+      "Sales Management",
+      "Time Management"
+    ],
+    "by_category": {
+      "biz_dev": [
+        "Business Development"
+      ],
+      "sales": [
+        "Channel Sales",
+        "Sales Management"
+      ],
+      "soft_skill": [
+        "Creativity",
+        "Leadership",
+        "Negotiation",
+        "Problem Solving",
+        "Time Management"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "os_system": [
+        "Microsoft DirectX"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Direct→Microsoft DirectX(92%), Business development→Business Development(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Retail Sales",
+        "company": null,
+        "location": "Retail Sales",
+        "start": "Oct 2021",
+        "end": "Present",
+        "method": "since_date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 60,
+        "bullets": [],
+        "sub_sections": [
+          "Pune, Solapur & Satara",
+          "Key Responsibilities :",
+          "+ 91 8796614736",
+          "Handled 50+Direct Retailers of Pune, Solapur and Satara.",
+          "Accountable for 600 tons of volume and in terms of value 3",
+          "to 3.5 C business on monthly basis. Launching of new",
+          "D-1008, Majestic Venice, Near",
+          "products in a assigned area.",
+          "Nalanda School, Dhayari, Pune",
+          "Customer level - Product level sales planning.",
+          "411041",
+          "Network Expansion in Pune & Solapur.",
+          "Revenue Management (Ensure timely collection).",
+          "Effective implementation of marketing initiatives. [Run",
+          "Fabricators’",
+          "i incentive schemes to ensure liquidation]",
+          "Drive market development activities such as In shop meets."
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Territory Sales Officer (TSO",
+        "company": "Kansai Nerolac Paints limited",
+        "location": null,
+        "start": "March 2019",
+        "end": "Sept 2021",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 31,
+        "bullets": [
+          "Handled 60+ Direct Retailers of Pune (Camp Territory),.",
+          "Accountable for Sales of value 60 lakhs of. business on monthly basis.",
+          "Launching of new products in assigned area.",
+          "Customer level - Product level sales planning.",
+          "Network Expansion in Pune (Camp Territory)."
+        ],
+        "sub_sections": [
+          "Revenue Management (Ensure timely collection) Effective",
+          "implementation of marketing initiatives. [Run Painters’",
+          "incentive schemes to ensure liquidation] Drive market",
+          "development activities such as In shop meets. and Painter’s",
+          "meet."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Sales Officer (SSO",
+        "company": "Berger Paints India Ltd",
+        "location": null,
+        "start": "June 2018",
+        "end": "March 2019",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 10,
+        "bullets": [
+          "Handling Distributors and Sub dealers in Kolhapur and",
+          "Handling Distributors and there sub dealers in Pune area."
+        ],
+        "sub_sections": [
+          "Satara area",
+          "Appointment of distributors and sub dealers",
+          "·Adopted company programs amongst assigned",
+          "partners which resulted in revenue enhancement from"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.3,
+      "total_months": 100,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Business Administration (Marketing)",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Marketing",
+        "institution": "Marketing Pune University Vishwakarma Institute of Management",
+        "year": null,
+        "gpa": "69.70%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Pune University M.M.C.C Pune",
+        "year": "2021",
+        "gpa": "60.70%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th Commerce",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Commerce Kendriya Vidyalaya D.I.A.T Girinagar",
+        "year": "2021",
+        "gpa": "62.2%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "10th",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Kendriya Vidyalaya D.I.A.T Girinagar",
+        "year": "1993",
+        "gpa": "61.4%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.91
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

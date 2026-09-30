@@ -1,0 +1,69 @@
+======================================================================
+FILE: 9694602f_Ajith Kumar _CV_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'other', 'skills', 'summary', 'unknown']
+Overall conf.  : 0.83
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Ajith Kumar Tl  (conf 0.9, regex)
+  email     : 89ajith@gmail.com  (conf 0.99, regex)
+  phone     : +91-8921039873 / +91-9496321238  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Credit Manager with 7+ years of progressive experience in credit appraisal, loan underwriting, and portfolio
+management across retail, MSME, corporate, and agricultural segments. Proven expertise in financial statement
+analysis, credit risk assessment, and policy compliance. Recognized with the Rising Star Award at CSB Bank for
+exceptional performance. Strong ability to collaborate with cross-functional teams, train employees, and improve
+credit processes.
+
+SKILLS (17) — confidence 0.92
+----------------------------------------------------------------------
+CMA Analysis, Collaboration, Corporate Lending, Cross-functional Collaboration, Financial Reporting, Financial Statement Analysis, MIS Reporting, Microsoft Teams, Mortgage Lending, NPA Management, Portfolio Management, Portfolio Monitoring, Process Improvement, Real Estate Valuation, Risk Assessment, Risk Management, Working Capital Financing
+
+EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.73
+Total experience: 8.8 years (105 months, 1 overlaps merged)
+----------------------------------------------------------------------
+  1. Credit Manager @ CSB Bank Ltd (May 2023 - Present) [conf 0.98, review=False]
+  2. Assistant Manager – ESAF Small Finance @ Analyzed MSME and corporate loan proposals and prepared CMA reports. (Dec 2021 - May 2023) [conf 0.7, review=True]
+  3. Credit Officer – Ujjivan Small Finance @ Handled affordable housing, business, and agriculture loan segments. (May 2021 - Nov 2021) [conf 0.7, review=True]
+  4. Credit Processing Associate – Yes Bank @ Processed mortgage and working capital loans with complete financial due diligence. (Apr 2019 - Apr 2021) [conf 0.7, review=True]
+  5. None @ Analyzed bank statements and salary slips to calculate credit eligibility. (Jan 2018 - Mar 2019) [conf 0.55, review=True]
+
+EDUCATION (4) — confidence 0.88
+----------------------------------------------------------------------
+  1. MBA — Finance & Marketing), RNTU Bhopal (None) [conf 0.8, review=False]
+  2. M.Sc — Computer Science, MG University Kerala (None) [conf 0.8, review=False]
+  3. B.Sc — Mathematics with Computer Science & Statistics), MG University Kerala (2023) [conf 0.95, review=False]
+  4. Diploma — Hardware & Networking, Govt. Polytechnic Kottayam (2023) [conf 0.95, review=False]
+
+CERTIFICATIONS (3) — confidence 0.65
+----------------------------------------------------------------------
+  1. MIS Reporting & Process Improvement — None (None) [conf 0.6]
+  2. Rising Star Award – CSB Bank (Nov — None (2023) [conf 0.75]
+  3. Basics of Credit Analysis – IIBF (Indian Institute of Banking & Finance) — None (None) [conf 0.6]
+
+ACHIEVEMENTS (6) — confidence 0.85
+----------------------------------------------------------------------
+  • Date of Birth: 06/10/1989
+  • Marital status: Married
+  • Religion & Caste: Hindu, Nambiar
+  • Hobbies/Interest: Observing people, Writing poems and stories
+  • Languages: English, Malayalam
+  • Interests: Travelling, Chess, Writing poems
+
+REVIEW QUEUE (8 flagged fields)
+----------------------------------------------------------------------
+  experience                          conf=0.73  reason=low_confidence
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[4]                  conf=0.55  reason=incomplete_fields
+  certifications                      conf=0.65  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields
+  certifications.items[2]             conf=0.6  reason=incomplete_fields

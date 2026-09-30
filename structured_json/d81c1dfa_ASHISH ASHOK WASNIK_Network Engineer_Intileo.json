@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "source_file": "d81c1dfa_ASHISH ASHOK WASNIK_Network Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:30.735129+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Ashok Wasnik",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ddashishwasnik@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8087111098",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "dynacons.com/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Experienced Network & Security Engineer with 12 years in managing and securing enterprise-level networks across banking, finance, and global IT infrastructure. Proven expertise in designing, implementing, and supporting robust network architectures with a strong focus on security, compliance, and high availability. Adept in handling Palo Alto, Fortinet, Cisco, and Juniper technologies, and leading cross-functional teams in large-scale global projects including datacenter migration, firewall onboarding, and policy optimization.",
+  "skills": {
+    "items": [
+      "AWS",
+      "BGP",
+      "Cisco ASA",
+      "Cross-functional Collaboration",
+      "Data Center Migration",
+      "EIGRP",
+      "Firewall",
+      "Fortinet",
+      "HLD/LLD",
+      "Juniper",
+      "Microsoft Teams",
+      "Network Security",
+      "OSPF",
+      "Onboarding",
+      "Palo Alto Networks",
+      "Routing & Switching",
+      "ServiceNow",
+      "VLAN",
+      "VPN"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "Data Center Migration",
+        "Routing & Switching",
+        "VLAN"
+      ],
+      "networking": [
+        "BGP",
+        "EIGRP",
+        "OSPF"
+      ],
+      "security_ops": [
+        "Cisco ASA",
+        "Firewall",
+        "Network Security",
+        "Palo Alto Networks",
+        "VPN"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "security": [
+        "Fortinet"
+      ],
+      "architecture": [
+        "HLD/LLD"
+      ],
+      "hardware": [
+        "Juniper"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "integration": [
+        "ServiceNow"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(VLANs→VLAN(89%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Position | Lead Domain Architect",
+        "company": "Unknown",
+        "location": null,
+        "start": "July 2022",
+        "end": "Present",
+        "method": "date_regex+dash_split",
+        "duration_months": 51,
+        "bullets": [
+          "Provided network support for customer Coke One NA for US region.",
+          "Managing stake holders of multiple customers (Bottlers) as per their business requirements.",
+          "Supporting the delivery of Fortigate Firewall & Analyzer,PaloAlto Firewall & Cisco ASA Firewall, F5 LTM, Cisco Nexus 7k,5k & 9k.",
+          "Create Network architecture diagram HLD & LLD for CONA DC.",
+          "Providing Level 3 support and joining P1 and P2 calls.",
+          "Provide RCA to customers.",
+          "Follow the customer incident, change, problem management process through Service now tool.",
+          "Managing site to site VPN for customer various locations and vendors.",
+          "Scheduling internal and external meetings with Customers, vendors and internal teams, stakeholders to discuss the important network issues and ongoing project queries.",
+          "Analyzing changes and presenting them in CAB meetings for review and approvals.",
+          "Changes performed as per standard, expedite, emergency status and make sure to implement as per schedule.",
+          "Employment History:"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Customer: Oceania  Duration",
+        "location": null,
+        "start": "Oct 2024",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 24,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Customer: Fujitsu IT Duration",
+        "location": null,
+        "start": "1st Feb 2024",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 32,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Customer: TVH  Duration",
+        "location": null,
+        "start": "4th July 2022",
+        "end": "31st Jan 2024",
+        "method": "date_regex",
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [
+          "Capgemini Technology Services India limited"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Position: Senior Network Engineer Duration",
+        "company": "Location: Mumbai",
+        "location": null,
+        "start": "March 2017",
+        "end": "July 2021",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 53,
+        "bullets": [
+          "Role & Responsibilities: Bank Project – EXIM (Export Import Bank of India) As a part of Network operations team, creating & planning new LAN Network & security policy & co-ordination with different vendor & provide onsite support from client for data center build.",
+          "Created HLD & LLD for new Data Center in Microsoft visio software.",
+          "Installation, configuration & migration of Palo Alto (PA 500, 200 & 220) firewall with Fortigate (FG-1100E, 101F & 81F) firewall in Head office, DR & RO’s.",
+          "Installation, configuration & migration of Cisco 3750, 2960 & SG300 switches with Nexus series switches.",
+          "Working as part of a proactive Export Import bank of India team of Network Operations &   Management & Handling PAN India & Overseas EXIM Bank RO Configuring and Maintaining Cisco WLC 2500 series & Cisco AP's Wi-Fi AP's Installation, Configuration and Maintenance of Palo Alto Firewalls (PA-200, PA-220, PA-500) for all zone & branches of EXIM bank Create Security Policies and Security Profiles (URL filtering, File blocking, Antivirus, Vulnerability Protection) on the firewall Configure policy based forwarding and NAT on the firewall.",
+          "Creating Access Policies, Objects and Object Groups on Palo-Alto firewall.",
+          "Block blacklisted domains, URLs and IP addresses in firewall as per guidelines and security advisories from SOC monitoring team.",
+          "Allow access to Bank Internal Resources from remote location through VPN (Array & Accop).",
+          "Monitoring of MPLS & ILL links, co-ordination and escalation of link related calls to service provider.",
+          "Employment History:"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Position: Network Engineer",
+        "company": "L2 Duration",
+        "location": null,
+        "start": "August 2015",
+        "end": "January 2017",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 18,
+        "bullets": [
+          "Role & Responsibilities: Bank Project – SBI Life Insurance Working as part of a proactive SBI Life Insurance team of Network Operations & Management responsible for delivering a high quality, customer-focused professional services and solutions.",
+          "Providing the highest level of technical support to the customer.",
+          "L2 Network support for SBI Life Insurance Project.",
+          "Installation, Configuration and IOS Up gradation of CISCO 1800, 1900, 3845 Routers and CISCO 2900 and 3560 series switches.",
+          "Working on experience on Nexus 5k (Cisco 5596) & 7k (Cisco 7009) model.",
+          "Maintaining and Troubleshooting WAN Links i.e.",
+          "MPLS and coordinating with ISP.",
+          "Troubleshooting of complex LAN/WAN infrastructure including routing protocols OSPF & BGP.",
+          "Hand on experience in what’s up Gold Monitoring tool.",
+          "Employment History:"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Network Engineer. Duration: May 2014 to August 2015",
+        "company": "Location: Mumbai",
+        "location": null,
+        "start": "May 2014",
+        "end": "August 2015",
+        "method": "date_regex+subfield_label_role+next_line_company",
+        "duration_months": 16,
+        "bullets": [
+          "Role & Responsibilities: Bank Project – SBI, SBI Life Insurance, Axis Bank Working as a NOC Engineer in SBI Life, Belapur Major project being ‘SBI-Connect’ which includes implementation and maintenance of networking devices such as Cisco Routers, Switches, IP Phones, Leased Circuit, ISDN Lines for State Bank group in Mumbai Region.",
+          "Maintenance for Leased Circuit, PRI line and ISDN Lines for other corporate clients such as IDBI Bank, Fedral Bank, MetLife Insurance, Bharti AXA Insurance, Fedex, etc.",
+          "Handle IOB router installation project in Mumbai region.",
+          "Coordinate with NMS team of MTNL for fault detection and resolution.",
+          "Working on Tellabs modems and network transmission equipment’s.",
+          "Troubleshoot network issues and resolve the problem by coordinating with service provider."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.4,
+      "total_months": 137,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Engineering\t: (Information Technology)",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "(Information Technology)",
+        "institution": "Information Technology Institute Smt. Bagwati Chaturvedi College of Engineering",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "DIPLOMA\t: IT (Information Technology)",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "IT (Information Technology)",
+        "institution": "IT Information Technology Institution Late Vasantdada Polytechnic Collage",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "S.S.C\t: Maharashtra State Board",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Maharashtra State Board Name of School",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

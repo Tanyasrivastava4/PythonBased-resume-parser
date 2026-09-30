@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "source_file": "4a20681e_1fe3124e_Pankaj Kumar Jha_AI Solution Architect_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:33.004748+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pankaj Kumar Jha",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "pkjpankaj@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9811127903",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "falconsearch.com/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Enterprise Data & AI Architect with 14+ years of experience designing, governing, and securing cloud-native\ndata and AI platforms across GCP, Azure, and AWS, with deep expertise in enterprise data strategy, data governance, data\nsecurity, data virtualization, and modern operating models. Proven ability to integrate AI/ML, Agentic AI, and LLM-based\nsolutions (Vertex AI, LangChain) into enterprise ecosystems to enable intelligent automation, predictive analytics, and\ntrusted data products. Adept at leading the adoption of Data Mesh, Lakehouse, and federated analytics architectures, while\nestablishing DevOps, DataOps, and MLOps practices for CI/CD, automation, and platform resilience. A trusted advisor to\nsenior stakeholders, delivering scalable, compliant, and business-aligned architectures for global enterprises including BT,\nHSBC, UPS, and Kimberly-Clark. PMP® certified with multi-cloud architect certifications, combining strategic leadership with\nhands-on technical depth to drive measurable enterprise value.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS Athena",
+      "Agentic AI",
+      "Agile",
+      "Apache Airflow",
+      "Apache Spark",
+      "Automation Testing",
+      "Azure",
+      "Azure DevOps",
+      "Azure OpenAI",
+      "BigQuery",
+      "C#",
+      "CI/CD",
+      "Cryptography",
+      "DAMA-DMBOK",
+      "Data Fabric",
+      "Data Mesh",
+      "Data Pipeline",
+      "Data Science",
+      "Data Virtualization",
+      "DataOps",
+      "Databricks",
+      "Dataflow",
+      "DevOps",
+      "Domain-Driven Design",
+      "Dremio",
+      "E-commerce",
+      "ETL",
+      "Electronic Health Records",
+      "Event-Driven",
+      "GCP",
+      "GDPR",
+      "Healthcare",
+      "Identity Management",
+      "Informatica",
+      "Java",
+      "LLM",
+      "LangChain",
+      "Leadership",
+      "Logistics",
+      "MLOps",
+      "MSSQL",
+      "Machine Learning",
+      "Make",
+      "Microservices",
+      "PMP",
+      "PostgreSQL",
+      "Power BI",
+      "Predictive Analytics",
+      "Product Design",
+      "Project Management",
+      "Python",
+      "Redshift",
+      "Regulatory Compliance",
+      "Responsible AI",
+      "SQL",
+      "Scala",
+      "Scrum",
+      "Security Architecture",
+      "Sitecore",
+      "SnapLogic",
+      "Snowflake",
+      "Starburst",
+      "Synapse Analytics",
+      "TOGAF",
+      "Telecom",
+      "Terraform",
+      "Vertex AI",
+      "dbt"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS Athena",
+        "Azure",
+        "Dataflow",
+        "GCP",
+        "Synapse Analytics"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Azure OpenAI",
+        "LLM",
+        "LangChain",
+        "MLOps",
+        "Responsible AI",
+        "Vertex AI"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "PMP",
+        "Project Management",
+        "Scrum"
+      ],
+      "data_engineering": [
+        "Apache Airflow",
+        "Apache Spark",
+        "Data Pipeline",
+        "Databricks",
+        "ETL",
+        "dbt"
+      ],
+      "testing": [
+        "Automation Testing"
+      ],
+      "devops": [
+        "Azure DevOps",
+        "CI/CD",
+        "DevOps",
+        "Terraform"
+      ],
+      "database": [
+        "BigQuery",
+        "Dremio",
+        "Informatica",
+        "MSSQL",
+        "PostgreSQL",
+        "Redshift",
+        "SQL",
+        "Snowflake",
+        "Starburst"
+      ],
+      "programming_language": [
+        "C#",
+        "Java",
+        "Python",
+        "Scala"
+      ],
+      "security_ops": [
+        "Cryptography",
+        "Security Architecture"
+      ],
+      "architecture": [
+        "DAMA-DMBOK",
+        "Data Fabric",
+        "Data Mesh",
+        "Data Virtualization",
+        "Domain-Driven Design",
+        "Event-Driven",
+        "Microservices",
+        "TOGAF"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Machine Learning"
+      ],
+      "dev_tool": [
+        "DataOps"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "healthcare": [
+        "Electronic Health Records"
+      ],
+      "legal": [
+        "GDPR",
+        "Regulatory Compliance"
+      ],
+      "domain": [
+        "Healthcare",
+        "Telecom"
+      ],
+      "security": [
+        "Identity Management"
+      ],
+      "soft_skill": [
+        "Leadership"
+      ],
+      "operations": [
+        "Logistics"
+      ],
+      "rpa": [
+        "Make"
+      ],
+      "data_science": [
+        "Power BI",
+        "Predictive Analytics"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "web_framework": [
+        "Sitecore"
+      ],
+      "integration": [
+        "SnapLogic"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(DAMA- DMBOK→DAMA-DMBOK(95%), Athena→AWS Athena(100%), Data Pipelines→Data Pipeline(100%), Airflow→Apache Airflow(100%), Encryption→Cryptography(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Technical Architect",
+        "company": "Tech Mahindra Ltd",
+        "location": "India",
+        "start": "01/2022",
+        "end": "11/2025",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 47,
+        "bullets": [
+          "AI Strategy & Architecture: Defined enterprise technology strategy for cloud and data, establishing foundational architecture principles adopted across BT, HSBC, UPS, and Kimberly-Clark business units.",
+          "Data Mesh Implementation: Championed and designed an enterprise-wide Data Mesh strategy, establishing the governance model and platform architecture to enable scalable, domain-oriented data ownership.",
+          "Agentic AI Integration: Orchestrated the integration of Agentic AI into the enterprise fabric, defining standards for responsible AI use and its role in future-state application architecture for automated metadata governance and intelligent workflows.",
+          "BT (Telecom): Architected a secure, reusable AI-enabled data mesh framework on GCP tailored for telecom operations and customer analytics. Integrated Hadoop with Hoop and Hue for large-scale data exploration and query management, applied Vertex AI with agentic AI workflows for automated metadata generation, and leveraged Dataiku for advanced churn prediction, call-drop analysis, and SLA compliance insights — reducing manual curation effort, accelerating decision-making, and enabling scalable data product delivery across network and customer domains.",
+          "HSBC (Banking): Led GCP-based ETL migration by architecting a secure data mesh framework for regulatory reporting and customer analytics. Automated infrastructure provisioning with Terraform, orchestrated workflows via Cloud Composer, and built scalable pipelines with Dataflow. Integrated Hadoop with Hoop and Hue for financial data exploration, applied agentic AI on Vertex AI for automated metadata and lineage management, and leveraged Dataiku for fraud detection, credit risk scoring, and compliance analytics — improving efficiency, governance, and scalability of data products.",
+          "UPS (Retail): Designed and delivered an AI-enabled data mesh framework on GCP to optimize retail operations and customer analytics. Orchestrated workflows with Cloud Composer and built scalable pipelines using Dataflow. Integrated Hadoop with Hoop and Hue for transaction and inventory data exploration, applied agentic AI on Vertex AI for automated metadata generation and recommendation modeling, and leveraged Dataiku for data preparation feeding Power BI dashboards — enabling demand forecasting, churn prediction, sales performance insights, and real-time KPI monitoring.",
+          "Kimberly-Clark (E-commerce Data Modernization & Analytics): Led end-to-end Azure-based data integration and modernization projects for e-commerce operations. Orchestrated Azure Data Factory pipelines to ingest and transform data from multiple sources into Databricks Lakehouse for scalable processing. Designed curated and analytics layers in Synapse and Snowflake, enabling unified product, customer, and transaction analytics. Integrated Sitecore CMS and Resulticks marketing automation data with operational and behavioral datasets to deliver personalized customer insights and omnichannel campaign optimization. Implemented CI/CD pipelines with DevOps practices, ensuring seamless deployment, governance, and real-time data availability across cloud data services.",
+          "Technology Governance: Led the Enterprise Architecture Review Board (EARB), evaluating all major technology initiatives for compliance with strategic goals and architectural patterns."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Architect",
+        "company": "Espire Infolabs",
+        "location": "India",
+        "start": "02/2020",
+        "end": "01/2022",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 24,
+        "bullets": [
+          "Experience Highlights (Enterprise Data & AI Architecture)",
+          "Cloud & Data Platform Leadership: Led the design and implementation of scalable, multi-cloud data platforms across GCP, Azure, and AWS, enabling enterprise data modernization through Lakehouse architectures (Databricks, Snowflake), data virtualization (Dremio, Starburst), and Agentic AI–enabled analytics while supporting large-scale cloud migration initiatives.",
+          "Enterprise Solution Architecture: Architected and delivered end-to-end enterprise solutions across eCommerce (Sitecore), Academic, and complex enterprise platforms, spanning strategy, presales, consulting, architecture definition, governance alignment, and technical delivery.",
+          "Data Governance & Master Data Management: Established enterprise data governance frameworks aligned with DAMA-DMBOK, including data quality, metadata management, lineage, access controls, and stewardship models, and implemented Master Data Management (MDM) using Informatica MDM to enable trusted, consistent, and reusable enterprise data assets.",
+          "Infrastructure as Code & Platform Automation: Implemented Infrastructure as Code (IaC) using AWS CloudFormation and Terraform, enabling standardized, repeatable environment provisioning, improved compliance, and reduced deployment cycles across development, test, and production environments.",
+          "Data Engineering & Integration: Delivered enterprise-grade ETL/ELT, data warehousing, and analytics solutions using Informatica PowerCenter and IICS, integrated with Snowflake, Databricks, and cloud-native services, supporting both batch and near–real-time data integration use cases.",
+          "Cost, Security & Compliance Optimization: Partnered with security and operations teams to optimize cloud costs, implement data security and privacy controls, and mitigate risks through IAM, encryption, monitoring, and governance-aligned architectures.",
+          "Experience: AWS-Based Migration & Data Modernization Programs",
+          "Architected and delivered end-to-end AWS migration and data modernization initiatives across multiple business domains, leveraging modern data platforms, governance, and AI-driven analytics:",
+          "E-commerce (ESKO – Sitecore 7.2 & 9.1): Led migration of Sitecore workloads to AWS using S3, RDS, EC2, CloudFormation, and AWS Glue, integrated with Snowflake and Databricks for analytics, and enabled data virtualization via Dremio/Starburst to support federated access and scalable data consumption; incorporated Agentic AI patterns to enhance data ingestion and transformation workflows.",
+          "Academics (ACU): Designed and implemented AWS-based analytics platforms using Glue, Redshift, Athena, and Snowflake, with Databricks for advanced analytics; applied data governance and quality controls and integrated SageMaker to deliver predictive insights and data-driven decision support.",
+          "Enterprise Platforms (Hexagon & Sitecore 9.x): Delivered full-stack AWS modernization, including infrastructure provisioning, CI/CD automation, managed services adoption (Lambda, CloudWatch, IAM), Snowflake-based analytics, Informatica MDM integration, and SageMaker-based ML deployments, significantly improving scalability, operational efficiency, data consistency, and governance maturity."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technology Specialist",
+        "company": "NIIT Technologies",
+        "location": "India",
+        "start": "04/2018",
+        "end": "10/2019",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 19,
+        "bullets": [
+          "Azure Data Expertise: Specialized in delivering scalable data platforms using Azure Synapse, Data Factory, Databricks, and Data Lake Gen2, Agentic AI with strong capabilities in governance and metadata lineage via Azure Purview.",
+          "Cloud Transformation: Led high-impact cloud transformation projects and data product initiatives across diverse industry verticals in multi-cloud environments (Azure, AWS, GCP).",
+          "Sitecore & Integration: Executed Sitecore migration projects (v8.2 to v9.1.1) and integrated Salesforce Marketing Cloud with Sitecore, enhancing digital experience platforms.",
+          "DevOps Integration: Supported Azure/AWS DevOps activities, implementing IaC using CloudFormation and ARM templates for automated CI/CD pipelines."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Lead / Solution Architect",
+        "company": "Digitas (Group Company of Publicis Groupe like Sapient",
+        "location": "Tech",
+        "start": "2017",
+        "end": "2018",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 13,
+        "bullets": [
+          "Pegasus InfoCorp Pvt Ltd., Velocis Systems Pvt. Ltd., Corbus India Private Ltd. Jansahyog Corporation Ltd. |"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [
+      {
+        "role": "Senior Project Lead",
+        "company": "IKF Technology",
+        "location": null,
+        "start": "2008",
+        "end": "2010",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "early_career"
+      },
+      {
+        "role": "Engineer",
+        "company": "CMC Limited",
+        "location": "HTC Global Services",
+        "start": "2006",
+        "end": "2008",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "early_career"
+      }
+    ],
+    "total_experience": {
+      "total_years": 12.6,
+      "total_months": 151,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.93
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Master of Computer Application (MCA) | IGNOU, New Delhi",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "IIT Guwahati (In-Progress)",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• Bachelor of Computer Application (BCA) | IGNOU, New Delhi",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "IGNOU New Delhi",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Microsoft: Azure Solutions Architect Expert, Azure Data Engineer Associate, Azure DevOps Expert, Power BI",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Data Analyst, Azure AI Engineer Associate, Azure Data Scientist Associate, Security Operation Analyst",
+        "issuer": "Azure",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Associate",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Google Cloud: Professional Data Engineer, Professional Cloud Database Engineer, Cloud Digital Leader",
+        "issuer": "Google Cloud",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "PMI: Project Management Professional (PMP)",
+        "issuer": "PMI",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Sitecore: Sitecore 6.5, Sitecore 9.0",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Tech Mahindra (In-house): PM Elite Program",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "PMware: Project estimation, Advance Project Management",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.7
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

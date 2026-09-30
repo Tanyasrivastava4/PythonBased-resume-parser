@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "source_file": "8ebc5be0_Aman Kumar_Business Analyst_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:40.595908+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aman Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "amankumar.35113307319@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8860295758",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/aman-kumar-19654b202",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AML",
+      "Agile",
+      "BFSI",
+      "BRD",
+      "Change Management",
+      "Collaboration",
+      "Generative AI",
+      "Jira",
+      "KYC",
+      "LLM",
+      "Lucidchart",
+      "SQL",
+      "Stakeholder Management",
+      "UAT",
+      "Wireframing"
+    ],
+    "by_category": {
+      "legal": [
+        "AML",
+        "KYC"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Change Management",
+        "Jira"
+      ],
+      "domain": [
+        "BFSI"
+      ],
+      "business_analysis": [
+        "BRD"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Stakeholder Management"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM"
+      ],
+      "design": [
+        "Lucidchart",
+        "Wireframing"
+      ],
+      "database": [
+        "SQL"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(collobration→Collaboration(88%), Generative→Generative AI(95%), Generative→Generative AI(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Business Analyst",
+        "company": "DEVtrust",
+        "location": null,
+        "start": "08/2025",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 14,
+        "bullets": [
+          "Currently working on SellerMax.ai, a platform that helps Amazon sellers optimize their listings and grow their sales using AI and data insights.",
+          "Defined product roadmap and prioritized features based on user feedback and business goals.",
+          "Created user stories, acceptance criteria, and JIRA backlogs for development and QA teams.",
+          "Collaborated with UI/UX, marketing, and data teams to improve feature delivery and engagement.",
+          "Improved conversion rates by 25% through keyword optimization and increased engagement by 60% using AI-powered trending product insights ."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Business Analyst",
+        "company": "V2Infotech",
+        "location": null,
+        "start": "07/2023",
+        "end": "07/2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 25,
+        "bullets": [
+          "Managed end-to-end product lifecycle for Divyang Career, Newsroom 360, and Nebula, from idea to Product launch.",
+          "Prepare essential technical documents such as BRD, FRD, use cases, user stories, and technical proposals.",
+          "Coordinated with design, development, and QA teams to ensure timely delivery of product milestones.",
+          "Defined product roadmap, created user stories, wireframes, requirement elicitation and data user flow diagrams for development.",
+          "Managed change requests , prepared impact assessments, and updated documentation to ensure traceability.",
+          "Improved user engagement by 60% and conversion rates by 40% through better UX design and data-driven enhancements.",
+          "Enhanced job posting and candidate registration process by 90% on Divyang Career, helping over 1,000+ jobs and 500+ candidates get onboarded."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.2,
+      "total_months": 39,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BTECH in Electronics and Communication",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics and Communication",
+        "institution": "Electronics and Communication Guru Govind Sing Indrprastha University",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Diploma in Electronic and Communication",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Electronic and Communication",
+        "institution": "Electronic and Communication Guru Nanak Dev Institute of",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Fundamentals of Gen AI, issued by Microsoft",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Focus: Core concepts of Generative AI, including Large",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.7
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

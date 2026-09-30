@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "source_file": "726d6fcf_Aarti Suranje_Vice President- Business Solutions Group (Oracle Fusion)_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:14.212293+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "other",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aarti Suranje",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "aartigsuranje@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-773-815-2079",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Senior Oracle ERP consultant and Fusion Cloud specialist with over 15+ years of\nexperience in enterprise transformations across finance, HCM, and supply chain.\nExpertise in architecting scalable Oracle ecosystems through integration of Fusion\napplications, OIC, and automation frameworks. Proven ability in financials, HCM\ndata migration, SCM, and high-performance PL/SQL solutions. Skilled in bridging\nOracle EBS and Fusion environments to facilitate seamless cloud transitions and\ndevelop secure, business-aligned ERP platforms that enhance operational agility\nand decision-making.\n\nOracle\n• Assisted in tuning performance of BI reports.\n• Participated in REST API development tasks.\n• Supported automation efforts through Oracle Agent AI Studio.\n• Aided in debugging OIC integrations and providing production support.\n• Guided team members through mentorship initiatives.\n• Scheduled weekly team calls to offer mentorship and support.\n• Contributed to automation and integration of Oracle Fusion modules with\nvarious applications.\n• Facilitated app-driven orchestration integrations, including ERP Cloud Adapter\nand ATP Adapter.\n• Executed CRUD operations and transactions in Oracle Fusion.\n• Created Fusion BIP reports and integrated them into ICS using stage file activity.\n• Monitored integration using OIC features to ensure smooth operations.\n• Developed ad-hoc reports as required.",
+  "skills": {
+    "items": [
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Active Directory",
+      "Agentic AI",
+      "Data Validation",
+      "ERP",
+      "Financial Analysis",
+      "General Ledger",
+      "Generative AI",
+      "Go",
+      "HDL",
+      "Healthcare Management",
+      "Mentoring",
+      "Microsoft Teams",
+      "Oracle Agent Studio",
+      "Oracle E-Business Suite",
+      "Oracle Fusion Cloud",
+      "Oracle Integration Cloud",
+      "PL/SQL",
+      "Payroll Management",
+      "Postman",
+      "Procure-to-Pay",
+      "Prompt Engineering",
+      "PuTTY",
+      "Python",
+      "REST API",
+      "Reporting",
+      "SQL",
+      "Schedule III",
+      "SoapUI",
+      "Solution Design",
+      "Supply Chain",
+      "Supply Chain Management",
+      "Technical Design Document",
+      "Technical Writing",
+      "WinSCP"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Financial Analysis"
+      ],
+      "security_ops": [
+        "Active Directory"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Generative AI",
+        "Prompt Engineering"
+      ],
+      "data_engineering": [
+        "Data Validation"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "accounting": [
+        "General Ledger"
+      ],
+      "programming_language": [
+        "Go",
+        "Python"
+      ],
+      "oracle_erp": [
+        "HDL",
+        "Oracle Agent Studio",
+        "Oracle E-Business Suite",
+        "Oracle Fusion Cloud",
+        "Oracle Integration Cloud"
+      ],
+      "healthcare": [
+        "Healthcare Management"
+      ],
+      "soft_skill": [
+        "Mentoring",
+        "Reporting"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "database": [
+        "PL/SQL",
+        "SQL"
+      ],
+      "hr": [
+        "Payroll Management"
+      ],
+      "dev_tool": [
+        "Postman",
+        "PuTTY",
+        "SoapUI",
+        "WinSCP"
+      ],
+      "finance": [
+        "Procure-to-Pay"
+      ],
+      "web_framework": [
+        "REST API"
+      ],
+      "financial_reporting": [
+        "Schedule III"
+      ],
+      "architecture": [
+        "Solution Design",
+        "Technical Design Document"
+      ],
+      "domain": [
+        "Supply Chain"
+      ],
+      "operations": [
+        "Supply Chain Management"
+      ],
+      "content": [
+        "Technical Writing"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(mentorship→Mentoring(100%), Scheduled→Schedule III(84%), mentorship→Mentoring(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "PRINCIPAL CONSULTANT",
+        "company": "Infosys Ltd",
+        "location": null,
+        "start": "01/2023",
+        "end": "Current",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 45,
+        "bullets": [
+          "Led client requirement workshops and translated functional specifications into technical design for Oracle Fusion HCM data migration and integrations.",
+          "Managed end-to-end data migration using HDL, covering workforce, salary structures, compensation components, personal demographics, and statutory data.",
+          "Designed optimized HCM Extract templates for payroll processing and third- party integrations.",
+          "Delivered bi-directional integration between Oracle EBS R12 and Oracle Fusion HCM for compensation and personal data synchronization.",
+          "Ensured data validation, reconciliation, and post-load verification with zero critical defects during go-live.",
+          "Acted as primary technical point of contact, providing daily progress tracking and stakeholder reporting."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "SR TECHNICAL CONSULTANT",
+        "company": "TruGlobal Software Pvt Ltd",
+        "location": null,
+        "start": "01/2015",
+        "end": "01/2017",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 25,
+        "bullets": [
+          "Facilitated production support for Oracle EBS Financials (AP AR GL) to maintain over 99% system availability.",
+          "Assisted with month-end and quarter-end close processes by identifying and resolving issues proactively.",
+          "Prepared and evaluated MD200 technical documentation to align with"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "TECHNOLOGY LEAD",
+        "company": "IGATE",
+        "location": null,
+        "start": "01/2013",
+        "end": "01/2015",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 25,
+        "bullets": [
+          "Assisted in financial system stabilisation activities during and after go-live to ensure smooth transition with minimal production disruptions.",
+          "Supported integration backfeed processes for ap/ar/gl to maintain financial data integrity across upstream and downstream systems.",
+          "Executed gl period setups and calendar configurations for future financial"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "ERP APPLICATION DEVELOPER",
+        "company": "Arrow Electronics India Pvt Ltd",
+        "location": null,
+        "start": "01/2012",
+        "end": "01/2013",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 13,
+        "bullets": [
+          "Spearheaded supplier lifecycle implementation and banking configuration, ensuring accurate financial transactions and seamless P2P integration.",
+          "Established strong system governance through AOL and SysAdmin controls, enhancing security, audit readiness, and operational transparency.",
+          "Drove successful data conversion initiatives through structured reporting and reconciliation frameworks.",
+          "Partnered with functional and finance stakeholders to align technical solutions"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "PLSQL DEVELOPER",
+        "company": "Facilitated PL/SQL solution design and code governance practices.",
+        "location": null,
+        "start": "01/2009",
+        "end": "01/2012",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 37,
+        "bullets": [
+          "Supported performance optimisation initiatives through collaborative efforts.",
+          "Assisted teams with deployment of custom components via thorough testing and review processes.",
+          "SQL",
+          "HDL Data Loader",
+          "PL/SQL",
+          "Python",
+          "OIC",
+          "Prompt engineering techniques",
+          "Oracle agent Studio",
+          "Putty",
+          "Oracle RESTAPI",
+          "WinSCP",
+          "Oracle Fusion Cloud application",
+          "SoapUI",
+          "Oracle Applications E-Business Suite 11i",
+          "Postman",
+          "Generative AI",
+          "Fusion Cloud",
+          "Agentic AI",
+          "Putty English: Hindi: Marathi:"
+        ],
+        "sub_sections": [
+          "& R12"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.8,
+      "total_months": 142,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.E.: I.T",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "I.T",
+        "institution": "Vivekanand Education Society's INSTITUTE OF TECHNOLOGY (VESIT)",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Oracle Fusion AI Agentic Studio",
+        "issuer": "Oracle",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle AI in Fusion Cloud SCM",
+        "issuer": "Oracle",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "achievements": {
+    "items": [
+      "Took training on Data Science",
+      "Agentic and Generative AI.",
+      "Python, LLM, RAG model, FastAPI, N8N"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.98,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

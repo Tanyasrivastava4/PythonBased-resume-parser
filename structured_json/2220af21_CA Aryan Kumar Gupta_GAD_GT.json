@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "source_file": "2220af21_CA Aryan Kumar Gupta_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:58:06.870299+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Language Known- English Hindi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "caaryangupta2024@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8182803329 / 20255833",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-aryan-gupta-b0452774",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Detail Oriented Chartered Accountant with 1.5 years of pre-qualified experience (as paid assistant) in auditing, financial analysis, and regulatory compliance.\nProven ability to leverage analytical skills to enhance operational efficiency and support growth initiatives. Dedicated to ongoing professional development\nand contributing to team success. Actively seeking opportunities to utilize skills in a dynamic work environment.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Analytical Thinking",
+      "Auditing",
+      "CompuBal",
+      "Computax",
+      "Financial Analysis",
+      "GPT",
+      "ISO Standards",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "Online ITR",
+      "Operations Management",
+      "Power BI",
+      "QuickBooks",
+      "Regulatory Compliance",
+      "Tally"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Financial Analysis",
+        "QuickBooks",
+        "Tally"
+      ],
+      "soft_skill": [
+        "Analytical Thinking"
+      ],
+      "office": [
+        "CompuBal",
+        "Computax",
+        "Online ITR"
+      ],
+      "ai_ml": [
+        "GPT"
+      ],
+      "engineering": [
+        "ISO Standards"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "data_science": [
+        "Power BI"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Quickbook→QuickBooks(95%), MS WORD→Microsoft Word(100%), financial analysis→Financial Analysis(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Associates",
+        "company": "Agarwal URS & Co",
+        "location": null,
+        "start": "June 2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 28,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "ARTICLED ASSISTANT",
+        "company": "Shyam Amitesh & Co",
+        "location": null,
+        "start": "September 2019",
+        "end": "September 2020",
+        "method": "date_regex+section_header_role",
+        "duration_months": 13,
+        "bullets": [
+          "Key Clients: Hyatt Regency, Lotus Herbal Color Cosmetics, Addverb Robotics, Perch, IFFCO-MC Pvt.",
+          "Ltd., Meenu Creation Etc.",
+          "Led end-to-end statutory and internal audits across the manufacturing, service, hospitality, and real estate sectors, ensuring adherence to applicable laws, regulations, auditing and accounting standards, internal control frameworks, and ICFR requirements.",
+          "Performed comprehensive risk assessment and engagement planning by defining audit scope, designing sampling methodologies, testing key financial and operational processes.",
+          "Evaluated the effectiveness of internal controls across procurement, revenue, inventory, payroll, HR compliance, cash/bank, and other operational processes; identified control gaps, non-compliances, and process weaknesses, and recommended measures to enhance reliability, compliance, and operational efficiency.",
+          "Performed detailed audits of Procure-to-Pay (P2P), Related party transactions, and HR processes (including vendor onboarding, purchase orders, goods receipt, invoicing, payments, employee lifecycle, approval matrices, and segregation of duties), resulting in improvements in cost efficiency, approval workflows, and documentation standards.",
+          "Assessed IT general controls (ITGCs) and data security controls and accounting systems, data integrity, user access rights, backup procedures, and cybersecurity practices.",
+          "Prepared structured audit reports, and presented key observations and recommendations to management to support corrective and preventive actions and finalization of financial statements.",
+          "Taxation Department: Key Clients: Prakash Gold Industries, Bizflix Global, V Prakash Pump, Kazo International Pvt.",
+          "Ltd.",
+          "Prepared and filed Income Tax Returns, Tax Audit Reports for individuals, firms, small businesses and companies to ensuring accuracy and timely compliance.",
+          "Performed GST reconciliation (GSTR 2A/2B v/s Books) and prepared monthly/Quarterly GST returns (GSTR-1 and GSTR-3B) for Individual & Companies.",
+          "Legal Compliances and Other Work: Key Clients: NirogStreet Pvt.",
+          "Ltd., Andor Communication, Aerobay India, Cyzen X Intelligence Etc."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.4,
+      "total_months": 41,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final Group I",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "India ICAI",
+        "year": "2024",
+        "gpa": "58.33%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA Intermediate",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "India ICAI",
+        "year": "2019",
+        "gpa": "51.57%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA CPT",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "India ICAI",
+        "year": "2016",
+        "gpa": "50.00%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Commerce March 2018 MGKVP University Varanasi (U.P.) 65.83%",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "MGKVP University Varanasi (U.P.) Regular Student",
+        "year": "2018",
+        "gpa": "65.83%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Intermediate",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "CBSE Board",
+        "year": "2014",
+        "gpa": "61.00%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Matriculation",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE Board",
+        "year": "2012",
+        "gpa": "74.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "NISM Certifications (SEBI) Investor Certification Examination",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "BUS300: Operations Management (Grade 76%)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ISO 14001: Internal Auditing Strategies and Practices",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "source_file": "6a69a0b4_99019808_Jatin Bansal_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:06.359710+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Jatin Bansal Chartered Accountant",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jatin.bansal1446@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919599792638 / 600 (5983",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Accounting",
+      "Communication",
+      "Financial Modelling",
+      "Financial Reporting",
+      "Income Tax Return",
+      "Ind AS",
+      "Internal Financial Controls",
+      "MS Office",
+      "Order-to-Cash",
+      "Procure-to-Pay",
+      "Risk & Control Matrix",
+      "SAP",
+      "Schedule III",
+      "Statutory Audit",
+      "Tally",
+      "Tax Audit",
+      "Taxation",
+      "Team Leadership",
+      "Test of Details"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Team Leadership"
+      ],
+      "finance": [
+        "Financial Modelling",
+        "Income Tax Return",
+        "Ind AS",
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Risk & Control Matrix",
+        "Test of Details"
+      ],
+      "productivity": [
+        "MS Office"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "financial_reporting": [
+        "Schedule III"
+      ],
+      "accounting": [
+        "Tax Audit"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Tally ERP 9→Tally(95%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Executive",
+        "company": "Forvis Mazars",
+        "location": "Gurugram",
+        "start": "Feb’25",
+        "end": "Present",
+        "method": "date_regex+comma_title_company_split",
+        "duration_months": 20,
+        "bullets": [
+          "Assisted a client undergoing IPO listing by preparing financial statements for international group entities in compliance with Ind AS requirements.",
+          "Developed audit-ready schedules for key balance sheet and P&L items, facilitating a smooth and efficient audit process.",
+          "Supported the statutory audit by coordinating with auditors and ensuring timely delivery of audit-ready financials and supporting documentation.",
+          "Prepared comprehensive Related Party Transaction (RPT) sheet for group entities to support consolidation and elimination entries.",
+          "Executed statutory audit of a manufacturing company with turnover exceeding INR 3,300 Cr, covering key areas such as Inventory, PPE, Borrowings, Investments in MF and Statutory Dues.",
+          "Performed analytical procedures, reviewed notes to accounts, and ensured compliance with IND AS, Schedule III, and applicable laws.",
+          "Conducted IFC testing across cycles including P2P, O2C, FA.",
+          "Used MAM Tool for TOD sampling and ATLAS for audit documentation.",
+          "Managed audit team deliverables, reviewed backend team (ATH) work, supervised article trainees, and concluded"
+        ],
+        "sub_sections": [
+          "Audit and Assurance"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Article Assistant",
+        "company": "S.C. V & Co.LLP",
+        "location": "Ludhiana",
+        "start": "March 21",
+        "end": "April 24",
+        "method": "date_regex+comma_title_company_split",
+        "duration_months": 2,
+        "bullets": [
+          "Leading CA Firm with 15 partners, headquartered in Delhi with 300+ clients and 40+ employees.",
+          "Planned and Executed 10+ Statutory Audits & Limited Reviews including planning, walk throughs, Financial analysis of Schedule III statements and other perspectives of Listed, Unlisted & Private Corporates having a turnover up to INR 2500 Cr. involved in diverse sectors such as Yarn and textile manufacturing sector.",
+          "Led a team in the statutory audit of a corporate client, managing audit planning, compliance, work allocation, and stakeholder communication to ensure timely deliverables.",
+          "Performed analytical procedures and review of notes to accounts to obtain reasonable assurance on the same.",
+          "Drafted audit strategy, audit plans and setting materiality including conducting preliminary analytics. Performed TOC (Test of Controls) , TOD (Test of Details) and other substantive audit procedures.",
+          "Executed Internal Financial Controls (IFC) testing and assisted in preparation of risk control matrices (RCM) for listed entity.",
+          "Prepared Tax Audit Report (Form 3CA-3CD & Form 3CB-3CD) of various Firms and Companies.",
+          "Engaged in Income tax Returns filing of various Individuals.",
+          "Engaged in physical inventory verification and fixed asset verification assignments of large FMCG clients.",
+          "Conducted monthly operational audit of retail outlets of a pharmaceutical Company."
+        ],
+        "sub_sections": [
+          "Audit and Assurance",
+          "Taxation",
+          "Other Engagements"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.8,
+      "total_months": 22,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA FINAL Nov-24/May-24 The Institute of 359/600 (59.83%) Exemption in 3 subjects",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "The Institute of",
+        "year": "2018 - 2021",
+        "gpa": "59.83%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA INTER Nov-20/Nov-19 Chartered 473/800 (59.13%) Exemption in 4 subjects",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "The Institute of",
+        "year": "2018 - 2021",
+        "gpa": "59.13%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "CA FOUNDATION Nov-18 Accountant of India. 298/400 (74.5%)",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "The Institute of",
+        "year": "2018 - 2021",
+        "gpa": "74.5%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Arya College LDH (PU",
+        "year": "2018 - 2021",
+        "gpa": "72.62%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class XII",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2018",
+        "gpa": "92%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class X",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2016",
+        "gpa": "9.8",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Financial Modelling and Valuation (20 hours)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

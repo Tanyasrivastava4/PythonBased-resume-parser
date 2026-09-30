@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "source_file": "e68c58ce_Naukri_LataBisht[15y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:37.793392+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Lata Bisht Mba-pgdm",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "bisht4lata@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8287293577 / 8750743206",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/lata-b-54633a153",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Change Management",
+      "Collaboration",
+      "Continuous Improvement",
+      "Employee Engagement",
+      "HR Management",
+      "Leadership",
+      "LinkedIn",
+      "Onboarding",
+      "Payroll Administration",
+      "Payroll Management",
+      "Performance Management",
+      "Problem Solving",
+      "Recruitment",
+      "Resource Planning",
+      "Strategic Thinking",
+      "Talent Management",
+      "Workshop Facilitation"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Change Management",
+        "Resource Planning"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Leadership",
+        "Problem Solving",
+        "Strategic Thinking"
+      ],
+      "operations": [
+        "Continuous Improvement"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "HR Management",
+        "Onboarding",
+        "Payroll Administration",
+        "Payroll Management",
+        "Performance Management",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "consulting": [
+        "Workshop Facilitation"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Asst General Manager",
+        "company": "Human Resources",
+        "location": null,
+        "start": "JULY 2023",
+        "end": "PRESENT",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 39,
+        "bullets": [
+          "As Head of HR at SJF, I strategically lead all aspects of human resources management at the senior level.",
+          "My responsibilities encompass organizational resource planning, cultural transformation, and change management initiatives aimed at enhancing employee morale, retention, and fostering a positive workplace environment.",
+          "I oversee the formulation and implementation of company policies, monitor and optimize employee performance and engagement strategies, manage payroll processing, and implement comprehensive 360-degree feedback mechanisms.",
+          "Additionally, I am instrumental in ensuring seamless employee onboarding, offboarding processes, and effectively resolving employment-related grievances."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Asst General Manager",
+        "company": "Human Resources",
+        "location": null,
+        "start": "AUG 2020",
+        "end": "JULY 2023",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 36,
+        "bullets": [
+          "I oversee all HR functions to ensure alignment with organizational objectives and compliance with regulations.",
+          "My responsibilities include strategic policy development, leadership in recruitment and talent management, oversight of payroll and benefits administration, facilitation of employee relations, implementation of performance management systems, continuous improvement of HR processes, collaboration on strategic planning with senior management, and utilization of HR metrics for informed decision- making.",
+          "Key Achievements • Increasing employee retention by 40%.",
+          "Implement work from home policy to reduce unnecessary PTO time by 20% during covid."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Manager",
+        "company": "Human Resources",
+        "location": "NOIDA | IT",
+        "start": "MAY 2016",
+        "end": "JULY 2020",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 51,
+        "bullets": [
+          "Talent Management, Employee Engagement and Performance.",
+          "I lead strategic HR initiatives to optimize organizational effectiveness and foster a positive work environment such as overseeing talent acquisition, performance management, policy development, and employee relations.",
+          "I drive continuous improvement in HR processes to support company growth and enhance employee engagement, ensuring compliance with regulations and promoting a culture of inclusion and productivity."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Dy Manager",
+        "company": "INDIA TV BROADCAST CENTER",
+        "location": "Noida, UP | NEWS CHANNEL",
+        "start": "MAR 2014",
+        "end": "APRIL 2016",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 26,
+        "bullets": [
+          "I steer talent acquisition and day to day operations while strategically analyzing HR trends and metrics to align with business objectives in hiring, fostering a supportive work environment, and enhancing employee engagement.",
+          "I've adeptly revitalized initiatives and processes to drive efficiency, effectively resolved employee grievances through detailed analysis, and implemented impactful solutions.",
+          "Additionally, I optimized interview panels, resulting in a notable 15% reduction in early employee turnover, showcasing my commitment to organizational success through strategic HR management."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Executive",
+        "company": "RAMAMEDICAL COLLEGE HOSPITAL & RESEARCH CENTRE",
+        "location": "UP |MEDICAL COLLEGE",
+        "start": "JAN 2011",
+        "end": "FEB 2014",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 38,
+        "bullets": [
+          "Directed full-cycle recruitment processes and policies, ensuring alignment with organizational goals.",
+          "Maintained precise HR database and personnel records.",
+          "Orchestrated effective induction programs.",
+          "Identified automation opportunities and benchmarked metrics to industry standards.",
+          "Leveraged HR analytics for actionable insights from exit interviews.",
+          "Recognized with a Letter of Recommendation and secured a pre-placement interview opportunity Key Achievements • Recognized with a 'Star Award' for exceptional performance in Q1 of FY 12-13 and secured a pre-placement interview opportunity."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 15.8,
+      "total_months": 189,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA, PGDM - Rai Business School, 2010",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Rai Business School",
+        "year": "2010",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BA Degree - Psychology, English, Painting - Kumaon University, 2008",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Kumaon University",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

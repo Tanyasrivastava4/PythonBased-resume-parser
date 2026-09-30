@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "source_file": "bed69fa2_3376e4ca_Rohit Sharma_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:15.112783+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rohit Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "vatsrohit1998@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917038945056",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/contactrohitvats",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Data Analyst with 4+ years of experience in SQL, Python, Power BI, and enterprise analytics, delivering data-driven insights and\nscalable reporting solutions across retail, telecom, and enterprise BI environments. Proven expertise in dashboard development, KPI reporting,\nexploratory data analysis, data transformation, and workflow automation. Experienced in analyzing large datasets, optimizing reporting processes,\nand building interactive dashboards that improved operational efficiency and business decision-making. Strong background in SQL analytics,\nPython-based analysis, Power BI reporting, and stakeholder management.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS Athena",
+      "AWS S3",
+      "Aggregations",
+      "Alteryx",
+      "Apache Superset",
+      "CTE",
+      "Claude",
+      "DAX",
+      "Dashboard Development",
+      "Data Analytics",
+      "Data Cleaning",
+      "Data Modeling",
+      "Data Storytelling",
+      "Data Validation",
+      "Data Wrangling",
+      "Drill-through Analysis",
+      "ETL",
+      "Exploratory Data Analysis",
+      "GPT",
+      "Git",
+      "Jira",
+      "Joins",
+      "KPI",
+      "Matplotlib",
+      "Microsoft Excel",
+      "Microsoft Power Automate",
+      "Microsoft PowerPoint",
+      "NumPy",
+      "Operations Management",
+      "Pandas",
+      "Power BI",
+      "Power Query",
+      "Predictive Analytics",
+      "Python",
+      "Reporting",
+      "Row Level Security",
+      "SQL",
+      "Semantic Modeling",
+      "Snowflake",
+      "Stakeholder Management",
+      "Statistical Analysis",
+      "Tableau",
+      "Telecom",
+      "Trend Analysis",
+      "Window Functions"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS Athena",
+        "AWS S3"
+      ],
+      "database": [
+        "Aggregations",
+        "CTE",
+        "Joins",
+        "SQL",
+        "Snowflake",
+        "Window Functions"
+      ],
+      "data_science": [
+        "Alteryx",
+        "Apache Superset",
+        "DAX",
+        "Dashboard Development",
+        "Data Analytics",
+        "Data Modeling",
+        "Data Storytelling",
+        "Drill-through Analysis",
+        "Exploratory Data Analysis",
+        "Power BI",
+        "Power Query",
+        "Predictive Analytics",
+        "Row Level Security",
+        "Semantic Modeling",
+        "Statistical Analysis",
+        "Tableau",
+        "Trend Analysis"
+      ],
+      "genai": [
+        "Claude"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Validation",
+        "Data Wrangling",
+        "ETL"
+      ],
+      "ai_ml": [
+        "GPT",
+        "Matplotlib",
+        "NumPy",
+        "Pandas"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint"
+      ],
+      "rpa": [
+        "Microsoft Power Automate"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "soft_skill": [
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "domain": [
+        "Telecom"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(KPI Reporting→KPI(100%), Drill- through Analysis→Drill-through Analysis(98%), Row-Level Security→Row Level Security(100%), Athena→AWS Athena(100%), Excel→Microsoft Excel(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Data Analyst",
+        "company": "BI Reporting Modernization Impetus •",
+        "location": "Gurugram",
+        "start": "September 2025",
+        "end": "March 2026",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 7,
+        "bullets": [
+          "Led migration of enterprise Tableau and MicroStrategy reports to Power BI, improving reporting consistency, dashboard usability, and KPI standardization.",
+          "Built scalable reporting datasets supporting self-service analytics and standardized business reporting across multiple teams.",
+          "Developed interactive Power BI dashboards enabling business stakeholders to monitor operational and performance KPIs in real time.",
+          "Created advanced DAX calculations and optimized reporting logic, improving dashboard responsiveness and reducing refresh delays.",
+          "Performed data validation, reconciliation, and quality checks ensuring high reporting accuracy across enterprise datasets.",
+          "Collaborated with cross-functional stakeholders to gather business requirements and deliver data-driven analytical solutions.",
+          "Collaborated with reporting teams to maintain secure and accurate access to business reporting datasets.",
+          "Supported reporting documentation and data validation initiatives to improve reporting reliability and consistency.",
+          "Migrated 50+ legacy reports from Tableau and MicroStrategy to Power BI.",
+          "Reduced dashboard refresh time by ~30% through optimized data models and DAX calculations.",
+          "Improved reporting consistency and KPI standardization across business teams.",
+          "Tech Stack : Power BI, SQL, DAX, Tableau, MicroStrategy"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Data Analyst",
+        "company": "Customer Footfall & Marketing Analytics Infinite Analytics •",
+        "location": "Mumbai",
+        "start": "March 2025",
+        "end": "August 2025",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 6,
+        "bullets": [
+          "Developed and maintained 10+ interactive Power BI dashboards delivering automated insights for retail and real-estate clients.",
+          "Built centralized reporting datasets integrating 500k+ rows/month from marketing platforms using automated ETL workflows.",
+          "Performed exploratory data analysis, statistical analysis, and trend analysis using Python to identify customer behavior patterns, campaign effectiveness, and revenue growth opportunities.",
+          "Reduced manual reporting effort by 40% through automation and optimized data preparation workflows.",
+          "Designed KPI reporting layers enabling standardized business reporting and performance tracking across multiple clients.",
+          "Ensured data accuracy and consistency across multiple sources including Meta Ads, Google Ads, and HubSpot.",
+          "Built a multi-touch attribution dashboard analyzing customer engagement across marketing funnel stages.",
+          "Developed clustering models on visitation datasets to identify high-performing Points of Interest (POIs).",
+          "Improved marketing optimization and reduced ineffective campaign spend by 22%.",
+          "Applied statistical analysis and trend analysis using Python libraries.",
+          "Tech Stack: Python, Pandas, NumPy, Power BI, SQL"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate Software Engineer",
+        "company": "Tech Mahindra Ltd",
+        "location": "Gurugram",
+        "start": "November 2021",
+        "end": "February 2025",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 40,
+        "bullets": [
+          "Developed ETL workflows using SQL and Python to prepare analytical datasets for reporting and dashboard development.",
+          "Automated recurring reporting processes improving operational efficiency and data availability.",
+          "Supported enterprise data migration projects ensuring data validation and reconciliation across systems.",
+          "Built datasets supporting business intelligence reporting and dashboard visualization.",
+          "Applied data quality checks and validation rules to maintain reporting reliability.",
+          "Collaborated with cross-functional stakeholders to translate business requirements into analytical solutions."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Telecom Customer Churn Analysis Tech MahindraLtd •",
+        "location": null,
+        "start": "January 2023",
+        "end": "September 2024",
+        "method": "date_regex",
+        "duration_months": 21,
+        "bullets": [
+          "Performed exploratory data analysis on telecom customer datasets to identify churn behavior and customer retention patterns.",
+          "Built Power BI dashboards visualizing churn trends, customer segments, and usage behavior.",
+          "Applied SQL and Python analysis techniques to generate actionable business insights supporting proactive customer retention strategies.",
+          "Tech Stack: Python, SQL, Power BI"
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.4,
+      "total_months": 53,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.87
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Power BI & Data Analytics Certifications",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Bosscoder Academy •",
+        "issuer": null,
+        "year": "2025",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "SQL & Python",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Tech Mahindra •",
+        "issuer": null,
+        "year": "2022",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "AWS Cloud Practitioner",
+        "issuer": "AWS",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "AWS •",
+        "issuer": "AWS",
+        "year": "2022",
+        "confidence": 0.95,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.74
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.74,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

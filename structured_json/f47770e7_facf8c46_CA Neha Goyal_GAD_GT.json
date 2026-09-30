@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "source_file": "f47770e7_facf8c46_CA Neha Goyal_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T07:00:47.444821+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Neha Goyal",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "canehagoyall93@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918700089872",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/contactcanehagoyal",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Analytical Thinking",
+      "ChatGPT",
+      "LinkedIn",
+      "Microsoft Excel",
+      "Problem Solving",
+      "Schedule III",
+      "Tally",
+      "Time Management",
+      "Zoom"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Analytical Thinking",
+        "Problem Solving",
+        "Time Management"
+      ],
+      "productivity": [
+        "ChatGPT",
+        "Microsoft Excel",
+        "Zoom"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "financial_reporting": [
+        "Schedule III"
+      ],
+      "finance_ops": [
+        "Tally"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(CHAT GPT→ChatGPT(100%), Excel→Microsoft Excel(100%), schedules→Schedule III(84%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Audit Assistant || Articled Assistant",
+        "company": "At GSK & Associates LLP",
+        "location": "Delhi",
+        "start": null,
+        "end": "25 Years",
+        "method": "stated_duration_regex+company_parens_role",
+        "duration_months": 300,
+        "bullets": [
+          "Managed end-to-end GST compliance, including the timely and accurate filing of GSTR-1 and GSTR-3B for multiple entities, and reconciliation with E-way Bills and accounting records.",
+          "Optimized Input Tax Credit (ITC) by performing meticulous monthly reconciliation of GSTR-2A/2B with purchase ledgers, successfully recovering blocked or unutilized credit & minimizing potential litigation risk.",
+          "Managed end to end GSTR filings (Form 9 & 9C) for diverse entities.",
+          "Advised trading clients on complex interstate transactions (IGST) and the correct application of the Reverse Charge Mechanism (RCM) to ensure legal compliance and mitigate penalties.",
+          "Spearheaded and executed all phases of Statutory Audit engagements mainly across the Trading industries, ensuring strict adherence to applicable Ind AS/AS and Auditing Standards (SAs).",
+          "Managed preparation and review of P&L, Balance Sheet, and Cash Flow components of F.S, following disclosure rules and accounting principles.",
+          "Assisted in restating financial statements and drafted audit reports with key findings and improvement areas.",
+          "Performed detailed testing of entity’s books of accounts to ensure accurate financial reporting and regulatory compliance as per the Companies Act, Income Tax Act, AS and Ind AS.",
+          "Executed comprehensive risk assessments, substantive testing & evaluated internal controls for inventory and revenue recognition.",
+          "Identified and reported significant internal control weaknesses & accounting mistakes during audit engagements, providing actionable recommendations that strengthened financial reliability and minimized operational risk.",
+          "Independently managed comprehensive TDS return filing, ensuring strict adherence to compliance.",
+          "Prepared and filed 100+ Income Tax returns for diverse clients.",
+          "Advised new and existing clients on Section 115BAB and 115BAA tax regimes.",
+          "Conducted income tax audits and returns preparation reviewing key clauses such as MSME payments, related- party transactions, TDS/TCS and GST expenditure.",
+          "Ensured regulatory compliance for international transactions by reviewing documentation and coordinating the e- filing process of e-filing process of Forms 10F, 15CA, and 15CB."
+        ],
+        "sub_sections": [
+          "Statutory Audit & Financial Reporting",
+          "Direct Taxation",
+          "LEADERSHIP, CERTIFICATIONS/PROFESSIONAL DEVELOPMENT"
+        ],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 25.0,
+      "total_months": 300,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.8
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "The Institute of Chartered (Secured",
+        "year": null,
+        "gpa": "53%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "M.Com",
+        "degree_name": "M.Com",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "IGNOU",
+        "year": null,
+        "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "University of Delhi",
+        "year": null,
+        "gpa": "54.30%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class XII",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "D.S.M Public Sr Sec School",
+        "year": null,
+        "gpa": "85.40%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class X",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "D.S.M Public Sr Sec School",
+        "year": null,
+        "gpa": "89%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

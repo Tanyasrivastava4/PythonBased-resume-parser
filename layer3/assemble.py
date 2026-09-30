@@ -54,7 +54,7 @@ from datetime import datetime, timezone
 from extractors.contact_extractor import extract_contact
 from extractors.skills import extract_skills
 from extractors.experience import extract_experience
-from extractors.education import extract_education
+from extractors.education import extract_education, DATE_RANGE_RE
 from extractors.certifications import extract_certifications
 
 
@@ -185,8 +185,16 @@ def build_resume_record(segmented_filepath: str) -> dict:
     # ── Experience (+ early_career recap, if the splitter found one) ──
     exp_text = sections.get("experience", "")
     early_career_text = sections.get("early_career", "")
+    projects_text = sections.get("projects", "")
+    if projects_text and ("Previous experience" in projects_text or "Previous experience" in exp_text or re.search(r'\b(?:Software Engineer|Senior Project Lead|Technical Project Manager|Tech Lead)\b.*?\b(19\d{2}|20\d{2})\b', projects_text, re.I)):
+        early_career_text = (early_career_text + "\n" + projects_text).strip()
     experience_result = extract_experience(exp_text, early_career_text)
     has_experience_content = bool(experience_result["experience"] or experience_result["early_career"])
+    if not has_experience_content and sections.get("header"):
+        hdr_result = extract_experience(sections.get("header", ""))
+        if hdr_result["experience"] or hdr_result["early_career"]:
+            experience_result = hdr_result
+            has_experience_content = True
     if has_experience_content:
         component_confidences.append(experience_result["_confidence"])
         if experience_result["_confidence"] < REVIEW_THRESHOLD:
@@ -203,7 +211,25 @@ def build_resume_record(segmented_filepath: str) -> dict:
 
     # ── Education ────────────────────────────────────────────────
     edu_text = sections.get("education", "")
-    education_result = extract_education(edu_text)
+    cert_text = sections.get("certifications", "")
+    achieve_text = sections.get("achievements", "")
+    proj_text = sections.get("projects", "")
+    if cert_text and any(kw in cert_text for kw in ("Indian Institute of Technology", "IIT ", "University", "Institute of Technology", "College", "B.Tech", "M.Tech", "B.E.", "M.E.", "B.Sc", "M.Sc")):
+        edu_text = (cert_text + "\n" + edu_text).strip()
+    if achieve_text and any(kw in achieve_text for kw in ("Chartered Accountancy", "Institute of Chartered Accountants", "CA Final", "CA Intermediate", "CA Foundation", "Panjab University", "School Education Board", "Class XII", "Class X", "B.Com", "B.Tech", "M.Tech", "B.E.", "M.E.", "B.Sc", "M.Sc")):
+        edu_text = (edu_text + "\n" + achieve_text).strip()
+    if proj_text and any(kw in proj_text for kw in ("Education", "Bachelor of", "Master of", "B.Com", "B.Tech", "M.Tech", "B.E.", "M.E.", "B.Sc", "M.Sc", "University", "College")):
+        edu_lines = [l for l in proj_text.splitlines() if any(kw in l for kw in ("Education", "Bachelor", "Master", "Degree", "University", "College", "Institute", "B.Com", "B.Tech", "M.Tech", "Csjm", "Kanpur", "2018", "2019", "2020", "2021", "2022", "2023", "2024")) and not any(nw in l for nw in ("View Live", "Redesigned", "Profession", "improved UI"))]
+        if edu_lines:
+            edu_text = (edu_text + "\n" + "\n".join(edu_lines)).strip()
+    if exp_text:
+        if any(kw in exp_text for kw in ("MBBS", "MD GENERAL MEDICINE", "MD ", "M.D.", "B.Tech", "M.Tech", "B.E.", "B.Sc", "M.Sc", "B.Com")):
+            edu_text = (edu_text + "\n" + exp_text).strip()
+        else:
+            first_exp_line = exp_text.strip().split("\n")[0].strip()
+            if DATE_RANGE_RE.search(first_exp_line) and not any(kw in first_exp_line.lower() for kw in ("analyst", "developer", "engineer", "manager", "lead", "architect", "consultant", "assistant", "executive")):
+                edu_text = (edu_text + "\n" + first_exp_line).strip()
+    education_result = extract_education(edu_text, full_text=full_text)
     if not education_result.get("education") and full_text:
         fallback_res = extract_education(full_text)
         if fallback_res.get("education"):

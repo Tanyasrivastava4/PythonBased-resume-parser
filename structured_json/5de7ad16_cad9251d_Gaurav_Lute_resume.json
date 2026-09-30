@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "source_file": "5de7ad16_cad9251d_Gaurav_Lute_resume_segmented.txt",
+    "generated_at": "2026-09-30T06:58:46.457534+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Gaurav P Lute",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "lutegaurav1@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917719029954",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/gaurav-lute",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/gauravlute01",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "udemy.com/certificate/UC-df435871-a074-469f-8a78-08662f6a3f19/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Professional with 1 years of experience in machine learning Model Development in the Loancare Domain.\nExperienced in working with US Mortgage datasets to generate market insights for loancare. Proficient in Python,\nSQL and R, with a strong ability to deliver actionable insights that support strategic decision-making in financial\ninstitutions. Experienced in working with real-world datasets and improving ML model performance. Actively\nseeking full-time opportunities in Data Analyst, Data Science, Machine Learning, and AI-driven analytics.",
+  "skills": {
+    "items": [
+      "ANN",
+      "ARIMA",
+      "CNN",
+      "Credit Risk Modeling",
+      "Data Cleaning",
+      "Data Preprocessing",
+      "Data Science",
+      "Data Visualization",
+      "Deep Learning",
+      "Exploratory Data Analysis",
+      "Generative AI",
+      "GitHub",
+      "Hypothesis Testing",
+      "Jupyter",
+      "LLM",
+      "LSTM",
+      "Linear",
+      "LinkedIn",
+      "Logistics",
+      "Machine Learning",
+      "Microsoft Word",
+      "NumPy",
+      "OpenAI API",
+      "Pandas",
+      "Prompt Engineering",
+      "Prophet",
+      "PyTorch",
+      "Pydantic",
+      "Python",
+      "R",
+      "Random Forest",
+      "SQL",
+      "Statistics",
+      "T-Test",
+      "TensorFlow",
+      "XGBoost",
+      "Z-Test",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "ANN",
+        "CNN",
+        "Data Science",
+        "Deep Learning",
+        "LSTM",
+        "Machine Learning",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "Random Forest",
+        "TensorFlow",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "data_science": [
+        "ARIMA",
+        "Data Visualization",
+        "Exploratory Data Analysis",
+        "Hypothesis Testing",
+        "Statistics",
+        "T-Test",
+        "Z-Test"
+      ],
+      "finance": [
+        "Credit Risk Modeling"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Preprocessing"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM",
+        "OpenAI API",
+        "Prompt Engineering"
+      ],
+      "dev_tool": [
+        "GitHub",
+        "Jupyter"
+      ],
+      "project_mgmt": [
+        "Linear"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "operations": [
+        "Logistics"
+      ],
+      "productivity": [
+        "Microsoft Word"
+      ],
+      "software": [
+        "Prophet",
+        "Pydantic"
+      ],
+      "programming_language": [
+        "Python",
+        "R"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), Data preprocessing→Data Preprocessing(100%), Tensorflow→TensorFlow(100%), Z test→Z-Test(100%), Prophet.→Prophet(93%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Trainee",
+        "company": "Fidelity National Finance",
+        "location": "Trainee",
+        "start": "Sep 2025",
+        "end": "Mar 2026",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 7,
+        "bullets": [
+          "LLM Extraction and Pattern Analysis."
+        ],
+        "sub_sections": [
+          "Bangalore",
+          "Developed a ChatGPT-based extraction system using the OpenAI API, implementing JSON schema",
+          "validation with Pydantic classes to accurately extract structured fields from financial and mortgage-related",
+          "documents or OCR Text.",
+          "Designed and implemented prompt optimization strategies to improve extraction accuracy and consistency in",
+          "LLM outputs.",
+          "Performed pattern analysis on LLM failure cases to identify model limitations and contributed to the",
+          "development of improved prompts and validation strategies.",
+          "Ensured reliable structured outputs by combining schema validation, prompt engineering, and iterative",
+          "evaluation techniques."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Ai - Data Science Intern",
+        "company": "Spatialty.Ai",
+        "location": "Data Science Intern",
+        "start": "Feb 2025",
+        "end": "Jun 2025",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 5,
+        "bullets": [
+          "Machine Learning Models."
+        ],
+        "sub_sections": [
+          "Bangalore",
+          "Developed a solar irradiance prediction machine learning model using 10 years of satellite data.",
+          "Conducted EDA and Trained Linear Regression and Random Forest models, achieving R² = 0.84.",
+          "Built time series forecasting models to predict March 2025 solar irradiance with MAPE = 3%.",
+          "Optimized forecasts using XGBoost and Prophet, achieving the lowest MAPE of 0.03."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.0,
+      "total_months": 12,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "M.Tech in modeling and simulation | SPPU Pune - June 2025",
+        "degree_name": "M.Tech",
+        "degree_type": "masters",
+        "degree_field": "modeling and simulation",
+        "institution": "SPPU Pune",
+        "year": "2025",
+        "gpa": "7.56",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.E in Automobile Engineering | SPPU Pune - June 2023",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Automobile Engineering",
+        "institution": "Savitribai Phule Pune University Pune.",
+        "year": "2023",
+        "gpa": "8.33",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "DIPLOMA in Automobile Engineering - June 2020",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Automobile Engineering - June 2020",
+        "institution": "SPPU Pune",
+        "year": "2020",
+        "gpa": "93.10%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Governmet Polytechnic Nagpur",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": null,
+        "institution": "Governmet College of Engg and Research Avsari Kh",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.87
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Credit Risk Modeling in python - Udemy | Link",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Python Certificate - HackerRank. | Link",
+        "issuer": "HackerRank",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "http://www.linkedin.com/in/gaurav-lute",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/gauravlute01",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/gauravlute01/Credit-Risk-Modeling",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/gauravlute01/Fake-Image-Detection/blob/main/fake_image_detection_updated.ipynb",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/gauravlute01/Next-word-prediction",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.udemy.com/certificate/UC-df435871-a074-469f-8a78-08662f6a3f19/",
+        "issuer": "udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "https://www.hackerrank.com/certificates/a48375dd504e",
+        "issuer": "hackerrank",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

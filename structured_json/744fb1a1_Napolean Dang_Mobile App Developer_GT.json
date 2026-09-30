@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "source_file": "744fb1a1_Napolean Dang_Mobile App Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:17.622304+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Napolean Dang",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "napo123@rediffmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9971791175",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/store/apps/details",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "• Android Developer with 8+ years of experience in designing and developing scalable mobile applications\nusing Java and Kotlin.\n• Proficient in Android SDK, Jetpack components, and MVVM architecture, ensuring robust, maintainable,\nand high-performing applications.\n• Skilled in integrating third-party APIs, Bluetooth, Aadhaar services, and biometric authentication, delivering\nsecure and feature-rich mobile solutions.\n• Hands-on expertise in Room Database, Retrofit, Coroutines Flow, Dagger, Hilt, and Jetpack Compose, with\na strong focus on clean code and performance optimization.\n• Proven track record of delivering user-friendly, multilingual, and client-centric apps across domains such as\ne-commerce, mobility, and government services.",
+  "skills": {
+    "items": [
+      "Android",
+      "Comps",
+      "E-commerce",
+      "Git",
+      "JSON",
+      "Java",
+      "Kotlin",
+      "MVVM",
+      "Performance Optimization",
+      "REST",
+      "REST API",
+      "SQLite"
+    ],
+    "by_category": {
+      "mobile": [
+        "Android"
+      ],
+      "finance": [
+        "Comps"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "dev_tool": [
+        "Git",
+        "Performance Optimization"
+      ],
+      "web_framework": [
+        "JSON",
+        "REST API"
+      ],
+      "programming_language": [
+        "Java",
+        "Kotlin"
+      ],
+      "architecture": [
+        "MVVM"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "database": [
+        "SQLite"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Rest→REST(100%), Compos→Comps(91%), Kotlin.→Kotlin(92%), e-commerce→E-commerce(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Developer",
+        "company": "Mooving Smart Mobility Pvt Ltd",
+        "location": null,
+        "start": "Aug 2022",
+        "end": "Dec 2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 29,
+        "bullets": [
+          "Designed and developed an Android application using Java, enabling drivers to manage leave, track earnings, and view the status of company-lent assets.",
+          "Implemented features for driver onboarding and deboarding under a franchise model, ensuring seamless management of driver hierarchies within the app.",
+          "Delivered a bilingual interface (Hindi/English) to improve accessibility and usability for a diverse driver base.",
+          "Developed a Bluetooth-based Android application using Java for testing batteries with SBJT, enabling accurate device communication and data handling.",
+          "Implemented core functionalities such as engineer attendance marking, leave application management, and complaint creation, improving workflow efficiency.",
+          "Enhanced app stability and performance in the Android ecosystem, ensuring a smooth and reliable user experience across devices.",
+          "Developed an Android application using Java and Kotlin, like Livserv but with user-based customization to meet client-specific requirements.",
+          "Implemented features for product warranty registration, enabling clients to easily register and manage product warranties through the app.",
+          "Enhanced UI/UX and optimized performance within the Android ecosystem, ensuring seamless client engagement and usability."
+        ],
+        "sub_sections": [
+          "Project: Livserv App",
+          "https://play.google.com/store/apps/details?id=com.sar.livserv",
+          "Project: My Livserv App",
+          "https://play.google.com/store/apps/details?id=com.sar.mylivserv"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Software Developer",
+        "company": "Phoneme Solutions Pvt Ltd",
+        "location": null,
+        "start": "Oct 2019",
+        "end": "Aug 2022",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 35,
+        "bullets": [
+          "Developed an Android application using Java to prevent voter duplication by capturing and verifying voter data with secure Aadhaar integration.",
+          "Implemented biometric fingerprint capture and comparison features to detect and prevent fraudulent or duplicate voting.",
+          "Optimized data handling and app performance in the Android ecosystem, ensuring accuracy, reliability, and secure voter verification."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Software Developer",
+        "company": "Pavitra Retail Pvt ltd",
+        "location": null,
+        "start": "Dec 2015",
+        "end": "Aug 2019",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 45,
+        "bullets": [
+          "Designed and developed an e-commerce Android application using Java for selling organic products, integrating secure product browsing and checkout features.",
+          "Implemented interactive modules such as Q&A, comments, and an articles section, enhancing customer engagement and knowledge sharing.",
+          "Optimized app performance and UI within the Android ecosystem, ensuring a smooth and user-friendly shopping experience."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.0,
+      "total_months": 108,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech/B.E. in Computers from Indian Institute of Technology, Guwahati 2013",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indian Institute of Technology, Guwahati",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

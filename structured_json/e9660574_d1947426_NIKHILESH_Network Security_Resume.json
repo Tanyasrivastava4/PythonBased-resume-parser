@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "source_file": "e9660574_d1947426_NIKHILESH_Network Security_Resume_segmented.txt",
+    "generated_at": "2026-09-30T07:00:38.851060+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Nikhilesh J Dhongale",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "nickydengg@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9561245021 / 8551938259",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To work in a field that challenge my technical, analytical and management abilities. I would\nlike to enhance my skills and knowledge while working and contributing towards the\ndevelopment of organization.",
+  "skills": {
+    "items": [
+      "CCNA",
+      "Check Point",
+      "Firewall",
+      "Fortinet",
+      "Palo Alto Networks"
+    ],
+    "by_category": {
+      "networking": [
+        "CCNA"
+      ],
+      "security_ops": [
+        "Check Point",
+        "Firewall",
+        "Palo Alto Networks"
+      ],
+      "security": [
+        "Fortinet"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(CCNA:→CCNA(89%), Firewall:→Firewall(94%), Checkpoint→Check Point(100%), firewall→Firewall(100%), FortiGate→Fortinet(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Sahayog Multistate Credit Cooperative Bank",
+        "location": null,
+        "start": "November 2025",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 11,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Network Engineer",
+        "company": "Creative Info-Link Pvt. Ltd",
+        "location": null,
+        "start": "June 2025",
+        "end": "October 2025",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 5,
+        "bullets": [
+          "Administered Palo Alto PA3200 and PA820 firewalls, including configuration, policy management, and performance monitoring.",
+          "Designed and implemented firewall policies, Source/Destination NAT rules, and security profiles to ensure robust perimeter defense.",
+          "Completed firewall hardening to mitigate vulnerabilities and strengthen perimeter defenses.",
+          "Monitored and responded to Security Operations Center (SOC) alerts, contributing to proactive threat mitigation and incident response.",
+          "Managed Layer 2 and Layer 3 network protocols, including VLAN configuration, EtherChannel setup, and Port-Security enforcement for secure and efficient data flow.",
+          "Diagnosed and resolved Global Protect VPN issues, ensuring seamless remote access for users.",
+          "Handled technical troubleshooting calls, providing real-time support and resolution for network and security-related issues.",
+          "Executed switch migration activities, ensuring minimal downtime and optimized network performance during infrastructure upgrades."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior System Engineer",
+        "company": "Infosys BPM Limited",
+        "location": null,
+        "start": "December 2024",
+        "end": "April 2025",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 5,
+        "bullets": [
+          "Network Device Configured: Switches configuration including port security, VLAN.",
+          "Firewall Management: Creating policies on checkpoint firewall and FTD as per the CR.",
+          "Checkpoint Firewall Hardening.",
+          "FTD configuration and adding FTD to FMC.",
+          "DNAC: Adding network devices like switches and router on DNAC.",
+          "Switches IOS upgradations.",
+          "Nagios: Integrating devices and managing interfaces using Nagios."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Network Security Engineer",
+        "company": "Softenger India Pvt. Ltd",
+        "location": null,
+        "start": "Jan 2024",
+        "end": "Nov 2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 11,
+        "bullets": [
+          "Network Security & Firewall Management: Regular health checks and configuration of Checkpoint 16200 Firewall and Palo Alto PA-5520, ensuring optimal network security.",
+          "Traffic & URL Monitoring: Managed URL and IP blocking for the entire network using MDS Checkpoint Firewall.",
+          "Firewall OS Upgrade: Upgraded Checkpoint Firewall OS from R81 to R81.20 to ensure security patches and performance enhancements.",
+          "Policy Configuration: Developed and implemented Time-based and Permanent policies for firewall rules across different zones.",
+          "Backup & Maintenance: Scheduled regular firewall backups using Putty and Gaia portal, maintaining system integrity and ensuring quick recovery.",
+          "VLAN & Interface Configuration: Configured interfaces and VLANs on Checkpoint Firewall for segmented network traffic.",
+          "NAT Troubleshooting: Resolved NAT-related issues, ensuring smooth communication between different network segments.",
+          "Hotfix & Patch Management: Installed Jumbo hotfixes for Checkpoint Firewalls to ensure system stability and security.",
+          "Incident Management: Led daily operation and CRF (Change Request Form) processing for RBI locations.",
+          "Collaboration & Troubleshooting: Coordinated with teams to resolve issues related to intranet and internet applications at the RO-wise locations."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Desktop Support Engineer",
+        "company": "Busybees Logistic Solution Pvt. Ltd",
+        "location": null,
+        "start": "June 2022",
+        "end": "Dec2023",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 19,
+        "bullets": [
+          "Firewall Management: Installed, configured, and monitored FortiGate 80E Firewall and Cisco 1852E Wireless Access Points for network security and wireless connectivity.",
+          "VLAN Configuration & Switching: Configured VLANs, Ether Channel, Trunking, and Switchport security on Cisco devices to ensure secure and efficient network traffic management.",
+          "MAC Binding & Load Balancing: Configured MAC-based policies on FortiGate and TP-Link Load Balancers, optimizing traffic distribution across available links.",
+          "Remote IT Support: Provided remote troubleshooting support using AnyDesk for resolving IT-related issues across the company.",
+          "Printer & Device Troubleshooting: Configured and troubleshooted thermal printers, laser printers, and HHD devices, ensuring minimal downtime.",
+          "Asset Management: Managed and maintained inventory for IT assets, coordinating with vendors for hardware replacements and procurement.",
+          "Multiple New Locations set up done: Planning & Requirements Assessment, Hardware"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Future Supply Chain Solution (Vegith Global and",
+        "location": null,
+        "start": "Dec2021",
+        "end": "June2022",
+        "method": "date_regex",
+        "duration_months": 7,
+        "bullets": [
+          "Networking Device Configuration: Configured and managed network devices such as Cisco 2960/9200/9300 switches, Cisco Wireless Controllers (WLC), and Access Points, ensuring stable network performance across branches.",
+          "Network Troubleshooting: Handled issues related to VLAN configurations and performed troubleshooting to restore network functionality.",
+          "System Administration: Managed Windows Server configurations and performed routine maintenance, ensuring system uptime and security.",
+          "Managed multiple locations IT project."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "IT Support Technician",
+        "company": "Amazon Seller Services Pvt. Ltd",
+        "location": null,
+        "start": "May2020",
+        "end": "Dec2021",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 20,
+        "bullets": [
+          "Configured Cisco switches 9300",
+          "OS & Infrastructure Management: Performed OS installations, build deployments, and infrastructure management for hardware and software across the organization.",
+          "Barcode & Printer Configuration: Configured and troubleshooted barcode printers (GX430t, ZD620) and LaserJet printers, supporting the operations team.",
+          "CCTV & Security Systems: Managed and supported CCTV camera systems to ensure surveillance across facilities.",
+          "Network Monitoring: Supported Internet link monitoring, identifying potential issues and ensuring connectivity for the workforce."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.3,
+      "total_months": 76,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.9
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Diploma in Mechanical Engineering from Nagpur Polytechnic Nagpur (KDK College",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Mechanical Engineering from Nagpur Polytechnic Nagpur (KDK College",
+        "institution": "Nagpur Polytechnic Nagpur (KDK College of Engineering) with",
+        "year": "2007",
+        "gpa": "66.29%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

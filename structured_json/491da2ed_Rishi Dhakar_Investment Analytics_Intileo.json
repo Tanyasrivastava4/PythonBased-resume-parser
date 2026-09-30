@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "source_file": "491da2ed_Rishi Dhakar_Investment Analytics_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:32.006662+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rishi Dhakar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rishidhakar20@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7042767245",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Data-driven engineer with a strong background\nin data analysis, skilled in collecting, organizing, and analyzing data sets with meticulous\nattention to detail and accuracy, transforming raw\ndata into actionable insights.\n\n• Reduce Silicon Standard Deviation\nin hot metal in G-blast furnace of Jamshedpur plant\nStrategy • Pandas and Seaborn were used\nin Python to analyze, visualize the data and identify parameters affecting Si content\n• Compared the best 5 and worst\n5 days in terms of Si Standard Deviation to give actionable recommendations\nImpact • Was able to predict Si content\nwith 80% accuracy using Random Forest Regressor after hyperparameter tuning\n• Recommended tolerance range\nfor the 10 variables identified to keep Si Standard Deviation in check",
+  "skills": {
+    "items": [
+      "AWS",
+      "Airbyte",
+      "Analyze",
+      "Attention to Detail",
+      "DBeaver",
+      "Data Analysis",
+      "EasyOCR",
+      "Firebase",
+      "Hyperparameter Tuning",
+      "Keras",
+      "Looker",
+      "Machine Learning",
+      "Microsoft Power Automate",
+      "NumPy",
+      "OpenCV",
+      "Pandas",
+      "PgAdmin",
+      "Power BI",
+      "PyTesseract",
+      "Python",
+      "Random Forest",
+      "SQL",
+      "Seaborn",
+      "Zoho Analytics"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "data_engineering": [
+        "Airbyte"
+      ],
+      "data_science": [
+        "Analyze",
+        "Data Analysis",
+        "Hyperparameter Tuning",
+        "Looker",
+        "Power BI"
+      ],
+      "soft_skill": [
+        "Attention to Detail"
+      ],
+      "dev_tool": [
+        "DBeaver"
+      ],
+      "ai_ml": [
+        "EasyOCR",
+        "Keras",
+        "Machine Learning",
+        "NumPy",
+        "OpenCV",
+        "Pandas",
+        "PyTesseract",
+        "Random Forest",
+        "Seaborn"
+      ],
+      "database": [
+        "Firebase",
+        "PgAdmin",
+        "SQL"
+      ],
+      "rpa": [
+        "Microsoft Power Automate"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "analytics": [
+        "Zoho Analytics"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Firestore→Firebase(100%), Looker Studio→Looker(100%), Power Automate→Microsoft Power Automate(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "CBSE (Class 10) 10",
+        "company": "Class 10",
+        "location": null,
+        "start": "2016",
+        "end": "Present",
+        "method": "single_date_regex+inline_parens",
+        "duration_months": 129,
+        "bullets": [
+          "Built and orchestrated an EL data pipeline using Airbyte to replicate operational data from MySQL to ClickHouse, enabling scalable analytics and improving query performance",
+          "Built a serverless reporting pipeline using for downstream reporting and dashboarding. AWS Lambda (Python) to transform JSON data from Amazon S3 into CSV reports, package them into password-protected ZIP • Engineered an end-to-end automation system archives, and distribute them via SMTP, scheduled through Amazon CloudWatch. in Python using IBM DB2 for generating Missing Credit Reports for entities such as PFRDA and Nodal Offices, saving approximately",
+          "months of manual effort annually.",
+          "Developed an enterprise-level Power BI KPIs and performance insights, enabling data-driven analytics dashboard integrating data across multiple business units to deliver executive",
+          "Developed and implemented a Power Automate strategic decision-making.",
+          "Studied and translated the CKYCRR Schema flow to extract volume data from a Power BI semantic model on a daily basis. 2.0 data structure into an analytics model by defining table cardinality and join relationships to develop ∼ 40 MIS and regulatory reports in Zoho Analytics for CERSAI and RE users.",
+          "Developed a PAN OCR solution leveraging pytesseract and Google Cloud Vision, deployed through a user-friendly web appli- cation using Streamlit to enhance document",
+          "Built an Agentic AI chatbot using GCP processing capabilities. Agent Builder integrated with Cloud Run APIs, enabling natural language querying of MD Dashboard structured datasets."
+        ],
+        "sub_sections": [
+          "Business Intelligence & Analytics",
+          "AI & Machine Learning Applications"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Analyst",
+        "company": "Teachmint Technologies Private Limited",
+        "location": null,
+        "start": "July 2022",
+        "end": "August 2023",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 14,
+        "bullets": [
+          "Utilized SQL, Python, Power BI, Google Data Studio, and Advanced Excel to structure and transform data into actionable insights, enabling data-driven decision-making and enable internal stakeholders to drive business strategy and foster growth Key Contributions:",
+          "Developed Performance Marketing Dashboards resulting in ∼20% improvement in CAC and 2.5X growth in Lead qualification",
+          "Optimized campaign spending by identifying hotspots for high-quality leads including specific locations and particular campaigns",
+          "Utilized Predictive analysis to forecast conversions with 90% accuracy rate, enabling proactive strategy deployment to meet targets",
+          "Designed and developed an automation solution for daily mailers to stakeholders to evaluate performance and create effective action plans, resulting in a reduction of 2 hours in Turnaround Time (TAT) on a daily basis",
+          "Built an Executive-level dashboard in Power",
+          "Established a two-way visibility system for BI, enabling Self-serve Analytics for founders and gain comprehensive insights 120+ Channel Partners and Internal Stakeholders utilizing Looker Studio to track lead activities, analyze funnel movement, payout metrics and activation metrics of all Channel Partners"
+        ],
+        "sub_sections": [
+          "For Marketing Team",
+          "For Sales Team",
+          "For Executive Leadership"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "1) Tata Steel - Inspire Internship  from the company",
+        "location": null,
+        "start": "June 2021",
+        "end": "Aug 2021",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 3,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Council IITK",
+        "location": null,
+        "start": "May 2020",
+        "end": "July 2020",
+        "method": "date_regex",
+        "duration_months": 3,
+        "bullets": [
+          "Tuning of various hyperparameters and other",
+          "Model was trained on JAFFE and CK+ preprocessing steps were done and ten-fold validation applied to achieve high accuracy",
+          "Finally deployed the model in a realtime datasets and an average accuracy of about 92% was achieved environment, that streamed frames from the camera using opencv"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "company": "Unknown company",
+        "role": "of manual effort annually",
+        "start": null,
+        "end": null,
+        "location": null,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.9,
+        "needs_review": false,
+        "source": "stated_duration",
+        "method": "stated_duration",
+        "duration_years": 0.25,
+        "duration_months": 3
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.0,
+      "total_months": 132,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "LBS Senior Secondary School, New Delhi",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "LBS School New Delhi",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CBSE (Class 12) 93.4% 2018",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2018",
+        "gpa": "93.4%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CBSE (Class 10) 10/10 2016",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "of MD Dashboard structured datasets",
+        "degree_name": "MD",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Indian Institute of Technology, Kanpur",
+        "year": "July 2022 - August 2023",
+        "gpa": "20%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.91
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Indian Institute of Technology, Kanpur",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

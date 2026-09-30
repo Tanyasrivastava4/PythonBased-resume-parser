@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "source_file": "2e5b019e_f761c6d4_Naukri_ShivshankerPathak[13y_5m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:13.470207+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "projects",
+      "roles_responsibilities",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Shivshanker Pathak",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "shiv.shanker85@yahoo.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8452040444",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "API Design",
+      "AWS",
+      "AWS EC2",
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
+      "Apache Kafka",
+      "Apache Maven",
+      "CI/CD",
+      "Caching",
+      "Collaboration",
+      "Communication",
+      "Cross-functional Collaboration",
+      "DevOps",
+      "Docker",
+      "Dynatrace",
+      "ELK Stack",
+      "Event-Driven",
+      "Grafana",
+      "Information Security",
+      "Java",
+      "JavaScript",
+      "Jenkins",
+      "Kubernetes",
+      "Linux",
+      "Mentoring",
+      "Microservices",
+      "MongoDB",
+      "Multithreading",
+      "MySQL",
+      "NoSQL",
+      "Observability",
+      "Payments",
+      "Project Management",
+      "Prometheus",
+      "Query Optimization",
+      "Redis",
+      "SonarQube",
+      "Spring",
+      "Spring Boot",
+      "Spring Security",
+      "UPI"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design",
+        "Caching",
+        "Event-Driven",
+        "Microservices"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS Lambda",
+        "AWS RDS",
+        "AWS S3",
+        "Dynatrace"
+      ],
+      "data_engineering": [
+        "Apache Kafka"
+      ],
+      "dev_tool": [
+        "Apache Maven"
+      ],
+      "devops": [
+        "CI/CD",
+        "DevOps",
+        "Docker",
+        "ELK Stack",
+        "Grafana",
+        "Jenkins",
+        "Kubernetes",
+        "Observability",
+        "Prometheus"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Cross-functional Collaboration",
+        "Mentoring"
+      ],
+      "security": [
+        "Information Security"
+      ],
+      "programming_language": [
+        "Java",
+        "JavaScript",
+        "Multithreading"
+      ],
+      "os_system": [
+        "Linux"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL",
+        "NoSQL",
+        "Query Optimization",
+        "Redis"
+      ],
+      "domain": [
+        "Payments",
+        "UPI"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "testing": [
+        "SonarQube"
+      ],
+      "web_framework": [
+        "Spring",
+        "Spring Boot"
+      ],
+      "framework": [
+        "Spring Security"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Spring Boot 3+→Spring Boot(95%), multithreading→Multithreading(100%), Spring Boot 3+→Spring Boot(95%), Spring Cloud→Spring(100%), Redis.→Redis(91%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Problem-solving Application Architect",
+        "company": "Leadership",
+        "location": null,
+        "start": "Mar 2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 31,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Lead",
+        "company": "IBM India Pvt Ltd. (Mumbai",
+        "location": null,
+        "start": "Oct 2018",
+        "end": "Mar 2024",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 66,
+        "bullets": [
+          "Mentored and led a cross-functional team of 10+ developers through the full SDLC, fostering a culture of continuous learning and technical excellence.",
+          "Provided technical leadership across architecture, design, development, and production support for mission-critical systems.",
+          "Owned end-to-end delivery, including requirement analysis, solution design, implementation, and release management.",
+          "Ensured high code quality through CI/CD pipelines, automated testing, and secure coding standards.",
+          "Created backend functionality for Mobile app from scratch using Spring Boot microservices, DB2, and IBM WebSphere Application.",
+          "Developed key features and module on SBI Yono App like IRCTC Integration, OMP, PFM Systems and delivered 50+ new and enhancement projects.",
+          "Enhanced overall app & API performance using API caching, code refactoring, database query optimization and leverage Jave 17 & 21 feature, Outline the system architecture to integrate microservices and third-party applications using RESTful web services.",
+          "Built Noti\u0000cation engine for SBI YONO Mobile App which covered SMS, Email and Push Noti\u0000cation."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "IDBI Intech Ltd. (Navi Mumbai",
+        "location": null,
+        "start": "Jan 2016",
+        "end": "Oct 2018",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 34,
+        "bullets": [
+          "Led development and enhancement of key modules in the IDBI Payments ecosystem to improve reliability and performance.",
+          "Provided L2/L3 production support for NEFT/RTGS platforms, ensuring high availability and quick resolution of critical issues.",
+          "Designed and implemented multithreaded background services for NEFT & RTGS to support high-volume transaction processing and faster settlement cycles.",
+          "Modernized the NEFT application by migrating from JSP-Servlet to Spring MVC, improving maintainability and development e\u0000ciency.",
+          "Developed key payment applications such as NEFT and RTGS for IDBI Bank’s for IDBI Branch operations and customers.",
+          "Designed and implemented the NEFT module for IDBI Bank branches using Core Java, Spring Boot, AngularJS, and Oracle database.",
+          "Provided L2/L3 production support for enterprise banking payment platforms including NEFT, RTGS, and CPS systems, ensuring uninterrupted services and quick issue resolution.",
+          "Built responsive and user-friendly interfaces using Spring MVC, JavaScript, and Bootstrap, enhancing user experience and operational e\u0000ciency.",
+          "Developed multithreaded background services in Core Java with Java Executer framework to process bulk \u0000nancial transactions, improving throughput and reducing processing time."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Alepo Technologies (Navi Mumbai",
+        "location": null,
+        "start": "Aug 2012",
+        "end": "Jan 2016",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 42,
+        "bullets": [
+          "Developed and enhanced multiple features of the Liferay portal, including User Management, Audit Trail, and Voucher Management modules.",
+          "Provided production support and resolved defects for the CRM Portal, ensuring smooth portal operations and improved user experience.",
+          "Collaborated with business and support teams to analyze issues, apply \u0000xes, and deliver portal enhancements in timely manner.",
+          "Built and enhanced Liferay portal features including User Management, Audit Trail, and Voucher Management System.",
+          "Operated as a Java Portlet Developer to construct CRM features aligned with business and compliance requirements.",
+          "Resolved production issues, performed bug \u0000xes, and delivered ongoing technical support for the CRM Portal, ensuring smooth operations.",
+          "Design the complete system architecture of Hazel cast cluster in Yono system, contribute to various design decision, capacity planning, client con\u0000guration.",
+          "Con\u0000guration & installation of Hazel cast cluster and management console in staging and production system.",
+          "Con\u0000gure Yono’s backend applications to use Hazel cast clients for session data, OTP caching, and synchronization.",
+          "Design and implement system architectures, solutioned low-level design (LLD) and high-level design (HLD) for YFEI system integration with UPI.",
+          "Outlined the complete system \u0000ow between SBI mobile app, SDK and Yono blackened system.",
+          "Developed entire backend systems, microservices, integration with NPCI, session management.",
+          "Development of features like user Login and Registration, user pro\u0000le management, integration with ELK system for auditing and logging.",
+          "Integration with Hazel cast for session management.",
+          "Take complete ownership for deployment in production system with Jenkins.",
+          "Implement security feature and recommendation as per ISD department.",
+          "Owned the end-to-end architecture of a scalable, multi-channel noti\u0000cation system, translating business requirements into resilient, extensible system design and guiding implementation across teams.",
+          "Delivered event-driven microservices for Push and Email noti\u0000cations, de\u0000ning robust API contracts, security protocols, and seamless integrations with external systems including SMS gateways, Google Firebase (FCM), and enterprise SMTP servers."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 14.2,
+      "total_months": 170,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Post Graduate Diploma in Software Technolgy ()",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Software Technolgy (2011 - 2012)",
+        "institution": null,
+        "year": "2011 - 2012",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Science in Information Technology ()",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Information Technology (2006 - 2009)",
+        "institution": "Sikkim Manipal University",
+        "year": "2006 - 2009",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Successfully delivered the MFP decommission and migrated 1,200+ APIs to Spring Boot.",
+      "Transition of SBI YONO session management to Hazelcast IMDB Grid.",
+      "Awarded Ace Employee of the Year 2022 by IBM India Pvt Ltd for outstanding performance and contributions to the YONO App development.",
+      "Certi\u0000cate of Appreciation from SBI Client for building the entire backend system for YFEI Mobile App.",
+      "Certi\u0000cate of Appreciation from SBI Client for successful migration of YONO system to Hazelcast caching."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

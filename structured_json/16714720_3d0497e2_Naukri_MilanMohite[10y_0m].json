@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "source_file": "16714720_3d0497e2_Naukri_MilanMohite[10y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:57:58.947342+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mob",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "milan1406@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8779566967",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "I am looking forward for a job which would provide me competitive as well as professional environment that would help me to flourish, hence achieving self as well as organizational goal.",
+  "skills": {
+    "items": [
+      "Calibration",
+      "Data Acquisition",
+      "Dissolution Testing",
+      "Mechanical Engineering",
+      "PID Controllers",
+      "Technical Support",
+      "Transmitters"
+    ],
+    "by_category": {
+      "engineering_hardware": [
+        "Calibration",
+        "Data Acquisition",
+        "PID Controllers",
+        "Transmitters"
+      ],
+      "instrumentation": [
+        "Dissolution Testing"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "support": [
+        "Technical Support"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Service Engineer in Labindia Analytical Instruments Pvt. Ltd",
+        "company": "Working Experience on Muffle furnace",
+        "location": null,
+        "start": "September 2022",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 49,
+        "bullets": [
+          "Working Experience on Muffle furnace, Microwave Digestion System, Microwave Synthesizer Microwave Peptide Synthesizer."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Parts. Service Engineer in CONTECH ENGINEERS",
+        "company": "Follow-up with customers for Instruments AMC",
+        "location": "Spare",
+        "start": "August 2019",
+        "end": "September 2022",
+        "method": "date_regex+comma_company_role_split",
+        "duration_months": 38,
+        "bullets": [
+          "Working Experience on Data Acquisition Instruments, PID Controllers, Indicators, Signal Conditioners, Transmitters, Vibration Monitoring Instruments, Infrared Sensors, Pyrometers, Wireless Process Instruments, Calibrators, Power Monitoring Instruments, Event and Fault Recording Instruments, Time Synchronization Instruments, Data Converters.",
+          "Done big projects in Government Sectors and private sectors.",
+          "Good Knowledge of all Control and Electrical panels.",
+          "Installation, Calibration, Maintain Instruments.",
+          "Give Technical knowledge and helping them to find out the suitable product to the machinery."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Installation and Termination of Electrical Panels according to electrical Drawings. Calibration Engineer in TOTAL CALIBRATION SERVICE",
+        "company": "Follow-up with customers for Instruments AMC",
+        "location": "Spare",
+        "start": "February 2016",
+        "end": "August 2019",
+        "method": "date_regex+title_dict+inherited_company",
+        "duration_months": 43,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Installation and Calibration Digital Temperature Controller",
+        "company": "Digital Temperature Indicator",
+        "location": "",
+        "start": "December 2014",
+        "end": "December 2015",
+        "method": "date_regex+comma_title_company_split",
+        "duration_months": 13,
+        "bullets": [
+          "Completing all tasks set by the supervisor and assisting wherever possible.",
+          "Calibration of Electrical, Mechanical, Pressure Instruments.",
+          "Understand the Production Process of Tyre Production."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.8,
+      "total_months": 141,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Engineering in INSTRUMENTATION from Mumbai University",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "INSTRUMENTATION from Mumbai University",
+        "institution": "Mumbai University (A C Patil College of Engineering",
+        "year": "2010",
+        "gpa": "56.40%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Diploma in INSRUMENTATION Mumbai board in 2010 with FIRST CLASS 74.56%",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "INSRUMENTATION Mumbai board in 2010 with FIRST CLASS 74.56%",
+        "institution": "INSRUMENTATION Mumbai board",
+        "year": "2010",
+        "gpa": "74.56%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HSC from Mumbai board in 2006 with 60%",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Mumbai board",
+        "year": "2006",
+        "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SSC from Mumbai board in 2004 with 56%",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Mumbai board",
+        "year": "2004",
+        "gpa": "56%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

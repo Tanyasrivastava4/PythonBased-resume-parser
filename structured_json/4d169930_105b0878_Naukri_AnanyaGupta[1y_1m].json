@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "source_file": "4d169930_105b0878_Naukri_AnanyaGupta[1y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:35.765640+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ananya Gupta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ananyagupta2305@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918447422805 / 1002021",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ananyagupta2003",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/ananyagupta2305",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/file/d/1pVeZnBIuDQIKP_Qvd2dTfzQ2isEdJps3/view",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "AI/ML Engineer specializing in Generative AI and\nmultimodal systems, with a strong foundation in research and production-grade AI.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Amazon Nova Pro",
+      "Azure OpenAI",
+      "BeautifulSoup",
+      "Bedrock",
+      "Claude",
+      "Data Analytics",
+      "FAISS",
+      "GPT-4",
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "Google",
+      "Groq",
+      "Hugging Face",
+      "Jira",
+      "LLM",
+      "LLM Orchestration",
+      "LinkedIn",
+      "Llama CPP",
+      "Machine Learning",
+      "Matplotlib",
+      "MongoDB",
+      "NLP",
+      "Node.js",
+      "NumPy",
+      "Ollama",
+      "Pandas",
+      "Prompt Engineering",
+      "PyTorch",
+      "Python",
+      "Qwen",
+      "RAG",
+      "SQL",
+      "SQLAlchemy",
+      "Seaborn",
+      "TensorFlow",
+      "Topic Modeling",
+      "Transformers",
+      "Vector Databases",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "ai_ml": [
+        "Amazon Nova Pro",
+        "LLM Orchestration",
+        "Llama CPP",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "Seaborn",
+        "TensorFlow",
+        "Topic Modeling",
+        "scikit-learn"
+      ],
+      "genai": [
+        "Azure OpenAI",
+        "Bedrock",
+        "Claude",
+        "GPT-4",
+        "Generative AI",
+        "Groq",
+        "Hugging Face",
+        "LLM",
+        "Ollama",
+        "Prompt Engineering",
+        "Qwen",
+        "RAG",
+        "Vector Databases"
+      ],
+      "library": [
+        "BeautifulSoup"
+      ],
+      "data_science": [
+        "Data Analytics",
+        "Transformers"
+      ],
+      "search": [
+        "FAISS"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub"
+      ],
+      "database": [
+        "Google",
+        "MongoDB",
+        "SQL",
+        "SQLAlchemy"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "web_framework": [
+        "LinkedIn",
+        "Node.js"
+      ],
+      "programming_language": [
+        "Python"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(GPT-4o→GPT-4(100%), Claude 3→Claude(100%), Scikit-learn→scikit-learn(100%), github.com→GitHub(100%), github.com→GitHub(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "AI Software Engineer| Hybrid",
+        "company": "Biz Digital IT",
+        "location": "Gurugram, India",
+        "start": "Jan’25",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 21,
+        "bullets": [
+          "Designed and implemented a government-facing RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova Pro, owning the system from POC to production integration.",
+          "Implemented semantic retrieval, multi-turn follow-up handling, and hallucination control, ensuring accurate, scope-restricted responses aligned with official MIDC data.",
+          "Designed and deployed two production Generative AI systems for document summarization and question answering across PDFs,",
+          "DOCX, images, and structured data using GPT-4o",
+          "Optimized multi-document processing pipelines",
+          "Developed token-level inference analysis (per",
+          "Conducted research-oriented experimentation OCR–LLM hybrids, and structured extraction (Azure OpenAI). using parallel execution, reducing end-to-end latency from ~40s to ~10s. page and per document) to enable LLM cost monitoring and optimization. on complex multi-page invoice understanding, evaluating vision–language models, pipelines.",
+          "Designed and implemented a RAG framework on AWS using Amazon Nova Pro for long-document summarization and Amazon Titan embeddings for semantic retrieval over large document collections.",
+          "Currently developing a cost-efficient invoice extraction pipeline using Amazon Nova Pro, achieving ~93–95% accuracy, with ongoing optimization and evaluation."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
+        "company": "Docquity",
+        "location": "Gurugram, India",
+        "start": "July’24",
+        "end": "Sept’24",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 3,
+        "bullets": [
+          "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical text (PubMed XML).",
+          "Explored prompting and inference behavior across Claude, OpenAI, and AWS Bedrock models.",
+          "Gained exposure to LLM serving, scalable inference pipelines, and system-level architecture."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
+        "company": "Learning",
+        "location": null,
+        "start": "Feb’25",
+        "end": "May’25",
+        "method": "date_regex+inherited_role",
+        "duration_months": 4,
+        "bullets": [
+          "Tools: AWS Bedrock , PyTorch, Hugging Face (BERT, RoBERTa, DistilBERT), Python o Built a system that analyzed sentiment from raw images and text by generating structured metadata with Amazon Nova Pro.",
+          "Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy o Created vibrant visualizations (e.g., radial heatmaps, tree maps) with Python/PyTorch, producing publication-ready figures for a research paper."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
+        "company": "Medical RAG Chatbot for Knowledge-Grounded Question Answering",
+        "location": "Link",
+        "start": "Aug’24",
+        "end": "Sept’24",
+        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "duration_months": 2,
+        "bullets": [
+          "Tools: Sentence Transformers, FAISS, RAG, Groq LLM, Python, Streamlit o Designed a Retrieval-Augmented Generation (RAG) system to answer domain-specific queries using a structured CSV-based knowledge base. o Implemented semantic retrieval with Sentence Transformers and FAISS to ground LLM responses and reduce hallucinations. o Engineered modular preprocessing, retrieval, and generation components with transparent context inspection and conversational memory."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
+        "company": "Multi-File RAG & LLM Chat System with Streamlit",
+        "location": "LINK",
+        "start": "Sept’24",
+        "end": "Dec’24",
+        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "duration_months": 4,
+        "bullets": [
+          "Tools: Grok API , Hugging face, sentence transformers, Faiss, RAG, python, Llama 8B, Python, Streamlit o Developed a Streamlit application integrating Retrieval-Augmented Generation (RAG) to support multi-file uploads (PDF, DOCX, TXT, MP3, MP4) for context-based responses. o Implemented a conversational interface using Llama 8B via the Groq API, enabling users to engage in natural language queries with the model. o Enhanced user experience by allowing seamless interaction with uploaded documents, facilitating efficient information retrieval and summarization."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.2,
+      "total_months": 27,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.78
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Technology in Artificial Intelligence and Data",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Artificial Intelligence and Data",
+        "institution": "models, vector search, and prompt orchestration, bridging rigorous experimentation with real-world deployment. EDUCATION Vivekananda Institute of Professional Studies",
+        "year": "2021 - 2025",
+        "gpa": "9.2/10.0",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Senior Secondary Examination(CBSE) | 86%",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Examination CBSE",
+        "year": "2007 - 2021",
+        "gpa": "86%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Data Bricks Certified Data Engineer Associate | LINK",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Jan’26",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "AWS Certified AI Practitioner| LINK",
+        "issuer": "AWS",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "July’25",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Research Paper Presentation Certificate, ICDAM2024",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "June’24",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "(5th International Conference on Data Analytics",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "and Management (ICDAM-)) | LINK",
+        "issuer": null,
+        "year": "2024",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Research Paper Presentation Certificate, AIAMMS2023",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Nov’23",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "(1st International Conference on Artificial Intelligence, Advanced Materials, and",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Mechatronics Systems (AIAMMS-))| LINK",
+        "issuer": null,
+        "year": "2023",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "NODEJS - IBM | LINK",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Oct’23",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/ananyagupta2003/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/ananyagupta2305",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://drive.google.com/file/d/1pVeZnBIuDQIKP_Qvd2dTfzQ2isEdJps3/view?usp=sharing",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "https://link.springer.com/chapter/10.1007/978-981-96-3355-5_25",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.routledge.com/Handbook-of-AI-in-Engineering-Applications-Tools-Techniques-and-Algorithms/Kumar-Rani-Kumar-Jain/p/book/9781032723150",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/ananyagupta2305/Medical_RAG_Chatbot",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://github.com/ananyagupta2305/Generative_AI",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://drive.google.com/file/d/1ELkzLXH_OcN_sysjzdRHWrb5XCdgZsJ4/view?usp=sharing",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "https://drive.google.com/file/d/17_c1Ld6NvSzMHEHrkKM6CoEVpjlENV0V/view?usp=sharing",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "https://drive.google.com/file/d/1s-N1ykiAN5oI2FHw_W4XItW8mGnJ2SsP/view?usp=drive_link",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "https://drive.google.com/file/d/1ye7cu3pXSp2xYdrhtuweBcbp0Sc49Aht/view",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "https://drive.google.com/file/d/1r-CDFG5QtOKrZipYxRVOrnYZIG6VZtb6/view",
+        "issuer": "google",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.67
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.67,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[13]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[14]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[15]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[16]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[18]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[19]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[20]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[21]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

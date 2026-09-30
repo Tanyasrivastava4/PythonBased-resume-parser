@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "source_file": "6f88272c_f2a52a34_Gaurav Trivedi-BM-Raebareli_segmented.txt",
+    "generated_at": "2026-09-30T06:59:10.492827+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Gauray Trivedj",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "78@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8127024956 / 808144476",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "f gmail\ncom\nCAREER OBJECTIVE...\nresult of ! want\nmy Working to be SUCCeggs\nto the MY",
+  "skills": {
+    "items": [
+      "Bancassurance"
+    ],
+    "by_category": {
+      "insurance": [
+        "Bancassurance"
+      ]
+    },
+    "_confidence": 0.75,
+    "_method": "flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Company 16th June",
+        "location": null,
+        "start": "12th October 2020",
+        "end": "16June 2021",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 9,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.8,
+      "total_months": 9,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "High Schoo]",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "U.p Board",
+        "year": "2007",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Intermediate Allahabad",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Board",
+        "year": "2007",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "Graduation Allahabaq",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "C.S.JM University",
+        "year": "2009",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.82
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.84
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education.entries[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

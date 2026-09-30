@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "source_file": "76ddbaa8_26f5b995_Ranjan Kumar_Mobile App Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:19.494005+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ranjan Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "kranjan7417@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9304479353",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ranjan-kumar-49a318201",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Ranjan221120",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Agile",
+      "Android",
+      "CI/CD",
+      "Clean Architecture",
+      "Collaboration",
+      "Dart",
+      "Fastlane",
+      "Firebase",
+      "Flutter",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Google",
+      "JUnit",
+      "Java",
+      "MVC Architecture",
+      "MVVM",
+      "Mobile Application Development",
+      "Performance Optimization",
+      "REST API",
+      "Razorpay",
+      "Remote Config",
+      "VS Code",
+      "XML",
+      "iOS"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile"
+      ],
+      "mobile": [
+        "Android",
+        "Flutter",
+        "Mobile Application Development",
+        "iOS"
+      ],
+      "devops": [
+        "CI/CD",
+        "Fastlane",
+        "GitHub Actions"
+      ],
+      "architecture": [
+        "Clean Architecture",
+        "MVVM"
+      ],
+      "soft_skill": [
+        "Collaboration"
+      ],
+      "programming_language": [
+        "Dart",
+        "Java"
+      ],
+      "database": [
+        "Firebase",
+        "Google"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Performance Optimization",
+        "VS Code"
+      ],
+      "testing": [
+        "JUnit"
+      ],
+      "software_engineering": [
+        "MVC Architecture"
+      ],
+      "web_framework": [
+        "REST API",
+        "XML"
+      ],
+      "fintech": [
+        "Razorpay"
+      ],
+      "cloud_infra": [
+        "Remote Config"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Firestore→Firebase(100%), Xcode→iOS(100%), Unit Testing→JUnit(96%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Mobile App Developer",
+        "company": "Kutumbh HRCare",
+        "location": "Noida",
+        "start": "Jul 2022",
+        "end": "Sep 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 39,
+        "bullets": [
+          "Delivered 3 production-grade mobile applications across e-Commerce and Field Service Management (FSM)with proven results in boosting user engagement, reducing defects, and accelerating release cycles.",
+          "Experienced in end-to-end app lifecycle management from design to deployment, with strong expertise in performance optimization, state management, and cross-functional collaboration."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Mobile App Developer",
+        "company": "Kutumbh HRCare",
+        "location": "Noida",
+        "start": "Nov 2025",
+        "end": "present",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 11,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.2,
+      "total_months": 50,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech (Computer Science)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": "Computer Science GLA University Mathura",
+        "year": "2018 - 2022",
+        "gpa": "72.0%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

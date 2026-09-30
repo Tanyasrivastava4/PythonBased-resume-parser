@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "source_file": "dfba57ae_8de0422b_Naukri_VivekSinghKushwaha[6y_6m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:33.162923+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Vivek Singh Kushwaha",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "vivekkushwaha18772@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7076607591",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/vivek-singh-kushwaha-30019",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS Athena",
+      "AWS S3",
+      "Apache Airflow",
+      "Data Visualization",
+      "Databricks",
+      "ETL",
+      "KPI",
+      "LinkedIn",
+      "MS Office",
+      "Machine Learning",
+      "Macro Modelling",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "Process Improvement",
+      "PySpark",
+      "Python",
+      "SQL",
+      "Stakeholder Management",
+      "Tableau"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS Athena",
+        "AWS S3"
+      ],
+      "data_engineering": [
+        "Apache Airflow",
+        "Databricks",
+        "ETL"
+      ],
+      "data_science": [
+        "Data Visualization",
+        "Tableau"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ],
+      "finance": [
+        "Macro Modelling"
+      ],
+      "operations": [
+        "Process Improvement"
+      ],
+      "database": [
+        "PySpark",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "soft_skill": [
+        "Stakeholder Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Advanced Excel→Microsoft Excel(100%), Microsoft Office→MS Office(100%), Athena→AWS Athena(100%), Airflow→Apache Airflow(100%), ETL Pipelines→ETL(96%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Associate",
+        "company": "artifacts, enabling seamless tracking and audit readiness. Axtria India Pvt. Ltd",
+        "location": "Project Leader",
+        "start": "Apr 2024",
+        "end": "Present",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 30,
+        "bullets": [
+          "Utilized AWS Athena and Databricks for ad hoc analysis and data validation, re-engineered logic, and optimized queries, enhancing accuracy and saving time.",
+          "Led analytics efforts, managed implementation, requirements gathering, development, and testing. Regularly coordinated with clients and onshore team for effort estimation, change requests, new reports, tracker maintenance, and project timeline planning.",
+          "Designed and implemented Super DAGs in Airflow to automate weekly pipeline executions, with notification features improving monitoring and reducing manual effort by 60%.",
+          "Worked directly with the client and led a 3-member team to build a standardized and business-aligned data quality framework using Athena, S3 and Databricks, helping in early detection of issues and reducing resolution time.",
+          "Manage 4 associates, guiding and mentoring them for best practices and professional development.",
+          "Ensured project compliance by maintaining structured documentation, including project plans, checklists, BRDs, SOPs, and other relevant",
+          "Worked with a US-based pharma client on Incentive Compensation covering Sales Crediting, Goal Setting, Eligibility & Payouts.",
+          "Designed models for multiple products to forecast quarterly goals (based on historical data, trends, market metrics, and other factors) for various US geographies. Validated these models on test data by performing multiple statistical tests.",
+          "Developed user-friendly interactive simulator tools with dynamic functionalities and built several reports from scratch.",
+          "Developed various scripts from scratch in MS SQL Server for reporting, sales crediting, and goal-setting modules.",
+          "Took end-to-end ownership of several reports and ad hoc analysis requests from clients, onboarded and mentored new and junior team members in IC modules, and conducted training sessions to enhance their technical and business acumen."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Analyst/Associate",
+        "company": "Alignment, and various pharma datasets (Symphony, Liquid Hub, Veeva Call Activity, Value Centric, XPO, DDD, SPSD, 867, 852 data etc). Axtria India Pvt. Ltd",
+        "location": null,
+        "start": "Jul 2019",
+        "end": "Mar 2022",
+        "method": "date_regex+pipe_split",
+        "duration_months": 33,
+        "bullets": [
+          "Designed complex reports using SQL, Excel, and PowerPoint.",
+          "Developed a PowerPoint report generator, reducing report creation time by 60%.",
+          "Created Tableau dashboards to track sales and call performance, and developed custom ad hoc reports to meet client needs.",
+          "Collaborated with cross-functional teams, performed requirement gathering and generated reports for better business insights.",
+          "Acted as an SME in the reporting team, resolved client and onshore team queries related to reporting and analytics."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.2,
+      "total_months": 63,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.77
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "2019 Dual Degree 5Y (BTech + MTech)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Axtria Institute",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "2013 Higher Secondary (CBSE)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "CBSE",
+        "institution": "IIT Kharagpur",
+        "year": "2013",
+        "gpa": "84.6%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "2011 Secondary (CBSE)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "CBSE",
+        "institution": "CBSE",
+        "year": "2011",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Certified in SQL, Python, Tableau, Advanced Excel, and Gen AI – Axtria Institute",
+        "issuer": "Tableau",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "BRAVO Award for outstanding contributions & business impact – Axtria",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Captain, Azad Hall Hockey Team – Led 30+ players to GC  Semifinals at IIT Kharagpur",
+        "issuer": null,
+        "year": "2018",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Subhead, Boeing National Aeromodelling Competition – Managed 70+ teams at IIT Kharagpur TechFest .",
+        "issuer": null,
+        "year": "2017",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/vivek-singh-kushwaha-30019/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://www.linkedin.com/in/piyush-jamadari-385783201/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.67
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.67,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

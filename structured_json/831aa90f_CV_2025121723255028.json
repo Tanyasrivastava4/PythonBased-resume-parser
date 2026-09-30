@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "source_file": "831aa90f_CV_2025121723255028_segmented.txt",
+    "generated_at": "2026-09-30T06:59:27.626548+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prasanta Bera",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "prasantabera.indiamart@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7908094658",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Accounting",
+      "Adobe Photoshop",
+      "Interpersonal Skills",
+      "Inventory Management",
+      "Mechanical Engineering",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Sales Management",
+      "Tally"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Tally"
+      ],
+      "design": [
+        "Adobe Photoshop"
+      ],
+      "soft_skill": [
+        "Interpersonal Skills"
+      ],
+      "operations": [
+        "Inventory Management"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Word"
+      ],
+      "sales": [
+        "Sales Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Accounting.→Accounting(95%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Back Office staff and Junior Accountant",
+        "company": "Father Name : Ram Chandra Bera",
+        "location": null,
+        "start": "2020",
+        "end": "2021",
+        "method": "date_regex",
+        "duration_months": 13,
+        "bullets": [
+          "Tally Operator",
+          "Back office related work.",
+          "Collect Data from various Govt. and Private Website.",
+          "Manage Company Account."
+        ],
+        "sub_sections": [
+          "Back Office staff and Junior Accountant",
+          "Joined as back Office staff and Junior Accountant for"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Branch Manager and Accountant",
+        "company": "5. Project Preparation",
+        "location": null,
+        "start": "2021",
+        "end": "2023",
+        "method": "date_regex",
+        "duration_months": 25,
+        "bullets": [
+          "Branch Assistant Manager.",
+          "Customer Sale, service and satisfaction."
+        ],
+        "sub_sections": [
+          "Branch Manager and Accountant"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sales & Service Manager",
+        "company": "3. Stock Management",
+        "location": null,
+        "start": "2023",
+        "end": "2024",
+        "method": "date_regex",
+        "duration_months": 13,
+        "bullets": [
+          "Area Sales Manager.",
+          "Customer Sale, service and satisfaction."
+        ],
+        "sub_sections": [
+          "Sales & Service Manager"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "SALES EXECUTIVE",
+        "company": "3. Stock Management",
+        "location": null,
+        "start": "2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 33,
+        "bullets": [
+          "New Client Acquisition.",
+          "Service Provided Associate.",
+          "Complete monthly target 🎯"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.8,
+      "total_months": 81,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "PANIPARUL MUKTESWER HIGH SCHOOL Madhyamik: Qualified year 2013 from West",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Bengal Board Madhyamik Pariksha",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "PANIPARUL MUKTESWER HIGH SCHOOL Madhyamik: Qualified year 2015 from West",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Bengal Board Madhyamik Pariksha",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Higher Secondary",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Bengal Board",
+        "year": "2020",
+        "gpa": "70%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "BANGABASI EVENING COLLEGE, B.COM",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Bangabasi Evening College",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Graduation(B.com)",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": "43%",
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "source_file": "3ce78c1b_9be766b7_Nilesh Amrutkar_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:23.091476+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "early_career",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pmp Azure",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "abc@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7012840712 / +91-9657364494",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "• Technical Manager with over 16 years of experience in directing large engagement including complex Program/Project\nManagement, Delivery Management, People Management, Telecom service delivery, Service assurance Processes SME\nacross wired and wireless telecom deliveries.\n• Extensive background in UC Products (UCaaS) Unified Communications as a Service, Cisco Hosted Collaboration System\n(HCS), Cisco Unified Communication IP telephony (IPT), Hosted Contact Center (CCaaS) & Microsoft Products (MS TDR,\nOperator Connect, MS Teams Phone Mobile).\n• Service Delivery & Operations across several Vodafone Enterprise product suite (Unified Comms, International Carrier\nServices, RCS & Mobility etc.)\n• Global Exposure: Delivery & Deployment of complex services across regions such as Vodafone India, Vodafone UK\nGroup & Vodafone local operating companies worldwide.\n• Experience in Managing teams in multiple Telecom domains like 2G,3G, 4G, RCS, and UC\n• Responsible overall Network team’s SLA and KPI reporting to senior management on monthly basis.",
+  "skills": {
+    "items": [
+      "Agile",
+      "Collaboration",
+      "Communication",
+      "Diameter",
+      "Docker",
+      "HR Management",
+      "KPI",
+      "Kanban",
+      "Microsoft Teams",
+      "Performance Management",
+      "Project Management",
+      "Recruitment",
+      "Responsible AI",
+      "Risk Management",
+      "SIP",
+      "Scrum",
+      "TCP/IP",
+      "Team Leadership",
+      "Telecom"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile",
+        "Kanban",
+        "Project Management",
+        "Risk Management",
+        "Scrum"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Team Leadership"
+      ],
+      "security": [
+        "Diameter"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "hr": [
+        "HR Management",
+        "Performance Management",
+        "Recruitment"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "genai": [
+        "Responsible AI"
+      ],
+      "networking": [
+        "SIP",
+        "TCP/IP"
+      ],
+      "domain": [
+        "Telecom"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(DIAMETER→Diameter(100%), People Management→HR Management(100%), telecom→Telecom(100%), teams→Microsoft Teams(100%), Responsible→Responsible AI(95%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Networks",
+        "location": null,
+        "start": "Oct 08",
+        "end": "Feb 2010",
+        "method": "date_regex",
+        "duration_months": 112,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Engineer",
+        "company": "Networks",
+        "location": null,
+        "start": "Mar 13",
+        "end": "April 18",
+        "method": "date_regex+title_dict+inherited_company",
+        "duration_months": 2,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Vodafone India Services Private",
+        "company": "Managing vendors, multiple engineering teams, driving operational excellence.",
+        "location": "Limited, Pune",
+        "start": "March 2020",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 79,
+        "bullets": [
+          "Led in overall concepts of e2e technical delivery, multiple project planning & implementation viz. scoping, estimation, tracking, resource planning, change management & delivery management."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Reliance Jio Infocomm",
+        "company": "Involving Software upgrade of IMS Core Nodes viz. TAS-16.5 (PCD2.0 To PCD 7.0) & P,I,S CSCF-17.5",
+        "location": "Limited, Mumbai",
+        "start": "May 2018",
+        "end": "Feb 2020",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 22,
+        "bullets": [
+          "Played a lead role for operations and maintenance of IP Multimedia Subsystem (IMS) /VoLTE solution provided by Nokia. Key Contributions and Achievements:",
+          "Troubleshoot issue of Volte registration, ONnet/OFFnet Mobile originate and terminate call faults and take appropriate action to resolve.",
+          "Coordinate with Circle Team and internal NOC teams for service testing, troubleshooting and new feature testing for IMS elements.",
+          "Analyse Normal & Emergency call Routing / Configuration bugs in TAS, P-S CSCF Nodes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Vodafone India Private",
+        "company": "Played SME role for maintain Operations, Performance & Quality of National & International Long distance Network. Key Contributions and Achievements:",
+        "location": "Limited, Pune",
+        "start": "May 13",
+        "end": "April 18",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 1,
+        "bullets": [
+          "Managing Key Performance Indicators (KPIs) of core LD NGN Network viz. ASR, ACD, PDD, TG utilization, ETI, NER etc. indicating Network and Traffic performance.",
+          "Analysis of traffic routing, planning & load balancing for interconnect carrier.",
+          "E2E analysis & troubleshooting of issues like Voice Call, ITFS, NTFS, FAX, Audio conferencing, CRBT, USSD etc.",
+          "Improvement and recommendations plans base on abnormal network behaviour viz. Traffic patterning, Capacity utilization & Load balancing. Doing Impact analysis for required changes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Responsible for Planning & Implementation of Core Network Elements (MSC, MGW, HLR-EIR, SGSN, GGSN). Key Contributions and Achievements:",
+        "location": "Loop Telecom Limited, Mumbai",
+        "start": "March 10",
+        "end": "April 13",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 2,
+        "bullets": [
+          "Database Management, Configuration and Acceptance Testing for POIs and Network Elements.",
+          "TG Capacity Utilization and Planning.",
+          "Deployment of Lawful Interception System in the Network. Integrating present MSC Nodes with LI System.",
+          "Testing all test Scenarios of LI & offering our LI system for Testing to LEAs."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Played Engineer Role for Operation and Maintenance of Airtel MH & Goa Circle",
+        "company": "GSM Tracing This is most powerful activity, used for tracing location and calls made by black listed number or equipment.",
+        "location": "Nokia Siemens Networks, Pune",
+        "start": "Oct 08",
+        "end": "Feb 10",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 0,
+        "bullets": [
+          "Played Engineer Role for Operation and Maintenance of Airtel MH & Goa Circle Key Contributions and Achievements:",
+          "Call connectivity, Audio Quality & Call Drop issue’s analysis & troubleshooting.",
+          "Responsible for Operation, handling of Level opening issues with other operators, maintenance and administration of the Switch.",
+          "Working on Nokia switch DX200 by using the UNIX based software Reflection.",
+          "Value Added Services (VAS) Support - CRBT, BGM (Background Music),SMS & GPRS"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "TAC Manager",
+        "company": "_VOIS",
+        "location": null,
+        "start": "May 18",
+        "end": "Feb 20",
+        "method": "date_regex+title_dict",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 17.9,
+      "total_months": 215,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.75
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Education – BE (E&TC), MBA (Telecom Management)",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "E&TC",
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "ASSOCIATE",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Solutions | Telecom Wired and Wireless | Customer Satisfaction",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Managing end-to-end service delivery & operations for telecom services viz. Unified Communication :",
+      "UCaaS Management tools (VOSS4UC), VOSS Migrate to UC",
+      "Cisco Unified Communication Manager UCM, Migration ongoing to HCS (v14)",
+      "Microsoft Teams, MS Operator Connect, Direct Routing, Microsoft Team Phone Mobile",
+      "Oracle SBC, Global SIP trunking (GSIP)",
+      "Recording solution – Verint , Dubber, Smarsh & Cognia",
+      "Call Tracking Tools – Palladian, VOIP Future, Wireshark",
+      "Manage & Support operation activities for Cisco UCaaS (Unified Communications as a services) over HCS for global",
+      "enterprise customers & Microsoft Unified communication products MS teams, Teams direct routing, MS Operator",
+      "Connect. Currently working as Duty Manager Role to support UC operations, Service Desk and Customer Support",
+      "teams on high priority issues & driving it by maintaining KPI.",
+      "Work directly with Customers, Solution Architects and build engineers to deliver the UC solution offered to",
+      "customer.",
+      "Supported large customer migrations during change window allocated by the customer.",
+      "Responsible for Project Execution, Risk Management, Problem Management, Schedule Planning and Prod",
+      "Deployment•",
+      "Played a lead role in expansion of various projects & new onboarding from Vodafone local markets to _VOIS",
+      "Special focus on automation programs i.e. Zero Touch monitoring for First Level Team. Keep record of existing",
+      "threshold on KPI Alerts & set a new one in Netcool Tool to run automation script to trigger the alarm.",
+      "Prepare major incident report with timelines to discuss further with higher management.",
+      "Handling daily project calls with our Interconnect Partners & Vendors to discuss critical issues.",
+      "Quality check MOPs – Responsible to validate MoPs before implement in Network.",
+      "Network Migration – Involved in core network traffic migration viz. Ericsson TAS to EDEN Application Server, HP",
+      "HSS to Netnumber HSS.",
+      "Managing & supporting Enterprise customer’s issues related to Cisco Call Manager (CUCM), Cisco Unity",
+      "Connection (CUC), Cisco IP Telephony devices, Jabber and Voice gateways remotely.",
+      "Driving Engineering Excellence: Ensured 100% adherence to release commitments, stabilized velocity, and",
+      "optimized epic closure times to 2-3 sprints. Maintained ready-to-develop backlogs for seamless sprint planning.",
+      "Focus on Quality Improvements: Achieved 100% adherence to CFD OLAs, limited regression defects below 5%,",
+      "and sustained open defects under 10, delivering defect-free releases.",
+      "Won multiple project awards in the past decade for",
+      "innovation and excellence",
+      "Appreciated with Rising Star Award-2010 for",
+      "outstanding and dedicated performance in",
+      "completion of MNP testing",
+      "Achieved Employee of the Year award for",
+      "completion of LI testing in LOOP Telecom PAN India",
+      "Reliance Jio"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.77
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[6]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "source_file": "13318db9_fade12ed_CA SHUBHANGINI BANSAL_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:57:57.342565+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Shubhangini Bansal",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "shubhangi28.bansal@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918005950718",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/cashubhanginibansal",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AICPA",
+      "ERP",
+      "Financial Analysis",
+      "Financial Reporting",
+      "Financial Statement Analysis",
+      "GAAP",
+      "IFRS",
+      "Ind AS",
+      "Logistics",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "PCAOB",
+      "Risk Assessment",
+      "SAP",
+      "Statutory Audit",
+      "Substantive Testing",
+      "Trend Analysis",
+      "Working Capital Financing"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "AICPA",
+        "Financial Analysis",
+        "Financial Reporting",
+        "GAAP",
+        "IFRS",
+        "PCAOB",
+        "Statutory Audit",
+        "Substantive Testing"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "finance": [
+        "Financial Statement Analysis",
+        "Ind AS"
+      ],
+      "operations": [
+        "Logistics"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "data_science": [
+        "Trend Analysis"
+      ],
+      "banking": [
+        "Working Capital Financing"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Word→Microsoft Word(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Audit Assistant-II Aug’",
+        "company": "Deloitte US",
+        "location": "USI",
+        "start": "2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 33,
+        "bullets": [
+          "Executed audits for PCAOB and AICPA engagements for U.S. clients across various industries, including energy and consumer sectors, and shipping clients with turnover over $500M.",
+          "Analyzed quarterly 10Q and year-end 10K financial data; investigated significant variances.",
+          "Performed tie-out procedures, reconciling financial statement amounts to supporting work-papers.",
+          "Conducted walkthroughs and documentation of client controls for debt and cash.",
+          "Executed substantive testing on accounts payable, cash, and operating expenses.",
+          "Performed guided risk assessment to address financial statement and account balance assertions.",
+          "Collaborated with the audit team to ensure timely completion of audit assignments.",
+          "Prepared working papers and documentation in accordance with firm standards."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Article Assistant Mar’",
+        "company": "C.P KOTHARI & ASSOCIATES",
+        "location": "CHARTERED ACCOUNTANTS",
+        "start": "2020",
+        "end": "Apr’20",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 4,
+        "bullets": [
+          "Tested Assertions of Account Balances, class of transaction, Presentation and Disclosures.",
+          "Checked compliance of Ind AS 115 (Revenue Recognition) in FMCG, Aviation, and Power sectors.",
+          "Verified Existence, Valuation (Ind AS-2), and ageing of inventory.",
+          "Checked and Verified Related Party Transactions Compliance with Sec 188 of the Companies Act 2013.",
+          "Verified Payroll Records, TDS calculations, Remuneration, Attendance Records, and Related Internal Controls.",
+          "Checked Compliance with CARO and verified CSR Compliance as per Sec 135 and reporting as per Schedule III.",
+          "Checked and Verified Physical Verification of Fixed Assets as per Ind AS-16 and CARO clauses.",
+          "Checked Lease Transaction as per Ind AS-116, including ROU Assets and Lease Liability present value calculations.",
+          "Effectively led and managed a team of 7 articles to ensure timely completion and resolution of queries."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.1,
+      "total_months": 37,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Chartered Accountant",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI Ajmer",
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Commerce",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2018 - 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Higher Secondary Education",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

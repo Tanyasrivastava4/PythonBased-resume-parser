@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "source_file": "458770fc_88adce02_Abhishek.sharma cv_segmented.txt",
+    "generated_at": "2026-09-30T06:58:29.895373+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Abhishek Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "-wwabhishek.sharma96@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7827292966",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To be part of an industrialization team, sharing its Vision, Mission and Value. To grow and\nprosper with the company which encourage new skill acquisition and personal development\nSummary",
+  "skills": {
+    "items": [
+      "Equipment Testing",
+      "Information Collection and Analysis",
+      "Operation Monitoring",
+      "Performance Testing",
+      "Process Improvement",
+      "Product Troubleshooting",
+      "Project Management",
+      "Quality Control",
+      "Quality Management System",
+      "Regulatory Compliance",
+      "Report Writing",
+      "Risk Assessment"
+    ],
+    "by_category": {
+      "engineering": [
+        "Equipment Testing",
+        "Product Troubleshooting",
+        "Quality Control"
+      ],
+      "soft_skill": [
+        "Information Collection and Analysis"
+      ],
+      "operations": [
+        "Operation Monitoring",
+        "Process Improvement",
+        "Quality Management System"
+      ],
+      "testing": [
+        "Performance Testing"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "content": [
+        "Report Writing"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Report writing→Report Writing(100%), Operation monitoring→Operation Monitoring(100%), Risk assessment→Risk Assessment(100%), Project management→Project Management(100%), Equipment testing→Equipment Testing(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Quality Engineer  Motherson sumi system limited",
+        "company": "Responsible for creating and comprehending papers such as PPAP, APQP, FDPR,IATF and 8D reports and Preliminary reports.",
+        "location": "India",
+        "start": "Apr 2018",
+        "end": "Current",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 102,
+        "bullets": [
+          "Being aware of 7QC, 5S, Process Audit, Line Release Audit, and researching Customer Specific Requirements & Its Horizontal Deployment.",
+          "Managing the workforce and offering them assistance with their problems.",
+          "Closely monitored activities to verify that workflows and procedures met safety standards.",
+          "Performed in-depth quality evaluations to see if products fit the high standards of the company.",
+          "Enhanced operational effectiveness via careful observation of team deliverables and the elimination of unproductive procedures.",
+          "Kept track of client reviews and feedback to uncover product defects and enhancements.",
+          "Studied manufacturing from engineering view point to identify problems and potential improvements"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.5,
+      "total_months": 102,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Diploma of Higher Education, Electrical Engineering",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Higher Education",
+        "institution": "IIMT Group of Institute",
+        "year": "2017",
+        "gpa": "60.40%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th, Science 2015",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Karl Huber School UP Board",
+        "year": "2015",
+        "gpa": "58.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "10th, 2012",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "City Public School CBSE",
+        "year": "2012",
+        "gpa": "70.12%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

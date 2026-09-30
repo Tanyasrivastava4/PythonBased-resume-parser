@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "source_file": "fd265db9_2e6b2049_Project Summary (1)_segmented.txt",
+    "generated_at": "2026-09-30T07:00:53.627822+00:00",
+    "sections_found": [
+      "header"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Dispatch Cycle Time",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Data Pipeline",
+      "Data Preprocessing",
+      "Demand Forecasting",
+      "ERP",
+      "ERP Systems",
+      "Feature Engineering",
+      "Operations Management",
+      "Predictive Analytics",
+      "Procurement",
+      "Prophet",
+      "Python",
+      "Random Forest",
+      "SAP",
+      "Time Series Forecasting",
+      "Working Capital Financing",
+      "XGBoost"
+    ],
+    "by_category": {
+      "data_engineering": [
+        "Data Pipeline",
+        "Data Preprocessing"
+      ],
+      "data_science": [
+        "Demand Forecasting",
+        "Feature Engineering",
+        "Predictive Analytics"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "operations": [
+        "ERP Systems",
+        "Operations Management",
+        "Procurement"
+      ],
+      "software": [
+        "Prophet"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "ai_ml": [
+        "Random Forest",
+        "Time Series Forecasting",
+        "XGBoost"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "banking": [
+        "Working Capital Financing"
+      ]
+    },
+    "_confidence": 0.75,
+    "_method": "flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.82
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    }
+  ]
+}

@@ -45,6 +45,11 @@ FUZZY_SKIP_TOKENS = {
     "implementation", "optimization", "optimisation", "engagement",
     "acquisition", "retention", "leadership", "collaboration",
     "networking", "forecasting", "budgeting", "scheduling",
+    "convert", "converting", "building", "driving", "delivering",
+    "optimizing", "performing", "managing", "leading", "supporting",
+    "ensuring", "creating", "developing", "transforming", "scaling",
+    "active", "reset", "passed", "handling", "handled", "dynamic", "tds",
+    "schedule", "statistic", "min", "testing", "test", "legal"
 }
 
 TOKEN_SPLIT_RE = re.compile(r"[,|•·\n\t/&;()\[\]]+")
@@ -203,7 +208,21 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
     found_skills  = set()
     methods_used  = []
 
-    skills_text = sections.get("skills", "") or ""
+    edu_sec = sections.get("education", "") or ""
+    tech_forte = ""
+    if any(kw in edu_sec for kw in ("TECHNICAL FORTE", "TECHNICAL SKILLS", "CORE COMPETENCIES", "SKILLS & TOOLS")):
+        tech_forte = edu_sec
+
+    has_skills_sec = bool((sections.get("skills") or "").strip())
+    exp_sec = (sections.get("experience", "") or "") if not has_skills_sec else ""
+
+    skills_text = " ".join([
+        sections.get("skills", "") or "",
+        sections.get("certifications", "") or "",
+        sections.get("summary", "") or "",
+        tech_forte,
+        exp_sec
+    ])
     skills_text = skills_text.replace("\n", " ")
     skills_text = " ".join(skills_text.split())
 
@@ -213,8 +232,16 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
             found_skills.update(matches)
             methods_used.append("flashtext_skills_section")
 
-    if skills_text.strip():
-        tokens     = _tokenize_for_fuzzy(skills_text)
+    fuzzy_text = " ".join([
+        sections.get("skills", "") or "",
+        sections.get("certifications", "") or "",
+        sections.get("summary", "") or "",
+        tech_forte
+    ])
+    fuzzy_text = " ".join(fuzzy_text.replace("\n", " ").split())
+
+    if fuzzy_text.strip():
+        tokens     = _tokenize_for_fuzzy(fuzzy_text)
         fuzzy_hits = []
 
         for token in tokens:

@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "source_file": "d4b4fff9_876682ca_Naukri_SatyavratSavarn[10y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:27.688782+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Satyavrat Savarn",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "satyavratsavarn0os5@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8291277280",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "E.in",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Oracle Cloud ERP Lead Consultant with 9+ years of experience delivering Oracle Cloud Financials, Procurement and\nSCM implementations. Demonstrated strength in solution design, integration, and stakeholder management.\nProven success leading UAT, Go-Live, and Hypercare phases onsite, ensuring seamless transitions and business\nreadiness for global ERP clients.",
+  "skills": {
+    "items": [
+      "Active Directory",
+      "Cross-functional Collaboration",
+      "ERP",
+      "General Ledger",
+      "Generative AI",
+      "Go",
+      "Leadership",
+      "Mentoring",
+      "Microsoft Teams",
+      "Operations Management",
+      "Oracle Fusion Cloud",
+      "Oracle Integration Cloud",
+      "Order-to-Cash",
+      "PL/SQL",
+      "Payments",
+      "Problem Solving",
+      "Procure-to-Pay",
+      "Procurement",
+      "Report Writing",
+      "Reporting",
+      "Solution Design",
+      "Stakeholder Management",
+      "Supply Chain",
+      "Supply Chain Management",
+      "Trial Balance",
+      "UAT"
+    ],
+    "by_category": {
+      "security_ops": [
+        "Active Directory"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring",
+        "Problem Solving",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "accounting": [
+        "General Ledger"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
+      "programming_language": [
+        "Go"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Operations Management",
+        "Procurement",
+        "Supply Chain Management"
+      ],
+      "oracle_erp": [
+        "Oracle Fusion Cloud",
+        "Oracle Integration Cloud"
+      ],
+      "finance": [
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Trial Balance"
+      ],
+      "database": [
+        "PL/SQL"
+      ],
+      "domain": [
+        "Payments",
+        "Supply Chain"
+      ],
+      "content": [
+        "Report Writing"
+      ],
+      "architecture": [
+        "Solution Design"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Cross-Functional→Cross-functional Collaboration(100%), Procurement.→Procurement(96%), teams→Microsoft Teams(100%), mentoring→Mentoring(100%), teams→Microsoft Teams(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Associate",
+        "company": "Career Progression PwC AC— Mumbai",
+        "location": null,
+        "start": "Jun 2021",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 64,
+        "bullets": [
+          "Capgemini Technology Services Pune | Consultant | Jan 2021 May 2021 e"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Consultant",
+        "company": "Deloitte Consulting Mumbai",
+        "location": null,
+        "start": "Jul 2018",
+        "end": "Jan 2021",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 31,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Engineer",
+        "company": "L&T Infotech Mumbai",
+        "location": "Software",
+        "start": "Jun 2016",
+        "end": "Jun 2018",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 10.0,
+      "total_months": 120,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Oracle Cloud Infrastructure  Certified Application Integration Professional",
+        "issuer": "Oracle",
+        "year": "2024",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle Cloud Infrastructure  Generative Al Certified Professional",
+        "issuer": "Oracle",
+        "year": "2024",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle Cloud Fusion Analytics Warehouse  Implementation Professional",
+        "issuer": "Oracle",
+        "year": "2023",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle Cloud Platform Application Integration  Certified Professional",
+        "issuer": "Oracle",
+        "year": "2022",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle Cloud Platform Application Development  Certified Specialist",
+        "issuer": "Oracle",
+        "year": "2021",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle Cloud Platform Application Integration  Specialist",
+        "issuer": "Oracle",
+        "year": "2021",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Oracle Cloud Infrastructure (OCI) Foundations  Certified Associate",
+        "issuer": "Oracle",
+        "year": "2021",
+        "confidence": 0.95,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "achievements": {
+    "items": [
+      "Received multiple client appreciation from Comcast, Ametrias, Markel project & Onsite counterparts in",
+      "Recognized twice with Applause Award in FY for two different projects in Deloitte."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

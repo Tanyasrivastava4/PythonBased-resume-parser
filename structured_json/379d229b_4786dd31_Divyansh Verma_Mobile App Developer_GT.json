@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "source_file": "379d229b_4786dd31_Divyansh Verma_Mobile App Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:58:16.472901+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "divyanshverma9352@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9672135049 / 8000978903",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/divyansh-verma-b27415167",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/store/search",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Highly skilled Flutter developer with over 4 years of experience in designing, developing, and maintaining mobile\napplications for both Android and iOS platforms. Proficient in the Dart programming language and experienced in building\nresponsive and adaptive UI components using Flutter framework. Strong understanding of clean architecture principles and\nfamiliarity with CI/CD pipelines for mobile app deployment. Proven ability to collaborate effectively with cross-functional\nteams and deliver high-quality software solutions within tight deadlines.",
+  "skills": {
+    "items": [
+      "Agile",
+      "Android",
+      "Bloc",
+      "CI/CD",
+      "Clean Architecture",
+      "Communication",
+      "Cross-functional Collaboration",
+      "Cryptography",
+      "Dart",
+      "Firebase",
+      "Flutter",
+      "GetX",
+      "Git",
+      "Kotlin",
+      "Microsoft Teams",
+      "REST",
+      "SQLite",
+      "State Management",
+      "iOS"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile"
+      ],
+      "mobile": [
+        "Android",
+        "Bloc",
+        "Flutter",
+        "GetX",
+        "iOS"
+      ],
+      "devops": [
+        "CI/CD"
+      ],
+      "architecture": [
+        "Clean Architecture",
+        "State Management"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Cross-functional Collaboration"
+      ],
+      "security_ops": [
+        "Cryptography"
+      ],
+      "programming_language": [
+        "Dart",
+        "Kotlin"
+      ],
+      "database": [
+        "Firebase",
+        "SQLite"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(BloC→Bloc(100%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Engineer",
+        "company": "IDEMIA",
+        "location": null,
+        "start": "Jan 2023",
+        "end": "Present",
+        "method": "date_regex+title_dash_company",
+        "duration_months": 45,
+        "bullets": [
+          "IDEMIA is a global leader in biometrics, cryptography, and secure transactions, serving over 600+ government agencies and 2,400 enterprises in 180+ countries.",
+          "At IDEMIA, I contributed to the development of secure authentication systems across three mobile applications, implementing advanced biometric solutions including face capture, fingerprint capture (POC), and scan the project"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Flutter Developer",
+        "company": "using sonarqube",
+        "location": null,
+        "start": "Nov 2021",
+        "end": "Dec 2022",
+        "method": "date_regex",
+        "duration_months": 14,
+        "bullets": [
+          "Flutter Developer - Tekniko Global Private Limited Tekniko Global is a leading app development company delivering custom mobile and web solutions for startups and enterprises across domains like education, vehicle service, e-commerce, etc."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "MediaCity Tech Corporation",
+        "location": null,
+        "start": "Feb 2020",
+        "end": "Aug 2020",
+        "method": "date_regex+title_dash_company",
+        "duration_months": 7,
+        "bullets": [
+          "At Media City, I contributed as a Flutter intern, gaining hands-on experience in Flutter and Dart.",
+          "Focused primarily on enhancing UI development skills while contributing to real-world Flutter apps.",
+          "Designed and refined responsive, interactive UI components for e-learning and restaurant application.",
+          "Assisted in RESTful API integration and basic state management using GetX.",
+          "Supported debugging and performance improvements for smooth app rendering."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "M.L.V. Textile & Engineering College",
+        "location": null,
+        "start": "Aug 2017",
+        "end": "Sept 2021",
+        "method": "date_regex+inherited_role",
+        "duration_months": 50,
+        "bullets": [],
+        "sub_sections": [
+          "M.L.V. Textile & Engineering College, Bhilwara",
+          "Flutter Application for Android and IOS - Udemy"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.1,
+      "total_months": 109,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

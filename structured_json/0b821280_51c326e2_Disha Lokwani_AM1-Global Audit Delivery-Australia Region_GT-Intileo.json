@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "source_file": "0b821280_51c326e2_Disha Lokwani_AM1-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:51.154263+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Disha Lokwani Ca",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "lokwani.disha@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "0449191019",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Accounting",
+      "Audit & Compliance",
+      "Financial Reporting",
+      "IFRS",
+      "Microsoft Excel",
+      "Power Query",
+      "Stakeholder Management",
+      "Variance Analysis"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Financial Reporting",
+        "IFRS"
+      ],
+      "domain": [
+        "Audit & Compliance"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "data_science": [
+        "Power Query"
+      ],
+      "soft_skill": [
+        "Stakeholder Management"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(General Ledger→Accounting(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "(ASX Listed) – Sydney, Australia Property / Financial Accountant",
+        "company": "Goodman Group",
+        "location": "Sydney, Australia Property / Financial Accountant",
+        "start": "May 2025",
+        "end": "Nov 2025",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 7,
+        "bullets": [
+          "Contract role within an ASX-listed global property group managing over $6B+ in real estate assets, supporting financial reporting and property accounting across commercial property portfolios.",
+          "Prepared month-end accounting including journals, fee calculations, invoices, reconciliations and supplier payment coding.",
+          "Produced monthly and quarterly management reporting and financial analysis.",
+          "Worked closely with Investment Management, Treasury and Development teams.",
+          "Managed full-function property accounting including lease setup and reconciliation of net property income.",
+          "Liaised with Property Management teams to resolve operational and financial queries.",
+          "Prepared bank reconciliations and receipting of tenant payments.",
+          "Monitored arrears and supported weekly payment run processes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sydney, Australia Senior Group Financial Accountant",
+        "company": "Rent A Space",
+        "location": "Sydney, Australia Senior Group Financial Accountant",
+        "start": "Aug 2023",
+        "end": "Apr 2025",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 21,
+        "bullets": [
+          "Group accounting role supporting a multi-entity storage group operating across 17 locations.",
+          "Prepared quarterly and annual financial statements including variance analysis for senior management.",
+          "Managed month-end close including journal postings, reconciliations and general ledger maintenance.",
+          "Prepared BAS returns and annual Fringe Benefits Tax returns.",
+          "Prepared covenant compliance reporting for NAB.",
+          "Conducted operational reviews across 17 sites to strengthen financial controls.",
+          "Liaised with external auditors and tax advisors during audit processes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sydney, Australia Senior Auditor",
+        "company": "Nexia Australia",
+        "location": "Sydney, Australia Senior Auditor",
+        "start": "Sept 2021",
+        "end": "July 2023",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 23,
+        "bullets": [
+          "Conducted external audits in accordance with Australian Accounting Standards and IFRS.",
+          "Led audit planning including materiality assessments, engagement budgets and analytical procedures.",
+          "Performed risk assessment procedures and designed audit testing approaches.",
+          "Drafted reports to those charged with governance outlining audit findings and internal control issues."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sydney, Australia Audit Associate",
+        "company": "Findex",
+        "location": "Sydney, Australia Audit Associate",
+        "start": "May 2019",
+        "end": "Aug 2021",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 28,
+        "bullets": [
+          "Audited key financial statement line items including revenue, expenses, inventory and fixed assets.",
+          "Supported implementation of AASB 15 and AASB 16 accounting standards.",
+          "Performed walkthroughs and internal control testing to understand business processes.",
+          "Conducted inventory stocktakes and detailed fixed asset testing."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.6,
+      "total_months": 79,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Chartered Accountant (CA ANZ) – Completed October 2022",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": "CA ANZ",
+        "institution": "Western Sydney University",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "source_file": "eb26169b_Aryan Yadav_MERN Stack Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:39.988421+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aryan Yadav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "aryanqt22@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7007782618",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/signup",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Aryanyadav011",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "linkedin.com/in//aryan-yadav0",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Full-Stack MERN Developer with 1 year of hands-\non experience building scalable web applications\nand RESTful APIs. Strong expertise in React.js,\nNext.js, Node.js, Express.js, and MongoDB, with\na focus on performance optimization, clean archi-\ntecture, and delivering user-centric solutions.",
+  "skills": {
+    "items": [
+      "AWS EC2",
+      "AWS S3",
+      "Clean Architecture",
+      "ES6+",
+      "Express.js",
+      "Git",
+      "JavaScript",
+      "Jira",
+      "MERN Stack",
+      "MongoDB",
+      "Next.js",
+      "Node.js",
+      "Performance Optimization",
+      "Postman",
+      "REST",
+      "REST API",
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "TypeScript",
+      "VS Code"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS EC2",
+        "AWS S3"
+      ],
+      "architecture": [
+        "Clean Architecture"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "web_framework": [
+        "Express.js",
+        "MERN Stack",
+        "Next.js",
+        "Node.js",
+        "REST API",
+        "React",
+        "Redux",
+        "Tailwind CSS"
+      ],
+      "dev_tool": [
+        "Git",
+        "Performance Optimization",
+        "Postman",
+        "VS Code"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "database": [
+        "MongoDB"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(React.js→React(100%), Tailwind→Tailwind CSS(100%), JIRA→Jira(100%), MERN→MERN Stack(100%), React.js→React(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Developer",
+        "company": "Smartest Software Solutions LLP z",
+        "location": null,
+        "start": "Nov 2024",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 23,
+        "bullets": [
+          "Noida, India",
+          "Developing and maintaining scalable web applications using the MERN Stack (MongoDB, Express.js, React.js, Node.js).",
+          "Implemented core features including authentication (JWT), login/signup, file uploads, role-based access control, search, sorting, pagination, and third-party integrations for payments and emails.",
+          "Built end-to-end frontend and backend systems, integrating responsive UIs with secure and scalable RESTful APIs.",
+          "Designed and optimized backend architecture, improving database per- formance through efficient MongoDB schema design and query opti- mization."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.9,
+      "total_months": 23,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Intermediate",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "High School",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

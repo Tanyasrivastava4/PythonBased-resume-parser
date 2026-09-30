@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "source_file": "03c0e4df_101a82dc_Anoop Yadav_PHP Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:45.755931+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anoop Kumar Yadav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "eranoop8795@gmait.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "1918795011029",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/anoop-kumar-vadav-753b00255",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AJAX",
+      "API Design",
+      "Bootstrap",
+      "CSS3",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "Laravel",
+      "MySQL",
+      "PHP",
+      "REST",
+      "REST API",
+      "React",
+      "Redux",
+      "jQuery"
+    ],
+    "by_category": {
+      "web_framework": [
+        "AJAX",
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "Laravel",
+        "REST API",
+        "React",
+        "Redux",
+        "jQuery"
+      ],
+      "architecture": [
+        "API Design"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP"
+      ],
+      "database": [
+        "MySQL"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(React js→React(100%), REST→REST(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Engineer",
+        "company": "—> Worked on 10+ enhancement/maintenance projects improving performance & UI/UX.",
+        "location": "Singsys, Lucknow",
+        "start": "Feb 2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 32,
+        "bullets": [
+          " Created REST APIs, Admin Panels, Dashboards & reusable modules.",
+          " Led 3+ individual end-to-end projects (development deployment).",
+          " Prepared scalable backend architecture & optimized SQL operations. ‘* Software Engineer Angel Pearl Infotech, Rajkot (Gujarat) Sep 2022 Feb 2024 — - Built and maintained Laravel-based web applications. © Developed secure API systems for web & mobile integration,",
+          " Worked on feature updates, bug fixing & production enhancements.",
+          "",
+          " — Next.js customer platform built with Laravel API integration & chat feature implementation",
+          "SetSum Singsys — Developed REST APIs & admin functionality using Laravel",
+          "Stevie Wash Singsys — Developed Admin Panel & API architecture for service management system.",
+          " — Full web application using Laravel Admin Panel + Marketing Website + API Communication.",
+          " Awarded Best Employee for successful and timely delivery.",
+          "",
+          " React-based frontend + Laravel backend & API integration for dynamic dashboard."
+        ],
+        "sub_sections": [
+          "</> PROJECTS (All Included Requested)",
+          "as",
+          "Maskmann Singsys",
+          "—",
+          "Built a dual-platform (Client & Expert) web application using Laravel and React.js, with RESTful API integration.",
+          "Corporate Supplier (Avon) Singsys",
+          "EmpowerEd Singsys",
+          "©",
+          "—",
+          "Created REST APIs & Admin Panel for internal product management in Laravel.",
+          "Atesplore Singsys",
+          "Shivam Yoga Singsys"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.7,
+      "total_months": 32,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Diploma in Computer Science & Engineering",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Computer Science & Engineering",
+        "institution": "Feroze Gandhi Polytechnic Raebareli",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Intermediate (12th Grade)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "V.LC. Inter College Raebareli",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "High School (10th Grade)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "S.N.V.M. School Raebareli",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

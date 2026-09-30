@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "source_file": "b70bb813_249ced7e_Naukri_RituVerma[11y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:08.371373+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Contact Me",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rituvrm86@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9358955706",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Analyze",
+      "Cash Flow Management",
+      "Client Relationship Management",
+      "Communication",
+      "Cost Analysis",
+      "Data Management",
+      "Disaster Recovery",
+      "Employee Engagement",
+      "MIS Reporting",
+      "Mechanical Engineering",
+      "Negotiation",
+      "Onboarding",
+      "Payments",
+      "Payroll Administration",
+      "Procurement",
+      "Real Estate Valuation",
+      "Recruitment",
+      "SAP",
+      "Stakeholder Management",
+      "Turnaround Time",
+      "Vendor Management"
+    ],
+    "by_category": {
+      "data_science": [
+        "Analyze"
+      ],
+      "finance_ops": [
+        "Cash Flow Management",
+        "Cost Analysis"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Negotiation",
+        "Stakeholder Management"
+      ],
+      "productivity": [
+        "Data Management"
+      ],
+      "operations": [
+        "Disaster Recovery",
+        "Procurement",
+        "Vendor Management"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "Onboarding",
+        "Payroll Administration",
+        "Recruitment"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "real_estate": [
+        "Real Estate Valuation"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "management": [
+        "Turnaround Time"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Executive",
+        "company": "Work Experience",
+        "location": "Bonanza Portfolio Ltd",
+        "start": "12-April 2022",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 54,
+        "bullets": [
+          "Interaction with all HODs at Pan India Level for Recruitment Process.",
+          "Understanding business needs on Manpower Requirement.",
+          "Facilitating clear communication on updation of Manpower Recruitment. 4) Coordinating with Vendors/Consultants for Hiring Related activity.",
+          "PMS (Goal Setting, Confirmation, Annual Appraisal, Prepared Appraisal File) all process were followed as per Timeline.",
+          "Handing complete life cycle of recruitment process from Sourcing, Initial Screening, Virtual/Telephonic Interviewing Analysis, Face-to-Face Interview process and co-ordination with candidates till they join the company. Looking after various job posts all over India, different levels including Head Hunting.",
+          "Expertise in the areas of Screening, Sourcing, Interviewing, Recruiting, Contract Recruitment, Salary Negotiation, Vendor Management.",
+          "Scrutinizing and Short listing profiles based on skills, domain, qualifications and relevant experience.",
+          "Posting the requirements in different job portals, downloading resumes.",
+          "Informing candidates about the opening, explaining them the job profile and company details.",
+          "Handling a Team of 5 employees in Human Resource Team.",
+          "Updating Recruitment related data on daily base.",
+          "Handling Employee Documentation, Salary Negotiation, Employee Onboarding. 2) Preparing Offer letters, Appointment letters, Joining formalities and employment terms & conditions.",
+          "Processing Probation, Confirmation, Extension, Transfer and Termination papers of the employees in the system.",
+          "Maintaining attendance and leave records, coordinating with employees to solve their queries.",
+          "Providing pilot induction to new incumbents.",
+          "Handling Employee Grievances by understanding employee concerns, escalate to appropriate levels, and ensure resolution of the concern.",
+          "Organize employee engagement activities.",
+          "Facilitating the resignation formalities to the employees."
+        ],
+        "sub_sections": [
+          "Recruitment",
+          "Employee Engagement and Operational Activities",
+          "Address: Global city, Virar West"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Torrent Power Ltd",
+        "location": null,
+        "start": "16th Sept 2012",
+        "end": "15th Nov 2016",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 50,
+        "bullets": [
+          "Coordinating with technical departments across the cities (Agra, Bhiwandi) Keeping proper follow up appointments.",
+          "Executing and updating the data in System Software like; SAP Keep accurate records of monthly and annual figures on a computer database.",
+          "Preparing reports for technical team performance analysis as well as Maintain MIS for management review."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Designation (A): Assistant in Finance Department: Finance & Accountants",
+        "company": "Torrent Power Pvt. Ltd",
+        "location": null,
+        "start": "Sept. 2009",
+        "end": "12th Sep. 2012",
+        "method": "date_regex+date_prefix_title+subfield_label_company",
+        "duration_months": 37,
+        "bullets": [
+          "Coordinating with Finance & operation departments across the city. Operation Process - Developing process for data management for various verticals like- Finance, Cash Management, Job costing, Vendor data, petty cash. Finance Management-Actively Involved in the entire Cash management which included the backend development. Handled the petty cash for the finance department for day to day work and analyzed department costing. MIS Reports – developing various reports for analysis of performance of sales team quarterly, sales report, lead performance report, sales incentive report. Analyze business information to identify process improvements for increasing business efficiency and effectiveness. Ensure that sales invoices are raised on time and payments are receive with regular follow up. Managing the Lead Management System. Ensuring proper and timely allocation of Leads to the sales team. Implementation & training given to sales team for Sales CRM.",
+          "Organizing Training of various departments including internal and external training.",
+          "Coordinating On the job trainings’ and other events"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.8,
+      "total_months": 141,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.com(Bachelor)\tDr. Bhim Rao Ambedkar University , Agra\t2005-07\tAgra University",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "Bachelor",
+        "institution": "Bachelor Dr. Bhim Rao Ambedkar University Agra",
+        "year": "2005",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HSC\tS. S. D.Girls Inter College, Agra\t2003-04\tU.P.Board",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "S. S. D.Girls Inter College Agra",
+        "year": "2003",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SSC\tS. S. D.Girls Inter College, Agra\t2001-02\tU.P.Board",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "S. S. D.Girls Inter College Agra",
+        "year": "2001",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

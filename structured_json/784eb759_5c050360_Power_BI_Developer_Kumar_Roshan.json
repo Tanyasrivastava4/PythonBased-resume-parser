@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "source_file": "784eb759_5c050360_Power_BI_Developer_Kumar_Roshan_segmented.txt",
+    "generated_at": "2026-09-30T06:59:21.166733+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Kumar Roshan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "kumar97roshan@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8936827737",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/kumar97roshan",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/kumar97roshan",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Power BI Developer & Data Analyst with 5+ years of experience delivering enterprise-grade BI\nsolutions across logistics, shipping, and e-commerce domains. Expert in Advanced DAX, Power Query (M), Semantic Data\nModeling, Microsoft Fabric (Lakehouse/Dataflow Gen2), Row-Level Security, and Power BI Service & Gateway\nmanagement. Proven track record of reducing dashboard refresh times by 40%, saving 15+ hours/week of\nmanual reporting, and connecting Power BI to diverse data sources including SQL databases, APIs, and cloud services\nfor real-time analytics. Adept at Azure-based data services, ETL pipeline design, SQL, and cross-functional stakeholder\nmanagement. Seeking a challenging Power BI / BI Developer role to deliver scalable, high-impact analytics solutions.",
+  "skills": {
+    "items": [
+      "Apache Spark",
+      "Azure",
+      "Claude",
+      "Cross-functional Collaboration",
+      "DAX",
+      "Data Analytics",
+      "Data Cleaning",
+      "Data Modeling",
+      "Data Visualization",
+      "Databricks",
+      "Dataflow",
+      "E-commerce",
+      "ETL",
+      "GPT",
+      "Gemini",
+      "GitHub",
+      "GitHub Copilot",
+      "Google",
+      "Jira",
+      "Logistics",
+      "Microsoft Azure Data Factory",
+      "Microsoft Excel",
+      "Microsoft Power Automate",
+      "MySQL",
+      "Performance Optimization",
+      "Power BI",
+      "Power Platform",
+      "Power Query",
+      "Query Optimization",
+      "Reporting",
+      "Row Level Security",
+      "SQL",
+      "SSMS",
+      "Semantic Modeling",
+      "SharePoint",
+      "Stakeholder Management",
+      "Synapse Analytics",
+      "UAT"
+    ],
+    "by_category": {
+      "data_engineering": [
+        "Apache Spark",
+        "Data Cleaning",
+        "Databricks",
+        "ETL"
+      ],
+      "cloud_infra": [
+        "Azure",
+        "Dataflow",
+        "Microsoft Azure Data Factory",
+        "Synapse Analytics"
+      ],
+      "genai": [
+        "Claude",
+        "Gemini",
+        "GitHub Copilot"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "data_science": [
+        "DAX",
+        "Data Analytics",
+        "Data Modeling",
+        "Data Visualization",
+        "Power BI",
+        "Power Query",
+        "Row Level Security",
+        "Semantic Modeling"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "ai_ml": [
+        "GPT"
+      ],
+      "dev_tool": [
+        "GitHub",
+        "Performance Optimization",
+        "SSMS"
+      ],
+      "database": [
+        "Google",
+        "MySQL",
+        "Query Optimization",
+        "SQL"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "operations": [
+        "Logistics"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "rpa": [
+        "Microsoft Power Automate"
+      ],
+      "low_code": [
+        "Power Platform"
+      ],
+      "integration": [
+        "SharePoint"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Performance Tuning→Performance Optimization(100%), Azure Synapse→Synapse Analytics(100%), Excel→Microsoft Excel(100%), ChatGPT→GPT(100%), logistics→Logistics(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Data Analyst-Power BI Developer",
+        "company": "Mumbai (Remote",
+        "location": null,
+        "start": "Jul 2025",
+        "end": "Aug 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 2,
+        "bullets": [
+          "Designed and delivered end-to-end restaurant analytics solution — from requirement gathering to data modeling and dashboard deployment with version control in Power BI Service.",
+          "Transformed Excel-based reporting into interactive Power BI dashboards; connected Power BI to REST APIs and web-based data sources for real-time data ingestion.",
+          "Configured Power BI Gateway for secure data refresh, improving outlet performance visibility.",
+          "Optimized data models using DAX and Power Query, improving report performance and forecast data accuracy."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Data Analyst",
+        "company": "Oversaw BI project timelines, translated business requirements into technical specifications, and ensured on-time delivery using Agile/Jira.",
+        "location": null,
+        "start": "Aug 2022",
+        "end": "Jul 2025",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 36,
+        "bullets": [
+          "Designed and maintained 20+ enterprise Power BI dashboards supporting logistics & shipping operations; administered all reports via Power BI Service workspace.",
+          "Architected optimized semantic data models and ETL pipelines using Advanced DAX & Power Query (M), reducing dashboard refresh times by 40%.",
+          "Implemented RLS, Power BI Gateway configurations, and workspace access controls to ensure data governance for sensitive shipping datasets.",
+          "Built Power Automate workflows for reporting automation and alert orchestration, saving 15+ hours of manual effort per week.",
+          "Wrote complex SQL queries for data extraction and validation across MySQL databases to support pipeline and reporting needs."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Marketing & BI Analyst",
+        "company": "Virohaa Internet Media",
+        "location": null,
+        "start": "Jan 2021",
+        "end": "Jul 2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 19,
+        "bullets": [
+          "Developed Power BI dashboards tracking marketing KPIs, campaign performance, and business growth metrics for 5+ clients monthly.",
+          "Analyzed customer and campaign datasets to identify ROI optimization opportunities; reduced reporting time by ∼30% via Power BI and Dataflows.",
+          "Maintained technical documentation for data models, DAX logic, and dashboard design standards."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Social Media & Data Analyst",
+        "company": "Cariva Technologies",
+        "location": null,
+        "start": "Jun 2020",
+        "end": "Dec 2020",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 7,
+        "bullets": [
+          "Handled social media analytics for multiple clients; built Power BI visuals and automated engagement trend reporting.",
+          "Leveraged Advanced Excel (pivot tables, VLOOKUP, Power Pivot) for pre-migration reporting and ad hoc analysis."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Analyst Intern",
+        "company": "DMA India",
+        "location": null,
+        "start": "Jan 2020",
+        "end": "Apr 2020",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 4,
+        "bullets": [
+          "Supported client analytics and contributed to foundational BI reporting and data visualization workflows."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.6,
+      "total_months": 67,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech — Computer Science Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Swami Vivekananda Institute of Engineering &",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Data Analytics Bootcamp 4.0 | Code-Basics",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "May",
+        "issuer": null,
+        "year": "2025",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Microsoft Fabric — Advanced Scenarios",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Ongoing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "EXL-Certified BI Developer | EXL",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Feb",
+        "issuer": null,
+        "year": "2022",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "SQL Intermediate",
+        "issuer": "HackerRank",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Jun",
+        "issuer": null,
+        "year": "2022",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Google Data Analytics Professional",
+        "issuer": "Coursera",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Jun",
+        "issuer": null,
+        "year": "2021",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Power Platform — Automate, Pages, Apps, SharePoint",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Ongoing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Data Engineering — Foundational | Databricks & Spark",
+        "issuer": "Databricks",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Ongoing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.71
+  },
+  "achievements": {
+    "items": [
+      "R&R Award — Employee of the Quarter (Q2 & Q4), S5 Agency World India Limited",
+      "Reduced dashboard refresh time by 40% via DAX & Power Query optimization",
+      "Saved 15+ hours/week via Power Automate workflows for shipping reporting at S5",
+      "Redesigned 30–40 client dashboards at S5, improving data accuracy & UX",
+      "https://linkedin.com/in/kumar97roshan",
+      "https://github.com/kumar97roshan",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.71,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[13]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

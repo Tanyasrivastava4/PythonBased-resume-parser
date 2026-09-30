@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "source_file": "b105f152_cd3fe690_Anmolpreet Singh_Investment Analytics_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:05.110991+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anmolpreet Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "singhia.anmol@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8698636902 / 102016-2020",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/anmolpreet-singh",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "Apache Airflow",
+      "BigQuery",
+      "Elasticsearch",
+      "FastAPI",
+      "GCS",
+      "Hugging Face",
+      "LinkedIn",
+      "Machine Learning",
+      "MongoDB",
+      "NLP",
+      "Pandas",
+      "PostgreSQL",
+      "Python",
+      "Redis",
+      "Redshift",
+      "SQL",
+      "SQLite",
+      "Snowflake",
+      "Streamlit",
+      "Terraform"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "GCS"
+      ],
+      "data_engineering": [
+        "Apache Airflow"
+      ],
+      "database": [
+        "BigQuery",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis",
+        "Redshift",
+        "SQL",
+        "SQLite",
+        "Snowflake"
+      ],
+      "search": [
+        "Elasticsearch"
+      ],
+      "web_framework": [
+        "FastAPI",
+        "LinkedIn"
+      ],
+      "genai": [
+        "Hugging Face"
+      ],
+      "ai_ml": [
+        "Machine Learning",
+        "NLP",
+        "Pandas"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "dev_tool": [
+        "Streamlit"
+      ],
+      "devops": [
+        "Terraform"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Huggingface→Hugging Face(100%), Airflow→Apache Airflow(100%), Google BigQuery→BigQuery(100%), Sqlite3→SQLite(100%), Opensearch→Elasticsearch(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "SR. AI/DATA ENGINEER | Agnie Consulting",
+        "company": null,
+        "location": "Agnie Consulting (Client: Abcam Limited, UK",
+        "start": "Jan’25",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 21,
+        "bullets": [
+          "Engineered production-grade, multi-tenant AI lead-generation solutions on AWS Fargate using Python, Snowflake and Terraform, reducing onboarding time for global business units by ~75% o Delivered Salesforce-ready data (SFDC) enabling direct lead activation, conversion tracking, and analytics",
+          "Architected and packaged a reusable AI lead scoring framework in Python, exposing a unified interface adopted across multiple AI lead-generation applications o Versioned and distributed via GitLab CI pipelines to enable controlled releases and consistent rollout",
+          "Designed an agentic AI system hosted on MCP server to autonomously discover, qualify, and ingest tender data from external websites using keyword-driven filtering, enabling sales teams to query and derive insights"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "SR. DATA ANALYST | FischerJordan",
+        "company": null,
+        "location": "FischerJordan",
+        "start": "Jan’24",
+        "end": "Dec’24",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 12,
+        "bullets": [
+          "Improved system efficiency by creating pipeline to integrate diverse data sources (CSVs, JSONs, APIs) into BigQuery database with 150M+ rows for real estate enrichment analysis using SQL and Python transformations",
+          "Developed and deployed SaaS solution using AI/LLM techniques to summarize email interaction between users o Implemented a monitoring and caching system, significantly reducing operational AI costs and improving observability and response times for data summarization.",
+          "Created ML-based investment strategy model using 50+ parameters, achieving consistent returns in back test o Implemented robust algorithmic trading code in Python to paper trade the strategy in Indian equity market o Automated tracking dashboard for strategy using Streamlit and Google Sheets to analyse the trades analytics"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| FischerJordan",
+        "company": null,
+        "location": "FischerJordan",
+        "start": "Mar’23",
+        "end": "Jan’24",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 11,
+        "bullets": [
+          "Orchestrated implementation of chatbot leveraging LLMs to streamline interactions with structured data o Developed and curated training datasets to fine-tune OpenAI GPT-3.5 for chatbot’s conversational module o Engineered robust ETL pipelines, transforming data from Redshift SQL to Elasticsearch on AWS infrastructure o Executed RAG model for semantic caching, optimizing data retrieval efficiency and responsiveness in product o Implemented template-based responses & data manipulating techniques, resulting in 6x faster bot response",
+          "Performed historical analysis on algorithmic trading strategies to finetune technical parameters, aiming to enhance annualized returns while minimizing max drawdown for a trading strategy. o Enhanced trading analysis by shifting codebase from Python to C++, reducing the execution time by 80%",
+          "Built API endpoint using social media data integration with robust validation tailored for underwriting purposes o Implemented LLM-based and web scraping frameworks to target incumbent B2B SaaS product services o Constructed a LinkedIn data pipeline with prioritization algorithms for high-profile contact outreach for client",
+          "Organized and led a python training on Linear Regression and Logistic Regression to improve team capabilities"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Suzlon Energy Ltd",
+        "company": "Recognized with an A+ (highest rating), for outstanding performance, being the sole recipient in the joining batch",
+        "location": "Suzlon Energy Ltd",
+        "start": "Sept’21",
+        "end": "Mar’23",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.1,
+      "total_months": 61,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.81
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Technology in Thermal and Fluid Engineering, Department of Mechanical Engineering",
+        "degree_name": "M.Tech",
+        "degree_type": "masters",
+        "degree_field": "Thermal and Fluid Engineering",
+        "institution": "Thermal and Fluid Engineering, Department of Mechanical Engineering, Indian Institute of Technology Bombay",
+        "year": "2020 - 2021",
+        "gpa": "8.39/10",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Technology, Department of Mechanical Engineering, Indian Institute of",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Department of Mechanical Engineering, Indian Institute of",
+        "year": "2016 - 2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

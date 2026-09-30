@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "source_file": "54bd7d35_1ee87e69_Khushi Sahu_UI-UX Deigner_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:41.506210+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+9170424696409 / 7042469640",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Dedicated and creative Ul/UX designer with 2.6 years of experience\ncrafting intuitive and visually appealing digital experiences. Adept at\ntranslating user requirements into seamless and engaging designs.\nSeeking an opportunity to contribute my skills and passion for user-\ncentric design in a dynamic and collaborative environment.",
+  "skills": {
+    "items": [
+      "Adobe Illustrator",
+      "Adobe XD",
+      "Bootstrap",
+      "CSS3",
+      "Canva",
+      "Continuous Improvement",
+      "Cross-functional Collaboration",
+      "Design Thinking",
+      "Electrical Engineering",
+      "Figma",
+      "Graphic Design",
+      "HTML5",
+      "Interaction Design",
+      "JavaScript",
+      "Microsoft Teams",
+      "Prototyping",
+      "Responsive Web Design",
+      "Sketch",
+      "UI Design",
+      "UX Design",
+      "Usability Testing",
+      "User Research",
+      "Wireframing"
+    ],
+    "by_category": {
+      "design": [
+        "Adobe Illustrator",
+        "Adobe XD",
+        "Canva",
+        "Design Thinking",
+        "Figma",
+        "Graphic Design",
+        "Interaction Design",
+        "Prototyping",
+        "Sketch",
+        "UI Design",
+        "UX Design",
+        "Usability Testing",
+        "User Research",
+        "Wireframing"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "Responsive Web Design"
+      ],
+      "operations": [
+        "Continuous Improvement"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "engineering": [
+        "Electrical Engineering"
+      ],
+      "programming_language": [
+        "JavaScript"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assisted senior designers in creating visual assets for marketing",
+        "company": "NIOS e",
+        "location": null,
+        "start": "2021",
+        "end": "2022",
+        "method": "date_regex",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [
+          "NIOS e",
+          "campaigns and product packaging.",
+          "12th",
+          "e"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "INTEGRATED INSTITUTE OF Gained hands-on experience with design software and learned e« TECHNOLOGY industry best practices from experienced professionals.",
+        "location": null,
+        "start": "2018",
+        "end": "2021",
+        "method": "date_regex",
+        "duration_months": 37,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.1,
+      "total_months": 49,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.77
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "10th CBSE",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "S.K.V NITHARI, DELHI CBSE",
+        "year": "2017 - 2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

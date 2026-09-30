@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "source_file": "0fe3954b_2365f2af_Daksh_Khurana_Data_Science_segmented.txt",
+    "generated_at": "2026-09-30T06:57:51.632569+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Daksh Khurana",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "khuranadaksh.dk@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918586870173",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/daksh-khurana-a3618722a",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Data Scientist with over 1.5 years of experience specializing in Generative AI, LLM implementation, and intelli-\ngent automation. Proven expertise in developing RAG-based architectures and deploying machine learning models\nthat achieve 99% data integrity. Adept at leveraging Python, LangChain, and advanced NLP frameworks to solve\ncomplex business problems and optimize model performance for production environments.",
+  "skills": {
+    "items": [
+      "A/B Testing",
+      "AWS Athena",
+      "Azure",
+      "Computer Vision",
+      "Data Science",
+      "GCP",
+      "GPT",
+      "Gemini",
+      "Generative AI",
+      "IntelliJ IDEA",
+      "LLM",
+      "LangChain",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Excel",
+      "NLP",
+      "NumPy",
+      "OpenAI API",
+      "Pandas",
+      "Plotly",
+      "Power BI",
+      "Prompt Engineering",
+      "Python",
+      "RAG",
+      "SQL",
+      "Statistical Analysis",
+      "Tableau",
+      "YOLO",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Power BI",
+        "Statistical Analysis",
+        "Tableau"
+      ],
+      "cloud_infra": [
+        "AWS Athena",
+        "Azure",
+        "GCP"
+      ],
+      "ai_ml": [
+        "Computer Vision",
+        "Data Science",
+        "GPT",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "Plotly",
+        "YOLO",
+        "scikit-learn"
+      ],
+      "genai": [
+        "Gemini",
+        "Generative AI",
+        "LLM",
+        "LangChain",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG"
+      ],
+      "dev_tool": [
+        "IntelliJ IDEA"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(RAG Pipelines.→RAG(92%), Scikit-learn→scikit-learn(100%), Athena→AWS Athena(100%), Statistical Modeling→Statistical Analysis(100%), Excel.→Microsoft Excel(91%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Analyst (Promoted from Associate Analyst",
+        "company": "Info Edge India Ltd. (99acres",
+        "location": null,
+        "start": "Nov 2024",
+        "end": "Feb 2026",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 16,
+        "bullets": [
+          "GenAI and LLM Deployment: Engineered a media screening service using YOLO and GPT-4 to automate data quality filtering, achieving 99% accuracy and enhancing platform integrity.",
+          "Intelligent Automation: Built a tower-level validation service utilizing Gemini AI and rule-based cleaning to resolve data discrepancies and improve contextual accuracy.",
+          "Data Engineering Collaboration: Partnered with engineering teams to manage and preprocess high-volume geospatial datasets, developing Python-based location intelligence services.",
+          "Performance Optimization: Optimized model performance by tracking confusion matrices and AI metrics, providing data-driven technical reports for leadership decision-making."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Student Trainee Intern",
+        "company": "DRDO",
+        "location": null,
+        "start": "Jan 2024",
+        "end": "Jun 2024",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 6,
+        "bullets": [
+          "Statistical Research: Conducted deep-dive analysis on high-dimensionality reliability datasets to identify trends and improve system performance models."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Data Analyst Intern",
+        "company": "Ministry of Heavy Industries (MHI",
+        "location": null,
+        "start": "May 2023",
+        "end": "Jun 2023",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 2,
+        "bullets": [
+          "Quantitative Solution Design: Developed ranking models for government schemes, translating complex policy requirements into manageable analytical frameworks."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.0,
+      "total_months": 24,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Foundational Degree in Data Science and | CGPA: 9/10",
+        "degree_name": "Foundation Degree",
+        "degree_type": "diploma",
+        "degree_field": "Data Science and",
+        "institution": "Indian Institute of Technology (IIT)",
+        "year": "Jan 2023 - Dec 2023",
+        "gpa": "9/10",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Science in Data Analytics | CGPA: 9.1/10",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Data Analytics",
+        "institution": "Delhi Skill and Entrepreneurship University (DSEU)",
+        "year": "Sept 2021 - Jun 2024",
+        "gpa": "9.1/10",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

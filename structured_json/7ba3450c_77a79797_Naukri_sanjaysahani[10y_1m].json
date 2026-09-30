@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "source_file": "7ba3450c_77a79797_Naukri_sanjaysahani[10y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T06:59:24.533522+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sanjay Sahani",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "snjysahani@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9540250250",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "gov.in",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "Apache Kafka",
+      "Burp Suite",
+      "C++",
+      "CSS3",
+      "Docker",
+      "Generative AI",
+      "Git",
+      "HTML5",
+      "Hibernate",
+      "J2EE",
+      "JPA",
+      "Java",
+      "JavaScript",
+      "Kali Linux",
+      "Laravel",
+      "MSSQL",
+      "Machine Learning",
+      "MySQL",
+      "OWASP Top 10",
+      "Ollama",
+      "PHP",
+      "Penetration Testing",
+      "PostgreSQL",
+      "Postman",
+      "Python",
+      "REST API",
+      "React",
+      "SQL",
+      "Spring",
+      "Spring Boot",
+      "Swagger",
+      "TestNG",
+      "TypeScript",
+      "Vector Databases",
+      "jQuery"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "data_engineering": [
+        "Apache Kafka"
+      ],
+      "security_ops": [
+        "Burp Suite",
+        "OWASP Top 10",
+        "Penetration Testing"
+      ],
+      "programming_language": [
+        "C++",
+        "J2EE",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "TypeScript"
+      ],
+      "web_framework": [
+        "CSS3",
+        "HTML5",
+        "Hibernate",
+        "JPA",
+        "Laravel",
+        "REST API",
+        "React",
+        "Spring",
+        "Spring Boot",
+        "jQuery"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "genai": [
+        "Generative AI",
+        "Ollama",
+        "Vector Databases"
+      ],
+      "dev_tool": [
+        "Git",
+        "Postman",
+        "Swagger"
+      ],
+      "testing": [
+        "Kali Linux",
+        "TestNG"
+      ],
+      "database": [
+        "MSSQL",
+        "MySQL",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(JQuery→jQuery(100%), HTML→HTML5(100%), Kafka→Apache Kafka(100%), RESTful API→REST API(100%), Postgresql→PostgreSQL(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Corporate Infotech Pvt. Ltd. Noida, UP Work",
+        "company": "Corporate Infotech Pvt. Ltd. Noida",
+        "location": "UP",
+        "start": "Dec 2023",
+        "end": "Present",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 34,
+        "bullets": [
+          "Projects Link:",
+          "https://ncfl-i4c.mha.gov.in",
+          "https://i4c.mha.gov.in",
+          "https://cybervolunteer.mha.gov.in",
+          "RAG Application chat with documents using Spring AI and Generative AI.",
+          "DSpace - Open Source (Document management systems repository software).",
+          "Moodle – Open Source (Learning management system).",
+          "OSINT tool – using Python (Automation and Scraping).",
+          "Tool use: HTML, CSS, Bootstrap, JavaScript, JQuery, Spring Boot AI, Dot Net, React, Spring Boot, Python, and MS SQL Server, Micro-services, Postman, Swagger."
+        ],
+        "sub_sections": [
+          "Software Developer"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sr. Backend Developer",
+        "company": "Tripat Infoways. Ludhiana",
+        "location": "Punjab",
+        "start": "Feb 2023",
+        "end": "Dec 2023",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 11,
+        "bullets": [
+          "Projects Link:",
+          "https://promptlybyfph.com",
+          "Tool use: HTML, CSS, Bootstrap, JavaScript, JQuery, Java, Spring Boot, React, Swagger, Postman,"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Java Fullstack Developer",
+        "company": "Trixaim Pvt. Ltd. Ludhiana",
+        "location": "Punjab",
+        "start": "Oct 2021",
+        "end": "Jan 2023",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 16,
+        "bullets": [
+          "Projects Link:",
+          "https://shiptrix.in",
+          "https://ecomtrix.com",
+          "https://kayasetu.com",
+          "https://rbwebtel.com",
+          "Tool use: HTML, CSS, Bootstrap, JavaScript, JQuery, Java, Spring Boot, Angular, Swagger, AWS, EC2, and MySQL."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Platinumgate Technologies Pvt. Ltd. Delhi Work",
+        "company": "Platinumgate Technologies Pvt. Ltd. Delhi",
+        "location": null,
+        "start": "May 2018",
+        "end": "Sep 2018",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 5,
+        "bullets": [
+          "Projects Link:",
+          "https://pgtechnos.com",
+          "Web based College ERP on local intranet.",
+          "Tool use: HTML, CSS, Bootstrap, JavaScript, JQuery, and Spring Boot."
+        ],
+        "sub_sections": [
+          "Java Developer"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Weblogix Infotech Pvt. Ltd. Delhi",
+        "location": null,
+        "start": "Oct 2014",
+        "end": "Apr 2018",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 43,
+        "bullets": [
+          "Projects Link:",
+          "https://www.yayathbuildtech.com",
+          "https://www.kiindia.in",
+          "https://deepakindustry.com",
+          "https://dagems.com",
+          "Tool use: HTML, CSS, Bootstrap, JavaScript, JQuery, and Spring Boot."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Assistant Operations",
+        "company": "Delhi Integrated Multi-Modal Transit System Ltd. Delhi",
+        "location": null,
+        "start": "May 2012",
+        "end": "Sep 2014",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 29,
+        "bullets": [
+          "Client Management - Coordination Data Migration Analysis.",
+          "Central Support - On Site and Team Coordination.",
+          "Users training (Govt. Employees, Officers, Consumers).",
+          "Technical Function and Database Support.",
+          "Tool use: Oracle PL/SQL."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.4,
+      "total_months": 137,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.91
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Legislative Law (LLB)",
+        "degree_name": "LLB",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Prof. Rajendra Singh Rajju Bhaiya), University Prayagraj",
+        "year": "2018 - 2021",
+        "gpa": "64.40%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Master of Computer Applications (MCA)",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Guru Jambheshwar UNIVERSITY OF SCIENCE AND TECHNOLOGY Hisar",
+        "year": "2012 - 2015",
+        "gpa": "52.62%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Jamia Hamdard University",
+        "year": "2008 - 2011",
+        "gpa": "67.40%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Ethical Hacking: Ethical Hacking Workshop of Cognizance 2010 IIT Roorkee Conducted in association",
+      "with Innobuzz Knowledge Solutions.",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

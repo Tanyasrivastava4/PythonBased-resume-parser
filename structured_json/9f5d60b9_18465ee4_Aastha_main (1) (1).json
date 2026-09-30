@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "source_file": "9f5d60b9_18465ee4_Aastha_main (1) (1)_segmented.txt",
+    "generated_at": "2026-09-30T06:59:51.907786+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "other",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aastha Gupta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "nancygupta3366@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9870960249",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/aastha-gupta-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Full-Stack Developer skilled in JavaScript, Node.js, and MongoDB, with experience building scalable web applications and RESTful\nAPIs. Adept at optimizing performance, improving user experiences, and collaborating effectively in Agile teams.",
+  "skills": {
+    "items": [
+      "Agile",
+      "Angular",
+      "CSS3",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "Java",
+      "JavaScript",
+      "MERN Stack",
+      "Microsoft Teams",
+      "MongoDB",
+      "MySQL",
+      "NLP",
+      "Node.js",
+      "Performance Optimization",
+      "Postman",
+      "REST",
+      "REST API",
+      "React",
+      "Responsive Web Design",
+      "Scrum",
+      "VS Code"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile",
+        "Scrum"
+      ],
+      "web_framework": [
+        "Angular",
+        "CSS3",
+        "Express.js",
+        "HTML5",
+        "MERN Stack",
+        "Node.js",
+        "REST API",
+        "React",
+        "Responsive Web Design"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Performance Optimization",
+        "Postman",
+        "VS Code"
+      ],
+      "programming_language": [
+        "Java",
+        "JavaScript"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "ai_ml": [
+        "NLP"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTMLS→HTML5(89%), Express js→Express.js(100%), Angular.js→Angular(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Implementation Trainee",
+        "company": "Meritto",
+        "location": null,
+        "start": "Jan 2025",
+        "end": "Nov 2025",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 11,
+        "bullets": [
+          "Built and maintained responsive web applications with JavaScript, HTML, CSS, and Node.js",
+          "Integrated front-end interfaces with RESTful APIs; optimized MongoDB queries for performance.",
+          "Applied NLP techniques to enhance automation and interactivity."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Full-Stack Development Trainee — GLA",
+        "company": "Meritto",
+        "location": "University, Mathura",
+        "start": "Jun 2023",
+        "end": "Jul 2023",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 2,
+        "bullets": [
+          "Designed and deployed JavaScript projects with front-end interactivity and back-end integration.",
+          "Built RESTful APIs and gained hands-on experience with Node.js"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Applied Git version control and Agile practices to track development progress Front-End Development Intern — Code",
+        "company": "Contributed to prototypes by aligning front-end design with back-end requirements.",
+        "location": "Decoder, Noida",
+        "start": "Dec 2022",
+        "end": "Jan 2023",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 2,
+        "bullets": [
+          "Developed reusable, responsive web templates with HTML, CSS, and JavaScript.",
+          "Implemented interactive UI components and resolved cross-browser compatibility issues"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.2,
+      "total_months": 15,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Bachelor of Technology (B.tech) in Computer Science, GLA University, Mathura",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": "Computer Science, GLA University Mathura",
+        "year": "May 2020 - May 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Intermediate, TDS School, Aligarh",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "TDS School Aligarh",
+        "year": "May 2018 - May 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• High School, TDS School, Aligarh",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "TDS School Aligarh Implementation Trainee",
+        "year": "Jan 2025 - Nov 2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      ". Participated in hackathons using technologies such as HTML, CSS, JavaScript, Node.js, Angular, Express.js, and",
+      "MongoDB, React js.",
+      "Languages: English (Fluent), Hindi (Native)",
+      "http://www.linkedin.com/in/aastha-gupta-",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "source_file": "0b69323f_afd69259_Mukul Kanojia_Full Stack Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:51.123034+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mukul Kano Jia",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "mkanojia1996@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9625806286",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/mukul-kanojia-290b681ba",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Mukulkanojia123",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "senraa.com/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "Adobe Photoshop",
+      "CSS3",
+      "Git",
+      "GitHub",
+      "Google Analytics",
+      "HTML5",
+      "Java",
+      "JavaScript",
+      "Linux",
+      "MongoDB",
+      "MySQL",
+      "Node.js",
+      "Postman",
+      "Python",
+      "REST API",
+      "React",
+      "SASS",
+      "Tailwind CSS",
+      "VS Code",
+      "webpack"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2"
+      ],
+      "design": [
+        "Adobe Photoshop"
+      ],
+      "web_framework": [
+        "CSS3",
+        "HTML5",
+        "Node.js",
+        "REST API",
+        "React",
+        "SASS",
+        "Tailwind CSS",
+        "webpack"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code"
+      ],
+      "data_science": [
+        "Google Analytics"
+      ],
+      "programming_language": [
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "os_system": [
+        "Linux"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), Tailwind→Tailwind CSS(100%), Webpack→webpack(100%), RestAPI→REST API(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "BatterSea WebExpert Pvt Ltd",
+        "location": "Job",
+        "start": "Oct 2024",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 24,
+        "bullets": [
+          "Full Stack Developer.",
+          "Gained hands-on experience in HTML, CSS, JavaScript, React, and web tools.",
+          "Improved Business Communication skills."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "SysTools Software Pvt Ltd",
+        "location": null,
+        "start": "Feb 2024",
+        "end": "Sept. 2024",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 8,
+        "bullets": [
+          "Technical Trainee.",
+          "Worked with HTML, CSS, JavaScript, React, and web tools.",
+          "Developed Business Communication skills."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Intern",
+        "company": "Newton School",
+        "location": "Member (Virtual",
+        "start": "Dec. 2022",
+        "end": "Dec. 2023",
+        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "duration_months": 13,
+        "bullets": [
+          "Developed Data Structure and problem-solving skills.",
+          "Technical Stack: HTML, CSS, JavaScript, Java.",
+          "Software Packages: ReactJS.",
+          "Enhanced Business Communication skills."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 45,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Sc. General",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indra Gandhi National Open University",
+        "year": "2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Convent Of Gagan Bharti School (12th)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Convent Of Gagan Bharti School",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Convent Of Gagan Bharti School (10th)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Convent Of Gagan Bharti School",
+        "year": "2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "CodeRush Achieved rank by 263 Newton in CodeRush School organized by Newton School, competing among 12,000+ coders.",
+      "https://github.com/Mukulkanojia123",
+      "https://www.linkedin.com/in/mukul-kanojia-290b681ba/",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

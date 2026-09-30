@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "source_file": "f9d4b69e_f7afc661_Prakhar Srivastava_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:51.516922+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prakhar Srivastava",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "prakharsrivastava80212@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9389182019",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Python Developer with 1+ year of hands-on experience building AI-powered applications using Large\nLanguage Models (LLMs), Retrieval-Augmented Generation (RAG), and Generative AI. Proven expertise in\ndesigning scalable backend systems for intelligent document retrieval, transcript extraction, summarization,\nand conversational AI platforms. Proficient in Python, Django, LangChain, LangGraph, and OpenAI APIs,\nwith a track record of delivering end-to-end AI solutions in fast-paced environments.",
+  "skills": {
+    "items": [
+      "Azure",
+      "BeautifulSoup",
+      "Celery",
+      "ChromaDB",
+      "Django",
+      "Elasticsearch",
+      "FastAPI",
+      "Flask",
+      "Generative AI",
+      "HTML5",
+      "JavaScript",
+      "Keras",
+      "LLM",
+      "LLaMA",
+      "LangChain",
+      "LangGraph",
+      "LlamaIndex",
+      "Machine Learning",
+      "NLP",
+      "NumPy",
+      "OpenAI API",
+      "OpenCV",
+      "PostgreSQL",
+      "Prompt Engineering",
+      "Python",
+      "RAG",
+      "REST API",
+      "React",
+      "Redis",
+      "Semantic Search",
+      "Sentence Transformers",
+      "Tailwind CSS",
+      "TensorFlow",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "Azure"
+      ],
+      "library": [
+        "BeautifulSoup"
+      ],
+      "data_engineering": [
+        "Celery"
+      ],
+      "search": [
+        "ChromaDB",
+        "Elasticsearch"
+      ],
+      "web_framework": [
+        "Django",
+        "FastAPI",
+        "Flask",
+        "HTML5",
+        "REST API",
+        "React",
+        "Tailwind CSS"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM",
+        "LLaMA",
+        "LangChain",
+        "LangGraph",
+        "LlamaIndex",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG",
+        "Semantic Search"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "Python"
+      ],
+      "ai_ml": [
+        "Keras",
+        "Machine Learning",
+        "NLP",
+        "NumPy",
+        "OpenCV",
+        "Sentence Transformers",
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "database": [
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), LLMs→LLM(100%), Retrieval-Augmented Generation→RAG(100%), Generative→Generative AI(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Python Developer",
+        "company": "SynapseIndia",
+        "location": null,
+        "start": "2024",
+        "end": "2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 13,
+        "bullets": [
+          "– Designed and developed RAG-based AI applications using LLaMA models, LangChain, LlamaIndex, and OpenAI APIs, enabling intelligent document retrieval over large repositories. – Built and maintained RESTful APIs using Django and Django REST Framework to serve AI features to frontend clients at scale. – Integrated Azure OCR and Document Parsing for automated text extraction from structured and unstructured documents. – Implemented semantic search pipelines using Sentence Transformers and vector databases, significantly improving query accuracy and response relevance. – Leveraged Redis and PostgreSQL for caching and persistent storage in high-throughput AI workflows; used JWT authentication for secure API access. – Collaborated with React.js frontend teams to deliver full-stack AI features including chat UIs, file upload handling, and markdown rendering."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.1,
+      "total_months": 13,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech in Computer Science",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": "GLA University Mathura",
+        "year": null,
+        "gpa": "8.11",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Intermediate (Class XII)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Mata Kasturi Devi Public School Delhi",
+        "year": null,
+        "gpa": "89%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

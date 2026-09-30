@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "source_file": "447d1db2_7c120f78_CA Monika Sharma_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:58:29.493905+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Monika Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "camonikasharma3@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917062669150 / 600 (5433",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-monika-sharma",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with experience in Statutory Audit, financial reporting, and regulatory compliance. Hands-on exposure to audits as per Companies\nAct, 2013, Ind AS / AS, and CARO. Skilled in audit planning, risk assessment, internal control evaluation, and preparation of audit documentation. Strong\nanalytical skills with the ability to handle multiple assignments and meet strict deadlines.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "Analytical Thinking",
+      "CARO Reporting",
+      "Financial Reporting",
+      "Financial Statement Analysis",
+      "Ind AS",
+      "Internal Financial Controls",
+      "Regulatory Compliance",
+      "Reporting",
+      "Risk Assessment",
+      "Statutory Audit",
+      "Vouching"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Financial Reporting",
+        "Statutory Audit"
+      ],
+      "soft_skill": [
+        "Analytical Thinking",
+        "Reporting"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Financial Statement Analysis",
+        "Ind AS",
+        "Internal Financial Controls",
+        "Vouching"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(financial reporting→Financial Reporting(100%), risk assessment→Risk Assessment(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Accounts manager",
+        "company": "MRG securities private limited",
+        "location": null,
+        "start": "Feb 2025",
+        "end": "Jan 2026",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 12,
+        "bullets": [
+          "Prepared the balance sheet, profit and loss account, consolidated financial statements, and cash flow statements. Also Prepared MIS reports, budgeting & variance analysis for management decision-making.",
+          "Verified day to day accounting and posted journal entry including prepaid, accrual, payroll, depreciation and amortisation. Verify inter company records – transaction booking with reconciliation",
+          "Managed end-to-end accounting operations including GL, AP, AR, journal entries, and finalization of financial statements.",
+          "Led month-end and year-end closing process ensuring timely and accurate reporting with zero major audit qualifications.",
+          "Handled statutory compliance including GST, TDS, Income Tax, and coordinated with statutory/internal auditors."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Major Clients and Industry",
+        "location": null,
+        "start": "Oct 2024",
+        "end": "Dec 2025",
+        "method": "date_regex",
+        "duration_months": 15,
+        "bullets": [
+          "Grass field resort",
+          "Conducted statutory audits of private limited companies in accordance with Companies Act, 2013.",
+          "Tirupati marbles (Internal",
+          "Planned and executed audit assignments including audit scope, audit program, and timelines. audit)",
+          "Coordinated with clients for data collection, explanations, and issue resolution.",
+          "Prano Flax (manufacturing",
+          "Maintained proper audit documentation and working papers. industry)",
+          "Assisted clients in income tax assessments and notices.",
+          "AMBE, AMD, Jagdamba",
+          "Evaluated internal controls and risk assessment to identify potential financial misstatements. (Educational Institutions) • Handled GST compliance including preparation and filing of GSTR-1, GSTR-3B and reconciliation with books."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "B.khosla & co",
+        "location": null,
+        "start": "July 2022",
+        "end": "Sept 2023",
+        "method": "date_regex",
+        "duration_months": 15,
+        "bullets": [
+          "Rajasthan Rajya Vidhut",
+          "Scrutiny of EMD/SD Ledgers, scrap ledger, expenses, TDS compliances, debtor ageing analysis. Utpadan Nigam Limited • Verification of accounting and disclosure in accordance with Ind AS 115-Revenue Recognition, Ind AS 16-PPE, (RRVUNL)- PSU (Turnover > Ind AS-23 Borrowing Costs, Fixed asset accounting etc.",
+          "crores)",
+          "Preparation of Audit Report in compliance with SA 700, SA 705, ICFR and matters pertaining to CARO 2020.",
+          "KGK Group (E.P.) {Real",
+          "Analyzed long-standing Debtors and prepare debtor ageing and the reasons for delay. estate)",
+          "Applied analytical procedures including ratio analysis, trend analysis, making periodic comparatives",
+          "RMC Gems Pvt. Ltd. (Gems statements to identify unusual deviation as per SA 520.",
+          "Conducted vouching and verification of revenue, expenses, fixed assets, inventory, loans, and advances.",
+          "Hotel Royal Orchid, Jaipur",
+          "Reviewed ledger scrutiny, provisions, accruals, and estimates.",
+          "Ananta Spa & Resorts",
+          "Verified financial statements (Balance Sheet, P&L, Cash Flow, Notes).",
+          "Assisted in drafting audit reports, CARO clauses, and management letters",
+          "Tanya Cars Private ltd..",
+          "Coordinated with clients planning, execution, and finalisation. Analysis of FS to identify reasons for delta."
+        ],
+        "sub_sections": [
+          "& Jewellery)",
+          ",Pushkar"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Articled Assistant",
+        "company": "B.P. mundra & co",
+        "location": "Jaipur",
+        "start": "April 2019",
+        "end": "March 2022",
+        "method": "date_regex+title_dash_company",
+        "duration_months": 36,
+        "bullets": [
+          "Filling of Return Filing of Individuals, Firms/LLP, Company & Trust. Tax Audit reports (Form 3CA/3CB, Form 3CD).",
+          "Client advisory on Tax Deducted at Source (TDS) under section194C/194J of the Income Tax Act, 1961.",
+          "Advisory regarding classification of goods and services, eligibility regarding availment of ITC.",
+          "Prepared and filed ROC forms such as AOC-4, MGT-7 and other MCA compliances.",
+          "Filing of E-way bill and LUT in Form GST RFD-11 and also provided consultancy on bifurcation of Zero-Rated, exempt and taxable supplies."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.6,
+      "total_months": 67,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Institute of Chartered Accountants",
+        "year": "2025",
+        "gpa": "54.33%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA Intermediate Nov 2022",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "Institute of Chartered Accountants",
+        "year": "2022",
+        "gpa": "51.00%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "M.Com",
+        "degree_name": "M.Com",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "University of Rajasthan",
+        "year": "2022",
+        "gpa": "72.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

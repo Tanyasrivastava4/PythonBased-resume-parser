@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "source_file": "ee1864a8_c703d54b_Jitendra Singh_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:42.248500+00:00",
+    "sections_found": [
+      "certifications",
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Information Security",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jitendrasingh871901@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+917078261901",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      ".NET",
+      "Acunetix",
+      "Apktool",
+      "Automation Testing",
+      "Burp Suite",
+      "CEH",
+      "CSRF Tester",
+      "Directory Buster",
+      "Dozer",
+      "Drupal",
+      "Emulators",
+      "Genymotion",
+      "IBM AppScan",
+      "Java",
+      "Joomla",
+      "Linux",
+      "Microsoft Windows",
+      "MobSF",
+      "Nessus",
+      "Netsparker",
+      "Nikto",
+      "Nmap",
+      "PHP",
+      "Postman",
+      "REST API",
+      "SQLMAP",
+      "Security Assessment",
+      "SoapUI",
+      "Wireshark",
+      "adb shell",
+      "dex2jar"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET",
+        "Java",
+        "PHP"
+      ],
+      "security_ops": [
+        "Acunetix",
+        "Burp Suite",
+        "CEH",
+        "MobSF",
+        "Nessus",
+        "Security Assessment"
+      ],
+      "security": [
+        "Apktool",
+        "CSRF Tester",
+        "Directory Buster",
+        "Dozer",
+        "IBM AppScan",
+        "Netsparker",
+        "Nikto",
+        "Nmap",
+        "SQLMAP",
+        "dex2jar"
+      ],
+      "testing": [
+        "Automation Testing"
+      ],
+      "web_framework": [
+        "Drupal",
+        "Joomla",
+        "REST API"
+      ],
+      "os_system": [
+        "Emulators",
+        "Linux",
+        "Microsoft Windows"
+      ],
+      "dev_tool": [
+        "Genymotion",
+        "Postman",
+        "SoapUI",
+        "adb shell"
+      ],
+      "cloud_infra": [
+        "Wireshark"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Soap UI→SoapUI(100%), Emulator→Emulators(94%), MOBSF→MobSF(100%), NMAP→Nmap(100%), SQLMAP.→SQLMAP(92%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Information Security Consultant",
+        "company": "AAA Technologies Ltd",
+        "location": null,
+        "start": "May 2023",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 41,
+        "bullets": [
+          "(DAST) of Web Applications, Mobiles Applications and Web Services using tools like Netsparker, Burpsuite, Metasploit, Sqlmap, Acunetix etc."
+        ],
+        "sub_sections": [
+          "Experience in Static Application",
+          "Security Testing (SAST) / Source Code Review by using like Syhunt",
+          "Tool etc.",
+          "Experience in Network Audit",
+          "by using tool like Nessus etc.",
+          "Review/Analysis and verification",
+          "of Audited Applications.",
+          "Security Testing according",
+          "to OWASP TOP 10 Security Risks.",
+          "Perform both Automated",
+          "and Manual Testing of the application to find vulnerable part of the application.",
+          "Provide solution of the vulnerability",
+          "and help users to fix the issue.",
+          "Handling the client query",
+          "and providing them solution for patching the vulnerabilities.",
+          "Top 6% Ranked on Tryhackme",
+          "experienced professionals."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.4,
+      "total_months": 41,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "10th",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Keshav Madhav Saraswati Vidya Mandir",
+        "year": "2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Keshav Madhav Saraswati Vidya Mandir",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Technology(B.tech) in computer science",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "computer science",
+        "institution": null,
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "EC-Council Certification - Certified Ethical Hacker (CEH Practical)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Udemy online Certification- Ethical hacking for beginner",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Udemy Online Certification – Ethical hacking",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.73
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.73,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

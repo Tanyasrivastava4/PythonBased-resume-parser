@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "source_file": "f338883a_bea3613a_Gopali Singla_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T07:00:45.801366+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Chartered Accountant",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "gopalisinglaa@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918360408925",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/gopali-singla",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Dedicated and detail-oriented Chartered Accountant, eager to embark on a dynamic professional journey. Seeking an\nopportunity to leverage my academic and practical expertise to contribute to the financial success and regulatory compliance\nof a respected organization, while fostering personal and career growth.",
+  "skills": {
+    "items": [
+      "Conditional Formatting",
+      "ERP",
+      "Financial Reporting",
+      "GST",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Pivot Tables",
+      "Regulatory Compliance",
+      "TDS",
+      "Tally",
+      "XLOOKUP"
+    ],
+    "by_category": {
+      "software": [
+        "Conditional Formatting",
+        "XLOOKUP"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "finance_ops": [
+        "Financial Reporting",
+        "Tally"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Pivot Tables"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "taxation": [
+        "TDS"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Pivot Table→Pivot Tables(100%), XLookup→XLOOKUP(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": ", Barnala (Punjab) Article Trainee",
+        "company": "M/s Bishnoi & Associates",
+        "location": "Barnala  Article Trainee",
+        "start": "Sep. 2023",
+        "end": "Sep. 2025",
+        "method": "date_regex+date_prefix_title+comma_company_location",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": ", Mohali (Punjab) Article Trainee",
+        "company": "M/s Balwinder & Associates",
+        "location": "Mohali  Article Trainee",
+        "start": "Aug. 2022",
+        "end": "Aug. 2023",
+        "method": "date_regex+date_prefix_title+comma_company_location",
+        "duration_months": 13,
+        "bullets": [
+          "Executed statutory audits under Companies Act, 2013 of various companies, ensuring 100% compliance with auditing standards, corporate law provisions, Schedule III and relevant accounting standards.",
+          "Prepared Audit Reports and compliance with CARO.",
+          "Prepared Financial Statements (Balance Sheets, P&L account, Cash Flow Statements) of companies.",
+          "Conducted walk through tests to test internal controls. Audit ▪ Performed and worked on the closure of Financial statements in the areas such as Notes to Accounts. & ▪ Identified revenue leakage related to interest and other charges as per the circulars during the Assurance Revenue Audit of bank branches (Punjab National Bank- Regional Office, Bathinda).",
+          "Analysis of Draft Financial Statements including Notes to Accounts.",
+          "Physical verification of Fixed Assets.",
+          "Led physical inventory observations, identified discrepancies and contributed to improving inventory management through reconciliations as well as conducted Inventory audits, book debts verifications assigned by various banks to ascertain drawing power for advances given (Tim Hortons, Sangrur & Bharti Airtel Limited, Barnala and Mansa Office).",
+          "Finalized Tax Audit Reports (Form 3CA, 3CB & 3CD, 10B, 29B) and GST Reconciliations (GSTR- 2A, GSTR-4A, GSTR 9 & GSTR 9C) of various entities including Sole Proprietorship, HUF, Firms, Companies, Societies and Trusts ensuring compliance with the applicable governing Acts. Taxation ▪ Assisted in filing Income tax return/forms and GST return form filing of corporate and non-corporate entities. (Form ITR-1 to ITR-7, 10IE, 10E, 15CA-CB, 24Q, 26Q, 27EQ, 26QB, GSTR-1, GSTR-3B,",
+          "Delivering tax Advisory services in the four corners of Law, with a strong emphasis on client relationships, effective communication, exceptional client service-115BAC, 115BAB, 115BAA.",
+          "Provided consultancy regarding TDS Compliances to clients.",
+          "Forecasted and budgeted detailed project reports and CMA reports (Credit Monitoring Agreement) for different business proposals for bank financing including subsidy arrangements under various Financial schemes particularly MOFPI, PMEGP etc. Planning Skilled in accumulating, analyzing and processing the financial accounts of corporate & non- & ▪ Other corporate entities, timely filings of various statutory documents with the ROC. (Form AOC-4, MGT-7,",
+          "Assist the Bank Auditor during the Concurrent Audit of Canara Bank.",
+          "Additionally, assisted in entering, monitoring and rectifying Journal entries relating to Purchase, Sale, Payments and Receipts in various accounting software and assisted in CA certification work for different purposes."
+        ],
+        "sub_sections": [
+          "GSTR-10 etc.)",
+          "MGT-7A, DPT-3 etc.)",
+          "Ancillary Assisted in the registration work of various entities whether it be under Indian Partnership Act, 1932,",
+          "Activities ▪",
+          "Societies Registration Act, 1860, Companies Act, 2013, MSME Act 2006 etc."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.2,
+      "total_months": 38,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final (Group-2)",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": "Group-2",
+        "institution": "ICAI",
+        "year": "2025",
+        "gpa": "53.33%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA-Intermediate (Group-2)",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": "Group-2",
+        "institution": "ICAI",
+        "year": "2021",
+        "gpa": "52.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "CA Foundation",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2019 - 2022",
+        "gpa": "66.75%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Commerce",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Punjabi University, Patiala",
+        "year": "2019",
+        "gpa": "75.75%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Senior Secondary Education (12th)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2017",
+        "gpa": "92.60%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Matriculation (10th)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2023",
+        "gpa": "9.6",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "▪ Qualified CA Foundation in First Attempt (70+ in two subjects)",
+        "degree_name": "CA Foundation",
+        "degree_type": "professional_certification",
+        "degree_field": "First Attempt (70+ in two subjects)",
+        "institution": "ICAI",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.93
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

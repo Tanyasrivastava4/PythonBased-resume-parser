@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "source_file": "928d6068_5e9552ee_Kunal Naresh_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:43.710369+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Kunal Naresh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "kunal.naresh12@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7649078440",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with 6+ years of experience across Big4 and global financial\ninstitutions, specializing in Financial Reporting, Record to Report and Accounting Advisory\n(US GAAP / IFRS / Ind AS). Strong expertise in financial reporting and technical accounting.",
+  "skills": {
+    "items": [
+      "ASC 815",
+      "Accounting",
+      "Budgeting",
+      "Financial Reporting",
+      "GAAP",
+      "IFRS",
+      "Ind AS",
+      "Record-to-Report",
+      "Stakeholder Management",
+      "Time Series Forecasting",
+      "Variance Analysis"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "ASC 815",
+        "Accounting",
+        "Budgeting",
+        "Financial Reporting",
+        "GAAP",
+        "IFRS"
+      ],
+      "finance": [
+        "Ind AS",
+        "Record-to-Report"
+      ],
+      "soft_skill": [
+        "Stakeholder Management"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(ASC 805→ASC 815(86%), ASC 810→ASC 815(86%), accounting.→Accounting(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant Manager",
+        "company": "Macquarie Group",
+        "location": null,
+        "start": "05/2025",
+        "end": "Present",
+        "method": "date_regex+pipe_split",
+        "duration_months": 17,
+        "bullets": [
+          "Part of finance team involved in posting journal entries, monthly and quarterly books closure",
+          "Led and supervised a team of 2–3 professionals",
+          "Performed budgeting, forecasting and variance analysis"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Drafted technical accounting whitepapers on different topics under IFRS and USGAAP",
+        "location": "Assistant Manager",
+        "start": "02/2023",
+        "end": "05/2025",
+        "method": "date_regex",
+        "duration_months": 28,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Prepared accounting memos on: o Business Combinations (ASC 805 / IFRS 3) o Debt vs Equity classification under USGAAP o Revenue Recognition (IFRS 15)",
+        "location": "Consultant",
+        "start": "08/2021",
+        "end": "02/2023",
+        "method": "date_regex",
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant Manager",
+        "company": "o Consolidation assessment (ASC 810) Deloitte India",
+        "location": null,
+        "start": "04/2019",
+        "end": "08/2021",
+        "method": "date_regex+pipe_split",
+        "duration_months": 29,
+        "bullets": [
+          "Participated in Ind AS 116 implementation",
+          "Involved in preparation of financial statements ensuring compliance with accounting standards",
+          "Part of finance team involved in posting journal entries, monthly and quarterly books closure",
+          "Performed budgeting, forecasting and variance analysis",
+          "Assisted in treasury and cash management",
+          "Conducted statutory and tax audits",
+          "Assisting clients in ensuring TDS, GST and ROC compliances",
+          "Participated in filing income tax returns"
+        ],
+        "sub_sections": [
+          "Articleship & Paid Assistant",
+          "Anil Kakar & Associates"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.5,
+      "total_months": 90,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Chartered Accountant – ICAI (2018)",
+        "degree_name": "CA",
+        "degree_type": "professional_certification",
+        "degree_field": "ICAI (2018)",
+        "institution": "ICAI",
+        "year": "2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Com – University of Delhi (2016)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "University of Delhi (2016)",
+        "institution": "University of Delhi",
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

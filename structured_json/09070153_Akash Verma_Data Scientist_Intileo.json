@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "source_file": "09070153_Akash Verma_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:48.629099+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Akash Verma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "akash.verma6712@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919306620996",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Ak0801",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "geekfleet.dev/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "ANN",
+      "AWS",
+      "AWS SQS",
+      "Agentic AI",
+      "Apache Kafka",
+      "ArUco Markers",
+      "Azure",
+      "Azure OpenAI",
+      "CNN",
+      "Computer Vision",
+      "Contour Analysis",
+      "Data Cleaning",
+      "Data Preprocessing",
+      "Deep Learning",
+      "End-to-End AI Pipelines",
+      "GPIO",
+      "GPT",
+      "Generative AI",
+      "Hugging Face",
+      "K-means Clustering",
+      "LLM",
+      "LangChain",
+      "MCP Server",
+      "Machine Learning",
+      "Model Deployment Workflows",
+      "Model Evaluation Metrics",
+      "NVIDIA Jetson",
+      "NoSQL",
+      "OpenCV",
+      "PostgreSQL",
+      "Prompt Engineering",
+      "PyTorch",
+      "Python",
+      "RAG",
+      "Raspberry Pi",
+      "Redis",
+      "SQL",
+      "Similarity Search Techniques",
+      "TensorFlow",
+      "Transfer Learning",
+      "Transformers",
+      "Vector Databases",
+      "Vector Search",
+      "YOLO"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "ANN",
+        "ArUco Markers",
+        "CNN",
+        "Computer Vision",
+        "Contour Analysis",
+        "Deep Learning",
+        "End-to-End AI Pipelines",
+        "GPT",
+        "K-means Clustering",
+        "Machine Learning",
+        "Model Deployment Workflows",
+        "Model Evaluation Metrics",
+        "OpenCV",
+        "PyTorch",
+        "TensorFlow",
+        "Transfer Learning",
+        "YOLO"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS SQS",
+        "Azure"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Azure OpenAI",
+        "Generative AI",
+        "Hugging Face",
+        "LLM",
+        "LangChain",
+        "MCP Server",
+        "Prompt Engineering",
+        "RAG",
+        "Similarity Search Techniques",
+        "Vector Databases",
+        "Vector Search"
+      ],
+      "data_engineering": [
+        "Apache Kafka",
+        "Data Cleaning",
+        "Data Preprocessing"
+      ],
+      "embedded_systems": [
+        "GPIO",
+        "NVIDIA Jetson",
+        "Raspberry Pi"
+      ],
+      "database": [
+        "NoSQL",
+        "PostgreSQL",
+        "Redis",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "data_science": [
+        "Transformers"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Hugging Face Transformers→Transformers(98%), Retrieval-Augmented Generation→RAG(100%), Preprocessing→Data Preprocessing(100%), Kafka→Apache Kafka(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Indore, Madhya Pradesh — Associate Data Science Engineer II",
+        "company": "Techdome",
+        "location": "Indore, Madhya Pradesh",
+        "start": "June’25",
+        "end": "Jan’26",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 8,
+        "bullets": [
+          "Designed and implemented an end-to-end AI video generation platform by integrating multiple generative AI models, APIs, and automated workflows.",
+          "Built scalable AI pipelines for video synthesis, voice generation, and content orchestration using Python and cloud-based services.",
+          "Developed a multi-camera person re-identification system using YOLO and Deep SORT, enabling consistent identity tracking across video feeds.",
+          "Optimized feature matching using cosine similarity and color histogram correlation to improve re-identification accuracy in real-world environments."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Greater Noida, Uttar Pradesh — Data Science Engineer Intern",
+        "company": "Infinity Labs",
+        "location": "Greater Noida, Uttar Pradesh",
+        "start": "June’23",
+        "end": "Aug’23",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 3,
+        "bullets": [
+          "Developed a facial recognition system for automated attendance using OpenCV, enabling real-time face detection and identification.",
+          "Implemented database-backed attendance logging using SQLite and integrated a Flask-based web dashboard for reporting.",
+          "Improved system reliability by optimizing image preprocessing and handling concurrent detection and database updates.",
+          "Deployed and tested the complete solution on Raspberry Pi, ensuring efficient performance on edge devices."
+        ],
+        "sub_sections": [
+          "Certificate from Infinity Labs, Noida",
+          "Finlatics: Data Science"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.9,
+      "total_months": 11,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BS–MS Data Science and Chemistry",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "MS Data Science and Chemistry",
+        "institution": "Indian Institute of Science Education and Research Mohali",
+        "year": "Aug2020 - May2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Course",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Football — Winner of Inter-Batch",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Sports Tournament",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Swimming",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Built a facial recognition attendance",
+      "system with OpenCV for real-time face detection and recognition.",
+      "Integrated SQLite for profile and",
+      "attendance storage.",
+      "Created a Flask web interface",
+      "for real-time attendance reports.",
+      "Optimized for reliability, handling",
+      "simultaneous detection and database updates with minimal latency.",
+      "Deployed the system on a Raspberry",
+      "Pi for a compact IoT setup.",
+      "Appreciation Award: Appreciation",
+      "Award for outstanding performance",
+      "Internship Certificate:"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

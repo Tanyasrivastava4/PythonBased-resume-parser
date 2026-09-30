@@ -1,0 +1,586 @@
+{
+  "meta": {
+    "source_file": "d144024c_ce6d84bd_Anil Sharma_Senior Consultant – Infrastructure & Technology_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:25.785824+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anil Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "anil.sharma1144@outlook.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91) 9870670907 / 96077255",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/anil-sharma-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Senior Infrastructure and Information Security\nLeader with 16+ years of experience in enterprise\nvulnerability management, regulatory compliance,\nand resilient IT operations. Expert in leveraging AI\nand Generative AI for risk-based remediation,\naudit automation, and predictive security. Proven\nCXO-level stakeholder engagement as primary\nSPOC for RBI and ISO audits, ISMS governance,\nand strategic vendor management. Holds an MBA\nin IT Operations and certifications including AWS\nCertified Security – Specialty (SCS-C02) and\nCertified Information Security Manager (CISM).\nSkilled in cloud security architecture, governance,\nrisk management, and aligning security strategy\nwith business goals to enhance cyber resilience\nand compliance maturity across hybrid and cloud\nenvironments.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "CEH",
+      "CISM",
+      "CISSP",
+      "Data Management",
+      "Generative AI",
+      "ISMS",
+      "IT Infrastructure Management",
+      "IT Ops",
+      "IT Risk Management",
+      "IT Security",
+      "Identity Management",
+      "Information Security",
+      "Leadership",
+      "RBI",
+      "Regulatory Compliance",
+      "Risk Management",
+      "SIEM",
+      "Security Architecture",
+      "Stakeholder Management",
+      "Vendor Management",
+      "Vulnerability Management"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2"
+      ],
+      "security_ops": [
+        "CEH",
+        "CISM",
+        "CISSP",
+        "ISMS",
+        "SIEM",
+        "Security Architecture"
+      ],
+      "productivity": [
+        "Data Management"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
+      "it_ops": [
+        "IT Infrastructure Management"
+      ],
+      "domain": [
+        "IT Ops",
+        "RBI"
+      ],
+      "security": [
+        "IT Risk Management",
+        "IT Security",
+        "Identity Management",
+        "Information Security",
+        "Vulnerability Management"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Stakeholder Management"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
+      "operations": [
+        "Vendor Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Cism→CISM(100%), Cissp→CISSP(100%), regulatory compliance→Regulatory Compliance(100%), Generative→Generative AI(95%), risk management→Risk Management(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Sr Manager",
+        "company": "Infrastructure",
+        "location": "Enterprise",
+        "start": "2022",
+        "end": "Present",
+        "method": "date_regex+title_dash_company",
+        "duration_months": 57,
+        "bullets": [
+          "Equifax Inc. is a leading financial services provider in India, delivering credit reports and scores to banks, BFSI institutions, and MFIs, operating under the regulatory framework of the Reserve Bank of India.",
+          "Enterprise Security & Vulnerability",
+          "Directed enterprise-wide Vulnerability Management Program across Windows, Linux, Unix, databases, on-prem data centers, and cloud platforms.",
+          "Implemented AI-driven risk-based remediation frameworks leveraging predictive analytics, reducing false positives by 30% and improving patch SLA compliance by 25%.",
+          "Established automated patch orchestration and compliance tracking, increasing deployment success rate by 20%.",
+          "Security Operations Center (SOC) & Threat",
+          "Built and matured 24x7 SOC operations, enabling real-time threat detection, incident response, and threat hunting.",
+          "Designed detection engineering use cases aligned with MITRE ATT&CK framework, integrating threat intelligence and behavioral analytics.",
+          "Led implementation of SIEM & SOAR platforms including Splunk Enterprise Security, IBM QRadar,",
+          "Cloud Security & Governance (AWS)",
+          "Architected and governed enterprise cloud security framework on AWS, implementing services such as AWS Security Hub, GuardDuty, WAF, Shield, IAM, CloudWatch, and AWS Config.",
+          "Ensured secure cloud adoption aligned with",
+          "Data Center & Infrastructure Leadership",
+          "Led design and operations of highly available, fully redundant Tier III/IV data centers, supporting IaaS and PaaS environments with 24x7 uptime.",
+          "Delivered Disaster Recovery (DR) and Business",
+          "Drove capacity planning, performance optimization, and AI-driven operational insights, improving infrastructure efficiency by 15%.",
+          "Regulatory Compliance & ISMS Governance",
+          "Served as Primary SPOC for RBI and ISO/IEC 27001:2022 audits, managing end-to-end audit lifecycle including governance, risk assessment, evidence management, and remediation.",
+          "Architected and governed Information Security Management System (ISMS), defining policies, controls, and enterprise security frameworks.",
+          "Leveraged Generative AI for compliance automation, reducing audit response time by 40%.",
+          "IT Strategy, Financial Planning & Vendor",
+          "Defined and executed enterprise IT infrastructure strategy and roadmap, aligning with business goals.",
+          "Managed IT budgeting, cost optimization, and financial planning, ensuring ROI-driven investments.",
+          "Led vendor governance, OEM partnerships, and techno-commercial negotiations, ensuring alignment with cybersecurity and infrastructure strategy.",
+          "Enterprise IT Operations & Workplace Services",
+          "Managed end-user computing, workplace services, and unified communication (UC) infrastructure, including AV systems.",
+          "Oversaw enterprise data platforms and analytics ecosystems such as Azure Synapse, AWS Redshift, and Google BigQuery."
+        ],
+        "sub_sections": [
+          "Management",
+          "Management",
+          "Microsoft Sentinel, ArcSight, LogRhythm, Palo",
+          "Alto Cortex XSOAR, and Splunk SOAR to",
+          "automate incident response and improve SOC",
+          "efficiency.",
+          "Zero Trust principles, CIS benchmarks, and",
+          "regulatory requirements.",
+          "Continuity Planning (BCP) strategies ensuring",
+          "minimal downtime and operational resilience.",
+          "Management"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Manager - Information Security &",
+        "company": "Worked with Axis Trustee Services Limited",
+        "location": null,
+        "start": "2019",
+        "end": "2012",
+        "method": "year_range_short_regex",
+        "duration_months": 0,
+        "bullets": [
+          "Worked with Axis Trustee Services Limited, a subsidiary of Axis Bank, supporting finance domain platforms across debentures (NCDs), securitization, AIFs, REITs/InvITs, and escrow- based structured lending solutions.",
+          "Defined and executed enterprise IT strategy and technology roadmap, aligning infrastructure, security, and application initiatives with business objectives in a regulated financial environment.",
+          "Led end-to-end data center operations and cloud transformation, ensuring high availability, scalability, and resilience across critical systems with focus on IaaS/PaaS adoption and hybrid cloud architecture."
+        ],
+        "sub_sections": [
+          "Directed infrastructure and application delivery",
+          "teams, driving secure software development,",
+          "system integration, and cross-functional",
+          "collaboration for high-quality and reliable",
+          "platform delivery.",
+          "Designed and implemented enterprise",
+          "cybersecurity strategy, covering network",
+          "security, endpoint protection, vulnerability",
+          "management, and SOC operations,",
+          "strengthening overall security posture.",
+          "Ensured regulatory compliance and governance",
+          "aligned with Securities and Exchange Board of",
+          "India guidelines and industry standards,",
+          "including audit readiness, risk management, and",
+          "control implementation.",
+          "Established and operationalized incident",
+          "response and crisis management frameworks,",
+          "improving response time and minimizing",
+          "business impact of security incidents.",
+          "Led information security awareness and training",
+          "programs, enhancing organizational security",
+          "culture and reducing human risk factors.",
+          "Manager - Information Security &",
+          "Cybersecurity"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "governance",
+        "location": "risk management",
+        "start": "2017",
+        "end": "2002",
+        "method": "year_range_short_regex+comma_company_location",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [
+          "Key Responsibilities",
+          "Spearheaded the development and implementation",
+          "of Information Security policies, standards, and",
+          "procedures aligned with ISO/IEC 27001:2012",
+          "framework, ensuring organizational compliance",
+          "and audit readiness.",
+          "Acted as primary SPOC for client and regulatory",
+          "audits, managing end-to-end audit lifecycle",
+          "including gap assessment, evidence",
+          "management, control validation, and remediation",
+          "closure.",
+          "Conducted comprehensive risk assessments,",
+          "vulnerability assessments, and security reviews",
+          "to proactively identify and mitigate cyber threats.",
+          "Led and mentored a team of security",
+          "professionals, driving capability enhancement",
+          "and ensuring effective protection of sensitive and",
+          "critical information assets.",
+          "Integrated security controls into the Software",
+          "Development Life Cycle (SDLC), enabling",
+          "secure application development and reducing",
+          "vulnerabilities at early stages.",
+          "Designed and delivered security awareness and",
+          "training programs across the organization to",
+          "strengthen security culture and compliance.",
+          "Collaborated with cross-functional teams to",
+          "implement risk mitigation strategies, security",
+          "controls, and continuous monitoring",
+          "mechanisms."
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "IT Executive",
+        "company": "infrastructure",
+        "location": "data center",
+        "start": "2012",
+        "end": "2002",
+        "method": "year_range_short_regex+title_dict+comma_company_location",
+        "duration_months": 0,
+        "bullets": [
+          "projects for a high-security enterprise environment."
+        ],
+        "sub_sections": [
+          "Designed and implemented Primary Data Center",
+          "and Disaster Recovery (DR) site, ensuring high",
+          "availability and business continuity.",
+          "Deployed 3500+ IP-based CCTV systems, 10,000+",
+          "device Fire Alarm System (Siemens panels), and",
+          "5000+ speaker PA system (Bose).",
+          "Architected and implemented segmented network",
+          "architecture across 14 towers, covering core,",
+          "aggregation, and access layers for CCTV and",
+          "enterprise security systems.",
+          "Implemented physical security solutions including",
+          "boom barriers, flap barriers, and access control",
+          "systems.",
+          "Delivered business center IT infrastructure and",
+          "managed end-to-end project execution, ensuring",
+          "on-time delivery.",
+          "Technical Support Engineer at Banking & ATM"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Support Engineer at Banking & ATM",
+        "company": "Switch Operations",
+        "location": null,
+        "start": "2011",
+        "end": "2008",
+        "method": "year_range_short_regex",
+        "duration_months": 0,
+        "bullets": [
+          "public and private sector banks including State Bank of India, Bank of Baroda, Bank of India, IDBI bank, and other leading banks.",
+          "Bank, State Bank of India, and RAKBANK Dubai , ensuring seamless operations of ATM switch and card management systems."
+        ],
+        "sub_sections": [
+          "Key Responsibilities",
+          "Delivered L1/L2 technical support for ATM",
+          "machines including software installation, OS/image",
+          "download, patch updates, and configuration",
+          "management.",
+          "Provided cash loading support and coordination",
+          "with cash management teams, ensuring ATM",
+          "uptime and operational continuity.",
+          "Performed troubleshooting of hardware, network,",
+          "and application issues, minimizing downtime and",
+          "improving service availability.",
+          "Managed incident handling, service reporting,",
+          "and SLA tracking, ensuring timely resolution and",
+          "compliance with banking standards.",
+          "Coordinated with cross-functional teams (field",
+          "engineers, vendors, and bank stakeholders) for",
+          "issue resolution and preventive maintenance.",
+          "Maintained strong client relationships with",
+          "banking partners, ensuring high service quality",
+          "and operational efficiency.",
+          "Technical Support Engineer at Banking & ATM"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Operations",
+        "location": null,
+        "start": "2010",
+        "end": "2001",
+        "method": "year_range_short_regex",
+        "duration_months": 0,
+        "bullets": [
+          "public and private sector banks including State Bank of India, Bank of Baroda, Bank of India, IDBI bank, and other leading banks."
+        ],
+        "sub_sections": [
+          "Key Responsibilities",
+          "Delivered L1/L2 technical support for ATM",
+          "machines including software installation, OS/image",
+          "download, patch updates, and configuration",
+          "management.",
+          "Provided cash loading support and coordination",
+          "with cash management teams, ensuring ATM",
+          "uptime and operational continuity.",
+          "Performed troubleshooting of hardware, network,",
+          "and application issues, minimizing downtime and",
+          "improving service availability.",
+          "Managed incident handling, service reporting,",
+          "and SLA tracking, ensuring timely resolution and",
+          "compliance with banking standards.",
+          "Coordinated with cross-functional teams (field",
+          "engineers, vendors, and bank stakeholders) for",
+          "issue resolution and preventive maintenance.",
+          "Maintained strong client relationships with",
+          "banking partners, ensuring high service quality",
+          "and operational efficiency."
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Engineer",
+        "company": "Digiphoto Entertainment Imaging",
+        "location": null,
+        "start": "2019",
+        "end": "2011",
+        "method": "year_range_short_regex+title_dict",
+        "duration_months": 0,
+        "bullets": [
+          "Planned and executed new projects, designing scalable network architectures to enhance system performance and reliability.",
+          "Provided third-level technical support, resolving escalated issues promptly to minimize downtime and improve user satisfaction.",
+          "Managed IT installations, ensuring strict compliance with regulatory frameworks and quality management standards.",
+          "Implemented proactive issue management strategies to identify and mitigate potential risks before escalation.",
+          "Coordinated vendor relationships to optimize service delivery and negotiate cost-effective contracts.",
+          "Finalized project budgets, ensuring alignment with financial goals and efficient resource allocation. Application Support Engineer - Banking & ATM"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.8,
+      "total_months": 57,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA/PGDM - Operations",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Sikkim Manipal University (SMU)",
+        "year": "2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.A - Economics",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": "Economics",
+        "institution": "Mumbai University",
+        "year": "2014",
+        "gpa": "65%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class XII",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2011",
+        "gpa": "45",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class X",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2000",
+        "gpa": "55",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "MCITP Issued by Microsoft",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Digisol cabling management certificate",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Issued by Digisol",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Policy and Vulnerability management",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Issued by Qualys",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ITIL Issued by AXELOS",
+        "issuer": "ITIL",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "CEH (V10) Issued by EC Council",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "(CISM) Issued by ISACA",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "achievements": {
+    "items": [
+      "Reduced vulnerability false positives by 30%",
+      "using AI-driven analytics",
+      "Improved enterprise patch SLA compliance by",
+      "Increased patch deployment success rate by",
+      "20% through automation",
+      "Reduced audit response cycles by 40% using",
+      "Generative AI",
+      "Sr. Manager - Head of Information Security",
+      "(InfoSec) & IT",
+      "Axis Trustees service limited"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

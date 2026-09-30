@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "source_file": "3869aabf_352546ee_HarshvardhanResume_segmented.txt",
+    "generated_at": "2026-09-30T06:58:16.597042+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Harshvardhan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "harsh.vardhan.020102@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919142894661",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/validation",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Har02sh",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Software Engineer specializing in AI, with hands-on experience in LLMs, RAG systems, vector databases, and full-\nstack development using Python, Flask, and React. Skilled in building and deploying on-device LLM inference with\nOllama, developing scalable AI-driven applications, and integrating deep learning models into production-ready\nsystems.",
+  "skills": {
+    "items": [
+      "API Design",
+      "C++",
+      "CNN",
+      "CSS3",
+      "Deep Learning",
+      "Docker",
+      "Flask",
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "Hugging Face",
+      "JavaScript",
+      "LLM",
+      "LangChain",
+      "LangGraph",
+      "Machine Learning",
+      "MongoDB",
+      "Ollama",
+      "PostgreSQL",
+      "PyTorch",
+      "Python",
+      "Qdrant",
+      "RAG",
+      "REST API",
+      "React",
+      "Tailwind CSS",
+      "Vector Databases"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design"
+      ],
+      "programming_language": [
+        "C++",
+        "JavaScript",
+        "Python"
+      ],
+      "ai_ml": [
+        "CNN",
+        "Deep Learning",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "web_framework": [
+        "CSS3",
+        "Flask",
+        "HTML5",
+        "REST API",
+        "React",
+        "Tailwind CSS"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "genai": [
+        "Generative AI",
+        "Hugging Face",
+        "LLM",
+        "LangChain",
+        "LangGraph",
+        "Ollama",
+        "RAG",
+        "Vector Databases"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub"
+      ],
+      "database": [
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "search": [
+        "Qdrant"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), Langchain→LangChain(100%), Huggingface→Hugging Face(100%), Machine learning→Machine Learning(100%), API Development→API Design(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Developer",
+        "company": "Createch Software Pvt Ltd",
+        "location": null,
+        "start": "Oct 2024",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 24,
+        "bullets": [
+          "Developed an intelligent chatbot with open-source search and RAG-based chat, enhanced with advanced filters.",
+          "Integrated audio, text and document translation features, along with map-based search and timeline functionalities.",
+          "Developed a RAG system with Qdrant for PDF based document querying.",
+          "Designed frontend UIs for internal apps using Javascript, HTML and CSS.",
+          "Created CRUD apps for offline systems with seamless data operations using REST APIS.",
+          "Built a LLM chatbot using Flask & Ollama for secure, on-device inference.",
+          "Built an LLM based app that converts natural language prompts into SQL queries to interact with a predefined database.",
+          "Used geoserver for displaying offline based maps."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.0,
+      "total_months": 24,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Computer Applications",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Jagannath Institute of Management Sciences",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Python Programming – CEC Certified",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Computer Networks – NPTEL Certified",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "source_file": "971a3026_8692ee75_CV - Mohan Babu (2)_segmented.txt",
+    "generated_at": "2026-09-30T06:59:47.240613+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mohan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jmohanbabu@yahoo.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9025885908 / 250-2005",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Analyze",
+      "Communication",
+      "Express.js",
+      "Market Research",
+      "PyTorch",
+      "Sales Management"
+    ],
+    "by_category": {
+      "data_science": [
+        "Analyze"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "web_framework": [
+        "Express.js"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "ai_ml": [
+        "PyTorch"
+      ],
+      "sales": [
+        "Sales Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "HEAD",
+        "company": "Loans & LAP",
+        "location": "RBL Bank",
+        "start": "Jan’24",
+        "end": "Present",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 33,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "MANAGER",
+        "company": "To pursue a challenging",
+        "location": null,
+        "start": "Aug ’22",
+        "end": "Jan’24",
+        "method": "date_regex+title_dict",
+        "duration_months": 18,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sales &",
+        "company": "Mktg, Lancor Holdings Ltd",
+        "location": "career in management",
+        "start": "Dec ’21",
+        "end": "Apr ‘22",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "VICE PRESIDENT",
+        "company": "Home Loans",
+        "location": "",
+        "start": "Apr ’21",
+        "end": "Oct ‘21",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 7,
+        "bullets": [
+          "as well as myself."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "HEAD SALES",
+        "company": "Mortgages",
+        "location": "ICICI Bank",
+        "start": "Nov ’16",
+        "end": "Apr ‘21",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 54,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "American Express",
+        "location": "challenges",
+        "start": "Mar ’06",
+        "end": "Jan ’08",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 23,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "MANAGER | Highly motivated",
+        "company": "Mortgages, ABN AMRO",
+        "location": "self-starter",
+        "start": "Feb ’04",
+        "end": "Mar ’06",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 26,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "SALES OFFICER",
+        "company": "Home Loan, HSBC",
+        "location": "Positive attitude",
+        "start": "Feb ’03",
+        "end": "Feb ’04",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "LTD",
+        "location": null,
+        "start": "Jul 2000",
+        "end": "Feb ’03",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 32,
+        "bullets": [
+          "To ensure MOM business targets are achieved through various channels.",
+          "Strategizing and implementing various schemes and marketing activities for increasing business.",
+          "Train, motivate and monitor the performance of the team Implement MIS to analyze and improve on the performance Market analysis to understand the market opportunities Ensure and check that policies, process and standards are being implemented"
+        ],
+        "sub_sections": [
+          "Developing inter-personnel relationships within the organization"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "All time high disbursal in PHL - OMT, Chennai, RBL Bank - July 2024. Pan India 2nd in ETRG Mortgage Disbursement",
+        "location": "ICICI",
+        "start": "April ’20",
+        "end": "Mar ‘21",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 12,
+        "bullets": [
+          "Organized Builder Meet for top builders of Chennai in ICCI during July 2017 Represented Lancor in all Overseas Property Expo during my stint.",
+          "Won an award - Flying high with DB Mortgages - 2011 Won 2 quarterly contests - Trip to Malaysia, Singapore, Indonesia & another trip to"
+        ],
+        "sub_sections": [
+          "Thailand - 2009",
+          "Won a trophy & trip to Bangkok with a shopping voucher of USD 250 - 2005",
+          "Won the Torch Bearer award for exceptional performance - 2002",
+          "EDUC ATIONAL CREDENT IAL S",
+          "MBA [Marketing & Systems] from Madurai Kamaraj University, May ’02."
+        ],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 17.2,
+      "total_months": 206,
+      "overlapping_periods_merged": 6
+    },
+    "_confidence": 0.91
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Post graduate diploma in Sales and Marketing from Small Industries Service",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Sales and Marketing from Small Industries Service",
+        "institution": "Small Industries Service Institute",
+        "year": "1977",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Higher diploma in software engineering from Aptech Computer Education, June",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "software engineering from Aptech Computer Education",
+        "institution": "Played for school Cricket team. Active member of NSS",
+        "year": "1977",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "M Roshan, X Std",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.85
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[8]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[9]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

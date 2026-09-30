@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "source_file": "3a21c273_e04377e8_Prince Rajora_UI-UX Designer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:18.077420+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prince Rajora",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "princerajora63@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9643938337",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "behance.net/princerajora63",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      ".NET",
+      "Adobe After Effects",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe XD",
+      "Bootstrap 5",
+      "CSS3",
+      "Canva",
+      "Figma",
+      "HTML5"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "design": [
+        "Adobe After Effects",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Adobe XD",
+        "Canva",
+        "Figma"
+      ],
+      "web_framework": [
+        "Bootstrap 5",
+        "CSS3",
+        "HTML5"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Photoshop→Adobe Photoshop(100%), Illustrator→Adobe Illustrator(100%), Bootstrap5→Bootstrap 5(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Graphic Designer",
+        "company": "OLUMPUS INFOTECH PVT .LTD",
+        "location": null,
+        "start": "FEB 2025",
+        "end": "April 2025",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 3,
+        "bullets": [
+          "Designed engaging social media posts, banners, and promotional creatives for Ayurvedic medicines, highlighting natural wellness and Traditional healing concepts.",
+          "Created unique logos that capture brand identity and resonate with target audiences."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "UI/UX Designer",
+        "company": "Edited video content for marketing and branding purposes",
+        "location": "adding transitions",
+        "start": "FEB 2024",
+        "end": "Oct 2024",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 9,
+        "bullets": [
+          "Enhanced and retouched photos to integrate logos seamlessly, achieving a polished and professional look.",
+          "Created unique logos that capture brand identity and resonate with target audiences.",
+          "Edited video content for marketing and branding purposes, adding transitions, effects, and overlays for impactful storytelling."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "UI/UX Designer",
+        "company": "UNIQPAY PAYMENT SERVICES PVT.LTD",
+        "location": null,
+        "start": "Feb 2023",
+        "end": "Feb2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 13,
+        "bullets": [
+          "Creative UI/UX designer skilled in Adobe XD and dedicated to crafting visually appealing and user- friendly digital experiences Strong collaboration and communication abilities Successfully delivered UI designs for various Projects, emphasizing seamless user experiences Collaborated with cross- functional teams to ensure visually stunning and user-friendly products."
+        ],
+        "sub_sections": [
+          "PRODUCT DESIGN",
+          "INTERACTION DESIGN",
+          "DESIGN RESARCH",
+          "WEB DESIGN"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.0,
+      "total_months": 24,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Pursuing, BA Program",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "DELHI UNIVERSITY Pursuing",
+        "year": "2021 - 2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SENIOR SECONDARY SCHOOL",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "SCHOOL NIOS Board",
+        "year": "2014 - 2015",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HIGH SECONDARY SCHOOL",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "HIGH SCHOOL CBSE BOARD",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -48,6 +48,7 @@ _EXPERIENCE_PATTERN = re.compile(
     rf"|employment(\s+(history|details|records?|background))?"
     rf"|professional\s*background"
     rf"|professional\s*profile"
+    rf"|professional\s*synopsis|career\s*synopsis|work\s*synopsis|employment\s*synopsis|synopsis\s*of\s*experience"
     rf"|career\s*history|work\s*history|internships?"
     rf"|corporate\s+success|career\s+journey|professional\s+journey"
     rf"|career\s+chronology|employment\s+timeline"
@@ -71,6 +72,8 @@ SECTION_PATTERNS = {
         r"education(al)?(\s+background)?",
         r"academics?(\s+background)?",
         r"academic\s+details?",
+        r"academic\s+credentials?",
+        r"professional\s+academic\s+details?",
         r"academic\s+qualifications?", r"educational\s+qualifications?",
         r"qualifications?",
         r"degrees?", r"university", r"college",
@@ -80,6 +83,8 @@ SECTION_PATTERNS = {
     "certifications": _build_section_pattern([
         r"certif(ication|icate)s?(\s*\([^)]*\))?", r"licen[sc]es?(\s*\([^)]*\))?",
         r"accreditations?", r"credentials?", r"professional\s+certifications?",
+        r"car[ie]{2}r\s+professional\s+enhancements?",
+        r"professional\s+enhancements?", r"career\s+enhancements?",
         r"trainings?",
     ]),
     "achievements": _build_section_pattern([
@@ -155,10 +160,11 @@ _SECTION_KEYWORDS = [
 _KEYWORD_TO_LABEL = {
     "summary": "summary", "objective": "summary",
     "skill": "skills", "expertise": "skills", "competenc": "skills",
-    "career timeline": "early_career", "career synopsis": "early_career",
+    "career timeline": "early_career",
     "career snapshot": "early_career", "career at a glance": "early_career",
     "early career": "early_career", "timeline": "early_career",
-    "synopsis": "early_career", "snapshot": "early_career",
+    "professional synopsis": "experience", "career synopsis": "experience", "work synopsis": "experience", "employment synopsis": "experience",
+    "snapshot": "early_career",
     "experience": "experience", "employment": "experience", "career": "experience",
     "internship": "experience",
     "education": "education", "qualification": "education", "academic": "education",
@@ -535,6 +541,8 @@ def detect_section_label(line: str, prev_lines: list = None) -> tuple:
     cand_lower = candidate.lower()
     if cand_lower in ("professional profile", "working experience", "work experience"):
         return "experience", 0.95
+    if re.match(r'^\s*(?:bachelor|master|doctor|diploma|b\.?\s*tech|m\.?\s*tech|b\.?\s*e|m\.?\s*e|b\.?\s*sc|m\.?\s*sc|b\.?\s*ca|m\.?\s*ca|b\.?\s*com|m\.?\s*com|b\.?\s*a|m\.?\s*a|ph\.?d)\b', candidate, re.IGNORECASE):
+        return "education", 0.95
     for label, pattern in SECTION_PATTERNS.items():
         if pattern.match(candidate):
             if _is_wrapped_word(candidate, prev_lines):
@@ -864,23 +872,30 @@ def split_into_sections(text: str) -> list:
                 inline_content = stripped
 
         if current_label == "projects" and label == "education" and stripped != "":
-            upcoming_lines = [stripped] + [lines[k].strip() for k in range(i + 1, min(i + 6, len(lines))) if lines[k].strip()]
-            upcoming_text = " ".join(upcoming_lines).lower()
-            edu_degree_pattern = re.compile(
-                r"\b(mca|bca|b\.com|bcom|m\.com|mcom|b\.tech|btech|m\.tech|mtech|b\.e|be|m\.e|me|b\.sc|bsc|m\.sc|msc|phd|doctorate|bachelor|master|diploma|university|college|10th|12th|hsc|sslc|cbse|icse)\b"
-                r"|\b(?:19|20)\d{2}\s*[-–—\u2013\u2014\s\tto]+\s*(?:(?:19|20)\d{2}|present|current)\b",
-                re.IGNORECASE
-            )
-            is_project_cat = bool(re.search(r"\b(website|web\s+site|portal|dashboard|ecommerce|e-commerce|apps?|web-app)\b", upcoming_text, re.IGNORECASE))
-            if not edu_degree_pattern.search(upcoming_text) or is_project_cat:
-                label = None
-                confidence = 0.0
+            if stripped.lower().strip() not in ("qualification", "qualifications", "academic qualifications", "educational qualifications", "education", "academics", "academic details", "academic background", "educational background"):
+                upcoming_lines = [stripped] + [lines[k].strip() for k in range(i + 1, min(i + 6, len(lines))) if lines[k].strip()]
+                upcoming_text = " ".join(upcoming_lines).lower()
+                edu_degree_pattern = re.compile(
+                    r"\b(mca|bca|b\.com|bcom|m\.com|mcom|b\.tech|btech|m\.tech|mtech|b\.e|be|m\.e|me|b\.sc|bsc|m\.sc|msc|phd|doctorate|bachelor|master|diploma|university|college|10th|12th|hsc|sslc|cbse|icse)\b"
+                    r"|\b(?:19|20)\d{2}\s*[-–—\u2013\u2014\s\tto]+\s*(?:(?:19|20)\d{2}|present|current)\b",
+                    re.IGNORECASE
+                )
+                is_project_cat = bool(re.search(r"\b(website|web\s+site|portal|dashboard|ecommerce|e-commerce|apps?|web-app)\b", upcoming_text, re.IGNORECASE))
+                if not edu_degree_pattern.search(upcoming_text) or is_project_cat:
+                    label = None
+                    confidence = 0.0
 
 
 
         if label is not None and label == current_label:
             current_lines.append(line)
             continue
+
+        if current_label == "experience" and label != "education":
+            if re.search(r'^\s*(?:bachelor|master|doctor|diploma|b\.?\s*tech|m\.?\s*tech|b\.?\s*e|m\.?\s*e|b\.?\s*sc|m\.?\s*sc|b\.?\s*ca|m\.?\s*ca|b\.?\s*com|m\.?\s*com|b\.?\s*a|m\.?\s*a|ph\.?d|high\s+school|secondary\s+school|senior\s+secondary|hsc|ssc|10th|12th)\b', stripped, re.IGNORECASE):
+                if any(_JOB_DATE_RANGE.search(lines[j]) or re.search(r'\b(?:19|20)\d{2}\b', lines[j]) or re.search(r'\b(?:college|university|school|institute|academy|polytechnic|board)\b', lines[j], re.I) for j in range(i, min(len(lines), i+4))):
+                    label = "education"
+                    confidence = 0.95
 
         if current_label in _LIST_SECTION_LABELS and label == "unknown":
             promoted_label = _resolve_unknown_heading(stripped)
@@ -890,14 +905,23 @@ def split_into_sections(text: str) -> list:
             label = promoted_label
             confidence = 0.8
 
-        if label == "projects" and re.search(r"^\s*project\s+(?:manager|lead|architect|coordinator|executive|engineer|director|head)\b", stripped, re.IGNORECASE):
+        if current_label in {"summary", "skills", "projects", "certifications", "unknown"}:
+            if _JOB_DATE_RANGE.search(stripped) or any(_JOB_DATE_RANGE.search(lines[j]) or re.search(r'\bSince\s+[A-Za-z]+', lines[j], re.I) for j in range(i+1, min(len(lines), i+4))):
+                if label != "education" and (re.search(r'\b(?:manager|engineer|lead|architect|developer|officer|head|executive|consultant|analyst|coordinator|director|specialist|administrator|supervisor|chief|intern)\b', stripped, re.I) or any(w in stripped.lower() for w in ("ltd", "inc", "co", "corp", "pvt", "llc", "llp", "bank", "techsol", "technologies", "solutions", "limited", "company", "group", "services")) or any(w in lines[min(len(lines)-1, i+1)].lower() for w in ("ltd", "inc", "co", "corp", "pvt", "llc", "llp", "bank", "techsol", "technologies", "solutions", "limited", "company", "group", "services")) or any(w in lines[min(len(lines)-1, i+2)].lower() for w in ("ltd", "inc", "co", "corp", "pvt", "llc", "llp", "bank", "techsol", "technologies", "solutions", "limited", "company", "group", "services"))):
+                    label = "experience"
+                    confidence = 0.95
+
+        if label == "projects" and re.search(r"^\s*(?:it\s+)?project\s+(?:manager|lead|architect|coordinator|executive|engineer|director|head|execution|operations|services)\b", stripped, re.IGNORECASE):
             label = None
 
-        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities", "skills"}:
+        if current_label == "experience" and label in {"achievements", "projects", "roles_responsibilities", "skills", "certifications"}:
+            if label == "certifications" and not re.match(r'^\s*(?:certifications?|licenses?|credentials?)\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
+                current_lines.append(line)
+                continue
             if label == "skills" and not re.match(r'^\s*(?:technical\s+skills?|skills?|core\s+competencies|key\s+skills?)\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
                 current_lines.append(line)
                 continue
-            if label == "projects" and _SUB_PROJECT_HEADER_RE.match(stripped):
+            if label == "projects" and not re.match(r'^\s*(?:personal\s+|side\s+|key\s+|academic\s+|live\s+)?projects?\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
                 current_lines.append(line)
                 continue
             if label == "achievements" and _achievements_heading_is_injob(i, lines):
@@ -933,7 +957,7 @@ def split_into_sections(text: str) -> list:
                 current_lines.append(pulled_header)
             if inline_content:
                 current_lines.append(inline_content)
-            elif label == "unknown":
+            elif label == "unknown" or (label == "education" and re.search(r'^\s*(?:bachelor|master|doctor|diploma|b\.?\s*tech|m\.?\s*tech|b\.?\s*e|m\.?\s*e|b\.?\s*sc|m\.?\s*sc|b\.?\s*ca|m\.?\s*ca|b\.?\s*com|m\.?\s*com|b\.?\s*a|m\.?\s*a|ph\.?d|high\s+school|secondary\s+school|senior\s+secondary|hsc|ssc|10th|12th)\b', stripped, re.IGNORECASE)):
                 current_lines.append(stripped)
             current_confidence = confidence
         else:

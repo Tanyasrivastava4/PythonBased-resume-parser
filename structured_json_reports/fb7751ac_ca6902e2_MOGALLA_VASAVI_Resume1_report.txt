@@ -1,0 +1,50 @@
+======================================================================
+FILE: fb7751ac_ca6902e2_MOGALLA_VASAVI_Resume1_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'interests', 'languages', 'skills', 'summary']
+Overall conf.  : 0.8
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Mogalla Vasavi  (conf 0.9, regex)
+  email     : vasavim06@gmail.com  (conf 0.99, regex)
+  phone     : +91-94914-24316  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Experienced IT professional with 4+ years of combined expertise in Security Operations (3+
+years) and SAP ABAP development (1 year). Skilled in real-time threat monitoring, incident
+investigation, log analysis, and secure coding practices. Seeking a cybersecurity role to
+strengthen defence, enhance security posture, and support organizational objectives through
+proactive risk mitigation and continuous improvement.
+
+SKILLS (12) — confidence 0.92
+----------------------------------------------------------------------
+ArcSight, Continuous Improvement, EDR, Incident Management, Log Analysis, Objective C, Risk Management, SAP, SIEM, SOC Operations, Splunk, Vulnerability Management
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.74
+Total experience: 5.0 years (60 months, 2 overlaps merged)
+----------------------------------------------------------------------
+  1. Security Consultant @ Capgemini Technology Services India Limited (Oct 2022 - Present) [conf 0.98, review=False]
+  2. (L1 @ Monitor and analyse security events in a 24×7 SOC environment. (Oct 2022 - Current) [conf 0.7, review=True]
+  3.  @ Translated business requirements into clear and effective technical specifications. (Oct 2021 - Oct 2022) [conf 0.55, review=True]
+
+EDUCATION (1) — confidence 0.8
+----------------------------------------------------------------------
+  1. B.Tech — None (2019) [conf 0.8, review=False]
+
+CERTIFICATIONS (1) — confidence 0.6
+----------------------------------------------------------------------
+  1. Splunk Certification — None (None) [conf 0.6]
+
+REVIEW QUEUE (5 flagged fields)
+----------------------------------------------------------------------
+  experience                          conf=0.74  reason=low_confidence
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.55  reason=incomplete_fields
+  certifications                      conf=0.6  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields

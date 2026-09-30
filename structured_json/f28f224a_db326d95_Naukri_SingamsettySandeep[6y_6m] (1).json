@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "source_file": "f28f224a_db326d95_Naukri_SingamsettySandeep[6y_6m] (1)_segmented.txt",
+    "generated_at": "2026-09-30T07:00:45.477213+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "unknown"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sandeep Singamsetty",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sandeepsingamsetty000@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9381764734",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/sandeep-singamsetty-046a65129",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "ac.in/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "Apache Kafka",
+      "Bash",
+      "Bootstrap",
+      "C#",
+      "C++",
+      "CSS3",
+      "ClickHouse",
+      "Collaboration",
+      "Data Science",
+      "Django",
+      "ETL",
+      "Flask",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "Jenkins",
+      "Jira",
+      "Keras",
+      "Microsoft Teams",
+      "MySQL",
+      "Notion",
+      "Onboarding",
+      "Pandas",
+      "PostgreSQL",
+      "PySpark",
+      "PyTorch",
+      "Python",
+      "SQL",
+      "SQLite",
+      "Selenium",
+      "Splunk",
+      "TensorFlow",
+      "XML"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "data_engineering": [
+        "Apache Kafka",
+        "ETL"
+      ],
+      "os_system": [
+        "Bash"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "Django",
+        "Flask",
+        "HTML5",
+        "XML"
+      ],
+      "programming_language": [
+        "C#",
+        "C++",
+        "JavaScript",
+        "Python"
+      ],
+      "database": [
+        "ClickHouse",
+        "MySQL",
+        "PostgreSQL",
+        "PySpark",
+        "SQL",
+        "SQLite"
+      ],
+      "soft_skill": [
+        "Collaboration"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Keras",
+        "Pandas",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "devops": [
+        "Jenkins"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "productivity": [
+        "Microsoft Teams",
+        "Notion"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "testing": [
+        "Selenium"
+      ],
+      "security_ops": [
+        "Splunk"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), Kafka→Apache Kafka(100%), onboarding→Onboarding(100%), Kafka→Apache Kafka(100%), ClickHouse.→ClickHouse(95%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Quantitative Technology Analyst",
+        "company": "Qube Research and Technologies LLP",
+        "location": null,
+        "start": "7/2023",
+        "end": "ongoing",
+        "method": "date_regex+title_dict",
+        "duration_months": 39,
+        "bullets": [
+          "Architected and deployed a high-availability data onboarding infrastructure to facilitate real-time source integration for research and trading teams. Led data source facilitation for research team using ETL tools, ensuring seamless integration, and concurrently developed monitoring tools and internal software appli- cations to optimize workflow for the development team."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "C++ / SQL / C# / Git / Python / Postgres / AWS / Kafka / Click House  Team Lead",
+        "company": "Qube Research and Technologies LLP",
+        "location": null,
+        "start": "10/2019",
+        "end": "6/2023",
+        "method": "date_regex+pipe_split+inherited_company",
+        "duration_months": 45,
+        "bullets": [
+          "Developed sophisticated software systems using the Django framework for Sony Japan, Maruhan Corpo- ration, etc. Designed and implemented web scraping modules for 30+ social networking, entertainment, gaming, comic and e-commerce websites."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Web Scraping / Web Development / Project Management  Research and Development Intern",
+        "company": "IBM Research",
+        "location": "India",
+        "start": "5/2022",
+        "end": "8/2022",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 4,
+        "bullets": [
+          "Worked on a problem titled Detecting and Debunking Fake News and Half-truth in News Articles using"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "NLP / Deep Learning / Machine Learning  AI Intern",
+        "company": "SMS DataTech Co",
+        "location": "Tokyo",
+        "start": "5/2018",
+        "end": "7/2018",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 3,
+        "bullets": [
+          "Worked on a problem titled Manga Comic Colorization using cyclic GANs. Implemented the project using Tensorflow and Keras and achieved an accuracy of 90% in colouring grayscale and line-art images. Image Processing / Deep Learning / Machine Learning"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.2,
+      "total_months": 87,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "6/2021 - 6/2023 Master of Technology, Computer Science",
+        "degree_name": "M.Tech",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Computer Science IIT Bombay",
+        "year": "2023",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Post Graduation, Major in Data Science, CPA- 9.44/10",
+        "degree_name": "Post Graduation",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": "2019",
+        "gpa": "9.44/10",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "6/2015 - 5/2019 Bachelor of Technology, Computer Science",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Computer Science IIT Jodhpur",
+        "year": "2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Graduation, CPA- 8.32/10",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2023",
+        "gpa": "8.32/10",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Secured a rank of 1428 in JEE Advanced 2015 and a rank of 3336 in JEE Main 2015 among 1.5+ Million participants.",
+      "Secured 10/10 CGPA in class X SSC exam in 2013 and 98.1% in BIEAP Exam 2015 in class XII.",
+      "https://www.linkedin.com/in/sandeep-singamsetty-046a65129/",
+      "https://www.iitb.ac.in/",
+      "https://www.iitj.ac.in/",
+      "https://www.qube-rt.com/",
+      "https://www.sms-datatech.co.jp/",
+      "https://www.ibm.com/in-en",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.92
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

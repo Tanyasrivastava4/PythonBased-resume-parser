@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "source_file": "82cf3626_147a0e52_CA Vinod Kumar Saini_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:27.591366+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Vinod Kumar Saini",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "cavinodsaini02@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919461257764",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/cavinodsaini",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Accounting",
+      "LinkedIn",
+      "MS Office",
+      "Microsoft Dynamics",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "Tally"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Tally"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "crm": [
+        "Microsoft Dynamics"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%), Tally ERP9→Tally(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Secured 95% in Economics",
+        "location": null,
+        "start": "APR 2025",
+        "end": "AUG 2025",
+        "method": "date_regex",
+        "duration_months": 5,
+        "bullets": [
+          "methodology and quality standards. confirmations for debtors and bank audit planning, scope assessment and risk expenses, payroll, and inventory."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "entries",
+        "location": "reconciliations",
+        "start": "OCT 2024",
+        "end": "FEB 2025",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "accuracy and reducing unreconciled",
+        "location": null,
+        "start": "JAN 2022",
+        "end": "APR 2024",
+        "method": "date_regex",
+        "duration_months": 28,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "of financial transactions to ensure accuracy",
+        "location": "",
+        "start": "AUG 2017",
+        "end": "OCT 2020",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 39,
+        "bullets": [
+          "quarterly TDS returns (Form 24Q, 26Q, etc.) ensuring clause-wise compliance and and full statutory compliance. ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.4,
+      "total_months": 77,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.85
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
+        "year": "2017",
+        "gpa": "56.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2014",
+        "gpa": "52.89%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class XII",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": null,
+        "year": "2012",
+        "gpa": "85.00%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Class X",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": "60.83%",
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

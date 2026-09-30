@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "source_file": "5e8bfae5_f94c526c_Pratham Kumar_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:46.663066+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pratham Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "prathamydvv@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918307936151",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "ANN",
+      "AWS",
+      "CNN",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Preprocessing",
+      "Docker",
+      "Exploratory Data Analysis",
+      "Feature Engineering",
+      "Fintech",
+      "Generative AI",
+      "Git",
+      "Jira",
+      "Jupyter",
+      "Keras",
+      "LLM",
+      "MLOps",
+      "NumPy",
+      "Pandas",
+      "Predictive Analytics",
+      "PySpark",
+      "PyTorch",
+      "Python",
+      "RNN",
+      "SQL",
+      "TensorFlow",
+      "Transformers",
+      "n8n",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "ANN",
+        "CNN",
+        "Keras",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "RNN",
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "cloud_infra": [
+        "AWS"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "Exploratory Data Analysis",
+        "Feature Engineering",
+        "Predictive Analytics",
+        "Transformers"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Preprocessing"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "domain": [
+        "Fintech"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM",
+        "MLOps"
+      ],
+      "dev_tool": [
+        "Git",
+        "Jupyter"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "database": [
+        "PySpark",
+        "SQL"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "rpa": [
+        "n8n"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Neural Networks→ANN(100%), GenAI→Generative AI(100%), Preprocessing→Data Preprocessing(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "AI and Ml Engineer",
+        "company": "Visioapps Technology",
+        "location": null,
+        "start": "Jan 2025",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 21,
+        "bullets": [
+          "Custom Model Development (LLMs, NER, Intent Classification)",
+          "Designed and implemented Intent Recognition and Named Entity Recognition (NER) models using SpaCy and BERT, achieving 98% accuracy for financial domain text understanding.",
+          "Fine tuned and optimized Large Language Models (LLMs), combined prompt engineering, model tuning, and multi step workflows to improve contextual consistency and reduce hallucinations across financial use cases.",
+          "Improved Louie Voice Software accuracy from 90% to 95%+, enhancing reliable voice driven task execution.",
+          "Reduced manual effort for internal teams by 30% through automation driven model improvements and optimized NLP pipelines.",
+          "RAG & Information Retrieval Systems",
+          "Built a domain-specific Question Answering system using Retrieval-Augmented Generation (RAG) for banking customer data.",
+          "Developed a document ingestion pipeline for PDFs, forms, and unstructured text using LangChain loaders with optimized chunking strategies.",
+          "Implemented FAISS based semantic search for high-speed vector retrieval across banking documents.",
+          "Combined retrieved context with LLMs to generate accurate, context aware responses for client queries.",
+          "ML Pipeline & Production Optimization",
+          "Gained working knowledge of FastAPI/Flask based ML service deployment and AWS workflows, collaborating with senior engineers on integration and testing activities.",
+          "Applied optimization techniques to reduce inference time, improving overall model latency by 20-30% and achieving up to 50% faster processing in Speech to Text (STT) components used within the software."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "House Prices- Advances Regression Techniques",
+        "location": null,
+        "start": "may 2024",
+        "end": "jun 2024",
+        "method": "date_regex",
+        "duration_months": 2,
+        "bullets": [
+          "Ranked in the top 2% on leaderboards.",
+          "Developed predictive models using Random Forest, Gradient Boosting (XGBoost and LightGBM), and pandas for data manipulation.",
+          "Conducted extensive data preprocessing, feature engineering, and outlier detection to improve model accuracy.",
+          "Utilized advanced techniques such as hyperparameter tuning and cross validation to optimize model performance.",
+          "Achieved a competitive Root Mean Squared Error (RMSE) score of 0.11790 on the test dataset."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.9,
+      "total_months": 23,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech in CSE(AI and ML)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "CSE(AI and ML)",
+        "institution": "and ML Guru Jambheshwar University Hisar",
+        "year": "2021 - 2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Data Analysis Virtual Internship - CSRBOX + IBM SkillsBuild",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Artificial Intelligence Virtual Internship - CSRBOX + IBM SkillsBuild",
+        "issuer": "IBM",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Python Masterclass Course",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "LLM Engineering Course",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Links",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://pratham-kumar-1a276b281",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.73
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.73,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

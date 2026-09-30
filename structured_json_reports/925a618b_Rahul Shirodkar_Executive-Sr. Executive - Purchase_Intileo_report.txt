@@ -1,0 +1,48 @@
+======================================================================
+FILE: 925a618b_Rahul Shirodkar_Executive-Sr. Executive - Purchase_Intileo_segmented.txt
+======================================================================
+Sections found : ['achievements', 'certifications', 'education', 'experience', 'header', 'languages', 'skills']
+Overall conf.  : 0.85
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Procurement And Supply  (conf 0.9, regex)
+  email     : rahulshirodkar25@gmail.com  (conf 0.99, regex)
+  phone     : +91-8779841032 / 2018-11-2022  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SKILLS (7) — confidence 0.92
+----------------------------------------------------------------------
+MS Office, Microsoft Teams, Procurement, Public Relations, Quality Assurance, SAP S/4HANA, Supply Chain
+
+EXPERIENCE (1 jobs, 0 early_career entries) — confidence 0.85
+Total experience: 4.2 years (51 months, 0 overlaps merged)
+----------------------------------------------------------------------
+  1. Purchase Executive | Sanathan Textiles Limited @ None (2022-07 - Present) [conf 0.85, review=True]
+
+EDUCATION (1) — confidence 0.95
+----------------------------------------------------------------------
+  1. PGDM — Mumbai University Mumbai MH (2009) [conf 0.95, review=False]
+
+CERTIFICATIONS (2) — confidence 0.6
+----------------------------------------------------------------------
+  1. Mumbai, MH — None (None) [conf 0.6]
+  2. Mumbai, MH — None (None) [conf 0.6]
+
+ACHIEVEMENTS (5) — confidence 0.85
+----------------------------------------------------------------------
+  • Maintained 99% material availability with zero
+  • stockouts in peak production seasons.
+  • Successfully migrated procurement workflows to
+  • SAP S/4HANA MM, reducing manual errors and
+  • improving real-time visibility.
+
+REVIEW QUEUE (4 flagged fields)
+----------------------------------------------------------------------
+  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  certifications                      conf=0.6  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields
+  certifications.items[1]             conf=0.6  reason=incomplete_fields

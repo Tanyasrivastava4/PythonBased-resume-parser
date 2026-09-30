@@ -1,0 +1,48 @@
+======================================================================
+FILE: 4f13573d_bde1aa93_RONAK PUROHIT_Manager-IT Audit_GT_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'skills', 'summary']
+Overall conf.  : 0.88
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Ronak Purohit  (conf 0.9, regex)
+  email     : ronakpurohit1@gmail.com  (conf 0.99, regex)
+  phone     : 91-7259670914  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SUMMARY
+----------------------------------------------------------------------
+Dynamic Senior IT Auditor with
+
+SKILLS (15) — confidence 0.92
+----------------------------------------------------------------------
+Auditing, BCP, Business Continuity Management, Disaster Recovery, ERP, GRC, ISMS, ISO 27001, ITAC, ITGC, Identity Management, SAP, SOC 1, SOC 2, SOX
+
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 10.8 years (130 months, 1 overlaps merged)
+----------------------------------------------------------------------
+  1. Consultant @ Ernst & Young (2 Jul 2022 - Feb 2025) [conf 0.98, review=False]
+  2. English Manager @ HDFC Bank Limited (Jan 2019 - Jul 2022) [conf 0.98, review=False]
+  3. Deputy Manager @ Axis Bank Limited (May 2014 - Jan 2019) [conf 0.98, review=False]
+
+EDUCATION (2) — confidence 0.88
+----------------------------------------------------------------------
+  1. MBA — Finance Jodhpur National University (2008 - 2012) [conf 0.95, review=False]
+  2. B.Tech — None (2022) [conf 0.8, review=False]
+
+CERTIFICATIONS (4) — confidence 0.68
+----------------------------------------------------------------------
+  1. ISO 22301: Lead Auditor (Business Continuity Management — None (2019) [conf 0.75]
+  2. Systems) — None (None) [conf 0.6]
+  3. ISO 27001: Lead Auditor (Information Security Management — None (2022) [conf 0.75]
+  4. Systems) — None (None) [conf 0.6]
+
+REVIEW QUEUE (3 flagged fields)
+----------------------------------------------------------------------
+  certifications                      conf=0.68  reason=low_confidence
+  certifications.items[1]             conf=0.6  reason=incomplete_fields
+  certifications.items[3]             conf=0.6  reason=incomplete_fields

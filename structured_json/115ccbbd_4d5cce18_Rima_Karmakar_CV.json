@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "source_file": "115ccbbd_4d5cce18_Rima_Karmakar_CV_segmented.txt",
+    "generated_at": "2026-09-30T06:57:53.642293+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rima Karmakar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rima.kadam90@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9004263223",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "Media.net",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "ISTQB-certified Quality Engineering Leader with 10+ years of experience in Banking, Payments,\nand NBFC domains, including test strategy ownership, automation architecture, and team\nleadership. Proven track record of leading cross-functional QA teams across manual, automation,\nAPI, database, and performance testing. Strong advocate of shift-left quality, CI/CD integration, and\ncloud-ready testing practices. Hands-on in building scalable frameworks using Java-based\nautomation, API validation, and test governance.",
+  "skills": {
+    "items": [
+      "Agile",
+      "Apache Maven",
+      "Azure DevOps",
+      "CI/CD",
+      "Confluence",
+      "Cross-functional Collaboration",
+      "Cucumber",
+      "Git",
+      "GitLab CI",
+      "Java",
+      "Jenkins",
+      "Jira",
+      "Leadership",
+      "Microsoft Teams",
+      "Payments",
+      "Performance Testing",
+      "Postman",
+      "Quality Assurance",
+      "REST API",
+      "REST Assured",
+      "SQL",
+      "Selenium",
+      "Swagger",
+      "Team Leadership",
+      "TestNG"
+    ],
+    "by_category": {
+      "project_mgmt": [
+        "Agile",
+        "Jira"
+      ],
+      "dev_tool": [
+        "Apache Maven",
+        "Git",
+        "Postman",
+        "Swagger"
+      ],
+      "devops": [
+        "Azure DevOps",
+        "CI/CD",
+        "GitLab CI",
+        "Jenkins"
+      ],
+      "collaboration": [
+        "Confluence"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Team Leadership"
+      ],
+      "testing": [
+        "Cucumber",
+        "Performance Testing",
+        "REST Assured",
+        "Selenium",
+        "TestNG"
+      ],
+      "programming_language": [
+        "Java"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "operations": [
+        "Quality Assurance"
+      ],
+      "web_framework": [
+        "REST API"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Maven→Apache Maven(100%), JIRA→Jira(100%), leadership.→Leadership(95%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant Test Manager",
+        "company": "QualityKiosk Technologies Pvt Ltd",
+        "location": "Assistant Test Manager",
+        "start": "Apr 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 18,
+        "bullets": [
+          "Lead and mentor QA engineers across manual and automation testing streams.",
+          "Define end-to-end test strategy covering web, API, and database layers.",
+          "Drive automation framework evolution and CI/CD integration.",
+          "Support shift-left testing practices through early QA engagement.",
+          "Own test planning, execution governance, defect management, and reporting.",
+          "Collaborate with product owners, developers, and stakeholders.",
+          "Conduct RCA and implement preventive quality controls."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Blenheim Chalcot IT Services – Senior Test Engineer",
+        "company": "QualityKiosk Technologies Pvt Ltd",
+        "location": "Assistant Test Manager",
+        "start": "Sept 2024",
+        "end": "Apr 2025",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 8,
+        "bullets": [
+          "Performed REST API testing and validation using Postman and REST Assured.",
+          "Executed SQL validation for backend data integrity."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Crossasyst Technologies - QA Automation Engineer",
+        "company": "Supported integration testing across banking systems.",
+        "location": null,
+        "start": "Dec 2021",
+        "end": "Sept 2024",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 34,
+        "bullets": [
+          "Managed QA team activities across functional, automation, and API testing.",
+          "Implemented structured test planning and release readiness validation.",
+          "Led regression automation maintenance and CI integration.",
+          "Improved defect prevention and quality metrics."
+        ],
+        "sub_sections": [
+          "Earlier Experience"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.8,
+      "total_months": 58,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.94
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "M.Sc. in Information",
+        "degree_name": "M.Sc",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "education",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    }
+  ]
+}

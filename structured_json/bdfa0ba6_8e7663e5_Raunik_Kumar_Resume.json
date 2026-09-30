@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "source_file": "bdfa0ba6_8e7663e5_Raunik_Kumar_Resume_segmented.txt",
+    "generated_at": "2026-09-30T07:00:14.886662+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Raunik Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "kumarraunik123@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+916203030416",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/signup",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/kumarraunik123",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Detail-oriented MERN Stack Developer with 1 year of hands-on experience in building scalable\napplications using React.js, Node.js, Express.js, MongoDB, and MySQL. Strong understanding of\nJavaScript, reusable UI components, secure APIs, and backend optimization. Focused on writing clean,\nproduction-ready code.",
+  "skills": {
+    "items": [
+      "API Testing",
+      "CSS3",
+      "ES6+",
+      "Express.js",
+      "Git",
+      "HTML5",
+      "JavaScript",
+      "MERN Stack",
+      "MongoDB",
+      "MySQL",
+      "Node.js",
+      "REST API",
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "YouTube"
+    ],
+    "by_category": {
+      "testing": [
+        "API Testing"
+      ],
+      "web_framework": [
+        "CSS3",
+        "Express.js",
+        "HTML5",
+        "MERN Stack",
+        "Node.js",
+        "REST API",
+        "React",
+        "Redux",
+        "Tailwind CSS"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "media": [
+        "YouTube"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Redux Toolkit→Redux(100%), REST APIs→REST API(100%), MERN→MERN Stack(100%), React.js→React(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "React.js & Express.js Developer",
+        "company": "Amrovik Solution",
+        "location": null,
+        "start": null,
+        "end": "1 Year",
+        "method": "stated_duration_regex+title_dash_company",
+        "duration_months": 12,
+        "bullets": [
+          "Built secure Express middleware for validation, authentication & error handling.",
+          "Implemented JWT authentication, password hashing, and role-based access.",
+          "Developed complete CRUD operations with optimized controllers.",
+          "Designed MongoDB & MySQL schemas with query optimization.",
+          "Built reusable React components using Hooks and optimized UI performance.",
+          "Implemented Redux Toolkit for state management.",
+          "Designed modern, responsive UI using TailwindCSS & CSS."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.0,
+      "total_months": 12,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.8
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Computer Applications (BCA) — Netaji Subhash Engineering College, Kolkata",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Netaji Subhash Engineering College Kolkata",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "12th (Senior Secondary) — Annada College, Hazaribagh, Jharkhand",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Annada College Hazaribagh",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "10th (High School) — Saraswati Shishu Vidya Mandir, Hazaribagh, Jharkhand",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "High School",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "MERN Stack Training – CodeHelp",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "MERN Stack Learning – Chai aur Code (YouTube)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.82
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

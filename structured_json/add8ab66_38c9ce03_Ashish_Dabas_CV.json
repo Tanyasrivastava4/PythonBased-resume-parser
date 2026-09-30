@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "source_file": "add8ab66_38c9ce03_Ashish_Dabas_CV_segmented.txt",
+    "generated_at": "2026-09-30T07:00:01.684014+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Dabas",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ashishdabas55@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919999130077",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "KOOVS.COM",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Customer Support Professional with 9+ years of experience handling U.S., U.K., and Middle East\ncustomers across email, voice, and chat channels. Strong background in e-commerce support,\nincluding Amazon (U.S./U.K.), Koovs, and Mamaearth. Skilled in SLA management, escalation\nhandling, WMS queries, payment resolution, and driving high customer satisfaction.",
+  "skills": {
+    "items": [
+      "Chat Support",
+      "Customer Service",
+      "E-commerce",
+      "KPI",
+      "Mentoring",
+      "SLA Management"
+    ],
+    "by_category": {
+      "support": [
+        "Chat Support",
+        "SLA Management"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "soft_skill": [
+        "Mentoring"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(e-commerce→E-commerce(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "SENIOR CUSTOMER SERVICE EXECUTIVE (AMAZON",
+        "company": "CONCENTRIX DAKSH PVT. LTD",
+        "location": null,
+        "start": "September 2014",
+        "end": "October 2018",
+        "method": "date_regex+dash_split",
+        "duration_months": 50,
+        "bullets": [
+          "Handled customer queries for Amazon U.S. and U.K. markets via email support.",
+          "Resolved issues related to orders, refunds, payments, account access, and deliveries.",
+          "Maintained SLA compliance and consistently achieved target CSAT scores.",
+          "Escalated complex cases to internal stakeholders for timely resolution.",
+          "Supported onboarding and mentoring of new team members."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "COM – SENIOR CUSTOMER SERVICE EXECUTIVE (CALL & EMAIL SUPPORT",
+        "company": "KOOVS.COM",
+        "location": "SENIOR CUSTOMER SERVICE EXECUTIVE",
+        "start": "January 2019",
+        "end": "August 2020",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 20,
+        "bullets": [
+          "Managed inbound and outbound calls along with email support for e-commerce customers.",
+          "Handled WMS, order tracking, return, exchange, and payment-related queries.",
+          "Ensured resolution within defined turnaround time to improve customer satisfaction.",
+          "Coordinated with warehouse and logistics teams for smooth order fulfillment."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "EXECUTIVE (CALL, EMAIL & CHAT SUPPORT",
+        "company": "HONASA CONSUMER PVT. LTD",
+        "location": "SENIOR CUSTOMER SERVICE",
+        "start": "September 2020",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 73,
+        "bullets": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          " Provided multichannel support (call, email, chat) for domestic and Middle East customers. Resolved product inquiries, delivery delays, refund requests, and payment disputes. Maintained SLA adherence and contributed to improving CSAT scores. Escalated systemic issues and collaborated with internal departments for resolution. Mentored new hires to meet productivity and quality benchmarks."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.9,
+      "total_months": 143,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Arts (B.A.), Sunrise University",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Sunrise University",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "12th – NIOS",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "NIOS",
+        "institution": "NIOS",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "10th – CBSE",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "CBSE",
+        "institution": "CBSE",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

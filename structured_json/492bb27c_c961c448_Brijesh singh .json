@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "source_file": "492bb27c_c961c448_Brijesh singh _segmented.txt",
+    "generated_at": "2026-09-30T06:58:32.041609+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Brijesh Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "brijeshsinghscs1234@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8506091330",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Adobe Photoshop",
+      "Bootstrap",
+      "CSS3",
+      "Elementor",
+      "Figma",
+      "Gutenberg-e",
+      "HTML5",
+      "JavaScript",
+      "Motion Graphics",
+      "MySQL",
+      "PHP",
+      "React",
+      "WordPress"
+    ],
+    "by_category": {
+      "design": [
+        "Adobe Photoshop",
+        "Figma",
+        "Motion Graphics"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "Elementor",
+        "HTML5",
+        "React"
+      ],
+      "database": [
+        "Gutenberg-e",
+        "MySQL"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP"
+      ],
+      "content": [
+        "WordPress"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(WORDPRESS→WordPress(100%), Gutenberg→Gutenberg-e(95%), JAVASCRIPT→JavaScript(100%), FIGMA→Figma(100%), PHOTOSHOP→Adobe Photoshop(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Trainee - Web Developer",
+        "company": "Brainfoster Tech Private Limited",
+        "location": null,
+        "start": "2024",
+        "end": "2025",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 13,
+        "bullets": [
+          "months wordpress intern Wildnet Technologies Inc.",
+          "months"
+        ],
+        "sub_sections": [
+          "Trainee - Web Developer"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.1,
+      "total_months": 13,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "P&T , SER , SECONDARY SCHOOL",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "SCHOOL",
+        "year": "2022 - 2023",
+        "gpa": null,
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "BA ENGLISH HONS",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2024 - 2027",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.68
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "COURSES",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Full Stack Development",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ARENA ANIMATION",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.68,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "education.entries[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

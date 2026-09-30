@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "source_file": "5b682ed1_a52a1216_Naukri_VishalGupta[0y_3m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:43.853167+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Vishal Gupta",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "vgupta1296@yahoo.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918375884079",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/vgupta1296",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "A Qualified Chartered Accountant with strong academic background and excellent analytical and communication skills. Eager to\ncontribute to a forward-looking organization with a solutions-oriented mindset. Committed to applying knowledge effectively and\ndriving sustainable growth while evolving as a professional.",
+  "skills": {
+    "items": [
+      "Adaptability",
+      "Communication",
+      "Interpersonal Skills",
+      "Leadership",
+      "MS Office",
+      "Microsoft Excel",
+      "Problem Solving",
+      "Tally"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Adaptability",
+        "Communication",
+        "Interpersonal Skills",
+        "Leadership",
+        "Problem Solving"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel"
+      ],
+      "finance_ops": [
+        "Tally"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS-Office→MS Office(100%), Problem-solving→Problem Solving(100%), Interpersonal-skills→Interpersonal Skills(97%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Audit Experienced Associate",
+        "company": "Core Assurance",
+        "location": null,
+        "start": "25 Apr 2025",
+        "end": "Present",
+        "method": "single_date_regex+title_dash_company",
+        "duration_months": 18,
+        "bullets": [
+          "Executed detailed audit testing procedures for revenue streams, payroll systems, SG&A expenses, and cost of sales.",
+          "Performed testing of accounts receivable/payable, inventory cutoff procedures, and cash reconciliations, to ensure completeness and accuracy.",
+          "Executed Audit data analytics for lease, payroll and JE procedures using BDO Harmony.",
+          "Prepared related party and debt confirmations using the APT platform.",
+          "Performed Sampling based on internal information, SURL testing, and contributed to final analytical review procedures.",
+          "Prepared Audit workpapers for various EMEIA based Entities.",
+          "Performed Test of Details (TOD) tasks for various entities including the formalization of invoices and other relevant documents.",
+          "Performed of Substantive Analytical Procedures for various line items of the financial statements (e.g.",
+          "Interest Income & Expense and Depreciation & Amortization) and Validation of Financial Statements for various entities.",
+          "Utilized advanced data analytics techniques to support audit enablement tasks, providing insights for offshore audit teams."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Article Assistant",
+        "company": "Tanya Dewani & Associates",
+        "location": null,
+        "start": "16 Dec 2019",
+        "end": "Present",
+        "method": "single_date_regex+title_dict",
+        "duration_months": 82,
+        "bullets": [
+          "Conducted concurrent audits for international banks and statutory audits for a reputed PSU bank, adhering to RBI regulations.",
+          "Prepared accounts up to finalization and conducted GST audit reconciliations and ensured compliance with tax regulations.",
+          "Performed vouching, verification, and reconciliations for private limited entities.",
+          "Filed income tax returns for individuals and corporate entities, ensuring accuracy and compliance with tax laws.",
+          "Conducted inventory verification of Specified Bank Notes at currency chest.",
+          "Participated in audit discussions and liaised with tax and GST departments."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.8,
+      "total_months": 82,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "CA Final (Group-2)",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": "Group-2",
+        "institution": "Institute of Chartered Accountants of India Delhi",
+        "year": "2025",
+        "gpa": "51%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Com. (H)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Delhi University SOL (Correspondence) Delhi",
+        "year": "2017",
+        "gpa": "51.17%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "12th (Intermediate)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Lovely Public Sr. Sec. School Delhi",
+        "year": "2014",
+        "gpa": "89%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "10th (Matriculation)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Lovely Public Sr. Sec. School Delhi",
+        "year": "2012",
+        "gpa": "82%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

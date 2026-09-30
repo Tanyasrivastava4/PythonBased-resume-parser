@@ -1,0 +1,51 @@
+======================================================================
+FILE: dfba57ae_8de0422b_Naukri_VivekSinghKushwaha[6y_6m]_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'skills']
+Overall conf.  : 0.85
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Vivek Singh Kushwaha  (conf 0.9, regex)
+  email     : vivekkushwaha18772@gmail.com  (conf 0.99, regex)
+  phone     : +91-7076607591  (conf 0.95, regex)
+  linkedin  : linkedin.com/in/vivek-singh-kushwaha-30019  (conf 0.99, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SKILLS (20) — confidence 0.92
+----------------------------------------------------------------------
+AWS, AWS Athena, AWS S3, Apache Airflow, Data Visualization, Databricks, ETL, KPI, LinkedIn, MS Office, Machine Learning, Macro Modelling, Microsoft Excel, Microsoft Teams, Process Improvement, PySpark, Python, SQL, Stakeholder Management, Tableau
+
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.77
+Total experience: 5.2 years (63 months, 0 overlaps merged)
+----------------------------------------------------------------------
+  1. Senior Associate @ artifacts, enabling seamless tracking and audit readiness. Axtria India Pvt. Ltd (Apr 2024 - Present) [conf 0.85, review=True]
+  2. Analyst/Associate @ Alignment, and various pharma datasets (Symphony, Liquid Hub, Veeva Call Activity, Value Centric, XPO, DDD, SPSD, 867, 852 data etc). Axtria India Pvt. Ltd (Jul 2019 - Mar 2022) [conf 0.7, review=True]
+
+EDUCATION (3) — confidence 0.95
+----------------------------------------------------------------------
+  1. B.Tech — Axtria Institute (2019) [conf 0.95, review=False]
+  2. 12th — IIT Kharagpur (2013) [conf 0.95, review=False]
+  3. 10th — CBSE (2011) [conf 0.95, review=False]
+
+CERTIFICATIONS (7) — confidence 0.67
+----------------------------------------------------------------------
+  1. Certified in SQL, Python, Tableau, Advanced Excel, and Gen AI – Axtria Institute — Tableau (None) [conf 0.8]
+  2. BRAVO Award for outstanding contributions & business impact – Axtria — None (None) [conf 0.6]
+  3. Captain, Azad Hall Hockey Team – Led 30+ players to GC  Semifinals at IIT Kharagpur — None (2018) [conf 0.75]
+  4. Subhead, Boeing National Aeromodelling Competition – Managed 70+ teams at IIT Kharagpur TechFest . — None (2017) [conf 0.75]
+  5. Links — None (None) [conf 0.6]
+  6. https://www.linkedin.com/in/vivek-singh-kushwaha-30019/ — None (None) [conf 0.6]
+  7. https://www.linkedin.com/in/piyush-jamadari-385783201/ — None (None) [conf 0.6]
+
+REVIEW QUEUE (7 flagged fields)
+----------------------------------------------------------------------
+  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  certifications                      conf=0.67  reason=low_confidence
+  certifications.items[1]             conf=0.6  reason=incomplete_fields
+  certifications.items[4]             conf=0.6  reason=incomplete_fields
+  certifications.items[5]             conf=0.6  reason=incomplete_fields
+  certifications.items[6]             conf=0.6  reason=incomplete_fields

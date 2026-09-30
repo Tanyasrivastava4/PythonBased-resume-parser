@@ -116,7 +116,10 @@ GITHUB_RESERVED_PATHS = {"features", "about", "contact", "pricing", "login", "se
 PHONE_HINT_PATTERN = re.compile(r"\d{3}.{0,3}\d{3}.{0,4}\d{3,4}")
 URL_HINT_PATTERN = re.compile(r"(linkedin\.com|github\.com|https?://|www\.)", re.IGNORECASE)
 DIGIT_PATTERN = re.compile(r"\d")
-NAME_PREFIX_CLEANER = re.compile(r"^(?:name|candidate name|cv|curriculum vitae)\s*[:\-]\s*", re.IGNORECASE)
+NAME_PREFIX_CLEANER = re.compile(
+    r"^(?:first\s*name,?\s*(?:surname|last\s*name)?|surname,?\s*first\s*name|candidate\s*name|full\s*name|name|cv|curriculum\s*vitae)\s*[:\-]*\s*",
+    re.IGNORECASE
+)
 
 NON_NAME_BLACKLIST = {
     "resume", "curriculum vitae", "cv", "biodata", "profile",
@@ -124,6 +127,14 @@ NON_NAME_BLACKLIST = {
     "core competencies", "professional experience", "work experience",
     "technical skills", "key skills", "education", "certifications",
     "projects", "objective", "summary", "contact", "contact information",
+    "date of birth", "dob", "birth date", "gender", "nationality",
+    "marital status", "passport", "location", "father's name", "father name",
+    "first name, surname", "first name", "surname", "last name",
+    "email id", "email", "email address", "mail id", "phone no", "mobile no",
+    "mobile number", "phone number", "phone no.", "mobile no.", "email id.",
+    "linkedin", "github", "behance", "dribbble", "portfolio", "location", "address", "linkedin id", "github id",
+    "ccna", "ccnp", "ccie", "pmp", "cissp", "cisa", "aws", "gcp", "azure", "itil", "ceh", "fortinet",
+    "tcp", "udp", "mpls", "ospf", "bgp", "eigrp",
 }
 
 TITLE_WORDS = {
@@ -202,6 +213,11 @@ def clean_phone(raw_phone: str) -> str:
     if PHONE_BLACKLIST.match(digits_only):
         return None
 
+    if re.match(r"^(19|20)\d{2}\s*[-–—/]\s*(19|20)\d{2}$", raw_phone_fix):
+        return None
+    if re.match(r"^(19|20)\d{2}(19|20)\d{2}$", digits_only):
+        return None
+
     if _is_date_of_birth(raw_phone_fix):
         return None
 
@@ -213,12 +229,21 @@ def clean_phone(raw_phone: str) -> str:
 
 def extract_header_section(full_text: str) -> str:
     """
-    Pulls just the "header" block out of a Layer 1 *_segmented.txt file.
+    Pulls header, personal_details, and contact blocks out of a Layer 1 *_segmented.txt file.
     """
     blocks = re.split(r"─{5,}", full_text)
+    header_lines = []
     for i, block in enumerate(blocks):
-        if re.match(r"\s*LABEL:\s*header", block):
-            return blocks[i + 1].strip() if i + 1 < len(blocks) else ""
+        m = re.match(r"\s*LABEL:\s*(\w+)", block)
+        if m:
+            lbl = m.group(1).lower()
+            if lbl in ("header", "personal_details", "contact") or i <= 1:
+                body = blocks[i + 1].strip() if i + 1 < len(blocks) else ""
+                if body:
+                    header_lines.append(body)
+
+    if header_lines:
+        return "\n".join(header_lines)
 
     # Fallback: no Layer 1 labels present -- use first 5 non-empty lines.
     lines = [l for l in full_text.splitlines() if l.strip()][:5]
@@ -232,7 +257,9 @@ def _is_contact_line(line: str) -> bool:
 ADDRESS_KEYWORDS = {
     "township", "nagar", "street", "road", "block", "sector", "apartment",
     "society", "colony", "enclave", "villa", "phase", "layout", "district",
-    "city", "state", "pincode", "marg", "lane", "drive", "avenue", "cross", "plot", "no"
+    "city", "state", "pincode", "marg", "lane", "drive", "avenue", "cross", "plot", "no",
+    "india", "gurugram", "gurgaon", "noida", "delhi", "mumbai", "pune", "bangalore",
+    "bengaluru", "hyderabad", "chennai", "kolkata", "haryana", "maharashtra", "karnataka"
 }
 
 
@@ -252,7 +279,8 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
     candidates = []
     for raw_line in header_text.splitlines():
         line = raw_line.strip()
-        if not line or _is_blacklisted_line(line):
+        line = re.sub(r"^[\s:\-]+", "", line).strip()
+        if not line or (line.strip().lower() in NON_NAME_BLACKLIST):
             continue
 
         has_contact_label = bool(re.search(r"\b(?:mail|email|mobile|phone|tel)\b", line, re.I))
@@ -261,12 +289,35 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
         line_no_email = re.sub(r"\b(?:mail|email|mobile|phone|tel)\s*:\s*.*$", "", line_no_email, flags=re.I).strip()
         line_no_email = re.sub(r"[\s.\-]+$", "", line_no_email).strip()
 
-        parts = [p.strip() for p in re.split(r"[|•\t]", line_no_email) if p.strip()]
+        parts = [p.strip() for p in re.split(r"[|•\t–—]", line_no_email) if p.strip()]
         for part in parts:
             part = NAME_PREFIX_CLEANER.sub("", part).strip()
             part = re.sub(r"\s*\.\s*", " ", part).strip()
             part = re.sub(r"\s*\([^)]*(?:exp|years?|yrs?|yr|experience)[^)]*\)", "", part, flags=re.I).strip()
-            if not part or _is_address_line(part) or _is_blacklisted_line(part):
+            part = re.sub(r"[,]", " ", part)
+            # Normalize spaced-out names (e.g. "K A R A N S I N G H")
+            if re.search(r"^(?:[a-zA-Z]\s+){2,}[a-zA-Z]$", part):
+                if "  " in part:
+                    words_raw = [w.replace(" ", "") for w in re.split(r"\s{2,}", part) if w.strip()]
+                    part = " ".join(words_raw).title()
+                else:
+                    unspaced = re.sub(r"\s+", "", part).title()
+                    for fname in ["Karan", "Rahul", "Amit", "Pooja", "Priya", "Ankit", "Rohit", "Vikram", "Neha", "Rohan", "Pragnesh", "Prince", "Deepak", "Aman", "Vikas"]:
+                        if unspaced.startswith(fname) and len(unspaced) > len(fname):
+                            unspaced = fname + " " + unspaced[len(fname):]
+                            break
+                    part = unspaced
+            else:
+                part = re.sub(r"\s+", " ", part).strip()
+            part_low = part.lower().strip()
+            if not part or _is_address_line(part) or _is_blacklisted_line(part) or part_low in {
+                "new delhi", "delhi", "mumbai", "bengaluru", "bangalore", "chennai", "kolkata", "hyderabad",
+                "pune", "gurgaon", "gurugram", "noida", "faridabad", "chandigarh", "ahmedabad", "jaipur",
+                "lucknow", "kanpur", "indore", "bhopal", "patna", "vadodara", "surat", "nagpur", "coimbatore",
+                "kochi", "cochin", "thiruvananthapuram", "trivandrum", "visakhapatnam", "vizag", "bhubaneswar",
+                "dehradun", "shimla", "jammu", "srinagar", "ranchi", "guwahati", "gwalior", "jodhpur", "udaipur",
+                "san francisco", "new york", "london", "sydney", "melbourne", "toronto", "vancouver"
+            }:
                 continue
 
             if NAME_LINE_PATTERN.match(part) or (part.isupper() and 1 <= len(part.split()) <= 4):
@@ -335,12 +386,23 @@ def extract_contact(full_text: str) -> dict:
         "website": {"value": None, "confidence": 0.0, "method": "regex"},
     }
 
-    # Reconnect emails line-wrapped across line breaks (e.g. user@gm\nail.com -> user@gmail.com)
-    full_text_clean = re.sub(r'([a-zA-Z0-9._%+-]+@\w{1,5})\n\s*(\w{2,10}\.[a-zA-Z]{2,})', r'\1\2', full_text)
-    # Fix spaced emails (e.g. "a nandu127 @gmail.com" -> "anandu127@gmail.com")
+    # Reconnect emails line-wrapped across line breaks (e.g. user@gm\nail.com -> user@gmail.com or user@gmail.c\nom -> user@gmail.com)
+    def _fix_wrapped_email(m):
+        email_part = m.group(1)
+        next_word = m.group(2)
+        if re.search(r'\.(?:com|org|net|edu|in|co|io|gov|ai|tech|dev|info)$', email_part, re.I):
+            return m.group(0)
+        return email_part + next_word
+
     full_text_clean = re.sub(
-        r"\b([a-zA-Z0-9._%+-]+(?:\s+[a-zA-Z0-9._%+-]+)*)\s*@\s*([a-zA-Z0-9.-]+(?:\s+[a-zA-Z0-9.-]+)*\.[a-zA-Z]{2,})\b",
-        lambda m: m.group(1).replace(" ", "") + "@" + m.group(2).replace(" ", ""),
+        r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.\-]+)\n\s*([a-zA-Z0-9.\-]{0,15}\.[a-zA-Z]{2,}|[a-zA-Z]{1,4}\b)',
+        _fix_wrapped_email,
+        full_text
+    )
+    # Fix spaced emails (e.g. "user @ gmail.com" or "user @gmail.com" -> "user@gmail.com")
+    full_text_clean = re.sub(
+        r"\b([a-zA-Z0-9._%+-]+)\s*@\s*([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\b",
+        r"\1@\2",
         full_text_clean
     )
 
@@ -360,6 +422,7 @@ def extract_contact(full_text: str) -> dict:
 
     if primary_email:
         primary_email = re.sub(r"^(?:\$+[a-zA-Z0-9]{1,4}[ib]?|\b(?:mbi|eoi|eo|mb|MBi|MBI|EOi)\b|\$MBi?)\s*(?=[a-zA-Z0-9._%+-]+@)", "", primary_email)
+        primary_email = re.sub(r"(?:https?|www|ca|tel|mob|ph)$", "", primary_email, flags=re.IGNORECASE)
         result["email"] = {
             "value": primary_email.lower(),
             "confidence": 0.99,
@@ -390,15 +453,33 @@ def extract_contact(full_text: str) -> dict:
     # ── PHONE ──────────────────────────────────────────────
     phone_search_text = _strip_known_matches(full_text_clean)
     phone_search_text = re.sub(r'(?<=\d|\+|-)\s+(?=\d|-)', '', phone_search_text)
+    found_phones = []
+    seen_digit_keys = set()
     for raw_match in PHONE_PATTERN.findall(phone_search_text):
         cleaned = clean_phone(raw_match)
         if cleaned:
-            result["phone"] = {
-                "value": cleaned,
-                "confidence": 0.95,
-                "method": "regex",
-            }
-            break
+            digit_key = re.sub(r'\D', '', cleaned)[-10:]
+            if digit_key and digit_key not in seen_digit_keys:
+                seen_digit_keys.add(digit_key)
+                found_phones.append(cleaned)
+                if len(found_phones) >= 2:
+                    break
+
+    if len(found_phones) < 2:
+        for m in re.findall(r'\b[6-9]\d{8,9}\b', full_text_clean[:1000]):
+            cleaned = clean_phone(m) or m.strip()
+            digit_key = re.sub(r'\D', '', cleaned)[-10:]
+            if digit_key and digit_key not in seen_digit_keys:
+                seen_digit_keys.add(digit_key)
+                found_phones.append(cleaned)
+                if len(found_phones) >= 2:
+                    break
+    if found_phones:
+        result["phone"] = {
+            "value": " / ".join(found_phones),
+            "confidence": 0.95,
+            "method": "regex",
+        }
 
     # ── WEBSITE ────────────────────────────────────────────
     website_search_text = _strip_known_matches(full_text_clean)
@@ -406,8 +487,8 @@ def extract_contact(full_text: str) -> dict:
     if website_match:
         val = website_match.group(1).strip()
         val_clean = val.rstrip('.').lower()
-        # Reject academic degrees (e.g. B.Com, M.Com) matching generic website TLDs
-        if val_clean not in {"b.com", "m.com", "d.com", "e.com", "bcom", "mcom"} and not re.search(r'^(?:b|m|d|e)\.com$', val_clean, re.I):
+        # Reject academic degrees & programming languages/libraries (e.g. B.Com, Vb.net, ASP.net, Socket.io) matching generic website TLDs
+        if val_clean not in {"b.com", "m.com", "d.com", "e.com", "bcom", "mcom", "vb.net", "asp.net", "c#.net", "dot.net", "vbnet", "aspnet", "socket.io", "nest.js", "node.js", "next.js", "vue.js", "react.js", "express.js"} and not re.search(r'^(?:b|m|d|e)\.com$', val_clean, re.I):
             result["website"] = {
                 "value": val,
                 "confidence": 0.85,

@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "source_file": "258802be_4ee0263c_CV_ShrutiGoel_1_segmented.txt",
+    "generated_at": "2026-09-30T06:58:08.874048+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "S Ummary",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "shrutigoel2026@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919650002339",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/shruti-goel-splunk-aws",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      ".NET",
+      "AWS",
+      "AWS CloudWatch",
+      "AWS EC2",
+      "AWS S3",
+      "Ansible",
+      "Azure",
+      "Bash",
+      "C#",
+      "C++",
+      "CI/CD",
+      "Change Management",
+      "Collaboration",
+      "Cross-functional Collaboration",
+      "Decision Making",
+      "Disaster Recovery",
+      "Docker",
+      "Elasticsearch",
+      "Express.js",
+      "Financial Reporting",
+      "Go",
+      "Grafana",
+      "Healthcare",
+      "Helm",
+      "Java",
+      "Jenkins",
+      "Kubernetes",
+      "Leadership",
+      "Microsoft Teams",
+      "New Relic",
+      "Observability",
+      "OpenTelemetry",
+      "Performance Optimization",
+      "Prometheus",
+      "Python",
+      "Reporting",
+      "Reverse Engineering",
+      "Salesforce",
+      "Scrum",
+      "SharePoint",
+      "Splunk",
+      "Terraform",
+      "UAT",
+      "WebFOCUS"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET",
+        "C#",
+        "C++",
+        "Go",
+        "Java",
+        "Python"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS CloudWatch",
+        "AWS EC2",
+        "AWS S3",
+        "Azure"
+      ],
+      "devops": [
+        "Ansible",
+        "CI/CD",
+        "Docker",
+        "Grafana",
+        "Helm",
+        "Jenkins",
+        "Kubernetes",
+        "New Relic",
+        "Observability",
+        "OpenTelemetry",
+        "Prometheus",
+        "Terraform"
+      ],
+      "os_system": [
+        "Bash"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Scrum"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Cross-functional Collaboration",
+        "Decision Making",
+        "Leadership",
+        "Reporting"
+      ],
+      "operations": [
+        "Disaster Recovery"
+      ],
+      "search": [
+        "Elasticsearch"
+      ],
+      "web_framework": [
+        "Express.js"
+      ],
+      "finance_ops": [
+        "Financial Reporting"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "dev_tool": [
+        "Performance Optimization"
+      ],
+      "security_ops": [
+        "Reverse Engineering",
+        "Splunk"
+      ],
+      "integration": [
+        "Salesforce",
+        "SharePoint",
+        "WebFOCUS"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(WebFocus→WebFOCUS(100%), Salesforce:→Salesforce(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "SENIOR PROJECT MANAGER",
+        "company": "Macquarie Global Services, London",
+        "location": "UK",
+        "start": "08/2016",
+        "end": "Jan 2026",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 114,
+        "bullets": [
+          "Global SRE Leadership: Lead 24/7 reliability for financial services across EMEA/APAC, directing the migration of legacy monitoring to AWS SaaS, Splunk, and Elastic architectures.",
+          "Observability & AIOps: Architected hybrid-cloud monitoring stacks using OpenTelemetry, New Relic, Prometheus, Azure Monitor, & Grafana; integrated AIOps agents and GitOps into CI/CD to enable automated remediation.",
+          "Infrastructure as Code (IaC): Leveraged Terraform, Helm, and Ansible to automate Kubernetes deployments and configuration compliance, streamlining cross-regional workflows.",
+          "Strategic Collaboration: Partnered with 5+ global teams to define SLOs/SLIs, finalized RCAs and developed automation in Python, Go, and Bash to support global"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "SR SOFTWARE ENGINEER",
+        "company": "Fidelity International",
+        "location": "India",
+        "start": "09/2010",
+        "end": "08/2016",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 72,
+        "bullets": [
+          "Managed multiple non-production environments (SIT/UAT/PERF) for availability and usability purpose",
+          "Planned and executed database backups, data masking, database refreshes, post refresh activities and Application health checks, till Environment Handover.",
+          "Provide analytical support to continuously identify gaps, project opportunities, and solution for multiple Retail applications. Efficient in Incident and change management."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "BUSINESS SUPPORT MANAGER",
+        "company": "American Express",
+        "location": "India",
+        "start": "05/2009",
+        "end": "09/2010",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 17,
+        "bullets": [
+          "Client Requirement Analysis, documentation and coordination",
+          "Troubleshooting applications on functional and technical basis.",
+          "Preparing project reports, UAT test cases and analysis graphs to be presented to stake holders",
+          "Production Support of Ariba Buyer8.1, Click Commerce, Elance, COGNOS (Financial"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Reporting Tool) SOFTWARE ENGINEER",
+        "company": "NTT DATA",
+        "location": "India",
+        "start": "08/2007",
+        "end": "05/2009",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 22,
+        "bullets": [
+          "Worked on Healthcare Services Division (HSD) development project RAM tool",
+          "Code analysis and reverse engineering from PROGRESS language to ASP 2.0",
+          "Monthly reporting and Dashboard creation on SharePoint",
+          "Knowledge sharing as a trainer",
+          "Embedding Crystal Reports in the code. Code migration of extinct Crystal reports to",
+          "SRE and Reliability",
+          "Software Development:",
+          "Metrics-Driven: Data- Engineering: Distributed Python, Java, C#, .NET focused mindset for systems, incident Core, Bash scripting decision making, rooted response, SLO/SLA, • Infrastructure and in-service level indicators performance tuning Automation : AWS, and incident analysis",
+          "Observability & Ansible, Jenkins, CI/CD",
+          "Clear communicator: Monitoring: Splunk Core pipelines able to articulate complex & ITSI, Prometheus, • Change and Release technical concepts to Grafana, custom alerting Management: Risk cross-functional audiences",
+          "Cloud Engineering: AWS assessments, rollback",
+          "Professional Scrum Master",
+          "AWS Cloud Solution Architect",
+          "ITIL V3 Foundation"
+        ],
+        "sub_sections": [
+          "BOXI",
+          "S KILLS",
+          "(EC2, S3, CloudWatch), plans, and approval",
+          "Kubernetes, Docker workflows",
+          "C ERTIFICATIONS",
+          "E DUCATION",
+          "Amity School of Engineering and Technology, GGSIPU, India"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 18.5,
+      "total_months": 222,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Application Recovery plans Management and coordination",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Application decommissioning (IW correspondence), Application on-boarding (Kofax",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "etc.)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Disaster Recovery Management of existing system WebFocus, XTRAC, IW, and FileNet",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "and developed ARPs of new applications like CMIS, Kofax",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Replaced Pivotal with Salesforce: Requirement analysis and documentation for",
+        "issuer": "Salesforce",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Salesforce, Application administration and user management",
+        "issuer": "Salesforce",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Participated in architecture, design and implementation of back-end features using",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "C++, C# and Python.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Explored and created new ways to resolve problems with processes, technology or",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "team members to improve overall efficiency.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.64
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.64,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

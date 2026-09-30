@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "source_file": "14638f9b_Amit Kumar_MERN Stack Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:57.940200+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Amit Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "shreshtacchitransh@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8127092993",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/Amitkumar363",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Enthusiastic and detail-oriented Web Developer with under 1 year of hands-on experience in building responsive and\nuser-friendly websites. Skilled in HTML, CSS, JavaScript, and React, with a basic understanding of backend tech-\nnologies. Quick learner with strong problem-solving abilities and a passion for creating efficient, clean, and scalable\nweb solutions. Seeking an opportunity to contribute to a dynamic team while continuing to enhance technical exper-\ntise.",
+  "skills": {
+    "items": [
+      "Adaptability",
+      "Bootstrap",
+      "C++",
+      "CSS3",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "Java",
+      "JavaScript",
+      "Material UI",
+      "MongoDB",
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Postman",
+      "Problem Solving",
+      "Python",
+      "React",
+      "Tailwind CSS",
+      "VS Code",
+      "Visual Studio",
+      "Vite"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Adaptability",
+        "Problem Solving"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "Express.js",
+        "HTML5",
+        "Material UI",
+        "Next.js",
+        "Node.js",
+        "React",
+        "Tailwind CSS"
+      ],
+      "programming_language": [
+        "C++",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code",
+        "Visual Studio",
+        "Vite"
+      ],
+      "database": [
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), problem-solving→Problem Solving(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Ltd, Noida: Full Stack Developer",
+        "company": "Wizweb Technology Pvt. Ltd, Noida: Full Stack Developer",
+        "location": null,
+        "start": "march 2025",
+        "end": "oct 2025",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 8,
+        "bullets": [
+          "Designed and developed scalable applications using Next.js, Prisma, and PostgreSQL.",
+          "Collaborated with team members to enhance functionality and optimize performance."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Nextfly Technology, Gurgaon: Associate Engineer Intern",
+        "company": "Gained hands- on experience in modern software practices.• Conducted technical training sessions for employees using virtual and instructor-led platforms.",
+        "location": "Onsite",
+        "start": "oct 2024",
+        "end": "dec 2024",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 3,
+        "bullets": [
+          "Conducted technical training sessions for employees using virtual and instructor-led platforms.",
+          "Created and delivered presentations to train field sales representatives on new product features"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.9,
+      "total_months": 11,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech in Computer Science and Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science and Engineering",
+        "institution": null,
+        "year": "2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Graduating May 2024",
+        "degree_name": "Graduation",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Dr. A.P.J. Abdul Kalam Technical University",
+        "year": "2024",
+        "gpa": "8",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Qualified CodeKaze (Coding Ninjas annual contest).",
+      "Secured 12,000 global rank in LeetCode Weekly Contest.",
+      "Ranked Top 300 in University on GeeksforGeeks.",
+      "https://github.com/Amitkumar363",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

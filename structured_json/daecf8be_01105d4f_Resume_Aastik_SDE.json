@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "source_file": "daecf8be_01105d4f_Resume_Aastik_SDE_segmented.txt",
+    "generated_at": "2026-09-30T07:00:31.434851+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aastik Mishra",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "aastik.mishr@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919425077480",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/aastik",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "ArgoCD",
+      "Bootstrap",
+      "C++",
+      "CSS3",
+      "Database management systems",
+      "DynamoDB",
+      "Express.js",
+      "Gin",
+      "Git",
+      "GitHub",
+      "Go",
+      "HTML5",
+      "Java",
+      "JavaScript",
+      "LinkedIn",
+      "MongoDB",
+      "MySQL",
+      "Networking",
+      "Node.js",
+      "Perl",
+      "Postman",
+      "REST API",
+      "React",
+      "SASS",
+      "SQL",
+      "Spring Boot",
+      "System Design",
+      "Tailwind CSS",
+      "VS Code",
+      "gRPC",
+      "jQuery"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "devops": [
+        "ArgoCD"
+      ],
+      "web_framework": [
+        "Bootstrap",
+        "CSS3",
+        "Express.js",
+        "Gin",
+        "HTML5",
+        "LinkedIn",
+        "Node.js",
+        "REST API",
+        "React",
+        "SASS",
+        "Spring Boot",
+        "Tailwind CSS",
+        "gRPC",
+        "jQuery"
+      ],
+      "programming_language": [
+        "C++",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Perl"
+      ],
+      "database": [
+        "Database management systems",
+        "DynamoDB",
+        "MongoDB",
+        "MySQL",
+        "SQL"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "architecture": [
+        "System Design"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), REST APIs→REST API(100%), Tailwind→Tailwind CSS(100%), JQuery→jQuery(100%), Sass→SASS(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Engineer - MTS",
+        "company": null,
+        "location": "Software",
+        "start": "Jun 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 16,
+        "bullets": [
+          "· Contributed to Oracle ACFS (cluster filesystem) validation infrastructure, working on backend test frameworks for storage and volume management systems. · Designed and implemented automated workflows to validate volume, snapshot, clone, and quarantine operations, ensuring correctness under concurrent and failure scenarios. · Analyzed large-scale test failures by parsing logs, kernel outputs, and .dif artifacts, performing detailed root cause analysis across filesystem and system layers in production-like environments. · Improved observability by introducing structured logging (Tlog) and enhancing test execution visibility, significantly reducing debugging time for complex infra-level failures across multiple test scenarios. · Enhanced reliability of test execution pipelines by refining command orchestration and error-handling logic in Perl-based backend frameworks, improving overall execution stability and consistency."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Developer - Full Stack",
+        "company": "Unique Identification Authority of India",
+        "location": "Software",
+        "start": "July 2023",
+        "end": "May 2025",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 23,
+        "bullets": [
+          "· Designed and implemented a high-throughput Go-based microservice for Aadhaar reactivation using gRPC and HTTP, handling large-scale concurrent requests with optimized latency and reliability. · Built a distributed enrolment tracking system using Go and MySQL, enabling real-time status updates and improving system observability through OpenTelemetry (OTEL) instrumentation. · Improved system reliability and debugging by integrating centralized logging, metrics, and tracing, reducing issue resolution time during production incidents. · Developed and deployed services using CI/CD pipelines (ArgoCD), ensuring automated rollouts and environment consistency across deployments. · Implemented secure authentication and communication using JWT, gRPC, and encryption techniques, ensuring safe data exchange in high-volume identity systems. · Reduced manual processing overhead by 40% by integrating child enrolment workflows (BRN, DigiLocker, Passport) into existing backend systems. · Built a React-based authentication interface integrating biometric verification flows, improving system usability."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Engineer Intern",
+        "company": "Wabtec Corporation",
+        "location": "Software",
+        "start": "Jan 2023",
+        "end": "Jun 2023",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 6,
+        "bullets": [
+          "· Developed an automated routing system using C++ and JavaScript, optimizing execution plans and reducing manual intervention by 30%. · Implemented real-time signal clearance logic based on movement constraints, improving system efficiency and decision accuracy."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Engineer Intern",
+        "company": "Bytelearn",
+        "location": "Software",
+        "start": "Dec 2022",
+        "end": "Jan 2023",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 2,
+        "bullets": [
+          "· Improved frontend performance and responsiveness using React.js and Node.js, enhancing user engagement. · Identified and resolved cross-device compatibility issues, improving overall platform stability."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 46,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech in Computer Science and Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science and Engineering",
+        "institution": "Birla Institute of Technology Mesra",
+        "year": "July 2019 - July 2023",
+        "gpa": "8.16",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "source_file": "f5316d0f_0c6ba557_Manish Singh_MERN Stack Developer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:48.724004+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Manish Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "msinghrajput156@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8924842505",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Full Stack MERN Developer with 1+ year of hands-on experience developing scalable web applications using MongoDB,\nExpress.js, React.js, and Node.js. Skilled in building RESTful APIs, authentication systems, and database-driven applications.\nExperienced in backend optimization, API integration, and deploying full stack applications.\nBuilt and deployed full-stack MERN applications used by real users\nDeveloped REST APIs and authentication systems using Node.js and JWT\nOptimized backend queries and database performance using MongoDB",
+  "skills": {
+    "items": [
+      "API Design",
+      "CSS3",
+      "ES6+",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "JavaScript",
+      "MERN Stack",
+      "MongoDB",
+      "Node.js",
+      "Postman",
+      "REST",
+      "REST API",
+      "React",
+      "Redux",
+      "VS Code",
+      "Vercel"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design"
+      ],
+      "web_framework": [
+        "CSS3",
+        "Express.js",
+        "HTML5",
+        "MERN Stack",
+        "Node.js",
+        "REST API",
+        "React",
+        "Redux"
+      ],
+      "programming_language": [
+        "ES6+",
+        "JavaScript"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code"
+      ],
+      "database": [
+        "MongoDB"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "cloud_infra": [
+        "Vercel"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MERN→MERN Stack(100%), React.js→React(100%), API integration→API Design(100%), MERN→MERN Stack(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Full Stack Developer Intern",
+        "company": "TechCloak Solutions Pvt. Ltd",
+        "location": null,
+        "start": "January 2025",
+        "end": "February 2026",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 14,
+        "bullets": [
+          "TechCloak Solutions Pvt.",
+          "Ltd. | Noida, Uttar Pradesh Developed and maintained full-stack applications using MERN stack Built REST APIs using Node.js and Express.js for web applications"
+        ],
+        "sub_sections": [
+          "Implemented authentication and authorization using JWT",
+          "Optimized MongoDB queries to improve application performance"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.2,
+      "total_months": 14,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "MERN Stack Developer – Nullclass",
+        "issuer": null,
+        "year": "2024",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "React Developer Certificate",
+        "issuer": "HackerRank",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.78
+  },
+  "achievements": {
+    "items": [
+      "Active contributor on GitHub with multiple MERN projects",
+      "Hands-on experience building production-ready web applications",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

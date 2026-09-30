@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "source_file": "2d3e745a_38611240_CV_202603131656159_segmented.txt",
+    "generated_at": "2026-09-30T06:58:11.477955+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Shubham Maurya",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "mshubh939@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9082065628",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Make",
+      "Mechanical Engineering",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Word",
+      "Onboarding"
+    ],
+    "by_category": {
+      "rpa": [
+        "Make"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ],
+      "hr": [
+        "Onboarding"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Power Point→Microsoft PowerPoint(96%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Sales Executive",
+        "company": "Britannia Pvt Ltd",
+        "location": null,
+        "start": "April 2019",
+        "end": "November 2021",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 32,
+        "bullets": [
+          "I had to visit general store, hotel, restaurants, cafe shop and do onboarding to shop and provide our products services and taking order from all the shop, medical, horeca platform.",
+          "Explain products features and benefit to shopkeeper like what is the use, what's the brand, what is the taste, etc and give them sample to use customer."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sales Executive",
+        "company": "Eveready India Pvt Ltd",
+        "location": null,
+        "start": "January 2023",
+        "end": "June 2023",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 6,
+        "bullets": [
+          "I had to visit general shop, electronic store and hardware shop, medical, and taking order from that, forward it to company accountant for billing.",
+          "I had to explain all products features like alkaline batteries and normal batteries differentiation and aware them where can both the batteries be used. and how to use, what is benefit of this battery to others etc.",
+          "I had to make good relationship with customer and dealers and shopkeeper.",
+          "Achieve their target given by company through selling products."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sr. Sales Executive",
+        "company": "Fortune India Pvt Ltd ly working",
+        "location": null,
+        "start": "June 2023",
+        "end": "Current",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 40,
+        "bullets": [
+          "I had to visit, general shop ,store, hotel, restaurants, cafe shop and do onboarding to shop and provide our products services and taking order from all the hotel, horeca platform.",
+          "Explain products features and benefit to hotel maneger like what is the use, what's the brand, what is the service, etc and give them demo to use customer and take products review from customer.",
+          "focusing on productivity to meet goals.",
+          "Ensure high level of customer satisfaction through excellent sales services.",
+          "Build productivity trust relationship with customer.",
+          "Access customer needs and provide assistance and information on products features."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.4,
+      "total_months": 77,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "SSC",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Uttar Pradesh Board",
+        "year": "2012",
+        "gpa": "78%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Uttar Pradesh Board",
+        "year": "2014",
+        "gpa": "75%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Commerce",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Mumbai University",
+        "year": "2018",
+        "gpa": "55%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "source_file": "cb721102_169cae9a_Naukri_AdityaNair[1y_1m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:20.409914+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aditya Nair",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "adityanair1999@outlook.in",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918383990978",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/aditya-nair-24a096214",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/AdityaNair-IND",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/drive/1uY8358u94EJgyER8f3NoRwleVDuSbsSW",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Azure",
+      "Boosting",
+      "Claude",
+      "Decision Trees",
+      "Embeddings",
+      "Exploratory Data Analysis",
+      "FastAPI",
+      "Flask",
+      "GDPR",
+      "Generative AI",
+      "GitHub",
+      "Google",
+      "Jupyter",
+      "LLM",
+      "LLaMA",
+      "LangChain",
+      "LinkedIn",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Outlook",
+      "Microsoft Teams",
+      "Mistral",
+      "NLP",
+      "Neo4j",
+      "NumPy",
+      "Ollama",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "Random Forest",
+      "React",
+      "SQL",
+      "Security Compliance",
+      "Tableau",
+      "TensorFlow",
+      "VLAN",
+      "VPN",
+      "Vite",
+      "XGBoost",
+      "n8n",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "Azure",
+        "VLAN"
+      ],
+      "data_science": [
+        "Boosting",
+        "Decision Trees",
+        "Exploratory Data Analysis",
+        "Power BI",
+        "Tableau"
+      ],
+      "genai": [
+        "Claude",
+        "Generative AI",
+        "LLM",
+        "LLaMA",
+        "LangChain",
+        "Mistral",
+        "Ollama"
+      ],
+      "ai_ml": [
+        "Embeddings",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "Random Forest",
+        "TensorFlow",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "web_framework": [
+        "FastAPI",
+        "Flask",
+        "LinkedIn",
+        "React"
+      ],
+      "legal": [
+        "GDPR"
+      ],
+      "dev_tool": [
+        "GitHub",
+        "Jupyter",
+        "Vite"
+      ],
+      "database": [
+        "Google",
+        "Neo4j",
+        "SQL"
+      ],
+      "productivity": [
+        "Microsoft Outlook",
+        "Microsoft Teams"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "security": [
+        "Security Compliance"
+      ],
+      "security_ops": [
+        "VPN"
+      ],
+      "rpa": [
+        "n8n"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(github.com→GitHub(100%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "AI Data Specialist",
+        "company": "SoftAge AI",
+        "location": "Gurugram",
+        "start": "Jan 2025",
+        "end": "Jun 2025",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 6,
+        "bullets": [
+          "Created, recorded, and audited 19,000+ adaptive prompts and multi-step task executions (atomic, supervised, unsupervised) across agentic and generative AI models, utilizing tools like Google Suite, Unity, Claude AI, MS Azure, Google Colab, and Jupyter Notebook.",
+          "Mapped and labelled UI components for workflow automation, and captured detailed user interactions with proprietary tools (Flux,",
+          "Conducted quality audits on 2,000+ volume, target-driven workflows across AI-generated prompts, refining context, logic, and language maturity while balancing high- multi-client projects."
+        ],
+        "sub_sections": [
+          "SROT), improving structured dataset quality",
+          "and contributing to enhanced AI model understanding and validation."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Graduate Engineering Trainee",
+        "company": "Société Internationale de Télécommunications Aéronautiques",
+        "location": "Gurugram",
+        "start": "Feb 2024",
+        "end": "Oct 2024",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 9,
+        "bullets": [
+          "Validated 500+ network service orders and timely deployment. Collaborated cross-functionally for airlines and airports across MEA & APAC, ensuring compliance, documentation accuracy, with engineers, billing, and delivery teams to resolve deployment bottlenecks, accelerating service activation.",
+          "Analysed network infrastructure (bandwidth, VLAN, hardware, VPN) and resolved 15+ monthly discrepancies, improving deployment efficiency by 20%. Optimized ISP coordination, reducing project delays by 30% through precise service requirement documentation and proactive troubleshooting."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Cloud Security Associate Intern",
+        "company": "Virtually Testing Foundation",
+        "location": "Delhi",
+        "start": "Jun 2021",
+        "end": "Oct 2021",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 5,
+        "bullets": [
+          "Supported the deployment and management of cloud-based infrastructure, configuring resources for weekly project requirements while ensuring 100% security compliance and optimizing resource utilization.",
+          "Documented cloud procedures and operational workflows, reducing troubleshooting time by 15% and enabling more efficient team processes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.7,
+      "total_months": 20,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Computer Application",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Amrita Vishwa Vidyapeetham",
+        "year": "2021",
+        "gpa": "7.93",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Computer Applications",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Guru Gobind Singh Indraprastha University",
+        "year": "2018",
+        "gpa": "8.34",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

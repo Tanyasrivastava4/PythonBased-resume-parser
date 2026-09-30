@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "source_file": "200a5087_171ee9c4_Rishabh Rai_Assistant Manager-Cyber Security_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:05.064014+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Rishabh Rai",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "rishabhrai069@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9137827322 / +91-9321814580",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "ArcSight",
+      "Azure",
+      "Bash",
+      "Carbon Black",
+      "CrowdStrike",
+      "Cryptography",
+      "EDR",
+      "ELK Stack",
+      "GCP",
+      "Git",
+      "Incident Management",
+      "Jira",
+      "Linux",
+      "Mac OS",
+      "Microsoft Windows",
+      "Nessus",
+      "Nmap",
+      "OpenVAS",
+      "Penetration Testing",
+      "PowerShell",
+      "Python",
+      "SentinelOne",
+      "ServiceNow",
+      "Splunk",
+      "Tcpdump",
+      "Threat Intelligence",
+      "Vulnerability Management",
+      "Wireshark"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Tcpdump",
+        "Wireshark"
+      ],
+      "security_ops": [
+        "ArcSight",
+        "Carbon Black",
+        "CrowdStrike",
+        "Cryptography",
+        "EDR",
+        "Nessus",
+        "Penetration Testing",
+        "Splunk",
+        "Threat Intelligence"
+      ],
+      "os_system": [
+        "Bash",
+        "Linux",
+        "Microsoft Windows",
+        "PowerShell"
+      ],
+      "devops": [
+        "ELK Stack"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "security": [
+        "Incident Management",
+        "Nmap",
+        "OpenVAS",
+        "SentinelOne",
+        "Vulnerability Management"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "os": [
+        "Mac OS"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "integration": [
+        "ServiceNow"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "System Engineer",
+        "company": "Sattva EngiTech PVT LTD",
+        "location": null,
+        "start": "23 Feb 2025",
+        "end": "Present",
+        "method": "single_date_regex+title_dict+company_suffix_match",
+        "duration_months": 20,
+        "bullets": [
+          " Monitored and triaged security events using SIEM platforms, escalating critical incidents to Level 2 e as necessary. Conducted initial analysis of security incidents, identifying and reporting false positives, well gathering ¢ as as relevant data for further investigation. Assisted in the development of incident protocols and workflows to improve times and e response response effectiveness. Helped maintain and update asset inventory and vulnerability management systems. e Supported daily SOC operations by ensuring handling of alerts and continuous monitoring of security e proper tools."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.7,
+      "total_months": 20,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Science In Cyber Security Domain",
+        "degree_name": "M.Sc",
+        "degree_type": "masters",
+        "degree_field": "Cyber Security Domain",
+        "institution": null,
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Science In Information",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Information",
+        "institution": null,
+        "year": "2023",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

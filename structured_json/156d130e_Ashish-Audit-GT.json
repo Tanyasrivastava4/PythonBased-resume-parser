@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "source_file": "156d130e_Ashish-Audit-GT_segmented.txt",
+    "generated_at": "2026-09-30T06:57:58.632619+00:00",
+    "sections_found": [
+      "achievements",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ashish.sharmaa03@proton.meashish.sharmaa",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9034286823",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ashishsharmaa",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Auditing",
+      "Financial Analysis",
+      "GST",
+      "IFRS",
+      "Leadership",
+      "Microsoft Excel",
+      "Taxation",
+      "Time Management"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Financial Analysis",
+        "IFRS",
+        "Taxation"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Time Management"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Assistant Manager",
+        "company": "Lodha & Co",
+        "location": null,
+        "start": "09/2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant Manager- Audit & Assurance",
+        "company": "CP",
+        "location": "Delhi",
+        "start": "06/2023",
+        "end": "Present",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 40,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior- Audit",
+        "company": "Ernst and Young",
+        "location": null,
+        "start": "09/2021",
+        "end": "12/2022",
+        "method": "date_regex+title_dict",
+        "duration_months": 16,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate",
+        "company": "Ernst and Young",
+        "location": "UP",
+        "start": "04/2020",
+        "end": "09/2021",
+        "method": "date_regex+title_dict+comma_company_location+inherited_company",
+        "duration_months": 18,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Articled Assistant",
+        "company": "Gurgaon",
+        "location": "Haryana",
+        "start": "04/2016",
+        "end": "04/2019",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 37,
+        "bullets": [
+          "Led and participated in audit engagements including audit planning, control evaluation and report drafting.",
+          "Leading a team, reviewing deliverables prepared by junior team members, sharing observations and liaisoning with senior leadership Worked on US GAAP and Indian GAAP as well Performed control testing, ensuring compliance with applicable regulations Performed analytical procedures using year over year approach to examine fluctuations in financial statement line items Assisted in preparation of budgets and forecasts for the companies.",
+          "Income Tax Assessment handling and handling other compliances"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.2,
+      "total_months": 110,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.95
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Com (H)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "H",
+        "institution": "Institute of Chartered Accountants of India",
+        "year": "2019",
+        "gpa": "51.4%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Received 3 (Three) times performance awards in",
+      "EY for the quality of work",
+      "Completed 210 hours Certificate course on",
+      "Financial Modelling from Wall Street School",
+      "Scored 99 marks in cost accounting paper in"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

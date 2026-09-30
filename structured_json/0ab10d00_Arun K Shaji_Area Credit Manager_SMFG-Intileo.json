@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "source_file": "0ab10d00_Arun K Shaji_Area Credit Manager_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:49.382083+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "other",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Arun K Shaji",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "arunkshaji91@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919567266273",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/arun-k-shaji-a10b1a62",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Detail-oriented Credit Professional with 6+ years of experience in credit risk assessment,\nloan underwriting, and business verification across NBFC and banking sectors. Skilled in\nevaluating customer profiles, financial analysis, and field investigation. Proven ability to\nmitigate risks, detect fraud, and maintain portfolio quality. Seeking opportunities in credit\nanalysis / banking operations, including international roles.",
+  "skills": {
+    "items": [
+      "Financial Analysis",
+      "Fraud Detection",
+      "Microsoft Excel",
+      "Portfolio Monitoring",
+      "Profilers",
+      "Risk Assessment"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Financial Analysis"
+      ],
+      "finance": [
+        "Fraud Detection"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "banking": [
+        "Portfolio Monitoring"
+      ],
+      "testing": [
+        "Profilers"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), profiles→Profilers(94%), financial analysis→Financial Analysis(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Credit VP / Area Credit Manager – Greenfinch Tech Process Pvt Ltd",
+        "company": "Managing end-to-end credit operations across multiple locations in",
+        "location": null,
+        "start": "03 Dec 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 10,
+        "bullets": [
+          "Reviewing and approving CAM reports before final submission(Approvals - Ticket size 10 Lakhs to 1 Crores and recommending to RCM above 1 Crores ticket size loans based on eligibility)",
+          "Leading teams for business and income verification",
+          "Conducting legal checks and API validation (Aadhaar & PAN)",
+          "Ensuring high-quality loan processing and minimizing risk exposure",
+          "Product handled Business Loans(3 Lakhs to 1 Crores),Home loans(5 Lakhs to 3"
+        ],
+        "sub_sections": [
+          "Kerala(Trivandrum,Kottayam,Alappuzha,Kochi,Thrissur and Calicut)"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Branch Credit & Operations Manager – Cholamandalam Investment and Finance Company Ltd",
+        "company": "Crores),Loan Against Property(10 Lakhs to 3 Crores",
+        "location": null,
+        "start": "22 Jul 2024",
+        "end": "27 Nov 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 17,
+        "bullets": [
+          "Managed credit operations for Home Loans (HL),BL and LAP",
+          "Conducted Business PD visits and recommended loan approvals",
+          "Ensured compliance with company credit policies",
+          "Coordinated with sales and operations teams",
+          "Trained staff on credit norms and risk assessment",
+          "Handled delinquent accounts and follow-ups",
+          "Product handled Business Loans(5 Lakhs to 50 Lakhs),Home loans(5 Lakhs to 1"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "10 Lakhs to 1 Crores) • Deputy Manager(CO) – Credit – Ujjivan Small Finance Bank",
+        "company": "Crores",
+        "location": "Loan Against Property",
+        "start": "10 Feb 2023",
+        "end": "29 May 2024",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 16,
+        "bullets": [
+          "PD visit of Business Loans(1 Lakhs to 20 Lakhs),Home Improvement Loans(5 Lakhs to 10 Lakhs),Secured Livestock Loans(up to 3 Lakhs)etc",
+          "Verified financial documents and assessed repayment capacity",
+          "Conducted customer interactions and risk analysis",
+          "Identified early warning signals and ensured portfolio quality"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Credit Officer – Maxvalue Credits and Investments Ltd",
+        "company": "Processed group loans under JLG(Joint Liability Group)concept,Business Loans(2 Lakhs to 20 Lakhs)and conducted customer verification and business visit",
+        "location": null,
+        "start": "15 Feb 2021",
+        "end": "30 Dec 2022",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 23,
+        "bullets": [
+          "Performed field visits and fraud checks"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Credit Officer – Muthoot Mini Financiers Ltd",
+        "company": null,
+        "location": null,
+        "start": "07 Oct 2019",
+        "end": "12 Feb 2021",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 17,
+        "bullets": [
+          "Managed loan processing and customer verification",
+          "Conducted site visits and ensured compliance"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Field Verification Officer – HCS",
+        "company": "Verified customer and employee credentials for loan processing",
+        "location": null,
+        "start": "1 Apr 2018",
+        "end": "30 Apr 2019",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 13,
+        "bullets": [
+          "Conducted field and background verification of recently joined employees and submit the report to clients"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 8.0,
+      "total_months": 96,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.77
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Commerce (B.Com) – MG University, Kerala",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "MG University",
+        "institution": "MG University Kerala ITI Electrician",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [
+      "Nationality: Indian",
+      "────────────────────────────────────────────────────────────"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

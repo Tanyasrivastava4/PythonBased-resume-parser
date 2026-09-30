@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "source_file": "98bb625d_4fe07f83_NitinBhimraoJadhav_Pune_segmented.txt",
+    "generated_at": "2026-09-30T06:59:48.658907+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "projects",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Nitin Bhimrao Jadhav",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "nitinjadhav122@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7875754703",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "MBA Marketing with 13 years of qualitative experience in:\nSales & Marketing\nDistribution & Channel Management\n\nSeeking a position as Area Sales Manager at a reputed company wherein 13 years of marketing & sale experience\nand skills can be efficiently utilized to increase the sales volume and profitability of the firm.",
+  "skills": {
+    "items": [
+      "B2B Sales",
+      "Business Development",
+      "Channel Sales",
+      "Client Relationship Management",
+      "Cold Calling",
+      "Inventory Management",
+      "Logistics",
+      "Make",
+      "Market Expansion",
+      "Microsoft Teams",
+      "Payments",
+      "Presentation Skills",
+      "Procurement",
+      "Project Management",
+      "Project Sales",
+      "Reporting",
+      "Sales Management",
+      "Scheme",
+      "Supply Chain",
+      "Technical Support",
+      "Time Series Forecasting",
+      "Turnaround Time"
+    ],
+    "by_category": {
+      "sales": [
+        "B2B Sales",
+        "Channel Sales",
+        "Cold Calling",
+        "Project Sales",
+        "Sales Management"
+      ],
+      "biz_dev": [
+        "Business Development",
+        "Market Expansion"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "operations": [
+        "Inventory Management",
+        "Logistics",
+        "Procurement"
+      ],
+      "rpa": [
+        "Make"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "domain": [
+        "Payments",
+        "Supply Chain"
+      ],
+      "soft_skill": [
+        "Presentation Skills",
+        "Reporting"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "dev_tool": [
+        "Scheme"
+      ],
+      "support": [
+        "Technical Support"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "management": [
+        "Turnaround Time"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Project Sales Manager Duration",
+        "company": "A) Aludecor Lamination Pvt. Ltd",
+        "location": "Project Sales Manager Duration",
+        "start": "Sept 2024",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 25,
+        "bullets": [
+          "Sales & Strategy:",
+          "Develop and implement business strategies to achieve sales objectives for projects.",
+          "Plan and execute action plans for specific projects.",
+          "Manage the sales pipeline and identify new business opportunities.",
+          "Client & Relationship Management:",
+          "Build and maintain relationships with key clients, including architects, builders, and fabricators.",
+          "Manage follow-ups with prospective and existing clients.",
+          "Conduct detailed technical presentations to promote products.",
+          "Project and Operational Coordination:",
+          "Coordinate with internal departments like accounts, production, and sales coordination to ensure timely delivery of materials.",
+          "Manage Sales Receivables and handle outstanding payments.",
+          "Ensure smooth supply of materials according to project schedules.",
+          "Support and reporting:",
+          "Collaborate with technical teams to provide product support to clients.",
+          "Track project progress and provide regular reports on performance and pipeline."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Assistant Manager (Project Sales) Duration",
+        "company": "B) Merino Industries Ltd",
+        "location": "Assistant Manager  Duration",
+        "start": "Sept 2023",
+        "end": "Sept 2024",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 13,
+        "bullets": [
+          "To meet the influencers in projects and get out products specified: Architects / Interior Designers / PMCs Contractors etc.",
+          "Ensure Sales Volumes are achieved.",
+          "Talk about our products, their FABs, and get Merino listed in architect BOQ, as well as specified in the drawings.",
+          "Meet Contractors and close the loop, where architects have specified.",
+          "To ensure 3 times of target, pipeline has been generated.",
+          "Meet clients and close the loop on pricing, and ensure specified product goes to site.",
+          "3-4 productive visits and 8-10 calls per day.",
+          "Ensure that all visit data is captured live data in CRM.",
+          "2 business development in a month (New Client).",
+          "Up Selling and Product Mix.",
+          "Ensure 100% compliance of DSO and follow credit management policy."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Bison Panel) – As Senior Sales Officer Duration:   and 9 months",
+        "company": "C) NCL Industries Ltd",
+        "location": null,
+        "start": "Nov.2020",
+        "end": "Sept 23",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 0,
+        "bullets": [
+          "Conduct the promotional activities",
+          "Make the cold calls/ Follow up calls",
+          "Identify the new Distributors/ Dealers/ Sub Dealers",
+          "Achieving sales targets",
+          "Collect Receivables",
+          "Meet the Builders, Contractors, Architects, Govt. Departments and Fabricators to explain about product and applications",
+          "Cover the assigned areas / Territory",
+          "Identify the new projects",
+          "Order placement",
+          "Coordination with commercial and plant logistics teams for timely deliveries and handling quality concerns, if any",
+          "Preparing the reports and sending regularly to managers Highlights:"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "C) NCL Industries Ltd",
+        "location": null,
+        "start": "2022",
+        "end": "2023",
+        "method": "year_range_short_regex+inherited_company",
+        "duration_months": 13,
+        "bullets": [
+          "Efficiently introduced bison board in untapped cities like Nanded & Latur and generated sales.",
+          "Appointed distributors in vacant areas like Warje, Wagholi, Ravet & Talegaon and generated sales.",
+          "Increased sales through various projects.",
+          "Increased onsite fabricators meets and generated the sales of higher thickness"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Duration –   and 7 months",
+        "location": null,
+        "start": "Mar.2015",
+        "end": "Oct 20",
+        "method": "date_regex",
+        "duration_months": 0,
+        "bullets": [
+          "Formulating the strategies & reaching out to the unexplored market segment / customers group for business expansion.",
+          "Generating sales leads organically, as well as through customer referrals, Internet research, and cold calling for various accounts",
+          "Identifying and developing potential customers for achieving business volumes consistently & profitably",
+          "Prepare quotations, follow-up, negotiating & finalizing orders",
+          "Generating business from existing accounts and achieving profitability and sales growth",
+          "Mapping client’s needs & providing best product to suit their requirements",
+          "Building healthy business relations with clients and ensuring maximum customer satisfaction",
+          "Regular monitoring of sales figures and implementation of sales strategies",
+          "Coordinates own visit schedule with the assigned technical representative",
+          "Collection, dissemination and analysis of customer feedback and information",
+          "Coordinating with back end sales coordinator for payment processing and closure. Monitor outstanding amounts of customers",
+          "Coordination with commercial and plant logistics teams for timely deliveries and handling quality concerns",
+          "Resolving customer complaints (product related) & apprising technical team ensuring prompt resolution with stipulated TAT",
+          "Taking successful trials of existing and new products (of both liquid and powder) at customers end.",
+          "Achieving individual sales target via the maximization of sales opportunities. Highlights:",
+          "Efficiently introduced new products in tippers and trailers and furniture industry in Maharashtra state and generated sales.",
+          "Played pivotal role in achieving zero PM sales to 50 lacs. PM sales in 2 years for powder paints",
+          "Provide technical support to both liquid paints & powder paints customers for resolving their surface preparation and paint application related problems."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "As Sales & Marketing Executive Duration",
+        "company": "E) Zigma Paints Pvt. Ltd",
+        "location": "As Sales & Marketing Executive Duration –   and 7 months",
+        "start": "Jul.2012",
+        "end": "Feb.2015",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 32,
+        "bullets": [
+          "Ensure achievement of sales targets for the period and take measures to increase the market share / sales targets in the assigned geographical area.",
+          "Prepare and implement strategy for network development, coverage and increase market share (WOM & DOM).",
+          "Actively soliciting and closing sales through sourcing and developing new leads, cold calls and face-to-face meetings.",
+          "Selection & appointment of appropriate distributors.",
+          "Working on lead and generation of business through dealers, application contractors.",
+          "Tracks and maintains a strong pipeline of project opportunities within region.",
+          "Conducting meetings of the applicators, contractor, sub-dealer, direct dealer, distributor and influencers.",
+          "Making contract, regularly visiting clients, creating customers for channel sales, getting their feedback, understanding their problems and preparing solutions accordingly.",
+          "Maintenance of data on stock availability at distributors to cater to stock shortage of sub-dealers. Monitoring and replenishment of stocks in coordination with supply chain team and distributors.",
+          "Informing the customers about the various schemes and offers of the company, reminding and encouraging them to achieve scheme targets by presenting final discounts and prices.",
+          "Ensuring payment compliance of customers through regular follow-up and contract.",
+          "Able to identify market situation, opportunities, gaps, customer requirements, competitor actions etc. and identify & communicate tactical / strategic action plans.",
+          "Timely & effective resolution to customer complaints.",
+          "Being aware of market trends and competitor schemes and prices, informing the senior team members about the same, preparing counter-measures accordingly.",
+          "Closely coordinate with logistics team, distributors / dealers ensuring timely delivery of materials. Highlights:",
+          "Created new channel sales network for both liquid paints and powder paints, appointment of stockiest, CFA and align retail channel in western and south region.",
+          "Created trust in the network (quality & in time supply)",
+          "Increased the brand acceptance level in market",
+          "Enhanced the stock management at market & factory."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.8,
+      "total_months": 82,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.91
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "A. MBA (Marketing) from Matoshri College of Management (Pune University) Nashik in 2012 with 50%",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": "Marketing",
+        "institution": "Matoshri College of Management (Pune University) Nashik",
+        "year": "2012",
+        "gpa": "50%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Com (IRTD) From B.Y.K. College of Commerce (Pune University) Nashik in 2009 with 52.53%",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "IRTD",
+        "institution": "B. Y.K. College of Commerce (Pune University) Nashik",
+        "year": "2009",
+        "gpa": "52.53%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "B2B Sales",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Skilled in market forecasting, identifying & developing new markets, increasing brand awareness",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "formulating and implementing marketing strategies to exploit business opportunities.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Experienced in enhancing market penetration, business volumes and growth by direct selling & project",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "selling activities.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Excellence in building and extensive client base, client retention, coordinating with decision makers",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "and customers.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Experienced in achieving targets and increasing sales revenues, implementing procedures and service",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "standards for business excellence.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "A. Awarded with star challenger award in recognition of outstanding performance in developing new areas in the",
+      "FY 2022-23.",
+      "D) Grand Polycoats Co. Pvt. Ltd. – As Sales & Marketing Executive"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

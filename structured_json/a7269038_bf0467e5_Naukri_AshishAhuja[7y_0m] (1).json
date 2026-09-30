@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "source_file": "a7269038_bf0467e5_Naukri_AshishAhuja[7y_0m] (1)_segmented.txt",
+    "generated_at": "2026-09-30T06:59:57.034254+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ashish Ahuja",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ashishahuja124@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7416624672",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/AshishAhuja124",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "API Design",
+      "AWS",
+      "AWS EC2",
+      "AWS RDS",
+      "AWS S3",
+      "Agile",
+      "Angular",
+      "Azure DevOps",
+      "Bitbucket",
+      "CI/CD",
+      "CSS3",
+      "Code Reviews",
+      "Cypress",
+      "DevOps",
+      "Docker",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "GitLab",
+      "GraphQL",
+      "HTML5",
+      "Identity Management",
+      "Java",
+      "JavaScript",
+      "Jenkins",
+      "Jest",
+      "Jira",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Node.js",
+      "Project Management",
+      "Python",
+      "REST",
+      "React",
+      "Redux",
+      "SVN",
+      "Scrum",
+      "System Design",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design",
+        "Microservices",
+        "System Design"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS RDS",
+        "AWS S3"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Jira",
+        "Project Management",
+        "Scrum"
+      ],
+      "web_framework": [
+        "Angular",
+        "CSS3",
+        "Express.js",
+        "GraphQL",
+        "HTML5",
+        "Node.js",
+        "React",
+        "Redux",
+        "Tailwind CSS"
+      ],
+      "devops": [
+        "Azure DevOps",
+        "CI/CD",
+        "DevOps",
+        "Docker",
+        "GitHub Actions",
+        "Jenkins",
+        "SVN"
+      ],
+      "dev_tool": [
+        "Bitbucket",
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "GitLab"
+      ],
+      "testing": [
+        "Cypress",
+        "Jest"
+      ],
+      "security": [
+        "Identity Management"
+      ],
+      "programming_language": [
+        "Java",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Tailwind→Tailwind CSS(100%), RESTful APIs→REST(100%), Gitlab→GitLab(100%), API Gateway→API Design(100%), Sprint Planning→Scrum(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Title | Module Lead",
+        "company": "Unknown",
+        "location": null,
+        "start": "Mar 2024",
+        "end": "Present",
+        "method": "date_regex+dash_split",
+        "duration_months": 31,
+        "bullets": [
+          "Technology Stack: React.js, Redux, Node.js, AWS, JavaScript, Material UI, Tailwind CSS, Java, Jest, Webpack Responsibilities:",
+          "Led UI development for Ethiqly, an AI-powered SaaS platform transforming writing instruction through real- time AI-driven feedback, AWS-based data processing, and scalable cloud infrastructure.",
+          "Developed scalable, reusable React components for a real-time feedback system, improving student engagement by 30%.",
+          "Integrated Stripe payment gateway & SSO authentication, enabling secure transactions, user subscription management, and seamless account access.",
+          "Implemented Google Drive API for document storage, retrieval, and AI-powered assignment reviews, enhancing collaboration efficiency.",
+          "Built multiple NPM packages (@sfly/martech-pop-up, @sfly/apply-promos) for marketing automation & financial transactions, increasing promo code accuracy by 30% and enhancing user engagement by 25%.",
+          "Optimized Webpack configurations, reducing app load time by 30% and improving performance at scale.",
+          "Authored developer documentation & onboarding guides, enhancing knowledge transfer and internal adoption of engineering best practices."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Title: Senior Software Engineer",
+        "company": "Technology Stack: React, Redux, Node.js, AWS, JavaScript, JSX, Tailwind, Babel Responsibilities:",
+        "location": "India",
+        "start": "Dec 2022",
+        "end": "Apr 2024",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 17,
+        "bullets": [
+          "Developed a healthcare analytics platform with real-time data visualization, improving diagnostic accuracy by 40%.",
+          "Integrated AWS-based HIPAA-compliant cloud storage, ensuring secure and scalable patient data management.",
+          "Engineered API interactions between frontend and backend financial-grade data repositories, ensuring regulatory compliance and data security.",
+          "Implemented performance optimizations using React Suspense & Memoization, improving rendering efficiency."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Title: Software Engineer",
+        "company": "Berkadia Services India",
+        "location": null,
+        "start": "Apr 2022",
+        "end": "Dec 2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 9,
+        "bullets": [
+          "Technology Stack: Angular 13, React, Node.js, Express.js, AWS, JavaScript, Angular Material Responsibilities:",
+          "Developed an automated financial document processing system, improving mortgage & investment data validation by 40%, reducing manual processing time.",
+          "Built a financial data normalization module, ensuring compliance with capital markets risk management standards, and enhancing data integrity by 25%.",
+          "Designed & implemented React-based UI dashboards for real-time investment tracking, providing data- driven insights for financial decision-making.",
+          "Optimized AWS-based mortgage processing pipelines, reducing system downtime by 20%, and ensuring secure and scalable data transactions.",
+          "Implemented Jest testing framework, achieving 85%+ test coverage, reducing post-deployment defects by 30%.",
+          "Followed the Software Development Life Cycle (SDLC) from requirement gathering and system design to development, testing, and deployment, ensuring high-quality and secure software delivery.",
+          "Collaborated with architects and business stakeholders, contributing to solution design discussions for scalable financial applications."
+        ],
+        "sub_sections": [
+          "Capgemini Technology Services India Limited"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Title | Associate Consultant",
+        "company": "Unknown",
+        "location": null,
+        "start": "May 2021",
+        "end": "Mar 2022",
+        "method": "date_regex+dash_split",
+        "duration_months": 11,
+        "bullets": [
+          "Technology Stack: Angular12, Node.js, Express.js, AWS, JavaScript, Single SPA (Micro frontend), Chart.js, Babel Responsibilities:",
+          "Developed a financial trading platform for real-time market data visualization, integrating live stock price tracking & trend analysis, improving trade execution efficiency by 35%.",
+          "Engineered financial data accuracy dashboards, ensuring 20%+ improvement in trade reconciliation and investment tracking.",
+          "Optimized real-time financial data visualization using Chart.js, reducing UI latency by 30% in high-volume trading scenarios.",
+          "Designed a Micro Frontend architecture, improving performance and reducing page load times by 25% across trading applications.",
+          "Led technical redesign initiatives, improving application navigation and boosting user engagement by 20% in high-frequency trading applications.",
+          "Designed an internal styling library using Angular, improving UI consistency across internal applications."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Title: Software Engineer",
+        "company": "Locusnine Innovations",
+        "location": null,
+        "start": "Mar 2020",
+        "end": "Sep 2020",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 7,
+        "bullets": [
+          "Technology Stack: Angular8, Node.js, Express.js, AWS, MongoDB, JavaScript, HTML5, CSS3 Responsibilities:",
+          "Developed a KPI-based quality management dashboard, enabling real-time performance tracking for enterprise clients, improving reporting efficiency by 30%.",
+          "Translated Figma designs into responsive and accessible React components, ensuring pixel-perfect UI implementation.",
+          "Implemented AWS-based backend services (Lambda, API Gateway, S3) to support scalable data processing, reducing API response time by 20%.",
+          "Optimized Angular UI components, enhancing dashboard performance and reducing page load time by 25%.",
+          "Integrated EnjoyHint, and Joyride libraries, enhancing user guidance and experience."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Title: Full Stack Developer",
+        "company": "Cognizant Technology Solutions",
+        "location": null,
+        "start": "Aug 2018",
+        "end": "Feb 2020",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 19,
+        "bullets": [
+          "Developed a claims data dashboard for MetLife insurers, improving claims processing efficiency by 20%, and reducing manual workload for underwriters.",
+          "Implemented AWS CI/CD pipelines, automating deployment & reducing manual intervention by 50%."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.6,
+      "total_months": 91,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.93
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Srinidhi Institute of Science and Technology, Hyderabad – B.Tech (2018)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Srinidhi Institute of Science and Technology",
+        "year": "2018",
+        "gpa": "79",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

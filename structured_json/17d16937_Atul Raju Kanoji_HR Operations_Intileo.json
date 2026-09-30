@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "source_file": "17d16937_Atul Raju Kanoji_HR Operations_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:59.216599+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Atul Raju Kanoji",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "atulkanoji1@mail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "-4000182 / +919867848523",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Motivated and detail-oriented graduate in Business Management with hands-on experience\nin HR operations and administration. Skilled in onboarding and maintaining HR\ndocumentation. Proficient in MS Office applications with strong communication skills,\nadaptability, and team collaboration abilities. Passionate about contributing to\norganizational growth while enhancing personal and professional skills.",
+  "skills": {
+    "items": [
+      "Adaptability",
+      "Collaboration",
+      "Communication",
+      "HR Management",
+      "Interpersonal Skills",
+      "MS Office",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Onboarding",
+      "YouTube"
+    ],
+    "by_category": {
+      "soft_skill": [
+        "Adaptability",
+        "Collaboration",
+        "Communication",
+        "Interpersonal Skills"
+      ],
+      "hr": [
+        "HR Management",
+        "Onboarding"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft Word"
+      ],
+      "media": [
+        "YouTube"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Excel→Microsoft Excel(100%), Youtuber→YouTube(93%), onboarding→Onboarding(100%), adaptability→Adaptability(100%))"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Bachelor of Management Mumbai University",
+        "year": "2018",
+        "gpa": "47%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SSC",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Maharashtra State Board",
+        "year": "2016",
+        "gpa": "41%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

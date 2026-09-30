@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "source_file": "3a2b9d17_c68c8bca_Naukri_SakshiJaiswal[6y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:58:18.378144+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sakshi Jaiswal",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sakshijaiswal645@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918108497553",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "A results-driven Quality Manager and Technical Officer with extensive experience in laboratory operations,\nquality assurance, and regulatory compliance. Proven expertise in implementing and maintaining ISO/IEC\n17025:2017 Laboratory Management Systems while ensuring analytical precision, reliability, and adherence\nto global quality standards. Adept at supporting regulatory submissions, technical documentation, and\nfostering continuous improvement to uphold scientific integrity and operational excellence.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "Calibration",
+      "California Proposition 65",
+      "Classification Web",
+      "Conflict Minerals",
+      "Continuous Improvement",
+      "DSC",
+      "Dissolution Testing",
+      "E-learning",
+      "ED-XRF",
+      "FTIR",
+      "GMP",
+      "ISO 17025",
+      "Instrumentation",
+      "Karl Fischer Titration",
+      "Loss on Drying",
+      "MSDS",
+      "Operational Excellence",
+      "Quality Assurance",
+      "REACH",
+      "Regulatory Compliance",
+      "RoHS",
+      "SAP",
+      "SAP S/4HANA",
+      "SOP",
+      "SVHC",
+      "TGA",
+      "Technical Writing",
+      "UV-Vis Spectrophotometry"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing"
+      ],
+      "engineering_hardware": [
+        "Calibration",
+        "Instrumentation"
+      ],
+      "compliance": [
+        "California Proposition 65",
+        "Conflict Minerals",
+        "GMP",
+        "ISO 17025",
+        "MSDS",
+        "REACH",
+        "RoHS",
+        "SVHC"
+      ],
+      "search": [
+        "Classification Web"
+      ],
+      "operations": [
+        "Continuous Improvement",
+        "Quality Assurance",
+        "SOP"
+      ],
+      "instrumentation": [
+        "DSC",
+        "Dissolution Testing",
+        "ED-XRF",
+        "FTIR",
+        "Karl Fischer Titration",
+        "Loss on Drying",
+        "TGA",
+        "UV-Vis Spectrophotometry"
+      ],
+      "education_domain": [
+        "E-learning"
+      ],
+      "process": [
+        "Operational Excellence"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "integration": [
+        "SAP",
+        "SAP S/4HANA"
+      ],
+      "content": [
+        "Technical Writing"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Classification→Classification Web(95%), Instrumentation:→Instrumentation(97%), UV-Vis→UV-Vis Spectrophotometry(100%), Karl Fischer→Karl Fischer Titration(100%), Dissolution→Dissolution Testing(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Technical Officer/Quality Manager",
+        "company": "Rajiv Plastics Private Limited",
+        "location": null,
+        "start": "March 2023",
+        "end": "Present",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 43,
+        "bullets": [
+          "Implemented and maintained ISO/IEC 17025:2017 Laboratory Management System, ensuring compliance with international testing standards.",
+          "Prepared and issued MSDS, Product Safety Statements, RoHS-REACH-SVHC declarations, food compliance certificates, and shelf-life certificates.",
+          "Developed hazard communication documents for global markets, ensuring adherence to regulatory requirements.",
+          "Managed SAP S/4 HANA for product hazard classification, SDS generation, and hazard labeling.",
+          "Facilitated 3TG compliance declarations and raw material acknowledgment letters for customer submissions.",
+          "Oversaw regulatory compliance for SVHC, Conflict Minerals, RoHS, and California Proposition 65 for substances and mixtures including pigments, polymers, catalysts, and additives."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Polymer Compounds and Masterbatches for various applications",
+        "location": "Polymer Films, Flexibles",
+        "start": "Jan 2021",
+        "end": "Mar 2023",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 27,
+        "bullets": [
+          "Maintained accurate calibration records and generated reports in line with FDA regulations and internal standards."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Bee Pharmo Labs Private Limited",
+        "location": null,
+        "start": "Jan 2020",
+        "end": "Oct 2020",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 10,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 6.6,
+      "total_months": 79,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.79
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of Science (M.Sc.), InOrganic Chemistry",
+        "degree_name": "M.Sc",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "InOrganic Chemistry Thakur College of Science and Commerce",
+        "year": "2017 - 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Science (B.Sc.), Chemistry",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Chemistry Thakur College of Science and Commerce",
+        "year": "2014 - 2017",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Higher Secondary Certificate (H.S.C.), Science",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "H.S.C.",
+        "institution": "NMF College of Commerce and Science",
+        "year": "2012 - 2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Regulatory Compliance: SVHC, Conflict Minerals, RoHS, California Proposition 65",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Laboratory Quality Systems: GMP, SOP, Calibration & Validation",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "St. Francis High School",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "2012",
+        "issuer": null,
+        "year": "2011",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Uncertainty of Measurement and Decision Rule as",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "per ISO/IEC 17025",
+        "issuer": null,
+        "year": "2017",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Quality Council of India",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Jun",
+        "issuer": null,
+        "year": "2025",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Energy Dispersive Spectrometer EDX-7200",
+        "issuer": "EDX",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Routine Maintenance, Calibration and Safety",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Precautions Training",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Shimadzu Analytical (India)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Jan",
+        "issuer": null,
+        "year": "2025",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "LMS as per ISO/IEC 17025: & Internal Auditing",
+        "issuer": null,
+        "year": "2017",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Indian Rubber Manufacturers Research Association",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Oct",
+        "issuer": null,
+        "year": "2023",
+        "confidence": 0.75,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.67
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.86
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.67,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[14]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

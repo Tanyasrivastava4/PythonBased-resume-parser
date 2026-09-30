@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "source_file": "9f56f64f_2bd45dd6_cv CA Ranjan_segmented.txt",
+    "generated_at": "2026-09-30T06:59:51.824374+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Ranjan Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ranshajanma@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7004484594",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Chartered Accountant with 3+ years of experience in statutory and tax\naudits, financial reporting, and GST compliance. Experienced in auditing\nmanufacturing and leasing sectors with turnover exceeding ₹150 Crores.\nProficient in risk-based audit procedures, preparation of financial statements\nas per Schedule III of the Companies Act, 2013, Tax Audit Reports under\nSection 44AB (Forms 3CA/3CB & 3CD), and audit reporting including CARO\n2020.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "CARO 2020",
+      "Communication",
+      "Financial Reporting",
+      "GST",
+      "Income Tax Return",
+      "Lease Management",
+      "Microsoft Excel",
+      "Reporting",
+      "SAP",
+      "Schedule III",
+      "Statutory Audit",
+      "Tally",
+      "Tax Audit"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Tally"
+      ],
+      "compliance": [
+        "CARO 2020"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reporting"
+      ],
+      "accounting": [
+        "GST",
+        "Tax Audit"
+      ],
+      "finance": [
+        "Income Tax Return"
+      ],
+      "real_estate": [
+        "Lease Management"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "financial_reporting": [
+        "Schedule III"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(GST Compliance→GST(100%), ITR Filing→Income Tax Return(100%), Reporting.→Reporting(95%), financial reporting→Financial Reporting(100%), auditing→Auditing(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "",
+        "company": "coordinated with engagement partner and client’s management to resolve audit queries and recommend corrective actions.",
+        "location": "",
+        "start": "March 2021",
+        "end": "April 2024",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 38,
+        "bullets": [
+          "Conducted statutory audits and tax audits of manufacturing, leasing and energy sectors (footwear, bricks, tiles, solar power & leasing entities) with turnover exceeding ₹150 Cr.",
+          "Performed risk-based audit procedures including vouching, ledger scrutiny, analytical review, compliance testing, prepared financial statements as per Schedule III of the Companies Act 2013 and Drafted audit reports and documentation, including reporting under Companies (Auditor’s Report) Order (CARO) 2020.",
+          "Conducted payroll and wages audit, verifying payroll records, attendance registers, overtime calculations, and statutory deductions and payments (PF, ESI, TDS, Bonus) and performed payroll–GL reconciliations considering internal control.",
+          "Conducted substantive audit procedures on Property, Plant & Equipment including testing of additions, depreciation, capitalization and reconciliation of FAR with General Ledger.",
+          "Assisted in Tax Audits under Section 44AB, including preparation and review of Tax Audit Reports (Forms 3CA/3CB and 3CD) and verification of financial and tax compliance.",
+          "Filed 100+ Income Tax Returns for individuals, firms, and corporates ensuring compliance with Income Tax Act.",
+          "Led and supervised a team of 4 audit associates, ensuring timely and accurate execution of audit procedure and maintain quality standard under reviews directly by the engagement manager and partner.",
+          "Identified ₹76 lakhs of Non-Performing Assets (NPA) during audit of Punjab National Bank – (Jalandhar Branch) through verification of advances, deposits, and regulatory compliance.",
+          "Supervised GST compliance including preparation and filing of GSTR-1, GSTR-3B, and GSTR-9 and reconciliations.",
+          "Performed concurrent audit procedures at State Bank of India – (Delhi Branch) focusing on transaction testing and operational compliance.",
+          "Participated in stock audit of pharmaceutical company, including inventory verification and valuation check. Links:"
+        ],
+        "sub_sections": [
+          "CONTACTS",
+          "+91-7004484594",
+          "Laxmi Nagar, New Delhi, 110092",
+          "https://www.linkedin.com/in/ca-",
+          "ranjan-sharma-44905a1a2"
+        ],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.2,
+      "total_months": 38,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.55
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "● C.A Final (Group I&II) –Jan",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2026",
+        "gpa": "56%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "● IPCC (Group I&II)– Jan 2021",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": "Group I&II",
+        "institution": null,
+        "year": "2021",
+        "gpa": "55%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "● B.Com – LNMU, Darbhanga",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "LNMU",
+        "institution": null,
+        "year": "2016",
+        "gpa": "64%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.81
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.55,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

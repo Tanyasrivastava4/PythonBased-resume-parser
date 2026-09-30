@@ -1,0 +1,801 @@
+{
+  "meta": {
+    "source_file": "6622023b_6d40ca5b_Naukri_SHIVUNIYAL[16y_0m]_segmented.txt",
+    "generated_at": "2026-09-30T06:59:02.746074+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "email": {
+      "value": "somi.4ever@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-8393881701 / 9410196049",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "Simplilearn.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "• Accomplished IT professional with 16 + years of extensive experience in Program &",
+  "skills": {
+    "items": [
+      "AWS",
+      "ChatGPT",
+      "Digital Transformation",
+      "E-Governance",
+      "GDPR",
+      "Juniper",
+      "MS Office",
+      "Manual Testing",
+      "Objective C",
+      "PMP",
+      "Project Management",
+      "SLA Management",
+      "Vendor Management"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "productivity": [
+        "ChatGPT",
+        "MS Office"
+      ],
+      "consulting": [
+        "Digital Transformation"
+      ],
+      "management": [
+        "E-Governance"
+      ],
+      "legal": [
+        "GDPR"
+      ],
+      "hardware": [
+        "Juniper"
+      ],
+      "testing": [
+        "Manual Testing"
+      ],
+      "programming_language": [
+        "Objective C"
+      ],
+      "project_mgmt": [
+        "PMP",
+        "Project Management"
+      ],
+      "support": [
+        "SLA Management"
+      ],
+      "operations": [
+        "Vendor Management"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(objective→Objective C(95%), SLA management→SLA Management(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": ": +91-8393881701",
+        "location": "9410196049",
+        "start": "2019",
+        "end": "2020",
+        "method": "year_range_short_regex+comma_company_location",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "State Level Project Coordinator for Line Departments and Districts of Haryana",
+        "company": "Chandigarh",
+        "location": null,
+        "start": "2020",
+        "end": "2022",
+        "method": "date_regex",
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [
+          "ANTYODAYA",
+          "Saral platform has been • Manage and ensure timely delivery of",
+          "SARAL (E-",
+          "developed as a single",
+          "Governance Project), integrated web portal for the",
+          "(E Governance",
+          "delivery of all the schemes and",
+          "Award 2020-",
+          "services offered by the",
+          "Gold, Digital",
+          "Government of Haryana. Till",
+          "India Platinum",
+          "now, 600+ schemes and",
+          "Award- 2020",
+          "services of more than 40",
+          "Winning",
+          "different departments have",
+          ": 08-10-1983",
+          "Gender",
+          ": Male"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.1,
+      "total_months": 37,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA",
+        "degree_name": "MBA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Project Manager UIDAI Gov. of India on Roll of National Institute for",
+        "year": "2009",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "MCA Computer",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "National Institute of Electronics & Information Technology (NIELIT.",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.Sc",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Computer Sikkim Manipal University of Health",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "PMP Certified , PMP® Number: 3359669",
+        "issuer": "PMP",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Advance Certification in Network Management from ISBM Mumbai in Nov",
+        "issuer": null,
+        "year": "2012",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Juniper Networks Certified Associate from Juniper, Cert Manager ID is JPR00237215.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Information System Management from Talent Access HR Services New Delhi in .",
+        "issuer": null,
+        "year": "2007",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "Business Process Management Certificate from Great Learning in .",
+        "issuer": "Great Learning",
+        "year": "2022",
+        "confidence": 0.95,
+        "needs_review": false
+      },
+      {
+        "name": "Course completion certificate on AWS from Simplilearn.com",
+        "issuer": "AWS",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Membership of Professional Body",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "PMI ® certified Member of Project Management Institute, Member id 8018014.",
+        "issuer": "PMI",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Member of Technical Committee.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Member of Data Privacy Committee.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "in other cases.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "document for Help Line user.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Manual Testing of AAS.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Coordination with NIC in API sharing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "user account creation.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Weekly Review of application though",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "dash board.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "SPOC for CRID department.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Parivar Pahchan Patra The primary objective of Parivar • Integration of Services/Schemes with",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Pehchan Patra (PPP) is to create PPP through API",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "authentic, verified and reliable",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "https://meraparivar.har data of all families in Haryana. • Worked with CRID department for",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "yana.gov.in/",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "PPP identifies each family in resolution of pending applications",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Haryana and keeps the basic data applied through mera parivar.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "of the family, provided with the • Migration of services from manual",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "consent of the family, in a digital mode to automatic mode in mera parivar.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "format",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "DEGS-Rudraprayag, (ITDA) Government of Uttarakhand,  to 2020",
+        "issuer": null,
+        "year": "2014",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "e District Mission Mode Project (E-Governance Project)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Activities performed",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Driving the implementation of various MMPs (mission mode projects), National e",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Governance Program components and other State projects as an e District Manager.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Facilitate acceptance of Supply, Installation and Commissioning of Hardware, Facilitate data",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "digitization, Training /workshop activities.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Regular reviews of all the services deliver under e District Project and help in resolution of",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "issue if any.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Provided training to Government Officials, End User and coordinated with line",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "departments",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Organized e District review meetings including preparation of agenda and drafting Minute",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "of Meetings",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Monitor and report the number of transactions happening in the districts under various service",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "categories",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Process Management, Coordination, Vendor Management, SLA management, Capacity",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Building etc.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Training on Information System Management, Aayushmaan Bharat Yojana, GeM.etc",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Webinar",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Chat GPT and AI Hack with MS Office by Skill Nation",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.63
+  },
+  "achievements": {
+    "items": [
+      "On boarding of Uttarakhand State Cooperative bank into Aadhaar Authentication system.",
+      "Uttarakhand became the first state in India to use Aadhaar authentication (e-KYC) Uniform Civil",
+      "Code portal.",
+      "Registration through Aadhaar has been implemented for the Char Dham and Hemkund Sahib Yatra.",
+      "Department of Tourism becomes SUB AUA / KUA.",
+      "Department of Information Technology Electronics & Communication Government of Haryana,",
+      "23rd National Level e Governance award – GOLD, given by Department of",
+      "Administrative Reforms and Public Grievances (DARPG) Government of India in",
+      "February 2020.",
+      "Letter of Appreciation received from CEO UIDAI.",
+      "Second Winner at National Level under NIC Account in Wipro Write-up Computation.",
+      "Received Appreciation Certificate/Letter from District Administration for various",
+      "activities.",
+      "Received Appreciation Letter from C.A.O for Excellent Technical Work and Support.",
+      "Received Appreciation Letter from Election Officer for support in IT related activities.",
+      "Workshops:",
+      "Workshop on Deriving Maximum Impact Out of Aadhaar .",
+      "Workshop on Digital Payments.",
+      "National Conference",
+      "23th National Conference on e-Governance organized by Department of Information Technology,",
+      "Maharashtra in Mumbai.",
+      "Aadhaar Samvad 2025."
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.84
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.name",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.63,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[13]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[14]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[15]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[16]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[17]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[18]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[19]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[20]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[21]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[22]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[23]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[24]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[25]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[26]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[27]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[29]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[30]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[31]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[32]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[33]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[34]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[35]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[36]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[37]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[38]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[39]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[40]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[41]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[42]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[43]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[44]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[45]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[46]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[47]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

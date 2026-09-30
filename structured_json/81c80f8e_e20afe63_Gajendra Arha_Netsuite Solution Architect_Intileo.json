@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "source_file": "81c80f8e_e20afe63_Gajendra Arha_Netsuite Solution Architect_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:27.190288+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Gajendra Arha",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "gajendra.arha@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9958858970",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/gajendra-singh-arha-17723b24",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "oracle.com/in",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "As a 6x Certified NetSuite Techno-Functional Lead with over 14 years\nof experience, I specialize in architecting and delivering scalable ERP\nsolutions that streamline financial and operational processes across\nglobal organizations. I have successfully led 50+ end-to-end NetSuite\nimplementations across manufacturing and wholesale distribution,\ncovering all major modules—Finance, Procure-to-Pay (P2P), Order-to-\nCash (O2C), Record-to-Report (R2R), and Taxation—with a proven\ntrack record of enhancing efficiency through automation, data integrity,\nand system integration.\nMy expertise spans solution design, configuration, SuiteFlow\nautomation, integration architecture, and UAT/SIT leadership, ensuring\nseamless deployments & strong post-go-live success. I’m passionate about\nbuilding automated, data-driven environments using SuiteAnalytics\nWorkbooks, custom reports, & dashboards to deliver real-time financial\nvisibility, ensure compliance, & accelerate financial close cycles.\nA hands-on project leader, I have guided cross-functional teams and\ncoordinated with global resources to deliver projects on time and within\nbudget. Skilled in client discovery, solution design, and collaborating with\nFinance and Operations leaders to build scalable, data-driven solutions,\nI also develop dashboards, analytics, and training that drive user\nadoption, improve financial visibility, and strengthen internal controls.\nBeyond implementation, I contribute to solution architecture, pre-sales\nconsulting, and team mentoring, promoting best practices and\ncontinuous improvement. My leadership in regional consulting (India,\nMiddle East, SE Asia) has delivered measurable business outcomes—40%\nclient expansion and 60% revenue uplift—through quality, collaboration,\nand innovation.\n\nPrincipal Consultant\nOracle Solution Services",
+  "skills": {
+    "items": [
+      "Azure",
+      "CAD",
+      "Collaboration",
+      "Continuous Improvement",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "DevOps",
+      "ERP",
+      "Generative AI",
+      "Go",
+      "Internal Controls Testing",
+      "Leadership",
+      "Mentoring",
+      "Microsoft Teams",
+      "NetSuite",
+      "Order-to-Cash",
+      "Procure-to-Pay",
+      "Record-to-Report",
+      "SANS",
+      "Scrum",
+      "Solution Design",
+      "Taxation",
+      "UAT"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "Azure"
+      ],
+      "engineering": [
+        "CAD"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring"
+      ],
+      "operations": [
+        "Continuous Improvement"
+      ],
+      "devops": [
+        "DevOps"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
+      "programming_language": [
+        "Go"
+      ],
+      "finance_ops": [
+        "Internal Controls Testing",
+        "Taxation"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "netsuite": [
+        "NetSuite"
+      ],
+      "finance": [
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Record-to-Report"
+      ],
+      "security_ops": [
+        "SANS"
+      ],
+      "project_mgmt": [
+        "Scrum"
+      ],
+      "architecture": [
+        "Solution Design"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Generative→Generative AI(95%), Order-to- Cash→Order-to-Cash(96%), spans→SANS(89%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Outstanding Consultant",
+        "company": "Suite Knowledge: Ultimate Contributor, Q4 FY25. Honors & Awards - SigmaTEK Group and Amada India",
+        "location": null,
+        "start": "08/2010",
+        "end": "03/2022",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 140,
+        "bullets": [],
+        "sub_sections": [
+          "Outstanding Consultant (Asia Pacific Region)",
+          "Star Performer",
+          "Star of the Quarter Key"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Pvt Ltd",
+        "location": "Canada",
+        "start": "06/2022",
+        "end": "Present",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 52,
+        "bullets": [
+          "Led end-to-end NetSuite Financials implementations for 50+ clients, specializing in wholesale distribution & manufacturing.",
+          "Managed financial cutover activities during go-live, customized financial reports & dashboards, and integrated Bank Feeds/EFT setups.",
+          "Managed full-cycle project delivery including business analysis, solution design, configuration, data migration, UAT, go-live, and post-implementation support.",
+          "Designed and customized workflows, saved searches, dashboards, and reports to meet client specific KPIs.",
+          "Integrated NetSuite with third-party systems such as CRM, eCommerce, and logistics platforms to enhance data flow and operational visibility.",
+          "Facilitated workshops, resolved configuration issues, conducted user training, and contributed to solution architecture, proposal writing, and proof-of-concept presentations."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Functional Consultant",
+        "company": "Vaal Triangle Systems PVT Ltd",
+        "location": null,
+        "start": "08/2018",
+        "end": "05/2022",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 46,
+        "bullets": [
+          "Led the successful in-house NetSuite ERP implementation, aligning system capabilities with business goals to enhance efficiency and decision-making.",
+          "Oversaw the full project lifecycle —architecture, configuration, testing, training, and support—while streamlining core workflows and improving data visibility through tailored solutions and analytics."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Shopfloor Success: VPSS IoT Solution Implementation",
+        "location": null,
+        "start": "04/2019",
+        "end": "07/2019",
+        "method": "date_regex",
+        "duration_months": 4,
+        "bullets": [
+          "Implemented the VPSS IoT solution to enable real-time production monitoring and enhance manufacturing efficiency.",
+          "Integrated SigmaTUBE with VPSS to streamline production workflows, reduce downtime, and accelerate issue detection.",
+          "Improved overall equipment effectiveness and optimized production line performance through data-driven maintenance and performance insights."
+        ],
+        "sub_sections": [
+          "Operations Optimization through Integration"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "procurement, and sales functions",
+        "company": "Singapore, Malaysia",
+        "location": "India",
+        "start": "03/2018",
+        "end": "04/2022",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 50,
+        "bullets": [
+          "Led multiple implementations and integrations of manufacturing software solutions across global clients—including SigmaNEST with FabSuite and FabTrol ERP systems (Singapore, India), web-based Nesting and Quoting solutions (USA, Netherlands), and SigmaTEK MRP with SAP integration (UK).",
+          "Established real-time data integration and streamlined database transactions to enable end-to-end job shop tracking, material management, and production planning.",
+          "Enhanced operational visibility and coordination across manufacturing, procurement, and sales functions.",
+          "Delivered tailored dashboards and quoting tools to improve job costing accuracy and decision-making speed, while providing comprehensive documentation, user support, and troubleshooting for seamless deployments and sustained operational success."
+        ],
+        "sub_sections": [
+          "Page 2 of 2 Key",
+          "Links:",
+          "https://linkedin.com/in/gajendra-singh-arha-17723b24",
+          "https://www.oracle.com/in",
+          "http://www.vaal-triangle.com/",
+          "http://www.sigmanest.com/",
+          "http://www.amadaindia.co.in/",
+          "http://www.maharajacolleges.org/",
+          "+91-9958858970",
+          "Jodhpur, India",
+          "linkedin.com/in/gajendra-singh-",
+          "arha-17723b24"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Lead Support Consultant",
+        "company": "SigmaTEK Systems India Pvt",
+        "location": null,
+        "start": "08/2014",
+        "end": "01/2016",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 18,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Support Engineer",
+        "company": "Amada India Pvt Ltd",
+        "location": null,
+        "start": "09/2010",
+        "end": "07/2014",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 47,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Engineering",
+        "location": "Udaipur",
+        "start": "08/2008",
+        "end": "07/2009",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 17.2,
+      "total_months": 206,
+      "overlapping_periods_merged": 5
+    },
+    "_confidence": 0.9
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.E. (Mechanical)",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "Mechanical",
+        "institution": "Jamshedpur, India Mechanical College of Technology & Engineering",
+        "year": "2008",
+        "gpa": "6.35",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "NetSuite Basic, NetSuite SuiteFoundation",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "NetSuite Financial User, NetSuite",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Administrator, NetSuite Suite Analytics",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "NetSuite ERP Consultant",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Oracle Generative AI Professional",
+        "issuer": "Oracle",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Scrum Master Certified (SMC)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Scrum Study Powered by VMEdu.Com",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "ONSITE EXPOSURE",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "USA Singapore Kuwait",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "UAE Malaysia South Korea",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Taiwan Turkey",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Netherlands",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Page 1 of 2",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.62
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.87
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.98,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[7]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.62,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

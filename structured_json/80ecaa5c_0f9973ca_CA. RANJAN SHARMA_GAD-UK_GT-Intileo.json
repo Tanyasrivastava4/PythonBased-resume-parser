@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "source_file": "80ecaa5c_0f9973ca_CA. RANJAN SHARMA_GAD-UK_GT-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:26.475722+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Ranjan Sharma",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ransharjanma@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-7004484594",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/ca-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "CONTACTS\nChartered Accountant with 3+ years of articleship experience in statutory\nand tax audits, financial reporting, and GST compliance. Exposure in\n+91-7004484594 Laxmi Nagar, New Delhi, 110092. https://www.linkedin.com/in/ca- ranjan-sharma-44905a1a2\nmanufacturing, leasing and energy sectors with turnover exceeding ₹200\nCrores. Proficient in risk-based audit procedures, preparation of financial\nstatements as per Schedule III of the Companies Act, 2013, Tax Audit Reports\nunder Section 44AB (Forms 3CA/3CB & 3CD), and audit reporting including\nCARO 2020.",
+  "skills": {
+    "items": [
+      "Accounting",
+      "CARO 2020",
+      "Communication",
+      "Financial Reporting",
+      "GST",
+      "Income Tax Return",
+      "Lease Management",
+      "LinkedIn",
+      "Microsoft Excel",
+      "NPA Management",
+      "Regulatory Compliance",
+      "Reporting",
+      "SAP",
+      "Schedule III",
+      "Statutory Audit",
+      "Tally",
+      "Tax Audit",
+      "Taxation"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "compliance": [
+        "CARO 2020"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reporting"
+      ],
+      "accounting": [
+        "GST",
+        "Tax Audit"
+      ],
+      "finance": [
+        "Income Tax Return"
+      ],
+      "real_estate": [
+        "Lease Management"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "banking": [
+        "NPA Management"
+      ],
+      "legal": [
+        "Regulatory Compliance"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "financial_reporting": [
+        "Schedule III"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel.→Microsoft Excel(91%), GST Compliance→GST(100%), Reporting.→Reporting(95%), financial reporting→Financial Reporting(100%), leasing→Lease Management(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "",
+        "company": " Participated in stock audit of pharmaceutical company, including inventory verification and valuation check.",
+        "location": "",
+        "start": "September 2025",
+        "end": "January 2026",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 5,
+        "bullets": [
+          " Preparation of monthly TDS statements and quarterly filling of TDS returns.",
+          " Compliance with Sec 44AB of Income Tax Act, reporting via 3CA/3CB and 3CD (Tax Audit) and drafting report as per CARO 2020.",
+          " Filling Income Tax Returns of various entities. ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.4,
+      "total_months": 5,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.55
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• C.A Final (Group I) –Jan 2026",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": null,
+        "year": "2026",
+        "gpa": "56%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "● IPCC (Group I&II)– Jan 2021, 55%, (Exemption in Advanced",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": "Group I&II",
+        "institution": null,
+        "year": "2021",
+        "gpa": "55%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• B.Com – LNMU, Darbhanga",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": "LNMU",
+        "institution": null,
+        "year": "September 2025 - January 2026",
+        "gpa": "64%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.81
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.55,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

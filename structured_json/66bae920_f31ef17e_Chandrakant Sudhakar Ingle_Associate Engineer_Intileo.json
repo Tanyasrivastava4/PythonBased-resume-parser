@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "source_file": "66bae920_f31ef17e_Chandrakant Sudhakar Ingle_Associate Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:03.592001+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Chandrakant Sudhakar Ingle",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "chandrakantingle93@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8652333740 / 4525-7000",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "A highly dedicated and technically skilled Service Engineer with over 8 years of progressive\nexperience in the installation, calibration, maintenance, and component-level repair of\ncomplex electronic equipment, particularly in the domain of radiation safety and industrial\nmonitoring instruments. Seeking a Sr. Service Engineer role to leverage proven expertise in\nPCB troubleshooting, circuit analysis, and critical system support to drive efficiency and\nquality assurance in a challenging, growth-oriented environment.",
+  "skills": {
+    "items": [
+      "Calibration",
+      "Instrumentation",
+      "Maintenance Management",
+      "Proofreading",
+      "Quality Assurance",
+      "Technical Writing",
+      "Video Editing"
+    ],
+    "by_category": {
+      "engineering_hardware": [
+        "Calibration",
+        "Instrumentation"
+      ],
+      "engineering": [
+        "Maintenance Management"
+      ],
+      "content": [
+        "Proofreading",
+        "Technical Writing"
+      ],
+      "operations": [
+        "Quality Assurance"
+      ],
+      "design": [
+        "Video Editing"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(calibration→Calibration(100%), calibration→Calibration(100%), Editing→Proofreading(100%), calibration→Calibration(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Service Engineer",
+        "company": "Nathani Industrial Services Pvt. Ltd",
+        "location": "India",
+        "start": "May 2022",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict+comma_company_location",
+        "duration_months": 53,
+        "bullets": [
+          "Led the installation, calibration, preventive, and corrective maintenance of specialized radiation safety and electronic monitoring instruments for critical clients.",
+          "Routinely performed component-level PCB repair, diagnosing complex faults, executing precise component replacement and circuit corrections, maintaining a high first-time fix rate and reducing system downtime.",
+          "Delivered high-level technical support, training, and product demonstrations, fostering strong relationships with major industrial and research clients, including Tata Steel, Maruti Suzuki, B.A.R.C., and B.R.I.T.",
+          "Implemented and maintained Scrap Monitoring Systems (using Ludlum Model 4525) and managed Radiation Portal Monitors for vehicle/material screening.",
+          "Executed Optical Fiber Cable (OFC) conversions to optimize data communication reliability in monitoring systems.",
+          "Drove sales and market presence by managing product listings on e-commerce portals (Amazon, IndiaMART) and successfully participating in E-auction bidding on the"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Jr. Engineer",
+        "company": "PLA Electro Appliance Pvt. Ltd",
+        "location": "India",
+        "start": "July 2017",
+        "end": "May 2022",
+        "method": "date_regex+pipe_company_loc_role+title_dict+comma_company_location",
+        "duration_months": 59,
+        "bullets": [
+          "Successfully installed radiation instruments at highly sensitive nuclear facilities (B.A.R.C., B.R.I.T.), ensuring adherence to stringent safety and operational protocols.",
+          "Involved in the production, comprehensive testing, and quality control (QC) of radiation safety instruments and electronic assemblies.",
+          "Collaborated with R&D teams to provide feedback on electronic circuit performance, contributing to product reliability improvements.",
+          "Operated and maintained a range of instruments including microR / microSv Meters, Hand & Foot Monitors, Pocket Dosimeters, and Continuous Air Monitors."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Worked From",
+        "location": null,
+        "start": "November 2023",
+        "end": "November 2023",
+        "method": "date_regex",
+        "duration_months": 1,
+        "bullets": [
+          "Led the installation and commissioning of the Ludlum Model 4525 Scrap Monitoring System to detect and prevent radioactive contamination in scrap metal shipments.",
+          "Configured sensors, performed Ethernet conversions for data transmission, calibrated detectors, and trained on-site engineers in system operation and maintenance."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Client: Maruti Suzuki",
+        "location": "Gurgaon",
+        "start": "July 2022",
+        "end": "July 2022",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 1,
+        "bullets": [
+          "Supervised end-to-end installation of Radiation Portal Monitors for vehicle and material screening at plant entry points.",
+          "Integrated real-time monitoring software and ensured compliance with radiation safety standards.",
+          "Delivered user training and technical documentation to the client’s maintenance team."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Client: Bhabha Atomic Research Centre",
+        "location": "Mumbai",
+        "start": "March 2022",
+        "end": "May 2022",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 3,
+        "bullets": [
+          "Executed calibration and functional verification of Continuous Air Monitoring systems to ensure accuracy in radiation detection in controlled environments.",
+          "Performed PCB-level testing, component replacement, and QA documentation under strict safety protocols."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Client: Board of Radiation & Isotope Technology",
+        "location": "Mumbai",
+        "start": "February 2018",
+        "end": "February 2018",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 1,
+        "bullets": [
+          "Configured detection thresholds, verified operational stability, and supported system integration within the client’s radiation control program."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.2,
+      "total_months": 111,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Bachelor of Commerce (B.Com) | Yashwantrao Chavan Maharashtra Open",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Yashwantrao Chavan Maharashtra Open University Mumbai",
+        "year": null,
+        "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• Diploma in Electronics & Telecommunication Engineering | Vidyalankar",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "Electronics & Telecommunication Engineering",
+        "institution": "Vidyalankar Polytechnic Mumbai",
+        "year": "1993",
+        "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

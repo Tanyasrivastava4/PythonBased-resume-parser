@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "source_file": "7e2943ad_a0d8dbba_Omesh Kadam_Assistant Manager-Cyber Security_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:25.174856+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Omesh Kadam",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "omeshvkadam@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+919867634243",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Experienced SOC Analyst with 4 years in incident response, and security monitoring. Skilled in security incident\nhandling and developing mitigation strategies. Proficient in analyzing security alerts and optimizing detection\ncapabilities. Committed to continuous improvement and staying updated with the latest cybersecurity trends.",
+  "skills": {
+    "items": [
+      ".NET",
+      "CCNA",
+      "CEH",
+      "Check Point",
+      "Classification Web",
+      "Continuous Improvement",
+      "Cryptography",
+      "DLP",
+      "Endpoint Security",
+      "Fortinet",
+      "Incident Management",
+      "Incident Response",
+      "Load Balancer",
+      "Palo Alto Networks",
+      "Proxy",
+      "SIEM",
+      "SOC Operations",
+      "WAF"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "networking": [
+        "CCNA"
+      ],
+      "security_ops": [
+        "CEH",
+        "Check Point",
+        "Cryptography",
+        "DLP",
+        "Endpoint Security",
+        "Incident Response",
+        "Palo Alto Networks",
+        "Proxy",
+        "SIEM",
+        "WAF"
+      ],
+      "search": [
+        "Classification Web"
+      ],
+      "operations": [
+        "Continuous Improvement"
+      ],
+      "security": [
+        "Fortinet",
+        "Incident Management",
+        "SOC Operations"
+      ],
+      "devops": [
+        "Load Balancer"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Checkpoint→Check Point(100%), Endpoint Security - AV→Endpoint Security(95%), Palo Alto→Palo Alto Networks(100%), Classification→Classification Web(95%), Classification→Classification Web(95%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "| L A Technologies",
+        "company": "Ensured timely ticket resolution across cross-functional teams and external vendors",
+        "location": "L A Technologies - Generali Central Insurance Company Limited Mumbai",
+        "start": "05/2024",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 29,
+        "bullets": [
+          "Spearheaded SOC operations and CSIRT functions, including SIEM alert triage, incident classification, and threat intelligence",
+          "Managed endpoint security using CrowdStrike Falcon EDR, with integrated identity monitoring for enhanced threat detection",
+          "Managed endpoint security: compliance, encryption, Data Classification (Klassify), patching, and vulnerability dashboards",
+          "Oversaw NAC (ClearPass OnGuard), PAM(IRAJE), DLP (Trend Micro), WAF (App Trana-Indusface), Micro segmentation (Color",
+          "Delivered VAPT assessments, tracked remediation and prioritized CVE patching for zero-day threats",
+          "Compiled patch summaries for Windows, UNIX, SQL and Oracle environments",
+          "Maintained cloud security posture across AWS and Azure platforms"
+        ],
+        "sub_sections": [
+          "Token), and proxy security (Netskope)"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| IDBI Intech Limited",
+        "company": "Monitored and analyzed security alerts using RSA Net Witness",
+        "location": "IDBI Intech Limited - IDBI Bank Mumbai",
+        "start": "11/2021",
+        "end": "05/2024",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 31,
+        "bullets": [
+          "Raised incidents and supported real-time threat response in SOC",
+          "Investigated anomalies, access violations, and malware threats",
+          "Strong knowledge of networking (TCP/IP, DNS, OSI model, ports)",
+          "Conduct daily health checks and handle daily service tickets.",
+          "Managed daily log reports and ensured SLA compliance",
+          "Coordinated with vendors; supported server hardening reviews and SIEM integration across critical infrastructure for full"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "| Thinkparms Infotech Pvt Ltd",
+        "company": "Analyze spatial data through mapping software (GIS).",
+        "location": "Thinkparms Infotech Pvt Ltd - HERE Technologies Mumbai",
+        "start": "05/2021",
+        "end": "11/2021",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 7,
+        "bullets": [
+          "Discover patterns and trends through spatial mapping of data.",
+          "Designing digital maps with geographic data and other data sources.",
+          "Converting physical maps into a digital form for computer usage.",
+          "Produce reports on geographic data utilizing data visualization."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "IT Intern",
+        "company": "Talent Corner H.R. Services Pvt Ltd Mumbai",
+        "location": null,
+        "start": "04/2020",
+        "end": "06/2020",
+        "method": "date_regex+pipe_split",
+        "duration_months": 3,
+        "bullets": [
+          "Collaborate with stakeholders to understand business objectives and requirements.",
+          "Devolve architectural blueprint and technical specifications."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.7,
+      "total_months": 68,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Post Graduate Diploma in Management | Information Technology |  | GNIMS, Mumbai",
+        "degree_name": "PGDM",
+        "degree_type": "diploma",
+        "degree_field": null,
+        "institution": null,
+        "year": "2019 - 2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Science | Computer Science |  | Mumbai University",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Mumbai University",
+        "year": "2016 - 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "CEH V12 Certification.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Cisco Certified Network Administrator training (CCNA)",
+        "issuer": "Cisco",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.7
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

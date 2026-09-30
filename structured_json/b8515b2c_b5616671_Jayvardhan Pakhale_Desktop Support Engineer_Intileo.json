@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "source_file": "b8515b2c_b5616671_Jayvardhan Pakhale_Desktop Support Engineer_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:08.713994+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Jayvardhan Pakhale",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jayvardhan.pakhale@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9819717137",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Asset Coordinator with experience in IT asset management seeking new\nopportunities to utilize skills and expertise in a dynamic work environment.",
+  "skills": {
+    "items": [
+      "Active Directory",
+      "Asset Management",
+      "Biometrics",
+      "CCTV",
+      "Data Backup",
+      "Data Recovery",
+      "Desktop Support",
+      "Hardware Installation",
+      "IT Asset Management",
+      "Identity Management",
+      "Microsoft Outlook",
+      "Microsoft Windows",
+      "Network Troubleshooting",
+      "Networking",
+      "OneDrive",
+      "Printer Support",
+      "Remote Diagnostics",
+      "Software Installation",
+      "VPN",
+      "Video Conferencing",
+      "macOS"
+    ],
+    "by_category": {
+      "security_ops": [
+        "Active Directory",
+        "Biometrics",
+        "CCTV",
+        "VPN"
+      ],
+      "sysadmin": [
+        "Asset Management",
+        "Data Backup",
+        "Data Recovery",
+        "Desktop Support",
+        "Hardware Installation",
+        "IT Asset Management",
+        "Network Troubleshooting",
+        "Printer Support",
+        "Remote Diagnostics",
+        "Software Installation",
+        "Video Conferencing"
+      ],
+      "security": [
+        "Identity Management"
+      ],
+      "productivity": [
+        "Microsoft Outlook"
+      ],
+      "os_system": [
+        "Microsoft Windows",
+        "macOS"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "cloud": [
+        "OneDrive"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Windows→Microsoft Windows(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "IT Desktop Support Engineer and asset Executive",
+        "company": "HDFC ERGO General Insurance Bhandup",
+        "location": null,
+        "start": "08/2024",
+        "end": "present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 26,
+        "bullets": [
+          "Backup and Restoration, Troubleshooting Internet & Basic Network Issues,"
+        ],
+        "sub_sections": [
+          "User Password reset in AD, create",
+          "user ID in AD, create grp ID in AD. Handle Video Conference, VDI Support.",
+          "OneDrive Configuration,",
+          "Troubleshooting on one drive file sync issue. Configure new system (ARM)",
+          "for new User join",
+          "in company, also configure system for User",
+          "when they get new system and dota transfer",
+          "ond archives mopping. Monitoring services requests raised on",
+          "servecentral bUcket from PAN Indio user and",
+          "ossigning them and also try to provide",
+          "resolution by maintaining SLA. Desktop support Worked in Domain Change"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "IT Desktop Support Engineer and asset Executive",
+        "company": "Computer Hardware Installation, Troubleshooting & Software installation",
+        "location": null,
+        "start": "12/2022",
+        "end": "08/2024",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 21,
+        "bullets": [
+          "Backup and Restoration, Troubleshooting Internet & Basic Network Issues,"
+        ],
+        "sub_sections": [
+          "User Password reset in AD, create",
+          "user ID in AD, create grp ID in AD. Handle Video Conference, VDI Support.",
+          "OneDrive Configuration,",
+          "Troubleshooting on one drive file sync issue. Computer Hardware &",
+          "Windows Troubleshooting Handled asset and call coordination at Vertiv",
+          "Energy PVT. LTD. Thane."
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "IT Desktop /Laptop and asset Executive",
+        "company": "CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED Airoli",
+        "location": null,
+        "start": "07/2015",
+        "end": "12/2022",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 90,
+        "bullets": [
+          "Managed technical and asset Desktop/Laptop Troubleshooting, Outlook"
+        ],
+        "sub_sections": [
+          "Configuration and Troubleshooting, User Data",
+          "Backup and Restoration, Troubleshooting Internet & Basic Network Issues,",
+          "responsibilities at CAPGEMINI TECHNOLOGY SERVICES INDIA",
+          "LIMITED Airoli."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.2,
+      "total_months": 135,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.89
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "BCA",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": "2012",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.89
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

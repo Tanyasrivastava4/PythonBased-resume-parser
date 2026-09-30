@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "source_file": "5e5aafaf_ae7b44f0_Digambar Singh_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:46.575949+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Digambar Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "singhdigambar266@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9718749171",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/digambarsingh8696",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": "pythonanywhere.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "Results-driven Python Developer with 1+ years of experience in Django framework, building scalable\nweb applications, RESTful APIs, and robust database systems using PostgreSQL.\nProficient in Backend Development, API integration, and database optimization to ensure high\nperformance, reliability, and maintainable code architecture.\nExperienced in developing AI-powered voicebot using SST, TTS & LLMs and Python to deliver intelligent.",
+  "skills": {
+    "items": [
+      "API Design",
+      "AWS",
+      "Django",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "GitHub",
+      "LLM",
+      "LangChain",
+      "Machine Learning",
+      "MySQL",
+      "NLP",
+      "PostgreSQL",
+      "Postman",
+      "Python",
+      "RAG",
+      "REST",
+      "REST API",
+      "Redis",
+      "SQLite",
+      "Text-to-Speech"
+    ],
+    "by_category": {
+      "architecture": [
+        "API Design"
+      ],
+      "cloud_infra": [
+        "AWS"
+      ],
+      "web_framework": [
+        "Django",
+        "FastAPI",
+        "REST API"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman"
+      ],
+      "genai": [
+        "LLM",
+        "LangChain",
+        "RAG"
+      ],
+      "ai_ml": [
+        "Machine Learning",
+        "NLP",
+        "Text-to-Speech"
+      ],
+      "database": [
+        "MySQL",
+        "PostgreSQL",
+        "Redis",
+        "SQLite"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(LLMs→LLM(100%), RESTful APIs→REST(100%), PostgreSQL.→PostgreSQL(95%), API integration→API Design(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Lead team to develope voicebot and guide them through owning system design, code review &",
+        "company": "Keyanna Tech Pyt. Ltd",
+        "location": null,
+        "start": "Sep 2025",
+        "end": "Present",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 13,
+        "bullets": [
+          "Lead team to develope voicebot and guide them through owning system design, code review & developed workflow."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Tsyn Pvt. Ltd",
+        "location": null,
+        "start": "Aug 2024",
+        "end": "Aug 2025",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 13,
+        "bullets": [
+          "Developing and maintaining Django-based backend systems with a focus on REST API optimization and scalability.",
+          "Use MySQL for store data so write code to maintain data also use Djando ORM for getting data from database"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.2,
+      "total_months": 26,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.92
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Science (Mathematics (Hons))",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Mathematics (Hons",
+        "institution": "Mathematics Hons Keshav Mahavidyalaya (University of Delhi)",
+        "year": "Aug 2021 - July 2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "source_file": "6206df05_2c5880cd_Himanshu_Tripathi_Resume_segmented.txt",
+    "generated_at": "2026-09-30T06:58:50.954446+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Himanshu Tripathi",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "htripathi416@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9326067594",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Oracle Database Administrator with\n3.2 years of experience in Oracle database administration, production support, backup and\nrecovery, cloning, Data Guard, and\nperformance monitoring. Currently working with Sysnet Technology Pvt Ltd and supporting\nDBS Bank. Experienced in Oracle 11gR2,\n12c, and 19c environments across Linux and Windows platforms, with strong\nexposure to RMAN, Data Pump, TDE,\nhealth checks, troubleshooting, and day-to-day database support activities.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Business Strategy",
+      "Linux",
+      "Microsoft Windows",
+      "Node.js",
+      "Oracle Database",
+      "PL/SQL",
+      "Performance Monitoring",
+      "PuTTY",
+      "SQL",
+      "Statistics",
+      "UNIX Shell",
+      "WinSCP"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "consulting": [
+        "Business Strategy"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows",
+        "UNIX Shell"
+      ],
+      "web_framework": [
+        "Node.js"
+      ],
+      "database": [
+        "Oracle Database",
+        "PL/SQL",
+        "SQL"
+      ],
+      "operations": [
+        "Performance Monitoring"
+      ],
+      "dev_tool": [
+        "PuTTY",
+        "WinSCP"
+      ],
+      "data_science": [
+        "Statistics"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Putty→PuTTY(100%), Windows→Microsoft Windows(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Simple Logic Pvt Ltd Associate Technical Consultant / Oracle",
+        "company": "Company",
+        "location": null,
+        "start": "02 Feb 2023",
+        "end": "21 Jul 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 30,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sysnet Technology Pvt Ltd Oracle Database Administrator",
+        "company": "DBA",
+        "location": null,
+        "start": "14 Aug 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 14,
+        "bullets": [
+          "Oracle software installations and database creations.",
+          "Multiplexing of control files and redo log files.",
+          "Provided support to production and test databases on Linux servers.",
+          "Data Guard physical standby implementation and maintenance.",
+          "Creating and adding tablespaces and datafiles.",
+          "Creating users, granting privileges and roles.",
+          "Looking into action requests (tickets), resolving issues, and providing permanent fixes.",
+          "Schema and table-level refreshes using Data Pump.",
+          "Configured tnsnames.ora and listener.ora files manually and using Net Manager.",
+          "Performed database cloning from production to test environment.",
+          "Restored and recovered databases for missing datafiles and block corruption using RMAN.",
+          "Took RMAN backups on a daily basis and monitored backup job schedules.",
+          "Performed logical backups when required.",
+          "Successfully implemented TDE on UAT and Production.",
+          "Monitored daily health check reports and troubleshot database problems.",
+          "Configured pfile, spfile, and parameter management as required.",
+          "Generated AWR reports, gathered statistics, and performed index rebuild activities for performance tuning.",
+          "Worked on RAC environments and supported RAC database patching activities.",
+          "Configured Data Guard and tested switchover operations.",
+          "Worked in 24x7 production support environment."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.7,
+      "total_months": 44,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "XII D.K.V.C College",
+        "year": "Feb 2023 - Jul 2025",
+        "gpa": "62.23%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Sc. (IT)",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "IT Saket College Mumbai University",
+        "year": "2019",
+        "gpa": "64.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "M.Sc. (CS)",
+        "degree_name": "M.Sc",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "CS Birla College Mumbai University",
+        "year": "2022",
+        "gpa": "72.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

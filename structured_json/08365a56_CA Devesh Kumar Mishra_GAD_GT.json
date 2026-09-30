@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "source_file": "08365a56_CA Devesh Kumar Mishra_GAD_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:57:48.552948+00:00",
+    "sections_found": [
+      "achievements",
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Ca Devesh Kumar Mishra",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "deveshm.j261@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7222000950",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/deveshmishra261",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Linkedin\nSUMMARY\nAmbitious Chartered Accountant with hands-on\nexperience in statutory & internal audits, tax\ncompliance, and risk assessment for large client\nportfolios. Proficient in MS Excel and emerging AI\nautomation tools, with a track record of top 10%\nworldwide success in business simulations.",
+  "skills": {
+    "items": [
+      "Auditing",
+      "Computax",
+      "LinkedIn",
+      "Market Research",
+      "Microsoft Excel",
+      "Product Design",
+      "Risk Assessment",
+      "Taxation"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Taxation"
+      ],
+      "office": [
+        "Computax"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Compu-tax→Computax(94%), product design→Product Design(100%), Linkedin→LinkedIn(100%), internal audits→Auditing(97%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Associate",
+        "company": "Abhijit Sharma & Associates",
+        "location": null,
+        "start": "Jan 2025",
+        "end": "Sep 2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 9,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate",
+        "company": "Most renowned CA firm in Jaipur, well known for Statutory & Internal",
+        "location": null,
+        "start": "Jun 2018",
+        "end": "Dec 2021",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 43,
+        "bullets": [
+          "Leading CA firm in Jaipur over 40 Yr. of experience with 4 partners servicing 300+ clients.",
+          "2(X), chapter VIA deductions."
+        ],
+        "sub_sections": [
+          "Statutory Audit",
+          "Key Clientele : Precious Jewels Corporation, PC Totuka, Nidhi Kamal",
+          "Automobile.",
+          "Understanding the Business of new client from ground level,",
+          "analysis of Financial Statements & performance of substantive",
+          "audit procedures.",
+          "Performed process walkthrough of key processes (Revenue,",
+          "Payroll, Procurement, Treasury) identified potential risk areas and",
+          "executed tests of controls.",
+          "Performed substantive audit procedure on areas involving",
+          "Accounts Payable, Accounts Receivable, Payroll, Fixed asset,",
+          "Cash & Bank, TDS, and Other Expenses.",
+          "Obtained external confirmation from debtors, creditor and bank",
+          "balances as per SA 505. Applied substantive analytical procedures",
+          "i.e trend analysis, periodic comparisons to identify unusual",
+          "deviations according to SA 520.",
+          "Assisted in the finalization of financial statements and the",
+          "preparation of Audit Report as per SA 700.",
+          "Ensured compliance with applicable FRF, i.e., Ind-AS while",
+          "reviewing finalization of financial statements including notes to",
+          "accounts as per Schedule III of the Companies Act, 2013, and",
+          "reporting under CARO, 2020.",
+          "Variance analysis of income and expenses.",
+          "Reviewed recognition of consultancy income in accordance with",
+          "Ind AS 115 (Revenue from Contracts with Customers) and ensured",
+          "compliance with CERC guidelines.",
+          "Verified capitalization of assets and depreciation calculations in",
+          "compliance with Ind AS 16 (PPE), ensuring accurate classification,",
+          "recognition, and systematic allocation over useful life.",
+          "Conducted various Stock audits.",
+          "Internal and Financial Audit",
+          "Key Clientele : Aavas Finance Ltd, Finova Capital, SK Finance Ltd, AU",
+          "Bank, Universal Auto foundry.",
+          "Verification of Management Fees, Tested Design and Efficiency of",
+          "controls, credit risk assessment, Procure-to-Pay (P2P), Checking",
+          "of petty cash transaction and verification of Physical cash at Front",
+          "Office.",
+          "Test checking of PF and ESI details of employees.",
+          "Taxation",
+          "Prepared and filed 200+ income tax returns for clients with",
+          "incomes up to ₹1 crores, ensuring accuracy and adherence to",
+          "statutory deadlines.",
+          "Comprehensive and accurate taxation advice to clients related Sec"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.3,
+      "total_months": 52,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.84
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "IPCC - 3 Exemptions",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": "3 Exemptions",
+        "institution": null,
+        "year": "2015",
+        "gpa": "52%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "B.com",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Rajasthan University",
+        "year": "2018",
+        "gpa": "42%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Senior Secondary",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Sufal Vidhyapeeth Sr. Sec. School (RBSE)",
+        "year": "2015",
+        "gpa": "75%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Secondary",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Sufal Vidhyapeeth Sr. Sec. School (RBSE)",
+        "year": "2013",
+        "gpa": "61%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.91
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Undergoing AI for Finance Course (20 hours)",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "From CA Monk.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Completed Advance Excel Course (15 hours) From",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "CA Monk.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Completed Marketplace Simulation (Virtual",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Experiential Learning Simulation - By CA Monk).",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Played a well-known Marketplace Simulation",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "where I along with team of 10+ members, took",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "various business decisions in different phases",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "of business which are startup, growth and",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "expansion of business.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Achieved Top 10% worldwide success in",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Marketplace Simulation; structured a carbon",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "cycle business based on 3D printing",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "technology for 6 quarters & took multiple",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "decisions on investments, finance, production",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "printing, product design & market research.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [
+      "Performed Shayari and Poetry in several open",
+      "mics such as Poem & Kahaniya, Aadab Arz Hai, Ek",
+      "Won Ist Prize in school competition of Young",
+      "Volunteer at Happiness Keeda to distribute Food &",
+      "https://www.linkedin.com/in/deveshmishra261/"
+    ],
+    "_confidence": 0.85
+  },
+  "_confidence": {
+    "overall": 0.85
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[6]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[7]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[8]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[9]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[10]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[11]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[12]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[13]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[14]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[15]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[16]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

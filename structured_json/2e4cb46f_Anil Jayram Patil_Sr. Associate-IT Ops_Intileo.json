@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "source_file": "2e4cb46f_Anil Jayram Patil_Sr. Associate-IT Ops_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:58:12.562352+00:00",
+    "sections_found": [
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Anil Jayram Patil",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "patilanil221@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "8793618808 / 7263811346",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "I am Working with GeBBS from last 5years I want to establish my career with my creativity,\nperseverance, determination and my ability to do something innovative and outstanding. Seeking an\nenvironment for active contribution of my abilities and maximizing opportunities to learn and excel.\nHas ability to work under pressure situations and meet deadlines. Always ready to learn new technical\nconcepts.",
+  "skills": {
+    "items": [
+      ".NET",
+      "Active Directory",
+      "Asset Management",
+      "Creativity",
+      "Exchange Server",
+      "Healthcare",
+      "Identity Management",
+      "MDM",
+      "MS Office",
+      "Mechanical Engineering",
+      "Microsoft Excel",
+      "Microsoft Outlook",
+      "Microsoft Teams",
+      "Microsoft Windows",
+      "Multifactor Authentication",
+      "Networking",
+      "Office 365",
+      "OneDrive",
+      "RDP",
+      "Remote Diagnostics",
+      "SharePoint",
+      "Symantec",
+      "Technical Support",
+      "VPN",
+      "Zoom"
+    ],
+    "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "security_ops": [
+        "Active Directory",
+        "MDM",
+        "VPN"
+      ],
+      "sysadmin": [
+        "Asset Management",
+        "Exchange Server",
+        "Remote Diagnostics"
+      ],
+      "soft_skill": [
+        "Creativity"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "security": [
+        "Identity Management",
+        "Multifactor Authentication",
+        "Symantec"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft Outlook",
+        "Microsoft Teams",
+        "Zoom"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "os_system": [
+        "Microsoft Windows"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "integration": [
+        "Office 365",
+        "SharePoint"
+      ],
+      "cloud": [
+        "OneDrive"
+      ],
+      "networking": [
+        "RDP"
+      ],
+      "support": [
+        "Technical Support"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(creativity→Creativity(100%), excel.→Microsoft Excel(91%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Sr. Desktop Engineer",
+        "company": "Gebbs Healthcare Solution",
+        "location": null,
+        "start": "April 2019",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 90,
+        "bullets": [
+          "Responsible for IT facility management and hardware (desktop, laptop, network printer).",
+          "Providing technical support on Remote basis",
+          "Creating Email id and Alias id",
+          "Active directory support & Servers support",
+          "Managing User profiles, permissions add email ids in group create Groups email ids",
+          "Also attend various escalated calls of other location with the help of remote desktop support",
+          "Managing the team Members",
+          "Networking such as Switches, router troubleshooting",
+          "Call logging in Callboards",
+          "Coordinating with vendor for asset related things and Managing asset Inventory",
+          "Schedule video conference in, GoToMeeting web ex and Polycom video conferencing",
+          "Supporting WFH (Work from home users) by remote",
+          "Troubleshooting Laptop related to all issues .",
+          "of 3",
+          "Create, modify, and delete user accounts.",
+          "Assign roles and permissions.",
+          "Implement multi-factor authentication (MFA).",
+          "Handle password resets and account recovery.",
+          "Assign and manage Microsoft 365 licenses.",
+          "Monitor usage and optimize costs.",
+          "Configure conditional access policies.",
+          "Monitor audit logs and compliance reports.",
+          "Manage Exchange Online (mailboxes, distribution groups).",
+          "Configure SharePoint and OneDrive permissions.",
+          "Administer Microsoft Teams (policies, guest access, meetings).",
+          "Use Intune for mobile device management (MDM).",
+          "Deploy and secure applications across devices."
+        ],
+        "sub_sections": [
+          "Password reset and unlock",
+          "Microsoft Office 365 Administrator Role",
+          "User & Access Management",
+          "Licensing & Subscriptions",
+          "Security & Compliance",
+          "Service Administration",
+          "Device & App Management"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Desktop Engineer",
+        "company": "IT Source",
+        "location": null,
+        "start": "Nov 2015",
+        "end": "Feb 2019",
+        "method": "date_regex+title_dict",
+        "duration_months": 40,
+        "bullets": [
+          "The responsibilities handled by me are as follows:",
+          "Responsible for facility management and hardware (desktop, laptop, network printer). Asset management and troubleshooting for desktops, Local printers, Network printers and scanners.",
+          "Installation configuration and troubleshooting of Microsoft outlook 365",
+          "One person to handle 100 computers",
+          "Active directory support & windows system.",
+          "Managing User profiles, permissions add email ids in group create Groups email ids",
+          "Also attend various escalated calls of other location with the help of remote desktop support",
+          "Networking such as Switches, router troubleshooting",
+          "Call logging in Callboards",
+          "Coordinating with vendor for asset related things and Managing asset Inventory",
+          "Configuration Cisco Phone, Grand stream phones and Escene phones video conference in web ex and Polycom video conferencing .",
+          "of 3"
+        ],
+        "sub_sections": [
+          "Password reset and unlock"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Desktop Engineer",
+        "company": "Precision Tech serve",
+        "location": null,
+        "start": "Jan 2015",
+        "end": "Aug 2015",
+        "method": "date_regex",
+        "duration_months": 8,
+        "bullets": [
+          "Desktop Engineer. Responsibilities:",
+          "Providing technical support on Remote basis",
+          "We troubleshoot Computer peripherals, applications etc. remotely by using Net meeting and VNC.",
+          "Managing, working and troubleshooting on printer issues such as installation, attachment, configuration of Local and Xerox",
+          "Handling escalation calls of users",
+          "Managing the issues regarding Domain ID issues with help of Active Directory Domain User Administration.",
+          "Web Application Troubleshooting",
+          "Also troubleshooting of outlook",
+          "Installing of leading corporate Antivirus like Symantec",
+          "Installing & configuring IP to Desktop, Laptops",
+          "Solving the issue of other branches by Remote Support",
+          "Handling 2 to 3 branches",
+          "Configuring VPN",
+          "VC Configuration & troubleshooting",
+          "Call login system",
+          "Call logging in Callboards. Follow-up with vendors for closure of the Ticket",
+          "Coordinate with internal/external teams to ensure a timely resolution on the incidents"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 11.5,
+      "total_months": 138,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "➢ SSC Passed from Mumbai Board in the year 2007",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Mumbai Board",
+        "year": "2007",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "➢ HSC Passed from Mumbai Board in the year 2009",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Mumbai Board",
+        "year": "2009",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "➢ TY BCOM Passed from Mumbai Board in the year 2013",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Mumbai Board",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

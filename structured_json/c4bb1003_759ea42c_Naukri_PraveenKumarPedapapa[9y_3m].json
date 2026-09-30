@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "source_file": "c4bb1003_759ea42c_Naukri_PraveenKumarPedapapa[9y_3m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:17.729066+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Employement Details",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "praveenkumarp4981@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7842025279",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Having a total of 9 years of IT experience in software development, build, and deployment, I specialize in designing and developing scalable system and web-based applications using Java and J2EE technologies. My expertise includes Spring Boot, Microservices architecture, RESTful APIs, Spring Framework, and Hibernate for building robust and high-performance enterprise solutions..\nPossess strong hands-on experience in front-end development using JavaScript, HTML, CSS, Angular, and React.js, building responsive, interactive, and user-friendly web applications with optimized performance and cross-browser compatibility.\nHaving good experience in development of applications using design patterns.\nExtensive experience working with backend frameworks and technologies such as Spring, Spring Boot, Node.js, Microservices architecture, JPA, and Hibernate, building RESTful APIs and scalable distributed systems.\nStrong database development experience with SQL, MySQL, and PostgreSQL, including writing optimized queries, stored procedures, indexing strategies, and database performance tuning.\nCapable of working independently as well as collaboratively within cross-functional teams, demonstrating excellent analytical, technical, and communication skills.\nA self-motivated and results-driven professional with a strong commitment to quality, continuous learning, and delivering high-impact software solutions aligned with business objectives.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Angular",
+      "Apache Maven",
+      "CSS3",
+      "Communication",
+      "Cross-functional Collaboration",
+      "Eclipse",
+      "Git",
+      "HTML5",
+      "Hibernate",
+      "IntelliJ IDEA",
+      "J2EE",
+      "JPA",
+      "Java",
+      "JavaScript",
+      "Jenkins",
+      "Jira",
+      "Microservices",
+      "Microsoft Teams",
+      "Multithreading",
+      "MySQL",
+      "Node.js",
+      "Performance Optimization",
+      "PostgreSQL",
+      "Postman",
+      "REST",
+      "REST API",
+      "React",
+      "SQL",
+      "SonarQube",
+      "Spring",
+      "Spring Boot",
+      "Stored Procedures",
+      "System Design"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "web_framework": [
+        "Angular",
+        "CSS3",
+        "HTML5",
+        "Hibernate",
+        "JPA",
+        "Node.js",
+        "REST API",
+        "React",
+        "Spring",
+        "Spring Boot"
+      ],
+      "dev_tool": [
+        "Apache Maven",
+        "Eclipse",
+        "Git",
+        "IntelliJ IDEA",
+        "Performance Optimization",
+        "Postman"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Cross-functional Collaboration"
+      ],
+      "programming_language": [
+        "J2EE",
+        "Java",
+        "JavaScript",
+        "Multithreading"
+      ],
+      "devops": [
+        "Jenkins"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "architecture": [
+        "Microservices",
+        "System Design"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "database": [
+        "MySQL",
+        "PostgreSQL",
+        "SQL",
+        "Stored Procedures"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "testing": [
+        "SonarQube"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Sprng→Spring(91%), IntelliJ→IntelliJ IDEA(100%), Node→Node.js(100%), HTML→HTML5(100%), Javascript→JavaScript(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "",
+        "company": "MoveInSync  Technology Solutions Senior Software Engineer _",
+        "location": null,
+        "start": "Sept 2023",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "duration_months": 37,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "DXC  Technology India Software Engineer  _",
+        "company": "Break down monolithic functionality into independent microservices.",
+        "location": "",
+        "start": "Nov 2016",
+        "end": "Mar 2023",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 77,
+        "bullets": [
+          "Designed and developed scalable backend services using Java, Spring Boot, and Microservices architecture to support real-time drilling data processing and monitoring functionalities.",
+          "Developed and exposed secure RESTful APIs for drilling data ingestion, operational analytics, and reporting modules, ensuring seamless integration with external systems and third-party tools.",
+          "Built modular microservices with proper exception handling, logging, and centralized configuration to enhance system maintainability and fault tolerance.",
+          "Implemented data persistence layers using Hibernate and JPA, optimizing database queries and improving performance for large-scale operational datasets.",
+          "Work in Agile/Scrum environments and participate in sprint planning and retrospectives.",
+          "Use Git for version control and follow branching strategies.",
+          "Participate in CI/CD pipelines using Jenkins/GitHub Actions.",
+          "Experience in developing highly interactive web applications utilizing Angular.",
+          "Good experience in developing the single-page applications using Angular.",
+          "Collaborated with cross-functional global teams in Agile environments, contributing to sprint planning, requirement analysis, and technical design discussions."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Worked as a JAVA developer and coordinating with development to track the delivery of the module on time",
+        "company": "2.Project Name : Digital KYC Verification System",
+        "location": null,
+        "start": "Feb 2021",
+        "end": "Mar 2023",
+        "method": "date_regex",
+        "duration_months": 26,
+        "bullets": [
+          "Description:The Digital KYC Verification System was built as part of HSBC Middle East's broader digital banking transformation initiative.",
+          "It aimed to replace the legacy paper-based onboarding process with a fully digitized, secure, and compliant customer verification system, meeting regional and global regulatory requirements such as FATF, UAE Central Bank guidelines, and EU GDPR.",
+          "Roles and Responsibilities : Designed, developed, and maintained backend services using Java, Spring Boot, and Microservices architecture, ensuring modularity and high performance."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "3.Project Name : Smart Health Record Management System",
+        "location": null,
+        "start": "Mar 2019",
+        "end": "Jan 2021",
+        "method": "date_regex",
+        "duration_months": 23,
+        "bullets": [
+          "Description:The Smart Health Record Management System (SHRMS) is a cloud-enabled, secure, and interoperable Electronic Health Record (EHR) platform developed for NHS Digital to digitally transform healthcare services across the UK.",
+          "The system serves as a unified health data repository, allowing doctors, nurses, pharmacists, lab technicians, and patients to access and manage medical records in real-time.",
+          "Roles and Responsibilities : Understand and work with Object-Relational Mapping (ORM) frameworks like Hibernate and JPA for database integration."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "4.Project Name : Digital Rollout Manager",
+        "company": "Client Name :  Deutsche Telekom Tenure",
+        "location": null,
+        "start": "Nov 2016",
+        "end": "Feb 2019",
+        "method": "date_regex+title_dict",
+        "duration_months": 28,
+        "bullets": [
+          "Unknown - Description | The Digital Rollout Manager project involved developing a web application to streamline the management of various measures within Deutsche Telekom's telecommunication network rollout.",
+          "This initiative was prompted by the intricacies of DT's internal processes, IT infrastructure, and the multitude of stakeholders involved, necessitating the efficient handling of extensive and diverse datasets.",
+          "Previously, DT relied on Excel files and a labor-intensive communication loop.",
+          "The challenge lay in maintaining and managing hardware installations and configurations through these spreadsheets, which was time-consuming.",
+          "Furthermore, the communication between rollout managers and steering managers for order management involved travel and phone calls, resulting in significant difficulty.",
+          "With the introduction of DRM (Digital Rollout Manager), the situation improved.",
+          "This web application empowered rollout managers to oversee their orders through an intuitive interface, eliminating the need for manual upkeep of Excel sheets that consumed valuable time.",
+          "DRM proved to be a game-changer, allowing DT employees and stakeholders to collaborate seamlessly in the management of rollout processes..",
+          "Roles and Responsibilities : Design, develop, and maintain scalable backend applications using Java.",
+          "Implement object-oriented and multithreaded programming concepts.",
+          "Integrate applications with external systems using REST/SOAP APIs.",
+          "Participated onsite discussion for the requirement gathering .",
+          "Involved to implement the restful web services.",
+          "Implemented microservices architecture applications using Spring Boot.",
+          "Understand and work with Object-Relational Mapping (ORM) frameworks like Hibernate and JPA for database integration.",
+          "Writing the Business logic for a given activity.",
+          "Test the Developer test cases and doing the unit testing.",
+          "Coordinated the Onsite, Offshore teams for Requirements, development, deployment and delivery.",
+          "Worked with Agile methodology using Jira tool.",
+          "Work in Agile/Scrum environments and participate in sprint planning and retrospectives. ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 9.5,
+      "total_months": 114,
+      "overlapping_periods_merged": 3
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech from Narayana Engineering College,JNTUH",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Narayana Engineering College JNTUH.",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.84
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "source_file": "bfcc3711_dedf9186_Resume Pradeep_segmented.txt",
+    "generated_at": "2026-09-30T07:00:16.016512+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "projects"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Prad",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "ps951854@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+916396544139",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pradeep-singh-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "onrender.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "CSS3",
+      "E-commerce",
+      "Express.js",
+      "HTML5",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "PHP",
+      "React",
+      "SEO",
+      "WordPress"
+    ],
+    "by_category": {
+      "web_framework": [
+        "CSS3",
+        "Express.js",
+        "HTML5",
+        "Node.js",
+        "React"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP"
+      ],
+      "database": [
+        "MongoDB"
+      ],
+      "marketing": [
+        "SEO"
+      ],
+      "content": [
+        "WordPress"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Web Developer",
+        "company": "Augr",
+        "location": null,
+        "start": "2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 33,
+        "bullets": [
+          "Developed and maintained responsive websites using HTML, CSS, JavaScript, PHP,"
+        ],
+        "sub_sections": [
+          "CSS",
+          "and WordPress.",
+          "JAVASCRIPT",
+          "Created dynamic, user-friendly, and SEO-optimized websites for a variety of",
+          "industries including legal, cleaning, repair, e-commerce, and hospitality.",
+          "MONGO DB",
+          "Integrated custom features and plugins in WooCommerce, including multiple",
+          "NODE JS",
+          "checkout forms based on product categories.",
+          "Designed and implemented landing pages for loan, immigration, tour & travel,",
+          "EXPRESS JS",
+          "mobile sales, and optical product businesses.",
+          "REACT JS"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.8,
+      "total_months": 33,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Master of computer Application",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "this project ,used React js for frontend and node js, express js for backend and for database ,used the Mongodb. Institutes of Engineering &",
+        "year": "2022 - 2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Computer Application",
+        "degree_name": "BCA",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "this project the Admin can managed the performance of the user accounts Uttam Group of Institutes and performance the e-commerce products",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.88
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.93
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

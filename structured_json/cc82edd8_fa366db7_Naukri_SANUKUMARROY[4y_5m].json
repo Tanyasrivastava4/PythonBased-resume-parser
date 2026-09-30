@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "source_file": "cc82edd8_fa366db7_Naukri_SANUKUMARROY[4y_5m]_segmented.txt",
+    "generated_at": "2026-09-30T07:00:21.494223+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sanu Kumar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sanuroy2333@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7988089707",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/sanu-kr-roy-7134b6b6",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Playwright Automation Test Engineer with 4.5+ years of\nexperience in designing scalable UI/API automation\nframeworks using Playwright, JavaScripT and modern\nDevOps workflows. Strong expertise in GenAI-powered\ntesting, CI/CD (Jenkins, GitHub Actions), cloud-based\nexecution (AWS), and API validation using Playwright &\nPostman. Skilled in building robust POM frameworks,\nimplementing parallel execution, optimizing selectors with\nLLMs, and improving automation coverage by 60–80%.\nProven ability to deliver fast, stable, high-quality releases in\nremote and onsite Agile environments while collaborating\nglobally across cross-functional teams.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Agile",
+      "CI/CD",
+      "Collaboration",
+      "Cross-functional Collaboration",
+      "DevOps",
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "JavaScript",
+      "Jenkins",
+      "Jest",
+      "LLM",
+      "MCP Server",
+      "Microsoft Teams",
+      "Playwright",
+      "Postman",
+      "Prompt Engineering",
+      "Reporting",
+      "Selenium",
+      "TypeScript"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "project_mgmt": [
+        "Agile"
+      ],
+      "devops": [
+        "CI/CD",
+        "DevOps",
+        "GitHub Actions",
+        "Jenkins"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Cross-functional Collaboration",
+        "Reporting"
+      ],
+      "genai": [
+        "Generative AI",
+        "LLM",
+        "MCP Server",
+        "Prompt Engineering"
+      ],
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "testing": [
+        "Jest",
+        "Playwright",
+        "Selenium"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(JavaScripT→JavaScript(100%), collaborating→Collaboration(92%), cross-functional→Cross-functional Collaboration(100%), teams.→Microsoft Teams(91%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Freelance Automation Test Engineer",
+        "company": "Upwork, Fiverr",
+        "location": "uTest",
+        "start": "08/2024",
+        "end": "Present",
+        "method": "date_regex+title_dict+comma_company_location",
+        "duration_months": 26,
+        "bullets": [
+          "(JavaScript) for UI, functional, and regression testing. Designed reusable Page Object Model (POM) frameworks",
+          "for scalable automation. Performed API testing using Playwright request context",
+          "and validated responses, status codes, and workflows. Executed cross-browser testing on Chromium, Firefox,",
+          "and WebKit. Identified UI defects, workflow issues, and performance",
+          "bottlenecks during various freelancing cycles. Delivered detailed bug reports and collaborated directly",
+          "with clients on improvements. Supported clients by creating maintainable test suites and",
+          "integrating them with CI/CD pipelines. Applications / Projects Worked On Through Freelancing Platforms:",
+          "Functional testing cycles on uTest",
+          "Exploratory & usability testing cycles on Testlio",
+          "Small automation and validation tasks delivered through",
+          "Fiverr gigs Analyzed requirements and user stories to create detailed",
+          "test scenarios and test cases.",
+          "exploratory testing for web applications.",
+          "level validations, form checks, and workflow testing. Executed end-to-end testing covering login, signup, CRUD",
+          "operations, workflows, and user journeys. Logged, tracked, and managed defects using Jira / Bug",
+          "Tracking tools.",
+          "partitioning, and negative testing. Coordinated with developers to reproduce defects, verify",
+          "fixes, and re-test affected areas. Prepared test reports, summaries, and daily status",
+          "updates for stakeholders. Tested APIs manually using tools like Postman (if",
+          "applicable)."
+        ],
+        "sub_sections": [
+          "Web application automation projects via Upwork",
+          "Performed functional, regression, sanity, smoke, and",
+          "Conducted UI/UX validation, cross-browser testing, field-",
+          "Performed boundary value analysis, equivalence"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "QA Engineer",
+        "company": "Crestech Software Systems",
+        "location": "Gurgaon",
+        "start": "07/2021",
+        "end": "07/2024",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 37,
+        "bullets": [
+          "automation frameworks using JavaScript for large-scale web and API testing. Implemented Page Object Model (POM) and Data-Driven",
+          "Testing (DDT) principles to ensure modular, reusable, and maintainable test code.",
+          "using Jenkins and GitHub Actions for continuous testing and faster feedback loops. Configured and managed MCP Server and AWS",
+          "environments for distributed and cloud-based test execution. Leveraged GitHub Copilot and Generative AI (GenAI) for",
+          "intelligent test script generation and defect prediction, improving efficiency and reducing script authoring time by 30%. Built custom automation utilities and reusable test",
+          "components, reducing regression cycle time by 40%.",
+          "browser testing, ensuring product stability across multiple releases. Collaborated closely with development and DevOps teams",
+          "to troubleshoot automation failures, analyze CI/CD logs, and maintain pipeline health.",
+          "dynamically generate and validate test data, improving coverage accuracy.",
+          "integrated with CI/CD dashboards for test insights and continuous monitoring. Mentored new QA team members on Playwright, POM",
+          "design, GitHub integration, and automation best practices. ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [
+          "Integrated Playwright automation with CI/CD pipelines",
+          "Performed end-to-end functional, regression, and cross-",
+          "Applied LLM-based automation enhancements to",
+          "Delivered high-quality Allure and Extent Reports"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.2,
+      "total_months": 63,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech In Computer Science",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": "Computer Science Maharishi Markandeshwar University",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

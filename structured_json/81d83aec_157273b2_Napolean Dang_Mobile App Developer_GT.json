@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "source_file": "81d83aec_157273b2_Napolean Dang_Mobile App Developer_GT_segmented.txt",
+    "generated_at": "2026-09-30T06:59:27.379649+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Napolean Dang",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "napo123@rediffmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9971791175",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "google.com/store/apps/details",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": "• Android Developer with 8+ years of experience in designing and developing scalable mobile applications\nusing Java and Kotlin.\n• Proficient in Android SDK, Jetpack components, and MVVM architecture, ensuring robust, maintainable,\nand high-performing applications.\n• Skilled in integrating third-party APIs, Bluetooth, Aadhaar services, and biometric authentication, delivering\nsecure and feature-rich mobile solutions.\n• Hands-on expertise in Room Database, Retrofit, Coroutines Flow, Dagger, Hilt, and Jetpack Compose, with\na strong focus on clean code and performance optimization.\n• Proven track record of delivering user-friendly, multilingual, and client-centric apps across domains such as\n\ne-commerce, mobility, and government services.",
+  "skills": {
+    "items": [
+      "Android",
+      "E-commerce",
+      "Git",
+      "JSON",
+      "Java",
+      "Kotlin",
+      "MVVM",
+      "Performance Optimization",
+      "REST",
+      "REST API",
+      "SQLite"
+    ],
+    "by_category": {
+      "mobile": [
+        "Android"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "dev_tool": [
+        "Git",
+        "Performance Optimization"
+      ],
+      "web_framework": [
+        "JSON",
+        "REST API"
+      ],
+      "programming_language": [
+        "Java",
+        "Kotlin"
+      ],
+      "architecture": [
+        "MVVM"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "database": [
+        "SQLite"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Rest→REST(100%), Kotlin.→Kotlin(92%), e-commerce→E-commerce(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Software Developer",
+        "company": "Pavitra Retail Pvt ltd",
+        "location": null,
+        "start": "Dec 2015",
+        "end": "Aug 2019",
+        "method": "date_regex+title_dict+company_suffix_match",
+        "duration_months": 45,
+        "bullets": [
+          "Designed and developed an e-commerce Android application using Java for selling organic products, integrating secure product browsing and checkout features.",
+          "Implemented interactive modules such as Q&A, comments, and an articles section, enhancing customer engagement and knowledge sharing.",
+          "Optimized app performance and UI within the Android ecosystem, ensuring a smooth and user-friendly shopping experience."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.8,
+      "total_months": 45,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech/B.E. in Computers from Indian Institute of Technology, Guwahati 2013",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indian Institute of Technology, Guwahati",
+        "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.94
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

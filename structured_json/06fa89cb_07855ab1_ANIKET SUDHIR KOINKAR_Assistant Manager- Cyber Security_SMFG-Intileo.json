@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "source_file": "06fa89cb_07855ab1_ANIKET SUDHIR KOINKAR_Assistant Manager- Cyber Security_SMFG-Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:57:47.785512+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aniket Sudhir Koinkar",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "aniketkoinkar@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "7028480714",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/aniket-koinkar",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Highly skilled and detail-oriented Security Operations Center (SOC) Analyst with extensive experience in detecting,\ninvestigating, and responding to security incidents across enterprise and cloud environments. Proficient with SIEM, SOAR,\nEDR, threat intelligence platforms, and cloud security tools. Experienced in fraud detection, threat hunting, malware analysis,\ninsider threat detection, and handling advanced persistent threats (APTs). Strong foundation in cloud security (AWS, Azure,\nGCP), automation, and compliance frameworks like PCI-DSS, HIPAA, GDPR, and NIST.",
+  "skills": {
+    "items": [
+      "AWS",
+      "Active Directory",
+      "Azure",
+      "Carbon Black",
+      "CrowdStrike",
+      "DHCP",
+      "DNS",
+      "DevOps",
+      "Docker",
+      "EDR",
+      "Fraud Detection",
+      "GCP",
+      "GDPR",
+      "Google",
+      "Google SecOps",
+      "HIPAA",
+      "Identity Management",
+      "Incident Management",
+      "Jira",
+      "Kubernetes",
+      "Log Analysis",
+      "Malware Analysis",
+      "Microsoft Defender",
+      "Microsoft Sentinel",
+      "NIST",
+      "Networking",
+      "PCI-DSS",
+      "PowerShell",
+      "Python",
+      "SIEM",
+      "SOAR",
+      "SailPoint",
+      "Security Operations Center",
+      "SentinelOne",
+      "ServiceNow",
+      "Symantec",
+      "TCP/IP",
+      "Threat Hunting",
+      "Threat Intelligence",
+      "Vulnerability Management"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ],
+      "security_ops": [
+        "Active Directory",
+        "Carbon Black",
+        "CrowdStrike",
+        "EDR",
+        "Google SecOps",
+        "Log Analysis",
+        "Malware Analysis",
+        "Microsoft Defender",
+        "Microsoft Sentinel",
+        "NIST",
+        "PCI-DSS",
+        "SIEM",
+        "SOAR",
+        "Security Operations Center",
+        "Threat Hunting",
+        "Threat Intelligence"
+      ],
+      "networking": [
+        "DHCP",
+        "DNS",
+        "TCP/IP"
+      ],
+      "devops": [
+        "DevOps",
+        "Docker",
+        "Kubernetes"
+      ],
+      "finance": [
+        "Fraud Detection"
+      ],
+      "legal": [
+        "GDPR"
+      ],
+      "database": [
+        "Google"
+      ],
+      "healthcare": [
+        "HIPAA"
+      ],
+      "security": [
+        "Identity Management",
+        "Incident Management",
+        "SentinelOne",
+        "Symantec",
+        "Vulnerability Management"
+      ],
+      "project_mgmt": [
+        "Jira"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "os_system": [
+        "PowerShell"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "iam": [
+        "SailPoint"
+      ],
+      "integration": [
+        "ServiceNow"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Incident Response→Incident Management(100%), Defender→Microsoft Defender(100%), Vulnerability Assessment→Vulnerability Management(100%), Google→Google(100%), threat hunting→Threat Hunting(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "NAM Region — Security Managed Services Analyst",
+        "company": "Cross-Client SOC Operations",
+        "location": "Security Managed Services Analyst",
+        "start": "Sep 2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 13,
+        "bullets": [
+          "Supporting NAM clients across banking, retail, healthcare, manufacturing, and telecom.",
+          "Monitoring endpoint, cloud, network, and identity alerts using SIEM/EDR tools.",
+          "Investigating phishing, malware, brute-force, risky logins, insider threats, and lateral movement.",
+          "Conducting threat hunting with IOC feeds, MITRE ATT&CK, anomaly detection.",
+          "Monitoring MFA failures, VPN anomalies, privilege escalations, and third-party access.",
+          "Preparing investigation logs, timelines, and remediation recommendations.",
+          "Conducted security automation using Python scripts for recurring alerts.",
+          "Provide SOC services for multiple NAM-region clients across banking, telecom, retail, and healthcare.",
+          "Investigate phishing, malware, brute-force attempts, risky logins, identity threats, and EDR detections.",
+          "Analyze endpoint, cloud, network, and identity logs using SIEM/EDR tools.",
+          "Conduct threat hunting using IOC searches, MITRE ATT&CK mapping, and anomaly-based detections.",
+          "Prepare detailed investigation documentation and client-specific remediation plans.",
+          "Collaborate with client teams on hardening, remediation, and long-term security improvements.",
+          "Contribute to alert tuning, false-positive reduction, and SOC process optimization.",
+          "Assist onboarding new clients by validating log ingestion, SIEM rules, and EDR integrations.",
+          "Identify patterns of recurring threats and recommend improvements to detection logic, response workflows, and SIEM correlation rules.",
+          "Coordinate with cross-functional teams during high-severity incidents to ensure rapid containment, proper communication, and timely recovery actions."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Credit Agricole Corporate & Investment Bank – SOC Analyst",
+        "company": "Credit Agricole",
+        "location": "Credit Agricole Corporate & Investment Bank – SOC Analyst",
+        "start": "Feb 2023",
+        "end": "Sep 2025",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 32,
+        "bullets": [
+          "Monitored global financial infrastructure using Azure Sentinel and Google SecOps.",
+          "Investigated fraud indicators, unauthorized transactions, and suspicious activity.",
+          "Handled phishing, malware, credential attacks, MFA anomalies, and account compromises.",
+          "Conducted forensic reviews of PowerShell, registry, processes, and network traces.",
+          "Created incident reports, investigation notes, and compliance documentation.",
+          "Performed proactive threat hunting across endpoints, cloud, and networks.",
+          "Developed dashboards for threat trends and KPI reporting.",
+          "Coordinated with internal teams to remediate critical vulnerabilities.",
+          "Assisted in tuning SIEM rules to reduce false positives and improve alert accuracy.",
+          "Conducted knowledge-sharing sessions and SOC training for junior analysts.",
+          "Participated in audits and ensured compliance with PCI-DSS and internal security policies.",
+          "Monitored global banking infra for high-risk threats targeting critical financial systems.",
+          "Investigated fraud attempts, unauthorized transactions, and insider threat indicators.",
+          "Handled phishing, malware infections, credential attacks, MFA anomalies, and data exfiltration.",
+          "Performed forensic analysis of PowerShell, registry changes, processes, and network traffic.",
+          "Created compliance-ready incident reports, timelines, and investigation logs.",
+          "Executed proactive threat hunting across cloud, network, and endpoint layers."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.7,
+      "total_months": 44,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Masters of Computer Application",
+        "degree_name": "MCA",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": "Savitribai Phule Pune University Ashoka Center for Business and Computer Studies",
+        "year": "Nov 2022 - Mar 2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "degree_name": "B.Sc",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science",
+        "institution": "Computer Science K.R.T. Arts, B.H. Commerce and A.M.Science College",
+        "year": "Jul 2019 - Mar 2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "State Board HSC",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "State Board",
+        "year": "Jul 2017 - Mar 2019",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Microsoft Certified: Security Operations Analyst (SC-200)",
+        "issuer": "Microsoft",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Google Cloud Professional Cloud DevOps Engineer",
+        "issuer": "Google Cloud",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Google Cloud Professional Security Engineer",
+        "issuer": "Google Cloud",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "AWS Certified DevOps Engineer – Professional",
+        "issuer": "AWS",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Microsoft Azure Fundamentals (AZ-900)",
+        "issuer": "Microsoft Azure",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Google Cloud Associate Engineer",
+        "issuer": "Google Cloud",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.91
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

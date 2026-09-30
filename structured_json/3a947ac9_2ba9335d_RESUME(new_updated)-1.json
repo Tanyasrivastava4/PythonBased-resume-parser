@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "source_file": "3a947ac9_2ba9335d_RESUME(new_updated)-1_segmented.txt",
+    "generated_at": "2026-09-30T06:58:18.921213+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "interests",
+      "languages",
+      "personal_details",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Father Name:",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "reena1971rani@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9643880776 / 9871630918",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To work with an organization where I can synergize my aspiration with the organization goals by holding a responsible position so that personnel and organizational growth is ensured.\nAbility to work with team, Ability to work under pressure & self-motivated.",
+  "skills": {
+    "items": [
+      "Apache Maven",
+      "Bitbucket",
+      "CSS3",
+      "Eclipse",
+      "Git",
+      "GitHub",
+      "HTML5",
+      "Hibernate",
+      "J2EE",
+      "JDBC",
+      "JSP",
+      "Java",
+      "JavaScript",
+      "Jenkins",
+      "Microservices",
+      "Microsoft Windows",
+      "MySQL",
+      "NetBeans",
+      "PL/SQL",
+      "Postman",
+      "PuTTY",
+      "Python",
+      "REST API",
+      "Responsible AI",
+      "Spring",
+      "Spring Boot",
+      "VS Code",
+      "WinSCP"
+    ],
+    "by_category": {
+      "dev_tool": [
+        "Apache Maven",
+        "Bitbucket",
+        "Eclipse",
+        "Git",
+        "GitHub",
+        "NetBeans",
+        "Postman",
+        "PuTTY",
+        "VS Code",
+        "WinSCP"
+      ],
+      "web_framework": [
+        "CSS3",
+        "HTML5",
+        "Hibernate",
+        "JSP",
+        "REST API",
+        "Spring",
+        "Spring Boot"
+      ],
+      "programming_language": [
+        "J2EE",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "database": [
+        "JDBC",
+        "MySQL",
+        "PL/SQL"
+      ],
+      "devops": [
+        "Jenkins"
+      ],
+      "architecture": [
+        "Microservices"
+      ],
+      "os_system": [
+        "Microsoft Windows"
+      ],
+      "genai": [
+        "Responsible AI"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Java8→Java(91%), HTML→HTML5(100%), Springboot→Spring Boot(100%), RestAPI→REST API(100%), microservice→Microservices(96%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "5 Year’s Experience in “MINISTRY OF DEFENCES” BEL COMPANY as a contract engineer (Testing in Radar System & Programming) in IFF/PAR-1 Department through Contractor (UDS) Since",
+        "company": "ROLE & RESPONSIBILITIES",
+        "location": null,
+        "start": "5/10/2016",
+        "end": "31/6/2021",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 0,
+        "bullets": [
+          "Working in domain of Electronics & Communication Engineering (AREA) PCB level programming, testing and repair of Processor PCBs, Receiver & Transmitter Processor PCBs, REI PCBs, Power supply PCBs, Line filter PCBs, DC-DC convertor PCBs etc.",
+          "Understanding of different type of Engineering Documents like — Schematic Diagram (SD), General Assembly (GA), Acceptance Test Procedures (ATPs), Production Test Procedures (PTP) etc.",
+          "Module and Sub-system level testing of various Analog, Digital and RF modules used in Interrogator and Decoder Unit."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "DVM), Pulse generator, Signal generator, Spectrum Analyzer etc. Familiarization and usage of Systems Applications & Products (SAP).’s Experience in “FUTECH IT PARK” as a Java/J2ee , data structure with Project (IDE) Eclipse and NetBeans 8.0.2 (software developer) and Web designer since",
+        "company": "Familiarization and usage of various test instruments like Digital Oscilloscope",
+        "location": "Digital Volt Meter",
+        "start": "5/10/2012",
+        "end": "4/10/2016",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 48,
+        "bullets": [
+          "CLINIC MANAGEMENT SYSTEM: This project has been developing in java.",
+          "Hence the category of the project comes into WBA (Web Based Application) & it is an Object Oriented System.",
+          "Role & Responsibilities: Responsible for requirements analysis, design & implementation"
+        ],
+        "sub_sections": [
+          "Web application built on J2EE technologies",
+          "Used Maven as build tools on java projects for the development of build artifacts on the source code.",
+          "Software used: J2ee,Servlet",
+          "Backend: Mysql & Forntend: Servlet",
+          "Project-2: Description",
+          "CHATTING APPLICATION: This project has been developing in j2ee.Using socket programming.",
+          "Role & Responsibilities: Responsible for requirements analysis,design & implementation(Distributed Application)Software used:Socket,Swings",
+          "Project-3: Description",
+          "NOTEPAD EDITOR: This project has been developing in j2ee."
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "IDE) Eclipse “indigo” & Netbeans6.5 as a Trainee since",
+        "company": "Software used: Java,Swings’s Experience in “EMPHASIS CAREER SOLUTION” in Java/J2ee , Data Structure with PROJECT",
+        "location": null,
+        "start": "April 2012",
+        "end": "September 2012",
+        "method": "date_regex+date_prefix_title+company_parens_role",
+        "duration_months": 6,
+        "bullets": [
+          "ONLINE/OFFLINE EXAMINATION SYSTEM: This project has been developing in core java.",
+          "Role & Responsibilities: Responsible for requirements analysis, design & implementation (Desktop Application)"
+        ],
+        "sub_sections": [
+          "Software used: Java(core),Jsp,Swings,Servlet",
+          "Backend: Oracle & Forntend: Jsp"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.1,
+      "total_months": 49,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.79
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Passed B.TECH in (COMPUTER SCIENCE & ENGINEERING) from GBTU University in 2011, Ghaziabad",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "(COMPUTER SCIENCE & ENGINEERING) from GBTU University in 2011",
+        "institution": "GBTU University",
+        "year": "2011",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Passed DIPLOMA in (ELECTRONICS ENGINEERING) from Govt.Polytechnic Jhansi in 2008, Jhansi",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": "(ELECTRONICS ENGINEERING) from Govt.Polytechnic Jhansi in 2008",
+        "institution": "Govt. Polytechnic Jhansi",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Passed High School in (SCIENECE SIDE) From U.P Board from Ghaziabad",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": "(SCIENECE SIDE) From U.P Board from Ghaziabad",
+        "institution": "U.P Board",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.9
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "7TH National Aptitude test merit recognition certificate from NIIT.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Oracle 9i program with pl/sql Learns & certificate from NIIT.",
+        "issuer": "Oracle",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "C language learns & certificate from NIIT.",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Data Structure & algorithms Learns & Certificate from NIIT",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.84
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

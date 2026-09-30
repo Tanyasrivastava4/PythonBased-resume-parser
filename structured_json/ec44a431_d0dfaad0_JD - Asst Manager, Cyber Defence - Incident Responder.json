@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "source_file": "ec44a431_d0dfaad0_JD - Asst Manager, Cyber Defence - Incident Responder_segmented.txt",
+    "generated_at": "2026-09-30T07:00:40.188900+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "skills",
+      "unknown"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pragati Ki Nayi Pehchaan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "smfgindiacredit.com",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Accounts Receivable",
+      "Analyze",
+      "Incident Management",
+      "Information Security",
+      "Leadership",
+      "Microsoft Teams",
+      "Problem Solving",
+      "Project Management",
+      "Risk Management",
+      "SIEM",
+      "Technical Support",
+      "Trend Analysis"
+    ],
+    "by_category": {
+      "finance_ops": [
+        "Accounts Receivable"
+      ],
+      "data_science": [
+        "Analyze",
+        "Trend Analysis"
+      ],
+      "security": [
+        "Incident Management",
+        "Information Security"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Problem Solving"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "project_mgmt": [
+        "Project Management",
+        "Risk Management"
+      ],
+      "security_ops": [
+        "SIEM"
+      ],
+      "support": [
+        "Technical Support"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%)) | flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [],
+    "_confidence": 0.0
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.9
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "experience",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    },
+    {
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
+    }
+  ]
+}

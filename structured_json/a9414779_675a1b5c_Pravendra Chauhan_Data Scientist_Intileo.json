@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "source_file": "a9414779_675a1b5c_Pravendra Chauhan_Data Scientist_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T06:59:59.453629+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "languages",
+      "personal_details",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Pravendra Chauhan",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "lavishchauhan1995@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91) 6395663896",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/pravendra-",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Experienced Artificial intelligence and Machine learning with expertise\nin Python Data Scientist and also Django Rest API,Deep learning,\nAnnotations, Object detection,RAG LLM, Langchain, Llama3, Yolov8,.\nSeeking a challenging opportunity to leverage my skills and expand my\n\nDeveloped an online summary generation system for DSM-5 mental health\npatients using GPT-4. The system leverages a question-answering model to\ngenerate concise and accurate summary reports based on patient data. This\nproject, focused on the healthcare domain, showcases expertise in applying\nadvanced deep learning techniques for sensitive and critical applications,\nensuring precision and reliability in mental health assessments.\n6 Months\nReal-Time Face Recognition Attendance System for Amazon Store (CCTV\nIntegration)\nDeveloped a real-time face recognition system integrated with CCTV\ncameras for an Amazon retail store to automate employee attendance and\ndetect unauthorized individuals. The system uses YOLOv11 for high-\naccuracy person and face detection in live video streams, and FCENet for\nreliable face recognition against a registered employee database. Built using\nthe Flask framework, the backend handles secure data processing, face\nmatching, attendance logging, and real-time alerts for unknown individuals.",
+  "skills": {
+    "items": [
+      "Computer Vision",
+      "Data Science",
+      "Deep Learning",
+      "Django",
+      "Flask",
+      "GPT-4",
+      "Healthcare",
+      "Hikvision",
+      "Intellectual Property",
+      "LLM",
+      "LLaMA",
+      "LangChain",
+      "Machine Learning",
+      "Mental Health",
+      "Python",
+      "RAG",
+      "REST",
+      "YOLO"
+    ],
+    "by_category": {
+      "ai_ml": [
+        "Computer Vision",
+        "Data Science",
+        "Deep Learning",
+        "Machine Learning",
+        "YOLO"
+      ],
+      "web_framework": [
+        "Django",
+        "Flask"
+      ],
+      "genai": [
+        "GPT-4",
+        "LLM",
+        "LLaMA",
+        "LangChain",
+        "RAG"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "security_ops": [
+        "Hikvision"
+      ],
+      "legal": [
+        "Intellectual Property"
+      ],
+      "healthcare": [
+        "Mental Health"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "integration": [
+        "REST"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Rest→REST(100%), Deep learning→Deep Learning(100%), Object detection→Computer Vision(100%), Langchain→LangChain(100%), Llama3→LLaMA(92%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "AI ML Engineer Data Scientist",
+        "company": "Chetu",
+        "location": null,
+        "start": "Jun 2023",
+        "end": "Oct 2024",
+        "method": "date_regex+title_dict",
+        "duration_months": 17,
+        "bullets": [
+          "Expertise in Artificial Intelligence, Machine Learning, and Deep Learning,"
+        ],
+        "sub_sections": [
+          "Pandas",
+          "with hands-on experience in LLMs (e.g., LangChain, Llama 3).",
+          "Tensorflow"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "AI GenAI Engineer",
+        "company": "Cogniforge technologies",
+        "location": null,
+        "start": "Dec 2024",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 22,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 3.2,
+      "total_months": 39,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech/B.E., 2022",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "NLP AKTU Lucknow Annotation Huggingface Python Django",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "EC council EHA Ethical hacking essential",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

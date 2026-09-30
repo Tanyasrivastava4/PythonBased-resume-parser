@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "source_file": "cd4ccff3_1a6718e8_G Vinay Venkata Sai_Investment Analytics_Intileo_segmented.txt",
+    "generated_at": "2026-09-30T07:00:22.612412+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "G Vinay Venkata Sai",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "vinayvenkatasai10@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9346432904",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/gandhamsetty-vinay-sai-584465190",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": "github.com/iamgvvs",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "– Markets Data and Regulatory Analytics professional with 2+ years of experience in high-volume, compliance-sensitive\nfinancial market environments. Experienced in designing scalable SQL transformations, supporting trade lifecycle analytics,\nand delivering production-grade reporting solutions for Surveillance, Investigation, and Trade Operations teams. Strong\nexpertise in billion-scale trading datasets, data warehousing principles, reconciliation frameworks, and stakeholder-driven\nanalytics in regulated exchange systems.",
+  "skills": {
+    "items": [
+      "Aggregations",
+      "Apache Hive",
+      "BRD",
+      "CTE",
+      "Collaboration",
+      "Cross-functional Collaboration",
+      "Dashboard Development",
+      "Data Warehousing",
+      "Joins",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "NumPy",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "Query Optimization",
+      "Reporting",
+      "SQL",
+      "Tableau",
+      "UAT",
+      "Window Functions"
+    ],
+    "by_category": {
+      "database": [
+        "Aggregations",
+        "CTE",
+        "Joins",
+        "Query Optimization",
+        "SQL",
+        "Window Functions"
+      ],
+      "data_engineering": [
+        "Apache Hive",
+        "Data Warehousing"
+      ],
+      "business_analysis": [
+        "BRD"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Cross-functional Collaboration",
+        "Reporting"
+      ],
+      "data_science": [
+        "Dashboard Development",
+        "Power BI",
+        "Tableau"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "ai_ml": [
+        "NumPy",
+        "Pandas"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "testing": [
+        "UAT"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(CTEs→CTE(100%), Hive→Apache Hive(100%), Advanced Excel→Microsoft Excel(100%), Cross-Functional→Cross-functional Collaboration(100%), teams.→Microsoft Teams(91%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "| National Stock Exchange (NSE",
+        "company": "– Collaborated with Investigation, Surveillance, Trade Operations, and Policy teams to translate regulatory and trading business requirements into scalable data solutions within a high-volume exchange environment. – Led structured stakeholder workshops to define KPIs, data definitions, and reporting standards, reducing requirement clarification cycles by 35% and improving delivery eﬀiciency. – Performed cross-platform data analysis across Equity, Derivatives, RFQ, OFS, IPO, and secondary market systems, identifying data quality gaps and strengthening compliance-sensitive reporting accuracy – Designed and optimized complex SQL- and Python-based analytics frameworks supporting 10+ high-priority regulatory and operational reporting use cases monthly on billion-scale trading datasets – Conducted production-grade root cause analysis and managed UAT validation cycles to ensure data integrity, audit readiness, and post-deployment stability across high-volume trading data platforms.",
+        "location": "National Stock Exchange (NSE",
+        "start": "June 2024",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "duration_months": 28,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.3,
+      "total_months": 28,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Dual Degree (B.Tech + M.Tech)",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indian Institute of Technology (IIT) Kharagpur",
+        "year": "2019 - 2024",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "B.Tech : Electronics & Communication Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Electronics & Communication Engineering",
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "M.Tech : Vision and Intelligent Systems (Artificial Intelligence)",
+        "degree_name": "M.Tech",
+        "degree_type": "masters",
+        "degree_field": "Vision and Intelligent Systems (Artificial Intelligence)",
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.75
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

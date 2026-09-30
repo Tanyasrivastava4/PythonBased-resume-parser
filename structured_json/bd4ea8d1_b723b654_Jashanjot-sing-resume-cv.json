@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "source_file": "bd4ea8d1_b723b654_Jashanjot-sing-resume-cv_segmented.txt",
+    "generated_at": "2026-09-30T07:00:13.786368+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Jashanjot Singh",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "jashanjotdhiman@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "6239907775",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Aspiring Software Developer with expertise in Python, Django, AI/ML, and Web Automation. Passionate about building\nefficient, scalable solutions and leveraging AI for automation. Seeking an opportunity to apply technical skills in a dynamic\nenvironment.",
+  "skills": {
+    "items": [
+      "C++",
+      "CCNA",
+      "ChromaDB",
+      "Django",
+      "LLM",
+      "Machine Learning",
+      "MongoDB",
+      "MySQL",
+      "NLP",
+      "Networking",
+      "NumPy",
+      "Ollama",
+      "OpenAI API",
+      "Pandas",
+      "Playwright",
+      "Prompt Engineering",
+      "Python",
+      "Qdrant",
+      "RAG",
+      "Spring",
+      "Streamlit",
+      "scikit-learn"
+    ],
+    "by_category": {
+      "programming_language": [
+        "C++",
+        "Python"
+      ],
+      "networking": [
+        "CCNA"
+      ],
+      "search": [
+        "ChromaDB",
+        "Qdrant"
+      ],
+      "web_framework": [
+        "Django",
+        "Spring"
+      ],
+      "genai": [
+        "LLM",
+        "Ollama",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG"
+      ],
+      "ai_ml": [
+        "Machine Learning",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "scikit-learn"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "testing": [
+        "Playwright"
+      ],
+      "dev_tool": [
+        "Streamlit"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), ollama→Ollama(100%), openAi→OpenAI API(100%), Aspiring→Spring(86%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Developer",
+        "company": "AI Agent Framework for Web Automation",
+        "location": "AI",
+        "start": "02/2025",
+        "end": "05/2025",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 4,
+        "bullets": [
+          "Built an LLM-powered agentic web automation framework using Microsoft AutoGen and",
+          "Granite3-8B (Ollama). Developed a RAG Q&A system with LangChain, Qdrant/ChromaDB, and LLaMA over",
+          "uploaded documents. Integrated FastAPI to expose agent workflows as scalable automation services.",
+          ""
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "AIML Developer",
+        "company": "Xpedicr Pvt LTD",
+        "location": null,
+        "start": "05/2025",
+        "end": "09/2025",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 5,
+        "bullets": [
+          "Developed a medical chatbot for symptom detection and disease prediction.",
+          "Suggested precautions, home remedies, and nutrition plans via chatbot.",
+          "Used LLaMA 3.2, Granite, Meditron, Bio_ClinicalBERT for medical Q&A.",
+          "Integrated XrayGPT for X-ray/MRI image analysis.",
+          "Fine-tuned TrOCR on IAM dataset to read handwritten prescriptions.",
+          ""
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "AI Engineer",
+        "company": "Future Tech IT Global (Equiax",
+        "location": null,
+        "start": "10/2025",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 12,
+        "bullets": [
+          "Built AI agents for business workflows using CrewAI.",
+          "Implemented a RAG agent over 10,000+ company documents for fast, accurate retrieval.",
+          "Fine-tuned custom LLMs for domain-specific performance improvements."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 1.7,
+      "total_months": 20,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "Bachelor of Technology",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Baba Banda Singh Bahadur Engineering College Punjab",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Python",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Training with Netsmartz Infotech Training in Office Automation , C++ , Training in CCNA Networking at GN",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "India Pvt. Ltd. in Python Technology Web Development at Baba Banda Infotech Authorised Training Centre",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "and MySQL Duration:-45 days",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "Singh Bahadur Engineering",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "of C-DAC",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[2]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[3]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[4]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[5]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

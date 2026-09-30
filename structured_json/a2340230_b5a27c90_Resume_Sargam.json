@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "source_file": "a2340230_b5a27c90_Resume_Sargam_segmented.txt",
+    "generated_at": "2026-09-30T06:59:52.304264+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "skills"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Sargam Jain",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "sargam0604@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+918791520050",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/sargam-jain-120b44207",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": "mindsprint.com/",
+      "confidence": 0.85,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "Business Analytics",
+      "DAX",
+      "Data Analysis",
+      "Data Modeling",
+      "Data Visualization",
+      "ETL",
+      "Incident Management",
+      "Leadership",
+      "Microsoft Excel",
+      "Power BI",
+      "Power Query",
+      "Presentation Skills",
+      "Reporting",
+      "SQL",
+      "SSMS",
+      "Salesforce",
+      "Stakeholder Management",
+      "Tableau",
+      "Technical Writing"
+    ],
+    "by_category": {
+      "data_science": [
+        "Business Analytics",
+        "DAX",
+        "Data Analysis",
+        "Data Modeling",
+        "Data Visualization",
+        "Power BI",
+        "Power Query",
+        "Tableau"
+      ],
+      "data_engineering": [
+        "ETL"
+      ],
+      "security": [
+        "Incident Management"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Presentation Skills",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "database": [
+        "SQL"
+      ],
+      "dev_tool": [
+        "SSMS"
+      ],
+      "integration": [
+        "Salesforce"
+      ],
+      "content": [
+        "Technical Writing"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Business Analysis→Business Analytics(91%), Data Modelling→Data Modeling(96%), ETL Processes→ETL(92%), Technical Documentation→Technical Writing(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "Senior Software Developer - Data",
+        "company": "Mindsprint",
+        "location": null,
+        "start": "Sep 2024",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 25,
+        "bullets": [
+          "Orchestrated data modeling and ETL processes using Tableau Prep, Power Query, and Power Pivot",
+          "Developed advanced SQL queries and database views to enhance system performance and data accessibility",
+          "Executed seamless dashboard migrations between Tableau and Power BI while maintaining 100% data integrity",
+          "Developed Power BI Paginated Reports to deliver high-fidelity, print-ready insights for executive stakeholders",
+          "Led cross-functional teams through the full project life-cycle, ensuring on-time delivery of all technical milestones",
+          "Collaborated with clients to translate business requirements into actionable, technical data solutions"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Analyst - BI",
+        "company": "Optimized DBT documentation and work-flows to streamline development and improve code transparency Tiger Analytics",
+        "location": null,
+        "start": "Jan 2023",
+        "end": "Sep 2023",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 9,
+        "bullets": [
+          "Developed and optimized SQL queries for efficient extraction, cleansing, and analysis of large-scale data-sets",
+          "Implemented scalable Business Intelligence solutions to drive data-led decision-making for critical business sectors",
+          "Leveraged Power Query and Power Pivot to orchestrate advanced data transformation and robust data modeling",
+          "Identified and defined strategic KPIs tailored to specific client needs and performance tracking goals",
+          "Developed interactive, high-performance dashboards and reports using both Tableau and Power BI"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Associate Consultant",
+        "company": "Facilitated communication between developers and clients to ensure rapid issue resolution and project alignment",
+        "location": null,
+        "start": "Aug 2021",
+        "end": "Dec 2022",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 17,
+        "bullets": [
+          "Managed the full project life-cycle, including requirements analysis, technical design, implementation, and documentation",
+          "Authored BRDs, FRDs, DFDs, and Wire-frames to translate client needs into actionable technical requirements",
+          "Applied deep industry knowledge to align business models with evolving customer needs and strategic goals"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Systems Engineer",
+        "company": "Identified and resolved technical issues across the Microsoft Office 365 suite to ensure operational continuity",
+        "location": null,
+        "start": "Apr 2020",
+        "end": "Aug 2021",
+        "method": "date_regex+pipe_company_loc_role",
+        "duration_months": 17,
+        "bullets": [
+          "Streamlined automated reporting and delivered data-driven insights to optimize incident response work-flows",
+          "Collaborated with SMEs and stakeholders to elicit, analyze, and validate technical and business requirements",
+          "Applied a structured, data-centric approach to problem-solving and process improvement"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Engineer",
+        "company": "Infosys Ltd",
+        "location": "Systems",
+        "start": "Aug 2018",
+        "end": "Apr 2020",
+        "method": "date_regex+pipe_company_loc_role+company_suffix_match",
+        "duration_months": 21,
+        "bullets": [
+          "Managed system enhancements and maintenance for a global-scale configurator application within the manufacturing sector",
+          "Served as the primary point of contact between global clients, internal cross-functional teams, and external vendors",
+          "Resolved multi-priority incident tickets by aligning technical fixes with specific business requirements",
+          "Monitored data pipelines to ensure 100% timely delivery to customers, consistently meeting strict SLA requirements"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 7.2,
+      "total_months": 87,
+      "overlapping_periods_merged": 2
+    },
+    "_confidence": 0.81
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech. ()",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Graphic Era University, Dehradun",
+        "year": "2014 - 2018",
+        "gpa": "8.19 / 10.0",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class XII, CBSE (2014)",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Udemy Holy Angels’ Convent School",
+        "year": "2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Class X, CBSE (2012)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE",
+        "year": "2012",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Salesforce Tableau Desktop Specialist",
+        "issuer": "Salesforce",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      },
+      {
+        "name": "Microsoft Power BI",
+        "issuer": "Udemy",
+        "year": null,
+        "confidence": 0.8,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.88
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

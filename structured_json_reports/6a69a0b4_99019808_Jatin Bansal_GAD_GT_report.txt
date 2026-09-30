@@ -1,0 +1,43 @@
+======================================================================
+FILE: 6a69a0b4_99019808_Jatin Bansal_GAD_GT_segmented.txt
+======================================================================
+Sections found : ['certifications', 'education', 'experience', 'header', 'languages', 'skills']
+Overall conf.  : 0.87
+Needs review   : True
+
+CONTACT
+----------------------------------------------------------------------
+  name      : Jatin Bansal Chartered Accountant  (conf 0.9, regex)
+  email     : jatin.bansal1446@gmail.com  (conf 0.99, regex)
+  phone     : +919599792638 / 600 (5983  (conf 0.95, regex)
+  linkedin  : None  (conf 0.0, regex)
+  github    : None  (conf 0.0, regex)
+  website   : None  (conf 0.0, regex)
+
+SKILLS (19) — confidence 0.92
+----------------------------------------------------------------------
+Accounting, Communication, Financial Modelling, Financial Reporting, Income Tax Return, Ind AS, Internal Financial Controls, MS Office, Order-to-Cash, Procure-to-Pay, Risk & Control Matrix, SAP, Schedule III, Statutory Audit, Tally, Tax Audit, Taxation, Team Leadership, Test of Details
+
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 1.8 years (22 months, 0 overlaps merged)
+----------------------------------------------------------------------
+  1. Executive @ Forvis Mazars (Feb’25 - Present) [conf 0.98, review=False]
+  2. Article Assistant @ S.C. V & Co.LLP (March 21 - April 24) [conf 0.98, review=False]
+
+EDUCATION (6) — confidence 0.88
+----------------------------------------------------------------------
+  1. CA Final — The Institute of (2018 - 2021) [conf 0.95, review=False]
+  2. CA Intermediate — The Institute of (2018 - 2021) [conf 0.8, review=False]
+  3. CA Foundation — The Institute of (2018 - 2021) [conf 0.8, review=False]
+  4. B.Com — Arya College LDH (PU (2018 - 2021) [conf 0.95, review=False]
+  5. 12th — CBSE (2018) [conf 0.8, review=False]
+  6. 10th — CBSE (2016) [conf 0.95, review=False]
+
+CERTIFICATIONS (1) — confidence 0.6
+----------------------------------------------------------------------
+  1. Financial Modelling and Valuation (20 hours) — None (None) [conf 0.6]
+
+REVIEW QUEUE (2 flagged fields)
+----------------------------------------------------------------------
+  certifications                      conf=0.6  reason=low_confidence
+  certifications.items[0]             conf=0.6  reason=incomplete_fields

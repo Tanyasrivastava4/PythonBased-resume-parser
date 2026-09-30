@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "source_file": "3a86b54a_264ed77f_Aniket cv (2) (1)_segmented.txt",
+    "generated_at": "2026-09-30T06:58:18.638903+00:00",
+    "sections_found": [
+      "certifications",
+      "declaration",
+      "education",
+      "experience",
+      "header",
+      "personal_details",
+      "skills",
+      "strengths",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Aniket U Choudhary",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "aniketchoudhary9191@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9096919169 / 9960117979",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "To use my knowledge to the fullest of my capability and to work hard towards the achievement of organisations goal.",
+  "skills": {
+    "items": [
+      "CCNA",
+      "Check Point",
+      "Firewall",
+      "Palo Alto Networks",
+      "ServiceNow",
+      "TCP/IP",
+      "VLAN",
+      "VPN"
+    ],
+    "by_category": {
+      "networking": [
+        "CCNA",
+        "TCP/IP"
+      ],
+      "security_ops": [
+        "Check Point",
+        "Firewall",
+        "Palo Alto Networks",
+        "VPN"
+      ],
+      "integration": [
+        "ServiceNow"
+      ],
+      "cloud_infra": [
+        "VLAN"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Firewall:→Firewall(94%), checkpoint→Check Point(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": null,
+        "company": "Job Responsibility: For Rbi Client since",
+        "location": null,
+        "start": "16 Aug 2022",
+        "end": "03 Nov 2025",
+        "method": "date_regex",
+        "duration_months": 39,
+        "bullets": [
+          "Design security infrastructure and Policies, Liaising across the enterprise Monitor and respond to cybersecurity threats, ensuring 100% network uptime.",
+          "Co-ordinate with SOC team to check and Block CVE on our infra Working on the tickets booked by customer for various issues troubleshooting using ticketing tools."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Configuring and monitor Palo alto and checkpoint firewalls as per customer request. Job Responsibility: For Hi-tech services since",
+        "location": null,
+        "start": "01 Jan 2022",
+        "end": "30 Sep 2022",
+        "method": "date_regex",
+        "duration_months": 9,
+        "bullets": [
+          "Managing and updates dray tech switch & router Coordinate field operator to resolve the customer issues."
+        ],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "troubleshoot the speed issues and work on VPN for UAE based customer. Job Responsibility: For Co-Excel Enterprises since Wi-Fi survey, deployment, integrate, Testing (ATP11A, ATP11B), troubleshooting Fiber survey and implementation, submitting site report",
+        "company": "troubleshoot the speed issues and work on VPN for UAE based customer. Job Responsibility: For Co-Excel Enterprises since",
+        "location": null,
+        "start": "23 Oct 2017",
+        "end": "20 Jan 2019",
+        "method": "date_regex",
+        "duration_months": 15,
+        "bullets": [
+          "Wi-Fi survey, deployment, integrate, Testing (ATP11A, ATP11B), troubleshooting Fiber survey and implementation, submitting site report at JIO centre manager."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 5.2,
+      "total_months": 62,
+      "overlapping_periods_merged": 1
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.E (ETC)\tGNIET, NAGPUR\tRTMNU\t2014\t55.78",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": "ETC",
+        "institution": "HSSC BHARTIYA KRUSHI MAHAVIDHYALAY, NAGPUR MAHARASHTRA STATE BOARD",
+        "year": "2014",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "SSC\tJAWAHAR HIGH SCHOOL, NAGPUR\tMAHARASHTRA STATE BOARD\t2005\t44.00",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "JAWAHAR HIGH SCHOOL NAGPUR MAHARASHTRA STATE BOARD",
+        "year": "2005",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "PCNSA",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      },
+      {
+        "name": "MNA from Jetking",
+        "issuer": null,
+        "year": null,
+        "confidence": 0.6,
+        "needs_review": true
+      }
+    ],
+    "_confidence": 0.6
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.82
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications",
+      "confidence": 0.6,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "certifications.items[0]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "certifications.items[1]",
+      "confidence": 0.6,
+      "reason": "incomplete_fields"
+    }
+  ]
+}

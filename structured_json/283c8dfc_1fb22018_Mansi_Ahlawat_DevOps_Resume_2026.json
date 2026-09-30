@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "source_file": "283c8dfc_1fb22018_Mansi_Ahlawat_DevOps_Resume_2026_segmented.txt",
+    "generated_at": "2026-09-30T06:58:09.213153+00:00",
+    "sections_found": [
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Mansi Ahlawat",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "mansi.ahlawat0102@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "+91-9068289441",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/mansi-ahlawat-4368351a4",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "DevOps Engineer with 4+ years of experience in building and managing CI/CD automation, Infrastructure as\nCode (IaC), and cloud-native deployments on AWS for Fintech environments. Proficient in Kubernetes\norchestration and observability stacks using Prometheus, Grafana, and ELK. Experienced in cloud cost\noptimization and improving platform reliability.",
+  "skills": {
+    "items": [
+      "AWS",
+      "AWS EC2",
+      "AWS EKS",
+      "AWS RDS",
+      "AWS S3",
+      "AWS SNS",
+      "AWS SQS",
+      "ArgoCD",
+      "Bash",
+      "Bitbucket",
+      "CI/CD",
+      "DevOps",
+      "Docker",
+      "ELK Stack",
+      "Fintech",
+      "Grafana",
+      "Helm",
+      "Identity Management",
+      "Jenkins",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "Observability",
+      "PostgreSQL",
+      "Prometheus",
+      "Python",
+      "Terraform"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS EKS",
+        "AWS RDS",
+        "AWS S3",
+        "AWS SNS",
+        "AWS SQS"
+      ],
+      "devops": [
+        "ArgoCD",
+        "CI/CD",
+        "DevOps",
+        "Docker",
+        "ELK Stack",
+        "Grafana",
+        "Helm",
+        "Jenkins",
+        "Kubernetes",
+        "Observability",
+        "Prometheus",
+        "Terraform"
+      ],
+      "os_system": [
+        "Bash"
+      ],
+      "dev_tool": [
+        "Bitbucket"
+      ],
+      "domain": [
+        "Fintech"
+      ],
+      "security": [
+        "Identity Management"
+      ],
+      "database": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "programming_language": [
+        "Python"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(Docker Compose→Docker(100%))"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "DevOps Engineer",
+        "company": "Hybrid",
+        "location": null,
+        "start": "July 2025",
+        "end": "Present",
+        "method": "date_regex+title_dict",
+        "duration_months": 15,
+        "bullets": [
+          "– uWSGI Metrics Exporter & Autoscaling: Developed a custom uWSGI exporter and deployed it as a sidecar container to expose RPS metrics to Prometheus, enabling KEDA-based autoscaling. – Observability with ADOT: Implemented AWS Distro for OpenTelemetry (ADOT) to collect, process, and export metrics, logs, and traces, improving observability across applications and infrastructure. – Identity & Access Management (SSO): Configured Keycloak and integrated it with Jenkins, ArgoCD, and Rancher to enable Single Sign-On (SSO), improving security posture and access governance. – Helm Standardization: Onboarded Kubernetes applications to Helm charts across development and production environments, standardizing deployments and improving release reliability through IaC-driven configuration man- agement. – Jenkins Upgrade & Migration: Migrated and upgraded Jenkins along with the underlying Ubuntu OS, im- proving system security, compatibility, and overall stability."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "DevOps Engineer",
+        "company": "Hybrid",
+        "location": null,
+        "start": "Nov 2021",
+        "end": "June 2025",
+        "method": "date_regex+title_dict",
+        "duration_months": 44,
+        "bullets": [
+          "Unknown - Containerized Applications Deployment | Spearheaded end-to-end deployment of containerized applications using Kubernetes on AWS EKS, leveraging Helm charts and Kubernetes best practices. – Infrastructure and Cloud Migration: Successfully led the migration of infrastructure from Digital Ocean to AWS EKS, optimizing microservice deployments and improving scalability using Terraform. – CI/CD Pipeline Management: Built and maintained CI/CD pipelines using Jenkins and ArgoCD. – Observability & Monitoring: Deployed full observability stack — ELK (Logstash, Filebeat, Kibana), Prometheus, Grafana, and New Relic — for centralized logging, metrics, and alerting across all environments. – Autoscaling & Reliability: Implemented HPA and Cluster Autoscaler for dynamic Kubernetes scaling. – Cost Optimization: Designed AWS cost optimization strategies through right-sizing, efficient provisioning, and resource monitoring — achieving measurable reduction in operational cloud spend. – Configuration Management: Utilized Ansible to automate software provisioning and configuration of managed nodes, including security scan reporting."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 4.9,
+      "total_months": 59,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.98
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "•Bachelor of Technology in Computer Science and Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": "Computer Science and Engineering",
+        "institution": "Meerut Institute of Engineering and",
+        "year": "2018 - 2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.95
+  },
+  "_needs_review": false,
+  "_review_queue": []
+}

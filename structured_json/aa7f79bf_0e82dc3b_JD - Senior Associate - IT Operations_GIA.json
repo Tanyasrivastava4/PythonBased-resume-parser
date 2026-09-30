@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "source_file": "aa7f79bf_0e82dc3b_JD - Senior Associate - IT Operations_GIA_segmented.txt",
+    "generated_at": "2026-09-30T06:59:59.459298+00:00",
+    "sections_found": [
+      "education",
+      "header",
+      "unknown"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Job Overview",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "phone": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": null,
+  "skills": {
+    "items": [
+      "AWS",
+      "Active Directory",
+      "Azure",
+      "Budgeting",
+      "CCNA",
+      "Communication",
+      "DHCP",
+      "DNS",
+      "Firewall",
+      "IT Ops",
+      "Incident Management",
+      "Information Security",
+      "Linux",
+      "Microsoft Windows",
+      "Networking",
+      "Procurement",
+      "TCP/IP",
+      "VMware"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "Azure",
+        "VMware"
+      ],
+      "security_ops": [
+        "Active Directory",
+        "Firewall"
+      ],
+      "finance_ops": [
+        "Budgeting"
+      ],
+      "networking": [
+        "CCNA",
+        "DHCP",
+        "DNS",
+        "TCP/IP"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "domain": [
+        "IT Ops"
+      ],
+      "security": [
+        "Incident Management",
+        "Information Security"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "operations": [
+        "Procurement"
+      ]
+    },
+    "_confidence": 0.75,
+    "_method": "flashtext_full_text_fallback"
+  },
+  "experience": {
+    "jobs": [],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 0.0,
+      "total_months": 0,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.0
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "• Certifications such as CCNA, AWS, Azure, Windows, Linux, ITIL will be an advantage",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      }
+    ],
+    "_confidence": 0.65
+  },
+  "certifications": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.77
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "contact.email",
+      "confidence": 0.0,
+      "reason": "missing"
+    },
+    {
+      "field": "education",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    }
+  ]
+}

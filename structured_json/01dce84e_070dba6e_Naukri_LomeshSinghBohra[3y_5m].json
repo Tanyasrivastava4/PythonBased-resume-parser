@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "source_file": "01dce84e_070dba6e_Naukri_LomeshSinghBohra[3y_5m]_segmented.txt",
+    "generated_at": "2026-09-30T06:57:42.354083+00:00",
+    "sections_found": [
+      "certifications",
+      "education",
+      "experience",
+      "header",
+      "projects",
+      "skills",
+      "summary"
+    ],
+    "schema_errors": []
+  },
+  "contact": {
+    "name": {
+      "value": "Lomesh Singh Bohra",
+      "confidence": 0.9,
+      "method": "regex"
+    },
+    "email": {
+      "value": "bohralamesh21@gmail.com",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "phone": {
+      "value": "9552053440 / 848548382",
+      "confidence": 0.95,
+      "method": "regex"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/loresh-bohra-848548382",
+      "confidence": 0.99,
+      "method": "regex"
+    },
+    "github": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    },
+    "website": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex"
+    }
+  },
+  "summary": "Data Scientist ard MIS Executive with 3 years of\nprofessional experience in building ard deploying machire\nlearning, deep ‘earning, NLP, and time series models, along\nwith 2 years of MIS and Excel reporting expertise. | am\npassionately looking to contribute as a Data Scientist or\nData Analyst at your organization, 'everaging my skills to\nsolve complex business problems ard drive data-driven\ndecision-making.",
+  "skills": {
+    "items": [
+      "AWS EC2",
+      "Adaptability",
+      "CNN",
+      "Collaboration",
+      "Communication",
+      "Data Science",
+      "Deep Learning",
+      "Docker",
+      "Flask",
+      "Git",
+      "Heroku",
+      "Interpersonal Skills",
+      "Jupyter",
+      "Keras",
+      "LSTM",
+      "Machine Learning",
+      "Matplotlib",
+      "Microsoft Excel",
+      "NLP",
+      "NumPy",
+      "Pandas",
+      "Presentation Skills",
+      "Problem Solving",
+      "Python",
+      "REST API",
+      "RNN",
+      "Reporting",
+      "SQL",
+      "Seaborn",
+      "TensorFlow",
+      "Time Management",
+      "Time Series Forecasting",
+      "scikit-learn",
+      "spaCy"
+    ],
+    "by_category": {
+      "cloud_infra": [
+        "AWS EC2",
+        "Heroku"
+      ],
+      "soft_skill": [
+        "Adaptability",
+        "Collaboration",
+        "Communication",
+        "Interpersonal Skills",
+        "Presentation Skills",
+        "Problem Solving",
+        "Reporting",
+        "Time Management"
+      ],
+      "ai_ml": [
+        "CNN",
+        "Data Science",
+        "Deep Learning",
+        "Keras",
+        "LSTM",
+        "Machine Learning",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "RNN",
+        "Seaborn",
+        "TensorFlow",
+        "Time Series Forecasting",
+        "scikit-learn"
+      ],
+      "devops": [
+        "Docker"
+      ],
+      "web_framework": [
+        "Flask",
+        "REST API"
+      ],
+      "dev_tool": [
+        "Git",
+        "Jupyter"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "programming_language": [
+        "Python",
+        "spaCy"
+      ],
+      "database": [
+        "SQL"
+      ]
+    },
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%), Scikit-learn→scikit-learn(100%), SpacCy→spaCy(91%), Unsupervised Learning→Machine Learning(100%), REST APIs→REST API(100%)...)"
+  },
+  "experience": {
+    "jobs": [
+      {
+        "role": "| Cloud",
+        "company": " classification and regression problems. Developed NLP pipelines for text classification,",
+        "location": "Cetox, Noica",
+        "start": "Sept 2024",
+        "end": "Present",
+        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "duration_months": 25,
+        "bullets": [
+          " sentiment analysis, and entity recognition. Worked on time series forecasting for sales and demand",
+          " prediction. Deployed mocels using Flask to build REST APIs for",
+          " integration with applications.",
+          " from preprocessing to deployment. Applied deep learning models (CNN, RNN, LSTM) for text,",
+          " image, ard sequential data problems. Integrated APIs and third-party datasets to enrich",
+          " business insights and improve model accuracy. Deployed machine learning models on AWS EC2 for « scalable ard reliable production use.",
+          " reporting efficiercy."
+        ],
+        "sub_sections": [
+          "Collaborated with cross-functional teams to deliver",
+          "«",
+          "actionable insights.",
+          "Conducted EDA (Exploratory Data Analysis) to identify",
+          "«",
+          "trerds, anomalies, ard patterns in raw datasets.",
+          "Automated end-to-erd machine !earning workflows,",
+          "Designed ard monitored model performarce",
+          "»",
+          "dashboards for continuous evaluation and retraining.",
+          "Mentored interns and junior analysts on Python",
+          "»",
+          "programming, machine learning, and best practices.",
+          "MIS Executive (Excel) | Cloud Cetox, Noica | Sept 2022 Aug 2024",
+          "—",
+          "Managed ard automated reports and dashboards using",
+          "«",
+          "advanced Excel furctions (PivotTables, VLOOKUP, macros).",
+          "Analyzed large datasets to support decision-making ard",
+          "»",
+          "business operations.",
+          "Streamlined data collection processes to enhance"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
+    "early_career": [],
+    "total_experience": {
+      "total_years": 2.1,
+      "total_months": 25,
+      "overlapping_periods_merged": 0
+    },
+    "_confidence": 0.7
+  },
+  "education": {
+    "entries": [
+      {
+        "degree": "B.Tech Maharashtra Institute of Technology, Pune",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Maharashtra INSTITUTE OF TECHNOLOGY Pune",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "12th (Science) Kerdriya Vidyalaya | Score: 67%",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": "Science",
+        "institution": "Kerdriya Vidyalaya",
+        "year": null,
+        "gpa": "67%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      }
+    ],
+    "_confidence": 0.8
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "Data Scierce Certification Uncodemy (Jan  June",
+        "issuer": null,
+        "year": "2024",
+        "confidence": 0.75,
+        "needs_review": false
+      },
+      {
+        "name": "2024)",
+        "issuer": null,
+        "year": "2024",
+        "confidence": 0.75,
+        "needs_review": false
+      }
+    ],
+    "_confidence": 0.75
+  },
+  "achievements": {
+    "items": [],
+    "_confidence": 0.0
+  },
+  "_confidence": {
+    "overall": 0.83
+  },
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
+}
