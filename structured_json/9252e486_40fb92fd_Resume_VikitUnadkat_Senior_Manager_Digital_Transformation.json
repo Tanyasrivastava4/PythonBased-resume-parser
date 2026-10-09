@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9252e486_40fb92fd_Resume_VikitUnadkat_Senior_Manager_Digital_Transformation_segmented.txt",
-    "generated_at": "2026-09-30T06:59:43.343087+00:00",
+    "generated_at": "2026-10-07T09:27:26.230092+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,31 +49,63 @@
       "Agile",
       "BFSI",
       "BRD",
+      "Business Development",
+      "Business Loans",
+      "Business Process Re-Engineering",
       "Communication",
       "Confluence",
+      "Cost Analysis",
+      "Cross-functional Collaboration",
+      "Customer Relationship Management",
+      "Data Analytics",
       "Digital Transformation",
       "E-learning",
+      "FSD",
+      "Field Investigation",
+      "Finacle",
+      "Finnone",
+      "Fintech",
       "Functional Testing",
       "Jira",
       "Kaizen",
       "Leadership",
+      "Lean Manufacturing",
       "Lean Six Sigma",
+      "Legal Compliance",
       "MSME Lending",
+      "Market Research",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Onboarding",
+      "Operational Excellence",
       "Payments",
       "Process Improvement",
+      "Procurement",
       "Product Management",
+      "Project Management",
       "Quality Assurance",
+      "Quality Control",
       "RACI",
-      "Regulatory Compliance",
+      "Recruitment",
+      "Regression Testing",
+      "Reporting",
       "Retail & Corporate Banking",
       "Risk Management",
       "SDLC",
+      "SIT",
+      "SLA Management",
+      "SQL",
       "Salesforce",
+      "Scrum",
       "Six Sigma",
       "Stakeholder Management",
+      "Straight-Through Processing",
+      "Time Management",
+      "Turnaround Time",
       "UAT",
+      "Underwriting",
+      "VBA",
       "Vendor Management"
     ],
     "by_category": {
@@ -81,23 +113,54 @@
         "Agile",
         "Jira",
         "Product Management",
-        "Risk Management"
+        "Project Management",
+        "Risk Management",
+        "Scrum"
       ],
       "domain": [
         "BFSI",
+        "Fintech",
         "Payments",
         "Retail & Corporate Banking"
       ],
       "business_analysis": [
-        "BRD"
+        "BRD",
+        "FSD"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "banking": [
+        "Business Loans",
+        "Field Investigation",
+        "Finnone",
+        "MSME Lending",
+        "Straight-Through Processing"
+      ],
+      "process": [
+        "Business Process Re-Engineering",
+        "Lean Six Sigma",
+        "Operational Excellence"
       ],
       "soft_skill": [
         "Communication",
+        "Cross-functional Collaboration",
         "Leadership",
-        "Stakeholder Management"
+        "Reporting",
+        "Stakeholder Management",
+        "Time Management"
       ],
       "collaboration": [
         "Confluence"
+      ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "data_science": [
+        "Data Analytics"
       ],
       "consulting": [
         "Digital Transformation"
@@ -105,55 +168,94 @@
       "education_domain": [
         "E-learning"
       ],
+      "fintech": [
+        "Finacle"
+      ],
       "testing": [
         "Functional Testing",
+        "SIT",
         "UAT"
       ],
       "operations": [
         "Kaizen",
+        "Lean Manufacturing",
         "Process Improvement",
+        "Procurement",
         "Quality Assurance",
         "Six Sigma",
         "Vendor Management"
       ],
-      "process": [
-        "Lean Six Sigma"
+      "legal": [
+        "Legal Compliance"
       ],
-      "banking": [
-        "MSME Lending"
+      "marketing": [
+        "Market Research"
       ],
       "productivity": [
         "Microsoft Excel",
-        "Microsoft PowerPoint"
+        "Microsoft PowerPoint",
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Onboarding",
+        "Recruitment"
+      ],
+      "engineering": [
+        "Quality Control"
       ],
       "project_management": [
         "RACI"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "security_ops": [
+        "Regression Testing"
       ],
       "architecture": [
         "SDLC"
       ],
+      "support": [
+        "SLA Management"
+      ],
+      "database": [
+        "SQL"
+      ],
       "integration": [
         "Salesforce"
+      ],
+      "management": [
+        "Turnaround Time"
+      ],
+      "finance_strategy": [
+        "Underwriting"
+      ],
+      "programming": [
+        "VBA"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MSME Lending LOS→MSME Lending(95%), DMAC→Six Sigma(89%))"
+    "_method": "flashtext_skills_section | fuzzy(MSME Lending LOS→MSME Lending(95%), FinnOne→Finnone(100%), DMAC→Six Sigma(89%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Manager - Automation, Process Re-engineering Finance and Credit Risk",
+        "role": "Piramal",
         "company": "Piramal Finance Limited",
         "location": null,
         "start": "Nov 21",
         "end": "Present",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 311,
         "bullets": [
-          "Senior Manager - Automation, Process Re-engineering Finance and Credit Risk Led end-to-end implementation of LOS, LMS, Fintech integrations, and DHW across Business Loans, Used Car Loans, and Mortgages."
+          "Senior Manager - Automation, Process Re-engineering Finance and Credit Risk Led end-to-end implementation of LOS, LMS, Fintech integrations, and DHW across Business Loans, Used Car Loans, and Mortgages.",
+          "Enabled STP journey with 22% auto-approvals and 35% auto-rejections, improving lending efficiency.",
+          "Delivered 40% reduction in loan sourcing cost and ₹1.8 Cr annual savings by migrating from Salesforce to in-house platform.",
+          "Owned product roadmap using customer-feedback-driven prioritization for continuous enhancements.",
+          "Reduced credit decision TAT from ~72 hrs to 36 hrs through API, FI, and valuation system integrations.",
+          "Led Product Ownership, Business Analysis, Digital Onboarding, and Credit Risk workflows in Agile model.",
+          "Implemented Agile Scrum across squads using Confluence, Sprint metrics, RACI, ROI, CSAT, DMAC.",
+          "Ensured regulatory compliance and managed vendors and cross-functional stakeholders.",
+          "Conducted enterprise training and authored 75+ user advisories.",
+          "Launched new loan variants, driving 20%+ business growth.",
+          "Built and managed multiple Salesforce-based LOS product journeys across retail lending products."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -162,58 +264,64 @@
       },
       {
         "role": "Manager",
-        "company": "Built and managed multiple Salesforce-based LOS product journeys across retail lending products. Axis Bank Limited",
+        "company": "Axis Bank Limited",
         "location": "A's",
         "start": "May 21",
         "end": "Nov 21",
         "method": "date_regex+company_suffix_match",
         "duration_months": 7,
         "bullets": [
-          "Manager - IT Initiatives and Business Excellence BANK Drove process modeling, measurement systems, and re-engineering to strengthen operational excellence."
+          "Manager - IT Initiatives and Business Excellence BANK Drove process modeling, measurement systems, and re-engineering to strengthen operational excellence.",
+          "Implemented a Field Verification system for Credit and FI teams across desktop and mobile platforms with compliant, role-based workflows."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Manager -BPR, Credit Risk, Training and Quality Management Piramal",
-        "company": "Implemented a Field Verification system for Credit and FI teams across desktop and mobile platforms with compliant",
-        "location": "role-based",
+        "company": "DHFL acquired by Piramal Finance Limited",
+        "location": null,
         "start": "Dec 17",
         "end": "May 21",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+company_suffix_match",
         "duration_months": 0,
         "bullets": [
           "Manager -BPR, Credit Risk, Training and Quality Management Piramal Finance: Implemented automated underwriting and process systems improving process efficiency, SLA compliance, reporting, tracking, and error correction, resulting in faster turnaround times.",
-          "Led testing and integration of underwriting modules with CRM and Loan Servicing systems, delivering 30% improvement in TAT for salaried loan applicants."
+          "Led testing and integration of underwriting modules with CRM and Loan Servicing systems, delivering 30% improvement in TAT for salaried loan applicants.",
+          "Developed branch and employee performance scorecards for capacity rationalization and conducted Pan-India training for 5,000+ employees on new processes and updated credit policies."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Hub Credit Manager - Leading Retail Lending Products Underwriting",
-        "company": "5,000+ employees on new processes and updated credit policies. HDB Financial Services Limited",
+        "role": "tH HDB tance",
+        "company": "HDB Financial Services Limited",
         "location": null,
         "start": "Jun 17",
         "end": "Dec 17",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 7,
-        "bullets": [],
+        "bullets": [
+          "Hub Credit Manager - Leading Retail Lending Products Underwriting"
+        ],
         "sub_sections": [
           "Process",
           "Led and managed Credit Managers, Tele-callers, and Vendor teams, ensuring strict credit quality control and delinquency",
-          "minimization."
+          "minimization.",
+          "Enforced credit policy compliance and 100% application screening, while monitoring approval rates, TAT, and market intelligence to",
+          "improve portfolio performance."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Credit Manager",
-        "company": "improve portfolio performance. IndusInd Bank Limited",
+        "company": "IndusInd Bank Limited",
         "location": null,
         "start": "Mar 16",
         "end": "Jun 17",
@@ -229,15 +337,17 @@
         "source": "experience"
       },
       {
-        "role": "Lead Trainer",
+        "role": "Pi",
         "company": "Altisource Business Solutions Limited",
         "location": null,
         "start": "Dec 12",
         "end": "Mar 16",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 0,
         "bullets": [
-          "Lead Trainer - US Mortgage Credit Underwriting Process Altisource Delivered process and system training for new hires, managed certifications, on-the-job training, and performance tracking to ensure compliance."
+          "Lead Trainer - US Mortgage Credit Underwriting Process Altisource Delivered process and system training for new hires, managed certifications, on-the-job training, and performance tracking to ensure compliance.",
+          "Developed training manuals, refresher programs, and cross-skilling modules, reducing process errors through continuous staff sensitization.",
+          "Led project management for setting up a new 100-FTE site, covering facility setup, technology deployment, hiring, and end-to-end training."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -245,16 +355,14 @@
         "source": "experience"
       },
       {
-        "role": "refresher programs, and cross-skilling modules, reducing process errors through continuous staff sensitization",
-        "company": "Developed training manuals",
+        "role": "Process Associate",
+        "company": "Tata Consultancy Services Limited",
         "location": null,
         "start": "Feb 11",
         "end": "Dec 12",
-        "method": "date_regex+comma_company_role_split",
+        "method": "date_regex+company_suffix_match",
         "duration_months": 11,
-        "bullets": [
-          "Process Associate - Band 1 - CITI Bank"
-        ],
+        "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
@@ -267,7 +375,7 @@
       "total_months": 320,
       "overlapping_periods_merged": 4
     },
-    "_confidence": 0.86
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -278,6 +386,17 @@
         "degree_field": "Banking Management",
         "institution": "Banking Management Himalayan University UCG Certified",
         "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Bachelor of Banking and Insurance",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Bachelor of Banking and Insurance K.P.B Hinduja College, Mumbai University MH India",
+        "year": "2023",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -294,24 +413,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

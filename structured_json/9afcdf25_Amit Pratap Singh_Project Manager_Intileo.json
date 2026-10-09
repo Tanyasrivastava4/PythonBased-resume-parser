@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9afcdf25_Amit Pratap Singh_Project Manager_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:48.782755+00:00",
+    "generated_at": "2026-10-07T09:27:33.845850+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -58,6 +58,7 @@
       "DevOps",
       "Digital Marketing",
       "Django",
+      "Django REST Framework",
       "Drawio",
       "E-commerce",
       "Figma",
@@ -79,7 +80,8 @@
       "Scrum",
       "Team Leadership",
       "Time Series Forecasting",
-      "WordPress"
+      "WordPress",
+      "Work Instructions"
     ],
     "by_category": {
       "cloud_infra": [
@@ -106,6 +108,7 @@
       "web_framework": [
         "CSS3",
         "Django",
+        "Django REST Framework",
         "Flask",
         "HTML5",
         "Responsive Web Design"
@@ -151,6 +154,9 @@
       ],
       "ai_ml": [
         "Time Series Forecasting"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
@@ -165,7 +171,7 @@
         "start": "Nov 2022",
         "end": "Present",
         "method": "date_regex",
-        "duration_months": 47,
+        "duration_months": 48,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -173,15 +179,20 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Budgeting",
-        "location": "Forecasting & Procurement",
+        "role": "Collaboration",
+        "company": "Nativebyte Software LLP",
+        "location": null,
         "start": "Jan 2017",
         "end": "Oct 2022",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Collaboration"
+        ],
         "duration_months": 70,
         "bullets": [
-          "Led a team of 20+ developers for client UWML LTD in building Ira (Intelligent Responsive Application) using Django REST Framework."
+          "Managed Infrastructure & Networking Team for client Birla Texmaco.",
+          "Led a team of 20+ developers for client UWML LTD in building Ira (Intelligent Responsive Application) using Django REST Framework.",
+          "Integrated APIs between an Indian client and a Chinese company using Django REST"
         ],
         "sub_sections": [
           "T O O L S",
@@ -189,17 +200,22 @@
           "Developed Online Blogging Systems using Django/Flask (Self-Initiated Projects).",
           "Built an E-Commerce Platform using Django (Self-Directed Project)."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Software Developer",
+        "role": "Software Developer (Networking",
         "company": "Microsoft Office Suite, Gantt Charts",
         "location": "Jira",
         "start": "Mar 2016",
         "end": "Dec 2016",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Microsoft Office Suite, Gantt Charts, Jira,",
+          "Software Developer (Networking)",
+          "Confluence"
+        ],
         "duration_months": 10,
         "bullets": [
           "Version Control (Git, GitHub, Bitbucket).",
@@ -222,11 +238,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.6,
-      "total_months": 127,
+      "total_years": 10.7,
+      "total_months": 128,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -296,17 +312,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

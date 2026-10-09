@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cb38d45c_7c374371_CA Ishika Sharma Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:20.363974+00:00",
+    "generated_at": "2026-10-07T09:28:15.824685+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -46,19 +46,73 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounting",
+      "Auditing",
+      "Communication",
+      "CompuOffice",
+      "Finalization of Financial Statements",
+      "Financial Reporting",
+      "Fixed Assets Management",
+      "Form 3CA-3CD",
+      "GST",
+      "GSTR-1",
+      "GSTR-3B",
+      "GSTR-9",
+      "Income Tax Return",
+      "Input Tax Credit",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
-      "Tally"
+      "RBI",
+      "Risk Control Matrix",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Vouching"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Financial Reporting",
+        "Taxation"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "accounting": [
+        "CompuOffice",
+        "Finalization of Financial Statements",
+        "Fixed Assets Management",
+        "Form 3CA-3CD",
+        "GST",
+        "Risk Control Matrix"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B"
+      ],
+      "accounting_finance": [
+        "GSTR-9",
+        "Input Tax Credit",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "finance": [
+        "Income Tax Return",
+        "Vouching"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
-      "finance_ops": [
-        "Tally"
+      "domain": [
+        "RBI"
       ]
     },
     "_confidence": 0.92,
@@ -67,26 +121,15 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Articleship Experience",
-        "location": "Gupta Shiv & Co",
-        "start": "August 2022",
-        "end": "May 2024",
-        "method": "date_regex",
-        "duration_months": 22,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
+        "role": "Area",
         "company": "Agarwal Archit & Associates",
         "location": null,
         "start": "June 2024",
         "end": "August 2025",
-        "method": "date_regex",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Agarwal Archit & Associates"
+        ],
         "duration_months": 15,
         "bullets": [
           "Conducted concurrent Audits of various banks ensuring compliance with applicable regulatory frameworks, internal policies, and RBI guidelines.",
@@ -123,18 +166,18 @@
           "Accounting",
           "manual records."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.1,
-      "total_months": 37,
+      "total_years": 1.2,
+      "total_months": 15,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -144,8 +187,8 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2025",
-        "gpa": "57.00%",
+        "year": "2020 - 2022",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -155,8 +198,8 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "C.C.S.U Meerut",
-        "year": "2020 - 2022",
-        "gpa": "64.30%",
+        "year": "2025",
+        "gpa": "57.00%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -166,8 +209,8 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2022",
-        "gpa": "50.38%",
+        "year": "2020 - 2022",
+        "gpa": "64.30%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -177,8 +220,8 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2019",
-        "gpa": "57.25%",
+        "year": "2022",
+        "gpa": "50.38%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -188,8 +231,8 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "I CBSE",
-        "year": "2018 - 2019",
-        "gpa": "91.00%",
+        "year": "2019",
+        "gpa": "57.25%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -199,10 +242,21 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "X CBSE",
+        "year": "2018 - 2019",
+        "gpa": "91.00%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Secured exemption in 1 subject in CA Intermediate and in 3 subjects in CA Final examinations",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "ICAI",
         "year": "2016 - 2017",
         "gpa": "90.00%",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "• Featured in local newspaper for academic performance in Class XII Board examination",
@@ -216,7 +270,7 @@
         "_confidence": 0.8
       }
     ],
-    "_confidence": 0.93
+    "_confidence": 0.91
   },
   "certifications": {
     "items": [],
@@ -234,19 +288,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.94
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

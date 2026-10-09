@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "04ca327a_70685ca8_Rishi Dhakar_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:47.190773+00:00",
+    "generated_at": "2026-10-07T10:30:39.599927+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,49 +49,101 @@
   "skills": {
     "items": [
       "AWS",
+      "AWS Lambda",
+      "AWS S3",
+      "Agentic AI",
       "Airbyte",
       "Analyze",
       "Attention to Detail",
+      "Business Intelligence",
+      "Business Strategy",
+      "ClickHouse",
+      "CloudWatch",
+      "Coroutines Flow",
       "DBeaver",
       "Data Analysis",
+      "Data Pipeline",
+      "Data Preprocessing",
       "EasyOCR",
       "Firebase",
+      "GCP",
       "Hyperparameter Tuning",
+      "IBM DB2",
+      "JSON",
       "Keras",
+      "Leadership",
       "Looker",
       "Machine Learning",
+      "Markdown",
+      "Microsoft Excel",
       "Microsoft Power Automate",
+      "MySQL",
       "NumPy",
       "OpenCV",
       "Pandas",
+      "Performance Marketing",
       "PgAdmin",
       "Power BI",
       "PyTesseract",
       "Python",
       "Random Forest",
+      "Reporting",
       "SQL",
       "Seaborn",
+      "Semantic Modeling",
+      "Streamlit",
+      "Turnaround Time",
       "Zoho Analytics"
     ],
     "by_category": {
       "cloud_infra": [
-        "AWS"
+        "AWS",
+        "AWS Lambda",
+        "AWS S3",
+        "CloudWatch",
+        "GCP"
+      ],
+      "genai": [
+        "Agentic AI"
       ],
       "data_engineering": [
-        "Airbyte"
+        "Airbyte",
+        "Data Pipeline",
+        "Data Preprocessing"
       ],
       "data_science": [
         "Analyze",
         "Data Analysis",
         "Hyperparameter Tuning",
         "Looker",
-        "Power BI"
+        "Power BI",
+        "Semantic Modeling"
       ],
       "soft_skill": [
-        "Attention to Detail"
+        "Attention to Detail",
+        "Leadership",
+        "Reporting"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "consulting": [
+        "Business Strategy"
+      ],
+      "database": [
+        "ClickHouse",
+        "Firebase",
+        "IBM DB2",
+        "MySQL",
+        "PgAdmin",
+        "SQL"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "dev_tool": [
-        "DBeaver"
+        "DBeaver",
+        "Streamlit"
       ],
       "ai_ml": [
         "EasyOCR",
@@ -104,16 +156,26 @@
         "Random Forest",
         "Seaborn"
       ],
-      "database": [
-        "Firebase",
-        "PgAdmin",
-        "SQL"
+      "web_framework": [
+        "JSON"
+      ],
+      "documentation": [
+        "Markdown"
+      ],
+      "productivity": [
+        "Microsoft Excel"
       ],
       "rpa": [
         "Microsoft Power Automate"
       ],
+      "marketing": [
+        "Performance Marketing"
+      ],
       "programming_language": [
         "Python"
+      ],
+      "management": [
+        "Turnaround Time"
       ],
       "analytics": [
         "Zoho Analytics"
@@ -126,12 +188,15 @@
     "jobs": [
       {
         "role": "Assistant Manager",
-        "company": "Protean eGov Technologies Ltd",
+        "company": "Protean eGov Technologies",
         "location": null,
         "start": "August 2023",
         "end": "Present",
         "method": "date_regex+title_dash_company",
-        "duration_months": 38,
+        "pre_date_header": [
+          "Assistant Manager - Protean eGov Technologies"
+        ],
+        "duration_months": 39,
         "bullets": [
           "Built and orchestrated an EL data pipeline using Airbyte to replicate operational data from MySQL to ClickHouse, enabling scalable analytics and improving query performance",
           "Built a serverless reporting pipeline using for downstream reporting and dashboarding. AWS Lambda (Python) to transform JSON data from Amazon S3 into CSV reports, package them into password-protected ZIP • Engineered an end-to-end automation system archives, and distribute them via SMTP, scheduled through Amazon CloudWatch. in Python using IBM DB2 for generating Missing Credit Reports for entities such as PFRDA and Nodal Offices, saving approximately",
@@ -152,11 +217,16 @@
       },
       {
         "role": "Analyst",
-        "company": "Teachmint Technologies Private Limited",
+        "company": "Teachmint Technologies Private",
         "location": null,
         "start": "July 2022",
         "end": "August 2023",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Received a Digital Excellence Award for Outstanding",
+          "Performance from the CEO of the company",
+          "Analyst - Teachmint Technologies Private"
+        ],
         "duration_months": 14,
         "bullets": [
           "Utilized SQL, Python, Power BI, Google Data Studio, and Advanced Excel to structure and transform data into actionable insights, enabling data-driven decision-making and enable internal stakeholders to drive business strategy and foster growth Key Contributions:",
@@ -165,20 +235,22 @@
           "Utilized Predictive analysis to forecast conversions with 90% accuracy rate, enabling proactive strategy deployment to meet targets",
           "Designed and developed an automation solution for daily mailers to stakeholders to evaluate performance and create effective action plans, resulting in a reduction of 2 hours in Turnaround Time (TAT) on a daily basis",
           "Built an Executive-level dashboard in Power",
-          "Established a two-way visibility system for BI, enabling Self-serve Analytics for founders and gain comprehensive insights 120+ Channel Partners and Internal Stakeholders utilizing Looker Studio to track lead activities, analyze funnel movement, payout metrics and activation metrics of all Channel Partners"
+          "Established a two-way visibility system for BI, enabling Self-serve Analytics for founders and gain comprehensive insights 120+ Channel Partners and Internal Stakeholders utilizing Looker Studio to track lead activities, analyze funnel movement, payout metrics and activation metrics of all Channel Partners",
+          "Tata Steel - Inspire Internship (*Secured"
         ],
         "sub_sections": [
           "For Marketing Team",
           "For Sales Team",
-          "For Executive Leadership"
+          "For Executive Leadership",
+          "Internships"
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "1) Tata Steel - Inspire Internship  from the company",
+        "role": "Assistant Manager",
+        "company": "Protean eGov Technologies",
         "location": null,
         "start": "June 2021",
         "end": "Aug 2021",
@@ -186,13 +258,13 @@
         "duration_months": 3,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Council IITK",
+        "role": "Analyst",
+        "company": "Teachmint Technologies Private",
         "location": null,
         "start": "May 2020",
         "end": "July 2020",
@@ -230,7 +302,7 @@
       "total_months": 60,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -263,23 +335,12 @@
         "degree_field": null,
         "institution": "CBSE",
         "year": "2016",
-        "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.95
-      },
-      {
-        "degree": "of MD Dashboard structured datasets",
-        "degree_name": "MD",
-        "degree_type": "masters",
-        "degree_field": null,
-        "institution": "Indian Institute of Technology, Kanpur",
-        "year": "July 2022 - August 2023",
         "gpa": "20%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.91
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -298,13 +359,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

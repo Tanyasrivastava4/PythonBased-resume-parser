@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "01664aaa_11f8f441_Python_AI_Developer - Deepak Parihar_segmented.txt",
-    "generated_at": "2026-09-30T06:57:41.290950+00:00",
+    "generated_at": "2026-10-09T05:41:18.215106+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,6 +51,7 @@
     "items": [
       "API Design",
       "Azure",
+      "Azure OpenAI",
       "CI/CD",
       "CSS3",
       "Confluence",
@@ -72,12 +73,16 @@
       "JavaScript",
       "LLM",
       "LangChain",
-      "MSSQL",
+      "LinkedIn",
       "Machine Learning",
       "Markdown",
       "Matplotlib",
       "Microsoft Power Automate",
+      "Microsoft SQL Server",
+      "Microsoft Teams",
+      "Model Evaluation",
       "NumPy",
+      "OpenAI API",
       "Pandas",
       "Plotly",
       "PostgreSQL",
@@ -85,7 +90,11 @@
       "Prompt Engineering",
       "Python",
       "RAG",
+      "RBAC",
       "REST API",
+      "Recruitment",
+      "Redis",
+      "Risk Assessment",
       "SQL",
       "SQLAlchemy",
       "SQLite",
@@ -101,6 +110,16 @@
       "cloud_infra": [
         "Azure"
       ],
+      "genai": [
+        "Azure OpenAI",
+        "Generative AI",
+        "GitHub Copilot",
+        "LLM",
+        "LangChain",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG"
+      ],
       "devops": [
         "CI/CD",
         "DevOps",
@@ -111,6 +130,7 @@
         "FastAPI",
         "Flask",
         "HTML5",
+        "LinkedIn",
         "REST API"
       ],
       "collaboration": [
@@ -138,14 +158,6 @@
       "sales": [
         "Enterprise Sales"
       ],
-      "genai": [
-        "Generative AI",
-        "GitHub Copilot",
-        "LLM",
-        "LangChain",
-        "Prompt Engineering",
-        "RAG"
-      ],
       "dev_tool": [
         "Git",
         "GitHub",
@@ -155,21 +167,37 @@
         "JavaScript",
         "Python"
       ],
-      "database": [
-        "MSSQL",
-        "PostgreSQL",
-        "SQL",
-        "SQLAlchemy",
-        "SQLite"
-      ],
       "documentation": [
         "Markdown"
       ],
       "rpa": [
         "Microsoft Power Automate"
       ],
+      "database": [
+        "Microsoft SQL Server",
+        "PostgreSQL",
+        "Redis",
+        "SQL",
+        "SQLAlchemy",
+        "SQLite"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
+      ],
       "low_code": [
         "Power Apps"
+      ],
+      "security": [
+        "RBAC"
+      ],
+      "hr": [
+        "Recruitment"
+      ],
+      "compliance": [
+        "Risk Assessment"
       ]
     },
     "_confidence": 0.92,
@@ -183,7 +211,10 @@
         "location": "India",
         "start": "July 2023",
         "end": "Nov 2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Blenheim Chalcot"
+        ],
         "duration_months": 29,
         "bullets": [
           "endpoints via FastAPI with role-based access control, improving review efficiency by 40%. Created an ML-based & AI-based recommendation system for career goals with 80% relevance accuracy, successfully",
@@ -230,10 +261,10 @@
         "year": "2015 - 2017",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [
@@ -259,7 +290,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [

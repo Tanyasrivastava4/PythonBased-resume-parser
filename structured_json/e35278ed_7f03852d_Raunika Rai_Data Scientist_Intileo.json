@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e35278ed_7f03852d_Raunika Rai_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:36.078333+00:00",
+    "generated_at": "2026-10-07T09:28:35.849810+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,17 +48,26 @@
   "skills": {
     "items": [
       "AWS",
+      "Accounting",
+      "Anomaly Detection",
+      "Apache Hive",
+      "Auditing",
       "Bedrock",
       "C++",
       "Claude",
+      "DAX",
       "Data Preprocessing",
       "Data Science",
+      "Data Visualization",
       "DevOps",
+      "Email Marketing",
       "Exploratory Data Analysis",
       "FastAPI",
+      "Flask",
       "GCP",
       "Gemini",
       "Generative AI",
+      "Git",
       "GitHub",
       "Google",
       "Groq",
@@ -67,18 +76,46 @@
       "LLaMA",
       "LinkedIn",
       "Mistral",
+      "MySQL",
+      "NLP",
+      "NumPy",
+      "OAuth 2.0",
+      "Pandas",
       "PostgreSQL",
+      "Power BI",
       "Prompt Engineering",
+      "PyTesseract",
       "Python",
       "REST",
+      "SQL",
       "SQLAlchemy",
       "SonarQube",
-      "Vertex AI"
+      "Streamlit",
+      "Swagger",
+      "Tableau",
+      "Vertex AI",
+      "Workflow Automation"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
         "GCP"
+      ],
+      "finance_ops": [
+        "Accounting",
+        "Auditing"
+      ],
+      "ai_ml": [
+        "Anomaly Detection",
+        "Data Science",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "PyTesseract"
+      ],
+      "data_engineering": [
+        "Apache Hive",
+        "Data Preprocessing"
       ],
       "genai": [
         "Bedrock",
@@ -96,36 +133,49 @@
         "C++",
         "Python"
       ],
-      "data_engineering": [
-        "Data Preprocessing"
-      ],
-      "ai_ml": [
-        "Data Science"
+      "data_science": [
+        "DAX",
+        "Data Visualization",
+        "Exploratory Data Analysis",
+        "Power BI",
+        "Tableau"
       ],
       "devops": [
         "DevOps",
         "Jenkins"
       ],
-      "data_science": [
-        "Exploratory Data Analysis"
+      "marketing": [
+        "Email Marketing"
       ],
       "web_framework": [
         "FastAPI",
+        "Flask",
         "LinkedIn"
       ],
       "dev_tool": [
-        "GitHub"
+        "Git",
+        "GitHub",
+        "Streamlit",
+        "Swagger"
       ],
       "database": [
         "Google",
+        "MySQL",
         "PostgreSQL",
+        "SQL",
         "SQLAlchemy"
+      ],
+      "security": [
+        "OAuth 2.0"
       ],
       "integration": [
         "REST"
       ],
       "testing": [
         "SonarQube"
+      ],
+      "operations": [
+        "Workflow Automation"
       ]
     },
     "_confidence": 0.92,
@@ -134,59 +184,52 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "Data & Analytics: SQL (MySQL",
         "company": "Greater Noida",
         "location": "Uttar Pradesh",
         "start": "Aug. 2023",
         "end": "Present",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 38,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Data Visualization: Power BI",
-        "location": "DAX",
-        "start": "Jan. 2025",
-        "end": "Present",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 21,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "§ raunikarai"
+        ],
+        "duration_months": 39,
         "bullets": [
+          "under LLM API payload constraints.",
           "NLP-based date inference, using weighted scoring agents for data ingestion, validation, and PDF invoices. errors, duplicate invoices, audit findings through context-aware"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Mistral AI",
-        "location": "SQLAlchemy",
+        "role": "Mistral AI, SQLAlchemy, Pandas",
+        "company": "learning model development",
+        "location": null,
         "start": "Jun. 2024",
         "end": "Jul. 2024",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Mistral AI, SQLAlchemy, Pandas,"
+        ],
         "duration_months": 2,
         "bullets": [
           "decision-making efficiency. ────────────────────────────────────────────────────────────"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.8,
-      "total_months": 33,
+      "total_years": 3.2,
+      "total_months": 39,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -382,25 +425,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.66,

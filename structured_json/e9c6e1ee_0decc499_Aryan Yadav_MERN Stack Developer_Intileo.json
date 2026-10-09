@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e9c6e1ee_0decc499_Aryan Yadav_MERN Stack Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:39.426304+00:00",
+    "generated_at": "2026-10-07T09:28:40.652825+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -54,14 +54,17 @@
       "ES6+",
       "Express.js",
       "Git",
+      "JSON Web Token",
       "JavaScript",
       "Jira",
       "MERN Stack",
       "MongoDB",
       "Next.js",
       "Node.js",
+      "Payments",
       "Performance Optimization",
       "Postman",
+      "RBAC",
       "REST",
       "REST API",
       "React",
@@ -96,8 +99,11 @@
       "dev_tool": [
         "Git",
         "Performance Optimization",
-        "Postman",
-        "VS Code"
+        "Postman"
+      ],
+      "security": [
+        "JSON Web Token",
+        "RBAC"
       ],
       "project_mgmt": [
         "Jira"
@@ -105,8 +111,14 @@
       "database": [
         "MongoDB"
       ],
+      "domain": [
+        "Payments"
+      ],
       "integration": [
         "REST"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -116,12 +128,16 @@
     "jobs": [
       {
         "role": "Software Developer",
-        "company": "Smartest Software Solutions LLP z",
+        "company": "Smartest Software Solutions LLP",
         "location": null,
         "start": "Nov 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 23,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Developer",
+          "Smartest Software Solutions LLP"
+        ],
+        "duration_months": 24,
         "bullets": [
           "Noida, India",
           "Developing and maintaining scalable web applications using the MERN Stack (MongoDB, Express.js, React.js, Node.js).",
@@ -137,8 +153,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.9,
-      "total_months": 23,
+      "total_years": 2.0,
+      "total_months": 24,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

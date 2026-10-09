@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "36cf6b55_Abhinav Kumar_.Net Core Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:15.849050+00:00",
+    "generated_at": "2026-10-07T10:31:12.912727+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,20 +47,27 @@
   "summary": "Full Stack Software Developer with 4+ years of experience working as an Individual Contributor on\nenterprise and manufacturing domain applications. Strong expertise in ASP.NET Core, C#,\nAngular, and SQL Server with hands-on experience in REST API development, database design,\nand end-to-end project delivery including requirement analysis, development, testing, and\ndeployment.",
   "skills": {
     "items": [
+      ".NET Core",
       "ASP.NET",
       "Angular",
       "Azure App Service",
       "Azure SQL",
+      "Business Intelligence",
       "C#",
       "CSS3",
+      "Cross-functional Collaboration",
       "Git",
       "HTML5",
       "JavaScript",
       "Joins",
+      "LinkedIn",
       "MSSQL",
+      "Microsoft Teams",
       "Performance Optimization",
       "Postman",
+      "Procurement",
       "Project Management",
+      "RBAC",
       "REST",
       "REST API",
       "Subqueries",
@@ -70,10 +77,12 @@
     ],
     "by_category": {
       "web_framework": [
+        ".NET Core",
         "ASP.NET",
         "Angular",
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "REST API",
         "Web API",
         "jQuery"
@@ -87,9 +96,15 @@
         "MSSQL",
         "Subqueries"
       ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
       "programming_language": [
         "C#",
         "JavaScript"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
       ],
       "dev_tool": [
         "Git",
@@ -97,15 +112,24 @@
         "Postman",
         "Visual Studio"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Procurement"
+      ],
       "project_mgmt": [
         "Project Management"
+      ],
+      "security": [
+        "RBAC"
       ],
       "integration": [
         "REST"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(ASP.NET MVC→ASP.NET(100%), HTML→HTML5(100%), REST→REST(100%))"
+    "_method": "flashtext_skills_section | fuzzy(ASP.NET MVC→ASP.NET(100%), HTML→HTML5(100%), enterprise→Business Intelligence(95%), REST→REST(100%))"
   },
   "experience": {
     "jobs": [
@@ -115,14 +139,14 @@
         "location": null,
         "start": "May 2023",
         "end": "Oct 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 30,
         "bullets": [
           "Worked as a sole developer and individual contributor for internal manufacturing applications.",
           "Designed and developed REST APIs using ASP.NET Core and C# for industrial calculation systems.",
           "Developed Angular-based frontend modules including forms, validations, and result visualization.",
           "Designed and maintained SQL Server databases including complex joins and subqueries.",
-          "Handled end-to-end development lifecycle: requirement gathering, development, testing,"
+          "Handled end-to-end development lifecycle: requirement gathering, development, testing, deployment, and support."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -130,17 +154,18 @@
         "source": "experience"
       },
       {
-        "role": "deployment, and support. Software Engineer",
+        "role": "Software Engineer",
         "company": "Comvision India Pvt Ltd",
         "location": null,
         "start": "Aug 2022",
         "end": "May 2023",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 10,
         "bullets": [
           "Worked on toll management web applications for Bahrain and Saudi Arabia.",
           "Developed backend modules using ASP.NET Core and SQL Server.",
-          "Implemented role-based access control and transaction management features."
+          "Implemented role-based access control and transaction management features.",
+          "Collaborated with cross-functional teams to deliver production-ready solutions."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -148,12 +173,12 @@
         "source": "experience"
       },
       {
-        "role": "4 Collaborated with cross-functional teams to deliver production-ready solutions. ASP.NET Software Developer",
+        "role": "ASP.NET Software Developer",
         "company": "Matrix Processing House",
         "location": null,
         "start": "Jan 2021",
         "end": "Aug 2022",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 20,
         "bullets": [
           "Developed procurement and gate entry pass applications using ASP.NET Core.",

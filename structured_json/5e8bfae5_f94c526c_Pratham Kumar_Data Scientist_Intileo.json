@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5e8bfae5_f94c526c_Pratham Kumar_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:46.663066+00:00",
+    "generated_at": "2026-10-07T10:31:52.605033+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,54 +48,87 @@
     "items": [
       "ANN",
       "AWS",
+      "Anomaly Detection",
+      "BERT",
+      "Boosting",
       "CNN",
       "Data Analysis",
       "Data Cleaning",
       "Data Preprocessing",
       "Docker",
       "Exploratory Data Analysis",
+      "FAISS",
+      "FastAPI",
       "Feature Engineering",
       "Fintech",
+      "Flask",
       "Generative AI",
       "Git",
+      "Hyperparameter Tuning",
       "Jira",
       "Jupyter",
       "Keras",
       "LLM",
+      "LangChain",
+      "LightGBM",
       "MLOps",
+      "Machine Learning",
+      "Microsoft Teams",
+      "Model Evaluation",
+      "NER",
+      "NLP",
       "NumPy",
       "Pandas",
-      "Predictive Analytics",
+      "Predictive Modeling",
+      "Prompt Engineering",
       "PySpark",
       "PyTorch",
       "Python",
+      "RAG",
       "RNN",
+      "Random Forest",
+      "Reliability",
       "SQL",
+      "Semantic Search",
+      "Speech-to-Text",
       "TensorFlow",
       "Transformers",
+      "XGBoost",
       "n8n",
-      "scikit-learn"
+      "scikit-learn",
+      "spaCy"
     ],
     "by_category": {
       "ai_ml": [
         "ANN",
+        "Anomaly Detection",
+        "BERT",
         "CNN",
         "Keras",
+        "LightGBM",
+        "Machine Learning",
+        "NER",
+        "NLP",
         "NumPy",
         "Pandas",
+        "Predictive Modeling",
         "PyTorch",
         "RNN",
+        "Random Forest",
+        "Speech-to-Text",
         "TensorFlow",
+        "XGBoost",
         "scikit-learn"
       ],
       "cloud_infra": [
         "AWS"
       ],
       "data_science": [
+        "Boosting",
         "Data Analysis",
         "Exploratory Data Analysis",
         "Feature Engineering",
-        "Predictive Analytics",
+        "Hyperparameter Tuning",
         "Transformers"
       ],
       "data_engineering": [
@@ -105,13 +138,24 @@
       "devops": [
         "Docker"
       ],
+      "search": [
+        "FAISS"
+      ],
+      "web_framework": [
+        "FastAPI",
+        "Flask"
+      ],
       "domain": [
         "Fintech"
       ],
       "genai": [
         "Generative AI",
         "LLM",
-        "MLOps"
+        "LangChain",
+        "MLOps",
+        "Prompt Engineering",
+        "RAG",
+        "Semantic Search"
       ],
       "dev_tool": [
         "Git",
@@ -120,19 +164,29 @@
       "project_mgmt": [
         "Jira"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
+      ],
       "database": [
         "PySpark",
         "SQL"
       ],
       "programming_language": [
-        "Python"
+        "Python",
+        "spaCy"
+      ],
+      "soft_skill": [
+        "Reliability"
       ],
       "rpa": [
         "n8n"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Neural Networks→ANN(100%), GenAI→Generative AI(100%), Preprocessing→Data Preprocessing(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Neural Networks→ANN(100%), GenAI→Generative AI(100%), Predictive Analytics→Predictive Modeling(100%), Preprocessing→Data Preprocessing(100%))"
   },
   "experience": {
     "jobs": [
@@ -142,8 +196,12 @@
         "location": null,
         "start": "Jan 2025",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 21,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "AI and Ml Engineer",
+          "Visioapps Technology"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Custom Model Development (LLMs, NER, Intent Classification)",
           "Designed and implemented Intent Recognition and Named Entity Recognition (NER) models using SpaCy and BERT, achieving 98% accuracy for financial domain text understanding.",
@@ -171,6 +229,9 @@
         "start": "may 2024",
         "end": "jun 2024",
         "method": "date_regex",
+        "pre_date_header": [
+          "House Prices- Advances Regression Techniques"
+        ],
         "duration_months": 2,
         "bullets": [
           "Ranked in the top 2% on leaderboards.",
@@ -187,8 +248,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.9,
-      "total_months": 23,
+      "total_years": 2.0,
+      "total_months": 24,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.92

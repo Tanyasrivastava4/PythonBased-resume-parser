@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5adc5b6d_75f23b7b_Ankita_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.701948+00:00",
+    "generated_at": "2026-10-07T10:31:48.491225+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,53 +47,115 @@
   "summary": "• Experienced Chartered Accountant with around 5years of post-qualification experience with\nbackground in conducting Statutory Audit for US and UK based Public listed and Private Companies.\n• Proficient in financial statement analysis and skilled in utilizing various relevant tools.\n• Significant Exposure in Control Testing, Risk assessment analytics and Substantive testing of different\nFSLIs like revenue, inventory, payroll etc.\n• Technically proficient in Microsoft office and Auditing software such as Aura, Data snipper, Sampling\nAutomation tool, Helix General Ledger Analyzer Tool etc.\n• Proficient in maintaining cordial relationships as have been coordinating with Engagement Team\nmembers, Clients as well as co-team members within the organization on regular basis to provide quality\nwork.",
   "skills": {
     "items": [
+      "10-K",
+      "10-Q",
+      "Account Reconciliation",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Analytical Review",
       "Auditing",
       "Aura",
-      "Control Testing",
+      "Business Loans",
+      "Carve-out Audit",
       "DataSnipper",
+      "ERP",
+      "Financial Reporting",
       "Financial Statement Analysis",
       "Google Workspace",
       "Helix",
+      "Income Tax Return",
+      "Internal Controls Testing",
+      "Limited Review",
+      "LinkedIn",
       "MS Office",
       "Microsoft Excel",
+      "Microsoft Teams",
       "Microsoft Word",
       "Payroll Administration",
+      "Project Management",
+      "Reporting",
       "Risk Assessment",
       "SAP",
       "Sampling Automation Tool",
+      "Service Tax",
       "Smart Audit Tool",
+      "Standards on Auditing",
       "Statutory Audit",
-      "Substantive Testing"
+      "Substantive Testing",
+      "TDS",
+      "Taxation",
+      "Tests of Controls",
+      "Underwriting"
     ],
     "by_category": {
+      "accounting": [
+        "10-K",
+        "10-Q",
+        "Analytical Review",
+        "Limited Review",
+        "Tests of Controls"
+      ],
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Service Tax",
+        "Standards on Auditing"
+      ],
       "finance_ops": [
+        "Accounts Payable",
+        "Accounts Receivable",
         "Auditing",
+        "Financial Reporting",
+        "Internal Controls Testing",
         "Statutory Audit",
-        "Substantive Testing"
+        "Substantive Testing",
+        "Taxation"
       ],
       "finance": [
         "Aura",
-        "Control Testing",
+        "Carve-out Audit",
         "DataSnipper",
         "Financial Statement Analysis",
         "Helix",
+        "Income Tax Return",
         "Sampling Automation Tool",
         "Smart Audit Tool"
+      ],
+      "banking": [
+        "Business Loans"
+      ],
+      "erp": [
+        "ERP"
       ],
       "productivity": [
         "Google Workspace",
         "MS Office",
         "Microsoft Excel",
+        "Microsoft Teams",
         "Microsoft Word"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "hr": [
         "Payroll Administration"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "soft_skill": [
+        "Reporting"
       ],
       "compliance": [
         "Risk Assessment"
       ],
       "integration": [
         "SAP"
+      ],
+      "taxation": [
+        "TDS"
+      ],
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
@@ -102,15 +164,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "",
-        "company": "Perform risk assessment, audit planning, and scoping procedures in accordance with ISA and firm methodology.",
+        "role": "Assistant Manger",
+        "company": "EY GDS",
         "location": null,
         "start": "August 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 14,
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "EY GDS"
+        ],
+        "duration_months": 15,
         "bullets": [
           "Lead and manage audit engagements for global clients in coordination with onshore audit teams.",
+          "Perform risk assessment, audit planning, and scoping procedures in accordance with ISA and firm methodology.",
           "Review audit workpapers, testing procedures, and financial statement disclosures.",
           "Evaluate internal controls and perform substantive testing across key financial statement areas.",
           "Executed audit procedures including substantive testing, analytical review, and control testing.",
@@ -119,45 +185,52 @@
           "Successfully managed multiple audit engagements with tight reporting deadlines."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "",
-        "company": "Conduct Statutory audit of various private companies.",
+        "role": "Senior Executive",
+        "company": "Nitin KG & Company",
         "location": null,
         "start": "October 2024",
         "end": "July 2025",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Nitin KG & Company"
+        ],
         "duration_months": 10,
         "bullets": [
+          "Conduct Statutory audit of various private companies.",
           "Prepare audit working papers, schedules, and financial statement reviews.",
           "Perform risk assessment and internal control evaluation.",
           "Coordinate with clients for financial information, reconciliations, and supporting documents"
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "",
-        "company": "PwC Acceleration Centre India Senior Associate",
+        "role": "Senior Associate",
+        "company": "PwC Acceleration Centre India",
         "location": null,
         "start": "July 2023",
         "end": "September 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "PwC Acceleration Centre India"
+        ],
         "duration_months": 15,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "",
-        "company": "Planned and executed audits in accordance with accepted standards on auditing. Have been involved in engagement from planning stage including determining the materiality and scoping of accounts, working in execution stage performing testing over the accounts, till the completion stage.",
+        "role": "Senior Executive (October 2024",
+        "company": "July 2025)",
         "location": null,
         "start": "September 2021",
         "end": "June 2023",
@@ -179,14 +252,18 @@
         "source": "experience"
       },
       {
-        "role": "ICICI Bank (Business Loan Department) Credit Manager",
-        "company": "Analyse financial statements and credit history to better understand credit worthiness and how much risk could be involved in extending credit to customers.",
+        "role": "Credit Manager",
+        "company": "ICICI Bank (Business Loan Department",
         "location": null,
         "start": "April 2021",
         "end": "August 2021",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "ICICI Bank (Business Loan Department)"
+        ],
         "duration_months": 5,
         "bullets": [
+          "Analyse financial statements and credit history to better understand credit worthiness and how much risk could be involved in extending credit to customers.",
           "Meeting with the Client to have better understanding of the business.",
           "Identify and assess credit and other risk areas.",
           "Carry out detailed and independent credit evaluation for underwriting.",
@@ -201,18 +278,18 @@
         "sub_sections": [
           "ARTICLESHIP EXPERIENCE"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.5,
-      "total_months": 66,
+      "total_years": 5.6,
+      "total_months": 67,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.64
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -265,7 +342,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Completed School with",
+        "institution": "Completed School",
         "year": null,
         "gpa": "82%",
         "_needs_review": false,
@@ -276,7 +353,7 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Completed School with",
+        "institution": "Completed School",
         "year": null,
         "gpa": "91%",
         "_needs_review": false,
@@ -301,38 +378,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.64,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[3]",
       "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

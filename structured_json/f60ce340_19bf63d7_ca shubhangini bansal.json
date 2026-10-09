@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f60ce340_19bf63d7_ca shubhangini bansal_segmented.txt",
-    "generated_at": "2026-09-30T07:00:49.449015+00:00",
+    "generated_at": "2026-10-07T09:28:53.915911+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,51 +47,89 @@
   "skills": {
     "items": [
       "AICPA",
+      "Accounting Standards",
+      "Accounts Payable",
+      "CARO Reporting",
+      "Company Law",
       "ERP",
       "Financial Analysis",
       "Financial Reporting",
       "Financial Statement Analysis",
+      "Fixed Assets Management",
       "GAAP",
       "IFRS",
-      "Ind AS",
+      "Ind AS 115",
+      "Ind AS 116",
+      "Internal Controls Testing",
+      "Legal Compliance",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
       "PCAOB",
-      "Regulatory Compliance",
+      "Payroll Administration",
+      "Physical Verification",
+      "Ratio Analysis",
+      "Reporting",
       "Risk Assessment",
       "SANS",
       "SAP",
+      "Schedule III Compliance",
       "Statutory Audit",
       "Substantive Testing",
+      "TDS",
       "Trend Analysis",
+      "Variance Analysis",
       "Working Capital Financing"
     ],
     "by_category": {
       "finance_ops": [
         "AICPA",
+        "Accounts Payable",
         "Financial Analysis",
         "Financial Reporting",
         "GAAP",
         "IFRS",
+        "Internal Controls Testing",
         "PCAOB",
+        "Ratio Analysis",
         "Statutory Audit",
         "Substantive Testing"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Ind AS 115",
+        "Ind AS 116",
+        "Schedule III Compliance"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Financial Statement Analysis"
+      ],
+      "legal": [
+        "Company Law",
+        "Legal Compliance"
       ],
       "erp": [
         "ERP"
       ],
-      "finance": [
-        "Financial Statement Analysis",
-        "Ind AS"
+      "accounting": [
+        "Fixed Assets Management",
+        "Physical Verification"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "hr": [
+        "Payroll Administration"
+      ],
+      "soft_skill": [
+        "Reporting"
       ],
       "compliance": [
         "Risk Assessment"
@@ -102,26 +140,35 @@
       "integration": [
         "SAP"
       ],
+      "taxation": [
+        "TDS"
+      ],
       "data_science": [
         "Trend Analysis"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ],
       "banking": [
         "Working Capital Financing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Word→Microsoft Word(100%), regulatory compliance→Regulatory Compliance(100%), spans→SANS(89%))"
+    "_method": "flashtext_skills_section | fuzzy(Word→Microsoft Word(100%), regulatory compliance→Legal Compliance(100%), spans→SANS(89%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "S) - USI , Senior Audit Assistant-II",
+        "role": "USI , Senior Audit Assistant-II",
         "company": "Deloitte US",
-        "location": "USI , Senior Audit Assistant-II",
+        "location": null,
         "start": "Oct 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 24,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Deloitte US (India offices of the U.S) - USI , Senior Audit Assistant-II"
+        ],
+        "duration_months": 25,
         "bullets": [
           "Executed statutory audits for PCAOB and AICPA engagements for U.S. clients across various industries, including energy and consumer sectors, and shipping clients with turnover over $500M.",
           "Audited banks and NBFCs, focusing on loans, investments, interest income, and regulatory disclosures.",
@@ -146,14 +193,19 @@
         "source": "experience"
       },
       {
-        "role": "P KOTHARI & ASSOCIATES, CHARTERED ACCOUNTANTS , Article Assistant",
-        "company": "Deloitte US",
-        "location": "USI , Senior Audit Assistant-II",
+        "role": "& ASSOCIATES, CHARTERED ACCOUNTANTS , Article Assistant",
+        "company": "C.P KOTHARI",
+        "location": null,
         "start": "Nov 2020",
         "end": "Nov 2023",
-        "method": "date_regex+date_prefix_title+next_line_company+inherited_company",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "C.P KOTHARI"
+        ],
         "duration_months": 37,
-        "bullets": [],
+        "bullets": [
+          "of Account Balances, class of transaction, Presentation and Disclosures."
+        ],
         "sub_sections": [
           "Checked compliance",
           "of Ind AS 115 (Revenue Recognition) in FMCG, Aviation, and Power sectors.",
@@ -175,18 +227,18 @@
           "https://linkedin.com/in/cashubhanginibansal",
           "────────────────────────────────────────────────────────────"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.1,
-      "total_months": 61,
+      "total_years": 5.2,
+      "total_months": 62,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -235,14 +287,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.93
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

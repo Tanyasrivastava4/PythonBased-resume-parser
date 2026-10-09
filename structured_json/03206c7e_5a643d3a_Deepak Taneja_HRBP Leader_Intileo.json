@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "03206c7e_5a643d3a_Deepak Taneja_HRBP Leader_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:45.617506+00:00",
+    "generated_at": "2026-10-07T10:30:37.666103+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,16 +48,29 @@
   "summary": "HR & People Leader with 10+ years of experience across NwN India, Times OOH, and TCS, driving business-aligned HR strategy,\nworkforce planning, and organizational effectiveness.\nProven expertise in end-to-end employee lifecycle management including talent acquisition, onboarding, learning &\ndevelopment, performance management, compensation reviews, and exits.\nStrong background in PAN-India recruitment and workforce scaling, including campus hiring from Tier 1 & Tier 2 institutions\nand delivery of 100+ consultant hires within a year.\nHands-on experience in HR transformation and change management, leading successful implementation of HRMS (Keka) and\nexpense management systems (Zaggle) to improve process efficiency and cost control.\nLed annual and mid-year performance appraisal cycles and compensation review processes, ensuring pay equity, internal parity,\nand market competitiveness across business units.\nTrusted advisor on employee relations, grievance management, workplace conduct, rewards & recognition, and HR policy\ngovernance across multi-location teams.\nDemonstrated capability in employee engagement, retention, and culture initiatives, supported by data-driven insights and\nleadership reporting.\nExperienced people manager with a track record of leading and scaling recruitment teams (12+ members) and delivering high-\nimpact HR projects including sales incentive design, diversity and attrition analysis, and employee connect surveys.\nTools & Systems\nArea\nTools\nHRMS & Benefits\nKeka, Zaggle, HROne, Zimyo\nATS & Sourcing\nNaukri, LinkedIn Recruiter, IIMJobs, Hirist, Indeed\nPerformance Management KRAs, KPIs, OKRs, 360-degree feedback\nReporting & Analytics\nMS Excel (Advanced), HR MIS, Workforce dashboards\nCollaboration & Productivity Google Sheets, Google Docs, Google Forms, MS Excel, MS PowerPoint, Outlook, Slack\nVirtual Hiring & Engagement Zoom, Google Meet, Microsoft Teams, Webex, Xoxoday, Vantage Circle\nHR Operations\nPayroll coordination, monthly inputs & validations, PF & ESIC coordination, HR\ndocumentation, audit support, vendor management",
   "skills": {
     "items": [
+      "Attrition Analysis",
+      "Business Development",
+      "Business Planning",
       "Change Management",
+      "Client Relationship Management",
       "Collaboration",
+      "Cross-functional Collaboration",
+      "Digital Marketing",
+      "ESIC",
       "Employee Engagement",
+      "Employee Lifecycle Management",
       "Google",
       "Google Meet",
       "Google Workspace",
       "HR Management",
+      "HRIS",
+      "HRMIS",
+      "HRMS",
       "Leadership",
       "Learning & Development",
       "LinkedIn",
+      "Management Consulting",
+      "Manpower Planning",
       "Microsoft Excel",
       "Microsoft Outlook",
       "Microsoft PowerPoint",
@@ -66,39 +79,66 @@
       "Payroll Administration",
       "Performance Appraisal",
       "Performance Management",
+      "Performance Marketing",
       "Procurement",
+      "Product Marketing",
+      "R",
       "Real Estate Valuation",
       "Recruitment",
       "Reporting",
       "Resource Planning",
+      "Revenue Generation",
       "Slack",
-      "Strategic Thinking",
+      "Standard Operating Procedures",
+      "Strategic Planning",
+      "TCS",
       "Talent Management",
+      "Training Needs Analysis",
+      "Trend Analysis",
       "Vendor Management",
       "WebEx",
       "Zoom"
     ],
     "by_category": {
-      "project_mgmt": [
-        "Change Management",
-        "Resource Planning"
-      ],
-      "soft_skill": [
-        "Collaboration",
-        "Leadership",
-        "Reporting",
-        "Strategic Thinking"
-      ],
       "hr": [
+        "Attrition Analysis",
+        "ESIC",
         "Employee Engagement",
+        "Employee Lifecycle Management",
         "HR Management",
+        "HRIS",
+        "HRMIS",
+        "HRMS",
         "Learning & Development",
+        "Manpower Planning",
         "Onboarding",
         "Payroll Administration",
         "Performance Appraisal",
         "Performance Management",
         "Recruitment",
         "Talent Management"
+      ],
+      "biz_dev": [
+        "Business Development",
+        "Business Planning"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Resource Planning"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Reporting"
+      ],
+      "marketing": [
+        "Digital Marketing",
+        "Performance Marketing",
+        "Product Marketing"
       ],
       "database": [
         "Google"
@@ -119,12 +159,34 @@
       "web_framework": [
         "LinkedIn"
       ],
+      "consulting": [
+        "Management Consulting"
+      ],
       "operations": [
         "Procurement",
         "Vendor Management"
       ],
+      "programming_language": [
+        "R"
+      ],
       "real_estate": [
         "Real Estate Valuation"
+      ],
+      "sales": [
+        "Revenue Generation"
+      ],
+      "management": [
+        "Standard Operating Procedures",
+        "Strategic Planning"
+      ],
+      "accounting": [
+        "TCS"
+      ],
+      "learning_development": [
+        "Training Needs Analysis"
+      ],
+      "data_science": [
+        "Trend Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -133,32 +195,36 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "PGDM HRM",
-        "location": "MDI Gurgaon",
+        "role": "PGDM HRM - MDI Gurgaon",
+        "company": "Development Development Development",
+        "location": null,
         "start": "2014",
         "end": "2016",
-        "method": "year_range_short_regex",
+        "method": "year_range_short_regex+multiline_role_above_company",
         "duration_months": 25,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Drove measurable gains in employee engagement and retention by launching performance-linked rewards, manager capability",
+        "role": "Organization Experience",
         "company": "D Marketing Pro",
         "location": "NOIDA",
         "start": "Sept’23",
         "end": "Present",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 37,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Organization Experience"
+        ],
+        "duration_months": 38,
         "bullets": [
           "Unknown - Role | HR Business Partner Built and executed the people strategy for a fast-growing digital marketing startup, scaling teams across performance marketing, content, tech, and client servicing while supporting business growth.",
           "Owned end-to-end talent acquisition, reducing average time-to-hire by ~30% and improving offer-to-join ratio through sharper role design and data-led sourcing.",
           "Designed HR governance from ground up—policies, payroll, compliance, HRIS, and workforce planning—bringing process maturity and cost discipline to a scaling organization.",
-          "Drove measurable gains in employee engagement and retention by launching performance-linked rewards, manager capability interventions, and structured feedback cycles."
+          "Drove measurable gains in employee engagement and retention by launching performance-linked rewards, manager capability interventions, and structured feedback cycles.",
+          "Managed HR budgets and compensation frameworks, aligning rewards with performance metrics and revenue growth while maintaining cost efficiency in a startup environment."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -166,23 +232,24 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "NwN India",
-        "location": "Gurugram Role",
+        "role": "NwN India, Gurugram Role",
+        "company": "NAM",
+        "location": null,
         "start": "Jul’21",
         "end": "April’23",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 22,
         "bullets": [
           "Led PAN-India talent acquisition for political consulting programs, hiring high-impact consultants and associates across multiple states while managing and scaling a 12-member recruitment team.",
           "Built and executed structured hiring pipelines for EILP & GILP programs, driving campus hiring from Tier 1 & Tier 2 institutions and ensuring consistent quality-to-scale outcomes.",
           "Owned end-to-end onboarding and induction for GILP Associates, enabling faster role readiness and smoother assimilation into field-intensive assignments.",
           "Spearheaded HR technology transformation—led needs analysis, vendor evaluation, negotiations, and implementation of Keka (HRMS) and Zaggle (Expense Management), improving data accuracy and process turnaround.",
-          "Designed and maintained organization-wide dashboards for workforce analytics, leadership reporting, and compliance, enabling data-backed decision-making in a dynamic operating environment."
+          "Designed and maintained organization-wide dashboards for workforce analytics, leadership reporting, and compliance, enabling data-backed decision-making in a dynamic operating environment.",
+          "Drove performance management through a 360-degree feedback framework, strengthening leadership accountability and improving role clarity across consulting cohorts."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -211,7 +278,8 @@
           "We We Help Help You You Grow Grow Led core HR operations across functions, including rightsizing, compensation structuring, manpower planning, recruitment, performance appraisals, L&D, and grievance redressal.",
           "Partnered with leadership on culture, productivity, and talent decisions using HR metrics, dashboards, and workforce trend analysis.",
           "Owned end-to-end employee lifecycle management across business verticals—hiring, onboarding, performance management, employee relations, and exits—ensuring consistency and compliance.",
-          "Standardized HR policies, SOPs, and documentation frameworks to strengthen governance, audit readiness, and employee experience."
+          "Standardized HR policies, SOPs, and documentation frameworks to strengthen governance, audit readiness, and employee experience.",
+          "Coordinated payroll operations and statutory compliance (PF, ESIC, Shops & Establishments) with vendors, ensuring accuracy and timely execution."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -219,12 +287,12 @@
         "source": "experience"
       },
       {
-        "role": "Manager – Human Resources",
-        "company": "Coordinated payroll operations and statutory compliance  with vendors",
-        "location": "ensuring accuracy",
+        "role": "Manager",
+        "company": "Human Resources",
+        "location": null,
         "start": "May'16",
         "end": "Jun’18",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex",
         "duration_months": 26,
         "bullets": [],
         "sub_sections": [
@@ -243,18 +311,18 @@
           "Links:",
           "────────────────────────────────────────────────────────────"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.0,
-      "total_months": 144,
+      "total_years": 12.1,
+      "total_months": 145,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.87
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -352,28 +420,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[3]",
       "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

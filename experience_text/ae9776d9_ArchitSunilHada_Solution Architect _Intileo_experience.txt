@@ -1,0 +1,182 @@
+======================================================================
+FILE: ae9776d9_ArchitSunilHada_Solution Architect _Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+IGATE Global Solutions Limited			 15th March 2012 – 02nd February 2015
+Project#1
+Project Title eXPD2 (Web team)
+Duration Oct 2012 – Feb 2013
+Role Java Developer
+Project Description
+Gexpro is a world-class electrical products supplier. The project contains different applications supporting day-to-day...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 13
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 14.6 years (175 months, 12 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : IGATE Global Solutions Limited
+  Location     : None
+  Start - End  : 15th March 2012 - 02nd February 2015
+  Duration     : 35 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Project Title eXPD2 (Web team
+  Company      : Project#1
+  Location     : None
+  Start - End  : Oct 2012 - Feb 2013
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Role Java Developer
+  Company      : Project Description
+  Location     : None
+  Start - End  : April 2013 - August 2013
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Role Java Developer
+  Company      : Project Description
+  Location     : None
+  Start - End  : August 2013 - Feb 2015
+  Duration     : 19 months
+  Bullets      : 3
+    • MetLife ALICO eServices Portal is a web application used by Members, Policy Holders and Intermediaries (Agents/Brokers) in the Gulf region.
+    • The Portal provides multiple functional features for all these user groups.
+    • The application required some additional features along with some enhancement in the existing functionality.
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : None
+  Company      : Capgemini Consulting India Pvt. Ltd
+  Location     : None
+  Start - End  : 16th February 2015 - 23rd April 2021
+  Duration     : 75 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : Mercedes Benz Point Of Sales
+  Company      : Project Title MBCPOS
+  Location     : None
+  Start - End  : Feb 2015 - Oct2019
+  Duration     : 57 months
+  Bullets      : 0
+  Method       : date_regex+company_parens_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : It’s a point of sales application for Mercedes Benz.It is being used by Dealers across different countries like UK,Turkey,Switzerland etc for selling of the Mercedes Benz Cars
+  Company      : Project Description
+  Location     : None
+  Start - End  : Oct 2019 - Jan 2020
+  Duration     : 4 months
+  Bullets      : 2
+    • It is a Transformation Hub which is used to translate the OV(Opel Vauxhall) vehicles related data so the warranty claim system(SAGAI) can used to process the warranty claims.
+    • Here the THub receives the vehicle,parts and Labour data from 2 different systems and translate the same and provides the data to Warranty Claim system.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 8
+  Role         : Project Title Application Development Centre
+  Company      : Project#3
+  Location     : None
+  Start - End  : Jan 2020 - Present
+  Duration     : 82 months
+  Bullets      : 4
+    • Here various microservices are being created using Spring Boot.
+    • Basically, a Pub Sub Mechanism is created where a subscriber subscribes for a particular resource and an event.
+    • The Publisher publishes the information on RabbitMQ and Subscriber listens to the queue and get the information on their webhook URL.
+    • Two types of subscription are available here Continuous and Polling So various APIs had been exposed here for publising, subscribing,revoking,registering various information.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 9
+  Role         : None
+  Company      : Price Waterhouse Coopers
+  Location     : None
+  Start - End  : 26th April 2021 - 15 Nov 2023
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 10
+  Role         : Project Title Axis
+  Company      : Project#1
+  Location     : None
+  Start - End  : May 2021 - Nov 2021
+  Duration     : 7 months
+  Bullets      : 2
+    • Its a Bancassurance Project.Axis had a front end through which they connect to middleware.
+    • Midleware connects to Bharti Axa insurance through which Policies has been buyed and payment had been done.All the Transactional level details are being stored on Middleware which is a spring boot hosted on premises server.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 11
+  Role         : Project Title Aditya Birla Life Insurance
+  Company      : Project#2
+  Location     : None
+  Start - End  : Dec 2021 - Jan2022
+  Duration     : 2 months
+  Bullets      : 2
+    • Its a Bancassurance Project.Various Portal connects to ESB which is a Microsoft Biz talk server which is returns connects to Downstream application.
+    • All the data to downstream has to route to ESB.ESB maps the Data which is received from portals and pass it to downstream application.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 12
+  Role         : Project Title IDFC Bancassurance Project
+  Company      : Project#3
+  Location     : None
+  Start - End  : Feb 2022 - Nov 2023
+  Duration     : 22 months
+  Bullets      : 3
+    • IDFC FIRST Bank intends to setup Bancassurance platform with all its tied-up insurers across categories Health & Savings.
+    • Its a Bancansurance Project.Backend is being developed in Java.
+    • The frontend customized journeys for the Assisted channel would be through Salesforce platform and for the unassisted (D2C) channel same would be driven through React.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 13
+  Role         : Mainly branch personnel such as Relationship Manager (RM) / Lead Generator (LG) who will be assisting customers during issuance journey would use the Salesforce platform. For assisted channels, each application would require approval from assigned Specified Person (SP). If a SP himself is performing the journey, approval won't be required to sell the insurance products to customers
+  Company      : Liberty General Insurance
+  Location     : None
+  Start - End  : 13th Nov 2023 - current
+  Duration     : 35 months
+  Bullets      : 3
+    • Bharat Bill Payment System is an integrated bill payment system in India offering interoperable and accessible bill payment service to customers through a network of agents of registered member as Agent Institutions, enabling multiple payment modes, and providing instant confirmation of payment.
+    • Enabled for Renewal of Liberty General Insurance motor policies on SuperApps.
+    • PayU will use LGI integrated APIs to do the BBPS Transaction.
+  Sub-sections : ['Project#2', 'Project Title IHX Integration for Cashless Claims', 'Project Description', 'Role Integration Architect', 'Integrating all the Non-NHCX Providers(Hospitals) on IHX platform for Cashless Claims.', 'Project#3', 'Project Title Customer communication management', 'Project Description', 'Role Integration Architect', 'CCM platform is used to streamline, manage templates, generates best of breed communication generation and sending, with tracking of each communication. Business can administer how many communications are being sent to customers daily based on his user journey', 'Project#4', 'Project Title AWS Api Gateway Security', 'Project Description', 'Role Integration Architect', 'Onboarding existing APIs to AWS API Gateway with Cognito, Auth0 & Azure AD as Token generation mechanism', 'Project#4', 'Project Title PayU WebHook Integration', 'Project Description', 'Role Integration Architect', 'Pushing payment failure records from Payu to calling Application.', 'Other Solution Worked on', '1]ECN push to Vahan from Partner Portal', '2]Synchronization of PI Snaps from HIIB portal to MotorPI System', '3]Multiple SMS Gateways', '4]Exposing N/W garages and hospitals to external partner']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

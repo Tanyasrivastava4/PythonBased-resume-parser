@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bd11a37d_CA Himanshu Vats_Consultant-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:13.464889+00:00",
+    "generated_at": "2026-10-07T09:28:06.928457+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,26 +48,58 @@
   "summary": "Newly Qualified Chartered Accountant with hands in experience in audit, taxation, financial\nanalysis, and regulatory compliance. Strong analytical skills with the ability to interpret financial\ndata, improve processes, and support strategic decision making.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Analytical Thinking",
+      "Auditing",
+      "CARO Reporting",
       "Decision Making",
       "Financial Analysis",
+      "Form 3CA-3CD",
+      "GST",
+      "Income Tax Return",
+      "Legal Compliance",
       "LinkedIn",
       "MS Office",
       "Microsoft Excel",
       "Microsoft Word",
-      "Regulatory Compliance",
+      "Payments",
+      "Payroll Administration",
+      "Statutory Audit",
+      "TDS",
       "Tally",
-      "Taxation"
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "soft_skill": [
         "Analytical Thinking",
         "Decision Making"
       ],
       "finance_ops": [
+        "Auditing",
         "Financial Analysis",
+        "Statutory Audit",
         "Tally",
         "Taxation"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Income Tax Return",
+        "Vouching"
+      ],
+      "accounting": [
+        "Form 3CA-3CD",
+        "GST"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "web_framework": [
         "LinkedIn"
@@ -77,12 +109,18 @@
         "Microsoft Excel",
         "Microsoft Word"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "domain": [
+        "Payments"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "taxation": [
+        "TDS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tally ERP 9→Tally(95%), Microsoft Office→MS Office(100%), Word→Microsoft Word(100%), Excels→Microsoft Excel(91%), taxation→Taxation(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Tally→Tally(100%), Microsoft Office→MS Office(100%), Word→Microsoft Word(100%), Excels→Microsoft Excel(91%), taxation→Taxation(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -92,7 +130,10 @@
         "location": null,
         "start": "September 2022",
         "end": "September 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Articled Assistant, JKSK AND CO LLP"
+        ],
         "duration_months": 37,
         "bullets": [
           "Handled various Statutory Audits, Tax Audits of Corporates and Non- corporates clients in multiple sectors including manufacturing and pharmaceutical and verified compliance with CARO Reporting.",
@@ -154,7 +195,7 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "Both Group ICAI",
-        "year": "2021",
+        "year": "2022",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -164,8 +205,8 @@
         "degree_name": "M.Com",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "IGNOU PURSUING PURSUING",
-        "year": "September 2022 - September 2025",
+        "institution": "IGNOU",
+        "year": "2021",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -175,11 +216,11 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": null,
-        "year": "2024",
-        "gpa": "6.939",
+        "institution": "PURSUING PURSUING DU SOL",
+        "year": "September 2022 - September 2025",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       },
       {
         "degree": "CLASS 12th",
@@ -187,8 +228,8 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": "2020",
-        "gpa": "82.2%",
+        "year": "2024",
+        "gpa": "6.939",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -199,12 +240,12 @@
         "degree_field": null,
         "institution": "CBSE",
         "year": "2018",
-        "gpa": "72.6%",
+        "gpa": "82.2%",
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.93
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [

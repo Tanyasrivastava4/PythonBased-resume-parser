@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e81ff484_Bhavita Jain_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:37.948360+00:00",
+    "generated_at": "2026-10-07T09:28:38.694211+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -46,27 +46,107 @@
   "summary": null,
   "skills": {
     "items": [
+      ".NET",
+      "Analytical Review",
+      "Bank Reconciliation",
+      "CARO 2020",
+      "Company Law",
       "Financial Analysis",
+      "GSTR-1",
+      "GSTR-2B",
+      "GSTR-3B",
+      "GSTR-9",
+      "Ind AS 115",
+      "Ind AS 116",
+      "Indirect Taxation",
+      "Input Tax Credit",
+      "LinkedIn",
       "MS Office",
+      "MSME Act Compliance",
+      "Microsoft Dynamics AX",
+      "NBFC",
       "Power BI",
       "Power Query",
-      "Tally"
+      "R",
+      "RBI",
+      "RBI Prudential Norms",
+      "Reporting",
+      "Schedule III Compliance",
+      "Standards on Auditing",
+      "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Trend Analysis",
+      "Vendor Management"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "R"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Bank Reconciliation"
+      ],
+      "compliance": [
+        "CARO 2020"
+      ],
+      "legal": [
+        "Company Law"
+      ],
       "finance_ops": [
         "Financial Analysis",
-        "Tally"
+        "Indirect Taxation",
+        "Tally",
+        "Taxation"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B"
+      ],
+      "accounting_finance": [
+        "GSTR-2B",
+        "GSTR-9",
+        "Ind AS 115",
+        "Ind AS 116",
+        "Input Tax Credit",
+        "MSME Act Compliance",
+        "RBI Prudential Norms",
+        "Schedule III Compliance",
+        "Standards on Auditing",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office"
       ],
+      "erp_systems": [
+        "Microsoft Dynamics AX"
+      ],
+      "finance": [
+        "NBFC"
+      ],
       "data_science": [
         "Power BI",
-        "Power Query"
+        "Power Query",
+        "Trend Analysis"
+      ],
+      "domain": [
+        "RBI"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ],
+      "operations": [
+        "Vendor Management"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tally ERP9→Tally(95%))"
+    "_method": "flashtext_skills_section | fuzzy(Tally ERP9→Tally ERP 9(95%))"
   },
   "experience": {
     "jobs": [],
@@ -98,7 +178,7 @@
         "degree_field": "ICAI",
         "institution": "ICAI",
         "year": "2022",
-        "gpa": "55.87%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -109,7 +189,7 @@
         "degree_field": "ICAI",
         "institution": "ICAI",
         "year": "2019",
-        "gpa": "64.75%",
+        "gpa": "55.87%",
         "_needs_review": false,
         "_confidence": 0.95
       },

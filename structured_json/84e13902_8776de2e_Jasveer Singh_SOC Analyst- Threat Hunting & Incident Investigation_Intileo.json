@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "84e13902_8776de2e_Jasveer Singh_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:30.418883+00:00",
+    "generated_at": "2026-10-07T09:27:09.594498+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,6 +50,7 @@
       "CCNA",
       "CEH",
       "Communication",
+      "Correlation Rules",
       "Creativity",
       "Cross-functional Collaboration",
       "CrowdStrike",
@@ -74,15 +75,20 @@
       "Network Troubleshooting",
       "Office 365",
       "Phishing",
+      "Reliability",
+      "SC-200",
       "SIEM",
       "SIEM Monitoring",
       "SOC Operations",
+      "Seceon",
       "Standard Operating Procedures",
       "Technical Support",
       "Threat Hunting",
       "Threat Intelligence",
       "VPN",
-      "Vulnerability Management"
+      "Vulnerability Management",
+      "Vulnerability Remediation",
+      "Wazuh"
     ],
     "by_category": {
       "networking": [
@@ -110,7 +116,18 @@
       "soft_skill": [
         "Communication",
         "Creativity",
-        "Cross-functional Collaboration"
+        "Cross-functional Collaboration",
+        "Reliability"
+      ],
+      "security": [
+        "Correlation Rules",
+        "IT Security",
+        "Incident Management",
+        "SIEM Monitoring",
+        "SOC Operations",
+        "Seceon",
+        "Vulnerability Management",
+        "Wazuh"
       ],
       "sysadmin": [
         "Desktop Support",
@@ -118,13 +135,6 @@
       ],
       "search": [
         "Elasticsearch"
-      ],
-      "security": [
-        "IT Security",
-        "Incident Management",
-        "SIEM Monitoring",
-        "SOC Operations",
-        "Vulnerability Management"
       ],
       "os_system": [
         "Linux",
@@ -139,11 +149,17 @@
       "integration": [
         "Office 365"
       ],
+      "certification": [
+        "SC-200"
+      ],
       "management": [
         "Standard Operating Procedures"
       ],
       "support": [
         "Technical Support"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
@@ -157,7 +173,10 @@
         "location": null,
         "start": "Jan 2018",
         "end": "Dec 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Desktop and Network Support Engineer-Comet Innovation Pvt Ltd"
+        ],
         "duration_months": 36,
         "bullets": [
           "Assisted in the setup and configuration of network devices.",
@@ -169,17 +188,38 @@
         "source": "experience"
       },
       {
-        "role": "Network Engineer",
-        "company": "GKC Management Pvt Ltd",
+        "role": "Network Engineer-GKC Management Pvt Ltd",
+        "company": "Assisted in implementing network solutions to ensure compliance with security protocols.",
         "location": null,
         "start": "Jan 2020",
         "end": "Jul 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Network Engineer-GKC Management Pvt Ltd"
+        ],
         "duration_months": 7,
         "bullets": [
           "Managed network systems and provided technical support for network-related issues.",
-          "Assisted in implementing network solutions to ensure compliance with security protocols.",
           "Conducted regular network assessments to identify vulnerabilities."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Development Correlation Rule",
+        "company": "including Seceon, Wazuh",
+        "location": "",
+        "start": "Apr 2022",
+        "end": "Present",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Development Correlation Rule"
+        ],
+        "duration_months": 55,
+        "bullets": [
+          "threats. firewalls, cloud platforms, activities. cause analysis, and preparation of reports in Wazuh and SIEM platforms routers, switches, Microsoft collection and accurate security critical vulnerabilities, and timely escalation, communication, processes while maintaining SLA- insights, security gaps, and security tools to enhance"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -188,23 +228,7 @@
       },
       {
         "role": null,
-        "company": "including Seceon",
-        "location": "Wazuh",
-        "start": "Apr 2022",
-        "end": "Present",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 54,
-        "bullets": [
-          "threats. firewalls, cloud platforms, activities. cause analysis, and preparation of reports in Wazuh and SIEM platforms routers, switches, Microsoft collection and accurate security critical vulnerabilities, and timely escalation, communication, processes while maintaining SLA- insights, security gaps, and"
-        ],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "security tools to enhance",
+        "company": "attempts",
         "location": null,
         "start": "Jan 2021",
         "end": "Mar 2022",
@@ -240,7 +264,7 @@
       "total_months": 189,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.86
+    "_confidence": 0.83
   },
   "education": {
     "entries": [
@@ -289,7 +313,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
@@ -299,8 +323,8 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

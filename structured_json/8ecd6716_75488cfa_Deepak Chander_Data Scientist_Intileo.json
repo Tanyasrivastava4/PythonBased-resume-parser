@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8ecd6716_75488cfa_Deepak Chander_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:40.820251+00:00",
+    "generated_at": "2026-10-07T09:27:22.812666+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -52,11 +52,13 @@
       "AWS EC2",
       "AWS S3",
       "Agentic AI",
+      "Communication",
       "DevOps",
       "Django",
       "FastAPI",
       "Gemini",
       "GitHub",
+      "JSON Web Token",
       "LLM",
       "LLM Orchestration",
       "LangChain",
@@ -67,15 +69,21 @@
       "MongoDB",
       "MySQL",
       "Nginx",
+      "OAuth 2.0",
       "OpenAI API",
       "Operations Management",
       "Prompt Engineering",
+      "Proxy",
       "Python",
       "REST",
       "REST API",
       "Raspberry Pi",
+      "Reliability",
+      "Route",
       "Supabase",
+      "System Design",
       "Ubuntu",
+      "Workflow Automation",
       "Zapier",
       "n8n"
     ],
@@ -83,7 +91,8 @@
       "cloud_infra": [
         "AWS",
         "AWS EC2",
-        "AWS S3"
+        "AWS S3",
+        "Route"
       ],
       "genai": [
         "Agentic AI",
@@ -93,6 +102,10 @@
         "MCP Server",
         "OpenAI API",
         "Prompt Engineering"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reliability"
       ],
       "devops": [
         "DevOps",
@@ -106,6 +119,10 @@
       ],
       "dev_tool": [
         "GitHub"
+      ],
+      "security": [
+        "JSON Web Token",
+        "OAuth 2.0"
       ],
       "ai_ml": [
         "LLM Orchestration"
@@ -125,7 +142,11 @@
         "Supabase"
       ],
       "operations": [
-        "Operations Management"
+        "Operations Management",
+        "Workflow Automation"
+      ],
+      "security_ops": [
+        "Proxy"
       ],
       "programming_language": [
         "Python"
@@ -135,40 +156,50 @@
       ],
       "embedded_systems": [
         "Raspberry Pi"
+      ],
+      "architecture": [
+        "System Design"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(OpenAI→OpenAI API(100%), make→Make(100%), REST APIs→REST API(100%), FASTAPI→FastAPI(100%), github.com→GitHub(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(OpenAI→OpenAI API(100%), make→Make(100%), REST APIs→REST API(100%), FASTAPI→FastAPI(100%), JWT Authentication Cloud→JSON Web Token(95%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "| 1to10x",
-        "company": "Reduced manual operational effort by automating recurring AI-driven workflows through agent orchestration and backend services",
-        "location": "1to10x",
+        "role": "AI Engineer",
+        "company": "1to10x",
+        "location": null,
         "start": "Apr 2025",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 18,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "AI Engineer | 1to10x"
+        ],
+        "duration_months": 19,
         "bullets": [
           "Designed and deployed AI-powered automation systems using LangChain, OpenAI APIs, and n8n to orchestrate multi-step agent workflows.",
           "Built backend services exposing REST APIs for AI agents, secured using OAuth 2.0 and JWT-based authentication.",
           "Deployed AI services on AWS EC2 with Nginx as a reverse proxy, handling webhook traffic and external integrations.",
           "Built an internal CLI-driven AI execution system for OpenAnalyst, including a backend service and agent orchestrator to route tasks through structured, API-first workflows.",
-          "Implemented Model Control Protocols (MCPs) to enable structured communication between autonomous AI agents across tools and platforms."
+          "Implemented Model Control Protocols (MCPs) to enable structured communication between autonomous AI agents across tools and platforms.",
+          "Reduced manual operational effort by automating recurring AI-driven workflows through agent orchestration and backend services"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Associate AI Engineer",
         "company": "Robot Wallah",
-        "location": "Associate AI Engineer",
+        "location": null,
         "start": "Mar 2024",
         "end": "Apr 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Robot Wallah – Associate AI Engineer"
+        ],
         "duration_months": 14,
         "bullets": [
           "Designed and implemented end-to-end automation systems integrating embedded hardware, sensors, and backend analytics platforms.",
@@ -181,8 +212,8 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Studies",
+        "role": "Robot Wallah",
+        "company": "Associate AI Engineer",
         "location": "Ghaziabad",
         "start": "2021",
         "end": "2024",
@@ -197,11 +228,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.7,
-      "total_months": 68,
+      "total_years": 5.8,
+      "total_months": 69,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.84
+    "_confidence": 0.94
   },
   "education": {
     "entries": [],
@@ -259,15 +290,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.85,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4068722a_fdcf5f08_Resume_Dharmesh_Modi_segmented.txt",
-    "generated_at": "2026-09-30T06:58:25.494873+00:00",
+    "generated_at": "2026-10-07T10:31:24.087339+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,63 +48,105 @@
   "summary": "Dynamic Leader with 20+ years of experience in Operations Management, Client Relationship Management,\nBusiness & Digital Transformation, Project Management, Team Management, Training & Development,\nQuality Assurance & Control, Organizational Change and Strategic Growth. Expert in Process Re-engineering,\nAutomation and Data-driven Decision making. Adept at bridging Business and Technology, ensuring seamless\nDelivery of Large-scale Transformation Programs. Proven track record of achieving substantial Cost Savings,\nEnhancing Operational Efficiency and Enabling Long-term Business resilience.",
   "skills": {
     "items": [
+      "Agile",
       "Business Development",
+      "Business Intelligence",
       "Business Process Re-Engineering",
+      "CAPA",
+      "Calibration",
+      "Capacity Management",
       "Change Management",
       "Client Relationship Management",
+      "Collaboration",
       "Continuous Improvement",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
       "Customer Service",
+      "Data Analysis",
       "Data-Driven Decision Making",
       "Digital Transformation",
       "Executive Presentations",
       "HR Management",
+      "Jira",
       "KPI",
       "Leadership",
       "Lean Six Sigma",
+      "LinkedIn",
       "Mentoring",
+      "Microsoft Power Automate",
       "Microsoft Teams",
+      "Microsoft Visio",
+      "Onboarding",
+      "Operation Monitoring",
       "Operations Management",
+      "PMP",
       "Performance Monitoring",
-      "Predictive Analytics",
+      "Power BI",
+      "Predictive Modeling",
+      "Prince2",
       "Process Improvement",
       "Process Re-Engineering",
       "Project Management",
       "Quality Assurance",
       "Reporting",
       "Resource Planning",
+      "SOP",
+      "Six Sigma",
       "Stakeholder Management",
-      "Strategic Thinking",
+      "Strategic Planning",
+      "Team Coordination",
       "Team Leadership",
       "Telecom",
       "Time Series Forecasting",
-      "Tutoring"
+      "Training Needs Analysis",
+      "Tutoring",
+      "UiPath",
+      "Value Stream Mapping"
     ],
     "by_category": {
+      "project_mgmt": [
+        "Agile",
+        "Change Management",
+        "Jira",
+        "PMP",
+        "Prince2",
+        "Project Management",
+        "Resource Planning"
+      ],
       "biz_dev": [
         "Business Development"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
       ],
       "process": [
         "Business Process Re-Engineering",
         "Lean Six Sigma"
       ],
-      "project_mgmt": [
-        "Change Management",
-        "Project Management",
-        "Resource Planning"
+      "operations": [
+        "CAPA",
+        "Continuous Improvement",
+        "Operation Monitoring",
+        "Operations Management",
+        "Performance Monitoring",
+        "Process Improvement",
+        "Quality Assurance",
+        "SOP",
+        "Six Sigma"
+      ],
+      "engineering_hardware": [
+        "Calibration"
+      ],
+      "devops": [
+        "Capacity Management"
       ],
       "client_mgmt": [
         "Client Relationship Management",
         "Customer Service"
       ],
-      "operations": [
-        "Continuous Improvement",
-        "Operations Management",
-        "Performance Monitoring",
-        "Process Improvement",
-        "Quality Assurance"
-      ],
       "soft_skill": [
+        "Collaboration",
         "Cross-functional Collaboration",
         "Data-Driven Decision Making",
         "Executive Presentations",
@@ -112,37 +154,59 @@
         "Mentoring",
         "Reporting",
         "Stakeholder Management",
-        "Strategic Thinking",
         "Team Leadership"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "Power BI"
       ],
       "consulting": [
         "Digital Transformation",
         "Process Re-Engineering"
       ],
       "hr": [
-        "HR Management"
+        "HR Management",
+        "Onboarding"
       ],
-      "business_analysis": [
-        "KPI"
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "rpa": [
+        "Microsoft Power Automate",
+        "UiPath"
       ],
       "productivity": [
         "Microsoft Teams"
       ],
-      "data_science": [
-        "Predictive Analytics"
+      "dev_tool": [
+        "Microsoft Visio"
+      ],
+      "ai_ml": [
+        "Predictive Modeling",
+        "Time Series Forecasting"
+      ],
+      "management": [
+        "Strategic Planning",
+        "Team Coordination"
       ],
       "domain": [
         "Telecom"
       ],
-      "ai_ml": [
-        "Time Series Forecasting"
+      "learning_development": [
+        "Training Needs Analysis"
       ],
       "education_domain": [
         "Tutoring"
+      ],
+      "manufacturing": [
+        "Value Stream Mapping"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Workforce Planning→Resource Planning(100%), Capacity Planning→Resource Planning(100%), Strategic Planning→Strategic Thinking(100%), Business Case Development→Business Development(95%), Predictive Analysis→Predictive Analytics(92%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Workforce Planning→Resource Planning(100%), Capacity Planning→Capacity Management(100%), Team Management→Team Coordination(100%), Business Case Development→Business Development(95%), Predictive Analysis→Predictive Modeling(92%)...)"
   },
   "experience": {
     "jobs": [
@@ -152,7 +216,7 @@
         "location": null,
         "start": "07/2017",
         "end": "04/2023",
-        "method": "date_regex+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 70,
         "bullets": [],
         "sub_sections": [],
@@ -166,8 +230,8 @@
         "location": null,
         "start": "04/2023",
         "end": "present",
-        "method": "date_regex+title_dash_company",
-        "duration_months": 42,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 43,
         "bullets": [
           "Spearheading the team of 12 Process Consultants including Manager & Team Leader",
           "End to end Project Management of all company projects",
@@ -185,7 +249,8 @@
           "Created As-Is / To-Be process maps in MS Visio to support reengineering",
           "SOP (Standard Operating Procedure) creation, modification as per updates received from operations department & clients",
           "Ensuring adherence of all SOP's through timely audits and dipstick.",
-          "Performing time and motion study of different functions of operations department for capacity planning"
+          "Performing time and motion study of different functions of operations department for capacity planning",
+          "Applying best practices based on experience of Operations & Training to get organization at expected levels overachieving client expectations"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -194,11 +259,11 @@
       },
       {
         "role": "Operations Manager",
-        "company": "levels overachieving client expectations",
-        "location": null,
+        "company": "E-Tech Inc",
+        "location": "Vadodara",
         "start": "11/2014",
         "end": "06/2017",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 32,
         "bullets": [
           "Spearheading a team of 100+ associates including 11 Team Leaders for online chat based sales campaign of US telecom ` Verizon Inc.",
@@ -227,7 +292,10 @@
         "location": null,
         "start": "10/2008",
         "end": "11/2014",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "ORGANISATIONAL EXPERIENCE"
+        ],
         "duration_months": 74,
         "bullets": [],
         "sub_sections": [],
@@ -241,7 +309,7 @@
         "location": null,
         "start": "02/2008",
         "end": "10/2008",
-        "method": "date_regex+title_dict+inherited_company",
+        "method": "date_regex+date_prefix_title+inherited_company",
         "duration_months": 9,
         "bullets": [],
         "sub_sections": [],
@@ -250,12 +318,15 @@
         "source": "experience"
       },
       {
-        "role": "Reliance Securities Ltd, Gandhinagar  - Customer Care Executive – Operations",
-        "company": "Idea Cellular Ltd",
-        "location": "Gandhinagar (HO",
+        "role": "Customer Care Executive",
+        "company": "Operations",
+        "location": null,
         "start": "03/2004",
         "end": "01/2008",
-        "method": "date_regex+title_dash_company+next_line_company",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Reliance Securities Ltd, Gandhinagar"
+        ],
         "duration_months": 47,
         "bullets": [
           "Six Sigma Black Belt & Green Belt Certified with successful real-time efficiency projects",
@@ -274,8 +345,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 22.6,
-      "total_months": 271,
+      "total_years": 22.7,
+      "total_months": 272,
       "overlapping_periods_merged": 3
     },
     "_confidence": 0.96
@@ -283,7 +354,7 @@
   "education": {
     "entries": [
       {
-        "degree": "• Bachelor of Commerce from Gujarat University, Ahmedabad",
+        "degree": "• Bachelor of Commerce",
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,

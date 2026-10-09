@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e8478c07_Abhishek Massey_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:38.481621+00:00",
+    "generated_at": "2026-10-07T09:28:39.433735+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,6 +49,9 @@
   "summary": "& Experienced Security Analyst and Penetration Tester specializing in vulnerability assessment, penetration testing, and security auditing across diverse\nIT environments.\n& Proficient in utilizing industry-standard tools such as Burp Suite, MobSF, Frida, and Wireshark for comprehensive security evaluations.\n& Expertise in identifying and remediating critical vulnerabilities including SQL Injection, XSS, and API-related flaws, ensuring robust application\nsecurity.\n& Proven ability to conduct Android APK reverse engineering and malware analysis using static and dynamic testing methodologies.\n& Dedicated to developing detailed vulnerability assessment reports, CERT-In compliant security audit documentation, and actionable remediation\nrecommendations.\n& Skilled in aligning security assessments with industry best practices, including OWASP Top 10, NIST, and SANS frameworks.\n& Excel in collaborating with development and infrastructure teams to validate fixes and strengthen overall security posture.\n& Experienced in authoring executive-level reports, incorporating Proof of Concept (PoC) demonstrations, CVSS scoring, and actionable mitigation\nstrategies.\n& Comprehensive experience in Vulnerability Management, Threat Analysis, Incident Response, and Risk Assessment.\n& Certified Ethical Hacker (CEH), Certified AppSec Practitioner (CAP), and Certified Network Security Practitioner (CNSP) demonstrating\ncommitment to professional development.",
   "skills": {
     "items": [
+      "API Security Testing",
+      "APK Editor",
+      "Analyze",
       "Android",
       "Auditing",
       "Burp Suite",
@@ -56,14 +59,19 @@
       "CERT-In",
       "Collaboration",
       "Communication",
+      "Cryptography",
       "Frida",
+      "Genymotion",
+      "IT Security",
       "Incident Management",
+      "Legal Compliance",
       "Malware Analysis",
       "Microsoft Excel",
       "Microsoft Teams",
       "MobSF",
       "NIST",
       "Network Security",
+      "Network Vulnerability Assessment",
       "OWASP Top 10",
       "Penetration Testing",
       "Problem Solving",
@@ -72,6 +80,7 @@
       "Reporting",
       "Reverse Engineering",
       "Risk Assessment",
+      "Risk Management",
       "SANS",
       "SQL Injection",
       "Security Assessment",
@@ -79,20 +88,17 @@
       "VAPT",
       "Vulnerability Assessment",
       "Vulnerability Management",
+      "Vulnerability Remediation",
       "Wireshark",
       "XSS"
     ],
     "by_category": {
-      "mobile": [
-        "Android"
-      ],
-      "finance_ops": [
-        "Auditing"
-      ],
       "security_ops": [
+        "API Security Testing",
         "Burp Suite",
         "CEH",
         "CERT-In",
+        "Cryptography",
         "Frida",
         "Malware Analysis",
         "MobSF",
@@ -110,25 +116,47 @@
         "Vulnerability Assessment",
         "XSS"
       ],
+      "cybersecurity": [
+        "APK Editor",
+        "Vulnerability Remediation"
+      ],
+      "data_science": [
+        "Analyze"
+      ],
+      "mobile": [
+        "Android"
+      ],
+      "finance_ops": [
+        "Auditing"
+      ],
       "soft_skill": [
         "Collaboration",
         "Communication",
         "Problem Solving",
         "Reporting"
       ],
+      "dev_tool": [
+        "Genymotion"
+      ],
       "security": [
+        "IT Security",
         "Incident Management",
+        "Network Vulnerability Assessment",
         "Vulnerability Management"
+      ],
+      "legal": [
+        "Legal Compliance",
+        "Regulatory Compliance"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft Teams"
       ],
-      "legal": [
-        "Regulatory Compliance"
-      ],
       "compliance": [
         "Risk Assessment"
+      ],
+      "project_mgmt": [
+        "Risk Management"
       ],
       "cloud_infra": [
         "Wireshark"
@@ -145,11 +173,11 @@
         "location": null,
         "start": "Aug 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 14,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 15,
         "bullets": [
           "Responsible for performing comprehensive security assessments, conducting VAPT, performing Android mobile application security testing, spearheading API security testing protocols for a variety of government and enterprise clients. & Orchestrated comprehensive security assessments encompassing web applications, mobile applications, APIs, and network infrastructure across diverse government and enterprise environments. & Directed Web Application and Network VAPT initiatives to proactively identify and address critical vulnerabilities related to authentication, authorization, business logic, misconfigurations, and exposed services. & Executed in-depth Android mobile application security testing utilizing both static and dynamic analysis techniques to uncover insecure data storage practices, weak cryptographic implementations, and potential API-related flaws. & Spearheaded API security testing protocols to detect and remediate broken object level authorization, improper authentication mechanisms, excessive data exposure vulnerabilities, and rate-limiting inefficiencies. & Authored meticulous vulnerability assessment reports, CERT-In compliant security audit documentation, and comprehensive compliance management reports incorporating clear risk analysis and actionable remediation recommendations.",
-          "Achievements: & Enhanced overall client security posture by delivering detailed, actionable remediation plans based on comprehensive VAPT assessments."
+          "Achievements: & Enhanced overall client security posture by delivering detailed, actionable remediation plans based on comprehensive VAPT assessments. & Improved collaboration and communication between security and development teams by creating well-structured, easily understandable reports and documentation."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -158,28 +186,28 @@
       },
       {
         "role": "Security Analyst",
-        "company": "& Improved collaboration and communication between security and development teams by creating well-structured, easily understandable reports and",
+        "company": "CRAW Cyber Security",
         "location": null,
         "start": "Aug 2023",
         "end": "Aug 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 25,
         "bullets": [
           "Responsible for conducting vulnerability assessments and penetration testing, performing Android APK reverse engineering and malware analysis, and developing remediation reports. & Executed comprehensive vulnerability assessments and penetration testing on a wide array of systems and applications to identify potential security weaknesses. & Performed Android APK reverse engineering using MobSF, Frida, Genymotion, and Apktool to uncover security flaws within mobile applications. & Identified and documented critical security vulnerabilities, including hardcoded secrets, insecure data storage practices, and API abuses, enabling prompt remediation. & Conducted in-depth malware analysis and dynamic/static testing procedures for Android applications to mitigate potential security risks and ensure application integrity. & Developed and delivered detailed remediation reports, providing actionable recommendations and guidance to development teams for effective vulnerability resolution.",
-          "Achievements: & Successfully identified and reported critical security vulnerabilities, resulting in proactive mitigation and enhanced security posture for client systems."
+          "Achievements: & Successfully identified and reported critical security vulnerabilities, resulting in proactive mitigation and enhanced security posture for client systems. & Provided actionable insights through comprehensive remediation reports, enabling development teams to effectively address and resolve identified security flaws."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "& Authored comprehensive executive-level reports, incorporating Proof of Concept  demonstrations, CVSS scoring metrics, and actionable",
+        "role": "VAPT Tester",
         "company": "RBS India Corp Pvt Ltd",
         "location": null,
         "start": "Jan 2022",
         "end": "Jan 2023",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 13,
         "bullets": [
           "Responsible for conducting VAPT for web and mobile apps, adhering to security standards, conducting reverse engineering of APKs and providing actions to mitigate identified risks. & Orchestrated full-scope Vulnerability Assessment and Penetration Testing (VAPT) initiatives for web and mobile applications, ensuring comprehensive security coverage across all platforms. & Employed Burp Suite, ZAP, and MobSF to rigorously identify, assess, and document security vulnerabilities, facilitating prompt and effective remediation efforts. & Aligned security assessments with industry best practices and regulatory compliance standards, adhering to OWASP Top 10, NIST, and SANS frameworks to maintain robust security protocols. & Conducted reverse engineering of APKs to meticulously analyze backend APIs, identifying potential weaknesses and mitigating risks associated with mobile application security. & Authored comprehensive executive-level reports, incorporating Proof of Concept (PoC) demonstrations, CVSS scoring metrics, and actionable mitigation strategies for senior management and stakeholders."
@@ -192,11 +220,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.2,
-      "total_months": 51,
+      "total_years": 4.3,
+      "total_months": 52,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -303,15 +331,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education.entries[1]",
       "confidence": 0.55,

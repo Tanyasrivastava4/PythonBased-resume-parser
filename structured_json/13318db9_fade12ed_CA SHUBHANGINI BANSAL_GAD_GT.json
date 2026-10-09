@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "13318db9_fade12ed_CA SHUBHANGINI BANSAL_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:57.342565+00:00",
+    "generated_at": "2026-10-07T10:30:51.508243+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,43 +45,89 @@
   "summary": null,
   "skills": {
     "items": [
+      "10-K",
+      "10-Q",
       "AICPA",
+      "Accounting Standards",
+      "Accounts Payable",
+      "CARO Reporting",
+      "Company Law",
       "ERP",
       "Financial Analysis",
       "Financial Reporting",
       "Financial Statement Analysis",
+      "Fixed Assets Management",
       "GAAP",
       "IFRS",
-      "Ind AS",
+      "Ind AS 115",
+      "Ind AS 116",
+      "Ind AS 2",
+      "Internal Controls Testing",
+      "Legal Compliance",
+      "LinkedIn",
       "Logistics",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
       "PCAOB",
+      "Payroll Administration",
+      "Physical Verification",
+      "ROU Assets",
+      "Ratio Analysis",
+      "Reporting",
       "Risk Assessment",
       "SAP",
+      "Schedule III Compliance",
+      "Section 135",
+      "Section 188",
       "Statutory Audit",
       "Substantive Testing",
+      "TDS",
       "Trend Analysis",
       "Working Capital Financing"
     ],
     "by_category": {
+      "accounting": [
+        "10-K",
+        "10-Q",
+        "Fixed Assets Management",
+        "Ind AS 2",
+        "Physical Verification",
+        "ROU Assets"
+      ],
       "finance_ops": [
         "AICPA",
+        "Accounts Payable",
         "Financial Analysis",
         "Financial Reporting",
         "GAAP",
         "IFRS",
+        "Internal Controls Testing",
         "PCAOB",
+        "Ratio Analysis",
         "Statutory Audit",
         "Substantive Testing"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Ind AS 115",
+        "Ind AS 116",
+        "Schedule III Compliance"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Financial Statement Analysis"
+      ],
+      "legal": [
+        "Company Law",
+        "Legal Compliance",
+        "Section 188"
       ],
       "erp": [
         "ERP"
       ],
-      "finance": [
-        "Financial Statement Analysis",
-        "Ind AS"
+      "web_framework": [
+        "LinkedIn"
       ],
       "operations": [
         "Logistics"
@@ -91,11 +137,21 @@
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ],
       "compliance": [
-        "Risk Assessment"
+        "Risk Assessment",
+        "Section 135"
       ],
       "integration": [
         "SAP"
+      ],
+      "taxation": [
+        "TDS"
       ],
       "data_science": [
         "Trend Analysis"
@@ -110,15 +166,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Audit Assistant-II Aug’",
-        "company": "Deloitte US",
-        "location": "USI",
+        "role": "Deloitte US (India offices of the U.S) - USI",
+        "company": "Executed audits for PCAOB and AICPA engagements for U.S. clients across various industries, including energy and consumer sectors, and shipping clients with turnover over $500M.",
+        "location": null,
         "start": "2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 33,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Deloitte US (India offices of the U.S) - USI",
+          "Gurugram",
+          "Senior Audit Assistant-II"
+        ],
+        "duration_months": 34,
         "bullets": [
-          "Executed audits for PCAOB and AICPA engagements for U.S. clients across various industries, including energy and consumer sectors, and shipping clients with turnover over $500M.",
           "Analyzed quarterly 10Q and year-end 10K financial data; investigated significant variances.",
           "Performed tie-out procedures, reconciling financial statement amounts to supporting work-papers.",
           "Conducted walkthroughs and documentation of client controls for debt and cash.",
@@ -128,17 +188,22 @@
           "Prepared working papers and documentation in accordance with firm standards."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Article Assistant Mar’",
+        "role": "Delhi",
         "company": "C.P KOTHARI & ASSOCIATES",
         "location": "CHARTERED ACCOUNTANTS",
         "start": "2020",
         "end": "Apr’20",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "C.P KOTHARI & ASSOCIATES, CHARTERED ACCOUNTANTS",
+          "Delhi",
+          "Article Assistant"
+        ],
         "duration_months": 4,
         "bullets": [
           "Tested Assertions of Account Balances, class of transaction, Presentation and Disclosures.",
@@ -159,11 +224,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.1,
-      "total_months": 37,
+      "total_years": 3.2,
+      "total_months": 38,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -212,8 +277,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.89
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

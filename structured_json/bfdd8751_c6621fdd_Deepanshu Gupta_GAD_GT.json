@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bfdd8751_c6621fdd_Deepanshu Gupta_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:16.074357+00:00",
+    "generated_at": "2026-10-07T09:28:10.208699+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -46,17 +46,66 @@
   "summary": null,
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting",
+      "Accounts Payable",
+      "Computax",
       "Data Analysis",
+      "E-Way Bill",
+      "Financial Reporting",
+      "GST",
+      "GST Return Filing",
+      "Income Tax Return",
+      "Input Tax Credit",
+      "Internal Controls Testing",
+      "LinkedIn",
+      "MIS Reporting",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
       "SAP",
-      "Tally"
+      "Statutory Audit",
+      "Tally",
+      "Tally ERP 9",
+      "Taxation",
+      "VAT"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Input Tax Credit",
+        "Tally ERP 9",
+        "VAT"
+      ],
+      "finance_ops": [
+        "Accounting",
+        "Accounts Payable",
+        "Financial Reporting",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "office": [
+        "Computax"
+      ],
       "data_science": [
         "Data Analysis"
+      ],
+      "finance": [
+        "E-Way Bill",
+        "GST Return Filing",
+        "Income Tax Return"
+      ],
+      "accounting": [
+        "GST"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "banking": [
+        "MIS Reporting"
       ],
       "productivity": [
         "MS Office",
@@ -66,9 +115,6 @@
       ],
       "integration": [
         "SAP"
-      ],
-      "finance_ops": [
-        "Tally"
       ]
     },
     "_confidence": 0.92,
@@ -77,14 +123,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Accountant, Pradeep K Saini &",
-        "company": "Coordinated with clients to finalise accounting records and prepare accurate financial statements in compliance with applicable standards.",
-        "location": "Associates, Gurugram",
+        "role": "Senior Accountant",
+        "company": "Pradeep K Saini & Associates",
+        "location": "Gurugram",
         "start": "Oct’22",
         "end": "Dec’25",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Senior Accountant, Pradeep K Saini & Associates, Gurugram"
+        ],
         "duration_months": 39,
         "bullets": [
+          "Coordinated with clients to finalise accounting records and prepare accurate financial statements in compliance with applicable standards.",
           "Conducted reconciliations for GSTR filings, such as E-Invoice reconciliation, Sales reconciliation, and E-Way Bill reconciliation to ensure data accuracy and compliance.",
           "Supported clients by delivering guidance and consultation on Income Tax and GST compliance and planning.",
           "Conducted statutory audits of organisations in diverse sectors, including Construction, FMCG, Hospitality, and Manufacturing, ensuring adherence to internal controls and compliance requirements.",
@@ -92,61 +142,72 @@
           "Executed Income Tax audits for diverse clients, ensuring compliance with statutory requirements."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Executive Accountant, Mazars Advisory LLP, Gurugram",
-        "company": "Outsourced to the Accounts Payable team of one of the leading Airlines with highest domestic market share.",
-        "location": null,
+        "role": "Executive Accountant",
+        "company": "Mazars Advisory LLP",
+        "location": "Gurugram",
         "start": "May 22",
         "end": "Sep’22",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Executive Accountant, Mazars Advisory LLP, Gurugram"
+        ],
         "duration_months": 268,
         "bullets": [
+          "Outsourced to the Accounts Payable team of one of the leading Airlines with highest domestic market share.",
           "Assisted in the reconciliation of accounts payable ledger for airport charges, maintaining accuracy and timely resolution of discrepancies. Also involving preparation of fortnightly statutory reports.",
           "Ensuring issuance of Debit/Credit Note for incorrect billing and coordinated with airports to resolve invoice discrepancies."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Industrial Trainee, Indian Oil Corporation",
-        "company": "Assistance in accurate calculation and finalization of monthly VAT & CST, ensuring compliance with tax regulations.",
-        "location": "Limited, Delhi",
+        "role": "Industrial Trainee",
+        "company": "Indian Oil Corporation Limited",
+        "location": "Delhi",
         "start": "Apr’18",
         "end": "Feb’19",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Industrial Trainee, Indian Oil Corporation Limited, Delhi"
+        ],
         "duration_months": 11,
         "bullets": [
+          "Assistance in accurate calculation and finalization of monthly VAT & CST, ensuring compliance with tax regulations.",
           "Preparation & consolidation of data for Input Tax Credit used for filing the quarterly returns.",
           "Collected, organised, and compiled financial data to assist in the preparation and filing of quarterly VAT and CST returns.",
           "Preparation of various MIS for onward submission to HO/Regional office to support business decision-making and data analysis."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Article Assistant",
-        "company": "Pravesh Jain & Co",
+        "role": "Compiled and prepared monthly sales tax MIS reports for submission to the HVAT Department",
+        "company": "Efficiently managed the preparation and filing of income tax returns through CompuTax software ensuring timely submissions.",
         "location": "Delhi",
         "start": "Feb’16",
         "end": "Mar’18",
-        "method": "date_regex+comma_title_company_split",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "• Compiled and prepared monthly sales tax MIS reports for submission to the HVAT Department.",
+          "Article Assistant, Pravesh Jain & Co., Delhi"
+        ],
         "duration_months": 26,
         "bullets": [
           "Managed day-to-day accounting operations by accurately entering bank statements and sales/purchase vouchers in Tally to ensure up-to- date financial records.",
-          "Efficiently managed the preparation and filing of income tax returns through CompuTax software ensuring timely submissions.",
           "Executed statutory audit for a manufacturing company, reviewing financial statements and internal controls."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
@@ -156,7 +217,7 @@
       "total_months": 307,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.77
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -178,18 +239,18 @@
         "degree_field": null,
         "institution": "al Group II Institute of Chartered Accountants of India",
         "year": "2024",
-        "gpa": "50.33%",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "B.Com (Hons)",
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": "Hons",
-        "institution": "Hons School of Open Learning, University of Delhi",
-        "year": "2014",
-        "gpa": "60.00%",
+        "institution": "Institute of Chartered Accountants of India",
+        "year": "2017",
+        "gpa": "50.33%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -242,14 +303,36 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": "CBSE",
-        "institution": "XI, Air Force Golden Jubilee Institute",
+        "institution": "CBSE",
+        "year": "Oct2022 - Dec2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Secured exemption with 60 marks in Direct Tax Laws & International Taxation (CA Final, Sep 2025 attempt)",
+        "degree_name": "CA Final",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "al Group II Institute of Chartered Accountants of India",
         "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• Secured exemption with 67 marks in Advanced Accounting (CA Intermediate, Nov 2017 attempt)",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
+        "degree_field": null,
+        "institution": "al Group II Institute of Chartered Accountants of India",
+        "year": "2017",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.92
   },
   "certifications": {
     "items": [],
@@ -263,22 +346,12 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
+      "field": "experience.jobs[3]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "eb9e1300_Abhishek_Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:40.115884+00:00",
+    "generated_at": "2026-10-07T09:28:41.636033+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -49,10 +49,14 @@
   "skills": {
     "items": [
       "AWS",
+      "Agile",
       "C++",
+      "Code Reviews",
       "Computer Vision",
       "Docker",
+      "Express.js",
       "FastAPI",
+      "Feature Engineering",
       "Fine-tuning",
       "Gemini",
       "Generative AI",
@@ -68,21 +72,26 @@
       "LLaMA",
       "LangChain",
       "LayoutLMv3",
+      "LinkedIn",
       "MLOps",
       "Machine Learning",
+      "Model Evaluation",
       "MongoDB",
       "Multimodal Document AI",
       "MySQL",
       "NER",
       "NLP",
+      "Node.js",
       "OpenAI API",
       "PaddleOCR",
       "Postman",
       "Prompt Engineering",
       "PyTorch",
       "Python",
+      "Quality Assurance",
       "Qwen",
       "RAG",
+      "REST",
       "ROUGE",
       "Text Summarization",
       "Tokenization",
@@ -94,11 +103,21 @@
       "cloud_infra": [
         "AWS"
       ],
+      "project_mgmt": [
+        "Agile"
+      ],
       "programming_language": [
         "C++",
         "Java",
         "JavaScript",
         "Python"
+      ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "Jupyter",
+        "Postman"
       ],
       "ai_ml": [
         "Computer Vision",
@@ -118,7 +137,14 @@
         "Docker"
       ],
       "web_framework": [
-        "FastAPI"
+        "Express.js",
+        "FastAPI",
+        "LinkedIn",
+        "Node.js"
+      ],
+      "data_science": [
+        "Feature Engineering",
+        "Transformers"
       ],
       "genai": [
         "Fine-tuning",
@@ -136,21 +162,21 @@
         "Qwen",
         "RAG"
       ],
-      "dev_tool": [
-        "Git",
-        "GitHub",
-        "Jupyter",
-        "Postman"
-      ],
       "domain": [
         "Healthcare"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
       ],
       "database": [
         "MongoDB",
         "MySQL"
       ],
-      "data_science": [
-        "Transformers"
+      "operations": [
+        "Quality Assurance"
+      ],
+      "integration": [
+        "REST"
       ]
     },
     "_confidence": 0.92,
@@ -164,7 +190,10 @@
         "location": "Hyderabad",
         "start": "Dec 2024",
         "end": "Oct 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "AI Engineer"
+        ],
         "duration_months": 11,
         "bullets": [
           "Designed and deployed LLM-driven autonomous travel agents for flight/hotel search, itinerary generation, and personal- ized recommendations.",
@@ -187,7 +216,10 @@
         "location": "Noida",
         "start": "Jan 2024",
         "end": "Jun 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Backend Developer Intern"
+        ],
         "duration_months": 6,
         "bullets": [
           "Developed and deployed 12+ RESTful APIs using Node.js and Express.js, supporting 1,000+ requests/min.",

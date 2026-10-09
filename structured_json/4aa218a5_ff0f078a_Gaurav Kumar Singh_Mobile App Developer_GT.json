@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4aa218a5_ff0f078a_Gaurav Kumar Singh_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:34.646843+00:00",
+    "generated_at": "2026-10-07T10:31:35.769749+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -52,15 +52,23 @@
       "Android",
       "Bitbucket",
       "Clean Architecture",
+      "Coroutines Flow",
+      "Cross-functional Collaboration",
+      "E-commerce",
       "Firebase",
       "Git",
       "GitHub",
       "GitLab",
+      "Glide",
       "Google",
       "Gradle",
+      "Gson",
+      "Healthcare",
+      "Hilt",
       "JSON",
       "JUnit",
       "Java",
+      "Jetpack Compose",
       "Jira",
       "Kotlin",
       "MVVM",
@@ -68,6 +76,8 @@
       "REST",
       "REST API",
       "Razorpay",
+      "Retrofit",
+      "Room Database",
       "SQLite",
       "Scrum"
     ],
@@ -90,15 +100,35 @@
         "Clean Architecture",
         "MVVM"
       ],
+      "mobile_dev": [
+        "Coroutines Flow",
+        "Glide",
+        "Hilt",
+        "Jetpack Compose",
+        "Retrofit"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
       "database": [
         "Firebase",
         "Google",
+        "Room Database",
         "SQLite"
       ],
       "programming_language": [
         "Gradle",
         "Java",
         "Kotlin"
+      ],
+      "software_eng": [
+        "Gson"
+      ],
+      "domain": [
+        "Healthcare"
       ],
       "web_framework": [
         "JSON",
@@ -118,7 +148,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Firestore→Firebase(100%), RazorPay→Razorpay(100%), RESTful APIs→REST(100%), Unit Testing→JUnit(96%), Firebase.→Firebase(94%))"
+    "_method": "flashtext_skills_section | fuzzy(Coroutines→Coroutines Flow(100%), Firestore→Firebase(100%), RazorPay→Razorpay(100%), RESTful APIs→REST(100%), Unit Testing→JUnit(96%)...)"
   },
   "experience": {
     "jobs": [
@@ -128,12 +158,13 @@
         "location": null,
         "start": "Jun 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 28,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 29,
         "bullets": [
           "Built enterprise-grade Android apps using MVVM + Hilt + Coroutines.",
           "Integrated Retrofit APIs with offline support via Room Database.",
-          "Developed task management module with dynamic form generation from JSON."
+          "Developed task management module with dynamic form generation from JSON.",
+          "Enhanced app stability with Firebase Crashlytics and improved performance by 25%."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -141,8 +172,8 @@
         "source": "experience"
       },
       {
-        "role": "Android Developer – Amnex Infotechnology Pvt Ltd",
-        "company": null,
+        "role": "Android Developer",
+        "company": "Amnex Infotechnology Pvt Ltd",
         "location": null,
         "start": "Dec 2022",
         "end": "Jan 2024",
@@ -151,16 +182,17 @@
         "bullets": [
           "Designed and developed geo-mapping & crop survey apps used by government & insurance companies.",
           "Implemented Google Maps, polygon drawing, and geo-tagged photo/video capture.",
-          "Built offline apps with SQLite + Room DB, ensuring data sync with APIs."
+          "Built offline apps with SQLite + Room DB, ensuring data sync with APIs.",
+          "Collaborated with cross-functional teams to deliver scalable mobile solutions."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Android Developer – Softechera Systems Pvt Ltd",
-        "company": "Optimized app load time by 30% and improved UI responsiveness.",
+        "role": "Android Developer",
+        "company": "Softechera Systems Pvt Ltd",
         "location": null,
         "start": "Oct 2020",
         "end": "Dec 2022",
@@ -169,21 +201,22 @@
         "bullets": [
           "Developed healthcare and e-commerce apps with 1L+ downloads on Play Store.",
           "Implemented Firebase Authentication, Push Notifications, Payment Gateway (RazorPay).",
-          "Built custom dashboards, charts, and media modules (camera, audio, video)."
+          "Built custom dashboards, charts, and media modules (camera, audio, video).",
+          "Optimized app load time by 30% and improved UI responsiveness."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.7,
-      "total_months": 68,
+      "total_years": 5.8,
+      "total_months": 69,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -216,19 +249,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

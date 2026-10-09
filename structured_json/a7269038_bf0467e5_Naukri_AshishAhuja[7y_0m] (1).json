@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a7269038_bf0467e5_Naukri_AshishAhuja[7y_0m] (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:59:57.034254+00:00",
+    "generated_at": "2026-10-07T09:27:44.577229+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,75 +47,123 @@
     "items": [
       "API Design",
       "AWS",
+      "AWS CloudFront",
       "AWS EC2",
+      "AWS Lambda",
       "AWS RDS",
       "AWS S3",
       "Agile",
       "Angular",
+      "Angular Material",
       "Azure DevOps",
+      "Babel",
       "Bitbucket",
+      "Boosting",
       "CI/CD",
       "CSS3",
+      "Capital Markets",
+      "Chart.js",
+      "Classroom Management",
       "Code Reviews",
+      "Collaboration",
       "Cypress",
+      "Data Management",
+      "Data Validation",
+      "Data Visualization",
       "DevOps",
       "Docker",
       "Express.js",
+      "Figma",
       "Git",
       "GitHub",
       "GitHub Actions",
       "GitLab",
+      "Google Drive",
       "GraphQL",
+      "HIPAA",
       "HTML5",
+      "Healthcare",
       "Identity Management",
+      "Jasmine",
       "Java",
       "JavaScript",
       "Jenkins",
       "Jest",
       "Jira",
+      "KPI",
+      "Legal Compliance",
+      "Marketing Automation",
+      "Material UI",
+      "Micro Frontend",
       "Microservices",
+      "Mocha",
       "MongoDB",
       "MySQL",
+      "NPM",
       "Node.js",
+      "Onboarding",
+      "Oracle Database",
       "Project Management",
       "Python",
+      "Quality Assurance",
       "REST",
       "React",
       "Redux",
+      "Reporting",
+      "Risk Management",
+      "SDLC",
+      "SSO",
       "SVN",
       "Scrum",
+      "Single SPA",
+      "Solution Design",
+      "Stripe",
       "System Design",
       "Tailwind CSS",
-      "TypeScript"
+      "Trend Analysis",
+      "TypeScript",
+      "webpack"
     ],
     "by_category": {
       "architecture": [
         "API Design",
+        "Micro Frontend",
         "Microservices",
+        "SDLC",
+        "Solution Design",
         "System Design"
       ],
       "cloud_infra": [
         "AWS",
+        "AWS CloudFront",
         "AWS EC2",
+        "AWS Lambda",
         "AWS RDS",
-        "AWS S3"
+        "AWS S3",
+        "Google Drive"
       ],
       "project_mgmt": [
         "Agile",
         "Jira",
         "Project Management",
+        "Risk Management",
         "Scrum"
       ],
       "web_framework": [
         "Angular",
+        "Angular Material",
         "CSS3",
+        "Chart.js",
         "Express.js",
         "GraphQL",
         "HTML5",
+        "Material UI",
         "Node.js",
         "React",
         "Redux",
-        "Tailwind CSS"
+        "Single SPA",
+        "Tailwind CSS",
+        "webpack"
       ],
       "devops": [
         "Azure DevOps",
@@ -127,18 +175,55 @@
         "SVN"
       ],
       "dev_tool": [
+        "Babel",
         "Bitbucket",
         "Code Reviews",
         "Git",
         "GitHub",
-        "GitLab"
+        "GitLab",
+        "NPM"
+      ],
+      "data_science": [
+        "Boosting",
+        "Data Visualization",
+        "Trend Analysis"
+      ],
+      "finance": [
+        "Capital Markets"
+      ],
+      "education_domain": [
+        "Classroom Management"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Reporting"
       ],
       "testing": [
         "Cypress",
         "Jest"
       ],
+      "productivity": [
+        "Data Management"
+      ],
+      "data_engineering": [
+        "Data Validation"
+      ],
+      "design": [
+        "Figma"
+      ],
+      "healthcare": [
+        "HIPAA"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
       "security": [
-        "Identity Management"
+        "Identity Management",
+        "SSO"
+      ],
+      "security_ops": [
+        "Jasmine",
+        "Mocha"
       ],
       "programming_language": [
         "Java",
@@ -146,27 +231,51 @@
         "Python",
         "TypeScript"
       ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "marketing": [
+        "Marketing Automation"
+      ],
       "database": [
         "MongoDB",
-        "MySQL"
+        "MySQL",
+        "Oracle Database"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "operations": [
+        "Quality Assurance"
       ],
       "integration": [
         "REST"
+      ],
+      "payment_gateway": [
+        "Stripe"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tailwind→Tailwind CSS(100%), RESTful APIs→REST(100%), Gitlab→GitLab(100%), API Gateway→API Design(100%), Sprint Planning→Scrum(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Tailwind→Tailwind CSS(100%), Single SPA→Single SPA(100%), Micro frontend→Micro Frontend(100%), RESTful APIs→REST(100%), Gitlab→GitLab(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Title | Module Lead",
+        "role": "Module Lead",
         "company": "Unknown",
-        "location": null,
+        "location": "Title",
         "start": "Mar 2024",
         "end": "Present",
         "method": "date_regex+dash_split",
-        "duration_months": 31,
+        "pre_date_header": [
+          "ValueLabs Solutions",
+          "Hyderabad, India",
+          "Unknown - Title | Module Lead"
+        ],
+        "duration_months": 32,
         "bullets": [
           "Technology Stack: React.js, Redux, Node.js, AWS, JavaScript, Material UI, Tailwind CSS, Java, Jest, Webpack Responsibilities:",
           "Led UI development for Ethiqly, an AI-powered SaaS platform transforming writing instruction through real- time AI-driven feedback, AWS-based data processing, and scalable cloud infrastructure.",
@@ -183,12 +292,17 @@
         "source": "experience"
       },
       {
-        "role": "Title: Senior Software Engineer",
+        "role": "Senior Software Engineer",
         "company": "Technology Stack: React, Redux, Node.js, AWS, JavaScript, JSX, Tailwind, Babel Responsibilities:",
         "location": "India",
         "start": "Dec 2022",
         "end": "Apr 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+next_line_company",
+        "pre_date_header": [
+          "CitiusTech Healthcare Technology Pvt Ltd.",
+          "Hyderabad, India",
+          "Title: Senior Software Engineer"
+        ],
         "duration_months": 17,
         "bullets": [
           "Developed a healthcare analytics platform with real-time data visualization, improving diagnostic accuracy by 40%.",
@@ -202,12 +316,17 @@
         "source": "experience"
       },
       {
-        "role": "Title: Software Engineer",
+        "role": "Hyderabad, India",
         "company": "Berkadia Services India",
         "location": null,
         "start": "Apr 2022",
         "end": "Dec 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_company_above_role",
+        "pre_date_header": [
+          "Berkadia Services India",
+          "Hyderabad, India",
+          "Title: Software Engineer"
+        ],
         "duration_months": 9,
         "bullets": [
           "Technology Stack: Angular 13, React, Node.js, Express.js, AWS, JavaScript, Angular Material Responsibilities:",
@@ -219,20 +338,23 @@
           "Followed the Software Development Life Cycle (SDLC) from requirement gathering and system design to development, testing, and deployment, ensuring high-quality and secure software delivery.",
           "Collaborated with architects and business stakeholders, contributing to solution design discussions for scalable financial applications."
         ],
-        "sub_sections": [
-          "Capgemini Technology Services India Limited"
-        ],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Title | Associate Consultant",
+        "role": "Associate Consultant",
         "company": "Unknown",
-        "location": null,
+        "location": "Title",
         "start": "May 2021",
         "end": "Mar 2022",
         "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Capgemini Technology Services India Limited",
+          "Hyderabad, India",
+          "Unknown - Title | Associate Consultant"
+        ],
         "duration_months": 11,
         "bullets": [
           "Technology Stack: Angular12, Node.js, Express.js, AWS, JavaScript, Single SPA (Micro frontend), Chart.js, Babel Responsibilities:",
@@ -249,15 +371,19 @@
         "source": "experience"
       },
       {
-        "role": "Title: Software Engineer",
-        "company": "Locusnine Innovations",
-        "location": null,
+        "role": "Locusnine Innovations",
+        "company": "Technology Stack: Angular8, Node.js, Express.js, AWS, MongoDB, JavaScript, HTML5, CSS3 Responsibilities:",
+        "location": "India",
         "start": "Mar 2020",
         "end": "Sep 2020",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Locusnine Innovations",
+          "Pune, India",
+          "Title: Software Engineer"
+        ],
         "duration_months": 7,
         "bullets": [
-          "Technology Stack: Angular8, Node.js, Express.js, AWS, MongoDB, JavaScript, HTML5, CSS3 Responsibilities:",
           "Developed a KPI-based quality management dashboard, enabling real-time performance tracking for enterprise clients, improving reporting efficiency by 30%.",
           "Translated Figma designs into responsive and accessible React components, ensuring pixel-perfect UI implementation.",
           "Implemented AWS-based backend services (Lambda, API Gateway, S3) to support scalable data processing, reducing API response time by 20%.",
@@ -265,17 +391,22 @@
           "Integrated EnjoyHint, and Joyride libraries, enhancing user guidance and experience."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Title: Full Stack Developer",
+        "role": "Chennai, India",
         "company": "Cognizant Technology Solutions",
         "location": null,
         "start": "Aug 2018",
         "end": "Feb 2020",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_company_above_role",
+        "pre_date_header": [
+          "Cognizant Technology Solutions",
+          "Chennai, India",
+          "Title: Full Stack Developer"
+        ],
         "duration_months": 19,
         "bullets": [
           "Developed a claims data dashboard for MetLife insurers, improving claims processing efficiency by 20%, and reducing manual workload for underwriters.",
@@ -289,11 +420,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.6,
-      "total_months": 91,
+      "total_years": 7.7,
+      "total_months": 92,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.93
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -320,12 +451,17 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

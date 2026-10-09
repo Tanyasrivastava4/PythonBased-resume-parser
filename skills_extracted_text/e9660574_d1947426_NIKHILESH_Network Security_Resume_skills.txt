@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/e9660574_d1947426_NIKHILESH_Network Security_Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+➢ CCNA: Grass Institute
+➢ Palo Alto Firewall: Network kings
+➢ Checkpoint firewall, FortiGate Firewall: Udemy
+
+── Extraction Results ──
+Skills found   : 27
+Confidence     : 0.92
+Time           : 163.81 ms
+Method         : flashtext_skills_section | fuzzy(Firewall:→Firewall(94%), Checkpoint→Check Point(100%), firewall→Firewall(100%), Firewall:→Firewall(94%))
+
+── All Skills (27) ──
+Amazon Seller, Check Point, Collaboration, Communication, Express.js, Firewall, FortiGate, Incident Management, Incident Response, Load Balancer, Microsoft Teams, Microsoft Windows Server, Nagios, Network Monitoring Tools, Network Security, Networking, Palo Alto Networks, Patch Management, Performance Monitoring, Procurement, PuTTY, RBI, Security Operations Center, Supply Chain, VLAN, VPN, iOS
+
+── By Category ──
+  biz_dev                        ['Networking']
+  cloud_infra                    ['Microsoft Windows Server', 'Nagios', 'VLAN']
+  dev_tool                       ['PuTTY']
+  devops                         ['Load Balancer', 'Network Monitoring Tools']
+  domain                         ['RBI', 'Supply Chain']
+  mobile                         ['iOS']
+  operations                     ['Performance Monitoring', 'Procurement']
+  productivity                   ['Microsoft Teams']
+  retail                         ['Amazon Seller']
+  security_ops                   ['Check Point', 'Firewall', 'FortiGate', 'Incident Management', 'Incident Response', 'Network Security', 'Palo Alto Networks', 'Patch Management', 'Security Operations Center', 'VPN']
+  soft_skill                     ['Collaboration', 'Communication']
+  web_framework                  ['Express.js']

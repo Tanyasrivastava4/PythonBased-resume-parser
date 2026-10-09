@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "79ec0d05_Ram Kumar_Technical Evaluation & Infrastructure Oversight Officer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:23.721441+00:00",
+    "generated_at": "2026-10-07T09:27:01.338104+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,29 +49,60 @@
     "items": [
       "AWS",
       "Active Directory",
+      "Agile",
+      "Analyze",
       "Asset Management",
+      "Auditing",
       "Azure",
+      "Azure Site Recovery",
       "BCP",
+      "Budgeting",
       "CCNA",
+      "Change Management",
       "Check Point",
+      "Cisco Nexus",
       "Communication",
+      "Cross-functional Collaboration",
       "Customer Service",
+      "DLP",
       "DNS",
+      "Data Migration",
+      "Desktop Support",
       "Disaster Recovery",
+      "Docker",
+      "EDR",
+      "ERP",
+      "Ethernet",
       "Exchange Server",
       "Express.js",
+      "FIX Protocol",
       "Firewall",
       "Fortinet",
       "GCP",
+      "GRC",
       "Generative AI",
+      "Google",
+      "HR Management",
       "Help Desk",
       "Hikvision",
+      "ISO 27001",
       "IT Infrastructure Management",
       "IT Ops",
+      "IT Security",
+      "IT Security & Compliance",
+      "ITIL",
+      "Incident Management",
+      "Jira",
       "Juniper",
+      "KPI",
+      "Kubernetes",
+      "LAN",
+      "Leadership",
       "Linux",
+      "MS Project",
       "MSSQL",
       "Microsoft Edge",
+      "Microsoft IIS",
       "Microsoft Outlook",
       "Microsoft Teams",
       "Microsoft Virtual Server",
@@ -79,27 +110,60 @@
       "Microsoft Windows Server",
       "Microsoft Windows XP",
       "Modula",
+      "MongoDB",
+      "Multifactor Authentication",
+      "MySQL",
+      "NMS",
+      "Network Access Control",
       "Network Security",
       "Networking",
       "Office 365",
+      "Oracle Database",
       "PMP",
+      "Physical Verification",
+      "PostgreSQL",
+      "Privileged Access Management",
       "Procurement",
       "Project Charter",
       "Project Management",
+      "Quality Assurance",
+      "RACI",
+      "RDP",
+      "RFI",
+      "RFP",
+      "RFQ",
+      "Reporting",
       "Requirements Gathering",
       "Resource Planning",
       "Responsible AI",
       "Risk Management",
+      "SAP",
+      "SIEM",
+      "SIP",
+      "SOAR",
       "SOC Operations",
       "SOP",
       "SOX",
+      "SQL",
+      "ServiceNow",
       "Software Installation",
+      "Stakeholder Management",
       "TCP/IP",
+      "TCS",
+      "Team Coordination",
       "Technical Support",
+      "Time Management",
+      "Trend Micro",
+      "Ubuntu",
+      "VAPT",
+      "VMS",
       "VMware",
+      "VMware vSphere",
       "VPN",
       "Vendor Management",
       "WAF",
+      "WAN",
+      "Waterfall",
       "Zoho Books",
       "Zoho Mail"
     ],
@@ -115,45 +179,122 @@
       "security_ops": [
         "Active Directory",
         "Check Point",
+        "DLP",
+        "EDR",
         "Firewall",
+        "GRC",
         "Hikvision",
+        "ISO 27001",
         "Network Security",
+        "Privileged Access Management",
+        "SIEM",
+        "SOAR",
+        "VAPT",
+        "VMS",
         "VPN",
         "WAF"
       ],
+      "project_mgmt": [
+        "Agile",
+        "Change Management",
+        "Jira",
+        "MS Project",
+        "PMP",
+        "Project Charter",
+        "Project Management",
+        "Resource Planning",
+        "Risk Management",
+        "Waterfall"
+      ],
+      "data_science": [
+        "Analyze"
+      ],
       "sysadmin": [
         "Asset Management",
+        "Desktop Support",
         "Exchange Server",
         "Software Installation"
+      ],
+      "finance_ops": [
+        "Auditing",
+        "Budgeting",
+        "SOX",
+        "Zoho Books"
+      ],
+      "cloud": [
+        "Azure Site Recovery"
       ],
       "operations": [
         "BCP",
         "Disaster Recovery",
         "Procurement",
+        "Quality Assurance",
         "SOP",
         "Vendor Management"
       ],
       "networking": [
         "CCNA",
+        "Cisco Nexus",
         "DNS",
-        "TCP/IP"
+        "Ethernet",
+        "LAN",
+        "NMS",
+        "RDP",
+        "SIP",
+        "TCP/IP",
+        "WAN"
       ],
       "soft_skill": [
-        "Communication"
+        "Communication",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Reporting",
+        "Stakeholder Management",
+        "Time Management"
       ],
       "client_mgmt": [
         "Customer Service"
       ],
+      "data engineering": [
+        "Data Migration"
+      ],
+      "devops": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "erp": [
+        "ERP"
+      ],
       "web_framework": [
         "Express.js"
       ],
+      "fintech": [
+        "FIX Protocol"
+      ],
       "security": [
         "Fortinet",
-        "SOC Operations"
+        "IT Security",
+        "Incident Management",
+        "Multifactor Authentication",
+        "Network Access Control",
+        "SOC Operations",
+        "Trend Micro"
       ],
       "genai": [
         "Generative AI",
         "Responsible AI"
+      ],
+      "database": [
+        "Google",
+        "MSSQL",
+        "MongoDB",
+        "MySQL",
+        "Oracle Database",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "hr": [
+        "HR Management"
       ],
       "support": [
         "Help Desk",
@@ -165,19 +306,34 @@
       "domain": [
         "IT Ops"
       ],
+      "compliance": [
+        "IT Security & Compliance"
+      ],
+      "management": [
+        "ITIL",
+        "Team Coordination"
+      ],
       "hardware": [
         "Juniper"
+      ],
+      "business_analysis": [
+        "KPI",
+        "RFI",
+        "RFP",
+        "RFQ",
+        "Requirements Gathering"
       ],
       "os_system": [
         "Linux",
         "Microsoft Windows",
-        "Microsoft Windows XP"
-      ],
-      "database": [
-        "MSSQL"
+        "Microsoft Windows XP",
+        "Ubuntu"
       ],
       "dev_tool": [
         "Microsoft Edge"
+      ],
+      "devops_cloud": [
+        "Microsoft IIS"
       ],
       "productivity": [
         "Microsoft Outlook",
@@ -191,25 +347,23 @@
         "Networking"
       ],
       "integration": [
-        "Office 365"
+        "Office 365",
+        "SAP",
+        "ServiceNow"
       ],
-      "project_mgmt": [
-        "PMP",
-        "Project Charter",
-        "Project Management",
-        "Resource Planning",
-        "Risk Management"
+      "accounting": [
+        "Physical Verification",
+        "TCS"
       ],
-      "business_analysis": [
-        "Requirements Gathering"
+      "project_management": [
+        "RACI"
       ],
-      "finance_ops": [
-        "SOX",
-        "Zoho Books"
+      "virtualization": [
+        "VMware vSphere"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(SQL server→MSSQL(100%), ZOHO E-Mail→Zoho Mail(95%), Software installation→Software Installation(100%), firewall→Firewall(100%), CCTV→Hikvision(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(SQL server→MSSQL(100%), ZOHO E-Mail→Zoho Mail(95%), vSphere→VMware vSphere(100%), Software installation→Software Installation(100%), firewall→Firewall(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -219,8 +373,8 @@
         "location": null,
         "start": "July ’23",
         "end": "Present",
-        "method": "since_date_regex+title_dict",
-        "duration_months": 39,
+        "method": "since_date_regex+title_dict_strong",
+        "duration_months": 40,
         "bullets": [
           "PLANCKDOT PVT LTD /ORBIT TECHSOL PVT LTD Project Manager  Services Delivery Manager  IT Infra Operations & Services- state data center) IT infrastructure   ITDA-Information Technology Development Agency"
         ],
@@ -259,7 +413,10 @@
         "location": null,
         "start": "Nov ’22",
         "end": "Jun’23",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "PROJECT MANAGER-IT INFRASTRUCTURE"
+        ],
         "duration_months": 8,
         "bullets": [
           "Project Manager  Services Delivery Manager  IT Infra Operations & Services- Datacenter-NMC (DC & DR) IT infrastructure    New Project Execution -NR / Datacenter establishment   Training  Video Surveillance System (VSS) IT PROJECT EXECUTION , OPERATIONS & SERVICES Responsible for the technology solutions and IT infrastructure delivery for the assigned Projects / assignment (Project Planning, Project scheduling, team coordination, Vendor Management, Resource management, stakeholder management, Risk management and project handover management) Manage the day-to-day project activities and resources and chairs the project management team meetings.",
@@ -289,12 +446,15 @@
         "source": "experience"
       },
       {
-        "role": "Deputy Manager / Project Manager (Government Projects",
-        "company": "ICA EDU SKILL PVT LTD",
+        "role": "Deputy Manager / Project Manager",
+        "company": "Government Projects",
         "location": null,
         "start": "Dec’16",
         "end": "Nov’22",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Deputy Manager / Project Manager"
+        ],
         "duration_months": 72,
         "bullets": [
           "(Ministry of Rural Development & Haryana Skill Development Mission) Corporate Designation- Deputy Manager  Project wise Designation -Project Manager  Establishes New site  Check Site According to SOP Aajiveeka Skill& DDU-GKY    Services Delivery  Operations Training  IT Responsibility of IT Operations / Services and Infrastructure Govt Projects (DDU-GKY, HSDM, PMKK, MAFE,NSDC) .",
@@ -338,16 +498,41 @@
         "source": "experience"
       },
       {
-        "role": "HCL INFOSYSTEM LTD Dell Break-fix Engineer",
-        "company": "HCL INFOSYSTEM LTD Dell Break-fix Engineer\t                                                                                                                            , Feb’ NETWORK & SYSTEM ADMINISTRATION PROFESSIONAL",
+        "role": "Dell Break-fix Engineer\t                                                                                                                            , Feb’ NETWORK & SYSTEM ADMINISTRATION PROFESSIONAL",
+        "company": "HCL INFOSYSTEM LTD",
         "location": null,
         "start": "Jul’ 13",
         "end": "Feb’14",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "HCL INFOSYSTEM LTD"
+        ],
         "duration_months": 163,
         "bullets": [
-          "System / Network Administration  Hardware & Software implementation & maintenance  Strategic Management & Leadership  Installation & Configuration  Technical Troubleshooting  Customer / Technical Support  Server Management  Security Concepts  Data maintenance  Backup & Recovery  Training  Cross-functional Coordination Dell Certified System & Network Administration Professional, offering experience of 7 years across Network Engineering, Server Implementation, Installation, Configuration, Technical and Functional Troubleshooting & Maintenance; currently spearheading as Dell Break-fix Engineer with HCL Infosystem Ltd An articulate professional with vast exposure across IT security management, installation and support of Windows 2000/XP and Win2003, Administration of Desktop, Laptops, Servers, Backup and Peripherals; acumen in Network Infrastructure like Hardware, Software, Ethernet Cabling, Ports, I P addresses.",
-          "Possessing practical experience in Network set-up & Management, System Administration including Server Implementation & Administration, Disaster Recovery Management, Technology Support and Technical troubleshooting"
+          "System / Network Administration  Hardware & Software implementation & maintenance  Strategic Management & Leadership  Installation & Configuration  Technical Troubleshooting  Customer / Technical Support  Server Management  Security Concepts  Data maintenance  Backup & Recovery  Training  Cross-functional Coordination Dell Certified System & Network Administration Professional, offering experience of 7 years across Network Engineering, Server Implementation, Installation, Configuration, Technical and Functional Troubleshooting & Maintenance; currently spearheading as Dell Break-fix Engineer with HCL Infosystem Ltd An articulate professional with vast exposure across IT security management, installation and support of Windows 2000/XP and Win2003, Administration of Desktop, Laptops, Servers, Backup and Peripherals; acumen in Network Infrastructure like Hardware, Software, Ethernet Cabling, Ports, I P addresses."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Possess thorough understanding of networking and security concepts pertaining to LAN, WAN, networking protocols & topologies, networking devices administration and maintenance, & Troubleshooting in multi-platform environment. Working knowledge of Domain, Active Directory and Domain Controller",
+        "company": "Possessing practical experience in Network set-up & Management, System Administration including Server Implementation & Administration, Disaster Recovery Management, Technology Support and Technical troubleshooting",
+        "location": null,
+        "start": "Aug’ 11",
+        "end": "Jul’ 13",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Possessing practical experience in Network set-up & Management, System Administration including Server Implementation & Administration, Disaster Recovery Management, Technology Support and Technical troubleshooting",
+          "Possess thorough understanding of networking and security concepts pertaining to LAN, WAN, networking protocols & topologies, networking devices administration and maintenance, & Troubleshooting in multi-platform environment. Working knowledge of Domain, Active Directory and Domain Controller",
+          "Proven ability in resource leveling, team building and team consensus, developing project scope, continuous design improvements and conducting status meetings; thrive in a deadline intensive environment, multi-task, perform under pressure, and meet deadlines. Achievement oriented, hardworking and dedicated with strong leadership skills",
+          "Spearheading efforts as a Dell Certified System Engineer; responsible for handling Installation, Maintenance and troubleshooting of complex hardware and software and upgrades to ensure work is performed as per the company policy for OJT as Customer Engineer and for Oriental Insurance as a Residence Engineer across Karnal & Chandigarh Region."
+        ],
+        "duration_months": 1,
+        "bullets": [
+          "Provided solutions for new & improvement of technical infrastructure to support business solutions functions; managed technology assessments and recommendations in support of Automation and Technology for Reliance Fresh Ltd & Punjab Excise Department - Provided consultation, advice and technical support to users regarding operational/applications Managing Configuration, Installation & Troubleshooting HPDl320, VSAT, Switch 2960, IDU, ODU, POS, Orbit Scanner, weight Scale, Thermal Printer, Zebra Printer & Laser Printer etc,.",
+          "Looked after the network infrastructure LAN/WAN, installation, migration and configuration of network client workstations; addressed performance bottlenecks and ensured maximum network uptime."
         ],
         "sub_sections": [],
         "confidence": 0.7,
@@ -355,24 +540,8 @@
         "source": "experience"
       },
       {
-        "role": "WAN, networking protocols & topologies, networking devices administration and maintenance, & Troubleshooting in multi-platform environment. Working knowledge of Domain, Active Directory and Domain Controller",
-        "company": "Possess thorough understanding of networking and security concepts pertaining to LAN",
-        "location": null,
-        "start": "Aug’ 11",
-        "end": "Jul’ 13",
-        "method": "date_regex+comma_company_role_split",
-        "duration_months": 1,
-        "bullets": [
-          "Provided solutions for new & improvement of technical infrastructure to support business solutions functions; managed technology assessments and recommendations in support of Automation and Technology for Reliance Fresh Ltd & Punjab Excise Department - Provided consultation, advice and technical support to users regarding operational/applications Managing Configuration, Installation & Troubleshooting HPDl320, VSAT, Switch 2960, IDU, ODU, POS, Orbit Scanner, weight Scale, Thermal Printer, Zebra Printer & Laser Printer etc,."
-        ],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
         "role": null,
-        "company": "Looked after the network infrastructure LAN/WAN, installation, migration and configuration of network client workstations; addressed performance bottlenecks and ensured maximum network uptime. HARYANA POLICE / IGP",
+        "company": "HARYANA POLICE / IGP",
         "location": null,
         "start": "Jan’ 10",
         "end": "Jul’ 11",
@@ -380,45 +549,76 @@
         "duration_months": 7,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Assistant Computer System Engineer HCL INFOSYSTEM LTD",
-        "company": null,
+        "role": "Assistant Computer System Engineer",
+        "company": "HCL INFOSYSTEM LTD",
         "location": null,
         "start": "Feb’09",
         "end": "Nov’09",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Assistant Computer System Engineer"
+        ],
         "duration_months": 10,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "On-job –Training/Associate ESO DEPT",
+        "company": "BHARAT HEAVY ELECTRICAL LTD",
+        "location": null,
+        "start": "Aug’ 07",
+        "end": "Jan’ 09",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "On-job –Training/Associate ESO DEPT"
+        ],
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 26.4,
-      "total_months": 317,
+      "total_years": 26.5,
+      "total_months": 318,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.79
+    "_confidence": 0.87
   },
   "education": {
     "entries": [
       {
-        "degree": "Diploma Trainee/Networking Engineer",
-        "degree_name": "Diploma",
-        "degree_type": "diploma",
+        "degree": "IT-GA -SoX- Sarbanes-Oxley Act, U.S federal law for Prevent Financial fraud",
+        "degree_name": "LLB",
+        "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Schneider University Array Certified WAF Professional MCSE .Networking and Computer Hardware",
         "year": "1988",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
+      },
+      {
+        "degree": "Diploma Trainee/Networking Engineer",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": null,
+        "institution": "PMI Project Management Institute",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
       },
       {
         "degree": "Bachelor of Engineering (Computer Science & Engineering)",
@@ -447,14 +647,14 @@
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Project Management for CPD Certification Service.UK",
-        "institution": "PMI Project Management Institute",
+        "institution": null,
         "year": "2022",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
       {
-        "degree": "Cyber Security Foundation Professional Certificate From CertiProf",
+        "degree": "Cyber Security Foundation Professional Certificate",
         "degree_name": "CA Foundation",
         "degree_type": "professional_certification",
         "degree_field": null,
@@ -465,7 +665,7 @@
         "_confidence": 0.65
       }
     ],
-    "_confidence": 0.8
+    "_confidence": 0.78
   },
   "certifications": {
     "items": [
@@ -589,7 +789,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
@@ -604,22 +804,12 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[4]",
+      "field": "experience.jobs[5]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[5]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[6]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[7]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

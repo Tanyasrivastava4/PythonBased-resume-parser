@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/bd4ea8d1_b723b654_Jashanjot-sing-resume-cv_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming: Python, C++, Prompt Engineering
+Web Frameworks: Django, Playwright,streamlit
+Database: MySQL, MongoDB, ChromaDB, Qdrant
+AI/ML: LLM, Scikit-learn, Pandas, NumPy, ollama ,openAi ,
+RAG , NLP
+
+── Extraction Results ──
+Skills found   : 28
+Confidence     : 0.92
+Time           : 258.56 ms
+Method         : flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), ollama→Ollama(100%), openAi→OpenAI API(100%), Aspiring→Spring(86%))
+
+── All Skills (28) ──
+Agentic AI, AutoGen, C++, ChromaDB, CrewAI, Django, FastAPI, LLM, LLaMA, LangChain, Machine Learning, MongoDB, MySQL, NLP, Networking, NumPy, Nutrition, Ollama, OpenAI API, Pandas, Playwright, Prompt Engineering, Python, Qdrant, RAG, Spring, Streamlit, scikit-learn
+
+── By Category ──
+  ai_ml                          ['Machine Learning', 'NLP', 'NumPy', 'Pandas', 'scikit-learn']
+  biz_dev                        ['Networking']
+  database                       ['MongoDB', 'MySQL']
+  dev_tool                       ['Streamlit']
+  genai                          ['Agentic AI', 'AutoGen', 'CrewAI', 'LLM', 'LLaMA', 'LangChain', 'Ollama', 'OpenAI API', 'Prompt Engineering', 'RAG']
+  healthcare                     ['Nutrition']
+  programming_language           ['C++', 'Python']
+  search                         ['ChromaDB', 'Qdrant']
+  testing                        ['Playwright']
+  web_framework                  ['Django', 'FastAPI', 'Spring']

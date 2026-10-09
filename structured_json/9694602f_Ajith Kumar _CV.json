@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9694602f_Ajith Kumar _CV_segmented.txt",
-    "generated_at": "2026-09-30T06:59:46.924293+00:00",
+    "generated_at": "2026-10-07T09:27:31.299346+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,30 +49,60 @@
   "summary": "Credit Manager with 7+ years of progressive experience in credit appraisal, loan underwriting, and portfolio\nmanagement across retail, MSME, corporate, and agricultural segments. Proven expertise in financial statement\nanalysis, credit risk assessment, and policy compliance. Recognized with the Rising Star Award at CSB Bank for\nexceptional performance. Strong ability to collaborate with cross-functional teams, train employees, and improve\ncredit processes.",
   "skills": {
     "items": [
+      "B2B Sales",
+      "B2C Sales",
+      "Banking & Finance",
+      "Business Loans",
+      "CIBIL",
       "CMA Analysis",
       "Collaboration",
       "Corporate Lending",
       "Cross-functional Collaboration",
+      "Due Diligence",
+      "Field Investigation",
+      "Financial Analysis",
       "Financial Reporting",
       "Financial Statement Analysis",
+      "GST",
+      "Insolvency & Bankruptcy Code",
+      "KYC",
+      "Learning & Development",
       "MIS Reporting",
       "Microsoft Teams",
       "Mortgage Lending",
+      "NPA Accounts",
       "NPA Management",
+      "Pandas",
       "Portfolio Management",
       "Portfolio Monitoring",
       "Process Improvement",
+      "Ratio Analysis",
       "Real Estate Valuation",
       "Risk Assessment",
       "Risk Management",
+      "Turnaround Time",
+      "Underwriting",
       "Working Capital Financing"
     ],
     "by_category": {
+      "sales": [
+        "B2B Sales",
+        "B2C Sales"
+      ],
+      "finance": [
+        "Banking & Finance",
+        "CIBIL",
+        "Due Diligence",
+        "Financial Statement Analysis"
+      ],
       "banking": [
+        "Business Loans",
         "CMA Analysis",
         "Corporate Lending",
+        "Field Investigation",
         "MIS Reporting",
         "Mortgage Lending",
+        "NPA Accounts",
         "NPA Management",
         "Portfolio Monitoring",
         "Working Capital Financing"
@@ -82,13 +112,25 @@
         "Cross-functional Collaboration"
       ],
       "finance_ops": [
-        "Financial Reporting"
+        "Financial Analysis",
+        "Financial Reporting",
+        "Ratio Analysis"
       ],
-      "finance": [
-        "Financial Statement Analysis"
+      "accounting": [
+        "GST"
+      ],
+      "legal": [
+        "Insolvency & Bankruptcy Code",
+        "KYC"
+      ],
+      "hr": [
+        "Learning & Development"
       ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "ai_ml": [
+        "Pandas"
       ],
       "project_mgmt": [
         "Portfolio Management",
@@ -102,6 +144,12 @@
       ],
       "compliance": [
         "Risk Assessment"
+      ],
+      "management": [
+        "Turnaround Time"
+      ],
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
@@ -115,8 +163,8 @@
         "location": "Thrissur",
         "start": "May 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 41,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 42,
         "bullets": [
           "Appraised credit proposals worth ₹3 Crore, including working capital, agriculture Mortgage, and term & subsidy loans with a strong focus on Agriculture B2B and B2C segments.",
           "Managed a credit portfolio of ₹86 Crore, ensuring timely renewals and maintaining superior asset quality.",
@@ -125,7 +173,8 @@
           "Conducted financial analysis, CIBIL/CRILC checks, internal ratings, and risk assessments.",
           "Reduced credit appraisal TAT 40% by streamlining CMA preparation& verification processes.",
           "Trained new employees in credit policies, product knowledge in collaboration with L&D team",
-          "Monitored NPA accounts and suggested risk mitigation strategies."
+          "Monitored NPA accounts and suggested risk mitigation strategies.",
+          "Awarded Rising Star (Nov 2023) for outstanding performance."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -133,81 +182,92 @@
         "source": "experience"
       },
       {
-        "role": "Assistant Manager – ESAF Small Finance",
-        "company": "Analyzed MSME and corporate loan proposals and prepared CMA reports.",
-        "location": "Bank, Kerala",
+        "role": "Assistant Manager",
+        "company": "ESAF Small Finance Bank",
+        "location": "Kerala",
         "start": "Dec 2021",
         "end": "May 2023",
         "method": "date_regex+date_prefix_title",
         "duration_months": 18,
         "bullets": [
+          "Analyzed MSME and corporate loan proposals and prepared CMA reports.",
           "Coordinated with RM’s & reduced TAT through efficient documentation, process tracking.",
           "Prepared sanction letters, ensured compliance with regulatory and internal credit norms."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Credit Officer – Ujjivan Small Finance",
-        "company": "Handled affordable housing, business, and agriculture loan segments.",
-        "location": "Bank, Ernakulum",
+        "role": "Credit Officer",
+        "company": "Ujjivan Small Finance Bank",
+        "location": "Ernakulum",
         "start": "May 2021",
         "end": "Nov 2021",
         "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "• Developed MIS dashboards and shared updates with senior management."
+        ],
         "duration_months": 7,
         "bullets": [
+          "Handled affordable housing, business, and agriculture loan segments.",
           "Conducted customer discussions, home visits, and repayment capacity evaluations.",
           "Monitored NPA customers and supported collections through corrective actions."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Credit Processing Associate – Yes Bank",
-        "company": "Processed mortgage and working capital loans with complete financial due diligence.",
-        "location": "Ltd, Cochin",
+        "role": "Credit Processing Associate",
+        "company": "Yes Bank Ltd",
+        "location": "Cochin",
         "start": "Apr 2019",
         "end": "Apr 2021",
         "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "• Trained junior officers on updated credit policies and processes."
+        ],
         "duration_months": 25,
         "bullets": [
+          "Processed mortgage and working capital loans with complete financial due diligence.",
           "Conducted CMA preparation, financial ratio analysis, and appraisal memos.",
-          "Performed credit checks using CIBIL, CRILC, GST, PAN, NCLT, and fraud control systems."
+          "Performed credit checks using CIBIL, CRILC, GST, PAN, NCLT, and fraud control systems.",
+          "Coordinated risk activities and ensured timely processing within TAT."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Analyzed bank statements and salary slips to calculate credit eligibility.",
-        "location": null,
+        "role": "Document Officer",
+        "company": "Fullerton India Credit Co. Ltd",
+        "location": "Cochin",
         "start": "Jan 2018",
         "end": "Mar 2019",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 15,
         "bullets": [
           "Managed personal and business loan, KYC checks, CIBIL verification and underwriting.",
+          "Analyzed bank statements and salary slips to calculate credit eligibility.",
           "Coordinated field verification, disbursals, MIS reports and fraud control activities."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 8.8,
-      "total_months": 105,
+      "total_months": 106,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.73
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -296,35 +356,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.73,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.65,

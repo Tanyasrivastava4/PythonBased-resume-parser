@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3c5a5eb5_Aastha_main (1) (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:58:20.527061+00:00",
+    "generated_at": "2026-10-07T10:31:18.425594+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -57,6 +57,7 @@
       "HTML5",
       "Java",
       "JavaScript",
+      "LinkedIn",
       "MERN Stack",
       "Microsoft Teams",
       "MongoDB",
@@ -65,9 +66,11 @@
       "Node.js",
       "Performance Optimization",
       "Postman",
+      "Prototyping",
       "REST",
       "REST API",
       "React",
+      "Reliability",
       "Responsive Web Design",
       "Scrum",
       "VS Code"
@@ -82,6 +85,7 @@
         "CSS3",
         "Express.js",
         "HTML5",
+        "LinkedIn",
         "MERN Stack",
         "Node.js",
         "REST API",
@@ -92,8 +96,7 @@
         "Git",
         "GitHub",
         "Performance Optimization",
-        "Postman",
-        "VS Code"
+        "Postman"
       ],
       "programming_language": [
         "Java",
@@ -109,8 +112,17 @@
       "ai_ml": [
         "NLP"
       ],
+      "design": [
+        "Prototyping"
+      ],
       "integration": [
         "REST"
+      ],
+      "soft_skill": [
+        "Reliability"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -129,7 +141,8 @@
         "bullets": [
           "Built and maintained responsive web applications with JavaScript, HTML, CSS, and Node.js",
           "Integrated front-end interfaces with RESTful APIs; optimized MongoDB queries for performance.",
-          "Applied NLP techniques to enhance automation and interactivity."
+          "Applied NLP techniques to enhance automation and interactivity.",
+          "Deployed and optimized scalable full-stack solutions for improved reliability."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -137,37 +150,39 @@
         "source": "experience"
       },
       {
-        "role": "Full-Stack Development Trainee — GLA",
-        "company": "Meritto",
-        "location": "University, Mathura",
+        "role": "Full-Stack Development Trainee",
+        "company": "GLA University",
+        "location": "Mathura",
         "start": "Jun 2023",
         "end": "Jul 2023",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+date_prefix_title+title_dash_company",
         "duration_months": 2,
         "bullets": [
           "Designed and deployed JavaScript projects with front-end interactivity and back-end integration.",
-          "Built RESTful APIs and gained hands-on experience with Node.js"
+          "Built RESTful APIs and gained hands-on experience with Node.js",
+          "Applied Git version control and Agile practices to track development progress"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Applied Git version control and Agile practices to track development progress Front-End Development Intern — Code",
-        "company": "Contributed to prototypes by aligning front-end design with back-end requirements.",
-        "location": "Decoder, Noida",
+        "role": "Front-End Development Intern",
+        "company": "Code Decoder",
+        "location": "Noida",
         "start": "Dec 2022",
         "end": "Jan 2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+title_dash_company",
         "duration_months": 2,
         "bullets": [
           "Developed reusable, responsive web templates with HTML, CSS, and JavaScript.",
-          "Implemented interactive UI components and resolved cross-browser compatibility issues"
+          "Implemented interactive UI components and resolved cross-browser compatibility issues",
+          "Contributed to prototypes by aligning front-end design with back-end requirements."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -177,7 +192,7 @@
       "total_months": 15,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -232,19 +247,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

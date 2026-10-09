@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/62ed4de1_a41194d5_DOC-20250509-WA0000._segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+(none found)
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 11568.81 ms
+Method         : flashtext_skills_section | fuzzy(leaving→Lease Management(86%), clause→Claude(83%), authority→Author-it(89%), clause→Claude(83%), fear→FEAR(100%)...)
+
+── All Skills (24) ──
+AWS RDS, Accounting, Author-it, Bing, Claude, Communication, FEAR, KYC, Lease Management, Make, Mechanical Engineering, Objective C, Payments, Pinterest, Prefect, Procurement, R, Reporting, RequireJS, Responsible AI, Sales Presentations, Scheme, Teaching, WHONET
+
+── By Category ──
+  cloud_infra                    ['AWS RDS']
+  data_engineering               ['Prefect']
+  data_science                   ['FEAR']
+  database                       ['Author-it', 'Bing', 'WHONET']
+  dev_tool                       ['Scheme']
+  domain                         ['Payments']
+  education_domain               ['Teaching']
+  engineering                    ['Mechanical Engineering']
+  finance_ops                    ['Accounting']
+  genai                          ['Claude', 'Responsible AI']
+  legal                          ['KYC']
+  operations                     ['Procurement']
+  programming_language           ['Objective C', 'R']
+  real_estate                    ['Lease Management']
+  rpa                            ['Make']
+  sales                          ['Sales Presentations']
+  search                         ['Pinterest']
+  soft_skill                     ['Communication', 'Reporting']
+  web_framework                  ['RequireJS']

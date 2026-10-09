@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0b821280_51c326e2_Disha Lokwani_AM1-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:51.154263+00:00",
+    "generated_at": "2026-10-07T10:30:44.368287+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,49 +45,92 @@
   "summary": null,
   "skills": {
     "items": [
+      ".NET",
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
+      "Analytical Review",
       "Audit & Compliance",
+      "Commercial Real Estate",
+      "Control Testing",
+      "Financial Analysis",
       "Financial Reporting",
+      "Fixed Assets Management",
+      "General Ledger Accounting",
       "IFRS",
       "Microsoft Excel",
+      "Microsoft Teams",
+      "Payments",
       "Power Query",
+      "Property Management",
+      "Reporting",
+      "Risk Assessment",
       "Stakeholder Management",
       "Variance Analysis"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "General Ledger Accounting"
+      ],
       "finance_ops": [
         "Accounting",
+        "Financial Analysis",
         "Financial Reporting",
         "IFRS"
       ],
+      "accounting": [
+        "Analytical Review",
+        "Fixed Assets Management"
+      ],
       "domain": [
-        "Audit & Compliance"
+        "Audit & Compliance",
+        "Payments"
+      ],
+      "real_estate": [
+        "Commercial Real Estate",
+        "Property Management"
+      ],
+      "finance": [
+        "Control Testing"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
       "data_science": [
         "Power Query"
       ],
       "soft_skill": [
+        "Reporting",
         "Stakeholder Management"
+      ],
+      "compliance": [
+        "Risk Assessment"
       ],
       "business_analysis": [
         "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(General Ledger→Accounting(100%))"
+    "_method": "flashtext_skills_section | fuzzy(General Ledger→General Ledger Accounting(100%), Reconciliations→Account Reconciliation(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "(ASX Listed) – Sydney, Australia Property / Financial Accountant",
+        "role": "Property / Financial Accountant",
         "company": "Goodman Group",
-        "location": "Sydney, Australia Property / Financial Accountant",
+        "location": "Sydney, Australia",
         "start": "May 2025",
         "end": "Nov 2025",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Goodman Group (ASX Listed) – Sydney, Australia"
+        ],
         "duration_months": 7,
         "bullets": [
           "Contract role within an ASX-listed global property group managing over $6B+ in real estate assets, supporting financial reporting and property accounting across commercial property portfolios.",
@@ -105,12 +148,15 @@
         "source": "experience"
       },
       {
-        "role": "Sydney, Australia Senior Group Financial Accountant",
+        "role": "Senior Group Financial Accountant",
         "company": "Rent A Space",
-        "location": "Sydney, Australia Senior Group Financial Accountant",
+        "location": "Sydney, Australia",
         "start": "Aug 2023",
         "end": "Apr 2025",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Rent A Space – Sydney, Australia"
+        ],
         "duration_months": 21,
         "bullets": [
           "Group accounting role supporting a multi-entity storage group operating across 17 locations.",
@@ -127,12 +173,15 @@
         "source": "experience"
       },
       {
-        "role": "Sydney, Australia Senior Auditor",
+        "role": "Senior Auditor",
         "company": "Nexia Australia",
-        "location": "Sydney, Australia Senior Auditor",
+        "location": "Sydney, Australia",
         "start": "Sept 2021",
         "end": "July 2023",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Nexia Australia – Sydney, Australia"
+        ],
         "duration_months": 23,
         "bullets": [
           "Conducted external audits in accordance with Australian Accounting Standards and IFRS.",
@@ -146,12 +195,17 @@
         "source": "experience"
       },
       {
-        "role": "Sydney, Australia Audit Associate",
+        "role": "Audit Associate",
         "company": "Findex",
-        "location": "Sydney, Australia Audit Associate",
+        "location": "Sydney, Australia",
         "start": "May 2019",
         "end": "Aug 2021",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "• Managed smaller engagements and liaised directly with partners and senior stakeholders.",
+          "• Mentored junior auditors and reviewed working papers.",
+          "Findex – Sydney, Australia"
+        ],
         "duration_months": 28,
         "bullets": [
           "Audited key financial statement line items including revenue, expenses, inventory and fixed assets.",
@@ -180,14 +234,25 @@
         "degree_name": "CA",
         "degree_type": "professional_certification",
         "degree_field": "CA ANZ",
-        "institution": "Western Sydney University",
+        "institution": null,
         "year": "2022",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Professional Accounting – Western Sydney University",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Western Sydney University",
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.8
   },
   "certifications": {
     "items": [],
@@ -198,7 +263,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.91
   },
   "_needs_review": false,
   "_review_queue": []

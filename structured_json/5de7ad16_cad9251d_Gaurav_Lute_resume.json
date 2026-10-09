@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5de7ad16_cad9251d_Gaurav_Lute_resume_segmented.txt",
-    "generated_at": "2026-09-30T06:58:46.457534+00:00",
+    "generated_at": "2026-10-07T10:31:52.298783+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -58,13 +58,16 @@
       "Data Visualization",
       "Deep Learning",
       "Exploratory Data Analysis",
+      "GPT",
       "Generative AI",
       "GitHub",
       "Hypothesis Testing",
+      "JSON",
       "Jupyter",
       "LLM",
       "LSTM",
       "Linear",
+      "Linear Regression",
       "LinkedIn",
       "Logistics",
       "Machine Learning",
@@ -72,6 +75,7 @@
       "NumPy",
       "OpenAI API",
       "Pandas",
+      "Professional Tax",
       "Prompt Engineering",
       "Prophet",
       "PyTorch",
@@ -79,10 +83,12 @@
       "Python",
       "R",
       "Random Forest",
+      "Reliability",
       "SQL",
       "Statistics",
       "T-Test",
       "TensorFlow",
+      "Time Series Forecasting",
       "XGBoost",
       "Z-Test",
       "scikit-learn"
@@ -93,6 +99,7 @@
         "CNN",
         "Data Science",
         "Deep Learning",
+        "GPT",
         "LSTM",
         "Machine Learning",
         "NumPy",
@@ -100,6 +107,7 @@
         "PyTorch",
         "Random Forest",
         "TensorFlow",
+        "Time Series Forecasting",
         "XGBoost",
         "scikit-learn"
       ],
@@ -108,6 +116,7 @@
         "Data Visualization",
         "Exploratory Data Analysis",
         "Hypothesis Testing",
+        "Linear Regression",
         "Statistics",
         "T-Test",
         "Z-Test"
@@ -129,17 +138,21 @@
         "GitHub",
         "Jupyter"
       ],
+      "web_framework": [
+        "JSON",
+        "LinkedIn"
+      ],
       "project_mgmt": [
         "Linear"
-      ],
-      "web_framework": [
-        "LinkedIn"
       ],
       "operations": [
         "Logistics"
       ],
       "productivity": [
         "Microsoft Word"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "software": [
         "Prophet",
@@ -148,6 +161,9 @@
       "programming_language": [
         "Python",
         "R"
+      ],
+      "soft_skill": [
+        "Reliability"
       ],
       "database": [
         "SQL"
@@ -161,10 +177,13 @@
       {
         "role": "Trainee",
         "company": "Fidelity National Finance",
-        "location": "Trainee",
+        "location": null,
         "start": "Sep 2025",
         "end": "Mar 2026",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Fidelity National Finance - Trainee"
+        ],
         "duration_months": 7,
         "bullets": [
           "LLM Extraction and Pattern Analysis."
@@ -186,12 +205,15 @@
         "source": "experience"
       },
       {
-        "role": "Ai - Data Science Intern",
+        "role": "Data Science Intern",
         "company": "Spatialty.Ai",
-        "location": "Data Science Intern",
+        "location": null,
         "start": "Feb 2025",
         "end": "Jun 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Spatialty.Ai - Data Science Intern"
+        ],
         "duration_months": 5,
         "bullets": [
           "Machine Learning Models."
@@ -234,7 +256,7 @@
         "degree_name": "B.E.",
         "degree_type": "bachelors",
         "degree_field": "Automobile Engineering",
-        "institution": "Savitribai Phule Pune University Pune.",
+        "institution": "SPPU Pune",
         "year": "2023",
         "gpa": "8.33",
         "_needs_review": false,
@@ -245,25 +267,14 @@
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Automobile Engineering - June 2020",
-        "institution": "SPPU Pune",
+        "institution": "Governmet Polytechnic Nagpur.",
         "year": "2020",
         "gpa": "93.10%",
         "_needs_review": false,
         "_confidence": 0.95
-      },
-      {
-        "degree": "Governmet Polytechnic Nagpur",
-        "degree_name": "Diploma",
-        "degree_type": "diploma",
-        "degree_field": null,
-        "institution": "Governmet College of Engg and Research Avsari Kh",
-        "year": null,
-        "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.65
       }
     ],
-    "_confidence": 0.87
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -345,7 +356,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [

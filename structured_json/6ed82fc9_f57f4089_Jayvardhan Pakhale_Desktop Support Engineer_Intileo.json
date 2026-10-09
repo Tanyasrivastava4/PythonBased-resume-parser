@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "6ed82fc9_f57f4089_Jayvardhan Pakhale_Desktop Support Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:10.256688+00:00",
+    "generated_at": "2026-10-07T09:26:47.568624+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -53,6 +53,7 @@
       "Data Backup",
       "Data Recovery",
       "Desktop Support",
+      "General Insurance",
       "Hardware Installation",
       "IT Asset Management",
       "Identity Management",
@@ -64,8 +65,10 @@
       "Printer Support",
       "Remote Diagnostics",
       "Software Installation",
+      "VDI",
       "VPN",
       "Video Conferencing",
+      "Work Instructions",
       "macOS"
     ],
     "by_category": {
@@ -88,6 +91,9 @@
         "Software Installation",
         "Video Conferencing"
       ],
+      "insurance": [
+        "General Insurance"
+      ],
       "security": [
         "Identity Management"
       ],
@@ -103,6 +109,12 @@
       ],
       "cloud": [
         "OneDrive"
+      ],
+      "cloud_infra": [
+        "VDI"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
@@ -117,7 +129,7 @@
         "start": "08/2024",
         "end": "present",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 26,
+        "duration_months": 27,
         "bullets": [
           "Responsible Desktop/Laptop Troubleshooting, Outlook Configuration and Troubleshooting, User Data Backup and Restoration, Troubleshooting Internet & Basic Network Issues, User Password reset in AD, create user ID in AD, create grp ID in AD.",
           "Handle Video Conference, VDI Support.",
@@ -138,6 +150,9 @@
         "start": "12/2022",
         "end": "08/2024",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Computer Hardware Installation, Troubleshooting & Software installation for asset and call coordination at HDFC ERGO General Insurance Bhandup."
+        ],
         "duration_months": 21,
         "bullets": [
           "Backup and Restoration, Troubleshooting Internet & Basic Network Issues, User Password reset in AD, create user ID in AD, create grp ID in AD.",
@@ -155,6 +170,10 @@
         "start": "07/2015",
         "end": "12/2022",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "OneDrive Configuration,",
+          "Troubleshooting on one drive file sync issue. Computer Hardware & Windows Troubleshooting Handled asset and call coordination at Vertiv Energy PVT. LTD. Thane."
+        ],
         "duration_months": 90,
         "bullets": [
           "Managed technical and asset Desktop/Laptop Troubleshooting, Outlook"
@@ -170,8 +189,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.2,
-      "total_months": 135,
+      "total_years": 11.3,
+      "total_months": 136,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.89

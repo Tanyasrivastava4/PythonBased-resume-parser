@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/cd4ccff3_1a6718e8_G Vinay Venkata Sai_Investment Analytics_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Data & Programming: Advanced SQL (Joins, Window Functions, CTEs, Aggregations, Query Optimization),
+Hive, Impala, Python (Pandas, NumPy)
+Markets & Financial Analytics: Trade Lifecycle Analytics, Order Book Analysis, Impact Cost & Liquidity
+Metrics, Corporate Actions Adjustments, Equity & Derivatives Markets, Primary & Secondary Market Data Flows,
+Regulatory Reporting Support
+Business Intelligence & Reporting: Tableau, Power BI, Advanced Excel, Automated Dashboard Development
+Business & Regulatory Analysis: Requirements Translation (BRD/FRD), Gap Analysis, Root Cause
+Investigation, UAT Management, Cross-Functional Stakeholder Collaboration
+
+── Extraction Results ──
+Skills found   : 28
+Confidence     : 0.92
+Time           : 279.73 ms
+Method         : flashtext_skills_section | fuzzy(CTEs→CTE(100%), Hive→Apache Hive(100%), Advanced Excel→Microsoft Excel(100%), Cross-Functional→Cross-functional Collaboration(100%), teams.→Microsoft Teams(91%))
+
+── All Skills (28) ──
+Aggregations, Apache Hive, BRD, Business Intelligence, CTE, Collaboration, Cross-functional Collaboration, Dashboard Development, Data Analysis, Data Quality, Data Warehousing, GitHub, Joins, LinkedIn, Microsoft Excel, Microsoft Teams, NumPy, Pandas, Power BI, Python, Query Optimization, RFQ, Reporting, Root Cause Analysis, SQL, Tableau, UAT, Window Functions
+
+── By Category ──
+  ai_ml                          ['NumPy', 'Pandas']
+  business_analysis              ['BRD', 'RFQ']
+  data_engineering               ['Apache Hive', 'Data Quality', 'Data Warehousing']
+  data_science                   ['Business Intelligence', 'Dashboard Development', 'Data Analysis', 'Power BI', 'Tableau']
+  database                       ['Aggregations', 'CTE', 'Joins', 'Query Optimization', 'SQL', 'Window Functions']
+  dev_tool                       ['GitHub']
+  operations                     ['Root Cause Analysis']
+  productivity                   ['Microsoft Excel', 'Microsoft Teams']
+  programming_language           ['Python']
+  soft_skill                     ['Collaboration', 'Cross-functional Collaboration', 'Reporting']
+  testing                        ['UAT']
+  web_framework                  ['LinkedIn']

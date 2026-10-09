@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bd44167e_9b3fea81_Krishankant Soni_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:13.594244+00:00",
+    "generated_at": "2026-10-07T09:28:07.088344+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,23 +45,86 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounting",
+      "Accounting Standards",
+      "Auditing",
+      "CARO 2020",
+      "Client Relationship Management",
+      "ERP",
       "ERP Systems",
       "Financial Analysis",
+      "GDPR",
+      "Healthcare",
+      "IT Security",
+      "Ind AS 115",
+      "Ind AS 16",
+      "Input Tax Credit",
+      "Internal Controls Testing",
+      "Internal Financial Controls",
       "LinkedIn",
       "Logistics",
       "MS Office",
       "Microsoft Excel",
       "Microsoft Word",
+      "Onboarding",
+      "Payments",
       "Power BI",
-      "SAP"
+      "Procure-to-Pay",
+      "Procurement",
+      "Regularization",
+      "Reporting",
+      "Risk Control Matrix",
+      "SAP",
+      "Segregation of Duties",
+      "Sensitivity Analysis",
+      "Standard Operating Procedures",
+      "Statutory Audit"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Financial Analysis",
+        "Internal Controls Testing",
+        "Segregation of Duties",
+        "Statutory Audit"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Ind AS 115",
+        "Input Tax Credit"
+      ],
+      "compliance": [
+        "CARO 2020"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
+      ],
+      "erp": [
+        "ERP"
+      ],
       "operations": [
         "ERP Systems",
-        "Logistics"
+        "Logistics",
+        "Procurement"
       ],
-      "finance_ops": [
-        "Financial Analysis"
+      "legal": [
+        "GDPR"
+      ],
+      "domain": [
+        "Healthcare",
+        "Payments"
+      ],
+      "security": [
+        "IT Security"
+      ],
+      "accounting": [
+        "Ind AS 16",
+        "Risk Control Matrix"
+      ],
+      "finance": [
+        "Internal Financial Controls",
+        "Procure-to-Pay"
       ],
       "web_framework": [
         "LinkedIn"
@@ -71,11 +134,22 @@
         "Microsoft Excel",
         "Microsoft Word"
       ],
+      "hr": [
+        "Onboarding"
+      ],
       "data_science": [
-        "Power BI"
+        "Power BI",
+        "Regularization",
+        "Sensitivity Analysis"
+      ],
+      "soft_skill": [
+        "Reporting"
       ],
       "integration": [
         "SAP"
+      ],
+      "management": [
+        "Standard Operating Procedures"
       ]
     },
     "_confidence": 0.92,
@@ -84,14 +158,18 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "Domain & Key Client",
         "company": "Articleship Firm – PSD and Associates",
         "location": null,
         "start": "Jan 2023",
         "end": "Feb 2026",
-        "method": "date_regex",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Articleship Firm – PSD and Associates"
+        ],
         "duration_months": 38,
         "bullets": [
+          "Statutory Audit ▪ Conducted statutory audit of a luxury hotel with focus on revenue reporting and internal controls.",
           "Textile (Pratapsons ▪ Advised on timely MSME Creditors payments, saving ₹10 lacs in interest and enhancing client relations. Textile private limited) ▪ Verified capitalization and cessation of borrowing cost and its impact on the bottom-line (IND AS 23).",
           "Manufacturing (Rudai ▪ Identified and reported significant non-compliance under CARO 2020 Clause 3(i)(b) regarding the non- Lighting private limited) verification of PPE worth ₹40 Cr, leading to critical disclosures in the Independent Auditor’s Report.",
           "Real Estate (JKD Real Estate private limited) ▪ Identified a significant accounting mismatch where assets retired from active use (held as scrap) were being",
@@ -118,8 +196,8 @@
           "11% p.a. interest costs on a ₹5 Cr overdraft by leveraging idle funds, resulting in significant interest savings.",
           "EXTRA CURRICULAR"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -129,7 +207,7 @@
       "total_months": 38,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -140,7 +218,7 @@
         "degree_field": null,
         "institution": "Institute of Chartered Accountants of India First Attempt",
         "year": "2026",
-        "gpa": "51.67%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -151,7 +229,7 @@
         "degree_field": null,
         "institution": "Institute of Chartered Accountants of India First Attempt",
         "year": "2022",
-        "gpa": "56.50%",
+        "gpa": "51.67%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -162,7 +240,7 @@
         "degree_field": null,
         "institution": "Institute of Chartered Accountants of India First Attempt",
         "year": "2021",
-        "gpa": "69.75%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -173,7 +251,7 @@
         "degree_field": null,
         "institution": "University of Rajasthan",
         "year": "2024",
-        "gpa": "58.61%",
+        "gpa": "69.75%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -184,16 +262,27 @@
         "degree_field": null,
         "institution": "School",
         "year": "2021",
-        "gpa": "96.8%",
-        "_needs_review": true,
-        "_confidence": 0.55
+        "gpa": "58.61%",
+        "_needs_review": false,
+        "_confidence": 0.8
       },
       {
         "degree": "Class 10",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Central Board of Secondary Education",
+        "institution": "School",
+        "year": "Jan 2023 - Feb 2026",
+        "gpa": "96.8%",
+        "_needs_review": true,
+        "_confidence": 0.55
+      },
+      {
+        "degree": "Mar 2019 Central Board of Secondary Education 91.4%",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Central Board of Education",
         "year": "2019",
         "gpa": "91.4%",
         "_needs_review": false,
@@ -211,17 +300,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "education.entries[4]",
+      "field": "education.entries[5]",
       "confidence": 0.55,
       "reason": "incomplete_fields"
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4da253e9_5cdc5173_Anand Kumar Shrivastav_Machine Learning Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:36.732019+00:00",
+    "generated_at": "2026-10-07T10:31:38.836637+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,27 +49,42 @@
   "skills": {
     "items": [
       "AWS",
+      "Anomaly Detection",
       "CI/CD",
+      "Context Grounding",
+      "Data Cleaning",
+      "Data Drift Detection",
+      "Data Pipeline",
+      "Data Preprocessing",
       "Data Science",
       "Data Visualization",
       "Deep Learning",
       "Docker",
+      "Electronic Health Records",
       "Embeddings",
       "Exploratory Data Analysis",
       "FastAPI",
       "Feature Engineering",
       "Financial Analysis",
       "Fraud Detection",
+      "GDPR",
       "Generative AI",
+      "HIPAA",
+      "Hallucination Mitigation",
       "Healthcare",
       "Isolation Forest",
+      "KPI",
       "LLM",
       "LangChain",
+      "Leadership",
+      "Legal Compliance",
+      "LinkedIn",
       "Logistic Regression",
       "MLOps",
       "Machine Learning",
       "Matplotlib",
       "Microservices",
+      "Model Evaluation",
       "Model Optimization",
       "MongoDB",
       "MySQL",
@@ -79,16 +94,22 @@
       "Pandas",
       "Payments",
       "Pinecone",
+      "PostgreSQL",
       "Power BI",
+      "Predictive Modeling",
       "Prompt Engineering",
+      "Prompt Guardrails",
       "PyTorch",
       "Python",
       "RAG",
       "REST API",
       "Random Forest",
+      "Reliability",
+      "Reporting",
       "SQL",
       "Seaborn",
       "Semantic Search",
+      "Statistics",
       "Tableau",
       "TensorFlow",
       "Time Series Forecasting",
@@ -101,14 +122,14 @@
       "cloud_infra": [
         "AWS"
       ],
-      "devops": [
-        "CI/CD",
-        "Docker"
-      ],
       "ai_ml": [
+        "Anomaly Detection",
+        "Context Grounding",
+        "Data Drift Detection",
         "Data Science",
         "Deep Learning",
         "Embeddings",
+        "Hallucination Mitigation",
         "Isolation Forest",
         "Logistic Regression",
         "Machine Learning",
@@ -116,6 +137,8 @@
         "NLP",
         "NumPy",
         "Pandas",
+        "Predictive Modeling",
+        "Prompt Guardrails",
         "PyTorch",
         "Random Forest",
         "Seaborn",
@@ -124,17 +147,32 @@
         "XGBoost",
         "scikit-learn"
       ],
+      "devops": [
+        "CI/CD",
+        "Docker"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Pipeline",
+        "Data Preprocessing"
+      ],
       "data_science": [
         "Data Visualization",
         "Exploratory Data Analysis",
         "Feature Engineering",
         "Model Optimization",
         "Power BI",
+        "Statistics",
         "Tableau",
         "Transformers"
       ],
+      "healthcare": [
+        "Electronic Health Records",
+        "HIPAA"
+      ],
       "web_framework": [
         "FastAPI",
+        "LinkedIn",
         "REST API"
       ],
       "finance_ops": [
@@ -142,6 +180,10 @@
       ],
       "finance": [
         "Fraud Detection"
+      ],
+      "legal": [
+        "GDPR",
+        "Legal Compliance"
       ],
       "genai": [
         "Generative AI",
@@ -157,12 +199,24 @@
         "Healthcare",
         "Payments"
       ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Reliability",
+        "Reporting"
+      ],
       "architecture": [
         "Microservices"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
       ],
       "database": [
         "MongoDB",
         "MySQL",
+        "PostgreSQL",
         "SQL"
       ],
       "operations": [
@@ -186,8 +240,11 @@
         "location": "New Delhi",
         "start": "Oct 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 48,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Scientist"
+        ],
+        "duration_months": 49,
         "bullets": [
           "Develop and deploy enterprise-scale Machine Learning and Generative AI solutions across healthcare analytics, financial intelligence systems, and digital payment fraud detection using Python, NLP, and predictive modeling techniques.",
           "Design and implement Retrieval-Augmented Generation (RAG) architectures using Large Language Models, embeddings, semantic search, and vector databases to build intelligent document retrieval and decisionsupport systems.",
@@ -240,8 +297,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.0,
-      "total_months": 48,
+      "total_years": 4.1,
+      "total_months": 49,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

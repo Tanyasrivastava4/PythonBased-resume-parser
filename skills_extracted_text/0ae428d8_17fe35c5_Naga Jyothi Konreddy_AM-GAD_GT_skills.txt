@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/0ae428d8_17fe35c5_Naga Jyothi Konreddy_AM-GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• OperatingSystems
+: All versions of Windows.
+• Packages
+: Tally ERP.9, Quick Books & MS Office. Typing35.WPM
+• Officetools
+: MS Word, PowerPoint, Excel
+
+── Extraction Results ──
+Skills found   : 19
+Confidence     : 0.92
+Time           : 135.23 ms
+Method         : flashtext_skills_section | fuzzy(PowerPoint→Microsoft PowerPoint(100%), Excel→Microsoft Excel(100%))
+
+── All Skills (19) ──
+Accounting, Accounts Payable, Accounts Receivable, Bank Reconciliation, Financial Reporting, GAAP, MS Office, Mentoring, Microsoft Excel, Microsoft PowerPoint, Microsoft Windows, Microsoft Word, Reporting, Statutory Audit, Substantive Testing, TDS, Tally, Taxation, Working Capital Financing
+
+── By Category ──
+  accounting                     ['Bank Reconciliation']
+  banking                        ['Working Capital Financing']
+  finance_ops                    ['Accounting', 'Accounts Payable', 'Accounts Receivable', 'Financial Reporting', 'GAAP', 'Statutory Audit', 'Substantive Testing', 'TDS', 'Tally', 'Taxation']
+  os_system                      ['Microsoft Windows']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
+  soft_skill                     ['Mentoring', 'Reporting']

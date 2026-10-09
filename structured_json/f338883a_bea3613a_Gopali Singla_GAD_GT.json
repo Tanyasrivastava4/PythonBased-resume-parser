@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f338883a_bea3613a_Gopali Singla_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:45.801366+00:00",
+    "generated_at": "2026-10-07T09:28:49.216474+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,57 +46,146 @@
   "summary": "Dedicated and detail-oriented Chartered Accountant, eager to embark on a dynamic professional journey. Seeking an\nopportunity to leverage my academic and practical expertise to contribute to the financial success and regulatory compliance\nof a respected organization, while fostering personal and career growth.",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting",
+      "Accounting Standards",
+      "Auditing",
+      "CARO Reporting",
+      "Communication",
+      "Company Law",
+      "CompuOffice",
+      "Concurrent Audit",
       "Conditional Formatting",
+      "Coroutines Flow",
+      "Corporate Law",
       "ERP",
       "Financial Reporting",
+      "Fixed Assets Management",
+      "Form 3CA-3CD",
       "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "GSTR-9",
+      "General Ledger",
+      "Income Tax Return",
+      "Internal Controls Testing",
+      "Inventory Management",
+      "Legal Compliance",
+      "LinkedIn",
+      "MGT-7",
+      "MSME Act Compliance",
       "Microsoft Excel",
       "Microsoft Word",
+      "Payments",
+      "Physical Verification",
       "Pivot Tables",
-      "Regulatory Compliance",
+      "Proposal Writing",
+      "ROC Filing",
+      "ROC Filings",
+      "Schedule III Compliance",
+      "Statutory Audit",
+      "Stock Audit",
       "TDS",
       "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
       "XLOOKUP"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "GSTR-9",
+        "MSME Act Compliance",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Financial Reporting",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Concurrent Audit",
+        "GST Return Filing",
+        "Income Tax Return",
+        "ROC Filing",
+        "Stock Audit"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "legal": [
+        "Company Law",
+        "Corporate Law",
+        "Legal Compliance",
+        "MGT-7",
+        "ROC Filings"
+      ],
+      "accounting": [
+        "CompuOffice",
+        "Fixed Assets Management",
+        "Form 3CA-3CD",
+        "GST",
+        "General Ledger",
+        "Physical Verification"
+      ],
       "software": [
         "Conditional Formatting",
         "XLOOKUP"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "erp": [
         "ERP"
       ],
-      "finance_ops": [
-        "Financial Reporting",
-        "Tally"
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
       ],
-      "accounting": [
-        "GST"
+      "operations": [
+        "Inventory Management"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft Word",
         "Pivot Tables"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "domain": [
+        "Payments"
       ],
-      "taxation": [
-        "TDS"
+      "biz_dev": [
+        "Proposal Writing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Pivot Table→Pivot Tables(100%), XLookup→XLOOKUP(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Tally→Tally(100%), Excel→Microsoft Excel(100%), Pivot Table→Pivot Tables(100%), XLookup→XLOOKUP(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": ", Barnala (Punjab) Article Trainee",
+        "role": "Article Trainee",
         "company": "M/s Bishnoi & Associates",
-        "location": "Barnala  Article Trainee",
+        "location": "Barnala (Punjab",
         "start": "Sep. 2023",
         "end": "Sep. 2025",
-        "method": "date_regex+date_prefix_title+comma_company_location",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "M/s Bishnoi & Associates, Barnala (Punjab)"
+        ],
         "duration_months": 25,
         "bullets": [],
         "sub_sections": [],
@@ -105,12 +194,15 @@
         "source": "experience"
       },
       {
-        "role": ", Mohali (Punjab) Article Trainee",
+        "role": "Article Trainee",
         "company": "M/s Balwinder & Associates",
-        "location": "Mohali  Article Trainee",
+        "location": "Mohali (Punjab",
         "start": "Aug. 2022",
         "end": "Aug. 2023",
-        "method": "date_regex+date_prefix_title+comma_company_location",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "M/s Balwinder & Associates, Mohali (Punjab)"
+        ],
         "duration_months": 13,
         "bullets": [
           "Executed statutory audits under Companies Act, 2013 of various companies, ensuring 100% compliance with auditing standards, corporate law provisions, Schedule III and relevant accounting standards.",
@@ -177,8 +269,8 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2019 - 2022",
-        "gpa": "66.75%",
+        "year": "2019",
+        "gpa": "58.50%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -188,8 +280,8 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Punjabi University, Patiala",
-        "year": "2019",
-        "gpa": "75.75%",
+        "year": "2019 - 2022",
+        "gpa": "66.75%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -199,8 +291,8 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": "2017",
-        "gpa": "92.60%",
+        "year": "2019",
+        "gpa": "75.75%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -210,8 +302,8 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": "2023",
-        "gpa": "9.6",
+        "year": "2017",
+        "gpa": "92.60%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -222,7 +314,7 @@
         "degree_field": "First Attempt (70+ in two subjects)",
         "institution": "ICAI",
         "year": null,
-        "gpa": null,
+        "gpa": "9.6",
         "_needs_review": false,
         "_confidence": 0.8
       }

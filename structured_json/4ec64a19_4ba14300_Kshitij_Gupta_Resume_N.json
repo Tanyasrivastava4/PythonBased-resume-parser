@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4ec64a19_4ba14300_Kshitij_Gupta_Resume_N_segmented.txt",
-    "generated_at": "2026-09-30T06:58:36.889076+00:00",
+    "generated_at": "2026-10-07T10:31:39.088185+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,9 +49,14 @@
     "items": [
       ".NET",
       "Accounting",
+      "CFA",
+      "Collaboration",
+      "Coroutines Flow",
       "Financial Statement Analysis",
       "Fixed Income",
       "IT Risk Management",
+      "Leadership",
+      "Legal Compliance",
       "Microsoft Excel",
       "Microsoft Teams",
       "Monte Carlo Simulation",
@@ -60,10 +65,11 @@
       "R",
       "RBI",
       "Real Estate Valuation",
-      "Regulatory Compliance",
+      "Reliability",
       "Reporting",
       "Risk Assessment",
       "Risk Management",
+      "Stakeholder Management",
       "Stress Testing",
       "UAT",
       "VaR"
@@ -77,6 +83,19 @@
       "finance_ops": [
         "Accounting"
       ],
+      "logistics": [
+        "CFA"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Leadership",
+        "Reliability",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "finance": [
         "Financial Statement Analysis",
         "Fixed Income",
@@ -85,6 +104,9 @@
       ],
       "security": [
         "IT Risk Management"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "productivity": [
         "Microsoft Excel",
@@ -102,12 +124,6 @@
       "real_estate": [
         "Real Estate Valuation"
       ],
-      "legal": [
-        "Regulatory Compliance"
-      ],
-      "soft_skill": [
-        "Reporting"
-      ],
       "compliance": [
         "Risk Assessment"
       ],
@@ -119,18 +135,21 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section"
+    "_method": "flashtext_skills_section | fuzzy(Liability→Reliability(90%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Assistant Vice President  – Market Risk Model Validation",
-        "company": "National Australia Bank",
+        "role": "Assistant Vice President (AVP",
+        "company": "Market Risk Model Validation",
         "location": null,
         "start": "Mar 2026",
         "end": "Present",
-        "method": "date_regex+dash_split",
-        "duration_months": 7,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "National Australia Bank (NAB)"
+        ],
+        "duration_months": 8,
         "bullets": [
           "o Conduct model validation for market risk methodologies covering FRA products across global regions and multi-currency portfolios. o Validate volatility surface bootstrapping methodologies for cap/floor and caplet models across multiple currencies and markets. o Support hedge accounting validation and fair value adjustment assessment impacting balance sheet valuation and risk representation. o Partner with quantitative, technology, and global risk teams while exploring AI- led workflow enhancements for model validation processes.",
           "Application – R, Python, Market Risk Platforms (Calypso/Murex) Environment – Market Risk Model Validation & Quantitative Analytics"
@@ -141,12 +160,15 @@
         "source": "experience"
       },
       {
-        "role": "Deputy Manager-II – Market Risk",
-        "company": "Clearing Corporation of India",
+        "role": "Deputy Manager-II",
+        "company": "Market Risk",
         "location": null,
         "start": "Jun 2022",
         "end": "Feb 2026",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Clearing Corporation of India (CCIL)"
+        ],
         "duration_months": 45,
         "bullets": [
           "o Designed and enhanced stress testing and scenario generation frameworks for regulatory and internal risk assessment across market, liquidity, and concentration risks. o Developed VaR and margin stress scenarios using historical, Monte Carlo, and extreme value–based approaches supported by time-series modelling and volatility analytics. o Built challenger valuation models for FX Options in R and Python, validating MTM, Greeks, sensitivities, and pricing accuracy against production systems. o Led end-to-end research, development, and UAT for valuation, MTM, margin, and stress testing models, including requirements definition, test design, defect resolution and production sign-off. o Acted as Business Analyst / Product Owner for risk platforms covering FX, IRS, Bonds, Repo, and Options, developing strong understanding of risk processes and system workflows. o Coordinated default management drills and supported regulatory research aligned with PFMI principles, IOSCO-CPMI guidance, and peer CCP practices.",
@@ -163,7 +185,10 @@
         "location": null,
         "start": "Jan 2019",
         "end": "May 2022",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "State Bank of India"
+        ],
         "duration_months": 41,
         "bullets": [
           "o Managed and evaluated credit, market, and liquidity risk across domestic and international portfolios aligned with RBI regulations. o Performed financial statement analysis, cash-flow assessment, and credit modelling to support limit setting and risk rating decisions. o Supported trade finance operations involving Letters of Credit, Bank Guarantees, and Exim Bills, gaining strong understanding of banking products and operational workflows. o Assisted in process documentation, control checks, audit responses, and compliance monitoring, supporting internal and regulatory reviews. o Acted as coordination point between operations, compliance, and management for issue resolution and process improvement.",
@@ -178,7 +203,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 7.8,
-      "total_months": 93,
+      "total_months": 94,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -230,7 +255,7 @@
         "_confidence": 0.55
       },
       {
-        "degree": "Completed all three levels of the CFA Program from CFA Institute (USA) in 2024",
+        "degree": "Completed all three levels of the CFA Program",
         "degree_name": "CFA",
         "degree_type": "professional_certification",
         "degree_field": null,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "86c2c1dc_a35a5879_Rajat Manohar_Associate Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:31.894632+00:00",
+    "generated_at": "2026-10-07T09:27:11.469688+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,25 +49,38 @@
   "summary": null,
   "skills": {
     "items": [
+      "Analytical Instruments",
       "AutoCAD",
       "Business Development",
+      "CAAQMS",
       "CSS3",
       "Calibration",
+      "Control Panel",
+      "Customer Relationship Management",
       "Customer Service",
       "Data Collection",
       "Django",
+      "EPLAN",
+      "Electrical Troubleshooting",
       "GitHub",
       "HMI",
       "HTML5",
       "Instrumentation",
       "JavaScript",
       "LinkedIn",
-      "Mentoring",
       "PLC",
+      "Pharma Instruments",
       "Python",
       "SCADA"
     ],
     "by_category": {
+      "hardware": [
+        "Analytical Instruments",
+        "CAAQMS",
+        "Control Panel",
+        "Electrical Troubleshooting",
+        "Pharma Instruments"
+      ],
       "engineering": [
         "AutoCAD",
         "HMI"
@@ -83,9 +96,13 @@
       ],
       "engineering_hardware": [
         "Calibration",
+        "EPLAN",
         "Instrumentation",
         "PLC",
         "SCADA"
+      ],
+      "sales": [
+        "Customer Relationship Management"
       ],
       "client_mgmt": [
         "Customer Service"
@@ -99,13 +116,10 @@
       "programming_language": [
         "JavaScript",
         "Python"
-      ],
-      "soft_skill": [
-        "Mentoring"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
@@ -115,8 +129,12 @@
         "location": null,
         "start": "06/2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 28,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Service Engineer",
+          "Labindia Analytical Instruments Pvt Ltd"
+        ],
+        "duration_months": 29,
         "bullets": [
           "Performed troubleshooting and maintenance of analytical instruments to ensure optimal performance and minimal downtime.",
           "Developed and maintained strong relationships with clients to ensure high levels of customer satisfaction and loyalty.",
@@ -134,7 +152,11 @@
         "location": null,
         "start": "05/2021",
         "end": "02/2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Customer Service Engineer",
+          "ENVEA India Pvt Ltd"
+        ],
         "duration_months": 22,
         "bullets": [
           "Perform regular maintenance and calibration of air monitoring analyzers to ensure accurate data collection and adherence to quality standards.",
@@ -147,14 +169,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Avishkar Research Convention",
+        "role": "Avishkar Research Convention",
+        "company": "04/2021",
         "location": null,
         "start": "2020",
         "end": "2021",
-        "method": "year_range_short_regex",
+        "method": "year_range_short_regex+multiline_role_above_company",
         "duration_months": 13,
         "bullets": [
+          "Participated and Submitted a research proposal in Pure",
           "(09/2019) Transmission Of Audio Signal And Text Using Li-Fi"
         ],
         "sub_sections": [
@@ -165,18 +188,18 @@
           "Competition.",
           "National level Technical Paper Presentation"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.2,
-      "total_months": 63,
+      "total_years": 5.3,
+      "total_months": 64,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.94
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -235,15 +258,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

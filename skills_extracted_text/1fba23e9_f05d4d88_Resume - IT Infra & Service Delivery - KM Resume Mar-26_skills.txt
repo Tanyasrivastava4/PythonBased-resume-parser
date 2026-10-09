@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/1fba23e9_f05d4d88_Resume - IT Infra & Service Delivery - KM Resume Mar-26_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+(none found)
+
+── Extraction Results ──
+Skills found   : 37
+Confidence     : 0.92
+Time           : 281.96 ms
+Method         : flashtext_skills_section | fuzzy(cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%), generative→Generative AI(95%))
+
+── All Skills (37) ──
+AWS, Active Directory, Azure, BCP, BFSI, Business Development, Change Management, Creativity, Cross-functional Collaboration, Disaster Recovery, Electronic Health Records, Firewall, Generative AI, Healthcare, IT Ops, KPI, Leadership, Linux, Load Balancer, Logistics, Microsoft Teams, Microsoft Windows, Microsoft Windows Server, Oracle Fusion Cloud, Patch Management, Performance Monitoring, Performance Optimization, Recruitment, Reporting, Root Cause Analysis, SLA Management, SQL, Salesforce, Stakeholder Management, Strategic Partnerships, Telecom, Vendor Management
+
+── By Category ──
+  biz_dev                        ['Business Development', 'Strategic Partnerships']
+  business_analysis              ['KPI']
+  cloud_infra                    ['AWS', 'Azure', 'Microsoft Windows Server']
+  database                       ['SQL']
+  dev_tool                       ['Performance Optimization']
+  devops                         ['Load Balancer']
+  domain                         ['BFSI', 'Healthcare', 'IT Ops', 'Telecom']
+  genai                          ['Generative AI']
+  healthcare                     ['Electronic Health Records']
+  hr                             ['Recruitment']
+  integration                    ['Salesforce']
+  operations                     ['BCP', 'Disaster Recovery', 'Logistics', 'Performance Monitoring', 'Root Cause Analysis', 'Vendor Management']
+  oracle_erp                     ['Oracle Fusion Cloud']
+  os_system                      ['Linux', 'Microsoft Windows']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Change Management']
+  security_ops                   ['Active Directory', 'Firewall', 'Patch Management']
+  soft_skill                     ['Creativity', 'Cross-functional Collaboration', 'Leadership', 'Reporting', 'Stakeholder Management']
+  support                        ['SLA Management']

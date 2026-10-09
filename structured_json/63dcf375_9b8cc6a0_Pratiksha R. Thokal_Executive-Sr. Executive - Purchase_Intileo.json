@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "63dcf375_9b8cc6a0_Pratiksha R. Thokal_Executive-Sr. Executive - Purchase_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:01.036021+00:00",
+    "generated_at": "2026-10-07T09:26:40.657649+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,43 +47,127 @@
   "summary": "A seasoned professional with nearly five years of experience in procurement, specializing in purchase,\nsourcing, and operational management. Proven expertise in vendor negotiation, market price analysis,\nand inventory management across diverse industries including FMCG, furniture, and pharmaceuticals.\nHighly skilled in using SAP-ERP, Dynamics 365 Business Central, ERP-LN and Order Management Systems\nto streamline processes and drive efficiency. Seeking to leverage strong leadership and analytical skills to\nenhance operational performance and contribute to organizational growth.",
   "skills": {
     "items": [
+      "Accounts Payable",
       "Analytical Thinking",
+      "Auditing",
+      "B2B Sales",
+      "Business Development",
+      "Calibration",
+      "Continuous Improvement",
+      "Coroutines Flow",
+      "Cost Analysis",
+      "Customs & International Trade",
       "Dynamics 365",
       "ERP",
+      "ERP-LN",
+      "Goods Receipt Note",
+      "ISO Standards",
+      "Import Logistics",
       "Inventory Management",
       "Leadership",
+      "MIS Reporting",
       "MS CIT",
+      "Merchandising",
       "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Negotiation",
+      "Order Management System",
+      "Payments",
       "Procurement",
+      "Project Management",
+      "Purchase Orders",
+      "Quality Control",
+      "Quotation Analysis",
+      "R",
+      "Room Database",
       "SAP",
-      "Tally"
+      "SOP",
+      "Supply Chain",
+      "Tally",
+      "Typing",
+      "Vendor Development"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounts Payable",
+        "Auditing",
+        "Cost Analysis",
+        "Tally"
+      ],
       "soft_skill": [
         "Analytical Thinking",
         "Leadership",
         "Negotiation"
+      ],
+      "sales": [
+        "B2B Sales"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "engineering_hardware": [
+        "Calibration"
+      ],
+      "operations": [
+        "Continuous Improvement",
+        "Goods Receipt Note",
+        "Inventory Management",
+        "Procurement",
+        "Purchase Orders",
+        "Quotation Analysis",
+        "SOP",
+        "Vendor Development"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "legal": [
+        "Customs & International Trade"
       ],
       "integration": [
         "Dynamics 365",
         "SAP"
       ],
       "erp": [
-        "ERP"
+        "ERP",
+        "ERP-LN",
+        "Order Management System"
       ],
-      "operations": [
-        "Inventory Management",
-        "Procurement"
+      "engineering": [
+        "ISO Standards",
+        "Quality Control"
+      ],
+      "supply_chain": [
+        "Import Logistics"
+      ],
+      "banking": [
+        "MIS Reporting"
       ],
       "certification": [
         "MS CIT"
       ],
-      "productivity": [
-        "Microsoft Excel"
+      "retail": [
+        "Merchandising"
       ],
-      "finance_ops": [
-        "Tally"
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Teams",
+        "Typing"
+      ],
+      "domain": [
+        "Payments",
+        "Supply Chain"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "database": [
+        "Room Database"
       ]
     },
     "_confidence": 0.92,
@@ -92,12 +176,12 @@
   "experience": {
     "jobs": [
       {
-        "role": "Total Year of Experience-, 1 Month. Purchase Engineer",
-        "company": "Hawa Valves (INDIA) PVT LTD",
+        "role": "Purchase Engineer | Hawa Valves (INDIA) PVT LTD",
+        "company": "Hawa Valves PVT LTD",
         "location": null,
         "start": "Dec 2025",
         "end": "May 2026",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 6,
         "bullets": [
           "Handling procurement of valves, mechanical & industrial materials.",
@@ -108,7 +192,8 @@
           "Managing supplier follow-up for delivery, quality & payment issues.",
           "Cost reduction through effective negotiation and alternate sourcing.",
           "Working on ERP/LN for purchase and inventory management.",
-          "Maintaining compliance with company procurement procedures and ISO standards."
+          "Maintaining compliance with company procurement procedures and ISO standards.",
+          "Preparing procurement MIS reports and tracking order status."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -116,12 +201,12 @@
         "source": "experience"
       },
       {
-        "role": "Conducted market price analysis and generated daily, weekly, and monthly reports on sales-to-PO",
-        "company": null,
-        "location": "Purchase, Lykis Limited",
+        "role": "Senior Executive",
+        "company": "Purchase",
+        "location": "Lykis Limited",
         "start": "Aug 2024",
         "end": "Dec 2025",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 17,
         "bullets": [
           "Managed procurement for a wide range of FMCG products, including packing materials, hazardous chemicals, engineering goods, and finished pharmaceutical/ CosmaticsS products.",
@@ -130,20 +215,25 @@
           "Conducted market price analysis and generated daily, weekly, and monthly reports on sales-to-PO conversions, inventory, and vendor negotiations."
         ],
         "sub_sections": [
-          "Monthly/ Quarterly Audit handle",
-          "Regular Follow up to Vendor and Accounts Team/ Transporter and Sales Team, Operation Team, QC"
+          "Monthly/ Quarterly Audit handle"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "African nations. Senior Executive",
+        "role": "Senior Executive",
         "company": "Procurement",
         "location": "Sprinteriors B2B designers Pvt. Ltd",
         "start": "May 2024",
         "end": "Jul 2024",
-        "method": "date_regex+title_dash_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Regular Follow up to Vendor and Accounts Team/ Transporter and Sales Team, Operation Team, QC",
+          "Team.",
+          "Managed procurement for customer countries including Dubai, Korea, China, Thailand, and various",
+          "African nations."
+        ],
         "duration_months": 3,
         "bullets": [
           "Oversaw the procurement of furniture and interior products for projects with notable clients like Haldiram and Burger King and all Interior related.",
@@ -158,14 +248,19 @@
         "source": "experience"
       },
       {
-        "role": "Project name- 1 haldiram 2. Burger King 3. Wagh Bakri 4. Sangeetha restaurants. 5. Poie Co Purchase Executive | Cello Industries Private Limited",
-        "company": "Handled purchase of engineering spare parts and created purchase orders based on project requirements.",
-        "location": "Cello Industries Private Limited",
+        "role": "Purchase Executive | Cello Industries Private Limited",
+        "company": "Cello Industries Private Limited",
+        "location": null,
         "start": "Feb 2024",
         "end": "Apr 2024",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Business development/ Project management/ Operational management skill",
+          "Project name- 1 haldiram 2. Burger King 3. Wagh Bakri 4. Sangeetha restaurants. 5. Poie Co"
+        ],
         "duration_months": 3,
         "bullets": [
+          "Handled purchase of engineering spare parts and created purchase orders based on project requirements.",
           "Making Making-PO/RTV PO/ STO/ Spare part PO (import and domestic)",
           "Check QC Report and arrange appointment",
           "Evaluated and negotiated with vendors, prepared reports on costs, and maintained direct contact with vendors for pending orders.",
@@ -173,20 +268,25 @@
           " Managed vendor registration, payment processing, and price updates."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| NILKAMAL PVT Ltd",
-        "company": "Evaluated and negotiated with vendors, prepared reports on costs, and maintained direct contact with vendors for pending orders.",
-        "location": "NILKAMAL PVT Ltd",
+        "role": "Purchase Officer | NILKAMAL PVT Ltd",
+        "company": "NILKAMAL PVT Ltd",
+        "location": null,
         "start": "Feb 2022",
         "end": "Dec 2023",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Gained hands-on experience with SAP software.",
+          "Business development/ Project management/ Operational management skill"
+        ],
         "duration_months": 23,
         "bullets": [
           "Managed buying and merchandising for furniture categories, including bedroom, dining, sofa sets, and mattresses.",
+          "Evaluated and negotiated with vendors, prepared reports on costs, and maintained direct contact with vendors for pending orders.",
           "Used SAP for creating SKU codes, KIT codes, and for managing sales and purchase orders. Handling ERP error.",
           "Making-PO/RTV PO/ STO/ Spare part PO (import and domestic)",
           "Making product PPT in product Launch catalog in OMS portal.",
@@ -203,24 +303,26 @@
           "Uploading MRP & cost, DEPO basic and FOFO basic price in SAP system.",
           "Create a planning and sourcing availability to warehouse space or manage according to vendor vise vehicle arrange.",
           "Assessed available space to plan and Store material requirements and ensured efficient checking, organizing, and placement of all materials",
-          "Achieved a 100% on-time availability of imported materials and increased profitability by saving"
+          "Achieved a 100% on-time availability of imported materials and increased profitability by saving import duty through variance checks on exchange rates."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "import duty through variance checks on exchange rates. Assistant",
-        "company": "Receipt of Raw material and preparation of GRN in SAP System as per Standard Operation procedure (SOP).",
-        "location": "Stores, FLAMINGO PHARMACEUTICALS LTD",
+        "role": "Assistant",
+        "company": "Stores",
+        "location": "FLAMINGO PHARMACEUTICALS LTD",
         "start": "Sep 2020",
         "end": "Oct 2021",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 14,
         "bullets": [
+          "Assisted in the handling, storage, and issuance of raw materials (RM) and packing materials (PM).",
           "Managed inventory control and documented GRN (Goods Receipt Note) and quarantine/dispensing labels using the SAP system.",
           "Receipt / issuance of Raw Material and Packing Material as directed by Executive – stores.",
+          "Receipt of Raw material and preparation of GRN in SAP System as per Standard Operation procedure (SOP).",
           "Printing of Quarantine labels in SAP System as per Standard Operation procedure (SOP).",
           "Issue raw materials and packing material to Production.",
           "Printing of Dispensing labels as per Standard Operation procedure (SOP).",
@@ -235,8 +337,8 @@
           "Handling internal or external Audit Query."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -246,7 +348,7 @@
       "total_months": 65,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.82
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -321,29 +423,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

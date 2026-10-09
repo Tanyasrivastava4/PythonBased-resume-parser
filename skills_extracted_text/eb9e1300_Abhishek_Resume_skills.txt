@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/eb9e1300_Abhishek_Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Python, Java, C/C++, JavaScript
+LLMs & GenAI: OpenAI, Gemini, Llama 3.x, Qwen 2.5, Prompt Engineering, Instruction Tuning, RAG
+ML / NLP: Transformers, Text Summarization, NER, Tokenization, Model Evaluation (ROUGE, Accuracy)
+Computer Vision: YOLO, LayoutLMv3, PaddleOCR, Multimodal Document AI
+Frameworks & MLOps: PyTorch, Hugging Face, LangChain, FastAPI, Docker, AWS
+Databases & Tools: MongoDB, MySQL, Git, GitHub, Postman, Jupyter
+
+── Extraction Results ──
+Skills found   : 48
+Confidence     : 0.92
+Time           : 171.7 ms
+Method         : flashtext_skills_section | fuzzy(Qwen 2.5→Qwen(100%), GenAI→Generative AI(100%), transformer→Transformer(100%), fine-tuning→Fine-tuning(100%), RAG pipelines→RAG(96%)...)
+
+── All Skills (48) ──
+AWS, Agile, C++, Code Reviews, Computer Vision, Docker, Express.js, FastAPI, Fine-tuning, Gemini, Generative AI, Git, GitHub, Healthcare, Hugging Face, Instruction Tuning, Java, JavaScript, Jupyter, LLM, LLaMA, LangChain, LayoutLMv3, LinkedIn, MLOps, Machine Learning, MongoDB, Multimodal Document AI, MySQL, NER, NLP, Node.js, OpenAI API, PaddleOCR, Postman, Prompt Engineering, PyTorch, Python, Quality Assurance, Qwen, RAG, REST, ROUGE, Text Summarization, Tokenization, Transformer, Transformers, YOLO
+
+── By Category ──
+  ai_ml                          ['Computer Vision', 'LayoutLMv3', 'Machine Learning', 'NER', 'NLP', 'PaddleOCR', 'PyTorch', 'ROUGE', 'Text Summarization', 'Tokenization', 'Transformer', 'YOLO']
+  cloud_infra                    ['AWS']
+  data_science                   ['Transformers']
+  database                       ['MongoDB', 'MySQL']
+  dev_tool                       ['Code Reviews', 'Git', 'GitHub', 'Jupyter', 'Postman']
+  devops                         ['Docker']
+  domain                         ['Healthcare']
+  genai                          ['Fine-tuning', 'Gemini', 'Generative AI', 'Hugging Face', 'Instruction Tuning', 'LLM', 'LLaMA', 'LangChain', 'MLOps', 'Multimodal Document AI', 'OpenAI API', 'Prompt Engineering', 'Qwen', 'RAG']
+  integration                    ['REST']
+  operations                     ['Quality Assurance']
+  programming_language           ['C++', 'Java', 'JavaScript', 'Python']
+  project_mgmt                   ['Agile']
+  web_framework                  ['Express.js', 'FastAPI', 'LinkedIn', 'Node.js']

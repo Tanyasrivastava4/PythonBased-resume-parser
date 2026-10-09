@@ -1,0 +1,77 @@
+======================================================================
+FILE: d9638aed_f6e69c25_Prasanta Bera_Sr. Business Development Executive_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Date of Birth : 02-11-1996
+Marital Status : Married
+Nationality : Indian
+Blood Group : O+
+Religion : Hindu
+Gender : Male
+Place : Kolkata
+Salary Claim : Last salary Rs. 26000/-
+Father Name : Ram Chandra Bera
+Mother Name: Renuka Bera
+EXPERIENCE
+01-05-2020 - 28-02-2021
+Back Office staff and Junior Acco...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.89
+Needs review   : False
+Total exp      : 4.0 years (48 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Salary Claim : Last salary Rs. 26000
+  Company      : Place : Kolkata
+  Location     : None
+  Start - End  : 01-05-2020 - 28-02-2021
+  Duration     : 14 months
+  Bullets      : 5
+    • IBBI Land and Building Valuer (Prodipta Das). Joined as back Office staff and Junior Accountant for
+    • Tally Operator
+    • Excel
+    • Gst
+    • Data Entry
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Accountant and Branch Assistant Manager
+  Company      : Customer Sale, service and satisfaction.
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 2
+    • Stock Management.
+    • Stock Management
+  Method       : comma_title_company_split
+  Confidence   : 0.8
+  Needs Review : False
+
+Entry 3
+  Role         : SALES EXECUTIVE (INDIAMART) B2B Field Sales
+  Company      : PS HR Services
+  Location     : None
+  Start - End  : 01-05-2024 - Present
+  Duration     : 34 months
+  Bullets      : 1
+    • New Client Acquisition.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : 2. Service Provided Associate
+  Company      : Complete monthly target 🎯 100%
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 0
+  Method       : title_dict_strong
+  Confidence   : 0.8
+  Needs Review : False

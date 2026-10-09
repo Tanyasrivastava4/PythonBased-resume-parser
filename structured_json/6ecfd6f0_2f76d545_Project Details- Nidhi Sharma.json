@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "6ecfd6f0_2f76d545_Project Details- Nidhi Sharma_segmented.txt",
-    "generated_at": "2026-09-30T06:59:09.954061+00:00",
+    "generated_at": "2026-10-07T09:26:47.330230+00:00",
     "sections_found": [
       "header",
       "projects",
@@ -47,9 +47,10 @@
     "items": [
       "AdRelevance",
       "Classification Web",
+      "ColdFusion",
       "Data Cleaning",
       "Data Preprocessing",
-      "Demand Forecasting",
+      "Demand Planning",
       "Exploratory Data Analysis",
       "Feature Engineering",
       "Fine-tuning",
@@ -60,6 +61,7 @@
       "LLM",
       "LangChain",
       "Machine Learning",
+      "Model Evaluation",
       "NLP",
       "NumPy",
       "Objective C",
@@ -67,6 +69,7 @@
       "Prompt Engineering",
       "Python",
       "RAG",
+      "Reliability",
       "SQL",
       "Transformers",
       "scikit-learn"
@@ -79,12 +82,17 @@
       "search": [
         "Classification Web"
       ],
+      "web_technology": [
+        "ColdFusion"
+      ],
       "data_engineering": [
         "Data Cleaning",
         "Data Preprocessing"
       ],
+      "supply_chain": [
+        "Demand Planning"
+      ],
       "data_science": [
-        "Demand Forecasting",
         "Exploratory Data Analysis",
         "Feature Engineering",
         "Transformers"
@@ -111,13 +119,19 @@
         "Pandas",
         "scikit-learn"
       ],
+      "machine_learning": [
+        "Model Evaluation"
+      ],
       "programming_language": [
         "Objective C",
         "Python"
+      ],
+      "soft_skill": [
+        "Reliability"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Generative→Generative AI(95%), objective→Objective C(95%), LLMs→LLM(100%), Transformers→Transformers(100%), preprocessing→Data Preprocessing(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Generative→Generative AI(95%), objective→Objective C(95%), reliable→Reliability(100%), LLMs→LLM(100%), Transformers→Transformers(100%)...)"
   },
   "experience": {
     "jobs": [],

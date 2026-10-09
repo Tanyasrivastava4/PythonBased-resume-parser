@@ -79,7 +79,7 @@ PHONE_PATTERN = re.compile(
 )
 
 LINKEDIN_PATTERN = re.compile(
-    r"(?:https?://)?(?:www\.)?(?:linkedin\.com/(?:in|pub|profile)/|in/|linkedin/)([\w\-]{3,100})/?",
+    r"(?:https?://)?(?:www\.)?(?:linkedin\.com/(?:in|pub|profile)/|in/|linkedin/)((?:[\w\-]+[\s\-]*){1,10})/?",
     re.IGNORECASE
 )
 
@@ -213,9 +213,7 @@ def clean_phone(raw_phone: str) -> str:
     if PHONE_BLACKLIST.match(digits_only):
         return None
 
-    if re.match(r"^(19|20)\d{2}\s*[-–—/]\s*(19|20)\d{2}$", raw_phone_fix):
-        return None
-    if re.match(r"^(19|20)\d{2}(19|20)\d{2}$", digits_only):
+    if re.search(r"(19|20)\d{2}(19|20)\d{2}", digits_only):
         return None
 
     if _is_date_of_birth(raw_phone_fix):
@@ -295,22 +293,28 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
             part = re.sub(r"\s*\.\s*", " ", part).strip()
             part = re.sub(r"\s*\([^)]*(?:exp|years?|yrs?|yr|experience)[^)]*\)", "", part, flags=re.I).strip()
             part = re.sub(r"[,]", " ", part)
-            # Normalize spaced-out names (e.g. "K A R A N S I N G H")
+            # Normalize spaced-out names (e.g. "N I L E S H   S H I V R A M   M A G A R E" or "N i l e s h S h i v r a m M a g a r e")
             if re.search(r"^(?:[a-zA-Z]\s+){2,}[a-zA-Z]$", part):
                 if "  " in part:
                     words_raw = [w.replace(" ", "") for w in re.split(r"\s{2,}", part) if w.strip()]
                     part = " ".join(words_raw).title()
                 else:
-                    unspaced = re.sub(r"\s+", "", part).title()
-                    for fname in ["Karan", "Rahul", "Amit", "Pooja", "Priya", "Ankit", "Rohit", "Vikram", "Neha", "Rohan", "Pragnesh", "Prince", "Deepak", "Aman", "Vikas"]:
-                        if unspaced.startswith(fname) and len(unspaced) > len(fname):
-                            unspaced = fname + " " + unspaced[len(fname):]
-                            break
-                    part = unspaced
+                    words = []
+                    current = []
+                    for char in part.split():
+                        if char.isupper() and current:
+                            words.append("".join(current).title())
+                            current = [char]
+                        else:
+                            current.append(char)
+                    if current:
+                        words.append("".join(current).title())
+                    part = " ".join(words)
             else:
                 part = re.sub(r"\s+", " ", part).strip()
             part_low = part.lower().strip()
-            if not part or _is_address_line(part) or _is_blacklisted_line(part) or part_low in {
+            part_no_space = part_low.replace(" ", "").replace(".", "")
+            if not part or _is_address_line(part) or _is_blacklisted_line(part) or part_no_space in {"resume", "curriculumvitae", "cv", "biodata", "profile", "summary", "personalprofile", "careerobjective"} or part_low in {
                 "new delhi", "delhi", "mumbai", "bengaluru", "bangalore", "chennai", "kolkata", "hyderabad",
                 "pune", "gurgaon", "gurugram", "noida", "faridabad", "chandigarh", "ahmedabad", "jaipur",
                 "lucknow", "kanpur", "indore", "bhopal", "patna", "vadodara", "surat", "nagpur", "coimbatore",
@@ -370,10 +374,29 @@ def extract_name(full_text: str) -> dict:
         result.update(value=name, confidence=0.6, method="ner")
         return result
 
+    for line in full_text.splitlines()[:150]:
+        line_s = line.strip()
+        if re.search(r'^(?:[a-zA-Z]\s+){3,}[a-zA-Z](?:\s+(?:[a-zA-Z]\s+)*[a-zA-Z])?$', line_s):
+            chars = line_s.split()
+            words, current = [], []
+            for c in chars:
+                if c.isupper() and current:
+                    words.append("".join(current).title())
+                    current = [c]
+                else:
+                    current.append(c)
+            if current:
+                words.append("".join(current).title())
+            cand_name = " ".join(words)
+            if len(words) >= 2 and cand_name.replace(" ", "").isalpha():
+                result.update(value=cand_name, confidence=0.9, method="spaced_chars_regex")
+                return result
+
     return result
 
 
 def extract_contact(full_text: str) -> dict:
+    full_text = full_text.replace('\x00', '')
     """
     Main entry point for the contact extractor.
     """
@@ -432,12 +455,22 @@ def extract_contact(full_text: str) -> dict:
     # ── LINKEDIN ───────────────────────────────────────────
     linkedin_match = LINKEDIN_PATTERN.search(full_text_clean)
     if linkedin_match:
-        username = linkedin_match.group(1)
-        result["linkedin"] = {
-            "value": f"linkedin.com/in/{username}",
-            "confidence": 0.99,
-            "method": "regex",
-        }
+        username = linkedin_match.group(1).strip()
+        tokens = username.split()
+        valid_tokens = []
+        for tok in tokens:
+            tok_clean = tok.strip()
+            if tok_clean.upper() in ("PROFILE", "SUMMARY", "EXPERIENCE", "WORK", "EDUCATION", "SKILLS", "PROJECTS", "AWARDS", "INTERESTS", "CERTIFICATIONS", "LANGUAGES", "CONTACT", "IN"):
+                break
+            valid_tokens.append(tok_clean)
+        username = "-".join(valid_tokens).strip('-')
+        username = re.sub(r'-+', '-', username)
+        if len(username) >= 3:
+            result["linkedin"] = {
+                "value": f"linkedin.com/in/{username}",
+                "confidence": 0.99,
+                "method": "regex",
+            }
 
     # ── GITHUB ─────────────────────────────────────────────
     github_match = GITHUB_PATTERN.search(full_text_clean)
@@ -482,7 +515,9 @@ def extract_contact(full_text: str) -> dict:
         }
 
     # ── WEBSITE ────────────────────────────────────────────
-    website_search_text = _strip_known_matches(full_text_clean)
+    exp_split = re.split(r'\b(?:WORK\s+EXPERIENCE|EXPERIENCE|EMPLOYMENT|PROFESSIONAL\s+EXPERIENCE)\b', full_text_clean, flags=re.IGNORECASE)
+    header_portion = exp_split[0][:500]
+    website_search_text = _strip_known_matches(header_portion)
     website_match = WEBSITE_PATTERN.search(website_search_text)
     if website_match:
         val = website_match.group(1).strip()

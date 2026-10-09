@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d6c7ebfd_7b6cab3c_Kishan Yadav_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:29.671944+00:00",
+    "generated_at": "2026-10-07T09:28:27.039677+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -64,6 +64,8 @@
       "Collaboration",
       "Communication",
       "Computer Vision",
+      "Coroutines Flow",
+      "Data Cleaning",
       "Data Preprocessing",
       "Data Science",
       "Databricks",
@@ -80,9 +82,11 @@
       "Git",
       "GitHub",
       "GitHub Actions",
+      "Google",
       "Gradio",
       "Hugging Face",
       "Hyperparameter Tuning",
+      "JSON",
       "Jupyter",
       "Keras",
       "LLM",
@@ -106,9 +110,11 @@
       "MySQL",
       "NER",
       "NLP",
+      "NLTK",
       "NumPy",
       "Observability",
       "Ollama",
+      "OpenAI API",
       "OpenCV",
       "Pandas",
       "Problem Solving",
@@ -122,6 +128,7 @@
       "RNN",
       "Random Forest",
       "Regularization",
+      "Reliability",
       "Reporting",
       "SciPy",
       "Seaborn",
@@ -157,6 +164,7 @@
         "Matplotlib",
         "NER",
         "NLP",
+        "NLTK",
         "NumPy",
         "OpenCV",
         "Pandas",
@@ -181,6 +189,7 @@
         "Collaboration",
         "Communication",
         "Problem Solving",
+        "Reliability",
         "Reporting"
       ],
       "genai": [
@@ -198,6 +207,7 @@
         "Mistral",
         "Multi-Agent",
         "Ollama",
+        "OpenAI API",
         "Prompt Engineering",
         "RAG"
       ],
@@ -223,12 +233,17 @@
         "Tableau",
         "Transformers"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "data_engineering": [
+        "Data Cleaning",
         "Data Preprocessing",
         "Databricks"
       ],
       "web_framework": [
         "FastAPI",
+        "JSON",
         "LinkedIn",
         "REST API"
       ],
@@ -238,8 +253,12 @@
         "Gradio",
         "Jupyter",
         "PyCharm",
-        "Streamlit",
-        "VS Code"
+        "Streamlit"
+      ],
+      "database": [
+        "Google",
+        "MySQL",
+        "PySpark"
       ],
       "project_mgmt": [
         "Linear"
@@ -248,13 +267,12 @@
         "Microsoft Excel",
         "Microsoft Word"
       ],
-      "database": [
-        "MySQL",
-        "PySpark"
-      ],
       "programming_language": [
         "Python",
         "spaCy"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -263,13 +281,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "AI Engineer Full-Stack AI & LLM Systems",
-        "company": "RoboAIAPaths",
+        "role": "AI Engineer",
+        "company": "Full-Stack AI & LLM Systems",
         "location": null,
         "start": "Sept 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 13,
+        "method": "date_regex+title_dict_strong+company_suffix_match",
+        "pre_date_header": [
+          "AI Engineer"
+        ],
+        "duration_months": 14,
         "bullets": [
           "and developed ASB, a production-grade AI numerology platform featuring a modular FastAPI backend, secure API gateway, and branded Streamlit frontend."
         ],
@@ -300,12 +321,15 @@
         "source": "experience"
       },
       {
-        "role": "Data Science Intern → Junior Data Scientist",
-        "company": "Global Source Technology",
+        "role": "Intern → Junior Data Scientist",
+        "company": "Data Science",
         "location": null,
         "start": "Sept 2024",
         "end": "Aug 2025",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Data Science"
+        ],
         "duration_months": 12,
         "bullets": [
           "analytics team during the initial part-time phase by performing EDA, preprocessing, and data cleaning on structured datasets using Pandas and NumPy."
@@ -326,12 +350,15 @@
         "source": "experience"
       },
       {
-        "role": "https://github.com/KishanYadav29-10/MockMate-virtual-interview-assistant",
-        "company": "NPTEL – Soft Skills",
+        "role": "NPTEL – Soft Skills",
+        "company": "https://github.com/KishanYadav29-10",
         "location": null,
         "start": "Jul 2023",
         "end": "Oct 2023",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "NPTEL – Soft Skills"
+        ],
         "duration_months": 4,
         "bullets": [],
         "sub_sections": [],
@@ -342,8 +369,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.4,
-      "total_months": 29,
+      "total_years": 2.5,
+      "total_months": 30,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

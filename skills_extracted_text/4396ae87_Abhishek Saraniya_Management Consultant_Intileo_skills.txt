@@ -1,0 +1,51 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/4396ae87_Abhishek Saraniya_Management Consultant_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+✓ API Collaboration: PostMan
+✓ Prototyping: Figma, Drawio, Lucid, Visio
+✓ Project Management: Jira, Confluence
+✓ Data Query: PL/SQL
+✓ MS Office
+✓ Analytics & Data Visualization: Adobe analytics, Alteryx, Tableau, Grafana
+
+── Extraction Results ──
+Skills found   : 57
+Confidence     : 0.92
+Time           : 41.19 ms
+Method         : flashtext_skills_section | fuzzy(Lucid→Lucidchart(100%))
+
+── All Skills (57) ──
+.NET, Accounts Receivable, Adobe Analytics, Alteryx, BFSI, Budgeting, Business Development, Business Intelligence, Client Relationship Management, Collaboration, Confluence, Continuous Improvement, Creativity, Cross-functional Collaboration, Customer Experience, Customer Onboarding, Customer Retention, Data Visualization, Digital Transformation, Drawio, Figma, Fintech, Flutter, Generative AI, Google, Grafana, Jira, KYC, LinkedIn, Lucidchart, MS Office, Machine Learning, Market Research, Microservices, Microsoft Visio, PL/SQL, PWA, Payments, Postman, Power Platform, Product Design, Product Management, Product Marketing, Project Management, Regulatory Compliance, Retail & Corporate Banking, Risk Management, Salesforce, Supply Chain, Tableau, Task Mining, Time Series Forecasting, Tokenization, UNIX, UiPath, Vendor Management, Working Capital Financing
+
+── By Category ──
+  ai_ml                          ['Machine Learning', 'Time Series Forecasting', 'Tokenization']
+  architecture                   ['Microservices']
+  banking                        ['Working Capital Financing']
+  biz_dev                        ['Business Development']
+  client_mgmt                    ['Client Relationship Management', 'Customer Experience', 'Customer Onboarding', 'Customer Retention']
+  collaboration                  ['Confluence']
+  consulting                     ['Digital Transformation']
+  data_science                   ['Adobe Analytics', 'Alteryx', 'Business Intelligence', 'Data Visualization', 'Tableau']
+  database                       ['Google', 'PL/SQL']
+  design                         ['Drawio', 'Figma', 'Lucidchart']
+  dev_tool                       ['Microsoft Visio', 'Postman']
+  devops                         ['Grafana']
+  domain                         ['BFSI', 'Fintech', 'Payments', 'Retail & Corporate Banking', 'Supply Chain']
+  engineering                    ['Product Design']
+  finance_ops                    ['Accounts Receivable', 'Budgeting']
+  genai                          ['Generative AI']
+  integration                    ['Salesforce']
+  legal                          ['KYC', 'Regulatory Compliance']
+  low_code                       ['Power Platform']
+  marketing                      ['Market Research', 'Product Marketing']
+  mobile                         ['Flutter']
+  operations                     ['Continuous Improvement', 'Vendor Management']
+  os_system                      ['UNIX']
+  productivity                   ['MS Office']
+  programming_language           ['.NET']
+  project_mgmt                   ['Jira', 'Product Management', 'Project Management', 'Risk Management']
+  rpa                            ['Task Mining', 'UiPath']
+  soft_skill                     ['Collaboration', 'Creativity', 'Cross-functional Collaboration']
+  web_framework                  ['LinkedIn', 'PWA']

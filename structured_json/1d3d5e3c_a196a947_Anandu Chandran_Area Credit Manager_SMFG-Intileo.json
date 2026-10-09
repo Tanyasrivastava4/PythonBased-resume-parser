@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1d3d5e3c_a196a947_Anandu Chandran_Area Credit Manager_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:03.823783+00:00",
+    "generated_at": "2026-10-07T10:30:59.204448+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -48,15 +48,21 @@
   "summary": "To be part of a challenging team for the growth of company by utilizing my personal\nskills, this will exploit my abilities to the maximum while providing me wide\nexposure, sufficient responsibilities and independence of thought and opportunity\nto learn.",
   "skills": {
     "items": [
+      "Business Loans",
       "CIBIL",
       "KYC",
       "Mechanical Engineering",
       "Pandas",
       "Personal Loan",
       "Quality Control",
-      "RBI"
+      "RBI",
+      "Team Coordination",
+      "Underwriting"
     ],
     "by_category": {
+      "banking": [
+        "Business Loans"
+      ],
       "finance": [
         "CIBIL",
         "Personal Loan"
@@ -73,6 +79,12 @@
       ],
       "domain": [
         "RBI"
+      ],
+      "management": [
+        "Team Coordination"
+      ],
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
@@ -81,42 +93,68 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Proof verification",
+        "role": "FLO",
+        "company": "Larsen & Turbo Micro Finance Ltd",
+        "location": null,
+        "start": "December 04 2017",
+        "end": "September 21 2020",
+        "method": "date_regex+date_prefix_title+worked_as_role_in_company",
+        "pre_date_header": [
+          "• Worked as FLO at Larsen & Turbo (L&T) Micro Finance Ltd"
+        ],
+        "duration_months": 34,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "IRO at IDFC FIRST BHARAT Ltd from .(Business loan, Personal loan-Sales",
+        "company": "Worked",
         "location": null,
         "start": "October 05 2020",
         "end": "June 01 2021",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Operations and Credit support)."
+        ],
         "duration_months": 8,
         "bullets": [
           "Proof verification, Customer Point verification, Cibil and financial tracks checking.)"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Working as Credit Manager -Centralized Credit at Bajaj Finserv Ltd from",
-        "company": null,
-        "location": "",
+        "role": "Credit Manager -Centralized Credit",
+        "company": "Bajaj",
+        "location": null,
         "start": "October 25 2021",
         "end": "September 14 2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+worked_as_role_in_company",
+        "pre_date_header": [
+          "• Working as Credit Manager -Centralized Credit at Bajaj"
+        ],
         "duration_months": 23,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Ø SUPPORT TO SALES & BRANCHES THROUG OUT KERALA",
-        "company": "DAILY WORK SCHEDULE",
+        "role": "Branch Credit Manager",
+        "company": "Cholamandalam",
         "location": null,
         "start": "September 18 2023",
         "end": "Present",
-        "method": "date_regex",
+        "method": "date_regex+worked_as_role_in_company",
+        "pre_date_header": [
+          "• Working as Branch Credit Manager at Cholamandalam"
+        ],
         "duration_months": 37,
         "bullets": [
           "Ø CREDIT UNDERWRITING. Ø WHOLE PROCESS OF PERSONAL LOAN , PROFESSIONAL LOAN"
@@ -138,11 +176,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.7,
-      "total_months": 68,
+      "total_years": 8.5,
+      "total_months": 102,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -164,7 +202,7 @@
         "degree_field": null,
         "institution": "Kerala University St.Stephens College",
         "year": null,
-        "gpa": "53.5%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -175,7 +213,7 @@
         "degree_field": null,
         "institution": "Board",
         "year": null,
-        "gpa": "79%",
+        "gpa": "53.5%",
         "_needs_review": false,
         "_confidence": 0.65
       },
@@ -213,20 +251,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.69,

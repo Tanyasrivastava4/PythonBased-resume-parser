@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ca70e412_8814aa81_S.A. Matheen_Full stack web security patches_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:20.074149+00:00",
+    "generated_at": "2026-10-07T09:28:15.473021+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,49 +46,127 @@
   "summary": null,
   "skills": {
     "items": [
+      "API Design",
+      "API Testing",
       "AWS CloudWatch",
       "AWS ECS",
       "AWS EKS",
+      "AWS Lambda",
+      "AWS SQS",
+      "Account Management",
+      "Adaptability",
       "Agile",
       "Apache Maven",
       "Azure",
       "Azure App Service",
       "Azure SQL",
+      "Bitbucket",
+      "CI/CD",
       "CSS3",
+      "Code Reviews",
+      "Communication",
+      "Context API",
+      "Coroutines Flow",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Customer Onboarding",
+      "Data Management",
+      "DevOps",
+      "Django",
       "Docker",
+      "Flask",
+      "GDPR",
       "Git",
       "GitHub",
+      "HIPAA",
       "HTML5",
       "Hibernate",
+      "Integration Testing",
+      "J2EE",
+      "JMeter",
+      "JPA",
+      "JUnit",
       "Java",
       "JavaScript",
       "Jenkins",
       "Jira",
+      "KYC",
       "Kubernetes",
+      "Log Analysis",
+      "MVC Architecture",
       "Material UI",
       "Microservices",
+      "Microsoft Teams",
+      "Mockito",
+      "MongoDB",
+      "Multithreading",
       "MySQL",
       "Node.js",
+      "NumPy",
+      "OAuth 2.0",
+      "Oracle Database",
+      "PLC",
+      "Pandas",
+      "Payments",
+      "Performance Optimization",
+      "Performance Testing",
+      "Pitch Scripts",
       "PostgreSQL",
       "Postman",
+      "Python",
+      "Quality Assurance",
       "REST",
+      "REST API",
       "React",
+      "Redux",
+      "Reliability",
+      "Reporting",
       "SQL",
       "Scrum",
       "Spring",
       "Spring Boot",
+      "Spring Data JPA",
+      "Spring Security",
+      "Swagger",
+      "System Design",
+      "Technical Writing",
       "TypeScript",
       "VS Code"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "Microservices",
+        "System Design"
+      ],
+      "testing": [
+        "API Testing",
+        "JMeter",
+        "JUnit",
+        "Mockito",
+        "Performance Testing"
+      ],
       "cloud_infra": [
         "AWS CloudWatch",
         "AWS EKS",
+        "AWS Lambda",
+        "AWS SQS",
         "Azure",
         "Azure App Service"
       ],
       "cloud": [
         "AWS ECS"
+      ],
+      "sales": [
+        "Account Management",
+        "Pitch Scripts"
+      ],
+      "soft_skill": [
+        "Adaptability",
+        "Communication",
+        "Cross-functional Collaboration",
+        "Reliability",
+        "Reporting"
       ],
       "project_mgmt": [
         "Agile",
@@ -97,42 +175,108 @@
       ],
       "dev_tool": [
         "Apache Maven",
+        "Bitbucket",
+        "Code Reviews",
         "Git",
         "GitHub",
+        "Performance Optimization",
         "Postman",
-        "VS Code"
+        "Swagger"
       ],
       "database": [
         "Azure SQL",
+        "MongoDB",
         "MySQL",
+        "Oracle Database",
         "PostgreSQL",
         "SQL"
       ],
-      "web_framework": [
-        "CSS3",
-        "HTML5",
-        "Hibernate",
-        "Material UI",
-        "Node.js",
-        "React",
-        "Spring",
-        "Spring Boot"
-      ],
       "devops": [
+        "CI/CD",
+        "DevOps",
         "Docker",
         "Jenkins",
         "Kubernetes"
       ],
+      "web_framework": [
+        "CSS3",
+        "Django",
+        "Flask",
+        "HTML5",
+        "Hibernate",
+        "JPA",
+        "Material UI",
+        "Node.js",
+        "REST API",
+        "React",
+        "Redux",
+        "Spring",
+        "Spring Boot",
+        "Spring Data JPA"
+      ],
+      "frontend": [
+        "Context API"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "client_mgmt": [
+        "Customer Experience",
+        "Customer Onboarding"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams"
+      ],
+      "legal": [
+        "GDPR",
+        "KYC"
+      ],
+      "healthcare": [
+        "HIPAA"
+      ],
+      "security_ops": [
+        "Integration Testing",
+        "Log Analysis"
+      ],
       "programming_language": [
+        "J2EE",
         "Java",
         "JavaScript",
+        "Multithreading",
+        "Python",
         "TypeScript"
       ],
-      "architecture": [
-        "Microservices"
+      "software_engineering": [
+        "MVC Architecture"
+      ],
+      "ai_ml": [
+        "NumPy",
+        "Pandas"
+      ],
+      "security": [
+        "OAuth 2.0"
+      ],
+      "engineering_hardware": [
+        "PLC"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "operations": [
+        "Quality Assurance"
       ],
       "integration": [
         "REST"
+      ],
+      "framework": [
+        "Spring Security"
+      ],
+      "content": [
+        "Technical Writing"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -141,40 +285,40 @@
   "experience": {
     "jobs": [
       {
-        "role": "Working as A Senior Software Engineer with Concentrix Since",
-        "company": null,
-        "location": "",
+        "role": "Senior Software Engineer with Concentrix Since",
+        "company": "Working",
+        "location": null,
         "start": "October 2025",
         "end": "December 2025",
         "method": "date_regex+date_prefix_title",
         "duration_months": 3,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Worked as A Software Engineer with Quest Global, Bangalore Since",
-        "company": null,
-        "location": "",
+        "role": "Software Engineer with Quest Global, Bangalore Since",
+        "company": "Worked",
+        "location": null,
         "start": "March2023",
         "end": "September 2025",
         "method": "date_regex+date_prefix_title",
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Worked as A Software Engineer with Cognizant, Bangalore Since",
-        "company": "Managerial Abilities",
+        "role": "Software Engineer with Cognizant, Bangalore Since",
+        "company": "Worked",
         "location": null,
         "start": "August 2019",
         "end": "August 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 37,
         "bullets": [
           "Possess around 6 years of comprehensive experience in the IT industry, specializing in Java-based application development and full-stack solutions.",
@@ -285,12 +429,12 @@
       "total_months": 71,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "Completed B.Tech from JntuK University in 2017",
+        "degree": "Completed B.Tech",
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,
@@ -312,19 +456,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

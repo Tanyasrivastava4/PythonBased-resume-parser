@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/844319b2_Ankush Mehta_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages, Tools & Data Analytics: Python, SQL, Pandas, NumPy, Excel, Power BI, Tableau, Seaborn
+Machine Learning & AI: Scikit-Learn, TensorFlow, PyTorch, Deep Learning (CNN, RNN, LSTM, Transfer Learning)
+NLP & Generative AI: NLTK, BERT, GPT Fine-tuning, Transformer Architecture, RAG, LangChain, Agentic AI
+MLOps & Cloud Computing: DVC, Docker, MLflow, AWS (SageMaker, S3, EC2), Git, GitHub
+
+── Extraction Results ──
+Skills found   : 52
+Confidence     : 0.92
+Time           : 50.81 ms
+Method         : flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Transformer Architecture→Transformer(100%))
+
+── All Skills (52) ──
+AWS, AWS EC2, AWS S3, Agentic AI, BERT, CNN, Client Relationship Management, Customer Service, Data Analytics, Data Science, Deep Learning, Docker, Event-Driven, Exploratory Data Analysis, Fine-tuning, GPT, Gemini, Generative AI, Git, GitHub, LLM, LSTM, LangChain, Lead Generation, LinkedIn, MLOps, MLflow, Machine Learning, Microsoft Excel, Multi-Agent, NLP, NumPy, Operations Management, Pandas, Power BI, Prompt Engineering, PyTorch, Python, RAG, RNN, SQL, Seaborn, Streamlit, Supabase, Tableau, TensorFlow, Time Series Forecasting, Transfer Learning, Transformer, Vector Databases, n8n, scikit-learn
+
+── By Category ──
+  ai_ml                          ['BERT', 'CNN', 'Data Science', 'Deep Learning', 'GPT', 'LSTM', 'MLflow', 'Machine Learning', 'NLP', 'NumPy', 'Pandas', 'PyTorch', 'RNN', 'Seaborn', 'TensorFlow', 'Time Series Forecasting', 'Transfer Learning', 'Transformer', 'scikit-learn']
+  architecture                   ['Event-Driven']
+  client_mgmt                    ['Client Relationship Management', 'Customer Service']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3']
+  data_science                   ['Data Analytics', 'Exploratory Data Analysis', 'Power BI', 'Tableau']
+  database                       ['SQL', 'Supabase']
+  dev_tool                       ['Git', 'GitHub', 'Streamlit']
+  devops                         ['Docker']
+  genai                          ['Agentic AI', 'Fine-tuning', 'Gemini', 'Generative AI', 'LLM', 'LangChain', 'MLOps', 'Multi-Agent', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  operations                     ['Operations Management']
+  productivity                   ['Microsoft Excel']
+  programming_language           ['Python']
+  rpa                            ['n8n']
+  sales                          ['Lead Generation']
+  web_framework                  ['LinkedIn']

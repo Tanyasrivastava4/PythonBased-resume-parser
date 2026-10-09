@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4081c91f_cd3e96b3_Rishi Bakshi_Full stack web security patches_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:25.955786+00:00",
+    "generated_at": "2026-10-07T10:31:24.604166+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -49,38 +49,68 @@
   "skills": {
     "items": [
       "AWS",
+      "AWS CloudFront",
       "AWS CloudWatch",
+      "AWS Lambda",
       "AWS S3",
       "AWS SNS",
       "AWS SQS",
+      "Agile",
+      "Amazon Kinesis",
       "Angular",
+      "Business Intelligence",
       "CI/CD",
+      "Cross-functional Collaboration",
       "Docker",
+      "Event-Driven",
       "Git",
       "IBM Cloud",
+      "JSON Web Token",
       "Java",
+      "Jenkins",
       "Kubernetes",
+      "LinkedIn",
       "MERN Stack",
       "Microservices",
+      "Microsoft Teams",
       "Node.js",
+      "OAuth 2.0",
       "Python",
+      "Quality Assurance",
+      "REST",
       "REST API",
       "React",
+      "Reliability",
+      "SQL",
+      "Scrum",
       "SonarQube",
       "Spring",
       "Spring Boot",
-      "Travis"
+      "Travis",
+      "TypeScript"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
+        "AWS CloudFront",
         "AWS CloudWatch",
+        "AWS Lambda",
         "AWS S3",
         "AWS SNS",
         "AWS SQS"
       ],
+      "project_mgmt": [
+        "Agile",
+        "Scrum"
+      ],
+      "database": [
+        "Amazon Kinesis",
+        "IBM Cloud",
+        "SQL"
+      ],
       "web_framework": [
         "Angular",
+        "LinkedIn",
         "MERN Stack",
         "Node.js",
         "REST API",
@@ -88,23 +118,43 @@
         "Spring",
         "Spring Boot"
       ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
       "devops": [
         "CI/CD",
         "Docker",
+        "Jenkins",
         "Kubernetes"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reliability"
+      ],
+      "architecture": [
+        "Event-Driven",
+        "Microservices"
       ],
       "dev_tool": [
         "Git"
       ],
-      "database": [
-        "IBM Cloud"
+      "security": [
+        "JSON Web Token",
+        "OAuth 2.0"
       ],
       "programming_language": [
         "Java",
-        "Python"
+        "Python",
+        "TypeScript"
       ],
-      "architecture": [
-        "Microservices"
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Quality Assurance"
+      ],
+      "integration": [
+        "REST"
       ],
       "testing": [
         "SonarQube",
@@ -118,12 +168,16 @@
     "jobs": [
       {
         "role": "Senior Full-Stack Developer",
-        "company": "IBM India Pvt Ltd  Gurugram",
-        "location": "Haryana",
+        "company": "IBM India Pvt Ltd",
+        "location": null,
         "start": "09/2021",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 61,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Full-Stack Developer",
+          "IBM India Pvt Ltd"
+        ],
+        "duration_months": 62,
         "bullets": [
           "Designed and developed scalable backend services and RESTful APIs using Java Spring Boot and Node.js, supporting high-availability, cloud-native applications.",
           "Built and maintained modern frontend applications using React and Angular, delivering responsive, maintainable, and user-friendly interfaces",
@@ -144,11 +198,15 @@
       },
       {
         "role": "Senior Software Engineer",
-        "company": "Trantor Pvt Ltd  Chandigarh",
-        "location": "India",
+        "company": "Trantor Pvt Ltd",
+        "location": null,
         "start": "04/2019",
         "end": "07/2021",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Software Engineer",
+          "Trantor Pvt Ltd"
+        ],
         "duration_months": 28,
         "bullets": [
           "Developed an order fulfilment and logistic project using React and TypeScript",
@@ -164,29 +222,15 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Chandigarh",
-        "location": "India",
-        "start": "06/2010",
-        "end": "06/2013",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 37,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.5,
-      "total_months": 126,
+      "total_years": 7.5,
+      "total_months": 90,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.94
+    "_confidence": 0.98
   },
   "education": {
     "entries": [],
@@ -208,15 +252,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.0,

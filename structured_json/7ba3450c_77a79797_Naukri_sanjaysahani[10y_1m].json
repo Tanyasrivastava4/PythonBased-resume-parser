@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7ba3450c_77a79797_Naukri_sanjaysahani[10y_1m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.533522+00:00",
+    "generated_at": "2026-10-07T09:27:02.358118+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -46,12 +46,20 @@
   "summary": null,
   "skills": {
     "items": [
+      ".NET",
       "AWS",
+      "AWS EC2",
+      "AWS S3",
+      "Angular",
       "Apache Kafka",
+      "Bootstrap",
       "Burp Suite",
       "C++",
       "CSS3",
+      "Client Handling",
+      "Data Migration",
       "Docker",
+      "ERP",
       "Generative AI",
       "Git",
       "HTML5",
@@ -62,30 +70,62 @@
       "JavaScript",
       "Kali Linux",
       "Laravel",
-      "MSSQL",
       "Machine Learning",
+      "Microsoft SQL Server",
+      "Moodle",
       "MySQL",
+      "OSINT",
       "OWASP Top 10",
       "Ollama",
+      "Oracle PL/SQL",
       "PHP",
       "Penetration Testing",
       "PostgreSQL",
       "Postman",
       "Python",
+      "RAG",
       "REST API",
       "React",
       "SQL",
-      "Spring",
+      "Secure Coding",
+      "Spring AI",
       "Spring Boot",
       "Swagger",
+      "Team Coordination",
       "TestNG",
       "TypeScript",
       "Vector Databases",
-      "jQuery"
+      "jQuery",
+      "phpMyAdmin"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "C++",
+        "J2EE",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "TypeScript"
+      ],
       "cloud_infra": [
-        "AWS"
+        "AWS",
+        "AWS EC2",
+        "AWS S3"
+      ],
+      "web_framework": [
+        "Angular",
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "Hibernate",
+        "JPA",
+        "Laravel",
+        "REST API",
+        "React",
+        "Spring Boot",
+        "jQuery"
       ],
       "data_engineering": [
         "Apache Kafka"
@@ -95,33 +135,24 @@
         "OWASP Top 10",
         "Penetration Testing"
       ],
-      "programming_language": [
-        "C++",
-        "J2EE",
-        "Java",
-        "JavaScript",
-        "PHP",
-        "Python",
-        "TypeScript"
+      "management": [
+        "Client Handling",
+        "Team Coordination"
       ],
-      "web_framework": [
-        "CSS3",
-        "HTML5",
-        "Hibernate",
-        "JPA",
-        "Laravel",
-        "REST API",
-        "React",
-        "Spring",
-        "Spring Boot",
-        "jQuery"
+      "data engineering": [
+        "Data Migration"
       ],
       "devops": [
         "Docker"
       ],
+      "erp": [
+        "ERP"
+      ],
       "genai": [
         "Generative AI",
         "Ollama",
+        "RAG",
+        "Spring AI",
         "Vector Databases"
       ],
       "dev_tool": [
@@ -133,14 +164,23 @@
         "Kali Linux",
         "TestNG"
       ],
-      "database": [
-        "MSSQL",
-        "MySQL",
-        "PostgreSQL",
-        "SQL"
-      ],
       "ai_ml": [
         "Machine Learning"
+      ],
+      "database": [
+        "Microsoft SQL Server",
+        "MySQL",
+        "Oracle PL/SQL",
+        "PostgreSQL",
+        "SQL",
+        "phpMyAdmin"
+      ],
+      "education_domain": [
+        "Moodle"
+      ],
+      "cybersecurity": [
+        "OSINT",
+        "Secure Coding"
       ]
     },
     "_confidence": 0.92,
@@ -155,7 +195,10 @@
         "start": "Dec 2023",
         "end": "Present",
         "method": "date_regex+comma_company_location",
-        "duration_months": 34,
+        "pre_date_header": [
+          "Corporate Infotech Pvt. Ltd. Noida, UP"
+        ],
+        "duration_months": 35,
         "bullets": [
           "Projects Link:",
           "https://ncfl-i4c.mha.gov.in",
@@ -180,7 +223,10 @@
         "location": "Punjab",
         "start": "Feb 2023",
         "end": "Dec 2023",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Tripat Infoways. Ludhiana, Punjab"
+        ],
         "duration_months": 11,
         "bullets": [
           "Projects Link:",
@@ -198,7 +244,11 @@
         "location": "Punjab",
         "start": "Oct 2021",
         "end": "Jan 2023",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "AWS, EC2, S3, and MySQL.",
+          "Trixaim Pvt. Ltd. Ludhiana, Punjab"
+        ],
         "duration_months": 16,
         "bullets": [
           "Projects Link:",
@@ -220,6 +270,9 @@
         "start": "May 2018",
         "end": "Sep 2018",
         "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "Platinumgate Technologies Pvt. Ltd. Delhi"
+        ],
         "duration_months": 5,
         "bullets": [
           "Projects Link:",
@@ -235,12 +288,15 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Java Developer",
         "company": "Weblogix Infotech Pvt. Ltd. Delhi",
         "location": null,
         "start": "Oct 2014",
         "end": "Apr 2018",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Weblogix Infotech Pvt. Ltd. Delhi"
+        ],
         "duration_months": 43,
         "bullets": [
           "Projects Link:",
@@ -251,8 +307,8 @@
           "Tool use: HTML, CSS, Bootstrap, JavaScript, JQuery, and Spring Boot."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -261,7 +317,10 @@
         "location": null,
         "start": "May 2012",
         "end": "Sep 2014",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Delhi Integrated Multi-Modal Transit System Ltd. Delhi"
+        ],
         "duration_months": 29,
         "bullets": [
           "Client Management - Coordination Data Migration Analysis.",
@@ -278,11 +337,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.4,
-      "total_months": 137,
+      "total_years": 11.5,
+      "total_months": 138,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.91
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -317,10 +376,10 @@
         "year": "2008 - 2011",
         "gpa": "67.40%",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [],
@@ -335,15 +394,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[5]",
       "confidence": 0.7,

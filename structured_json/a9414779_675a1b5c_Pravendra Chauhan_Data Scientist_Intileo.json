@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a9414779_675a1b5c_Pravendra Chauhan_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:59.453629+00:00",
+    "generated_at": "2026-10-07T09:27:47.633980+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,12 +49,18 @@
   "summary": "Experienced Artificial intelligence and Machine learning with expertise\nin Python Data Scientist and also Django Rest API,Deep learning,\nAnnotations, Object detection,RAG LLM, Langchain, Llama3, Yolov8,.\nSeeking a challenging opportunity to leverage my skills and expand my\n\nDeveloped an online summary generation system for DSM-5 mental health\npatients using GPT-4. The system leverages a question-answering model to\ngenerate concise and accurate summary reports based on patient data. This\nproject, focused on the healthcare domain, showcases expertise in applying\nadvanced deep learning techniques for sensitive and critical applications,\nensuring precision and reliability in mental health assessments.\n6 Months\nReal-Time Face Recognition Attendance System for Amazon Store (CCTV\nIntegration)\nDeveloped a real-time face recognition system integrated with CCTV\ncameras for an Amazon retail store to automate employee attendance and\ndetect unauthorized individuals. The system uses YOLOv11 for high-\naccuracy person and face detection in live video streams, and FCENet for\nreliable face recognition against a registered employee database. Built using\nthe Flask framework, the backend handles secure data processing, face\nmatching, attendance logging, and real-time alerts for unknown individuals.",
   "skills": {
     "items": [
+      "AWS",
       "Computer Vision",
       "Data Science",
       "Deep Learning",
+      "DeepSeek",
       "Django",
+      "Ethical Hacking",
+      "FastAPI",
       "Flask",
+      "GPT",
       "GPT-4",
+      "Generative AI",
       "Healthcare",
       "Hikvision",
       "Intellectual Property",
@@ -63,25 +69,53 @@
       "LangChain",
       "Machine Learning",
       "Mental Health",
+      "MongoDB",
+      "MySQL",
+      "NumPy",
+      "OpenCV",
+      "Pandas",
+      "PyTorch",
       "Python",
       "RAG",
       "REST",
-      "YOLO"
+      "Reliability",
+      "SQL",
+      "TensorFlow",
+      "YOLO",
+      "scikit-learn"
     ],
     "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
       "ai_ml": [
         "Computer Vision",
         "Data Science",
         "Deep Learning",
+        "GPT",
         "Machine Learning",
-        "YOLO"
+        "NumPy",
+        "OpenCV",
+        "Pandas",
+        "PyTorch",
+        "TensorFlow",
+        "YOLO",
+        "scikit-learn"
+      ],
+      "data_science": [
+        "DeepSeek"
       ],
       "web_framework": [
         "Django",
+        "FastAPI",
         "Flask"
+      ],
+      "cybersecurity": [
+        "Ethical Hacking"
       ],
       "genai": [
         "GPT-4",
+        "Generative AI",
         "LLM",
         "LLaMA",
         "LangChain",
@@ -99,11 +133,19 @@
       "healthcare": [
         "Mental Health"
       ],
+      "database": [
+        "MongoDB",
+        "MySQL",
+        "SQL"
+      ],
       "programming_language": [
         "Python"
       ],
       "integration": [
         "REST"
+      ],
+      "soft_skill": [
+        "Reliability"
       ]
     },
     "_confidence": 0.92,
@@ -112,47 +154,55 @@
   "experience": {
     "jobs": [
       {
-        "role": "AI ML Engineer Data Scientist",
-        "company": "Chetu",
+        "role": "MongoDB Atlas",
+        "company": null,
         "location": null,
         "start": "Jun 2023",
         "end": "Oct 2024",
-        "method": "date_regex+title_dict",
-        "duration_months": 17,
-        "bullets": [
-          "Expertise in Artificial Intelligence, Machine Learning, and Deep Learning,"
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "MongoDB Atlas",
+          "MySQL",
+          "SQL"
         ],
+        "duration_months": 17,
+        "bullets": [],
         "sub_sections": [
           "Pandas",
-          "with hands-on experience in LLMs (e.g., LangChain, Llama 3).",
-          "Tensorflow"
+          "with hands-on experience in LLMs (e.g., LangChain, Llama 3)."
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "AI GenAI Engineer",
-        "company": "Cogniforge technologies",
+        "role": "Tensorflow",
+        "company": null,
         "location": null,
         "start": "Dec 2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 22,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Tensorflow",
+          "YOLOv11,SAM,Object detection, Django Api,fastapi,Mongodb atlas.",
+          "Pytorch",
+          "Scikit-learn"
+        ],
+        "duration_months": 23,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.2,
-      "total_months": 39,
+      "total_years": 3.3,
+      "total_months": 40,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.85
   },
   "education": {
     "entries": [
@@ -187,10 +237,20 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.6,

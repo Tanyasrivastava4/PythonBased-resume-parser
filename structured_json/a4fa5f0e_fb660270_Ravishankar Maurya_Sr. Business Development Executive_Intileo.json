@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a4fa5f0e_fb660270_Ravishankar Maurya_Sr. Business Development Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:56.083676+00:00",
+    "generated_at": "2026-10-07T09:27:43.355728+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,33 +49,57 @@
     "items": [
       "Account Management",
       "B2B Sales",
-      "Client Relationship Management",
+      "Competitive Analysis",
       "Contract Negotiation",
+      "Coroutines Flow",
+      "Customer Relationship Management",
       "Field Sales",
+      "Healthcare",
       "Lead Generation",
+      "Microsoft Teams",
       "Negotiation",
       "Networking",
+      "Order-to-Cash",
       "Problem Solving",
-      "Reporting"
+      "Reporting",
+      "Route",
+      "Sales Reporting",
+      "Territory Management"
     ],
     "by_category": {
       "sales": [
         "Account Management",
         "B2B Sales",
         "Contract Negotiation",
+        "Customer Relationship Management",
         "Field Sales",
-        "Lead Generation"
+        "Lead Generation",
+        "Sales Reporting",
+        "Territory Management"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "biz_dev": [
+        "Competitive Analysis",
+        "Networking"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "soft_skill": [
         "Negotiation",
         "Problem Solving",
         "Reporting"
       ],
-      "biz_dev": [
-        "Networking"
+      "finance": [
+        "Order-to-Cash"
+      ],
+      "cloud_infra": [
+        "Route"
       ]
     },
     "_confidence": 0.92,
@@ -84,60 +108,65 @@
   "experience": {
     "jobs": [
       {
-        "role": "| AVN Ayurveda",
-        "company": "Drove high-performance field campaigns focused on commercial client acquisition to consistently exceed defined corporate targets.",
-        "location": "Mumbai, Maharashtra",
+        "role": "Sales Executive",
+        "company": "AVN Ayurveda",
+        "location": null,
         "start": "Nov 2021",
         "end": "Nov 2022",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Sales Executive | AVN Ayurveda"
+        ],
         "duration_months": 13,
         "bullets": [
+          "Drove high-performance field campaigns focused on commercial client acquisition to consistently exceed defined corporate targets.",
           "Delivered structured product presentations to multi-tiered client accounts, utilizing consultative cross-selling tactics.",
-          "Represented the corporate brand at key commercial trade exhibitions, networking conventions, and regional B2B business events."
+          "Represented the corporate brand at key commercial trade exhibitions, networking conventions, and regional B2B business events.",
+          "Competitive Analysis"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "▪ Competitive Analysis",
+        "role": "Kalyan, Maharashtra",
+        "company": "Kalyan",
         "location": "Maharashtra",
         "start": "Mar 2026",
         "end": "Present",
         "method": "date_regex+comma_company_location",
-        "duration_months": 7,
+        "duration_months": 8,
         "bullets": [
-          "and secure high-value client acquisitions. business requirements into technical route planning and geographic territory stakeholders to streamline final deployment and write structured pipeline performance"
+          "and secure high-value client acquisitions. business requirements into technical route planning and geographic territory stakeholders to streamline final deployment and write structured pipeline performance product promotions and multi-channel field"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "post-sales follow-ups, preventing",
-        "company": "product promotions and multi-channel field",
+        "company": "Kalyan",
         "location": "Maharashtra",
         "start": "Oct 2024",
         "end": "Oct 2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict+comma_company_location+inherited_company",
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 2.8,
-      "total_months": 33,
+      "total_months": 34,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.84
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -228,17 +257,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.79
+    "overall": 0.81
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
+      "field": "experience.jobs[2]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

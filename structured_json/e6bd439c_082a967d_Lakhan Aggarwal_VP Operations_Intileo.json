@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e6bd439c_082a967d_Lakhan Aggarwal_VP Operations_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:37.829577+00:00",
+    "generated_at": "2026-10-07T09:28:38.518952+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,12 +49,15 @@
   "skills": {
     "items": [
       "Annual Operating Plan",
+      "Business Development",
       "Business Planning",
+      "Business Strategy",
       "Cross-functional Collaboration",
       "Decision Making",
       "Financial Analysis",
       "KPI",
       "Market Research",
+      "Mergers & Acquisitions",
       "Microsoft Teams",
       "Operations Management",
       "Private Equity",
@@ -73,7 +76,12 @@
         "Annual Operating Plan"
       ],
       "biz_dev": [
+        "Business Development",
         "Business Planning"
+      ],
+      "consulting": [
+        "Business Strategy",
+        "Process Re-Engineering"
       ],
       "soft_skill": [
         "Cross-functional Collaboration",
@@ -89,6 +97,9 @@
       "marketing": [
         "Market Research"
       ],
+      "finance_strategy": [
+        "Mergers & Acquisitions"
+      ],
       "productivity": [
         "Microsoft Teams"
       ],
@@ -99,9 +110,6 @@
       ],
       "finance": [
         "Private Equity"
-      ],
-      "consulting": [
-        "Process Re-Engineering"
       ],
       "project_mgmt": [
         "Program Management",
@@ -123,13 +131,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "",
+        "role": "& Operations Head / Chief of Staff to CEO",
         "company": "Manage the complete development and implementation of corporate strategic initiatives",
         "location": null,
         "start": "Jan 2024",
         "end": "Present",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 33,
+        "duration_months": 34,
         "bullets": [
           "Own development of annual operating plan, target setting and drive objectives set in the budget",
           "Responsible for business planning & execution of functional level plan for operational rigor",
@@ -142,12 +150,12 @@
           "Manage & own all management discussions between private equity investors & CEO (Incl. senior management)"
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "",
+        "role": "Manager",
         "company": "Deliver & track business plans Vs. actual performance, analytics & KPI’s for acquisitions and portfolio companies",
         "location": null,
         "start": "Jan 2022",
@@ -175,19 +183,20 @@
           "PROFESSIONAL EXPERIENCE:",
           "Company: Tech Mahindra Limited"
         ],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Company: Ernst & Young (EY) Role / Designation: Strategy Business Planning Associate Manager",
-        "company": "Key Responsibilities",
+        "role": "Role / Designation: Strategy Business Planning Associate Manager",
+        "company": "Ernst & Young",
         "location": null,
         "start": "Sept 2021",
         "end": "Jan 2022",
         "method": "date_regex+date_prefix_title+subfield_label_company",
         "duration_months": 5,
         "bullets": [
+          "Key Responsibilities",
           "Consulting & program manage global clients acquired businesses for post-merger integration (PMI)",
           "Developing, customizing and supporting integration execution strategies for clients in technology industry",
           "Program manage Day 0 & Day 100 integration plans as per client needs to achieve deal objectives",
@@ -201,14 +210,15 @@
         "source": "experience"
       },
       {
-        "role": "Company: HCL Technologies Limited Role / Designation: Strategic Financial Planning and Analysis Manager",
-        "company": "Key Responsibilities",
+        "role": "Role / Designation: Strategic Financial Planning and Analysis Manager",
+        "company": "HCL Technologies Limited",
         "location": null,
         "start": "July 2012",
         "end": "Sept 2021",
         "method": "date_regex+date_prefix_title+subfield_label_company",
         "duration_months": 111,
         "bullets": [
+          "Key Responsibilities",
           "Financial Planning & Analysis for Products & Platforms business unit of HCL Software",
           "Deliver Annual Operating Plans (AOP) and Long term operating plans as per strategic business objectives",
           "Lead & program manage Finance Transformation initiatives across Sales tools, Customer master, Revenue assurance, billing & collections, supply chain & procurement tracks etc.",
@@ -230,11 +240,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 14.2,
-      "total_months": 171,
+      "total_years": 14.3,
+      "total_months": 172,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.77
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -254,9 +264,9 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": "C.S.E",
-        "institution": "Shiv Nadar University Greater Noida",
+        "institution": "Jaypee Institute of Information Technology, Noida",
         "year": "2008",
-        "gpa": "88.10%",
+        "gpa": "78.00%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -280,18 +290,18 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

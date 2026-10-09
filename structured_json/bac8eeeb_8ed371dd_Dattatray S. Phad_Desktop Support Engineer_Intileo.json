@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bac8eeeb_8ed371dd_Dattatray S. Phad_Desktop Support Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:09.386309+00:00",
+    "generated_at": "2026-10-07T09:28:01.683377+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -56,15 +56,21 @@
       "DHCP",
       "DNS",
       "Desktop Support",
+      "Ethical Hacking",
       "Group Policy",
+      "Joins",
       "Kali Linux",
+      "LinkedIn",
+      "Mechanical Engineering",
+      "Microsoft Teams",
       "Microsoft Windows",
       "Networking",
       "Onboarding",
       "RDP",
       "Remote Diagnostics",
       "TCP/IP",
-      "TeamViewer"
+      "TeamViewer",
+      "Technical Support"
     ],
     "by_category": {
       "dev_tool": [
@@ -87,8 +93,23 @@
       "security_ops": [
         "CEH"
       ],
+      "cybersecurity": [
+        "Ethical Hacking"
+      ],
+      "database": [
+        "Joins"
+      ],
       "testing": [
         "Kali Linux"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "os_system": [
         "Microsoft Windows"
@@ -98,6 +119,9 @@
       ],
       "hr": [
         "Onboarding"
+      ],
+      "support": [
+        "Technical Support"
       ]
     },
     "_confidence": 0.92,
@@ -108,11 +132,15 @@
       {
         "role": "IT Desktop Support Engineer",
         "company": "Lauren Informa•on Technologies Pvt. Ltd",
-        "location": "Mumbai, India",
+        "location": null,
         "start": "Jun 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 16,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Lauren Informa•on Technologies Pvt. Ltd",
+          "IT Desktop Support Engineer"
+        ],
+        "duration_months": 17,
         "bullets": [
           "Provide end-to-end technical support to users, including VIP and C-level staff",
           "Troubleshoot hardware, so",
@@ -130,15 +158,18 @@
       },
       {
         "role": "Desktop Support Engineer",
-        "company": "IT HUB Computers",
-        "location": "Mumbai, India",
+        "company": "me",
+        "location": "India",
         "start": "Jun 2023",
         "end": "Mar 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "IT HUB Computers",
+          "Desktop Support Engineer"
+        ],
         "duration_months": 22,
         "bullets": [
           "Delivered desktop support to internal teams and ensured minimal down",
-          "me",
           "Installed and configured OS, applica",
           "ons, and drivers as per role-based requirements",
           "Resolved day-to-day user issues related to system performance and connec",
@@ -157,14 +188,17 @@
       },
       {
         "role": "IT Support Specialist",
-        "company": "Nex-Z Solu•ons (Freelancer",
-        "location": "Mumbai, India",
+        "company": "Provided hardware repair, upgrades, and virus protec",
+        "location": "India",
         "start": "Jan 2021",
         "end": "May 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Nex-Z Solu•ons (Freelancer)",
+          "IT Support Specialist"
+        ],
         "duration_months": 29,
         "bullets": [
-          "Provided hardware repair, upgrades, and virus protec",
           "on services for clients",
           "Installed and configured so",
           "ware and basic networks for home/small business setups",
@@ -175,21 +209,24 @@
           "on"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Network Support Technician",
-        "company": "Vsquare Networks",
-        "location": "Mumbai, India",
+        "company": "ons, updates, and applica",
+        "location": "India",
         "start": "Sep 2019",
         "end": "Sep 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict+comma_company_location",
+        "pre_date_header": [
+          "Vsquare Networks",
+          "Network Support Technician"
+        ],
         "duration_months": 25,
         "bullets": [
           "Performed OS installa",
-          "ons, updates, and applica",
           "on configura",
           "on for clients",
           "Diagnosed and resolved issues in wired and wireless networks",
@@ -206,10 +243,14 @@
       {
         "role": "Hardware Assistant Trainee",
         "company": "Crystal Solu•ons Ltd",
-        "location": "Mumbai, India",
+        "location": null,
         "start": "Jul 2019",
         "end": "Sep 2019",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Crystal Solu•ons Ltd",
+          "Hardware Assistant Trainee"
+        ],
         "duration_months": 3,
         "bullets": [
           "Assisted in installing and repairing desktops and hardware components",
@@ -224,11 +265,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.1,
-      "total_months": 85,
+      "total_years": 7.2,
+      "total_months": 86,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.98
+    "_confidence": 0.92
   },
   "education": {
     "entries": [
@@ -341,10 +382,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "education.entries[2]",
       "confidence": 0.55,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ad5adbb3_34366937_Pragati resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:01.536571+00:00",
+    "generated_at": "2026-10-07T09:27:50.276992+00:00",
     "sections_found": [
       "early_career",
       "experience",
@@ -46,23 +46,45 @@
   "summary": "Results-driven Financial Counselor with 5+ years of experience across healthcare and education sales. Specialized in patient financial counseling, high-ticket conversion, revenue growth, and CRM-driven sales processes. Known for empathetic patient handling, cross-functional team coordination, and consistent achievement of monthly and quarterly business targets while maintaining high standards of patient care and client satisfaction.",
   "skills": {
     "items": [
+      "Business Development",
+      "CRM Tools",
       "Client Relationship Management",
+      "Coroutines Flow",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
       "Google Workspace",
       "Healthcare",
+      "Inside Sales",
       "Mental Health",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
       "Negotiation",
+      "Outbound Sales",
       "Patient Care",
+      "Ratio Analysis",
       "Revenue Generation",
       "Slack",
+      "Team Coordination",
       "Zoho Books"
     ],
     "by_category": {
+      "biz_dev": [
+        "Business Development"
+      ],
+      "sales": [
+        "CRM Tools",
+        "Customer Relationship Management",
+        "Inside Sales",
+        "Outbound Sales",
+        "Revenue Generation"
+      ],
       "client_mgmt": [
         "Client Relationship Management"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "soft_skill": [
         "Cross-functional Collaboration",
@@ -72,6 +94,7 @@
         "Google Workspace",
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word",
         "Slack"
       ],
@@ -82,11 +105,12 @@
         "Mental Health",
         "Patient Care"
       ],
-      "sales": [
-        "Revenue Generation"
-      ],
       "finance_ops": [
+        "Ratio Analysis",
         "Zoho Books"
+      ],
+      "management": [
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
@@ -95,13 +119,16 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Progenesis Fertility Center Financial Counselor",
+        "role": "Progenesis Fertility Center",
+        "company": "Financial Counselor",
         "location": null,
         "start": "Oct 2025",
         "end": "Present",
-        "method": "date_regex",
-        "duration_months": 12,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Progenesis Fertility Center"
+        ],
+        "duration_months": 13,
         "bullets": [
           "Provide end-to-end financial counseling to patients, explaining fertility treatment plans, pricing structures, and payment options.",
           "Drive patient conversion by aligning clinical treatment recommendations with financial feasibility and patient comfort.",
@@ -110,35 +137,42 @@
           "Consistently achieve monthly conversion ratios and revenue targets through a consultative sales approach."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Breathe WellBeing Inside Sales Senior Associate",
-        "company": "Coordinated with doctors, nutritionists, and health coaches to improve patient engagement and retention.",
+        "role": "Inside Sales Senior Associate",
+        "company": "Breathe WellBeing",
         "location": null,
         "start": "Jan 2022",
         "end": "Oct 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Breathe WellBeing"
+        ],
         "duration_months": 46,
         "bullets": [
           "Managed 50+ daily inbound and outbound sales calls converting leads into paid chronic care program enrollments.",
           "Tracked sales performance, follow-ups, and revenue pipeline using CRM tools to ensure steady business flow.",
+          "Coordinated with doctors, nutritionists, and health coaches to improve patient engagement and retention.",
           "Supported feedback planning and process improvements to enhance overall conversion rates and customer satisfaction."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Board Infinity Senior Counsellor",
-        "company": "Coordinated with doctors, nutritionists, and health coaches to improve patient engagement and retention.",
+        "role": "Senior Counsellor",
+        "company": "Board Infinity",
         "location": null,
         "start": "May 2021",
         "end": "Jan 2022",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Board Infinity"
+        ],
         "duration_months": 9,
         "bullets": [
           "Conducted 100+ daily counseling calls with students and parents for higher education and upskilling programs.",
@@ -146,34 +180,38 @@
           "Assisted in lead quality improvement and customer issue resolution."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "UFaber Business Development Executive",
-        "company": "Converted prospects through structured follow-ups, revenue tracking, and referral generation.",
+        "role": "Business Development Executive",
+        "company": "UFaber",
         "location": null,
         "start": "Oct 2020",
         "end": "Apr 2021",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "UFaber"
+        ],
         "duration_months": 7,
         "bullets": [
+          "Converted prospects through structured follow-ups, revenue tracking, and referral generation.",
           "Maintained consistent achievement of individual sales goals."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.0,
-      "total_months": 72,
+      "total_years": 6.1,
+      "total_months": 73,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.77
+    "_confidence": 0.98
   },
   "education": {
     "entries": [],
@@ -188,29 +226,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "02be0d4b_e72f8831_Resume_ Aniket_segmented.txt",
-    "generated_at": "2026-09-30T06:57:44.877309+00:00",
+    "generated_at": "2026-10-07T10:30:36.806324+00:00",
     "sections_found": [
       "achievements",
       "declaration",
@@ -48,17 +48,27 @@
   "skills": {
     "items": [
       "Bitbucket",
+      "Collaboration",
+      "Cross-functional Collaboration",
+      "E-commerce",
       "Express.js",
       "GitHub",
       "JavaScript",
       "Jira",
+      "LinkedIn",
       "MERN Stack",
+      "Microsoft Teams",
       "MongoDB",
+      "Next.js",
       "Node.js",
+      "Oracle Cloud Infrastructure",
+      "Oracle Database",
       "Postman",
+      "Prompt Engineering",
       "React",
       "SQL",
-      "Trello"
+      "Trello",
+      "VS Code"
     ],
     "by_category": {
       "dev_tool": [
@@ -66,9 +76,18 @@
         "GitHub",
         "Postman"
       ],
+      "soft_skill": [
+        "Collaboration",
+        "Cross-functional Collaboration"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
       "web_framework": [
         "Express.js",
+        "LinkedIn",
         "MERN Stack",
+        "Next.js",
         "Node.js",
         "React"
       ],
@@ -78,27 +97,41 @@
       "project_mgmt": [
         "Jira"
       ],
+      "productivity": [
+        "Microsoft Teams",
+        "Trello"
+      ],
       "database": [
         "MongoDB",
+        "Oracle Database",
         "SQL"
       ],
-      "productivity": [
-        "Trello"
+      "cloud": [
+        "Oracle Cloud Infrastructure"
+      ],
+      "genai": [
+        "Prompt Engineering"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), Mongo→MongoDB(100%), Node→Node.js(100%), Mern→MERN Stack(100%), Express→Express.js(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), Oracle→Oracle Database(100%), Mongo→MongoDB(100%), Node→Node.js(100%), Mern→MERN Stack(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "(L2), L&G Consultancy",
-        "company": "Promoted to SoftwareEngineer L2 for demonstrated technical growth and",
-        "location": "L&G Consultancy",
+        "role": "Software Engineer",
+        "company": "L&G Consultancy",
+        "location": null,
         "start": "May 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 53,
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Software Engineer (L2), L&G Consultancy"
+        ],
+        "duration_months": 54,
         "bullets": [
           "Promoted to SoftwareEngineer L2 for demonstrated technical growth and consistent impact.",
           "Handled front-end development for Truworths (South Africa) using React.js and Oracle Cloud Commerce in a headless architecture.",
@@ -107,8 +140,8 @@
           "Collaborated with global teamsto align with business goalsand ensure project success."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -117,7 +150,12 @@
         "location": null,
         "start": "Apr 2021",
         "end": "Dec 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Previously enhancedUI performance in an internalenterprise app built with",
+          "React.js.",
+          "Node JS Developer, Cognnox Intelligent Systems"
+        ],
         "duration_months": 9,
         "bullets": [
           "Worked on back-end development with Node.js and MongoDB to build scalable applications.",
@@ -137,6 +175,9 @@
         "start": "Jun, 2019",
         "end": "May 2021",
         "method": "date_regex",
+        "pre_date_header": [
+          "Bachelor of Computer Application"
+        ],
         "duration_months": 24,
         "bullets": [],
         "sub_sections": [],
@@ -145,27 +186,29 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "DAV College",
-        "location": "Abohar",
+        "role": "DAV",
+        "company": "High School",
+        "location": "College, Abohar",
         "start": "2019",
         "end": "2019",
-        "method": "single_year_regex+comma_company_location",
+        "method": "single_year_regex+multiline_role_above_company",
         "duration_months": 1,
-        "bullets": [],
+        "bullets": [
+          "Prompt Engineering with VS Code - Internal Training Program in L&G Consultancy"
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.0,
-      "total_months": 84,
+      "total_years": 7.1,
+      "total_months": 85,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.78
+    "_confidence": 0.88
   },
   "education": {
     "entries": [],
@@ -186,15 +229,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[1]",
       "confidence": 0.7,
@@ -202,11 +240,6 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

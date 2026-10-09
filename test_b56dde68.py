@@ -1,0 +1,179 @@
+from segmenter.section_splitter import split_into_sections
+from extractors.contact_extractor import extract_contact
+from extractors.education import extract_education
+from extractors.experience import extract_experience
+from extractors.skills import extract_skills
+from extractors.certifications import extract_certifications
+
+KUNTAL_RESUME_TEXT = """
+Kuntal Patel
+Brahman Street, Ichhapore Village, Hazira Road 
+Surat, Gujarat, 394510
+9898205272,8320219696
+Kuntalpatel55@gmail.com
+Objective
+Dynamic Senior Network Engineer with 9+ years of experience in network infrastructure, 
+firewall security, wireless networking, and IT operations. Skilled in managing enterprise 
+networks, routing & switching, VPNs, monitoring tools, and infrastructure deployments. 
+Experienced in handling large-scale network environments, security administration, and 
+cross-functional IT operations.
+Professional Summary
+Experienced Network Engineer with strong expertise in enterprise network management, 
+firewall security, routing & switching, wireless infrastructure, and network monitoring. 
+Hands-on experience with Cisco, Sophos, HP, Netgear, TP-Link, and D-Link devices. 
+Skilled in troubleshooting, IT asset management, VPN configuration, and infrastructure 
+deployment. Proven ability to manage critical network environments with minimal 
+downtime and improved operational efficiency.
+Education
+• Bachelor of Technology in Electronics Engineering.
+• Diploma in Industrial Electronics.
+Experience
+Senior Network Engineer – Maitri Lab Grown Diamonds 
+(22-08-22 to Present)
+• Managed Sophos firewall security operations including policy creation, user access 
+management, VPN configuration, web filtering, and network security administration 
+for 600+ users while designing and implementing enterprise network infrastructure 
+to improve operational efficiency.
+• Designed and implemented network infrastructures for over 600+ users, utilizing 
+advanced routing and switching techniques to improve operational efficiency.
+• Configured and optimized Cisco, Netgear, TP-Link, and HP switches, integrated 
+routing protocols and implemented Sophos firewalls, enhancing network 
+performance and security.
+• Performed comprehensive network assessments, identifying critical vulnerabilities, 
+and implemented strategic recommendations to strengthen system security.
+• Led cross-functional teams in planning and executing network IOS upgrades to 
+improve system performance and reduce downtime.
+• Monitored network performance using SolarWinds Orion, WhatsUp Gold, and Zabbix 
+while actively managing network elements and resolving issues promptly to improve 
+uptime.
+• Established point-to-point network connectivity across different locations to ensure 
+optimal traffic flow and seamless communication between sites.
+• Handled IT asset management, NAS storage administration, and cloud-based Seqrite 
+Endpoint Security. Led new site IT infrastructure installations.
+• Coordinated and guided a team of 6 members for network operations, 
+troubleshooting, and IT infrastructure support activities.
+Senior Engineer – CPS Technologies 
+(01-01-22 to 20-08-22)
+• Managed and maintained network infrastructure for multiple clients, ensuring high 
+availability and reliability.
+• Implemented security measures such as enterprise endpoint security and VPNs.
+• Resolved network issues and outages in a timely manner, minimizing downtime and 
+business impact.
+• Coordinated with multiple vendors for device failure and replacement.
+Network Engineer – Reliance Industries, Hazira, Surat 
+(Payroll – Harryson Infotech) (13-10-20 to 31-12-21)
+• Managed and optimized 600+ network switches and 250+ access points, improving 
+connectivity and performance for over 1,000+ users in a high-traffic corporate 
+environment.
+• Utilized SolarWinds and WhatsUp Gold to monitor network performance, achieving 
+minimal downtime through proactive traffic analysis.
+• Upgraded IOS systems and replaced malfunctioning switches to improve network 
+stability and reduce downtime.
+• Assisted in planning and execution of network projects and initiatives to improve 
+efficiency and performance.
+• Prepared daily reports to maintain and improve network performance.
+• Oversaw asset tracking and created detailed failure reports, reducing response time 
+to technical issues.
+Urban Jio Point Manager – Reliance Jio Infocomm Limited 
+(13-11-18 to 10-07-20)
+• Designed and implemented GPON underground fiber networks to deliver high-speed 
+broadband services to residential and business customers across Surat, supporting 
+over 1000+ active connections.
+• Performed route selection from OLT locations to societies/buildings in an efficient 
+manner.
+• Managed fiber optic installations including cabling and splicing for underground and 
+aerial fiber networks.
+• Conducted joint visits with construction teams for fiber route planning.
+• Ensured fiber optic infrastructure operated efficiently and met service-level 
+agreements (SLAs).
+Junior Engineer – Airlink Communications Pvt Ltd 
+(19-03-2015 to 18-04-2018)
+• Performed network configuration, troubleshooting, and maintenance tasks.
+• Learned and applied networking concepts and technologies in a real-world 
+environment.
+• Configured and installed wireless routers, switches, and access points.
+Skills
+• SolarWinds Orion, Zabbix, WhatsUp Gold
+• Network Monitoring & Troubleshooting
+• IT Asset Management & NAS Administration
+• Seqrite Endpoint Security Management
+• Vendor Coordination & Infrastructure Deployment
+• Access Point & Switch Configuration
+Certifications
+• Cisco Certified Network Associate (CCNA)
+References
+Available upon request.
+"""
+
+
+def test_kuntal_patel_contact():
+    contact = extract_contact(KUNTAL_RESUME_TEXT)
+    assert contact["name"]["value"] == "Kuntal Patel"
+    assert contact["email"]["value"] == "kuntalpatel55@gmail.com"
+    assert "8320219696" in contact["phone"]["value"] or "9898205272" in contact["phone"]["value"]
+
+
+def test_kuntal_patel_education():
+    sections = split_into_sections(KUNTAL_RESUME_TEXT)
+    sec_dict = {sec.label: sec.raw_text for sec in sections}
+    edu = extract_education(sec_dict.get("education", ""))["education"]
+    assert len(edu) >= 2
+    degree_names = [e["degree_name"] for e in edu]
+    assert "B.Tech" in degree_names
+    assert "Diploma" in degree_names
+
+
+def test_kuntal_patel_experience():
+    sections = split_into_sections(KUNTAL_RESUME_TEXT)
+    sec_dict = {sec.label: sec.raw_text for sec in sections}
+    exp_res = extract_experience(sec_dict.get("experience", ""))
+    jobs = exp_res["experience"]
+    assert len(jobs) == 5
+
+    # Job 1
+    assert jobs[0]["role"] == "Senior Network Engineer"
+    assert "Maitri" in jobs[0]["company"]
+    assert jobs[0]["start"] == "22-08-22"
+    assert jobs[0]["end"] == "Present"
+
+    # Job 2
+    assert jobs[1]["role"] == "Senior Engineer"
+    assert "CPS" in jobs[1]["company"]
+    assert jobs[1]["start"] == "01-01-22"
+
+    # Job 3
+    assert jobs[2]["role"] == "Network Engineer"
+    assert "Reliance" in jobs[2]["company"]
+
+    # Job 4
+    assert jobs[3]["role"] == "Urban Jio Point Manager"
+    assert "Reliance Jio" in jobs[3]["company"]
+
+    # Job 5
+    assert jobs[4]["role"] == "Junior Engineer"
+    assert "Airlink" in jobs[4]["company"]
+
+    # Total experience should be around 11+ years
+    total_yrs = exp_res["_total_experience"]["total_years"]
+    assert total_yrs >= 9.0
+
+
+def test_kuntal_patel_certifications():
+    sections = split_into_sections(KUNTAL_RESUME_TEXT)
+    sec_dict = {sec.label: sec.raw_text for sec in sections}
+    certs_res = extract_certifications(sec_dict.get("certifications", ""))
+    certs = certs_res["certifications"]
+    assert len(certs) == 1
+    assert "CCNA" in certs[0]["name"] or "Cisco Certified Network Associate" in certs[0]["name"]
+    assert certs[0]["issuer"] == "Cisco"
+
+
+def test_kuntal_patel_skills():
+    sections = split_into_sections(KUNTAL_RESUME_TEXT)
+    sec_dict = {sec.label: sec.raw_text for sec in sections}
+    skills_res = extract_skills(sections=sec_dict, full_text=KUNTAL_RESUME_TEXT)
+    extracted_skills = skills_res["skills"]
+
+    assert "MiniMax" not in extracted_skills
+    assert "SolarWinds" in extracted_skills
+    assert "Zabbix" in extracted_skills

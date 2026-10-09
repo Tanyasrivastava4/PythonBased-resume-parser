@@ -1,0 +1,41 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/5d947859_ec104e88_Nishant Kumar_Project Management Officer_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Working on the program helping the program manager to
+manage governance, meetings, artifacts
+agile and waterfall methodologies
+Provides Project performance metrics to the organization
+power bi
+through key performance indicators, as designated
+operations manager
+Act as a leader to ensure adherence to proper techniques and
+data analysis
+standard methodology relating to planning, communication,
+strategic planning
+integration and implementation of work efforts, as well as
+skill development
+contribution to best practices and continuous improvement for
+
+── Extraction Results ──
+Skills found   : 20
+Confidence     : 0.92
+Time           : 316.53 ms
+Method         : flashtext_skills_section | fuzzy(agile→Agile(100%), waterfall→Waterfall(100%))
+
+── All Skills (20) ──
+Active Directory, Agile, Analyze, CSAT, Communication, Continuous Improvement, Data Analysis, Digital Marketing, HMI, KPI, LinkedIn, Mental Health, PLC, PMP, Power BI, Project Management, SCADA, Strategic Thinking, VFD, Waterfall
+
+── By Category ──
+  business_analysis              ['KPI']
+  customer_service               ['CSAT']
+  data_science                   ['Analyze', 'Data Analysis', 'Power BI']
+  engineering_hardware           ['HMI', 'PLC', 'SCADA', 'VFD']
+  healthcare                     ['Mental Health']
+  marketing                      ['Digital Marketing']
+  operations                     ['Continuous Improvement']
+  project_mgmt                   ['Agile', 'PMP', 'Project Management', 'Waterfall']
+  security_ops                   ['Active Directory']
+  soft_skill                     ['Communication', 'Strategic Thinking']
+  web_framework                  ['LinkedIn']

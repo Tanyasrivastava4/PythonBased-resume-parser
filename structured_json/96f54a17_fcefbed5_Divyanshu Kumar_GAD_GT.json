@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "96f54a17_fcefbed5_Divyanshu Kumar_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:47.132290+00:00",
+    "generated_at": "2026-10-07T09:27:31.581456+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,25 +47,94 @@
   "summary": "Qualified CA with over 4 years of experience in financial statement analysis, auditing, and\nstatutory compliance. Seeking to leverage my expertise in IT, travel agency, or Other sectors\nto strengthen financial controls, optimize reporting processes, and support strategic growth.",
   "skills": {
     "items": [
+      ".NET",
+      "ASM",
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
       "Auditing",
+      "CARO 2020",
+      "CMP-08",
       "Communication",
+      "Consolidated Financial Statements",
       "Dynamics 365",
+      "Financial Analysis",
+      "Financial Reporting",
       "Financial Statement Analysis",
+      "Form 3CA-3CD",
+      "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "GSTR-9",
+      "Income Tax Return",
+      "Ind AS 110",
+      "Indian GAAP",
+      "Input Tax Credit",
+      "Internal Controls Testing",
+      "Internal Financial Controls",
+      "Key Account Management",
+      "LFA",
+      "Limited Review",
+      "LinkedIn",
+      "MGT-7",
       "MS Office",
       "Microsoft Dynamics",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
+      "NBFC",
+      "ROC Filing",
       "Reporting",
+      "Rule 11UA",
+      "Schedule III Compliance",
+      "Section 92E",
+      "Share Purchase Agreement",
+      "Statutory Audit",
       "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
       "Team Leadership"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
       "finance_ops": [
+        "ASM",
         "Accounting",
         "Auditing",
-        "Tally"
+        "Financial Analysis",
+        "Financial Reporting",
+        "Internal Controls Testing",
+        "LFA",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "GSTR-9",
+        "Input Tax Credit",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "compliance": [
+        "CARO 2020"
+      ],
+      "accounting": [
+        "CMP-08",
+        "Consolidated Financial Statements",
+        "Form 3CA-3CD",
+        "GST",
+        "Ind AS 110",
+        "Indian GAAP",
+        "Limited Review",
+        "Rule 11UA"
       ],
       "soft_skill": [
         "Communication",
@@ -76,12 +145,33 @@
         "Dynamics 365"
       ],
       "finance": [
-        "Financial Statement Analysis"
+        "Financial Statement Analysis",
+        "GST Return Filing",
+        "Income Tax Return",
+        "Internal Financial Controls",
+        "NBFC",
+        "ROC Filing"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "Section 92E"
+      ],
+      "client_mgmt": [
+        "Key Account Management"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "legal": [
+        "MGT-7",
+        "Share Purchase Agreement"
       ],
       "productivity": [
         "MS Office",
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
       "crm": [
@@ -89,7 +179,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(accounting→Accounting(100%), Dynamics→Microsoft Dynamics(100%), MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(accounting→Accounting(100%), Tally→Tally(100%), Dynamics→Microsoft Dynamics(100%), MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -99,8 +189,11 @@
         "location": null,
         "start": "Sep’24",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 25,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Assistant Manager – K G Somani and Co LLP"
+        ],
+        "duration_months": 26,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -113,7 +206,10 @@
         "location": null,
         "start": "Feb’22",
         "end": "Mar’23",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Associate – J A P S and Associates"
+        ],
         "duration_months": 14,
         "bullets": [],
         "sub_sections": [],
@@ -127,7 +223,10 @@
         "location": null,
         "start": "Jan’19",
         "end": "Jan’22",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Article Assistant – H K Chaudhry & Co"
+        ],
         "duration_months": 37,
         "bullets": [
           "Led and executed more than 10 statutory audits, special purpose audits, and limited reviews for companies across diverse sectors, ensuring adherence to Indian GAAP, Schedule III and compliance with applicable IND AS.",
@@ -156,8 +255,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.3,
-      "total_months": 76,
+      "total_years": 6.4,
+      "total_months": 77,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

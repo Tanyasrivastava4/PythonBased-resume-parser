@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1c89ad15_Animesh Pandey- Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:58:03.022378+00:00",
+    "generated_at": "2026-10-07T10:30:58.251129+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,24 +50,46 @@
   "skills": {
     "items": [
       "AWS",
+      "Agentic AI",
       "Azure",
+      "CSS3",
+      "Celery",
+      "Collaboration",
       "Dart",
       "Data Science",
       "Django",
       "Docker",
+      "Document Understanding",
+      "Dropbox",
       "FastAPI",
+      "Firebase",
       "Flask",
       "Flutter",
+      "Google Drive",
+      "HTML5",
+      "JavaScript",
       "LLM",
       "LangChain",
       "LangGraph",
+      "LinkedIn",
+      "Load Balancer",
       "Machine Learning",
+      "Mistral",
+      "Multi-Agent",
       "MySQL",
+      "OAuth 2.0",
+      "OpenAI API",
+      "Product Management",
+      "Professional Tax",
       "Python",
       "RAG",
       "REST",
       "REST API",
       "React",
+      "Redis",
+      "Semantic Search",
+      "Slack",
+      "Spreadsheets",
       "System Design",
       "TypeScript",
       "n8n"
@@ -75,62 +97,98 @@
     "by_category": {
       "cloud_infra": [
         "AWS",
-        "Azure"
+        "Azure",
+        "Dropbox",
+        "Google Drive"
       ],
-      "programming_language": [
-        "Dart",
-        "Python",
-        "TypeScript"
+      "genai": [
+        "Agentic AI",
+        "LLM",
+        "LangChain",
+        "LangGraph",
+        "Mistral",
+        "Multi-Agent",
+        "OpenAI API",
+        "RAG",
+        "Semantic Search"
+      ],
+      "web_framework": [
+        "CSS3",
+        "Django",
+        "FastAPI",
+        "Flask",
+        "HTML5",
+        "LinkedIn",
+        "REST API",
+        "React"
+      ],
+      "data_engineering": [
+        "Celery"
+      ],
+      "soft_skill": [
+        "Collaboration"
+      ],
+      "programming": [
+        "Dart"
       ],
       "ai_ml": [
         "Data Science",
         "Machine Learning"
       ],
-      "web_framework": [
-        "Django",
-        "FastAPI",
-        "Flask",
-        "REST API",
-        "React"
-      ],
       "devops": [
-        "Docker"
+        "Docker",
+        "Load Balancer"
+      ],
+      "rpa": [
+        "Document Understanding",
+        "n8n"
+      ],
+      "database": [
+        "Firebase",
+        "MySQL",
+        "Redis"
       ],
       "mobile": [
         "Flutter"
       ],
-      "genai": [
-        "LLM",
-        "LangChain",
-        "LangGraph",
-        "RAG"
+      "programming_language": [
+        "JavaScript",
+        "Python",
+        "TypeScript"
       ],
-      "database": [
-        "MySQL"
+      "security": [
+        "OAuth 2.0"
+      ],
+      "project_mgmt": [
+        "Product Management"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "integration": [
         "REST"
       ],
+      "productivity": [
+        "Slack",
+        "Spreadsheets"
+      ],
       "architecture": [
         "System Design"
-      ],
-      "rpa": [
-        "n8n"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(ReactJS→React(100%), Langchain→LangChain(100%), LLMs→LLM(100%), REST→REST(100%), distributed systems→System Design(100%))"
+    "_method": "flashtext_skills_section | fuzzy(ReactJS→React(100%), Langchain→LangChain(100%), LLMs→LLM(100%), REST→REST(100%), professional→Professional Tax(95%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Associate Consultant Developer – Full Time",
         "company": "Oodles Technologies",
-        "location": "Associate Consultant Developer – Full Time,  Project",
+        "location": null,
         "start": "Nov 2024",
         "end": "Ongoing",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 23,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 24,
         "bullets": [
           "Hatch – AI Powered Document Processing Platform:",
           "Designed, developed, and maintained scalable backend services using Python and Django for automated document processing.",
@@ -144,7 +202,8 @@
           "Enabled agent-to-agent collaboration, document analysis, contextual retrieval, and persistent chat history in a production environment. Project: EditHX – Document Intelligence RAG System",
           "Developed a Python-based Retrieval-Augmented Generation (RAG) chatbot for intelligent document understanding. Implemented semantic search for better accuracy. Project: Zarn – AI-Based Test Preparation Platform",
           "Built backend services in Python integrated with Azure AI services and Azure-hosted databases. Developed web interfaces using HTML, CSS, and JavaScript for IELTS and competitive exam preparation workflows. Project: AI Job Scraper Board – Automation and Data Enrichment System",
-          "Designed and implemented automation workflows using n8n to scrape job postings from LinkedIn and Indeed. Integrated Apollo API to enrich job and company data."
+          "Designed and implemented automation workflows using n8n to scrape job postings from LinkedIn and Indeed. Integrated Apollo API to enrich job and company data. Project: Tailblazer – AI Agent Platform for Pet Welfare",
+          "Designed and implemented AI agent workflows using n8n for pet safety and welfare use cases."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -152,12 +211,12 @@
         "source": "experience"
       },
       {
-        "role": "Madrocket Technologies - Flutter developer intern - Intern",
-        "company": "Project: Tailblazer",
-        "location": "AI Agent Platform for Pet Welfare",
+        "role": "Flutter developer intern - Intern",
+        "company": "Madrocket Technologies",
+        "location": null,
         "start": "March 2024",
         "end": "Sep 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 7,
         "bullets": [
           "knowledge of Flutter and Dart to create multiple applications.",
@@ -172,8 +231,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.5,
-      "total_months": 30,
+      "total_years": 2.6,
+      "total_months": 31,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

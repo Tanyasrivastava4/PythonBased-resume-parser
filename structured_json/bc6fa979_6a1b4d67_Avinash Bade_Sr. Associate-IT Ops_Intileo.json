@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bc6fa979_6a1b4d67_Avinash Bade_Sr. Associate-IT Ops_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:11.044840+00:00",
+    "generated_at": "2026-10-07T09:28:03.870888+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,26 +48,79 @@
   "skills": {
     "items": [
       "Budgeting",
+      "Customer Service",
+      "Desktop Support",
+      "Disaster Recovery",
+      "Help Desk",
       "IT Infrastructure Management",
+      "IT Ops",
+      "Incident Management",
+      "LAN",
       "Leadership",
       "Microsoft Teams",
       "Networking",
       "Office 365",
+      "Operations Management",
+      "Pitch Scripts",
+      "Problem Solving",
+      "Procurement",
+      "Production Support",
       "Project Management",
       "RDP",
+      "Reliability",
+      "Remote Diagnostics",
+      "Revenue Generation",
+      "Swift",
+      "Team Coordination",
+      "Team Leadership",
       "Technical Support",
+      "Technical Writing",
       "Ticketing Systems",
-      "Vendor Management"
+      "Vendor Management",
+      "WAN",
+      "Work Instructions"
     ],
     "by_category": {
       "finance_ops": [
         "Budgeting"
       ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "sysadmin": [
+        "Desktop Support",
+        "Remote Diagnostics"
+      ],
+      "operations": [
+        "Disaster Recovery",
+        "Operations Management",
+        "Procurement",
+        "Vendor Management"
+      ],
+      "support": [
+        "Help Desk",
+        "Technical Support",
+        "Ticketing Systems"
+      ],
       "it_ops": [
         "IT Infrastructure Management"
       ],
+      "domain": [
+        "IT Ops"
+      ],
+      "security": [
+        "Incident Management"
+      ],
+      "networking": [
+        "LAN",
+        "RDP",
+        "WAN"
+      ],
       "soft_skill": [
-        "Leadership"
+        "Leadership",
+        "Problem Solving",
+        "Reliability",
+        "Team Leadership"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -78,18 +131,27 @@
       "integration": [
         "Office 365"
       ],
+      "sales": [
+        "Pitch Scripts",
+        "Revenue Generation"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
       "project_mgmt": [
         "Project Management"
       ],
-      "networking": [
-        "RDP"
+      "programming_language": [
+        "Swift"
       ],
-      "support": [
-        "Technical Support",
-        "Ticketing Systems"
+      "management": [
+        "Team Coordination"
       ],
-      "operations": [
-        "Vendor Management"
+      "content": [
+        "Technical Writing"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
@@ -104,7 +166,10 @@
         "start": "05/2025",
         "end": "Current",
         "method": "date_regex+at_split",
-        "duration_months": 17,
+        "pre_date_header": [
+          "IT Infrastructure Support"
+        ],
+        "duration_months": 18,
         "bullets": [
           "Managing End User Support (EUS) IT operations for PAN India locations Monitored and analyzed IT infrastructure performance to optimize system operations.",
           "Operated, maintained and troubleshot network systems.",
@@ -152,12 +217,15 @@
         "source": "experience"
       },
       {
-        "role": "IT Assistant Manager at Heathergrey",
-        "company": "Collective Pvt.Ltd",
+        "role": "IT Assistant Manager",
+        "company": "Heathergrey Collective Pvt.Ltd Mumbai",
         "location": null,
         "start": "12/2022",
         "end": "10/2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "IT Assistant Manager at Heathergrey"
+        ],
         "duration_months": 23,
         "bullets": [
           "Coordinated with IT team members on large-scale projects and deployments.",
@@ -195,12 +263,15 @@
         "source": "experience"
       },
       {
-        "role": "Remote Desktop Support Engineer at",
-        "company": "Feature Focuse Pvt.Ltd (WiproTechnology",
+        "role": "Remote Desktop Support Engineer",
+        "company": "Feature Focuse Pvt.Ltd (WiproTechnology) Mumbai",
         "location": null,
         "start": "03/2018",
         "end": "12/2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Remote Desktop Support Engineer at"
+        ],
         "duration_months": 58,
         "bullets": [
           "Managing the day to day operational and Projects tasks within the IT Infrastructure Managing the IT Infrastructure completely with support of FMS onsite engineer Overseeing the annual IT budget and ensuring cost effectiveness Monitoring daily operations, including server hardware, software, network LAN/WAN and operating systems"
@@ -231,12 +302,15 @@
         "source": "experience"
       },
       {
-        "role": "Systems Analyst at",
-        "company": "Pyramid Hospitality and Facility Management",
+        "role": "Systems Analyst",
+        "company": "Pyramid Hospitality and Facility Management Mumbai",
         "location": null,
         "start": "07/2015",
         "end": "01/2017",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Systems Analyst at"
+        ],
         "duration_months": 19,
         "bullets": [
           "Analyzed system requirements and specifications to improve software functionality and performance.",
@@ -261,12 +335,15 @@
         "source": "experience"
       },
       {
-        "role": "Desktop Support Engineer at",
-        "company": "Impact Infotech Pvt.Ltd (Wipro Infotech",
+        "role": "Desktop Support Engineer",
+        "company": "Impact Infotech Pvt.Ltd (Wipro Infotech) Pune",
         "location": null,
         "start": "10/2008",
         "end": "11/2014",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Desktop Support Engineer at"
+        ],
         "duration_months": 74,
         "bullets": [
           "Diagnosed and resolved hardware, software, and network connectivity problems efficiently.",
@@ -287,8 +364,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 15.8,
-      "total_months": 190,
+      "total_years": 15.9,
+      "total_months": 191,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

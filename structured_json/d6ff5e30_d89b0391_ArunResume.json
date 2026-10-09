@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d6ff5e30_d89b0391_ArunResume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:30.025007+00:00",
+    "generated_at": "2026-10-07T09:28:27.535117+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,12 +51,16 @@
       "API Design",
       "Adaptability",
       "Android",
+      "Code Reviews",
+      "Customer Service",
       "Dart",
       "Event Planning",
       "Firebase",
       "Flutter",
+      "GetX",
       "Git",
       "GitHub",
+      "Google",
       "Leadership",
       "LinkedIn",
       "Payments",
@@ -65,6 +69,7 @@
       "REST",
       "REST API",
       "React Native",
+      "Reliability",
       "Schedule III",
       "State Management",
       "UI Design",
@@ -77,28 +82,35 @@
       ],
       "soft_skill": [
         "Adaptability",
-        "Leadership"
+        "Leadership",
+        "Reliability"
       ],
       "mobile": [
         "Android",
         "Flutter",
+        "GetX",
         "React Native",
         "iOS"
       ],
-      "programming_language": [
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "Performance Optimization",
+        "Postman"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "programming": [
         "Dart"
       ],
       "hospitality": [
         "Event Planning"
       ],
       "database": [
-        "Firebase"
-      ],
-      "dev_tool": [
-        "Git",
-        "GitHub",
-        "Performance Optimization",
-        "Postman"
+        "Firebase",
+        "Google"
       ],
       "web_framework": [
         "LinkedIn",
@@ -124,12 +136,17 @@
     "jobs": [
       {
         "role": "Flutter Developer",
-        "company": "CONSULTANTS",
-        "location": "NOIDA",
+        "company": "SAITEC INTERNATIONAL COMPUTER",
+        "location": null,
         "start": "SEP 2022",
         "end": "PRESENT",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 49,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Flutter Developer",
+          "SAITEC INTERNATIONAL COMPUTER",
+          "CONSULTANTS, NOIDA"
+        ],
+        "duration_months": 50,
         "bullets": [
           "with Flutter, making sure they ran smoothly and consistently on both Android and iOS devices.",
           "Months Transformed UI/UX designs into responsive, user-friendly screens using Flutter widgets, custom animations, and reusable components to keep the app clean and easy to maintain."
@@ -199,8 +216,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.1,
-      "total_months": 49,
+      "total_years": 4.2,
+      "total_months": 50,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -216,7 +233,7 @@
         "year": "2019 - 2022",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Bachelor of Computer Applications",
@@ -230,7 +247,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -241,7 +258,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.93
   },
   "_needs_review": false,
   "_review_queue": []

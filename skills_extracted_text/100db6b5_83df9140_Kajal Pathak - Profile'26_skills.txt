@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/100db6b5_83df9140_Kajal Pathak - Profile'26_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Planning| MIS Maintaining |Team Handling |HR Compliance & Payroll activities| On/Offboarding process|
+
+── Extraction Results ──
+Skills found   : 19
+Confidence     : 0.92
+Time           : 1474.96 ms
+Method         : flashtext_skills_section | fuzzy(HR Compliance→Labour Law(100%), Offboarding process→Customer Onboarding(92%), Responsible→Responsible AI(95%), hiring→Recruitment(100%), verticals→Vertica(88%)...)
+
+── All Skills (19) ──
+BFSI, Change Management, Customer Onboarding, Employee Engagement, HR Management, HRIS, Labour Law, Leadership, Microsoft Visio, Onboarding, Payments, Procurement, Profilers, Recruitment, Responsible AI, Talent Management, Vendor Management, Vertica, Workshop Facilitation
+
+── By Category ──
+  client_mgmt                    ['Customer Onboarding']
+  consulting                     ['Workshop Facilitation']
+  database                       ['Vertica']
+  dev_tool                       ['Microsoft Visio']
+  domain                         ['BFSI', 'Payments']
+  genai                          ['Responsible AI']
+  hr                             ['Employee Engagement', 'HR Management', 'HRIS', 'Labour Law', 'Onboarding', 'Recruitment', 'Talent Management']
+  operations                     ['Procurement', 'Vendor Management']
+  project_mgmt                   ['Change Management']
+  soft_skill                     ['Leadership']
+  testing                        ['Profilers']

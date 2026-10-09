@@ -1,0 +1,72 @@
+======================================================================
+FILE: 3cd8e28a_bef08565_Prasun_Bhattacharya_CV (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Telecaller – Aegis (Vodafone Inbound Process) | Feb 2017 – Jun 2018
+• Field Work – Jio Fiber | Jan 2021 – Dec 2022
+• Medical Representative – The Medipower | Jan 2023 – Sep 2023
+• Area Sales Manager – Excellence Ventures Pvt. Ltd. | Sep 2023 – Jan 2024
+• CIC – Justdial Limited | Sep 2024 – Jan 202...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.88
+Needs review   : True
+Total exp      : 5.9 years (71 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : • Area Sales Manager
+  Company      : Excellence Ventures Pvt. Ltd. | Sep 2023 – Jan 2024
+  Location     : None
+  Start - End  : Feb 2017 - Jun 2018
+  Duration     : 17 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : None
+  Company      : Field Work – Jio Fiber
+  Location     : None
+  Start - End  : Jan 2021 - Dec 2022
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : Medical Representative – The Medipower
+  Location     : None
+  Start - End  : Jan 2023 - Sep 2023
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Area Sales Manager
+  Company      : Excellence Ventures Pvt. Ltd
+  Location     : None
+  Start - End  : Sep 2023 - Jan 2024
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : None
+  Company      : CIC – Justdial Limited
+  Location     : None
+  Start - End  : Sep 2024 - Jan 2026
+  Duration     : 17 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True

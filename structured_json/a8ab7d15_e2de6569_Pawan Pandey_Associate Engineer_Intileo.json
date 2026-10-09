@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a8ab7d15_e2de6569_Pawan Pandey_Associate Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:58.313083+00:00",
+    "generated_at": "2026-10-07T09:27:46.147023+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,18 +47,41 @@
   "summary": "To secure a challenging and rewarding Service Engineer position in a technology-driven\norganization, where 4.8 years of experience in the installation, commissioning, and\nmaintenance of CEMS and CAAQMS can be leveraged to drive service excellence, manage\nhigh-value projects, and lead a high-performing service team. Seeking to progressively learn\nand strategically deliver solutions to complex client and business needs",
   "skills": {
     "items": [
+      "CAAQMS",
+      "Calibration",
       "Conflict Resolution",
+      "Customer Relationship Management",
       "Customer Service",
+      "Gas Chromatograph",
+      "Legal Compliance",
       "LinkedIn",
       "Professional Ethics",
-      "Revenue Generation"
+      "Project Management",
+      "Revenue Generation",
+      "Revenue Management"
     ],
     "by_category": {
+      "hardware": [
+        "CAAQMS"
+      ],
+      "engineering_hardware": [
+        "Calibration"
+      ],
       "soft_skill": [
         "Conflict Resolution"
       ],
+      "sales": [
+        "Customer Relationship Management",
+        "Revenue Generation"
+      ],
       "client_mgmt": [
         "Customer Service"
+      ],
+      "engineering": [
+        "Gas Chromatograph"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "web_framework": [
         "LinkedIn"
@@ -66,8 +89,11 @@
       "soft_skills": [
         "Professional Ethics"
       ],
-      "sales": [
-        "Revenue Generation"
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "hospitality": [
+        "Revenue Management"
       ]
     },
     "_confidence": 0.92,
@@ -76,13 +102,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "",
+        "role": "Service Engineer",
         "company": "Service & Technical Expertise: Successfully managed the full lifecycle of complex air quality monitoring projects, including the installation, commissioning, and calibration of advanced Gas Analyzers (Gas chromatography, SO2, NOX, PM, and CO) and weather sensors.",
         "location": null,
         "start": "April 2021",
         "end": "Present",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 66,
+        "duration_months": 67,
         "bullets": [
           "Customer Relationship Management: Provided dedicated technical service and support based on Annual Maintenance Contracts (AMC) and Comprehensive Maintenance Contracts (CMC), focusing on reducing downtime and ensuring regulatory compliance for key clients.",
           "Problem Resolution: Specialized in advanced troubleshooting and analytical instrument diagnostics to quickly resolve complex analyzer issues, maintaining high levels of system uptime.",
@@ -90,18 +116,18 @@
           "Key Projects and Clients: Managed service and support for prominent environmental projects, including those for the Maharashtra Pollution Control Board, Brihanmumbai Municipal Corporation, and Century Rayon Grasim CEMS."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.5,
-      "total_months": 66,
+      "total_years": 5.6,
+      "total_months": 67,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.55
+    "_confidence": 0.7
   },
   "education": {
     "entries": [
@@ -132,7 +158,7 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Matunga Gurunank State Board Sitaram Prakash High Maharashtra",
+        "institution": "State Board",
         "year": "2014",
         "gpa": "84.80%",
         "_needs_review": false,
@@ -156,18 +182,18 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.81
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "low_confidence"
     },
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

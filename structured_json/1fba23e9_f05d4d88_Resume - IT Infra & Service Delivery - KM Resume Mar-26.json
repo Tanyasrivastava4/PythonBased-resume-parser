@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1fba23e9_f05d4d88_Resume - IT Infra & Service Delivery - KM Resume Mar-26_segmented.txt",
-    "generated_at": "2026-09-30T06:58:04.954483+00:00",
+    "generated_at": "2026-10-07T10:31:00.514052+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,10 +51,14 @@
       "AWS",
       "Active Directory",
       "Azure",
+      "Azure Migration",
       "BCP",
       "BFSI",
       "Business Development",
+      "Capacity Management",
       "Change Management",
+      "Cisco Nexus",
+      "Corporate Governance",
       "Creativity",
       "Cross-functional Collaboration",
       "Disaster Recovery",
@@ -64,6 +68,7 @@
       "Healthcare",
       "IT Infrastructure Management",
       "IT Ops",
+      "ITIL",
       "KPI",
       "Leadership",
       "Linux",
@@ -72,11 +77,13 @@
       "Microsoft Teams",
       "Microsoft Windows",
       "Microsoft Windows Server",
+      "Multi-Tenancy",
       "Operational Excellence",
       "Oracle Fusion Cloud",
       "Patch Management",
       "Performance Monitoring",
       "Performance Optimization",
+      "Professional Tax",
       "Recruitment",
       "Reporting",
       "Root Cause Analysis",
@@ -86,13 +93,16 @@
       "Salesforce",
       "Stakeholder Management",
       "Strategic Partnerships",
+      "TCS",
       "Telecom",
+      "VLAN Segmentation",
       "Vendor Management"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
         "Azure",
+        "Azure Migration",
         "Microsoft Windows Server"
       ],
       "security_ops": [
@@ -118,8 +128,19 @@
         "Business Development",
         "Strategic Partnerships"
       ],
+      "devops": [
+        "Capacity Management",
+        "Load Balancer"
+      ],
       "project_mgmt": [
         "Change Management"
+      ],
+      "networking": [
+        "Cisco Nexus",
+        "VLAN Segmentation"
+      ],
+      "legal": [
+        "Corporate Governance"
       ],
       "soft_skill": [
         "Creativity",
@@ -137,6 +158,9 @@
       "it_ops": [
         "IT Infrastructure Management"
       ],
+      "management": [
+        "ITIL"
+      ],
       "business_analysis": [
         "KPI"
       ],
@@ -144,11 +168,11 @@
         "Linux",
         "Microsoft Windows"
       ],
-      "devops": [
-        "Load Balancer"
-      ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "architecture": [
+        "Multi-Tenancy"
       ],
       "process": [
         "Operational Excellence"
@@ -160,6 +184,7 @@
         "Performance Optimization"
       ],
       "hr": [
+        "Professional Tax",
         "Recruitment"
       ],
       "storage": [
@@ -173,20 +198,26 @@
       ],
       "integration": [
         "Salesforce"
+      ],
+      "accounting": [
+        "TCS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%), operational excellence→Operational Excellence(100%), generative→Generative AI(95%))"
+    "_method": "flashtext_skills_section | fuzzy(cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%), Azure migrations→Azure Migration(97%), operational excellence→Operational Excellence(100%), professional→Professional Tax(95%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Global AGM",
-        "company": "Timeline 🔵 ECU Worldwide",
-        "location": "Global Logistics",
+        "company": "Timeline",
+        "location": null,
         "start": "Aug 2023",
         "end": "Aug 2024",
         "method": "date_regex",
+        "pre_date_header": [
+          "Timeline"
+        ],
         "duration_months": 13,
         "bullets": [
           "Handled multi-region IT infrastructure operations across global data centers and hybrid cloud environments, ensuring high availability, operational resilience, and SLA-driven service delivery.",
@@ -199,7 +230,7 @@
           "Established centralized Global Infrastructure Management Framework, standardizing operational policies, patch management, asset lifecycle, and performance monitoring across regions.",
           "Led Infrastructure cost optimization initiatives across data centers and cloud platforms, improving utilization, rightsizing workloads, and reducing operational expenditure.",
           "Strengthened vendor management and strategic partnerships, negotiating SLAs and driving accountability across cloud, telecom, and managed service providers.",
-          "Drove infrastructure modernization initiatives including virtualization expansion, network segmentation, identity governance, and zero-trust-"
+          "Drove infrastructure modernization initiatives including virtualization expansion, network segmentation, identity governance, and zero-trust- aligned access controls."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -207,8 +238,8 @@
         "source": "experience"
       },
       {
-        "role": "Senior Service Delivery Manager",
-        "company": "aligned access controls. 🔵 Canon Medical Systems EU",
+        "role": "Senior Service Delivery Manager (Cloud & Applications",
+        "company": "🔵 Canon Medical Systems EU",
         "location": null,
         "start": "Dec 2021",
         "end": "Feb 2023",
@@ -225,12 +256,12 @@
           "Acted as the primary escalation and stakeholder interface for business leadership, aligning IT operations with commercial, service, and financial objectives."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "High Touch Operations Manager : HTOM",
+        "role": "🔵 Cisco Systems India",
         "company": "🔵 Cisco Systems India",
         "location": null,
         "start": "Feb 2015",
@@ -245,7 +276,7 @@
           "Data Center refresh & upgrade programs (hardware lifecycle, OS upgrades, firmware standardization, migration to new Cisco Nexus platforms), reducing technical debt and improving availability SLA compliance.",
           "Coordinated with cross-functional teams for DC consolidation and migration projects, including workload migration, DR drills, failover validation, and performance benchmarking.",
           "Implemented proactive monitoring, root cause analysis, and automation initiatives that improved MTTR, enhanced uptime, and strengthened security posture in regulated BFSI and telecom environments.",
-          "Supported high-availability architectures including multi-DC redundancy, active-active designs, and disaster recovery frameworks aligned with"
+          "Supported high-availability architectures including multi-DC redundancy, active-active designs, and disaster recovery frameworks aligned with client compliance and audit requirements."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -253,14 +284,15 @@
         "source": "experience"
       },
       {
-        "role": "Senior IT Operations & Service Delivery Manager",
-        "company": "client compliance and audit requirements. 🔵 XcellHost Cloud Services Pvt. Ltd",
+        "role": "EOD ik",
+        "company": "🔵 XcellHost Cloud Services Pvt. Ltd",
         "location": null,
         "start": "Jun 2013",
         "end": "Jan 2015",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 20,
         "bullets": [
+          "Senior IT Operations & Service Delivery Manager",
           "Led a 60-member multi-disciplinary cloud operations team at XcellHost Cloud Services, overseeing Windows Operations, Cloud Security Servicac Windows Deployment, Network Engineering, Exchange Administration, Database Management, Linux Operations, and shared infrastructure services.",
           "Owned end-to-end cloud infrastructure operations and service delivery, ensuring 24x7 availability, SLA compliance, and performance optimization across hosted enterprise environments.",
           "Directed large-scale Windows server deployments, Active Directory architecture, virtualization platforms, and infrastructure lifecycle management, supporting multi-tenant cloud customers.",
@@ -270,27 +302,31 @@
           "Standardized reporting, operational KPIs, and performance dashboards across all technical verticals, bringing visibility and accountability to cross-functional cloud teams."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "IT Operations Manager",
-        "company": "Overall, in charge of all recruitment across all functions & levels.",
+        "role": "Acted as senior escalation point for enterprise clients, aligning infrastructure delivery with business continuity, security, and growth objectives",
+        "company": "🔵 Gifts4Me.in India Pvt. Ltd",
         "location": null,
         "start": "Jun 2012",
         "end": "May 2013",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "• Acted as senior escalation point for enterprise clients, aligning infrastructure delivery with business continuity, security, and growth objectives."
+        ],
         "duration_months": 12,
         "bullets": [
           "Managed the entire IT setup of the company, both internal systems and external customer-facing applications.",
+          "Overall, in charge of all recruitment across all functions & levels.",
           "Planned and executed business technology projects, covering content, analytics, and customer rollouts.",
           "Built a culture of innovation within the IT team for product enhancement.",
           "Led hiring & management of a developers and database team."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -300,7 +336,7 @@
       "total_months": 122,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.81
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -353,25 +389,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

@@ -1,0 +1,59 @@
+======================================================================
+FILE: ae10460f_304ffe4c_CA Mohit Jobanputa CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Institute of Chartered Accountant of
+Senior Product Manager 01/2022 - PRESENT
+India
+Piramal Capital & Housing Finance Limited (NBFC)
+05/2016
+Spearheaded the planning and direction for the digital lending suite, ensuring that
+
+top-ups, and other product variants, leading to a business growth of over ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.89
+Needs review   : True
+Total exp      : 9.8 years (118 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Product Manager
+  Company      : India
+  Location     : None
+  Start - End  : 01/2022 - PRESENT
+  Duration     : 58 months
+  Bullets      : 1
+    • Piramal Capital & Housing Finance Limited (NBFC) 05/2016 Spearheaded the planning and direction for the digital lending suite, ensuring that top-ups, and other product variants, leading to a business growth of over 20%
+  Sub-sections : ['Platforms', 'Led a customer support transformation initiative focused on reducing agent', 'dependency and improving customer experience via self service (Mobile app).']
+  Method       : date_regex+date_prefix_title+next_line_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Financial analysis & Credit Analysis
+  Company      : Complex problem solving
+  Location     : None
+  Start - End  : 09/2019 - 12/2021
+  Duration     : 28 months
+  Bullets      : 2
+    • Platform development for various
+    • Crore.
+  Sub-sections : ['Kotak Mahindra Bank (Banking)', 'financial Products', 'Conducted credit appraisals for 500+ mortgage proposals, ranging from 1 crore to', 'UAT Management', 'Led a cross-functional team to digitalize the loan appraisal process by integrating', 'Regulatory Compliance & Risk', 'vendors like Perfios, Finfort, and VAK.', 'Management', 'Steered stakeholder workshops to identify process improvements. Reduced TAT', 'A W A R D S', 'by ~30% while maintaining credit quality and ensuring risk coverage.']
+  Method       : date_regex+date_prefix_title+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Best
+  Company      : Expertise in analyzing credit data, financial statements, industry analysis Kotak - Employee of the Month Certificate of Kotak - Employee of the Month Certificate of Achievement reports to understand the degree of risk involved in extending credit Credit Analysis of various profiles for extending home loan credit as per policy.
+  Location     : Honored
+  Start - End  : 01/2017 - 09/2019
+  Duration     : 33 months
+  Bullets      : 0
+  Sub-sections : ['Awarded by Piramal', '────────────────────────────────────────────────────────────', "[Found 8 sections total: ['header', 'summary', 'education', 'experience', 'education', 'skills', 'certifications', 'experience']]"]
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.7
+  Needs Review : True

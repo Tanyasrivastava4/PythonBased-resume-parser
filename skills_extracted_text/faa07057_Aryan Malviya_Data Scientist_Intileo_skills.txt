@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/faa07057_Aryan Malviya_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Python, SQL
+Libraries/Frameworks: LangChain, Hugging Face, Flask, NumPy, Pandas, Matplotlib, Seaborn,
+AI & Machine Learning Skills: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Transformers,
+Prompt Engineering, Agentic AI
+Tools: GitHub, Jupyter Notebook, VS Code, Excel
+Databases: MySQL
+Cloud Platforms: Microsoft Azure (Azure AI Services)
+
+── Extraction Results ──
+Skills found   : 28
+Confidence     : 0.92
+Time           : 218.36 ms
+Method         : flashtext_skills_section | fuzzy(LLMs→LLM(100%), Retrieval-Augmented Generation→RAG(100%), Jupyter Notebook→Jupyter(100%), Excel→Microsoft Excel(100%), Generative→Generative AI(95%)...)
+
+── All Skills (28) ──
+Agentic AI, Azure, Business Planning, Cross-functional Collaboration, Customer Service, Data Science, Flask, Generative AI, GitHub, Hugging Face, Jupyter, LLM, LangChain, Machine Learning, Matplotlib, Microsoft Excel, Microsoft Teams, MySQL, NumPy, Pandas, Prompt Engineering, Python, RAG, SQL, Seaborn, Transformers, VS Code, Vector Databases
+
+── By Category ──
+  ai_ml                          ['Data Science', 'Machine Learning', 'Matplotlib', 'NumPy', 'Pandas', 'Seaborn']
+  biz_dev                        ['Business Planning']
+  client_mgmt                    ['Customer Service']
+  cloud_infra                    ['Azure']
+  data_science                   ['Transformers']
+  database                       ['MySQL', 'SQL']
+  dev_tool                       ['GitHub', 'Jupyter', 'VS Code']
+  genai                          ['Agentic AI', 'Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  productivity                   ['Microsoft Excel', 'Microsoft Teams']
+  programming_language           ['Python']
+  soft_skill                     ['Cross-functional Collaboration']
+  web_framework                  ['Flask']

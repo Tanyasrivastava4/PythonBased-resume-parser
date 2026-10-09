@@ -1,0 +1,39 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/b04ba901_4c7af033_RATNESH YADAV_AM-GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Internal Audit & Compliance
+Finance & Accounts
+Internal Control & Governance
+Enterprise Risk Management &
+Control
+Strategy Planning & Control
+MIS Reports & Management
+Statutory Audits & Compliances
+Costing & Process Improvement
+Audits & Reconciliation
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 472.16 ms
+Method         : flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), Communications→Communication(96%), facilitating→Workshop Facilitation(92%), accounting→Accounting(100%))
+
+── All Skills (24) ──
+Accounting, Auditing, Communication, Cost Analysis, Data Management, Financial Reporting, General Ledger, Internal Controls Testing, Leadership, LinkedIn, Lucidchart, MIS Reporting, MS Office, Mechanical Engineering, Process Improvement, Procurement, Risk Management, SAP, Statutory Audit, TDS, Tally, Taxation, Trend Analysis, Workshop Facilitation
+
+── By Category ──
+  accounting                     ['General Ledger']
+  banking                        ['MIS Reporting']
+  consulting                     ['Workshop Facilitation']
+  data_science                   ['Trend Analysis']
+  design                         ['Lucidchart']
+  engineering                    ['Mechanical Engineering']
+  finance_ops                    ['Accounting', 'Auditing', 'Cost Analysis', 'Financial Reporting', 'Internal Controls Testing', 'Statutory Audit', 'TDS', 'Tally', 'Taxation']
+  integration                    ['SAP']
+  operations                     ['Process Improvement', 'Procurement']
+  productivity                   ['Data Management', 'MS Office']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Communication', 'Leadership']
+  web_framework                  ['LinkedIn']

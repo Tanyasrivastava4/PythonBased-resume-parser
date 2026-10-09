@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "12809a95_Bhuvnesh Resume 1 (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:57:56.564146+00:00",
+    "generated_at": "2026-10-07T10:30:50.647372+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -55,6 +55,7 @@
       "CIS Controls",
       "DNS",
       "Digital Forensics",
+      "FIX Protocol",
       "Firewall",
       "GDPR",
       "HIPAA",
@@ -73,11 +74,14 @@
       "OWASP Top 10",
       "PCI-DSS",
       "Penetration Testing",
+      "Pitch Scripts",
       "Python",
       "Quality Assurance",
       "Security Compliance",
       "TCP/IP",
       "VAPT",
+      "Vulnerability Assessment",
+      "Vulnerability Management",
       "Wireshark"
     ],
     "by_category": {
@@ -105,11 +109,15 @@
         "OWASP Top 10",
         "PCI-DSS",
         "Penetration Testing",
-        "VAPT"
+        "VAPT",
+        "Vulnerability Assessment"
       ],
       "networking": [
         "DNS",
         "TCP/IP"
+      ],
+      "fintech": [
+        "FIX Protocol"
       ],
       "legal": [
         "GDPR"
@@ -121,7 +129,8 @@
         "IT Security",
         "Metasploit",
         "Nmap",
-        "Security Compliance"
+        "Security Compliance",
+        "Vulnerability Management"
       ],
       "programming_language": [
         "Java",
@@ -133,17 +142,20 @@
       "web_framework": [
         "LinkedIn"
       ],
+      "sales": [
+        "Pitch Scripts"
+      ],
       "operations": [
         "Quality Assurance"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(OWASP top 10→OWASP Top 10(96%), Network Security TCP→Network Security(95%), Digital Forensics Logs→Digital Forensics(95%), NMAP→Nmap(100%), Linux+→Linux(91%))"
+    "_method": "flashtext_skills_section | fuzzy(OWASP top 10→OWASP Top 10(96%), Network Security TCP→Network Security(95%), Digital Forensics Logs→Digital Forensics(95%), NMAP→Nmap(100%), Scripting→Pitch Scripts(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "",
+        "role": "Cyber Security Analyst",
         "company": "Documented 50+ vulnerabilities including DOS, Mail Impersonation, etc. for 24 different projects.",
         "location": null,
         "start": "Dec 2021",
@@ -153,23 +165,23 @@
         "bullets": [
           "Performed VAPT on 24 web applications for finding vulnerabilities using automated as well as manual tools.",
           "Configured organization’s network to fix 2 domains to ensure mail security.",
-          "Shaped 15+ documents related to minutes of meetings based on vulnerability analysis reports."
+          "Shaped 15+ documents related to minutes of meetings based on vulnerability analysis reports.",
+          "Developed an automation tool with python for auditing 10+ security analysis including Port scan, DNS Scan, etc."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Security Analyst",
-        "company": null,
-        "location": "DNS Scan",
+        "company": "Maintained Infrastructure Security actively of 40+ companies consisting of 45,000+ machines.",
+        "location": null,
         "start": "Feb 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+comma_company_location",
-        "duration_months": 44,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 45,
         "bullets": [
-          "Maintained Infrastructure Security actively of 40+ companies consisting of 45,000+ machines.",
           "Conducted Breach and Attack Simulation Audits for 8 companies improving risk score by 88%.",
           "Monitored Vulnerability Management for more than 44,000+ workstations, 2000+ servers, and network devices.",
           "Conducted Application Security Scans for 90+ web applications.",
@@ -177,15 +189,15 @@
           "Supported external organization regarding Penetration Testing of 12 web applications."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.8,
-      "total_months": 58,
+      "total_years": 4.9,
+      "total_months": 59,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.7
@@ -276,12 +288,12 @@
     },
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

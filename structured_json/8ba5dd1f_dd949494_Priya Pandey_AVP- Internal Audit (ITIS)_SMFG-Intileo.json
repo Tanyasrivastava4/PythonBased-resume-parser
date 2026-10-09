@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8ba5dd1f_dd949494_Priya Pandey_AVP- Internal Audit (ITIS)_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:37.223337+00:00",
+    "generated_at": "2026-10-07T09:27:18.101722+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,36 +48,112 @@
   "summary": "• Information Security Manager with 9+ years of experience driving enterprise-wide Governance, Risk & Compliance (GRC) programs across IT,\nhealthcare, banking, and payment ecosystems, delivering measurable improvements in security posture and regulatory readiness.\n• Proven expertise in leading complex, multi-regulatory initiatives spanning PCI DSS, PCI PIN, PCI P2PE, ISO 27001, ISO 42001, ISO 27017/27018,\nGDPR and RBI frameworks, ensuring sustained audit readiness and strengthened control maturity.\n• Strategic partner to executive leadership (CISO, CIO, CXO level), influencing cybersecurity strategy, risk prioritization, and compliance\nroadmaps through data-driven insights and governance oversight.\n• Demonstrated track record of reducing audit findings and closing control gaps, institutionalizing risk-based security frameworks to enhance\nenterprise resilience.\n• Spearheaded high-impact programs including AI Security Governance (ISO 42001), GDPR, Data Privacy (DPDPA), Third-Party Risk Management,\nand Business Continuity & Disaster Recovery.\n• Strong command over enterprise risk management and regulatory assessments, with governance oversight across VAPT, application security,\nnetwork security and cloud security practices.\n• Accomplished leader in driving cross-functional collaboration and security culture, delivering large-scale compliance and risk transformation\ninitiatives in complex environments.",
   "skills": {
     "items": [
-      "Cost Analysis",
+      "Apache Spark",
+      "Asset Management",
+      "Audit & Compliance",
+      "Auditing",
+      "Business Impact Analysis",
+      "Business Intelligence",
+      "Creativity",
       "Cross-functional Collaboration",
+      "Cryptography",
+      "Cyber Security Governance",
+      "DPDPA",
+      "Digital Transformation",
       "Disaster Recovery",
       "GDPR",
       "GRC",
       "Healthcare",
+      "Help Desk",
+      "ISMS",
+      "ISO 22301",
       "ISO 27001",
       "ISO Standards",
+      "IT Audit",
+      "ITGC",
+      "ITIL",
+      "Identity Management",
+      "Incident Management",
       "Information Security",
       "Leadership",
+      "Legal Compliance",
+      "Microsoft Teams",
       "NIST",
       "Network Security",
       "PCI-DSS",
+      "Payments",
       "RBI",
-      "Regulatory Compliance",
+      "Reporting",
       "Responsible AI",
+      "Risk Assessment",
       "Risk Management",
+      "SEBI",
+      "SOC 2",
+      "Security Awareness Training",
+      "Supply Chain",
+      "Team Leadership",
       "Third-Party Risk",
       "Time Management",
+      "Time Series Forecasting",
       "VAPT",
-      "Vendor Management"
+      "Vendor Management",
+      "Vulnerability Remediation",
+      "WAF"
     ],
     "by_category": {
+      "data_engineering": [
+        "Apache Spark"
+      ],
+      "sysadmin": [
+        "Asset Management"
+      ],
+      "domain": [
+        "Audit & Compliance",
+        "Healthcare",
+        "Payments",
+        "RBI",
+        "Supply Chain"
+      ],
       "finance_ops": [
-        "Cost Analysis"
+        "Auditing",
+        "ITGC"
+      ],
+      "management": [
+        "Business Impact Analysis",
+        "ITIL"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "soft_skill": [
+        "Creativity",
         "Cross-functional Collaboration",
         "Leadership",
+        "Reporting",
+        "Team Leadership",
         "Time Management"
+      ],
+      "security_ops": [
+        "Cryptography",
+        "Cyber Security Governance",
+        "GRC",
+        "ISMS",
+        "ISO 27001",
+        "NIST",
+        "Network Security",
+        "PCI-DSS",
+        "SOC 2",
+        "Security Awareness Training",
+        "Third-Party Risk",
+        "VAPT",
+        "WAF"
+      ],
+      "compliance": [
+        "DPDPA",
+        "Risk Assessment"
+      ],
+      "consulting": [
+        "Digital Transformation"
       ],
       "operations": [
         "Disaster Recovery",
@@ -85,47 +161,51 @@
       ],
       "legal": [
         "GDPR",
-        "Regulatory Compliance"
+        "Legal Compliance",
+        "SEBI"
       ],
-      "security_ops": [
-        "GRC",
-        "ISO 27001",
-        "NIST",
-        "Network Security",
-        "PCI-DSS",
-        "Third-Party Risk",
-        "VAPT"
+      "support": [
+        "Help Desk"
       ],
-      "domain": [
-        "Healthcare",
-        "RBI"
+      "security": [
+        "ISO 22301",
+        "IT Audit",
+        "Identity Management",
+        "Incident Management",
+        "Information Security"
       ],
       "engineering": [
         "ISO Standards"
       ],
-      "security": [
-        "Information Security"
+      "productivity": [
+        "Microsoft Teams"
       ],
       "genai": [
         "Responsible AI"
       ],
       "project_mgmt": [
         "Risk Management"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Data Privacy→GDPR(100%), healthcare→Healthcare(100%), ISO 42001→ISO Standards(89%), ISO 27017→ISO 27001(89%), closing→Cost Analysis(86%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Data Privacy→GDPR(100%), DPDP→DPDPA(89%), healthcare→Healthcare(100%), ISO 42001→ISO Standards(89%), ISO 27017→ISO 27001(89%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Manager",
+        "role": "| Information Security Manager",
         "company": "Axis Bank",
-        "location": "Information Security",
+        "location": null,
         "start": "Aug 2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 26,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 27,
         "bullets": [
           "Driving enterprise-wide cybersecurity governance and regulatory compliance strategy, aligning with ISO 27001, ISO 42001, ISO 27017/27018, PCI DSS, PCI PIN, and multi-regulatory mandates including RBI, SEBI, IRDA, and UIDAI.",
           "Orchestrating large-scale audit and certification programs, significantly enhancing control maturity and systematically reducing repeat audit observations through robust remediation governance.",
@@ -136,7 +216,8 @@
           "Championing organization-wide security awareness and culture transformation, embedding risk-conscious practices across business and technology functions.",
           "Leading cross-functional teams and complex engagements, ensuring seamless execution of concurrent regulatory, audit, and security initiatives.",
           "Driving enterprise cyber risk quantification and reporting frameworks, enabling risk-based prioritization and data-driven executive decision- making.",
-          "Leading third-party risk governance and vendor security programs, strengthening supply chain security and regulatory compliance."
+          "Leading third-party risk governance and vendor security programs, strengthening supply chain security and regulatory compliance.",
+          "Spearheading AI security governance initiatives (ISO 42001), establishing controls for emerging technology risks and responsible AI adoption."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -144,12 +225,12 @@
         "source": "experience"
       },
       {
-        "role": "Senior Associate – Information Security",
-        "company": "National Payments Corporation of India (NPCI",
+        "role": "National Payments Corporation of India (NPCI) | Senior Associate",
+        "company": "Information Security",
         "location": null,
         "start": "Jun 2023",
         "end": "Aug 2024",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 15,
         "bullets": [
           "Executed enterprise-wide ISMS maturity assessments, identifying control deficiencies and driving structured remediation to elevate security posture.",
@@ -159,7 +240,13 @@
           "Managed third-party risk assessments, mitigating high-risk vendor exposures and reinforcing ecosystem security.",
           "Led Business Continuity and Disaster Recovery programs, ensuring resilience and operational continuity.",
           "Operationalized DPDPA-aligned data privacy controls, safeguarding sensitive personal and financial data.",
-          "Enhanced incident response governance and crisis management capabilities, ensuring preparedness for high-impact security events."
+          "Enhanced incident response governance and crisis management capabilities, ensuring preparedness for high-impact security events.",
+          "Embedded security-by-design principles across digital transformation and cloud initiatives, aligning security with business innovation.",
+          "Executed internal audit programs, ensuring timely closure of non-conformities and sustained compliance adherence.",
+          "Strengthened governance frameworks aligned with client, regulatory, and organizational requirements.",
+          "Performed complex IT Risk Assessments, Vulnerability Assessments, Entity Level Controls Assessments. Implemented controls and Processes for Business-Critical Application based on ISO 27001, ITIL Methodology.",
+          "Trained employees on compliance policies and procedures, fostering a strong culture of security and compliance.",
+          "Coordination of the implementation of all IT Managing service / Help desk (Inventory like Asset Management, SLA’s and OLA’s, Operation’s Manuals, Weekly, Monthly Incident Reports and Dash Boards. ────────────────────────────────────────────────────────────"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -167,12 +254,12 @@
         "source": "experience"
       },
       {
-        "role": "Senior Associate – Audit & Compliance",
-        "company": "Intelliswift Software",
+        "role": "Intelliswift Software | Senior Associate",
+        "company": "Audit & Compliance",
         "location": null,
         "start": "May 2022",
         "end": "May 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 13,
         "bullets": [
           "Established and scaled ISMS frameworks aligned with ISO 27001, GDPR, SOC 2, and ITGC controls across diverse product environments.",
@@ -180,7 +267,8 @@
           "Executed enterprise risk assessments, developing comprehensive risk registers and mitigation strategies.",
           "Led third-party security governance and compliance evaluations, strengthening vendor risk management.",
           "Designed and delivered enterprise-wide security awareness programs, driving measurable improvements in compliance culture.",
-          "Implemented advanced security controls (WAF, NIPS, cryptography) to strengthen data protection across environments."
+          "Implemented advanced security controls (WAF, NIPS, cryptography) to strengthen data protection across environments.",
+          "Collaborated on Business Continuity and Disaster Recovery strategies, ensuring preparedness and resilience."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -188,12 +276,12 @@
         "source": "experience"
       },
       {
-        "role": "Lead – GRC",
-        "company": "Global",
-        "location": "Team",
+        "role": "Iron Systems Inc. Global | Team Lead",
+        "company": "GRC",
+        "location": null,
         "start": "Oct 2019",
         "end": "May 2022",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 32,
         "bullets": [
           "Developed and implemented information security policies, procedures and guidelines in compliance with industry standards and regulations",
@@ -201,40 +289,22 @@
           "Conducted Data Privacy Impact Assessments (DPIA), GDPR and Business Impact Assessments (BIA) to proactively identify and mitigate risks.",
           "Managed comprehensive IT audit engagements, covering cloud security, data protection, access management, and governance controls.",
           "Performed risk and vulnerability assessments, delivering actionable insights to mitigate enterprise security risks.",
-          "Collaborated with cross functional teams to enhance data protection and privacy measures."
+          "Collaborated with cross functional teams to enhance data protection and privacy measures.",
+          "Budget forecasting for various information security initiatives."
         ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "role": "Associate Executive",
-        "company": "Executed internal audit programs, ensuring timely closure of non-conformities and sustained compliance adherence.",
-        "location": null,
-        "start": "Jun 2017",
-        "end": "Oct 2019",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 29,
-        "bullets": [
-          "Strengthened governance frameworks aligned with client, regulatory, and organizational requirements.",
-          "Performed complex IT Risk Assessments, Vulnerability Assessments, Entity Level Controls Assessments. Implemented controls and Processes for Business-Critical Application based on ISO 27001, ITIL Methodology.",
-          "Trained employees on compliance policies and procedures, fostering a strong culture of security and compliance.",
-          "Coordination of the implementation of all IT Managing service / Help desk (Inventory like Asset Management, SLA’s and OLA’s, Operation’s Manuals, Weekly, Monthly Incident Reports and Dash Boards. ────────────────────────────────────────────────────────────"
-        ],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.3,
-      "total_months": 112,
-      "overlapping_periods_merged": 3
+      "total_years": 7.1,
+      "total_months": 85,
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -298,15 +368,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.67,

@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/9fd714a7_d9e39716_Resume (4)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages: Python
+Frameworks: Django, Flask, React.js, Tailwind CSS
+Databases: PostgreSQL
+
+Libraries/Tools: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, OpenCV, TensorFlow,
+Keras, MediaPipe, Pycaw, BeautifulSoup, Selenium, YOLO
+AI/ML: LLMs (Ollama, LLaMA models), RAG, Genai, Openai
+Other Tools: Git, GitHub, VS Code, Jupyter Notebook
+Professional: Communication, Problem-Solving, Adaptability, Team Collaboration
+
+── Extraction Results ──
+Skills found   : 32
+Confidence     : 0.92
+Time           : 77.11 ms
+Method         : flashtext_skills_section | fuzzy(React.js→React(100%), Scikit-learn→scikit-learn(100%), Genai→Generative AI(100%), Problem-Solving→Problem Solving(100%))
+
+── All Skills (32) ──
+Adaptability, Collaboration, Communication, Deep Learning, Django, Flask, Generative AI, Git, GitHub, Jupyter, Keras, LLM, LLaMA, Machine Learning, Matplotlib, NumPy, Ollama, OpenAI API, OpenCV, Pandas, PostgreSQL, Problem Solving, Python, RAG, React, Seaborn, Selenium, Tailwind CSS, TensorFlow, VS Code, YOLO, scikit-learn
+
+── By Category ──
+  ai_ml                          ['Deep Learning', 'Keras', 'Machine Learning', 'Matplotlib', 'NumPy', 'OpenCV', 'Pandas', 'Seaborn', 'TensorFlow', 'YOLO', 'scikit-learn']
+  database                       ['PostgreSQL']
+  dev_tool                       ['Git', 'GitHub', 'Jupyter', 'VS Code']
+  genai                          ['Generative AI', 'LLM', 'LLaMA', 'Ollama', 'OpenAI API', 'RAG']
+  programming_language           ['Python']
+  soft_skill                     ['Adaptability', 'Collaboration', 'Communication', 'Problem Solving']
+  testing                        ['Selenium']
+  web_framework                  ['Django', 'Flask', 'React', 'Tailwind CSS']

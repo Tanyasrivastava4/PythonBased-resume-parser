@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/13ed4633_9dcb76ef_Naukri_DrSandeshJain[4y_0m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Control Procedures
+Infection
+« Detoxification
+Patient
+Intramuscular Injections
++ Management
+Chronic Disease
+«
+Management
+Pain
+* Medical Histories
+Patient
+«
+Primary Care
++ Management
+excellent time company
+with strong achieve
+job seeker Ready help team
+passionate position. to
+specialist opd basis
+level milti
+goals.
+
+── Extraction Results ──
+Skills found   : 2
+Confidence     : 0.75
+Time           : 354.8 ms
+Method         : flashtext_skills_section | fuzzy(patients→Intellectual Property(93%), healthcare→Healthcare(100%), patients→Intellectual Property(93%))
+
+── All Skills (2) ──
+Healthcare, Intellectual Property
+
+── By Category ──
+  domain                         ['Healthcare']
+  legal                          ['Intellectual Property']

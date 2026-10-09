@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/bfdd8751_c6621fdd_Deepanshu Gupta_GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Proficient in Tally Prime & Microsoft Office Suite, including Word document creation, Excel data analysis and PowerPoint presentation design.
+• Working proficiency in SAP for efficient navigation and utilization of key functionalities.
+
+── Extraction Results ──
+Skills found   : 15
+Confidence     : 0.92
+Time           : 57.55 ms
+Method         : flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), PowerPoint→Microsoft PowerPoint(100%))
+
+── All Skills (15) ──
+Accounting, Accounts Payable, Data Analysis, Financial Reporting, Internal Controls Testing, LinkedIn, MIS Reporting, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, SAP, Statutory Audit, Tally, Taxation
+
+── By Category ──
+  banking                        ['MIS Reporting']
+  data_science                   ['Data Analysis']
+  finance_ops                    ['Accounting', 'Accounts Payable', 'Financial Reporting', 'Internal Controls Testing', 'Statutory Audit', 'Tally', 'Taxation']
+  integration                    ['SAP']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
+  web_framework                  ['LinkedIn']

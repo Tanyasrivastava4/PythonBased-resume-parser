@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "784eb759_5c050360_Power_BI_Developer_Kumar_Roshan_segmented.txt",
-    "generated_at": "2026-09-30T06:59:21.166733+00:00",
+    "generated_at": "2026-10-07T09:26:57.919102+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,13 +48,21 @@
   "summary": "Results-driven Power BI Developer & Data Analyst with 5+ years of experience delivering enterprise-grade BI\nsolutions across logistics, shipping, and e-commerce domains. Expert in Advanced DAX, Power Query (M), Semantic Data\nModeling, Microsoft Fabric (Lakehouse/Dataflow Gen2), Row-Level Security, and Power BI Service & Gateway\nmanagement. Proven track record of reducing dashboard refresh times by 40%, saving 15+ hours/week of\nmanual reporting, and connecting Power BI to diverse data sources including SQL databases, APIs, and cloud services\nfor real-time analytics. Adept at Azure-based data services, ETL pipeline design, SQL, and cross-functional stakeholder\nmanagement. Seeking a challenging Power BI / BI Developer role to deliver scalable, high-impact analytics solutions.",
   "skills": {
     "items": [
+      "Active Directory",
+      "Agile",
       "Apache Spark",
       "Azure",
+      "Azure ADF",
+      "Azure Synapse Analytics",
+      "Business Development",
+      "Business Intelligence",
       "Claude",
       "Cross-functional Collaboration",
       "DAX",
+      "Dashboard Development",
       "Data Analytics",
       "Data Cleaning",
+      "Data Governance",
       "Data Modeling",
       "Data Visualization",
       "Databricks",
@@ -67,16 +75,23 @@
       "GitHub Copilot",
       "Google",
       "Jira",
+      "Lakehouse Architecture",
+      "LinkedIn",
       "Logistics",
-      "Microsoft Azure Data Factory",
       "Microsoft Excel",
+      "Microsoft Fabric",
       "Microsoft Power Automate",
       "MySQL",
+      "On-Premises Data Gateway",
       "Performance Optimization",
+      "Pivot Tables",
       "Power BI",
+      "Power BI Service",
+      "Power Pivot",
       "Power Platform",
       "Power Query",
       "Query Optimization",
+      "REST API",
       "Reporting",
       "Row Level Security",
       "SQL",
@@ -84,10 +99,18 @@
       "Semantic Modeling",
       "SharePoint",
       "Stakeholder Management",
-      "Synapse Analytics",
-      "UAT"
+      "Technical Writing",
+      "UAT",
+      "VLOOKUP"
     ],
     "by_category": {
+      "security_ops": [
+        "Active Directory"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Jira"
+      ],
       "data_engineering": [
         "Apache Spark",
         "Data Cleaning",
@@ -96,9 +119,18 @@
       ],
       "cloud_infra": [
         "Azure",
-        "Dataflow",
-        "Microsoft Azure Data Factory",
-        "Synapse Analytics"
+        "Dataflow"
+      ],
+      "cloud": [
+        "Azure ADF",
+        "Azure Synapse Analytics",
+        "Microsoft Fabric"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "genai": [
         "Claude",
@@ -112,6 +144,7 @@
       ],
       "data_science": [
         "DAX",
+        "Dashboard Development",
         "Data Analytics",
         "Data Modeling",
         "Data Visualization",
@@ -119,6 +152,9 @@
         "Power Query",
         "Row Level Security",
         "Semantic Modeling"
+      ],
+      "data_management": [
+        "Data Governance"
       ],
       "retail": [
         "E-commerce"
@@ -137,17 +173,29 @@
         "Query Optimization",
         "SQL"
       ],
-      "project_mgmt": [
-        "Jira"
+      "data engineering": [
+        "Lakehouse Architecture"
+      ],
+      "web_framework": [
+        "LinkedIn",
+        "REST API"
       ],
       "operations": [
         "Logistics"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Pivot Tables"
       ],
       "rpa": [
         "Microsoft Power Automate"
+      ],
+      "bi_visualization": [
+        "On-Premises Data Gateway",
+        "Power BI Service"
+      ],
+      "analytics": [
+        "Power Pivot"
       ],
       "low_code": [
         "Power Platform"
@@ -155,12 +203,18 @@
       "integration": [
         "SharePoint"
       ],
+      "content": [
+        "Technical Writing"
+      ],
       "testing": [
         "UAT"
+      ],
+      "office": [
+        "VLOOKUP"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Performance Tuning→Performance Optimization(100%), Azure Synapse→Synapse Analytics(100%), Excel→Microsoft Excel(100%), ChatGPT→GPT(100%), logistics→Logistics(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Performance Tuning→Performance Optimization(100%), Fabric→Microsoft Fabric(100%), Azure Synapse→Azure Synapse Analytics(100%), Excel→Microsoft Excel(100%), ChatGPT→GPT(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -170,7 +224,10 @@
         "location": null,
         "start": "Jul 2025",
         "end": "Aug 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Analyst-Power BI Developer"
+        ],
         "duration_months": 2,
         "bullets": [
           "Designed and delivered end-to-end restaurant analytics solution — from requirement gathering to data modeling and dashboard deployment with version control in Power BI Service.",
@@ -189,7 +246,10 @@
         "location": null,
         "start": "Aug 2022",
         "end": "Jul 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Senior Data Analyst — Power BI"
+        ],
         "duration_months": 36,
         "bullets": [
           "Designed and maintained 20+ enterprise Power BI dashboards supporting logistics & shipping operations; administered all reports via Power BI Service workspace.",
@@ -204,12 +264,16 @@
         "source": "experience"
       },
       {
-        "role": "Marketing & BI Analyst",
-        "company": "Virohaa Internet Media",
+        "role": "Coached junior analysts on DAX performance tuning",
+        "company": "Power BI best practices, and dashboard design standards",
         "location": null,
         "start": "Jan 2021",
         "end": "Jul 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "• Coached junior analysts on DAX performance tuning, Power BI best practices, and dashboard design standards.",
+          "Marketing & BI Analyst"
+        ],
         "duration_months": 19,
         "bullets": [
           "Developed Power BI dashboards tracking marketing KPIs, campaign performance, and business growth metrics for 5+ clients monthly.",
@@ -217,8 +281,8 @@
           "Maintained technical documentation for data models, DAX logic, and dashboard design standards."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -227,7 +291,10 @@
         "location": null,
         "start": "Jun 2020",
         "end": "Dec 2020",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Social Media & Data Analyst"
+        ],
         "duration_months": 7,
         "bullets": [
           "Handled social media analytics for multiple clients; built Power BI visuals and automated engagement trend reporting.",
@@ -244,7 +311,10 @@
         "location": null,
         "start": "Jan 2020",
         "end": "Apr 2020",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Analyst Intern"
+        ],
         "duration_months": 4,
         "bullets": [
           "Supported client analytics and contributed to foundational BI reporting and data visualization workflows."
@@ -261,7 +331,7 @@
       "total_months": 67,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.87
   },
   "education": {
     "entries": [
@@ -395,12 +465,17 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

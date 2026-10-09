@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "379d229b_4786dd31_Divyansh Verma_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:16.472901+00:00",
+    "generated_at": "2026-10-07T10:31:13.659603+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,8 +48,10 @@
   "summary": "Highly skilled Flutter developer with over 4 years of experience in designing, developing, and maintaining mobile\napplications for both Android and iOS platforms. Proficient in the Dart programming language and experienced in building\nresponsive and adaptive UI components using Flutter framework. Strong understanding of clean architecture principles and\nfamiliarity with CI/CD pipelines for mobile app deployment. Proven ability to collaborate effectively with cross-functional\nteams and deliver high-quality software solutions within tight deadlines.",
   "skills": {
     "items": [
+      "API Design",
       "Agile",
       "Android",
+      "Biometrics",
       "Bloc",
       "CI/CD",
       "Clean Architecture",
@@ -57,18 +59,29 @@
       "Cross-functional Collaboration",
       "Cryptography",
       "Dart",
+      "E-commerce",
+      "E-learning",
       "Firebase",
       "Flutter",
       "GetX",
       "Git",
       "Kotlin",
+      "Lean Six Sigma",
+      "LinkedIn",
       "Microsoft Teams",
       "REST",
+      "REST API",
       "SQLite",
+      "SonarQube",
       "State Management",
       "iOS"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "Clean Architecture",
+        "State Management"
+      ],
       "project_mgmt": [
         "Agile"
       ],
@@ -79,23 +92,25 @@
         "GetX",
         "iOS"
       ],
+      "security_ops": [
+        "Biometrics",
+        "Cryptography"
+      ],
       "devops": [
         "CI/CD"
-      ],
-      "architecture": [
-        "Clean Architecture",
-        "State Management"
       ],
       "soft_skill": [
         "Communication",
         "Cross-functional Collaboration"
       ],
-      "security_ops": [
-        "Cryptography"
+      "programming": [
+        "Dart"
       ],
-      "programming_language": [
-        "Dart",
-        "Kotlin"
+      "retail": [
+        "E-commerce"
+      ],
+      "education_domain": [
+        "E-learning"
       ],
       "database": [
         "Firebase",
@@ -104,11 +119,24 @@
       "dev_tool": [
         "Git"
       ],
+      "programming_language": [
+        "Kotlin"
+      ],
+      "process": [
+        "Lean Six Sigma"
+      ],
+      "web_framework": [
+        "LinkedIn",
+        "REST API"
+      ],
       "productivity": [
         "Microsoft Teams"
       ],
       "integration": [
         "REST"
+      ],
+      "testing": [
+        "SonarQube"
       ]
     },
     "_confidence": 0.92,
@@ -123,10 +151,10 @@
         "start": "Jan 2023",
         "end": "Present",
         "method": "date_regex+title_dash_company",
-        "duration_months": 45,
+        "duration_months": 46,
         "bullets": [
           "IDEMIA is a global leader in biometrics, cryptography, and secure transactions, serving over 600+ government agencies and 2,400 enterprises in 180+ countries.",
-          "At IDEMIA, I contributed to the development of secure authentication systems across three mobile applications, implementing advanced biometric solutions including face capture, fingerprint capture (POC), and scan the project"
+          "At IDEMIA, I contributed to the development of secure authentication systems across three mobile applications, implementing advanced biometric solutions including face capture, fingerprint capture (POC), and scan the project using sonarqube."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -135,7 +163,7 @@
       },
       {
         "role": "Flutter Developer",
-        "company": "using sonarqube",
+        "company": "Tekniko Global Private Limited",
         "location": null,
         "start": "Nov 2021",
         "end": "Dec 2022",
@@ -189,8 +217,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.1,
-      "total_months": 109,
+      "total_years": 9.2,
+      "total_months": 110,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.95

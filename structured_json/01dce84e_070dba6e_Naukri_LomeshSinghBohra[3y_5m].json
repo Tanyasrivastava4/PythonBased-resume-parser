@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "01dce84e_070dba6e_Naukri_LomeshSinghBohra[3y_5m]_segmented.txt",
-    "generated_at": "2026-09-30T06:57:42.354083+00:00",
+    "generated_at": "2026-10-09T05:41:19.597104+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,11 +51,14 @@
       "AWS EC2",
       "Adaptability",
       "CNN",
-      "Collaboration",
       "Communication",
+      "Cross-functional Collaboration",
+      "Data Collection",
+      "Data Preprocessing",
       "Data Science",
       "Deep Learning",
       "Docker",
+      "Exploratory Data Analysis",
       "Flask",
       "Git",
       "Heroku",
@@ -63,23 +66,32 @@
       "Jupyter",
       "Keras",
       "LSTM",
+      "LinkedIn",
       "Machine Learning",
       "Matplotlib",
       "Microsoft Excel",
+      "Microsoft Teams",
       "NLP",
+      "NLTK",
       "NumPy",
+      "Operations Management",
       "Pandas",
+      "Pivot Tables",
       "Presentation Skills",
       "Problem Solving",
+      "Professional Tax",
       "Python",
       "REST API",
       "RNN",
+      "Reliability",
       "Reporting",
       "SQL",
       "Seaborn",
+      "Team Collaboration",
       "TensorFlow",
       "Time Management",
       "Time Series Forecasting",
+      "VLOOKUP",
       "scikit-learn",
       "spaCy"
     ],
@@ -90,12 +102,14 @@
       ],
       "soft_skill": [
         "Adaptability",
-        "Collaboration",
         "Communication",
+        "Cross-functional Collaboration",
         "Interpersonal Skills",
         "Presentation Skills",
         "Problem Solving",
+        "Reliability",
         "Reporting",
+        "Team Collaboration",
         "Time Management"
       ],
       "ai_ml": [
@@ -107,6 +121,7 @@
         "Machine Learning",
         "Matplotlib",
         "NLP",
+        "NLTK",
         "NumPy",
         "Pandas",
         "RNN",
@@ -115,11 +130,21 @@
         "Time Series Forecasting",
         "scikit-learn"
       ],
+      "research": [
+        "Data Collection"
+      ],
+      "data_engineering": [
+        "Data Preprocessing"
+      ],
       "devops": [
         "Docker"
       ],
+      "data_science": [
+        "Exploratory Data Analysis"
+      ],
       "web_framework": [
         "Flask",
+        "LinkedIn",
         "REST API"
       ],
       "dev_tool": [
@@ -127,7 +152,15 @@
         "Jupyter"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams",
+        "Pivot Tables"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "programming_language": [
         "Python",
@@ -135,6 +168,9 @@
       ],
       "database": [
         "SQL"
+      ],
+      "office": [
+        "VLOOKUP"
       ]
     },
     "_confidence": 0.92,
@@ -143,14 +179,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "| Cloud",
-        "company": " classification and regression problems. Developed NLP pipelines for text classification,",
+        "role": "Data Scientist | Cloud",
+        "company": "Cloud Cetox",
         "location": "Cetox, Noica",
         "start": "Sept 2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 25,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 26,
         "bullets": [
+          "Built and optimized machine learning models for",
+          " classification and regression problems. Developed NLP pipelines for text classification,",
           " sentiment analysis, and entity recognition. Worked on time series forecasting for sales and demand",
           " prediction. Deployed mocels using Flask to build REST APIs for",
           " integration with applications.",
@@ -183,18 +221,18 @@
           "business operations.",
           "Streamlined data collection processes to enhance"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.1,
-      "total_months": 25,
+      "total_years": 2.2,
+      "total_months": 26,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -247,19 +285,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.88
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "460009c3_24ee2a80_Gokul Mohan Arakkal_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:30.383257+00:00",
+    "generated_at": "2026-10-07T10:31:29.846711+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,19 +47,31 @@
   "summary": "Qualified Chartered Accountancy professional with hands-on experience in audit, taxation, and financial\nreporting. Proven expertise in preparing financial statements, filing GST and income tax returns, and conducting\nstatutory and internal audits across various sectors including banking, government undertakings, trusts, and\nsocieties. Skilled in regulatory compliance, client coordination, and audit documentation. Strong analytical\nacumen with a keen eye for detail and accuracy in financial and tax-related matters.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
       "Adaptability",
+      "Analytical Review",
       "Attention to Detail",
+      "Auditing",
       "Bank Reconciliation",
       "Communication",
+      "Company Law",
       "ERP",
       "Executive Presentations",
       "Financial Reporting",
       "GST",
       "GST Return Filing",
       "GSTR-3B",
+      "GSTR-9",
       "Google Workspace",
+      "Healthcare",
       "Income Tax Return",
+      "Input Tax Credit",
+      "Internal Audit",
+      "Internal Controls Testing",
+      "Legal Compliance",
+      "Limited Review",
       "LinkedIn",
       "MIS Reporting",
       "MS Office",
@@ -68,21 +80,36 @@
       "Microsoft Word",
       "Pivot Tables",
       "Problem Solving",
-      "Regulatory Compliance",
+      "Professional Tax",
       "Reporting",
       "SAP",
-      "TDS",
-      "Tally",
+      "Statutory Audit",
+      "Stock Audit",
+      "TDS Return Filing",
+      "Tally ERP 9",
       "Taxation",
       "Team Leadership",
+      "Tests of Controls",
       "Time Management",
+      "VAT",
       "VLOOKUP"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "GSTR-9",
+        "Input Tax Credit",
+        "TDS Return Filing",
+        "Tally ERP 9",
+        "VAT"
+      ],
       "finance_ops": [
         "Accounting",
+        "Auditing",
         "Financial Reporting",
-        "Tally",
+        "Internal Controls Testing",
+        "Statutory Audit",
         "Taxation"
       ],
       "soft_skill": [
@@ -96,19 +123,27 @@
         "Time Management"
       ],
       "accounting": [
+        "Analytical Review",
         "Bank Reconciliation",
-        "GST"
+        "GST",
+        "Internal Audit",
+        "Limited Review",
+        "Tests of Controls"
+      ],
+      "legal": [
+        "Company Law",
+        "Legal Compliance"
       ],
       "erp": [
         "ERP"
       ],
       "finance": [
         "GST Return Filing",
-        "Income Tax Return"
+        "Income Tax Return",
+        "Stock Audit"
       ],
       "taxation": [
-        "GSTR-3B",
-        "TDS"
+        "GSTR-3B"
       ],
       "productivity": [
         "Google Workspace",
@@ -118,14 +153,17 @@
         "Microsoft Word",
         "Pivot Tables"
       ],
+      "domain": [
+        "Healthcare"
+      ],
       "web_framework": [
         "LinkedIn"
       ],
       "banking": [
         "MIS Reporting"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "hr": [
+        "Professional Tax"
       ],
       "integration": [
         "SAP"
@@ -135,72 +173,98 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tally ERP→Tally(100%), Suite:→Google Workspace(83%), Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Effective Communication→Executive Presentations(91%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Tally ERP→Tally ERP 9(100%), Suite:→Google Workspace(83%), Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Effective Communication→Executive Presentations(91%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Audit Manager - R.S.Sanghai & Associates",
-        "company": "Executed GST Annual Return audit including turnover reconciliation, ITC validation, and tax liability verification against books of accounts of a Rs. 10,000Cr + pharmaceutical company.",
+        "role": "Audit Manager",
+        "company": "R.S.Sanghai & Associates",
         "location": null,
         "start": "Dec 2025",
         "end": "Present",
-        "method": "date_regex+pipe_split",
-        "duration_months": 10,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Audit Manager - R.S.Sanghai & Associates"
+        ],
+        "duration_months": 11,
         "bullets": [
+          "Executed GST Annual Return audit including turnover reconciliation, ITC validation, and tax liability verification against books of accounts of a Rs. 10,000Cr + pharmaceutical company.",
           "Performed limited review procedures including BRS verification, analytical review, and testing of key financial statement line items of a Rs. 2000Cr+ pharmaceutical company.",
           "Conducted risk-based internal audit procedures covering process walkthroughs, control testing, and preparation of audit observations of a Rs. 3000Cr+ pharmaceutical company.",
           "Executed head office statutory audit of a pharmaceutical company with Rs. 2000Cr+ turnover, involving consolidation-level review, analytical procedures, and coordination with multiple stakeholders."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Mohanan Chartered Accountant",
-        "company": "Prepared financial statements and supporting audit schedules for companies, distillery, supermarkets, hotels, hospitals, charitable trusts, construction and societies.",
-        "location": "A. K. Mohanan Chartered Accountant  | Kerala",
+        "role": "Audit Manager – A. K. Mohanan Chartered Accountant",
+        "company": "Kerala",
+        "location": null,
         "start": "Jan 2020",
         "end": "May 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_title_next_line_company",
+        "pre_date_header": [
+          "Audit Manager – A. K. Mohanan Chartered Accountant"
+        ],
         "duration_months": 65,
         "bullets": [
+          "Prepared financial statements and supporting audit schedules for companies, distillery, supermarkets, hotels, hospitals, charitable trusts, construction and societies.",
           "Computed capital gains for transactions involving shares, immovable properties, and Kuri investments, ensuring compliance in ITR filings.",
           "Conducted statutory audits for a wide range of entities including listed companies, private companies, trusts, and partnership firms across diverse industries.",
           "Gained sectoral exposure in resorts, hospitals, supermarkets, textiles, gold manufacturing, and toy trading businesses.",
           "Key audit engagements included: Elite Supermarket – retail sector statutory audit, Elite Mission Hospital – healthcare industry statutory audit Star Trading – trading sector statutory audit Verification of financial statements in compliance with the Companies Act, 2013 and Ind AS.",
+          "Review of internal controls and compliance with applicable laws and regulations.",
+          "Preparation of audit reports and communication of key audit findings to management.",
+          "Ensured accuracy, transparency, and adherence to statutory requirements.",
+          "Filed annual GST returns (Form 9 and 9C) for over 20 clients, ensuring accuracy and timely compliance.",
           "Led statutory audits for 10+ registered charitable trusts and societies, focusing on fund utilization and regulatory reporting.",
-          "Assisted over 25 clients with registration and compliance for Ind AS, Companies Act Regulations, PAN, TAN, GST and Income Tax."
+          "Assisted over 25 clients with registration and compliance for Ind AS, Companies Act Regulations, PAN, TAN, GST and Income Tax.",
+          "Supervised junior staff and allocated tasks to ensure completion of audit assignments within deadlines."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Mohanan Chartered Accountant",
-        "company": "Participated in 2 statutory branch audits for Bank of Baroda, covering verification of advances, income recognition, and statutory reporting.",
-        "location": "A. K. Mohanan Chartered Accountant  | Kerala",
+        "role": "Audit Assistant – A. K. Mohanan Chartered Accountant",
+        "company": "Kerala",
+        "location": null,
         "start": "May 2017",
         "end": "Dec 2019",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_title_next_line_company",
+        "pre_date_header": [
+          "Audit Assistant – A. K. Mohanan Chartered Accountant"
+        ],
         "duration_months": 32,
         "bullets": [
-          "Reviewed monthly bank reconciliation reports and financial reviews for 15+ clients Assisted in the audit of a state government undertaking (Coir Board), focusing on internal controls, and financial reporting accuracy."
+          "Assisted in statutory and internal audits for firms, and local entities.",
+          "Participated in 2 statutory branch audits for Bank of Baroda, covering verification of advances, income recognition, and statutory reporting.",
+          "Reviewed monthly bank reconciliation reports and financial reviews for 15+ clients Assisted in the audit of a state government undertaking (Coir Board), focusing on internal controls, and financial reporting accuracy.",
+          "Conducted inventory audits for trading businesses and reported valuation inconsistencies to management.",
+          "Supported preparation of financial statements and client-specific audit documentation.",
+          "Conducted stock verifications at warehouses and retail outlets, identifying control gaps.",
+          "Performed bank reconciliations and verified vendor and ledger balances.",
+          "Coordinated with clients to collect audit inputs, explain audit requirements, and resolve discrepancies."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Internal Auditor",
         "company": "Beeline Group",
-        "location": "Kerala",
+        "location": null,
         "start": "Jun 2016",
         "end": "Jul 2016",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Internal Auditor (Part-Time) – Beeline Group (Fashion Accessories)"
+        ],
         "duration_months": 2,
         "bullets": [
           "Verified previous year VAT returns and corrected inconsistencies in records.",
@@ -214,11 +278,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.1,
-      "total_months": 109,
+      "total_years": 9.2,
+      "total_months": 110,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.77
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -295,25 +359,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.63,

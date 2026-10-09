@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "006132fa_b8db8bd6_Md. Shahid Belal_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:41.018931+00:00",
+    "generated_at": "2026-10-09T05:41:17.860658+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -60,9 +60,11 @@
       "JavaScript",
       "Joomla",
       "Laravel",
+      "Markdown",
       "Mechanical Engineering",
       "MySQL",
       "PHP",
+      "Professional Tax",
       "React",
       "Route",
       "Swift",
@@ -99,8 +101,14 @@
       "soft_skill": [
         "Decision Making"
       ],
+      "documentation": [
+        "Markdown"
+      ],
       "engineering": [
         "Mechanical Engineering"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "cloud_infra": [
         "Route"
@@ -116,14 +124,43 @@
     "_method": "flashtext_skills_section | fuzzy(React JS→React(100%), JQuery→jQuery(100%), Javascript→JavaScript(100%), HTML→HTML5(100%), MYSQL→MySQL(100%)...)"
   },
   "experience": {
-    "jobs": [],
+    "jobs": [
+      {
+        "role": "php programmer from",
+        "company": "of  in Connect Infosoft Technologies Pvt. Ltd. Faridabad",
+        "location": null,
+        "start": "28th April 2015",
+        "end": "27th Jan 2023",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 93,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "php programmer from",
+        "company": "of  in Mobilise App Lab Pvt.Ltd. Faridabad",
+        "location": null,
+        "start": "27th Jan 2023",
+        "end": "Present",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 45,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
     "early_career": [],
     "total_experience": {
-      "total_years": 0.0,
-      "total_months": 0,
-      "overlapping_periods_merged": 0
+      "total_years": 11.5,
+      "total_months": 138,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.0
+    "_confidence": 0.7
   },
   "education": {
     "entries": [
@@ -154,7 +191,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": "Bihar Intermediate Education Council (Patna)",
-        "institution": "L.S.T College Aungaridham (Nalanda) BIHAR",
+        "institution": "Bihar Intermediate Education Council Patna Collage",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -183,14 +220,24 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience",
-      "confidence": 0.0,
-      "reason": "section_present_but_empty"
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
     }
   ]
 }

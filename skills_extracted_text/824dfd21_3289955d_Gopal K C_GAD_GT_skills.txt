@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/824dfd21_3289955d_Gopal K C_GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Audit and Assurance, Financial Analysis, Financial Reporting, Risk Assessment, SAP, Tally, MS Excel, MS Word, Communication, Time
+Management
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 192.66 ms
+Method         : flashtext_skills_section | fuzzy(Risk Assessment→Risk Management(100%), MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), Time Management ITT→Time Management(95%), risk assessment→Risk Management(100%)...)
+
+── All Skills (22) ──
+Accounting, Accounts Payable, Accounts Receivable, Auditing, Communication, Financial Analysis, Financial Reporting, Internal Controls Testing, LinkedIn, Microsoft Excel, Microsoft Teams, Microsoft Word, Risk Management, SAP, Stakeholder Management, Statutory Audit, Substantive Testing, TDS, Tally, Tax Audit, Taxation, Time Management
+
+── By Category ──
+  accounting                     ['Tax Audit']
+  finance_ops                    ['Accounting', 'Accounts Payable', 'Accounts Receivable', 'Auditing', 'Financial Analysis', 'Financial Reporting', 'Internal Controls Testing', 'Statutory Audit', 'Substantive Testing', 'TDS', 'Tally', 'Taxation']
+  integration                    ['SAP']
+  productivity                   ['Microsoft Excel', 'Microsoft Teams', 'Microsoft Word']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Communication', 'Stakeholder Management', 'Time Management']
+  web_framework                  ['LinkedIn']

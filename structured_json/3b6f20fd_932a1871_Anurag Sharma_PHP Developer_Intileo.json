@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3b6f20fd_932a1871_Anurag Sharma_PHP Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:19.856561+00:00",
+    "generated_at": "2026-10-07T10:31:17.632602+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,20 +47,33 @@
   "summary": "A self-driven Software Engineer with 3 years of experience in developing high-performance web applications\nusing PHP, SQL. Skilled in building scalable backend systems, implementing secure role-based access control,\nand contributing across the full SDLC. Strong team collaborator with a focus on clean code, performance\noptimization, and delivering reliable, impactful software solutions.",
   "skills": {
     "items": [
+      "Agile",
+      "Axios",
       "Bootstrap",
       "CI/CD",
       "CSS3",
+      "Caching",
       "Collaboration",
+      "E-commerce",
       "Git",
       "GitLab",
       "HTML5",
+      "Healthcare",
       "Java",
       "JavaScript",
       "Laravel",
+      "LinkedIn",
+      "MVC Architecture",
       "Markdown",
+      "Microsoft Teams",
+      "Multithreading",
       "PHP",
       "Performance Optimization",
-      "Role-Based Access Control",
+      "Query Optimization",
+      "RBAC",
+      "REST",
+      "Reliability",
+      "Reporting",
       "SDLC",
       "SQL",
       "Tailwind CSS",
@@ -69,11 +82,18 @@
       "jQuery"
     ],
     "by_category": {
+      "project_mgmt": [
+        "Agile"
+      ],
+      "web_dev": [
+        "Axios"
+      ],
       "web_framework": [
         "Bootstrap",
         "CSS3",
         "HTML5",
         "Laravel",
+        "LinkedIn",
         "Tailwind CSS",
         "Yii",
         "jQuery"
@@ -81,30 +101,50 @@
       "devops": [
         "CI/CD"
       ],
+      "architecture": [
+        "Caching",
+        "SDLC"
+      ],
       "soft_skill": [
-        "Collaboration"
+        "Collaboration",
+        "Reliability",
+        "Reporting"
+      ],
+      "retail": [
+        "E-commerce"
       ],
       "dev_tool": [
         "Git",
         "GitLab",
         "Performance Optimization"
       ],
+      "domain": [
+        "Healthcare"
+      ],
       "programming_language": [
         "Java",
         "JavaScript",
+        "Multithreading",
         "PHP"
+      ],
+      "software_engineering": [
+        "MVC Architecture"
       ],
       "documentation": [
         "Markdown"
       ],
-      "security_ops": [
-        "Role-Based Access Control"
-      ],
-      "architecture": [
-        "SDLC"
+      "productivity": [
+        "Microsoft Teams"
       ],
       "database": [
+        "Query Optimization",
         "SQL"
+      ],
+      "security": [
+        "RBAC"
+      ],
+      "integration": [
+        "REST"
       ],
       "content": [
         "WordPress"
@@ -121,8 +161,11 @@
         "location": null,
         "start": "August 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 14,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Developer, Globohub Slx – Meerut"
+        ],
+        "duration_months": 15,
         "bullets": [
           "Developed core backend features including order processing, currency handling, coupons, and pricing rules",
           "Built and integrated admin panel functionalities such as product, category, order, user, and coupon management.",
@@ -141,7 +184,10 @@
         "location": null,
         "start": "July 2024",
         "end": "May 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Developer, Samarth Egov – New Delhi"
+        ],
         "duration_months": 11,
         "bullets": [
           "Developed and maintained web applications using PHP (Yii2 Framework) and SQL, contributing across the full software development lifecycle.",
@@ -149,8 +195,7 @@
           "Optimized application performance and page speed using caching, query optimization.",
           "Built full-stack features by designing and integrating front-end (HTML, CSS, JavaScript), back-end logic (PHP), and database schemas SQL.",
           "Explored and implemented advanced features like Job Queues and Dynamic PDF generation for large-scale reporting.",
-          "Worked in agile teams, collaborating with designers, testers, and backend engineers to deliver high-quality, scalable software within deadlines.",
-          "Completed 6 weeks of Core JAVA training by submitting the capstone project on JAVA."
+          "Worked in agile teams, collaborating with designers, testers, and backend engineers to deliver high-quality, scalable software within deadlines."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -163,7 +208,10 @@
         "location": null,
         "start": "Jan 2023",
         "end": "July 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Engineer, Thinkway Industries Pvt Ltd – New Delhi"
+        ],
         "duration_months": 19,
         "bullets": [
           "Collaborated in a team to build a healthcare web application allowing patients to book appointments and doctors to manage medical records, using PHP with SQL for the backend.",
@@ -176,15 +224,34 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "Software Developer, Globohub Slx",
+        "company": "Meerut",
+        "location": null,
+        "start": "July 2022",
+        "end": "August 2022",
+        "method": "date_regex+inherited_company",
+        "pre_date_header": [
+          "Core Java"
+        ],
+        "duration_months": 2,
+        "bullets": [
+          "Completed 6 weeks of Core JAVA training by submitting the capstone project on JAVA."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.6,
-      "total_months": 43,
+      "total_years": 3.8,
+      "total_months": 46,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -233,8 +300,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.93
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

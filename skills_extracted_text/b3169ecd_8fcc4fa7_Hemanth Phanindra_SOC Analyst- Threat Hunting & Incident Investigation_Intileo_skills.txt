@@ -1,0 +1,34 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/b3169ecd_8fcc4fa7_Hemanth Phanindra_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+SIEM: Azure Sentinel, IBM QRadar, Splunk.
+Firewalls: Palo Alto, Zscaler, Fortinet.
+EDR: SentinelOne, Falcon CrowdStrike, Microsoft Defender ATP
+Email Security: Proofpoint, O365
+Vulnerability Management: Nessus, Qualys
+Ticketing Tools: ServiceNow, Jira
+Other Security Tools: IDS, IPS, DLP, CrowdStrike Falcon
+Phishing and Email Analysis: Proofpoint, Symantec
+
+── Extraction Results ──
+Skills found   : 35
+Confidence     : 0.92
+Time           : 436.47 ms
+Method         : flashtext_skills_section | fuzzy(Defender→Microsoft Defender(100%), swift→Swift(100%), Defender→Microsoft Defender(100%))
+
+── All Skills (35) ──
+AWS, AWS EC2, Cisco ASA, DLP, EDR, Endpoint Security, Firewall, IDS/IPS, Incident Management, Incident Response, Jira, KQL, Leadership, Log Analysis, MITRE ATT&CK, McAfee, Mechanical Engineering, Microsoft Azure Sentinel, Microsoft Defender, Microsoft Teams, Nessus, Network Security, Office 365, Palo Alto Networks, Phishing, Reporting, Root Cause Analysis, SIEM, SIEM Monitoring, ServiceNow, Splunk, Swift, Symantec Endpoint Protection, Threat Hunting, Threat Intelligence
+
+── By Category ──
+  cloud_infra                    ['AWS', 'AWS EC2', 'Microsoft Azure Sentinel']
+  engineering                    ['Mechanical Engineering']
+  integration                    ['Office 365', 'ServiceNow']
+  operations                     ['Root Cause Analysis']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Swift']
+  project_mgmt                   ['Jira']
+  security                       ['McAfee', 'SIEM Monitoring', 'Symantec Endpoint Protection']
+  security_ops                   ['Cisco ASA', 'DLP', 'EDR', 'Endpoint Security', 'Firewall', 'IDS/IPS', 'Incident Management', 'Incident Response', 'KQL', 'Log Analysis', 'MITRE ATT&CK', 'Microsoft Defender', 'Nessus', 'Network Security', 'Palo Alto Networks', 'Phishing', 'SIEM', 'Splunk', 'Threat Hunting', 'Threat Intelligence']
+  soft_skill                     ['Leadership', 'Reporting']

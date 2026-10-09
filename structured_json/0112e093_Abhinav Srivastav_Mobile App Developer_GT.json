@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0112e093_Abhinav Srivastav_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:41.087811+00:00",
+    "generated_at": "2026-10-09T05:41:17.946890+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,21 +46,63 @@
   "summary": null,
   "skills": {
     "items": [
+      "API Design",
+      "AWS Amplify",
+      "Caching",
       "Core Data",
+      "Coroutines Flow",
+      "Cross-functional Collaboration",
+      "Figma",
+      "Firebase",
+      "Git",
+      "GlueDin",
+      "In-App Purchase",
       "Interface Builder",
       "MapKit",
+      "Microsoft Teams",
+      "Razorpay",
       "Swift",
+      "SwiftUI",
       "UIKit",
+      "URLSession",
       "iOS"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "Caching"
+      ],
+      "cloud_infra": [
+        "AWS Amplify"
+      ],
       "mobile_dev": [
         "Core Data",
+        "Coroutines Flow",
+        "GlueDin",
+        "In-App Purchase",
         "MapKit",
-        "UIKit"
+        "SwiftUI",
+        "UIKit",
+        "URLSession"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "design": [
+        "Figma"
+      ],
+      "database": [
+        "Firebase"
       ],
       "dev_tool": [
+        "Git",
         "Interface Builder"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "fintech": [
+        "Razorpay"
       ],
       "programming_language": [
         "Swift"
@@ -75,13 +117,16 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Integrations",
+        "role": "Noida Sec-62 — iOS Developer Jan 2022",
+        "company": "Nov 2024",
         "location": "SwiftUI",
         "start": "Nov 2024",
         "end": "PRESENT",
         "method": "date_regex+comma_company_location",
-        "duration_months": 23,
+        "pre_date_header": [
+          "Integrations,SwiftUI , RESTful"
+        ],
+        "duration_months": 24,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -89,12 +134,19 @@
         "source": "experience"
       },
       {
-        "role": ", Figma Noida Sec-62 — iOS Developer",
-        "company": "Amplify",
-        "location": "Figma Noida Sec-62",
+        "role": "APIs, IAP, Razorpay",
+        "company": "Gluedin,Notifications",
+        "location": "",
         "start": "Jan 2022",
         "end": "Nov 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "pre_date_header": [
+          "APIs, IAP, Razorpay,",
+          "Gluedin,Notifications,",
+          "Netprophets Cyberworks Pvt. Ltd.",
+          "URLSession, Git, Firebase, AWS",
+          "Amplify, Figma"
+        ],
         "duration_months": 35,
         "bullets": [
           "Performance Enhancement: Implemented image caching for improved app performance and reduced loading times.",
@@ -109,7 +161,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 4.8,
-      "total_months": 57,
+      "total_months": 58,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.92

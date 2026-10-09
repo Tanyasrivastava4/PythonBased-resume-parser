@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "66bae920_f31ef17e_Chandrakant Sudhakar Ingle_Associate Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:03.592001+00:00",
+    "generated_at": "2026-10-07T09:26:42.614710+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,10 +51,29 @@
   "skills": {
     "items": [
       "Calibration",
+      "Circuit Analysis",
+      "Communication",
+      "E-commerce",
+      "Ethernet",
+      "FIX Protocol",
+      "Function Generator",
+      "HyperTerminal",
       "Instrumentation",
       "Maintenance Management",
+      "Microsoft Teams",
+      "Modbus",
+      "Multimeter",
+      "Optical Fiber Cable",
+      "Oscilloscope",
+      "PCB Troubleshooting",
       "Proofreading",
       "Quality Assurance",
+      "Quality Control",
+      "R",
+      "Radiation Safety",
+      "Reliability",
+      "Soldering & Rework",
+      "Technical Support",
       "Technical Writing",
       "Video Editing"
     ],
@@ -63,8 +82,39 @@
         "Calibration",
         "Instrumentation"
       ],
+      "hardware": [
+        "Circuit Analysis",
+        "Function Generator",
+        "Modbus",
+        "Multimeter",
+        "Optical Fiber Cable",
+        "Oscilloscope",
+        "PCB Troubleshooting",
+        "Radiation Safety",
+        "Soldering & Rework"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reliability"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "networking": [
+        "Ethernet"
+      ],
+      "fintech": [
+        "FIX Protocol"
+      ],
+      "dev_tool": [
+        "HyperTerminal"
+      ],
       "engineering": [
-        "Maintenance Management"
+        "Maintenance Management",
+        "Quality Control"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "content": [
         "Proofreading",
@@ -73,30 +123,39 @@
       "operations": [
         "Quality Assurance"
       ],
+      "programming_language": [
+        "R"
+      ],
+      "support": [
+        "Technical Support"
+      ],
       "design": [
         "Video Editing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(calibration→Calibration(100%), calibration→Calibration(100%), Editing→Proofreading(100%), calibration→Calibration(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Soldering→Soldering & Rework(100%), soldering→Soldering & Rework(100%), desoldering→Soldering & Rework(100%), calibration→Calibration(100%), Modbus Poll→Modbus(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Service Engineer",
         "company": "Nathani Industrial Services Pvt. Ltd",
-        "location": "India",
+        "location": "Mumbai, India",
         "start": "May 2022",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict+comma_company_location",
-        "duration_months": 53,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Service Engineer",
+          "Nathani Industrial Services Pvt. Ltd. | Mumbai, India"
+        ],
+        "duration_months": 54,
         "bullets": [
           "Led the installation, calibration, preventive, and corrective maintenance of specialized radiation safety and electronic monitoring instruments for critical clients.",
           "Routinely performed component-level PCB repair, diagnosing complex faults, executing precise component replacement and circuit corrections, maintaining a high first-time fix rate and reducing system downtime.",
           "Delivered high-level technical support, training, and product demonstrations, fostering strong relationships with major industrial and research clients, including Tata Steel, Maruti Suzuki, B.A.R.C., and B.R.I.T.",
           "Implemented and maintained Scrap Monitoring Systems (using Ludlum Model 4525) and managed Radiation Portal Monitors for vehicle/material screening.",
-          "Executed Optical Fiber Cable (OFC) conversions to optimize data communication reliability in monitoring systems.",
-          "Drove sales and market presence by managing product listings on e-commerce portals (Amazon, IndiaMART) and successfully participating in E-auction bidding on the"
+          "Executed Optical Fiber Cable (OFC) conversions to optimize data communication reliability in monitoring systems."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -109,7 +168,14 @@
         "location": "India",
         "start": "July 2017",
         "end": "May 2022",
-        "method": "date_regex+pipe_company_loc_role+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "• Drove sales and market presence by managing product listings on e-commerce portals",
+          "(Amazon, IndiaMART) and successfully participating in E-auction bidding on the",
+          "MSTC platform.",
+          "Jr. Engineer",
+          "PLA Electro Appliance Pvt. Ltd. | Mumbai, India"
+        ],
         "duration_months": 59,
         "bullets": [
           "Successfully installed radiation instruments at highly sensitive nuclear facilities (B.A.R.C., B.R.I.T.), ensuring adherence to stringent safety and operational protocols.",
@@ -123,20 +189,21 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Worked From",
+        "role": "Worked From:  (7 days",
+        "company": "Details",
         "location": null,
         "start": "November 2023",
         "end": "November 2023",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 1,
         "bullets": [
           "Led the installation and commissioning of the Ludlum Model 4525 Scrap Monitoring System to detect and prevent radioactive contamination in scrap metal shipments.",
-          "Configured sensors, performed Ethernet conversions for data transmission, calibrated detectors, and trained on-site engineers in system operation and maintenance."
+          "Configured sensors, performed Ethernet conversions for data transmission, calibrated detectors, and trained on-site engineers in system operation and maintenance.",
+          "Project Title: Radiation Portal Monitor Installation Ludlum Model 4525-5000"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -146,6 +213,11 @@
         "start": "July 2022",
         "end": "July 2022",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Tag: Nathani Industrial Services Pvt. Ltd.",
+          "Client: Maruti Suzuki, Gurgaon",
+          "Project Status: Completed"
+        ],
         "duration_months": 1,
         "bullets": [
           "Supervised end-to-end installation of Radiation Portal Monitors for vehicle and material screening at plant entry points.",
@@ -164,6 +236,12 @@
         "start": "March 2022",
         "end": "May 2022",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Project Title: Continuous Air Monitoring System Calibration",
+          "Tag: PLA Electro Appliance Pvt. Ltd.",
+          "Client: Bhabha Atomic Research Centre (B.A.R.C.), Mumbai",
+          "Project Status: Completed"
+        ],
         "duration_months": 3,
         "bullets": [
           "Executed calibration and functional verification of Continuous Air Monitoring systems to ensure accuracy in radiation detection in controlled environments.",
@@ -181,6 +259,12 @@
         "start": "February 2018",
         "end": "February 2018",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Project Title: Hand & Foot Monitor Installation",
+          "Tag: PLA Electro Appliance Pvt. Ltd.",
+          "Client: Board of Radiation & Isotope Technology (B.R.I.T.), Mumbai",
+          "Project Status: Completed"
+        ],
         "duration_months": 1,
         "bullets": [
           "Configured detection thresholds, verified operational stability, and supported system integration within the client’s radiation control program."
@@ -193,11 +277,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.2,
-      "total_months": 111,
+      "total_years": 9.3,
+      "total_months": 112,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.84
+    "_confidence": 0.86
   },
   "education": {
     "entries": [
@@ -218,13 +302,46 @@
         "degree_type": "diploma",
         "degree_field": "Electronics & Telecommunication Engineering",
         "institution": "Vidyalankar Polytechnic Mumbai",
-        "year": "1993",
+        "year": null,
         "gpa": "60%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• Higher Secondary Certificate (HSC) | Shivaji Shikshan Sansthan – Multipurpose",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Shivaji Shikshan Sansthan",
+        "year": "1993",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "Technical High School, Mumbai — 63.17%",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Shivaji Shikshan Sansthan",
+        "year": "1993",
+        "gpa": "63.17%",
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "• Secondary School Certificate (SSC) | Little Flower English High School, Mumbai",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Little Flower English High School Mumbai",
+        "year": "1993",
+        "gpa": "50.20%",
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.88
+    "_confidence": 0.86
   },
   "certifications": {
     "items": [],
@@ -239,11 +356,6 @@
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[3]",
       "confidence": 0.85,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "76a52103_0b53c66b_Parampreet Singh - Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:59:19.406368+00:00",
+    "generated_at": "2026-10-07T09:26:55.544036+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -46,50 +46,74 @@
   "summary": null,
   "skills": {
     "items": [
-      "Accounting",
-      "Auditing",
+      "Accounting Standards",
       "Communication",
+      "Company Law",
       "Computax",
+      "Direct Taxation",
       "Financial Reporting",
+      "Fixed Assets Management",
       "GST",
       "GST Return Filing",
       "GSTR-1",
       "GSTR-3B",
       "Income Tax Return",
+      "Indirect Taxation",
       "Internal Controls Testing",
       "Interpersonal Skills",
+      "LFAR",
+      "LinkedIn",
       "Microsoft Excel",
+      "Physical Verification",
       "Procure-to-Pay",
+      "Purchase Orders",
       "Reporting",
       "SAS",
+      "Standards on Auditing",
       "Statutory Audit",
-      "TDS",
-      "Tally",
+      "TCS",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Tax Litigation",
       "Taxation",
+      "Tests of Controls",
       "VLOOKUP",
       "Vouching"
     ],
     "by_category": {
-      "finance_ops": [
-        "Accounting",
-        "Auditing",
-        "Financial Reporting",
-        "Internal Controls Testing",
-        "Statutory Audit",
-        "Tally",
-        "Taxation"
+      "accounting_finance": [
+        "Accounting Standards",
+        "Standards on Auditing",
+        "Tally ERP 9",
+        "Tax Auditing"
       ],
       "soft_skill": [
         "Communication",
         "Interpersonal Skills",
         "Reporting"
       ],
+      "legal": [
+        "Company Law"
+      ],
       "office": [
         "Computax",
         "VLOOKUP"
       ],
+      "finance_ops": [
+        "Direct Taxation",
+        "Financial Reporting",
+        "Indirect Taxation",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Taxation"
+      ],
       "accounting": [
-        "GST"
+        "Fixed Assets Management",
+        "GST",
+        "LFAR",
+        "Physical Verification",
+        "TCS",
+        "Tests of Controls"
       ],
       "finance": [
         "GST Return Filing",
@@ -100,10 +124,16 @@
       "taxation": [
         "GSTR-1",
         "GSTR-3B",
-        "TDS"
+        "Tax Litigation"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel"
+      ],
+      "operations": [
+        "Purchase Orders"
       ],
       "data_science": [
         "SAS"
@@ -115,12 +145,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Articled Assistant at Rajiv Rajeev & Associates",
-        "company": "A well-known CA firm having of presence in Ludhiana offering services to 150+ clients like Statutory Audits, Tax Audits",
-        "location": "Ludhiana, Punjab",
+        "role": "Articled Assistant",
+        "company": "Rajiv Rajeev & Associates, Ludhiana",
+        "location": "Punjab",
         "start": "August 2021",
         "end": "August 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Articled Assistant at Rajiv Rajeev & Associates, Ludhiana, Punjab"
+        ],
         "duration_months": 37,
         "bullets": [
           "A well-known CA firm having 25 years of presence in Ludhiana offering services to 150+ clients like Statutory Audits, Tax Audits, personalized tax planning, GST and Bank Audits.",
@@ -142,8 +175,8 @@
           "Direct Taxation",
           "Indirect Taxation"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -153,7 +186,7 @@
       "total_months": 37,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -178,17 +211,6 @@
         "gpa": "94.15%",
         "_needs_review": false,
         "_confidence": 0.95
-      },
-      {
-        "degree": "SKILLS: Tally | CompuTax | MS Excel | MS Office | Report Writing | Variance Analysis | IFRS | Analytical Skills | Professional Ethics",
-        "degree_name": "M.S.",
-        "degree_type": "masters",
-        "degree_field": null,
-        "institution": null,
-        "year": null,
-        "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.65
       },
       {
         "degree": "Chartered Institute of Chartered September 2025 CA Final: 337/600",
@@ -224,7 +246,7 @@
         "_confidence": 0.8
       }
     ],
-    "_confidence": 0.85
+    "_confidence": 0.89
   },
   "certifications": {
     "items": [
@@ -277,20 +299,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.81
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

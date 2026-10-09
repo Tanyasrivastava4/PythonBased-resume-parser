@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "31216ee8_c804f50b_JD_RSM_Cloud Photonix_segmented.txt",
-    "generated_at": "2026-09-30T06:58:14.423082+00:00",
+    "generated_at": "2026-10-07T10:31:11.246373+00:00",
     "sections_found": [
       "experience",
       "header",
@@ -54,7 +54,8 @@
       "REST",
       "Reporting",
       "Revenue Generation",
-      "SaaS Sales",
+      "Self Motivation",
+      "Software Sales",
       "Telecom"
     ],
     "by_category": {
@@ -65,12 +66,13 @@
       "sales": [
         "Channel Sales",
         "Revenue Generation",
-        "SaaS Sales"
+        "Software Sales"
       ],
       "soft_skill": [
         "Communication",
         "Creativity",
-        "Reporting"
+        "Reporting",
+        "Self Motivation"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -86,7 +88,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(channel management→Channel Sales(100%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(channel management→Channel Sales(100%), self-motivated→Self Motivation(93%))"
   },
   "experience": {
     "jobs": [],

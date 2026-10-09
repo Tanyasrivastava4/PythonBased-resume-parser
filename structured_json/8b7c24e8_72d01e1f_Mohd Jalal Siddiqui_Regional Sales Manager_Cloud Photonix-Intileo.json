@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8b7c24e8_72d01e1f_Mohd Jalal Siddiqui_Regional Sales Manager_Cloud Photonix-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:36.080882+00:00",
+    "generated_at": "2026-10-07T09:27:16.700126+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -57,20 +57,26 @@
       "Account Management",
       "B2B Sales",
       "Business Development",
+      "Business Intelligence",
       "Channel Sales",
       "Client Relationship Management",
       "Communication",
       "Cross-functional Collaboration",
       "Enterprise Sales",
       "Key Account Management",
+      "Lead Generation",
+      "Logistics",
       "Market Research",
-      "Microsoft DirectX",
       "Microsoft Teams",
       "Negotiation",
+      "Networking",
+      "PRI",
       "Problem Solving",
+      "REACH",
       "Revenue Generation",
       "Sales Management",
-      "Strategic Thinking",
+      "Strategic Planning",
+      "Team Coordination",
       "Team Leadership",
       "Telecom",
       "Time Management"
@@ -81,11 +87,16 @@
         "B2B Sales",
         "Channel Sales",
         "Enterprise Sales",
+        "Lead Generation",
         "Revenue Generation",
         "Sales Management"
       ],
       "biz_dev": [
-        "Business Development"
+        "Business Development",
+        "Networking"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "client_mgmt": [
         "Client Relationship Management",
@@ -96,25 +107,34 @@
         "Cross-functional Collaboration",
         "Negotiation",
         "Problem Solving",
-        "Strategic Thinking",
         "Team Leadership",
         "Time Management"
+      ],
+      "operations": [
+        "Logistics"
       ],
       "marketing": [
         "Market Research"
       ],
-      "os_system": [
-        "Microsoft DirectX"
-      ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "networking": [
+        "PRI"
+      ],
+      "compliance": [
+        "REACH"
+      ],
+      "management": [
+        "Strategic Planning",
+        "Team Coordination"
       ],
       "domain": [
         "Telecom"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Direct→Microsoft DirectX(92%), Enterprise sales→Enterprise Sales(100%), channel management→Channel Sales(100%), business development→Business Development(100%), cross-functional→Cross-functional Collaboration(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Enterprise→Business Intelligence(95%), Enterprise→Business Intelligence(95%), Enterprise sales→Enterprise Sales(100%), channel management→Channel Sales(100%), business development→Business Development(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -124,8 +144,12 @@
         "location": null,
         "start": "Jan 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 21,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Auriganet Digitel Technology Pvt Ltd",
+          "Enterprise Sales Manager"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Identify and pursue new business opportunities in the enterprise segment across assigned regions.",
           "Develop and maintain strong relationships with CTO, IT Heads, and decision-makers of large organizations.",
@@ -142,7 +166,11 @@
         "location": null,
         "start": "Aug 2023",
         "end": "Dec 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Aerpace Communication Pvt Ltd",
+          "Enterprise Sales Manager"
+        ],
         "duration_months": 17,
         "bullets": [
           "Drove new business acquisition and expanded enterprise accounts.",
@@ -155,12 +183,17 @@
         "source": "experience"
       },
       {
-        "role": "Enterprise Sales Apil",
-        "company": "Team Leader",
-        "location": "Enterprise Sales Apil",
-        "start": "2022",
+        "role": "Team Leader - Enterprise Sales",
+        "company": "Shyam Spctra Pvt Ltd",
+        "location": null,
+        "start": "Apil 2022",
         "end": "July 2023",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_title_next_line_company",
+        "pre_date_header": [
+          "Led high-performing sales team and set strategic goals",
+          "Shyam Spctra Pvt Ltd",
+          "Team Leader - Enterprise Sales"
+        ],
         "duration_months": 19,
         "bullets": [
           "Managed team to boost enterprise sales revenue.",
@@ -174,12 +207,16 @@
         "source": "experience"
       },
       {
-        "role": "Enterprise Sales",
-        "company": "Team Leader",
-        "location": "Enterprise Sales",
+        "role": "Team Leader - Enterprise Sales",
+        "company": "Hathway Cabletech Services Pvt Ltd",
+        "location": null,
         "start": "Dec 2011",
         "end": "April 2022",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_compound_role+multiline_company_above_role",
+        "pre_date_header": [
+          "Hathway Cabletech Services Pvt Ltd",
+          "Team Leader - Enterprise Sales"
+        ],
         "duration_months": 125,
         "bullets": [
           "Supervised sales operations for enterprise customers.",
@@ -192,27 +229,58 @@
         "source": "experience"
       },
       {
-        "role": "Enterprise Sales",
-        "company": "Handlling Top Corporat Accounts like DHL Logistics,Devlopment Credit Bank,Indusind Bank,Godrej Groups and Raymond Ltd.",
-        "location": "Enterprise Sales",
+        "role": "Sr Sales Executive - Enterprise Sales",
+        "company": "Reliance Communication Ltd (RHRS",
+        "location": null,
+        "start": "Jan 2011",
+        "end": "Nov 2011",
+        "method": "date_regex+dash_compound_role+multiline_company_above_role",
+        "pre_date_header": [
+          "Reliance Communication Ltd (RHRS)",
+          "Sr Sales Executive - Enterprise Sales"
+        ],
+        "duration_months": 11,
+        "bullets": [
+          "Acquired new enterprise customers in banking, pharma, and insurance sectors.",
+          "Increased monthly order bookings and revenue.",
+          "Built strong corporate relationships for long-term growth."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Key Account Sales Executive - Enterprise Sales",
+        "company": "Tata Teleservices (M) Ltd",
+        "location": null,
         "start": "Oct 2007",
         "end": "Dec 2010",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_compound_role+multiline_company_above_role",
+        "pre_date_header": [
+          "Tata Teleservices (M) Ltd",
+          "Key Account Sales Executive - Enterprise Sales"
+        ],
         "duration_months": 39,
-        "bullets": [],
+        "bullets": [
+          "Handlling Top Corporat Accounts like DHL Logistics,Devlopment Credit Bank,Indusind Bank,Godrej Groups and Raymond Ltd.",
+          "Sold telecom services to enterprise clients.PRI,Lased Line, Wirless Product Data Card Etc....",
+          "Managed sales process from lead generation to contract signing.",
+          "Delivered presentations and technical demos to clients."
+        ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 18.1,
-      "total_months": 217,
+      "total_years": 19.1,
+      "total_months": 229,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -221,7 +289,7 @@
         "degree_name": "Graduation",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Hons Vinoba Bhave University Hazari Bagh",
+        "institution": "Vinoba Bhave University Hazari Bagh",
         "year": "2003",
         "gpa": null,
         "_needs_review": false,
@@ -232,8 +300,19 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Education Banwari Lal Bholatia College West Bengal Higher Secondary Board",
+        "institution": "Banwari Lal Bholatia College West Bengal Higher Secondary Board",
         "year": "2000",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "10th / Secondary School Certificate (SSC)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Kendwa High School, Madhyamik Board, West Bengal Kulti, West Bengal",
+        "year": "1997",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -276,15 +355,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.68,

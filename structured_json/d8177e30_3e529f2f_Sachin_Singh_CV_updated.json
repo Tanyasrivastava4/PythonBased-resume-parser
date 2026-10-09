@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d8177e30_3e529f2f_Sachin_Singh_CV_updated_segmented.txt",
-    "generated_at": "2026-09-30T07:00:30.479286+00:00",
+    "generated_at": "2026-10-07T09:28:28.182102+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,9 +51,9 @@
       "Burp Suite",
       "CEH",
       "CISSP",
-      "Collaboration",
       "Communication",
       "Defensive Security",
+      "Docker",
       "Incident Management",
       "Leadership",
       "Linux",
@@ -74,10 +74,12 @@
       "Sandboxing",
       "Security Architecture",
       "Stakeholder Management",
+      "Team Collaboration",
       "Technical Writing",
       "VAPT",
       "VirusTotal",
       "Vulnerability Management",
+      "Vulnerability Remediation",
       "Web Application Penetration Testing",
       "Wireshark"
     ],
@@ -99,10 +101,10 @@
         "VirusTotal"
       ],
       "soft_skill": [
-        "Collaboration",
         "Communication",
         "Leadership",
-        "Stakeholder Management"
+        "Stakeholder Management",
+        "Team Collaboration"
       ],
       "security": [
         "Defensive Security",
@@ -115,6 +117,9 @@
         "Vulnerability Management",
         "Web Application Penetration Testing"
       ],
+      "devops": [
+        "Docker"
+      ],
       "os_system": [
         "Linux"
       ],
@@ -126,12 +131,15 @@
         "Report Writing",
         "Technical Writing"
       ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
+      ],
       "cloud_infra": [
         "Wireshark"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Sandboxes→Sandboxing(100%), Technical Documentation→Technical Writing(100%), vulnerability assessments→Vulnerability Management(98%))"
+    "_method": "flashtext_skills_section | fuzzy(Sandboxes→Sandboxing(100%), Technical Documentation→Technical Writing(100%), Team Collaboration CISSP→Team Collaboration(95%), vulnerability assessments→Vulnerability Management(98%))"
   },
   "experience": {
     "jobs": [
@@ -169,8 +177,8 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Suggested product and usability improvements that reduced client confusion and improved adoption. Penetration Tester @ Krishna Automation",
+        "role": "Cybersecurity Specialist @ Aguna\tJan 2025",
+        "company": "May 2026",
         "location": null,
         "start": "July 2022",
         "end": "June 2023",
@@ -178,7 +186,7 @@
         "duration_months": 12,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       }
@@ -189,7 +197,7 @@
       "total_months": 47,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.8
   },
   "education": {
     "entries": [
@@ -238,15 +246,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.79
+    "overall": 0.81
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
     {
       "field": "experience.jobs[0]",
       "confidence": 0.7,
@@ -259,7 +262,7 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

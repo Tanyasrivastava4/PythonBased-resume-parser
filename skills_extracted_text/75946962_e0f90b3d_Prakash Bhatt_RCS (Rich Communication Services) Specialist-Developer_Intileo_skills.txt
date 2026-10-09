@@ -1,0 +1,64 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/75946962_e0f90b3d_Prakash Bhatt_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+CA8QjRxqFwoTCKDY7brHtPwCF
+QAAAAAdAAAAABAE
+Operating Systems:
+Linux: RedHat (RHEL/OEL), Debian/Ubuntu, Windows: 10/11
+Telecommunication:
+Messaging, OTA, IVR, SS7, ISUP, SMSC, SMPP, RCS
+Programming
+Shell script, AWK, SED, Python
+Monitoring and analysis: Polystar, Grafana, Zabbix, Kibana, Greylog, NewRelic, Nagios
+Networking:
+TCP/IP, DNS, DHCP, SMTP, FTP, SSH, Telnet, SCP
+Database Servers:
+MySQL, MongoDB, Redis, Elastic
+Protocols:
+SMTP, FTP, SSH, Telnet, SCP, TCP, UDP, SCTP etc.
+DevOps tool:
+Ansible, Terraform, GIT, Jenkins, Helm, ArgoCD
+Containerization tool:
+Kubernetes, Docker, Podman, Kubeflow
+AI Tool:
+Kubeflow, Ollama, MCP, Amazon Bedrock, SageMaker
+Application tool:
+MMT tool, tcpdump, Putty, CSG Assure, JIRA Software
+
+── Extraction Results ──
+Skills found   : 59
+Confidence     : 0.92
+Time           : 687.49 ms
+Method         : flashtext_skills_section | fuzzy(Linux:→Linux(91%), RHEL→Linux(100%), Debian→Linux(100%), NewRelic→New Relic(100%), Amazon Bedrock→Bedrock(100%)...)
+
+── All Skills (59) ──
+API Design, AWK, AWS, AWS EKS, Active Directory, Ansible, ArgoCD, Bash, Bedrock, CI/CD, Communication, Confluence, Cross-functional Collaboration, Customer Experience, Customer Handling, DevOps, Docker, Elasticsearch, Firewall, Git, Google, Grafana, Helm, Jenkins, Jira, Kubeflow, Kubernetes, Linux, MCP Server, Make, Microsoft Teams, Microsoft Windows, MongoDB, MySQL, Nagios, Networking, New Relic, Observability, Ollama, Oracle, Postman, PuTTY, Public Relations, Python, R, REST API, Redis, Root Cause Analysis, ServiceNow, Skype, Tcpdump, Telecom, Terraform, UAT, Ubuntu, VPN, VS Code, Wireshark, Zabbix
+
+── By Category ──
+  architecture                   ['API Design']
+  biz_dev                        ['Networking']
+  client_mgmt                    ['Customer Experience']
+  cloud_infra                    ['AWS', 'AWS EKS', 'Nagios', 'Tcpdump', 'Wireshark', 'Zabbix']
+  collaboration                  ['Confluence', 'Skype']
+  customer_service               ['Customer Handling']
+  data_science                   ['Kubeflow']
+  database                       ['Google', 'MongoDB', 'MySQL', 'Oracle', 'Redis']
+  dev_tool                       ['AWK', 'Git', 'Postman', 'PuTTY', 'VS Code']
+  devops                         ['Ansible', 'ArgoCD', 'CI/CD', 'DevOps', 'Docker', 'Grafana', 'Helm', 'Jenkins', 'Kubernetes', 'New Relic', 'Observability', 'Terraform']
+  domain                         ['Telecom']
+  genai                          ['Bedrock', 'MCP Server', 'Ollama']
+  integration                    ['ServiceNow']
+  marketing                      ['Public Relations']
+  operations                     ['Root Cause Analysis']
+  os_system                      ['Bash', 'Linux', 'Microsoft Windows', 'Ubuntu']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Python', 'R']
+  project_mgmt                   ['Jira']
+  rpa                            ['Make']
+  search                         ['Elasticsearch']
+  security_ops                   ['Active Directory', 'Firewall', 'VPN']
+  soft_skill                     ['Communication', 'Cross-functional Collaboration']
+  testing                        ['UAT']
+  web_framework                  ['REST API']

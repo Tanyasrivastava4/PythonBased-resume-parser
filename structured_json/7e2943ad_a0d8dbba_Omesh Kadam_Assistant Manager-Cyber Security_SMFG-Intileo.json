@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7e2943ad_a0d8dbba_Omesh Kadam_Assistant Manager-Cyber Security_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:25.174856+00:00",
+    "generated_at": "2026-10-07T09:27:03.172847+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,42 +48,106 @@
   "summary": "Experienced SOC Analyst with 4 years in incident response, and security monitoring. Skilled in security incident\nhandling and developing mitigation strategies. Proficient in analyzing security alerts and optimizing detection\ncapabilities. Committed to continuous improvement and staying updated with the latest cybersecurity trends.",
   "skills": {
     "items": [
-      ".NET",
+      "AWS",
+      "Analyze",
+      "AppTrana",
+      "Azure",
       "CCNA",
       "CEH",
       "Check Point",
+      "Citrix NetScaler",
       "Classification Web",
+      "ClearPass OnGuard",
       "Continuous Improvement",
+      "Cross-functional Collaboration",
+      "CrowdStrike Falcon",
       "Cryptography",
       "DLP",
+      "DNS",
+      "Data Classification",
+      "Data Visualization",
       "Endpoint Security",
+      "FortiAnalyzer",
       "Fortinet",
+      "GIS",
+      "IBM QRadar",
       "Incident Management",
       "Incident Response",
+      "Information Security",
       "Load Balancer",
+      "Microsegmentation",
+      "Microsoft Teams",
+      "Microsoft Windows",
+      "Netskope",
+      "Network Access Control",
+      "Networking",
+      "OSI Model",
+      "Oracle Database",
       "Palo Alto Networks",
+      "Pitagora",
+      "Privileged Access Management",
       "Proxy",
+      "R",
+      "RSA NetWitness",
       "SIEM",
+      "SLA Management",
       "SOC Operations",
+      "SQL",
+      "Sapphire",
+      "TCP/IP",
+      "Threat Intelligence",
+      "Trend Micro",
+      "UNIX",
+      "VAPT",
+      "Vulnerability Remediation",
       "WAF"
     ],
     "by_category": {
-      "programming_language": [
-        ".NET"
+      "cloud_infra": [
+        "AWS",
+        "Azure"
+      ],
+      "data_science": [
+        "Analyze",
+        "Data Visualization"
+      ],
+      "security": [
+        "AppTrana",
+        "ClearPass OnGuard",
+        "CrowdStrike Falcon",
+        "Data Classification",
+        "FortiAnalyzer",
+        "Fortinet",
+        "IBM QRadar",
+        "Incident Management",
+        "Information Security",
+        "Microsegmentation",
+        "Netskope",
+        "Network Access Control",
+        "RSA NetWitness",
+        "SOC Operations",
+        "Trend Micro"
       ],
       "networking": [
-        "CCNA"
+        "CCNA",
+        "DNS",
+        "OSI Model",
+        "TCP/IP"
       ],
       "security_ops": [
         "CEH",
         "Check Point",
+        "Citrix NetScaler",
         "Cryptography",
         "DLP",
         "Endpoint Security",
         "Incident Response",
         "Palo Alto Networks",
+        "Privileged Access Management",
         "Proxy",
         "SIEM",
+        "Threat Intelligence",
+        "VAPT",
         "WAF"
       ],
       "search": [
@@ -92,30 +156,62 @@
       "operations": [
         "Continuous Improvement"
       ],
-      "security": [
-        "Fortinet",
-        "Incident Management",
-        "SOC Operations"
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "data engineering": [
+        "GIS"
       ],
       "devops": [
         "Load Balancer"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "os_system": [
+        "Microsoft Windows",
+        "UNIX"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "database": [
+        "Oracle Database",
+        "SQL"
+      ],
+      "tools": [
+        "Pitagora",
+        "Sapphire"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "support": [
+        "SLA Management"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Checkpoint→Check Point(100%), Endpoint Security - AV→Endpoint Security(95%), Palo Alto→Palo Alto Networks(100%), Classification→Classification Web(95%), Classification→Classification Web(95%))"
+    "_method": "flashtext_skills_section | fuzzy(Checkpoint→Check Point(100%), Endpoint Security - AV→Endpoint Security(95%), Palo Alto→Palo Alto Networks(100%), Net Scaler→Citrix NetScaler(100%), Classification→Classification Web(95%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "| L A Technologies",
-        "company": "Ensured timely ticket resolution across cross-functional teams and external vendors",
-        "location": "L A Technologies - Generali Central Insurance Company Limited Mumbai",
+        "role": "Information Security Operations Engineer",
+        "company": "L A Technologies - Generali Central Insurance Company Limited",
+        "location": null,
         "start": "05/2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
-        "duration_months": 29,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Information Security Operations Engineer | L A Technologies - Generali Central Insurance Company Limited"
+        ],
+        "duration_months": 30,
         "bullets": [
           "Spearheaded SOC operations and CSIRT functions, including SIEM alert triage, incident classification, and threat intelligence",
+          "Ensured timely ticket resolution across cross-functional teams and external vendors",
           "Managed endpoint security using CrowdStrike Falcon EDR, with integrated identity monitoring for enhanced threat detection",
           "Managed endpoint security: compliance, encryption, Data Classification (Klassify), patching, and vulnerability dashboards",
           "Oversaw NAC (ClearPass OnGuard), PAM(IRAJE), DLP (Trend Micro), WAF (App Trana-Indusface), Micro segmentation (Color",
@@ -131,70 +227,78 @@
         "source": "experience"
       },
       {
-        "role": "| IDBI Intech Limited",
-        "company": "Monitored and analyzed security alerts using RSA Net Witness",
-        "location": "IDBI Intech Limited - IDBI Bank Mumbai",
+        "role": "Information Security Executive",
+        "company": "IDBI Intech Limited",
+        "location": "IDBI Bank",
         "start": "11/2021",
         "end": "05/2024",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Information Security Executive | IDBI Intech Limited - IDBI Bank"
+        ],
         "duration_months": 31,
         "bullets": [
+          "Monitored and analyzed security alerts using RSA Net Witness",
           "Raised incidents and supported real-time threat response in SOC",
           "Investigated anomalies, access violations, and malware threats",
           "Strong knowledge of networking (TCP/IP, DNS, OSI model, ports)",
           "Conduct daily health checks and handle daily service tickets.",
           "Managed daily log reports and ensured SLA compliance",
-          "Coordinated with vendors; supported server hardening reviews and SIEM integration across critical infrastructure for full"
+          "Coordinated with vendors; supported server hardening reviews and SIEM integration across critical infrastructure for full visibility and threat detection"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| Thinkparms Infotech Pvt Ltd",
-        "company": "Analyze spatial data through mapping software (GIS).",
-        "location": "Thinkparms Infotech Pvt Ltd - HERE Technologies Mumbai",
+        "role": "Spatial Data Specialist | Thinkparms Infotech Pvt Ltd",
+        "company": "HERE Technologies Mumbai",
+        "location": null,
         "start": "05/2021",
         "end": "11/2021",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 7,
         "bullets": [
+          "Analyze spatial data through mapping software (GIS).",
           "Discover patterns and trends through spatial mapping of data.",
           "Designing digital maps with geographic data and other data sources.",
           "Converting physical maps into a digital form for computer usage.",
           "Produce reports on geographic data utilizing data visualization."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "IT Intern",
-        "company": "Talent Corner H.R. Services Pvt Ltd Mumbai",
+        "company": "Talent Corner H.R. Services Pvt Ltd",
         "location": null,
         "start": "04/2020",
         "end": "06/2020",
         "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "IT Intern | Talent Corner H.R. Services Pvt Ltd"
+        ],
         "duration_months": 3,
         "bullets": [
           "Collaborate with stakeholders to understand business objectives and requirements.",
           "Devolve architectural blueprint and technical specifications."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.7,
-      "total_months": 68,
+      "total_years": 5.8,
+      "total_months": 69,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.7
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -247,32 +351,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
       "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "58569b9a_dcabcfcc_Amruta Yashwantrao Jan 2026_segmented.txt",
-    "generated_at": "2026-09-30T06:58:42.468170+00:00",
+    "generated_at": "2026-10-07T10:31:46.687770+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,17 +51,25 @@
       "BCP",
       "Cross-functional Collaboration",
       "Disaster Recovery",
+      "Ethical Hacking",
+      "Exit Formalities",
       "ISMS",
       "ISO 27001",
+      "ISO Standards",
       "IT Audit",
       "IT Risk Management",
+      "ITIL",
       "Incident Management",
       "Information Security",
+      "Internal Audit",
       "Microsoft Teams",
+      "Operations Management",
+      "Performance Monitoring",
       "Risk Assessment",
       "Risk Management",
       "Security Compliance",
       "Third-Party Risk",
+      "Vendor Development",
       "Vulnerability Management"
     ],
     "by_category": {
@@ -70,15 +78,27 @@
       ],
       "operations": [
         "BCP",
-        "Disaster Recovery"
+        "Disaster Recovery",
+        "Operations Management",
+        "Performance Monitoring",
+        "Vendor Development"
       ],
       "soft_skill": [
         "Cross-functional Collaboration"
+      ],
+      "cybersecurity": [
+        "Ethical Hacking"
+      ],
+      "hr_recruitment": [
+        "Exit Formalities"
       ],
       "security_ops": [
         "ISMS",
         "ISO 27001",
         "Third-Party Risk"
+      ],
+      "engineering": [
+        "ISO Standards"
       ],
       "security": [
         "IT Audit",
@@ -87,6 +107,12 @@
         "Information Security",
         "Security Compliance",
         "Vulnerability Management"
+      ],
+      "management": [
+        "ITIL"
+      ],
+      "accounting": [
+        "Internal Audit"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -104,30 +130,37 @@
   "experience": {
     "jobs": [
       {
-        "role": "Information Security Manager, IDFC FIRST Bank",
-        "company": "Ensured accurate and timely maintenance of vendor inventory, optimizing data integrity and operational efficiency.",
+        "role": "Information Security Manager",
+        "company": "IDFC FIRST Bank",
         "location": null,
         "start": "Apr 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 18,
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Information Security Manager, IDFC FIRST Bank"
+        ],
+        "duration_months": 19,
         "bullets": [
           "Spearheaded the development and management of executive dashboards, delivering actionable insights to support strategic decision-making and performance monitoring.",
+          "Ensured accurate and timely maintenance of vendor inventory, optimizing data integrity and operational efficiency.",
           "Executed vendor reconciliation and classification processes to facilitate compliance and support periodic audits.",
           "Coordinated vendor onboarding and offboarding activities, adhering to organizational standards and governance protocols."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Assistant Manager, Grant Thornton",
-        "company": "Ensured accurate and timely maintenance of vendor inventory, optimizing data integrity and operational efficiency.",
+        "role": "Assistant Manager",
+        "company": "Grant Thornton",
         "location": null,
         "start": "Jun 2022",
         "end": "Apr 2025",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Assistant Manager, Grant Thornton"
+        ],
         "duration_months": 35,
         "bullets": [
           "Implemented and maintained the Information Security Management System (ISMS), ensuring compliance with industry standards and reducing organizational security risks.",
@@ -136,70 +169,81 @@
           "Performed internal audits across multiple organizations to ensure adherence to security policies, regulatory requirements, and best practices."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Consultant, Capgemini",
-        "company": "Executed third-party risk management strategies to safeguard client data and maintain vendor compliance.",
+        "role": "Consultant",
+        "company": "Capgemini",
         "location": null,
         "start": "Apr 2021",
         "end": "Jun 2022",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Consultant, Capgemini"
+        ],
         "duration_months": 15,
         "bullets": [
           "Led vulnerability assessments and risk management initiatives to identify and mitigate security threats across client environments.",
           "Conducted internal audits to ensure compliance with regulatory standards and organizational security policies.",
-          "Managed user access controls, enforcing least privilege principles and preventing unauthorized access."
+          "Managed user access controls, enforcing least privilege principles and preventing unauthorized access.",
+          "Executed third-party risk management strategies to safeguard client data and maintain vendor compliance."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Executive, Arya Communications & Electronics Services",
-        "company": "Directed ISMS implementation for internal clients, ensuring compliance with ISO 27001 standards and strengthening organizational security posture.",
+        "role": "Executive",
+        "company": "Arya Communications & Electronics Services",
         "location": null,
         "start": "Sep 2019",
         "end": "Apr 2021",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Executive, Arya Communications & Electronics Services"
+        ],
         "duration_months": 20,
         "bullets": [
+          "Directed ISMS implementation for internal clients, ensuring compliance with ISO 27001 standards and strengthening organizational security posture.",
           "Managed user access controls, enforcing security policies and minimizing unauthorized access risks.",
           "Oversaw third-party risk management processes to identify, assess, and mitigate vendor- related security vulnerabilities."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Information Security Analyst, Atos Syntel",
-        "company": "Directed ISMS implementation for internal clients, ensuring compliance with ISO 27001 standards and strengthening organizational security posture.",
+        "role": "Information Security Analyst",
+        "company": "Atos Syntel",
         "location": null,
         "start": "Aug 2016",
         "end": "Sep 2019",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Information Security Analyst, Atos Syntel"
+        ],
         "duration_months": 38,
         "bullets": [
           "Conducted ISMS audits aligned with ISO 27001 controls for internal support functions, ensuring compliance and contributing to successful ISO certification and IT governance objectives.",
           "Performed vulnerability assessments on internal inventory to identify and remediate security gaps, strengthening organizational security posture."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 10.2,
-      "total_months": 122,
+      "total_months": 123,
       "overlapping_periods_merged": 4
     },
-    "_confidence": 0.76
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -248,35 +292,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.72,

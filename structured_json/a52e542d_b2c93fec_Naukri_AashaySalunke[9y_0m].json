@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a52e542d_b2c93fec_Naukri_AashaySalunke[9y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:56.833712+00:00",
+    "generated_at": "2026-10-07T09:27:44.349720+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -52,42 +52,69 @@
       "AWS",
       "Agile",
       "Azure",
+      "BCP",
       "BFSI",
+      "Bill of Materials",
+      "Business Development",
+      "Capacity Management",
+      "Change Management",
       "Check Point",
+      "Communication",
       "Conflict Resolution",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Digital Transformation",
       "Disaster Recovery",
+      "Effort Estimation",
       "Enterprise Architecture",
+      "F5 Load Balancer",
+      "Fiber",
       "Firewall",
       "Fortinet",
       "GCP",
       "GRC",
       "ISO 27001",
       "IT Infrastructure Management",
+      "ITIL",
+      "Import Export Code",
       "Incident Management",
       "Juniper",
+      "LAN",
       "Leadership",
+      "Legal Compliance",
       "Linux",
       "Load Balancer",
       "Mentoring",
       "Microsoft Hyper-V",
+      "Microsoft Teams",
       "Microsoft Windows",
       "NIST",
       "Network Security",
       "PCI-DSS",
       "PMP",
       "Palo Alto Networks",
+      "Performance Optimization",
       "Portfolio Management",
       "Problem Solving",
-      "Regulatory Compliance",
-      "Resource Planning",
+      "RFP",
+      "Reliability",
+      "Risk Assessment",
       "Risk Management",
       "Root Cause Analysis",
+      "SEBI",
+      "SIEM",
+      "SLA Management",
+      "Scrum",
+      "Security Architecture",
       "Stakeholder Management",
-      "Strategic Thinking",
+      "Strategic Planning",
+      "TCP/IP",
       "TOGAF",
       "VMware",
       "Vendor Management",
       "Vulnerability Management",
+      "WAF",
+      "WAN",
       "Workshop Facilitation"
     ],
     "by_category": {
@@ -99,13 +126,32 @@
       ],
       "project_mgmt": [
         "Agile",
+        "Change Management",
+        "Effort Estimation",
         "PMP",
         "Portfolio Management",
-        "Resource Planning",
-        "Risk Management"
+        "Risk Management",
+        "Scrum"
+      ],
+      "operations": [
+        "BCP",
+        "Disaster Recovery",
+        "Import Export Code",
+        "Root Cause Analysis",
+        "Vendor Management"
       ],
       "domain": [
         "BFSI"
+      ],
+      "manufacturing": [
+        "Bill of Materials"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "devops": [
+        "Capacity Management",
+        "Load Balancer"
       ],
       "security_ops": [
         "Check Point",
@@ -115,51 +161,81 @@
         "NIST",
         "Network Security",
         "PCI-DSS",
-        "Palo Alto Networks"
+        "Palo Alto Networks",
+        "SIEM",
+        "Security Architecture",
+        "WAF"
       ],
       "soft_skill": [
+        "Communication",
         "Conflict Resolution",
+        "Creativity",
+        "Cross-functional Collaboration",
         "Leadership",
         "Mentoring",
         "Problem Solving",
-        "Stakeholder Management",
-        "Strategic Thinking"
+        "Reliability",
+        "Stakeholder Management"
       ],
-      "operations": [
-        "Disaster Recovery",
-        "Root Cause Analysis",
-        "Vendor Management"
+      "consulting": [
+        "Digital Transformation",
+        "Workshop Facilitation"
       ],
       "it_ops": [
         "Enterprise Architecture",
         "IT Infrastructure Management"
+      ],
+      "network": [
+        "F5 Load Balancer"
+      ],
+      "web_framework": [
+        "Fiber"
       ],
       "security": [
         "Fortinet",
         "Incident Management",
         "Vulnerability Management"
       ],
+      "management": [
+        "ITIL",
+        "Strategic Planning"
+      ],
       "hardware": [
         "Juniper"
+      ],
+      "networking": [
+        "LAN",
+        "TCP/IP",
+        "WAN"
+      ],
+      "legal": [
+        "Legal Compliance",
+        "SEBI"
       ],
       "os_system": [
         "Linux",
         "Microsoft Windows"
       ],
-      "devops": [
-        "Load Balancer"
-      ],
       "virtualization": [
         "Microsoft Hyper-V"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "dev_tool": [
+        "Performance Optimization"
+      ],
+      "business_analysis": [
+        "RFP"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "support": [
+        "SLA Management"
       ],
       "architecture": [
         "TOGAF"
-      ],
-      "consulting": [
-        "Workshop Facilitation"
       ]
     },
     "_confidence": 0.92,
@@ -168,12 +244,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Ernst & Young Senior Consultant",
+        "role": "Senior Consultant",
         "company": "Cloud & IT Infrastructure Services",
         "location": null,
         "start": "Feb 2025",
         "end": "Sep 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Ernst & Young"
+        ],
         "duration_months": 8,
         "bullets": [
           "Provided expert IT consulting services to BFSI clients, ensuring alignment with industry best practices and regulatory requirements.",
@@ -193,12 +272,15 @@
         "source": "experience"
       },
       {
-        "role": "(Role Expansion: Implementation Manager Responsibilities",
-        "company": "Oversaw operational aspects of all client network service delivery, ensuring compliance, availability, and performance for all client",
+        "role": "Network Engineer (Role Expansion: Implementation Manager Responsibilities",
+        "company": "Omnenest",
         "location": null,
         "start": "Mar 2024",
         "end": "Jan 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Omnenest"
+        ],
         "duration_months": 11,
         "bullets": [
           "Oversaw operational aspects of all client network service delivery, ensuring compliance, availability, and performance for all client systems.",
@@ -211,35 +293,46 @@
           "Led migration of 40+ racks during DC decommissioning (Vikhroli NTT DC-2), coordinated OEMs and system integrators with zero business disruption."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Bandwidth In\u0000nity Manager",
-        "company": "Managed ISP network operations, focusing on proactive maintenance, capacity planning, and performance optimization. Led",
+        "role": "Manager",
+        "company": "Bandwidth In\u0000nity",
         "location": null,
         "start": "Mar 2023",
         "end": "Feb 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Bandwidth In\u0000nity"
+        ],
         "duration_months": 12,
         "bullets": [
           "Managed ISP network operations, focusing on proactive maintenance, capacity planning, and performance optimization.",
           "Led engineering team and managed enterprise client communication ensuring SLA compliance.",
-          "Achievements: Implemented proactive maintenance strategies, optimizing network performance and reducing potential downtime."
+          "Oversaw end-to-end ISP network operations across Fiber and Wireless systems, ensuring high availability and seamless connectivity.",
+          "Directed a 6-member engineering team, providing leadership and technical guidance.",
+          "Managed enterprise client relationships, ensuring SLA compliance, incident resolution, and customer satisfaction.",
+          "Achievements: Implemented proactive maintenance strategies, optimizing network performance and reducing potential downtime.",
+          "Enhanced network capacity planning, ensuring scalable infrastructure to support growing business needs.",
+          "Improved customer satisfaction through reliable service delivery and effective incident resolution."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Specialist - Cloud & IT Infrastructure Services",
-        "company": "LTIMindtree",
-        "location": "Nets A/S (On-site Copenhagen, Denmark",
+        "role": "Specialist",
+        "company": "Cloud & IT Infrastructure Services",
+        "location": null,
         "start": "Jan 2022",
         "end": "Mar 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "LTIMindtree | Nets A/S (On-site Copenhagen, Denmark)"
+        ],
         "duration_months": 15,
         "bullets": [
           "Oversaw key cloud and infrastructure service planning, execution, and monitoring, while providing comprehensive support in pre-sales and governance activities.",
@@ -257,12 +350,15 @@
         "source": "experience"
       },
       {
-        "role": "NTT Global Data Centers & Cloud Infrastructure India Senior Network Security Engineer",
+        "role": "Senior Network Security Engineer",
         "company": "Hybrid NOC",
         "location": null,
         "start": "Sep 2019",
         "end": "Jan 2022",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "NTT Global Data Centers & Cloud Infrastructure India"
+        ],
         "duration_months": 29,
         "bullets": [
           "Oversaw network and security operations for multiple enterprise clients.",
@@ -277,15 +373,29 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "Network Engineer",
+        "company": "Hybrid NOC",
+        "location": null,
+        "start": "Aug 2018",
+        "end": "Jul 2019",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.1,
-      "total_months": 73,
+      "total_years": 7.1,
+      "total_months": 85,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.87
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -309,10 +419,10 @@
         "year": null,
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.65
       }
     ],
-    "_confidence": 0.8
+    "_confidence": 0.73
   },
   "certifications": {
     "items": [
@@ -449,14 +559,14 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
+      "field": "experience.jobs[5]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
+      "field": "education",
+      "confidence": 0.73,
+      "reason": "low_confidence"
     },
     {
       "field": "certifications.items[6]",

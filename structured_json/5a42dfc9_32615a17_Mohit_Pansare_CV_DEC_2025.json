@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5a42dfc9_32615a17_Mohit_Pansare_CV_DEC_2025_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.161189+00:00",
+    "generated_at": "2026-10-07T10:31:47.645369+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -46,30 +46,31 @@
   "summary": null,
   "skills": {
     "items": [
+      "Aadhaar Integration",
       "Account Management",
       "Adobe After Effects",
       "B2B Sales",
       "Background Verification",
       "CIBIL",
       "Communication",
+      "Customer Onboarding",
       "Due Diligence",
       "E-Way Bill",
       "E-commerce",
       "Employee Engagement",
+      "Exit Formalities",
       "GST",
       "GST Return Filing",
       "GSTR-1",
       "GSTR-3B",
-      "HR Generalist",
       "HRIS",
       "Healthcare",
+      "Indirect Taxation",
       "Interpersonal Skills",
       "Learning & Development",
       "MIS Reporting",
-      "MS CIT",
       "Microsoft Excel",
       "Microsoft Teams",
-      "Onboarding",
       "Payroll Administration",
       "Performance Appraisal",
       "PostgreSQL",
@@ -81,6 +82,9 @@
       "Taxation"
     ],
     "by_category": {
+      "integration": [
+        "Aadhaar Integration"
+      ],
       "sales": [
         "Account Management",
         "B2B Sales"
@@ -91,10 +95,8 @@
       "hr": [
         "Background Verification",
         "Employee Engagement",
-        "HR Generalist",
         "HRIS",
         "Learning & Development",
-        "Onboarding",
         "Payroll Administration",
         "Performance Appraisal",
         "Recruitment"
@@ -110,8 +112,14 @@
         "Interpersonal Skills",
         "Reporting"
       ],
+      "client_mgmt": [
+        "Customer Onboarding"
+      ],
       "retail": [
         "E-commerce"
+      ],
+      "hr_recruitment": [
+        "Exit Formalities"
       ],
       "accounting": [
         "GST"
@@ -123,11 +131,13 @@
       "domain": [
         "Healthcare"
       ],
+      "finance_ops": [
+        "Indirect Taxation",
+        "Tally",
+        "Taxation"
+      ],
       "banking": [
         "MIS Reporting"
-      ],
-      "certification": [
-        "MS CIT"
       ],
       "productivity": [
         "Microsoft Excel",
@@ -141,28 +151,26 @@
       ],
       "architecture": [
         "SOA"
-      ],
-      "finance_ops": [
-        "Tally",
-        "Taxation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
         "role": "CET Executive",
-        "company": "ASBS Co",
-        "location": null,
+        "company": "Worked on various Due Diligence projects, involving data verification, compliance checks, and document review.",
+        "location": "India",
         "start": "07/2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 15,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "CET Executive"
+        ],
+        "duration_months": 16,
         "bullets": [
           "Led due diligence and other key projects, repeatedly selected to serve as team leader.",
-          "Worked on various Due Diligence projects, involving data verification, compliance checks, and document review.",
           "Assisted in Recruitment activities",
           "Gained experience in audit processes at Jio Finance, supporting verification and financial review activities.",
           "Worked on the PMFBY (Pradhan Mantri Fasal Bima Yojana) portal, handling data processing and validation tasks.",
@@ -173,21 +181,23 @@
           "Worked on B2B processes"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "HR",
-        "location": "Mumbai",
+        "role": "HR",
+        "company": "Tracking and recording employee overtime (OT) details in MIS.",
+        "location": "India",
         "start": "08/2024",
         "end": "11/2024",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "HR"
+        ],
         "duration_months": 4,
         "bullets": [
           "Maintaining and updating daily attendance records of staff and employees in the MIS system.",
-          "Tracking and recording employee overtime (OT) details in MIS.",
           "Compiling and updating employee data for Group Medical Coverage (GMC) MIS reports.",
           "Monitoring and updating daily staff and driver headcount by department in MIS.",
           "Addressing and resolving various employee queries in a timely manner.",
@@ -195,17 +205,20 @@
           "Collecting and organizing employee documents to ensure complete and up-to-date personnel files."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
         "role": null,
-        "company": "Human Resources Support",
+        "company": "Resources Support",
         "location": "Mumbai",
         "start": "12/2022",
         "end": "12/2023",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Human"
+        ],
         "duration_months": 13,
         "bullets": [
           "Managing the complete employee life cycle—from recruitment to exit formalities.",
@@ -226,12 +239,15 @@
         "source": "experience"
       },
       {
-        "role": "Data Analyst",
-        "company": "Lifenity",
+        "role": "Analyst",
+        "company": "Data",
         "location": null,
         "start": "01/2022",
         "end": "12/2022",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Data"
+        ],
         "duration_months": 12,
         "bullets": [
           "Wellness International Ltd (Diagnostic & Healthcare solutions)",
@@ -258,34 +274,38 @@
       },
       {
         "role": "Junior Accountant",
-        "company": "Bhushan World -Carpet & Rugs Business",
-        "location": null,
+        "company": "Preparation of Complete Set of Books of Accounts.",
+        "location": "India",
         "start": "05/2020",
         "end": "04/2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Junior Accountant"
+        ],
         "duration_months": 12,
         "bullets": [
-          "Preparation of Complete Set of Books of Accounts.",
           "Maintaining & Filing of Indirect Tax Statutory Compliance:",
           "Filing of GSTR-1 & GSTR-3B on GST Portal.",
           "Working in Tally.ERP9, Preparing E-Ways bill from GST Portal.",
           "Maintaining Stock summary with HSN Details."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Business Analyst",
-        "company": "HDB Finance Ltd (Subsidiary Company of HDFC",
+        "company": "Working in E-Commerce Team Payment Gateway Department.",
         "location": "India",
         "start": "09/2019",
         "end": "03/2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Analyst"
+        ],
         "duration_months": 7,
         "bullets": [
-          "Working in E-Commerce Team Payment Gateway Department.",
           "Preparing daily MIS to identify the sale progress of department.",
           "Releasing daily tracker to encourage the overall business in payment gateway.",
           "Analyzing overall PAN India tram’s Business in PG/ POS on Monthly basis.",
@@ -304,7 +324,10 @@
         "location": null,
         "start": "06/2018",
         "end": "05/2019",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "Account Executive"
+        ],
         "duration_months": 12,
         "bullets": [
           "Preparing & Maintaining Complete set of Books of Accounts.",
@@ -322,10 +345,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 6.2,
-      "total_months": 74,
+      "total_months": 75,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.9
+    "_confidence": 0.8
   },
   "education": {
     "entries": [
@@ -345,14 +368,36 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Higher Secondary Bhausaheb Hirey College Mumbai University",
+        "institution": "Commerce Higher Secondary Bhausaheb Hirey College Mumbai University",
         "year": "2013",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• MS CIT (Maharashtra State Certificate of Information Technology)",
+        "degree_name": "M.S.",
+        "degree_type": "masters",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "10th / Secondary School Certificate (SSC)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "SSC (Secondary School St Sebastian Goan High School (Maharashtra Board)",
+        "year": "2010",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [
@@ -371,7 +416,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.82
   },
   "_needs_review": true,
   "_review_queue": [
@@ -381,13 +426,23 @@
       "reason": "missing"
     },
     {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

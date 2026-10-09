@@ -1,0 +1,61 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/4068722a_fdcf5f08_Resume_Dharmesh_Modi_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Operations Management
+• Service Delivery Management
+• Workforce Planning & Scheduling
+• SLA / KPI Management
+• Performance Monitoring & Reporting
+• Capacity Planning & Forecasting
+• Process Transition & Migration
+• Team Management
+• Quality Assurance & Compliance
+Business Transformation & Strategy
+• Strategic Planning & Roadmap Development
+• Business Process Reengineering (BPR)
+• Change Management & Transition Leadership
+• Target Operating Model (TOM) Design
+• Business Case Development & ROI Analysis
+• Continuous Improvement & Lean Six Sigma Awareness
+• Financial Acumen & Cost Optimization
+• KPI Definition, Tracking & Reporting
+• Predictive Analysis & Forecasting
+• Business Intelligence & Dashboarding
+• Operational Risk & Compliance Analysis
+Leadership & People Management
+• Cross-Functional Team Leadership
+• Stakeholder Engagement & Executive Communication
+• Client Relationship Management
+• Change Adoption & Training Programs
+• Coaching & Mentoring for High-Performance Teams
+• Servant Leadership Skills
+
+── Extraction Results ──
+Skills found   : 47
+Confidence     : 0.92
+Time           : 780.81 ms
+Method         : flashtext_skills_section | fuzzy(Workforce Planning→Resource Planning(100%), Capacity Planning→Resource Planning(100%), Strategic Planning→Strategic Thinking(100%), Business Case Development→Business Development(95%), Predictive Analysis→Predictive Analytics(92%)...)
+
+── All Skills (47) ──
+Agile, Business Development, Business Intelligence, CAPA, Calibration, Change Management, Client Relationship Management, Collaboration, Continuous Improvement, Cross-functional Collaboration, Customer Service, Data Analysis, Data-Driven Decision Making, Digital Transformation, Executive Presentations, HR Management, Jira, KPI, Leadership, LinkedIn, Mentoring, Microsoft Power Automate, Microsoft Teams, Microsoft Visio, Onboarding, Operation Monitoring, Operations Management, PMP, Performance Monitoring, Power BI, Predictive Analytics, Prince2, Process Consulting, Process Improvement, Project Management, Quality Assurance, Reporting, Resource Planning, SOP, Six Sigma, Stakeholder Management, Strategic Thinking, Team Leadership, Telecom, Time Series Forecasting, Tutoring, UiPath
+
+── By Category ──
+  ai_ml                          ['Time Series Forecasting']
+  biz_dev                        ['Business Development']
+  business_analysis              ['KPI']
+  client_mgmt                    ['Client Relationship Management', 'Customer Service']
+  consulting                     ['Digital Transformation', 'Process Consulting']
+  data_science                   ['Business Intelligence', 'Data Analysis', 'Power BI', 'Predictive Analytics']
+  dev_tool                       ['Microsoft Visio']
+  domain                         ['Telecom']
+  education_domain               ['Tutoring']
+  engineering_hardware           ['Calibration']
+  hr                             ['HR Management', 'Onboarding']
+  operations                     ['CAPA', 'Continuous Improvement', 'Operation Monitoring', 'Operations Management', 'Performance Monitoring', 'Process Improvement', 'Quality Assurance', 'SOP', 'Six Sigma']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Agile', 'Change Management', 'Jira', 'PMP', 'Prince2', 'Project Management', 'Resource Planning']
+  rpa                            ['Microsoft Power Automate', 'UiPath']
+  soft_skill                     ['Collaboration', 'Cross-functional Collaboration', 'Data-Driven Decision Making', 'Executive Presentations', 'Leadership', 'Mentoring', 'Reporting', 'Stakeholder Management', 'Strategic Thinking', 'Team Leadership']
+  web_framework                  ['LinkedIn']

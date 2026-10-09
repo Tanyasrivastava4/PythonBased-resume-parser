@@ -1,0 +1,151 @@
+======================================================================
+FILE: 5a42dfc9_32615a17_Mohit_Pansare_CV_DEC_2025_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+CET Executive
+07/2025 – Till date, Mumbai, India
+ASBS Co
+Roles & Responsibilities:-
+• Led due diligence and other key projects, repeatedly selected to serve as team leader.
+• Worked on various Due Diligence projects, involving data verification, compliance checks, and document review.
+• Assisted in ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.82
+Needs review   : True
+Total exp      : 6.2 years (75 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : CET Executive
+  Company      : Worked on various Due Diligence projects, involving data verification, compliance checks, and document review.
+  Location     : India
+  Start - End  : 07/2025 - Present
+  Duration     : 16 months
+  Bullets      : 9
+    • Led due diligence and other key projects, repeatedly selected to serve as team leader.
+    • Assisted in Recruitment activities
+    • Gained experience in audit processes at Jio Finance, supporting verification and financial review activities.
+    • Worked on the PMFBY (Pradhan Mantri Fasal Bima Yojana) portal, handling data processing and validation tasks.
+    • Involved in TRACE to TrackWiz projects, assisting in tracking, reconciliation, and reporting activities.
+    • Handled Aadhaar card updation projects, ensuring accuracy and adherence to government guidelines.
+    • Worked on Statutory Notice projects, supporting documentation review and compliance-related tasks.
+    • Assisted in preparation and review of Statements of Account (SOA).
+    • Worked on B2B processes
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : Mumbai, India
+  Company      : HR
+  Location     : None
+  Start - End  : 08/2024 - 11/2024
+  Duration     : 4 months
+  Bullets      : 8
+    • Roles & Responsibilities: -
+    • Maintaining and updating daily attendance records of staff and employees in the MIS system.
+    • Tracking and recording employee overtime (OT) details in MIS.
+    • Compiling and updating employee data for Group Medical Coverage (GMC) MIS reports.
+    • Monitoring and updating daily staff and driver headcount by department in MIS.
+    • Addressing and resolving various employee queries in a timely manner.
+    • Actively participating in workplace safety programs and initiatives.
+    • Collecting and organizing employee documents to ensure complete and up-to-date personnel files.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Resources Support
+  Company      : Human
+  Location     : Mumbai, India
+  Start - End  : 12/2022 - 12/2023
+  Duration     : 13 months
+  Bullets      : 11
+    • Managing the complete employee life cycle—from recruitment to exit formalities.
+    • Facilitating smooth employee on-boarding and assisting with training and development initiatives.
+    • Maintaining and updating personnel records in both electronic and physical formats.
+    • Ensuring confidentiality in payroll operations and handling sensitive employee information securely.
+    • Assisting the Head of HR in performance appraisal processes.
+    • Conducting interviews and coordinating background verification checks.
+    • Addressing on-boarding queries related to HR systems such as Hrone and Zing.
+    • Coordinating welcome sessions, induction programs, birthday communications, and scheduling meetings via Microsoft Teams.
+    • Tracking and maintaining records of issued offer letters and appointment letters.
+    • Driving employee engagement initiatives.
+    • Drafting and circulating communication emails related to CIBIL scores and RCU feedback.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Analyst
+  Company      : Data
+  Location     : Mumbai, India
+  Start - End  : 01/2022 - 12/2022
+  Duration     : 12 months
+  Bullets      : 13
+    • Wellness International Ltd (Diagnostic & Healthcare solutions)
+    • Efficiently processed RT-PCR and blood test report data within the system, ensuring accuracy and timely updates.
+    • Strong interpersonal skills with the ability to effectively interact with clients, staff, and management at all levels.
+    • Experience as a Data Analyst and Financial Management Accountant with a focus on Taxation and Accountancy.
+    • Ensured compliance with all statutory and organizational reporting requirements.
+    • Prepared and uploaded daily MIS reports into designated software systems.
+    • Analyzed raw data to generate actionable insights and daily performance reports.
+    • Converted unstructured/raw data into organized, meaningful, and usable formats.
+    • Developed client clinical history hierarchies to streamline and complete blood report documentation.
+    • Authenticated and finalized COVID-19 test reports on the Lifenity Wellness portal.
+    • Onboarding process for new joiners.
+    • Organizing and executing plans for Employee Engagement Activities
+    • Maintaining
+  Sub-sections : ['Roles', 'Employee Master file in excel']
+  Method       : date_regex+date_prefix_title+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Junior Accountant
+  Company      : Preparation of Complete Set of Books of Accounts.
+  Location     : India
+  Start - End  : 05/2020 - 04/2021
+  Duration     : 12 months
+  Bullets      : 4
+    • Maintaining & Filing of Indirect Tax Statutory Compliance:
+    • Filing of GSTR-1 & GSTR-3B on GST Portal.
+    • Working in Tally.ERP9, Preparing E-Ways bill from GST Portal.
+    • Maintaining Stock summary with HSN Details.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 6
+  Role         : Business Analyst
+  Company      : Working in E-Commerce Team Payment Gateway Department.
+  Location     : India
+  Start - End  : 09/2019 - 03/2020
+  Duration     : 7 months
+  Bullets      : 4
+    • Preparing daily MIS to identify the sale progress of department.
+    • Releasing daily tracker to encourage the overall business in payment gateway.
+    • Analyzing overall PAN India tram’s Business in PG/ POS on Monthly basis.
+    • Preparing portfolio for PAN India and analyzing on Merchant level.
+  Sub-sections : ['Roles & Responsibilities: -']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 7
+  Role         : Account Executive
+  Company      : Preparing & Maintaining Complete set of Books of Accounts.
+  Location     : India
+  Start - End  : 06/2018 - 05/2019
+  Duration     : 12 months
+  Bullets      : 4
+    • Maintaining & filing Indirect Statutory Compliance: GSTR-1 & GSTR-3B on GST Portal.
+    • Working in Tally.ERP9.
+    • Preparing E-Way Bill.
+    • Computating Tax for GST filing.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.7
+  Needs Review : True

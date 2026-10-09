@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "002fd5c8_7fed1335_Arsh Garg_Consultant-IT Audit_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:39.327022+00:00",
+    "generated_at": "2026-10-09T05:41:15.670610+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,6 +51,7 @@
       "Audit Methodology",
       "AuditBoard",
       "Azure",
+      "Business Intelligence",
       "COBIT",
       "Change Management",
       "Code Reviews",
@@ -62,19 +63,25 @@
       "ITGC",
       "Identity Management",
       "Incident Management",
+      "Legal Compliance",
       "LinkedIn",
       "Microsoft Excel",
+      "Professional Tax",
       "Risk Assessment",
       "SOC 1",
       "SOX",
-      "SQL"
+      "SQL",
+      "User Access Review",
+      "Vulnerability Remediation",
+      "Walkthroughs"
     ],
     "by_category": {
       "compliance": [
         "Access Governance",
         "COBIT",
         "IT Attestation",
-        "Risk Assessment"
+        "Risk Assessment",
+        "User Access Review"
       ],
       "finance_ops": [
         "Audit Methodology",
@@ -88,6 +95,9 @@
       ],
       "cloud_infra": [
         "Azure"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "project_mgmt": [
         "Change Management"
@@ -104,102 +114,132 @@
       "domain": [
         "IT Ops"
       ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "web_framework": [
         "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel"
       ],
+      "hr": [
+        "Professional Tax"
+      ],
       "database": [
         "SQL"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
+      ],
+      "auditing": [
+        "Walkthroughs"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Attestation→IT Attestation(100%), Audit Methodologies→Audit Methodology(89%), Incident Response→Incident Management(100%), risk assessments→Risk Assessment(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Attestation→IT Attestation(100%), Audit Methodologies→Audit Methodology(89%), Incident Response→Incident Management(100%), professional→Professional Tax(95%), risk assessments→Risk Assessment(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Analyst, KPMG India",
-        "company": "Evaluated IT risks, ensured regulatory compliance, and proposed mitigation strategies",
+        "role": "Senior Analyst",
+        "company": "KPMG India",
         "location": null,
         "start": "04/2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 18,
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Senior Analyst, KPMG India"
+        ],
+        "duration_months": 19,
         "bullets": [
+          "Evaluated IT risks, ensured regulatory compliance, and proposed mitigation strategies",
           "Communicated audit findings and control gaps to stakeholders to support remediation, supported risk",
           "decisions, and mentored 5 junior auditors. Critically assessed core IT controls (access, change, and operations) for data integrity, security, and compliance.",
           "Supported audits across IAM, incident response, and system operations domains.",
           ""
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": ", KPMG Global Services (US Region",
-        "company": "Led audit walkthroughs, status, and client calls assessing IT control design, effectiveness",
-        "location": "KPMG Global Services",
+        "role": "Senior Analyst",
+        "company": "KPMG Global Services",
+        "location": null,
         "start": "06/2025",
         "end": "12/2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Senior Analyst, KPMG Global Services (US Region)"
+        ],
         "duration_months": 7,
         "bullets": [
+          "Led audit walkthroughs, status, and client calls assessing IT control design, effectiveness, and remediation",
           "Led comprehensive UARs and detailed SOC report analyses across 25+ tools and applications.",
           "Developed a strong understanding of SOX control environments.",
           "Performed ITGC testing (Access, Change, Program Development, Operations), ensuring SOX 404 and internal",
           "audit compliance."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Analyst, KPMG",
-        "company": "Supported audits of the effectiveness of access controls and compliance measures.",
+        "role": "Analyst",
+        "company": "KPMG",
         "location": null,
         "start": "07/2023",
         "end": "03/2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Analyst, KPMG"
+        ],
         "duration_months": 21,
         "bullets": [
+          "Tested ITGC and SOC 1 & 2 controls for cybersecurity and infrastructure environments.",
           "Conducted IT risk assessments, identifying gaps in access, change, and security management.",
+          "Supported audits of the effectiveness of access controls and compliance measures.",
           "Enhanced audit documentation standards",
           ""
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Intern, KPMG",
-        "company": "Assisted in IT audits for multiple clients, contributing to mitigating identified risks.",
+        "role": "Intern",
+        "company": "KPMG",
         "location": null,
         "start": "01/2023",
         "end": "06/2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Intern, KPMG"
+        ],
         "duration_months": 6,
         "bullets": [
+          "Managed audit activities leveraging knowledge of IT processes.",
+          "Assisted in IT audits for multiple clients, contributing to mitigating identified risks.",
           "Supported client meetings with relevant audit queries and audit findings documentation",
           ""
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 3.8,
-      "total_months": 45,
+      "total_months": 46,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -255,35 +295,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.65,

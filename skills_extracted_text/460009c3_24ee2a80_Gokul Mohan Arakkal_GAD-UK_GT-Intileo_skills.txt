@@ -1,0 +1,45 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/460009c3_24ee2a80_Gokul Mohan Arakkal_GAD-UK_GT-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Soft Skills
+Technical Skills & Tools
+Strong Analytical & Problem-Solving Accounting & Audit Tools: Tally ERP 9, Tally ERP, Winman ERP
+Ability
+Tax Platforms: GST Portal, Income Tax e-Filing Portal, TRACES
+Attention to Detail
+Microsoft Office Suite: Excel (Pivot Tables, VLOOKUP), Word,
+Effective Communication & Client
+PowerPoint
+Handling
+Reconciliation & Reporting: Bank Reconciliation, MIS Reporting,
+Time Management & Multitasking
+Financial Statements
+Team Leadership & People
+Audit Techniques: Risk-Based Audit, Analytical Review, Internal
+Management
+Control Evaluation, Sampling
+Adaptability & Continuous Learning Filing & Compliance: GSTR-3B, GSTR-9/9C, ITR, TDS Returns
+Others: Basic knowledge of SAP (Standard Audit Procedure)
+
+── Extraction Results ──
+Skills found   : 29
+Confidence     : 0.92
+Time           : 482.88 ms
+Method         : flashtext_skills_section | fuzzy(Tally ERP→Tally(100%), Suite:→Google Workspace(83%), Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Effective Communication→Executive Presentations(91%)...)
+
+── All Skills (29) ──
+Accounting, Adaptability, Attention to Detail, Auditing, Bank Reconciliation, Communication, Executive Presentations, Financial Reporting, Google Workspace, Healthcare, Internal Controls Testing, LinkedIn, MIS Reporting, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Pivot Tables, Problem Solving, R, Regulatory Compliance, Reporting, SAP, Statutory Audit, TDS, Tally, Taxation, Team Leadership, Time Management
+
+── By Category ──
+  accounting                     ['Bank Reconciliation']
+  banking                        ['MIS Reporting']
+  domain                         ['Healthcare']
+  finance_ops                    ['Accounting', 'Auditing', 'Financial Reporting', 'Internal Controls Testing', 'Statutory Audit', 'TDS', 'Tally', 'Taxation']
+  integration                    ['SAP']
+  legal                          ['Regulatory Compliance']
+  productivity                   ['Google Workspace', 'MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word', 'Pivot Tables']
+  programming_language           ['R']
+  soft_skill                     ['Adaptability', 'Attention to Detail', 'Communication', 'Executive Presentations', 'Problem Solving', 'Reporting', 'Team Leadership', 'Time Management']
+  web_framework                  ['LinkedIn']

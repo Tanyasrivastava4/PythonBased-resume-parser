@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7b664224_977d07b4_muruga-prasaad-data-scientist_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.397367+00:00",
+    "generated_at": "2026-10-07T09:27:02.196967+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -44,37 +44,139 @@
   "summary": null,
   "skills": {
     "items": [
+      "AWS",
       "Adaptability",
       "Analyze",
+      "Client Handling",
+      "Collaboration",
+      "Communication",
+      "Coroutines Flow",
       "Cross-functional Collaboration",
       "Data Analysis",
+      "Data Cleaning",
+      "Data Management",
       "Data Pipeline",
+      "Data Preprocessing",
+      "Data Science",
+      "Data Visualization",
+      "Data Wrangling",
+      "ETL",
+      "Exploratory Data Analysis",
+      "Feature Engineering",
+      "Lean Manufacturing",
+      "MFCC",
+      "MLOps",
+      "MLflow",
+      "Machine Learning",
+      "Markdown",
+      "Market Research",
+      "Matplotlib",
       "Microsoft Teams",
+      "Model Evaluation",
+      "MySQL",
       "Onboarding",
+      "Pandas",
+      "Power BI",
+      "Predictive Modeling",
       "Problem Solving",
-      "Project Management"
+      "Project Management",
+      "PyTorch",
+      "Python",
+      "REACH",
+      "Resource Planning",
+      "SQL",
+      "Sales Forecasting",
+      "Streamlit",
+      "TensorFlow",
+      "Time Management",
+      "scikit-learn"
     ],
     "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
       "soft_skill": [
         "Adaptability",
+        "Collaboration",
+        "Communication",
         "Cross-functional Collaboration",
-        "Problem Solving"
+        "Problem Solving",
+        "Time Management"
       ],
       "data_science": [
         "Analyze",
-        "Data Analysis"
+        "Data Analysis",
+        "Data Visualization",
+        "Exploratory Data Analysis",
+        "Feature Engineering",
+        "Power BI"
+      ],
+      "management": [
+        "Client Handling"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "data_engineering": [
-        "Data Pipeline"
+        "Data Cleaning",
+        "Data Pipeline",
+        "Data Preprocessing",
+        "Data Wrangling",
+        "ETL"
       ],
       "productivity": [
+        "Data Management",
         "Microsoft Teams"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "MLflow",
+        "Machine Learning",
+        "Matplotlib",
+        "Pandas",
+        "Predictive Modeling",
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "operations": [
+        "Lean Manufacturing"
+      ],
+      "machine_learning": [
+        "MFCC",
+        "Model Evaluation"
+      ],
+      "genai": [
+        "MLOps"
+      ],
+      "documentation": [
+        "Markdown"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "database": [
+        "MySQL",
+        "SQL"
       ],
       "hr": [
         "Onboarding"
       ],
       "project_mgmt": [
-        "Project Management"
+        "Project Management",
+        "Resource Planning"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "compliance": [
+        "REACH"
+      ],
+      "sales": [
+        "Sales Forecasting"
+      ],
+      "dev_tool": [
+        "Streamlit"
       ]
     },
     "_confidence": 0.92,
@@ -88,8 +190,11 @@
         "location": null,
         "start": "Sep 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 25,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Talent Recruit Software Private Limited"
+        ],
+        "duration_months": 26,
         "bullets": [
           "Analyzed and optimized software implementation processes, directly contributing to a 95% client satisfaction rate and a 15% reduction in onboarding time.",
           "Collaborated with cross-functional teams (product, engineering, and client stakeholders) to gather requirements and ensure seamless data flow and successful project delivery.",
@@ -106,7 +211,10 @@
         "location": null,
         "start": "May 2023",
         "end": "Aug 2024",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Mainstay People Consulting LLP"
+        ],
         "duration_months": 16,
         "bullets": [
           "Analyzed client business requirements to define data-driven solutions, demonstrating strong analytical and problem-solving abilities in designing tailored software.",
@@ -124,7 +232,10 @@
         "location": null,
         "start": "Jul 2022",
         "end": "Mar 2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Sterlite Technologies Limited"
+        ],
         "duration_months": 9,
         "bullets": [
           "Developed and maintained data pipelines and tools to automate report generation and operational tasks, significantly improving data efficiency and accuracy.",
@@ -142,6 +253,9 @@
         "start": "Aug 2018",
         "end": "Jun 2022",
         "method": "date_regex+inherited_role",
+        "pre_date_header": [
+          "Sathyabama Institute of Science and Technology"
+        ],
         "duration_months": 47,
         "bullets": [],
         "sub_sections": [],
@@ -150,32 +264,19 @@
         "source": "experience"
       },
       {
-        "role": "Graduate Engineer Trainee",
-        "company": "Computer Science and Engineering",
+        "role": "Computer Science and Engineering",
+        "company": "Bachelors of Engineering",
         "location": null,
         "start": "Jun 2017",
         "end": "May 2018",
-        "method": "date_regex+inherited_role",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Computer Science and Engineering",
+          "Bachelors of Engineering",
+          "Maharishi Vidya Mandir School"
+        ],
         "duration_months": 12,
         "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "An active member of the Toastmasters club, where I currently serve as the Vice President",
-        "company": "Science Stream",
-        "location": null,
-        "start": "Oct 2022",
-        "end": "Present",
-        "method": "date_regex",
-        "duration_months": 48,
-        "bullets": [
-          "An active member of the Toastmasters club, where I currently serve as the Vice President - Education, a role focused on member development and club success.",
-          "I am also part of the Program Quality Director Extended Team, contributing to the broader district's quality standards.",
-          "Links:"
-        ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
@@ -186,25 +287,13 @@
     "total_experience": {
       "total_years": 9.2,
       "total_months": 110,
-      "overlapping_periods_merged": 2
+      "overlapping_periods_merged": 0
     },
-    "_confidence": 0.94
+    "_confidence": 0.95
   },
   "education": {
-    "entries": [
-      {
-        "degree": "Muruga Prasaad MD",
-        "degree_name": "MD",
-        "degree_type": "masters",
-        "degree_field": null,
-        "institution": null,
-        "year": "2025",
-        "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.8
-      }
-    ],
-    "_confidence": 0.8
+    "entries": [],
+    "_confidence": 0.0
   },
   "certifications": {
     "items": [],
@@ -215,7 +304,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
@@ -225,9 +314,9 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
+      "field": "education",
+      "confidence": 0.0,
+      "reason": "section_present_but_empty"
     }
   ]
 }

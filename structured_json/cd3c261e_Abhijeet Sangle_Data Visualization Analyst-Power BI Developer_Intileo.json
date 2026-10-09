@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cd3c261e_Abhijeet Sangle_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:22.402083+00:00",
+    "generated_at": "2026-10-07T09:28:18.349402+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,31 +48,51 @@
   "skills": {
     "items": [
       "Agile",
+      "Apache Spark",
       "Azure",
+      "Azure ADF",
+      "Azure Data Lake",
+      "Business Intelligence",
       "Business Process Analysis",
       "Business Process Optimization",
+      "Cross-functional Collaboration",
+      "Curriculum Development",
       "DAX",
       "Dashboard Development",
       "Data Analysis",
+      "Data Cleaning",
+      "Data Lineage",
       "Data Modeling",
       "Data Visualization",
       "Data Warehousing",
       "ETL",
       "KPI",
+      "KPI Scorecards",
+      "Leadership",
       "MSSQL",
-      "Microsoft Azure Data Factory",
+      "Mechanical Engineering",
+      "Mentoring",
+      "Microsoft Excel",
       "Microsoft Power Automate",
+      "Microsoft Teams",
       "MySQL",
+      "Onboarding",
+      "Patch Management",
+      "Payroll Administration",
       "Performance Optimization",
       "Power Apps",
       "Power BI",
+      "Power BI Service",
       "Power Platform",
       "Power Query",
       "Python",
+      "RBAC",
       "Reporting",
       "Requirements Gathering",
+      "Root Cause Analysis",
       "Row Level Security",
       "SQL",
+      "Security Compliance",
       "Sigma Computing",
       "Stakeholder Management",
       "Supply Chain",
@@ -84,23 +104,46 @@
       "project_mgmt": [
         "Agile"
       ],
+      "data_engineering": [
+        "Apache Spark",
+        "Data Cleaning",
+        "Data Warehousing",
+        "ETL"
+      ],
       "cloud_infra": [
-        "Azure",
-        "Microsoft Azure Data Factory"
+        "Azure"
+      ],
+      "cloud": [
+        "Azure ADF",
+        "Azure Data Lake"
       ],
       "business_analysis": [
+        "Business Intelligence",
         "Business Process Analysis",
         "KPI",
+        "KPI Scorecards",
         "Requirements Gathering",
         "Variance Analysis"
       ],
       "operations": [
-        "Business Process Optimization"
+        "Business Process Optimization",
+        "Root Cause Analysis"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "education_domain": [
+        "Curriculum Development"
       ],
       "data_science": [
         "DAX",
         "Dashboard Development",
         "Data Analysis",
+        "Data Lineage",
         "Data Modeling",
         "Data Visualization",
         "Power BI",
@@ -109,17 +152,27 @@
         "Sigma Computing",
         "Tableau"
       ],
-      "data_engineering": [
-        "Data Warehousing",
-        "ETL"
-      ],
       "database": [
         "MSSQL",
         "MySQL",
         "SQL"
       ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
       "rpa": [
         "Microsoft Power Automate"
+      ],
+      "hr": [
+        "Onboarding",
+        "Payroll Administration"
+      ],
+      "security_ops": [
+        "Patch Management"
       ],
       "dev_tool": [
         "Performance Optimization"
@@ -128,12 +181,15 @@
         "Power Apps",
         "Power Platform"
       ],
+      "bi_visualization": [
+        "Power BI Service"
+      ],
       "programming_language": [
         "Python"
       ],
-      "soft_skill": [
-        "Reporting",
-        "Stakeholder Management"
+      "security": [
+        "RBAC",
+        "Security Compliance"
       ],
       "domain": [
         "Supply Chain"
@@ -153,7 +209,11 @@
         "location": "Pune",
         "start": "Dec 2024",
         "end": "April 2026",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Power BI Developer",
+          "I-source Info System Pvt Ltd, Pune"
+        ],
         "duration_months": 17,
         "bullets": [
           "Designed and developed advanced Power BI dashboards using complex DAX, dynamic parameters, and scenario-driven business logic.",
@@ -179,11 +239,15 @@
       },
       {
         "role": "Power BI Analyst",
-        "company": "Senvion India",
+        "company": "Senvion India (Payroll-Adecco India",
         "location": "Mumbai",
         "start": "Jun 2024",
         "end": "Dec 2024",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Power BI Analyst",
+          "Senvion India (Payroll-Adecco India),Mumbai"
+        ],
         "duration_months": 7,
         "bullets": [
           "Conducted knowledge transfer sessions with end-users to explain dashboard functionalities, enable data-driven decision-making, and enhance business intelligence practices.",
@@ -206,13 +270,16 @@
         "start": "Feb 2024",
         "end": "May 2024",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "T-Web Exponent, Kolkata"
+        ],
         "duration_months": 4,
         "bullets": [
           "Facilitated KPI analysis by partnering with stakeholders to define metrics and translate business requirements into actionable BI solutions.",
           "Enhanced dashboard performance through DAX optimization and improved query structuring, reducing load time and improving user experience.",
           "Developed static and dynamic visuals to meet comprehensive reporting needs across multiple departments.",
           "Collaborated closely with data engineering teams to develop ETL pipelines, enhancing data consistency and establishing robust data lineage.",
-          "Developed various solution driven views and dashboards by developing different chart types including Pie Charts, Bar Charts, Tree Maps, Circle Views, Line Charts, Area Charts, Scatter Plots in"
+          "Developed various solution driven views and dashboards by developing different chart types including Pie Charts, Bar Charts,"
         ],
         "sub_sections": [],
         "confidence": 0.85,
@@ -221,11 +288,17 @@
       },
       {
         "role": "Junior Data Analyst",
-        "company": "T-Web Exponent",
-        "location": "Pune",
+        "company": "Tree Maps, Circle Views, Line Charts",
+        "location": "Area Charts",
         "start": "Jun 2020",
         "end": "Jan 2024",
-        "method": "date_regex+title_dict+comma_company_location+inherited_company",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Tree Maps, Circle Views, Line Charts, Area Charts, Scatter Plots in",
+          "Power BI.",
+          "Junior Data Analyst",
+          "Mind Spark Technologies,Pune"
+        ],
         "duration_months": 44,
         "bullets": [
           "Architected and optimized Power BI dashboards to enhance data-driven insights into KPIs, including Sales, Finance, and Operations, achieving a noticeable increase in stakeholder engagement.",
@@ -236,13 +309,13 @@
           "Developed and published standard or custom Power BI reports summarizing business data for reviewed by executives, managers, clients, and other stakeholders"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Assistant Prof",
-        "company": "T-Web Exponent",
+        "company": "Tree Maps, Circle Views, Line Charts",
         "location": "YTCEM,Karjat",
         "start": "12.2011",
         "end": "12.2019",
@@ -265,7 +338,7 @@
       "total_months": 168,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.9
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -276,7 +349,7 @@
         "degree_field": "Mechanical Engg.",
         "institution": "Mechanical Engg. Mumbai University Mumbai",
         "year": "2018",
-        "gpa": "8.16 /10",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -287,7 +360,7 @@
         "degree_field": "Mechanical Engg.",
         "institution": null,
         "year": "2011",
-        "gpa": "62.46%",
+        "gpa": "8.16 /10",
         "_needs_review": false,
         "_confidence": 0.8
       }
@@ -303,17 +376,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

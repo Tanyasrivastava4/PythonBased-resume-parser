@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1205f474_aae57496_P. Sravan_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:55.748036+00:00",
+    "generated_at": "2026-10-07T10:30:49.668129+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,20 +52,27 @@
       "API Design",
       "AWS",
       "AWS EC2",
+      "AWS Lambda",
       "AWS S3",
       "Agile",
       "Angular",
       "Apache Maven",
+      "Apache Tomcat",
+      "Automation Testing",
       "Azure",
+      "Azure DevOps",
       "Bitbucket",
       "Blog Writing",
       "Bootstrap",
       "C#",
       "CI/CD",
+      "CORS",
       "CSS3",
       "Code Reviews",
       "Collaboration",
+      "Communication",
       "Confluence",
+      "Context API",
       "Creativity",
       "Cross-functional Collaboration",
       "Data Modeling",
@@ -76,13 +83,18 @@
       "Express.js",
       "Git",
       "GitHub",
+      "GitLab",
       "Gradle",
+      "HIPAA",
       "HTML5",
+      "Healthcare",
       "Hibernate",
+      "Integration Testing",
       "IntelliJ IDEA",
       "JMeter",
       "JPA",
       "JSON",
+      "JSON Web Token",
       "JUnit",
       "Java",
       "JavaScript",
@@ -90,14 +102,20 @@
       "Jira",
       "Kanban",
       "Kubernetes",
+      "Legal Compliance",
       "Material UI",
       "Microservices",
       "Microsoft Teams",
+      "Mockito",
       "MongoDB",
       "MySQL",
       "Node.js",
+      "OAuth 2.0",
       "Operations Management",
+      "Oracle Database",
+      "PCI-DSS",
       "PL/SQL",
+      "Performance Optimization",
       "Performance Testing",
       "PostgreSQL",
       "Postman",
@@ -106,7 +124,7 @@
       "REST",
       "REST API",
       "React",
-      "Regulatory Compliance",
+      "Redux",
       "Responsive Web Design",
       "SASS",
       "SOAP",
@@ -115,9 +133,15 @@
       "Selenium",
       "Spring",
       "Spring Boot",
+      "Spring Cloud",
+      "Spring Security",
+      "State Management",
+      "Stored Procedures",
       "Swagger",
+      "Technical Design Document",
       "TypeScript",
       "VS Code",
+      "WebLogic",
       "XML",
       "jQuery"
     ],
@@ -144,6 +168,7 @@
         "Node.js",
         "REST API",
         "React",
+        "Redux",
         "Responsive Web Design",
         "SASS",
         "SOAP",
@@ -154,11 +179,14 @@
       ],
       "architecture": [
         "API Design",
-        "Microservices"
+        "Microservices",
+        "State Management",
+        "Technical Design Document"
       ],
       "cloud_infra": [
         "AWS",
         "AWS EC2",
+        "AWS Lambda",
         "AWS S3",
         "Azure"
       ],
@@ -170,33 +198,52 @@
       ],
       "dev_tool": [
         "Apache Maven",
+        "Apache Tomcat",
         "Bitbucket",
         "Code Reviews",
         "Eclipse",
         "Git",
         "GitHub",
+        "GitLab",
         "IntelliJ IDEA",
+        "Performance Optimization",
         "Postman",
         "Swagger",
-        "VS Code"
+        "WebLogic"
       ],
-      "content": [
-        "Blog Writing"
+      "testing": [
+        "Automation Testing",
+        "JMeter",
+        "JUnit",
+        "Mockito",
+        "Performance Testing",
+        "Selenium"
       ],
       "devops": [
+        "Azure DevOps",
         "CI/CD",
         "DevOps",
         "Docker",
         "Jenkins",
         "Kubernetes"
       ],
+      "content": [
+        "Blog Writing"
+      ],
+      "web_development": [
+        "CORS"
+      ],
       "soft_skill": [
         "Collaboration",
+        "Communication",
         "Creativity",
         "Cross-functional Collaboration"
       ],
       "collaboration": [
         "Confluence"
+      ],
+      "frontend": [
+        "Context API"
       ],
       "data_science": [
         "Data Modeling"
@@ -204,11 +251,22 @@
       "data_engineering": [
         "Data Validation"
       ],
-      "testing": [
-        "JMeter",
-        "JUnit",
-        "Performance Testing",
-        "Selenium"
+      "healthcare": [
+        "HIPAA"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "security_ops": [
+        "Integration Testing",
+        "PCI-DSS"
+      ],
+      "security": [
+        "JSON Web Token",
+        "OAuth 2.0"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -216,10 +274,12 @@
       "database": [
         "MongoDB",
         "MySQL",
+        "Oracle Database",
         "PL/SQL",
         "PostgreSQL",
         "Query Optimization",
-        "SQL"
+        "SQL",
+        "Stored Procedures"
       ],
       "operations": [
         "Operations Management",
@@ -228,23 +288,27 @@
       "integration": [
         "REST"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "framework": [
+        "Spring Cloud",
+        "Spring Security"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(RESTful Web Services→REST API(95%), Microservices Architecture→Microservices(100%), Maven→Apache Maven(100%), JIRA→Jira(100%), Code Review→Code Reviews(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(RESTful Web Services→REST API(95%), Microservices Architecture→Microservices(100%), Oracle→Oracle Database(100%), Maven→Apache Maven(100%), JIRA→Jira(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Software Engineer",
-        "company": "ADP",
+        "role": "Software Engineer with ADP, Since",
+        "company": "Working",
         "location": null,
         "start": "Oct 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+worked_as_role_in_company",
-        "duration_months": 48,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 49,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -252,12 +316,12 @@
         "source": "experience"
       },
       {
-        "role": "Software Engineer",
-        "company": "Cognizant Technology Solutions",
+        "role": "Software Engineer with Cognizant Technology Solutions",
+        "company": "Worked",
         "location": null,
         "start": "Feb 2020",
         "end": "Sep 2022",
-        "method": "date_regex+date_prefix_title+worked_as_role_in_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 32,
         "bullets": [
           "Designed and developed scalable full-stack applications using Java, Spring Boot, Node.js, Angular, React.js, and SQL.",
@@ -292,8 +356,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.7,
-      "total_months": 80,
+      "total_years": 6.8,
+      "total_months": 81,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -301,7 +365,7 @@
   "education": {
     "entries": [
       {
-        "degree": "BSC from Osmania University",
+        "degree": "BSC",
         "degree_name": "B.Sc",
         "degree_type": "bachelors",
         "degree_field": null,

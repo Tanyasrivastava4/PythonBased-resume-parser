@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4d760140_bc63d7ef_Geetanjali Mukherjee_SalesforceBA_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:36.460100+00:00",
+    "generated_at": "2026-10-07T10:31:38.431844+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -54,38 +54,67 @@
       "AWS",
       "AWS CloudWatch",
       "AWS Lambda",
+      "Account Management",
       "Agile",
+      "Automation Testing",
       "Azure",
       "Bing",
+      "Capacity Management",
+      "Change Management",
+      "Client Handling",
       "Collaboration",
-      "Cost Analysis",
+      "Communication",
+      "Continuous Improvement",
+      "Coroutines Flow",
+      "Cost Accounting",
+      "Creativity",
       "Cross-functional Collaboration",
+      "Customer Onboarding",
+      "Customer Service",
+      "Customer Success",
       "DevOps",
       "E-commerce",
+      "ERP",
       "Employee Engagement",
+      "Field Sales",
       "GPT-4",
       "Generative AI",
       "Go",
+      "HRMS",
       "Interpersonal Skills",
       "Jira",
+      "Kanban",
       "Leadership",
+      "Marketing Automation",
       "Microsoft Teams",
       "Microsoft Visio",
+      "Onboarding",
       "Postman",
       "Program Management",
       "Project Management",
+      "Quality Assurance",
       "RFP",
+      "Regression Testing",
+      "Reporting",
       "Resource Planning",
+      "Risk Management",
       "SQL",
       "Salesforce",
       "Schedule III",
       "Scrum",
+      "Selenium",
+      "Team Coordination",
+      "Ticketing Systems",
+      "UAT",
       "UiPath",
       "Xplanner"
     ],
     "by_category": {
       "testing": [
-        "API Testing"
+        "API Testing",
+        "Automation Testing",
+        "Selenium",
+        "UAT"
       ],
       "cloud_infra": [
         "AWS",
@@ -93,12 +122,19 @@
         "AWS Lambda",
         "Azure"
       ],
+      "sales": [
+        "Account Management",
+        "Field Sales"
+      ],
       "project_mgmt": [
         "Agile",
+        "Change Management",
         "Jira",
+        "Kanban",
         "Program Management",
         "Project Management",
         "Resource Planning",
+        "Risk Management",
         "Scrum"
       ],
       "database": [
@@ -106,23 +142,51 @@
         "SQL",
         "Xplanner"
       ],
+      "devops": [
+        "Capacity Management",
+        "DevOps"
+      ],
+      "management": [
+        "Client Handling",
+        "Team Coordination"
+      ],
       "soft_skill": [
         "Collaboration",
+        "Communication",
+        "Creativity",
         "Cross-functional Collaboration",
         "Interpersonal Skills",
-        "Leadership"
+        "Leadership",
+        "Reporting"
       ],
-      "finance_ops": [
-        "Cost Analysis"
+      "operations": [
+        "Continuous Improvement",
+        "Quality Assurance"
       ],
-      "devops": [
-        "DevOps"
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "accounting": [
+        "Cost Accounting"
+      ],
+      "client_mgmt": [
+        "Customer Onboarding",
+        "Customer Service"
+      ],
+      "support": [
+        "Customer Success",
+        "Ticketing Systems"
       ],
       "retail": [
         "E-commerce"
       ],
+      "erp": [
+        "ERP"
+      ],
       "hr": [
-        "Employee Engagement"
+        "Employee Engagement",
+        "HRMS",
+        "Onboarding"
       ],
       "genai": [
         "GPT-4",
@@ -130,6 +194,9 @@
       ],
       "programming_language": [
         "Go"
+      ],
+      "marketing": [
+        "Marketing Automation"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -140,6 +207,9 @@
       ],
       "business_analysis": [
         "RFP"
+      ],
+      "security_ops": [
+        "Regression Testing"
       ],
       "integration": [
         "Salesforce"
@@ -157,8 +227,8 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Currently Worked",
+        "role": "Unknown",
+        "company": "Synopsis | Group Manager for four critical deliverable projects for client Optima Tax Relief. All the four projects are in Salesforce –",
         "location": null,
         "start": "Jan 2025",
         "end": "Aug 2025",
@@ -177,7 +247,11 @@
         "start": "Jan2025",
         "end": "Present",
         "method": "date_regex+company_parens_role",
-        "duration_months": 21,
+        "pre_date_header": [
+          "Value Labs (Associate Manager)",
+          "Project/Client Name: Optima Tax Relief"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Unknown - Synopsis | Group Manager for four critical deliverable projects for client Optima Tax Relief. All the four projects are in Salesforce – Sales Cloud and Service Cloud. Roles and Responsibilities:",
           "Define the overall vision, roadmap, and delivery strategy for the Salesforce implementation tailored to tax relief operations.",
@@ -192,12 +266,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Previous Work History -I",
+        "role": "Previous Work History -I",
+        "company": "Value Labs",
         "location": null,
         "start": "Feb 2015",
         "end": "Jan 2025",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company+inherited_company",
+        "pre_date_header": [
+          "Previous Work History -I"
+        ],
         "duration_months": 120,
         "bullets": [],
         "sub_sections": [],
@@ -206,26 +283,42 @@
         "source": "experience"
       },
       {
-        "role": "Tavant Technologies [ Project Manager",
-        "company": "Project/Client Name: Land O’ Lakes. Project Duration",
+        "role": "Project Duration: ( Jan2025",
+        "company": "Technical Domain: Salesforce Platform, RPA UI PATH and GPT-4 ,Generative AI Synopsis: Worked 10 years for the Client Land O Lakes with multiple project accounts like Purina, DataSilo and R7. All of these projects were involved in the Insurance, Warranty on Demand and Agritech domains. Roles and Responsibilities:",
         "location": null,
         "start": "Feb 2015",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 140,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Tavant Technologies [ Project Manager]",
+          "Project/Client Name: Land O’ Lakes."
+        ],
+        "duration_months": 141,
         "bullets": [
-          "Technical Domain: Salesforce Platform, RPA UI PATH and GPT-4 ,Generative AI Synopsis: Worked 10 years for the Client Land O Lakes with multiple project accounts like Purina, DataSilo and R7. All of these projects were involved in the Insurance, Warranty on Demand and Agritech domains. Roles and Responsibilities:",
           "Project Leadership & Delivery",
           "Managed end-to-end implementation and optimization of Salesforce Warranty on Demand Solutions.",
           "Translate warranty business requirements into Salesforce architecture across Sales, Service, and Marketing Clouds.",
           "Managing Agile Framework in the Project and maintaining Agile Ceremonies.",
           "Managed all Project Management artifacts – Project Plan, Risk Registers, Sprint Tracker.",
-          "Ensure timely and quality delivery using agile or hybrid methodologies.",
-          "Sales Cloud Responsibilities",
+          "Ensure timely and quality delivery using agile or hybrid methodologies."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "2. Sales Cloud Responsibilities",
+        "company": "Service Cloud Responsibilities",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "title_dict",
+        "duration_months": 0,
+        "bullets": [
           "Streamline lead-to-case lifecycle for warranty registrations and claims.",
           "Manage opportunity tracking, quote generation, and field sales enablement for warranty product sales.",
           "Oversee custom workflows and approval processes for warranty upgrades or sales renewals.",
-          "Service Cloud Responsibilities",
           "Architect and supervise case management flows for warranty claims, status tracking, replacements, and escalations.",
           "Ensure integration with field service modules (if used) for on-site service and repair tracking.",
           "Marketing Cloud Responsibilities",
@@ -253,13 +346,27 @@
           "Implement rigorous QA, regression testing, and audit mechanisms before go-live and during updates.",
           "Continuous Improvement & Innovation",
           "Monitor and adopt relevant Salesforce releases and features to enhance warranty operations.",
-          "Use feedback loops and analytics to refine customer experiences and streamline processes.",
-          "Other HRMS Projects in Tavant:",
+          "Use feedback loops and analytics to refine customer experiences and streamline processes."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "12. Other HRMS Projects in Tavant",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "none",
+        "duration_months": 0,
+        "bullets": [
           "Worked for HRMS Tools Management like Darwin Box and Success Factor for almost years.",
           "Also Managed Company’s inhouse HR Resource Allocation tool Cranium which briefs about how resources are onboarded, Earmarked and Allocated to the projects. End to End Resource Cycle from onboarding to releasing project/organization."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
+        "confidence": 0.65,
         "needs_review": true,
         "source": "experience"
       },
@@ -270,6 +377,9 @@
         "start": "August 2012",
         "end": "Aug 2014",
         "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "Previous Work History -II"
+        ],
         "duration_months": 25,
         "bullets": [
           "Synopsis: PROVAR is the Automation tool for Salesforce using Selenium Web driver on the Backend. PROVAR supports no code automation testing for Salesforce. Platform & Tools Used were Salesforce, Selenium Web Driver Roles and Responsibilities:",
@@ -297,6 +407,9 @@
         "start": "JUL 2011",
         "end": "JUN 2012",
         "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "Previous Work History -III"
+        ],
         "duration_months": 12,
         "bullets": [
           "Project/Client Name: CSN- Cvent Supplier Network.",
@@ -330,6 +443,9 @@
         "start": "JUN 2008",
         "end": "NOV 2010",
         "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "Previous Work History -IV"
+        ],
         "duration_months": 30,
         "bullets": [
           "Project/Client Name: HP Products. Synopsis: Worked in HP process which is a U.S. based process.",
@@ -345,15 +461,27 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 17.2,
-      "total_months": 207,
+      "total_years": 17.3,
+      "total_months": 208,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.9
+    "_confidence": 0.86
   },
   "education": {
-    "entries": [],
-    "_confidence": 0.0
+    "entries": [
+      {
+        "degree": "Bachelors in Science",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Computer Application UPTU University",
+        "year": "2008",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -393,7 +521,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
@@ -413,9 +541,9 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "education",
-      "confidence": 0.0,
-      "reason": "section_present_but_empty"
+      "field": "experience.jobs[5]",
+      "confidence": 0.65,
+      "reason": "incomplete_fields"
     },
     {
       "field": "certifications",

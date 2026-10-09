@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e9660574_d1947426_NIKHILESH_Network Security_Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:38.851060+00:00",
+    "generated_at": "2026-10-07T09:28:39.871989+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,23 +49,115 @@
   "summary": "To work in a field that challenge my technical, analytical and management abilities. I would\nlike to enhance my skills and knowledge while working and contributing towards the\ndevelopment of organization.",
   "skills": {
     "items": [
+      "Amazon Seller",
+      "AnyDesk",
+      "Asset Management",
       "CCNA",
       "Check Point",
+      "Collaboration",
+      "Communication",
+      "Coroutines Flow",
+      "Desktop Support",
+      "Express.js",
       "Firewall",
       "Fortinet",
-      "Palo Alto Networks"
+      "Hikvision",
+      "IT Infrastructure Management",
+      "Incident Management",
+      "Load Balancer",
+      "Microsoft Teams",
+      "Microsoft Windows Server",
+      "NAT",
+      "Nagios",
+      "Network Monitoring Tools",
+      "Network Security",
+      "Network Troubleshooting",
+      "Networking",
+      "Palo Alto Networks",
+      "Patch Management",
+      "Performance Monitoring",
+      "Procurement",
+      "PuTTY",
+      "RBI",
+      "Security Operations Center",
+      "Supply Chain",
+      "VLAN",
+      "VPN",
+      "WLC",
+      "iOS"
     ],
     "by_category": {
+      "retail": [
+        "Amazon Seller"
+      ],
+      "dev_tool": [
+        "AnyDesk",
+        "PuTTY"
+      ],
+      "sysadmin": [
+        "Asset Management",
+        "Desktop Support",
+        "Network Troubleshooting"
+      ],
       "networking": [
-        "CCNA"
+        "CCNA",
+        "NAT"
       ],
       "security_ops": [
         "Check Point",
         "Firewall",
-        "Palo Alto Networks"
+        "Hikvision",
+        "Network Security",
+        "Palo Alto Networks",
+        "Patch Management",
+        "Security Operations Center",
+        "VPN"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "web_framework": [
+        "Express.js"
       ],
       "security": [
-        "Fortinet"
+        "Fortinet",
+        "Incident Management"
+      ],
+      "it_ops": [
+        "IT Infrastructure Management"
+      ],
+      "devops": [
+        "Load Balancer",
+        "Network Monitoring Tools"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "cloud_infra": [
+        "Microsoft Windows Server",
+        "Nagios",
+        "VLAN"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "operations": [
+        "Performance Monitoring",
+        "Procurement"
+      ],
+      "domain": [
+        "RBI",
+        "Supply Chain"
+      ],
+      "hardware": [
+        "WLC"
+      ],
+      "mobile": [
+        "iOS"
       ]
     },
     "_confidence": 0.92,
@@ -80,7 +172,10 @@
         "start": "November 2025",
         "end": "Present",
         "method": "date_regex",
-        "duration_months": 11,
+        "pre_date_header": [
+          "Sahayog Multistate Credit Cooperative Bank"
+        ],
+        "duration_months": 12,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -89,11 +184,15 @@
       },
       {
         "role": "Network Engineer",
-        "company": "Creative Info-Link Pvt. Ltd",
+        "company": "Creative Info-Link Pvt. Ltd (Bajaj Finance Ltd",
         "location": null,
         "start": "June 2025",
         "end": "October 2025",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Network Engineer",
+          "Creative Info-Link Pvt. Ltd (Bajaj Finance Ltd)"
+        ],
         "duration_months": 5,
         "bullets": [
           "Administered Palo Alto PA3200 and PA820 firewalls, including configuration, policy management, and performance monitoring.",
@@ -106,8 +205,8 @@
           "Executed switch migration activities, ensuring minimal downtime and optimized network performance during infrastructure upgrades."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -116,7 +215,10 @@
         "location": null,
         "start": "December 2024",
         "end": "April 2025",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Infosys BPM Limited"
+        ],
         "duration_months": 5,
         "bullets": [
           "Network Device Configured: Switches configuration including port security, VLAN.",
@@ -134,11 +236,14 @@
       },
       {
         "role": "Network Security Engineer",
-        "company": "Softenger India Pvt. Ltd",
+        "company": "Softenger India Pvt. Ltd (HPE_RBI",
         "location": null,
         "start": "Jan 2024",
         "end": "Nov 2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Softenger India Pvt. Ltd (HPE_RBI)"
+        ],
         "duration_months": 11,
         "bullets": [
           "Network Security & Firewall Management: Regular health checks and configuration of Checkpoint 16200 Firewall and Palo Alto PA-5520, ensuring optimal network security.",
@@ -163,7 +268,10 @@
         "location": null,
         "start": "June 2022",
         "end": "Dec2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Busybees Logistic Solution Pvt. Ltd"
+        ],
         "duration_months": 19,
         "bullets": [
           "Firewall Management: Installed, configured, and monitored FortiGate 80E Firewall and Cisco 1852E Wireless Access Points for network security and wireless connectivity.",
@@ -180,12 +288,16 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Future Supply Chain Solution (Vegith Global and",
+        "role": "Future Supply Chain Solution (Vegith Global and",
+        "company": "Express HR",
         "location": null,
         "start": "Dec2021",
         "end": "June2022",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Procurement, Networking Setup, Security Configuration.",
+          "Future Supply Chain Solution (Vegith Global and"
+        ],
         "duration_months": 7,
         "bullets": [
           "Networking Device Configuration: Configured and managed network devices such as Cisco 2960/9200/9300 switches, Cisco Wireless Controllers (WLC), and Access Points, ensuring stable network performance across branches.",
@@ -194,17 +306,20 @@
           "Managed multiple locations IT project."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "IT Support Technician",
-        "company": "Amazon Seller Services Pvt. Ltd",
+        "company": "Amazon Seller Services Pvt. Ltd (Quess Corp",
         "location": null,
         "start": "May2020",
         "end": "Dec2021",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Amazon Seller Services Pvt. Ltd (Quess Corp)"
+        ],
         "duration_months": 20,
         "bullets": [
           "Configured Cisco switches 9300",
@@ -214,29 +329,40 @@
           "Network Monitoring: Supported Internet link monitoring, identifying potential issues and ensuring connectivity for the workforce."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.3,
-      "total_months": 76,
+      "total_years": 6.4,
+      "total_months": 77,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.9
+    "_confidence": 0.88
   },
   "education": {
     "entries": [
       {
-        "degree": "• Diploma in Mechanical Engineering from Nagpur Polytechnic Nagpur (KDK College",
+        "degree": "• Diploma in Mechanical Engineering",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Mechanical Engineering from Nagpur Polytechnic Nagpur (KDK College",
-        "institution": "Nagpur Polytechnic Nagpur (KDK College of Engineering) with",
-        "year": "2007",
+        "institution": "Nagpur Polytechnic Nagpur (KDK College of Engineering)",
+        "year": "2011",
         "gpa": "66.29%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Secondary School Certificate",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "Baba Raghunath Swami High School Nagpur",
+        "year": "2005",
+        "gpa": "61.60%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -252,7 +378,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
@@ -262,8 +388,13 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[5]",
-      "confidence": 0.55,
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[6]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

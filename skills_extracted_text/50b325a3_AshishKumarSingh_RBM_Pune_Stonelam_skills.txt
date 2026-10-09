@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/50b325a3_AshishKumarSingh_RBM_Pune_Stonelam_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Problem Solving Skills
+Mature and balancing thoughts
+M a k i n g
+s t r a t e g y & Negotiation
+Skills
+
+── Extraction Results ──
+Skills found   : 18
+Confidence     : 0.92
+Time           : 2224.13 ms
+Method         : flashtext_skills_section | fuzzy(Client Management→Client Relationship Management(100%), Responsible→Responsible AI(95%), Rest→REST(100%), rest→REST(100%), Responsible→Responsible AI(95%)...)
+
+── All Skills (18) ──
+Business Development, Business Planning, CSAT, Channel Sales, Client Relationship Management, Healthcare, Mental Health, Microsoft Windows, Negotiation, Performance Monitoring, Problem Solving, R, REST, Recruitment, Responsible AI, Retail Sales, Sales Strategy, Tutoring
+
+── By Category ──
+  biz_dev                        ['Business Development', 'Business Planning']
+  client_mgmt                    ['Client Relationship Management']
+  customer_service               ['CSAT']
+  domain                         ['Healthcare']
+  education_domain               ['Tutoring']
+  genai                          ['Responsible AI']
+  healthcare                     ['Mental Health']
+  hr                             ['Recruitment']
+  integration                    ['REST']
+  operations                     ['Performance Monitoring']
+  os_system                      ['Microsoft Windows']
+  programming_language           ['R']
+  sales                          ['Channel Sales', 'Retail Sales', 'Sales Strategy']
+  soft_skill                     ['Negotiation', 'Problem Solving']

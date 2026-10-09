@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "09070153_Akash Verma_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:48.629099+00:00",
+    "generated_at": "2026-10-07T10:30:41.377365+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -60,19 +60,26 @@
       "CNN",
       "Computer Vision",
       "Contour Analysis",
+      "Cosine Similarity",
       "Data Cleaning",
       "Data Preprocessing",
+      "Data Science",
       "Deep Learning",
+      "Deep SORT",
       "End-to-End AI Pipelines",
+      "Flask",
       "GPIO",
       "GPT",
       "Generative AI",
+      "GitHub",
       "Hugging Face",
+      "Image Preprocessing",
       "K-means Clustering",
       "LLM",
       "LangChain",
       "MCP Server",
       "Machine Learning",
+      "Microsoft Edge",
       "Model Deployment Workflows",
       "Model Evaluation Metrics",
       "NVIDIA Jetson",
@@ -85,13 +92,17 @@
       "RAG",
       "Raspberry Pi",
       "Redis",
+      "Reliability",
+      "Reporting",
       "SQL",
+      "SQLite",
       "Similarity Search Techniques",
       "TensorFlow",
       "Transfer Learning",
       "Transformers",
       "Vector Databases",
       "Vector Search",
+      "Workflow Automation",
       "YOLO"
     ],
     "by_category": {
@@ -101,6 +112,8 @@
         "CNN",
         "Computer Vision",
         "Contour Analysis",
+        "Cosine Similarity",
+        "Data Science",
         "Deep Learning",
         "End-to-End AI Pipelines",
         "GPT",
@@ -138,22 +151,41 @@
         "Data Cleaning",
         "Data Preprocessing"
       ],
+      "computer_vision": [
+        "Deep SORT",
+        "Image Preprocessing"
+      ],
+      "web_framework": [
+        "Flask"
+      ],
       "embedded_systems": [
         "GPIO",
         "NVIDIA Jetson",
         "Raspberry Pi"
       ],
+      "dev_tool": [
+        "GitHub",
+        "Microsoft Edge"
+      ],
       "database": [
         "NoSQL",
         "PostgreSQL",
         "Redis",
-        "SQL"
+        "SQL",
+        "SQLite"
       ],
       "programming_language": [
         "Python"
       ],
+      "soft_skill": [
+        "Reliability",
+        "Reporting"
+      ],
       "data_science": [
         "Transformers"
+      ],
+      "operations": [
+        "Workflow Automation"
       ]
     },
     "_confidence": 0.92,
@@ -162,12 +194,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Indore, Madhya Pradesh — Associate Data Science Engineer II",
+        "role": "Associate Data Science Engineer II",
         "company": "Techdome",
         "location": "Indore, Madhya Pradesh",
         "start": "June’25",
         "end": "Jan’26",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Techdome - Indore, Madhya Pradesh — Associate Data Science Engineer II"
+        ],
         "duration_months": 8,
         "bullets": [
           "Designed and implemented an end-to-end AI video generation platform by integrating multiple generative AI models, APIs, and automated workflows.",
@@ -181,12 +216,15 @@
         "source": "experience"
       },
       {
-        "role": "Greater Noida, Uttar Pradesh — Data Science Engineer Intern",
+        "role": "Data Science Engineer Intern",
         "company": "Infinity Labs",
         "location": "Greater Noida, Uttar Pradesh",
         "start": "June’23",
         "end": "Aug’23",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Infinity Labs - Greater Noida, Uttar Pradesh — Data Science Engineer Intern"
+        ],
         "duration_months": 3,
         "bullets": [
           "Developed a facial recognition system for automated attendance using OpenCV, enabling real-time face detection and identification.",
@@ -215,9 +253,9 @@
     "entries": [
       {
         "degree": "BS–MS Data Science and Chemistry",
-        "degree_name": "B.Sc",
-        "degree_type": "bachelors",
-        "degree_field": "MS Data Science and Chemistry",
+        "degree_name": "BS-MS",
+        "degree_type": "masters",
+        "degree_field": null,
         "institution": "Indian Institute of Science Education and Research Mohali",
         "year": "Aug2020 - May2025",
         "gpa": null,

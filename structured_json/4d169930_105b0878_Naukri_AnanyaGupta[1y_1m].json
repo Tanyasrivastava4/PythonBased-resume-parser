@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4d169930_105b0878_Naukri_AnanyaGupta[1y_1m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:35.765640+00:00",
+    "generated_at": "2026-10-07T10:31:37.387066+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,13 +48,17 @@
   "summary": "AI/ML Engineer specializing in Generative AI and\nmultimodal systems, with a strong foundation in research and production-grade AI.",
   "skills": {
     "items": [
+      "A/B Testing",
       "AWS",
       "Amazon Nova Pro",
+      "Amazon Titan",
       "Azure OpenAI",
+      "BERT",
       "BeautifulSoup",
       "Bedrock",
       "Claude",
       "Data Analytics",
+      "Data Preprocessing",
       "FAISS",
       "GPT-4",
       "Generative AI",
@@ -62,10 +66,12 @@
       "GitHub",
       "Google",
       "Groq",
+      "Hallucination Mitigation",
       "Hugging Face",
       "Jira",
       "LLM",
       "LLM Orchestration",
+      "LLaMA",
       "LinkedIn",
       "Llama CPP",
       "Machine Learning",
@@ -75,27 +81,40 @@
       "Node.js",
       "NumPy",
       "Ollama",
+      "OpenAI API",
       "Pandas",
       "Prompt Engineering",
       "PyTorch",
       "Python",
       "Qwen",
+      "R",
       "RAG",
       "SQL",
       "SQLAlchemy",
       "Seaborn",
+      "Sentence Transformers",
+      "Streamlit",
       "TensorFlow",
       "Topic Modeling",
       "Transformers",
       "Vector Databases",
+      "XML",
       "scikit-learn"
     ],
     "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Data Analytics",
+        "Transformers"
+      ],
       "cloud_infra": [
         "AWS"
       ],
       "ai_ml": [
         "Amazon Nova Pro",
+        "Amazon Titan",
+        "BERT",
+        "Hallucination Mitigation",
         "LLM Orchestration",
         "Llama CPP",
         "Machine Learning",
@@ -105,6 +124,7 @@
         "Pandas",
         "PyTorch",
         "Seaborn",
+        "Sentence Transformers",
         "TensorFlow",
         "Topic Modeling",
         "scikit-learn"
@@ -118,7 +138,9 @@
         "Groq",
         "Hugging Face",
         "LLM",
+        "LLaMA",
         "Ollama",
+        "OpenAI API",
         "Prompt Engineering",
         "Qwen",
         "RAG",
@@ -127,16 +149,16 @@
       "library": [
         "BeautifulSoup"
       ],
-      "data_science": [
-        "Data Analytics",
-        "Transformers"
+      "data_engineering": [
+        "Data Preprocessing"
       ],
       "search": [
         "FAISS"
       ],
       "dev_tool": [
         "Git",
-        "GitHub"
+        "GitHub",
+        "Streamlit"
       ],
       "database": [
         "Google",
@@ -149,10 +171,12 @@
       ],
       "web_framework": [
         "LinkedIn",
-        "Node.js"
+        "Node.js",
+        "XML"
       ],
       "programming_language": [
-        "Python"
+        "Python",
+        "R"
       ]
     },
     "_confidence": 0.92,
@@ -163,11 +187,14 @@
       {
         "role": "AI Software Engineer| Hybrid",
         "company": "Biz Digital IT",
-        "location": "Gurugram, India",
+        "location": "India",
         "start": "Jan’25",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 21,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Biz Digital IT | Gurugram, India"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Designed and implemented a government-facing RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova Pro, owning the system from POC to production integration.",
           "Implemented semantic retrieval, multi-turn follow-up handling, and hallucination control, ensuring accurate, scope-restricted responses aligned with official MIDC data.",
@@ -185,12 +212,15 @@
         "source": "experience"
       },
       {
-        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
+        "role": "R&D Intern",
         "company": "Docquity",
-        "location": "Gurugram, India",
+        "location": "India",
         "start": "July’24",
         "end": "Sept’24",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Docquity | Gurugram, India"
+        ],
         "duration_months": 3,
         "bullets": [
           "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical text (PubMed XML).",
@@ -203,16 +233,19 @@
         "source": "experience"
       },
       {
-        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
+        "role": "R&D Intern",
         "company": "Learning",
         "location": null,
         "start": "Feb’25",
         "end": "May’25",
         "method": "date_regex+inherited_role",
+        "pre_date_header": [
+          "Learning"
+        ],
         "duration_months": 4,
         "bullets": [
-          "Tools: AWS Bedrock , PyTorch, Hugging Face (BERT, RoBERTa, DistilBERT), Python o Built a system that analyzed sentiment from raw images and text by generating structured metadata with Amazon Nova Pro.",
-          "Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy o Created vibrant visualizations (e.g., radial heatmaps, tree maps) with Python/PyTorch, producing publication-ready figures for a research paper."
+          "Tools: AWS Bedrock , PyTorch, Hugging Face (BERT, RoBERTa, DistilBERT), Python o Built a system that analyzed sentiment from raw images and text by generating structured metadata with Amazon Nova Pro. Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy o Created vibrant visualizations (e.g., radial heatmaps, tree maps) with Python/PyTorch, producing publication-ready figures for a research paper.",
+          "Medical RAG Chatbot for Knowledge-Grounded Question Answering | Link"
         ],
         "sub_sections": [],
         "confidence": 0.85,
@@ -220,15 +253,16 @@
         "source": "experience"
       },
       {
-        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
-        "company": "Medical RAG Chatbot for Knowledge-Grounded Question Answering",
-        "location": "Link",
+        "role": "R&D Intern",
+        "company": "o Designed a Retrieval-Augmented Generation  system to answer domain-specific queries using a structured CSV-based",
+        "location": null,
         "start": "Aug’24",
         "end": "Sept’24",
-        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "method": "date_regex+inherited_role",
         "duration_months": 2,
         "bullets": [
-          "Tools: Sentence Transformers, FAISS, RAG, Groq LLM, Python, Streamlit o Designed a Retrieval-Augmented Generation (RAG) system to answer domain-specific queries using a structured CSV-based knowledge base. o Implemented semantic retrieval with Sentence Transformers and FAISS to ground LLM responses and reduce hallucinations. o Engineered modular preprocessing, retrieval, and generation components with transparent context inspection and conversational memory."
+          "Tools: Sentence Transformers, FAISS, RAG, Groq LLM, Python, Streamlit o Designed a Retrieval-Augmented Generation (RAG) system to answer domain-specific queries using a structured CSV-based knowledge base. o Implemented semantic retrieval with Sentence Transformers and FAISS to ground LLM responses and reduce hallucinations. o Engineered modular preprocessing, retrieval, and generation components with transparent context inspection and conversational memory.",
+          "Multi-File RAG & LLM Chat System with Streamlit | LINK"
         ],
         "sub_sections": [],
         "confidence": 0.55,
@@ -236,12 +270,12 @@
         "source": "experience"
       },
       {
-        "role": "R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical",
-        "company": "Multi-File RAG & LLM Chat System with Streamlit",
-        "location": "LINK",
+        "role": "R&D Intern",
+        "company": "o Developed a Streamlit application integrating Retrieval-Augmented Generation  to support multi-file uploads (PDF",
+        "location": null,
         "start": "Sept’24",
         "end": "Dec’24",
-        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "method": "date_regex+inherited_role",
         "duration_months": 4,
         "bullets": [
           "Tools: Grok API , Hugging face, sentence transformers, Faiss, RAG, python, Llama 8B, Python, Streamlit o Developed a Streamlit application integrating Retrieval-Augmented Generation (RAG) to support multi-file uploads (PDF, DOCX, TXT, MP3, MP4) for context-based responses. o Implemented a conversational interface using Llama 8B via the Groq API, enabling users to engage in natural language queries with the model. o Enhanced user experience by allowing seamless interaction with uploaded documents, facilitating efficient information retrieval and summarization."
@@ -254,8 +288,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.2,
-      "total_months": 27,
+      "total_years": 2.3,
+      "total_months": 28,
       "overlapping_periods_merged": 3
     },
     "_confidence": 0.78

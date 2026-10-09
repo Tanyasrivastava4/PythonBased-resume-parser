@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/ffa94d71_78ffd931_Deepika Mittal_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Technology Recruitment
+• Stakeholder Management
+• Global Hiring (India, US, South Africa)
+• Workforce Planning
+• Talent Pipeline Development
+• Recruitment Analytics
+• Candidate
+
+── Extraction Results ──
+Skills found   : 16
+Confidence     : 0.92
+Time           : 221.41 ms
+Method         : flashtext_skills_section | fuzzy(Workforce Planning→Resource Planning(100%), hiring→Recruitment(100%), recruitment→Recruitment(100%), stakeholder management→Stakeholder Management(100%), workforce planning→Resource Planning(100%)...)
+
+── All Skills (16) ──
+Employee Engagement, Go, HR Management, HRIS, Leadership, LinkedIn, Microsoft Teams, Negotiation, Onboarding, Procurement, Project Management, Recruitment, Resource Planning, SDLC, Stakeholder Management, Talent Management
+
+── By Category ──
+  architecture                   ['SDLC']
+  hr                             ['Employee Engagement', 'HR Management', 'HRIS', 'Onboarding', 'Recruitment', 'Talent Management']
+  operations                     ['Procurement']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Go']
+  project_mgmt                   ['Project Management', 'Resource Planning']
+  soft_skill                     ['Leadership', 'Negotiation', 'Stakeholder Management']
+  web_framework                  ['LinkedIn']

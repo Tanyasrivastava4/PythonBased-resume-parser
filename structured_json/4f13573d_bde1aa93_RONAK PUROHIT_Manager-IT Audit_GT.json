@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4f13573d_bde1aa93_RONAK PUROHIT_Manager-IT Audit_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:37.182315+00:00",
+    "generated_at": "2026-10-07T10:31:39.494906+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,30 +50,49 @@
       "Auditing",
       "BCP",
       "Business Continuity Management",
+      "Change Management",
       "Disaster Recovery",
       "ERP",
+      "Financial Reporting",
       "GRC",
       "ISMS",
+      "ISO 22301",
       "ISO 27001",
+      "IT Attestation",
       "ITAC",
       "ITGC",
       "Identity Management",
+      "Leadership",
+      "Oracle Database",
+      "Project Governance",
+      "Quality Assurance",
       "SAP",
+      "SDLC",
       "SOC 1",
       "SOC 2",
-      "SOX"
+      "SOX",
+      "Segregation of Duties",
+      "Statutory Audit"
     ],
     "by_category": {
       "finance_ops": [
         "Auditing",
+        "Financial Reporting",
         "ITAC",
         "ITGC",
-        "SOX"
+        "SOX",
+        "Segregation of Duties",
+        "Statutory Audit"
       ],
       "operations": [
         "BCP",
         "Business Continuity Management",
-        "Disaster Recovery"
+        "Disaster Recovery",
+        "Quality Assurance"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Project Governance"
       ],
       "erp": [
         "ERP"
@@ -86,10 +105,23 @@
         "SOC 2"
       ],
       "security": [
+        "ISO 22301",
         "Identity Management"
+      ],
+      "compliance": [
+        "IT Attestation"
+      ],
+      "soft_skill": [
+        "Leadership"
+      ],
+      "database": [
+        "Oracle Database"
       ],
       "integration": [
         "SAP"
+      ],
+      "architecture": [
+        "SDLC"
       ]
     },
     "_confidence": 0.92,
@@ -98,13 +130,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Consultant",
+        "role": "Consultant 2",
         "company": "Ernst & Young",
         "location": null,
-        "start": "2 Jul 2022",
+        "start": "Jul 2022",
         "end": "Feb 2025",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 31,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Consultant 2"
+        ],
+        "duration_months": 32,
         "bullets": [
           "International Secondment (EY Bahrain): Selected for a high-profile international assignment in the Middle East, delivering Technology Risk services to a diverse portfolio of regional clients in the Energy, Oil & Gas, and Banking sectors.",
           "Cross-Border Compliance: Evaluated IT control environments against local and international frameworks, ensuring compliance with Central Bank of Bahrain (CBB) requirements and global EY methodologies.",
@@ -118,16 +153,19 @@
         "source": "experience"
       },
       {
-        "role": "English Manager",
+        "role": "Manager",
         "company": "HDFC Bank Limited",
         "location": "Noida",
         "start": "Jan 2019",
         "end": "Jul 2022",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "English"
+        ],
         "duration_months": 43,
         "bullets": [
           "Evaluated the design and effectiveness of ITGCs across Access Management, Change Management, and System Operations.",
-          "Conducted detailed testing of Segregation of Duties (SoD) and system"
+          "Conducted detailed testing of Segregation of Duties (SoD) and system configuration settings to prevent unauthorized financial activity."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -170,7 +208,7 @@
     "total_experience": {
       "total_years": 10.8,
       "total_months": 130,
-      "overlapping_periods_merged": 1
+      "overlapping_periods_merged": 2
     },
     "_confidence": 0.98
   },

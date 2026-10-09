@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f28f224a_db326d95_Naukri_SingamsettySandeep[6y_6m] (1)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:45.477213+00:00",
+    "generated_at": "2026-10-07T09:28:48.808318+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -49,7 +49,9 @@
   "skills": {
     "items": [
       "AWS",
+      "AWS Glue",
       "Apache Kafka",
+      "BERT",
       "Bash",
       "Bootstrap",
       "C#",
@@ -57,22 +59,32 @@
       "CSS3",
       "ClickHouse",
       "Collaboration",
+      "Computer Vision",
       "Data Science",
+      "Deep Learning",
       "Django",
+      "E-commerce",
       "ETL",
       "Flask",
+      "GAN",
       "Git",
       "HTML5",
       "JavaScript",
       "Jenkins",
       "Jira",
       "Keras",
+      "Machine Learning",
       "Microsoft Teams",
       "MySQL",
+      "NLP",
+      "NLTK",
+      "Networking",
+      "News Writing",
       "Notion",
       "Onboarding",
       "Pandas",
       "PostgreSQL",
+      "Project Management",
       "PySpark",
       "PyTorch",
       "Python",
@@ -80,16 +92,36 @@
       "SQLite",
       "Selenium",
       "Splunk",
+      "Team Leadership",
       "TensorFlow",
+      "VS Code",
+      "Workshop Facilitation",
       "XML"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS"
       ],
+      "cloud": [
+        "AWS Glue"
+      ],
       "data_engineering": [
         "Apache Kafka",
         "ETL"
+      ],
+      "ai_ml": [
+        "BERT",
+        "Computer Vision",
+        "Data Science",
+        "Deep Learning",
+        "GAN",
+        "Keras",
+        "Machine Learning",
+        "NLP",
+        "NLTK",
+        "Pandas",
+        "PyTorch",
+        "TensorFlow"
       ],
       "os_system": [
         "Bash"
@@ -117,14 +149,11 @@
         "SQLite"
       ],
       "soft_skill": [
-        "Collaboration"
+        "Collaboration",
+        "Team Leadership"
       ],
-      "ai_ml": [
-        "Data Science",
-        "Keras",
-        "Pandas",
-        "PyTorch",
-        "TensorFlow"
+      "retail": [
+        "E-commerce"
       ],
       "dev_tool": [
         "Git"
@@ -133,11 +162,18 @@
         "Jenkins"
       ],
       "project_mgmt": [
-        "Jira"
+        "Jira",
+        "Project Management"
       ],
       "productivity": [
         "Microsoft Teams",
         "Notion"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "media": [
+        "News Writing"
       ],
       "hr": [
         "Onboarding"
@@ -147,6 +183,12 @@
       ],
       "security_ops": [
         "Splunk"
+      ],
+      "tools": [
+        "VS Code"
+      ],
+      "consulting": [
+        "Workshop Facilitation"
       ]
     },
     "_confidence": 0.92,
@@ -160,8 +202,8 @@
         "location": null,
         "start": "7/2023",
         "end": "ongoing",
-        "method": "date_regex+title_dict",
-        "duration_months": 39,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 40,
         "bullets": [
           "Architected and deployed a high-availability data onboarding infrastructure to facilitate real-time source integration for research and trading teams. Led data source facilitation for research team using ETL tools, ensuring seamless integration, and concurrently developed monitoring tools and internal software appli- cations to optimize workflow for the development team."
         ],
@@ -171,12 +213,15 @@
         "source": "experience"
       },
       {
-        "role": "C++ / SQL / C# / Git / Python / Postgres / AWS / Kafka / Click House  Team Lead",
+        "role": "Team Lead | Project Manager | Software Developer | Scraping Expert",
         "company": "Qube Research and Technologies LLP",
-        "location": null,
+        "location": "Scraping Expert",
         "start": "10/2019",
         "end": "6/2023",
-        "method": "date_regex+pipe_split+inherited_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title+inherited_company",
+        "pre_date_header": [
+          "C++ / SQL / C# / Git / Python / Postgres / AWS / Kafka / Click House"
+        ],
         "duration_months": 45,
         "bullets": [
           "Developed sophisticated software systems using the Django framework for Sony Japan, Maruhan Corpo- ration, etc. Designed and implemented web scraping modules for 30+ social networking, entertainment, gaming, comic and e-commerce websites."
@@ -187,45 +232,52 @@
         "source": "experience"
       },
       {
-        "role": "Web Scraping / Web Development / Project Management  Research and Development Intern",
-        "company": "IBM Research",
-        "location": "India",
+        "role": "Research and Development Intern",
+        "company": "Web Scraping / Web Development / Project Management",
+        "location": null,
         "start": "5/2022",
         "end": "8/2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Web Scraping / Web Development / Project Management"
+        ],
         "duration_months": 4,
         "bullets": [
           "Worked on a problem titled Detecting and Debunking Fake News and Half-truth in News Articles using"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "NLP / Deep Learning / Machine Learning  AI Intern",
-        "company": "SMS DataTech Co",
-        "location": "Tokyo",
+        "role": "AI Intern",
+        "company": "NLP / Deep Learning / Machine Learning",
+        "location": null,
         "start": "5/2018",
         "end": "7/2018",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "BERT, NLTK, and T5 models.",
+          "NLP / Deep Learning / Machine Learning"
+        ],
         "duration_months": 3,
         "bullets": [
           "Worked on a problem titled Manga Comic Colorization using cyclic GANs. Implemented the project using Tensorflow and Keras and achieved an accuracy of 90% in colouring grayscale and line-art images. Image Processing / Deep Learning / Machine Learning"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.2,
-      "total_months": 87,
+      "total_years": 7.3,
+      "total_months": 88,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.95
+    "_confidence": 0.81
   },
   "education": {
     "entries": [
@@ -256,22 +308,22 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Computer Science IIT Jodhpur",
+        "institution": null,
         "year": "2019",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Graduation, CPA- 8.32/10",
         "degree_name": "Graduation",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": null,
+        "institution": "IIT Jodhpur",
         "year": "2023",
         "gpa": "8.32/10",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
     "_confidence": 0.88
@@ -295,13 +347,23 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
       "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

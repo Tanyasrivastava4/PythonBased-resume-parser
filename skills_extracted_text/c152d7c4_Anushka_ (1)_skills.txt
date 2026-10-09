@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/c152d7c4_Anushka_ (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Python, SQL
+Frameworks/Libraries: Django, Django REST Framework, LangChain, Celery, NumPy, Tensorflow
+Databases: PostgreSQL, Redis, MySQL
+Tools & Platforms: Git, GitHub, Postman, Docker, AWS (S3,Elastic Beanstalk)
+AI/ML: NLP, LangChain, Fine-tuning, Hugging Face, Transformers, LLMs, RAG, Agentic RAG, Tokenization
+
+── Extraction Results ──
+Skills found   : 38
+Confidence     : 0.92
+Time           : 52.35 ms
+Method         : flashtext_skills_section | fuzzy(Django REST Framework→Django(95%), LLMs→LLM(100%))
+
+── All Skills (38) ──
+API Design, AWS, AWS Lambda, AWS S3, BERT, Caching, Celery, Cross-functional Collaboration, Django, Docker, Elasticsearch, Fine-tuning, GPT, Git, GitHub, HR Management, Hugging Face, LLM, LangChain, LinkedIn, Machine Learning, Microsoft Teams, MySQL, NLP, NumPy, OpenAI API, Payroll Management, PostgreSQL, Postman, Python, RAG, Recruitment, Redis, SQL, System Design, TensorFlow, Tokenization, Transformers
+
+── By Category ──
+  ai_ml                          ['BERT', 'GPT', 'Machine Learning', 'NLP', 'NumPy', 'TensorFlow', 'Tokenization']
+  architecture                   ['API Design', 'Caching', 'System Design']
+  cloud_infra                    ['AWS', 'AWS Lambda', 'AWS S3']
+  data_engineering               ['Celery']
+  data_science                   ['Transformers']
+  database                       ['MySQL', 'PostgreSQL', 'Redis', 'SQL']
+  dev_tool                       ['Git', 'GitHub', 'Postman']
+  devops                         ['Docker']
+  genai                          ['Fine-tuning', 'Hugging Face', 'LLM', 'LangChain', 'OpenAI API', 'RAG']
+  hr                             ['HR Management', 'Payroll Management', 'Recruitment']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Python']
+  search                         ['Elasticsearch']
+  soft_skill                     ['Cross-functional Collaboration']
+  web_framework                  ['Django', 'LinkedIn']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1b1d10d4_4657b26b_Mamta Godara_GM-HRBP_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:01.788322+00:00",
+    "generated_at": "2026-10-07T10:30:56.815293+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,35 +46,107 @@
   "summary": "Strategic HR Leader with 15+ years of experience driving people strategy for leading retail and fashion organizations across digital, e-commerce,\nand brick-and-mortar formats. Expert in HR Business Partnering, talent strategy, organizational effectiveness, and large-scale transformation\ninitiatives. Demonstrated success in partnering with executive leadership to design scalable structures, optimize workforce costs, and enhance\nemployee engagement in fast-growing environments.\nKnown for building future-ready organizations through data-led insights, leadership development, succession planning, and culture stewardship.\nAdept at navigating complexity, influencing stakeholders, and delivering high-impact HR solutions that accelerate business growth while\nstrengthening employee experience and retention.",
   "skills": {
     "items": [
+      "Boosting",
+      "Budgeting",
       "Business Development",
+      "Change Management",
+      "Collaboration",
+      "Compensation & Benefits",
+      "Continuous Improvement",
+      "Data Migration",
       "E-commerce",
       "Employee Engagement",
+      "Employee Records Management",
+      "HR Management",
+      "HRIS",
+      "KPI",
       "Leadership",
+      "Learning & Development",
       "LinkedIn",
+      "Manpower Planning",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "Onboarding",
+      "Operations Management",
+      "Payroll Administration",
+      "Performance Management",
+      "Procurement",
+      "R",
+      "Real Estate Valuation",
       "Recruitment",
       "Resource Planning",
-      "Talent Management"
+      "SAP",
+      "Standard Operating Procedures",
+      "Talent Management",
+      "Turnaround Time"
     ],
     "by_category": {
+      "data_science": [
+        "Boosting"
+      ],
+      "finance_ops": [
+        "Budgeting"
+      ],
       "biz_dev": [
         "Business Development"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Resource Planning"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Leadership"
+      ],
+      "hr": [
+        "Compensation & Benefits",
+        "Employee Engagement",
+        "HR Management",
+        "HRIS",
+        "Learning & Development",
+        "Manpower Planning",
+        "Onboarding",
+        "Payroll Administration",
+        "Performance Management",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "operations": [
+        "Continuous Improvement",
+        "Operations Management",
+        "Procurement"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "retail": [
         "E-commerce"
       ],
-      "hr": [
-        "Employee Engagement",
-        "Recruitment",
-        "Talent Management"
+      "hr_recruitment": [
+        "Employee Records Management"
       ],
-      "soft_skill": [
-        "Leadership"
+      "business_analysis": [
+        "KPI"
       ],
       "web_framework": [
         "LinkedIn"
       ],
-      "project_mgmt": [
-        "Resource Planning"
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "real_estate": [
+        "Real Estate Valuation"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "management": [
+        "Standard Operating Procedures",
+        "Turnaround Time"
       ]
     },
     "_confidence": 0.92,
@@ -85,11 +157,15 @@
       {
         "role": "Senior Manager HR Business Partner",
         "company": "ARVIND FASHION LIMITED",
-        "location": "BENGALURU",
+        "location": null,
         "start": "November 2025",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 11,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Manager HR Business Partner",
+          "ARVIND FASHION LIMITED"
+        ],
+        "duration_months": 12,
         "bullets": [
           "Partner With Digital And Brand Leadership To Translate Business Priorities Into HR Strategies Across Manpower Planning, Talent Deployment, And Capability Building For Digital, Women’s Wear, And Arrow Businesses.",
           "Lead end-to-end HRBP responsibilities including org design, manpower budgeting, performance management, succession planning, and employee life cycle interventions for corporate and retail roles.",
@@ -107,12 +183,16 @@
         "source": "experience"
       },
       {
-        "role": "Talent Acquisition Lead & Corporate HRBP",
-        "company": "BIBA FASHION LIMITED",
-        "location": "GURGAON",
+        "role": "BIBA FASHION LIMITED",
+        "company": "Talent Acquisition Lead & Corporate HRBP",
+        "location": null,
         "start": "September 2022",
         "end": "November 2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Talent Acquisition Lead & Corporate HRBP",
+          "BIBA FASHION LIMITED"
+        ],
         "duration_months": 39,
         "bullets": [
           "Led annual headcount planning and HR budget allocation in line with business growth plans, ensuring strategic and cost-effective workforce deployment across retail and corporate divisions.",
@@ -135,10 +215,14 @@
       {
         "role": "HR Executive → HR Manager",
         "company": "RELIANCE RITU KUMAR PRIVATE LIMITED",
-        "location": "GURGAON",
+        "location": null,
         "start": "April 2014",
         "end": "September 2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "HR Executive → HR Manager",
+          "RELIANCE RITU KUMAR PRIVATE LIMITED"
+        ],
         "duration_months": 102,
         "bullets": [
           "Developed and implemented HR SOPs and company policies, establishing the HR function from the ground up.",
@@ -161,10 +245,14 @@
       {
         "role": "Management Trainee",
         "company": "CEASEFIRE INDUSTRIES LIMITED",
-        "location": "Noida",
+        "location": null,
         "start": "April 2011",
         "end": "April 2014",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Management Trainee",
+          "CEASEFIRE INDUSTRIES LIMITED"
+        ],
         "duration_months": 37,
         "bullets": [
           "Coordinated End-To-End Talent Acquisition Activities, Including Candidate Screening, Interview Scheduling, And Onboarding To Ensure A Smooth Hiring Experience.",
@@ -180,8 +268,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 15.5,
-      "total_months": 186,
+      "total_years": 15.6,
+      "total_months": 187,
       "overlapping_periods_merged": 3
     },
     "_confidence": 0.98
@@ -205,7 +293,7 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Panjab University",
-        "year": "2009",
+        "year": "2011",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -216,7 +304,7 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "Kendriya Vidyalaya",
-        "year": "2006",
+        "year": "2009",
         "gpa": "12",
         "_needs_review": false,
         "_confidence": 0.95

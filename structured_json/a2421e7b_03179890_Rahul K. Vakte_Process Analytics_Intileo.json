@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a2421e7b_03179890_Rahul K. Vakte_Process Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:52.717437+00:00",
+    "generated_at": "2026-10-07T09:27:38.725788+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -53,48 +53,92 @@
   "skills": {
     "items": [
       "5S",
+      "Analyze",
       "AutoCAD",
+      "Capacity Management",
       "Communication",
+      "Coroutines Flow",
+      "Cost Analysis",
       "Creativity",
+      "Cross-functional Collaboration",
+      "Digital Transformation",
+      "Docker",
       "Kaizen",
       "Leadership",
+      "LinkedIn",
+      "Manufacturing Operations",
+      "Microsoft Teams",
       "Operations Management",
       "Problem Solving",
+      "Process Improvement",
       "Process Re-Engineering",
-      "Resource Planning",
+      "Prototyping",
+      "Quality Control",
+      "R",
       "SAP",
       "SOP",
       "Time Management",
-      "VaR"
+      "VaR",
+      "Visual Inspection"
     ],
     "by_category": {
       "operations": [
         "5S",
         "Kaizen",
         "Operations Management",
+        "Process Improvement",
         "SOP"
       ],
+      "data_science": [
+        "Analyze"
+      ],
       "engineering": [
-        "AutoCAD"
+        "AutoCAD",
+        "Manufacturing Operations",
+        "Quality Control"
+      ],
+      "devops": [
+        "Capacity Management",
+        "Docker"
       ],
       "soft_skill": [
         "Communication",
         "Creativity",
+        "Cross-functional Collaboration",
         "Leadership",
         "Problem Solving",
         "Time Management"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
       "consulting": [
+        "Digital Transformation",
         "Process Re-Engineering"
       ],
-      "project_mgmt": [
-        "Resource Planning"
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "design": [
+        "Prototyping"
+      ],
+      "programming_language": [
+        "R"
       ],
       "integration": [
         "SAP"
       ],
       "finance": [
         "VaR"
+      ],
+      "quality": [
+        "Visual Inspection"
       ]
     },
     "_confidence": 0.92,
@@ -103,12 +147,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Graduate Trainee Engineer",
-        "company": "KSB Limited",
-        "location": "WPD",
+        "role": "PREVIOUS ORGANIZATION PROFILE-1",
+        "company": "KSB Limited, WPD",
+        "location": "NASHIK",
         "start": "AUG 2023",
         "end": "AUG 2024",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "PREVIOUS ORGANIZATION PROFILE-1",
+          "KSB Limited, WPD, NASHIK",
+          "Graduate Trainee Engineer."
+        ],
         "duration_months": 13,
         "bullets": [
           "Present Department –Industrial Engineering/Manufacturing Engineering. 1 Year Experience",

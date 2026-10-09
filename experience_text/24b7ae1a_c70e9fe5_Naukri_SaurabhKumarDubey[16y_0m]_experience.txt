@@ -1,0 +1,49 @@
+======================================================================
+FILE: 24b7ae1a_c70e9fe5_Naukri_SaurabhKumarDubey[16y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+▶ Firewall Management: Experienced with Fortigate 310B, Palo Alto, ASA 5500, PIX, ACS, and ISE for advanced
+network security and access control.
+▶ Cloud Azure Migration & Security: Managed migration of new applications and services to Azure, ensuring
+virtual device security and seamless integration ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.89
+Needs review   : True
+Total exp      : 10.7 years (128 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Accenture Solution Pvt Ltd () Cloud Migration & Imp Associate
+  Company      : ▶ TechnicalExperience
+  Location     : None
+  Start - End  : Feb-21 - Present
+  Duration     : 69 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : 3i-infotech (Nov 2008
+  Company      : Jan 2010) Network Engineer”
+  Location     : IP- FM-L2
+  Start - End  : Sep-12 - Apr 2016
+  Duration     : 44 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : 3i-infotech Network Engineer”
+  Company      : Reliance Jio Infocomm Pvt Ltd
+  Location     : IP- FM-L2
+  Start - End  : Nov 2008 - Jan 2010
+  Duration     : 15 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.85
+  Needs Review : True

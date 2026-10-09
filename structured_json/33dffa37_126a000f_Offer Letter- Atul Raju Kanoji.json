@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "33dffa37_126a000f_Offer Letter- Atul Raju Kanoji_segmented.txt",
-    "generated_at": "2026-09-30T06:58:14.845635+00:00",
+    "generated_at": "2026-10-07T10:31:11.761722+00:00",
     "sections_found": [
       "education",
       "header",
@@ -45,32 +45,40 @@
   "skills": {
     "items": [
       ".NET",
+      "Aadhaar Integration",
       "Background Verification",
+      "Professional Tax",
+      "Salary Structure",
       "Taxation"
     ],
     "by_category": {
       "programming_language": [
         ".NET"
       ],
+      "integration": [
+        "Aadhaar Integration"
+      ],
       "hr": [
-        "Background Verification"
+        "Background Verification",
+        "Professional Tax",
+        "Salary Structure"
       ],
       "finance_ops": [
         "Taxation"
       ]
     },
-    "_confidence": 0.75,
-    "_method": "flashtext_full_text_fallback"
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Coordinator, Ops with our client GIA India Laboratory Pvt Ltd at Mumbai on the mutually agreed terms and",
-        "company": "1204, Tow er-C,12thFloor",
-        "location": "Sector-39",
+        "role": "Unitech Cyber Park, Unit No 1202, 1203",
+        "company": "U74910KA2001PTCO29517",
+        "location": null,
         "start": "30-May 2026",
         "end": "Present",
-        "method": "single_date_regex+comma_company_location",
+        "method": "single_date_regex+multiline_role_above_company",
         "duration_months": 5,
         "bullets": [
           "In pursuance of your application followed by your interview, we are pleased to offer you the position of HR Coordinator, Ops with our client GIA India Laboratory Pvt Ltd at Mumbai on the mutually agreed terms and conditions. You are requested to join the services of GIA India Laboratory Pvt Ltd at the following address: GIA India Laboratory Pvt Ltd, Mumbai. The annual CTC shall be 2,62,766.00/-. The Salary structure is attached herewith as Annexure A. Please bring the following documents on the day of joining:",
@@ -139,7 +147,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [

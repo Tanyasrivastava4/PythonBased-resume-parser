@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "39d23906_ca4f29f1_RAVI RANJAN KUMAR GIRI_Full Stack Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:18.041620+00:00",
+    "generated_at": "2026-10-07T10:31:15.572025+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,6 +51,8 @@
       "Agile",
       "Bootstrap",
       "CSS3",
+      "Code Reviews",
+      "Coroutines Flow",
       "DevOps",
       "Docker",
       "ES6+",
@@ -58,7 +60,9 @@
       "Git",
       "GitHub",
       "HTML5",
+      "JSON Web Token",
       "JavaScript",
+      "LinkedIn",
       "MERN Stack",
       "MongoDB",
       "Node.js",
@@ -68,6 +72,8 @@
       "REST API",
       "React",
       "Redis",
+      "Reliability",
+      "Responsive Web Design",
       "Tailwind CSS",
       "VS Code",
       "WebSockets"
@@ -81,12 +87,23 @@
         "CSS3",
         "Express.js",
         "HTML5",
+        "LinkedIn",
         "MERN Stack",
         "Node.js",
         "REST API",
         "React",
+        "Responsive Web Design",
         "Tailwind CSS",
         "WebSockets"
+      ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "Performance Optimization"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "devops": [
         "DevOps",
@@ -96,21 +113,22 @@
         "ES6+",
         "JavaScript"
       ],
-      "dev_tool": [
-        "Git",
-        "GitHub",
-        "Performance Optimization",
-        "VS Code"
+      "security": [
+        "JSON Web Token"
       ],
       "database": [
         "MongoDB",
         "Redis"
       ],
       "soft_skill": [
-        "Problem Solving"
+        "Problem Solving",
+        "Reliability"
       ],
       "integration": [
         "REST"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -125,7 +143,10 @@
         "start": "Dec 2024",
         "end": "Present",
         "method": "date_regex+pipe_split",
-        "duration_months": 22,
+        "pre_date_header": [
+          "Software Developer Intern | Infoneo Technology Pvt. Ltd., Noida"
+        ],
+        "duration_months": 23,
         "bullets": [
           "Enhanced mobile and tablet UX by 40% through advanced responsive design using Tailwind CSS and Bootstrap.",
           "Built and maintained a scalable React.js component library, reducing feature development time by 30%.",
@@ -145,6 +166,9 @@
         "start": "Oct 2024",
         "end": "Dec 2024",
         "method": "date_regex+inherited_role",
+        "pre_date_header": [
+          "BRNS (React.js, Node.js, Express.js, MongoDB)"
+        ],
         "duration_months": 3,
         "bullets": [
           "Developed BRNS Authentication API for signup, login, JWT token generation, password hashing, and protected routes.",
@@ -160,8 +184,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.0,
-      "total_months": 24,
+      "total_years": 2.1,
+      "total_months": 25,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.92

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "805de602_04895fcf_Parul Yadav_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:26.138780+00:00",
+    "generated_at": "2026-10-07T09:27:04.318533+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,6 +49,8 @@
   "skills": {
     "items": [
       "C++",
+      "CI/CD",
+      "Coroutines Flow",
       "Data Science",
       "Databricks",
       "Docker",
@@ -58,22 +60,28 @@
       "Flask",
       "Generative AI",
       "GitHub",
+      "Grafana",
       "HTML5",
+      "Incident Management",
       "LLM",
       "LinkedIn",
       "Machine Learning",
       "Matplotlib",
       "Microsoft Excel",
       "NLP",
+      "NLTK",
       "NumPy",
+      "Operation Monitoring",
       "Pandas",
       "Plotly",
+      "Prometheus",
       "Python",
       "R",
       "RAG",
       "SQL",
       "Seaborn",
-      "Tableau"
+      "Tableau",
+      "Time Series Forecasting"
     ],
     "by_category": {
       "programming_language": [
@@ -81,21 +89,29 @@
         "Python",
         "R"
       ],
+      "devops": [
+        "CI/CD",
+        "Docker",
+        "Grafana",
+        "Prometheus"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "ai_ml": [
         "Data Science",
         "Machine Learning",
         "Matplotlib",
         "NLP",
+        "NLTK",
         "NumPy",
         "Pandas",
         "Plotly",
-        "Seaborn"
+        "Seaborn",
+        "Time Series Forecasting"
       ],
       "data_engineering": [
         "Databricks"
-      ],
-      "devops": [
-        "Docker"
       ],
       "data_science": [
         "Exploratory Data Analysis",
@@ -116,8 +132,14 @@
       "dev_tool": [
         "GitHub"
       ],
+      "security": [
+        "Incident Management"
+      ],
       "productivity": [
         "Microsoft Excel"
+      ],
+      "operations": [
+        "Operation Monitoring"
       ],
       "database": [
         "SQL"
@@ -135,6 +157,9 @@
         "start": "12/2022",
         "end": "05/2024",
         "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "VaaaN Infra Pvt Ltd"
+        ],
         "duration_months": 18,
         "bullets": [
           "Built a traffic forecasting model using time series to optimize toll operations, and predict revenue across major highways.",
@@ -148,29 +173,15 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "AiVariant",
-        "location": null,
-        "start": "12/2021",
-        "end": "06/2022",
-        "method": "date_regex",
-        "duration_months": 7,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.1,
-      "total_months": 25,
+      "total_years": 1.5,
+      "total_months": 18,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -268,15 +279,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.66,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "232f231e_9b8be426_Pranav Anand_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:07.322736+00:00",
+    "generated_at": "2026-10-07T10:31:03.171016+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,22 +49,34 @@
     "items": [
       "AWS",
       "Azure",
+      "Business Intelligence",
       "DAX",
       "Data Modeling",
+      "Data Virtualization",
       "Data Visualization",
       "ETL",
+      "Financial Reporting",
       "Hedge Funds",
       "KPI",
       "MSSQL",
+      "Performance Optimization",
       "PostgreSQL",
       "Power BI",
       "Power Query",
-      "SQL"
+      "Production Support",
+      "Reporting",
+      "SQL",
+      "Star Schema",
+      "Stored Procedures"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
         "Azure"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
       ],
       "data_science": [
         "DAX",
@@ -73,23 +85,37 @@
         "Power BI",
         "Power Query"
       ],
+      "architecture": [
+        "Data Virtualization"
+      ],
       "data_engineering": [
         "ETL"
+      ],
+      "finance_ops": [
+        "Financial Reporting"
       ],
       "finance": [
         "Hedge Funds"
       ],
-      "business_analysis": [
-        "KPI"
-      ],
       "database": [
         "MSSQL",
         "PostgreSQL",
-        "SQL"
+        "SQL",
+        "Star Schema",
+        "Stored Procedures"
+      ],
+      "dev_tool": [
+        "Performance Optimization"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "soft_skill": [
+        "Reporting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(hedge fund→Hedge Funds(95%))"
+    "_method": "flashtext_skills_section | fuzzy(hedge fund→Hedge Funds(95%), enterprise→Business Intelligence(95%))"
   },
   "experience": {
     "jobs": [
@@ -99,8 +125,8 @@
         "location": null,
         "start": "Jul 2023",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 39,
+        "method": "date_regex+title_dict_strong",
+        "duration_months": 40,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -113,7 +139,7 @@
         "location": null,
         "start": "Dec 2021",
         "end": "Jun 2023",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
         "duration_months": 19,
         "bullets": [
           "Led migration of MSSQL databases to PostgreSQL on AWS Aurora and supported Power BI reporting integration for scalable analytics solutions.",
@@ -162,8 +188,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.2,
-      "total_months": 99,
+      "total_years": 8.3,
+      "total_months": 100,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.94

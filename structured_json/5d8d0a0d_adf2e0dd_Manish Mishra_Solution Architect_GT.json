@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5d8d0a0d_adf2e0dd_Manish Mishra_Solution Architect_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:45.630589+00:00",
+    "generated_at": "2026-10-07T10:31:51.215363+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -60,6 +60,7 @@
       "Blog Writing",
       "Code Reviews",
       "Communication",
+      "Coroutines Flow",
       "DevOps",
       "ERP",
       "Eclipse",
@@ -80,6 +81,7 @@
       "Java",
       "JavaScript",
       "Jenkins",
+      "Kibana",
       "LLM",
       "Linux",
       "MVC Architecture",
@@ -92,6 +94,7 @@
       "MySQL",
       "NLP",
       "Objective C",
+      "Oracle Database",
       "PHP",
       "Product Design",
       "Project Management",
@@ -101,6 +104,7 @@
       "R",
       "REST",
       "REST API",
+      "Reliability",
       "Reporting",
       "Route",
       "SDLC",
@@ -108,6 +112,9 @@
       "Servlets",
       "Spring",
       "Spring Boot",
+      "Symfony",
+      "TCS",
+      "Team Coordination",
       "Technical Design Document",
       "jQuery"
     ],
@@ -116,7 +123,6 @@
         "AJAX",
         "Angular",
         "Apache Struts",
-        "Apache Tomcat",
         "HTML5",
         "Hibernate",
         "JPA",
@@ -147,6 +153,7 @@
       ],
       "dev_tool": [
         "Apache Maven",
+        "Apache Tomcat",
         "Code Reviews",
         "Eclipse",
         "Git",
@@ -158,7 +165,11 @@
       ],
       "soft_skill": [
         "Communication",
+        "Reliability",
         "Reporting"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "devops": [
         "DevOps",
@@ -185,7 +196,11 @@
         "Google",
         "JDBC",
         "MySQL",
+        "Oracle Database",
         "SQL"
+      ],
+      "business_analysis": [
+        "Kibana"
       ],
       "os_system": [
         "Linux"
@@ -224,6 +239,15 @@
       ],
       "integration": [
         "REST"
+      ],
+      "framework": [
+        "Symfony"
+      ],
+      "accounting": [
+        "TCS"
+      ],
+      "management": [
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
@@ -232,46 +256,47 @@
   "experience": {
     "jobs": [
       {
-        "role": "Digital Architect",
-        "company": "Project Details Organization: Infinite Computer Solution",
+        "role": "Unknown",
+        "company": "Designation | Assistant Consultant",
         "location": null,
         "start": "31st Jan 2024",
         "end": "Present",
         "method": "date_regex",
         "duration_months": 33,
-        "bullets": [
-          "Skills: Java 21, Spring boot, Microservices, Restful web services, AWS, Design pattern, Gen AI, MySQL, Oracle, Jenkins, GitHub"
-        ],
+        "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Solution Architect",
-        "company": "PREVIOUS EMPLOYER DETAILS 1. Zamanzar Advisory Pvt ltd",
+        "role": "Designation: Solution Architect",
+        "company": "PREVIOUS EMPLOYER DETAILS",
         "location": null,
         "start": "14th December 2007",
         "end": "20th April 2010",
-        "method": "date_regex+subfield_label_role+next_line_company",
-        "duration_months": 29,
-        "bullets": [
-          "Environment: Linux, Apache, Mysql, PHP, Symfony, JQuery, HTML Zamanzar.com is a startup in real estate domain, which offers online search tools to find property and online services to help complete the transaction.",
-          "Within just 1.5 years from its launch, we have achieved an Alexa rank of less than 50,000 with about 1000 unique visitors a day.",
-          "The technology platform is Symfony, which an agile framework is based on LAMP stacks."
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Designation: Solution Architect",
+          "PREVIOUS EMPLOYER DETAILS"
         ],
+        "duration_months": 29,
+        "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Software Engineer 2. impetus infotech (India) pvt ltd. (December 2010 – September 2013",
-        "company": "Designation: Software Engineer 2. impetus infotech  pvt ltd",
+        "role": "Designation: Software Engineer",
+        "company": "2. impetus infotech (India) pvt ltd",
         "location": null,
         "start": "December 2010",
         "end": "September 2013",
-        "method": "date_regex+subfield_label_role+company_suffix_match",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Designation: Software Engineer"
+        ],
         "duration_months": 34,
         "bullets": [
           "Environment: Core PHP, JQuery, HTML, Mysql, Apache Tomcat, Eclipse 3.3 Impetus.com is suite of software product development and technology R&D services. It’s singular focus on product development, high level technical expertise, an agile approach, and highly scalable software products for their clients",
@@ -283,28 +308,28 @@
         ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Software Engineer 3. Tata Consultancy Services (October 2013 - November 2018",
-        "company": "Designation: Software Engineer 3. Tata Consultancy Services",
+        "role": "Designation: Software Engineer",
+        "company": "3. Tata Consultancy Services",
         "location": null,
         "start": "October 2013",
         "end": "November 2018",
-        "method": "date_regex+subfield_label_role",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Designation: Software Engineer"
+        ],
         "duration_months": 62,
         "bullets": [
-          "Environment: Java8, Spring Boot, Restful Web Services, Microservices, Angular2.0, Aspera API Implementation, Oracle12C, Maven, GitHub, SonarLint, JQuery, IntelliJ IDEA CIB application is a centralized exchange platform for facilitate secure and asynchronous file transfer between CLUWE and third party organization (TPO’s).",
-          "This application provides capability of transfer clinical research data between TPOs and CLUWE.",
-          "At high level, this application provides following features and function:",
           "Environment: Core java, OOPs, Jdbc, Mysql, Restful Web services, JBoss, Dice Framework, JSON, JQuery TCS iON offers end-to-end business solutions by means of a unique IT-as-a-Service model, to Small and Medium businesses.",
           "The IT-as-a Service business model of iON a cloud based ERP solution was conceptualized by TCS through close interactions with Small and Medium Businesses (SMB) solutions.",
           "The iON Cloud ERP Solution is highly modular, scalable and configurable giving SMBs the benefits of increased efficiencies; faster go to market, predictability of technology as well as spend, IT talent on call and better business results."
         ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -314,6 +339,9 @@
         "start": "29th November 2018",
         "end": "15th Sep 2022",
         "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Unknown - Designation | Assistant Consultant"
+        ],
         "duration_months": 46,
         "bullets": [
           "Business Requirements: Lifeatwork is a web based front-end portal for core RKS system providing benefit administration for Defined Contribution (DC), Defined Benefit (DB), Health & Welfare (HW) plans.",
@@ -328,26 +356,15 @@
         "source": "experience"
       },
       {
-        "role": "lead software engineer",
-        "company": "Unknown",
+        "role": "Unknown - Role | Technical Lead/ Lead Software Developer",
+        "company": "Sonata Software",
         "location": "Designation",
         "start": "16th Sep 2022",
         "end": "30th Jan 2024",
         "method": "date_regex+pipe_split",
-        "duration_months": 17,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Business Requirements: The EdCast Marketplace started as a product marketplace for one seller  and multiple buyers. Edcast marketplace is a web-based platform that provide online and offline courses to the learner. The learner can enroll the courses and exam. In EdCast, the primary model for driving sales via the platform and to offer  Courses  courses directly to learners. A course is a complete structured learning intervention that results in a learner acquiring the knowledge that was defined as part of the course objectives",
-        "company": "Sonata Software",
-        "location": null,
-        "start": "Sep 2022",
-        "end": "Jan 2024",
-        "method": "date_regex+subfield_label_company",
+        "pre_date_header": [
+          "Unknown - Designation | lead software engineer"
+        ],
         "duration_months": 17,
         "bullets": [
           "Environment: Java8, Spring boot, Restful Web Services, Microservices, MySQL, Maven, AWS, Kafka, Jenkins, GIT Hub, Kibana Business Requirements: The EdCast Marketplace started as a product marketplace for one seller (ITpreneurs) and multiple buyers.",
@@ -363,7 +380,59 @@
         "source": "experience"
       },
       {
-        "role": "Unknown - Role | Module Lead",
+        "role": "Digital Architect",
+        "company": "Infinite Computer Solution",
+        "location": null,
+        "start": "Jan 2024",
+        "end": "Present",
+        "method": "date_regex+subfield_label_role+subfield_label_company",
+        "pre_date_header": [
+          "Designation: Digital Architect",
+          "Project Details"
+        ],
+        "duration_months": 34,
+        "bullets": [
+          "Skills: Java 21, Spring boot, Microservices, Restful web services, AWS, Design pattern, Gen AI, MySQL, Oracle, Jenkins, GitHub"
+        ],
+        "sub_sections": [
+          "Role and Responsibuility: Application Architect",
+          "In running applications, provide technical solutions to the development team.",
+          "monitor the whole system, understand all interactions between components on a given level of abstraction, as well as to define limitations and requirements for source code.",
+          "Make sure applications are scalable and reliable, and assists enterprises in identifying gaps in functionality.",
+          "Discussion with clients to determine objectives and requirements for structures.",
+          "Prepare structure specifications.",
+          "Proposed microservice based application architecture in cloud native environment."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Unknown",
+        "company": "Designation | lead software engineer",
+        "location": null,
+        "start": "Dec 2016",
+        "end": "Nov 2018",
+        "method": "date_regex+subfield_label_company",
+        "pre_date_header": [
+          "Weekly Client interaction"
+        ],
+        "duration_months": 24,
+        "bullets": [
+          "Environment: Java8, Spring Boot, Restful Web Services, Microservices, Angular2.0, Aspera API Implementation, Oracle12C, Maven, GitHub, SonarLint, JQuery, IntelliJ IDEA CIB application is a centralized exchange platform for facilitate secure and asynchronous file transfer between CLUWE and third party organization (TPO’s).",
+          "This application provides capability of transfer clinical research data between TPOs and CLUWE.",
+          "At high level, this application provides following features and function:"
+        ],
+        "sub_sections": [
+          "Role Based Authentication",
+          "Invitation and Registration"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Role | Module Lead",
         "company": "Tata Consultancy Services",
         "location": null,
         "start": "May 2016",
@@ -381,7 +450,9 @@
           "Unknown - Role | Module Lead",
           "Project analyzing and planning.",
           "Technical Design development.",
-          "Project documentation from project initiate to project windup."
+          "Project documentation from project initiate to project windup.",
+          "Task monitoring and daily status meeting with team members",
+          "Project status meeting with client on daily basis."
         ],
         "confidence": 0.98,
         "needs_review": false,
@@ -406,7 +477,34 @@
         "sub_sections": [
           "Role: Developer",
           "Design, development and maintain web application phases.",
-          "I was involved in developing different phases of application and architecture development activities."
+          "I was involved in developing different phases of application and architecture development activities.",
+          "Identifying production and non-production application issues.",
+          "Recommend changes to improve and established application processes."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Developer",
+        "company": "Zamanzar advisory pvt ltd",
+        "location": "Noida",
+        "start": "Dec 2007",
+        "end": "Apr 2010",
+        "method": "date_regex+subfield_label_company",
+        "duration_months": 29,
+        "bullets": [
+          "Environment: Linux, Apache, Mysql, PHP, Symfony, JQuery, HTML Zamanzar.com is a startup in real estate domain, which offers online search tools to find property and online services to help complete the transaction.",
+          "Within just 1.5 years from its launch, we have achieved an Alexa rank of less than 50,000 with about 1000 unique visitors a day.",
+          "The technology platform is Symfony, which an agile framework is based on LAMP stacks."
+        ],
+        "sub_sections": [
+          "URL: www.zamanzar.com",
+          "Role: Developer",
+          "Responsibilities:",
+          "Studying and analyzing the requirements and then designing of features. Involved in the implementation of core features of the portal using Php, JavaScript, Html, Ajax, Mysql, Symfony etc.",
+          "Unit testing of different phases.",
+          "Maintenance and bug fixing"
         ],
         "confidence": 0.98,
         "needs_review": false,
@@ -415,11 +513,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 18.4,
-      "total_months": 221,
-      "overlapping_periods_merged": 4
+      "total_years": 18.3,
+      "total_months": 220,
+      "overlapping_periods_merged": 6
     },
-    "_confidence": 0.98
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -428,7 +526,7 @@
         "degree_name": "MCA",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "UP Technical University Lucknow ACADEMIC QUALIFIACTION",
+        "institution": "UP Technical University Lucknow",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -498,22 +596,12 @@
     },
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.98,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.98,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.98,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.98,
+      "field": "experience.jobs[7]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

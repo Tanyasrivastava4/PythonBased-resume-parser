@@ -1,0 +1,34 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/e5ba96e0_45cecc5c_Naukri_SudhirKumarRautray[19y_0m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Tele sales
+Vendor Negotiations
+Client Relations
+Call Center Operations
+Decision Making
+Cost Analysis
+Process Improvements
+
+── Extraction Results ──
+Skills found   : 16
+Confidence     : 0.92
+Time           : 283.19 ms
+Method         : flashtext_skills_section | fuzzy(Negotiations→Negotiation(96%), planner→Xplanner(93%), vision→Microsoft Visio(91%), teams→Microsoft Teams(100%))
+
+── All Skills (16) ──
+Business Development, Client Relationship Management, Cold Calling, Cost Analysis, Customer Service, Decision Making, Leadership, Mechanical Engineering, Microsoft Teams, Microsoft Visio, Negotiation, Revenue Generation, Strategic Thinking, Time Series Forecasting, Vendor Management, Xplanner
+
+── By Category ──
+  ai_ml                          ['Time Series Forecasting']
+  biz_dev                        ['Business Development']
+  client_mgmt                    ['Client Relationship Management', 'Customer Service']
+  database                       ['Xplanner']
+  dev_tool                       ['Microsoft Visio']
+  engineering                    ['Mechanical Engineering']
+  finance_ops                    ['Cost Analysis']
+  operations                     ['Vendor Management']
+  productivity                   ['Microsoft Teams']
+  sales                          ['Cold Calling', 'Revenue Generation']
+  soft_skill                     ['Decision Making', 'Leadership', 'Negotiation', 'Strategic Thinking']

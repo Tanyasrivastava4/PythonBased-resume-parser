@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/3869aabf_352546ee_HarshvardhanResume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages: Python, JavaScript, C++
+Frontend: React, HTML, Tailwind CSS, CSS, JavaScript
+Backend Support: Flask, PostgreSQL, MongoDB(basic)
+Framework & Libraries: Pytorch, Flask, Langchain, Qdrant, LangGraph
+Tools & Technologies: GenAI, Ollama, Huggingface, Docker, Git & GitHub, GeoServer, CrewAIs
+Other: Deep Learning, Machine learning, CNN, LLM, API Development (Flask, REST APIS)
+
+── Extraction Results ──
+Skills found   : 29
+Confidence     : 0.92
+Time           : 194.55 ms
+Method         : flashtext_skills_section | fuzzy(HTML→HTML5(100%), Langchain→LangChain(100%), Huggingface→Hugging Face(100%), Machine learning→Machine Learning(100%), API Development→API Design(100%)...)
+
+── All Skills (29) ──
+API Design, C++, CNN, CSS3, Deep Learning, Docker, Flask, Generative AI, Git, GitHub, HTML5, Hugging Face, JavaScript, LLM, LangChain, LangGraph, Machine Learning, MongoDB, Ollama, PostgreSQL, PyTorch, Python, Qdrant, RAG, REST API, React, SQL, Tailwind CSS, Vector Databases
+
+── By Category ──
+  ai_ml                          ['CNN', 'Deep Learning', 'Machine Learning', 'PyTorch']
+  architecture                   ['API Design']
+  database                       ['MongoDB', 'PostgreSQL', 'SQL']
+  dev_tool                       ['Git', 'GitHub']
+  devops                         ['Docker']
+  genai                          ['Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'LangGraph', 'Ollama', 'RAG', 'Vector Databases']
+  programming_language           ['C++', 'JavaScript', 'Python']
+  search                         ['Qdrant']
+  web_framework                  ['CSS3', 'Flask', 'HTML5', 'REST API', 'React', 'Tailwind CSS']

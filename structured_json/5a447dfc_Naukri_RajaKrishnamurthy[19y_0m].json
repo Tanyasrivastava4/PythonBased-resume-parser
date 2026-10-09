@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5a447dfc_Naukri_RajaKrishnamurthy[19y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.319785+00:00",
+    "generated_at": "2026-10-07T10:31:47.866539+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,25 +47,69 @@
   "summary": null,
   "skills": {
     "items": [
+      "Agency Sales",
+      "Auditing",
+      "Civil Engineering",
+      "Communication",
+      "Computer Vision",
+      "Customer Relationship Management",
+      "Home Loans",
+      "Loan Against Property",
       "Microsoft Excel",
       "Microsoft Word",
-      "NPA Management",
+      "NPA Accounts",
+      "Operations Management",
+      "Personal Loan",
+      "R",
       "Recruitment",
-      "Responsible AI"
+      "Responsible AI",
+      "Team Coordination"
     ],
     "by_category": {
+      "insurance": [
+        "Agency Sales"
+      ],
+      "finance_ops": [
+        "Auditing"
+      ],
+      "engineering": [
+        "Civil Engineering"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "ai_ml": [
+        "Computer Vision"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "banking": [
+        "Home Loans",
+        "Loan Against Property",
+        "NPA Accounts"
+      ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft Word"
       ],
-      "banking": [
-        "NPA Management"
+      "operations": [
+        "Operations Management"
+      ],
+      "finance": [
+        "Personal Loan"
+      ],
+      "programming_language": [
+        "R"
       ],
       "hr": [
         "Recruitment"
       ],
       "genai": [
         "Responsible AI"
+      ],
+      "management": [
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
@@ -75,12 +119,16 @@
     "jobs": [
       {
         "role": "Regional Collection Manager | Fedbank Financial Services",
-        "company": "Address",
+        "company": "Fedbank Financial Services Ltd",
         "location": "Ltd, Chennai",
         "start": "2025-12",
         "end": "Current",
-        "method": "date_regex+title_dict",
-        "duration_months": 10,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Address",
+          "Chennai Tamil Nadu"
+        ],
+        "duration_months": 11,
         "bullets": [
           "Products handled: Loan against property from",
           "Handling collection of Tamil Nadu"
@@ -94,11 +142,11 @@
       },
       {
         "role": "State Head-Collection",
-        "company": "Address",
+        "company": "Fedbank Financial Services Ltd",
         "location": "Ltd, Chennai",
         "start": "2024-06",
         "end": "2021-01",
-        "method": "date_regex+pipe_split+inherited_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title+inherited_company",
         "duration_months": 0,
         "bullets": [],
         "sub_sections": [],
@@ -112,7 +160,7 @@
         "location": "Chennai",
         "start": "2024",
         "end": "2006",
-        "method": "year_range_short_regex+title_dict+comma_company_location",
+        "method": "year_range_short_regex+multiline_company_above_role",
         "duration_months": 0,
         "bullets": [
           "Products Handled: Loan against property",
@@ -130,12 +178,12 @@
         "source": "experience"
       },
       {
-        "role": "Manager - CV, CE & AHL-Collections",
-        "company": "Yes Bank Ltd",
-        "location": "Chennai",
+        "role": "Manager",
+        "company": "CV",
+        "location": "CE & AHL-Collections",
         "start": "2013-04",
         "end": "2020-06",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 87,
         "bullets": [
           "Products Handled: CV, CE & AHL stake holders across",
@@ -150,12 +198,12 @@
         "source": "experience"
       },
       {
-        "role": "Executive officer",
+        "role": "Executive officer | L&T Finance",
         "company": "L&T Finance Limited",
-        "location": "Trichy",
+        "location": "Limited, Trichy",
         "start": "2012-01",
         "end": "2013-03",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 15,
         "bullets": [
           "Products Handled: Farm Equipment, Auto and",
@@ -172,12 +220,12 @@
         "source": "experience"
       },
       {
-        "role": "Agency Manager -PL & Card",
+        "role": "Agency Manager -PL & Card | I-Process, ICICI Bank",
         "company": "I-Process, ICICI Bank Ltd",
-        "location": "Chennai",
+        "location": "Ltd, Chennai",
         "start": "2009-01",
         "end": "2011-12",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 36,
         "bullets": [],
         "sub_sections": [],
@@ -186,12 +234,12 @@
         "source": "experience"
       },
       {
-        "role": "Agency Manager - Personal Loan",
-        "company": "DBS Cholamandalam",
-        "location": "Chennai",
+        "role": "Agency Manager",
+        "company": "Personal Loan",
+        "location": "DBS Cholamandalam, Chennai",
         "start": "2007-11",
         "end": "2008-12",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 14,
         "bullets": [
           "Handling STPL collections from Risk X to NPA",
@@ -206,12 +254,12 @@
         "source": "experience"
       },
       {
-        "role": "Team Supervisor",
+        "role": "Team Supervisor | Adhityaa Credit Services Pvt",
         "company": "Adhityaa Credit Services Pvt Ltd",
-        "location": "Chennai",
+        "location": "Ltd, Chennai",
         "start": "2005-06",
         "end": "2007-11",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 30,
         "bullets": [
           "Responsible for collection of PL from NPA & Write"
@@ -224,8 +272,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 15.9,
-      "total_months": 191,
+      "total_years": 16.0,
+      "total_months": 192,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.96

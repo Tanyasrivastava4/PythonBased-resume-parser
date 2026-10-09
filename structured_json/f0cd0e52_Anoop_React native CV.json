@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f0cd0e52_Anoop_React native CV_segmented.txt",
-    "generated_at": "2026-09-30T07:00:45.062236+00:00",
+    "generated_at": "2026-10-07T09:28:48.282505+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,19 +49,38 @@
       "ADO.NET",
       "AJAX",
       "ASP.NET",
+      "AWS",
+      "AWS CloudWatch",
+      "AWS CodePipeline",
       "Adobe Photoshop",
+      "Adobe XD",
+      "Aggregations",
       "Android",
       "Angular",
+      "Azure",
+      "Azure App Service",
       "Azure DevOps",
+      "Babel",
       "Bootstrap",
       "C#",
       "CI/CD",
       "CSS3",
+      "Communication",
+      "Coroutines Flow",
+      "Cost Analysis",
+      "Creativity",
+      "Customs & International Trade",
       "Cypress",
+      "Data Migration",
       "Data Modeling",
+      "Design Systems",
+      "Docker",
       "ERP",
+      "ES6+",
+      "Event-Driven",
       "Express.js",
       "Facebook",
+      "Figma",
       "Firebase",
       "Git",
       "Google",
@@ -77,25 +96,41 @@
       "Microservices",
       "Microsoft ASP.NET",
       "Microsoft Team Foundation Server",
+      "Microsoft Teams",
       "Microsoft Visual Studio.NET",
       "Microsoft Windows",
       "Mobile Application Development",
+      "Mocha",
       "MongoDB",
       "MySQL",
+      "NPM",
       "NestJS",
       "Next.js",
       "Node.js",
+      "Performance Optimization",
+      "Pitch Scripts",
       "PostgreSQL",
       "REST",
+      "REST API",
       "React",
       "React Native",
+      "Redux",
+      "Reliability",
+      "Route",
+      "SASS",
       "SOAP",
+      "State Management",
+      "Supply Chain",
+      "Tailwind CSS",
       "TypeScript",
       "UAT",
+      "User Flows",
       "Web API",
+      "WebSockets",
       "XML",
       "iOS",
-      "jQuery"
+      "jQuery",
+      "webpack"
     ],
     "by_category": {
       "web_framework": [
@@ -115,42 +150,40 @@
         "NestJS",
         "Next.js",
         "Node.js",
+        "REST API",
         "React",
+        "Redux",
+        "SASS",
         "SOAP",
+        "Tailwind CSS",
         "Web API",
+        "WebSockets",
         "XML",
-        "jQuery"
+        "jQuery",
+        "webpack"
       ],
-      "design": [
-        "Adobe Photoshop"
-      ],
-      "mobile": [
-        "Android",
-        "Mobile Application Development",
-        "React Native",
-        "iOS"
+      "cloud_infra": [
+        "AWS",
+        "AWS CloudWatch",
+        "Azure",
+        "Azure App Service",
+        "Route"
       ],
       "devops": [
+        "AWS CodePipeline",
         "Azure DevOps",
-        "CI/CD"
+        "CI/CD",
+        "Docker"
       ],
-      "programming_language": [
-        "C#",
-        "JavaScript",
-        "TypeScript"
-      ],
-      "testing": [
-        "Cypress",
-        "Jest",
-        "UAT"
-      ],
-      "data_science": [
-        "Data Modeling"
-      ],
-      "erp": [
-        "ERP"
+      "design": [
+        "Adobe Photoshop",
+        "Adobe XD",
+        "Design Systems",
+        "Figma",
+        "User Flows"
       ],
       "database": [
+        "Aggregations",
         "Firebase",
         "Google",
         "MSSQL",
@@ -158,25 +191,80 @@
         "MySQL",
         "PostgreSQL"
       ],
+      "mobile": [
+        "Android",
+        "Mobile Application Development",
+        "React Native",
+        "iOS"
+      ],
       "dev_tool": [
+        "Babel",
         "Git",
-        "Microsoft Visual Studio.NET"
+        "Microsoft Visual Studio.NET",
+        "NPM",
+        "Performance Optimization"
+      ],
+      "programming_language": [
+        "C#",
+        "ES6+",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Creativity",
+        "Reliability"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
+      "legal": [
+        "Customs & International Trade"
+      ],
+      "testing": [
+        "Cypress",
+        "Jest",
+        "UAT"
+      ],
+      "data engineering": [
+        "Data Migration"
+      ],
+      "data_science": [
+        "Data Modeling"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "architecture": [
+        "Event-Driven",
+        "Microservices",
+        "State Management"
       ],
       "project_mgmt": [
         "Jira",
         "Microsoft Team Foundation Server"
       ],
       "productivity": [
-        "MS Office"
-      ],
-      "architecture": [
-        "Microservices"
+        "MS Office",
+        "Microsoft Teams"
       ],
       "os_system": [
         "Microsoft Windows"
       ],
+      "security_ops": [
+        "Mocha"
+      ],
+      "sales": [
+        "Pitch Scripts"
+      ],
       "integration": [
         "REST"
+      ],
+      "domain": [
+        "Supply Chain"
       ]
     },
     "_confidence": 0.92,
@@ -186,11 +274,14 @@
     "jobs": [
       {
         "role": "Full Stack Developer",
-        "company": "Nepon Solutions (Mar 2025 – Mar 2026",
+        "company": "Nepon Solutions",
         "location": null,
         "start": "Mar 2025",
         "end": "Mar 2026",
         "method": "date_regex+subfield_label_company+subfield_label_role",
+        "pre_date_header": [
+          "Company: Nepon Solutions"
+        ],
         "duration_months": 13,
         "bullets": [
           "Specialized in Handyman & Home Modification Commercial Services Responsibilities:",
@@ -214,17 +305,21 @@
         "sub_sections": [
           "Page 2"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Sr Software Engineer",
-        "company": "ZineIQ (July 2024 – Feb 2025",
+        "company": "ZineIQ",
         "location": null,
         "start": "July 2024",
         "end": "Feb 2025",
         "method": "date_regex+subfield_label_company+subfield_label_role",
+        "pre_date_header": [
+          "CSS, Azure Devops.",
+          "Company: ZineIQ"
+        ],
         "duration_months": 8,
         "bullets": [
           "Singapore Trade Data Exchange, is a digital infrastructure that facilitates trusted and secure sharing of data between supply chain ecosystem partners. Responsibilities:",
@@ -262,6 +357,9 @@
         "start": "Nov 2023",
         "end": "April 2024",
         "method": "date_regex+subfield_label_role+company_loc_dash_split",
+        "pre_date_header": [
+          "Project Name: Dicetek"
+        ],
         "duration_months": 6,
         "bullets": [
           "Designing and implementing user interfaces using React to ensure a seamless and responsive user experience.",
@@ -316,6 +414,10 @@
         "start": "April 2023",
         "end": "Oct 2023",
         "method": "date_regex+subfield_label_role+next_line_company+inherited_company",
+        "pre_date_header": [
+          "GraphQL",
+          "Project Name: Lotto-Social"
+        ],
         "duration_months": 7,
         "bullets": [
           "Developed responsive and visually appealing web interfaces using HTML, CSS (including SCSS), and Bootstrap v.4.",
@@ -344,12 +446,15 @@
         "source": "experience"
       },
       {
-        "role": "Angular Developer",
-        "company": "Client: Arab Millionaire (Nov’22",
+        "role": "Client: Arab Millionaire",
+        "company": "Nov’22",
         "location": null,
         "start": "2021",
         "end": "Oct’20",
-        "method": "date_regex+subfield_label_role+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Client: Arab Millionaire"
+        ],
         "duration_months": 0,
         "bullets": [
           "Fooz; play-to-win online platform introduced by Arab Millionaire, offering participants the chance to “Dream Big, Give More” with the largest prizes in the Arab World. Responsibilities:",
@@ -376,12 +481,16 @@
         "source": "experience"
       },
       {
-        "role": "Sr. Software Developer",
+        "role": "",
         "company": "Client: Hatchster Limited",
         "location": null,
         "start": "Feb 2017",
         "end": "Nov 2021",
-        "method": "date_regex+subfield_label_role+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_company_above_role",
+        "pre_date_header": [
+          "CSS, Azure Devops.",
+          "Client: Hatchster Limited"
+        ],
         "duration_months": 58,
         "bullets": [
           "Developed server-side applications using Node.js and TypeScript for improved code maintainability and type safety.",
@@ -407,8 +516,8 @@
           "Page 8",
           "────────────────────────────────────────────────────────────"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       }
     ],
@@ -418,7 +527,7 @@
       "total_months": 92,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.91
+    "_confidence": 0.94
   },
   "education": {
     "entries": [],
@@ -433,17 +542,17 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
+      "field": "experience.jobs[5]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

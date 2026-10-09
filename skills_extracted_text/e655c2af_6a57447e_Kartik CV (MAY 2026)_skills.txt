@@ -1,0 +1,41 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/e655c2af_6a57447e_Kartik CV (MAY 2026)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Comptia Security +
+SIEM: Splunk, Sentinel, Defender and ELK
+EDR: Crowdstrike in 24/7 SOC environment. Exposure to the basic functioning of various tools such
+as (SIEM, EDR, OSINT and SNOW) in SOC and mitigation.
+Creating an investigation report, daily and weekly dashboards.
+Network detection and response (NDR) on seceon tool.
+Hands on experience on BMC IT ticketing tool and service management.
+Worked on SIEM tools such as Microsoft Sentinel, Defender and ELK and have required hands on
+experience on it.
+Following up on the incident response lifecycle.
+Proficient Communication Skills.
+Certified in Cybersecurity (CC) from ISC2, Certified in Ethical Hacking (CEH) from EC-Council, Splunk
+Certified E-learner, Splunk Certified Security Operations and the Defence Analyst, CompTIA CySA+
+certified.
+Cloud security including AWS associate course.
+DLP and email-security including hands-on proof point.
+
+── Extraction Results ──
+Skills found   : 20
+Confidence     : 0.92
+Time           : 620.67 ms
+Method         : flashtext_skills_section | fuzzy(Sentinel→Microsoft Sentinel(100%), Sentinel→Microsoft Sentinel(100%), Defender→Microsoft Defender(100%))
+
+── All Skills (20) ──
+AWS, CEH, Communication, DLP, EDR, ELK Stack, ISC2 CC, Incident Response, Leadership, Microsoft Defender, Microsoft Sentinel, Microsoft Teams, Node.js, Python, SIEM, SOAR, SOC Operations, Splunk, Splunk Enterprise, Ticketing Systems
+
+── By Category ──
+  cloud_infra                    ['AWS', 'Splunk Enterprise']
+  devops                         ['ELK Stack']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Python']
+  security                       ['SOC Operations']
+  security_ops                   ['CEH', 'DLP', 'EDR', 'ISC2 CC', 'Incident Response', 'Microsoft Defender', 'Microsoft Sentinel', 'SIEM', 'SOAR', 'Splunk']
+  soft_skill                     ['Communication', 'Leadership']
+  support                        ['Ticketing Systems']
+  web_framework                  ['Node.js']

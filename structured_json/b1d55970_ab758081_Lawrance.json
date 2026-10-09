@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b1d55970_ab758081_Lawrance_segmented.txt",
-    "generated_at": "2026-09-30T07:00:05.685449+00:00",
+    "generated_at": "2026-10-07T09:27:56.327976+00:00",
     "sections_found": [
       "achievements",
       "declaration",
@@ -51,21 +51,29 @@
   "skills": {
     "items": [
       ".NET",
+      "Arbor DDoS",
       "Business Development",
-      "Client Relationship Management",
+      "Business Loans",
       "Communication",
+      "Coroutines Flow",
+      "Customer Relationship Management",
+      "DRA",
       "Intercom",
+      "Internal Audit",
+      "MS Access",
       "Make",
       "Mechanical Engineering",
-      "Microsoft Access",
       "Microsoft Edge",
       "Microsoft Outlook",
       "Microsoft Teams",
       "Objective C",
+      "Oracle Database",
       "Personal Loan",
+      "R",
       "Ruby on Rails",
       "SAP",
       "SQL",
+      "Secure SDLC",
       "TDS",
       "VBA"
     ],
@@ -73,29 +81,45 @@
       "programming_language": [
         ".NET",
         "Objective C",
-        "VBA"
+        "R"
+      ],
+      "security": [
+        "Arbor DDoS"
       ],
       "biz_dev": [
         "Business Development"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "banking": [
+        "Business Loans"
       ],
       "soft_skill": [
         "Communication"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "telecom": [
+        "DRA"
+      ],
       "support": [
         "Intercom"
+      ],
+      "accounting": [
+        "Internal Audit"
+      ],
+      "database": [
+        "MS Access",
+        "Oracle Database",
+        "SQL"
       ],
       "rpa": [
         "Make"
       ],
       "engineering": [
         "Mechanical Engineering"
-      ],
-      "database": [
-        "Microsoft Access",
-        "SQL"
       ],
       "dev_tool": [
         "Microsoft Edge"
@@ -113,29 +137,39 @@
       "integration": [
         "SAP"
       ],
+      "cybersecurity": [
+        "Secure SDLC"
+      ],
       "taxation": [
         "TDS"
+      ],
+      "programming": [
+        "VBA"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(OBJECTIVE→Objective C(95%), edge→Microsoft Edge(100%))"
+    "_method": "flashtext_skills_section | fuzzy(OBJECTIVE→Objective C(95%), SSLC→Secure SDLC(89%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Having experience as a Retail Portfolio collection Management - Manager Unsecure Collection for in HDFC BANK PVT LTD",
+        "role": "Retail Portfolio collection Management - Manager Unsecure Collection for in HDFC BANK PVT LTD",
         "company": "HDFC Bank Pvt Ltd",
         "location": null,
         "start": "23rd Dec 2019",
         "end": "Present",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "DETAILS: -"
+        ],
         "duration_months": 82,
         "bullets": [
           "Handled - Role | - Retail Portfolio Colelction Management – Manager Managing Write Off mixed vintage portfolio of products like Personal loan, Business Loan, Educational Loan & Self-employed personal loan for Chennai.",
           "Base allocation to agencies as per their capacity and ensure to get the allocation to callers / Field Executives immediate basis Periodic review of cases with Field executives and Tele-callers.",
           "Review of Skip tracing activities using skip tools to establish contact on NC cases Taking support of Legal team to make conversion on RTP / NITP cases to positive Setting RoR based target to vendors to achieve benchmark as per the bank’s requirement Ensured the vendors are upto date knowledgeable on Banks process, product and our basic CoC.",
           "Ensured target to the vendors, based level up than Business expectations and motivate them with tempt of higher billing Keen eye on vendors performance without any compromise on their Quality & Compliance parameters by doing mock calls on their accounts, random checks on feedbacks etc.",
-          "Creating opportunity for new business with any performing vendors outside the circle and External and Internal audits done for vendors of their compliance of company’s process."
+          "Creating opportunity for new business with any performing vendors outside the circle and External and Internal audits done for vendors of their compliance of company’s process.",
+          "DRA ID cards for callers & Field executives and Billing processes of all agencies under self-handled and coordinate with Central unit for processing Periodic review with Vendor Heads on their performance and discuss on their improvement areas and boost them up by giving them support on their customer queries or escalations."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -143,24 +177,24 @@
         "source": "experience"
       },
       {
-        "role": "Having experience as a Process Lead & Business Analysis for in REDCT INFOTEL PVT LTD",
-        "company": "Having more than’ experience as a MIS-Coordinator for in TATA TELE SERVICES LTD",
+        "role": "Having experience as a Process Lead & Business Analysis for in",
+        "company": "REDCT INFOTEL PVT LTD",
         "location": null,
-        "start": "1st Oct 2016",
-        "end": "18th Dec 2019",
-        "method": "date_regex+title_dict",
-        "duration_months": 39,
+        "start": null,
+        "end": "3 Years",
+        "method": "stated_duration_regex+multiline_role_above_company",
+        "duration_months": 36,
         "bullets": [
           "Having more than 5 years’ experience as a MIS-Coordinator for in TATA TELE SERVICES LTD, (Chennai, from 28th June’10 to 6th Feb’ 16) Having 4½ years’ experience as a Billing Resolution Cell (BRC) Team in BHARTI AIRTEL LTD, Chennai, from 25th Feb’05 to 31st May’ 10."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.8,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Role | - Agency Collections Process Lead & Business Analysis",
-        "company": "Periodic review with Vendor Heads on their performance and discuss on their improvement areas and boost them up by giving them support on their customer queries or escalations. Redact Infotel Pvt Ltd",
+        "role": "Agency Collections Process Lead & Business Analysis",
+        "company": "Redact Infotel Pvt Ltd",
         "location": null,
         "start": "Mar’18",
         "end": "Dec’19",
@@ -177,22 +211,25 @@
           "Tracking & Analysis Agency Performance.",
           "Creating Reports for NEFT Payment & TDS Payment tracker."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Analyzing Collection Base and submitted to give team members to crack easily Tata Teleservices Ltd Chennai",
+        "role": "Analyzing Collection Base and submitted to give team members to crack easily",
+        "company": "Tata Teleservices Ltd Chennai",
         "location": null,
         "start": "Jun’10",
         "end": "Feb’16",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Analyzing Collection Base and submitted to give team members to crack easily"
+        ],
         "duration_months": 69,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -210,12 +247,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Role & Activities",
-        "location": "Waiver Adequacy Check",
+        "role": "Role & Activities: - Waiver Adequacy Check (Bangalore",
+        "company": "Bharti Airtel Ltd",
+        "location": null,
         "start": "1st Aug 2008",
         "end": "31st May 2010",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company+inherited_company",
+        "pre_date_header": [
+          "Role & Activities: - Waiver Adequacy Check (Bangalore)"
+        ],
         "duration_months": 22,
         "bullets": [],
         "sub_sections": [],
@@ -224,8 +264,8 @@
         "source": "experience"
       },
       {
-        "role": "",
-        "company": "Reconciliation of Waiver Adjustments (Between ACE Call Flow & Arbor). Role & Activities",
+        "role": "Having 5 Years experience as a Retail Portfolio collection Management",
+        "company": "Manager Unsecure Collection for in HDFC BANK PVT LTD. (23rd Dec 2019 to till date)",
         "location": "Provisioning Team",
         "start": "1st Nov 2007",
         "end": "31st July 2008",
@@ -235,18 +275,18 @@
           "Resolution of Request & Complaints in ACE Call Flow & Mails (of VAS Categories) MIS of VAS Reports & Billing Related Request."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 18.6,
-      "total_months": 223,
-      "overlapping_periods_merged": 3
+      "total_years": 20.2,
+      "total_months": 242,
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.74
+    "_confidence": 0.9
   },
   "education": {
     "entries": [],
@@ -285,30 +325,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.74,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[4]",
       "confidence": 0.85,
@@ -321,7 +341,7 @@
     },
     {
       "field": "experience.jobs[6]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     }
   ]

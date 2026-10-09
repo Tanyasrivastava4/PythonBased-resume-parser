@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "81c80f8e_e20afe63_Gajendra Arha_Netsuite Solution Architect_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:27.190288+00:00",
+    "generated_at": "2026-10-07T09:27:05.618740+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -53,23 +53,44 @@
       "CAD",
       "Collaboration",
       "Continuous Improvement",
+      "Coroutines Flow",
+      "Cost Analysis",
       "Creativity",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
+      "Data Migration",
       "DevOps",
+      "Dunning Letters",
+      "E-commerce",
       "ERP",
+      "ERP Systems",
       "Generative AI",
       "Go",
       "Internal Controls Testing",
       "Leadership",
+      "LinkedIn",
+      "Logistics",
       "Mentoring",
       "Microsoft Teams",
       "NetSuite",
+      "Oracle Database",
       "Order-to-Cash",
       "Procure-to-Pay",
+      "Procurement",
+      "Project Management",
+      "Proposal Writing",
       "Record-to-Report",
+      "Reporting",
       "SANS",
+      "SAP",
+      "SIT",
+      "Saved Searches",
       "Scrum",
+      "SigmaNEST",
       "Solution Design",
+      "SuiteAnalytics",
+      "SuiteBuilder",
+      "SuiteFlow",
       "Taxation",
       "UAT"
     ],
@@ -85,16 +106,47 @@
         "Creativity",
         "Cross-functional Collaboration",
         "Leadership",
-        "Mentoring"
+        "Mentoring",
+        "Reporting"
       ],
       "operations": [
-        "Continuous Improvement"
+        "Continuous Improvement",
+        "ERP Systems",
+        "Logistics",
+        "Procurement"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "finance_ops": [
+        "Cost Analysis",
+        "Internal Controls Testing",
+        "Taxation"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "devops": [
         "DevOps"
       ],
+      "finance": [
+        "Dunning Letters",
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Record-to-Report"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
       "erp": [
-        "ERP"
+        "ERP",
+        "Saved Searches",
+        "SuiteAnalytics",
+        "SuiteBuilder",
+        "SuiteFlow"
       ],
       "genai": [
         "Generative AI"
@@ -102,9 +154,8 @@
       "programming_language": [
         "Go"
       ],
-      "finance_ops": [
-        "Internal Controls Testing",
-        "Taxation"
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -112,56 +163,51 @@
       "netsuite": [
         "NetSuite"
       ],
-      "finance": [
-        "Order-to-Cash",
-        "Procure-to-Pay",
-        "Record-to-Report"
+      "database": [
+        "Oracle Database"
+      ],
+      "project_mgmt": [
+        "Project Management",
+        "Scrum"
+      ],
+      "biz_dev": [
+        "Proposal Writing"
       ],
       "security_ops": [
         "SANS"
       ],
-      "project_mgmt": [
-        "Scrum"
+      "integration": [
+        "SAP"
+      ],
+      "testing": [
+        "SIT",
+        "UAT"
+      ],
+      "hardware": [
+        "SigmaNEST"
       ],
       "architecture": [
         "Solution Design"
-      ],
-      "testing": [
-        "UAT"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Generative→Generative AI(95%), Order-to- Cash→Order-to-Cash(96%), spans→SANS(89%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Suite Builder→SuiteBuilder(100%), NetSuite Suite Analytics→SuiteAnalytics(98%), Oracle→Oracle Database(100%), Generative→Generative AI(95%), Order-to- Cash→Order-to-Cash(96%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Outstanding Consultant",
-        "company": "Suite Knowledge: Ultimate Contributor, Q4 FY25. Honors & Awards - SigmaTEK Group and Amada India",
+        "role": "Honors & Awards – Oracle",
+        "company": "Tasks/Achievements",
         "location": null,
-        "start": "08/2010",
-        "end": "03/2022",
-        "method": "date_regex+company_suffix_match",
-        "duration_months": 140,
-        "bullets": [],
-        "sub_sections": [
-          "Outstanding Consultant (Asia Pacific Region)",
-          "Star Performer",
-          "Star of the Quarter Key"
-        ],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Pvt Ltd",
-        "location": "Canada",
-        "start": "06/2022",
+        "start": "05/2022",
         "end": "Present",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 52,
+        "method": "date_regex+multiline_role_above_company",
+        "duration_months": 54,
         "bullets": [
+          "Winner, Probono Buildathon (2022).",
+          "Silver Bullet Award, GDC AI Ideathon (FY24).",
+          "Value Champ, Q4 FY24.",
+          "Rockstar Team Recognition, Q1 & Q2 FY25.",
           "Led end-to-end NetSuite Financials implementations for 50+ clients, specializing in wholesale distribution & manufacturing.",
           "Managed financial cutover activities during go-live, customized financial reports & dashboards, and integrated Bank Feeds/EFT setups.",
           "Managed full-cycle project delivery including business analysis, solution design, configuration, data migration, UAT, go-live, and post-implementation support.",
@@ -170,17 +216,43 @@
           "Facilitated workshops, resolved configuration issues, conducted user training, and contributed to solution architecture, proposal writing, and proof-of-concept presentations."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.98,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Functional Consultant",
+        "role": "SigmaTEK Systems India Pvt Ltd / Vaal Triangle System Pvt Ltd / Amada India Pvt Ltd",
+        "company": "Honors & Awards - SigmaTEK Group and Amada India",
+        "location": null,
+        "start": "08/2010",
+        "end": "03/2022",
+        "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "Northern Star Award, Q3 FY25.",
+          "Suite Knowledge: Ultimate Contributor, Q4 FY25."
+        ],
+        "duration_months": 140,
+        "bullets": [],
+        "sub_sections": [
+          "Outstanding Consultant (Asia Pacific Region)",
+          "Star Performer",
+          "Star of the Quarter Key"
+        ],
+        "confidence": 0.98,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "In-House NetSuite ERP Implementation",
         "company": "Vaal Triangle Systems PVT Ltd",
         "location": null,
         "start": "08/2018",
         "end": "05/2022",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "In-House NetSuite ERP Implementation",
+          "Vaal Triangle Systems PVT Ltd"
+        ],
         "duration_months": 46,
         "bullets": [
           "Led the successful in-house NetSuite ERP implementation, aligning system capabilities with business goals to enhance efficiency and decision-making.",
@@ -188,7 +260,7 @@
         ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -198,6 +270,10 @@
         "start": "04/2019",
         "end": "07/2019",
         "method": "date_regex",
+        "pre_date_header": [
+          "Shopfloor Success: VPSS IoT Solution Implementation",
+          "Shin-Sung S & T (South Korea)"
+        ],
         "duration_months": 4,
         "bullets": [
           "Implemented the VPSS IoT solution to enable real-time production monitoring and enhance manufacturing efficiency.",
@@ -212,12 +288,12 @@
         "source": "experience"
       },
       {
-        "role": "procurement, and sales functions",
-        "company": "Singapore, Malaysia",
-        "location": "India",
+        "role": "Singapore",
+        "company": "Netherlands",
+        "location": "Malaysia, India",
         "start": "03/2018",
         "end": "04/2022",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 50,
         "bullets": [
           "Led multiple implementations and integrations of manufacturing software solutions across global clients—including SigmaNEST with FabSuite and FabTrol ERP systems (Singapore, India), web-based Nesting and Quoting solutions (USA, Netherlands), and SigmaTEK MRP with SAP integration (UK).",
@@ -244,13 +320,16 @@
         "source": "experience"
       },
       {
-        "role": "Lead Support Consultant",
-        "company": "SigmaTEK Systems India Pvt",
-        "location": null,
-        "start": "08/2014",
-        "end": "01/2016",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 18,
+        "role": "https://www.oracle.com/in",
+        "company": "India) Pvt Ltd",
+        "location": "Hyderabad, India",
+        "start": "06/2022",
+        "end": "Present",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "(India) Pvt Ltd"
+        ],
+        "duration_months": 53,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -263,7 +342,12 @@
         "location": null,
         "start": "09/2010",
         "end": "07/2014",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+title_dict_strong+company_suffix_match",
+        "pre_date_header": [
+          "Software Application &",
+          "Support Engineer",
+          "Amada India Pvt Ltd"
+        ],
         "duration_months": 47,
         "bullets": [],
         "sub_sections": [],
@@ -272,27 +356,32 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Engineering",
-        "location": "Udaipur",
+        "role": "Lecturer",
+        "company": "Maharaja College of",
+        "location": null,
         "start": "08/2008",
         "end": "07/2009",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Lecturer",
+          "Maharaja College of",
+          "Engineering, Udaipur"
+        ],
         "duration_months": 12,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 17.2,
-      "total_months": 206,
-      "overlapping_periods_merged": 5
+      "total_months": 207,
+      "overlapping_periods_merged": 6
     },
-    "_confidence": 0.9
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -411,32 +500,22 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.7,
+      "confidence": 0.98,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
       "confidence": 0.98,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[7]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

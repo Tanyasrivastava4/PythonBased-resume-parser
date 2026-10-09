@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "42137eea_Abhinav Ashish_AVP- Internal Audit (ITIS)_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:28.581527+00:00",
+    "generated_at": "2026-10-07T10:31:27.579169+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,6 +47,8 @@
   "summary": null,
   "skills": {
     "items": [
+      "Auditing",
+      "BCP",
       "BI Tools",
       "Business Continuity Management",
       "Cyber Security Governance",
@@ -54,15 +56,28 @@
       "ISMS",
       "ISO 27001",
       "ISO Standards",
+      "IT Security",
+      "ITGC",
+      "Information Security",
       "Information Systems Audit",
+      "Legal Compliance",
+      "Payments",
+      "RBI",
+      "Risk Assessment",
+      "Third-Party Risk",
       "VAPT"
     ],
     "by_category": {
-      "data_science": [
-        "BI Tools"
+      "finance_ops": [
+        "Auditing",
+        "ITGC"
       ],
       "operations": [
+        "BCP",
         "Business Continuity Management"
+      ],
+      "data_science": [
+        "BI Tools"
       ],
       "security_ops": [
         "Cyber Security Governance",
@@ -70,10 +85,25 @@
         "ISMS",
         "ISO 27001",
         "Information Systems Audit",
+        "Third-Party Risk",
         "VAPT"
       ],
       "engineering": [
         "ISO Standards"
+      ],
+      "security": [
+        "IT Security",
+        "Information Security"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "domain": [
+        "Payments",
+        "RBI"
+      ],
+      "compliance": [
+        "Risk Assessment"
       ]
     },
     "_confidence": 0.92,
@@ -87,8 +117,11 @@
         "location": null,
         "start": "March, 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 55,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Senior Associate – National Payments Corporation of India (NPCI)"
+        ],
+        "duration_months": 56,
         "bullets": [
           "Analyzed Information Security policies and procedures, identifying gaps and recommending revisions to enhance organizational security posture;",
           "Led and managed internal and external audit programs, specifically conducting and overseeing Internal IT General Control Audits, Annual System Audits, and Data Localization Audits across various departments to ensure full regulatory compliance;",
@@ -108,7 +141,10 @@
         "location": "India",
         "start": "March, 2019",
         "end": "Feb, 2022",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Assistant Manager – Grant Thornton LLP, India"
+        ],
         "duration_months": 36,
         "bullets": [
           "Conducted Cyber security risk assessment in-line with RBI’s cyber security requirements, for multiple leading public sectors Banks and financial institute of India;",
@@ -128,6 +164,9 @@
         "start": "July, 2017",
         "end": "Feb, 2019",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Information Security Consultant - AAA Technologies Pvt. Ltd."
+        ],
         "duration_months": 20,
         "bullets": [
           "Performed various types of audits for multiple public and private sector banks, and financial institutes and government organizations;",
@@ -141,37 +180,41 @@
         "source": "experience"
       },
       {
-        "role": "Focus Forensics Technology (P) Ltd",
-        "company": "Provided specialized Cyber Forensics assistance to various government agencies.",
-        "location": "Focus Forensics Technology  Ltd",
+        "role": "Junior Security Analyst",
+        "company": "Focus Forensics Technology (P) Ltd",
+        "location": null,
         "start": "July, 2016",
         "end": "April, 2017",
-        "method": "date_regex+title_dash_company+company_suffix_match",
+        "method": "date_regex+title_dash_company+multiline_dash_split",
+        "pre_date_header": [
+          "Junior Security Analyst - Focus Forensics Technology (P) Ltd."
+        ],
         "duration_months": 10,
         "bullets": [
+          "Provided specialized Cyber Forensics assistance to various government agencies.",
           "AMTAG Global, Bhopal (2 months) in Information"
         ],
         "sub_sections": [
           "Systems Compliance &",
           "Audit"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.1,
-      "total_months": 121,
+      "total_years": 10.2,
+      "total_months": 122,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.91
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "• MS in Cyber Law and Information Security from National Law Institute",
+        "degree": "• MS in Cyber Law and Information Security",
         "degree_name": "M.S.",
         "degree_type": "masters",
         "degree_field": "Cyber Law and Information Security from National Law Institute",
@@ -182,7 +225,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• BE (Computer Science) from NRI Institute of Information Science and",
+        "degree": "• BE (Computer Science)",
         "degree_name": "B.E.",
         "degree_type": "bachelors",
         "degree_field": "Computer Science",
@@ -289,15 +332,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.69,

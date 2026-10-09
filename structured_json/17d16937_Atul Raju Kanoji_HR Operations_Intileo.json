@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "17d16937_Atul Raju Kanoji_HR Operations_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:59.216599+00:00",
+    "generated_at": "2026-10-07T10:30:53.694101+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -50,57 +50,122 @@
   "skills": {
     "items": [
       "Adaptability",
-      "Collaboration",
       "Communication",
+      "Coroutines Flow",
+      "Employee Records Management",
+      "Exit Formalities",
+      "HR Administration",
       "HR Management",
       "Interpersonal Skills",
       "MS Office",
       "Microsoft Excel",
       "Microsoft Word",
       "Onboarding",
+      "Persuasive Skills",
+      "Professional Tax",
+      "Punctuality",
+      "R",
+      "Recruitment",
+      "Room Database",
+      "Self Motivation",
+      "Team Collaboration",
       "YouTube"
     ],
     "by_category": {
       "soft_skill": [
         "Adaptability",
-        "Collaboration",
         "Communication",
-        "Interpersonal Skills"
+        "Interpersonal Skills",
+        "Persuasive Skills",
+        "Punctuality",
+        "Self Motivation",
+        "Team Collaboration"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "hr_recruitment": [
+        "Employee Records Management",
+        "Exit Formalities",
+        "HR Administration"
       ],
       "hr": [
         "HR Management",
-        "Onboarding"
+        "Onboarding",
+        "Professional Tax",
+        "Recruitment"
       ],
       "productivity": [
         "MS Office",
         "Microsoft Excel",
         "Microsoft Word"
       ],
+      "programming_language": [
+        "R"
+      ],
+      "database": [
+        "Room Database"
+      ],
       "media": [
         "YouTube"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Excel→Microsoft Excel(100%), Youtuber→YouTube(93%), onboarding→Onboarding(100%), adaptability→Adaptability(100%))"
+    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Excel→Microsoft Excel(100%), self-motivation→Self Motivation(100%), Youtuber→YouTube(93%), onboarding→Onboarding(100%)...)"
   },
   "experience": {
-    "jobs": [],
+    "jobs": [
+      {
+        "role": "HR & Admin Assistant",
+        "company": "Burma Burma Restaurant & Tea Room (HungerPangs",
+        "location": null,
+        "start": "Nov 2024",
+        "end": "10-oct 2025",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "HR & Admin Assistant — Burma Burma Restaurant & Tea Room (HungerPangs"
+        ],
+        "duration_months": 12,
+        "bullets": [
+          "Assisted and reported to the HR Manager for onboarding activities, ensuring smooth induction for new hires. Managed filing and maintenance of employee records, both physical and digital. Coordinated with the Talent Acquisition (TA) team for joining formalities and candidate follow-ups.",
+          " Handled exit formalities, collected handover documents, and ensured smooth clearance processes. Scanned and archived important HR and administrative documents.",
+          " Performed back-office support functions, maintaining proper documentation flow."
+        ],
+        "sub_sections": [
+          "Create employee ID"
+        ],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      }
+    ],
     "early_career": [],
     "total_experience": {
-      "total_years": 0.0,
-      "total_months": 0,
+      "total_years": 1.0,
+      "total_months": 12,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.0
+    "_confidence": 0.7
   },
   "education": {
     "entries": [
+      {
+        "degree": "Bachelor of Management",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Bachelor of Management Mumbai University",
+        "year": "2021",
+        "gpa": "70%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
       {
         "degree": "HSC",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Bachelor of Management Mumbai University",
+        "institution": "Studies BMS Maharashtra State Board",
         "year": "2018",
         "gpa": "47%",
         "_needs_review": false,
@@ -129,14 +194,19 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience",
-      "confidence": 0.0,
-      "reason": "section_present_but_empty"
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
     }
   ]
 }

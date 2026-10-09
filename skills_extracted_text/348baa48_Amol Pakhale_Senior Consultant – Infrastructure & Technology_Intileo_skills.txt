@@ -1,0 +1,52 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/348baa48_Amol Pakhale_Senior Consultant – Infrastructure & Technology_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+▪ Data Center Migration, DC-DR Design & Drills, Cloud Readiness, Migration Planning & Cutover
+▪ Network Transformation (WAN/SD-WAN/Wi-Fi, WLC, Access Point/Firewall and security peripherals)
+▪ Collaboration/Unified computing: Email, MS Teams, VC/IPT, Video Infra, Enterprise mobility
+▪ Workspace/EUC: Laptops, desktops, VDI/AVD, MDM, endpoint security, patching, asset lifecycle
+▪ Compute/Storage/Virtualization Upgrades & Backup
+▪ Monitoring/Observability: Infra monitoring, logs, alerts, performance and capacity management
+▪ ITSM/ITIL (Incident/Problem/Change) & RCA Governance
+▪ Service Delivery, Managed Services & SLA/KPI Governance
+▪ UAM & Production Access Controls; Security Governance
+▪ PMO, Budgeting, Risk & Vendor/OEM/Contract Management
+▪ RFP/RFQ, Executive Dashboards & Reporting, RBI master direction, Policy, SOP & Audit response
+▪ Tech Due Diligence, As-Is/To-Be Analysis, IT -DC Capacity and Gap Assessment
+▪ Project Management tools: Oracle PPMS, JIRA, MS Project, Trello (Planning, Tracking, RAID)
+▪ Documentation & Reporting: MS Office Excel, PowerPoint, SharePoint etc.
+▪ IT Service Management: ServiceNow, HPSM, Symphony Summit (Change/Incident/SR & Asset-Inventory)
+
+── Extraction Results ──
+Skills found   : 53
+Confidence     : 0.92
+Time           : 626.32 ms
+Method         : flashtext_skills_section | fuzzy(MS Teams→Microsoft Teams(100%), endpoint security→Endpoint Security(100%), Contract Management ▪ RFP→Contract Management(95%), JIRA→Jira(100%), PowerPoint→Microsoft PowerPoint(100%))
+
+── All Skills (53) ──
+Agile, Android, BFSI, Budgeting, Business Development, CSAT, Change Management, Collaboration, Contract Management, Customer Success, E-learning, Endpoint Security, Executive Presentations, Fintech, Firewall, Incident Management, Incident Response, Jira, KPI, Leadership, MDM, MIS Reporting, MS Office, MS Project, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Microsoft Windows, Observability, Operations Management, Oracle, PMP, Prince2, Project Charter, Project Management, Quality Management System, RBI, RFP, RFQ, Reporting, Resource Planning, Root Cause Analysis, SOP, Scrum, ServiceNow, SharePoint, Six Sigma, Stakeholder Management, Time Series Forecasting, Trello, Tutoring, UAT, Vendor Management
+
+── By Category ──
+  ai_ml                          ['Time Series Forecasting']
+  banking                        ['MIS Reporting']
+  biz_dev                        ['Business Development']
+  business_analysis              ['KPI', 'RFP', 'RFQ']
+  customer_service               ['CSAT']
+  database                       ['Oracle']
+  devops                         ['Observability']
+  domain                         ['BFSI', 'Fintech', 'RBI']
+  education_domain               ['E-learning', 'Tutoring']
+  finance_ops                    ['Budgeting']
+  integration                    ['ServiceNow', 'SharePoint']
+  legal                          ['Contract Management']
+  mobile                         ['Android']
+  operations                     ['Operations Management', 'Quality Management System', 'Root Cause Analysis', 'SOP', 'Six Sigma', 'Vendor Management']
+  os_system                      ['Microsoft Windows']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Teams', 'Trello']
+  project_mgmt                   ['Agile', 'Change Management', 'Jira', 'MS Project', 'PMP', 'Prince2', 'Project Charter', 'Project Management', 'Resource Planning', 'Scrum']
+  security_ops                   ['Endpoint Security', 'Firewall', 'Incident Management', 'Incident Response', 'MDM']
+  soft_skill                     ['Collaboration', 'Executive Presentations', 'Leadership', 'Reporting', 'Stakeholder Management']
+  support                        ['Customer Success']
+  testing                        ['UAT']

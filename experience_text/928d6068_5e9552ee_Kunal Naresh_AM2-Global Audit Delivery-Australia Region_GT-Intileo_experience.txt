@@ -1,0 +1,79 @@
+======================================================================
+FILE: 928d6068_5e9552ee_Kunal Naresh_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Macquarie Group | 05/2025 – Present | Assistant Manager
+• Part of finance team involved in posting journal entries, monthly and quarterly books
+closure
+• Led and supervised a team of 2–3 professionals
+• Performed budgeting, forecasting and variance analysis
+
+• Assisted in treasury and cash managemen...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 7.6 years (91 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : Assistant Manager
+  Company      : Macquarie Group
+  Location     : Assistant Manager
+  Start - End  : 05/2025 - Present
+  Duration     : 18 months
+  Bullets      : 4
+    • Part of finance team involved in posting journal entries, monthly and quarterly books closure
+    • Led and supervised a team of 2–3 professionals
+    • Performed budgeting, forecasting and variance analysis
+    • Assisted in treasury and cash management
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Assistant Manager
+  Company      : EY GDS
+  Location     : Assistant Manager
+  Start - End  : 02/2023 - 05/2025
+  Duration     : 28 months
+  Bullets      : 2
+    • Drafted technical accounting whitepapers on different topics under IFRS and USGAAP
+    • Led and supervised a team of 2–3 professionals
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Consultant
+  Company      : KPMG Global Services
+  Location     : Consultant
+  Start - End  : 08/2021 - 02/2023
+  Duration     : 19 months
+  Bullets      : 1
+    • Prepared accounting memos on: o Business Combinations (ASC 805 / IFRS 3) o Debt vs Equity classification under USGAAP o Revenue Recognition (IFRS 15) o Consolidation assessment (ASC 810)
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Assistant Manager
+  Company      : Deloitte India
+  Location     : Assistant Manager
+  Start - End  : 04/2019 - 08/2021
+  Duration     : 29 months
+  Bullets      : 8
+    • Participated in Ind AS 116 implementation
+    • Involved in preparation of financial statements ensuring compliance with accounting standards
+    • Part of finance team involved in posting journal entries, monthly and quarterly books closure
+    • Performed budgeting, forecasting and variance analysis
+    • Assisted in treasury and cash management
+    • Conducted statutory and tax audits
+    • Assisting clients in ensuring TDS, GST and ROC compliances
+    • Participated in filing income tax returns
+  Sub-sections : ['Articleship & Paid Assistant', 'Anil Kakar & Associates']
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False

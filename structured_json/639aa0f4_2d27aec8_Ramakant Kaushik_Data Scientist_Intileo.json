@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "639aa0f4_2d27aec8_Ramakant Kaushik_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:00.720990+00:00",
+    "generated_at": "2026-10-07T09:26:40.372695+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,11 +48,13 @@
   "skills": {
     "items": [
       "ANN",
+      "Adaptability",
       "Agentic AI",
       "CNN",
       "Classification Web",
       "Communication",
       "Cross-functional Collaboration",
+      "Data Science",
       "Deep Learning",
       "Embeddings",
       "FAISS",
@@ -61,22 +63,27 @@
       "GPT",
       "Generative AI",
       "Git",
+      "GitHub",
       "Hugging Face",
       "Keras",
       "LLM",
       "LSTM",
       "LangChain",
       "LangGraph",
+      "LinkedIn",
       "Machine Learning",
       "Make",
+      "Model Evaluation",
       "NER",
       "NLP",
+      "Predictive Modeling",
       "Problem Solving",
       "Prompt Engineering",
       "PyTorch",
       "Python",
       "RAG",
       "RNN",
+      "Reliability",
       "SQL",
       "System Design",
       "TensorFlow",
@@ -84,6 +91,7 @@
       "Transformer",
       "Transformers",
       "Vector Search",
+      "Workflow Automation",
       "Zapier",
       "n8n"
     ],
@@ -91,6 +99,7 @@
       "ai_ml": [
         "ANN",
         "CNN",
+        "Data Science",
         "Deep Learning",
         "Embeddings",
         "GPT",
@@ -99,11 +108,19 @@
         "Machine Learning",
         "NER",
         "NLP",
+        "Predictive Modeling",
         "PyTorch",
         "RNN",
         "TensorFlow",
         "Transfer Learning",
         "Transformer"
+      ],
+      "soft_skill": [
+        "Adaptability",
+        "Communication",
+        "Cross-functional Collaboration",
+        "Problem Solving",
+        "Reliability"
       ],
       "genai": [
         "Agentic AI",
@@ -121,22 +138,24 @@
         "Classification Web",
         "FAISS"
       ],
-      "soft_skill": [
-        "Communication",
-        "Cross-functional Collaboration",
-        "Problem Solving"
-      ],
       "data_science": [
         "Feature Engineering",
         "Transformers"
       ],
       "dev_tool": [
-        "Git"
+        "Git",
+        "GitHub"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "rpa": [
         "Make",
         "Zapier",
         "n8n"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
       ],
       "programming_language": [
         "Python"
@@ -146,6 +165,9 @@
       ],
       "architecture": [
         "System Design"
+      ],
+      "operations": [
+        "Workflow Automation"
       ]
     },
     "_confidence": 0.92,
@@ -154,33 +176,42 @@
   "experience": {
     "jobs": [
       {
-        "role": "Research Associate, AI Keywords Studios",
-        "company": "Supported model fine-tuning, alignment, and evaluation across multimodal inputs, improving model consistency, logical reasoning, and adaptability.",
-        "location": null,
+        "role": "Research",
+        "company": "Keywords Studios",
+        "location": "Associate, AI",
         "start": "April 2025",
         "end": "September 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Research Associate, AI"
+        ],
         "duration_months": 6,
         "bullets": [
-          "Trained advanced AI agents for a confidential AGI project, maintaining over 92% accuracy on complex tasks."
+          "Trained advanced AI agents for a confidential AGI project, maintaining over 92% accuracy on complex tasks.",
+          "Supported model fine-tuning, alignment, and evaluation across multimodal inputs, improving model consistency, logical reasoning, and adaptability."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Data Science Intern AAM Infotech Pvt. Ltd",
-        "company": "Experience in Machine Learning, Deep Learning, and NLP projects, including recommender systems and predictive modeling.",
+        "role": "Data Science Intern",
+        "company": "AAM Infotech Pvt. Ltd",
         "location": null,
         "start": "October 2024",
         "end": "March 2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Science Intern"
+        ],
         "duration_months": 6,
-        "bullets": [],
+        "bullets": [
+          "Experience in Machine Learning, Deep Learning, and NLP projects, including recommender systems and predictive modeling."
+        ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -190,7 +221,7 @@
       "total_months": 12,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -228,24 +259,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.93
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "44e61c65_6158c8c4_Sachin Chauhan_PHP Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:29.693379+00:00",
+    "generated_at": "2026-10-07T10:31:28.939786+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,38 +48,72 @@
   "skills": {
     "items": [
       "AJAX",
+      "Adaptability",
+      "Bootstrap",
+      "CSS3",
       "CodeIgniter",
+      "Collaboration",
+      "Communication",
+      "E-commerce",
       "Git",
+      "HR Management",
       "HTML5",
       "JavaScript",
       "Laravel",
       "MySQL",
       "PHP",
       "Postman",
+      "Problem Solving",
+      "Product Management",
+      "R",
       "React",
+      "SDLC",
       "VS Code",
       "jQuery"
     ],
     "by_category": {
       "web_framework": [
         "AJAX",
+        "Bootstrap",
+        "CSS3",
         "CodeIgniter",
         "HTML5",
         "Laravel",
         "React",
         "jQuery"
       ],
+      "soft_skill": [
+        "Adaptability",
+        "Collaboration",
+        "Communication",
+        "Problem Solving"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
       "dev_tool": [
         "Git",
-        "Postman",
-        "VS Code"
+        "Postman"
+      ],
+      "hr": [
+        "HR Management"
       ],
       "programming_language": [
         "JavaScript",
-        "PHP"
+        "PHP",
+        "R"
       ],
       "database": [
         "MySQL"
+      ],
+      "project_mgmt": [
+        "Product Management"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -88,12 +122,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Ltd, Noida Software Developer",
-        "company": "Key Contributions",
-        "location": null,
+        "role": "Software Developer",
+        "company": "Dams Alpha. Pvt. Ltd",
+        "location": "Noida",
         "start": "04 May, 2023",
         "end": "08 Dec 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Dams Alpha. Pvt. Ltd, Noida"
+        ],
         "duration_months": 32,
         "bullets": [
           "Title: Dams Alpha Role: Software developer; Team Size: 6; Duration: 6M Environment: PHP, Git, React.js, MYSQL, Scope: End-to-end web application development for user management and business workflows. Contributions: Database Handling, Business logic, Web Development.",
@@ -111,7 +148,7 @@
         "location": null,
         "start": "Dec 2021",
         "end": "March 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 16,
         "bullets": [
           "Title: York Role: software developer; Team Size: 5; Duration: 7M Environment: PHP, CodeIgniter3, Git, MYSQL,"
@@ -125,12 +162,15 @@
         "source": "experience"
       },
       {
-        "role": "Vibes Communication Pvt Ltd, Noida Developer",
-        "company": "Key Contributions",
-        "location": null,
+        "role": "Developer",
+        "company": "Vibes Communication Pvt Ltd",
+        "location": "Noida",
         "start": "Nov 2019",
         "end": "Dec 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Vibes Communication Pvt Ltd, Noida"
+        ],
         "duration_months": 26,
         "bullets": [
           "Title: social sports Role: Developer; Team Size: 5; Duration: 18M Environment: PHP, CodeIgniter3, MYSQL, Scope: Web-based application for managing creative content and user interactions. Contributions: Database Handling, Business logic, Web Development.",
@@ -154,7 +194,7 @@
   "education": {
     "entries": [
       {
-        "degree": "• BCA from CCS University -2025",
+        "degree": "• BCA",
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,
@@ -165,7 +205,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• 12th Standard from U.P.Board in 2017",
+        "degree": "• 12th Standard",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
@@ -176,7 +216,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• 10th Standard from U.P.Board in 2015",
+        "degree": "• 10th Standard",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,

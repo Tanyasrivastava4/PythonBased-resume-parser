@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ff7bf8d3_d4f428ef_Harshit_Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:55.148368+00:00",
+    "generated_at": "2026-10-07T09:29:01.049661+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,21 +48,30 @@
   "skills": {
     "items": [
       "C++",
+      "CNN",
       "Computer Vision",
       "Data Analysis",
+      "Data Collection",
+      "Data Preprocessing",
+      "Data Science",
       "Deep Learning",
       "Django",
       "FastAPI",
       "Flask",
       "GCP",
       "Generative AI",
+      "Hyperparameter Tuning",
+      "LinkedIn",
       "Machine Learning",
       "Microsoft Excel",
+      "NLP",
       "OpenCV",
       "Power BI",
+      "Prototyping",
       "PyTesseract",
       "Python",
       "REST API",
+      "Reporting",
       "SQL",
       "Statistics",
       "TensorFlow",
@@ -75,9 +84,12 @@
         "Python"
       ],
       "ai_ml": [
+        "CNN",
         "Computer Vision",
+        "Data Science",
         "Deep Learning",
         "Machine Learning",
+        "NLP",
         "OpenCV",
         "PyTesseract",
         "TensorFlow",
@@ -86,13 +98,21 @@
       ],
       "data_science": [
         "Data Analysis",
+        "Hyperparameter Tuning",
         "Power BI",
         "Statistics"
+      ],
+      "research": [
+        "Data Collection"
+      ],
+      "data_engineering": [
+        "Data Preprocessing"
       ],
       "web_framework": [
         "Django",
         "FastAPI",
         "Flask",
+        "LinkedIn",
         "REST API"
       ],
       "cloud_infra": [
@@ -103,6 +123,12 @@
       ],
       "productivity": [
         "Microsoft Excel"
+      ],
+      "design": [
+        "Prototyping"
+      ],
+      "soft_skill": [
+        "Reporting"
       ],
       "database": [
         "SQL"
@@ -119,8 +145,12 @@
         "location": null,
         "start": "Nov 2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 23,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Associate Data Scientist",
+          "AlgoForge Studios"
+        ],
+        "duration_months": 24,
         "bullets": [
           "– JD: Responsible for building and deploying end-to-end AI solutions in computer vision and natural language processing domains.",
           "Worked with deep learning architectures and contributed to product-oriented machine learning systems. – Project: Skin Disease Prediction System – Built and trained a multi-class CNN model to classify various skin diseases from dermoscopic images with high accuracy. – Contribution: Handled data preprocessing, model architecture design, hyperparameter tuning, and deployment using FastAPI. – Project: Automated Driving System (Prototype) – Developed a vision-based system using CNN and NLP to assist in autonomous navigation decisions. – Contribution: Designed the image processing pipeline, implemented object detection and lane detection models, and integrated voice command processing using NLP. – Project: Face Detection System – Implemented a real-time face detection and recognition system for access control and surveillance. – Contribution: Utilized OpenCV and deep learning models, improved detection speed, and deployed via a web interface."
@@ -136,7 +166,11 @@
         "location": null,
         "start": "May 2024",
         "end": "Nov 2024",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Python Developer Intern",
+          "Versai Technology"
+        ],
         "duration_months": 7,
         "bullets": [
           "– JD: Worked on backend development using Python frameworks to support automation and AI model deployment.",
@@ -150,8 +184,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.4,
-      "total_months": 29,
+      "total_years": 2.5,
+      "total_months": 30,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

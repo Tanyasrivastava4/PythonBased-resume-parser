@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "91ac1d17_CA Deepanshu Gupta_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:43.200220+00:00",
+    "generated_at": "2026-10-07T09:27:26.022468+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,46 +46,97 @@
   "summary": "Chartered Accountant with expertise in statutory audits, taxation, and financial advisory across diverse industries. Skilled in financial\nanalysis, compliance, and leveraging technical tools to ensure accurate reporting and operational efficiency.",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting",
+      "Accounting Standards",
       "Adaptability",
       "Business Planning",
+      "Commercial Real Estate",
+      "Communication",
       "Computax",
+      "ESIC",
       "Event Planning",
       "Financial Advisory",
       "Financial Analysis",
+      "Financial Reporting",
+      "Form 3CD",
+      "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "GSTR-9",
+      "Income Tax Return",
+      "LinkedIn",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Windows",
       "Microsoft Word",
       "Operations Management",
+      "R",
       "Reporting",
       "SAP",
       "Statutory Audit",
+      "TCS",
+      "TDS",
       "Tally",
-      "Taxation"
+      "Tax Auditing",
+      "Taxation",
+      "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "GSTR-9",
+        "Tax Auditing"
+      ],
+      "finance_ops": [
+        "Accounting",
+        "Financial Analysis",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
       "soft_skill": [
         "Adaptability",
+        "Communication",
         "Reporting"
       ],
       "biz_dev": [
         "Business Planning"
       ],
+      "real_estate": [
+        "Commercial Real Estate"
+      ],
       "office": [
         "Computax"
+      ],
+      "hr": [
+        "ESIC"
       ],
       "hospitality": [
         "Event Planning"
       ],
       "finance": [
-        "Financial Advisory"
+        "Financial Advisory",
+        "GST Return Filing",
+        "Income Tax Return",
+        "Vouching"
       ],
-      "finance_ops": [
-        "Financial Analysis",
-        "Statutory Audit",
-        "Tally",
-        "Taxation"
+      "accounting": [
+        "Form 3CD",
+        "GST",
+        "TCS"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office",
@@ -99,6 +150,9 @@
       "operations": [
         "Operations Management"
       ],
+      "programming_language": [
+        "R"
+      ],
       "integration": [
         "SAP"
       ]
@@ -109,27 +163,34 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "8.2 CGPA",
         "company": "Garg Tripti and Company",
         "location": null,
         "start": "June 2021",
         "end": "August 2021",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "8.2 CGPA",
+          "Garg Tripti and Company"
+        ],
         "duration_months": 3,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "R.S Gupta & Co, Noida-201304",
         "company": "R.S Gupta & Co",
-        "location": "Noida",
-        "start": "04 August 2021",
+        "location": "Noida-201304",
+        "start": "August 2021",
         "end": "June 2024",
         "method": "date_regex+comma_company_location",
-        "duration_months": 34,
+        "pre_date_header": [
+          "R.S Gupta & Co, Noida-201304"
+        ],
+        "duration_months": 35,
         "bullets": [],
         "sub_sections": [
           "Statutory Audit and Assurance Services",
@@ -157,8 +218,8 @@
           "timely compliance, and assisted in addressing audit queries, supporting smooth communication between the organization and",
           "regulatory authorities."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -166,9 +227,9 @@
     "total_experience": {
       "total_years": 3.1,
       "total_months": 37,
-      "overlapping_periods_merged": 0
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -178,7 +239,7 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "Institute of Chartered Accountants",
-        "year": "2022",
+        "year": "2025",
         "gpa": "2025",
         "_needs_review": false,
         "_confidence": 0.95
@@ -222,8 +283,8 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": "2014",
-        "gpa": "86.80%",
+        "year": "June 2021 - August 2021",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -233,8 +294,8 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": "June 2021 - August 2021",
-        "gpa": null,
+        "year": "2014",
+        "gpa": "86.80%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -250,19 +311,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.93
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

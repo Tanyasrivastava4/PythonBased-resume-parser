@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/0ab10d00_Arun K Shaji_Area Credit Manager_SMFG-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Credit Risk Assessment | Loan Underwriting | Financial Analysis | Field Investigation |
+Fraud Detection | Portfolio Monitoring | Team Coordination | MS Excel
+
+── Extraction Results ──
+Skills found   : 8
+Confidence     : 0.92
+Time           : 211.5 ms
+Method         : flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), profiles→Profilers(94%), financial analysis→Financial Analysis(100%))
+
+── All Skills (8) ──
+Financial Analysis, LinkedIn, Microsoft Excel, Microsoft Teams, Pandas, Portfolio Monitoring, Profilers, Risk Management
+
+── By Category ──
+  ai_ml                          ['Pandas']
+  banking                        ['Portfolio Monitoring']
+  finance_ops                    ['Financial Analysis']
+  productivity                   ['Microsoft Excel', 'Microsoft Teams']
+  project_mgmt                   ['Risk Management']
+  testing                        ['Profilers']
+  web_framework                  ['LinkedIn']

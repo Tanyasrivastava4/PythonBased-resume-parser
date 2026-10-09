@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4580624a_7065b643_Abhay Tyagi_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:29.800989+00:00",
+    "generated_at": "2026-10-07T10:31:29.092565+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,6 +52,8 @@
       "API Design",
       "Agentic AI",
       "Agile",
+      "Cross-functional Collaboration",
+      "Data Collection",
       "Deep Learning",
       "Disaster Recovery",
       "Docker",
@@ -67,6 +69,7 @@
       "LangChain",
       "LangGraph",
       "Machine Learning",
+      "Microsoft Teams",
       "Model Optimization",
       "MongoDB",
       "NLP",
@@ -105,6 +108,12 @@
       "project_mgmt": [
         "Agile"
       ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "research": [
+        "Data Collection"
+      ],
       "operations": [
         "Disaster Recovery"
       ],
@@ -129,6 +138,9 @@
         "JavaScript",
         "Python"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "database": [
         "MongoDB"
       ]
@@ -140,12 +152,16 @@
     "jobs": [
       {
         "role": "Associate Software Developer",
-        "company": "Inzint Private Limited z",
+        "company": "Inzint Private Limited",
         "location": null,
         "start": "February 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 32,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Associate Software Developer",
+          "Inzint Private Limited"
+        ],
+        "duration_months": 33,
         "bullets": [
           "Noida",
           "Developed and deployed AI agents for automated task execution and decision-making processes",
@@ -161,8 +177,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.7,
-      "total_months": 32,
+      "total_years": 2.8,
+      "total_months": 33,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -176,7 +192,7 @@
         "degree_field": null,
         "institution": null,
         "year": "2020 - 2024",
-        "gpa": "74",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -185,9 +201,9 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Education Nutan Vidya Mandir School z",
+        "institution": "coursework Education Nutan Vidya Mandir School z",
         "year": "2019 - 2020",
-        "gpa": "92",
+        "gpa": "74",
         "_needs_review": false,
         "_confidence": 0.95
       }

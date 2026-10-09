@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "654895b4_50618e7a_Neha_Rani_CV_MIS_segmented.txt",
-    "generated_at": "2026-09-30T06:59:01.527147+00:00",
+    "generated_at": "2026-10-07T09:26:41.062684+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,24 +45,66 @@
   "summary": null,
   "skills": {
     "items": [
+      "3R",
+      "4M",
+      "5S",
+      "Bill of Materials",
+      "Coroutines Flow",
+      "Cross-functional Collaboration",
+      "Customer Service",
       "Data Analysis",
       "Data Cleaning",
       "Data Management",
       "ERP",
       "ERP Systems",
       "Google Workspace",
+      "ISO Standards",
+      "Incoming Quality Control",
       "KPI",
+      "Logistics",
       "MIS Reporting",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Windows",
       "Microsoft Word",
+      "Outgoing Quality Control",
       "Performance Monitoring",
       "Pivot Tables",
+      "Procurement",
+      "Purchase Orders",
+      "Quality Management System",
+      "Reporting",
+      "RoHS",
       "SAP",
+      "Supply Chain",
       "VLOOKUP"
     ],
     "by_category": {
+      "operations": [
+        "3R",
+        "4M",
+        "5S",
+        "ERP Systems",
+        "Logistics",
+        "Performance Monitoring",
+        "Procurement",
+        "Purchase Orders",
+        "Quality Management System"
+      ],
+      "manufacturing": [
+        "Bill of Materials"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reporting"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
       "data_science": [
         "Data Analysis"
       ],
@@ -74,15 +116,19 @@
         "Google Workspace",
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word",
         "Pivot Tables"
       ],
       "erp": [
         "ERP"
       ],
-      "operations": [
-        "ERP Systems",
-        "Performance Monitoring"
+      "engineering": [
+        "ISO Standards"
+      ],
+      "quality": [
+        "Incoming Quality Control",
+        "Outgoing Quality Control"
       ],
       "business_analysis": [
         "KPI"
@@ -93,8 +139,14 @@
       "os_system": [
         "Microsoft Windows"
       ],
+      "compliance": [
+        "RoHS"
+      ],
       "integration": [
         "SAP"
+      ],
+      "domain": [
+        "Supply Chain"
       ],
       "office": [
         "VLOOKUP"
@@ -106,14 +158,18 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Managing and maintaining daily, weekly, and monthly MIS reports for operations, logistics, and performance tracking.",
+        "role": "MIS Specialist",
+        "company": "Bridge Point Supply Chain Solutions",
         "location": null,
         "start": "July 2023",
         "end": "Present",
-        "method": "date_regex",
-        "duration_months": 39,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "• MIS Specialist| Bridge Point Supply Chain Solutions."
+        ],
+        "duration_months": 40,
         "bullets": [
+          "Managing and maintaining daily, weekly, and monthly MIS reports for operations, logistics, and performance tracking.",
           "Creating Excel & Google Sheets dashboards using Pivot Tables, VLOOKUP, charts.",
           "Collecting, cleaning, and analyzing data from ERP systems (Logisti-Cal, YiFe) to support decision-making.",
           "Preparing KPI reports for productivity, inventory status, order processing, and customer delivery performance.",
@@ -122,17 +178,20 @@
           "Preparing presentations and summary reports for management meetings and review sessions."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Page 1 of 2",
+        "role": "MIS Executive",
+        "company": "Lianchuang Hongsheng India Pvt. Ltd",
         "location": null,
         "start": "Nov 2019",
         "end": "May 2023",
-        "method": "date_regex",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "• MIS Executive | Lianchuang Hongsheng India Pvt. Ltd."
+        ],
         "duration_months": 43,
         "bullets": [
           "Managed and updated daily, weekly, and monthly MIS reports for production, dispatch, and customer requirements.",
@@ -155,18 +214,18 @@
           "Coordinated with Production, Warehouse, Purchase, and Quality teams to ensure smooth data flow and reporting accuracy."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.8,
-      "total_months": 82,
+      "total_years": 6.9,
+      "total_months": 83,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -226,24 +285,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bc50aa4d_2ecea23f_Pooja Pal_segmented.txt",
-    "generated_at": "2026-09-30T07:00:10.747698+00:00",
+    "generated_at": "2026-10-07T09:28:03.398023+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,35 +50,57 @@
     "items": [
       "ASP.NET",
       "C#",
+      "CSS3",
+      "Cross-functional Collaboration",
       "Git",
       "HTML5",
+      "Hotel Management",
       "JavaScript",
       "MSSQL",
+      "Microsoft SQL Server",
+      "Microsoft Teams",
       "Problem Solving",
+      "ROC Filings",
       "SDLC",
+      "Technical Writing",
       "Visual Studio"
     ],
     "by_category": {
       "web_framework": [
         "ASP.NET",
+        "CSS3",
         "HTML5"
       ],
       "programming_language": [
         "C#",
         "JavaScript"
       ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Problem Solving"
+      ],
       "dev_tool": [
         "Git",
         "Visual Studio"
       ],
-      "database": [
-        "MSSQL"
+      "hospitality": [
+        "Hotel Management"
       ],
-      "soft_skill": [
-        "Problem Solving"
+      "database": [
+        "MSSQL",
+        "Microsoft SQL Server"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "legal": [
+        "ROC Filings"
       ],
       "architecture": [
         "SDLC"
+      ],
+      "content": [
+        "Technical Writing"
       ]
     },
     "_confidence": 0.92,
@@ -87,13 +109,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Engineer and Management Operations",
+        "role": "Application Support Engineer and Management Operations",
         "company": "TKSR Global Trade",
-        "location": "Application Support",
+        "location": null,
         "start": "Jun 2025",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 16,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "TKSR Global Trade | Application Support Engineer and Management Operations"
+        ],
+        "duration_months": 17,
         "bullets": [
           "Providing application support and management for business-critical systems.",
           "Monitoring, troubleshooting, and resolving issues to ensure smooth operations.",
@@ -108,10 +133,13 @@
       {
         "role": "Associate Software Engineer",
         "company": "Tecnoglare Infotech Pvt. Ltd",
-        "location": "Associate Software Engineer  | Janakpuri, Delhi",
+        "location": null,
         "start": "Nov 2023",
         "end": "Jan 2025",
-        "method": "date_regex+pipe_company_loc_role+company_suffix_match",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Tecnoglare Infotech Pvt. Ltd. | Associate Software Engineer"
+        ],
         "duration_months": 15,
         "bullets": [
           "Designed and developed web applications using ASP.NET (C#).",
@@ -125,12 +153,15 @@
         "source": "experience"
       },
       {
-        "role": "Net Developer Trainee",
+        "role": "Asp.Net Developer Trainee",
         "company": "CompuRx Infotech Pvt. Ltd",
-        "location": "Asp.Net Developer Trainee  | Khanpur Saket, New Delhi",
+        "location": null,
         "start": "Jun 2023",
         "end": "Nov 2023",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "CompuRx Infotech Pvt. Ltd. | Asp.Net Developer Trainee"
+        ],
         "duration_months": 6,
         "bullets": [
           "Assisted in development and maintenance of web applications.",
@@ -145,8 +176,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.0,
-      "total_months": 36,
+      "total_years": 3.1,
+      "total_months": 37,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

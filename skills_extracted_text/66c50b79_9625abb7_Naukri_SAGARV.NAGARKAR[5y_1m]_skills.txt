@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/66c50b79_9625abb7_Naukri_SAGARV.NAGARKAR[5y_1m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• 440 KV Switchyard Knowledge, AC DC Motor, HT LT Breakers, SOP, FMEA, Transformer Knowledge, Plant Shut
+down.
+• 5 s, Hard Working, Knowledge of Safety.
+• Honest, Serious about assigned tasks, Good operational knowledge, PLC, Allen Bradley, Siemens, Ladder logic.
+Investigative types enjoy solving complex problems
+• Beating deadline & target. O & M Knowledge of thermal plant. Improvement of Equipment health & reliability. General
+administration, Community relation.
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 378.72 ms
+Method         : flashtext_skills_section | fuzzy(Honest→WHONET(83%), PLC programming→PLC(100%), ladder logic→Ladder Logic(100%), SCADA.→SCADA(91%), Siemens PLC→PLC(100%))
+
+── All Skills (21) ──
+Apache Spark, Calibration, Client Relationship Management, Computer Vision, Cost Analysis, Data Collection, Equipment Testing, Instrumentation, Ladder Logic, Maintenance Management, Mechanical Engineering, Microsoft Teams, PLC, Procurement, Project Management, SCADA, SOP, SOX, Transformer, Transmitters, WHONET
+
+── By Category ──
+  ai_ml                          ['Computer Vision', 'Transformer']
+  client_mgmt                    ['Client Relationship Management']
+  data_engineering               ['Apache Spark']
+  database                       ['WHONET']
+  dev_tool                       ['Ladder Logic']
+  engineering                    ['Equipment Testing', 'Maintenance Management', 'Mechanical Engineering']
+  engineering_hardware           ['Calibration', 'Instrumentation', 'PLC', 'SCADA', 'Transmitters']
+  finance_ops                    ['Cost Analysis', 'SOX']
+  operations                     ['Procurement', 'SOP']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Project Management']
+  research                       ['Data Collection']

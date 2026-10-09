@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/567c1329_02e7f48d_Nilesh-Shivram-Magare-CV-Updated (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Customer Service and Support
+Instrumentation
+PLC-HMI Programming
+Validation
+
+── Extraction Results ──
+Skills found   : 17
+Confidence     : 0.92
+Time           : 23.79 ms
+Method         : flashtext_skills_section | fuzzy(PLC-HMI→HMI(100%))
+
+── All Skills (17) ──
+Auditing, AutoCAD, CSAT, Calibration, Customer Service, Financial Reporting, HMI, Instrumentation, Logistics, MQTT, Modbus, PLC, Procurement, Project Management, Root Cause Analysis, Technical Support, VFD
+
+── By Category ──
+  client_mgmt                    ['Customer Service']
+  customer_service               ['CSAT']
+  engineering                    ['AutoCAD']
+  engineering_hardware           ['Calibration', 'HMI', 'Instrumentation', 'PLC', 'VFD']
+  finance_ops                    ['Auditing', 'Financial Reporting']
+  integration                    ['MQTT', 'Modbus']
+  operations                     ['Logistics', 'Procurement', 'Root Cause Analysis']
+  project_mgmt                   ['Project Management']
+  support                        ['Technical Support']

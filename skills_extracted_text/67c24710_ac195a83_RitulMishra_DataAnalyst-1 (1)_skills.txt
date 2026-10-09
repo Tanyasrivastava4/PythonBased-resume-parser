@@ -1,0 +1,41 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/67c24710_ac195a83_RitulMishra_DataAnalyst-1 (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Data Analytics Tools: Microsoft Excel (Pivot Tables, Charts, Formulas, Macros), Power BI (DAX, Data
+Modeling, Interactive Dashboards), Google Sheets, Tableau
+• Databases & Querying: SQL (Joins, Aggregations, Filtering, GROUP BY, Subqueries), MySQL, Data Cleaning
+& Transformation
+• Business Intelligence & Reporting: KPI Reporting, MIS Automation, Budget Tracking, Campaign Analysis,
+Client Reporting, Trend Forecasting.
+• Data Visualization & BI: Power BI, Excel Dashboards, Google Data Studio
+• Soft Skills: Analytical Thinking, Stakeholder Communication, Time Management, Problem Solving,
+Attention to Detail, Adaptability
+
+── Extraction Results ──
+Skills found   : 39
+Confidence     : 0.92
+Time           : 414.84 ms
+Method         : flashtext_skills_section | fuzzy(Google Sheets→Google Workspace(100%), MIS Automation→MIS Reporting(100%), Campaign Analysis→Marketing Analytics(91%), Trend Forecasting.→Trend Forecasting(97%), Stakeholder Communication→Communication(100%)...)
+
+── All Skills (39) ──
+.NET, Adaptability, Aggregations, Agile, Attention to Detail, Budget Tracking, Business Intelligence, Client Relationship Management, Client Reporting, Communication, Cross-functional Collaboration, DAX, Data Analytics, Data Cleaning, Data Modeling, Data Visualization, Google, Google Workspace, Joins, KPI, LinkedIn, Looker, MIS Reporting, Marketing Analytics, Microsoft Excel, Microsoft Teams, MySQL, Performance Monitoring, Pivot Tables, Power BI, Power Query, Problem Solving, Reporting, SQL, Subqueries, Tableau, Time Management, Time Series Forecasting, Trend Forecasting
+
+── By Category ──
+  ai_ml                          ['Time Series Forecasting']
+  banking                        ['MIS Reporting']
+  business_analysis              ['KPI']
+  client_mgmt                    ['Client Relationship Management']
+  content                        ['Client Reporting']
+  data_engineering               ['Data Cleaning']
+  data_science                   ['Business Intelligence', 'DAX', 'Data Analytics', 'Data Modeling', 'Data Visualization', 'Looker', 'Power BI', 'Power Query', 'Tableau', 'Trend Forecasting']
+  database                       ['Aggregations', 'Google', 'Joins', 'MySQL', 'SQL', 'Subqueries']
+  finance_ops                    ['Budget Tracking']
+  marketing                      ['Marketing Analytics']
+  operations                     ['Performance Monitoring']
+  productivity                   ['Google Workspace', 'Microsoft Excel', 'Microsoft Teams', 'Pivot Tables']
+  programming_language           ['.NET']
+  project_mgmt                   ['Agile']
+  soft_skill                     ['Adaptability', 'Attention to Detail', 'Communication', 'Cross-functional Collaboration', 'Problem Solving', 'Reporting', 'Time Management']
+  web_framework                  ['LinkedIn']

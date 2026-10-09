@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/72e24676_e048407c_Naukri_AnjaliAggarwal[1y_3m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Machine Learning & AI: PyTorch, TensorFlow, Transformers, CNNs, Transfer Learning, NLP (BERT,
+spaCy, NLTK), Explainable AI (Grad-CAM), LLM Fine-tuning
+• Programming & Data: Python, SQL, Data Preprocessing & EDA
+• Analytics & Visualization: Matplotlib, Seaborn, Tableau/Power BI, Model Evaluation (Confusion
+Matrix, ROC, F1)
+• MLOps & Deployment: FastAPI, Docker, React.js, Git
+• Web Development: HTML, CSS, JavaScript, Node.js, MongoDB
+• Vector Databases & RAG Pipelines:FAISS, Pinecone, Weaviate, LangChain, Sentence-
+Transformers, RAG Optimization, Contextual Search
+
+── Extraction Results ──
+Skills found   : 52
+Confidence     : 0.92
+Time           : 296.75 ms
+Method         : flashtext_skills_section | fuzzy(React.js→React(100%), classification→Classification Web(95%), React.js→React(100%), REST APIs→REST API(100%), classification→Classification Web(95%))
+
+── All Skills (52) ──
+BERT, CSS3, Classification Web, Data Analytics, Data Pipeline, Data Preprocessing, Data Science, Data Visualization, Docker, Exploratory Data Analysis, FAISS, FastAPI, Fine-tuning, Git, GitHub, HTML5, JavaScript, LLM, LangChain, LinkedIn, MERN Stack, MLOps, Machine Learning, Matplotlib, MongoDB, NLP, Next.js, Node.js, NumPy, Pandas, Pinecone, Power BI, Problem Solving, PyTorch, Python, RAG, REST API, React, Reporting, Responsible AI, Responsive Web Design, SQL, Seaborn, Statistical Analysis, Tableau, TensorFlow, Transfer Learning, Transformers, Vector Databases, Weaviate, scikit-learn, spaCy
+
+── By Category ──
+  ai_ml                          ['BERT', 'Data Science', 'Machine Learning', 'Matplotlib', 'NLP', 'NumPy', 'Pandas', 'PyTorch', 'Seaborn', 'TensorFlow', 'Transfer Learning', 'scikit-learn']
+  data_engineering               ['Data Pipeline', 'Data Preprocessing']
+  data_science                   ['Data Analytics', 'Data Visualization', 'Exploratory Data Analysis', 'Power BI', 'Statistical Analysis', 'Tableau', 'Transformers']
+  database                       ['MongoDB', 'SQL']
+  dev_tool                       ['Git', 'GitHub']
+  devops                         ['Docker']
+  genai                          ['Fine-tuning', 'LLM', 'LangChain', 'MLOps', 'RAG', 'Responsible AI', 'Vector Databases']
+  programming_language           ['JavaScript', 'Python', 'spaCy']
+  search                         ['Classification Web', 'FAISS', 'Pinecone', 'Weaviate']
+  soft_skill                     ['Problem Solving', 'Reporting']
+  web_framework                  ['CSS3', 'FastAPI', 'HTML5', 'LinkedIn', 'MERN Stack', 'Next.js', 'Node.js', 'REST API', 'React', 'Responsive Web Design']

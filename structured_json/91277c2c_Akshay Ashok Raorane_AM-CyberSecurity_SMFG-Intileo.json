@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "91277c2c_Akshay Ashok Raorane_AM-CyberSecurity_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:42.791988+00:00",
+    "generated_at": "2026-10-07T09:27:25.483551+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -53,30 +53,50 @@
       "Azure",
       "CCNA",
       "CEH",
-      "Client Relationship Management",
+      "Cross-functional Collaboration",
       "CrowdStrike",
+      "Customer Relationship Management",
       "DHCP",
       "DNS",
       "Defensive Security",
       "EDR",
       "ERP",
       "Endpoint Security",
+      "FTTX",
+      "Fiber",
+      "FireEye",
       "Firewall",
       "Google",
       "Google Chronicle",
+      "Google SecOps",
       "Incident Management",
       "Linux",
       "Log Analysis",
+      "MITRE ATT&CK",
+      "Malware Analysis",
       "Mechanical Engineering",
+      "Microsoft Teams",
       "Microsoft Windows",
       "NetEnrich",
       "Networking",
       "OTDR",
+      "Onboarding",
+      "Palo Alto Networks",
+      "Performance Monitoring",
+      "Privileged Access Management",
       "Proxy",
+      "Resource Planning",
       "Root Cause Analysis",
       "SAP",
       "SIEM",
-      "TCP/IP"
+      "SOC Operations",
+      "SonicWall",
+      "Sophos",
+      "Symantec",
+      "TCP/IP",
+      "Team Leadership",
+      "Threat Intelligence",
+      "VMS"
     ],
     "by_category": {
       "security_ops": [
@@ -86,12 +106,22 @@
         "CrowdStrike",
         "EDR",
         "Endpoint Security",
+        "FireEye",
         "Firewall",
         "Google Chronicle",
+        "Google SecOps",
         "Log Analysis",
+        "MITRE ATT&CK",
+        "Malware Analysis",
         "NetEnrich",
+        "Palo Alto Networks",
+        "Privileged Access Management",
         "Proxy",
-        "SIEM"
+        "SIEM",
+        "SonicWall",
+        "Sophos",
+        "Threat Intelligence",
+        "VMS"
       ],
       "cloud_infra": [
         "Azure"
@@ -102,15 +132,27 @@
         "DNS",
         "TCP/IP"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Team Leadership"
+      ],
+      "sales": [
+        "Customer Relationship Management"
       ],
       "security": [
         "Defensive Security",
-        "Incident Management"
+        "Incident Management",
+        "SOC Operations",
+        "Symantec"
       ],
       "erp": [
         "ERP"
+      ],
+      "telecom": [
+        "FTTX"
+      ],
+      "web_framework": [
+        "Fiber"
       ],
       "database": [
         "Google"
@@ -122,14 +164,24 @@
       "engineering": [
         "Mechanical Engineering"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "biz_dev": [
         "Networking"
       ],
       "hardware": [
         "OTDR"
       ],
+      "hr": [
+        "Onboarding"
+      ],
       "operations": [
+        "Performance Monitoring",
         "Root Cause Analysis"
+      ],
+      "project_mgmt": [
+        "Resource Planning"
       ],
       "integration": [
         "SAP"
@@ -141,13 +193,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Client: NUVAMA – Sequretek Pvt. Ltd Designation: Security Consultant | Duration",
-        "company": "Ltd Designation: Security Consultant",
+        "role": "Designation | Security Consultant | Duration",
+        "company": "Unknown",
         "location": "Duration",
         "start": "Jan 2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 33,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Client: NUVAMA – Sequretek Pvt. Ltd"
+        ],
+        "duration_months": 34,
         "bullets": [
           "Managing day-to-day SOC operations at client site, acting as Incident Responder and Security Operations Lead.",
           "Hands-on with Google Chronicle SIEM - Google SecOps for real-time threat detection and hunting.",
@@ -164,12 +219,16 @@
         "source": "experience"
       },
       {
-        "role": "Sequretek Pvt. Ltd Designation: Security Analyst | Duration",
-        "company": "Ltd Designation: Security Analyst",
-        "location": "Duration",
+        "role": "Designation | Key Accounts Manager | Duration",
+        "company": "Unknown",
+        "location": null,
         "start": "Dec 2021",
         "end": "Jan 2024",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Proxy logs, Firewall logs.",
+          "Sequretek Pvt. Ltd"
+        ],
         "duration_months": 26,
         "bullets": [
           "Provided security monitoring and incident analysis using ArcSight ESM and XDR platforms.",
@@ -178,39 +237,7 @@
           "Log correlation from firewalls, endpoints, proxies, and cloud platforms.",
           "Supported Azure cloud environments for basic monitoring and investigation.",
           "Offered 24x7 on-call support and contributed to connector setup and device onboarding in SIEM.",
-          "Worked on various client environments while on service provider side. Tools & Technologies: ArcSight, CrowdStrike, Microsoft Azure, MITRE ATT&CK."
-        ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Reliance JIO Infocom Ltd Designation: Deputy Manager  | Duration",
-        "company": "Reliance JIO Infocom Ltd Designation: Deputy Manager (Home Connect",
-        "location": "Duration",
-        "start": "Oct 2020",
-        "end": "Jun 2021",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 9,
-        "bullets": [
-          "Led a team of 50+ engineers for router-based home networking and fault resolution.",
-          "Coordinated with maintenance and construction teams to support end-customer connect."
-        ],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "NoBrokerHood Technologies Pvt. Ltd Designation: Key Accounts Manager | Duration",
-        "company": "Ltd Designation: Key Accounts Manager",
-        "location": "Duration",
-        "start": "Dec 2019",
-        "end": "Oct 2020",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 11,
-        "bullets": [
+          "Worked on various client environments while on service provider side. Tools & Technologies: ArcSight, CrowdStrike, Microsoft Azure, MITRE ATT&CK.",
           "Delivered VMS/ERP-based residential society security solutions and user training."
         ],
         "sub_sections": [],
@@ -219,28 +246,54 @@
         "source": "experience"
       },
       {
-        "role": "| Duration",
-        "company": "Reliance JIO Infocom Ltd Designation: Team Lead",
+        "role": "Designation | Deputy Manager (Home Connect) | Duration",
+        "company": "Unknown",
+        "location": "Duration",
+        "start": "Oct 2020",
+        "end": "Jun 2021",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Reliance JIO Infocom Ltd"
+        ],
+        "duration_months": 9,
+        "bullets": [
+          "Led a team of 50+ engineers for router-based home networking and fault resolution.",
+          "Coordinated with maintenance and construction teams to support end-customer connect."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Designation | Team Lead | Duration",
+        "company": "Unknown",
         "location": "Duration",
         "start": "Jul 2017",
         "end": "Dec 2019",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Reliance JIO Infocom Ltd"
+        ],
         "duration_months": 30,
         "bullets": [
           "Oversaw FTTH installation teams; managed escalations and resource planning."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| Duration",
-        "company": "TATA Communications Ltd Designation: O&M Engineer",
-        "location": "Duration",
+        "role": "Designation: O&M Engineer | Duration",
+        "company": "Duration",
+        "location": null,
         "start": "Sep 2015",
         "end": "Mar 2016",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "TATA Communications Ltd"
+        ],
         "duration_months": 7,
         "bullets": [
           "Maintained optical fiber lines and used OTDR tools for troubleshooting and performance monitoring."
@@ -253,11 +306,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.4,
-      "total_months": 113,
-      "overlapping_periods_merged": 3
+      "total_years": 8.8,
+      "total_months": 105,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -292,20 +345,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

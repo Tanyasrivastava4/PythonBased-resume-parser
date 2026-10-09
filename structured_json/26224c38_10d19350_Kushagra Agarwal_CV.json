@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "26224c38_10d19350_Kushagra Agarwal_CV_segmented.txt",
-    "generated_at": "2026-09-30T06:58:09.105166+00:00",
+    "generated_at": "2026-10-07T10:31:05.209448+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,17 +45,90 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounting Standards",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Bank Reconciliation",
+      "Company Law",
+      "Coroutines Flow",
       "ERP",
+      "Financial Reporting",
+      "Fixed Assets Management",
+      "Form 3CD",
+      "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "Income Tax Return",
+      "Internal Controls Testing",
+      "Internal Financial Controls",
       "LinkedIn",
       "Microsoft Excel",
       "Microsoft Word",
+      "Order-to-Cash",
+      "Payroll Administration",
+      "Payroll Management",
+      "Physical Verification",
       "Pivot Tables",
+      "Procure-to-Pay",
+      "Record-to-Report",
+      "SAS",
+      "Schedule III Compliance",
+      "Standards on Auditing",
+      "Statutory Audit",
+      "TDS",
       "Tally",
-      "VLOOKUP"
+      "Tax Auditing",
+      "Taxation",
+      "VLOOKUP",
+      "Variance Analysis",
+      "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Accounting Standards",
+        "Schedule III Compliance",
+        "Standards on Auditing",
+        "Tax Auditing"
+      ],
+      "finance_ops": [
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Financial Reporting",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "accounting": [
+        "Bank Reconciliation",
+        "Fixed Assets Management",
+        "Form 3CD",
+        "GST",
+        "Physical Verification"
+      ],
+      "legal": [
+        "Company Law"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "erp": [
         "ERP"
+      ],
+      "finance": [
+        "GST Return Filing",
+        "Income Tax Return",
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay",
+        "Record-to-Report",
+        "Vouching"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
       ],
       "web_framework": [
         "LinkedIn"
@@ -65,11 +138,18 @@
         "Microsoft Word",
         "Pivot Tables"
       ],
-      "finance_ops": [
-        "Tally"
+      "hr": [
+        "Payroll Administration",
+        "Payroll Management"
+      ],
+      "data_science": [
+        "SAS"
       ],
       "office": [
         "VLOOKUP"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -84,6 +164,9 @@
         "start": "Jan 2023",
         "end": "Jan 2026",
         "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Articled Assistant, AJ Associates & Umesh Amita & Co., Agra"
+        ],
         "duration_months": 37,
         "bullets": [
           "Leading CA Firm with 6+ Partners and 200+ clients across multiple industries.",

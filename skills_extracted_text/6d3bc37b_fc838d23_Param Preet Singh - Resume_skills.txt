@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/6d3bc37b_fc838d23_Param Preet Singh - Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+MS Excel | MS Office | SAP | Screener.in | Report Writing | Variance Analysis | IFRS | Analytical Skills | Professional Ethics
+
+── Extraction Results ──
+Skills found   : 19
+Confidence     : 0.92
+Time           : 190.35 ms
+Method         : flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), Analytical Skills→Analytical Thinking(100%))
+
+── All Skills (19) ──
+Accounting, Analytical Thinking, Auditing, Communication, Financial Reporting, IFRS, Internal Controls Testing, Interpersonal Skills, MS Office, Microsoft Excel, Report Writing, Reporting, SAP, SAS, Statutory Audit, TDS, Tax Audit, Taxation, Variance Analysis
+
+── By Category ──
+  accounting                     ['Tax Audit']
+  business_analysis              ['Variance Analysis']
+  content                        ['Report Writing']
+  data_science                   ['SAS']
+  finance_ops                    ['Accounting', 'Auditing', 'Financial Reporting', 'IFRS', 'Internal Controls Testing', 'Statutory Audit', 'TDS', 'Taxation']
+  integration                    ['SAP']
+  productivity                   ['MS Office', 'Microsoft Excel']
+  soft_skill                     ['Analytical Thinking', 'Communication', 'Interpersonal Skills', 'Reporting']

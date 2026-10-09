@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "58eefbd5_f837c2f8_Nitika_CV_segmented.txt",
-    "generated_at": "2026-09-30T06:58:42.507039+00:00",
+    "generated_at": "2026-10-07T10:31:46.738658+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,29 +45,99 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounts Payable",
       "Adaptability",
+      "Analytical Review",
+      "Bank Audit",
+      "Bank Reconciliation",
+      "Company Law",
+      "Cross-functional Collaboration",
+      "E-commerce",
+      "Finalization of Financial Statements",
+      "GST",
+      "GSTR-1",
+      "GSTR-3B",
+      "GSTR-9",
+      "Income Tax Return",
+      "Indirect Taxation",
+      "Input Tax Credit",
+      "Internal Controls Testing",
+      "LFAR",
       "Leadership",
       "LinkedIn",
       "Microsoft Excel",
+      "Microsoft Teams",
       "Microsoft Word",
-      "Tally",
+      "NPA Accounts",
+      "Procure-to-Pay",
+      "Procurement",
+      "Ratio Analysis",
+      "Schedule III Compliance",
+      "TCS",
+      "TDS",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
       "Time Management"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounts Payable",
+        "Indirect Taxation",
+        "Internal Controls Testing",
+        "Ratio Analysis",
+        "Taxation"
+      ],
       "soft_skill": [
         "Adaptability",
+        "Cross-functional Collaboration",
         "Leadership",
         "Time Management"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Bank Reconciliation",
+        "Finalization of Financial Statements",
+        "GST",
+        "LFAR",
+        "TCS"
+      ],
+      "finance": [
+        "Bank Audit",
+        "Income Tax Return",
+        "Procure-to-Pay"
+      ],
+      "legal": [
+        "Company Law"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "accounting_finance": [
+        "GSTR-9",
+        "Input Tax Credit",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
       ],
       "web_framework": [
         "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
-      "finance_ops": [
-        "Tally"
+      "banking": [
+        "NPA Accounts"
+      ],
+      "operations": [
+        "Procurement"
       ]
     },
     "_confidence": 0.92,
@@ -76,12 +146,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "",
-        "company": "Senior-KPMG Assurance and Consulting Services LLP",
+        "role": "Senior-KPMG Assurance and",
+        "company": "Consulting Services LLP",
         "location": null,
         "start": "Feb 2025",
         "end": "Jan 2026",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior-KPMG Assurance and"
+        ],
         "duration_months": 12,
         "bullets": [
           "Concurrent audits in the P2P (Procure-to-Pay) cycle for renowned client.",
@@ -94,8 +167,8 @@
           "MPA",
           "improvements."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -105,6 +178,9 @@
         "start": "Dec 2022",
         "end": "Jan 2025",
         "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Assistant at Sunil Rajinder"
+        ],
         "duration_months": 26,
         "bullets": [
           "Offered strategic tax advisory services.",
@@ -122,26 +198,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Articleship from KNL & Co",
-        "location": null,
-        "start": "Oct 2020",
-        "end": "Sep 2022",
-        "method": "date_regex",
-        "duration_months": 24,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Articleship from Gurinder Singh & Co",
+        "role": "Articleship from Gurinder",
+        "company": "Singh & Co",
         "location": null,
         "start": "Sep 2019",
         "end": "Sep 2020",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Articleship from Gurinder"
+        ],
         "duration_months": 13,
         "bullets": [
           "Filled Income tax return of all Assesses along with Tax planning and Tax advisory.",
@@ -160,18 +225,18 @@
           "Indirect Tax Domain",
           "Bank Audit"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.2,
-      "total_months": 75,
+      "total_years": 4.2,
+      "total_months": 51,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.88
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -217,7 +282,7 @@
         "year": "2017",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "University B.Com 2020",
@@ -253,7 +318,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.85
+    "_confidence": 0.83
   },
   "certifications": {
     "items": [],
@@ -264,25 +329,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education.entries[4]",
       "confidence": 0.55,

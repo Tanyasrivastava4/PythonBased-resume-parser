@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/f60ce340_19bf63d7_ca shubhangini bansal_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Statutory Audit Skills: PCAOB and AICPA engagements, Substantive Testing, Risk Assessment, Financial Statement
+Analysis (10Q, 10K), GAAP/Ind AS Compliance.
+Finance: Conversant with Business and Financial Analytical Tools, Ratio Analysis, Trend Analysis (Qtr. on Qtr.),
+Streamlined Working Capital by Managing Receivable and Payable Cycle, Inventory Optimization. Supported month-
+end and quarter-end close activities, ensuring accurate financial statements and compliance with IFRS/GAAP.
+Technical Skills: Proficient in MS-Excel, Word, and PowerPoint, Conversant with Financial Modeling, ERP, and SAP.
+
+── Extraction Results ──
+Skills found   : 23
+Confidence     : 0.92
+Time           : 335.21 ms
+Method         : flashtext_skills_section | fuzzy(Risk Assessment→Risk Management(100%), Word→Microsoft Word(100%), regulatory compliance→Regulatory Compliance(100%), spans→SANS(89%))
+
+── All Skills (23) ──
+AICPA, Accounts Payable, Financial Analysis, Financial Reporting, GAAP, IFRS, Internal Controls Testing, LinkedIn, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, PCAOB, Regulatory Compliance, Reporting, Risk Management, SANS, SAP, Statutory Audit, Substantive Testing, TDS, Trend Analysis, Variance Analysis, Working Capital Financing
+
+── By Category ──
+  banking                        ['Working Capital Financing']
+  business_analysis              ['Variance Analysis']
+  data_science                   ['Trend Analysis']
+  finance_ops                    ['AICPA', 'Accounts Payable', 'Financial Analysis', 'Financial Reporting', 'GAAP', 'IFRS', 'Internal Controls Testing', 'PCAOB', 'Statutory Audit', 'Substantive Testing', 'TDS']
+  integration                    ['SAP']
+  legal                          ['Regulatory Compliance']
+  productivity                   ['Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
+  project_mgmt                   ['Risk Management']
+  security_ops                   ['SANS']
+  soft_skill                     ['Reporting']
+  web_framework                  ['LinkedIn']

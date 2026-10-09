@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "de787358_fa91200d_Naukri_PremkumarSNaik[3y_8m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:32.457618+00:00",
+    "generated_at": "2026-10-07T09:28:30.840620+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,36 +45,104 @@
   "summary": null,
   "skills": {
     "items": [
+      "A/B Testing",
+      "ANN",
+      "ARIMA",
+      "Active Directory",
       "Adobe Analytics",
       "Apache Hadoop",
       "Apache Hive",
+      "BigQuery",
+      "Budgeting",
+      "Business Intelligence",
+      "Classroom Management",
+      "Customer Lifetime Value",
+      "Data Science",
+      "ETL",
+      "Express.js",
+      "Funnel Analysis",
+      "GCP",
+      "Growth Marketing",
+      "KPI",
+      "Leadership",
+      "LinkedIn",
       "MS Office",
       "Machine Learning",
+      "Microsoft Teams",
       "Power BI",
       "PySpark",
       "Python",
+      "Reliability",
+      "Reporting",
+      "SEM",
+      "SEO",
       "SQL",
-      "Tableau"
+      "Tableau",
+      "TensorFlow",
+      "Time Series Forecasting",
+      "scikit-learn"
     ],
     "by_category": {
       "data_science": [
+        "A/B Testing",
+        "ARIMA",
         "Adobe Analytics",
+        "Funnel Analysis",
         "Power BI",
         "Tableau"
       ],
+      "ai_ml": [
+        "ANN",
+        "Data Science",
+        "Machine Learning",
+        "TensorFlow",
+        "Time Series Forecasting",
+        "scikit-learn"
+      ],
+      "security_ops": [
+        "Active Directory"
+      ],
       "data_engineering": [
         "Apache Hadoop",
-        "Apache Hive"
-      ],
-      "productivity": [
-        "MS Office"
-      ],
-      "ai_ml": [
-        "Machine Learning"
+        "Apache Hive",
+        "ETL"
       ],
       "database": [
+        "BigQuery",
         "PySpark",
         "SQL"
+      ],
+      "finance_ops": [
+        "Budgeting"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "Customer Lifetime Value",
+        "KPI"
+      ],
+      "education_domain": [
+        "Classroom Management"
+      ],
+      "web_framework": [
+        "Express.js",
+        "LinkedIn"
+      ],
+      "cloud_infra": [
+        "GCP"
+      ],
+      "marketing": [
+        "Growth Marketing",
+        "SEM",
+        "SEO"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Reliability",
+        "Reporting"
+      ],
+      "productivity": [
+        "MS Office",
+        "Microsoft Teams"
       ],
       "programming_language": [
         "Python"
@@ -87,12 +155,15 @@
     "jobs": [
       {
         "role": "Senior Data Analyst | US Consumer Marketing",
-        "company": "AMERICAN EXPRESS",
+        "company": "US Consumer Marketing",
         "location": null,
         "start": "Apr’25",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 18,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "AMERICAN EXPRESS"
+        ],
+        "duration_months": 19,
         "bullets": [
           "supporting 870M+ marketing investment, translating performance trends into budgeting decisions."
         ],
@@ -119,12 +190,15 @@
         "source": "experience"
       },
       {
-        "role": "Analyst | Enterprise Digital and Data Solutions (EDDS",
-        "company": "AMERICAN EXPRESS",
-        "location": "Digital Product",
+        "role": "Digital Product Analyst | Enterprise Digital and Data Solutions (EDDS",
+        "company": "Enterprise Digital and Data Solutions",
+        "location": null,
         "start": "July’22",
         "end": "Mar’25",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "AMERICAN EXPRESS"
+        ],
         "duration_months": 33,
         "bullets": [
           "of the Quarter for executing search-driven growth strategies, increased acquisition traffic by 12%."
@@ -160,12 +234,15 @@
         "source": "experience"
       },
       {
-        "role": "Intern",
+        "role": "Data Science Intern",
         "company": "SILVERNOX TECH VENTURES",
-        "location": "Data Science",
+        "location": null,
         "start": "May’20",
         "end": "Jun’20",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "SILVERNOX TECH VENTURES"
+        ],
         "duration_months": 2,
         "bullets": [
           "from the founder & CEO; Research Lab for AI/Deep Tech applications in insurance claims."
@@ -181,12 +258,16 @@
         "source": "experience"
       },
       {
-        "role": "Intern",
-        "company": "PHYSICS-INFORMED NEURAL § Constructed a physics-informed NETWORKS FOR MULTIPHASE HEAT TRANSFER",
-        "location": "Master’s Thesis-IIT Bombay",
+        "role": "Master’s Thesis-IIT Bombay",
+        "company": "NETWORKS FOR MULTIPHASE HEAT TRANSFER",
+        "location": null,
         "start": "May’21",
         "end": "Jun’22",
-        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "method": "date_regex+pipe_split_header",
+        "pre_date_header": [
+          "RESEARCH EXPERIENCE",
+          "PHYSICS-INFORMED NEURAL § Constructed a physics-informed"
+        ],
         "duration_months": 14,
         "bullets": [
           "neural network model in Python (TensorFlow, Scikit-Learn) to simulate and predict complex heat transfer patterns, improving computational efficiency and accuracy over traditional methods."
@@ -195,31 +276,40 @@
           "§ Enhanced the model",
           "to handle phase transitions & enable faster and more reliable scenario testing for industrial problems."
         ],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Intern",
-        "company": "§ Institute Athletics Secretary, IIT Bombay  – Led a 22-member council, managed an INR 1.5M+ budget",
-        "location": "and",
+        "role": "LEADERSHIP ROLES| IIT BOMBAY",
+        "company": "§ Institute Athletics Secretary",
+        "location": "",
         "start": "Apr’20",
         "end": "Apr’21",
-        "method": "date_regex+comma_company_location+inherited_role",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "LEADERSHIP ROLES| IIT BOMBAY",
+          "§ Institute Athletics Secretary,"
+        ],
         "duration_months": 13,
-        "bullets": [],
+        "bullets": [
+          "first virtual run along with the FIT India Cyclothon event, driving strong student engagement."
+        ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Intern",
-        "company": "§ Department Student Mentor  - Guided 8 students with academic and professional decisions; helped an",
-        "location": null,
+        "role": "Guided 8 students with academic and professional decisions; helped an",
+        "company": "Mentor",
+        "location": "Guided 8 students with academic and professional decisions; helped an",
         "start": "May'20",
         "end": "Apr'21",
-        "method": "date_regex+inherited_role",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "§ Department Student"
+        ],
         "duration_months": 12,
         "bullets": [],
         "sub_sections": [
@@ -236,22 +326,34 @@
           "Social § Taught",
           "30+ underprivileged children; designed shelters for salt-pan workers; volunteered for COVID-19 relief."
         ],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.5,
-      "total_months": 78,
+      "total_years": 6.6,
+      "total_months": 79,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.77
+    "_confidence": 0.98
   },
   "education": {
-    "entries": [],
-    "_confidence": 0.0
+    "entries": [
+      {
+        "degree": "Bachelor’s & Master’s degree in Mechanical Engineering, specializing in CIM with a CPI of 8.72",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indian Institute of Technology BOMBAY",
+        "year": "Jul2017 - Jun2022",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [],
@@ -262,29 +364,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "education",
-      "confidence": 0.0,
-      "reason": "section_present_but_empty"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

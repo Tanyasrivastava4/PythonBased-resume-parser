@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "29aaafdb_23f2e3e4_Nirbhay Singh_Process Excellence_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:10.390995+00:00",
+    "generated_at": "2026-10-07T10:31:06.653167+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -52,28 +52,38 @@
       "5S",
       "AutoCAD",
       "Collaboration",
+      "Continuous Improvement",
       "Cost Analysis",
       "Cross-functional Collaboration",
+      "Digital Transformation",
       "GD&T",
       "KPI",
       "Kaizen",
       "Lean Manufacturing",
       "MS Office",
       "Manufacturing Operations",
+      "Microsoft Teams",
       "Operational Excellence",
+      "Performance Monitoring",
       "Poka-Yoke",
       "Problem Solving",
       "Process Audit",
       "Process Improvement",
+      "Professional Tax",
       "Sigma Computing",
       "Six Sigma",
-      "SolidWorks"
+      "SolidWorks",
+      "Standard Work",
+      "Value Stream Mapping",
+      "Visual Inspection"
     ],
     "by_category": {
       "operations": [
         "5S",
+        "Continuous Improvement",
         "Kaizen",
         "Lean Manufacturing",
+        "Performance Monitoring",
         "Poka-Yoke",
         "Process Audit",
         "Process Improvement",
@@ -93,31 +103,48 @@
       "finance_ops": [
         "Cost Analysis"
       ],
+      "consulting": [
+        "Digital Transformation"
+      ],
       "business_analysis": [
         "KPI"
       ],
       "productivity": [
-        "MS Office"
+        "MS Office",
+        "Microsoft Teams"
       ],
       "process": [
         "Operational Excellence"
       ],
+      "hr": [
+        "Professional Tax"
+      ],
       "data_science": [
         "Sigma Computing"
+      ],
+      "manufacturing": [
+        "Standard Work",
+        "Value Stream Mapping"
+      ],
+      "quality": [
+        "Visual Inspection"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Poka -Yoke→Poka-Yoke(95%), Sigma→Sigma Computing(100%), Solidworks→SolidWorks(100%), lean manufacturing→Lean Manufacturing(100%), cost reduction→Cost Analysis(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Poka -Yoke→Poka-Yoke(95%), Sigma→Sigma Computing(100%), Solidworks→SolidWorks(100%), professional→Professional Tax(95%), lean manufacturing→Lean Manufacturing(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "GAT",
         "company": "CNH Industrial",
         "location": null,
         "start": "05-Sept 2024",
         "end": "05-Oct 2025",
-        "method": "date_regex",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "CNH Industrial"
+        ],
         "duration_months": 14,
         "bullets": [
           "Supported the deployment of Lean and CBS tools across manufacturing operations to improve process efficiency and reduce non-value-added activities.",
@@ -131,8 +158,8 @@
           "Supported digital transformation and data-driven dashboards for monitoring performance and improvement initiatives"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -142,7 +169,7 @@
       "total_months": 14,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -195,14 +222,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/f17d0495_8650420b_Ashish-Audit-GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Hands on Excel Valuation
+Statutory Auditing Financial Analysis
+Financial Modeling Eloquent Taxation
+Leadership Insurance sector audit
+Time management Positive attitude
+Good listner GST IFRS
+
+── Extraction Results ──
+Skills found   : 9
+Confidence     : 0.92
+Time           : 105.53 ms
+Method         : flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%))
+
+── All Skills (9) ──
+Auditing, Financial Analysis, GAAP, IFRS, Leadership, Mechanical Engineering, Microsoft Excel, Taxation, Time Management
+
+── By Category ──
+  engineering                    ['Mechanical Engineering']
+  finance_ops                    ['Auditing', 'Financial Analysis', 'GAAP', 'IFRS', 'Taxation']
+  productivity                   ['Microsoft Excel']
+  soft_skill                     ['Leadership', 'Time Management']

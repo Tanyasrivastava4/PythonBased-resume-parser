@@ -2,7 +2,7 @@
 FILE: 00d6d11f_c1673b1a_Ra Mohit resume (1)_segmented.txt
 ======================================================================
 Sections found : ['education', 'experience', 'header', 'languages', 'skills']
-Overall conf.  : 0.93
+Overall conf.  : 0.86
 Needs review   : True
 
 CONTACT
@@ -14,14 +14,14 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (19) — confidence 0.92
+SKILLS (28) — confidence 0.92
 ----------------------------------------------------------------------
-AJAX, AWS, Bootstrap, CI/CD, CSS3, Firebase, Git, GitHub, GitLab, HTML5, JavaScript, Jira, Laravel, MySQL, PHP, SQL, VS Code, WordPress, jQuery
+AJAX, AWS, Bootstrap, CI/CD, CSS3, ColdFusion, Content Marketing, Customer Relationship Management, ERP, Firebase, Git, GitHub, GitLab, Google, HTML5, JavaScript, Jira, Laravel, MVC Architecture, MySQL, PHP, REST, REST API, SEO, SQL, VS Code, WordPress, jQuery
 
-EXPERIENCE (1 jobs, 0 early_career entries) — confidence 0.98
-Total experience: 2.7 years (32 months, 0 overlaps merged)
+EXPERIENCE (1 jobs, 0 early_career entries) — confidence 0.7
+Total experience: 2.8 years (33 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. Chhattisgarhpedia Founder & Software Developer @ India (Feb 2024 - Present) [conf 0.98, review=False]
+  1. Chhattisgarhpedia Founder & Software Developer @  Worked with JavaScript, jQuery, HTML, CSS, and Bootstrap. (Feb 2024 - Present) [conf 0.7, review=True]
 
 EDUCATION (2) — confidence 0.88
 ----------------------------------------------------------------------
@@ -31,6 +31,8 @@ EDUCATION (2) — confidence 0.88
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (1 flagged fields)
+REVIEW QUEUE (3 flagged fields)
 ----------------------------------------------------------------------
   contact.email                       conf=0.0  reason=missing
+  experience                          conf=0.7  reason=low_confidence
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields

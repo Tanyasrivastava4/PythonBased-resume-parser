@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4a20681e_1fe3124e_Pankaj Kumar Jha_AI Solution Architect_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:33.004748+00:00",
+    "generated_at": "2026-10-07T10:31:33.313494+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,60 +50,96 @@
     "items": [
       "AWS",
       "AWS Athena",
+      "AWS CloudWatch",
+      "AWS EC2",
+      "AWS Glue",
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
       "Agentic AI",
       "Agile",
+      "Amazon EMR",
       "Apache Airflow",
+      "Apache Hadoop",
       "Apache Spark",
       "Automation Testing",
       "Azure",
+      "Azure ADF",
+      "Azure Data Lake",
       "Azure DevOps",
       "Azure OpenAI",
+      "Azure Synapse Analytics",
+      "Banking & Finance",
       "BigQuery",
+      "Business Intelligence",
       "C#",
       "CI/CD",
+      "Cloud Composer",
+      "CloudFormation",
       "Cryptography",
       "DAMA-DMBOK",
       "Data Fabric",
+      "Data Governance",
+      "Data Management",
       "Data Mesh",
       "Data Pipeline",
       "Data Science",
       "Data Virtualization",
+      "Data Warehousing",
       "DataOps",
       "Databricks",
       "Dataflow",
+      "Demand Planning",
       "DevOps",
       "Domain-Driven Design",
       "Dremio",
       "E-commerce",
       "ETL",
-      "Electronic Health Records",
+      "Enterprise Architecture",
       "Event-Driven",
+      "Fraud Detection",
       "GCP",
       "GDPR",
       "Healthcare",
       "Identity Management",
       "Informatica",
+      "Informatica PowerCenter",
       "Java",
+      "Jetpack Compose",
+      "KPI",
       "LLM",
+      "Lakehouse Architecture",
       "LangChain",
       "Leadership",
+      "Legal Compliance",
       "Logistics",
+      "MDM",
       "MLOps",
       "MSSQL",
       "Machine Learning",
-      "Make",
+      "Marketing Automation",
       "Microservices",
+      "Microsoft Fabric",
+      "Microsoft Teams",
+      "Operations Management",
+      "Oracle Database",
+      "PII Masking",
       "PMP",
       "PostgreSQL",
       "Power BI",
-      "Predictive Analytics",
+      "Pre-Sales Support",
+      "Predictive Modeling",
       "Product Design",
       "Project Management",
       "Python",
       "Redshift",
-      "Regulatory Compliance",
+      "Reliability",
+      "Reporting",
       "Responsible AI",
+      "Retail Management",
+      "SLA Management",
       "SQL",
+      "Salesforce Marketing Cloud",
       "Scala",
       "Scrum",
       "Security Architecture",
@@ -111,9 +147,10 @@
       "SnapLogic",
       "Snowflake",
       "Starburst",
-      "Synapse Analytics",
       "TOGAF",
+      "Team Leadership",
       "Telecom",
+      "Tenable.sc",
       "Terraform",
       "Vertex AI",
       "dbt"
@@ -122,10 +159,23 @@
       "cloud_infra": [
         "AWS",
         "AWS Athena",
+        "AWS CloudWatch",
+        "AWS EC2",
+        "AWS Lambda",
+        "AWS RDS",
+        "AWS S3",
         "Azure",
+        "Cloud Composer",
         "Dataflow",
-        "GCP",
-        "Synapse Analytics"
+        "GCP"
+      ],
+      "cloud": [
+        "AWS Glue",
+        "Amazon EMR",
+        "Azure ADF",
+        "Azure Data Lake",
+        "Azure Synapse Analytics",
+        "Microsoft Fabric"
       ],
       "genai": [
         "Agentic AI",
@@ -144,10 +194,13 @@
       ],
       "data_engineering": [
         "Apache Airflow",
+        "Apache Hadoop",
         "Apache Spark",
         "Data Pipeline",
+        "Data Warehousing",
         "Databricks",
         "ETL",
+        "Informatica PowerCenter",
         "dbt"
       ],
       "testing": [
@@ -156,19 +209,29 @@
       "devops": [
         "Azure DevOps",
         "CI/CD",
+        "CloudFormation",
         "DevOps",
         "Terraform"
+      ],
+      "finance": [
+        "Banking & Finance",
+        "Fraud Detection"
       ],
       "database": [
         "BigQuery",
         "Dremio",
         "Informatica",
         "MSSQL",
+        "Oracle Database",
         "PostgreSQL",
         "Redshift",
         "SQL",
         "Snowflake",
         "Starburst"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
       ],
       "programming_language": [
         "C#",
@@ -178,6 +241,7 @@
       ],
       "security_ops": [
         "Cryptography",
+        "MDM",
         "Security Architecture"
       ],
       "architecture": [
@@ -190,55 +254,87 @@
         "Microservices",
         "TOGAF"
       ],
+      "data_management": [
+        "Data Governance"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams"
+      ],
       "ai_ml": [
         "Data Science",
-        "Machine Learning"
+        "Machine Learning",
+        "Predictive Modeling"
       ],
       "dev_tool": [
         "DataOps"
       ],
-      "retail": [
-        "E-commerce"
+      "supply_chain": [
+        "Demand Planning"
       ],
-      "healthcare": [
-        "Electronic Health Records"
+      "retail": [
+        "E-commerce",
+        "Retail Management"
+      ],
+      "it_ops": [
+        "Enterprise Architecture"
       ],
       "legal": [
         "GDPR",
-        "Regulatory Compliance"
+        "Legal Compliance"
       ],
       "domain": [
         "Healthcare",
         "Telecom"
       ],
       "security": [
-        "Identity Management"
+        "Identity Management",
+        "PII Masking"
+      ],
+      "mobile_dev": [
+        "Jetpack Compose"
+      ],
+      "data engineering": [
+        "Lakehouse Architecture"
       ],
       "soft_skill": [
-        "Leadership"
+        "Leadership",
+        "Reliability",
+        "Reporting",
+        "Team Leadership"
       ],
       "operations": [
-        "Logistics"
+        "Logistics",
+        "Operations Management"
       ],
-      "rpa": [
-        "Make"
+      "marketing": [
+        "Marketing Automation"
       ],
       "data_science": [
-        "Power BI",
-        "Predictive Analytics"
+        "Power BI"
+      ],
+      "sales": [
+        "Pre-Sales Support"
       ],
       "engineering": [
         "Product Design"
       ],
+      "support": [
+        "SLA Management"
+      ],
       "web_framework": [
+        "Salesforce Marketing Cloud",
         "Sitecore"
       ],
       "integration": [
         "SnapLogic"
+      ],
+      "cybersecurity": [
+        "Tenable.sc"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(DAMA- DMBOK→DAMA-DMBOK(95%), Athena→AWS Athena(100%), Data Pipelines→Data Pipeline(100%), Airflow→Apache Airflow(100%), Encryption→Cryptography(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Predictive Analytics→Predictive Modeling(100%), DAMA- DMBOK→DAMA-DMBOK(95%), Composer→Jetpack Compose(93%), Synapse Analytics→Azure Synapse Analytics(100%), Glue→AWS Glue(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -266,15 +362,17 @@
         "source": "experience"
       },
       {
-        "role": "Technical Architect",
-        "company": "Espire Infolabs",
+        "role": "Espire Infolabs",
+        "company": "Experience Highlights (Enterprise Data & AI Architecture)",
         "location": "India",
         "start": "02/2020",
         "end": "01/2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Espire Infolabs"
+        ],
         "duration_months": 24,
         "bullets": [
-          "Experience Highlights (Enterprise Data & AI Architecture)",
           "Cloud & Data Platform Leadership: Led the design and implementation of scalable, multi-cloud data platforms across GCP, Azure, and AWS, enabling enterprise data modernization through Lakehouse architectures (Databricks, Snowflake), data virtualization (Dremio, Starburst), and Agentic AI–enabled analytics while supporting large-scale cloud migration initiatives.",
           "Enterprise Solution Architecture: Architected and delivered end-to-end enterprise solutions across eCommerce (Sitecore), Academic, and complex enterprise platforms, spanning strategy, presales, consulting, architecture definition, governance alignment, and technical delivery.",
           "Data Governance & Master Data Management: Established enterprise data governance frameworks aligned with DAMA-DMBOK, including data quality, metadata management, lineage, access controls, and stewardship models, and implemented Master Data Management (MDM) using Informatica MDM to enable trusted, consistent, and reusable enterprise data assets.",
@@ -288,17 +386,20 @@
           "Enterprise Platforms (Hexagon & Sitecore 9.x): Delivered full-stack AWS modernization, including infrastructure provisioning, CI/CD automation, managed services adoption (Lambda, CloudWatch, IAM), Snowflake-based analytics, Informatica MDM integration, and SageMaker-based ML deployments, significantly improving scalability, operational efficiency, data consistency, and governance maturity."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Technology Specialist",
+        "role": "Noida, India",
         "company": "NIIT Technologies",
-        "location": "India",
+        "location": null,
         "start": "04/2018",
         "end": "10/2019",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "NIIT Technologies"
+        ],
         "duration_months": 19,
         "bullets": [
           "Azure Data Expertise: Specialized in delivering scalable data platforms using Azure Synapse, Data Factory, Databricks, and Data Lake Gen2, Agentic AI with strong capabilities in governance and metadata lineage via Azure Purview.",
@@ -312,30 +413,33 @@
         "source": "experience"
       },
       {
-        "role": "Lead / Solution Architect",
-        "company": "Digitas (Group Company of Publicis Groupe like Sapient",
-        "location": "Tech",
+        "role": "(Group Company of Publicis Groupe like Sapient) | Tech Lead / Solution Architect",
+        "company": "Digitas",
+        "location": null,
         "start": "2017",
         "end": "2018",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Previous experience(s) -"
+        ],
         "duration_months": 13,
         "bullets": [
           "Pegasus InfoCorp Pvt Ltd., Velocis Systems Pvt. Ltd., Corbus India Private Ltd. Jansahyog Corporation Ltd. |"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [
       {
-        "role": "Senior Project Lead",
+        "role": "| Senior Project Lead",
         "company": "IKF Technology",
         "location": null,
         "start": "2008",
         "end": "2010",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 25,
         "bullets": [],
         "sub_sections": [],
@@ -344,12 +448,12 @@
         "source": "early_career"
       },
       {
-        "role": "Engineer",
+        "role": ", HTC Global Services | Software Engineer",
         "company": "CMC Limited",
         "location": "HTC Global Services",
         "start": "2006",
         "end": "2008",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 25,
         "bullets": [],
         "sub_sections": [],
@@ -463,7 +567,7 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[3]",
+      "field": "experience.jobs[1]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

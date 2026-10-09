@@ -1,0 +1,32 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/e460dd42_94aa1965_Pritam_resume (2)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Programming Languages: JavaScript (ES6+), Typescript, HTML5, CSS3
+• Frontend Technology :React.js, Tailwind CSS, Bootstrap, Aceternity UI, SCSS, Redux, Redux Toolkit, Rest API,
+WebSockets, Agile, CI/CD
+• Backend Skill: Node.js, Express.Js
+• Database Systems: MongoDB, MySQL
+• Tools: Git, GitHub, Gitlab, Docker, Slack
+• Specialized Area: Full-Stack Development, API Development, API Integration, Performance Optimization
+
+── Extraction Results ──
+Skills found   : 26
+Confidence     : 0.92
+Time           : 207.49 ms
+Method         : flashtext_skills_section | fuzzy(Typescript→TypeScript(100%), SCSS→SASS(100%), Redux Toolkit→Redux(100%), Rest API→REST API(100%), Express.Js→Express.js(100%)...)
+
+── All Skills (26) ──
+API Design, Agile, Bootstrap, Business Development, CI/CD, CSS3, Docker, ES6+, Express.js, Git, GitHub, GitLab, HTML5, JavaScript, MongoDB, MySQL, Node.js, Performance Optimization, REST API, React, Redux, SASS, Slack, Tailwind CSS, TypeScript, WebSockets
+
+── By Category ──
+  architecture                   ['API Design']
+  biz_dev                        ['Business Development']
+  database                       ['MongoDB', 'MySQL']
+  dev_tool                       ['Git', 'GitHub', 'GitLab', 'Performance Optimization']
+  devops                         ['CI/CD', 'Docker']
+  productivity                   ['Slack']
+  programming_language           ['ES6+', 'JavaScript', 'TypeScript']
+  project_mgmt                   ['Agile']
+  web_framework                  ['Bootstrap', 'CSS3', 'Express.js', 'HTML5', 'Node.js', 'REST API', 'React', 'Redux', 'SASS', 'Tailwind CSS', 'WebSockets']

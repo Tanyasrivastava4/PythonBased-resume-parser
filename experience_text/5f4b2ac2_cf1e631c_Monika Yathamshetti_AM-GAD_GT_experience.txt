@@ -1,0 +1,44 @@
+======================================================================
+FILE: 5f4b2ac2_cf1e631c_Monika Yathamshetti_AM-GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Assistant Manager
+Deloitte India, Hyderabad
+• Developed Standard Operating Procedures (SOPs) for critical business areas
+such as Procure-to-Pay (P2P), Supply Chain Management, and Trade
+Operations for the retail sector, identifying control gaps and providing
+strategic recommendations/improvements th...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.77
+Needs review   : True
+Total exp      : 7.2 years (86 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Audit Manager & Article Assistant
+  Company      : KGM & Co. Chartered Accountants
+  Location     : Hyderabad
+  Start - End  : 2016-12 - 2023-04
+  Duration     : 77 months
+  Bullets      : 4
+    • Performed internal audits for the industries (Logistics, Automobile, Construction), covering all the major processes.
+    • Conducted audits and prepared audit reports for statutory, GST, inventory, and tax audits in accordance with the law.
+    • Prepared financial statements, consolidated financial statements for companies (including ROC filings), LLPs, and partnership firms.
+    • Independently designed audit program's and handled around 5 team members in conducting the audit.
+  Method       : date_regex+date_prefix_title+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Audit Manager & Article Assistant
+  Company      : [Found 7 sections total: ['header', 'experience', 'skills', 'education', 'achievements', 'personal_details', 'experience']]
+  Location     : None
+  Start - End  : 2023-05 - 2024-01
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex+inherited_role
+  Confidence   : 0.55
+  Needs Review : True

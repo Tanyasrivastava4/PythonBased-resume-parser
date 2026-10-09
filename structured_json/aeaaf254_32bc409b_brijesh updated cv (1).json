@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "aeaaf254_32bc409b_brijesh updated cv (1)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:03.310974+00:00",
+    "generated_at": "2026-10-07T09:27:52.627000+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,7 +47,9 @@
   "summary": null,
   "skills": {
     "items": [
+      "Adaptability",
       "Adobe Photoshop",
+      "Blog Writing",
       "Bootstrap",
       "CSS3",
       "Canva",
@@ -60,11 +62,18 @@
       "jQuery"
     ],
     "by_category": {
+      "soft_skill": [
+        "Adaptability"
+      ],
       "design": [
         "Adobe Photoshop",
         "Canva",
         "Figma",
         "Motion Graphics"
+      ],
+      "content": [
+        "Blog Writing",
+        "WordPress"
       ],
       "web_framework": [
         "Bootstrap",
@@ -75,9 +84,6 @@
       ],
       "programming_language": [
         "JavaScript"
-      ],
-      "content": [
-        "WordPress"
       ]
     },
     "_confidence": 0.92,
@@ -107,7 +113,7 @@
         "location": null,
         "start": "2025",
         "end": "2025",
-        "method": "single_year_regex+title_dict+company_suffix_match",
+        "method": "single_year_regex+multiline_role_above_company",
         "duration_months": 1,
         "bullets": [
           "months"
@@ -123,7 +129,10 @@
         "location": null,
         "start": "2025",
         "end": "2026",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Wordpress Developer"
+        ],
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [
@@ -160,14 +169,14 @@
         "degree_name": "B.A.",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": null,
+        "institution": "DU.SOL C O N T A C T mandi house",
         "year": "2024 - 2027",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.68
+    "_confidence": 0.75
   },
   "certifications": {
     "items": [
@@ -200,7 +209,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.83
   },
   "_needs_review": true,
   "_review_queue": [
@@ -208,11 +217,6 @@
       "field": "experience.jobs[0]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
-    },
-    {
-      "field": "education",
-      "confidence": 0.68,
-      "reason": "low_confidence"
     },
     {
       "field": "education.entries[0]",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e4b381d2_Aman Chauhan_Machine Learning Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:36.646815+00:00",
+    "generated_at": "2026-10-07T09:28:36.730326+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,11 +48,15 @@
     "items": [
       "A/B Testing",
       "ANN",
+      "API Design",
       "AWS",
       "Boosting",
       "CNN",
       "Classroom Management",
+      "Creativity",
       "Cross-functional Collaboration",
+      "Curriculum Development",
+      "Data Analysis",
       "Data Science",
       "Data Visualization",
       "Deep Learning",
@@ -68,6 +72,7 @@
       "Git",
       "GitHub",
       "GitHub Copilot",
+      "HR Analytics",
       "Keras",
       "LLM",
       "LSTM",
@@ -77,21 +82,25 @@
       "Matplotlib",
       "Microsoft Teams",
       "NLP",
+      "NLTK",
       "NumPy",
       "Pandas",
       "Pinecone",
       "Plotly",
       "Power BI",
+      "Predictive Modeling",
       "Prototyping",
       "Python",
       "REST API",
       "RNN",
       "React",
+      "Reporting",
       "SQL",
+      "Sales Forecasting",
       "SciPy",
       "Seaborn",
       "TensorFlow",
-      "Time Series Forecasting",
+      "Transformer",
       "Transformers",
       "Vector Databases",
       "Vertex AI",
@@ -103,6 +112,7 @@
       "data_science": [
         "A/B Testing",
         "Boosting",
+        "Data Analysis",
         "Data Visualization",
         "Dimensionality Reduction",
         "Exploratory Data Analysis",
@@ -122,16 +132,21 @@
         "Machine Learning",
         "Matplotlib",
         "NLP",
+        "NLTK",
         "NumPy",
         "Pandas",
         "Plotly",
+        "Predictive Modeling",
         "RNN",
         "SciPy",
         "Seaborn",
         "TensorFlow",
-        "Time Series Forecasting",
+        "Transformer",
         "XGBoost",
         "scikit-learn"
+      ],
+      "architecture": [
+        "API Design"
       ],
       "cloud_infra": [
         "AWS",
@@ -139,10 +154,13 @@
       ],
       "education_domain": [
         "Classroom Management",
+        "Curriculum Development",
         "E-learning"
       ],
       "soft_skill": [
-        "Cross-functional Collaboration"
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Reporting"
       ],
       "web_framework": [
         "FastAPI",
@@ -163,6 +181,9 @@
         "Git",
         "GitHub"
       ],
+      "hr": [
+        "HR Analytics"
+      ],
       "productivity": [
         "Microsoft Teams"
       ],
@@ -177,6 +198,9 @@
       ],
       "database": [
         "SQL"
+      ],
+      "sales": [
+        "Sales Forecasting"
       ]
     },
     "_confidence": 0.92,
@@ -185,55 +209,59 @@
   "experience": {
     "jobs": [
       {
-        "role": "|  Intileo Technologies",
-        "company": null,
-        "location": "Intileo Technologies",
+        "role": "Senior Data Scientist  |  Intileo Technologies",
+        "company": "Intileo Technologies",
+        "location": null,
         "start": "Aug 2025",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 14,
-        "bullets": [],
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 15,
+        "bullets": [
+          "Lead a cross-functional team of 4 (2 SDEs + 2 Data Scientists) to deliver end-to-end AI/ML solutions — from ideation and data analysis through to production deployment.",
+          "Architect predictive sales forecasting models by mining user behavioral patterns and seasonal trends, achieving 92% accuracy using XGBoost and LightGBM.",
+          "Oversee model development lifecycle including API integration and scalable deployment of AI products within LMS platforms.",
+          "Engineered a GenAI-powered Student Query Resolution System using LangChain and OpenAI GPT that reduced manual support workload by 48% and improved real-time response efficiency by 60%+.",
+          "Drove a 25%+ improvement in operational decision-making efficiency through AI-driven analytics dashboards and automated reporting pipelines."
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Drove a 25%+ improvement in operational decision-making efficiency through AI-driven analytics dashboards and automated reporting pipelines. Data Scientist  |  Intileo Technologies  |     7 mos",
-        "company": null,
-        "location": "Intileo Technologies",
+        "role": "Data Science Trainee  |  Intileo Technologies",
+        "company": "Intileo Technologies",
+        "location": null,
         "start": "Jan 2024",
         "end": "Jul 2025",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 19,
-        "bullets": [],
+        "bullets": [
+          "Delivered production-ready ML models for Sales Forecasting, HR Analytics, Student Churn Prediction, and Course Recommendation, achieving up to 88%+ prediction accuracy using GBM and XGBoost.",
+          "Designed and deployed an AI-Powered Adaptive LMS integrating Transformer-based NLP, ANN architectures, and LangChain — increasing student engagement by 35% and learner completion rates by 32%+.",
+          "Built and optimized deep learning models (ANN, CNN, RNN, LSTM) on structured and unstructured datasets, yielding a 27%+ uplift in model performance.",
+          "Applied K-Means and Hierarchical Clustering for student and course segmentation, improving targeted engagement strategies and boosting retention rates by 18%+.",
+          "Reduced model training time by 33%+ and improved clustering efficiency by 24%+ through PCA-based feature optimization and dimensionality reduction.",
+          "Delivered 50+ live training sessions on Python, Data Science, ML, and AI using project-based learning methodologies.",
+          "Performed end-to-end data preparation — cleaning, transforming, and structuring educational datasets — improving data quality for student performance and course completion analysis.",
+          "Conducted exploratory data analysis (EDA) on student engagement and performance datasets to uncover learning patterns, dropout risks, and progress trends.",
+          "Supported development of ML models for student performance prediction and personalized course recommendations.",
+          "Collaborated cross-functionally with instructors and product teams to align data insights with curriculum design and learning outcomes.",
+          "Documented analytical findings and delivered weekly insight reports to senior management, enhancing datadriven decision-making."
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "Delivered 50+ live training sessions on Python, Data Science, ML, and AI using project-based learning methodologies. Data Science Trainee  |  Intileo Technologies",
-        "company": null,
-        "location": "Intileo Technologies",
-        "start": "Jan 2023",
-        "end": "Dec 2023",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 12,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.8,
-      "total_months": 45,
+      "total_years": 2.8,
+      "total_months": 34,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -260,7 +288,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.95
   },
   "_needs_review": true,
   "_review_queue": [
@@ -273,21 +301,6 @@
       "field": "contact.email",
       "confidence": 0.0,
       "reason": "missing"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
     }
   ]
 }

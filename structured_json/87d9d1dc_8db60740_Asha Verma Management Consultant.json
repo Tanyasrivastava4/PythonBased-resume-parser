@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "87d9d1dc_8db60740_Asha Verma Management Consultant_segmented.txt",
-    "generated_at": "2026-09-30T06:59:33.249415+00:00",
+    "generated_at": "2026-10-07T09:27:13.271071+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -48,69 +48,151 @@
   "summary": "Senior transformation and marketing leader with 20+ years of experience driving large-scale digital, data, marketing, and revenue\nprograms across diverse industries. Proven ability to convert business strategy into high-impact execution through advanced analytics,\ncampaign leadership, digital transformation, and regulatory modernization. Recognized for building scalable growth engines, optimizing\ncustomer experience, and delivering measurable business outcomes.",
   "skills": {
     "items": [
+      "Active Directory",
       "Adobe Analytics",
+      "Business Development",
+      "Business Intelligence",
       "Business Strategy",
       "Campaign Management",
       "Change Management",
-      "Client Relationship Management",
+      "Communication",
+      "Consumer Analytics",
+      "Creativity",
       "Customer Experience",
+      "Customer Relationship Management",
+      "Customer Segmentation",
+      "D2C Marketing",
+      "Data Governance",
       "Data Studio",
+      "DevOps",
       "Digital Transformation",
+      "Email Marketing",
+      "Facebook",
+      "Google Ads",
       "Growth Strategy",
+      "Instagram",
       "KPI",
+      "Lead Generation",
       "Leadership",
+      "Linear Programming",
+      "LinkedIn",
+      "MIS Reporting",
+      "Management Consulting",
+      "Marketing Analytics",
       "Marketing Automation",
+      "Mentoring",
+      "Microsoft Teams",
+      "Multi-Channel Marketing",
+      "PMO",
+      "Performance Monitoring",
       "Program Management",
+      "REACH",
       "Reporting",
+      "Revenue Generation",
       "Revenue Optimization",
+      "Strategic Planning",
       "Tableau",
       "Technology Enablement"
     ],
     "by_category": {
+      "security_ops": [
+        "Active Directory"
+      ],
       "data_science": [
         "Adobe Analytics",
+        "Consumer Analytics",
+        "Linear Programming",
         "Tableau"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "Data Studio",
+        "KPI"
       ],
       "consulting": [
         "Business Strategy",
         "Digital Transformation",
+        "Management Consulting",
         "Technology Enablement"
       ],
       "marketing": [
         "Campaign Management",
+        "Customer Segmentation",
+        "D2C Marketing",
+        "Email Marketing",
+        "Google Ads",
         "Growth Strategy",
+        "Marketing Analytics",
         "Marketing Automation",
         "Revenue Optimization"
       ],
       "project_mgmt": [
         "Change Management",
+        "PMO",
         "Program Management"
       ],
+      "soft_skill": [
+        "Communication",
+        "Creativity",
+        "Leadership",
+        "Mentoring",
+        "Reporting"
+      ],
       "client_mgmt": [
-        "Client Relationship Management",
         "Customer Experience"
       ],
-      "business_analysis": [
-        "Data Studio",
-        "KPI"
+      "sales": [
+        "Customer Relationship Management",
+        "Lead Generation",
+        "Multi-Channel Marketing",
+        "Revenue Generation"
       ],
-      "soft_skill": [
-        "Leadership",
-        "Reporting"
+      "data_management": [
+        "Data Governance"
+      ],
+      "devops": [
+        "DevOps"
+      ],
+      "web_framework": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Performance Monitoring"
+      ],
+      "compliance": [
+        "REACH"
+      ],
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(digital transformation→Digital Transformation(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Change Management→Change Management(100%), digital transformation→Digital Transformation(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Assistant Vice President- Consumer Banking Since",
+        "role": "Assistant Vice President- Consumer Banking",
         "company": "Axis Bank Ltd",
         "location": "Mumbai",
         "start": "Sep 2017",
         "end": "July 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Axis Bank Ltd, Mumbai",
+          "Assistant Vice President- Consumer Banking"
+        ],
         "duration_months": 95,
         "bullets": [
           "Owned end-to-end digital transformation strategy from ideation through execution, aligning technology initiatives with business growth and customer experience objectives.",
@@ -163,31 +245,34 @@
         "source": "experience"
       },
       {
-        "role": "Senior Executive-Technical & Strategy Consulting",
-        "company": "",
+        "role": "., Mumbai | Senior Executive-Technical & Strategy Consulting",
+        "company": "GTL Ltd",
         "location": "Mumbai",
         "start": "Nov 2004",
         "end": "May 2007",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "PREVIOUS EXPERIENCE"
+        ],
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Executive- Information",
-        "company": "",
+        "role": "., Mumbai | Executive- Information",
+        "company": "NEWTECH Pvt. Ltd",
         "location": "Mumbai",
         "start": "Mar 2003",
         "end": "Nov 2004",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 21,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -197,7 +282,7 @@
       "total_months": 269,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.88
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -229,22 +314,12 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

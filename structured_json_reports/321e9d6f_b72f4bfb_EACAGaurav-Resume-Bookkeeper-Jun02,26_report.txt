@@ -2,7 +2,7 @@
 FILE: 321e9d6f_b72f4bfb_EACAGaurav-Resume-Bookkeeper-Jun02,26_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'certifications', 'education', 'experience', 'header', 'personal_details', 'skills', 'summary']
-Overall conf.  : 0.86
+Overall conf.  : 0.82
 Needs review   : True
 
 CONTACT
@@ -25,23 +25,23 @@ QuickBooks Online/Desktop, Sage Intact, Bill.com, and knowledge of US tax – Ba
 and delivers beyond expectations — built for US industry seeking high-trust, time zone-
 aligned talent in India.
 
-SKILLS (10) — confidence 0.92
+SKILLS (36) — confidence 0.92
 ----------------------------------------------------------------------
-Accounting, Communication, FitNesse, GAAP, Logistics, Payroll Administration, QuickBooks, Reporting, Taxation, Turnaround Time
+Account Reconciliation, Accounting, Accounts Payable, Accounts Receivable, Client Handling, Communication, Creativity, Customer Experience, Customer Onboarding, Data Analytics, ESIC, FIX Protocol, Finalization of Financial Statements, Financial Reporting, FitNesse, Fixed Assets Management, GST, General Ledger, Internal Audit, Internal Controls Testing, Logistics, Payments, Payroll Administration, Payroll Management, QuickBooks, ROC Filings, Reporting, Standard Operating Procedures, Statutory Audit, TDS, Tax Auditing, Taxation, Team Leadership, Turnaround Time, US GAAP, Variance Analysis
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.89
-Total experience: 9.5 years (114 months, 0 overlaps merged)
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.7
+Total experience: 9.6 years (115 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. US Technology) – (Assistant Manager Finance and Accounting @ Sequential Technology International, a Fusion CX Co (May 2023 - Present) [conf 0.7, review=True]
-  2. US CPA Consulting) – (Supervisor @ Macias Gini’s & O’Connell LLP (May 2019 - Feb 2023) [conf 0.98, review=False]
-  3. , India (Technology)-(Assistant Manager Finance @ E2E Networks Limited (Jan 2017 - Mar 2019) [conf 0.98, review=False]
+  1. Assistant Manager Finance and Accounting @ Sequential Technology International, a Fusion CX Co. (US Technology (May 2023 - Present) [conf 0.7, review=True]
+  2. Supervisor) – , India @ Macias Gini’s & O’Connell LLP (MGO India Pvt. Ltd.) (US CPA Consulting (May 2019 - Feb 2023) [conf 0.7, review=True]
+  3. India @ Month-End Close & Financial Reporting: "Managed month-end close for 35+ US clients simultaneously” - Exposure in month end close, journal entries, accruals, prepaid, amortization, reconciliations, variance analysis; Assisted in preparation of Management Reports for stakeholders. Handled accounts payable, accounts receivable, credit card reconciliations, fixed assets , depreciation, intercompany reconciliations, and loan/holdback tracking across multiple US CPA clients; (Jan 2017 - Mar 2019) [conf 0.7, review=True]
 
 EDUCATION (4) — confidence 0.91
 ----------------------------------------------------------------------
   1. CA — American Institute of Certified Public Accountants (2016) [conf 0.95, review=False]
   2. MBA — The Institute of Chartered Accountant of India India (2014) [conf 0.95, review=False]
   3. CFA — The Institute of (2014) [conf 0.8, review=False]
-  4. B.Com — School of Open Learning (2011) [conf 0.95, review=False]
+  4. B.Com — School of Open Learning Delhi University (2011) [conf 0.95, review=False]
 
 CERTIFICATIONS (7) — confidence 0.64
 ----------------------------------------------------------------------
@@ -60,9 +60,12 @@ ACHIEVEMENTS (4) — confidence 0.85
   • Successfully completed IFRS course by Grant Thornton, India
   • Bill.com Certification in 2023 and Sage Intact Accounting
 
-REVIEW QUEUE (7 flagged fields)
+REVIEW QUEUE (10 flagged fields)
 ----------------------------------------------------------------------
+  experience                          conf=0.7  reason=low_confidence
   experience.jobs[0]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.64  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields
   certifications.items[2]             conf=0.6  reason=incomplete_fields

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "72e24676_e048407c_Naukri_AnjaliAggarwal[1y_3m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:14.467595+00:00",
+    "generated_at": "2026-10-07T09:26:50.224155+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -52,63 +52,90 @@
       "BERT",
       "CSS3",
       "Classification Web",
+      "Data Analytics",
+      "Data Pipeline",
       "Data Preprocessing",
       "Data Science",
+      "Data Visualization",
       "Docker",
+      "Explainable AI",
       "Exploratory Data Analysis",
       "FAISS",
       "FastAPI",
       "Fine-tuning",
       "Git",
+      "GitHub",
       "HTML5",
       "JavaScript",
       "LLM",
       "LangChain",
+      "LinkedIn",
+      "MERN Stack",
       "MLOps",
       "Machine Learning",
       "Matplotlib",
+      "Model Evaluation",
       "MongoDB",
       "NLP",
+      "NLTK",
+      "Next.js",
       "Node.js",
+      "NumPy",
+      "Pandas",
       "Pinecone",
       "Power BI",
+      "Problem Solving",
       "PyTorch",
       "Python",
       "RAG",
       "REST API",
+      "ROC Filings",
       "React",
+      "Reporting",
       "Responsible AI",
+      "Responsive Web Design",
       "SQL",
       "Seaborn",
       "Sentence Transformers",
+      "Statistical Analysis",
       "Tableau",
       "TensorFlow",
       "Transfer Learning",
       "Transformers",
       "Vector Databases",
       "Weaviate",
+      "scikit-learn",
       "spaCy"
     ],
     "by_category": {
       "ai_ml": [
         "BERT",
         "Data Science",
+        "Explainable AI",
         "Machine Learning",
         "Matplotlib",
         "NLP",
+        "NLTK",
+        "NumPy",
+        "Pandas",
         "PyTorch",
         "Seaborn",
         "Sentence Transformers",
         "TensorFlow",
-        "Transfer Learning"
+        "Transfer Learning",
+        "scikit-learn"
       ],
       "web_framework": [
         "CSS3",
         "FastAPI",
         "HTML5",
+        "LinkedIn",
+        "MERN Stack",
+        "Next.js",
         "Node.js",
         "REST API",
-        "React"
+        "React",
+        "Responsive Web Design"
       ],
       "search": [
         "Classification Web",
@@ -116,17 +143,21 @@
         "Pinecone",
         "Weaviate"
       ],
+      "data_science": [
+        "Data Analytics",
+        "Data Visualization",
+        "Exploratory Data Analysis",
+        "Power BI",
+        "Statistical Analysis",
+        "Tableau",
+        "Transformers"
+      ],
       "data_engineering": [
+        "Data Pipeline",
         "Data Preprocessing"
       ],
       "devops": [
         "Docker"
-      ],
-      "data_science": [
-        "Exploratory Data Analysis",
-        "Power BI",
-        "Tableau",
-        "Transformers"
       ],
       "genai": [
         "Fine-tuning",
@@ -138,31 +169,45 @@
         "Vector Databases"
       ],
       "dev_tool": [
-        "Git"
+        "Git",
+        "GitHub"
       ],
       "programming_language": [
         "JavaScript",
         "Python",
         "spaCy"
       ],
+      "machine_learning": [
+        "Model Evaluation"
+      ],
       "database": [
         "MongoDB",
         "SQL"
+      ],
+      "soft_skill": [
+        "Problem Solving",
+        "Reporting"
+      ],
+      "legal": [
+        "ROC Filings"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(React.js→React(100%), Sentence- Transformers→Sentence Transformers(98%), classification→Classification Web(95%), React.js→React(100%), REST APIs→REST API(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Grad-CAM→Explainable AI(100%), React.js→React(100%), Sentence- Transformers→Sentence Transformers(98%), model evaluation→Model Evaluation(100%), classification→Classification Web(95%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Machine Learning Trainee",
         "company": "KVon Technologies",
-        "location": "Machine Learning Trainee",
+        "location": null,
         "start": "May 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 17,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "KVon Technologies – Machine Learning Trainee"
+        ],
+        "duration_months": 18,
         "bullets": [
           "Undergoing intensive ML training with real-world projects, focusing on supervised and unsupervised learning, model evaluation, and problem-solving using Python (NumPy, Pandas, Scikit-learn).",
           "Applied advanced statistical modeling and data analytics to solve business challenges.",
@@ -176,10 +221,13 @@
       {
         "role": "Web Developer",
         "company": "Zobox Protect Limited",
-        "location": "Web Developer",
+        "location": null,
         "start": "Dec 2024",
         "end": "Apr 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Zobox Protect Limited – Web Developer"
+        ],
         "duration_months": 5,
         "bullets": [
           "Contributed to full-stack development of responsive web solutions using MERN stack and Next.js, with real-time updates and secure authentication.",
@@ -194,10 +242,13 @@
       {
         "role": "Web Development Intern",
         "company": "Code Alpha",
-        "location": "Web Development Intern",
+        "location": null,
         "start": "Jun 2024",
         "end": "Sep 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Code Alpha – Web Development Intern"
+        ],
         "duration_months": 4,
         "bullets": [
           "Built a music web browser with playlist management and search, integrating React.js, JavaScript, and REST APIs.",
@@ -213,7 +264,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 2.2,
-      "total_months": 26,
+      "total_months": 27,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -226,8 +277,8 @@
         "degree_type": "10th",
         "degree_field": "CBSE",
         "institution": "CBSE",
-        "year": "2019",
-        "gpa": "86.89%",
+        "year": "2021 - 2025",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -236,9 +287,9 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": "CBSE",
-        "institution": "CBSE",
-        "year": "2021",
-        "gpa": "87%",
+        "institution": "IT Dr. Akhilesh Das Gupta Institute of Professional",
+        "year": "2019",
+        "gpa": "86.89%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -247,9 +298,9 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": "IT",
-        "institution": "IT Dr. Akhilesh Das Gupta Institute of Professional",
+        "institution": "Studies, GGSIPU",
         "year": "2021 - 2025",
-        "gpa": "91%",
+        "gpa": "87%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -259,7 +310,7 @@
         "degree_type": "diploma",
         "degree_field": "French",
         "institution": "University of Delhi College of Arts & Sciences",
-        "year": "2026",
+        "year": "2025",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ff9c6be0_Daksh_Khurana_Data_Science_segmented.txt",
-    "generated_at": "2026-09-30T07:00:55.345095+00:00",
+    "generated_at": "2026-10-07T09:29:01.296787+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,28 +50,38 @@
       "A/B Testing",
       "AWS Athena",
       "Azure",
+      "Collaboration",
       "Computer Vision",
       "Data Science",
       "GCP",
       "GPT",
+      "GPT-4",
       "Gemini",
       "Generative AI",
       "IntelliJ IDEA",
       "LLM",
       "LangChain",
+      "Leadership",
+      "LinkedIn",
       "Machine Learning",
       "Matplotlib",
+      "Microsoft Edge",
       "Microsoft Excel",
+      "Microsoft Fabric",
+      "Microsoft Teams",
       "NLP",
       "NumPy",
       "OpenAI API",
       "Pandas",
+      "Performance Optimization",
       "Plotly",
       "Power BI",
       "Prompt Engineering",
       "Python",
       "RAG",
+      "Reliability",
       "SQL",
+      "Solution Design",
       "Statistical Analysis",
       "Tableau",
       "YOLO",
@@ -89,6 +99,11 @@
         "Azure",
         "GCP"
       ],
+      "soft_skill": [
+        "Collaboration",
+        "Leadership",
+        "Reliability"
+      ],
       "ai_ml": [
         "Computer Vision",
         "Data Science",
@@ -103,6 +118,7 @@
         "scikit-learn"
       ],
       "genai": [
+        "GPT-4",
         "Gemini",
         "Generative AI",
         "LLM",
@@ -112,16 +128,28 @@
         "RAG"
       ],
       "dev_tool": [
-        "IntelliJ IDEA"
+        "IntelliJ IDEA",
+        "Microsoft Edge",
+        "Performance Optimization"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "cloud": [
+        "Microsoft Fabric"
       ],
       "programming_language": [
         "Python"
       ],
       "database": [
         "SQL"
+      ],
+      "architecture": [
+        "Solution Design"
       ]
     },
     "_confidence": 0.92,
@@ -130,12 +158,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Analyst (Promoted from Associate Analyst",
+        "role": "Noida, India",
         "company": "Info Edge India Ltd. (99acres",
         "location": null,
         "start": "Nov 2024",
         "end": "Feb 2026",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Info Edge India Ltd. (99acres)",
+          "Noida, India",
+          "Analyst (Promoted from Associate Analyst)"
+        ],
         "duration_months": 16,
         "bullets": [
           "GenAI and LLM Deployment: Engineered a media screening service using YOLO and GPT-4 to automate data quality filtering, achieving 99% accuracy and enhancing platform integrity.",
@@ -149,12 +182,17 @@
         "source": "experience"
       },
       {
-        "role": "Student Trainee Intern",
-        "company": "DRDO",
-        "location": null,
+        "role": "DRDO",
+        "company": "New Delhi",
+        "location": "India",
         "start": "Jan 2024",
         "end": "Jun 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "DRDO",
+          "New Delhi, India",
+          "Student Trainee Intern"
+        ],
         "duration_months": 6,
         "bullets": [
           "Statistical Research: Conducted deep-dive analysis on high-dimensionality reliability datasets to identify trends and improve system performance models."
@@ -165,12 +203,17 @@
         "source": "experience"
       },
       {
-        "role": "Data Analyst Intern",
-        "company": "Ministry of Heavy Industries (MHI",
-        "location": null,
+        "role": "Ministry of Heavy Industries (MHI",
+        "company": "New Delhi",
+        "location": "India",
         "start": "May 2023",
         "end": "Jun 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Ministry of Heavy Industries (MHI)",
+          "New Delhi, India",
+          "Data Analyst Intern"
+        ],
         "duration_months": 2,
         "bullets": [
           "Quantitative Solution Design: Developed ranking models for government schemes, translating complex policy requirements into manageable analytical frameworks."
@@ -211,10 +254,10 @@
         "year": "Sept 2021 - Jun 2024",
         "gpa": "9.1/10",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -225,7 +268,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.93
   },
   "_needs_review": false,
   "_review_queue": []

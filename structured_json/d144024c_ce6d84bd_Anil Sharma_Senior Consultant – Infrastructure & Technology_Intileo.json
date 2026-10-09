@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d144024c_ce6d84bd_Anil Sharma_Senior Consultant – Infrastructure & Technology_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:25.785824+00:00",
+    "generated_at": "2026-10-07T09:28:22.486065+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,44 +51,194 @@
   "skills": {
     "items": [
       "AWS",
+      "AWS CloudWatch",
       "AWS EC2",
+      "Aggregations",
+      "ArcSight",
+      "Azure Synapse Analytics",
+      "BCP",
+      "BFSI",
+      "BigQuery",
+      "Budgeting",
+      "Business Intelligence",
       "CEH",
+      "CIS Controls",
       "CISM",
       "CISSP",
+      "Capacity Management",
+      "Cash Flow Management",
+      "Communication",
+      "Cortex",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Data Backup",
       "Data Management",
+      "Disaster Recovery",
+      "Diversity & Inclusion",
+      "Endpoint Security",
+      "Factor Risk",
+      "Financial Analysis",
       "Generative AI",
+      "Hikvision",
+      "IBM QRadar",
       "ISMS",
       "IT Infrastructure Management",
       "IT Ops",
       "IT Risk Management",
       "IT Security",
+      "ITIL",
       "Identity Management",
+      "Import Export Code",
+      "Incident Management",
+      "Incident Response",
       "Information Security",
       "Leadership",
+      "Legal Compliance",
+      "Linux",
+      "MITRE ATT&CK",
+      "Maintenance Management",
+      "Microsoft Outlook",
+      "Microsoft Sentinel",
+      "Microsoft Teams",
+      "Microsoft Windows",
+      "Network Security",
+      "Operations Management",
+      "Performance Optimization",
+      "Predictive Modeling",
+      "Production Support",
+      "Project Management",
+      "Quality Assurance",
+      "Qualys",
       "RBI",
+      "Redshift",
+      "Regularization",
       "Regulatory Compliance",
+      "Reliability",
+      "Reporting",
+      "Resilience4j",
+      "Resource Planning",
+      "Risk Assessment",
       "Risk Management",
+      "Risk and Issue Management",
+      "Root Cause Analysis",
+      "SDLC",
       "SIEM",
+      "SLA Management",
+      "SOAR",
+      "SOC Operations",
       "Security Architecture",
+      "Security Awareness Training",
+      "Security Operations Center",
+      "Software Installation",
+      "Splunk",
+      "Splunk Enterprise",
       "Stakeholder Management",
+      "Technical Support",
+      "Threat Hunting",
+      "Threat Intelligence",
+      "UNIX",
       "Vendor Management",
-      "Vulnerability Management"
+      "Vulnerability Management",
+      "Vulnerability Remediation",
+      "WAF"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
-        "AWS EC2"
+        "AWS CloudWatch",
+        "AWS EC2",
+        "Splunk Enterprise"
+      ],
+      "database": [
+        "Aggregations",
+        "BigQuery",
+        "Redshift"
       ],
       "security_ops": [
+        "ArcSight",
         "CEH",
+        "CIS Controls",
         "CISM",
         "CISSP",
+        "Endpoint Security",
+        "Hikvision",
         "ISMS",
+        "Incident Response",
+        "MITRE ATT&CK",
+        "Microsoft Sentinel",
+        "Network Security",
         "SIEM",
-        "Security Architecture"
+        "SOAR",
+        "Security Architecture",
+        "Security Awareness Training",
+        "Security Operations Center",
+        "Splunk",
+        "Threat Hunting",
+        "Threat Intelligence",
+        "WAF"
+      ],
+      "cloud": [
+        "Azure Synapse Analytics"
+      ],
+      "operations": [
+        "BCP",
+        "Disaster Recovery",
+        "Import Export Code",
+        "Operations Management",
+        "Quality Assurance",
+        "Root Cause Analysis",
+        "Vendor Management"
+      ],
+      "domain": [
+        "BFSI",
+        "IT Ops",
+        "RBI"
+      ],
+      "finance_ops": [
+        "Budgeting",
+        "Cash Flow Management",
+        "Financial Analysis"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "devops": [
+        "Capacity Management"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Reliability",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "security": [
+        "Cortex",
+        "IBM QRadar",
+        "IT Risk Management",
+        "IT Security",
+        "Identity Management",
+        "Incident Management",
+        "Information Security",
+        "SOC Operations",
+        "Vulnerability Management"
+      ],
+      "sysadmin": [
+        "Data Backup",
+        "Software Installation"
       ],
       "productivity": [
-        "Data Management"
+        "Data Management",
+        "Microsoft Outlook",
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Diversity & Inclusion"
+      ],
+      "finance": [
+        "Factor Risk"
       ],
       "genai": [
         "Generative AI"
@@ -96,33 +246,59 @@
       "it_ops": [
         "IT Infrastructure Management"
       ],
-      "domain": [
-        "IT Ops",
-        "RBI"
-      ],
-      "security": [
-        "IT Risk Management",
-        "IT Security",
-        "Identity Management",
-        "Information Security",
-        "Vulnerability Management"
-      ],
-      "soft_skill": [
-        "Leadership",
-        "Stakeholder Management"
+      "management": [
+        "ITIL"
       ],
       "legal": [
+        "Legal Compliance",
         "Regulatory Compliance"
       ],
-      "project_mgmt": [
-        "Risk Management"
+      "os_system": [
+        "Linux",
+        "Microsoft Windows",
+        "UNIX"
       ],
-      "operations": [
-        "Vendor Management"
+      "engineering": [
+        "Maintenance Management"
+      ],
+      "dev_tool": [
+        "Performance Optimization"
+      ],
+      "ai_ml": [
+        "Predictive Modeling"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "project_mgmt": [
+        "Project Management",
+        "Resource Planning",
+        "Risk Management",
+        "Risk and Issue Management"
+      ],
+      "cybersecurity": [
+        "Qualys",
+        "Vulnerability Remediation"
+      ],
+      "data_science": [
+        "Regularization"
+      ],
+      "framework": [
+        "Resilience4j"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "support": [
+        "SLA Management",
+        "Technical Support"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Cism→CISM(100%), Cissp→CISSP(100%), regulatory compliance→Regulatory Compliance(100%), Generative→Generative AI(95%), risk management→Risk Management(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Cism→CISM(100%), Cissp→CISSP(100%), enterprise→Business Intelligence(95%), regulatory compliance→Legal Compliance(100%), Generative→Generative AI(95%)...)"
   },
   "experience": {
     "jobs": [
@@ -130,10 +306,15 @@
         "role": "Sr Manager",
         "company": "Infrastructure",
         "location": "Enterprise",
-        "start": "2022",
+        "start": "12-2022",
         "end": "Present",
         "method": "date_regex+title_dash_company",
-        "duration_months": 57,
+        "pre_date_header": [
+          "Sr Manager - Infrastructure, Enterprise",
+          "Security & Cybersecurity",
+          "Equifax Inc"
+        ],
+        "duration_months": 47,
         "bullets": [
           "Equifax Inc. is a leading financial services provider in India, delivering credit reports and scores to banks, BFSI institutions, and MFIs, operating under the regulatory framework of the Reserve Bank of India.",
           "Enterprise Security & Vulnerability",
@@ -181,13 +362,13 @@
         "source": "experience"
       },
       {
-        "role": "Manager - Information Security &",
+        "role": "subsidiary of Axis Bank, supporting finance",
         "company": "Worked with Axis Trustee Services Limited",
         "location": null,
-        "start": "2019",
-        "end": "2012",
-        "method": "year_range_short_regex",
-        "duration_months": 0,
+        "start": "11-2019",
+        "end": "12-2022",
+        "method": "date_regex",
+        "duration_months": 38,
         "bullets": [
           "Worked with Axis Trustee Services Limited, a subsidiary of Axis Bank, supporting finance domain platforms across debentures (NCDs), securitization, AIFs, REITs/InvITs, and escrow- based structured lending solutions.",
           "Defined and executed enterprise IT strategy and technology roadmap, aligning infrastructure, security, and application initiatives with business objectives in a regulated financial environment.",
@@ -224,13 +405,13 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "governance",
-        "location": "risk management",
-        "start": "2017",
-        "end": "2002",
-        "method": "year_range_short_regex+comma_company_location",
-        "duration_months": 0,
+        "role": "Sr Manager",
+        "company": "Infrastructure",
+        "location": "Enterprise",
+        "start": "02-2017",
+        "end": "02-2019",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 25,
         "bullets": [],
         "sub_sections": [
           "Key Responsibilities",
@@ -269,12 +450,16 @@
       },
       {
         "role": "IT Executive",
-        "company": "infrastructure",
-        "location": "data center",
-        "start": "2012",
-        "end": "2002",
-        "method": "year_range_short_regex+title_dict+comma_company_location",
-        "duration_months": 0,
+        "company": "Bharat Diamond bourse",
+        "location": null,
+        "start": "05-2012",
+        "end": "02-2017",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "IT Executive",
+          "Bharat Diamond bourse"
+        ],
+        "duration_months": 58,
         "bullets": [
           "projects for a high-security enterprise environment."
         ],
@@ -294,60 +479,25 @@
           "systems.",
           "Delivered business center IT infrastructure and",
           "managed end-to-end project execution, ensuring",
-          "on-time delivery.",
-          "Technical Support Engineer at Banking & ATM"
+          "on-time delivery."
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Technical Support Engineer at Banking & ATM",
-        "company": "Switch Operations",
+        "role": "Technical Support Engineer",
+        "company": "Banking & ATM Operations Tata Communications Transformation Services Provided end",
         "location": null,
-        "start": "2011",
-        "end": "2008",
-        "method": "year_range_short_regex",
-        "duration_months": 0,
-        "bullets": [
-          "public and private sector banks including State Bank of India, Bank of Baroda, Bank of India, IDBI bank, and other leading banks.",
-          "Bank, State Bank of India, and RAKBANK Dubai , ensuring seamless operations of ATM switch and card management systems."
+        "start": "01-2011",
+        "end": "08-2011",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Technical Support Engineer at Banking & ATM",
+          "Operations",
+          "Tata Communications Transformation Services"
         ],
-        "sub_sections": [
-          "Key Responsibilities",
-          "Delivered L1/L2 technical support for ATM",
-          "machines including software installation, OS/image",
-          "download, patch updates, and configuration",
-          "management.",
-          "Provided cash loading support and coordination",
-          "with cash management teams, ensuring ATM",
-          "uptime and operational continuity.",
-          "Performed troubleshooting of hardware, network,",
-          "and application issues, minimizing downtime and",
-          "improving service availability.",
-          "Managed incident handling, service reporting,",
-          "and SLA tracking, ensuring timely resolution and",
-          "compliance with banking standards.",
-          "Coordinated with cross-functional teams (field",
-          "engineers, vendors, and bank stakeholders) for",
-          "issue resolution and preventive maintenance.",
-          "Maintained strong client relationships with",
-          "banking partners, ensuring high service quality",
-          "and operational efficiency.",
-          "Technical Support Engineer at Banking & ATM"
-        ],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Operations",
-        "location": null,
-        "start": "2010",
-        "end": "2001",
-        "method": "year_range_short_regex",
-        "duration_months": 0,
+        "duration_months": 8,
         "bullets": [
           "public and private sector banks including State Bank of India, Bank of Baroda, Bank of India, IDBI bank, and other leading banks."
         ],
@@ -373,18 +523,64 @@
           "banking partners, ensuring high service quality",
           "and operational efficiency."
         ],
-        "confidence": 0.85,
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Technical Support Engineer",
+        "company": "Banking & ATM Operations Diebold Innovation Provided end",
+        "location": null,
+        "start": "02-2010",
+        "end": "01-2011",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Technical Support Engineer at Banking & ATM",
+          "Operations",
+          "Diebold Innovation"
+        ],
+        "duration_months": 12,
+        "bullets": [
+          "public and private sector banks including State Bank of India, Bank of Baroda, Bank of India, IDBI bank, and other leading banks."
+        ],
+        "sub_sections": [
+          "Key Responsibilities",
+          "Delivered L1/L2 technical support for ATM",
+          "machines including software installation, OS/image",
+          "download, patch updates, and configuration",
+          "management.",
+          "Provided cash loading support and coordination",
+          "with cash management teams, ensuring ATM",
+          "uptime and operational continuity.",
+          "Performed troubleshooting of hardware, network,",
+          "and application issues, minimizing downtime and",
+          "improving service availability.",
+          "Managed incident handling, service reporting,",
+          "and SLA tracking, ensuring timely resolution and",
+          "compliance with banking standards.",
+          "Coordinated with cross-functional teams (field",
+          "engineers, vendors, and bank stakeholders) for",
+          "issue resolution and preventive maintenance.",
+          "Maintained strong client relationships with",
+          "banking partners, ensuring high service quality",
+          "and operational efficiency."
+        ],
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Senior Engineer",
-        "company": "Digiphoto Entertainment Imaging",
+        "company": "Digiphoto Entertainment Imaging (DEI",
         "location": null,
-        "start": "2019",
-        "end": "2011",
-        "method": "year_range_short_regex+title_dict",
-        "duration_months": 0,
+        "start": "02-2019",
+        "end": "11-2019",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Engineer",
+          "Digiphoto Entertainment Imaging (DEI)"
+        ],
+        "duration_months": 10,
         "bullets": [
           "Planned and executed new projects, designing scalable network architectures to enhance system performance and reliability.",
           "Provided third-level technical support, resolving escalated issues promptly to minimize downtime and improve user satisfaction.",
@@ -397,15 +593,69 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "Switch Operations",
+        "company": "Opus software solution",
+        "location": null,
+        "start": "08-2011",
+        "end": "05-2012",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Switch Operations",
+          "Opus software solution"
+        ],
+        "duration_months": 10,
+        "bullets": [
+          "Bank, State Bank of India, and RAKBANK Dubai , ensuring seamless operations of ATM switch and card management systems."
+        ],
+        "sub_sections": [
+          "Key Responsibilities",
+          "Delivered L2/L3 application support for ATM",
+          "switch platforms, ensuring high availability and",
+          "minimal downtime in production environments.",
+          "Managed ATM card lifecycle operations",
+          "including card/PIN generation, card activation,",
+          "unblock requests, and transaction issue",
+          "resolution.",
+          "Investigated and resolved failed, incomplete, or",
+          "incorrect financial transactions, ensuring",
+          "customer satisfaction and compliance.",
+          "Generated banking MIS and regulatory reports",
+          "from backend systems to support operational",
+          "and audit requirements.",
+          "Performed application monitoring, incident",
+          "management, and root cause analysis (RCA) to",
+          "proactively address system issues.",
+          "Executed regular data backup (hot & cold",
+          "backups) on tape drives, maintaining secure",
+          "backup records and ensuring Disaster Recovery",
+          "(DR) readiness.",
+          "Coordinated data center operations, including",
+          "deployment support, system health checks, and",
+          "environment stability.",
+          "Collaborated with cross-functional teams",
+          "(network, database, and infrastructure) for issue",
+          "resolution and system optimization.",
+          "Managed database transaction validation and",
+          "reconciliation for banking applications.",
+          "ISO/IEC 27001-2022 Lead Auditor Issued",
+          "by Exemplar Global",
+          "AWS Certified Security Specialty Issued by",
+          "Amazon Web Services"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.8,
-      "total_months": 57,
-      "overlapping_periods_merged": 0
+      "total_years": 16.8,
+      "total_months": 201,
+      "overlapping_periods_merged": 7
     },
-    "_confidence": 0.94
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -414,20 +664,20 @@
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "Sikkim Manipal University (SMU)",
+        "institution": null,
         "year": "2017",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "B.A - Economics",
         "degree_name": "B.A.",
         "degree_type": "bachelors",
         "degree_field": "Economics",
-        "institution": "Mumbai University",
+        "institution": "Sikkim Manipal University (SMU)",
         "year": "2014",
-        "gpa": "65%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -436,20 +686,20 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": null,
+        "institution": "Mumbai University",
         "year": "2011",
-        "gpa": "45",
+        "gpa": "65%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       },
       {
         "degree": "Class X",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": null,
+        "institution": "Mumbai University",
         "year": "2000",
-        "gpa": "55",
+        "gpa": "45",
         "_needs_review": false,
         "_confidence": 0.8
       }
@@ -533,7 +783,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
@@ -543,8 +793,13 @@
       "reason": "incomplete_fields"
     },
     {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
       "field": "experience.jobs[5]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

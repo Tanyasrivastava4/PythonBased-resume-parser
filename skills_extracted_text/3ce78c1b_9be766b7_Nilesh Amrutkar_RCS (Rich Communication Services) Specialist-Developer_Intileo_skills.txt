@@ -1,0 +1,47 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/3ce78c1b_9be766b7_Nilesh Amrutkar_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Project Management, Process and Compliance Exp –
+• Agile Methodologies: Scrum, Kanban
+•
+• Strategic Management: Risk Management,
+•
+Performance Management
+•
+• People Management: Hiring, Team Mgmt.
+•
+Technology and Tools Exposure –
+• Technology : 2G, 3G, 4G Core, 5G Core Architecture,
+IMS, VoLTE, Unified Communication, RCS, HSS, NGN
+• Protocols : VOIP, SIP, DIAMETER, MSRP, RTP, SS7,
+•
+SMPP, TCP, UDP, SCTP,HTTP
+• Telecom Cloud : nFV, Docker, Container
+
+── Extraction Results ──
+Skills found   : 27
+Confidence     : 0.92
+Time           : 641.84 ms
+Method         : flashtext_skills_section | fuzzy(DIAMETER→Diameter(100%), Customer Satisfaction kk→CSAT(95%), People Management→HR Management(100%), telecom→Telecom(100%), teams→Microsoft Teams(100%)...)
+
+── All Skills (27) ──
+Agile, Azure, CSAT, Change Management, Collaboration, Communication, Diameter, Docker, HR Management, KPI, Kanban, Load Balancer, Microsoft Teams, NER, PDD, PMP, Performance Management, Project Management, Recruitment, Resource Planning, Responsible AI, Risk Management, Scrum, Team Leadership, Telecom, UNIX, Vendor Management
+
+── By Category ──
+  ai_ml                          ['NER']
+  business_analysis              ['KPI']
+  cloud_infra                    ['Azure']
+  customer_service               ['CSAT']
+  devops                         ['Docker', 'Load Balancer']
+  domain                         ['Telecom']
+  genai                          ['Responsible AI']
+  hr                             ['HR Management', 'Performance Management', 'Recruitment']
+  operations                     ['Vendor Management']
+  os_system                      ['UNIX']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Agile', 'Change Management', 'Kanban', 'PMP', 'Project Management', 'Resource Planning', 'Risk Management', 'Scrum']
+  rpa                            ['PDD']
+  security                       ['Diameter']
+  soft_skill                     ['Collaboration', 'Communication', 'Team Leadership']

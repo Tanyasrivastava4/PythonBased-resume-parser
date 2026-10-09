@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "682dda82_bc973316_Mamta Aggrawal_MIS and Data Analytics _Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:05.087156+00:00",
+    "generated_at": "2026-10-07T09:26:43.751866+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -57,14 +57,15 @@
       "LinkedIn",
       "Looker",
       "MIS Reporting",
+      "MS Access",
       "MS Office",
-      "Microsoft Access",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Teams",
       "Microsoft Visual Basic",
       "Pivot Tables",
       "Power BI",
+      "Power Pivot",
       "Power Query",
       "Python",
       "Reporting",
@@ -111,18 +112,23 @@
         "MIS Reporting"
       ],
       "database": [
-        "Microsoft Access",
+        "MS Access",
         "SQL"
       ],
       "dev_tool": [
         "Microsoft Visual Basic"
       ],
+      "analytics": [
+        "Power Pivot"
+      ],
       "programming_language": [
-        "Python",
-        "VBA"
+        "Python"
       ],
       "soft_skill": [
         "Reporting"
+      ],
+      "programming": [
+        "VBA"
       ],
       "office": [
         "VLOOKUP"
@@ -132,19 +138,23 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Excel→Microsoft Excel(100%), Ms Access→Microsoft Access(100%), Ms Office→MS Office(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Excel→Microsoft Excel(100%), Ms Access→MS Access(100%), Ms Office→MS Office(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "| Ga Future Educore Pvt Ltd",
-        "company": " Generate and maintain accurate MIS reports and interactive dashboards (daily, weekly, monthly, quarterly) of various business models",
-        "location": "Ga Future Educore Pvt Ltd",
+        "role": "Data Analyst",
+        "company": "Ga Future Educore Pvt Ltd",
+        "location": null,
         "start": "Aug 2023",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 38,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Data Analyst | Ga Future Educore Pvt Ltd"
+        ],
+        "duration_months": 39,
         "bullets": [
+          " Generate and maintain accurate MIS reports and interactive dashboards (daily, weekly, monthly, quarterly) of various business models",
           " Develop company dashboards and reports using Power BI and Excel.",
           " Utilize advanced Excel and Google Sheets functions (e.g., IF, VLOOKUP, INDEX-MATCH, Pivot Tables, Macros, Power Query, Power Pivot) for efficient data analysis.",
           " Conduct quarterly business analysis, including performance comparison, growth, and trend building.",
@@ -155,8 +165,8 @@
           " Collaborate with teams to gather data and provide timely updates to management."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -166,6 +176,9 @@
         "start": "Dec 2021",
         "end": "July 2023",
         "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "MIS/ Data Analyst | Jaisteel Facilitation Pvt Ltd."
+        ],
         "duration_months": 20,
         "bullets": [
           " Generate MIS reports in accurate and timely manner.",
@@ -197,16 +210,16 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.8,
-      "total_months": 58,
+      "total_years": 4.9,
+      "total_months": 59,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "Graduated B.Com from Delhi University",
+        "degree": "Graduated B.Com",
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
@@ -221,7 +234,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "CBSE with",
+        "institution": "CBSE",
         "year": "2021",
         "gpa": "89.4%",
         "_needs_review": false,
@@ -232,7 +245,7 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "CBSE with",
+        "institution": "CBSE",
         "year": "2019",
         "gpa": "84.7%",
         "_needs_review": false,
@@ -321,15 +334,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.62,

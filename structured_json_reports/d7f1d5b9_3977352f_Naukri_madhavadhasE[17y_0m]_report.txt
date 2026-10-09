@@ -2,7 +2,7 @@
 FILE: d7f1d5b9_3977352f_Naukri_madhavadhasE[17y_0m]_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'certifications', 'declaration', 'early_career', 'education', 'experience', 'header', 'skills', 'summary']
-Overall conf.  : 0.86
+Overall conf.  : 0.85
 Needs review   : True
 
 CONTACT
@@ -19,17 +19,18 @@ SUMMARY
 Seeking a challenging position that allows me to utilize myskills in credit control, customer relations, and leadership while
 contributing to the company’s success
 
-SKILLS (10) — confidence 0.92
+SKILLS (24) — confidence 0.92
 ----------------------------------------------------------------------
-Data Analysis, Leadership, MS Office, Mechanical Engineering, Microsoft Excel, Microsoft Windows, Negotiation, Pivot Tables, Problem Solving, VLOOKUP
+Agency Management, Auditing, Coroutines Flow, Customer Relationship Management, DRA, Data Analysis, Dunning Letters, Leadership, MS Office, Mechanical Engineering, Microsoft Excel, Microsoft Teams, Microsoft Windows, Negotiation, Pivot Tables, Problem Solving, REACH, Recruitment, SAND, SSO, Team Coordination, Territory Management, Turnaround Time, VLOOKUP
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.98
-Total experience: 12.3 years (148 months, 0 overlaps merged)
+EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.92
+Total experience: 16.4 years (197 months, 0 overlaps merged)
 ----------------------------------------------------------------------
   1. HDFC Bank Limited (Manager @ Collection) from (May 2019 - Present) [conf 0.98, review=False]
-  2. Asst Manager – Retention)from  (Chennai , Vellore &Trichy @ BhartiAirtel Ltd (July 2013 - November 2015) [conf 0.98, review=False]
-  3. Territory Sales Manager – Rural Prepaid) from  (Vellore @ BhartiAirtel Ltd (September 2011 - June 2013) [conf 0.98, review=False]
-  4. SivanesanCompany (Officer – Sales and Marketing) From @ ● Premier Marketing (September 2006 - April 2007) [conf 0.98, review=False]
+  2. BhartiAirtel Ltd (Asst Manager @ Retention)from (July 2013 - November 2015) [conf 0.98, review=False]
+  3. Sales Manager @ Rural Prepaid) from (September 2011 - June 2013) [conf 0.98, review=False]
+  4. Retention Executive @ BhartiAirtel Ltd (September 2007 - August 2011) [conf 0.98, review=False]
+  5. Best Executive @ Made analysis about competitor products and service. (September 2006 - April 2007) [conf 0.7, review=True]
 
 EDUCATION (3) — confidence 0.85
 ----------------------------------------------------------------------
@@ -54,8 +55,9 @@ ACHIEVEMENTS (5) — confidence 0.85
   • Done project Successfully for High Arpu Customer – RED CARPET.
   • Awarded for Successful implementation of Outstation Customer Activation Process.
 
-REVIEW QUEUE (7 flagged fields)
+REVIEW QUEUE (8 flagged fields)
 ----------------------------------------------------------------------
+  experience.jobs[4]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.6  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields
   certifications.items[1]             conf=0.6  reason=incomplete_fields

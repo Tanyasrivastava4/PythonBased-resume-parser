@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "95305deb_Avinash Suryamani Gupta_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:45.379449+00:00",
+    "generated_at": "2026-10-07T09:27:29.200858+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,53 +46,121 @@
   "summary": "Chartered Accountant with experience in statutory audit, financial due diligence, financial reporting and internal controls across\nlogistics, fintech and energy sectors. Skilled in financial statement analysis, audit procedures, management reporting and risk\nassessment, with exposure to large enterprises including a ₹900+ Cr turnover company and a ₹500+ Cr listed entity.",
   "skills": {
     "items": [
+      "Accounting",
+      "Audit & Compliance",
+      "Auditing",
+      "CARO 2020",
       "ClearEDGE",
+      "ClearTax",
+      "Communication",
+      "Consolidated Financial Statements",
+      "Customs & International Trade",
       "Due Diligence",
+      "Financial Analysis",
       "Financial Modelling",
       "Financial Reporting",
       "Financial Statement Analysis",
       "Fintech",
+      "Fixed Assets Management",
+      "GST",
+      "Income Tax Scrutiny",
+      "Ind AS Transition",
       "Internal Controls Testing",
+      "Internal Financial Controls",
+      "Legal Compliance",
       "LinkedIn",
       "Logistics",
+      "MIS Reporting",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
+      "NAT",
+      "Procurement",
+      "R",
+      "Ratio Analysis",
+      "Reporting",
       "Risk Assessment",
+      "Risk Control Matrix",
       "Statutory Audit",
-      "Tally"
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Tax Litigation",
+      "Taxation",
+      "Virtual CFO"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Financial Analysis",
+        "Financial Reporting",
+        "Internal Controls Testing",
+        "Ratio Analysis",
+        "Statutory Audit",
+        "Taxation",
+        "Virtual CFO"
+      ],
+      "domain": [
+        "Audit & Compliance",
+        "Fintech"
+      ],
+      "compliance": [
+        "CARO 2020",
+        "Risk Assessment"
+      ],
       "database": [
         "ClearEDGE"
+      ],
+      "accounting": [
+        "ClearTax",
+        "Consolidated Financial Statements",
+        "Fixed Assets Management",
+        "GST",
+        "Ind AS Transition",
+        "Risk Control Matrix"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reporting"
+      ],
+      "legal": [
+        "Customs & International Trade",
+        "Legal Compliance"
       ],
       "finance": [
         "Due Diligence",
         "Financial Modelling",
-        "Financial Statement Analysis"
+        "Financial Statement Analysis",
+        "Internal Financial Controls"
       ],
-      "finance_ops": [
-        "Financial Reporting",
-        "Internal Controls Testing",
-        "Statutory Audit",
-        "Tally"
-      ],
-      "domain": [
-        "Fintech"
+      "taxation": [
+        "Income Tax Scrutiny",
+        "Tax Litigation"
       ],
       "web_framework": [
         "LinkedIn"
       ],
       "operations": [
-        "Logistics"
+        "Logistics",
+        "Procurement"
+      ],
+      "banking": [
+        "MIS Reporting"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
-      "compliance": [
-        "Risk Assessment"
+      "networking": [
+        "NAT"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "accounting_finance": [
+        "Tally ERP 9",
+        "Tax Auditing"
       ]
     },
     "_confidence": 0.92,
@@ -101,12 +169,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Assistant",
+        "role": "Mulund, Mumbai",
         "company": "V. R. SABNIS AND ASSOCIATES",
-        "location": "Articled",
+        "location": "Articled Assistant",
         "start": "Feb 2023",
         "end": "Feb 2026",
-        "method": "date_regex+comma_company_role_split",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "V. R. SABNIS AND ASSOCIATES, Articled Assistant",
+          "Mulund, Mumbai",
+          "(Leading CA Firm in Mulund with 900+ Clientele and 75+ Employees)"
+        ],
         "duration_months": 37,
         "bullets": [
           "Audit & Risk Advisory (A) Statutory & Tax Audit – Logistics and Customs House Agency Sector",

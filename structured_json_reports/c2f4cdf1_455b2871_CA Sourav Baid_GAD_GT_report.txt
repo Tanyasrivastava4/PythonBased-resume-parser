@@ -2,7 +2,7 @@
 FILE: c2f4cdf1_455b2871_CA Sourav Baid_GAD_GT_segmented.txt
 ======================================================================
 Sections found : ['education', 'experience', 'header', 'interests', 'projects', 'skills']
-Overall conf.  : 0.82
+Overall conf.  : 0.84
 Needs review   : True
 
 CONTACT
@@ -14,34 +14,32 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (11) — confidence 0.92
+SKILLS (35) — confidence 0.92
 ----------------------------------------------------------------------
-Accounting, Adaptability, Collaboration, Communication, Leadership, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Problem Solving, Tally, Time Management
+Account Reconciliation, Accounting, Accounting Standards, Accounts Payable, Accounts Receivable, Adaptability, CARO Reporting, Collaboration, Communication, Company Law, CompuOffice, Consolidated Financial Statements, Financial Reporting, Financial Statement Analysis, Form 3CA-3CD, GST, GST Return Filing, Income Tax Return, Leadership, LinkedIn, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Problem Solving, Reporting, Schedule III Compliance, Statutory Audit, TCS, TDS, Tally ERP 9, Tax Auditing, Taxation, Time Management, Trend Analysis, Vouching
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.7
-Total experience: 7.8 years (93 months, 2 overlaps merged)
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.77
+Total experience: 17.4 years (209 months, 2 overlaps merged)
 ----------------------------------------------------------------------
-  1. (Atrusted CA firm recognized for its accuracy, integrity, and client-focused financial expertise @ None (Oct’18 - Apr’19) [conf 0.85, review=True]
-  2. Article Assistant @ V. Damani & Co.(A Leading Chartered Accountancy firm with of trusted service and a robust portfolio of corporate and individual clients) Statutory Audit (Apr’19 - Oct‘21) [conf 0.7, review=True]
-  3. Article Assistant @ Prepared financial statements for diverse firms with turnover ranging from ₹5 Lakhs to ₹120 Crores, in compliance with applicable accounting standards, and analyzed financial data to support strategic business decisions. (2016 - 2020) [conf 0.55, review=True]
-  4. Audit Executive at LMV & Associates @ old or new tax regime, tailored to corporate and individual profiles. WORK EXPERIENCE (Dec’23 - Oct’25) [conf 0.7, review=True]
+  1. Article Assistant @ JP& Associates (Atrusted CA firm recognized for its accuracy, integrity, and client-focused financial expertise (Oct’18 - Apr’19) [conf 0.7, review=True]
+  2. Article Assistant @ V. Damani & Co.(A Leading Chartered Accountancy firm with of trusted service and a robust portfolio of corporate and individual clients) Statutory Audit (Oct‘21 - 35 Years) [conf 0.7, review=True]
+  3. per AS & Schedule III of Companies Act, 2013 @ Ledger Scrutiny, TDS compliances on Expenses, Identification of Prior period items (2016 - 2020) [conf 0.7, review=True]
+  4. Audit Executive at LMV & Associates @ WORK EXPERIENCE (Dec’23 - Oct’25) [conf 0.98, review=False]
 
 EDUCATION (5) — confidence 0.71
 ----------------------------------------------------------------------
-  1. CA Foundation — None (2025) [conf 0.65, review=False]
-  2. CA Intermediate — None (None) [conf 0.65, review=False]
-  3. CA Final — None (None) [conf 0.65, review=False]
+  1. CA Foundation — CBSE (2025) [conf 0.65, review=False]
+  2. CA Intermediate — CBSE (None) [conf 0.65, review=False]
+  3. CA Final — CBSE (None) [conf 0.65, review=False]
   4. B.Com — .,MGS University (None) [conf 0.8, review=False]
   5. 10th — CBSE (None) [conf 0.8, review=False]
 
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (6 flagged fields)
+REVIEW QUEUE (4 flagged fields)
 ----------------------------------------------------------------------
-  experience                          conf=0.7  reason=low_confidence
-  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
   experience.jobs[1]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.55  reason=incomplete_fields
-  experience.jobs[3]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
   education                           conf=0.71  reason=low_confidence

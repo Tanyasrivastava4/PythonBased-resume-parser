@@ -1,0 +1,47 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/afcdcfdc_74b841c6_Sachin Chitranshi_Management Consultant_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Automation Tools: Automation Anywhere, UiPath, Blue Prism, PowerAutomate and Agentic AI
+• Programming & Development: .NET, SharePoint and Microsoft Dynamics CRM
+• Project and Program Management: Agile Methodologies, Risk and Issue Management, Project Governance, JIRA,
+Confluence and DevOps
+• Process Documents: Project Charter, Solution Design Documents (SDD), Technical Specifications (TDD), Test Plans, SOP,
+PDD and BRD etc.
+• Others: ABBYY and SQL etc.
+
+── Extraction Results ──
+Skills found   : 50
+Confidence     : 0.92
+Time           : 482.89 ms
+Method         : flashtext_skills_section | fuzzy(JIRA→Jira(100%), PowerAutomate→Microsoft Power Automate(100%), resourcing→Procurement(89%), risk management→Risk Management(100%), solution design→Solution Design(100%)...)
+
+── All Skills (50) ──
+.NET, ABBYY, Accounts Payable, Accounts Receivable, Agentic AI, Agile, Automation Anywhere, BRD, Blue Prism, Budgeting, Business Strategy, Collaboration, Confluence, Cross-functional Collaboration, Customer Experience, Customer Service, Data Analytics, Data Science, DevOps, Digital Transformation, Help Desk, Jira, Leadership, Microsoft Dynamics CRM, Microsoft Power Automate, Microsoft Teams, Operations Management, Order Management, PDD, Pre-Sales Support, Procurement, Project Charter, Project Governance, Python, Regulatory Compliance, Requirements Gathering, Retail & Corporate Banking, Risk Management, Risk and Issue Management, SOP, SQL, Scrum, ServiceNow, SharePoint, Solution Design, Supply Chain, TDD, Telecom, Test Plans, UiPath
+
+── By Category ──
+  ai_ml                          ['Data Science']
+  architecture                   ['Solution Design']
+  business_analysis              ['BRD', 'Requirements Gathering']
+  client_mgmt                    ['Customer Experience', 'Customer Service']
+  collaboration                  ['Confluence']
+  consulting                     ['Business Strategy', 'Digital Transformation']
+  crm                            ['Microsoft Dynamics CRM']
+  data_science                   ['Data Analytics']
+  database                       ['SQL']
+  devops                         ['DevOps']
+  domain                         ['Retail & Corporate Banking', 'Supply Chain', 'Telecom']
+  finance_ops                    ['Accounts Payable', 'Accounts Receivable', 'Budgeting']
+  genai                          ['Agentic AI']
+  integration                    ['ServiceNow', 'SharePoint']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Operations Management', 'Order Management', 'Procurement', 'SOP']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['.NET', 'Python']
+  project_mgmt                   ['Agile', 'Jira', 'Project Charter', 'Project Governance', 'Risk Management', 'Risk and Issue Management', 'Scrum']
+  rpa                            ['ABBYY', 'Automation Anywhere', 'Blue Prism', 'Microsoft Power Automate', 'PDD', 'UiPath']
+  sales                          ['Pre-Sales Support']
+  soft_skill                     ['Collaboration', 'Cross-functional Collaboration', 'Leadership']
+  support                        ['Help Desk']
+  testing                        ['TDD', 'Test Plans']

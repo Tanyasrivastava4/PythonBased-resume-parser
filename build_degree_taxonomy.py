@@ -58,8 +58,23 @@ TAXONOMY = {
     "B.E.": {"category": "bachelors", "aliases": [
         "b.e.", "be", "b.e", "bachelor of engineering",
     ]},
+    "Instrumentation Engineering": {"category": "bachelors", "aliases": [
+        "instrumentation engineering", "b.e. instrumentation", "b.tech instrumentation",
+    ]},
+    "Mechanical Engineering": {"category": "bachelors", "aliases": [
+        "mechanical engineering", "b.e. mechanical", "b.tech mechanical",
+    ]},
+    "Electrical Engineering": {"category": "bachelors", "aliases": [
+        "electrical engineering", "b.e. electrical", "b.tech electrical",
+    ]},
+    "Civil Engineering": {"category": "bachelors", "aliases": [
+        "civil engineering", "b.e. civil", "b.tech civil",
+    ]},
+    "Chemical Engineering": {"category": "bachelors", "aliases": [
+        "chemical engineering", "b.e. chemical", "b.tech chemical",
+    ]},
     "B.Sc": {"category": "bachelors", "aliases": [
-        "b.sc", "bsc", "b sc", "b.s.", "bs", "b s", "bachelor of science",
+        "b.sc", "bsc", "b sc", "b.s.", "bs", "b s", "bachelor of science", "b.s.c.", "b.s.c", "bsc.", "b.s.c. computer", "bsc computer", "b.sc computer",
     ]},
     "B.A.": {"category": "bachelors", "aliases": [
         "b.a.", "ba", "b.a", "bachelor of arts",
@@ -112,7 +127,7 @@ TAXONOMY = {
         "m.tech", "mtech", "m tech", "master of technology",
     ]},
     "M.E.": {"category": "masters", "aliases": [
-        "m.e.", "me", "m.e", "master of engineering",
+        "m.e.", "m.e", "master of engineering",
     ]},
     "M.Sc": {"category": "masters", "aliases": [
         "m.sc", "msc", "m sc", "master of science",

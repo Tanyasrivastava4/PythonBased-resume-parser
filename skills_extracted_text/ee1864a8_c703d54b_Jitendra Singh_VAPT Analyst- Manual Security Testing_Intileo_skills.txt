@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/ee1864a8_c703d54b_Jitendra Singh_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Automation Testing Tools
+Burp Suite, Acunetix, Wireshark, Soap UI, Postman, Emulator, Genymotion, Nox, MOBSF, VCG, Nmap, SQLMAP,
+Nikto, Nessus, NMAP, IBM AppScan
+• Application Tools
+Burp Suite, Netsparker, Acunetix, CSRF Tester, Directory Buster, Nmap, SQLMAP.
+• Network Tools
+Nessus, NMAP
+• Mobile App Tools
+Genymotion, MOBSF, Dozer, dex2jar, apktool, adbshell
+• Web Service Tools
+Rest API, Postman, SOAP UI
+• Operating System
+Windows, Linux
+• Technology Experience (Security Assessment)
+.Net, PHP, Java, CMS Based, Drupal, Joomla
+
+── Extraction Results ──
+Skills found   : 43
+Confidence     : 0.92
+Time           : 171.38 ms
+Method         : flashtext_skills_section | fuzzy(Soap UI→SoapUI(100%), Emulator→Emulators(94%), MOBSF→MobSF(100%), NMAP→Nmap(100%), SQLMAP.→SQLMAP(92%)...)
+
+── All Skills (43) ──
+.NET, Acunetix, Analytical Thinking, Apktool, Burp Suite, CEH, CERT-In, CSRF Tester, Code Reviews, DAST, Directory Buster, Dozer, Drupal, Emulators, Genymotion, IBM AppScan, Java, Joomla, Linux, Manual Testing, Metasploit, Microsoft Windows, MobSF, Nessus, Netsparker, Nikto, Nmap, OWASP Top 10, PHP, Penetration Testing, Performance Optimization, Postman, Problem Solving, REST API, SAST, SQLMAP, Security Assessment, SoapUI, VAPT, Vulnerability Assessment, Wireshark, adb shell, dex2jar
+
+── By Category ──
+  cloud_infra                    ['Wireshark']
+  dev_tool                       ['Code Reviews', 'Genymotion', 'Performance Optimization', 'Postman', 'SoapUI', 'adb shell']
+  os_system                      ['Emulators', 'Linux', 'Microsoft Windows']
+  programming_language           ['.NET', 'Java', 'PHP']
+  security                       ['Apktool', 'CSRF Tester', 'Directory Buster', 'Dozer', 'IBM AppScan', 'Metasploit', 'Netsparker', 'Nikto', 'Nmap', 'SQLMAP', 'dex2jar']
+  security_ops                   ['Acunetix', 'Burp Suite', 'CEH', 'CERT-In', 'DAST', 'MobSF', 'Nessus', 'OWASP Top 10', 'Penetration Testing', 'SAST', 'Security Assessment', 'VAPT', 'Vulnerability Assessment']
+  soft_skill                     ['Analytical Thinking', 'Problem Solving']
+  testing                        ['Manual Testing']
+  web_framework                  ['Drupal', 'Joomla', 'REST API']

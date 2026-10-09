@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/24b7ae1a_c70e9fe5_Naukri_SaurabhKumarDubey[16y_0m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+▶ People/Project Management: Experienced in managing teams and driving successful project
+outcomes.
+▶ Excellent Coordination & Communication: Strong at managing team collaboration and conveying
+ideas clearly.
+▶ Mentoring & Presentation: Skilled in mentoring teams and delivering impactful presentations.
+▶ Problem-Solving: Effective in diagnosing and resolving complex issues.
+
+── Extraction Results ──
+Skills found   : 18
+Confidence     : 0.92
+Time           : 78.77 ms
+Method         : flashtext_skills_section | fuzzy(teams→Microsoft Teams(100%), Communication:→Communication(96%), mentoring→Mentoring(100%), teams→Microsoft Teams(100%), Problem-Solving:→Problem Solving(97%))
+
+── All Skills (18) ──
+Azure, Collaboration, Communication, F5 BIG-IP, Firewall, FortiGate, Leadership, Mentoring, Microsoft Teams, Network Monitoring Tools, Network Security, Networking, Palo Alto Networks, Problem Solving, Project Management, SolarWinds, Team Leadership, iOS
+
+── By Category ──
+  biz_dev                        ['Networking']
+  cloud_infra                    ['Azure']
+  devops                         ['Network Monitoring Tools']
+  mobile                         ['iOS']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Project Management']
+  security                       ['SolarWinds']
+  security_ops                   ['F5 BIG-IP', 'Firewall', 'FortiGate', 'Network Security', 'Palo Alto Networks']
+  soft_skill                     ['Collaboration', 'Communication', 'Leadership', 'Mentoring', 'Problem Solving', 'Team Leadership']

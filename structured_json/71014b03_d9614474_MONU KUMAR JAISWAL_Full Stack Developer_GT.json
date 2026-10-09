@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "71014b03_d9614474_MONU KUMAR JAISWAL_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:13.074737+00:00",
+    "generated_at": "2026-10-07T09:26:49.195703+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,12 +48,14 @@
   "summary": "LANGUAGES\nKNOW BootStrap\nE-Commerce Website & App\nLinkedIn",
   "skills": {
     "items": [
+      ".NET",
       "Angular",
       "Azure",
       "Azure DevOps",
       "Bootstrap",
       "CSS3",
       "Collaboration",
+      "Creativity",
       "Cross-functional Collaboration",
       "DevOps",
       "Docker",
@@ -72,16 +74,25 @@
       "LinkedIn",
       "Microsoft Teams",
       "MongoDB",
+      "MySQL",
       "Node.js",
       "PHP",
       "Python",
       "REST",
       "React",
       "Spring Boot",
+      "Team Collaboration",
       "Vault",
       "jQuery"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "Python"
+      ],
       "web_framework": [
         "Angular",
         "Bootstrap",
@@ -108,14 +119,17 @@
       ],
       "soft_skill": [
         "Collaboration",
-        "Cross-functional Collaboration"
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Team Collaboration"
       ],
       "retail": [
         "E-commerce"
       ],
       "database": [
         "Firebase",
-        "MongoDB"
+        "MongoDB",
+        "MySQL"
       ],
       "mobile": [
         "Flutter"
@@ -123,12 +137,6 @@
       "dev_tool": [
         "GitHub",
         "GitLab"
-      ],
-      "programming_language": [
-        "Java",
-        "JavaScript",
-        "PHP",
-        "Python"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -143,16 +151,15 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "Ekal Gramothan Foundation (Trust) Digi Locker Development Collaboration - Digi",
         "company": "NB2B IT SOLUTION Pvt. Ltd",
-        "location": "10",
-        "start": "2021",
-        "end": "2005",
-        "method": "year_range_short_regex+company_suffix_match",
-        "duration_months": 0,
+        "location": null,
+        "start": "10/2021",
+        "end": "05-2025",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 44,
         "bullets": [
-          "Ekal Gramothan Foundation (Trust) Digi Locker Development Collaboration - Digi Locker has File Vault System of Government of",
-          "- 89869 rishabh.developer.info@gmail.com Links: https://www.linkedin.com/in/rishabh-jaiswal-7673b5360/ https://github.com/RISHABH6209 https://www.facebook.com/profile.php?id=100063532458561 https://www.instagram.com/rishabhkr.jaiswal?utm_source=qr&igsh=b215MGg0b2YxM2Nx ────────────────────────────────────────────────────────────"
+          "Ekal Gramothan Foundation (Trust) Digi Locker Development Collaboration - Digi Locker has File Vault System of Government of"
         ],
         "sub_sections": [
           "Company specializing in",
@@ -163,18 +170,34 @@
           "web and mobile",
           "Gramothan Foundation (Trust)"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Technology used: SpringBoot, ReactJs, MYSQL, CSS",
+        "company": "Net Banking Application",
+        "location": null,
+        "start": "04/2020",
+        "end": "05-2022",
+        "method": "date_regex+multiline_company_above_role",
+        "duration_months": 26,
+        "bullets": [
+          "- 89869 rishabh.developer.info@gmail.com Links: https://www.linkedin.com/in/rishabh-jaiswal-7673b5360/ https://github.com/RISHABH6209 https://www.facebook.com/profile.php?id=100063532458561 https://www.instagram.com/rishabhkr.jaiswal?utm_source=qr&igsh=b215MGg0b2YxM2Nx ────────────────────────────────────────────────────────────"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 0.0,
-      "total_months": 0,
-      "overlapping_periods_merged": 0
+      "total_years": 5.2,
+      "total_months": 62,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -252,15 +275,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

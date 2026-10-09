@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f4a36fe4_66e7f5da_DOC-20251218-WA0001._segmented.txt",
-    "generated_at": "2026-09-30T07:00:48.420744+00:00",
+    "generated_at": "2026-10-07T09:28:52.562852+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -48,17 +48,30 @@
   "summary": "Data professional with 3+ years of experience in data analysis, visualization, ETL, and data modeling. Skilled in SQL, Python,\nPower BI, Excel, and PySpark for transforming raw data into actionable insights and building scalable data pipelines. Passionate\nabout leveraging analytics and engineering skills to deliver efficient, end-to-end data solutions that drive business decisions.",
   "skills": {
     "items": [
+      "Business Intelligence",
+      "Conditional Formatting",
       "Creative Writing",
+      "Customer Retention",
       "DAX",
       "Data Analysis",
+      "Data Cleaning",
+      "Data Collection",
       "Data Modeling",
       "Data Pipeline",
+      "Data Validation",
       "Data Visualization",
       "ETL",
+      "GitHub",
+      "Joins",
       "KPI",
+      "Leadership",
+      "LinkedIn",
+      "MIS Reporting",
       "MSSQL",
+      "Make",
       "Matplotlib",
       "Microsoft Excel",
+      "Microsoft Teams",
       "MySQL",
       "NumPy",
       "Pandas",
@@ -66,6 +79,7 @@
       "PostgreSQL",
       "Power BI",
       "Power Query",
+      "Professional Ethics",
       "PySpark",
       "Python",
       "Reporting",
@@ -73,11 +87,27 @@
       "Seaborn",
       "Spreadsheets",
       "Tableau",
-      "Time Series Forecasting"
+      "Team Leadership",
+      "Time Series Forecasting",
+      "Tutoring",
+      "UAT",
+      "VLOOKUP",
+      "XLOOKUP"
     ],
     "by_category": {
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
+      ],
+      "software": [
+        "Conditional Formatting",
+        "XLOOKUP"
+      ],
       "content": [
         "Creative Writing"
+      ],
+      "client_mgmt": [
+        "Customer Retention"
       ],
       "data_science": [
         "DAX",
@@ -89,18 +119,38 @@
         "Tableau"
       ],
       "data_engineering": [
+        "Data Cleaning",
         "Data Pipeline",
+        "Data Validation",
         "ETL"
       ],
-      "business_analysis": [
-        "KPI"
+      "research": [
+        "Data Collection"
+      ],
+      "dev_tool": [
+        "GitHub"
       ],
       "database": [
+        "Joins",
         "MSSQL",
         "MySQL",
         "PostgreSQL",
         "PySpark",
         "SQL"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Reporting",
+        "Team Leadership"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "rpa": [
+        "Make"
       ],
       "ai_ml": [
         "Matplotlib",
@@ -111,14 +161,24 @@
       ],
       "productivity": [
         "Microsoft Excel",
+        "Microsoft Teams",
         "Pivot Tables",
         "Spreadsheets"
+      ],
+      "soft_skills": [
+        "Professional Ethics"
       ],
       "programming_language": [
         "Python"
       ],
-      "soft_skill": [
-        "Reporting"
+      "education_domain": [
+        "Tutoring"
+      ],
+      "testing": [
+        "UAT"
+      ],
+      "office": [
+        "VLOOKUP"
       ]
     },
     "_confidence": 0.92,
@@ -132,8 +192,11 @@
         "location": "India",
         "start": "Oct 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 36,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Analyst"
+        ],
+        "duration_months": 37,
         "bullets": [
           "Proficient in SQL for data extraction, transformation, and analysis.",
           "Strong understanding of data ethics and privacy regulations, ensuring compliance and ethical data usage. Proficient in using data visualization tools such as Power Bi.",
@@ -155,7 +218,10 @@
         "location": "India",
         "start": "Nov 2021",
         "end": "Sep 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "MIS Analyst"
+        ],
         "duration_months": 23,
         "bullets": [
           "Automated daily and weekly MIS reporting processes using Advanced Excel, SQL, and Power BI, improving reporting accuracy and enabling real-time tracking of key sales and operational KPIs.",
@@ -173,7 +239,10 @@
         "location": "India",
         "start": "Aug 2019",
         "end": "Oct 2021",
-        "method": "date_regex+date_prefix_title+next_line_company+inherited_company",
+        "method": "date_regex+multiline_role_above_company+inherited_company",
+        "pre_date_header": [
+          "Senior Sales Executive"
+        ],
         "duration_months": 27,
         "bullets": [
           "Led a team of 10+ telesales professionals, driving sales growth through data-driven performance tracking and coaching.",
@@ -189,7 +258,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 7.2,
-      "total_months": 86,
+      "total_months": 87,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.75
@@ -201,7 +270,7 @@
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Big Data Analytics (PG-DBDA)",
-        "institution": "Big Data Analytics PG-DBDA Dr. A.P.J. Abdul Kalam Technical University Lucknow",
+        "institution": "Big Data Analytics PG-DBDA Dr. A.P.J. Abdul Kalam Technical University",
         "year": "Aug 2015 - Jun 2019",
         "gpa": null,
         "_needs_review": false,

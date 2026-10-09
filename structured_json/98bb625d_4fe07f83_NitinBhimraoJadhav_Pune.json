@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "98bb625d_4fe07f83_NitinBhimraoJadhav_Pune_segmented.txt",
-    "generated_at": "2026-09-30T06:59:48.658907+00:00",
+    "generated_at": "2026-10-07T09:27:33.691895+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -53,18 +53,20 @@
       "B2B Sales",
       "Business Development",
       "Channel Sales",
-      "Client Relationship Management",
       "Cold Calling",
+      "Customer Relationship Management",
       "Inventory Management",
       "Logistics",
       "Make",
       "Market Expansion",
       "Microsoft Teams",
+      "Oscilloscope",
       "Payments",
       "Presentation Skills",
       "Procurement",
       "Project Management",
       "Project Sales",
+      "Promotional Execution",
       "Reporting",
       "Sales Management",
       "Scheme",
@@ -78,15 +80,14 @@
         "B2B Sales",
         "Channel Sales",
         "Cold Calling",
+        "Customer Relationship Management",
         "Project Sales",
+        "Promotional Execution",
         "Sales Management"
       ],
       "biz_dev": [
         "Business Development",
         "Market Expansion"
-      ],
-      "client_mgmt": [
-        "Client Relationship Management"
       ],
       "operations": [
         "Inventory Management",
@@ -98,6 +99,9 @@
       ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "hardware": [
+        "Oscilloscope"
       ],
       "domain": [
         "Payments",
@@ -129,17 +133,34 @@
   "experience": {
     "jobs": [
       {
-        "role": "Project Sales Manager Duration",
+        "role": "A) Aludecor Lamination Pvt. Ltd.",
         "company": "A) Aludecor Lamination Pvt. Ltd",
-        "location": "Project Sales Manager Duration",
+        "location": null,
         "start": "Sept 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 25,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "A) Aludecor Lamination Pvt. Ltd. – Project Sales Manager"
+        ],
+        "duration_months": 26,
         "bullets": [
-          "Sales & Strategy:",
+          "Ensure 100% compliance of DSO and follow credit management policy."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "1) Sales & Strategy",
+        "company": "Plan and execute action plans for specific projects.",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "title_dict",
+        "duration_months": 0,
+        "bullets": [
           "Develop and implement business strategies to achieve sales objectives for projects.",
-          "Plan and execute action plans for specific projects.",
           "Manage the sales pipeline and identify new business opportunities.",
           "Client & Relationship Management:",
           "Build and maintain relationships with key clients, including architects, builders, and fabricators.",
@@ -154,30 +175,62 @@
           "Track project progress and provide regular reports on performance and pipeline."
         ],
         "sub_sections": [],
+        "confidence": 0.5,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "1. To meet the influencers in projects and get out products specified: Architects",
+        "company": "B) Merino Industries Ltd",
+        "location": null,
+        "start": "Sept 2023",
+        "end": "Sept 2024",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "• Offer after-sales support and assist with marketing activities.",
+          "B) Merino Industries Ltd – Assistant Manager (Project Sales)"
+        ],
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Assistant Manager (Project Sales) Duration",
-        "company": "B) Merino Industries Ltd",
-        "location": "Assistant Manager  Duration",
-        "start": "Sept 2023",
-        "end": "Sept 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 13,
+        "role": "their FABs, and get Merino listed in architect BOQ, as well as specified in the drawings",
+        "company": "3. Talk about our products",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "comma_company_role_split",
+        "duration_months": 0,
         "bullets": [
-          "To meet the influencers in projects and get out products specified: Architects / Interior Designers / PMCs Contractors etc.",
-          "Ensure Sales Volumes are achieved.",
-          "Talk about our products, their FABs, and get Merino listed in architect BOQ, as well as specified in the drawings.",
           "Meet Contractors and close the loop, where architects have specified.",
           "To ensure 3 times of target, pipeline has been generated.",
           "Meet clients and close the loop on pricing, and ensure specified product goes to site.",
-          "3-4 productive visits and 8-10 calls per day.",
-          "Ensure that all visit data is captured live data in CRM.",
-          "2 business development in a month (New Client).",
-          "Up Selling and Product Mix.",
-          "Ensure 100% compliance of DSO and follow credit management policy."
+          "3-4 productive visits and 8-10 calls per day."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "As Senior Sales Officer",
+        "company": "C) NCL Industries Ltd",
+        "location": null,
+        "start": "Nov.2020",
+        "end": "Sept 23",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "C) NCL Industries Ltd (Bison Panel) – As Senior Sales Officer"
+        ],
+        "duration_months": 0,
+        "bullets": [
+          "Conduct the promotional activities",
+          "Make the cold calls/ Follow up calls",
+          "Identify the new Distributors/ Dealers/ Sub Dealers"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -185,19 +238,14 @@
         "source": "experience"
       },
       {
-        "role": "Bison Panel) – As Senior Sales Officer Duration:   and 9 months",
-        "company": "C) NCL Industries Ltd",
+        "role": "4) Achieving sales targets",
+        "company": "Collect Receivables",
         "location": null,
-        "start": "Nov.2020",
-        "end": "Sept 23",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "start": null,
+        "end": null,
+        "method": "title_dict",
         "duration_months": 0,
         "bullets": [
-          "Conduct the promotional activities",
-          "Make the cold calls/ Follow up calls",
-          "Identify the new Distributors/ Dealers/ Sub Dealers",
-          "Achieving sales targets",
-          "Collect Receivables",
           "Meet the Builders, Contractors, Architects, Govt. Departments and Fabricators to explain about product and applications",
           "Cover the assigned areas / Territory",
           "Identify the new projects",
@@ -206,17 +254,17 @@
           "Preparing the reports and sending regularly to managers Highlights:"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.8,
         "needs_review": false,
         "source": "experience"
       },
       {
         "role": null,
-        "company": "C) NCL Industries Ltd",
+        "company": "Played pivotal role in achieving 100% target in assigned territory and achieved 27% growth in FY",
         "location": null,
         "start": "2022",
         "end": "2023",
-        "method": "year_range_short_regex+inherited_company",
+        "method": "year_range_short_regex",
         "duration_months": 13,
         "bullets": [
           "Efficiently introduced bison board in untapped cities like Nanded & Latur and generated sales.",
@@ -225,66 +273,221 @@
           "Increased onsite fabricators meets and generated the sales of higher thickness"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
+        "confidence": 0.55,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Duration –   and 7 months",
+        "role": "Duration –   and 7 months",
+        "company": "Key Role & Responsibilities",
         "location": null,
         "start": "Mar.2015",
         "end": "Oct 20",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 0,
         "bullets": [
-          "Formulating the strategies & reaching out to the unexplored market segment / customers group for business expansion.",
-          "Generating sales leads organically, as well as through customer referrals, Internet research, and cold calling for various accounts",
+          "Formulating the strategies & reaching out to the unexplored market segment / customers group for business expansion."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "2) Generating sales leads organically, as well as through customer referrals, Internet research, and cold calling",
+        "company": "for various accounts",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [
           "Identifying and developing potential customers for achieving business volumes consistently & profitably",
-          "Prepare quotations, follow-up, negotiating & finalizing orders",
-          "Generating business from existing accounts and achieving profitability and sales growth",
-          "Mapping client’s needs & providing best product to suit their requirements",
-          "Building healthy business relations with clients and ensuring maximum customer satisfaction",
-          "Regular monitoring of sales figures and implementation of sales strategies",
-          "Coordinates own visit schedule with the assigned technical representative",
-          "Collection, dissemination and analysis of customer feedback and information",
-          "Coordinating with back end sales coordinator for payment processing and closure. Monitor outstanding amounts of customers",
+          "Prepare quotations, follow-up, negotiating & finalizing orders"
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "5) Generating business from existing accounts and achieving profitability and sales growth",
+        "company": "Mapping client’s needs & providing best product to suit their requirements",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "title_dict",
+        "duration_months": 0,
+        "bullets": [
+          "Building healthy business relations with clients and ensuring maximum customer satisfaction"
+        ],
+        "sub_sections": [],
+        "confidence": 0.5,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "8) Regular monitoring of sales figures and implementation of sales strategies",
+        "company": "Coordinates own visit schedule with the assigned technical representative",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "title_dict",
+        "duration_months": 0,
+        "bullets": [
+          "Collection, dissemination and analysis of customer feedback and information"
+        ],
+        "sub_sections": [],
+        "confidence": 0.5,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "11) Coordinating with back end sales coordinator for payment processing and closure. Monitor outstanding",
+        "company": "amounts of customers",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [
           "Coordination with commercial and plant logistics teams for timely deliveries and handling quality concerns",
-          "Resolving customer complaints (product related) & apprising technical team ensuring prompt resolution with stipulated TAT",
-          "Taking successful trials of existing and new products (of both liquid and powder) at customers end.",
-          "Achieving individual sales target via the maximization of sales opportunities. Highlights:",
+          "Resolving customer complaints (product related) & apprising technical team ensuring prompt resolution with stipulated TAT"
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "15) Achieving individual sales target via the maximization of sales opportunities",
+        "company": "Highlights",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [
           "Efficiently introduced new products in tippers and trailers and furniture industry in Maharashtra state and generated sales.",
           "Played pivotal role in achieving zero PM sales to 50 lacs. PM sales in 2 years for powder paints",
           "Provide technical support to both liquid paints & powder paints customers for resolving their surface preparation and paint application related problems."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "As Sales & Marketing Executive",
+        "company": "E) Zigma Paints Pvt. Ltd",
+        "location": null,
+        "start": "Jul.2012",
+        "end": "Feb.2015",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "E) Zigma Paints Pvt. Ltd. – As Sales & Marketing Executive"
+        ],
+        "duration_months": 32,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "1) Ensure achievement of sales targets for the period and take measures to increase the market share / sales",
+        "company": "Prepare and implement strategy for network development, coverage and increase market share (WOM &",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "none",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.5,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "As Sales & Marketing Executive Duration",
-        "company": "E) Zigma Paints Pvt. Ltd",
-        "location": "As Sales & Marketing Executive Duration –   and 7 months",
-        "start": "Jul.2012",
-        "end": "Feb.2015",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 32,
+        "role": "3) Actively soliciting and closing sales through sourcing and developing new leads",
+        "company": "cold calls and face-to-face",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "comma_title_company_split",
+        "duration_months": 0,
         "bullets": [
-          "Ensure achievement of sales targets for the period and take measures to increase the market share / sales targets in the assigned geographical area.",
-          "Prepare and implement strategy for network development, coverage and increase market share (WOM & DOM).",
-          "Actively soliciting and closing sales through sourcing and developing new leads, cold calls and face-to-face meetings.",
-          "Selection & appointment of appropriate distributors.",
-          "Working on lead and generation of business through dealers, application contractors.",
+          "meetings.",
+          "Selection & appointment of appropriate distributors."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "5) Working on lead and generation of business through dealers",
+        "company": "application contractors",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "comma_title_company_split",
+        "duration_months": 0,
+        "bullets": [
           "Tracks and maintains a strong pipeline of project opportunities within region.",
-          "Conducting meetings of the applicators, contractor, sub-dealer, direct dealer, distributor and influencers.",
-          "Making contract, regularly visiting clients, creating customers for channel sales, getting their feedback, understanding their problems and preparing solutions accordingly.",
-          "Maintenance of data on stock availability at distributors to cater to stock shortage of sub-dealers. Monitoring and replenishment of stocks in coordination with supply chain team and distributors.",
+          "Conducting meetings of the applicators, contractor, sub-dealer, direct dealer, distributor and influencers."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "regularly visiting clients, creating customers for channel sales, getting their feedback",
+        "company": "8) Making contract",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "comma_company_role_split",
+        "duration_months": 0,
+        "bullets": [
+          "understanding their problems and preparing solutions accordingly."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "9) Maintenance of data on stock availability",
+        "company": "distributors",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "at_split",
+        "duration_months": 0,
+        "bullets": [
+          "and replenishment of stocks in coordination with supply chain team and distributors.",
           "Informing the customers about the various schemes and offers of the company, reminding and encouraging them to achieve scheme targets by presenting final discounts and prices.",
           "Ensuring payment compliance of customers through regular follow-up and contract.",
           "Able to identify market situation, opportunities, gaps, customer requirements, competitor actions etc. and identify & communicate tactical / strategic action plans.",
-          "Timely & effective resolution to customer complaints.",
-          "Being aware of market trends and competitor schemes and prices, informing the senior team members about the same, preparing counter-measures accordingly.",
+          "Timely & effective resolution to customer complaints."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "informing the senior team members",
+        "company": "14) Being aware of market trends and competitor schemes and prices",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "comma_company_role_split",
+        "duration_months": 0,
+        "bullets": [
+          "about the same, preparing counter-measures accordingly.",
           "Closely coordinate with logistics team, distributors / dealers ensuring timely delivery of materials. Highlights:",
           "Created new channel sales network for both liquid paints and powder paints, appointment of stockiest, CFA and align retail channel in western and south region.",
           "Created trust in the network (quality & in time supply)",
@@ -292,23 +495,23 @@
           "Enhanced the stock management at market & factory."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.5,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.8,
-      "total_months": 82,
+      "total_years": 6.9,
+      "total_months": 83,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.91
+    "_confidence": 0.76
   },
   "education": {
     "entries": [
       {
-        "degree": "A. MBA (Marketing) from Matoshri College of Management (Pune University) Nashik in 2012 with 50%",
+        "degree": "A. MBA (Marketing)",
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": "Marketing",
@@ -319,7 +522,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "B.Com (IRTD) From B.Y.K. College of Commerce (Pune University) Nashik in 2009 with 52.53%",
+        "degree": "B.Com (IRTD)",
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": "IRTD",
@@ -409,18 +612,38 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
+      "field": "experience.jobs[1]",
+      "confidence": 0.5,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
+      "field": "experience.jobs[6]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[9]",
+      "confidence": 0.5,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[10]",
+      "confidence": 0.5,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[14]",
+      "confidence": 0.5,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[19]",
+      "confidence": 0.5,
       "reason": "incomplete_fields"
     },
     {

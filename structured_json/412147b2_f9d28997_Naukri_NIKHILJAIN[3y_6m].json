@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "412147b2_f9d28997_Naukri_NIKHILJAIN[3y_6m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:26.345789+00:00",
+    "generated_at": "2026-10-07T10:31:25.052797+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,27 +48,111 @@
   "summary": null,
   "skills": {
     "items": [
+      "A/B Testing",
+      "ANN",
+      "Analyze",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Management",
+      "Data Preprocessing",
+      "Data Science",
+      "Decision Making",
       "Deep Learning",
+      "Disaster Recovery",
+      "Exploratory Data Analysis",
+      "Feature Engineering",
+      "GitHub",
+      "Google Workspace",
+      "Hyperparameter Tuning",
+      "LLM",
+      "LinkedIn",
       "Machine Learning",
       "Matplotlib",
+      "Mechanical Engineering",
+      "Microsoft Edge",
+      "Microsoft Excel",
+      "Model Optimization",
+      "NER",
       "NLP",
+      "NLTK",
       "NumPy",
+      "Operations Management",
       "Pandas",
+      "Performance Optimization",
+      "Pitch Scripts",
+      "Procurement",
+      "Professional Tax",
       "Python",
+      "Reliability",
       "SQL",
+      "Seaborn",
       "Statistics",
+      "Video Production",
       "scikit-learn",
       "spaCy"
     ],
     "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Analyze",
+        "Data Analysis",
+        "Exploratory Data Analysis",
+        "Feature Engineering",
+        "Hyperparameter Tuning",
+        "Model Optimization",
+        "Statistics"
+      ],
       "ai_ml": [
+        "ANN",
+        "Data Science",
         "Deep Learning",
         "Machine Learning",
         "Matplotlib",
+        "NER",
         "NLP",
+        "NLTK",
         "NumPy",
         "Pandas",
+        "Seaborn",
         "scikit-learn"
+      ],
+      "data_engineering": [
+        "Data Cleaning",
+        "Data Preprocessing"
+      ],
+      "productivity": [
+        "Data Management",
+        "Google Workspace",
+        "Microsoft Excel"
+      ],
+      "soft_skill": [
+        "Decision Making",
+        "Reliability"
+      ],
+      "operations": [
+        "Disaster Recovery",
+        "Operations Management",
+        "Procurement"
+      ],
+      "dev_tool": [
+        "GitHub",
+        "Microsoft Edge",
+        "Performance Optimization"
+      ],
+      "genai": [
+        "LLM"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "sales": [
+        "Pitch Scripts"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "programming_language": [
         "Python",
@@ -77,12 +161,12 @@
       "database": [
         "SQL"
       ],
-      "data_science": [
-        "Statistics"
+      "media": [
+        "Video Production"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), SpaCy→spaCy(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Scikit-learn→scikit-learn(100%), SpaCy→spaCy(100%), Professional→Professional Tax(95%))"
   },
   "experience": {
     "jobs": [
@@ -92,8 +176,8 @@
         "location": null,
         "start": "Oct 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 24,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 25,
         "bullets": [
           "Project: Video Encoder",
           "Problem Statement: The project addresses the need for high-quality video annotations for segmentation and masking tasks, focusing on Delta information observable only through video analysis. Accurate subject tracking and caption generation are critical for enhancing AI model performance.",
@@ -121,15 +205,14 @@
         "source": "experience"
       },
       {
-        "role": "Data Annotator Intern",
-        "company": "Macgence Technologies Pvt. Ltd.: Data Annotator Intern",
+        "role": "Macgence Technologies Pvt. Ltd.: Data Annotator Intern",
+        "company": "Project: Named Entity",
         "location": null,
         "start": "April 2024",
         "end": "Sep2024",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 6,
         "bullets": [
-          "Project: Named Entity",
           "Project: Named Entity Recognition",
           "Problem Statement: Analysis a state-of-the-art Named Entity Recognition (NER) Datasets utilizing Spacy and NLTK libraries to accurately identify and classify named entities in unstructured text data, enabling efficient data processing and informed decision-making across industries.",
           "Objective: Execute a comprehensive data annotation strategy to deliver high-quality datasets that significantly improve the performance and reliability of NER models used in advanced NLP applications.",
@@ -151,8 +234,8 @@
           "Effective Data Handling: Learned strategies for efficient data preprocessing and annotation, ensuring high- quality training data and robust model performance."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -174,7 +257,8 @@
           "Project Overview: Create a project that focuses customer behavior based transactional data",
           "Objective: Conducting EDA to derive valuable insights on customer preferences, purchasing patterns, and behavior",
           "Key Responsibilities: <> Perform EDA Analysis <> Data Cleaning",
-          "Challenges & Learnings:"
+          "Challenges & Learnings: Challenges Faced in the Project Identifying Areas for Continued Analysis Handling Missing Data, implemented robust data imputation techniques to address gaps",
+          "Achievements: Unearthing the Strategic Insight be the Cornerstone for informing Business Decision Making"
         ],
         "sub_sections": [
           "<> Data Distribution",
@@ -187,46 +271,54 @@
         "source": "experience"
       },
       {
-        "role": "Purchase Executive",
-        "company": "Challenges Faced in the Project Identifying Areas for Continued Analysis",
+        "role": "Innodata India Pvt. Ltd.: Senior Associate – AI & LLM Practice: Oct 2024",
+        "company": "Till Date",
         "location": null,
         "start": "Jan 2022",
         "end": "April 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 16,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.7,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Senior Technician",
-        "company": "Rico Fluidtronics Pvt. Ltd.: Senior Technician",
+        "role": "Rico Fluidtronics Pvt. Ltd.: Senior Technician",
+        "company": "Video Analysis: Reviewing content to identify subjects for tracking and masking",
         "location": null,
         "start": "Jan 2021",
         "end": "Jan 2022",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 13,
-        "bullets": [],
+        "bullets": [
+          "Collaboration: Working with the FAIR Perception team to refine the annotation process",
+          "Quality Assurance: Ensuring data accuracy and consistency",
+          "Annotation Execution: Applying masks and generating action captions",
+          "Data Annotation: Accurately annotated text data to train the NER model, ensuring consistent labelling of named entities consider for effective learning.",
+          "Data Management: Accurate labeling, categorizing and tagging of datasets",
+          "Quality Assurance: Ensuring data accuracy and consistency",
+          "Technical Skills: Basic understanding of Python ,SQL and other relevant languages or tools"
+        ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.1,
-      "total_months": 61,
+      "total_years": 5.2,
+      "total_months": 62,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.87
+    "_confidence": 0.9
   },
   "education": {
     "entries": [
       {
-        "degree": "Purchase Executive and 10 months in Data Science, Data Annotator and AI) with B.Tech from Dr.A.P.J. Abdul Kalam Technical",
+        "degree": "Purchase Executive and 10 months in Data Science, Data Annotator and AI) with B.Tech",
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,
@@ -290,12 +382,12 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
+      "field": "experience.jobs[4]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

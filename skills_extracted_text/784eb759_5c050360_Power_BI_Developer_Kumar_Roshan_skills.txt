@@ -1,0 +1,47 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/784eb759_5c050360_Power_BI_Developer_Kumar_Roshan_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+BI & Visualization: Power BI (Advanced), Power BI Service, Report Builder, Power BI Gateway, Data Visualization
+Best Practices
+Data Modeling: Semantic Data Modeling, Advanced DAX, Performance Tuning, Query Optimization, Power Pivot
+ETL & Transformation: Power Query (M), Dataflow Gen1/Gen2 (Fabric), SSIS,SSRS Azure Data Factory,
+Databricks (Foundational)
+Databases & Querying: SQL (Intermediate), MySQL, Azure Synapse (Foundational), SSMS, Data Cleaning &
+Validation
+Automation & Governance: Power Automate, Co-Pilot Studio, Microsoft Purview, Deployment Pipelines, RLS,
+Workspace Access Control, UAT Support
+Tools & Productivity: GitHub Integration, Excel (Advanced), Jira, Microsoft Copilot, ChatGPT, Claude, Gemini
+(DAX/SQL refinement), SharePoint
+
+── Extraction Results ──
+Skills found   : 46
+Confidence     : 0.92
+Time           : 520.19 ms
+Method         : flashtext_skills_section | fuzzy(Performance Tuning→Performance Optimization(100%), Excel→Microsoft Excel(100%), ChatGPT→GPT(100%), logistics→Logistics(100%), Semantic Data Modeling→Semantic Modeling(95%)...)
+
+── All Skills (46) ──
+Active Directory, Agile, Apache Spark, Azure, Business Development, Business Intelligence, Claude, Cross-functional Collaboration, DAX, Dashboard Development, Data Analytics, Data Cleaning, Data Modeling, Data Visualization, Databricks, E-commerce, ETL, GPT, Gemini, GitHub, GitHub Copilot, Google, Jira, LinkedIn, Logistics, Microsoft Azure Data Factory, Microsoft Excel, Microsoft Power Automate, MySQL, Performance Optimization, Pivot Tables, Power BI, Power Platform, Power Query, Query Optimization, REST API, Reporting, Row Level Security, SQL, SSIS, SSMS, Semantic Modeling, SharePoint, Stakeholder Management, Technical Writing, UAT
+
+── By Category ──
+  ai_ml                          ['GPT']
+  biz_dev                        ['Business Development']
+  cloud_infra                    ['Azure', 'Microsoft Azure Data Factory']
+  content                        ['Technical Writing']
+  data_engineering               ['Apache Spark', 'Data Cleaning', 'Databricks', 'ETL', 'SSIS']
+  data_science                   ['Business Intelligence', 'DAX', 'Dashboard Development', 'Data Analytics', 'Data Modeling', 'Data Visualization', 'Power BI', 'Power Query', 'Row Level Security', 'Semantic Modeling']
+  database                       ['Google', 'MySQL', 'Query Optimization', 'SQL']
+  dev_tool                       ['GitHub', 'Performance Optimization', 'SSMS']
+  genai                          ['Claude', 'Gemini', 'GitHub Copilot']
+  integration                    ['SharePoint']
+  low_code                       ['Power Platform']
+  operations                     ['Logistics']
+  productivity                   ['Microsoft Excel', 'Pivot Tables']
+  project_mgmt                   ['Agile', 'Jira']
+  retail                         ['E-commerce']
+  rpa                            ['Microsoft Power Automate']
+  security_ops                   ['Active Directory']
+  soft_skill                     ['Cross-functional Collaboration', 'Reporting', 'Stakeholder Management']
+  testing                        ['UAT']
+  web_framework                  ['LinkedIn', 'REST API']

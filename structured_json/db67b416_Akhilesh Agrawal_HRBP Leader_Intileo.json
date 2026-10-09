@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "db67b416_Akhilesh Agrawal_HRBP Leader_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:31.630143+00:00",
+    "generated_at": "2026-10-07T09:28:29.670862+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -50,11 +50,14 @@
       "Boosting",
       "Competency Mapping",
       "Employee Engagement",
+      "Employee Lifecycle Management",
       "HR Management",
       "HRIS",
+      "HRMS",
       "Labour Law",
       "Leadership",
       "Learning & Development",
+      "Legal Compliance",
       "LinkedIn",
       "Microsoft Teams",
       "Onboarding",
@@ -63,6 +66,7 @@
       "Procurement",
       "Project Management",
       "Recruitment",
+      "Reliability",
       "Reporting",
       "Talent Management",
       "Vendor Management"
@@ -74,8 +78,10 @@
       "hr": [
         "Competency Mapping",
         "Employee Engagement",
+        "Employee Lifecycle Management",
         "HR Management",
         "HRIS",
+        "HRMS",
         "Labour Law",
         "Learning & Development",
         "Onboarding",
@@ -86,7 +92,11 @@
       ],
       "soft_skill": [
         "Leadership",
+        "Reliability",
         "Reporting"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "web_framework": [
         "LinkedIn"
@@ -103,37 +113,42 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
-        "role": "DGM-HR (Lead HR) DeHaat (Green Agrevolution Pvt Ltd",
-        "company": "Gurgaon",
+        "role": "Lead HR",
+        "company": "Strategic Policy Development: Led the review and revamp of core employee policies (Performance Incentive, Transfer, Notice Period & Leave Policy etc.) to improve competitiveness and align with business expansion.",
         "location": null,
         "start": "09/2021",
         "end": "06/2025",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+paren_title",
+        "pre_date_header": [
+          "DGM-HR (Lead HR)"
+        ],
         "duration_months": 46,
         "bullets": [
-          "Strategic Policy Development: Led the review and revamp of core employee policies (Performance Incentive, Transfer, Notice Period & Leave Policy etc.) to improve competitiveness and align with business expansion.",
           "HR Technology & Data Foundation: Guided the implementation of a new HRMS System, which included migrating and cleaning cluttered legacy data to establish reliable, structured HR information and reporting.",
           "Performance & Talent Infrastructure: Introduced a data-driven performance culture by implementing Role- wise KRAs and Quarterly Performance Check-ins, utilizing the resulting data to drive targeted Learning & Development (L&D) planning.",
           "Organizational Development & Clarity: Managed Role Dimensioning and collaborated on creating defined Role-wise Career Paths to enhance organizational structure and support talent retention strategies.",
           "Strategic Project Management and Employee Benefits: Managed and executed complex, company-wide HR initiatives and deep-dive projects, including the \"Great Place to Work\" certification process, Employee Pulse Surveys, and Focus Group Discussions (FGDs), to actively shape culture and retention strategies. Organize companywide employee engagement events across all company locations in India."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Manager",
-        "company": "HR  Bigbasket",
-        "location": "Delhi /NCR",
+        "company": "HR",
+        "location": null,
         "start": "10/2018",
         "end": "09/2021",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Manager – HR (Regional Head – HR)"
+        ],
         "duration_months": 36,
         "bullets": [
           "Scale and Setup: Led HR setup and scaling for the Delhi NCR region from 0 to 45+ hubs, working directly with Business, Sales, and Operations Heads to define manpower needs.",
@@ -149,11 +164,14 @@
       },
       {
         "role": "Senior Manager",
-        "company": "HR  SastaSundar Healthbuddy Ltd",
+        "company": "HR",
         "location": null,
         "start": "08/2017",
         "end": "09/2018",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Senior Manager – HR (Zonal Head – HR)"
+        ],
         "duration_months": 14,
         "bullets": [
           "Building structural Foundation: Framed HR policies and operational workflows aligned with leadership vision, facilitating a smooth regional launch.",
@@ -168,11 +186,14 @@
       },
       {
         "role": "Deputy Manager",
-        "company": "HR Bigbasket",
-        "location": "Delhi, North India",
+        "company": "HR",
+        "location": null,
         "start": "02/2016",
         "end": "08/2017",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Deputy Manager – HR"
+        ],
         "duration_months": 19,
         "bullets": [
           "Led hiring efforts and managed the manpower budget for a new regional setup.",
@@ -188,11 +209,14 @@
       },
       {
         "role": "Senior Executive",
-        "company": "HR  Big Bazaar",
-        "location": "Jaipur",
+        "company": "HR",
+        "location": null,
         "start": "01/2011",
         "end": "02/2016",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Senior Executive – HR (Cluster Manager- HR)"
+        ],
         "duration_months": 62,
         "bullets": [
           "Recruitment: Handled high-volume, bulk recruitment strategies to staff all new store openings in Rajasthan and manage consistent attrition/replacement needs across the cluster.",
@@ -207,11 +231,14 @@
       },
       {
         "role": "Assistant Manager",
-        "company": "HR  Reliance Power Ltd",
-        "location": "Shahjahanpur",
+        "company": "HR",
+        "location": null,
         "start": "06/2008",
         "end": "09/2010",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Assistant Manager - HR (Plant - HR)"
+        ],
         "duration_months": 28,
         "bullets": [
           "Supported the implementation of corporate HR strategies, managing end-to-end HR operations, manpower planning, recruitment, and employee relations.",
@@ -231,7 +258,7 @@
       "total_months": 202,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.98
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -274,8 +301,14 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.94
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

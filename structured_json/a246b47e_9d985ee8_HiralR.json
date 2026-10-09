@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a246b47e_9d985ee8_HiralR_segmented.txt",
-    "generated_at": "2026-09-30T06:59:52.902529+00:00",
+    "generated_at": "2026-10-07T09:27:38.959726+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,38 +47,78 @@
   "summary": "Accounts & Finance professional with 8+ years of experience in GST compliance, indirect\ntaxation, statutory filings, reconciliations, audits, and financial reporting across multiple\nstates. Proven expertise in managing end-to-end indirect tax processes, audit coordination\nand financial auditing.Strong analytical skills with hands-on experience in multiple software.\nCurrently working as Manager - Finance & Accounts in a large NBFC environment.",
   "skills": {
     "items": [
+      "Account Management",
+      "Account Reconciliation",
       "Accounting",
       "Analytical Thinking",
       "Auditing",
       "C++",
+      "Cross-functional Collaboration",
+      "E-Way Bill",
       "ERP",
+      "Financial Auditing",
       "Financial Reporting",
       "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-2B",
+      "GSTR-3B",
+      "GSTR-9",
       "HTML5",
+      "Indirect Taxation",
+      "Input Tax Credit",
+      "Inventory Management",
       "Java",
+      "LinkedIn",
+      "MIS Reporting",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
+      "NBFC",
+      "Oracle Database",
+      "Payments",
+      "Statutory Audit",
+      "TDS",
       "Tally",
-      "Taxation",
+      "Tally ERP 9",
+      "Tax Litigation",
       "Time Management"
     ],
     "by_category": {
+      "sales": [
+        "Account Management"
+      ],
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Financial Auditing",
+        "GSTR-2B",
+        "GSTR-9",
+        "Input Tax Credit",
+        "Tally ERP 9"
+      ],
       "finance_ops": [
         "Accounting",
         "Auditing",
         "Financial Reporting",
-        "Tally",
-        "Taxation"
+        "Indirect Taxation",
+        "Statutory Audit",
+        "Tally"
       ],
       "soft_skill": [
         "Analytical Thinking",
+        "Cross-functional Collaboration",
         "Time Management"
       ],
       "programming_language": [
         "C++",
         "Java"
+      ],
+      "finance": [
+        "E-Way Bill",
+        "GST Return Filing",
+        "NBFC"
       ],
       "erp": [
         "ERP"
@@ -86,18 +126,38 @@
       "accounting": [
         "GST"
       ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS",
+        "Tax Litigation"
+      ],
       "web_framework": [
-        "HTML5"
+        "HTML5",
+        "LinkedIn"
+      ],
+      "operations": [
+        "Inventory Management"
+      ],
+      "banking": [
+        "MIS Reporting"
       ],
       "productivity": [
         "MS Office",
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
+      ],
+      "database": [
+        "Oracle Database"
+      ],
+      "domain": [
+        "Payments"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tally Prime→Tally(100%), Ms-office→MS Office(100%), Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Tally Prime→Tally ERP 9(100%), Ms-office→MS Office(100%), Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -108,7 +168,7 @@
         "start": "11/2023",
         "end": "current",
         "method": "date_regex+title_dash_company",
-        "duration_months": 35,
+        "duration_months": 36,
         "bullets": [
           "Truhome Finance Limited (Formerly Shriram Housing Finance Limited), Mumbai, India",
           "Ensure timely and accurate preparation, filing, and reconciliation of GST returns (GSTR-1, GSTR-3B, GSTR-6 , GSTR-9&9C) for multiple registration.",
@@ -124,7 +184,7 @@
           "Strengthen vendor GST compliance monitoring, helping the organization avail and avoid to loss of ITC claims.",
           "Lead automation initiatives and ERP integrations for indirect tax compliance (Oracle, UNO, etc.).",
           "Prepare and support TDS compliance including filing of Forms 26Q & 27Q.",
-          "Monitor TRACES portal for Form 16A downloads, corrections, and return status tracking. Achievement: Awarded Certificate of Appreciation for exemplary contribution to SHFL business - June 2024."
+          "Monitor TRACES portal for Form 16A downloads, corrections, and return status tracking. Achievement: Awarded Certificate of Appreciation for exemplary contribution to SHFL business - June 2024. Achievement -Successfully identified and resolved GST reconciliation differences (GSTR-2B vs Books), helping the company claim accurate Input Tax Credit and avoid tax loss."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -133,11 +193,11 @@
       },
       {
         "role": "Senior Accountant",
-        "company": "vs Books), helping the company claim accurate Input Tax Credit and avoid tax loss",
-        "location": null,
+        "company": "Pioneer Panel, Mumbai",
+        "location": "India",
         "start": "06/2021",
         "end": "10/2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 29,
         "bullets": [
           "Managed GST compliance including workings and filings of GSTR-1, GSTR-3B, and annual returns (GSTR-9 & 9C) for 7 branches.",
@@ -147,11 +207,12 @@
           "Maintained inventory records, conducted stock valuation, and prepared cost sheets.",
           "Reconciled bank statements and finalized accounts and balance sheets.",
           "Managed invoicing, receivables, PO, accounting and monthly MIS reporting for Audit",
-          "Prepared OD and CC stock statements and supported audits."
+          "Prepared OD and CC stock statements and supported audits.",
+          "Handled the compliance related queries for 7 branches on daily basis."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -160,7 +221,7 @@
         "location": null,
         "start": "04/2017",
         "end": "05/2021",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
         "duration_months": 50,
         "bullets": [
           "Resolved GST portal queries and ensured reconciliation of GSTR-2A with books.",
@@ -181,11 +242,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.5,
-      "total_months": 114,
+      "total_years": 9.6,
+      "total_months": 115,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.79
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -267,15 +328,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.7,

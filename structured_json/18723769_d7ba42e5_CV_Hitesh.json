@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "18723769_d7ba42e5_CV_Hitesh_segmented.txt",
-    "generated_at": "2026-09-30T06:57:59.774312+00:00",
+    "generated_at": "2026-10-07T10:30:54.401496+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -52,12 +52,15 @@
       "Background Verification",
       "Budgeting",
       "Communication",
+      "Continuous Improvement",
       "Creativity",
       "Cross-functional Collaboration",
       "Data Science",
       "DevOps",
       "E-learning",
+      "Employee Engagement",
       "Financial Analysis",
+      "HR Management",
       "Help Desk",
       "Java",
       "Leadership",
@@ -69,6 +72,8 @@
       "Onboarding",
       "Payments",
       "Power BI",
+      "Project Management",
+      "Purchase Orders",
       "Python",
       "Recruitment",
       "Reporting",
@@ -79,7 +84,8 @@
       "Shared Services",
       "Stakeholder Management",
       "Team Leadership",
-      "UAT"
+      "UAT",
+      "Vendor Management"
     ],
     "by_category": {
       "programming_language": [
@@ -92,10 +98,13 @@
         "Azure"
       ],
       "project_mgmt": [
-        "Agile"
+        "Agile",
+        "Project Management"
       ],
       "hr": [
         "Background Verification",
+        "Employee Engagement",
+        "HR Management",
         "Learning & Development",
         "Onboarding",
         "Recruitment"
@@ -113,6 +122,12 @@
         "Stakeholder Management",
         "Team Leadership"
       ],
+      "operations": [
+        "Continuous Improvement",
+        "Logistics",
+        "Purchase Orders",
+        "Vendor Management"
+      ],
       "ai_ml": [
         "Data Science",
         "Machine Learning"
@@ -125,9 +140,6 @@
       ],
       "support": [
         "Help Desk"
-      ],
-      "operations": [
-        "Logistics"
       ],
       "banking": [
         "MIS Reporting"
@@ -158,12 +170,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "NAB India Innovation Centre Pvt. Ltd. Analyst",
-        "company": "HR Talent Acquisition",
+        "role": "Analyst",
+        "company": "HR Talent Acquisition (Shared Services",
         "location": null,
         "start": "Oct 2023",
         "end": "Sep 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "NAB India Innovation Centre Pvt. Ltd."
+        ],
         "duration_months": 24,
         "bullets": [],
         "sub_sections": [],
@@ -172,12 +187,15 @@
         "source": "experience"
       },
       {
-        "role": "Contract for NAB) Assistant Manager – HR Talent Acquisition (Shared Services",
-        "company": "ANSR Private Limited",
+        "role": "Assistant Manager",
+        "company": "HR Talent Acquisition (Shared Services",
         "location": null,
         "start": "Jun 2023",
         "end": "Sep 2023",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "ANSR Private Limited (Contract for NAB)"
+        ],
         "duration_months": 4,
         "bullets": [
           "Conducted HR screening and competency-based interviews to assess candidates' technical expertise, functional capabilities, cultural fit, and overall role suitability.",
@@ -193,12 +211,15 @@
         "source": "experience"
       },
       {
-        "role": "Edtech Key Account Manager-Learning Coordinator",
+        "role": "Key Account Manager-Learning Coordinator",
         "company": "Teamlease",
-        "location": "Edtech Key Account Manager-Learning Coordinator",
+        "location": "Edtech",
         "start": "Apr-22",
         "end": "Mar-23",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Teamlease - Edtech"
+        ],
         "duration_months": 12,
         "bullets": [
           "Managed end-to-end training operations across ~5 client accounts, successfully delivering 10–20 concurrent technology and non-technology training batches through classroom, virtual, and web-based platforms.",
@@ -214,19 +235,23 @@
         "source": "experience"
       },
       {
-        "role": "NIIT Limited Assistant Manager-Learning Coordinator",
+        "role": "Assistant Manager-Learning Coordinator",
         "company": "StackRoute",
-        "location": "NIIT Limited Assistant Manager-Learning Coordinator",
+        "location": "NIIT Limited",
         "start": "Jul-21",
         "end": "Apr-22",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "StackRoute – NIIT Limited"
+        ],
         "duration_months": 10,
         "bullets": [
           "Led a team of 4 and managed training operations for 8 client accounts, successfully delivering 30–40 concurrent technology and non-technology training batches while ensuring quality, timelines, and stakeholder satisfaction.",
           "Recruited, evaluated, and onboarded freelance and contract technical trainers across technologies such as Java, Python, .NET, Full Stack Development, AWS, Azure, DevOps, Cybersecurity, Data Science, AI/ML, Salesforce, SAP, ServiceNow, Power BI, and Agile methodologies.",
           "Planned and executed international technology training programs, managing training schedules, participant communication, content alignment, budgeting, reporting, and weekly client governance reviews.",
           "Partnered with clients, business leaders, SMEs, vendors, and training partners to identify learning requirements, source qualified trainers, and ensure seamless program delivery.",
-          "Managed end-to-end trainer operations including onboarding, contracts, logistics, virtual training setup, session recordings, attendance tracking, compliance documentation, and audit readiness."
+          "Managed end-to-end trainer operations including onboarding, contracts, logistics, virtual training setup, session recordings, attendance tracking, compliance documentation, and audit readiness.",
+          "Published client-wise dashboards and training MIS reports, providing insights on utilization, trainer performance, learner participation, training effectiveness, budget adherence, and overall program outcomes during leadership and client cadence calls."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -234,8 +259,8 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Published client-wise dashboards and training MIS reports, providing insights on utilization, trainer performance, learner participation, training effectiveness, budget adherence, and overall program outcomes during leadership and client cadence calls. NatWest Group",
+        "role": "Analyst",
+        "company": "HR Talent Acquisition (Shared Services) |                                                                           Oct 2023 – Sep 2025",
         "location": null,
         "start": "Sep-13",
         "end": "Dec-20",
@@ -243,7 +268,7 @@
         "duration_months": 88,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
@@ -278,7 +303,10 @@
         "location": null,
         "start": "Sep 08",
         "end": "Jul 13",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Computer Science Corporation"
+        ],
         "duration_months": 0,
         "bullets": [
           "Managed UKBA-approved website content across Training, UAT, and Production environments.",
@@ -299,7 +327,7 @@
       "total_months": 145,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -315,7 +343,7 @@
         "_confidence": 0.8
       },
       {
-        "degree": "Graduation from Rani Durgavati University, Jabalpur (M.P)\t\t\t\t\t   Jul-2000—Aug-2003",
+        "degree": "Graduation",
         "degree_name": "Graduation",
         "degree_type": "bachelors",
         "degree_field": null,
@@ -344,13 +372,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[4]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     }
   ]

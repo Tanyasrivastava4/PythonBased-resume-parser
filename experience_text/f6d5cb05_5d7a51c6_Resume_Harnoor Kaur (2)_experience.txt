@@ -1,0 +1,55 @@
+======================================================================
+FILE: f6d5cb05_5d7a51c6_Resume_Harnoor Kaur (2)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+BolsterAI, Noida
+Jan 2024– Present
+Security Analyst 2
+Proactively monitored social media platforms and external digital channels for phishing campaigns, brand impersonation, and
+malicious
+activity to protect brand reputation and customer trust.
+Conducted in‑depth threat assessments and delivered det...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 4.5 years (54 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Security Analyst 2
+  Company      : Proactively monitored social media platforms and external digital channels for phishing campaigns
+  Location     : None
+  Start - End  : Jan 2024 - Present
+  Duration     : 34 months
+  Bullets      : 3
+    • Proactively monitored social media platforms and external digital channels for phishing campaigns, brand impersonation, and malicious activity to protect brand reputation and customer trust.
+    • Conducted in-depth threat assessments and delivered detailed reports to senior management, directly influencing security strategies and risk mitigation plans.
+    • Performed proactive threat hunting across web applications, social media, and digital ecosystems to identify emerging vulnerabilities, attack vectors, and IOCs.
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : SOC Analyst
+  Company      : SafeAeon Inc
+  Location     : Mohali
+  Start - End  : May 2022 - Jan 2024
+  Duration     : 21 months
+  Bullets      : 11
+    • Investigated and resolved incidents involving unauthorized access to sensitive data through detailed root-cause analysis and corrective actions.
+    • Monitored, analyzed, and triaged security incidents to ensure timely response and mitigation.
+    • Prepared comprehensive customer reports detailing findings, remediation steps, and preventive recommendations.
+    • Worked extensively with SIEM, EDR, Avanan email security tools, ticketing systems, and threat intelligence platforms.
+    • Managed vulnerability patching and reporting using SanerNow.
+    • Collaborated with cross-functional teams to strengthen application and system security controls.
+    • Implemented security measures to minimize risk and impact of cyber attacks.
+    • Demonstrated adaptability by quickly learning new tools and concepts in fast-paced environments.
+    • Worked flexible schedules includ ing night, weekend, and holiday shifts to support security operations.
+    • Participated in team projects, contributing effectively in collaborative environments.
+    • Analyzed campaign metrics and user behavior to assess vulnerability trends and improve security awareness initiatives.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

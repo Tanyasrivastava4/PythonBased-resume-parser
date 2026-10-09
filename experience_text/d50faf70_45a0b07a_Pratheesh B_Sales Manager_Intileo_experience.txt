@@ -1,0 +1,60 @@
+======================================================================
+FILE: d50faf70_45a0b07a_Pratheesh B_Sales Manager_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+: ICICI BANK LTD
+: Coimbatore.
+: Senior Sales Executive.
+: 4th August 2015 to 07th Oct 2016.
+: Branch channel and Open market business.
+: YES BANK LTD.
+: Coimbatore.
+: Sales Officer.
+: 01st December 2016 to 01st June 2017.
+: Branch channel and Open market business.
+: AXIS BANK LTD.
+: Coimbatore.
+: R...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.89
+Needs review   : True
+Total exp      : 6.6 years (79 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Sales Executive
+  Company      : ICICI BANK LTD
+  Location     : None
+  Start - End  : 4th August 2015 - 07th Oct 2016
+  Duration     : 15 months
+  Bullets      : 1
+    • : Branch channel and Open market business.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Sales Officer
+  Company      : None
+  Location     : 
+  Start - End  : 01st December 2016 - 01st June 2017
+  Duration     : 7 months
+  Bullets      : 0
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : Relationship Officer
+  Company      : 
+  Location     : None
+  Start - End  : 07th December 2017 - Aug 16th 2022
+  Duration     : 57 months
+  Bullets      : 0
+  Sub-sections : ['Organization', ': PIRAMAL FINANCE SALES AND SERVICE PVT LTD', 'Location', ': Coimbatore.', 'Designation', ': Senior Relationship Manager']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.85
+  Needs Review : True

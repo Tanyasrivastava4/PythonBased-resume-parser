@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d4b4fff9_876682ca_Naukri_SatyavratSavarn[10y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:27.688782+00:00",
+    "generated_at": "2026-10-07T09:28:24.632852+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,8 +48,12 @@
   "summary": "Oracle Cloud ERP Lead Consultant with 9+ years of experience delivering Oracle Cloud Financials, Procurement and\nSCM implementations. Demonstrated strength in solution design, integration, and stakeholder management.\nProven success leading UAT, Go-Live, and Hypercare phases onsite, ensuring seamless transitions and business\nreadiness for global ERP clients.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Active Directory",
+      "Business Intelligence",
+      "Coroutines Flow",
       "Cross-functional Collaboration",
+      "Customs & International Trade",
       "ERP",
       "General Ledger",
       "Generative AI",
@@ -58,6 +62,8 @@
       "Mentoring",
       "Microsoft Teams",
       "Operations Management",
+      "Oracle Cloud Infrastructure",
+      "Oracle Database",
       "Oracle Fusion Cloud",
       "Oracle Integration Cloud",
       "Order-to-Cash",
@@ -66,8 +72,10 @@
       "Problem Solving",
       "Procure-to-Pay",
       "Procurement",
+      "Purchase Orders",
       "Report Writing",
       "Reporting",
+      "SIT",
       "Solution Design",
       "Stakeholder Management",
       "Supply Chain",
@@ -76,8 +84,17 @@
       "UAT"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation"
+      ],
       "security_ops": [
         "Active Directory"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "soft_skill": [
         "Cross-functional Collaboration",
@@ -86,6 +103,9 @@
         "Problem Solving",
         "Reporting",
         "Stakeholder Management"
+      ],
+      "legal": [
+        "Customs & International Trade"
       ],
       "erp": [
         "ERP"
@@ -105,7 +125,15 @@
       "operations": [
         "Operations Management",
         "Procurement",
+        "Purchase Orders",
         "Supply Chain Management"
+      ],
+      "cloud": [
+        "Oracle Cloud Infrastructure"
+      ],
+      "database": [
+        "Oracle Database",
+        "PL/SQL"
       ],
       "oracle_erp": [
         "Oracle Fusion Cloud",
@@ -116,9 +144,6 @@
         "Procure-to-Pay",
         "Trial Balance"
       ],
-      "database": [
-        "PL/SQL"
-      ],
       "domain": [
         "Payments",
         "Supply Chain"
@@ -126,26 +151,30 @@
       "content": [
         "Report Writing"
       ],
+      "testing": [
+        "SIT",
+        "UAT"
+      ],
       "architecture": [
         "Solution Design"
-      ],
-      "testing": [
-        "UAT"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Cross-Functional→Cross-functional Collaboration(100%), Procurement.→Procurement(96%), teams→Microsoft Teams(100%), mentoring→Mentoring(100%), teams→Microsoft Teams(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Oracle→Oracle Database(100%), Cross-Functional→Cross-functional Collaboration(100%), custom→Customs & International Trade(92%), reconciliation→Account Reconciliation(97%), Oracle→Oracle Database(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Associate",
-        "company": "Career Progression PwC AC— Mumbai",
+        "role": "| Senior Associate",
+        "company": "PwC AC— Mumbai",
         "location": null,
         "start": "Jun 2021",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 64,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Career Progression"
+        ],
+        "duration_months": 65,
         "bullets": [
           "Capgemini Technology Services Pune | Consultant | Jan 2021 May 2021 e"
         ],
@@ -155,12 +184,15 @@
         "source": "experience"
       },
       {
-        "role": "Consultant",
+        "role": "| Consultant",
         "company": "Deloitte Consulting Mumbai",
         "location": null,
         "start": "Jul 2018",
         "end": "Jan 2021",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "— —"
+        ],
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
@@ -169,12 +201,15 @@
         "source": "experience"
       },
       {
-        "role": "Engineer",
+        "role": "| Software Engineer",
         "company": "L&T Infotech Mumbai",
-        "location": "Software",
+        "location": null,
         "start": "Jun 2016",
         "end": "Jun 2018",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "—"
+        ],
         "duration_months": 25,
         "bullets": [],
         "sub_sections": [],
@@ -185,8 +220,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.0,
-      "total_months": 120,
+      "total_years": 10.1,
+      "total_months": 121,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

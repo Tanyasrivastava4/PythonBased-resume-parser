@@ -2,7 +2,7 @@
 FILE: a259c8a2_293b7f56_Rachit Karani_Associate Engineer_Intileo_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'interests', 'languages', 'skills']
-Overall conf.  : 0.89
+Overall conf.  : 0.86
 Needs review   : True
 
 CONTACT
@@ -14,14 +14,14 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (7) — confidence 0.92
+SKILLS (11) — confidence 0.92
 ----------------------------------------------------------------------
-Leadership, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Problem Solving, Reporting, Salesforce
+Calibration, Leadership, Logistics, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Microsoft Word, Problem Solving, Reporting, Salesforce, Team Coordination
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
-Total experience: 5.2 years (62 months, 1 overlaps merged)
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.84
+Total experience: 5.2 years (63 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. Service Engineer @ Metal Power Analytical Pvt. Ltd (10/2023 - Present) [conf 0.98, review=False]
+  1. Service Engineer @ Installed & commissioned 50+ spectrometers across India & overseas. (10/2023 - Present) [conf 0.7, review=True]
   2. Trek Lead @ Trek Panda (08/2021 - 10/2023) [conf 0.98, review=False]
 
 EDUCATION (1) — confidence 0.95
@@ -37,8 +37,9 @@ CERTIFICATIONS (6) — confidence 0.63
   5. Salesforce CRM (Service Reporting) — Salesforce (None) [conf 0.8]
   6. MS Excel, Word & PowerPoint — None (None) [conf 0.6]
 
-REVIEW QUEUE (6 flagged fields)
+REVIEW QUEUE (7 flagged fields)
 ----------------------------------------------------------------------
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.63  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields
   certifications.items[1]             conf=0.6  reason=incomplete_fields

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "6206df05_2c5880cd_Himanshu_Tripathi_Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:58:50.954446+00:00",
+    "generated_at": "2026-10-07T10:31:57.894323+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -49,21 +49,34 @@
   "summary": "Oracle Database Administrator with\n3.2 years of experience in Oracle database administration, production support, backup and\nrecovery, cloning, Data Guard, and\nperformance monitoring. Currently working with Sysnet Technology Pvt Ltd and supporting\nDBS Bank. Experienced in Oracle 11gR2,\n12c, and 19c environments across Linux and Windows platforms, with strong\nexposure to RMAN, Data Pump, TDE,\nhealth checks, troubleshooting, and day-to-day database support activities.",
   "skills": {
     "items": [
+      ".NET",
+      "ASM",
       "AWS",
       "Business Strategy",
       "Linux",
+      "Microsoft Excel",
       "Microsoft Windows",
       "Node.js",
       "Oracle Database",
       "PL/SQL",
       "Performance Monitoring",
+      "Performance Optimization",
+      "Pitch Scripts",
+      "Production Support",
       "PuTTY",
       "SQL",
       "Statistics",
+      "UAT",
       "UNIX Shell",
       "WinSCP"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "finance_ops": [
+        "ASM"
+      ],
       "cloud_infra": [
         "AWS"
       ],
@@ -74,6 +87,9 @@
         "Linux",
         "Microsoft Windows",
         "UNIX Shell"
+      ],
+      "productivity": [
+        "Microsoft Excel"
       ],
       "web_framework": [
         "Node.js"
@@ -87,25 +103,39 @@
         "Performance Monitoring"
       ],
       "dev_tool": [
+        "Performance Optimization",
         "PuTTY",
         "WinSCP"
       ],
+      "sales": [
+        "Pitch Scripts"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
       "data_science": [
         "Statistics"
+      ],
+      "testing": [
+        "UAT"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Putty→PuTTY(100%), Windows→Microsoft Windows(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Oracle→Oracle Database(100%), Putty→PuTTY(100%), Oracle→Oracle Database(100%), Oracle→Oracle Database(100%), production support→Production Support(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Simple Logic Pvt Ltd Associate Technical Consultant / Oracle",
+        "role": "Simple Logic Pvt Ltd",
         "company": "Company",
         "location": null,
         "start": "02 Feb 2023",
         "end": "21 Jul 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Company",
+          "Simple Logic Pvt Ltd"
+        ],
         "duration_months": 30,
         "bullets": [],
         "sub_sections": [],
@@ -114,12 +144,16 @@
         "source": "experience"
       },
       {
-        "role": "Sysnet Technology Pvt Ltd Oracle Database Administrator",
-        "company": "DBA",
+        "role": "DBA",
+        "company": "Sysnet Technology Pvt Ltd",
         "location": null,
         "start": "14 Aug 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "pre_date_header": [
+          "DBA",
+          "Sysnet Technology Pvt Ltd"
+        ],
         "duration_months": 14,
         "bullets": [
           "Oracle software installations and database creations.",
@@ -175,9 +209,9 @@
         "degree_name": "B.Sc",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "IT Saket College Mumbai University",
-        "year": "2019",
-        "gpa": "64.00%",
+        "institution": "IT Saket College",
+        "year": "2022",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -186,9 +220,9 @@
         "degree_name": "M.Sc",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "CS Birla College Mumbai University",
-        "year": "2022",
-        "gpa": "72.00%",
+        "institution": "Mumbai University",
+        "year": "2019",
+        "gpa": "64.00%",
         "_needs_review": false,
         "_confidence": 0.95
       }

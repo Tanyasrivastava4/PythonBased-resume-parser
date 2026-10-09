@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/eaa02a6b_a51fa604_CA Aryan Kumar Gupta_GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Accounting Software: Tally Prime, Quickbook, CompuBal.
+Return Filing Software: CompuTax, Online ITR (Utility)
+Microsoft Office: MS EXCEL, MS WORD, MS POWERPOINT and Power Bi (Desktop).
+AI Tools: ChatGPT, Cloude
+
+── Extraction Results ──
+Skills found   : 32
+Confidence     : 0.92
+Time           : 293.02 ms
+Method         : flashtext_skills_section | fuzzy(Quickbook→QuickBooks(95%), MS WORD→Microsoft Word(100%), financial analysis→Financial Analysis(100%))
+
+── All Skills (32) ──
+Accounting, Analytical Thinking, Auditing, Business Planning, Communication, Financial Analysis, Financial Reporting, GPT, ISO Standards, ITGC, Internal Controls Testing, Labour Law, LinkedIn, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Onboarding, Operations Management, Payments, Power BI, Procurement, QuickBooks, Regulatory Compliance, Reporting, Risk Management, Segregation of Duties, Swift, Tally, Tax Audit, Taxation, Time Series Forecasting
+
+── By Category ──
+  accounting                     ['Tax Audit']
+  ai_ml                          ['GPT', 'Time Series Forecasting']
+  biz_dev                        ['Business Planning']
+  data_science                   ['Power BI']
+  domain                         ['Payments']
+  engineering                    ['ISO Standards']
+  finance_ops                    ['Accounting', 'Auditing', 'Financial Analysis', 'Financial Reporting', 'ITGC', 'Internal Controls Testing', 'QuickBooks', 'Segregation of Duties', 'Tally', 'Taxation']
+  hr                             ['Labour Law', 'Onboarding']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Operations Management', 'Procurement']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
+  programming_language           ['Swift']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Analytical Thinking', 'Communication', 'Reporting']
+  web_framework                  ['LinkedIn']

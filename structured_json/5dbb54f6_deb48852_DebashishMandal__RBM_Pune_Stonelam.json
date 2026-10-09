@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5dbb54f6_deb48852_DebashishMandal__RBM_Pune_Stonelam_segmented.txt",
-    "generated_at": "2026-09-30T06:58:46.089624+00:00",
+    "generated_at": "2026-10-07T10:31:51.732531+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,29 +50,61 @@
   "summary": "Currently working as Sr.Area Sales Manager with 11 year 3 months experiences\nwhich includes successfully handling Channel & Project sales, Team Handling and\nleadership, Loyalty Program, Sale Promotion Events, Data Analytics, Branding\nactivities & reporting involve CRM,SFDC & BI. I have effective oral & written\ncommunication skills with highly convincing skills, proficiency in CRM/SFA, Power\nBI, good knowledge related to operating system, Willing to work in highly\nchallenging environment & can maintain of details accurately.",
   "skills": {
     "items": [
+      "ASM",
+      "BTL Marketing",
+      "Business Development",
+      "Business Intelligence",
+      "Channel Development",
       "Channel Sales",
-      "Client Relationship Management",
       "Communication",
+      "Customer Relationship Management",
       "Data Analytics",
+      "Dealer Network Management",
       "ERP",
+      "Lead Generation",
       "Leadership",
+      "LinkedIn",
       "Loyalty Program",
       "MS Office",
+      "OEM Sales",
       "Power BI",
       "Project Sales",
       "Reporting",
+      "Retail Sales",
+      "Sales Force Automation",
       "Sales Management",
       "Salesforce",
-      "Tally"
+      "Tally",
+      "Team Management",
+      "Territory Management"
     ],
     "by_category": {
-      "sales": [
-        "Channel Sales",
-        "Project Sales",
-        "Sales Management"
+      "finance_ops": [
+        "ASM",
+        "Tally"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "marketing": [
+        "BTL Marketing",
+        "Loyalty Program"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "sales": [
+        "Channel Development",
+        "Channel Sales",
+        "Customer Relationship Management",
+        "Dealer Network Management",
+        "Lead Generation",
+        "OEM Sales",
+        "Project Sales",
+        "Retail Sales",
+        "Sales Force Automation",
+        "Sales Management",
+        "Territory Management"
       ],
       "soft_skill": [
         "Communication",
@@ -86,8 +118,8 @@
       "erp": [
         "ERP"
       ],
-      "marketing": [
-        "Loyalty Program"
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office"
@@ -95,8 +127,8 @@
       "integration": [
         "Salesforce"
       ],
-      "finance_ops": [
-        "Tally"
+      "management": [
+        "Team Management"
       ]
     },
     "_confidence": 0.92,
@@ -105,25 +137,46 @@
   "experience": {
     "jobs": [
       {
-        "role": "Channel Sales Management",
-        "company": "Apr 2023",
+        "role": "Senior Area Sales Manager",
+        "company": "Channel Development",
         "location": null,
         "start": "Apr 2025",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 18,
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Channel Sales Management",
+          "OEM Sales"
+        ],
+        "duration_months": 19,
         "bullets": [
-          "Senior ASM responsible for Business development (Project sales), Channel Sales handling Key Primary & Secondary",
-          "Project Sales & Retail Sales, Channel Distribution handling, Lead"
+          "Senior ASM responsible for Business development (Project sales), Channel Sales handling Key Primary & Secondary"
         ],
         "sub_sections": [
           "Dealer Management",
           "Accounts,Sales promotion & Marketing Activities includes",
-          "branding i.e. ATL & BTL Activities",
-          "Dealer Sales"
+          "branding i.e. ATL & BTL Activities"
         ],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Mar Area Sales Manager",
+        "company": "Apr 2023",
+        "location": null,
+        "start": "2025",
+        "end": "2025",
+        "method": "single_year_regex+dash_split",
+        "duration_months": 1,
+        "bullets": [
+          "Project Sales & Retail Sales, Channel Distribution handling, Lead"
+        ],
+        "sub_sections": [
+          "Industrial Sales",
+          "management, Team development"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -145,8 +198,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.5,
-      "total_months": 18,
+      "total_years": 1.6,
+      "total_months": 19,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -213,11 +266,6 @@
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.98,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

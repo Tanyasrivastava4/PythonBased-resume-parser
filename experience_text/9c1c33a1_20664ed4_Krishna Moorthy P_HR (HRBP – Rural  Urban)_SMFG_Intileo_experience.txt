@@ -1,0 +1,112 @@
+======================================================================
+FILE: 9c1c33a1_20664ed4_Krishna Moorthy P_HR (HRBP – Rural  Urban)_SMFG_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+State HR (Program Manager)
+Reliance Jio Infocom Ltd (Chennai) (Dec 2024 - present)
+Oversaw and managed state-level HR operations, including complete hiring cycles, onboarding protocols, and comprehensive HR business
+partnering.
+Directed end-to-end talent acquisition processes, from sourcing to onboa...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.93
+Needs review   : True
+Total exp      : 13.7 years (164 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Program Manager
+  Company      : State HR
+  Location     : None
+  Start - End  : Dec 2024 - present
+  Duration     : 23 months
+  Bullets      : 7
+    • Oversaw and managed state-level HR operations, including complete hiring cycles, onboarding protocols, and comprehensive HR business partnering.
+    • Directed end-to-end talent acquisition processes, from sourcing to onboarding, to meet the staffing needs of state-level operations.
+    • Delivered dedicated HRBP support, fostering robust employee relations and contributing to a positive work environment.
+    • Collaborated closely with business leaders to strategize and implement effective manpower planning initiatives, ensuring optimal resource allocation.
+    • Developed and executed targeted employee engagement programs designed to elevate satisfaction scores and promote a thriving workplace.
+    • Achievements: Decreased time-to-fill by 15% via upgraded recruitment strategies.
+    • Improved employee satisfaction metrics through focused projects.
+  Method       : date_regex+company_parens_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Zonal HR (Deputy General Manager) I MFI
+  Company      : Directed comprehensive HR operations spanning Tamil Nadu, Karnataka, AP, and Telangana, supporting a workforce exceeding 3000 employees.
+  Location     : None
+  Start - End  : Dec 2022 - Aug 2024
+  Duration     : 21 months
+  Bullets      : 3
+    • Led a team of 7 Regional HR professionals, driving the execution of hiring initiatives, employee relations, compliance protocols, and employee lifecycle management.
+    • Strengthened HRBP function by aligning HR strategies with key business performance objectives, ensuring HR activities directly contributed to company goals.
+    • Achievements: Reduced attrition across states through targeted retention initiatives Bolstered alignment between HR and business goals by focusing HR strategies.
+  Method       : date_regex+inline_parens
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Manager HR I MFI / NBFC
+  Company      : L&T Financial Services (Chennai
+  Location     : None
+  Start - End  : May 2021 - Nov 2022
+  Duration     : 19 months
+  Bullets      : 6
+    • Managed field HR activities ensuring statutory compliance, HR functioning and more.
+    • Directed HR operations for 4000+ employees across 4 states within a dynamic microfinance setting.
+    • Cultivated employee satisfaction and minimized grievances via consistent field HR visits and responsive support mechanisms.
+    • Collaborated with zonal leadership on essential HR functions, encompassing manpower planning, performance management systems (PMS), engagement strategies, and statutory compliance.
+    • Oversaw comprehensive HR procedures, including performance evaluations, employee discipline, and conflict management.
+    • Achievements:
+  Method       : date_regex+slash_split_role+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Deputy Manager HRBP I BFSI / Insurance
+  Company      : Pramerica Life Insurance Ltd (Chennai
+  Location     : None
+  Start - End  : Sep 2017 - May 2021
+  Duration     : 45 months
+  Bullets      : 4
+    • HR Business Partner for given region including talent acquisition, onboarding, employee relations, and exit interviews.
+    • Managed HRBP responsibilities for TN, KL & KA, including hiring, onboarding, ER & exit processes.
+    • Streamlined recruitment with consultant coordination reducing hiring TAT.
+    • Strengthened employee onboarding through improved induction (EMBARK program).
+  Method       : date_regex+slash_split_role+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Assistant Manager HR I MFI / NBFC
+  Company      : Muthoot Microfin Ltd (Chennai
+  Location     : None
+  Start - End  : Nov 2013 - Aug 2017
+  Duration     : 46 months
+  Bullets      : 6
+    • Handled all responsibilities related to human resources management for assigned branches.
+    • Managed comprehensive HR operations for 40 branches within a microfinance context, overseeing recruitment, employee relations, compliance and training.
+    • Ensured adherence to all statutory compliance requirements (PF, ESI, audits, branch HR processes).
+    • Contributed to a positive new-hire experience which included onboarding improvements.
+    • Achievements: Improved onboarding and new hire experience via streamlined processes.
+    • Achieved 100% compliance with PF, ESI and audit requirements.
+  Method       : date_regex+slash_split_role+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Newt Global India Pvt Ltd (Chennai
+  Company      : US IT Recruiter
+  Location     : None
+  Start - End  : Dec 2012 - Oct 2013
+  Duration     : 11 months
+  Bullets      : 3
+    • End-to-end IT recruiting for U.S. based companies.
+    • Managed full-cycle recruitment for US IT positions.
+    • Performed candidate sourcing, screening and interview coordination.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

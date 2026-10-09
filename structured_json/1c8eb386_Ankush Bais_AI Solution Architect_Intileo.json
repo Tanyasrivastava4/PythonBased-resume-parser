@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1c8eb386_Ankush Bais_AI Solution Architect_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:03.471457+00:00",
+    "generated_at": "2026-10-07T10:30:58.797557+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -63,6 +63,7 @@
       "Azure DevOps",
       "BFSI",
       "BigQuery",
+      "Business Intelligence",
       "CI/CD",
       "Claude",
       "Communication Mining",
@@ -91,6 +92,7 @@
       "LangGraph",
       "LangSmith",
       "Leadership",
+      "LinkedIn",
       "MCP Server",
       "MLOps",
       "Maestro",
@@ -109,6 +111,7 @@
       "Postman",
       "Power Apps",
       "Process Mining",
+      "Professional Tax",
       "Python",
       "RAG",
       "RFI",
@@ -205,6 +208,12 @@
         "BigQuery",
         "Google"
       ],
+      "business_analysis": [
+        "Business Intelligence",
+        "RFI",
+        "RFP",
+        "RFQ"
+      ],
       "soft_skill": [
         "Cross-functional Collaboration",
         "Leadership",
@@ -212,7 +221,8 @@
         "Stakeholder Management"
       ],
       "web_framework": [
-        "FastAPI"
+        "FastAPI",
+        "LinkedIn"
       ],
       "dev_tool": [
         "GitHub",
@@ -239,15 +249,11 @@
         "SharePoint"
       ],
       "hr": [
-        "Payroll Administration"
+        "Payroll Administration",
+        "Professional Tax"
       ],
       "programming_language": [
         "Python"
-      ],
-      "business_analysis": [
-        "RFI",
-        "RFP",
-        "RFQ"
       ],
       "testing": [
         "UAT"
@@ -264,8 +270,12 @@
         "location": "Pune",
         "start": "Oct 2022",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 48,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Solution Architect",
+          "Yash Technologies, Pune"
+        ],
+        "duration_months": 49,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -278,7 +288,11 @@
         "location": "Pune",
         "start": "Jan 2020",
         "end": "Oct 2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Lead Developer",
+          "Nihilent Ltd, Pune"
+        ],
         "duration_months": 34,
         "bullets": [],
         "sub_sections": [],
@@ -292,7 +306,11 @@
         "location": "Pune",
         "start": "Feb 2018",
         "end": "Dec 2019",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Technology Analyst",
+          "Infosys, Pune"
+        ],
         "duration_months": 23,
         "bullets": [],
         "sub_sections": [],
@@ -303,10 +321,14 @@
       {
         "role": "Software Engineer",
         "company": "L&T Infotech",
-        "location": "Mumbai",
+        "location": "Mumbai (LTM",
         "start": "Feb 2015",
         "end": "Feb 2018",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Engineer",
+          "L&T Infotech, Mumbai (LTM)"
+        ],
         "duration_months": 37,
         "bullets": [],
         "sub_sections": [],
@@ -317,8 +339,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.7,
-      "total_months": 140,
+      "total_years": 11.8,
+      "total_months": 141,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.98

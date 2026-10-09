@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1aa3b799_97bd3761_Saheb Singh_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:01.556037+00:00",
+    "generated_at": "2026-10-07T10:30:56.558212+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -48,16 +48,25 @@
   "summary": "Detail-oriented and analytical finance professional with over 3 years of\nexperience in Internal Audit and Record to Report (R2R) processes. Proven\nexpertise in risk assessment, internal controls, compliance audits, and\nfinancial reporting. Adept at streamlining month-end close activities,\nmanaging general ledger operations, and ensuring accurate financial\nstatements in alignment with IFRS/GAAP standards.",
   "skills": {
     "items": [
-      "Accounting",
+      "Account Reconciliation",
       "Auditing",
       "Data Analytics",
       "ERP",
       "Financial Reporting",
       "GAAP",
+      "General Ledger",
+      "General Ledger Accounting",
+      "HR & Payroll",
+      "Healthcare",
       "IFRS",
       "Internal Controls Testing",
+      "LinkedIn",
       "Microsoft Excel",
+      "Order-to-Cash",
       "Power BI",
+      "Process Improvement",
+      "Procure-to-Pay",
+      "Professional Tax",
       "Record-to-Report",
       "Reporting",
       "Risk Assessment",
@@ -67,8 +76,11 @@
       "Tally"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "General Ledger Accounting"
+      ],
       "finance_ops": [
-        "Accounting",
         "Auditing",
         "Financial Reporting",
         "GAAP",
@@ -84,11 +96,29 @@
       "erp": [
         "ERP"
       ],
+      "accounting": [
+        "General Ledger"
+      ],
+      "domain": [
+        "HR & Payroll",
+        "Healthcare"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "Microsoft Excel"
       ],
       "finance": [
+        "Order-to-Cash",
+        "Procure-to-Pay",
         "Record-to-Report"
+      ],
+      "operations": [
+        "Process Improvement"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "soft_skill": [
         "Reporting"
@@ -104,7 +134,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(internal controls→Internal Controls Testing(100%), reporting.→Reporting(95%))"
+    "_method": "flashtext_skills_section | fuzzy(professional→Professional Tax(95%), internal controls→Internal Controls Testing(100%), reporting.→Reporting(95%))"
   },
   "experience": {
     "jobs": [
@@ -115,7 +145,11 @@
         "start": "01/2024",
         "end": "Present",
         "method": "date_regex+pipe_split",
-        "duration_months": 33,
+        "pre_date_header": [
+          "Asst. Manager | Risk Advisory | Controls Assurance",
+          "Deloitte Touché Tohmatsu India LLP"
+        ],
+        "duration_months": 34,
         "bullets": [
           "Led comprehensive audits of critical financial operations, including P2P, O2C, HR and Payroll, ensuring strict adherence to company policies and industry regulations. Focused on enhancing financial accuracy, optimizing revenue recognition practices within O2C, and strengthening internal controls across all processes to maintain financial integrity.",
           "Performed thorough audit of financial reporting processes to ensure compliance with Sarbanes-Oxley (SOX) Act requirements.",
@@ -134,6 +168,10 @@
         "start": "10/2022",
         "end": "12/2023",
         "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Management Trainee | Record-to-Report",
+          "Genpact India Pvt. Ltd"
+        ],
         "duration_months": 15,
         "bullets": [
           "Independently managed month-end close activities for a global pharmaceutical client across Italy & UK markets, processing 80+ journal entries monthly with 100% accuracy.",
@@ -151,8 +189,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.0,
-      "total_months": 48,
+      "total_years": 4.1,
+      "total_months": 49,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -165,7 +203,7 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "Chartered Accountants of India ICAI",
-        "year": "2022",
+        "year": "2018",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95

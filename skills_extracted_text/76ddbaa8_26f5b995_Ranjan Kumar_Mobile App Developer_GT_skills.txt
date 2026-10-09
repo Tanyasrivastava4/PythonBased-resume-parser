@@ -1,0 +1,38 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/76ddbaa8_26f5b995_Ranjan Kumar_Mobile App Developer_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+● Mobile App Development: Android, iOS, Cross-Platform
+● Languages & Frameworks: Dart, Java, C, Flutter, XML
+● Backend & APIs: REST APIs, Firebase (Firestore, Push Notifications, Crashlytics, Remote Config,
+Analytics),Retrofit
+● Databases & Storage: Drift, SharedPreferences
+● App Lifecycle & Deployment: Google Play Console, App Store Connect, CI/CD (GitHub Actions, Fastlane)
+● Architecture & Patterns: MVC, MVVM, Clean Architecture
+● Integrations: Google Maps, Razorpay, Payment Gateways, Native Platform
+● Tools & Collaboration: Android Studio, VS Code, Xcode, Git, GitHub, Agile
+● Testing & Optimization: Flutter DevTools, Unit Testing, Mockito, App Performance Optimization
+
+── Extraction Results ──
+Skills found   : 23
+Confidence     : 0.92
+Time           : 130.9 ms
+Method         : flashtext_skills_section | fuzzy(Firestore→Firebase(100%), Xcode→iOS(100%), Unit Testing→JUnit(96%))
+
+── All Skills (23) ──
+Agile, Android, CI/CD, Clean Architecture, Collaboration, Cross-functional Collaboration, Dart, E-commerce, Firebase, Flutter, Git, GitHub, GitHub Actions, Google, JUnit, Java, MVC, Performance Optimization, REST API, Razorpay, VS Code, XML, iOS
+
+── By Category ──
+  architecture                   ['Clean Architecture']
+  database                       ['Firebase', 'Google']
+  dev_tool                       ['Git', 'GitHub', 'Performance Optimization', 'VS Code']
+  devops                         ['CI/CD', 'GitHub Actions']
+  fintech                        ['Razorpay']
+  mobile                         ['Android', 'Flutter', 'iOS']
+  programming_language           ['Dart', 'Java']
+  project_mgmt                   ['Agile']
+  retail                         ['E-commerce']
+  soft_skill                     ['Collaboration', 'Cross-functional Collaboration']
+  testing                        ['JUnit']
+  web_framework                  ['MVC', 'REST API', 'XML']

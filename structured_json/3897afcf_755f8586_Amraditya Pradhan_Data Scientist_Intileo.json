@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3897afcf_755f8586_Amraditya Pradhan_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:17.481698+00:00",
+    "generated_at": "2026-10-07T10:31:14.881738+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -50,33 +50,45 @@
   "skills": {
     "items": [
       "ANN",
+      "AWS",
+      "AWS EC2",
       "BERT",
       "CNN",
       "Computer Vision",
       "Data Analysis",
       "Data Collection",
+      "Data Pipeline",
       "Data Science",
       "Deep Learning",
       "ENSEMBL",
+      "Exploratory Data Analysis",
       "FastAPI",
       "Fine-tuning",
       "Fundamental Analysis",
+      "GCP",
       "Generative AI",
+      "LLM",
+      "LLaMA",
       "LSTM",
       "LangChain",
       "Linear",
       "LlamaIndex",
       "Machine Learning",
+      "Make",
       "NLP",
+      "Nuxt.js",
+      "PostgreSQL",
       "PyTorch",
       "Python",
       "RAG",
       "REST API",
+      "RNN",
       "Risk Management",
       "Snowflake",
       "Statistics",
       "TensorFlow",
-      "Transformers"
+      "Transformers",
+      "Vue.js"
     ],
     "by_category": {
       "ai_ml": [
@@ -90,24 +102,38 @@
         "Machine Learning",
         "NLP",
         "PyTorch",
+        "RNN",
         "TensorFlow"
+      ],
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "GCP"
       ],
       "data_science": [
         "Data Analysis",
         "ENSEMBL",
+        "Exploratory Data Analysis",
         "Statistics",
         "Transformers"
       ],
       "research": [
         "Data Collection"
       ],
+      "data_engineering": [
+        "Data Pipeline"
+      ],
       "web_framework": [
         "FastAPI",
-        "REST API"
+        "Nuxt.js",
+        "REST API",
+        "Vue.js"
       ],
       "genai": [
         "Fine-tuning",
         "Generative AI",
+        "LLM",
+        "LLaMA",
         "LangChain",
         "LlamaIndex",
         "RAG"
@@ -119,11 +145,15 @@
         "Linear",
         "Risk Management"
       ],
-      "programming_language": [
-        "Python"
+      "rpa": [
+        "Make"
       ],
       "database": [
+        "PostgreSQL",
         "Snowflake"
+      ],
+      "programming_language": [
+        "Python"
       ]
     },
     "_confidence": 0.92,
@@ -132,13 +162,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Data Scientist, Blackcoffer Pvt. Ltd",
+        "role": "Gurugram, India",
         "company": "can make resource management more adaptive compared to rule-based thresholds.",
-        "location": "India",
+        "location": "Blackcoffer Pvt. Ltd",
         "start": "09/2025",
         "end": "Present",
-        "method": "date_regex+pipe_split",
-        "duration_months": 13,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Data Scientist, Blackcoffer Pvt. Ltd."
+        ],
+        "duration_months": 14,
         "bullets": [
           "Promoted from an associate role with increased responsibilities. Currently working on building an AI driven solutions using, Vue Nuxt 3, Snowflake (Snowpark), LLM Engines. Making advance AI pipelines that query from data warehouses and generates a natural language response through a real-time analytics dashboard. Solution is designed to make data insights more accessible through natural language queries. I am also involved in enhancing Snowflake warehouse autoscaling, exploring how AI-driven recommendations"
         ],
@@ -148,13 +181,16 @@
         "source": "experience"
       },
       {
-        "role": "Data Science Associate, Blackcoffer Pvt. Ltd",
+        "role": "Gurugram",
         "company": "Worked in a SaaS based setting, with high paced development.",
-        "location": null,
+        "location": "Blackcoffer Pvt. Ltd",
         "start": "01/2025",
         "end": "present",
-        "method": "date_regex+pipe_split",
-        "duration_months": 21,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Data Science Associate, Blackcoffer Pvt. Ltd."
+        ],
+        "duration_months": 22,
         "bullets": [
           "Backend engineering using POSTGRESQL, AWS, and NLP techniques such as RAG, GenAI and others in over 2 major projects within the company.",
           "Directly coordinated with the clients of the company to deliver deployed projects on EC2 instances on AWS and GCP.",
@@ -183,15 +219,41 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Fast APIs",
-        "location": "Chennai",
+        "role": "Chennai",
+        "company": "on complex handwritten and",
+        "location": null,
         "start": "01/2024",
         "end": "02/2024",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Fast APIs."
+        ],
         "duration_months": 2,
         "bullets": [],
         "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "interview records",
+        "location": null,
+        "start": "09/2023",
+        "end": "01/2024",
+        "method": "date_regex",
+        "duration_months": 5,
+        "bullets": [
+          "guest lecture course at Sai University. using three models: RNN for analysis.",
+          "It integrates smart outputs for improved buy/sell system aims to address limitations insights and automation. leveraging FastAPI to build"
+        ],
+        "sub_sections": [
+          "Integrated the LLaMA AI model to",
+          "to different interview stages.",
+          "Evaluation Scoring. Designed",
+          "interview records, ensuring type",
+          "────────────────────────────────────────────────────────────"
+        ],
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
@@ -199,11 +261,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.2,
-      "total_months": 26,
-      "overlapping_periods_merged": 2
+      "total_years": 2.6,
+      "total_months": 31,
+      "overlapping_periods_merged": 3
     },
-    "_confidence": 0.78
+    "_confidence": 0.82
   },
   "education": {
     "entries": [
@@ -230,7 +292,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [
@@ -250,7 +312,7 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
+      "field": "experience.jobs[4]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

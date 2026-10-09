@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "046583fa_5a45b02c_Naukri_AshutoshSahu[6y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:57:46.218735+00:00",
+    "generated_at": "2026-10-07T10:30:38.389658+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,25 +45,35 @@
   "skills": {
     "items": [
       "API Testing",
+      "Agile",
+      "Analytical Thinking",
       "Apache Maven",
+      "Attention to Detail",
       "Automation Testing",
       "Azure",
       "CI/CD",
       "Civil Engineering",
+      "Communication",
       "Cross-functional Collaboration",
+      "FIX Protocol",
       "Git",
+      "Hybrid Framework",
       "Java",
       "Jenkins",
       "Jira",
       "Manual Testing",
+      "Mechanical Engineering",
       "Microsoft Teams",
       "Pytest",
       "Python",
       "Quality Assurance",
+      "Regression Testing",
       "Robot Framework",
       "SQL",
       "Selenium",
-      "TestNG"
+      "TestNG",
+      "Waterfall",
+      "Workflow Automation"
     ],
     "by_category": {
       "testing": [
@@ -74,6 +84,17 @@
         "Robot Framework",
         "Selenium",
         "TestNG"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Jira",
+        "Waterfall"
+      ],
+      "soft_skill": [
+        "Analytical Thinking",
+        "Attention to Detail",
+        "Communication",
+        "Cross-functional Collaboration"
       ],
       "dev_tool": [
         "Apache Maven",
@@ -87,23 +108,26 @@
         "Jenkins"
       ],
       "engineering": [
-        "Civil Engineering"
+        "Civil Engineering",
+        "Mechanical Engineering"
       ],
-      "soft_skill": [
-        "Cross-functional Collaboration"
+      "fintech": [
+        "FIX Protocol"
+      ],
+      "security_ops": [
+        "Hybrid Framework",
+        "Regression Testing"
       ],
       "programming_language": [
         "Java",
         "Python"
       ],
-      "project_mgmt": [
-        "Jira"
-      ],
       "productivity": [
         "Microsoft Teams"
       ],
       "operations": [
-        "Quality Assurance"
+        "Quality Assurance",
+        "Workflow Automation"
       ],
       "database": [
         "SQL"
@@ -120,7 +144,10 @@
         "location": null,
         "start": "February 2023",
         "end": "May 2025",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Beesolvertechnologies Pvt Ltd"
+        ],
         "duration_months": 28,
         "bullets": [
           "Designed and developed automated test scripts using Python and the Robot Framework to validate"
@@ -153,8 +180,6 @@
           "Generated detailed reports and logs to identify and resolve defects, ensuring higher quality releases and",
           "faster delivery timelines.",
           "Amazon Work Space",
-          "Expert",
-          "Git",
           "Expert"
         ],
         "confidence": 0.98,
@@ -162,12 +187,19 @@
         "source": "experience"
       },
       {
-        "role": "QA Automation Engineer",
-        "company": "Voxwill Technologies Pvt Ltd",
+        "role": "Git",
+        "company": "Expert",
         "location": null,
         "start": "August 2019",
         "end": "January 2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Git",
+          "Expert",
+          "Dev azure",
+          "Expert",
+          "Voxwill Technologies Pvt Ltd"
+        ],
         "duration_months": 42,
         "bullets": [
           "As a QA Automation Engineer at Voxwill Technologies Pvt Ltd, I was responsible for ensuring the quality and functionality of our software products through automation testing.",

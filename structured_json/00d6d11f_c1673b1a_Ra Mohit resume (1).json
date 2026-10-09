@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "00d6d11f_c1673b1a_Ra Mohit resume (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:57:41.067249+00:00",
+    "generated_at": "2026-10-09T05:41:17.921779+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,16 +51,25 @@
       "Bootstrap",
       "CI/CD",
       "CSS3",
+      "ColdFusion",
+      "Content Marketing",
+      "Customer Relationship Management",
+      "ERP",
       "Firebase",
       "Git",
       "GitHub",
       "GitLab",
+      "Google",
       "HTML5",
       "JavaScript",
       "Jira",
       "Laravel",
+      "MVC Architecture",
       "MySQL",
       "PHP",
+      "REST",
+      "REST API",
+      "SEO",
       "SQL",
       "VS Code",
       "WordPress",
@@ -73,6 +82,7 @@
         "CSS3",
         "HTML5",
         "Laravel",
+        "REST API",
         "jQuery"
       ],
       "cloud_infra": [
@@ -81,16 +91,29 @@
       "devops": [
         "CI/CD"
       ],
+      "web_technology": [
+        "ColdFusion"
+      ],
+      "marketing": [
+        "Content Marketing",
+        "SEO"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "erp": [
+        "ERP"
+      ],
       "database": [
         "Firebase",
+        "Google",
         "MySQL",
         "SQL"
       ],
       "dev_tool": [
         "Git",
         "GitHub",
-        "GitLab",
-        "VS Code"
+        "GitLab"
       ],
       "programming_language": [
         "JavaScript",
@@ -98,6 +121,15 @@
       ],
       "project_mgmt": [
         "Jira"
+      ],
+      "software_engineering": [
+        "MVC Architecture"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "tools": [
+        "VS Code"
       ],
       "content": [
         "WordPress"
@@ -110,18 +142,21 @@
     "jobs": [
       {
         "role": "Chhattisgarhpedia Founder & Software Developer",
-        "company": "India",
+        "company": " Worked with JavaScript, jQuery, HTML, CSS, and Bootstrap.",
         "location": null,
         "start": "Feb 2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 32,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Chhattisgarhpedia Founder & Software Developer",
+          "—"
+        ],
+        "duration_months": 33,
         "bullets": [
           " Built and maintained a Laravel-based travel & heritage platform.",
           " Implemented SEO-friendly architecture for Google Discover.",
           " Optimized SQL queries and REST APIs for performance.",
           " Managed deployment, hosting, and content strategy.",
-          " Worked with JavaScript, jQuery, HTML, CSS, and Bootstrap.",
           " Arosys Technologies (P) Ltd Junior Software Engineer — Jun 2023 Jan 2024 | Bhilai, Chhattisgarh",
           " Developed server-side logic using ColdFusion (CFML) and SQL.",
           " Worked on MVC architecture across Dev, Stage, and Production.",
@@ -137,18 +172,18 @@
           "—",
           "May 2022 Apr 2023 | Raipur, Chhattisgarh"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.7,
-      "total_months": 32,
+      "total_years": 2.8,
+      "total_months": 33,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.7
   },
   "education": {
     "entries": [
@@ -186,7 +221,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
@@ -194,6 +229,16 @@
       "field": "contact.email",
       "confidence": 0.0,
       "reason": "missing"
+    },
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
     }
   ]
 }

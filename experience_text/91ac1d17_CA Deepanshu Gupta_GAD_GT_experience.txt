@@ -1,0 +1,43 @@
+======================================================================
+FILE: 91ac1d17_CA Deepanshu Gupta_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+8.2 CGPA
+Garg Tripti and Company
+June 2021 – August 2021
+R.S Gupta & Co, Noida-201304
+August 2021 - June 2024
+(A CA firm with 50+ years of experience in audit and taxation services.)
+Statutory Audit and Assurance Services
+o Conducted statutory audits for organizations with turnover ranging from ₹100...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.1 years (37 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Garg Tripti and Company
+  Company      : 8.2 CGPA
+  Location     : None
+  Start - End  : June 2021 - August 2021
+  Duration     : 3 months
+  Bullets      : 0
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : A CA firm
+  Company      : R.S Gupta & Co
+  Location     : Noida-201304
+  Start - End  : August 2021 - June 2024
+  Duration     : 35 months
+  Bullets      : 0
+  Sub-sections : ['Statutory Audit and Assurance Services', 'o Conducted statutory audits for organizations with turnover ranging from ₹100 crore to ₹1,000 crore, ensuring compliance with', 'regulatory frameworks and accounting standards, specifically in the automobile, retail & commercial real estate, computer', 'peripherals and publishing sectors.', 'o Led the audit of an IND AS compliant private company leveraging financial analysis and reporting.', 'o Analysis and Preparation of financial statements in compliance with Accounting Standards (AS), Ind AS, ensuring accurate', 'reporting and adherence to applicable accounting frameworks.', 'o Ensured compliance with laws and regulations through verifying accuracy of statutory dues and examining timely payment of', 'various statutory dues like PF, ESIC, GST, TDS, TCS etc.', 'o Engaged in planning and execution of various statutory audit procedures including vouching of income and expense items,', 'scrutiny of ledgers, obtaining debtors, creditors, and bank balance confirmation, various logic tests, etc.', 'o Responsible for bookkeeping, file and document maintenance, maintenance of accounts, finalization of books for audit and other', 'certification', 'works.', 'o Conducted physical inventory verification and reconciliation to ensure accuracy between books of accounts and actual stock.', 'Taxation', 'o Executed the filing of Income Tax Returns and Tax Audit Reports (Form 3CA/3CB/3CD) based on Income computed as per', 'Income Tax Act for various corporate and non-corporate clients.', 'o Conducted TDS/TCS and GST reconciliations, ensuring accuracy in tax calculations and compliance with statutory requirements', 'o Advanced the filing of monthly GST returns (GSTR-1, GSTR-3B) and annual returns (GSTR-9, GSTR-9C) for companies, ensuring', 'precision in reporting and full compliance with GST regulations.', 'o Coordinated and facilitated audits conducted by the GST Department by providing necessary documentation and ensuring', 'timely compliance, and assisted in addressing audit queries, supporting smooth communication between the organization and', 'regulatory authorities.']
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

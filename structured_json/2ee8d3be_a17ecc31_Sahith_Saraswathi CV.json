@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "2ee8d3be_a17ecc31_Sahith_Saraswathi CV_segmented.txt",
-    "generated_at": "2026-09-30T06:58:13.705578+00:00",
+    "generated_at": "2026-10-07T10:31:10.425449+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,16 +48,19 @@
   "summary": "Data scientist with practical experience in analytics, machine learning, and statistical modeling through focused training and projects.\nSkilled in Python, SQL, and visualization tools to extract insights and support data-driven decisions.\nDriven, analytical, and passionate about turning complex data into strategic value.",
   "skills": {
     "items": [
+      "Business Intelligence",
       "ChromaDB",
       "Computer Vision",
       "Data Analytics",
       "Data Science",
       "Data Visualization",
       "Deep Learning",
+      "E-commerce",
       "FAISS",
       "Fine-tuning",
       "Gemini",
       "Generative AI",
+      "GitHub",
       "Hugging Face",
       "Keras",
       "LLM",
@@ -76,6 +79,9 @@
       "PyTorch",
       "Python",
       "RAG",
+      "Reliability",
+      "Reporting",
+      "Risk Assessment",
       "SQL",
       "STATISTICA",
       "SciPy",
@@ -89,6 +95,9 @@
       "scikit-learn"
     ],
     "by_category": {
+      "business_analysis": [
+        "Business Intelligence"
+      ],
       "search": [
         "ChromaDB",
         "FAISS"
@@ -118,6 +127,9 @@
         "Statistics",
         "Tableau"
       ],
+      "retail": [
+        "E-commerce"
+      ],
       "genai": [
         "Fine-tuning",
         "Gemini",
@@ -132,6 +144,9 @@
         "Stable Diffusion",
         "Vector Databases"
       ],
+      "dev_tool": [
+        "GitHub"
+      ],
       "web_framework": [
         "LinkedIn"
       ],
@@ -140,6 +155,13 @@
       ],
       "programming_language": [
         "Python"
+      ],
+      "soft_skill": [
+        "Reliability",
+        "Reporting"
+      ],
+      "compliance": [
+        "Risk Assessment"
       ],
       "database": [
         "SQL"
@@ -151,12 +173,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Data Scientist Soulpage IT solutions",
-        "company": "Developed a risk prediction model using patient vitals and disease status",
+        "role": "Data Scientist",
+        "company": "Soulpage IT solutions",
         "location": null,
         "start": "December 2022",
         "end": "May 2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Scientist"
+        ],
         "duration_months": 6,
         "bullets": [
           "Developed a risk prediction model using patient vitals and disease status ,also build the disease prediction model with 98% accuracy.",
@@ -164,25 +189,28 @@
           "Designed features for patient risk assessment and enabled automated data extraction from reports, enhancing monitoring, data usability, and reporting efficiency."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Data Scientist Intern Soulpage IT solutions",
-        "company": "company’s internal AutoML tool, improving the efficiency and reliability of",
+        "role": "Data Scientist Intern",
+        "company": "Soulpage IT solutions",
         "location": null,
         "start": "June 2022",
         "end": "November 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Scientist Intern"
+        ],
         "duration_months": 6,
         "bullets": [
           "Developed a recommendation system for a jewellery e-commerce platform using matrix factorization and text similarity to deliver personalized product suggestions.",
           "Implemented advanced model validation and selection techniques in the company’s internal AutoML tool, improving the efficiency and reliability of automated model building."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -192,7 +220,7 @@
       "total_months": 12,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [],
@@ -250,25 +278,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.0,

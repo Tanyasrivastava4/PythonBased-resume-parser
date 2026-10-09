@@ -1,0 +1,80 @@
+======================================================================
+FILE: e655c2af_6a57447e_Kartik CV (MAY 2026)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+| +91- 9999097567 | Sec-51, Gurugram, Haryana, 122003
+
+Cybersecurity engineer (L2) - (Nextl Solutions Pvt Ltd) (December 2025 - Present)
+Worked on splunk (SIEM), splunk enterprise security and arcsight.
+Worked on Falcon crowdstrike (EDR) dashboards.
+Proficient in BMC (IT) ticket management generatio...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.91
+Needs review   : True
+Total exp      : 4.4 years (53 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Cybersecurity engineer (L2)
+  Company      : (Nextl Solutions Pvt Ltd) (December 2025 - Present)
+  Location     : None
+  Start - End  : December 2025 - Present
+  Duration     : 11 months
+  Bullets      : 11
+    • Worked on splunk (SIEM), splunk enterprise security and arcsight.
+    • Worked on Falcon crowdstrike (EDR) dashboards.
+    • Proficient in BMC (IT) ticket management generation.
+    • Improvised and incorporated new Splunk+Arcsight queries and usecases.
+    • Worked on SIEM Qradar.
+    • Worked on sentinel (SIEM+SOAR) cloud native solution workspace.
+    • Worked on email security (Proof-point).
+    • Worked on python to incorporate new automation in splunk reports.
+    • Guided and supported team members and helped them in get well-versed via KT sessions and inperson discussions.
+    • Supported senior team members with splunk usecases, attending meetings, handover reports, fostering effective communication and preparing dashbord reports.
+    • Assisted in the beaking down of different queries, took initiative to participate in client meetings, ensuring a high level of professionalism and meticulously discussing new plans to help run the soc operations smoothly.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Cybersecurity operations engineer, (NOKIA
+  Company      : Worked on Alog requests and gave affirmation for online and offline hosts on
+  Location     : 
+  Start - End  : March 2024 - October 2025
+  Duration     : 20 months
+  Bullets      : 2
+    • Worked on Alog requests and gave affirmation for online and offline hosts on EDR.
+    • Guided and supported team members and helped them in grasp things in SOC via KT sessions and inperson discussions.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Cybersecurity certifications preparations
+  Company      : Higher
+  Location     : None
+  Start - End  : May 2023 - Dec 2023
+  Duration     : 8 months
+  Bullets      : 4
+    • ISC2 certified cyber defence analyst.
+    • CEH certified by EC-COUNCIL.
+    • Splunk certified security operations and the defence analyst Government certified ISO cyber hygiene practitioners.
+    • Comptia CYSA+ certified.
+  Sub-sections : ['WORK EXPERIENCE']
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Rishikul senior secondary school
+  Company      : 10th Matriculation
+  Location     : None
+  Start - End  : April 2013 - May 2014
+  Duration     : 14 months
+  Bullets      : 0
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

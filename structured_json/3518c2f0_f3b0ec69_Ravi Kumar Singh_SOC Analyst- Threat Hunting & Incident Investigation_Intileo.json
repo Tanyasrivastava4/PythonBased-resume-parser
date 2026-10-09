@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3518c2f0_f3b0ec69_Ravi Kumar Singh_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:15.494046+00:00",
+    "generated_at": "2026-10-07T10:31:12.519942+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -46,6 +46,7 @@
   "summary": null,
   "skills": {
     "items": [
+      "Analyze",
       "ArcSight",
       "CrowdStrike",
       "EDR",
@@ -56,15 +57,25 @@
       "Google",
       "IDS/IPS",
       "Incident Management",
+      "Java",
+      "Kibana",
+      "LinkedIn",
       "Linux",
       "Log Analysis",
+      "Logstash",
       "MITRE ATT&CK",
       "Microsoft Windows",
       "Network Security",
+      "OWASP Top 10",
       "Palo Alto Networks",
+      "Phishing",
+      "Regularization",
+      "Root Cause Analysis",
       "SIEM",
       "SIEM Monitoring",
       "SOAR",
+      "SOC Operations",
+      "Secure Coding",
       "Sophos",
       "Splunk",
       "Threat Hunting",
@@ -72,6 +83,10 @@
       "VirusTotal"
     ],
     "by_category": {
+      "data_science": [
+        "Analyze",
+        "Regularization"
+      ],
       "security_ops": [
         "ArcSight",
         "CrowdStrike",
@@ -81,7 +96,9 @@
         "Log Analysis",
         "MITRE ATT&CK",
         "Network Security",
+        "OWASP Top 10",
         "Palo Alto Networks",
+        "Phishing",
         "SIEM",
         "SOAR",
         "Sophos",
@@ -99,14 +116,33 @@
       "security": [
         "Fortinet",
         "Incident Management",
-        "SIEM Monitoring"
+        "SIEM Monitoring",
+        "SOC Operations"
       ],
       "database": [
         "Google"
       ],
+      "programming_language": [
+        "Java"
+      ],
+      "business_analysis": [
+        "Kibana"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "os_system": [
         "Linux",
         "Microsoft Windows"
+      ],
+      "dev_tool": [
+        "Logstash"
+      ],
+      "operations": [
+        "Root Cause Analysis"
+      ],
+      "cybersecurity": [
+        "Secure Coding"
       ]
     },
     "_confidence": 0.92,
@@ -121,6 +157,9 @@
         "start": "Aug 2025",
         "end": "May 2026",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Security Analyst L2 - Bharti Airtel Ltd. (Xtelify Ltd.)"
+        ],
         "duration_months": 10,
         "bullets": [
           "Investigate and respond to security incidents using SIEM tools (Splunk/ELK), performing deep log analysis and root cause analysis.",
@@ -140,11 +179,14 @@
         "location": null,
         "start": "May 2024",
         "end": "Aug 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Investigated phishing, brute-force across enterprise environments",
+          "Security Analyst - SecureVel"
+        ],
         "duration_months": 16,
         "bullets": [
-          "Monitored and analyzed security alerts using ELK SIEM across multiple systems Performed alert triage (L1/L2) and escalated confirmed security incidents.",
-          "Reduced false positives by 30% through SIEM rule tuning and correlation improvements Developed Kibana dashboards and queries for faster threat detection and analysis"
+          "Monitored and analyzed security alerts using ELK SIEM across multiple systems Performed alert triage (L1/L2) and escalated confirmed security incidents."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -152,12 +194,19 @@
         "source": "experience"
       },
       {
-        "role": "Software Engineering Analyst",
-        "company": "ANR Software Private Limited",
+        "role": "Software Engineering Analyst - ANR Software Private Limited",
+        "company": "Assisted in incident response and investigation",
         "location": null,
         "start": "Mar 2020",
         "end": "Apr 2021",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+multiline_dash_split",
+        "pre_date_header": [
+          "Reduced false positives by 30% through SIEM rule tuning and correlation improvements",
+          "Developed Kibana dashboards and queries for faster threat detection and analysis",
+          "Conducted log analysis on Windows/Linux systems to identify suspicious activities",
+          "Assisted in incident response and investigation",
+          "Software Engineering Analyst - ANR Software Private Limited"
+        ],
         "duration_months": 14,
         "bullets": [
           "Developed Java-based applications following secure coding practices (OWASP Top 10) Identified and fixed application vulnerabilities (input validation, error handling issues) Analyzed application logs to detect abnormal behavior and troubleshoot issues Worked with HTTP, APIs, and web security concepts Strengthened analytical and debugging skills applicable to SOC investigations."

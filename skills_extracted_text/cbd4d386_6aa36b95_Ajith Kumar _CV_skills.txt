@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/cbd4d386_6aa36b95_Ajith Kumar _CV_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Working Capital & Mortgage Loans
+• MSME & Corporate Lending
+• Financial Statement & CMA Analysis
+• Policy Compliance & Risk Mitigation
+• Portfolio Monitoring & NPA Management
+• Stakeholder Collaboration &
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 251.62 ms
+Method         : flashtext_skills_section | fuzzy(Working Capital→Working Capital Financing(100%), Mortgage Loans→Mortgage Lending(100%), Financial Statement→Financial Reporting(97%), Risk Mitigation→Risk Management(100%), appraisal→Real Estate Valuation(100%)...)
+
+── All Skills (21) ──
+B2B Sales, B2C Sales, CMA Analysis, Collaboration, Corporate Lending, Cross-functional Collaboration, Financial Analysis, Financial Reporting, KYC, Learning & Development, MIS Reporting, Microsoft Teams, Mortgage Lending, NPA Management, Pandas, Portfolio Monitoring, Process Improvement, Real Estate Valuation, Risk Management, Taxation, Working Capital Financing
+
+── By Category ──
+  ai_ml                          ['Pandas']
+  banking                        ['CMA Analysis', 'Corporate Lending', 'MIS Reporting', 'Mortgage Lending', 'NPA Management', 'Portfolio Monitoring', 'Working Capital Financing']
+  finance_ops                    ['Financial Analysis', 'Financial Reporting', 'Taxation']
+  hr                             ['Learning & Development']
+  legal                          ['KYC']
+  operations                     ['Process Improvement']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Risk Management']
+  real_estate                    ['Real Estate Valuation']
+  sales                          ['B2B Sales', 'B2C Sales']
+  soft_skill                     ['Collaboration', 'Cross-functional Collaboration']

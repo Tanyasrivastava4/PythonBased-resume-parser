@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "6f93c879_82f8beba_Naukri_Rohitzimbar[5y_8m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:10.652749+00:00",
+    "generated_at": "2026-10-07T09:26:47.865004+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,11 +47,13 @@
   "skills": {
     "items": [
       "Calibration",
+      "Coroutines Flow",
       "Field Instruments",
       "Gas Chromatograph",
       "HMI",
       "Instrumentation",
       "Maintenance Management",
+      "Optical Fiber Cable",
       "PLC",
       "RO Plant",
       "SCADA",
@@ -66,6 +68,9 @@
         "PLC",
         "SCADA"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "engineering": [
         "Field Instruments",
         "Gas Chromatograph",
@@ -74,6 +79,9 @@
         "RO Plant",
         "VFD",
         "Vapor Recovery System"
+      ],
+      "hardware": [
+        "Optical Fiber Cable"
       ],
       "data_science": [
         "TANKS"
@@ -86,11 +94,11 @@
     "jobs": [
       {
         "role": "Instrumentation Designer engineer",
-        "company": "Instrumentation design",
-        "location": "",
+        "company": "Limited",
+        "location": null,
         "start": "2023",
         "end": "2007",
-        "method": "year_range_short_regex+title_dict+comma_company_location",
+        "method": "year_range_short_regex+multiline_company_above_role",
         "duration_months": 0,
         "bullets": [
           "Design, develop, and implement instrumentation systems for various"
@@ -104,19 +112,19 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Instrumentation design",
-        "location": "15",
+        "role": "15",
+        "company": "10",
+        "location": null,
         "start": "2022-04-03",
         "end": "2023-07",
-        "method": "date_regex+inherited_company",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 15,
         "bullets": [
           "Working as a Instrumentation engineer in Vapor Recovery System, with Zeeco India Pvt. ltd. * Installation, calibration, troubleshooting, and loop checking of the field instruments. * Vapor recovery Unit Operation & maintenance. * Maintenance of statics/ rotary equipment, instruments, PLC/VFD panel, XEFD analyzer. * Maintain daily product recovery and Spare consumption record. * Experienced in erection & commissioning activity of VRU system. * Reviewing the project related documents such as Engineering specifications, * Instrument index, cable schedules, Cable Tray Layout, JB schedules. * Laying of control, signal, and OFC cables."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -125,7 +133,11 @@
         "location": null,
         "start": "2021-03-30",
         "end": "2022-03",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "GAIL INDIA LIMITED",
+          "Graduate Apprentice Trainee"
+        ],
         "duration_months": 12,
         "bullets": [
           "Worked as Graduate Apprentice Trainee in Instrumentation Department, with GAIL(INDIA) LTD. at Dabhol base. * Calibration and loop checking of field instruments. * Monitor and control the gas plant operation through SCADA. * Gas chromatograph calibration & validation * Speed of sound(SOS) validation of Flow computer. * prepared daily report & Daily log record of cylinders Pressure."
@@ -141,7 +153,11 @@
         "location": null,
         "start": "2020-01-31",
         "end": "2020-06",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "H2O management services (Perrigo Laboratories Pvt. Ltd.)",
+          "RO plant supervisor"
+        ],
         "duration_months": 5,
         "bullets": [
           "Worked as a RO plant supervisor in H2O management services. Working side – Perrigo Laboratories India Private Limited (Ambernath) * RO plant operation & maintenance"
@@ -157,7 +173,11 @@
         "location": null,
         "start": "2018-05-07",
         "end": "2020-01",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Tangent Engineering (Perrigo Laboratories Pvt. Ltd.)",
+          "Junior Engineer"
+        ],
         "duration_months": 20,
         "bullets": [
           "Worked as a Junior Engineer in Project and Engineering Department, With Tangent Engineering * RO plant & HVAC operation & Maintenance * Spray ball validation of SS Tanks * Commissioning of MBR plant. * Pharma machineries & equipment maintenance."
@@ -174,7 +194,7 @@
       "total_months": 52,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.87
+    "_confidence": 0.92
   },
   "education": {
     "entries": [
@@ -223,15 +243,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[3]",
       "confidence": 0.7,

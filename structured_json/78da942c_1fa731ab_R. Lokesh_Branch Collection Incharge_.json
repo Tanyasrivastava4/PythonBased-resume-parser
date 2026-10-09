@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "78da942c_1fa731ab_R. Lokesh_Branch Collection Incharge__segmented.txt",
-    "generated_at": "2026-09-30T06:59:22.015087+00:00",
+    "generated_at": "2026-10-07T09:26:59.015907+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -51,12 +51,16 @@
   "skills": {
     "items": [
       "MS Office",
+      "Room Database",
       "Scheme",
       "Tally"
     ],
     "by_category": {
       "productivity": [
         "MS Office"
+      ],
+      "database": [
+        "Room Database"
       ],
       "dev_tool": [
         "Scheme"
@@ -66,7 +70,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(room→Room Database(100%)) | flashtext_full_text_fallback"
   },
   "experience": {
     "jobs": [],

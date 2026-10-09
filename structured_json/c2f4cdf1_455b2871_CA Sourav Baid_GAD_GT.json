@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c2f4cdf1_455b2871_CA Sourav Baid_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:16.500596+00:00",
+    "generated_at": "2026-10-07T09:28:10.770597+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,22 +47,57 @@
   "summary": null,
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
+      "Accounts Payable",
+      "Accounts Receivable",
       "Adaptability",
+      "CARO Reporting",
       "Collaboration",
       "Communication",
+      "Company Law",
+      "CompuOffice",
+      "Consolidated Financial Statements",
+      "Financial Reporting",
+      "Financial Statement Analysis",
+      "Form 3CA-3CD",
+      "GST",
+      "GST Return Filing",
+      "Income Tax Return",
       "Leadership",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
       "Problem Solving",
-      "Tally",
-      "Time Management"
+      "Reporting",
+      "Schedule III Compliance",
+      "Statutory Audit",
+      "TCS",
+      "TDS",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Time Management",
+      "Trend Analysis",
+      "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
-        "Tally"
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Taxation"
       ],
       "soft_skill": [
         "Adaptability",
@@ -70,12 +105,39 @@
         "Communication",
         "Leadership",
         "Problem Solving",
+        "Reporting",
         "Time Management"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Financial Statement Analysis",
+        "GST Return Filing",
+        "Income Tax Return",
+        "Vouching"
+      ],
+      "legal": [
+        "Company Law"
+      ],
+      "accounting": [
+        "CompuOffice",
+        "Consolidated Financial Statements",
+        "Form 3CA-3CD",
+        "GST",
+        "TCS"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
         "Microsoft Word"
+      ],
+      "taxation": [
+        "TDS"
+      ],
+      "data_science": [
+        "Trend Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -84,16 +146,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "(Atrusted CA firm recognized for its accuracy, integrity, and client-focused financial expertise",
-        "company": null,
+        "role": "Article Assistant",
+        "company": "JP& Associates (Atrusted CA firm recognized for its accuracy, integrity, and client-focused financial expertise",
         "location": null,
         "start": "Oct’18",
         "end": "Apr’19",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Article Assistant at JP& Associates (Atrusted CA firm recognized for its accuracy, integrity,"
+        ],
         "duration_months": 7,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
@@ -101,10 +166,10 @@
         "role": "Article Assistant",
         "company": "V. Damani & Co.(A Leading Chartered Accountancy firm with of trusted service and a robust portfolio of corporate and individual clients) Statutory Audit",
         "location": null,
-        "start": "Apr’19",
-        "end": "Oct‘21",
-        "method": "date_regex+at_split",
-        "duration_months": 31,
+        "start": "Oct‘21",
+        "end": "35 Years",
+        "method": "stated_duration_regex+header_line_widow_date+at_split",
+        "duration_months": 160,
         "bullets": [
           "Led Statutory Audits of Private Ltd. Companies involving 26AS Reconciliation with Books,"
         ],
@@ -114,21 +179,25 @@
         "source": "experience"
       },
       {
-        "role": "Article Assistant",
-        "company": "Prepared financial statements for diverse firms with turnover ranging from ₹5 Lakhs to ₹120 Crores, in compliance with applicable accounting standards, and analyzed financial data to support strategic business decisions.",
-        "location": null,
+        "role": "per AS & Schedule III of Companies Act, 2013",
+        "company": "Ledger Scrutiny, TDS compliances on Expenses, Identification of Prior period items",
+        "location": "",
         "start": "2016",
         "end": "2020",
-        "method": "date_regex+inherited_role",
+        "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Ledger Scrutiny, TDS compliances on Expenses, Identification of Prior period items,"
+        ],
         "duration_months": 49,
         "bullets": [
           "Conducted statutory audits for banks under Section 35A of the Banking Regulation Act, ensuring adherence to regulatory requirements and improving financial transparency.",
+          "Prepared financial statements for diverse firms with turnover ranging from ₹5 Lakhs to ₹120 Crores, in compliance with applicable accounting standards, and analyzed financial data to support strategic business decisions.",
           "Reviewed bank reconciliations, accounts receivable & accounts payable to ensure accuracy, completeness & consistency across financial records along with Vouching & Verification.",
           "Performed detailed variance and trend analysis, along with consistency checks, to identify discrepancies and improvement opportunities in financial operations.",
           "Filed more than 200 income tax returns annually for clients with total income ranging",
           "From₹3 Lakhs to ₹8 Crores, ensuring timely and accurate submissions.",
           "Manage filing of TDS and TCS returns under various sections and handled over 100 GST return filings annually, including more than 20 GST audits and reconciliation statements",
-          "Conducted comparative assessments for clients to evaluate benefits of opting for the"
+          "Conducted comparative assessments for clients to evaluate benefits of opting for the old or new tax regime, tailored to corporate and individual profiles."
         ],
         "sub_sections": [
           "Taxation and Tax Audits",
@@ -137,13 +206,13 @@
           "statutory requirements in a range of Sectors Such as Manufacturing, Trading and other",
           "Professions (T/O Ranging from ₹50 Lakhs to ₹135 Crores) and Audit Planning."
         ],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Audit Executive at LMV & Associates",
-        "company": "old or new tax regime, tailored to corporate and individual profiles. WORK EXPERIENCE",
+        "company": "WORK EXPERIENCE",
         "location": null,
         "start": "Dec’23",
         "end": "Oct’25",
@@ -161,18 +230,18 @@
         "sub_sections": [
           "Achievements, Certificates & Extra Curriculars Activities"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.8,
-      "total_months": 93,
+      "total_years": 17.4,
+      "total_months": 209,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.7
+    "_confidence": 0.77
   },
   "education": {
     "entries": [
@@ -181,7 +250,7 @@
         "degree_name": "CA Foundation",
         "degree_type": "professional_certification",
         "degree_field": "Cleared in First Attempt",
-        "institution": null,
+        "institution": "CBSE",
         "year": "2025",
         "gpa": null,
         "_needs_review": false,
@@ -192,7 +261,7 @@
         "degree_name": "CA Intermediate",
         "degree_type": "professional_certification",
         "degree_field": "Exemption in 3 Subjects",
-        "institution": null,
+        "institution": "CBSE",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -203,7 +272,7 @@
         "degree_name": "CA Final",
         "degree_type": "professional_certification",
         "degree_field": "Exemption in 3 Subjects}",
-        "institution": null,
+        "institution": "CBSE",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -216,7 +285,7 @@
         "degree_field": null,
         "institution": ".,MGS University",
         "year": null,
-        "gpa": "83.8%",
+        "gpa": "53.22%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -243,18 +312,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
       "field": "experience.jobs[0]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
@@ -264,11 +328,6 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

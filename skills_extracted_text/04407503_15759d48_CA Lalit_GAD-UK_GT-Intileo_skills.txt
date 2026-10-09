@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/04407503_15759d48_CA Lalit_GAD-UK_GT-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Hard Skills: Financial reporting automation, GAAP compliance review, Internal control evaluation, Audit program development, Audit
+planning, Substantive audit procedures, Materiality assessment, Risk assessment procedures, Test of controls
+Soft Skills: Teamwork, Strategic thinking, Negotiation, Conflict resolution, Communication, Decision making, Project management,
+Critical thinking, Attention to detail, Adaptability, Leadership, Collaboration, Innovation
+
+── Extraction Results ──
+Skills found   : 27
+Confidence     : 0.92
+Time           : 308.66 ms
+Method         : flashtext_skills_section | fuzzy(Strategic thinking→Strategic Thinking(100%), Conflict resolution→Conflict Resolution(100%), Decision making→Decision Making(100%), Project management→Project Management(100%), Critical thinking→Problem Solving(100%))
+
+── All Skills (27) ──
+Adaptability, Attention to Detail, Auditing, Collaboration, Communication, Conflict Resolution, Creativity, Decision Making, Financial Analysis, Financial Reporting, GAAP, Internal Controls Testing, Leadership, LinkedIn, Machine Learning, Microsoft Excel, Negotiation, Problem Solving, Project Management, Regulatory Compliance, Reporting, Risk Management, Statutory Audit, Strategic Thinking, Tally, Tax Audit, Taxation
+
+── By Category ──
+  accounting                     ['Tax Audit']
+  ai_ml                          ['Machine Learning']
+  finance_ops                    ['Auditing', 'Financial Analysis', 'Financial Reporting', 'GAAP', 'Internal Controls Testing', 'Statutory Audit', 'Tally', 'Taxation']
+  legal                          ['Regulatory Compliance']
+  productivity                   ['Microsoft Excel']
+  project_mgmt                   ['Project Management', 'Risk Management']
+  soft_skill                     ['Adaptability', 'Attention to Detail', 'Collaboration', 'Communication', 'Conflict Resolution', 'Creativity', 'Decision Making', 'Leadership', 'Negotiation', 'Problem Solving', 'Reporting', 'Strategic Thinking']
+  web_framework                  ['LinkedIn']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "75946962_e0f90b3d_Prakash Bhatt_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:19.250987+00:00",
+    "generated_at": "2026-10-07T09:26:55.351326+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,29 +51,41 @@
   "summary": "➢ An IT & telecom professional with more than 12 Years rich experience https://www.google.com/url?sa=i&u in Linux,\nDevOps/SRE, Application Support, SMSC, OTA & Bulk SMS rl=https%3A%2F%2Fwww.credly.c Technologies.\n➢ I am currently a Manager at Tata Communications Novamesh Entity, om%2Forg%2Famazon-web- where I’ve spent\nthe last five years scaling CPaaS solutions. My focus is on the seamless services%2Fbadge%2Faws-certified- delivery of\nenterprise-grade SMS, RCS, WhatsApp, and Email services, alonsgosildueti oimnps-leamrcehnittiencgt -\nDarkNoc, our AI-driven monitoring and observability platformas. sociate&psig=AOvVaw1A0wXijF\n➢ Previously worked with Mahindra Comviva & Valley Telegencpet.Z -\nfvx76jEX6k&ust=16731499621120\n00&source=images&cd=vfe&ved=0",
   "skills": {
     "items": [
+      "API Design",
       "AWK",
       "AWS",
+      "AWS EKS",
       "Active Directory",
       "Ansible",
       "ArgoCD",
       "Bash",
       "Bedrock",
+      "CI/CD",
       "Communication",
+      "Confluence",
+      "Coroutines Flow",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Customer Handling",
       "DHCP",
       "DNS",
       "DevOps",
       "Docker",
       "Elasticsearch",
+      "Firewall",
       "Git",
       "Google",
       "Grafana",
       "Helm",
       "Jenkins",
       "Jira",
+      "Kibana",
       "Kubeflow",
       "Kubernetes",
       "Linux",
       "MCP Server",
+      "Make",
+      "Microsoft Teams",
       "Microsoft Windows",
       "MongoDB",
       "MySQL",
@@ -82,34 +94,61 @@
       "New Relic",
       "Observability",
       "Ollama",
+      "Oracle Cloud Infrastructure",
+      "Oracle Database",
+      "Payroll Administration",
+      "Postman",
       "PuTTY",
+      "Public Relations",
       "Python",
+      "R",
+      "REACH",
+      "REST API",
       "Redis",
+      "Reliability",
+      "Root Cause Analysis",
+      "SAN",
+      "ServiceNow",
+      "Skype",
+      "Straight-Through Processing",
       "TCP/IP",
       "Tcpdump",
       "Telecom",
       "Terraform",
+      "UAT",
       "Ubuntu",
+      "VPN",
+      "VS Code",
+      "Wireshark",
       "Zabbix"
     ],
     "by_category": {
+      "architecture": [
+        "API Design"
+      ],
       "dev_tool": [
         "AWK",
         "Git",
+        "Postman",
         "PuTTY"
       ],
       "cloud_infra": [
         "AWS",
+        "AWS EKS",
         "Nagios",
         "Tcpdump",
+        "Wireshark",
         "Zabbix"
       ],
       "security_ops": [
-        "Active Directory"
+        "Active Directory",
+        "Firewall",
+        "VPN"
       ],
       "devops": [
         "Ansible",
         "ArgoCD",
+        "CI/CD",
         "DevOps",
         "Docker",
         "Grafana",
@@ -132,7 +171,22 @@
         "Ollama"
       ],
       "soft_skill": [
-        "Communication"
+        "Communication",
+        "Cross-functional Collaboration",
+        "Reliability"
+      ],
+      "collaboration": [
+        "Confluence",
+        "Skype"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
+      ],
+      "customer_service": [
+        "Customer Handling"
       ],
       "networking": [
         "DHCP",
@@ -146,22 +200,66 @@
         "Google",
         "MongoDB",
         "MySQL",
+        "Oracle Database",
         "Redis"
       ],
       "project_mgmt": [
         "Jira"
       ],
+      "business_analysis": [
+        "Kibana"
+      ],
       "data_science": [
         "Kubeflow"
+      ],
+      "rpa": [
+        "Make"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "biz_dev": [
         "Networking"
       ],
+      "cloud": [
+        "Oracle Cloud Infrastructure"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "marketing": [
+        "Public Relations"
+      ],
       "programming_language": [
-        "Python"
+        "Python",
+        "R"
+      ],
+      "compliance": [
+        "REACH"
+      ],
+      "web_framework": [
+        "REST API"
+      ],
+      "operations": [
+        "Root Cause Analysis"
+      ],
+      "storage": [
+        "SAN"
+      ],
+      "integration": [
+        "ServiceNow"
+      ],
+      "banking": [
+        "Straight-Through Processing"
       ],
       "domain": [
         "Telecom"
+      ],
+      "testing": [
+        "UAT"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -170,13 +268,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Technical Manager",
+        "role": "Technical Manager (Tata Communications Novamesh",
         "company": "Postman",
         "location": "ServiceNow",
         "start": "Apr 2023",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 42,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Postman, ServiceNow, Visual Studio code"
+        ],
+        "duration_months": 43,
         "bullets": [
           "Project: Customer Interaction Suit (CIS) - CPAAS",
           "Design, build, and operate scalable and reliable systems with a team of SREs & DevOps. 1",
@@ -186,7 +287,8 @@
           "Developing Confluence-based runbooks to guide Level 3/SRE teams in resolving production system incidents & deployments.",
           "Design and maintain DevOps release mechanisms for production and testing environments.",
           "Version, build and deploy containerized applications across all environments utilizing Jenkins, ArgoCD, EKS and Docker.",
-          "Ensure cloud resources and software are delivered effectively through CI/CD pipelines."
+          "Ensure cloud resources and software are delivered effectively through CI/CD pipelines.",
+          "Regularly coordinate and collaborate with the Applications Development team."
         ],
         "sub_sections": [
           "Unknown - Role | SRE/DevOps Lead",
@@ -201,12 +303,12 @@
         "source": "experience"
       },
       {
-        "role": "Unknown - 2-Project | Engage API gateway & Campaign Manager",
+        "role": "Technical Lead (Tata Communications",
         "company": "PROJECT UNDERTAKEN",
         "location": null,
         "start": "Feb 2021",
         "end": "Mar 2023",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title+next_line_company",
         "duration_months": 26,
         "bullets": [
           "Product Description: Simplify interconnection and reach across the mobile ecosystem, deliver a high-quality user experience, and monetize A2P messaging with Tata Communications’ Mobile Messaging Exchange, our managed service that provides reliable, profitable A2P SMS delivery between Enterprises, OTTs, SMS aggregators and Mobile Networks. Unknown - 2-Project | Engage API gateway & Campaign Manager Product Description: It delivers customer-facing workflows for customer experience optimization, real-time on any device, any place, and any platform.",
@@ -216,7 +318,7 @@
           "Build visualization and Dashboards using kibana for VM resource monitoring and customer traffic watch improved.",
           "Coordination with cross functional teams like Routing/Service Delivery/Product Team providing them quick resolution.",
           "Enabled proactive monitoring in the NOC team to address platinum and enterprise customer complaints, improving support responsiveness and contributing to revenue uplift 2",
-          "Helping the all functional and cross-functional teams on TCP/IP flow analysis or troubleshooting and received multiple awards from Engineering & product team for"
+          "Helping the all functional and cross-functional teams on TCP/IP flow analysis or troubleshooting and received multiple awards from Engineering & product team for helping on chronical issues."
         ],
         "sub_sections": [
           "ROLES AND RESPONSIBILITIES"
@@ -226,26 +328,29 @@
         "source": "experience"
       },
       {
-        "role": "Senior Engineer (Mahindra Comviva) Payroll",
-        "company": "helping on chronical issues",
+        "role": "Senior Engineer (Mahindra Comviva",
+        "company": "Payroll",
         "location": null,
-        "start": "Apr 2016",
+        "start": "Oct 2018",
         "end": "Feb 2021",
-        "method": "date_regex",
-        "duration_months": 59,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Engineer (Mahindra Comviva)"
+        ],
+        "duration_months": 29,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Contingent",
-        "location": null,
+        "role": "Unknown",
+        "company": "Role | SRE/DevOps Lead",
+        "location": "VAS",
         "start": "Apr 2016",
         "end": "Sep 2018",
-        "method": "date_regex",
+        "method": "date_regex+comma_company_location",
         "duration_months": 30,
         "bullets": [],
         "sub_sections": [],
@@ -255,11 +360,11 @@
       },
       {
         "role": null,
-        "company": "1-Project: Integrated Messaging, SMSC, SMPP",
-        "location": "VAS",
+        "company": "Product Description",
+        "location": null,
         "start": "April 2016",
         "end": "July 2019",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex",
         "duration_months": 40,
         "bullets": [
           "Mahindra Comviva’s Integrated Messaging Solution enables operators to consolidate their entire messaging infrastructure and multiple services on different messaging channels through a single consolidated window.",
@@ -275,12 +380,15 @@
         "source": "experience"
       },
       {
-        "role": "Messaging, Campaign Manager, REST API gateway, Distributed Ledger Technology, MMT tool Duration",
+        "role": "Messaging, Campaign Manager, REST API gateway, Distributed Ledger Technology, MMT tool",
         "company": "Product Description",
         "location": null,
         "start": "Aug 2019",
         "end": "Feb 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Messaging, Campaign Manager, REST API gateway, Distributed Ledger Technology, MMT tool"
+        ],
         "duration_months": 19,
         "bullets": [
           "Mahindra Comviva’s Uno (enabled with SMSC, CP Management Module and SMS Firewall) platform offered to TTSL India is a highly scalable, virtualized, and consolidated messaging platform. The solution has inbuilt capability for performing signaling filtering, content filtering and DND scrubbing functionalities. NGAGE MESSAGING PLATFORM: An Intelligent Omni-channel CPaaS offering that enables an enterprise entity to communicate with its customers using rich contextual cadence and deliver an enriching customer experience across the channel of their choice.",
@@ -296,7 +404,8 @@
           "Working over ticketing tool and ensuring to solve issues as per SLA agreement per customer.",
           "Document preparation for projects implementation, RCA & other case studies for major/critical incidents.",
           "Planning of Governance calls and ticket analysis report preparation.",
-          "Provide L1 & L2 analysis& provide all required support to L3 team to diagnose the reported/escalated issues."
+          "Provide L1 & L2 analysis& provide all required support to L3 team to diagnose the reported/escalated issues.",
+          "Review and execute UAT, Tracking logs, application Configuration."
         ],
         "sub_sections": [
           "ROLES AND RESPONSIBILITIES"
@@ -306,12 +415,12 @@
         "source": "experience"
       },
       {
-        "role": "Technical Operation Engineer",
+        "role": "Technical Operation Engineer (Valley Telegence",
         "company": "Client: SSTL (MTS",
         "location": null,
         "start": "March 2014",
         "end": "March 2016",
-        "method": "date_regex+subfield_label_role+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 25,
         "bullets": [
           "Over-the-air Functionality/ programming (OTAF) system will be used for both OTASP (Over the Air System Provisioning) and OTAPA (Over the Air Parameter Administration) operations. It contains the physical hardware configuration details after installation of servers along with the respective serial numbers of the components, OS and 3rd party software installed, OTAF application software, SIGTRAN connectivity of the OTAF w. r. t. the STPs, E1 and SAN connectivity details. Responsibilities:",
@@ -337,59 +446,48 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Communications",
-        "location": "FY",
+        "role": "Communications), FY",
+        "company": "5",
+        "location": null,
         "start": "2021",
         "end": "2022",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 13,
         "bullets": [
           "Received multiple prestigious Awards like ACE, Blue Ribbon, Xtra Mile, Bravo, Hi5"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "from Engineering, DevOps, Product, MM",
-        "location": "SA teams",
+        "role": "Total 14 awards) from Engineering, DevOps, Product, MM, SA teams (Tata",
+        "company": "Communications",
+        "location": "FY",
         "start": "2022",
         "end": "2023",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "(Total 14 awards) from Engineering, DevOps, Product, MM, SA teams (Tata"
+        ],
         "duration_months": 13,
         "bullets": [
-          "Received multiple prestigious Awards like Blue Ribbon, Xtra Mile, Bravo, Hi5 (Total 10"
+          "Received multiple prestigious Awards like Blue Ribbon, Xtra Mile, Bravo, Hi5 (Total 10 awards) from Engineering, DevOps, Product, MM, SA teams (Tata Communications),"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "awards) from Engineering, DevOps, Product",
-        "location": "MM",
-        "start": "2023",
-        "end": "2025",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 25,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.6,
-      "total_months": 151,
-      "overlapping_periods_merged": 8
+      "total_years": 12.7,
+      "total_months": 152,
+      "overlapping_periods_merged": 6
     },
-    "_confidence": 0.9
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -410,7 +508,7 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "Uttarakhand Board",
-        "year": "2009",
+        "year": "2007",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -613,15 +711,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[3]",
       "confidence": 0.85,
@@ -629,21 +722,6 @@
     },
     {
       "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[7]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[8]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[9]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

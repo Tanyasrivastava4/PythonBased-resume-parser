@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "76ddbaa8_26f5b995_Ranjan Kumar_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:19.494005+00:00",
+    "generated_at": "2026-10-07T09:26:55.654602+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,10 +48,13 @@
     "items": [
       "Agile",
       "Android",
+      "Boosting",
       "CI/CD",
       "Clean Architecture",
       "Collaboration",
+      "Cross-functional Collaboration",
       "Dart",
+      "E-commerce",
       "Fastlane",
       "Firebase",
       "Flutter",
@@ -64,10 +67,13 @@
       "MVC Architecture",
       "MVVM",
       "Mobile Application Development",
+      "Mockito",
       "Performance Optimization",
       "REST API",
       "Razorpay",
       "Remote Config",
+      "Retrofit",
+      "State Management",
       "VS Code",
       "XML",
       "iOS"
@@ -82,6 +88,9 @@
         "Mobile Application Development",
         "iOS"
       ],
+      "data_science": [
+        "Boosting"
+      ],
       "devops": [
         "CI/CD",
         "Fastlane",
@@ -89,14 +98,18 @@
       ],
       "architecture": [
         "Clean Architecture",
-        "MVVM"
+        "MVVM",
+        "State Management"
       ],
       "soft_skill": [
-        "Collaboration"
+        "Collaboration",
+        "Cross-functional Collaboration"
       ],
-      "programming_language": [
-        "Dart",
-        "Java"
+      "programming": [
+        "Dart"
+      ],
+      "retail": [
+        "E-commerce"
       ],
       "database": [
         "Firebase",
@@ -105,11 +118,14 @@
       "dev_tool": [
         "Git",
         "GitHub",
-        "Performance Optimization",
-        "VS Code"
+        "Performance Optimization"
       ],
       "testing": [
-        "JUnit"
+        "JUnit",
+        "Mockito"
+      ],
+      "programming_language": [
+        "Java"
       ],
       "software_engineering": [
         "MVC Architecture"
@@ -123,6 +139,12 @@
       ],
       "cloud_infra": [
         "Remote Config"
+      ],
+      "mobile_dev": [
+        "Retrofit"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -136,7 +158,11 @@
         "location": "Noida",
         "start": "Jul 2022",
         "end": "Sep 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Kutumbh HRCare, Noida",
+          "Mobile App Developer"
+        ],
         "duration_months": 39,
         "bullets": [
           "Delivered 3 production-grade mobile applications across e-Commerce and Field Service Management (FSM)with proven results in boosting user engagement, reducing defects, and accelerating release cycles.",
@@ -153,8 +179,11 @@
         "location": "Noida",
         "start": "Nov 2025",
         "end": "present",
-        "method": "date_regex+date_prefix_title+inherited_company",
-        "duration_months": 11,
+        "method": "date_regex+title_dict_strong+inherited_company",
+        "pre_date_header": [
+          "Mobile App Developer"
+        ],
+        "duration_months": 12,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -165,7 +194,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 4.2,
-      "total_months": 50,
+      "total_months": 51,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.92

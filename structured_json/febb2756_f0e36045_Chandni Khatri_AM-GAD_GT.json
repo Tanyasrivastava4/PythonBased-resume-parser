@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "febb2756_f0e36045_Chandni Khatri_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:54.873680+00:00",
+    "generated_at": "2026-10-07T09:29:00.707474+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,51 +46,95 @@
   "summary": "Chartered Accountant with 5+ years of progressive experience in Statutory Audit, Financial Reporting, IFRS, Risk\nAssessment, and Client Management, including Big 4 exposure at KPMG.",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting Standards",
+      "Accounts Receivable",
+      "Analytical Review",
       "Audit Methodology",
       "Auditing",
-      "Client Relationship Management",
-      "Control Testing",
+      "Client Handling",
+      "Communication",
+      "Finalization of Financial Statements",
+      "Financial Analysis",
       "Financial Reporting",
       "GAAP",
+      "Healthcare",
       "IFRS",
-      "Ind AS",
+      "LinkedIn",
       "Microsoft Excel",
+      "Microsoft Outlook",
+      "Microsoft Teams",
       "Microsoft Word",
+      "R",
+      "Regulatory Compliance",
       "Risk Assessment",
+      "Schedule III Compliance",
       "Statutory Audit",
       "Substantive Testing",
-      "Team Leadership"
+      "Team Leadership",
+      "Test of Details",
+      "Tests of Controls",
+      "Tutoring"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "Schedule III Compliance"
+      ],
       "finance_ops": [
+        "Accounts Receivable",
         "Audit Methodology",
         "Auditing",
+        "Financial Analysis",
         "Financial Reporting",
         "GAAP",
         "IFRS",
         "Statutory Audit",
         "Substantive Testing"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "accounting": [
+        "Analytical Review",
+        "Finalization of Financial Statements",
+        "Tests of Controls"
       ],
-      "finance": [
-        "Control Testing",
-        "Ind AS"
+      "management": [
+        "Client Handling"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Team Leadership"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
+        "Microsoft Outlook",
+        "Microsoft Teams",
         "Microsoft Word"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "legal": [
+        "Regulatory Compliance"
       ],
       "compliance": [
         "Risk Assessment"
       ],
-      "soft_skill": [
-        "Team Leadership"
+      "finance": [
+        "Test of Details"
+      ],
+      "education_domain": [
+        "Tutoring"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), IND AS→Ind AS(100%), Client Management→Client Relationship Management(100%), Advanced Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), IND AS→Accounting Standards(100%), Client Management→Client Handling(100%), Advanced Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%))"
   },
   "experience": {
     "jobs": [
@@ -100,8 +144,11 @@
         "location": null,
         "start": "April 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 42,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Auditor (Big 4)"
+        ],
+        "duration_months": 43,
         "bullets": [
           "Performed statutory audit for various Australian clients including manufacturing, healthcare, retail sector, and service sector including non-profit clients ensuring 100% compliance with IFRS and regulatory framework.",
           "Performed Test of Details during audit procedures on multiple areas including revenue, accounts receivable and payable, inventory, investments, treasury and debts, resulting in 25% reduction in audit-related risks.",
@@ -131,8 +178,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.5,
-      "total_months": 42,
+      "total_years": 3.6,
+      "total_months": 43,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

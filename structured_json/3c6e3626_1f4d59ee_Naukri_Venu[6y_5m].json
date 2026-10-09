@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3c6e3626_1f4d59ee_Naukri_Venu[6y_5m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:22.320365+00:00",
+    "generated_at": "2026-10-07T10:31:20.463324+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,27 +48,40 @@
     "items": [
       ".NET",
       "AJAX",
+      "API Design",
       "AWS",
       "AWS CloudWatch",
       "AWS EC2",
       "AWS IAM",
+      "AWS Lambda",
       "AWS RDS",
       "AWS S3",
+      "AWS SES",
       "AWS SQS",
       "Agile",
+      "Amazon EMR",
       "Angular",
+      "Annual Operating Plan",
       "Ansible",
+      "Apache Airflow",
       "Apache HBase",
       "Apache Hadoop",
       "Apache Hive",
+      "Apache Kafka",
       "Apache Maven",
+      "Apache NiFi",
+      "Apache Parquet",
+      "Apache Solr",
       "Apache Spark",
       "Apache Sqoop",
       "Apache Struts",
       "Apache Tomcat",
       "Azure",
+      "Azure Data Lake",
+      "Bitbucket",
       "Bootstrap",
       "Bugzilla",
+      "CI/CD",
       "CSS3",
       "CVS",
       "Caching",
@@ -76,9 +89,15 @@
       "Celery",
       "CircleCI",
       "Collaboration",
+      "Commercial Real Estate",
       "Communication",
+      "Control Panel",
+      "Coroutines Flow",
       "Cross-functional Collaboration",
       "Data Cleaning",
+      "Data Collection",
+      "Data Management",
+      "Data Migration",
       "DevOps",
       "Django",
       "Docker",
@@ -88,6 +107,7 @@
       "Eclipse",
       "Elasticsearch",
       "Email Marketing",
+      "Express.js",
       "Ext JS",
       "FastAPI",
       "Flask",
@@ -97,8 +117,10 @@
       "Go",
       "Google",
       "HTML5",
+      "Healthcare",
       "Heroku",
       "Hibernate",
+      "Indexing",
       "J2EE",
       "JBoss",
       "JDBC",
@@ -117,10 +139,15 @@
       "LDAP",
       "Linux",
       "Load Balancer",
+      "MSSQL",
       "MVC Architecture",
       "Mac OS",
+      "Machine Learning",
+      "Make",
       "Matplotlib",
       "Mentoring",
+      "Microservices",
+      "Microsoft Fabric",
       "Microsoft Teams",
       "Microsoft Visio",
       "Microsoft Windows",
@@ -135,25 +162,36 @@
       "NoSQL",
       "Node.js",
       "NumPy",
-      "Oracle JDBC",
+      "Oracle Database",
       "PL/SQL",
       "Pandas",
+      "Performance Optimization",
+      "Perl",
+      "Pitch Scripts",
       "PostgreSQL",
+      "Procurement",
+      "Professional Tax",
       "Proxy",
       "PyCharm",
       "PySpark",
       "Pytest",
       "Python",
       "Python Tools for Visual Studio (PTVS)",
+      "Quality Assurance",
       "REST",
       "REST API",
       "RabbitMQ",
       "Raspberry Pi",
       "React",
+      "React Native",
       "Red Hat Enterprise Linux",
+      "Redshift",
       "Redux",
+      "Regression Testing",
+      "Reliability",
       "SAS",
       "SDLC",
+      "SOA",
       "SOAP",
       "SQL",
       "SQLite",
@@ -162,19 +200,33 @@
       "Scrum",
       "Selenium",
       "Servlets",
+      "Share Purchase Agreement",
+      "Snowflake",
       "Spring",
+      "Spring Boot",
+      "Spring Cloud",
+      "Spring Security",
+      "Stored Procedures",
+      "System Design",
       "TCP/IP",
       "Tableau",
+      "Technical Design Document",
       "Technical Writing",
+      "Templating",
+      "Test Plans",
       "Toad",
+      "Typing",
       "UNIX",
       "Ubuntu",
       "VMware",
+      "VPC",
       "Vue.js",
       "Waterfall",
+      "WebLogic",
       "Window Functions",
       "XHTML",
       "XML",
+      "cPanel",
       "jQuery"
     ],
     "by_category": {
@@ -187,6 +239,7 @@
         "JavaScript",
         "Modula",
         "Multithreading",
+        "Perl",
         "Python",
         "Python Tools for Visual Studio (PTVS)"
       ],
@@ -194,10 +247,10 @@
         "AJAX",
         "Angular",
         "Apache Struts",
-        "Apache Tomcat",
         "Bootstrap",
         "CSS3",
         "Django",
+        "Express.js",
         "Ext JS",
         "FastAPI",
         "Flask",
@@ -215,18 +268,31 @@
         "SOAP",
         "Servlets",
         "Spring",
+        "Spring Boot",
+        "Templating",
         "Vue.js",
         "XHTML",
         "XML",
         "jQuery"
+      ],
+      "architecture": [
+        "API Design",
+        "Caching",
+        "Microservices",
+        "SDLC",
+        "SOA",
+        "System Design",
+        "Technical Design Document"
       ],
       "cloud_infra": [
         "AWS",
         "AWS CloudWatch",
         "AWS EC2",
         "AWS IAM",
+        "AWS Lambda",
         "AWS RDS",
         "AWS S3",
+        "AWS SES",
         "AWS SQS",
         "Azure",
         "GCP",
@@ -239,8 +305,17 @@
         "Scrum",
         "Waterfall"
       ],
+      "cloud": [
+        "Amazon EMR",
+        "Azure Data Lake",
+        "Microsoft Fabric"
+      ],
+      "management": [
+        "Annual Operating Plan"
+      ],
       "devops": [
         "Ansible",
+        "CI/CD",
         "CVS",
         "CircleCI",
         "DevOps",
@@ -249,67 +324,105 @@
         "Jenkins",
         "Load Balancer",
         "Nginx",
-        "SVN"
-      ],
-      "database": [
-        "Apache HBase",
-        "Apache Sqoop",
-        "Cassandra",
-        "DynamoDB",
-        "Google",
-        "JDBC",
-        "Joins",
-        "MongoDB",
-        "MySQL",
-        "NoSQL",
-        "Oracle JDBC",
-        "PL/SQL",
-        "PostgreSQL",
-        "PySpark",
-        "SQL",
-        "SQLite",
-        "Toad",
-        "Window Functions"
+        "SVN",
+        "cPanel"
       ],
       "data_engineering": [
+        "Apache Airflow",
         "Apache Hadoop",
         "Apache Hive",
+        "Apache Kafka",
         "Apache Spark",
         "Celery",
         "Data Cleaning",
         "ETL",
         "RabbitMQ"
       ],
+      "database": [
+        "Apache HBase",
+        "Apache Solr",
+        "Apache Sqoop",
+        "Cassandra",
+        "DynamoDB",
+        "Google",
+        "Indexing",
+        "JDBC",
+        "Joins",
+        "MSSQL",
+        "MongoDB",
+        "MySQL",
+        "NoSQL",
+        "Oracle Database",
+        "PL/SQL",
+        "PostgreSQL",
+        "PySpark",
+        "Redshift",
+        "SQL",
+        "SQLite",
+        "Snowflake",
+        "Stored Procedures",
+        "Toad",
+        "Window Functions"
+      ],
       "dev_tool": [
         "Apache Maven",
+        "Apache Tomcat",
+        "Bitbucket",
         "Eclipse",
         "Git",
         "GitHub",
         "Microsoft Visio",
         "NetBeans",
-        "PyCharm"
+        "Performance Optimization",
+        "PyCharm",
+        "WebLogic"
+      ],
+      "bigdata": [
+        "Apache NiFi",
+        "Apache Parquet"
       ],
       "testing": [
         "Bugzilla",
         "JUnit",
         "Pytest",
-        "Selenium"
-      ],
-      "architecture": [
-        "Caching",
-        "SDLC"
+        "Selenium",
+        "Test Plans"
       ],
       "soft_skill": [
         "Collaboration",
         "Communication",
         "Cross-functional Collaboration",
-        "Mentoring"
+        "Mentoring",
+        "Reliability"
+      ],
+      "real_estate": [
+        "Commercial Real Estate"
+      ],
+      "hardware": [
+        "Control Panel"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "research": [
+        "Data Collection"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams",
+        "Typing"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "search": [
         "Elasticsearch"
       ],
       "marketing": [
         "Email Marketing"
+      ],
+      "domain": [
+        "Healthcare"
       ],
       "integration": [
         "JMS",
@@ -333,27 +446,50 @@
         "Mac OS"
       ],
       "ai_ml": [
+        "Machine Learning",
         "Matplotlib",
         "NumPy",
         "Pandas",
         "SciPy"
       ],
-      "productivity": [
-        "Microsoft Teams"
+      "rpa": [
+        "Make"
       ],
       "security_ops": [
         "Network Security",
-        "Proxy"
+        "Proxy",
+        "Regression Testing"
+      ],
+      "sales": [
+        "Pitch Scripts"
+      ],
+      "operations": [
+        "Procurement",
+        "Quality Assurance"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "embedded_systems": [
         "Raspberry Pi"
+      ],
+      "mobile": [
+        "React Native"
       ],
       "data_science": [
         "SAS",
         "Tableau"
       ],
+      "legal": [
+        "Share Purchase Agreement"
+      ],
+      "framework": [
+        "Spring Cloud",
+        "Spring Security"
+      ],
       "networking": [
-        "TCP/IP"
+        "TCP/IP",
+        "VPC"
       ],
       "content": [
         "Technical Writing"
@@ -365,12 +501,12 @@
   "experience": {
     "jobs": [
       {
-        "role": "Organization\tDesignation\tDuration BMW Tech works\tSoftware Engineer",
-        "company": "Client",
+        "role": "BMW Tech works\tSoftware Engineer",
+        "company": "Project #4",
         "location": null,
         "start": "July 2025",
         "end": "Feb 2026",
-        "method": "date_regex+date_prefix_title+subfield_label_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 8,
         "bullets": [
           "Description\tBTI Communications Group is a business-technology provider specializing in integrated IT services, communications systems, and physical security solutions.",
@@ -378,13 +514,13 @@
           "BTI serves clients across healthcare, commercial, and industrial sectors with a focus on reliability, compliance, and 24/7 service delivery."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Capgemini\tSoftware Engineer",
-        "company": "Client",
+        "role": "FedEx Office; formerly FedEx Kinko's, and earlier simply Kinko's) is an American retail chain that provides an outlet for FedEx Express and FedEx Ground",
+        "company": "Period Description\tFedEx Office Print & Ship Services Inc. (doing business",
         "location": null,
         "start": "Jun 2024",
         "end": "Oct 2024",
@@ -396,13 +532,13 @@
           "Unlike its main competitor, The UPS Store, which is franchised, all FedEx Office stores are corporate-owned."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Wipro\tSoftware Engineer",
-        "company": "Client",
+        "role": "Full Stack Python Developer",
+        "company": "Period Description\tFedEx Office Print & Ship Services Inc. (doing business",
         "location": null,
         "start": "Dec 2021",
         "end": "April 2024",
@@ -413,13 +549,13 @@
           "The company operates more than 270 plants and 420 crop procurement facilities worldwide, where cereal grains and oilseeds are processed into products used in food, beverage, nutraceutical, industrial, and animal feed markets worldwide."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Sears Holdings and Kmart Period",
-        "company": "Project #4",
+        "role": "\"Old Sears\") was an American holding company headquartered in Hoffman Estates, Illinois. It was the parent company of the chain stores Kmart and Sears and was founded after the former purchased the latter in 2005.The new corporation announced that it would continue to operate stores under both the Sears and Kmart brands. The merger of Kmart and Sears closed on March 24, 2005, following affirmative shareholder votes of both companies. The result of the merger was Kmart and parent Kmart Holding Corporation and Sears became subsidiaries of the new Sears Holdings Corporation",
+        "company": "Period Description\tSears Holdings Corporation (now referred to",
         "location": null,
         "start": "May 2018",
         "end": "Aug 2021",
@@ -443,7 +579,7 @@
       "total_months": 82,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.88
   },
   "education": {
     "entries": [
@@ -470,23 +606,23 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.98,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.98,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.98,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     }
   ]

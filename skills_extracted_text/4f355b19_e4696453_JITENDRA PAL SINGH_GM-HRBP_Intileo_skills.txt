@@ -1,0 +1,38 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/4f355b19_e4696453_JITENDRA PAL SINGH_GM-HRBP_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Developing the HR plans and policies in conjunction with the company’s over all development plan.
+Overall responsibility of Manpower planning and Talent Acquisition. Developing the induction programmes for the new recruits. Building capabilities by identifying skill gaps and developing training programs to ensure constant learning and development of employees.
+Anticipates & understand union and individual grievances, aspirations and concern and liasoning with labour department, legal expert and advocate on court cases.
+Working out the Budget on Manpower & welfare aspects and policies.
+Developing and implementing disciplinary policies and legal strategies.
+To work upon R & R schemes and review the same as per business requirement and purpose to management for necessary changes as per plant demand.
+Assisting top management in formulation of strategies and policies by consulting different stake holders
+Employee Engagement & CSR activities with key focus on enhancing employee motivation and developing a better relationship with employees and government administration.
+
+── Extraction Results ──
+Skills found   : 25
+Confidence     : 0.92
+Time           : 2168.31 ms
+Method         : flashtext_skills_section | fuzzy(schemes→Scheme(92%), Kaizens→Kaizen(92%), Facilitating→Workshop Facilitation(92%), Appraisal.→Real Estate Valuation(95%), interpersonal skills→Interpersonal Skills(100%)...)
+
+── All Skills (25) ──
+5S, Auditing, Compensation & Benefits, Continuous Improvement, Document Understanding, Employee Engagement, ISO Standards, Interpersonal Skills, Kaizen, Leadership, MS Office, Negotiation, Objective C, Oracle, Payments, Payroll Management, Performance Management, Quality Assurance, R, Real Estate Valuation, Recruitment, SAP, Scheme, Strategic Thinking, Workshop Facilitation
+
+── By Category ──
+  consulting                     ['Workshop Facilitation']
+  database                       ['Oracle']
+  dev_tool                       ['Scheme']
+  domain                         ['Payments']
+  engineering                    ['ISO Standards']
+  finance_ops                    ['Auditing']
+  hr                             ['Compensation & Benefits', 'Employee Engagement', 'Payroll Management', 'Performance Management', 'Recruitment']
+  integration                    ['SAP']
+  operations                     ['5S', 'Continuous Improvement', 'Kaizen', 'Quality Assurance']
+  productivity                   ['MS Office']
+  programming_language           ['Objective C', 'R']
+  real_estate                    ['Real Estate Valuation']
+  rpa                            ['Document Understanding']
+  soft_skill                     ['Interpersonal Skills', 'Leadership', 'Negotiation', 'Strategic Thinking']

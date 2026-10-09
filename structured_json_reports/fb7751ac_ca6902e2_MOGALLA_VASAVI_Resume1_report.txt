@@ -2,7 +2,7 @@
 FILE: fb7751ac_ca6902e2_MOGALLA_VASAVI_Resume1_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'interests', 'languages', 'skills', 'summary']
-Overall conf.  : 0.8
+Overall conf.  : 0.81
 Needs review   : True
 
 CONTACT
@@ -22,16 +22,16 @@ investigation, log analysis, and secure coding practices. Seeking a cybersecurit
 strengthen defence, enhance security posture, and support organizational objectives through
 proactive risk mitigation and continuous improvement.
 
-SKILLS (12) — confidence 0.92
+SKILLS (19) — confidence 0.92
 ----------------------------------------------------------------------
-ArcSight, Continuous Improvement, EDR, Incident Management, Log Analysis, Objective C, Risk Management, SAP, SIEM, SOC Operations, Splunk, Vulnerability Management
+ArcSight, Continuous Improvement, EDR, IBM QRadar, Incident Management, Log Analysis, Microsoft Teams, Objective C, Phishing, Production Support, Reliability, Risk Management, SAP, SIEM, SOC Operations, Secure Coding, Splunk, Threat Intelligence, Vulnerability Management
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.74
-Total experience: 5.0 years (60 months, 2 overlaps merged)
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.79
+Total experience: 5.1 years (61 months, 2 overlaps merged)
 ----------------------------------------------------------------------
-  1. Security Consultant @ Capgemini Technology Services India Limited (Oct 2022 - Present) [conf 0.98, review=False]
-  2. (L1 @ Monitor and analyse security events in a 24×7 SOC environment. (Oct 2022 - Current) [conf 0.7, review=True]
-  3.  @ Translated business requirements into clear and effective technical specifications. (Oct 2021 - Oct 2022) [conf 0.55, review=True]
+  1. Security Consultant (SOC @ Capgemini Technology Services India Limited (Oct 2022 - Present) [conf 0.98, review=False]
+  2. SOC Analyst (L1 @ Monitor and analyse security events in a 24×7 SOC environment. (Oct 2022 - Current) [conf 0.7, review=True]
+  3. SAP ABAP Analyst @ Translated business requirements into clear and effective technical specifications. (Oct 2021 - Oct 2022) [conf 0.7, review=True]
 
 EDUCATION (1) — confidence 0.8
 ----------------------------------------------------------------------
@@ -41,10 +41,9 @@ CERTIFICATIONS (1) — confidence 0.6
 ----------------------------------------------------------------------
   1. Splunk Certification — None (None) [conf 0.6]
 
-REVIEW QUEUE (5 flagged fields)
+REVIEW QUEUE (4 flagged fields)
 ----------------------------------------------------------------------
-  experience                          conf=0.74  reason=low_confidence
   experience.jobs[1]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.6  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields

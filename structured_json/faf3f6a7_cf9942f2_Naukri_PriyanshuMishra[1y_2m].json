@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "faf3f6a7_cf9942f2_Naukri_PriyanshuMishra[1y_2m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:51.984210+00:00",
+    "generated_at": "2026-10-07T09:28:57.018183+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,33 +52,36 @@
       "Bootstrap",
       "CSS3",
       "Canva",
-      "Collaboration",
       "Communication",
       "ES6+",
       "Figma",
       "Git",
       "GitHub",
+      "Google",
       "HTML5",
       "JavaScript",
       "LinkedIn",
+      "Microsoft Teams",
       "Problem Solving",
       "React",
       "Responsive Web Design",
       "SASS",
       "SEO",
       "Tailwind CSS",
+      "Team Collaboration",
       "VS Code",
       "Vercel",
       "WordPress",
+      "cPanel",
       "jQuery"
     ],
     "by_category": {
       "soft_skill": [
         "Adaptability",
         "Attention to Detail",
-        "Collaboration",
         "Communication",
-        "Problem Solving"
+        "Problem Solving",
+        "Team Collaboration"
       ],
       "web_framework": [
         "Bootstrap",
@@ -101,17 +104,28 @@
       ],
       "dev_tool": [
         "Git",
-        "GitHub",
-        "VS Code"
+        "GitHub"
+      ],
+      "database": [
+        "Google"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "marketing": [
         "SEO"
+      ],
+      "tools": [
+        "VS Code"
       ],
       "cloud_infra": [
         "Vercel"
       ],
       "content": [
         "WordPress"
+      ],
+      "devops": [
+        "cPanel"
       ]
     },
     "_confidence": 0.92,
@@ -120,46 +134,54 @@
   "experience": {
     "jobs": [
       {
-        "role": "Frontend Developer, Technoiconic",
-        "company": "Collaborated effectively with design and backend teams to ensure seamless deployment and feature delivery across the production environment.",
-        "location": "Developer, Technoiconic",
+        "role": "Frontend Developer",
+        "company": "Technoiconic",
+        "location": null,
         "start": "July 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 27,
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Frontend Developer, Technoiconic"
+        ],
+        "duration_months": 28,
         "bullets": [
-          "Architected and customized 5+ responsive, high-traffic WordPress platforms; focused on semantic HTML5 and core web vitals (Lighthouse), resulting in an average 15% lift in client SEO rankings."
+          "Architected and customized 5+ responsive, high-traffic WordPress platforms; focused on semantic HTML5 and core web vitals (Lighthouse), resulting in an average 15% lift in client SEO rankings.",
+          "Collaborated effectively with design and backend teams to ensure seamless deployment and feature delivery across the production environment."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Web Designer Intern, Info Web Software",
-        "company": "Drove page speed performance improvements of 25% by implementing best practices, including asset minification, optimized image compression, and passing Google Lighthouse audits.",
+        "role": "Web Designer Intern",
+        "company": "Info Web Software",
         "location": null,
         "start": "Nov 2023",
         "end": "June 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Web Designer Intern, Info Web Software"
+        ],
         "duration_months": 8,
         "bullets": [
           "Designed and built responsive, SEO-optimized websites from scratch using HTML, CSS, JavaScript & Bootstrap.",
+          "Drove page speed performance improvements of 25% by implementing best practices, including asset minification, optimized image compression, and passing Google Lighthouse audits.",
           "Owned the full deployment lifecycle, managing domain setup, cPanel hosting, and maintenance to ensure 100% project uptime."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.9,
-      "total_months": 35,
+      "total_years": 3.0,
+      "total_months": 36,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -197,24 +219,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

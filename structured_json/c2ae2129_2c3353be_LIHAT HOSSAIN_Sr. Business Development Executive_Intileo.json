@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c2ae2129_2c3353be_LIHAT HOSSAIN_Sr. Business Development Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:16.437706+00:00",
+    "generated_at": "2026-10-07T09:28:10.689865+00:00",
     "sections_found": [
       "achievements",
       "declaration",
@@ -51,11 +51,14 @@
       "Analyze",
       "B2B Sales",
       "Boosting",
-      "Client Relationship Management",
+      "CRM Tools",
       "Cold Calling",
       "Collaboration",
       "Data Analysis",
+      "Field Coaching",
       "KPI",
+      "Lead Generation",
+      "Market Mapping",
       "Merchandising",
       "Microsoft Excel",
       "PuTTY",
@@ -64,6 +67,7 @@
       "Revenue Generation",
       "Route",
       "SAP",
+      "Secondary Distribution",
       "WebSockets"
     ],
     "by_category": {
@@ -74,16 +78,20 @@
       ],
       "sales": [
         "B2B Sales",
+        "CRM Tools",
         "Cold Calling",
+        "Lead Generation",
+        "Market Mapping",
         "Retail Sales",
-        "Revenue Generation"
-      ],
-      "client_mgmt": [
-        "Client Relationship Management"
+        "Revenue Generation",
+        "Secondary Distribution"
       ],
       "soft_skill": [
         "Collaboration",
         "Reporting"
+      ],
+      "learning_development": [
+        "Field Coaching"
       ],
       "business_analysis": [
         "KPI"
@@ -108,19 +116,24 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Sales Executive, IndiaMART Intermesh Limited",
-        "company": null,
+        "role": "Senior Sales Executive",
+        "company": "IndiaMART Intermesh Limited",
         "location": null,
         "start": "03/2026",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 7,
-        "bullets": [],
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Senior Sales Executive, IndiaMART Intermesh Limited"
+        ],
+        "duration_months": 8,
+        "bullets": [
+          "Senior Executive – New Sales Division (NSD) -IndiaMART InterMESH Limited-"
+        ],
         "sub_sections": [
           "Kolkata, India",
           "Driven B2B client acquisition and revenue growth by converting free-listing",
@@ -133,8 +146,8 @@
           "Consistently meet fortnightly and monthly sales targets while utilizing internal CRM",
           "tools for precise territory mapping and pipeline management."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -144,6 +157,9 @@
         "start": "07/2023",
         "end": "09/2025",
         "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Retail Sales Officer, Asian Paints Ltd."
+        ],
         "duration_months": 27,
         "bullets": [
           "Strengthened dealer relationships through effective training and engagement",
@@ -166,12 +182,16 @@
         "source": "experience"
       },
       {
-        "role": "Sales Officer Intern",
-        "company": "worked on Dabur & IOCL project collaboration to enhance the dabur products",
+        "role": "worked on Dabur & IOCL project collaboration to enhance the dabur products",
+        "company": "availability to every household",
         "location": null,
         "start": "06/2022",
         "end": "08/2022",
         "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Market.",
+          "Sales Officer Intern, Dabur India Ltd. (Dabur & IOCL Collaboration)"
+        ],
         "duration_months": 3,
         "bullets": [
           "Engaged with retail partners to gather market insights, fostering collaboration",
@@ -192,11 +212,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.1,
-      "total_months": 37,
+      "total_years": 3.2,
+      "total_months": 38,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.94
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -239,14 +259,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

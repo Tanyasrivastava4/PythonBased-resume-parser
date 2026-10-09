@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3547d803_4e8d0bbb_Amir Shaikh_Netsuite Solution Architect_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:15.642385+00:00",
+    "generated_at": "2026-10-07T10:31:12.664087+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,54 +50,148 @@
   "summary": null,
   "skills": {
     "items": [
+      "Analyze",
+      "Business Intelligence",
+      "Business Process Analysis",
       "Communication",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
+      "Customer Service",
+      "Data Migration",
+      "Demand Planning",
+      "ERP",
+      "FSD",
+      "Fixed Assets Management",
+      "Gap Analysis",
+      "Go",
+      "Healthcare",
       "Inventory Management",
+      "Leadership",
+      "LinkedIn",
+      "Logistics",
+      "Manufacturing Operations",
+      "Mentoring",
+      "Microsoft Teams",
       "NetSuite",
+      "Operations Management",
+      "Oracle Database",
       "Order-to-Cash",
+      "Physiotherapy",
+      "Pre-Sales Support",
       "Procure-to-Pay",
       "Procurement",
       "Project Management",
       "Record-to-Report",
       "Reporting",
-      "Team Leadership"
+      "Requirements Gathering",
+      "Sales Force Automation",
+      "Saved Searches",
+      "SuiteAnalytics",
+      "SuiteFlow",
+      "Supply Chain",
+      "Team Leadership",
+      "UAT",
+      "Workflow Automation"
     ],
     "by_category": {
+      "data_science": [
+        "Analyze"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "Business Process Analysis",
+        "FSD",
+        "Gap Analysis",
+        "Requirements Gathering"
+      ],
       "soft_skill": [
         "Communication",
         "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring",
         "Reporting",
         "Team Leadership"
       ],
+      "sales": [
+        "Customer Relationship Management",
+        "Pre-Sales Support",
+        "Sales Force Automation"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "data engineering": [
+        "Data Migration"
+      ],
+      "supply_chain": [
+        "Demand Planning"
+      ],
+      "erp": [
+        "ERP",
+        "Saved Searches",
+        "SuiteAnalytics",
+        "SuiteFlow"
+      ],
+      "accounting": [
+        "Fixed Assets Management"
+      ],
+      "programming_language": [
+        "Go"
+      ],
+      "domain": [
+        "Healthcare",
+        "Supply Chain"
+      ],
       "operations": [
         "Inventory Management",
-        "Procurement"
+        "Logistics",
+        "Operations Management",
+        "Procurement",
+        "Workflow Automation"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "engineering": [
+        "Manufacturing Operations"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "netsuite": [
         "NetSuite"
+      ],
+      "database": [
+        "Oracle Database"
       ],
       "finance": [
         "Order-to-Cash",
         "Procure-to-Pay",
         "Record-to-Report"
       ],
+      "healthcare": [
+        "Physiotherapy"
+      ],
       "project_mgmt": [
         "Project Management"
+      ],
+      "testing": [
+        "UAT"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section"
+    "_method": "flashtext_skills_section | fuzzy(Demand planning→Demand Planning(100%), SuiteAnalytic→SuiteAnalytics(96%), Saved searches.→Saved Searches(97%), Oracle→Oracle Database(100%), Oracle→Oracle Database(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "ASSISTANT MANAGER ERP",
-        "company": "SAHAR ENTERPRISE LLC",
+        "role": "ASSISTANT MANAGER ERP (Oracle NetSuite",
+        "company": "SAHAR ENTERPRISE LLC (AL KABEER GROUP",
         "location": null,
         "start": "OCT 2023",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 36,
+        "method": "date_regex+title_dict_strong",
+        "duration_months": 37,
         "bullets": [
           "Successfully led the implementation of Oracle NetSuite ERP and Sales Force Automation (SFA) application, delivering both projects on time and within budget, ensuring seamless adoption across all business units",
           "Acting as a liaison between Al Kabeer Group and Oracle, facilitating communication, managing expectations, and advocating for the client's needs during the implementation process",
@@ -120,7 +214,7 @@
         "location": "BANGALORE",
         "start": "FEB 2023",
         "end": "OCT 2023",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 9,
         "bullets": [
           "Led end-to-end implementations, collaborating closely with clients to understand business requirements and translate them into scalable NetSuite configurations.",
@@ -135,7 +229,7 @@
           "Developed training documentation, user guides to support end users in navigating the system and utilizing its features effectively.",
           "Developed data migration strategies tailored to each client's unique requirements, including data mapping, cleansing, and validation.",
           "Lead data migration efforts for clients transitioning to NetSuite ERP, ensuring accurate and efficient transfer of data from legacy systems.",
-          "Provide on-going post implementation support to optimize user adoption and NetSuite configuration. Some of the projects handled involved in business verticals such as, GRANITE MANUFACTURER."
+          "Provide on-going post implementation support to optimize user adoption and NetSuite configuration."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -144,11 +238,18 @@
       },
       {
         "role": "NETSUITE FUNCTIONAL CONSULTANT",
-        "company": "INSPIRRIA CLOUDTECH PVT. LTD",
-        "location": "PUNE",
+        "company": "Some of the projects handled involved in business verticals such as",
+        "location": "",
         "start": "JUNE 2021",
         "end": "DEC 2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Some of the projects handled involved in business verticals such as,",
+          "GRANITE MANUFACTURER.",
+          "HEALTHCARE.",
+          "ADVERTISING.",
+          "HOSPITALITY."
+        ],
         "duration_months": 19,
         "bullets": [
           "Working with Project lead consultant to design new processes in NetSuite using standard functionality and customization. Document and validate customer’s business requirement and map to NetSuite functionality.",
@@ -159,23 +260,29 @@
           "Spearheaded the integration of third-party systems and applications with NetSuite.",
           "Led data migration initiatives for multiple clients, ensuring seamless transition of data from legacy systems to",
           "Managed multiple concurrent projects of varying complexity and scale.",
-          "Provide ongoing post implementation support to optimize user adoption and NetSuite configuration. Train end users on how to effectively use system features. Some of the projects handled involved in business verticals such as"
+          "Provide ongoing post implementation support to optimize user adoption and NetSuite configuration. Train end users on how to effectively use system features."
         ],
         "sub_sections": [
-          "NetSuite ERP",
-          "MANUFACTURING HOLDERS & FITTER"
+          "NetSuite ERP"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "NETSUITE FUNCTIONAL CONSULTANT",
-        "company": "SUITEACE",
-        "location": "MUMBAI",
+        "role": "Some of the projects handled involved in business verticals such as",
+        "company": "MANUFACTURING HOLDERS & FITTER",
+        "location": null,
         "start": "OCTOBER 2019",
         "end": "JUNE 2021",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Some of the projects handled involved in business verticals such as",
+          "MANUFACTURING HOLDERS & FITTER",
+          "SOLAR ENERGY SOLUTION PROVIDER",
+          "SERVICE CONSULTATION",
+          "PHYSIOTHERAPY AND WELLNESS"
+        ],
         "duration_months": 21,
         "bullets": [
           "Analyze business requirements and convert them into system specification.",
@@ -185,7 +292,8 @@
           "Creating Custom CRM Fields, Custom Entity Fields, Custom Item Fields, Custom Transaction Body Fields, and Custom Transaction Column Fields in NetSuite.",
           "Designed custom reports, saved searches and workflows as per the business needs.",
           "NetSuite Admin activities.",
-          "Involved in the UAT (User Acceptance testing) session and bug fixing if any while UAT stage."
+          "Involved in the UAT (User Acceptance testing) session and bug fixing if any while UAT stage.",
+          "Provided post Go-Live support."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -198,10 +306,12 @@
         "location": "MUMBAI",
         "start": "JANUARY 2016",
         "end": "SEPTEMBER 2019",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 45,
         "bullets": [
-          "Engage in pre-sales engagement activities for target customers prior to sales engagement."
+          "Engage in pre-sales engagement activities for target customers prior to sales engagement.",
+          "Produce reporting on key metrics and manage monthly delivery of key reports to the sales manager.",
+          "Handling End to End sales cycle from requirement gathering to shipping and tracking the package and updating clients."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -214,7 +324,7 @@
         "location": "MUMBAI",
         "start": "OCTOBER 2014",
         "end": "JANUARY 2016",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 16,
         "bullets": [
           "Build business by identifying and selling prospects. 3",
@@ -230,11 +340,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.9,
-      "total_months": 143,
+      "total_years": 12.0,
+      "total_months": 144,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.98
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -333,8 +443,14 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.9
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

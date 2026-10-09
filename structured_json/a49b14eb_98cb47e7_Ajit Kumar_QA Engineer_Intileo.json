@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a49b14eb_98cb47e7_Ajit Kumar_QA Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:55.799859+00:00",
+    "generated_at": "2026-10-07T09:27:42.964232+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,20 +48,27 @@
   "skills": {
     "items": [
       "API Testing",
+      "ASP.NET",
       "Adaptability",
       "Analytical Thinking",
       "Apache Maven",
       "Appium",
       "Automation Testing",
+      "BFSI",
       "CI/CD",
       "CSS3",
       "Cucumber",
       "Cypress",
+      "Data-Driven Framework",
+      "E-learning",
       "Eclipse",
+      "Fraud Detection",
       "Functional Testing",
+      "GST",
       "Git",
       "GitHub",
       "HTML5",
+      "Hybrid Framework",
       "Interpersonal Skills",
       "JMeter",
       "JUnit",
@@ -70,6 +77,7 @@
       "Jenkins",
       "Jira",
       "Katalon Studio",
+      "LinkedIn",
       "MS Office",
       "MSSQL",
       "Mechanical Engineering",
@@ -78,7 +86,9 @@
       "MySQL",
       "Page Object Model",
       "Performance Testing",
+      "Physical Verification",
       "Postman",
+      "Quality Assurance",
       "SDLC",
       "Selenium",
       "TestNG",
@@ -103,6 +113,12 @@
         "Testim",
         "UAT"
       ],
+      "web_framework": [
+        "ASP.NET",
+        "CSS3",
+        "HTML5",
+        "LinkedIn"
+      ],
       "soft_skill": [
         "Adaptability",
         "Analytical Thinking",
@@ -113,16 +129,28 @@
         "Eclipse",
         "Git",
         "GitHub",
-        "Postman",
-        "VS Code"
+        "Postman"
+      ],
+      "domain": [
+        "BFSI"
       ],
       "devops": [
         "CI/CD",
         "Jenkins"
       ],
-      "web_framework": [
-        "CSS3",
-        "HTML5"
+      "security_ops": [
+        "Data-Driven Framework",
+        "Hybrid Framework"
+      ],
+      "education_domain": [
+        "E-learning"
+      ],
+      "finance": [
+        "Fraud Detection"
+      ],
+      "accounting": [
+        "GST",
+        "Physical Verification"
       ],
       "programming_language": [
         "Java",
@@ -146,8 +174,14 @@
       "software": [
         "Page Object Model"
       ],
+      "operations": [
+        "Quality Assurance"
+      ],
       "architecture": [
         "SDLC"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -158,13 +192,38 @@
       {
         "role": "QA Engineer",
         "company": "Zenesys Technosys Pvt Ltd",
-        "location": "Noida, Sec-62 (U.P) Duration: From June 2023 To Current",
+        "location": "Noida, Sec-62",
         "start": "June 2023",
         "end": "Current",
         "method": "date_regex+subfield_label_role+subfield_label_company",
-        "duration_months": 40,
+        "pre_date_header": [
+          "Designation: QA Engineer",
+          "Company: Zenesys Technosys Pvt Ltd | Noida, Sec-62 (U.P)"
+        ],
+        "duration_months": 41,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Company | Gagan Consultant Services| Mathura (U.P) Duration",
+        "company": "Unknown",
+        "location": "Mathura (U.P) Duration: From",
+        "start": "Feb 2022",
+        "end": "June 2023",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Zenesys Technosys Pvt Ltd is a software development company which works on RPA, CMS, Cloud,",
+          "Mobile and Web development I used to handle testing for multiple projects Including Accustore, RTA,",
+          "Momento.",
+          "Designation: Software Tester"
+        ],
+        "duration_months": 17,
         "bullets": [
-          "Zenesys Technosys Pvt Ltd is a software development company which works on RPA, CMS, Cloud,"
+          "Gagan is a service Based company which works on Asp.net, CMS, Cloud, Mobile and Web development I used to handle testing for multiple projects Including Clinikk, DefiniteSeo.",
+          "I have worked on the Web&mob Application."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -172,29 +231,16 @@
         "source": "experience"
       },
       {
-        "role": "Software Tester Company: Gagan Consultant Services| Mathura (U.P) Duration: From Feb 2022 To June 2023",
-        "company": "Mobile and Web development I used to handle testing for multiple projects Including Accustore, RTA",
-        "location": "",
-        "start": "Feb 2022",
-        "end": "June 2023",
-        "method": "date_regex+subfield_label_role+next_line_company",
-        "duration_months": 17,
-        "bullets": [
-          "Gagan is a service Based company which works on Asp.net, CMS, Cloud, Mobile and Web development I used to handle testing for multiple projects Including Clinikk, DefiniteSeo.",
-          "I have worked on the Web&mob Application."
-        ],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
         "role": "Software Tester",
-        "company": "Company: Imarticus Learning",
-        "location": "Delhi Duration: From",
+        "company": "Imarticus Learning",
+        "location": "Delhi",
         "start": "Dec 2019",
         "end": "Feb 2022",
-        "method": "date_regex+pipe_company_loc_role+subfield_label_role",
+        "method": "date_regex+subfield_label_role+subfield_label_company",
+        "pre_date_header": [
+          "Designation: Software Tester",
+          "Company: Imarticus Learning | Delhi"
+        ],
         "duration_months": 27,
         "bullets": [
           "Imarticus Learning is a software development / E-learning company which build software’s, mostly for the asp.net websites.",
@@ -208,11 +254,15 @@
       },
       {
         "role": "Jr.Software Tester",
-        "company": "Company: Timble Technology",
-        "location": "Delhi Duration: From",
+        "company": "Timble Technology",
+        "location": "Delhi",
         "start": "Dec 2018",
         "end": "Dec 2019",
-        "method": "date_regex+pipe_company_loc_role+subfield_label_role",
+        "method": "date_regex+subfield_label_role+subfield_label_company",
+        "pre_date_header": [
+          "Designation: Jr.Software Tester",
+          "Company: Timble Technology | Delhi"
+        ],
         "duration_months": 13,
         "bullets": [
           "Timble is an AI-powered verification and risk-management solutions provider for the BFSI sector (Banking, Financial Services & Insurance). They offer a suite of services aimed at automating identity, document, address verification and fraud prevention. Key solutions include:-",
@@ -231,11 +281,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.8,
-      "total_months": 94,
+      "total_years": 7.9,
+      "total_months": 95,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.91
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -295,14 +345,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "838d897d_dafc96fa_Parveen Mumtaz_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:28.650043+00:00",
+    "generated_at": "2026-10-07T09:27:07.441002+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -49,15 +49,21 @@
   "summary": "Chartered Accountant with 8.5 years of auditing experience, including 3.5 years of post-\nqualification tenure at a Big Four firm and 5 years of pre-qualification experience(including\nArticleship of 3 years). Seeking a dynamic role in a reputed organization where I can continuously\nexpand my expertise, contribute meaningfully to organizational success and skilled in financial\nstatement analysis, risk assessment, walkthrough, control testing and compliance with various\naccounting standards.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
       "Auditing",
       "Collaboration",
       "Communication",
-      "Control Testing",
+      "Financial Analysis",
+      "Financial Reporting",
       "Financial Statement Analysis",
+      "Fixed Assets Management",
       "GAAP",
+      "GST",
       "IFRS",
-      "Ind AS",
+      "Indian GAAP",
+      "Internal Controls Testing",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
@@ -65,31 +71,55 @@
       "Microsoft Word",
       "Power BI",
       "Problem Solving",
+      "Project Management",
+      "Reporting",
       "Risk Assessment",
       "Risk Management",
       "SAP",
+      "Statutory Audit",
+      "Substantive Testing",
+      "Tax Auditing",
+      "Taxation",
       "Team Leadership",
+      "Tests of Controls",
       "Time Management",
-      "Tutoring"
+      "Tutoring",
+      "Variance Analysis"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
         "Auditing",
+        "Financial Analysis",
+        "Financial Reporting",
         "GAAP",
-        "IFRS"
+        "IFRS",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Substantive Testing",
+        "Taxation"
       ],
       "soft_skill": [
         "Collaboration",
         "Communication",
         "Problem Solving",
+        "Reporting",
         "Team Leadership",
         "Time Management"
       ],
       "finance": [
-        "Control Testing",
-        "Financial Statement Analysis",
-        "Ind AS"
+        "Financial Statement Analysis"
+      ],
+      "accounting": [
+        "Fixed Assets Management",
+        "GST",
+        "Indian GAAP",
+        "Tests of Controls"
       ],
       "productivity": [
         "MS Office",
@@ -101,17 +131,21 @@
       "data_science": [
         "Power BI"
       ],
+      "project_mgmt": [
+        "Project Management",
+        "Risk Management"
+      ],
       "compliance": [
         "Risk Assessment"
-      ],
-      "project_mgmt": [
-        "Risk Management"
       ],
       "integration": [
         "SAP"
       ],
       "education_domain": [
         "Tutoring"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -120,13 +154,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Associate",
-        "company": "PricewaterhouseCoopers SDC Pvt. Ltd",
+        "role": "Senior Associate (Statutory Audit",
+        "company": "Planning and project Management",
         "location": null,
         "start": "6/2022",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 52,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Associate (Statutory Audit)",
+          "PricewaterhouseCoopers SDC Pvt. Ltd."
+        ],
+        "duration_months": 53,
         "bullets": [
           "Coordinate & Spearheaded 5+ audit engagements for prominent US listed clients in the Product and service sector, in Health and Education industries, achieving a 100% satisfaction rate.",
           "Served as a main point of contact from team, achieved 100% timely delivery rate by efficient task allocation, daily check in and workflow management.",
@@ -150,7 +188,11 @@
         "location": null,
         "start": "03/2020",
         "end": "4/2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Paid Assistant",
+          "MKPR & Associates"
+        ],
         "duration_months": 26,
         "bullets": [
           "Led a team for Stat audit of a PSU and Banks.",
@@ -173,8 +215,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.5,
-      "total_months": 78,
+      "total_years": 6.6,
+      "total_months": 79,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -198,8 +240,8 @@
         "degree_type": "diploma",
         "degree_field": null,
         "institution": "Business Managment Osmania University, Hyderabad",
-        "year": "2015",
-        "gpa": "78%",
+        "year": "2014",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -210,7 +252,7 @@
         "degree_field": null,
         "institution": "Osmania University, Hyderabad",
         "year": "2014",
-        "gpa": "85%",
+        "gpa": "78%",
         "_needs_review": false,
         "_confidence": 0.95
       }

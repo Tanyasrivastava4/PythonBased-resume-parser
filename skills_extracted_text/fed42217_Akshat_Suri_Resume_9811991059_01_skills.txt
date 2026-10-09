@@ -1,0 +1,55 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/fed42217_Akshat_Suri_Resume_9811991059_01_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+AI Agent Development | Agentic AI | Azure
+Open AI | Fine Tuning | RAG | NLP | Neural
+Networks | Prompt Engineering | Time-
+Series Forecasting | Image Preprocessing |
+Data Analysis and Visualization | Git | SQL |
+API Development Integration | ML Model
+Deployment | Model Versioning and Control
+| Docker | Azure DevOps | MLOps
+Implementation | Vector Databases | ML
+Pipeline Construction | Model
+Programming Languages and Libraries:
+Python, Pandas, NumPy, Matplotlib, Scikit-
+learn
+Frameworks and Libraries (AI/ML and
+DL): TensorFlow, PyTorch, Keras,
+Transformers
+Generative AI and LLM Ecosystem:
+LangChain, LangGraph, Azure Open AI,
+LLM Agents, Gen AI Tools, Prompt
+Engineering, RAG, Vector Databases, Fine
+Tuning
+Machine Learning / Data Science:
+Machine Learning Pipelines, NLP (Natural
+Language Processing)
+MLOps and DevOps Tools: Git, Docker,
+MLOps, Azure DevOps
+Web Frameworks: FastAPI, Django, Flask,
+React, JavaScript
+
+── Extraction Results ──
+Skills found   : 46
+Confidence     : 0.92
+Time           : 204.08 ms
+Method         : flashtext_skills_section | fuzzy(Azure Open AI→Azure OpenAI(96%), Fine Tuning→Fine-tuning(100%), Neural Networks→ANN(100%), Generative→Generative AI(95%), Azure Open AI→Azure OpenAI(96%))
+
+── All Skills (46) ──
+ANN, API Design, Agentic AI, Azure DevOps, Azure OpenAI, Data Analysis, Data Analytics, Data Preprocessing, Data Science, Deep Learning, DevOps, Django, Docker, FastAPI, Fine-tuning, Flask, Generative AI, Git, Google, JavaScript, Keras, LLM, LangChain, LangGraph, LinkedIn, MLOps, Machine Learning, Matplotlib, Multi-Agent, NLP, NumPy, Pandas, Predictive Analytics, Prompt Engineering, PyTorch, Python, R, RAG, React, Resource Planning, SQL, TensorFlow, Time Series Forecasting, Transformers, Vector Databases, spaCy
+
+── By Category ──
+  ai_ml                          ['ANN', 'Data Science', 'Deep Learning', 'Keras', 'Machine Learning', 'Matplotlib', 'NLP', 'NumPy', 'Pandas', 'PyTorch', 'TensorFlow', 'Time Series Forecasting']
+  architecture                   ['API Design']
+  data_engineering               ['Data Preprocessing']
+  data_science                   ['Data Analysis', 'Data Analytics', 'Predictive Analytics', 'Transformers']
+  database                       ['Google', 'SQL']
+  dev_tool                       ['Git']
+  devops                         ['Azure DevOps', 'DevOps', 'Docker']
+  genai                          ['Agentic AI', 'Azure OpenAI', 'Fine-tuning', 'Generative AI', 'LLM', 'LangChain', 'LangGraph', 'MLOps', 'Multi-Agent', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  programming_language           ['JavaScript', 'Python', 'R', 'spaCy']
+  project_mgmt                   ['Resource Planning']
+  web_framework                  ['Django', 'FastAPI', 'Flask', 'LinkedIn', 'React']

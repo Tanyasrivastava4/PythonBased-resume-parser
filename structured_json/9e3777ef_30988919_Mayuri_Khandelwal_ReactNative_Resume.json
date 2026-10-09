@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9e3777ef_30988919_Mayuri_Khandelwal_ReactNative_Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:59:51.561472+00:00",
+    "generated_at": "2026-10-07T09:27:37.263838+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,50 +50,99 @@
     "items": [
       ".NET",
       "AWS S3",
+      "Agentic AI",
       "Android",
       "Asana",
+      "Auditing",
+      "Axios",
       "Azure",
       "Background Verification",
       "Biometrics",
       "Bitbucket",
+      "Bluetooth",
+      "ButterKnife",
+      "CI/CD",
       "CVS",
+      "Communication",
       "Confluence",
+      "Context API",
+      "Coroutines Flow",
+      "Customs & International Trade",
+      "Dagger 2",
+      "Dart",
+      "Data Analytics",
       "Dropbox",
+      "E-commerce",
+      "Figma",
       "Firebase",
       "Flutter",
+      "GCP",
+      "Gemini",
       "Git",
       "GitHub",
+      "GitLab CI",
+      "Glide",
+      "Google",
       "Google Docs",
+      "Gson",
+      "Hilt",
       "JUnit",
       "Java",
+      "JavaScript",
+      "Jenkins",
+      "Jest",
+      "Jetpack Compose",
       "Jira",
       "Kotlin",
+      "MVC Architecture",
+      "MVVM",
+      "Micro Frontend",
+      "Microsoft Edge",
       "Microsoft Teams",
+      "Mockito",
+      "MongoDB",
+      "MySQL",
       "Payments",
+      "Product Marketing",
       "Profilers",
       "Project Management",
       "REST",
       "React",
       "React Native",
+      "Redux",
+      "Reliability",
       "RequireJS",
       "Responsive Web Design",
+      "Retrofit",
+      "Room Database",
       "SQL",
       "SQLite",
       "SVN",
+      "State Management",
+      "Team Leadership",
       "Technical Writing",
       "Telecom",
+      "Visual Studio",
+      "Volley",
+      "Xamarin",
       "iOS"
     ],
     "by_category": {
       "programming_language": [
         ".NET",
         "Java",
+        "JavaScript",
         "Kotlin"
       ],
       "cloud_infra": [
         "AWS S3",
         "Azure",
-        "Dropbox"
+        "Dropbox",
+        "GCP"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Gemini"
       ],
       "mobile": [
         "Android",
@@ -106,6 +155,12 @@
         "Google Docs",
         "Microsoft Teams"
       ],
+      "finance_ops": [
+        "Auditing"
+      ],
+      "web_dev": [
+        "Axios"
+      ],
       "hr": [
         "Background Verification"
       ],
@@ -115,37 +170,100 @@
       "dev_tool": [
         "Bitbucket",
         "Git",
-        "GitHub"
+        "GitHub",
+        "Microsoft Edge",
+        "Visual Studio"
+      ],
+      "hardware": [
+        "Bluetooth"
+      ],
+      "mobile_dev": [
+        "ButterKnife",
+        "Coroutines Flow",
+        "Dagger 2",
+        "Glide",
+        "Hilt",
+        "Jetpack Compose",
+        "Retrofit",
+        "Volley",
+        "Xamarin"
       ],
       "devops": [
+        "CI/CD",
         "CVS",
+        "GitLab CI",
+        "Jenkins",
         "SVN"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reliability",
+        "Team Leadership"
       ],
       "collaboration": [
         "Confluence"
       ],
+      "frontend": [
+        "Context API"
+      ],
+      "legal": [
+        "Customs & International Trade"
+      ],
+      "programming": [
+        "Dart"
+      ],
+      "data_science": [
+        "Data Analytics"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "design": [
+        "Figma"
+      ],
       "database": [
         "Firebase",
+        "Google",
+        "MongoDB",
+        "MySQL",
+        "Room Database",
         "SQL",
         "SQLite"
       ],
+      "software_eng": [
+        "Gson"
+      ],
       "testing": [
         "JUnit",
+        "Jest",
+        "Mockito",
         "Profilers"
       ],
       "project_mgmt": [
         "Jira",
         "Project Management"
       ],
+      "software_engineering": [
+        "MVC Architecture"
+      ],
+      "architecture": [
+        "MVVM",
+        "Micro Frontend",
+        "State Management"
+      ],
       "domain": [
         "Payments",
         "Telecom"
+      ],
+      "marketing": [
+        "Product Marketing"
       ],
       "integration": [
         "REST"
       ],
       "web_framework": [
         "React",
+        "Redux",
         "RequireJS",
         "Responsive Web Design"
       ],
@@ -154,20 +272,19 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(React→React(100%), BitBucket→Bitbucket(100%), DropBox→Dropbox(100%), GoogleDocs→Google Docs(100%), teams→Microsoft Teams(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(BitBucket→Bitbucket(100%), DropBox→Dropbox(100%), GoogleDocs→Google Docs(100%), teams→Microsoft Teams(100%), Xamarin.Forms:→Xamarin(96%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Dart,Java",
-        "location": "Kotlin",
+        "role": "RoboSoft Technologies Private Limited",
+        "company": "Sr.Android Developer/React Native Developer",
+        "location": null,
         "start": "01/2022",
         "end": "05/2023",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex",
         "duration_months": 17,
         "bullets": [
-          "Technologies :- Flutter,React",
           "BSI Apollo Connect Entropy (Xamarin) is a UK-based project used by auditors while",
           "Design- Figma,Zepplin,Balsamiq",
           "Database- MySQL, auditing. With this, they can perform certain actions while performing the audit, both offline and online, according to their requirements. It is an app that allows auditors to",
@@ -210,33 +327,38 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "APIs: RESTful APIs, Firebase. audit data, and user settings, ensuring that the app worked efficiently even in offline scenarios.",
-        "location": "India",
+        "role": "Mumbai, India",
+        "company": "Technologies :- Flutter,React",
+        "location": null,
         "start": "03/2020",
         "end": "03/2021",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company+inherited_company",
+        "pre_date_header": [
+          "Mumbai, India",
+          "React Context API"
+        ],
         "duration_months": 13,
         "bullets": [
           "Libraries & Tools: Axios, React React Native: Used to build a cross-platform mobile app for both iOS and Android, providing",
+          "APIs: RESTful APIs, Firebase. audit data, and user settings, ensuring that the app worked efficiently even in offline scenarios.",
           "CI/CD: Jenkins, GitLab CI SQLite: Utilized for local storage, allowing the app to function offline and store data persistently until it could be synced with the cloud. Firebase: Employed for user authentication and real-time data sync, enabling secure and seamless cloud storage. Axios: Used for API communication with the backend to fetch audit data, manage user profiles, and sync audit findings. Jest: Conducted unit testing and end-to-end testing to ensure a bug-free and reliable app. Designed and implemented a Mobile Micro Frontend architecture to allow independent teams to develop and deploy modular features. Led the migration to a Super App architecture, integrating multiple mini-apps (wallet, travel, rewards) under a single shell app. Enabled dynamic feature loading and isolated CI/CD pipelines per module to ensure seamless updates and faster go-to-market."
         ],
         "sub_sections": [
           "Navigation, NativeBase, Expo",
           "seamless performance across devices. Redux: Managed global state for features like flags,"
         ],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Career Break",
+        "role": "Winvesta India Technologies Pvt. Ltd",
+        "company": "Sr.Android Developer/React Native Developer",
         "location": null,
         "start": "May 2023",
         "end": "Present",
         "method": "date_regex",
-        "duration_months": 41,
+        "duration_months": 42,
         "bullets": [
           "Took time off for personal development and to attend family commitments.",
           "Engaged in self-directed learning and gained skills in React Native and Flutter apart from that also Did Personal and Freelance Project which I had mentioned below.",
@@ -246,7 +368,7 @@
           "Gained hands-on experience through guided labs, discussions, and projects related to AI workflows and toolchain optimization. Code Vipasana Season 10 – AI Agents & Data-Driven Workflows",
           "In-depth exploration of data-driven AI agents using cloud databases, serverless runtimes, and open-source frameworks.",
           "Designed and deployed intelligent agents capable of dynamic decision-making and cloud-native execution.",
-          "Key Takeaway: Built scalable, serverless AI agent systems integrated with cloud- hosted data layers and open-source tooling. Freelance Project: Restaurant Ordering System: Developed a mobile app for restaurant customers to view menus, place orders, and track deliveries. Integrated Razor Pay API for payment processing"
+          "Key Takeaway: Built scalable, serverless AI agent systems integrated with cloud- hosted data layers and open-source tooling. Freelance Project: Restaurant Ordering System: Developed a mobile app for restaurant customers to view menus, place orders, and track deliveries. Integrated Razor Pay API for payment processing and used React Navigation for a seamless user experience."
         ],
         "sub_sections": [
           "Code Vipasana Season 11",
@@ -256,15 +378,29 @@
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Duration – ly Working",
+        "location": null,
+        "start": "Nov 2023",
+        "end": "Present",
+        "method": "date_regex",
+        "duration_months": 36,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.8,
-      "total_months": 70,
-      "overlapping_periods_merged": 1
+      "total_years": 5.9,
+      "total_months": 71,
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.75
+    "_confidence": 0.85
   },
   "education": {
     "entries": [
@@ -678,7 +814,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
@@ -689,11 +825,16 @@
     },
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

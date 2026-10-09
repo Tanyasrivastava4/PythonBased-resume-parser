@@ -1,0 +1,67 @@
+======================================================================
+FILE: 7e87e416_8428b934_area-sales-manager (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Fleetx Technologies Pvt Ltd
+Sales forcasting & Closing
+Fleetx is a leading fleet & logistics optimisation
+Area Sales Manager (Full-Time)
+Strateging Planning ability
+Pune
+Jan 2024 - Prasent
+Adaptability & Problem Solving
+Being an Area Sales manger the target to enhance and lift up the
+personnel as we...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 2.8 years (34 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Area Sales Manager (Full-Time
+  Company      : Managing the delighted files and the accountancy part of projects and making their entry on an individual level.
+  Location     : None
+  Start - End  : Jan 2024 - Prasent
+  Duration     : 0 months
+  Bullets      : 3
+    • Being an Area Sales manger the target to enhance and lift up the personnel as well as whole territory targets and boost up the business on
+    • Working as a section engineer and DEO for Head Quarter Southern Command on a contractual basis.
+    • Coordinate with subcontractors and consultants to boost productivity and efficiency
+  Sub-sections : ['Customer Relationship', 'each and every quarter. “Increased sales by 20% within a year through', 'Management', 'strategic marketing initiatives.”']
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : and profit percentages. Formalized sales process to enhance operations
+  Company      : Boosted division performance by maximizing territory customer base
+  Location     : None
+  Start - End  : May 2022 - Dec 2023
+  Duration     : 20 months
+  Bullets      : 4
+    • Boosted division performance by maximizing territory customer base and profit percentages.
+    • Formalized sales process to enhance operations and promote the acquisition of new customers.
+    • Developed and managed regional sales programs and market operations.
+    • Discovered sales opportunities by showcasing products and services to interested clients.
+  Method       : date_regex
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Edtech Compony
+  Company      : Byju's Think & Learn Pvt Ltd
+  Location     : None
+  Start - End  : Mar 2021 - May 2022
+  Duration     : 15 months
+  Bullets      : 3
+    • Expanded new business, by grappling new opportunities.
+    • Being a face of organization, the role is to be generating the new business by selling the best productive edtech educational courses to all stages of students.
+    • Interactive session conductions with the students and their parents and converting these prospects to the sales.
+  Sub-sections : ['HQSC PUNE', 'Section engineer & DEO (Contract)', 'pune']
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

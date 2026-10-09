@@ -1,0 +1,47 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/ca70e412_8814aa81_S.A. Matheen_Full stack web security patches_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Frontend: React JS, HTML5, CSS3, JavaScript, TypeScript, Material UI
+• Backend: Java, Spring, Spring Boot, Hibernate, Node JS.
+• Cloud Platform: Lambda, CloudWatch, Azure App Services, Azure SQL.
+• Containerization: Docker, Kubernetes / Amazon EKS / Azure AKS
+• Database: SQL, MySQL, PostgreSQL,
+• Tools: Git, GitHub, Jenkins, Maven, VS Code, Postman
+• Others: RESTful APIs, Microservices, Agile/Scrum, JIRA, Docker.
+• Project:3:
+
+── Extraction Results ──
+Skills found   : 77
+Confidence     : 0.92
+Time           : 63.23 ms
+Method         : flashtext_skills_section | fuzzy(Node JS.→Node.js(93%), CloudWatch→AWS CloudWatch(100%), Azure App Services→Azure App Service(94%), Azure SQL.→Azure SQL(95%), Maven→Apache Maven(100%)...)
+
+── All Skills (77) ──
+API Design, API Testing, AWS CloudWatch, AWS EKS, AWS Lambda, AWS SQS, Account Management, Adaptability, Agile, Apache Maven, Azure, Azure App Service, Azure SQL, Bitbucket, CI/CD, CSS3, Code Reviews, Communication, Cross-functional Collaboration, Customer Experience, Customer Onboarding, Data Management, DevOps, Django, Docker, Flask, GDPR, Git, GitHub, HIPAA, HTML5, Hibernate, J2EE, JMeter, JPA, JUnit, Java, JavaScript, Jenkins, Jira, KYC, Kubernetes, Log Analysis, MVC, Material UI, Microservices, Microsoft Teams, MongoDB, Multithreading, MySQL, Node.js, NumPy, OAuth2, Oracle, PLC, Pandas, Payments, Performance Optimization, Performance Testing, PostgreSQL, Postman, Python, Quality Assurance, REST, REST API, React, Redux, Reporting, SQL, Scrum, Spring, Spring Boot, Swagger, System Design, Technical Writing, TypeScript, VS Code
+
+── By Category ──
+  ai_ml                          ['NumPy', 'Pandas']
+  architecture                   ['API Design', 'Microservices', 'System Design']
+  client_mgmt                    ['Customer Experience', 'Customer Onboarding']
+  cloud_infra                    ['AWS CloudWatch', 'AWS EKS', 'AWS Lambda', 'AWS SQS', 'Azure', 'Azure App Service']
+  content                        ['Technical Writing']
+  database                       ['Azure SQL', 'MongoDB', 'MySQL', 'Oracle', 'PostgreSQL', 'SQL']
+  dev_tool                       ['Apache Maven', 'Bitbucket', 'Code Reviews', 'Git', 'GitHub', 'Performance Optimization', 'Postman', 'Swagger', 'VS Code']
+  devops                         ['CI/CD', 'DevOps', 'Docker', 'Jenkins', 'Kubernetes']
+  domain                         ['Payments']
+  engineering_hardware           ['PLC']
+  healthcare                     ['HIPAA']
+  integration                    ['REST']
+  legal                          ['GDPR', 'KYC']
+  operations                     ['Quality Assurance']
+  productivity                   ['Data Management', 'Microsoft Teams']
+  programming_language           ['J2EE', 'Java', 'JavaScript', 'Multithreading', 'Python', 'TypeScript']
+  project_mgmt                   ['Agile', 'Jira', 'Scrum']
+  sales                          ['Account Management']
+  security                       ['OAuth2']
+  security_ops                   ['Log Analysis']
+  soft_skill                     ['Adaptability', 'Communication', 'Cross-functional Collaboration', 'Reporting']
+  testing                        ['API Testing', 'JMeter', 'JUnit', 'Performance Testing']
+  web_framework                  ['CSS3', 'Django', 'Flask', 'HTML5', 'Hibernate', 'JPA', 'MVC', 'Material UI', 'Node.js', 'REST API', 'React', 'Redux', 'Spring', 'Spring Boot']

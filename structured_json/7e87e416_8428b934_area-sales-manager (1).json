@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7e87e416_8428b934_area-sales-manager (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:59:25.260612+00:00",
+    "generated_at": "2026-10-07T09:27:03.283655+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,12 +49,14 @@
     "items": [
       "Adaptability",
       "Business Development",
-      "ERP",
+      "Customer Relationship Management",
       "Lead Generation",
       "Logistics",
       "Problem Solving",
-      "SaaS Sales",
-      "Sales Management"
+      "Sales Forecasting",
+      "Sales Management",
+      "Software Sales",
+      "Strategic Planning"
     ],
     "by_category": {
       "soft_skill": [
@@ -64,16 +66,18 @@
       "biz_dev": [
         "Business Development"
       ],
-      "erp": [
-        "ERP"
-      ],
       "sales": [
+        "Customer Relationship Management",
         "Lead Generation",
-        "SaaS Sales",
-        "Sales Management"
+        "Sales Forecasting",
+        "Sales Management",
+        "Software Sales"
       ],
       "operations": [
         "Logistics"
+      ],
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
@@ -82,58 +86,80 @@
   "experience": {
     "jobs": [
       {
+        "role": "Area Sales Manager (Full-Time",
+        "company": "Managing the delighted files and the accountancy part of projects and making their entry on an individual level.",
+        "location": null,
+        "start": "Jan 2024",
+        "end": "Prasent",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Sales forcasting & Closing",
+          "Fleetx is a leading fleet & logistics optimisation",
+          "Area Sales Manager (Full-Time)",
+          "Strateging Planning ability",
+          "Pune"
+        ],
+        "duration_months": 0,
+        "bullets": [
+          "Being an Area Sales manger the target to enhance and lift up the personnel as well as whole territory targets and boost up the business on",
+          "Working as a section engineer and DEO for Head Quarter Southern Command on a contractual basis.",
+          "Coordinate with subcontractors and consultants to boost productivity and efficiency"
+        ],
+        "sub_sections": [
+          "Customer Relationship",
+          "each and every quarter. “Increased sales by 20% within a year through",
+          "Management",
+          "strategic marketing initiatives.”"
+        ],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
         "role": "and profit percentages. Formalized sales process to enhance operations",
-        "company": "Byju's Think & Learn Pvt Ltd",
+        "company": "Boosted division performance by maximizing territory customer base and profit percentages.",
         "location": null,
         "start": "May 2022",
         "end": "Dec 2023",
         "method": "date_regex",
+        "pre_date_header": [
+          "Pune"
+        ],
         "duration_months": 20,
         "bullets": [
-          "Boosted division performance by maximizing territory customer base and profit percentages.",
           "Formalized sales process to enhance operations and promote the acquisition of new customers.",
           "Developed and managed regional sales programs and market operations.",
           "Discovered sales opportunities by showcasing products and services to interested clients."
         ],
-        "sub_sections": [
-          "Byju's Think & Learn Pvt Ltd"
-        ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Business Development Associate",
-        "company": "Edtech Compony",
+        "role": "Edtech Compony",
+        "company": "Byju's Think & Learn Pvt Ltd",
         "location": null,
         "start": "Mar 2021",
         "end": "May 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Byju's Think & Learn Pvt Ltd",
+          "Edtech Compony",
+          "Business Development Associate",
+          "Pune"
+        ],
         "duration_months": 15,
         "bullets": [
           "Expanded new business, by grappling new opportunities.",
           "Being a face of organization, the role is to be generating the new business by selling the best productive edtech educational courses to all stages of students.",
           "Interactive session conductions with the students and their parents and converting these prospects to the sales."
         ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Section engineer & DEO",
-        "company": "HQSC PUNE",
-        "location": null,
-        "start": "Jan 2019",
-        "end": "Mar 2021",
-        "method": "date_regex+title_dict",
-        "duration_months": 27,
-        "bullets": [
-          "Working as a section engineer and DEO for Head Quarter Southern Command on a contractual basis.",
-          "Managing the delighted files and the accountancy part of projects and making their entry on an individual level.",
-          "Coordinate with subcontractors and consultants to boost productivity and efficiency"
+        "sub_sections": [
+          "HQSC PUNE",
+          "Section engineer & DEO (Contract)",
+          "pune"
         ],
-        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
@@ -141,31 +167,42 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.0,
-      "total_months": 60,
-      "overlapping_periods_merged": 2
+      "total_years": 2.8,
+      "total_months": 34,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
+      {
+        "degree": "Bachelore of Engineering",
+        "degree_name": "B.E.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Sinhagad Collage of engineering Mechanical Engineering",
+        "year": "June 2015 - June 2018",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
       {
         "degree": "Jaywantrao sawant Polytechnic",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": null,
         "institution": null,
-        "year": "June 2015 - June 2018",
+        "year": null,
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.65
       },
       {
         "degree": "Diploma",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": null,
-        "institution": "State Board Primary Education",
+        "institution": "State Board",
         "year": "Aug 2011 - June 2014",
         "gpa": null,
         "_needs_review": false,
@@ -194,8 +231,19 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.88
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

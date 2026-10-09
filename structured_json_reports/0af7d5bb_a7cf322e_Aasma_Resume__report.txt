@@ -2,7 +2,7 @@
 FILE: 0af7d5bb_a7cf322e_Aasma_Resume__segmented.txt
 ======================================================================
 Sections found : ['declaration', 'education', 'experience', 'header', 'personal_details', 'skills', 'strengths', 'summary']
-Overall conf.  : 0.84
+Overall conf.  : 0.89
 Needs review   : True
 
 CONTACT
@@ -21,16 +21,18 @@ industry, seeking a challenging role as a Customer Relationship Executive where 
 communication, coordination, and service skills to enhance customer satisfaction and contribute to
 the organization’s growth.
 
-SKILLS (9) — confidence 0.92
+SKILLS (14) — confidence 0.92
 ----------------------------------------------------------------------
-CRM Tools, Call Handling, Communication, Customer Handling, Data Management, Interpersonal Skills, MS Office, Problem Solving, Service Scheduling
+CRM Tools, Call Handling, Communication, Customer Experience, Customer Handling, Customer Relationship Management, Customer Retention, Data Management, Interpersonal Skills, MS Office, Microsoft Teams, Problem Solving, Professional Tax, Service Scheduling
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.65
-Total experience: 7.3 years (88 months, 0 overlaps merged)
+EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.85
+Total experience: 10.4 years (125 months, 0 overlaps merged)
 ----------------------------------------------------------------------
   1. None @ Thirty Six Toyota (June 2022 - Present) [conf 0.85, review=True]
-  2. None @ Supported the service department by tracking vehicle servicing and updates (June 2020 - May 2021) [conf 0.55, review=True]
-  3. None @ Assisted customers with service requests and appointment coordination (June 2018 - May 2020) [conf 0.55, review=True]
+  2. None @ Ford (June 2021 - May 2022) [conf 0.85, review=True]
+  3. None @ Mahadev Hyundai (June 2020 - May 2021) [conf 0.85, review=True]
+  4. None @ Pasco (June 2018 - May 2020) [conf 0.85, review=True]
+  5. None @ ABC Motors (June 2016 - May 2018) [conf 0.85, review=True]
 
 EDUCATION (3) — confidence 0.85
 ----------------------------------------------------------------------
@@ -41,9 +43,10 @@ EDUCATION (3) — confidence 0.85
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (4 flagged fields)
+REVIEW QUEUE (5 flagged fields)
 ----------------------------------------------------------------------
-  experience                          conf=0.65  reason=low_confidence
   experience.jobs[0]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[1]                  conf=0.55  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[4]                  conf=0.85  reason=incomplete_fields

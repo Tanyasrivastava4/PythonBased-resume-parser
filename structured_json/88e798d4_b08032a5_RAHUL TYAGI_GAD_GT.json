@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "88e798d4_b08032a5_RAHUL TYAGI_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:33.784504+00:00",
+    "generated_at": "2026-10-07T09:27:13.980669+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,30 +49,56 @@
   "skills": {
     "items": [
       "Accounting",
+      "Accounting Standards",
       "Adaptability",
       "Auditing",
+      "Client Handling",
       "Client Relationship Management",
       "Communication",
+      "Company Law",
       "Financial Reporting",
+      "Form 3CD",
       "GST",
       "GST Return Filing",
-      "Microsoft DirectX",
+      "GSTR-1",
+      "Healthcare",
+      "IFRS",
+      "Income Tax Return",
+      "Indian GAAP",
+      "Indirect Taxation",
+      "Insolvency & Bankruptcy Code",
+      "Internal Audit",
+      "Internal Financial Controls",
+      "LinkedIn",
+      "MSMED Act",
       "Microsoft Excel",
       "Problem Solving",
+      "R",
+      "ROC Filings",
       "Reporting",
       "Statutory Audit",
       "TDS",
-      "Tax Audit",
+      "TDS Return Filing",
+      "Tax Auditing",
       "Taxation",
-      "Time Management"
+      "Tests of Controls",
+      "Time Management",
+      "Transfer Pricing"
     ],
     "by_category": {
       "finance_ops": [
         "Accounting",
         "Auditing",
         "Financial Reporting",
+        "IFRS",
+        "Indirect Taxation",
         "Statutory Audit",
         "Taxation"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "TDS Return Filing",
+        "Tax Auditing"
       ],
       "soft_skill": [
         "Adaptability",
@@ -81,28 +107,50 @@
         "Reporting",
         "Time Management"
       ],
+      "management": [
+        "Client Handling"
+      ],
       "client_mgmt": [
         "Client Relationship Management"
       ],
+      "legal": [
+        "Company Law",
+        "Insolvency & Bankruptcy Code",
+        "MSMED Act",
+        "ROC Filings"
+      ],
       "accounting": [
+        "Form 3CD",
         "GST",
-        "Tax Audit"
+        "Indian GAAP",
+        "Internal Audit",
+        "Tests of Controls",
+        "Transfer Pricing"
       ],
       "finance": [
-        "GST Return Filing"
+        "GST Return Filing",
+        "Income Tax Return",
+        "Internal Financial Controls"
       ],
-      "os_system": [
-        "Microsoft DirectX"
+      "taxation": [
+        "GSTR-1",
+        "TDS"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel"
       ],
-      "taxation": [
-        "TDS"
+      "programming_language": [
+        "R"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Direct→Microsoft DirectX(92%), auditing→Auditing(100%), taxation→Taxation(100%), reporting.→Reporting(95%), GST returns→GST Return Filing(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Companies Act→Company Law(100%), Tax Audit→Tax Auditing(100%), auditing→Auditing(100%), taxation→Taxation(100%), reporting.→Reporting(95%)...)"
   },
   "experience": {
     "jobs": [
@@ -112,7 +160,10 @@
         "location": null,
         "start": "Aug 2025",
         "end": "Oct 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Associate"
+        ],
         "duration_months": 3,
         "bullets": [
           "Analyzed financial statements for accuracy, compliance with Ind AS, and disclosure requirements.",
@@ -132,31 +183,35 @@
       },
       {
         "role": "Associate",
-        "company": "VSPG & Associates",
+        "company": "Ensured compliance with the MSMED act 2006, including calculation and timely reporting of interest due to MSME vendors, aligning with the provisions of the MSMED Act.",
         "location": null,
         "start": "Nov 2022",
         "end": "Jan 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Collaborated with senior associates and partners to present key findings, resolve discrepancies, and finalize audit reports.",
+          "Associate"
+        ],
         "duration_months": 27,
         "bullets": [
           "Led statutory audits for diverse clients in industries such as manufacturing, banking, and healthcare, ensuring compliance with Indian GAAP and IFRS.",
-          "Performed internal audits to identify operational inefficiencies and risks, delivering actionable recommendations that enhanced client processes.",
-          "Prepared and reviewed financial statements in compliance with Ind AS, Companies Act, and applicable tax laws.",
-          "Ensured timely filing of ROC returns, Income Tax returns, GST returns, and other statutory filings.",
-          "Ensured compliance with the MSMED act 2006, including calculation and timely reporting of interest due to MSME vendors, aligning with the provisions of the MSMED Act."
+          "Performed internal audits to identify operational inefficiencies and risks, delivering actionable recommendations that enhanced client processes."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Article Assistant",
-        "company": "Executed statutory and tax audits for clients in manufacturing, FMCG, and IT sectors, ensuring compliance with regulatory",
+        "company": "Ensured robust internal financial controls for accurate financial reporting, this included conducting walkthrough tests",
         "location": null,
         "start": "Mar 2017",
         "end": "Mar 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Article Assistant"
+        ],
         "duration_months": 37,
         "bullets": [
           "Asthana & Co.",
@@ -176,7 +231,7 @@
       "total_months": 67,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.79
   },
   "education": {
     "entries": [
@@ -185,7 +240,18 @@
         "degree_name": "CA Final",
         "degree_type": "professional_certification",
         "degree_field": null,
-        "institution": "Institute of Chartered Accountants of India Bachelor of Legislative Law",
+        "institution": "University of Delhi XII (CBSE)",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Legislative Law",
+        "degree_name": "LLB",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Institute of Chartered Accountants of India Bachelor of Legislative",
         "year": "2023",
         "gpa": null,
         "_needs_review": false,
@@ -203,7 +269,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [
@@ -249,10 +315,15 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.7,

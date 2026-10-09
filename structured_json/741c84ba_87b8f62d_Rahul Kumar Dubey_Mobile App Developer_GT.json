@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "741c84ba_87b8f62d_Rahul Kumar Dubey_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:17.359599+00:00",
+    "generated_at": "2026-10-07T09:26:53.235723+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -52,42 +52,82 @@
   "skills": {
     "items": [
       "Android",
+      "Code Reviews",
+      "Communication",
       "Continuous Improvement",
+      "Customer Experience",
+      "Dart",
+      "Data Management",
       "ES6+",
+      "Flutter",
       "Git",
+      "Google",
+      "Home Loans",
       "JSON",
       "Java",
       "JavaScript",
       "MVVM",
       "Microsoft Windows",
+      "Performance Optimization",
+      "R",
+      "REST",
+      "REST API",
       "React",
       "React Native",
+      "Retrofit",
+      "Room Database",
       "SQLite",
       "TypeScript",
+      "UI Design",
+      "UX Design",
       "VS Code",
       "iOS"
     ],
     "by_category": {
       "mobile": [
         "Android",
+        "Flutter",
         "React Native",
         "iOS"
       ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "Performance Optimization"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
       "operations": [
         "Continuous Improvement"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
+      ],
+      "programming": [
+        "Dart"
+      ],
+      "productivity": [
+        "Data Management"
       ],
       "programming_language": [
         "ES6+",
         "Java",
         "JavaScript",
+        "R",
         "TypeScript"
       ],
-      "dev_tool": [
-        "Git",
-        "VS Code"
+      "database": [
+        "Google",
+        "Room Database",
+        "SQLite"
+      ],
+      "banking": [
+        "Home Loans"
       ],
       "web_framework": [
         "JSON",
+        "REST API",
         "React"
       ],
       "architecture": [
@@ -96,8 +136,18 @@
       "os_system": [
         "Microsoft Windows"
       ],
-      "database": [
-        "SQLite"
+      "integration": [
+        "REST"
+      ],
+      "mobile_dev": [
+        "Retrofit"
+      ],
+      "design": [
+        "UI Design",
+        "UX Design"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -107,12 +157,15 @@
     "jobs": [
       {
         "role": "Android Developer",
-        "company": "Comtech IT Solution Pvt. Ltd. 📅",
+        "company": "Comtech IT Solution Pvt. Ltd",
         "location": null,
         "start": "May 2022",
         "end": "Present",
         "method": "date_regex+title_dash_company",
-        "duration_months": 53,
+        "pre_date_header": [
+          "Android Developer – Comtech IT Solution Pvt. Ltd."
+        ],
+        "duration_months": 54,
         "bullets": [
           "Developing and maintaining Android applications with focus on performance and scalability."
         ],
@@ -123,11 +176,14 @@
       },
       {
         "role": "Android Developer",
-        "company": "3D Logic India Pvt. Ltd. 📅",
+        "company": "3D Logic India Pvt. Ltd",
         "location": null,
         "start": "Dec 2021",
         "end": "May 2022",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Android Developer – 3D Logic India Pvt. Ltd."
+        ],
         "duration_months": 6,
         "bullets": [
           "Worked on mobile solutions integrating REST APIs and optimizing UI/UX design."
@@ -139,11 +195,14 @@
       },
       {
         "role": "Android Developer",
-        "company": "NSPS Pvt. Ltd. 📅",
+        "company": "NSPS Pvt. Ltd",
         "location": null,
         "start": "Sep 2020",
         "end": "Nov 2021",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Android Developer – NSPS Pvt. Ltd."
+        ],
         "duration_months": 15,
         "bullets": [
           "Built and deployed multiple Android apps using MVVM architecture and Room database.",
@@ -166,16 +225,7 @@
           "Handled end-to-end design and development of the Android application.",
           "Worked on SQLite database and push notifications.",
           "Executed debugging, issue resolution, and unit testing.",
-          "Supported code review sessions to maintain code quality.",
-          "RO Care India – RO Service App",
-          "Designed and developed modules for RO service management.",
-          "Integrated APIs and local storage solutions for better user experience.",
-          "Fixed bugs and performed unit testing before release.",
-          "Contributed to code review and feature enhancements.",
-          "Others (Loan Lead, Calling, MRR, Location-Conductor)",
-          "Developed small-scale utility applications for business support.",
-          "Focused on design, development, and debugging.",
-          "Conducted code review and testing to ensure smooth deployment."
+          "Supported code review sessions to maintain code quality."
         ],
         "sub_sections": [
           "Technology: Android and Flutter",
@@ -186,28 +236,57 @@
           "Role & Responsibilities:",
           "Technology: Android",
           "Store Link: [https://play.google.com/store/search?q=mpower+one&c=apps&hl=en_IN]",
-          "Role & Responsibilities:",
-          "Technology: Android",
-          "Store Link:",
-          "[https://play.google.com/store/apps/details?id=rocareindia.com.rocareindiapartner&pcampaignid=web_share]",
-          "Ro Care India Partner:-",
-          "[https://play.google.com/store/apps/details?id=rocareindia.com.rocareindiapartner&pcampaignid=web_share]",
-          "Role & Responsibilities:",
-          "Technology: Android",
           "Role & Responsibilities:"
         ],
         "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "5. RO Care India – RO Service App",
+        "company": "Technology: Android",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [
+          "Designed and developed modules for RO service management.",
+          "Integrated APIs and local storage solutions for better user experience.",
+          "Fixed bugs and performed unit testing before release.",
+          "Contributed to code review and feature enhancements."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Loan Lead, Calling, MRR, Location-Conductor",
+        "company": "6. Others",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "company_parens_role",
+        "duration_months": 0,
+        "bullets": [
+          "Developed small-scale utility applications for business support.",
+          "Focused on design, development, and debugging.",
+          "Conducted code review and testing to ensure smooth deployment."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
         "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.1,
-      "total_months": 73,
+      "total_years": 6.2,
+      "total_months": 74,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -256,7 +335,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.93
   },
   "_needs_review": false,
   "_review_queue": []

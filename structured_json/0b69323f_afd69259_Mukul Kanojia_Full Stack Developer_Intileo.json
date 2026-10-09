@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0b69323f_afd69259_Mukul Kanojia_Full Stack Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:51.123034+00:00",
+    "generated_at": "2026-10-07T10:30:44.326177+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -51,17 +51,20 @@
       "AWS EC2",
       "Adobe Photoshop",
       "CSS3",
+      "Communication",
       "Git",
       "GitHub",
       "Google Analytics",
       "HTML5",
       "Java",
       "JavaScript",
+      "LinkedIn",
       "Linux",
       "MongoDB",
       "MySQL",
       "Node.js",
       "Postman",
+      "Problem Solving",
       "Python",
       "REST API",
       "React",
@@ -81,6 +84,7 @@
       "web_framework": [
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "Node.js",
         "REST API",
         "React",
@@ -88,11 +92,14 @@
         "Tailwind CSS",
         "webpack"
       ],
+      "soft_skill": [
+        "Communication",
+        "Problem Solving"
+      ],
       "dev_tool": [
         "Git",
         "GitHub",
-        "Postman",
-        "VS Code"
+        "Postman"
       ],
       "data_science": [
         "Google Analytics"
@@ -108,6 +115,9 @@
       "database": [
         "MongoDB",
         "MySQL"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -121,8 +131,11 @@
         "location": "Job",
         "start": "Oct 2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 24,
+        "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "BatterSea WebExpert Pvt Ltd | Job"
+        ],
+        "duration_months": 25,
         "bullets": [
           "Full Stack Developer.",
           "Gained hands-on experience in HTML, CSS, JavaScript, React, and web tools.",
@@ -139,7 +152,10 @@
         "location": null,
         "start": "Feb 2024",
         "end": "Sept. 2024",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "SysTools Software Pvt Ltd | Intern"
+        ],
         "duration_months": 8,
         "bullets": [
           "Technical Trainee.",
@@ -154,10 +170,13 @@
       {
         "role": "Intern",
         "company": "Newton School",
-        "location": "Member (Virtual",
+        "location": "Member",
         "start": "Dec. 2022",
         "end": "Dec. 2023",
-        "method": "date_regex+pipe_company_loc_role+inherited_role",
+        "method": "date_regex+inherited_role",
+        "pre_date_header": [
+          "Newton School | Member (Virtual)"
+        ],
         "duration_months": 13,
         "bullets": [
           "Developed Data Structure and problem-solving skills.",
@@ -174,7 +193,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 3.8,
-      "total_months": 45,
+      "total_months": 46,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.89
@@ -198,7 +217,7 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "Convent Of Gagan Bharti School",
-        "year": "2016",
+        "year": "2014",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -208,7 +227,7 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Convent Of Gagan Bharti School",
+        "institution": "PCM Convent Of Gagan Bharti School",
         "year": "2014",
         "gpa": null,
         "_needs_review": false,

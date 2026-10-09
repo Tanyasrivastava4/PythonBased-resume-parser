@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9c2e1696_1ab93f25_Ishika_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:50.253311+00:00",
+    "generated_at": "2026-10-07T09:27:35.581062+00:00",
     "sections_found": [
       "achievements",
       "early_career",
@@ -48,18 +48,41 @@
   "summary": "A Qualified Chartered Accountant with strong analytical skills and academic credentials seeking to grow by learning and\ncontributing meaningfully in a dynamic and experienced team environment.",
   "skills": {
     "items": [
+      "ASM",
+      "Account Reconciliation",
       "Analytical Thinking",
+      "Auditing",
       "Communication",
+      "Internal Controls Testing",
+      "LinkedIn",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
-      "SAP"
+      "Payroll Administration",
+      "Risk Management",
+      "SAP",
+      "SOX",
+      "Statutory Audit",
+      "Vouching"
     ],
     "by_category": {
+      "finance_ops": [
+        "ASM",
+        "Auditing",
+        "Internal Controls Testing",
+        "SOX",
+        "Statutory Audit"
+      ],
+      "accounting_finance": [
+        "Account Reconciliation"
+      ],
       "soft_skill": [
         "Analytical Thinking",
         "Communication"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office",
@@ -67,8 +90,17 @@
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
       "integration": [
         "SAP"
+      ],
+      "finance": [
+        "Vouching"
       ]
     },
     "_confidence": 0.92,
@@ -77,14 +109,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "(OYO Hotels and Homes Private Limited",
-        "company": "Handled month-end and year-end closing of books of accounts of subsidiary entities.",
+        "role": "Industrial Trainee",
+        "company": "PRISM (OYO Hotels and Homes Private Limited",
         "location": null,
         "start": "Aug’24",
         "end": "Feb’26",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Industrial Trainee at PRISM (OYO Hotels and Homes Private Limited)"
+        ],
         "duration_months": 19,
         "bullets": [
+          "Handled month-end and year-end closing of books of accounts of subsidiary entities.",
           "Assisted in audit engagement by performing vouching, Ledger Scrutiny and preparation of Audit working papers.",
           "Prepare reconciliations and provide support in statutory and tax compliances."
         ],
@@ -100,6 +136,9 @@
         "start": "Feb’23",
         "end": "Aug’24",
         "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Article trainee at K G SOMANI & CO. LLP, Delhi"
+        ],
         "duration_months": 19,
         "bullets": [
           "Statutory audit • Conducted statutory audits of various Listed and unlisted company.",
@@ -148,7 +187,7 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "CBSE Delhi",
-        "year": "2019",
+        "year": "2017",
         "gpa": "94.4%",
         "_needs_review": false,
         "_confidence": 0.95

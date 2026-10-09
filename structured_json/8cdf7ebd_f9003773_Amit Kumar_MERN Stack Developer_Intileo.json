@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8cdf7ebd_f9003773_Amit Kumar_MERN Stack Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:39.168776+00:00",
+    "generated_at": "2026-10-07T09:27:20.564325+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -53,6 +53,7 @@
       "C++",
       "CSS3",
       "Express.js",
+      "Field Sales",
       "Git",
       "GitHub",
       "HTML5",
@@ -94,17 +95,22 @@
         "JavaScript",
         "Python"
       ],
+      "sales": [
+        "Field Sales"
+      ],
       "dev_tool": [
         "Git",
         "GitHub",
         "Postman",
-        "VS Code",
         "Visual Studio",
         "Vite"
       ],
       "database": [
         "MongoDB",
         "PostgreSQL"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -113,12 +119,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Ltd, Noida: Full Stack Developer",
+        "role": "Onsite",
         "company": "Wizweb Technology Pvt. Ltd, Noida: Full Stack Developer",
         "location": null,
         "start": "march 2025",
         "end": "oct 2025",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Wizweb Technology Pvt. Ltd, Noida: Full Stack Developer"
+        ],
         "duration_months": 8,
         "bullets": [
           "Designed and developed scalable applications using Next.js, Prisma, and PostgreSQL.",
@@ -131,19 +140,23 @@
       },
       {
         "role": "Nextfly Technology, Gurgaon: Associate Engineer Intern",
-        "company": "Gained hands- on experience in modern software practices.• Conducted technical training sessions for employees using virtual and instructor-led platforms.",
-        "location": "Onsite",
+        "company": "Onsite",
+        "location": null,
         "start": "oct 2024",
         "end": "dec 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Nextfly Technology, Gurgaon: Associate Engineer Intern"
+        ],
         "duration_months": 3,
         "bullets": [
           "Conducted technical training sessions for employees using virtual and instructor-led platforms.",
-          "Created and delivered presentations to train field sales representatives on new product features"
+          "Created and delivered presentations to train field sales representatives on new product features",
+          "Gained hands- on experience in modern software practices.• Conducted technical training sessions for employees using virtual and instructor-led platforms."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -153,7 +166,7 @@
       "total_months": 11,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -197,22 +210,12 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
       "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a52089d4_e804df72_CA Meenal jain Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Microsoft Office Tools (Excel, PowerPoint)
+• Financial Reporting and Analysis
+• Accounting Software (Tally, Busy, QuickBooks, Xero)
+• Direct and Indirect Taxation
+• Profile (Canada Taxation Software)
+• Drake (US Taxation Software)
+
+── Extraction Results ──
+Skills found   : 16
+Confidence     : 0.92
+Time           : 367.23 ms
+Method         : flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), PowerPoint→Microsoft PowerPoint(100%), taxation→Taxation(100%), QuickBooks.→QuickBooks(95%))
+
+── All Skills (16) ──
+Accounting, Auditing, Communication, Financial Reporting, General Ledger, LinkedIn, MS Office, Make, Microsoft Excel, Microsoft PowerPoint, QuickBooks, R, Reporting, Tally, Tax Audit, Taxation
+
+── By Category ──
+  accounting                     ['General Ledger', 'Tax Audit']
+  finance_ops                    ['Accounting', 'Auditing', 'Financial Reporting', 'QuickBooks', 'Tally', 'Taxation']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint']
+  programming_language           ['R']
+  rpa                            ['Make']
+  soft_skill                     ['Communication', 'Reporting']
+  web_framework                  ['LinkedIn']

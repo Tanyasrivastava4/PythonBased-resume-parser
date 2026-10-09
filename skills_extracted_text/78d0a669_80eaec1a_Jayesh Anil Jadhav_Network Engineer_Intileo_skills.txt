@@ -1,0 +1,50 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/78d0a669_80eaec1a_Jayesh Anil Jadhav_Network Engineer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Leadership & Governance: Team Management, SLA Monitoring, Regulatory & RBI Audits, Internal Compliance
+• Network & Cybersecurity: NAC (ClearPass, Nevis), Firewalls (Checkpoint, ASA, Fortinet, Palo Alto), Proxy
+(Zscaler, Bluecoat)
+• Infrastructure Oversight: Load Balancers, DNS, VPN, SD-WAN, Microsoft Azure, Citrix NetScaler
+• Cloud & Virtualization: Microsoft Azure, Citrix NetScaler, CDN, Application Gateway
+• Strategic Initiatives: Vendor Management, Security Policy Enforcement, Cloud Integration, Audit Readiness
+• Protocols & Routing: BGP, OSPF, VLANs, Cisco Nexus, HSRP, Network Segmentation
+• Monitoring Tools: Skybox, Arbor DDOS, Infoblox, Cisco Prime, CA E-health, Nagios
+• Team & Vendor Management: Leading 30+ engineers, SLA tracking, Stakeholder communication
+• Provided remote support to D-Link customers across a range of network and connectivity products.
+• Resolved issues related to broadband modems, wireless routers, switches, IP cameras, KVMs, media converters,
+and network storage devices.
+• Delivered technical guidance for configuration, troubleshooting, and firmware-related queries.
+• Ensured high customer satisfaction through prompt resolution and escalation where needed.
+
+── Extraction Results ──
+Skills found   : 44
+Confidence     : 0.92
+Time           : 755.67 ms
+Method         : flashtext_skills_section | fuzzy(SLA Monitoring→SLA Management(100%), Firewalls→Firewall(100%), Checkpoint→Check Point(100%), Palo Alto→Palo Alto Networks(100%), Microsoft Azure→Azure(100%)...)
+
+── All Skills (44) ──
+Auditing, Axios, Azure, CDN, CSAT, Change Management, Check Point, Cisco ASA, Cisco IOS, Citrix NetScaler, Communication, Cross-functional Collaboration, Firewall, Incident Management, Intellectual Property, Leadership, Load Balancer, Log Analysis, Mentoring, Microsoft Teams, Microsoft Windows, Nagios, Network Monitoring Tools, Network Security, Palo Alto Networks, Procurement, Proxy, RBI, Regulatory Compliance, Resource Planning, Responsible AI, Root Cause Analysis, SLA Management, Sandboxing, ServiceNow, Symantec Endpoint Protection, System Design, Team Leadership, Technical Support, UAT, VLAN, VPN, Vendor Management, iOS
+
+── By Category ──
+  architecture                   ['System Design']
+  cloud_infra                    ['Azure', 'CDN', 'Nagios', 'VLAN']
+  customer_service               ['CSAT']
+  devops                         ['Load Balancer', 'Network Monitoring Tools']
+  domain                         ['RBI']
+  finance_ops                    ['Auditing']
+  genai                          ['Responsible AI']
+  integration                    ['ServiceNow']
+  legal                          ['Intellectual Property', 'Regulatory Compliance']
+  mobile                         ['iOS']
+  operations                     ['Procurement', 'Root Cause Analysis', 'Vendor Management']
+  os_system                      ['Cisco IOS', 'Microsoft Windows']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Change Management', 'Resource Planning']
+  security                       ['Symantec Endpoint Protection']
+  security_ops                   ['Check Point', 'Cisco ASA', 'Citrix NetScaler', 'Firewall', 'Incident Management', 'Log Analysis', 'Network Security', 'Palo Alto Networks', 'Proxy', 'Sandboxing', 'VPN']
+  soft_skill                     ['Communication', 'Cross-functional Collaboration', 'Leadership', 'Mentoring', 'Team Leadership']
+  support                        ['SLA Management', 'Technical Support']
+  testing                        ['UAT']
+  web_framework                  ['Axios']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "14c0c3b3_55c2311b_K Vinay Kumar_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:58.570255+00:00",
+    "generated_at": "2026-10-07T10:30:52.885580+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,20 +49,48 @@
   "summary": "Senior Power BI Developer and BI Consultant with 5+ years of experience delivering enterprise BI solutions for Fortune-500 clients\nincluding UnitedHealth Group, Unilever International, and CIGNA Group across Healthcare, Insurance, FMCG, and Retail\ndomains. Deep expertise in DAX, Star Schema modelling, Power Platform automation, and Power BI Service administration. Known\nfor translating complex stakeholder requirements into trusted dashboards that drive strategic decisions — owning full delivery from\nrequirement gathering through UAT, production deployment, and L2/L3 support.",
   "skills": {
     "items": [
+      "Business Intelligence",
+      "Canvas Apps",
       "Creativity",
+      "Cross-functional Collaboration",
       "DAX",
+      "Dynamic Measures",
       "Healthcare",
+      "Incremental Refresh",
+      "MSSQL",
+      "Microsoft Excel",
+      "Microsoft Power Automate",
+      "Microsoft Teams",
+      "On-Premises Data Gateway",
+      "Paginated Reports",
+      "Power Apps",
       "Power BI",
+      "Power BI Service",
       "Power Platform",
       "Power Query",
+      "Production Support",
+      "Reporting",
       "Row Level Security",
+      "SLA Management",
       "Snowflake",
+      "Snowflake Schema",
+      "Star Schema",
+      "Supply Chain",
       "Tableau",
+      "Time Intelligence",
       "UAT"
     ],
     "by_category": {
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "low_code_no_code": [
+        "Canvas Apps"
+      ],
       "soft_skill": [
-        "Creativity"
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Reporting"
       ],
       "data_science": [
         "DAX",
@@ -71,26 +99,56 @@
         "Row Level Security",
         "Tableau"
       ],
-      "domain": [
-        "Healthcare"
+      "bi_visualization": [
+        "Dynamic Measures",
+        "On-Premises Data Gateway",
+        "Paginated Reports",
+        "Power BI Service",
+        "Time Intelligence"
       ],
-      "low_code": [
-        "Power Platform"
+      "domain": [
+        "Healthcare",
+        "Supply Chain"
+      ],
+      "analytics": [
+        "Incremental Refresh"
       ],
       "database": [
-        "Snowflake"
+        "MSSQL",
+        "Snowflake",
+        "Star Schema"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "rpa": [
+        "Microsoft Power Automate"
+      ],
+      "low_code": [
+        "Power Apps",
+        "Power Platform"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "support": [
+        "SLA Management"
+      ],
+      "data_engineering": [
+        "Snowflake Schema"
       ],
       "testing": [
         "UAT"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Row-Level Security→Row Level Security(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Row-Level Security→Row Level Security(100%), Enterprise→Business Intelligence(95%), enterprise→Business Intelligence(95%), L3 support.→Production Support(95%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Power BI Developer | FMCG | Tools: Power BI · SQL Server · Power Apps · Power Automate",
+        "role": "BI Consultant · Co Strategix ·",
         "company": "Unilever International — Global Operations BI",
         "location": null,
         "start": "July 2021",
@@ -110,13 +168,16 @@
         "source": "experience"
       },
       {
-        "role": "Power BI Developer | Healthcare | Tools: Power BI · SQL Server · Power Query · Power Apps · Power Automate · Snowflake",
+        "role": "Power BI Developer",
         "company": "UnitedHealth Group — Healthcare Analytics",
         "location": null,
         "start": "Jan 2023",
         "end": "Present",
         "method": "date_regex+company_suffix_match",
-        "duration_months": 45,
+        "pre_date_header": [
+          "UnitedHealth Group — Healthcare Analytics"
+        ],
+        "duration_months": 46,
         "bullets": [
           "Collaborated with healthcare business stakeholders to gather and analyse reporting requirements around patient data, claims, billing, and operational KPIs for one of the largest healthcare companies globally.",
           "Designed and developed 8+ interactive Power BI dashboards tracking patient admissions, discharge trends, claims processing, revenue cycle, and provider performance — adopted across 3 departments within the first month of launch.",
@@ -131,12 +192,15 @@
         "source": "experience"
       },
       {
-        "role": "Power BI Developer | Insurance | Tools: Power BI · Tableau · Snowflake · DAX",
+        "role": "Power BI Developer",
         "company": "CIGNA Group — Employee Adherence Dashboard",
         "location": null,
         "start": "Jul 2019",
         "end": "Jun 2021",
         "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "CIGNA Group — Employee Adherence Dashboard"
+        ],
         "duration_months": 24,
         "bullets": [
           "Built an enterprise-level Adherence Dashboard monitoring employee login-logout patterns, break compliance, and productivity benchmarks — enabling real-time adherence tracking for management.",
@@ -153,8 +217,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.2,
-      "total_months": 87,
+      "total_years": 7.3,
+      "total_months": 88,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

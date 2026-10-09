@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3ce78c1b_9be766b7_Nilesh Amrutkar_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:23.091476+00:00",
+    "generated_at": "2026-10-07T10:31:21.337651+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,33 +51,66 @@
   "summary": "• Technical Manager with over 16 years of experience in directing large engagement including complex Program/Project\nManagement, Delivery Management, People Management, Telecom service delivery, Service assurance Processes SME\nacross wired and wireless telecom deliveries.\n• Extensive background in UC Products (UCaaS) Unified Communications as a Service, Cisco Hosted Collaboration System\n(HCS), Cisco Unified Communication IP telephony (IPT), Hosted Contact Center (CCaaS) & Microsoft Products (MS TDR,\nOperator Connect, MS Teams Phone Mobile).\n• Service Delivery & Operations across several Vodafone Enterprise product suite (Unified Comms, International Carrier\nServices, RCS & Mobility etc.)\n• Global Exposure: Delivery & Deployment of complex services across regions such as Vodafone India, Vodafone UK\nGroup & Vodafone local operating companies worldwide.\n• Experience in Managing teams in multiple Telecom domains like 2G,3G, 4G, RCS, and UC\n• Responsible overall Network team’s SLA and KPI reporting to senior management on monthly basis.",
   "skills": {
     "items": [
+      "4G",
+      "5G",
       "Agile",
+      "Azure",
+      "Azure Site Recovery",
+      "Business Intelligence",
+      "Change Management",
       "Collaboration",
       "Communication",
       "Diameter",
       "Docker",
       "HR Management",
+      "IMS",
       "KPI",
       "Kanban",
+      "Load Balancer",
       "Microsoft Teams",
+      "NER",
+      "Operational Excellence",
+      "PDD",
+      "PMP",
       "Performance Management",
       "Project Management",
       "Recruitment",
+      "Resource Planning",
       "Responsible AI",
       "Risk Management",
       "SIP",
       "Scrum",
       "TCP/IP",
       "Team Leadership",
-      "Telecom"
+      "Telecom",
+      "UNIX",
+      "Vendor Management"
     ],
     "by_category": {
+      "telecom": [
+        "4G",
+        "5G",
+        "IMS"
+      ],
       "project_mgmt": [
         "Agile",
+        "Change Management",
         "Kanban",
+        "PMP",
         "Project Management",
+        "Resource Planning",
         "Risk Management",
         "Scrum"
+      ],
+      "cloud_infra": [
+        "Azure"
+      ],
+      "cloud": [
+        "Azure Site Recovery"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
       ],
       "soft_skill": [
         "Collaboration",
@@ -88,18 +121,25 @@
         "Diameter"
       ],
       "devops": [
-        "Docker"
+        "Docker",
+        "Load Balancer"
       ],
       "hr": [
         "HR Management",
         "Performance Management",
         "Recruitment"
       ],
-      "business_analysis": [
-        "KPI"
-      ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "ai_ml": [
+        "NER"
+      ],
+      "process": [
+        "Operational Excellence"
+      ],
+      "rpa": [
+        "PDD"
       ],
       "genai": [
         "Responsible AI"
@@ -110,20 +150,29 @@
       ],
       "domain": [
         "Telecom"
+      ],
+      "os_system": [
+        "UNIX"
+      ],
+      "operations": [
+        "Vendor Management"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(DIAMETER→Diameter(100%), People Management→HR Management(100%), telecom→Telecom(100%), teams→Microsoft Teams(100%), Responsible→Responsible AI(95%)...)"
+    "_method": "flashtext_skills_section | fuzzy(DIAMETER→Diameter(100%), People Management→HR Management(100%), telecom→Telecom(100%), Enterprise→Business Intelligence(95%), teams→Microsoft Teams(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Networks",
+        "role": "Technical Manager | Vodafone India Services Private Limited, Pune | March 2020",
+        "company": "Present",
         "location": null,
         "start": "Oct 08",
         "end": "Feb 2010",
         "method": "date_regex",
+        "pre_date_header": [
+          "Networks"
+        ],
         "duration_months": 112,
         "bullets": [],
         "sub_sections": [],
@@ -137,7 +186,7 @@
         "location": null,
         "start": "Mar 13",
         "end": "April 18",
-        "method": "date_regex+title_dict+inherited_company",
+        "method": "date_regex+title_dict_strong+inherited_company",
         "duration_months": 2,
         "bullets": [],
         "sub_sections": [],
@@ -146,105 +195,118 @@
         "source": "experience"
       },
       {
-        "role": "| Vodafone India Services Private",
-        "company": "Managing vendors, multiple engineering teams, driving operational excellence.",
+        "role": "Technical Manager | Vodafone India Services Private",
+        "company": "Vodafone India Services Private Limited",
         "location": "Limited, Pune",
         "start": "March 2020",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 79,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Summary"
+        ],
+        "duration_months": 80,
         "bullets": [
-          "Led in overall concepts of e2e technical delivery, multiple project planning & implementation viz. scoping, estimation, tracking, resource planning, change management & delivery management."
+          "Led in overall concepts of e2e technical delivery, multiple project planning & implementation viz. scoping, estimation, tracking, resource planning, change management & delivery management.",
+          "Managing vendors, multiple engineering teams, driving operational excellence."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| Reliance Jio Infocomm",
-        "company": "Involving Software upgrade of IMS Core Nodes viz. TAS-16.5 (PCD2.0 To PCD 7.0) & P,I,S CSCF-17.5",
+        "role": "TAC Manager | Reliance Jio Infocomm",
+        "company": "Reliance Jio Infocomm Limited",
         "location": "Limited, Mumbai",
         "start": "May 2018",
         "end": "Feb 2020",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 22,
         "bullets": [
           "Played a lead role for operations and maintenance of IP Multimedia Subsystem (IMS) /VoLTE solution provided by Nokia. Key Contributions and Achievements:",
+          "Involving Software upgrade of IMS Core Nodes viz. TAS-16.5 (PCD2.0 To PCD 7.0) & P,I,S CSCF-17.5",
           "Troubleshoot issue of Volte registration, ONnet/OFFnet Mobile originate and terminate call faults and take appropriate action to resolve.",
           "Coordinate with Circle Team and internal NOC teams for service testing, troubleshooting and new feature testing for IMS elements.",
           "Analyse Normal & Emergency call Routing / Configuration bugs in TAS, P-S CSCF Nodes."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| Vodafone India Private",
-        "company": "Played SME role for maintain Operations, Performance & Quality of National & International Long distance Network. Key Contributions and Achievements:",
+        "role": "Assistant Manager | Vodafone India Private",
+        "company": "Vodafone India Private Limited",
         "location": "Limited, Pune",
         "start": "May 13",
         "end": "April 18",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 1,
         "bullets": [
+          "Played SME role for maintain Operations, Performance & Quality of National & International Long distance Network. Key Contributions and Achievements:",
           "Managing Key Performance Indicators (KPIs) of core LD NGN Network viz. ASR, ACD, PDD, TG utilization, ETI, NER etc. indicating Network and Traffic performance.",
           "Analysis of traffic routing, planning & load balancing for interconnect carrier.",
           "E2E analysis & troubleshooting of issues like Voice Call, ITFS, NTFS, FAX, Audio conferencing, CRBT, USSD etc.",
-          "Improvement and recommendations plans base on abnormal network behaviour viz. Traffic patterning, Capacity utilization & Load balancing. Doing Impact analysis for required changes."
+          "Improvement and recommendations plans base on abnormal network behaviour viz. Traffic patterning, Capacity utilization & Load balancing. Doing Impact analysis for required changes.",
+          "VoLTE Deployment: Involve IMS Nodes Deployment & with complete Testing for Vodafone PAN India."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Responsible for Planning & Implementation of Core Network Elements (MSC, MGW, HLR-EIR, SGSN, GGSN). Key Contributions and Achievements:",
-        "location": "Loop Telecom Limited, Mumbai",
+        "role": "Deputy Manager | Loop Telecom",
+        "company": "Loop Telecom Limited",
+        "location": "Limited, Mumbai",
         "start": "March 10",
         "end": "April 13",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 2,
         "bullets": [
+          "Responsible for Planning & Implementation of Core Network Elements (MSC, MGW, HLR-EIR, SGSN, GGSN). Key Contributions and Achievements:",
           "Database Management, Configuration and Acceptance Testing for POIs and Network Elements.",
           "TG Capacity Utilization and Planning.",
           "Deployment of Lawful Interception System in the Network. Integrating present MSC Nodes with LI System.",
-          "Testing all test Scenarios of LI & offering our LI system for Testing to LEAs."
+          "Testing all test Scenarios of LI & offering our LI system for Testing to LEAs.",
+          "Connectivity of POI with complete Testing of Channels, CICs & Signalling with private Operators."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Played Engineer Role for Operation and Maintenance of Airtel MH & Goa Circle",
-        "company": "GSM Tracing This is most powerful activity, used for tracing location and calls made by black listed number or equipment.",
-        "location": "Nokia Siemens Networks, Pune",
+        "role": "Network Engineer | Nokia Siemens",
+        "company": "Nokia Siemens Networks",
+        "location": "Networks, Pune",
         "start": "Oct 08",
         "end": "Feb 10",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 0,
         "bullets": [
           "Played Engineer Role for Operation and Maintenance of Airtel MH & Goa Circle Key Contributions and Achievements:",
+          "GSM Tracing This is most powerful activity, used for tracing location and calls made by black listed number or equipment.",
           "Call connectivity, Audio Quality & Call Drop issue’s analysis & troubleshooting.",
           "Responsible for Operation, handling of Level opening issues with other operators, maintenance and administration of the Switch.",
           "Working on Nokia switch DX200 by using the UNIX based software Reflection.",
           "Value Added Services (VAS) Support - CRBT, BGM (Background Music),SMS & GPRS"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "TAC Manager",
-        "company": "_VOIS",
+        "role": "_VOIS (Vodafone",
+        "company": "Mar 20 Onwards",
         "location": null,
         "start": "May 18",
         "end": "Feb 20",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "_VOIS (Vodafone)"
+        ],
         "duration_months": 0,
         "bullets": [],
         "sub_sections": [],
@@ -255,11 +317,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 17.9,
-      "total_months": 215,
+      "total_years": 18.0,
+      "total_months": 216,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.75
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -340,7 +402,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.77
+    "overall": 0.81
   },
   "_needs_review": true,
   "_review_queue": [
@@ -352,31 +414,6 @@
     {
       "field": "experience.jobs[1]",
       "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[6]",
-      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

@@ -1,0 +1,38 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/13318db9_fade12ed_CA SHUBHANGINI BANSAL_GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+● Statutory Audit Skills: PCAOB and AICPA engagements, Substantive Testing, Risk Assessment, Financial Statement
+Analysis (10Q, 10K), GAAP/Ind AS Compliance.
+● Finance: Conversant with Business and Financial Analytical Tools, Ratio Analysis, Trend Analysis (Qtr. on Qtr.), Streamlined
+Working Capital by Managing Receivable and Payable Cycle, Inventory Optimization. Supported month-end and quarter-end
+close activities, ensuring accurate financial statements and compliance with IFRS/GAAP.
+● Technical Skills: Proficient in MS-Excel, Word, and PowerPoint, Conversant with Financial Modeling, ERP, and SAP.
+Major Clients
+● Convergent Energy and Power Inc.
+● Global Water Resources Inc. Ltd (SEC registered)
+● Pangaea Logistics Solutions Ltd (turnover more than $500 million)
+● Bajaj Group FMCG (Bajaj Consumers Care Ltd - listed, turnover more than 500 crore)
+● POWER & Aviation clients
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 276.35 ms
+Method         : flashtext_skills_section | fuzzy(Risk Assessment→Risk Management(100%), Word→Microsoft Word(100%))
+
+── All Skills (22) ──
+AICPA, Accounts Payable, Financial Analysis, Financial Reporting, GAAP, IFRS, Internal Controls Testing, LinkedIn, Logistics, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, PCAOB, Regulatory Compliance, Reporting, Risk Management, SAP, Statutory Audit, Substantive Testing, TDS, Trend Analysis, Working Capital Financing
+
+── By Category ──
+  banking                        ['Working Capital Financing']
+  data_science                   ['Trend Analysis']
+  finance_ops                    ['AICPA', 'Accounts Payable', 'Financial Analysis', 'Financial Reporting', 'GAAP', 'IFRS', 'Internal Controls Testing', 'PCAOB', 'Statutory Audit', 'Substantive Testing', 'TDS']
+  integration                    ['SAP']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Logistics']
+  productivity                   ['Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Reporting']
+  web_framework                  ['LinkedIn']

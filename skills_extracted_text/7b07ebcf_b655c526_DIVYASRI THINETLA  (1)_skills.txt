@@ -1,0 +1,45 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/7b07ebcf_b655c526_DIVYASRI THINETLA  (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages	Java 8, JavaScript (ES6+), C, C++, SQL, HTML5, CSS3, Camunda BPMN
+Backend Technologies	Java EE (Enterprise Edition), Spring Framework, Spring Boot, Spring MVC, Spring Data JPA, Hibernate , Microservices Architecture, RESTful APIs, Camunda Workflow Engine
+Frontend Technologies	React.js, Redux, React Hooks, Context API, Bootstrap, Material UI, Responsive Web Design
+Databases	MySQL, MongoDB, JPA, postgresql, Hibernate ORM, Database Design & Optimization
+Build, CI/CD & Version Control	Apache Maven, Gradle, Git, GitHub, Bitbucket, Jenkins, CI/CD Pipelines
+Testing & API Tools	JUnit, Mockito, Integration Testing, Postman, Swagger / OpenAPI
+Cloud & Deployment	AWS (EC2, S3, RDS – basic), Docker (Containerization), Linux Server Deployment
+Operating Systems	Windows, Linux
+Tools	JIRA, Confluence, Eclipse, IntelliJ IDEA, Agile / Scrum Methodology
+
+── Extraction Results ──
+Skills found   : 71
+Confidence     : 0.92
+Time           : 184.35 ms
+Method         : flashtext_skills_section | fuzzy(Spring Framework→Spring(100%), Spring MVC→Spring(100%), Microservices Architecture→Microservices(100%), RESTful APIs→REST(100%), React.js→React(100%)...)
+
+── All Skills (71) ──
+API Testing, AWS, AWS EC2, AWS RDS, AWS S3, Agile, Apache Maven, Bitbucket, Bootstrap, C++, CI/CD, CSS3, Code Reviews, Collaboration, Communication, Confluence, Cross-functional Collaboration, DevOps, Docker, ES6+, Eclipse, GDPR, Git, GitHub, Gradle, Guest Relations, HTML5, Healthcare, Hibernate, IntelliJ IDEA, JMeter, JPA, JUnit, JWT, Java, JavaScript, Jenkins, Jira, Linux, Material UI, Microservices, Microsoft Teams, Microsoft Windows, MongoDB, MySQL, NoSQL, Node.js, OAuth2, Performance Optimization, PostgreSQL, Postman, Problem Solving, Project Management, PuTTY, Quality Assurance, REST, REST API, React, Redux, Reporting, Responsive Web Design, Route, SQL, Scrum, Spring, Spring Boot, Swagger, Technical Design Document, Ticketing Systems, VS Code, WinSCP
+
+── By Category ──
+  architecture                   ['Microservices', 'Technical Design Document']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS RDS', 'AWS S3', 'Route']
+  collaboration                  ['Confluence']
+  database                       ['MongoDB', 'MySQL', 'NoSQL', 'PostgreSQL', 'SQL']
+  dev_tool                       ['Apache Maven', 'Bitbucket', 'Code Reviews', 'Eclipse', 'Git', 'GitHub', 'IntelliJ IDEA', 'Performance Optimization', 'Postman', 'PuTTY', 'Swagger', 'VS Code', 'WinSCP']
+  devops                         ['CI/CD', 'DevOps', 'Docker', 'Jenkins']
+  domain                         ['Healthcare']
+  hospitality                    ['Guest Relations']
+  integration                    ['REST']
+  legal                          ['GDPR']
+  operations                     ['Quality Assurance']
+  os_system                      ['Linux', 'Microsoft Windows']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['C++', 'ES6+', 'Gradle', 'Java', 'JavaScript']
+  project_mgmt                   ['Agile', 'Jira', 'Project Management', 'Scrum']
+  security                       ['JWT', 'OAuth2']
+  soft_skill                     ['Collaboration', 'Communication', 'Cross-functional Collaboration', 'Problem Solving', 'Reporting']
+  support                        ['Ticketing Systems']
+  testing                        ['API Testing', 'JMeter', 'JUnit']
+  web_framework                  ['Bootstrap', 'CSS3', 'HTML5', 'Hibernate', 'JPA', 'Material UI', 'Node.js', 'REST API', 'React', 'Redux', 'Responsive Web Design', 'Spring', 'Spring Boot']

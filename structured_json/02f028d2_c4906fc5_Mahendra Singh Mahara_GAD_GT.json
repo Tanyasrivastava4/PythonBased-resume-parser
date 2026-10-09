@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "02f028d2_c4906fc5_Mahendra Singh Mahara_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:45.128481+00:00",
+    "generated_at": "2026-10-07T10:30:37.099537+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,32 +48,75 @@
   "summary": "Chartered Accountant with strong Articleship experience in Statutory Audit and IFC testing, along with financial reporting exposure across\ndiversified industries. Seeking to contribute to audit engagements through solid technical skills, analytical review, and compliance with Companies\nAct, Ind AS, and Standards on Auditing..",
   "skills": {
     "items": [
-      "Auditing",
+      "Accounting Standards",
+      "Accounts Payable",
+      "Analytical Review",
+      "Business Intelligence",
+      "CARO Reporting",
+      "Company Law",
       "Financial Modelling",
       "Financial Reporting",
       "GAAP",
-      "Ind AS",
+      "GST",
+      "GST Return Filing",
+      "General Ledger Accounting",
+      "Income Tax Assessment",
+      "Income Tax Return",
+      "Input Tax Credit",
+      "Internal Controls Testing",
       "Internal Financial Controls",
+      "Legal Compliance",
       "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Physical Verification",
       "Power BI",
+      "Reliability",
+      "Reporting",
+      "Standards on Auditing",
       "Statutory Audit",
-      "Tally",
-      "Tax Audit"
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Accounting Standards",
+        "General Ledger Accounting",
+        "Input Tax Credit",
+        "Standards on Auditing",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
-        "Auditing",
+        "Accounts Payable",
         "Financial Reporting",
         "GAAP",
+        "Internal Controls Testing",
         "Statutory Audit",
-        "Tally"
+        "Taxation"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "GST",
+        "Physical Verification"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "finance": [
+        "CARO Reporting",
         "Financial Modelling",
-        "Ind AS",
+        "GST Return Filing",
+        "Income Tax Return",
         "Internal Financial Controls"
+      ],
+      "legal": [
+        "Company Law",
+        "Legal Compliance"
+      ],
+      "taxation": [
+        "Income Tax Assessment"
       ],
       "web_framework": [
         "LinkedIn"
@@ -85,24 +128,29 @@
       "data_science": [
         "Power BI"
       ],
-      "accounting": [
-        "Tax Audit"
+      "soft_skill": [
+        "Reliability",
+        "Reporting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), PowerPoint→Microsoft PowerPoint(100%), Tally Prime→Tally(100%), Excel:→Microsoft Excel(91%), Excel→Microsoft Excel(100%))"
+    "_method": "flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), PowerPoint→Microsoft PowerPoint(100%), Tally Prime→Tally ERP 9(100%), Excel:→Microsoft Excel(91%), Excel→Microsoft Excel(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Article Assistant, Abhishek Anand &",
-        "company": "Statutory Audit & Assurance",
-        "location": "Co, Gurugram",
+        "role": "Article Assistant",
+        "company": "Abhishek Anand & Co",
+        "location": "Gurugram",
         "start": "July 2022",
         "end": "October 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Article Assistant, Abhishek Anand & Co, Gurugram"
+        ],
         "duration_months": 40,
         "bullets": [
+          "Leading CA firm in Gurugram with 100+ clientele and 15+ employees.",
           "Performed statutory audits in accordance with the Companies Act, 2013, ensuring integrity of general ledger balances, accuracy of transaction recording, and compliance with applicable accounting standards across manufacturing, trading, and service sectors.",
           "Improved financial reporting reliability through detailed examination of accounts payable CWIP, and assessment of inventory controls and valuation practices.",
           "Oversaw physical verification activities for key clients including Asian Paints, Care Alternatives, resulting in enhanced data accuracy, stronger internal controls, and a 20%",
@@ -138,7 +186,7 @@
         "degree_name": "CA Final",
         "degree_type": "professional_certification",
         "degree_field": null,
-        "institution": "Cleared with Institute of Chartered FR & AFM",
+        "institution": "Cleared with Institute of Chartered",
         "year": "2025",
         "gpa": "52.17%",
         "_needs_review": false,
@@ -149,7 +197,7 @@
         "degree_name": "CA Intermediate",
         "degree_type": "professional_certification",
         "degree_field": "Group-2",
-        "institution": "Cleared with Institute of Chartered FR & AFM",
+        "institution": "Cleared with Institute of Chartered",
         "year": "2022",
         "gpa": "58.5%",
         "_needs_review": false,
@@ -160,9 +208,9 @@
         "degree_name": "CA Foundation",
         "degree_type": "professional_certification",
         "degree_field": null,
-        "institution": "Cleared with Institute of Chartered FR & AFM",
+        "institution": "Cleared with Institute of Chartered",
         "year": "2019",
-        "gpa": "57.25%",
+        "gpa": "51.25%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -173,7 +221,7 @@
         "degree_field": null,
         "institution": "Delhi University",
         "year": "2018 - 2021",
-        "gpa": "65.04%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -184,7 +232,7 @@
         "degree_field": null,
         "institution": "CBSE",
         "year": "2018",
-        "gpa": "77.8%",
+        "gpa": "65.04%",
         "_needs_review": false,
         "_confidence": 0.95
       },

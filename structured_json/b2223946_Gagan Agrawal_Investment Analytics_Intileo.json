@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b2223946_Gagan Agrawal_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:05.801606+00:00",
+    "generated_at": "2026-10-07T09:27:56.482872+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -64,6 +64,7 @@
       "LLM",
       "Leadership",
       "Linear Regression",
+      "LinkedIn",
       "Microsoft Teams",
       "Operations Management",
       "Python",
@@ -118,6 +119,9 @@
       "genai": [
         "LLM"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "Microsoft Teams"
       ],
@@ -144,12 +148,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Technical Lead",
+        "role": "Remote",
         "company": "Sears Technologies India",
         "location": null,
         "start": "Oct 2024",
         "end": "Aug 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Sears Technologies India",
+          "Remote",
+          "Technical Lead"
+        ],
         "duration_months": 11,
         "bullets": [
           "Implemented an automated voice telephone scheduler for appliance repair using Deepgram Speech-to- Text, Elevenlabs Text-to-Speech, and OpenAI GPT-4o LLM. Achieved a 48% conversion rate, with an average cost of $0.16 per call, $0.06 per minute, and 3-second latency.",
@@ -161,12 +170,17 @@
         "source": "experience"
       },
       {
-        "role": "Manager - Data Analytics",
-        "company": "Zupee (Real Money Gaming",
+        "role": "Zupee (Real Money Gaming",
+        "company": "Gurgaon",
         "location": null,
         "start": "Apr 2021",
         "end": "Jul 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company+next_line_company",
+        "method": "date_regex+title_dash_company+multiline_role_above_company",
+        "pre_date_header": [
+          "Zupee (Real Money Gaming)",
+          "Gurgaon",
+          "Manager - Data Analytics"
+        ],
         "duration_months": 40,
         "bullets": [
           "Achieved three promotions in two years for consistent performance and exceptional contributions.",
@@ -185,20 +199,24 @@
         "source": "experience"
       },
       {
-        "role": "Quantitative Analyst",
-        "company": "Credit Suisse",
+        "role": "Credit Suisse",
+        "company": "Validated pricing of varied OTC (Over the Counter) Financial Instruments belonging to Equity, FX, Interest Rates, and Commodity asset classes using standardized Hedges and Black-Scholes model.",
         "location": null,
         "start": "Jul 2016",
         "end": "Nov 2017",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Credit Suisse",
+          "Mumbai",
+          "Quantitative Analyst"
+        ],
         "duration_months": 17,
         "bullets": [
-          "Validated pricing of varied OTC (Over the Counter) Financial Instruments belonging to Equity, FX, Interest Rates, and Commodity asset classes using standardized Hedges and Black-Scholes model.",
           "Developed an automated R script for statistical validation of linear regression models (assumption and hypothesis testing), reducing manual effort for CCAR reporting by ∼20%."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
@@ -208,7 +226,7 @@
       "total_months": 68,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -219,6 +237,28 @@
         "degree_field": null,
         "institution": "Indian Institute of Technology Kanpur",
         "year": "2011 - 2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "• Awarded 99.9 %tile certificate in Mathematics in Senior Secondary Examination (2011) and Mathematics",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "IIT JEE",
+        "year": "2011",
+        "gpa": "99.88%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "and Social Science in Secondary Exam (2009) by CBSE (Central Board for Secondary Education)",
+        "degree_name": "10th",
+        "degree_type": "10th",
+        "degree_field": null,
+        "institution": "CBSE (Central Board for Secondary Education).",
+        "year": "2009",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -235,8 +275,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.93
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

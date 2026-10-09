@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0b04dd69_7919f6e7_ASHISH KUMAR_Machine Learning Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:50.903056+00:00",
+    "generated_at": "2026-10-07T10:30:44.072597+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,15 +51,21 @@
     "items": [
       "A/B Testing",
       "AWS",
+      "AWS Lambda",
       "AWS S3",
       "Azure",
       "Azure DevOps",
+      "Azure OpenAI",
       "Bedrock",
       "C++",
       "CI/CD",
+      "Cost Analysis",
       "CrewAI",
+      "Data Pipeline",
+      "Data Science",
       "Databricks",
       "Deep Learning",
+      "Delta Lake",
       "Docker",
       "ETL",
       "Electronic Health Records",
@@ -69,6 +75,7 @@
       "GCP",
       "GPT-4",
       "Generative AI",
+      "GitHub",
       "GitHub Actions",
       "HIPAA",
       "Healthcare",
@@ -82,6 +89,9 @@
       "MLOps",
       "MLflow",
       "Machine Learning",
+      "Microservices",
+      "Microsoft Fabric",
+      "Model Evaluation",
       "Multi-Agent",
       "NLP",
       "OpenAI API",
@@ -90,9 +100,12 @@
       "PySpark",
       "R",
       "RAG",
+      "SAN",
       "SQL",
       "System Design",
       "Time Series Forecasting",
+      "Twilio",
+      "WebSockets",
       "scikit-learn"
     ],
     "by_category": {
@@ -103,6 +116,7 @@
       ],
       "cloud_infra": [
         "AWS",
+        "AWS Lambda",
         "AWS S3",
         "Azure",
         "GCP"
@@ -115,6 +129,7 @@
         "Kubernetes"
       ],
       "genai": [
+        "Azure OpenAI",
         "Bedrock",
         "CrewAI",
         "Fine-tuning",
@@ -135,11 +150,16 @@
         "C++",
         "R"
       ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
       "data_engineering": [
+        "Data Pipeline",
         "Databricks",
         "ETL"
       ],
       "ai_ml": [
+        "Data Science",
         "Deep Learning",
         "MLflow",
         "Machine Learning",
@@ -147,15 +167,32 @@
         "Time Series Forecasting",
         "scikit-learn"
       ],
+      "bigdata": [
+        "Delta Lake"
+      ],
       "healthcare": [
         "Electronic Health Records",
         "HIPAA"
       ],
       "web_framework": [
-        "FastAPI"
+        "FastAPI",
+        "WebSockets"
+      ],
+      "dev_tool": [
+        "GitHub"
       ],
       "domain": [
         "Healthcare"
+      ],
+      "architecture": [
+        "Microservices",
+        "System Design"
+      ],
+      "cloud": [
+        "Microsoft Fabric"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
       ],
       "search": [
         "Pinecone"
@@ -164,12 +201,15 @@
         "PySpark",
         "SQL"
       ],
-      "architecture": [
-        "System Design"
+      "storage": [
+        "SAN"
+      ],
+      "api_service": [
+        "Twilio"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(GenAI→Generative AI(100%), Azure ML Pipelines→Azure DevOps(95%), OpenAI→OpenAI API(100%), HIPAA Compliance→HIPAA(100%), Bedrock:→Bedrock(93%)...)"
+    "_method": "flashtext_skills_section | fuzzy(GenAI→Generative AI(100%), Azure ML Pipelines→Azure DevOps(95%), OpenAI→OpenAI API(100%), Fabric→Microsoft Fabric(100%), Lambda→AWS Lambda(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -180,13 +220,15 @@
         "start": "Apr 2025",
         "end": "Present",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 18,
+        "duration_months": 19,
         "bullets": [
           "Architected 7-agent Agentic RAG system for clinical workflows (LangChain, LangGraph, Azure OpenAI) → physician review time -25%, early detection +42%",
           "Built real-time LLM voice agent (FastAPI, WebSockets, OpenAI Realtime API, Twilio) → <200ms latency, nurse workload -30%",
           "Deployed 7B-parameter fine-tuned clinical LLM (LoRA/PEFT on Azure ML) serving 1,000+ patient records/day → 500+ concurrent users, 99.95% uptime",
           "Designed FHIR R4/R5 + HL7 EHR integration pipelines across 5 hospital systems → 100% data fidelity, zero HIPAA audit findings",
-          "Designed distributed LLM systems with streaming inference and fault-tolerant pipelines → 40% query speedup, sub-second clinical decision support"
+          "Designed distributed LLM systems with streaming inference and fault-tolerant pipelines → 40% query speedup, sub-second clinical decision support",
+          "Built model evaluation framework at scale (F1 ≥ 0.92, AUC, RLHF preference scoring) embedded in CI/CD → automated quality gates on every deployment",
+          "Mentored 4 engineers on LLM system design, RLHF workflows, and production ML best practices"
         ],
         "sub_sections": [],
         "confidence": 0.7,
@@ -194,39 +236,102 @@
         "source": "experience"
       },
       {
-        "role": "▸ Mentored 4 engineers on LLM system design, RLHF workflows, and production ML best practices AI/ML Engineer",
-        "company": "▸ Built model evaluation framework at scale (F1 ≥ 0.92, AUC, RLHF preference scoring) embedded in CI/CD → automated quality gates on every deployment",
-        "location": null,
+        "role": "AI/ML Engineer",
+        "company": "Intileo Technologies  ·  Noida",
+        "location": "India",
         "start": "Jan 2023",
         "end": "Mar 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 27,
         "bullets": [
           "Built time-series forecasting system (lag features, rolling stats, Scikit-learn on Databricks) → $2.1M annual savings, 35% cost reduction across 15K+ nodes",
           "Engineered end-to-end ML pipeline (Delta Lake → PySpark -> Azure ML -> FastAPI) with canary deploys, auto-retraining, and drift detection",
           "Designed multi-agent IT automation system (LangChain, GPT-4, tool use) → 4,800+ ops hours saved/year, MTTR -60%",
           "Led migration of 12 legacy systems to cloud-native microservices → release velocity 3×, failure rate -65%",
-          "Led and mentored team of 6 engineers across ML, data pipelines, and platform infrastructure"
+          "Led and mentored team of 6 engineers across ML, data pipelines, and platform infrastructure",
+          "Tech Stack: Python, PyTorch, TensorFlow, PySpark, Databricks, Kafka, MLflow",
+          "Project Name: Hospitalization Risk Prediction (Real-Time)",
+          "Team Size: 4"
         ],
         "sub_sections": [
           "OPEN SOURCE & PUBLICATIONS",
           "Agentic-RAG-Clinical  ·",
           "Open-source 7-agent clinical orchestration framework (LangGraph + FHIR). 200+ GitHub stars. Used in production healthcare AI deployments.",
           "Technical Article  ·  \"How We Reduced Clinical LLM Latency by 96%\"  ·  Medium / Towards Data Science",
-          "Deep-dive on distributed inference architecture, streaming pipelines, and fault-tolerant multi-agent design. 5,000+ reads."
+          "Deep-dive on distributed inference architecture, streaming pipelines, and fault-tolerant multi-agent design. 5,000+ reads.",
+          "Built real-time time-series models (LSTM)",
+          "Performed feature engineering (lag, rolling, trend)",
+          "Implemented anomaly detection and alerting system",
+          "Optimized models for low-latency inference"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "3. Duration",
+        "company": "Built classification models (XGBoost",
+        "location": null,
+        "start": null,
+        "end": "3 Months",
+        "method": "stated_duration_regex+multiline_role_above_company",
+        "duration_months": 3,
+        "bullets": [
+          "Tech Stack:",
+          "Project Name: Patient Health Trajectory Modeling",
+          "Team Size: 4"
+        ],
+        "sub_sections": [
+          "Python, Scikit-learn, XGBoost, PySpark, MLflow"
+        ],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "3. Duration",
+        "company": "Built sequence models (LSTM",
+        "location": null,
+        "start": null,
+        "end": "3 Months",
+        "method": "stated_duration_regex+multiline_role_above_company",
+        "duration_months": 3,
+        "bullets": [
+          "Tech Stack:",
+          "Project Name: VM & Database Resource Predictor (Cloud Optimization)",
+          "Team Size: 7",
+          "Duration: 7–8 months Built prediction models using KNN and XGBoost for VM resource usage",
+          "Tech Stack:"
+        ],
+        "sub_sections": [
+          "Python, PyTorch, TensorFlow, Pandas, NumPy",
+          "Forecasted CPU, memory, and storage utilization",
+          "Worked with PostgreSQL, MySQL, Oracle, and Azure SQL (MI/Core)",
+          "Designed pipelines for infra metrics (batch + near real-time)",
+          "Enabled proactive scaling and anomaly detection",
+          "Python, KNN, PySpark, SQL",
+          "Agentic Clinical Orchestrator",
+          "Latency 18 min → 38 sec  ·  F1: 94.2%  ·  Early detection +42%  ·  HIPAA-compliant  ·  200+ GitHub stars",
+          "7-agent LangGraph system (triage → risk scoring → EHR write-back) on Azure ML; Databricks streaming pipeline for real-time clinical inference.",
+          "Enterprise RAG System  —  4.8 TB",
+          "Retrieval 25 min → 8 sec  ·  99.3% citation accuracy  ·  4.8 TB indexed",
+          "PySpark + Databricks Delta Lake ingestion into Azure AI Search + Pinecone; LangChain hybrid retrieval with reranking; LangSmith observability.",
+          "Cloud Cost Intelligence Engine",
+          "$2.1M savings  ·  <4% MAE  ·  15,000+ nodes  ·  41% spend reduction",
+          "Databricks time-series forecasting (Scikit-learn + PySpark) automated Reserved Instance purchasing; deployed via FastAPI with Azure ML model registry."
+        ],
+        "confidence": 0.8,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.8,
-      "total_months": 45,
+      "total_years": 4.3,
+      "total_months": 52,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.82
   },
   "education": {
     "entries": [
@@ -286,7 +391,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
@@ -296,17 +401,7 @@
       "reason": "missing"
     },
     {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
       "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

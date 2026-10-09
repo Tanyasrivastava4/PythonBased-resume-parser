@@ -1,0 +1,49 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a3f7c94d_6c591866_Pallavi Rana_HRBP Leader_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Workforce Strategy: Workforce Planning & Forecasting, Manpower Budgeting, Salary Benchmarking, Talent Market
+Intelligence, Succession Planning, Talent Transformation & Change Management.
+• Talent Acquisition: Strategic Talent Acquisition, Bulk Hiring, Large Scale Hiring, Executive & Leadership Hiring, Niche
+product Hiring, Sales Hiring, IT & Non-IT Hiring, Tier 1& 2 Campus Hiring, Global Talent Acquisition, Employer Value
+Proposition (EVP), Data-Driven Hiring (Zoho Recruit /Greenhouse ATS, LinkedIn Recruiter, Naukri RMS, Keka, Darwin
+Box, Power BI etc.)
+• Employee Development: Onboarding & Induction, Learning & Development, OKR-Based Performance Management,
+Rewards & Recognition, Employee Engagement & Retention, HR Policies, Statutory Compliance etc.
+• Diversity Initiatives: Diversity, Equity & Inclusion (DEI) Hiring, Employer Branding, Culture & Employee Experience.
+• Stakeholder Engagement: Stakeholder & Vendor Management, Employee Relations, Business Partnering.
+
+── Extraction Results ──
+Skills found   : 53
+Confidence     : 0.92
+Time           : 796.79 ms
+Method         : flashtext_skills_section | fuzzy(Succession Planning→Talent Management(100%), Change Management.→Change Management(97%), Hiring→Recruitment(100%), HR Operations→HR Management(100%), Telecommunications→Telecom(100%)...)
+
+── All Skills (53) ──
+B2B Sales, Budgeting, Business Strategy, C#, C++, Change Management, Collaboration, Communication, Continuous Improvement, Cross-functional Collaboration, Customer Service, Digital Marketing, Digital Transformation, Diversity & Inclusion, E-commerce, E-learning, Employee Engagement, Generative AI, HR Management, HRIS, Healthcare, Help Desk, Java, Leadership, Learning & Development, LinkedIn, Linux, Market Research, Microsoft Edge, Microsoft Teams, Negotiation, Onboarding, Operations Management, Oracle, Outside Sales, PL/SQL, Payroll Management, Performance Management, Power BI, Procurement, Project Management, R, Real Estate Valuation, Recruitment, Resource Planning, Stakeholder Management, Supply Chain, Talent Management, Telecom, Time Series Forecasting, Tutoring, UNIX, Vendor Management
+
+── By Category ──
+  ai_ml                          ['Time Series Forecasting']
+  client_mgmt                    ['Customer Service']
+  consulting                     ['Business Strategy', 'Digital Transformation']
+  data_science                   ['Power BI']
+  database                       ['Oracle', 'PL/SQL']
+  dev_tool                       ['Microsoft Edge']
+  domain                         ['Healthcare', 'Supply Chain', 'Telecom']
+  education_domain               ['E-learning', 'Tutoring']
+  finance_ops                    ['Budgeting']
+  genai                          ['Generative AI']
+  hr                             ['Diversity & Inclusion', 'Employee Engagement', 'HR Management', 'HRIS', 'Learning & Development', 'Onboarding', 'Payroll Management', 'Performance Management', 'Recruitment', 'Talent Management']
+  marketing                      ['Digital Marketing', 'Market Research']
+  operations                     ['Continuous Improvement', 'Operations Management', 'Procurement', 'Vendor Management']
+  os_system                      ['Linux', 'UNIX']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['C#', 'C++', 'Java', 'R']
+  project_mgmt                   ['Change Management', 'Project Management', 'Resource Planning']
+  real_estate                    ['Real Estate Valuation']
+  retail                         ['E-commerce']
+  sales                          ['B2B Sales', 'Outside Sales']
+  soft_skill                     ['Collaboration', 'Communication', 'Cross-functional Collaboration', 'Leadership', 'Negotiation', 'Stakeholder Management']
+  support                        ['Help Desk']
+  web_framework                  ['LinkedIn']

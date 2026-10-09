@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7342b602_a311a474_Paras Narula_Manager- Learning & Development_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:17.151744+00:00",
+    "generated_at": "2026-10-07T09:26:53.002903+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,20 +51,29 @@
   "skills": {
     "items": [
       "Adaptability",
+      "Budgeting",
       "Business Development",
+      "Business Strategy",
       "CARO Reporting",
       "Change Management",
-      "Client Relationship Management",
       "Collaboration",
       "Communication",
       "Conflict Resolution",
-      "Cost Analysis",
+      "Continuous Improvement",
+      "Coroutines Flow",
       "Creativity",
+      "Cross-functional Collaboration",
       "Curriculum Development",
+      "Customer Relationship Management",
       "E-Way Bill",
       "E-learning",
       "ERP",
+      "ERP Systems",
+      "Employee Engagement",
+      "Employee Lifecycle Management",
+      "Exit Formalities",
       "GST",
+      "Home Loans",
       "Interpersonal Skills",
       "Lead Generation",
       "Leadership",
@@ -72,18 +81,28 @@
       "Logistics",
       "Markdown",
       "Mentoring",
+      "Microsoft Dynamics",
+      "Microsoft PowerPoint",
       "Microsoft Teams",
+      "Negotiation",
+      "Onboarding",
+      "Performance Management",
       "Presentation Skills",
       "Problem Solving",
       "Professional Ethics",
       "Program Management",
+      "Resilience4j",
+      "Sales Enablement",
       "Salesforce",
       "Stakeholder Management",
       "Supply Chain",
       "Talent Management",
+      "Team Coordination",
+      "Training Needs Analysis",
       "Tutoring",
       "Workshop Facilitation",
-      "Xplanner"
+      "Xplanner",
+      "eXe"
     ],
     "by_category": {
       "soft_skill": [
@@ -92,15 +111,24 @@
         "Communication",
         "Conflict Resolution",
         "Creativity",
+        "Cross-functional Collaboration",
         "Interpersonal Skills",
         "Leadership",
         "Mentoring",
+        "Negotiation",
         "Presentation Skills",
         "Problem Solving",
         "Stakeholder Management"
       ],
+      "finance_ops": [
+        "Budgeting"
+      ],
       "biz_dev": [
         "Business Development"
+      ],
+      "consulting": [
+        "Business Strategy",
+        "Workshop Facilitation"
       ],
       "finance": [
         "CARO Reporting",
@@ -110,41 +138,59 @@
         "Change Management",
         "Program Management"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "operations": [
+        "Continuous Improvement",
+        "ERP Systems",
+        "Logistics"
       ],
-      "finance_ops": [
-        "Cost Analysis"
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "education_domain": [
         "Curriculum Development",
         "E-learning",
         "Tutoring"
       ],
+      "sales": [
+        "Customer Relationship Management",
+        "Lead Generation",
+        "Sales Enablement"
+      ],
       "erp": [
         "ERP"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "Employee Lifecycle Management",
+        "Learning & Development",
+        "Onboarding",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "hr_recruitment": [
+        "Exit Formalities"
       ],
       "accounting": [
         "GST"
       ],
-      "sales": [
-        "Lead Generation"
-      ],
-      "hr": [
-        "Learning & Development",
-        "Talent Management"
-      ],
-      "operations": [
-        "Logistics"
+      "banking": [
+        "Home Loans"
       ],
       "documentation": [
         "Markdown"
       ],
+      "crm": [
+        "Microsoft Dynamics"
+      ],
       "productivity": [
+        "Microsoft PowerPoint",
         "Microsoft Teams"
       ],
       "soft_skills": [
         "Professional Ethics"
+      ],
+      "framework": [
+        "Resilience4j"
       ],
       "integration": [
         "Salesforce"
@@ -152,11 +198,17 @@
       "domain": [
         "Supply Chain"
       ],
-      "consulting": [
-        "Workshop Facilitation"
+      "management": [
+        "Team Coordination"
+      ],
+      "learning_development": [
+        "Training Needs Analysis"
       ],
       "database": [
         "Xplanner"
+      ],
+      "web_framework": [
+        "eXe"
       ]
     },
     "_confidence": 0.92,
@@ -171,6 +223,9 @@
         "start": "Apr’11",
         "end": "Mar’14",
         "method": "date_regex",
+        "pre_date_header": [
+          "Distribution"
+        ],
         "duration_months": 36,
         "bullets": [
           "GNCTD, Govt.",
@@ -183,27 +238,27 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Jul’16",
         "company": "Business Communication Trainer",
         "location": null,
         "start": "May’14",
         "end": "Jun’16",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 26,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Assistant Manager-Business HR",
-        "company": "Learning & Development",
-        "location": "Human Resources",
+        "role": "Assistant Manager-Business HR, Learning & Development, Human Resources",
+        "company": "Magicbricks Reality Services Ltd",
+        "location": "Noida",
         "start": "Mar’22",
         "end": "Present",
-        "method": "since_date_regex+comma_title_company_split",
-        "duration_months": 55,
+        "method": "since_date_regex+multiline_role_above_company",
+        "duration_months": 56,
         "bullets": [
           "Learning & Development Strategy | Training Program Leadership Directed end-to-end training program management, ensuring initiatives were delivered within defined timelines, budgets, and organizational performance goals.",
           "Partnered with sales leadership and customer-facing teams through broker visits to identify market needs and design targeted capability development programs including Sales Ignition, Growth Mindset, and Negotiation Skills.",
@@ -238,12 +293,12 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Key Result Areas",
         "company": "Safexpress Pvt. Ltd",
         "location": "Gurugram",
         "start": "Jul’16",
         "end": "Feb’22",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 68,
         "bullets": [
           "Delivered classroom and virtual training programs across PAN India on ERP systems, Salesforce/CRM, Logistics Operations, Communication Excellence, Behavioral Skills, GST & E-Waybill compliance, and Business English programs.",
@@ -254,18 +309,18 @@
           "Coordinated with internal stakeholders, regional teams, and external partners to plan and execute large-scale training rollouts across multiple locations."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 15.4,
-      "total_months": 185,
+      "total_years": 15.5,
+      "total_months": 186,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -296,7 +351,7 @@
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "retention. Institute of Management Education",
+        "institution": "frameworks, consistently enhancing employee engagement, performance, and retention. Institute of Management Education",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -959,23 +1014,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
       "confidence": 0.98,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

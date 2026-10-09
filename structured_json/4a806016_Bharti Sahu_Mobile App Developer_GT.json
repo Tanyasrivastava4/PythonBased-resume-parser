@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4a806016_Bharti Sahu_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:33.746428+00:00",
+    "generated_at": "2026-10-07T10:31:34.543071+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,12 +50,19 @@
     "items": [
       "AWS",
       "Android",
+      "Boosting",
       "CSS3",
+      "Caching",
       "Clean Architecture",
+      "Coroutines Flow",
       "Cross-Platform Development",
       "Dart",
+      "Data Acquisition",
+      "E-commerce",
       "Figma",
+      "Fintech",
       "Firebase",
+      "Firebase Analytics",
       "Flutter",
       "Git",
       "GitHub",
@@ -63,79 +70,128 @@
       "HTML5",
       "Java",
       "Jira",
+      "KYC",
       "Kotlin",
+      "LinkedIn",
       "Linux",
+      "Mobile Application Development",
+      "Onboarding",
+      "Operations Management",
       "Presentation Skills",
       "REST API",
+      "Reliability",
+      "Remote Config",
       "Responsive Web Design",
       "State Management",
       "UI Design",
       "VS Code",
+      "WebEngage",
       "iOS"
     ],
     "by_category": {
       "cloud_infra": [
-        "AWS"
+        "AWS",
+        "Remote Config"
       ],
       "mobile": [
         "Android",
         "Cross-Platform Development",
         "Flutter",
+        "Mobile Application Development",
         "iOS"
+      ],
+      "data_science": [
+        "Boosting"
       ],
       "web_framework": [
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "REST API",
         "Responsive Web Design"
       ],
       "architecture": [
+        "Caching",
         "Clean Architecture",
         "State Management"
       ],
-      "programming_language": [
-        "Dart",
-        "Java",
-        "Kotlin"
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "programming": [
+        "Dart"
+      ],
+      "engineering_hardware": [
+        "Data Acquisition"
+      ],
+      "retail": [
+        "E-commerce"
       ],
       "design": [
         "Figma",
         "UI Design"
       ],
+      "domain": [
+        "Fintech"
+      ],
       "database": [
         "Firebase"
       ],
+      "analytics": [
+        "Firebase Analytics",
+        "WebEngage"
+      ],
       "dev_tool": [
         "Git",
-        "GitHub",
-        "VS Code"
+        "GitHub"
       ],
       "genai": [
         "GitHub Copilot"
       ],
+      "programming_language": [
+        "Java",
+        "Kotlin"
+      ],
       "project_mgmt": [
         "Jira"
+      ],
+      "legal": [
+        "KYC"
       ],
       "os_system": [
         "Linux"
       ],
+      "hr": [
+        "Onboarding"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
       "soft_skill": [
-        "Presentation Skills"
+        "Presentation Skills",
+        "Reliability"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), Xcode→iOS(100%), Android App Development→Android(95%), state management→State Management(100%), responsive UI design→Responsive Web Design(95%))"
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), Xcode→iOS(100%), Android App Development→Android(95%), state management→State Management(100%), responsive UI design→Responsive Web Design(95%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Software Engineer",
-        "company": "Kellton Tech Solutions Ltd •",
+        "company": "Kellton Tech Solutions Ltd",
         "location": null,
         "start": "Aug 2022",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 50,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Engineer",
+          "Kellton Tech Solutions Ltd"
+        ],
+        "duration_months": 51,
         "bullets": [
           "Tech Stack :: Flutter, Firebase, GitHub, Figma, WebEngage",
           "SSCom: Built and optimized the main Shoppers Stop ecommerce app for fashion, beauty and lifestyle.",
@@ -173,7 +229,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 4.2,
-      "total_months": 50,
+      "total_months": 51,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5f4b2ac2_cf1e631c_Monika Yathamshetti_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:46.890081+00:00",
+    "generated_at": "2026-10-07T10:31:52.912012+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,35 +47,95 @@
   "summary": null,
   "skills": {
     "items": [
+      "Auditing",
+      "Consolidated Financial Statements",
       "Data Analysis",
+      "Executive Presentations",
+      "Financial Reporting",
+      "GST",
+      "Internal Audit",
+      "Internal Financial Controls",
+      "Logistics",
       "MS Office",
+      "Make",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Order-to-Cash",
+      "Procure-to-Pay",
+      "Procurement",
       "QuickBooks",
+      "ROC Filings",
+      "Recruitment",
+      "Revenue Management",
       "SAP",
+      "Standard Operating Procedures",
+      "Supply Chain",
       "Tally",
+      "Tax Auditing",
+      "Team Coordination",
       "Zoho Books"
     ],
     "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Financial Reporting",
+        "QuickBooks",
+        "Tally",
+        "Zoho Books"
+      ],
+      "accounting": [
+        "Consolidated Financial Statements",
+        "GST",
+        "Internal Audit"
+      ],
       "data_science": [
         "Data Analysis"
+      ],
+      "soft_skill": [
+        "Executive Presentations"
+      ],
+      "finance": [
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay"
+      ],
+      "operations": [
+        "Logistics",
+        "Procurement"
       ],
       "productivity": [
         "MS Office",
         "Microsoft Excel",
         "Microsoft PowerPoint"
       ],
-      "finance_ops": [
-        "QuickBooks",
-        "Tally",
-        "Zoho Books"
+      "rpa": [
+        "Make"
+      ],
+      "legal": [
+        "ROC Filings"
+      ],
+      "hr": [
+        "Recruitment"
+      ],
+      "hospitality": [
+        "Revenue Management"
       ],
       "integration": [
         "SAP"
+      ],
+      "management": [
+        "Standard Operating Procedures",
+        "Team Coordination"
+      ],
+      "domain": [
+        "Supply Chain"
+      ],
+      "accounting_finance": [
+        "Tax Auditing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Quick Books→QuickBooks(100%), Excel→Microsoft Excel(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Team management→Team Coordination(100%), Quick Books→QuickBooks(100%), Excel→Microsoft Excel(100%))"
   },
   "experience": {
     "jobs": [
@@ -85,7 +145,7 @@
         "location": "Hyderabad",
         "start": "2016-12",
         "end": "2023-04",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+date_prefix_title+next_line_company",
         "duration_months": 77,
         "bullets": [
           "Performed internal audits for the industries (Logistics, Automobile, Construction), covering all the major processes.",
@@ -115,8 +175,8 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2017",
-        "gpa": "51%",
+        "year": "2022",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -126,13 +186,13 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": null,
-        "gpa": "55%",
+        "year": "2017",
+        "gpa": "51%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.88
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [],
@@ -147,7 +207,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
   "_needs_review": false,
   "_review_queue": []

@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/1c89ad15_Animesh Pandey- Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages: Python, Flutter(Dart)
+Tech Stack: Django, Flask, FastAPI, Machine Learning, RAG, Automation, N8N, ReactJS, TypeScript, MySQL, AWS, Docker,
+Langchain, LangGraph, LLMs, Azure AI services, Azure Databases, REST API
+
+── Extraction Results ──
+Skills found   : 43
+Confidence     : 0.92
+Time           : 213.15 ms
+Method         : flashtext_skills_section | fuzzy(ReactJS→React(100%), Langchain→LangChain(100%), LLMs→LLM(100%), REST→REST(100%), distributed systems→System Design(100%))
+
+── All Skills (43) ──
+AWS, Agentic AI, Azure, CSS3, Celery, Collaboration, Dart, Data Science, Django, Docker, Document Understanding, Dropbox, FastAPI, Firebase, Flask, Flutter, Google Drive, HTML5, JavaScript, LLM, LangChain, LangGraph, LinkedIn, Load Balancer, Machine Learning, Mistral, Multi-Agent, MySQL, OAuth2, OpenAI API, Product Management, Python, RAG, REST, REST API, React, Redis, Semantic Search, Slack, Spreadsheets, System Design, TypeScript, n8n
+
+── By Category ──
+  ai_ml                          ['Data Science', 'Machine Learning']
+  architecture                   ['System Design']
+  cloud_infra                    ['AWS', 'Azure', 'Dropbox', 'Google Drive']
+  data_engineering               ['Celery']
+  database                       ['Firebase', 'MySQL', 'Redis']
+  devops                         ['Docker', 'Load Balancer']
+  genai                          ['Agentic AI', 'LLM', 'LangChain', 'LangGraph', 'Mistral', 'Multi-Agent', 'OpenAI API', 'RAG', 'Semantic Search']
+  integration                    ['REST']
+  mobile                         ['Flutter']
+  productivity                   ['Slack', 'Spreadsheets']
+  programming_language           ['Dart', 'JavaScript', 'Python', 'TypeScript']
+  project_mgmt                   ['Product Management']
+  rpa                            ['Document Understanding', 'n8n']
+  security                       ['OAuth2']
+  soft_skill                     ['Collaboration']
+  web_framework                  ['CSS3', 'Django', 'FastAPI', 'Flask', 'HTML5', 'LinkedIn', 'REST API', 'React']

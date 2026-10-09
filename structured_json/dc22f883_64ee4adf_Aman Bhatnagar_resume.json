@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "dc22f883_64ee4adf_Aman Bhatnagar_resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:31.759473+00:00",
+    "generated_at": "2026-10-07T09:28:29.855265+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -56,6 +56,7 @@
       "Google",
       "Leadership",
       "LinkedIn",
+      "MSMED Act",
       "Management Consulting",
       "Microsoft Excel",
       "Microsoft PowerPoint",
@@ -87,6 +88,9 @@
       ],
       "web_framework": [
         "LinkedIn"
+      ],
+      "legal": [
+        "MSMED Act"
       ],
       "consulting": [
         "Management Consulting"
@@ -124,11 +128,22 @@
   "education": {
     "entries": [
       {
+        "degree": "Bachelor in Commerce",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Shaheed Bhagat Singh College",
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
         "degree": "Cleared level 1 of CFA",
         "degree_name": "CFA",
         "degree_type": "professional_certification",
         "degree_field": null,
-        "institution": "ITL Public School Dwarka",
+        "institution": "University of Delhi",
         "year": "2020",
         "gpa": "88.6%",
         "_needs_review": false,
@@ -139,14 +154,14 @@
         "degree_name": "CFA",
         "degree_type": "professional_certification",
         "degree_field": null,
-        "institution": "Shaheed Bhagat Singh College",
+        "institution": "ITL Public School Dwarka",
         "year": "2024",
         "gpa": null,
         "_needs_review": true,
         "_confidence": 0.55
       }
     ],
-    "_confidence": 0.75
+    "_confidence": 0.82
   },
   "certifications": {
     "items": [
@@ -221,7 +236,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.81
+    "overall": 0.82
   },
   "_needs_review": true,
   "_review_queue": [
@@ -231,7 +246,7 @@
       "reason": "section_present_but_empty"
     },
     {
-      "field": "education.entries[1]",
+      "field": "education.entries[2]",
       "confidence": 0.55,
       "reason": "incomplete_fields"
     },

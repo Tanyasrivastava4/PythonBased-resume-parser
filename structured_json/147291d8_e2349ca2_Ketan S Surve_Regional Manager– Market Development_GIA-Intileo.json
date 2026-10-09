@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "147291d8_e2349ca2_Ketan S Surve_Regional Manager– Market Development_GIA-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:58.024214+00:00",
+    "generated_at": "2026-10-07T10:30:52.301147+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -53,7 +53,9 @@
       "Business Development",
       "Campaign Management",
       "Communication",
+      "Corporate Governance",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
       "Digital Marketing",
       "Electrical Engineering",
       "Event Planning",
@@ -66,6 +68,7 @@
       "Revenue Generation",
       "Strategic Partnerships",
       "Team Leadership",
+      "Team Management",
       "Telecalling",
       "Time Series Forecasting"
     ],
@@ -78,6 +81,7 @@
       ],
       "sales": [
         "B2B Sales",
+        "Customer Relationship Management",
         "Field Sales",
         "Lead Generation",
         "Revenue Generation",
@@ -100,6 +104,9 @@
         "Cross-functional Collaboration",
         "Team Leadership"
       ],
+      "legal": [
+        "Corporate Governance"
+      ],
       "engineering": [
         "Electrical Engineering"
       ],
@@ -115,6 +122,9 @@
       "compliance": [
         "REACH"
       ],
+      "management": [
+        "Team Management"
+      ],
       "ai_ml": [
         "Time Series Forecasting"
       ]
@@ -125,16 +135,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Lead Generation &",
-        "company": "Channel Partner &",
+        "role": "(GJC Manager",
+        "company": "All India Gems & Jewellery domestic Council",
         "location": "Manager",
         "start": "AUG 2025",
         "end": "MAR 2026",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 8,
         "bullets": [
           "Sales & Business Sales Job Responsibilities:",
           "Developing and implementing regional and sector-specific sales strategies.",
+          "Channel Partner &",
           "Outreach to prospective member businesses—manufacturers, retailers, wholesalers, &",
           "Secure renewals and upgrades of memberships; promote participation in GJC’s expos (e.g.",
           "Customer Relationship GJS), seminars, sponsorships, GJS visitor registrations, exhibitors onboarding",
@@ -166,25 +177,27 @@
           "LY",
           "Six fl",
           "sh",
-          "wf"
+          "wf",
+          "DBRE INDIA (LIAISON",
+          "ger - Sales & Marketing Job"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Sales & Marketing Job BANK",
-        "company": "ger",
-        "location": "Sales & Marketing Job BANK)-  BRANCH",
+        "role": "MANAGER Job",
+        "company": "BANK)- () BRANCH",
+        "location": null,
         "start": "APRIL 2024",
         "end": "AUG 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 17,
         "bullets": [
           "Handled institutional accounts including Aarey and 3 major distributors in Maharashtra",
           "Driving B2B business through",
           "Managed Mumbai business, vendors, and field sales teams. consultants, MEP heads, and channel",
-          "Maintained customer databases and addressed queries."
+          "Maintained customer databases and addressed queries. partners"
         ],
         "sub_sections": [
           "& Gujarat"
@@ -194,12 +207,12 @@
         "source": "experience"
       },
       {
-        "role": "Business Development Manager",
-        "company": "partners Web-tech Business Solutions",
-        "location": "Business Development Manager",
+        "role": "Web-tech Business Solutions Business Development Manager",
+        "company": "Web-tech Business Solutions  Business Development Manager",
+        "location": null,
         "start": "June 2010",
         "end": "AUG. 2015",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
         "duration_months": 63,
         "bullets": [
           "Built and maintained strong relationships with potential and existing clients. Job Responsibilities:",
@@ -217,11 +230,14 @@
       },
       {
         "role": "MANAGER SALES& MARKETING",
-        "company": "Job Responsibilities",
+        "company": "Meghnad Desai Academy of Economics",
         "location": null,
         "start": "JAN 2023",
         "end": "APRIL 2024",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Meghnad Desai Academy of Economics"
+        ],
         "duration_months": 16,
         "bullets": [
           "Conducted 50+ seminars/events across colleges to generate leads.",
@@ -234,29 +250,35 @@
         "source": "experience"
       },
       {
-        "role": "CM Media & Multiservice   SR. MANAGER ADMISSIONS &",
-        "company": "FRANCHISE DEVELOPMENT",
+        "role": "All India Gems & Jewellery domestic Council (GJC)",
+        "company": "(AUG 2025 – MAR 2026) Manager –",
         "location": null,
         "start": "SEPT 2018",
         "end": "December 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "pre_date_header": [
+          "CM Media & Multiservice (CP Goenka"
+        ],
         "duration_months": 52,
         "bullets": [
           "Sold 97 preschool franchises across Maharashtra, Goa, Gujarat (₹5.6L avg. ticket size). Led B2B collaborations with societies, preschools, daycares, and corporates. Managed 10+ sales & telecaller staff; created weekly admission strategies",
           "Managed corporate accounts."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Qwikpik Technology Pvt Ltd",
+        "role": "",
+        "company": "Qwikpik Technology Pvt Ltd (Yumlane",
         "location": null,
         "start": "AUG 2015",
         "end": "SEPT 2017",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Qwikpik Technology Pvt Ltd (Yumlane)"
+        ],
         "duration_months": 26,
         "bullets": [],
         "sub_sections": [],
@@ -271,7 +293,7 @@
       "total_months": 179,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.96
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -298,7 +320,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
@@ -306,6 +328,16 @@
       "field": "contact.email",
       "confidence": 0.0,
       "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[5]",

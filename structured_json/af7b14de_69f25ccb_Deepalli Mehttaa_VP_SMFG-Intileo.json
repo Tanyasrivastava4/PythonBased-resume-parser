@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "af7b14de_69f25ccb_Deepalli Mehttaa_VP_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:04.373068+00:00",
+    "generated_at": "2026-10-07T09:27:54.378996+00:00",
     "sections_found": [
       "certifications",
       "experience",
@@ -51,26 +51,31 @@
       "BFSI",
       "Channel Development",
       "ClearEDGE",
-      "Client Relationship Management",
       "Collaboration",
       "Creativity",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
+      "Customer Service",
       "Digital Transformation",
       "E-Governance",
       "Financial Reporting",
       "Leadership",
       "Learning & Development",
+      "Legal Compliance",
+      "Microsoft Teams",
       "Onboarding",
       "Operational Excellence",
+      "Operations Management",
       "Payments",
       "Process Improvement",
+      "Product Design",
       "RBI",
       "Razorpay",
-      "Regulatory Compliance",
       "Reporting",
       "SAP",
       "Schedule III",
       "Stakeholder Management",
+      "TCS",
       "Team Leadership",
       "Vendor Management"
     ],
@@ -84,13 +89,11 @@
         "RBI"
       ],
       "sales": [
-        "Channel Development"
+        "Channel Development",
+        "Customer Relationship Management"
       ],
       "database": [
         "ClearEDGE"
-      ],
-      "client_mgmt": [
-        "Client Relationship Management"
       ],
       "soft_skill": [
         "Collaboration",
@@ -100,6 +103,9 @@
         "Reporting",
         "Stakeholder Management",
         "Team Leadership"
+      ],
+      "client_mgmt": [
+        "Customer Service"
       ],
       "consulting": [
         "Digital Transformation"
@@ -114,24 +120,34 @@
         "Learning & Development",
         "Onboarding"
       ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "process": [
         "Operational Excellence"
       ],
       "operations": [
+        "Operations Management",
         "Process Improvement",
         "Vendor Management"
       ],
+      "engineering": [
+        "Product Design"
+      ],
       "fintech": [
         "Razorpay"
-      ],
-      "legal": [
-        "Regulatory Compliance"
       ],
       "integration": [
         "SAP"
       ],
       "financial_reporting": [
         "Schedule III"
+      ],
+      "accounting": [
+        "TCS"
       ]
     },
     "_confidence": 0.92,
@@ -140,30 +156,47 @@
   "experience": {
     "jobs": [
       {
-        "role": "AVP – Head of Operations Centre of Excellence & Digital Initiatives",
+        "role": "AVP",
         "company": "Head of Operations Centre of Excellence & Digital Initiatives",
-        "location": "Thane, Maharashtra",
+        "location": null,
         "start": "May 2025",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 17,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 18,
+        "bullets": [
+          "Tata Motors Finance Ltd Merged with Tata Capital in May2025",
+          "Tata Motors Finance Ltd. | Thane, Maharashtra"
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "AVP",
+        "company": "Head of Operations Centre of Excellence & Digital Initiatives",
+        "location": null,
+        "start": "July 2011",
+        "end": "May 2025",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 167,
         "bullets": [
           "Spearheaded strategic digital initiatives including loan origination systems, customer service platforms, and compliance automation in Finance, Non-Banking Finance, Vehicle Life Cycle Finance",
           "Led a team of 15+ for process re-engineering, new product development, and digital process transformations across operations, credit, and collections."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.4,
-      "total_months": 17,
-      "overlapping_periods_merged": 0
+      "total_years": 15.3,
+      "total_months": 184,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.7
   },
   "education": {
     "entries": [
@@ -374,10 +407,25 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.81
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.7,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.63,

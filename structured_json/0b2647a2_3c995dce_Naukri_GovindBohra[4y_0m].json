@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0b2647a2_3c995dce_Naukri_GovindBohra[4y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:57:51.061987+00:00",
+    "generated_at": "2026-10-07T10:30:44.254310+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -53,6 +53,8 @@
       "Adobe Photoshop",
       "Adobe XD",
       "Agentic AI",
+      "Agile",
+      "Boosting",
       "Competitive Analysis",
       "Creative Writing",
       "Creativity",
@@ -61,19 +63,24 @@
       "Figma",
       "Graphic Design",
       "Information Architecture",
+      "Leadership",
       "Market Research",
+      "Microsoft Teams",
       "Power BI",
       "Prototyping",
+      "Quality Assurance",
       "Sketch",
       "UX Design",
       "Usability Testing",
       "User Flows",
+      "User Research",
       "Web Design",
       "Wireframing"
     ],
     "by_category": {
       "data_science": [
         "A/B Testing",
+        "Boosting",
         "Power BI"
       ],
       "design": [
@@ -90,11 +97,15 @@
         "UX Design",
         "Usability Testing",
         "User Flows",
+        "User Research",
         "Web Design",
         "Wireframing"
       ],
       "genai": [
         "Agentic AI"
+      ],
+      "project_mgmt": [
+        "Agile"
       ],
       "biz_dev": [
         "Competitive Analysis"
@@ -103,10 +114,17 @@
         "Creative Writing"
       ],
       "soft_skill": [
-        "Creativity"
+        "Creativity",
+        "Leadership"
       ],
       "marketing": [
         "Market Research"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Quality Assurance"
       ]
     },
     "_confidence": 0.92,
@@ -120,8 +138,12 @@
         "location": "Noida",
         "start": "July 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 15,
+        "method": "date_regex+title_dict+comma_company_location",
+        "pre_date_header": [
+          "Clarivate, Noida",
+          "UI / UX DESIGNER"
+        ],
+        "duration_months": 16,
         "bullets": [
           "Design and optimize new patent filing applications and workflows, focusing on intuitive interaction, usability, and overall desirability.",
           "Collaborate wit h product and engineering teams to translate complex business goals into scalable, user-centered design systems.",
@@ -140,7 +162,11 @@
         "location": "Pune",
         "start": "July 2022",
         "end": "July 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Zensar Technologies, Pune",
+          "UI / UX DESIGNER"
+        ],
         "duration_months": 37,
         "bullets": [
           "Led t he creation of a scalable enterprise design system, boosting UI consistency and development speed by 40%.",
@@ -156,12 +182,15 @@
         "source": "experience"
       },
       {
-        "role": "HOP Electric, Jaipur UI / UX DESIGNER INTERN",
-        "company": "Designed and launched a responsive E V booking site, increasing pre-bookings by 25% wit hin one",
-        "location": null,
+        "role": "UI / UX DESIGNER INTERN",
+        "company": "HOP Electric",
+        "location": "Jaipur",
         "start": "May 2022",
         "end": "July 2022",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_company_role_split",
+        "pre_date_header": [
+          "HOP Electric, Jaipur UI / UX DESIGNER INTERN"
+        ],
         "duration_months": 3,
         "bullets": [
           "Designed and launched a responsive E V booking site, increasing pre-bookings by 25% wit hin one mont h.",
@@ -170,18 +199,18 @@
           "Delivered pixel-per fect inter faces under a 2-mont h deadline, earning praise from leadership."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.4,
-      "total_months": 53,
+      "total_years": 4.5,
+      "total_months": 54,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -213,14 +242,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

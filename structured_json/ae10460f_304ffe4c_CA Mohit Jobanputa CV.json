@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ae10460f_304ffe4c_CA Mohit Jobanputa CV_segmented.txt",
-    "generated_at": "2026-09-30T07:00:02.317232+00:00",
+    "generated_at": "2026-10-07T09:27:51.299208+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,22 +49,36 @@
     "items": [
       "Agile",
       "Analytical Thinking",
+      "Business Development",
+      "Business Loans",
       "Claude",
       "Confluence",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Customer Service",
       "Figma",
+      "Financial Analysis",
+      "Financial Reporting",
+      "Home Loans",
       "Jira",
+      "Legal Compliance",
+      "LinkedIn",
       "Machine Learning",
-      "Make",
       "Microsoft Teams",
+      "NBFC",
+      "Perfios",
+      "Performance Management",
       "Power BI",
+      "Problem Solving",
       "Product Design",
       "Project Management",
       "Quality Assurance",
-      "Regulatory Compliance",
+      "Real Estate Valuation",
       "SQL",
       "Salesforce",
       "Turnaround Time",
-      "UAT"
+      "UAT",
+      "Underwriting"
     ],
     "by_category": {
       "project_mgmt": [
@@ -73,7 +87,16 @@
         "Project Management"
       ],
       "soft_skill": [
-        "Analytical Thinking"
+        "Analytical Thinking",
+        "Cross-functional Collaboration",
+        "Problem Solving"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "banking": [
+        "Business Loans",
+        "Home Loans"
       ],
       "genai": [
         "Claude"
@@ -81,17 +104,37 @@
       "collaboration": [
         "Confluence"
       ],
+      "client_mgmt": [
+        "Customer Experience",
+        "Customer Service"
+      ],
       "design": [
         "Figma"
+      ],
+      "finance_ops": [
+        "Financial Analysis",
+        "Financial Reporting"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "ai_ml": [
         "Machine Learning"
       ],
-      "rpa": [
-        "Make"
-      ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "finance": [
+        "NBFC"
+      ],
+      "fintech": [
+        "Perfios"
+      ],
+      "hr": [
+        "Performance Management"
       ],
       "data_science": [
         "Power BI"
@@ -102,8 +145,8 @@
       "operations": [
         "Quality Assurance"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "real_estate": [
+        "Real Estate Valuation"
       ],
       "database": [
         "SQL"
@@ -116,21 +159,27 @@
       ],
       "testing": [
         "UAT"
+      ],
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(agile→Agile(100%), teams→Microsoft Teams(100%), teams→Microsoft Teams(100%), integrate→Make(84%), confluence→Confluence(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(agile→Agile(100%), teams→Microsoft Teams(100%), teams→Microsoft Teams(100%), confluence→Confluence(100%), agile→Agile(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Institute of Chartered Accountant of Senior Product Manager",
+        "role": "Senior Product Manager",
         "company": "India",
         "location": null,
         "start": "01/2022",
         "end": "PRESENT",
         "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 57,
+        "pre_date_header": [
+          "Institute of Chartered Accountant of"
+        ],
+        "duration_months": 58,
         "bullets": [
           "Piramal Capital & Housing Finance Limited (NBFC) 05/2016 Spearheaded the planning and direction for the digital lending suite, ensuring that top-ups, and other product variants, leading to a business growth of over 20%"
         ],
@@ -144,12 +193,16 @@
         "source": "experience"
       },
       {
-        "role": "Financial analysis & Credit Analysis Senior Credit Manager",
+        "role": "Senior Credit Manager",
         "company": "Complex problem solving",
         "location": null,
         "start": "09/2019",
         "end": "12/2021",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Complex problem solving",
+          "Financial analysis & Credit Analysis"
+        ],
         "duration_months": 28,
         "bullets": [
           "Conducted credit appraisals for 500+ mortgage proposals, ranging from 1 crore to",
@@ -160,23 +213,24 @@
           "Led a cross-functional team to digitalize the loan appraisal process by integrating",
           "Regulatory Compliance & Risk",
           "vendors like Perfios, Finfort, and VAK.",
-          "Management"
+          "Management",
+          "Steered stakeholder workshops to identify process improvements. Reduced TAT",
+          "A W A R D S",
+          "by ~30% while maintaining credit quality and ensuring risk coverage."
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Credit Manager",
-        "company": "Steered stakeholder workshops to identify process improvements. Reduced TAT",
-        "location": null,
+        "role": "Best",
+        "company": "Expertise in analyzing credit data, financial statements, industry analysis Kotak - Employee of the Month Certificate of Kotak - Employee of the Month Certificate of Achievement reports to understand the degree of risk involved in extending credit Credit Analysis of various profiles for extending home loan credit as per policy.",
+        "location": "Honored",
         "start": "01/2017",
         "end": "09/2019",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 33,
-        "bullets": [
-          "Expertise in analyzing credit data, financial statements, industry analysis Kotak - Employee of the Month Certificate of Kotak - Employee of the Month Certificate of Achievement reports to understand the degree of risk involved in extending credit Credit Analysis of various profiles for extending home loan credit as per policy."
-        ],
+        "bullets": [],
         "sub_sections": [
           "Awarded by Piramal",
           "────────────────────────────────────────────────────────────"
@@ -189,7 +243,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 9.8,
-      "total_months": 117,
+      "total_months": 118,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.89

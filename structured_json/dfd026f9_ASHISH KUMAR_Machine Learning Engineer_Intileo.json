@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "dfd026f9_ASHISH KUMAR_Machine Learning Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:33.698110+00:00",
+    "generated_at": "2026-10-07T09:28:32.521177+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,15 +50,21 @@
     "items": [
       "A/B Testing",
       "AWS",
+      "AWS Lambda",
       "AWS S3",
       "Azure",
       "Azure DevOps",
+      "Azure OpenAI",
       "Bedrock",
       "C++",
       "CI/CD",
+      "Cost Analysis",
       "CrewAI",
+      "Data Pipeline",
+      "Data Science",
       "Databricks",
       "Deep Learning",
+      "Delta Lake",
       "Docker",
       "ETL",
       "Electronic Health Records",
@@ -68,6 +74,7 @@
       "GCP",
       "GPT-4",
       "Generative AI",
+      "GitHub",
       "GitHub Actions",
       "HIPAA",
       "Healthcare",
@@ -78,9 +85,13 @@
       "LangChain",
       "LangGraph",
       "LangSmith",
+      "LinkedIn",
       "MLOps",
       "MLflow",
       "Machine Learning",
+      "Microservices",
+      "Microsoft Fabric",
+      "Model Evaluation",
       "Multi-Agent",
       "NLP",
       "OpenAI API",
@@ -89,9 +100,12 @@
       "PySpark",
       "R",
       "RAG",
+      "SAN",
       "SQL",
       "System Design",
       "Time Series Forecasting",
+      "Twilio",
+      "WebSockets",
       "scikit-learn"
     ],
     "by_category": {
@@ -102,6 +116,7 @@
       ],
       "cloud_infra": [
         "AWS",
+        "AWS Lambda",
         "AWS S3",
         "Azure",
         "GCP"
@@ -114,6 +129,7 @@
         "Kubernetes"
       ],
       "genai": [
+        "Azure OpenAI",
         "Bedrock",
         "CrewAI",
         "Fine-tuning",
@@ -134,11 +150,16 @@
         "C++",
         "R"
       ],
+      "finance_ops": [
+        "Cost Analysis"
+      ],
       "data_engineering": [
+        "Data Pipeline",
         "Databricks",
         "ETL"
       ],
       "ai_ml": [
+        "Data Science",
         "Deep Learning",
         "MLflow",
         "Machine Learning",
@@ -146,15 +167,33 @@
         "Time Series Forecasting",
         "scikit-learn"
       ],
+      "bigdata": [
+        "Delta Lake"
+      ],
       "healthcare": [
         "Electronic Health Records",
         "HIPAA"
       ],
       "web_framework": [
-        "FastAPI"
+        "FastAPI",
+        "LinkedIn",
+        "WebSockets"
+      ],
+      "dev_tool": [
+        "GitHub"
       ],
       "domain": [
         "Healthcare"
+      ],
+      "architecture": [
+        "Microservices",
+        "System Design"
+      ],
+      "cloud": [
+        "Microsoft Fabric"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
       ],
       "search": [
         "Pinecone"
@@ -163,12 +202,15 @@
         "PySpark",
         "SQL"
       ],
-      "architecture": [
-        "System Design"
+      "storage": [
+        "SAN"
+      ],
+      "api_service": [
+        "Twilio"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(GenAI→Generative AI(100%), Azure ML Pipelines→Azure DevOps(95%), OpenAI→OpenAI API(100%), HIPAA Compliance→HIPAA(100%), Bedrock:→Bedrock(93%)...)"
+    "_method": "flashtext_skills_section | fuzzy(GenAI→Generative AI(100%), Azure ML Pipelines→Azure DevOps(95%), OpenAI→OpenAI API(100%), Fabric→Microsoft Fabric(100%), Lambda→AWS Lambda(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -179,14 +221,15 @@
         "start": "Apr 2025",
         "end": "Present",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 18,
+        "duration_months": 19,
         "bullets": [
           "Architected 7-agent Agentic RAG system for clinical workflows (LangChain, LangGraph, Azure OpenAI) → physician review time -25%, early detection +42%",
           "Built real-time LLM voice agent (FastAPI, WebSockets, OpenAI Realtime API, Twilio) → <200ms latency, nurse workload -30%",
           "Deployed 7B-parameter fine-tuned clinical LLM (LoRA/PEFT on Azure ML) serving 1,000+ patient records/day → 500+ concurrent users, 99.95% uptime",
           "Designed FHIR R4/R5 + HL7 EHR integration pipelines across 5 hospital systems → 100% data fidelity, zero",
           "Designed distributed LLM systems with streaming inference and fault-tolerant pipelines → 40% query speedup, sub-second clinical decision support",
-          "Built model evaluation framework at scale (F1 ≥ 0.92, AUC, RLHF preference scoring) embedded in CI/CD → automated quality gates on every deployment"
+          "Built model evaluation framework at scale (F1 ≥ 0.92, AUC, RLHF preference scoring) embedded in CI/CD → automated quality gates on every deployment",
+          "Mentored 4 engineers on LLM system design, RLHF workflows, and production ML best practices"
         ],
         "sub_sections": [
           "HIPAA audit findings"
@@ -196,7 +239,7 @@
         "source": "experience"
       },
       {
-        "role": "▸ Mentored 4 engineers on LLM system design, RLHF workflows, and production ML best practices AI/ML Engineer",
+        "role": "AI/ML Engineer",
         "company": "THE UNIFIED CLOUD · Noida",
         "location": "India",
         "start": "Jan 2023",
@@ -227,7 +270,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 3.8,
-      "total_months": 45,
+      "total_months": 46,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.84

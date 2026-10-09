@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e8420aa2_ec1bcd8e_Dhanur_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:38.113700+00:00",
+    "generated_at": "2026-10-07T09:28:38.926496+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -54,7 +54,10 @@
       "Azure",
       "CI/CD",
       "Collaboration",
+      "Communication",
+      "Cross-Platform Development",
       "Docker",
+      "E-commerce",
       "ES6+",
       "GitHub",
       "GitHub Actions",
@@ -62,6 +65,7 @@
       "JavaScript",
       "Jenkins",
       "LinkedIn",
+      "MERN Stack",
       "Microservices",
       "Microsoft Teams",
       "MongoDB",
@@ -70,10 +74,12 @@
       "Node.js",
       "Nuxt.js",
       "PostgreSQL",
+      "REST API",
       "React",
       "React Native",
       "Spring",
       "Spring Boot",
+      "Terraform",
       "TypeScript",
       "Vue.js"
     ],
@@ -88,10 +94,12 @@
       "web_framework": [
         ".NET Core",
         "LinkedIn",
+        "MERN Stack",
         "NestJS",
         "Next.js",
         "Node.js",
         "Nuxt.js",
+        "REST API",
         "React",
         "Spring",
         "Spring Boot",
@@ -105,10 +113,19 @@
         "CI/CD",
         "Docker",
         "GitHub Actions",
-        "Jenkins"
+        "Jenkins",
+        "Terraform"
       ],
       "soft_skill": [
-        "Collaboration"
+        "Collaboration",
+        "Communication"
+      ],
+      "mobile": [
+        "Cross-Platform Development",
+        "React Native"
+      ],
+      "retail": [
+        "E-commerce"
       ],
       "dev_tool": [
         "GitHub"
@@ -122,9 +139,6 @@
       "database": [
         "MongoDB",
         "PostgreSQL"
-      ],
-      "mobile": [
-        "React Native"
       ]
     },
     "_confidence": 0.92,
@@ -133,13 +147,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Full Stack Developer (Contract Based",
-        "company": "DevPeak Innovations",
-        "location": null,
+        "role": "DevPeak Innovations",
+        "company": "Remote",
+        "location": "India",
         "start": "Dec 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 22,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "DevPeak Innovations",
+          "Remote, India",
+          "Full Stack Developer (Contract Based)"
+        ],
+        "duration_months": 23,
         "bullets": [
           "Developed SaaS-level applications for international clients with scalable microservices and secure deployment.",
           "Built and optimized mobile features using React Native, improving cross-platform development.",
@@ -152,16 +171,23 @@
         "source": "experience"
       },
       {
-        "role": "Software Developer",
-        "company": "ProLegion",
-        "location": null,
+        "role": "ProLegion",
+        "company": "Remote",
+        "location": "India",
         "start": "Jan 2024",
         "end": "Dec 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "ProLegion",
+          "Remote, India",
+          "Software Developer"
+        ],
         "duration_months": 12,
         "bullets": [
           "Contributed to the world’s first IT vendor marketplace using the MERN stack.",
-          "Improved database performance and API integrations across microservices."
+          "Improved database performance and API integrations across microservices.",
+          "Contributed more than 4 Years as a FullStack Developer Project contract Freelance, contributed built industry level apps and websites.",
+          "Gained hands-on experience building SaaS applications, banking applications, e-commerce platforms, and mobile apps using React Native."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -169,12 +195,17 @@
         "source": "experience"
       },
       {
-        "role": "Software Developer",
-        "company": "BizTecno",
-        "location": null,
+        "role": "BizTecno",
+        "company": "Chandigarh",
+        "location": "India",
         "start": "Jan 2023",
         "end": "Dec 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "BizTecno",
+          "Chandigarh, India",
+          "Software Developer"
+        ],
         "duration_months": 12,
         "bullets": [
           "Delivered enterprise applications for BCG, including marketing SaaS platforms.",
@@ -185,29 +216,12 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "role": "Full Stack Developer",
-        "company": "Freelance",
-        "location": null,
-        "start": "Jan 2019",
-        "end": "Dec 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 48,
-        "bullets": [
-          "Contributed more than 4 Years as a FullStack Developer Project contract Freelance, contributed built industry level apps and websites.",
-          "Gained hands-on experience building SaaS applications, banking applications, e-commerce platforms, and mobile apps using React Native."
-        ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.8,
-      "total_months": 93,
+      "total_years": 3.8,
+      "total_months": 46,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

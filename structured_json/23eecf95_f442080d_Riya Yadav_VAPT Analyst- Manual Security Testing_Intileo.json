@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "23eecf95_f442080d_Riya Yadav_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:07.538884+00:00",
+    "generated_at": "2026-10-07T10:31:03.406158+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,54 +48,89 @@
   "skills": {
     "items": [
       "API Design",
+      "API Security Testing",
       "Burp Suite",
       "CI/CD",
+      "CSRF",
       "Code Reviews",
       "DAST",
+      "DevOps",
       "DevSecOps",
+      "Fortify",
       "Generative AI",
       "Google Workspace",
+      "IDOR",
+      "IT Security",
+      "Information Security",
       "Metasploit",
+      "Microsoft Teams",
       "Microsoft Windows",
       "Microsoft Windows Server",
+      "Mobile Application Penetration Testing",
       "Nessus",
+      "Network Security",
       "Nmap",
       "OWASP Top 10",
+      "OWASP ZAP",
       "Penetration Testing",
       "Postman",
       "Risk Assessment",
       "SAST",
-      "SDLC",
+      "SQL Injection",
+      "SSRF",
       "Secure Code Review",
+      "Secure Coding",
+      "Secure SDLC",
       "Security Assessment",
       "Software Composition Analysis",
       "Threat Modeling",
       "VAPT",
+      "Veracode",
       "Vulnerability Assessment",
-      "Wireshark"
+      "Vulnerability Remediation",
+      "WebInspect",
+      "Wireshark",
+      "XSS"
     ],
     "by_category": {
       "architecture": [
-        "API Design",
-        "SDLC"
+        "API Design"
       ],
       "security_ops": [
+        "API Security Testing",
         "Burp Suite",
         "DAST",
         "DevSecOps",
         "Nessus",
+        "Network Security",
         "OWASP Top 10",
+        "OWASP ZAP",
         "Penetration Testing",
         "SAST",
+        "SQL Injection",
         "Secure Code Review",
         "Security Assessment",
         "Software Composition Analysis",
         "Threat Modeling",
         "VAPT",
-        "Vulnerability Assessment"
+        "Vulnerability Assessment",
+        "XSS"
       ],
       "devops": [
-        "CI/CD"
+        "CI/CD",
+        "DevOps"
+      ],
+      "cybersecurity": [
+        "CSRF",
+        "Fortify",
+        "IDOR",
+        "Mobile Application Penetration Testing",
+        "SSRF",
+        "Secure Coding",
+        "Secure SDLC",
+        "Veracode",
+        "Vulnerability Remediation",
+        "WebInspect"
       ],
       "dev_tool": [
         "Code Reviews",
@@ -105,9 +140,12 @@
         "Generative AI"
       ],
       "productivity": [
-        "Google Workspace"
+        "Google Workspace",
+        "Microsoft Teams"
       ],
       "security": [
+        "IT Security",
+        "Information Security",
         "Metasploit",
         "Nmap"
       ],
@@ -123,51 +161,52 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Security Risk Assessment→Security Assessment(95%), Windows→Microsoft Windows(100%), Burp→Burp Suite(100%), Suite.→Google Workspace(83%))"
+    "_method": "flashtext_skills_section | fuzzy(Security Risk Assessment→Security Assessment(95%), Windows→Microsoft Windows(100%), Metasploit Framework→Metasploit(100%), OpenText Fortify→Fortify(100%), Burp→Burp Suite(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Utilized security tools including Burp Suite, Nmap, Metasploit Framework, and OWASP ZAP for security testing and vulnerability validation.",
-        "location": "Amdocs | Pune, Maharashtra",
+        "role": "Information Security Analyst | Amdocs",
+        "company": "Amdocs",
+        "location": "Pune, Maharashtra",
         "start": "Aug 2022",
         "end": "Mar 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 8,
         "bullets": [
           "Conducted application and network penetration testing, identifying critical vulnerabilities such as SQL Injection, XSS, CSRF, and authentication flaws.",
           "Performed network security assessments and vulnerability analysis, detecting misconfigurations, exposed services, and exploitable infrastructure weaknesses.",
+          "Utilized security tools including Burp Suite, Nmap, Metasploit Framework, and OWASP ZAP for security testing and vulnerability validation.",
           "Conducted threat modeling and risk assessments to identify attack vectors and recommend secure web application controls.",
-          "Collaborated with development, DevOps, and infrastructure teams to integrate security"
+          "Collaborated with development, DevOps, and infrastructure teams to integrate security within the Secure Software Development Lifecycle (SSDLC)."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Security Managed Services Associate",
-        "company": "within the Secure Software Development Lifecycle . • Security Managed Services Associate",
-        "location": null,
+        "role": "• Security Managed Services Associate",
+        "company": "Amdocs",
+        "location": "Pune, Maharashtra",
         "start": "Oct 2023",
         "end": "May 2026",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+inherited_company",
         "duration_months": 32,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.7,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
         "role": "• Security Managed Services Analyst",
         "company": "Validated DAST findings and confirmed vulnerabilities using Burp Suite Professional, eliminating false positives.",
-        "location": null,
+        "location": "Accenture | Gurgaon, Haryana",
         "start": "May 2026",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 5,
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 6,
         "bullets": [
           "Performed Application Security Testing (SAST, DAST, SCA) using OpenText Fortify to identify vulnerabilities in enterprise applications.",
           "Strong expertise in OWASP Top 10 vulnerabilities including SQL Injection, XSS, CSRF, SSRF, IDOR, and authentication flaws.",
@@ -185,11 +224,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.7,
-      "total_months": 44,
+      "total_years": 3.8,
+      "total_months": 45,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.65
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -308,23 +347,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.65,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[1]",
-      "confidence": 0.7,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

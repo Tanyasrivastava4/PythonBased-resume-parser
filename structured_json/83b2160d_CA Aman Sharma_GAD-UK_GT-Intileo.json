@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "83b2160d_CA Aman Sharma_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:29.263627+00:00",
+    "generated_at": "2026-10-07T09:27:08.198601+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,43 +46,106 @@
   "summary": "Qualified Chartered Accountant (May 2025) with experience in statutory audits, financial reporting, and Ind AS compliance,\nincluding exposure to audit of Nifty 50 listed company.",
   "skills": {
     "items": [
+      "Accounting",
+      "Accounting Standards",
       "Adaptability",
+      "Analytical Review",
       "Attention to Detail",
+      "CARO Reporting",
+      "CCH Audit Automation",
       "Communication",
+      "Company Law",
+      "CompuOffice",
+      "Coroutines Flow",
+      "Data Collection",
+      "Direct Taxation",
+      "ECB",
+      "Finalization of Financial Statements",
       "Financial Reporting",
-      "Ind AS",
+      "Finsis",
+      "Form 3CA-3CD",
+      "GST",
+      "GST Return Filing",
+      "GSTR-9",
+      "Ind AS 110",
+      "Internal Financial Controls",
+      "Limited Review",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
+      "Oracle Database",
       "Problem Solving",
       "Professional Ethics",
+      "Ratio Analysis",
       "SAP",
       "SAP S/4HANA",
       "Statutory Audit",
-      "Tally",
-      "Tax Audit",
-      "Taxation"
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Test of Details",
+      "Trial Balance"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Direct Taxation",
+        "Financial Reporting",
+        "Ratio Analysis",
+        "Statutory Audit",
+        "Taxation"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "GSTR-9",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "soft_skill": [
         "Adaptability",
         "Attention to Detail",
         "Communication",
         "Problem Solving"
       ],
-      "finance_ops": [
-        "Financial Reporting",
-        "Statutory Audit",
-        "Tally",
-        "Taxation"
+      "accounting": [
+        "Analytical Review",
+        "CCH Audit Automation",
+        "CompuOffice",
+        "Finalization of Financial Statements",
+        "Finsis",
+        "Form 3CA-3CD",
+        "GST",
+        "Ind AS 110",
+        "Limited Review"
       ],
       "finance": [
-        "Ind AS"
+        "CARO Reporting",
+        "ECB",
+        "GST Return Filing",
+        "Internal Financial Controls",
+        "Test of Details",
+        "Trial Balance"
+      ],
+      "legal": [
+        "Company Law"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "research": [
+        "Data Collection"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
         "Microsoft Word"
+      ],
+      "database": [
+        "Oracle Database"
       ],
       "soft_skills": [
         "Professional Ethics"
@@ -90,50 +153,55 @@
       "integration": [
         "SAP",
         "SAP S/4HANA"
-      ],
-      "accounting": [
-        "Tax Audit"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tally ERP→Tally(100%), MS Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint.→Microsoft PowerPoint(95%), Tax Audits→Tax Audit(95%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Tally ERP→Tally ERP 9(100%), Oracle→Oracle Database(100%), MS Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint.→Microsoft PowerPoint(95%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "",
-        "company": "Preparation of Letter of representation and Audit report.",
+        "role": "Assurance Senior",
+        "company": "Ernst and Young GDS LLP",
         "location": null,
         "start": "Sep 2025",
         "end": "May 2026",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Ernst and Young GDS LLP"
+        ],
         "duration_months": 9,
         "bullets": [
           "Performed correlation (3 Way), trial balance tie-outs and analytical procedure to ensure accuracy of financial reporting.",
+          "Preparation of Letter of representation and Audit report.",
           "Working on trade payables and trade receivables cutoff analysis and test of details.",
           "Understand the procedures of Global audits."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "B R Maheswari & Co LLP, Delhi Article Assistant",
-        "company": "Statutory Audit: o Executed Statutory audit & Limited review of 3rd largest cement manufacturers company having turnover more than 23000+ Crores which was part of Nifty 50 Index wherein I reviewed internal financial controls (Section 143) and Ind As Compliances in preparation of financial statements, Consolidation adjustments as per Ind AS 110, Analytical review of expenses, Ledger scrutiny (100+) etc. & CARO reporting (Clause 1,2,11,13,21). o Conducted Analysis of Ratios, Variances, Trends, and Prepared Financial Statements as per AS & Schedule- III of Companies Act 2013 of manufacturing, retail and service industry clients. o Worked on area such as Investment, Property plant and Equipment, External commercial borrowing, leases and have gained practical implications of INDAS such as 109, 16, 116 etc.",
-        "location": null,
+        "role": "Article Assistant",
+        "company": "B R Maheswari & Co LLP",
+        "location": "Delhi",
         "start": "Mar 2022",
         "end": "Mar 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "B R Maheswari & Co LLP, Delhi"
+        ],
         "duration_months": 37,
         "bullets": [
+          "Statutory Audit: o Executed Statutory audit & Limited review of 3rd largest cement manufacturers company having turnover more than 23000+ Crores which was part of Nifty 50 Index wherein I reviewed internal financial controls (Section 143) and Ind As Compliances in preparation of financial statements, Consolidation adjustments as per Ind AS 110, Analytical review of expenses, Ledger scrutiny (100+) etc. & CARO reporting (Clause 1,2,11,13,21). o Conducted Analysis of Ratios, Variances, Trends, and Prepared Financial Statements as per AS & Schedule- III of Companies Act 2013 of manufacturing, retail and service industry clients. o Worked on area such as Investment, Property plant and Equipment, External commercial borrowing, leases and have gained practical implications of INDAS such as 109, 16, 116 etc.",
           "Accounting and Financial Reporting: o Preparation of financial statements (30+) including Balance Sheet, P&L, Cash Flow statements, notes to accounts and significant accounting policies in accordance with applicable AS and Ind AS.",
           "Taxation: o Conduct Tax audit (Section 44AB) of listed, unlisted, MSME, partnership firms and others under Form 3CA, 3CB and 3CD. o GST return filing (GSTR 1 and 3B) and GST audit (GSTR 9 and 9C).",
           "Client Interaction & Documentation: o Liaised with clients for data collection, clarification of audit queries, and compliance matters. Maintained proper documentation and working papers for audit assignments."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -143,7 +211,7 @@
       "total_months": 46,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.62
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -181,24 +249,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.62,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

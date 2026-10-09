@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4a5fbecb_cc6b9fda_Sahil Singla_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:33.473880+00:00",
+    "generated_at": "2026-10-07T10:31:34.126051+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,6 +49,7 @@
       "AWS",
       "AWS CloudWatch",
       "AWS EC2",
+      "AWS Lambda",
       "AWS S3",
       "Agile",
       "Apache HTTP Server",
@@ -56,22 +57,30 @@
       "CI/CD",
       "CSS3",
       "Communication",
+      "DHCP",
       "ELK Stack",
       "Express.js",
+      "Firewall",
       "GitHub",
       "GitHub Actions",
       "GitLab",
       "GitLab CI",
       "HTML5",
+      "Help Desk",
       "Identity Management",
+      "JSON Web Token",
       "JavaScript",
       "Jenkins",
       "Jira",
       "Laravel",
       "Linux",
       "MVC Architecture",
+      "Microservices",
+      "Microsoft Outlook",
       "Microsoft Windows",
       "MySQL",
+      "NAT",
+      "Network Attached Storage",
       "New Relic",
       "Node.js",
       "PHP",
@@ -81,11 +90,14 @@
       "REST",
       "React",
       "SOAP",
+      "SSO",
       "Scrum",
       "SoapUI",
       "VS Code",
       "Vue.js",
       "Waterfall",
+      "Work Instructions",
+      "XML",
       "jQuery"
     ],
     "by_category": {
@@ -93,6 +105,7 @@
         "AWS",
         "AWS CloudWatch",
         "AWS EC2",
+        "AWS Lambda",
         "AWS S3",
         "Apache HTTP Server"
       ],
@@ -125,20 +138,32 @@
         "React",
         "SOAP",
         "Vue.js",
+        "XML",
         "jQuery"
       ],
       "soft_skill": [
         "Communication"
       ],
+      "networking": [
+        "DHCP",
+        "NAT"
+      ],
+      "security_ops": [
+        "Firewall"
+      ],
       "dev_tool": [
         "GitHub",
         "GitLab",
         "Postman",
-        "SoapUI",
-        "VS Code"
+        "SoapUI"
+      ],
+      "support": [
+        "Help Desk"
       ],
       "security": [
-        "Identity Management"
+        "Identity Management",
+        "JSON Web Token",
+        "SSO"
       ],
       "programming_language": [
         "JavaScript",
@@ -148,15 +173,30 @@
       "software_engineering": [
         "MVC Architecture"
       ],
+      "architecture": [
+        "Microservices"
+      ],
+      "productivity": [
+        "Microsoft Outlook"
+      ],
       "database": [
         "MySQL"
       ],
+      "storage": [
+        "Network Attached Storage"
+      ],
       "integration": [
         "REST"
+      ],
+      "tools": [
+        "VS Code"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(ReactJS→React(100%), Github Actions→GitHub Actions(100%), CloudWatch→AWS CloudWatch(100%), Bash Scripting→Bash(100%), Windows→Microsoft Windows(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(ReactJS→React(100%), Github Actions→GitHub Actions(100%), Lambda→AWS Lambda(100%), CloudWatch→AWS CloudWatch(100%), Bash Scripting→Bash(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -166,8 +206,12 @@
         "location": "Haryana",
         "start": "12/2024",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 22,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Senior Software Engineer",
+          "Care Health Insurance. • Gurgaon, Haryana"
+        ],
+        "duration_months": 23,
         "bullets": [
           "Working with India's largest health insurance company - Care Health Insurance.",
           "Deployed SHP project in AWS using Express Js and front end in React JS.",
@@ -187,7 +231,11 @@
         "location": "Haryana",
         "start": "06/2022",
         "end": "12/2024",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Software Engineer",
+          "Mantra Labs Global Pvt. Ltd. • Gurgaon, Haryana"
+        ],
         "duration_months": 31,
         "bullets": [
           "Working with different servicing modules that the customer uses.",
@@ -207,7 +255,11 @@
         "location": "Delhi",
         "start": "02/2019",
         "end": "06/2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Engineer",
+          "CSC E- Governance India Limited • Delhi, Delhi"
+        ],
         "duration_months": 41,
         "bullets": [
           "Worked and Developed Gujarat Government project ‘UWIN’ on PHP and Vue.js platform for Unorganized Workers' Identification Number to identify the proof to unorganized workers in Gujarat.",
@@ -222,11 +274,15 @@
       },
       {
         "role": "Site Engineer",
-        "company": "Corporate India Private Limited  • Noida",
+        "company": "Corporate India Private Limited (CIPL) • Noida",
         "location": "Delhi",
         "start": "09/2018",
         "end": "01/2019",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Site Engineer",
+          "Corporate India Private Limited (CIPL) • Noida, Delhi"
+        ],
         "duration_months": 5,
         "bullets": [
           "My job includes th e deployment Router Configuring of DHCP, NAT& default Router Protocol Deployment of servers, configuring NAS, Firewall (basic working) V LANs in Cisco L2 switches, installation & troubleshooting IT equipment including printers, scanners, biometric devices, configuring outlook, installation of desktop, laptop & NUC",
@@ -236,18 +292,18 @@
           "Install IP Cameras with POE Switch",
           "Survey the sites then architect the network design and deploy the network equipment."
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.1,
-      "total_months": 97,
+      "total_years": 8.2,
+      "total_months": 98,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.84
+    "_confidence": 0.77
   },
   "education": {
     "entries": [
@@ -274,7 +330,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
@@ -285,6 +341,11 @@
     },
     {
       "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

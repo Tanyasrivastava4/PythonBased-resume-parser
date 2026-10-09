@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7832f6ea_7f81e3d1_Pratik Pramod Phunguskar_VP_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:20.812182+00:00",
+    "generated_at": "2026-10-07T09:26:57.389114+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,6 +51,8 @@
       "API Design",
       "Android",
       "Business Development",
+      "Business Loans",
+      "Business Rules Engine",
       "Business Strategy",
       "Capital Markets",
       "Corporate Lending",
@@ -59,12 +61,19 @@
       "Digital Transformation",
       "E-learning",
       "Fintech",
+      "Home Loans",
+      "Internal Financial Controls",
       "Java",
       "Leadership",
+      "Loan Against Property",
       "MSDS",
       "Machine Learning",
       "Onboarding",
       "Operations Management",
+      "Perfios",
+      "Personal Loan",
+      "Posidex",
+      "Procurement",
       "Project Management",
       "Python",
       "R",
@@ -75,7 +84,8 @@
       "Salesforce",
       "Stakeholder Management",
       "Turnaround Time",
-      "UAT"
+      "UAT",
+      "Underwriting"
     ],
     "by_category": {
       "architecture": [
@@ -87,15 +97,21 @@
       "biz_dev": [
         "Business Development"
       ],
+      "banking": [
+        "Business Loans",
+        "Business Rules Engine",
+        "Corporate Lending",
+        "Home Loans",
+        "Loan Against Property"
+      ],
       "consulting": [
         "Business Strategy",
         "Digital Transformation"
       ],
       "finance": [
-        "Capital Markets"
-      ],
-      "banking": [
-        "Corporate Lending"
+        "Capital Markets",
+        "Internal Financial Controls",
+        "Personal Loan"
       ],
       "soft_skill": [
         "Creativity",
@@ -127,7 +143,12 @@
         "Onboarding"
       ],
       "operations": [
-        "Operations Management"
+        "Operations Management",
+        "Procurement"
+      ],
+      "fintech": [
+        "Perfios",
+        "Posidex"
       ],
       "project_mgmt": [
         "Project Management",
@@ -147,6 +168,9 @@
       ],
       "testing": [
         "UAT"
+      ],
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
@@ -155,45 +179,45 @@
   "experience": {
     "jobs": [
       {
-        "role": "Assistant Vice President",
-        "company": "Oversaw decision analytics, loan underwriting automation, and collection strategy optimization.",
-        "location": null,
+        "role": ". — Assistant Vice President",
+        "company": "Tata Capital Ltd",
+        "location": "Assistant Vice President",
         "start": "Mar 2021",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 67,
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 68,
         "bullets": [
           "Lead FICO Blaze Advisor implementation for acquisition and collection processes across multiple products.",
+          "Oversaw decision analytics, loan underwriting automation, and collection strategy optimization.",
           "Drove API integrations and analytics mart development to enhance end-to-end digital loan journeys.",
           "Reduced credit approval TAT through BRMS automation and improved operational transparency.",
-          "Promoted to AVP from senior manager in April’23",
-          "Managed investment banking operations involving CDS, IRS, and collateral margin reconciliation."
+          "Promoted to AVP from senior manager in April’23"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Consultant",
-        "company": null,
-        "location": null,
+        "role": ". — Consultant",
+        "company": "Capgemini India Pvt. Ltd",
+        "location": "Consultant",
         "start": "Sep 2020",
         "end": "Feb 2021",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 6,
         "bullets": [
           "Managed end-to-end project delivery for a US-based client implementing PowerCurve Strategy Manager.",
-          "Led strategy design and system integration to improve risk decisioning and process"
+          "Led strategy design and system integration to improve risk decisioning and process efficiency."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "L&T Financial Services — Senior Manager, Digital CoE",
-        "company": "efficiency. • L&T Financial Services",
+        "role": "Senior Manager, Digital CoE",
+        "company": "L&T Financial Services",
         "location": "Senior Manager, Digital CoE",
         "start": "Mar 2018",
         "end": "Aug 2020",
@@ -211,25 +235,26 @@
         "source": "experience"
       },
       {
-        "role": "RBL Bank — Assistant Manager, BSG",
-        "company": "Integrated digital business partners like MoneyTap, EarlySalary, and MoneyView for",
-        "location": null,
-        "start": "Nov 2016",
-        "end": "Feb 2018",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 16,
+        "role": "Assistant",
+        "company": "RBL Bank",
+        "location": "Manager, BSG",
+        "start": "Oct’19",
+        "end": "Present",
+        "method": "single_date_regex+dash_split",
+        "duration_months": 85,
         "bullets": [
           "Managed credit card and personal loan digital onboarding platforms.",
-          "Developed automated decisioning systems using PowerCurve Strategy Management."
+          "Developed automated decisioning systems using PowerCurve Strategy Management.",
+          "Integrated digital business partners like MoneyTap, EarlySalary, and MoneyView for digital loan journeys."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "SMEBOTS — Research Analyst",
-        "company": "digital loan journeys. • SMEBOTS",
+        "role": "Research Analyst",
+        "company": "SMEBOTS",
         "location": "Research Analyst",
         "start": "May 2015",
         "end": "Oct 2016",
@@ -237,7 +262,25 @@
         "duration_months": 18,
         "bullets": [
           "Conducted credit rating and risk model development for MSMEs.",
-          "Worked on IFC (World Bank) projects on cash credit and asset-based finance models."
+          "Worked on IFC (World Bank) projects on cash credit and asset-based finance models.",
+          "Built credit risk models using R for a leading SAARC bank."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": ". — Financial Analyst",
+        "company": "eClerx Services Ltd",
+        "location": "Financial Analyst",
+        "start": "Mar 2014",
+        "end": "Nov 2014",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 9,
+        "bullets": [
+          "Managed investment banking operations involving CDS, IRS, and collateral margin reconciliation.",
+          "Received client appreciation and spot awards for performance excellence."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -247,11 +290,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.4,
-      "total_months": 137,
-      "overlapping_periods_merged": 0
+      "total_years": 10.9,
+      "total_months": 131,
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.87
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -333,25 +376,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.6,

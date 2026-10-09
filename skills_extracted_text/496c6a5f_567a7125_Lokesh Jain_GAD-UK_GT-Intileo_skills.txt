@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/496c6a5f_567a7125_Lokesh Jain_GAD-UK_GT-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Technical Skills: Tally ERP, AI Tools, Opportune HRMS, ClearTax GST, MS Office Suite (Advanced Excel, PowerPoint, Word), Winman CA ERP / TDS.
+Skills: Financial Modeling | Valuation (DCF, Comparable Analysis) | Financial Analysis | Budgeting & Forecasting | Variance Analysis | ERP Systems
+
+── Extraction Results ──
+Skills found   : 27
+Confidence     : 0.92
+Time           : 367.05 ms
+Method         : flashtext_skills_section | fuzzy(Advanced Excel→Microsoft Excel(100%), PowerPoint→Microsoft PowerPoint(100%), Word→Microsoft Word(100%), Comparable Analysis→Comps(100%), Financial Modelling→Financial Analysis(100%)...)
+
+── All Skills (27) ──
+.NET, Budgeting, Comps, Cost Analysis, DCF, ERP Systems, Financial Analysis, Internal Controls Testing, Leadership, LinkedIn, MIS Reporting, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, R, Regulatory Compliance, Reporting, Scheme, Statutory Audit, TDS, Tally, Tax Audit, Taxation, Time Series Forecasting, Variance Analysis, Working Capital Financing
+
+── By Category ──
+  accounting                     ['Tax Audit']
+  ai_ml                          ['Time Series Forecasting']
+  banking                        ['MIS Reporting', 'Working Capital Financing']
+  business_analysis              ['Variance Analysis']
+  dev_tool                       ['Scheme']
+  finance                        ['Comps', 'DCF']
+  finance_ops                    ['Budgeting', 'Cost Analysis', 'Financial Analysis', 'Internal Controls Testing', 'Statutory Audit', 'TDS', 'Tally', 'Taxation']
+  legal                          ['Regulatory Compliance']
+  operations                     ['ERP Systems']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Word']
+  programming_language           ['.NET', 'R']
+  soft_skill                     ['Leadership', 'Reporting']
+  web_framework                  ['LinkedIn']

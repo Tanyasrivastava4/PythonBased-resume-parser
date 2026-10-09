@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f48eb529_Parvez Malik_Senior Associate L4 – IT Operations_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:48.251390+00:00",
+    "generated_at": "2026-10-07T09:28:52.326546+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -55,8 +55,11 @@
       "ADO.NET",
       "ARCON PAM",
       "ASP.NET",
+      "AWS DMS",
+      "Accounting",
       "Active Directory",
       "Adaptability",
+      "Asset Management",
       "Biometrics",
       "C#",
       "C++",
@@ -66,38 +69,55 @@
       "Cobian Backup",
       "CrowdStrike",
       "DHCP",
+      "Data Backup",
+      "Endpoint Security",
       "Firewall",
       "HTML5",
       "Hikvision",
       "IT Security",
+      "ITIL",
       "Identity Management",
       "Information Security",
       "LAN",
+      "LTE",
       "Lean Six Sigma",
       "MPLS",
       "MSSQL",
       "Microsoft Hyper-V",
+      "Microsoft Outlook",
       "Microsoft Teams",
       "Microsoft Windows",
       "Microsoft Windows XP",
       "Network Security",
+      "Network Troubleshooting",
+      "Networking",
+      "Office 365",
+      "Oracle Database",
       "Organization Skills",
       "PHP",
       "Palo Alto Networks",
+      "Procurement",
       "Quality Assurance",
       "Quality Management System",
       "SD-WAN",
       "SOP",
       "Schedule III",
+      "Scheme",
       "Six Sigma",
       "Sophos",
       "Symantec",
       "TGA",
+      "Tally",
+      "Technical Support",
+      "Trend Micro",
       "VB.NET",
       "VMware",
+      "Veeam",
+      "Vendor Management",
       "Visual Studio",
       "WAN",
       "WebEx",
+      "Work Instructions",
       "Zoom",
       "jQuery"
     ],
@@ -123,18 +143,29 @@
         "CCTV",
         "Check Point",
         "CrowdStrike",
+        "Endpoint Security",
         "Firewall",
         "Hikvision",
         "Network Security",
         "Palo Alto Networks",
         "Sophos"
       ],
+      "cloud": [
+        "AWS DMS"
+      ],
+      "finance_ops": [
+        "Accounting",
+        "Tally"
+      ],
       "soft_skill": [
         "Adaptability",
         "Organization Skills"
       ],
       "sysadmin": [
-        "Cobian Backup"
+        "Asset Management",
+        "Cobian Backup",
+        "Data Backup",
+        "Network Troubleshooting"
       ],
       "networking": [
         "DHCP",
@@ -147,18 +178,27 @@
         "IT Security",
         "Identity Management",
         "Information Security",
-        "Symantec"
+        "Symantec",
+        "Trend Micro"
+      ],
+      "management": [
+        "ITIL"
+      ],
+      "telecom": [
+        "LTE"
       ],
       "process": [
         "Lean Six Sigma"
       ],
       "database": [
-        "MSSQL"
+        "MSSQL",
+        "Oracle Database"
       ],
       "virtualization": [
         "Microsoft Hyper-V"
       ],
       "productivity": [
+        "Microsoft Outlook",
         "Microsoft Teams",
         "Zoom"
       ],
@@ -166,43 +206,63 @@
         "Microsoft Windows",
         "Microsoft Windows XP"
       ],
+      "biz_dev": [
+        "Networking"
+      ],
+      "integration": [
+        "Office 365"
+      ],
       "operations": [
+        "Procurement",
         "Quality Assurance",
         "Quality Management System",
         "SOP",
-        "Six Sigma"
+        "Six Sigma",
+        "Vendor Management"
       ],
       "financial_reporting": [
         "Schedule III"
       ],
+      "dev_tool": [
+        "Scheme",
+        "Visual Studio"
+      ],
       "instrumentation": [
         "TGA"
+      ],
+      "support": [
+        "Technical Support"
       ],
       "cloud_infra": [
         "VMware"
       ],
-      "dev_tool": [
-        "Visual Studio"
+      "devops": [
+        "Veeam"
       ],
       "collaboration": [
         "WebEx"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Organizing Skills→Organization Skills(89%), Windows 7→Microsoft Windows(95%), Windows 8→Microsoft Windows(95%), HTML→HTML5(100%), Schedule.→Schedule III(84%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Organizing Skills→Organization Skills(89%), Windows 7→Microsoft Windows(95%), Windows 8→Microsoft Windows(95%), Oracle→Oracle Database(100%), HTML→HTML5(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Quick Learner Executive IT",
-        "company": "Dadachanji Group of Companies",
-        "location": "Daman",
+        "role": "Executive IT",
+        "company": "Knowledge about VMWare, Hyper-V.",
+        "location": "Quick Learner",
         "start": "July 2024",
         "end": "Present",
         "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 27,
+        "pre_date_header": [
+          "| Quick Learner"
+        ],
+        "duration_months": 28,
         "bullets": [
-          "Knowledge about VMWare, Hyper-V.",
           "Familiar with the GxP Systems.",
           "Handling TrendMicro Antivirus Management.",
           "Providing Infrastructure Maintenance.",
@@ -231,7 +291,7 @@
         "location": null,
         "start": "June 2018",
         "end": "June 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 73,
         "bullets": [
           "JB Chemicals & Pharmaceutical Laboratories, Daman (India)",
@@ -250,7 +310,8 @@
           "Maintenance of Biometric Machines.",
           "Provide technical support for Misc. Electronic Device Support.",
           "Handling CCTV Maintenance (HikVision, Dahua, UniView, CP Plus).",
-          "Maintenance of Analytical Weighing Balance (Used in Pharmaceutical Industries)."
+          "Maintenance of Analytical Weighing Balance (Used in Pharmaceutical Industries).",
+          "Knowledge to Prepare of SOP and Documentations."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -263,7 +324,7 @@
         "location": "Daman (India",
         "start": "July 2017",
         "end": "June 2018",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 12,
         "bullets": [
           "Manage the networking and computer system of organization.",
@@ -283,8 +344,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.2,
-      "total_months": 111,
+      "total_years": 9.3,
+      "total_months": 112,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98
@@ -292,7 +353,7 @@
   "education": {
     "entries": [
       {
-        "degree": "• MSc. (C.A) (Master of Science in Computer Application) from Rofel Shri G.M Bilakhia College of",
+        "degree": "• MSc. (C.A) (Master of Science in Computer Application)",
         "degree_name": "M.Sc",
         "degree_type": "masters",
         "degree_field": null,
@@ -303,7 +364,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• Completed B.C.A (Bachelor of Computer Application) from Rofel Shri G.M Bilakhia College of",
+        "degree": "• Completed B.C.A (Bachelor of Computer Application)",
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,

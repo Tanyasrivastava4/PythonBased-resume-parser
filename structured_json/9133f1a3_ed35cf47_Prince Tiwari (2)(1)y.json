@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9133f1a3_ed35cf47_Prince Tiwari (2)(1)y_segmented.txt",
-    "generated_at": "2026-09-30T06:59:42.922463+00:00",
+    "generated_at": "2026-10-07T09:27:25.645038+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -51,15 +51,37 @@
       "3R",
       "4M",
       "5S",
+      "7 QC Tools",
       "7 Wastage",
+      "Bill of Materials",
+      "Bluetooth",
       "CAPA",
       "Continuous Improvement",
+      "Coroutines Flow",
+      "Critical to Quality",
+      "Daily Process Inspection Report",
+      "Data Analysis",
+      "Gap Analysis",
+      "Incoming Quality Control",
+      "Internal Audit",
       "Kaizen",
+      "Line Quality Control",
+      "Make",
       "Mechanical Engineering",
+      "OS&D",
       "Objective C",
+      "One Point Lesson",
+      "Outgoing Quality Control",
+      "PRINCE",
       "Poka-Yoke",
       "Process Audit",
-      "Responsible AI"
+      "Process Quality Control",
+      "Quality Assurance",
+      "Quality Control",
+      "Responsible AI",
+      "SOP",
+      "Visual Inspection",
+      "Work Instructions"
     ],
     "by_category": {
       "operations": [
@@ -70,11 +92,49 @@
         "CAPA",
         "Continuous Improvement",
         "Kaizen",
+        "OS&D",
         "Poka-Yoke",
-        "Process Audit"
+        "Process Audit",
+        "Quality Assurance",
+        "SOP"
+      ],
+      "quality": [
+        "7 QC Tools",
+        "Critical to Quality",
+        "Daily Process Inspection Report",
+        "Incoming Quality Control",
+        "Line Quality Control",
+        "One Point Lesson",
+        "Outgoing Quality Control",
+        "Process Quality Control",
+        "Visual Inspection",
+        "Work Instructions"
+      ],
+      "manufacturing": [
+        "Bill of Materials"
+      ],
+      "hardware": [
+        "Bluetooth"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "data_science": [
+        "Data Analysis",
+        "PRINCE"
+      ],
+      "business_analysis": [
+        "Gap Analysis"
+      ],
+      "accounting": [
+        "Internal Audit"
+      ],
+      "rpa": [
+        "Make"
       ],
       "engineering": [
-        "Mechanical Engineering"
+        "Mechanical Engineering",
+        "Quality Control"
       ],
       "programming_language": [
         "Objective C"
@@ -89,13 +149,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Quality Engineer",
-        "company": "OEL (NOIDA",
+        "role": "per QA standard from",
+        "company": "their daily, weekly and monthly QA report and factory Audit",
         "location": null,
         "start": "1-Jun 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+worked_as_role_in_company",
-        "duration_months": 40,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Optiemus Electronics Ltd (NOIDA)",
+          "Working as Quality Engineer in OEL (NOIDA) in, MI & FATP Section processes and as well as customer Audits and"
+        ],
+        "duration_months": 41,
         "bullets": [
           "Take daily morning meeting with all IPQC and OQC.",
           "Daily attendance share.",
@@ -110,20 +174,21 @@
           "Ensure all process audit/ ESD audit activates should be performed on Daily Basis.",
           "Daily OS&D data.",
           "Hourly defects monitoring report.",
-          "TOP 3 defect and gap analysis report."
+          "TOP 3 defect and gap analysis report.",
+          "MES negative validation."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Key Responsibility",
+        "role": "Process Quality Engineer",
+        "company": "Padget Electronics PVT. LTD",
         "location": null,
         "start": "10 Nov 2021",
         "end": "15 May2023",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 19,
         "bullets": [
           "Implementation of quality tools & continuous improvement activities to improve the product quality.",
@@ -155,17 +220,21 @@
           "Responsible for 5’S, 4M, 3R in shop floor."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Responsibility",
         "company": "KHY Electronic India pvt",
         "location": null,
         "start": "02-June 2020",
         "end": "7 Oct 2021",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "KHY Electronic India pvt",
+          "Department:-DIP and A&P Eng."
+        ],
         "duration_months": 17,
         "bullets": [
           "Conduct the morning meeting with all team member regarding running model & previous shift issue.",
@@ -190,15 +259,15 @@
           "and Process Improvements.",
           "AC and refrigerator manufacturing (assembly and Testing)"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.3,
-      "total_months": 76,
+      "total_years": 6.4,
+      "total_months": 77,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.89
@@ -244,13 +313,8 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

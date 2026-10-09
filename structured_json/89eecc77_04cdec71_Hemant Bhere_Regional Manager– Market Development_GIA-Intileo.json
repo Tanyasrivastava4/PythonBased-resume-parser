@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "89eecc77_04cdec71_Hemant Bhere_Regional Manager– Market Development_GIA-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:35.842400+00:00",
+    "generated_at": "2026-10-07T09:27:16.453257+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,19 +50,25 @@
     "items": [
       "Budgeting",
       "Business Development",
-      "Client Relationship Management",
       "Competitive Analysis",
+      "Customer Relationship Management",
+      "Customer Retention",
       "LinkedIn",
       "Market Expansion",
+      "Market Mapping",
       "Market Research",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
       "Reporting",
+      "Revenue Generation",
       "SAP",
+      "Sales Forecasting",
       "Sales Strategy",
       "Salesforce",
-      "Time Series Forecasting"
+      "Strategic Planning",
+      "Team Leadership"
     ],
     "by_category": {
       "finance_ops": [
@@ -73,8 +79,15 @@
         "Competitive Analysis",
         "Market Expansion"
       ],
+      "sales": [
+        "Customer Relationship Management",
+        "Market Mapping",
+        "Revenue Generation",
+        "Sales Forecasting",
+        "Sales Strategy"
+      ],
       "client_mgmt": [
-        "Client Relationship Management"
+        "Customer Retention"
       ],
       "web_framework": [
         "LinkedIn"
@@ -85,20 +98,19 @@
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
       "soft_skill": [
-        "Reporting"
+        "Reporting",
+        "Team Leadership"
       ],
       "integration": [
         "SAP",
         "Salesforce"
       ],
-      "sales": [
-        "Sales Strategy"
-      ],
-      "ai_ml": [
-        "Time Series Forecasting"
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
@@ -108,12 +120,16 @@
     "jobs": [
       {
         "role": "Regional Sales Manager | Pranda Jewelry Pvt. Ltd., Mumbai",
-        "company": "Hemant",
-        "location": null,
+        "company": "Pranda Jewelry Pvt. Ltd",
+        "location": "Mumbai",
         "start": "2015-12",
         "end": "Current",
-        "method": "date_regex+title_dict",
-        "duration_months": 130,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Hemant",
+          "Bhere"
+        ],
+        "duration_months": 131,
         "bullets": [
           "- Lead regional operations and sales strategy, managing a team of sales executives and",
           "- Developed and implemented regional growth",
@@ -140,12 +156,12 @@
         "source": "experience"
       },
       {
-        "role": "Store Manager",
+        "role": "Store Manager | Marhaba Jewellers LLC, Dubai",
         "company": "Marhaba Jewellers LLC",
         "location": "Dubai",
         "start": "2010-02",
         "end": "2015-09",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 68,
         "bullets": [
           "- Managed sales operations across the UAE",
@@ -166,8 +182,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 16.5,
-      "total_months": 198,
+      "total_years": 16.6,
+      "total_months": 199,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

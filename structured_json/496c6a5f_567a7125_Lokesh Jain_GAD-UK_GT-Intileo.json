@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "496c6a5f_567a7125_Lokesh Jain_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:32.298453+00:00",
+    "generated_at": "2026-10-07T10:31:32.365672+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,41 +48,84 @@
   "summary": "Qualified Chartered Accountant with experience in corporate finance, treasury management, debt syndication, financial modeling, audit, taxation, credit analysis and regulatory\ncompliance. Skilled in end-to-end debt fundraising, lender negotiations, due diligence, covenant monitoring, cash flow forecasting, DCF valuation, three-statement modeling, budgeting,\nvariance analysis, and ERP-based reporting. Strong background in bank audits, credit risk review, GST and direct tax compliance, internal controls, and financial analysis, with demonstrated\nability to deliver measurable business outcomes in listed company and CA firm environments.",
   "skills": {
     "items": [
+      ".NET",
       "Budgeting",
+      "ClearTax",
       "Comps",
+      "Coroutines Flow",
+      "Cost Analysis",
       "DCF",
+      "Direct Taxation",
       "Due Diligence",
       "ERP",
       "ERP Systems",
       "Financial Analysis",
       "Fundamental Analysis",
       "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "GSTR-9",
+      "HRMS",
+      "Income Tax Return",
+      "Indirect Taxation",
+      "Internal Audit",
       "Internal Controls Testing",
+      "Leadership",
+      "Legal Compliance",
+      "LinkedIn",
+      "MIS Reporting",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
-      "Regulatory Compliance",
+      "Professional Tax",
+      "R",
+      "Ratio Analysis",
       "Reporting",
+      "Scheme",
+      "Sensitivity Analysis",
+      "Statutory Audit",
       "TDS",
-      "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation",
       "Time Series Forecasting",
-      "Variance Analysis"
+      "Turnaround Time",
+      "Variance Analysis",
+      "Working Capital Financing"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "R"
+      ],
       "finance_ops": [
         "Budgeting",
+        "Cost Analysis",
+        "Direct Taxation",
         "Financial Analysis",
+        "Indirect Taxation",
         "Internal Controls Testing",
-        "Tally",
+        "Ratio Analysis",
+        "Statutory Audit",
         "Taxation"
+      ],
+      "accounting": [
+        "ClearTax",
+        "GST",
+        "Internal Audit"
       ],
       "finance": [
         "Comps",
         "DCF",
         "Due Diligence",
-        "Fundamental Analysis"
+        "Fundamental Analysis",
+        "GST Return Filing",
+        "Income Tax Return"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "erp": [
         "ERP"
@@ -90,8 +133,33 @@
       "operations": [
         "ERP Systems"
       ],
-      "accounting": [
-        "GST"
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "accounting_finance": [
+        "GSTR-9",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "hr": [
+        "HRMS",
+        "Professional Tax"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Reporting"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "banking": [
+        "MIS Reporting",
+        "Working Capital Financing"
       ],
       "productivity": [
         "MS Office",
@@ -99,17 +167,17 @@
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "dev_tool": [
+        "Scheme"
       ],
-      "soft_skill": [
-        "Reporting"
-      ],
-      "taxation": [
-        "TDS"
+      "data_science": [
+        "Sensitivity Analysis"
       ],
       "ai_ml": [
         "Time Series Forecasting"
+      ],
+      "management": [
+        "Turnaround Time"
       ],
       "business_analysis": [
         "Variance Analysis"
@@ -126,8 +194,11 @@
         "location": null,
         "start": "December 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 10,
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "GM Finance"
+        ],
+        "duration_months": 11,
         "bullets": [
           "Led end-to-end execution of debt fundraising mandates exceeding INR 270 crore, including structuring, lender negotiations, due diligence, and documentation.",
           "Secured over INR 160 crore in funding from leading financial institutions: Yes Bank for INR 70 crore term loan and INR 35 crore BG. Aditya Birla Capital for INR 35 crore term loan and INR 20 crore Working Capital Demand Loan.",
@@ -155,6 +226,9 @@
         "start": "August 2022",
         "end": "October 2025",
         "method": "date_regex",
+        "pre_date_header": [
+          "Internship"
+        ],
         "duration_months": 39,
         "bullets": [
           "Executed statutory central bank audits for high-value nationalized and cooperative bank branches with credit exposure of INR 900-1,200 crore, evaluating asset quality, identifying credit risks, and strengthening regulatory compliance frameworks.",
@@ -182,8 +256,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.1,
-      "total_months": 49,
+      "total_years": 4.2,
+      "total_months": 50,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.77
@@ -206,6 +280,17 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
+        "institution": null,
+        "year": "2025",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelor of Commerce (B.Com.)",
+        "degree_name": "B.Com",
+        "degree_type": "bachelors",
+        "degree_field": null,
         "institution": "Dr. Babasaheb Ambedkar Marathwada University",
         "year": "2021",
         "gpa": "93.83%",
@@ -213,7 +298,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [
@@ -302,7 +387,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [

@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a246b47e_9d985ee8_HiralR_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+ERP & Accounting: Oracle ,UNO Book,
+Time Management and Deadline-Oriented Tally ERP 9 , Tally Prime , Ornate
+GST and Traces portal Handling
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 255.51 ms
+Method         : flashtext_skills_section | fuzzy(Tally Prime→Tally(100%), Ms-office→MS Office(100%), Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%)...)
+
+── All Skills (24) ──
+Account Management, Accounting, Analytical Thinking, Auditing, C++, Cross-functional Collaboration, Financial Reporting, HTML5, Inventory Management, Java, LinkedIn, MIS Reporting, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Microsoft Word, Oracle, Payments, Statutory Audit, TDS, Tally, Taxation, Time Management
+
+── By Category ──
+  banking                        ['MIS Reporting']
+  database                       ['Oracle']
+  domain                         ['Payments']
+  finance_ops                    ['Accounting', 'Auditing', 'Financial Reporting', 'Statutory Audit', 'TDS', 'Tally', 'Taxation']
+  operations                     ['Inventory Management']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Teams', 'Microsoft Word']
+  programming_language           ['C++', 'Java']
+  sales                          ['Account Management']
+  soft_skill                     ['Analytical Thinking', 'Cross-functional Collaboration', 'Time Management']
+  web_framework                  ['HTML5', 'LinkedIn']

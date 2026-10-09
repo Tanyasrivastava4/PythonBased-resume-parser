@@ -1,0 +1,58 @@
+======================================================================
+FILE: ff9c6be0_Daksh_Khurana_Data_Science_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Info Edge India Ltd. (99acres)
+Noida, India
+Analyst (Promoted from Associate Analyst)
+Nov 2024 – Feb 2026
+• GenAI and LLM Deployment: Engineered a media screening service using YOLO and GPT-4 to automate
+data quality filtering, achieving 99% accuracy and enhancing platform integrity.
+• Intelligent A...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.0 years (24 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Noida, India
+  Company      : Info Edge India Ltd. (99acres
+  Location     : None
+  Start - End  : Nov 2024 - Feb 2026
+  Duration     : 16 months
+  Bullets      : 4
+    • GenAI and LLM Deployment: Engineered a media screening service using YOLO and GPT-4 to automate data quality filtering, achieving 99% accuracy and enhancing platform integrity.
+    • Intelligent Automation: Built a tower-level validation service utilizing Gemini AI and rule-based cleaning to resolve data discrepancies and improve contextual accuracy.
+    • Data Engineering Collaboration: Partnered with engineering teams to manage and preprocess high-volume geospatial datasets, developing Python-based location intelligence services.
+    • Performance Optimization: Optimized model performance by tracking confusion matrices and AI metrics, providing data-driven technical reports for leadership decision-making.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : New
+  Company      : DRDO
+  Location     : Delhi, India
+  Start - End  : Jan 2024 - Jun 2024
+  Duration     : 6 months
+  Bullets      : 1
+    • Statistical Research: Conducted deep-dive analysis on high-dimensionality reliability datasets to identify trends and improve system performance models.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : New
+  Company      : Ministry of Heavy Industries (MHI
+  Location     : Delhi, India
+  Start - End  : May 2023 - Jun 2023
+  Duration     : 2 months
+  Bullets      : 1
+    • Quantitative Solution Design: Developed ranking models for government schemes, translating complex policy requirements into manageable analytical frameworks.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,55 @@
+======================================================================
+FILE: dfba57ae_8de0422b_Naukri_VivekSinghKushwaha[6y_6m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Axtria India Pvt. Ltd. (Apr 2024 – Present) | Project Leader
+• Utilized AWS Athena and Databricks for ad hoc analysis and data validation, re-engineered logic, and optimized queries, enhancing
+accuracy and saving time.
+• Led analytics efforts, managed implementation, requirements gathering, developm...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.3 years (64 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : . Senior Associate
+  Company      : Axtria India Pvt. Ltd
+  Location     : Project Leader
+  Start - End  : Apr 2024 - Present
+  Duration     : 31 months
+  Bullets      : 12
+    • Utilized AWS Athena and Databricks for ad hoc analysis and data validation, re-engineered logic, and optimized queries, enhancing accuracy and saving time.
+    • Led analytics efforts, managed implementation, requirements gathering, development, and testing. Regularly coordinated with clients and onshore team for effort estimation, change requests, new reports, tracker maintenance, and project timeline planning.
+    • Designed and implemented Super DAGs in Airflow to automate weekly pipeline executions, with notification features improving monitoring and reducing manual effort by 60%.
+    • Worked directly with the client and led a 3-member team to build a standardized and business-aligned data quality framework using Athena, S3 and Databricks, helping in early detection of issues and reducing resolution time.
+    • Manage 4 associates, guiding and mentoring them for best practices and professional development.
+    • Ensured project compliance by maintaining structured documentation, including project plans, checklists, BRDs, SOPs, and other relevant artifacts, enabling seamless tracking and audit readiness.
+    • Worked with a US-based pharma client on Incentive Compensation covering Sales Crediting, Goal Setting, Eligibility & Payouts.
+    • Designed models for multiple products to forecast quarterly goals (based on historical data, trends, market metrics, and other factors) for various US geographies. Validated these models on test data by performing multiple statistical tests.
+    • Developed user-friendly interactive simulator tools with dynamic functionalities and built several reports from scratch.
+    • Developed various scripts from scratch in MS SQL Server for reporting, sales crediting, and goal-setting modules.
+    • Took end-to-end ownership of several reports and ad hoc analysis requests from clients, onboarded and mentored new and junior team members in IC modules, and conducted training sessions to enhance their technical and business acumen.
+    • Gained deep expertise in Incentive Compensation (Sales Crediting, Goal Setting, Eligibility, and Payouts), Reporting, Call Planning, Alignment, and various pharma datasets (Symphony, Liquid Hub, Veeva Call Activity, Value Centric, XPO, DDD, SPSD, 867, 852 data etc).
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : . Analyst/Associate
+  Company      : Axtria India Pvt. Ltd
+  Location     : Analyst/Associate
+  Start - End  : Jul 2019 - Mar 2022
+  Duration     : 33 months
+  Bullets      : 5
+    • Designed complex reports using SQL, Excel, and PowerPoint.
+    • Developed a PowerPoint report generator, reducing report creation time by 60%.
+    • Created Tableau dashboards to track sales and call performance, and developed custom ad hoc reports to meet client needs.
+    • Collaborated with cross-functional teams, performed requirement gathering and generated reports for better business insights.
+    • Acted as an SME in the reporting team, resolved client and onshore team queries related to reporting and analytics.
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False

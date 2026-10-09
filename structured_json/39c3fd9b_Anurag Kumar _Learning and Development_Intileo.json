@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "39c3fd9b_Anurag Kumar _Learning and Development_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:17.936121+00:00",
+    "generated_at": "2026-10-07T10:31:15.439921+00:00",
     "sections_found": [
       "certifications",
       "experience",
@@ -57,35 +57,46 @@
       "Creativity",
       "Cross-functional Collaboration",
       "Customer Experience",
+      "Customer Lifetime Value",
       "Customer Onboarding",
       "Customer Retention",
       "Customer Service",
-      "Dealer Management",
       "Digital Marketing",
+      "Distribution Management",
       "E-learning",
       "Employee Engagement",
       "Event Management",
+      "Field Coaching",
       "Interpersonal Skills",
       "Inventory Management",
       "Leadership",
       "Learning & Development",
+      "Market Mapping",
       "Merchandising",
       "Microsoft Teams",
       "Negotiation",
       "Onboarding",
       "Performance Monitoring",
+      "Personality Development",
+      "Pitch Scripts",
       "Pre-Sales Support",
+      "Product Training",
+      "Professional Tax",
+      "Promotional Execution",
       "REACH",
       "Recruitment",
       "Resource Planning",
       "Retail Management",
       "Retail Sales",
       "Revenue Generation",
-      "SOP",
+      "SOP Development",
+      "Sales Enablement",
       "Sales Presentations",
       "Sales Strategy",
+      "Secondary Distribution",
       "Social Media Marketing",
       "Stakeholder Management",
+      "Training Needs Analysis",
       "Tutoring"
     ],
     "by_category": {
@@ -117,7 +128,7 @@
         "Continuous Improvement",
         "Inventory Management",
         "Performance Monitoring",
-        "SOP"
+        "SOP Development"
       ],
       "finance_ops": [
         "Cost Analysis"
@@ -128,18 +139,26 @@
         "Customer Retention",
         "Customer Service"
       ],
-      "sales": [
-        "Dealer Management",
-        "Pre-Sales Support",
-        "Retail Sales",
-        "Revenue Generation",
-        "Sales Presentations",
-        "Sales Strategy"
+      "business_analysis": [
+        "Customer Lifetime Value"
       ],
       "marketing": [
         "Digital Marketing",
         "Event Management",
         "Social Media Marketing"
+      ],
+      "sales": [
+        "Distribution Management",
+        "Market Mapping",
+        "Pitch Scripts",
+        "Pre-Sales Support",
+        "Promotional Execution",
+        "Retail Sales",
+        "Revenue Generation",
+        "Sales Enablement",
+        "Sales Presentations",
+        "Sales Strategy",
+        "Secondary Distribution"
       ],
       "education_domain": [
         "E-learning",
@@ -149,7 +168,14 @@
         "Employee Engagement",
         "Learning & Development",
         "Onboarding",
+        "Professional Tax",
         "Recruitment"
+      ],
+      "learning_development": [
+        "Field Coaching",
+        "Personality Development",
+        "Product Training",
+        "Training Needs Analysis"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -162,7 +188,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(distribution management→Dealer Management(93%), teams→Microsoft Teams(100%), onboarding→Onboarding(100%), coaching.→Tutoring(94%), induction programs→Onboarding(97%))"
+    "_method": "flashtext_skills_section | fuzzy(professional→Professional Tax(95%), distribution management→Distribution Management(100%), teams→Microsoft Teams(100%), onboarding→Onboarding(100%), product training→Product Training(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -172,8 +198,11 @@
         "location": null,
         "start": "Nov 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 23,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Zonal Product Training Manager (East) – Jaquar Group"
+        ],
+        "duration_months": 24,
         "bullets": [
           "Lead product and capability training programs for APAC and Africa markets, enhancing regional sales performance.",
           "Conduct comprehensive new joiner induction and onboarding programs, improving employee ramp-up time.",
@@ -200,6 +229,9 @@
         "start": "Apr 2021",
         "end": "Nov 2024",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Deputy Manager (New Delhi) – Havells India LTD."
+        ],
         "duration_months": 44,
         "bullets": [
           "Delivered comprehensive dealer training programs to enhance product knowledge and sales effectiveness.",
@@ -226,7 +258,10 @@
         "location": null,
         "start": "Jun 2020",
         "end": "Apr 2021",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Concession Manager (New Delhi) – FOSSIL INDIA"
+        ],
         "duration_months": 11,
         "bullets": [
           "Lead and manage a team of 10 members to consistently achieve and exceed store sales targets.",
@@ -250,7 +285,10 @@
         "location": null,
         "start": "Sep 2018",
         "end": "Apr 2020",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Demonstration Specialist (Gurgaon) – Bose Corporation"
+        ],
         "duration_months": 20,
         "bullets": [
           "Maximize sales of Bose products by delivering exceptional customer service, achieving a consistent increase in store revenue.",
@@ -274,7 +312,10 @@
         "location": null,
         "start": "Nov 2016",
         "end": "Aug 2018",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Sales Manager – Digibase innovation solutions"
+        ],
         "duration_months": 22,
         "bullets": [
           "Spearheaded comprehensive market development initiatives to expand brand presence and increase market share.",
@@ -301,7 +342,10 @@
         "location": null,
         "start": "Apr 2015",
         "end": "Oct 2015",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Relationship Manager – HDFC Bank"
+        ],
         "duration_months": 7,
         "bullets": [
           "Managed and nurtured relationships across a portfolio of customers to drive satisfaction and loyalty.",
@@ -330,8 +374,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.4,
-      "total_months": 125,
+      "total_years": 10.5,
+      "total_months": 126,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.98

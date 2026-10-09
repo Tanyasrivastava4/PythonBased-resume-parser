@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/6d62c55c_9d26d305_Ashish Kumar_Full Stack Web Developer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Java, JavaScript, Typescript, HTML, CSS
+Frameworks: Spring Boot, Spring JPA, Spring Security, NodeJs, ExpressJs, Mongoose, ReactJs, NextJs, Redux, Junit,
+Jest, RTL, SCSS.
+Familiar: AWS(S3, CloudWatch, ECS, EKS), CI/CD Pipeline, Docker, Datadog, Kafka, Microservices
+Databases: PostgreSQL, MongoDB, Redis, SDLC
+Tools: IntelliJ, GIT, Postman, VS Code, JIRA, Maven, Webpack, babel
+
+── Extraction Results ──
+Skills found   : 43
+Confidence     : 0.92
+Time           : 169.87 ms
+Method         : flashtext_skills_section | fuzzy(Typescript→TypeScript(100%), HTML→HTML5(100%), NodeJs→Node.js(100%), ExpressJs→Express.js(100%), Mongoose→MongoDB(100%)...)
+
+── All Skills (43) ──
+AWS, AWS CloudWatch, AWS EKS, AWS S3, Agile, Apache Kafka, Apache Maven, CI/CD, CSS3, Code Reviews, Datadog, DevOps, Docker, E-commerce, Express.js, Git, HTML5, IntelliJ IDEA, JPA, JUnit, Java, JavaScript, Jest, Jira, Microservices, Microsoft Teams, MongoDB, Next.js, Node.js, PostgreSQL, Postman, REST, React, Redis, Redux, SASS, SDLC, Scrum, Spring, Spring Boot, TypeScript, VS Code, webpack
+
+── By Category ──
+  architecture                   ['Microservices', 'SDLC']
+  cloud_infra                    ['AWS', 'AWS CloudWatch', 'AWS EKS', 'AWS S3']
+  data_engineering               ['Apache Kafka']
+  database                       ['MongoDB', 'PostgreSQL', 'Redis']
+  dev_tool                       ['Apache Maven', 'Code Reviews', 'Git', 'IntelliJ IDEA', 'Postman', 'VS Code']
+  devops                         ['CI/CD', 'Datadog', 'DevOps', 'Docker']
+  integration                    ['REST']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Java', 'JavaScript', 'TypeScript']
+  project_mgmt                   ['Agile', 'Jira', 'Scrum']
+  retail                         ['E-commerce']
+  testing                        ['JUnit', 'Jest']
+  web_framework                  ['CSS3', 'Express.js', 'HTML5', 'JPA', 'Next.js', 'Node.js', 'React', 'Redux', 'SASS', 'Spring', 'Spring Boot', 'webpack']

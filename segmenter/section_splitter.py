@@ -51,7 +51,7 @@ _EXPERIENCE_PATTERN = re.compile(
     rf"|professional\s*synopsis|career\s*synopsis|work\s*synopsis|employment\s*synopsis|synopsis\s*of\s*experience"
     rf"|career\s*history|work\s*history|internships?"
     rf"|corporate\s+success|career\s+journey|professional\s+journey"
-    rf"|career\s+chronology|employment\s+timeline"
+    rf"|career\s+chronology|employment\s+timeline|career\s+timeline(\s*\([^)]*\))?"
     rf"|key\s+tasks?(\s+performed|\s+handled)?"
     rf"|tasks?\s+performed"
     rf"|key\s+responsibilities|core\s+responsibilities|professional\s+responsibilities"
@@ -62,6 +62,9 @@ _EXPERIENCE_PATTERN = re.compile(
 
 
 SECTION_PATTERNS = {
+    "cover_letter": _build_section_pattern([
+        r"(resume\s+)?cover(ing)?\s+letter",
+    ]),
     "summary": _build_section_pattern([
         r"(professional\s+|personal\s+|profile\s+|executive\s+|career\s+|brief\s+)?summary",
         r"objective", r"profile",
@@ -70,7 +73,7 @@ SECTION_PATTERNS = {
     "experience": _EXPERIENCE_PATTERN,
     "education": _build_section_pattern([
         r"education(al)?(\s+background)?",
-        r"academics?(\s+background)?",
+        r"academ(y|ies|ics?)(\s+background)?",
         r"academic\s+details?",
         r"academic\s+credentials?",
         r"professional\s+academic\s+details?",
@@ -178,7 +181,6 @@ _KEYWORD_TO_LABEL = {
     "interest": "interests", "hobbies": "interests",
     "strength": "strengths",
     "declaration": "declaration",
-    "personal": "personal_details",
     "responsibilit": "roles_responsibilities",
 }
 
@@ -199,6 +201,14 @@ def _clean_heading_candidate(line: str) -> str:
 
 
 def _is_wrapped_word(candidate: str, prev_lines: list) -> bool:
+    for prev in reversed(prev_lines):
+        prev_stripped = prev.strip()
+        if prev_stripped:
+            if prev_stripped.count('(') > prev_stripped.count(')'):
+                return True
+            if prev_stripped.count('[') > prev_stripped.count(']'):
+                return True
+            break
     if " " in candidate:
         return False
     if candidate != candidate.lower():
@@ -542,7 +552,8 @@ def detect_section_label(line: str, prev_lines: list = None) -> tuple:
     if cand_lower in ("professional profile", "working experience", "work experience"):
         return "experience", 0.95
     if re.match(r'^\s*(?:bachelor|master|doctor|diploma|b\.?\s*tech|m\.?\s*tech|b\.?\s*e|m\.?\s*e|b\.?\s*sc|m\.?\s*sc|b\.?\s*ca|m\.?\s*ca|b\.?\s*com|m\.?\s*com|b\.?\s*a|m\.?\s*a|ph\.?d)\b', candidate, re.IGNORECASE):
-        return "education", 0.95
+        if not ("|" in line or " at " in line.lower() or re.search(r'\b(trainee|engineer|apprentice|executive|manager|officer|associate|lead)\b', line, re.IGNORECASE) or re.search(r'\b(ltd|inc|corp|pvt|llc|gmbh|co)\b', line, re.IGNORECASE)):
+            return "education", 0.95
     for label, pattern in SECTION_PATTERNS.items():
         if pattern.match(candidate):
             if _is_wrapped_word(candidate, prev_lines):
@@ -817,7 +828,7 @@ def split_into_sections(text: str) -> list:
                         confidence = 0.85
                         inline_content = stripped
 
-        if label is None and stripped != "":
+        if label is None and stripped != "" and current_label != "education":
             if not _is_wrapped_word(stripped, lines[:i]):
                 if _looks_like_job_block_header(stripped, i, lines):
                     label = "experience"

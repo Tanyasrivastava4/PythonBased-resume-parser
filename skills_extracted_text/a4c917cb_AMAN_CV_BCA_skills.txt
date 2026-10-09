@@ -1,0 +1,42 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a4c917cb_AMAN_CV_BCA_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Frontend
+HTML, CSS, JavaScript, React.js, Vite.js,
+Redux, Next.js, Tailwind CSS, Material UI,
+Bootstrap
+Backend
+Node JS, Express JS, MongoDB, Cloudinary,
+Bcrypt, Nodemailer
+Languages
+JavaScript, TypeScript, Python
+Tools
+Git, GitHub, VS Code, Postman, Vercel
+
+── Extraction Results ──
+Skills found   : 38
+Confidence     : 0.92
+Time           : 146.74 ms
+Method         : flashtext_skills_section | fuzzy(React.js→React(100%), Vite.js→Vite(100%), Express JS→Express.js(100%), Node.js.→Node.js(93%), e-commerce→E-commerce(100%))
+
+── All Skills (38) ──
+API Design, B2B Sales, Bootstrap, CDN, CSS3, Classroom Management, Collaboration, Data Science, E-commerce, E-learning, Express.js, Git, GitHub, HTML5, Healthcare, JWT, Java, JavaScript, Lead Generation, LinkedIn, Material UI, Microservices, MongoDB, Next.js, Node.js, Payments, Postman, Python, Razorpay, React, Redux, Shopify, Tailwind CSS, TypeScript, UX Design, VS Code, Vercel, Vite
+
+── By Category ──
+  ai_ml                          ['Data Science']
+  architecture                   ['API Design', 'Microservices']
+  cloud_infra                    ['CDN', 'Vercel']
+  database                       ['MongoDB']
+  design                         ['UX Design']
+  dev_tool                       ['Git', 'GitHub', 'Postman', 'VS Code', 'Vite']
+  domain                         ['Healthcare', 'Payments']
+  education_domain               ['Classroom Management', 'E-learning']
+  fintech                        ['Razorpay']
+  programming_language           ['Java', 'JavaScript', 'Python', 'TypeScript']
+  retail                         ['E-commerce', 'Shopify']
+  sales                          ['B2B Sales', 'Lead Generation']
+  security                       ['JWT']
+  soft_skill                     ['Collaboration']
+  web_framework                  ['Bootstrap', 'CSS3', 'Express.js', 'HTML5', 'LinkedIn', 'Material UI', 'Next.js', 'Node.js', 'React', 'Redux', 'Tailwind CSS']

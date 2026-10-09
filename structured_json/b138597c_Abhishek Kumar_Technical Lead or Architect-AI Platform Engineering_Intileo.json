@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b138597c_Abhishek Kumar_Technical Lead or Architect-AI Platform Engineering_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:05.494738+00:00",
+    "generated_at": "2026-10-07T09:27:56.084309+00:00",
     "sections_found": [
       "certifications",
       "early_career",
@@ -60,6 +60,7 @@
       "Bash",
       "Bitbucket",
       "Bootstrap",
+      "Business Development",
       "C#",
       "C++",
       "CI/CD",
@@ -106,10 +107,13 @@
       "MCP Server",
       "MSSQL",
       "Mac OS",
+      "Machine Learning",
       "Materialize",
       "Matplotlib",
+      "Mechanical Engineering",
       "MeiliSearch",
       "Microservices",
+      "Microsoft Edge",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Windows",
@@ -133,17 +137,21 @@
       "PowerShell",
       "Presentation Skills",
       "Problem Solving",
+      "Product Design",
+      "Project Governance",
       "Project Management",
       "Prometheus",
       "Puppet",
       "Puppeteer",
       "Python",
       "Quality Assurance",
+      "R",
       "RAG",
       "RDP",
       "RTMP",
       "React",
       "Redis",
+      "Reliability",
       "Robot Framework",
       "Rust",
       "SASS",
@@ -159,7 +167,9 @@
       "Supply Chain Management",
       "Svelte",
       "TDengine",
+      "Team Leadership",
       "Trello",
+      "Twilio",
       "TypeScript",
       "UPnP",
       "VBA",
@@ -180,7 +190,6 @@
         ".NET",
         "C#",
         "C++",
-        "Dart",
         "Deno",
         "Go",
         "Gradle",
@@ -188,9 +197,9 @@
         "JavaScript",
         "PHP",
         "Python",
+        "R",
         "Rust",
-        "TypeScript",
-        "VBA"
+        "TypeScript"
       ],
       "web_framework": [
         ".NET Core",
@@ -234,6 +243,7 @@
         "Agile",
         "Jira",
         "Kanban",
+        "Project Governance",
         "Project Management",
         "Scrum"
       ],
@@ -248,6 +258,7 @@
         "Git",
         "GitHub",
         "GitLab",
+        "Microsoft Edge",
         "PhoneGap",
         "PlantUML",
         "Puppeteer",
@@ -258,6 +269,9 @@
         "Linux",
         "Microsoft Windows",
         "PowerShell"
+      ],
+      "biz_dev": [
+        "Business Development"
       ],
       "devops": [
         "CI/CD",
@@ -278,13 +292,19 @@
         "Leadership",
         "Presentation Skills",
         "Problem Solving",
-        "Stakeholder Management"
+        "Reliability",
+        "Stakeholder Management",
+        "Team Leadership"
       ],
       "collaboration": [
         "Confluence"
       ],
       "mobile_dev": [
         "Cordova"
+      ],
+      "programming": [
+        "Dart",
+        "VBA"
       ],
       "operations": [
         "Disaster Recovery",
@@ -326,9 +346,14 @@
         "Mac OS"
       ],
       "ai_ml": [
+        "Machine Learning",
         "Matplotlib",
         "NumPy",
         "Pandas"
+      ],
+      "engineering": [
+        "Mechanical Engineering",
+        "Product Design"
       ],
       "architecture": [
         "Microservices",
@@ -354,6 +379,9 @@
       "networking": [
         "RDP"
       ],
+      "api_service": [
+        "Twilio"
+      ],
       "support": [
         "Zendesk"
       ]
@@ -364,12 +392,12 @@
   "experience": {
     "jobs": [
       {
-        "role": "as Engineering Manager",
+        "role": "Engineering Manager",
         "company": "Kalp Digital Infra Pvt. Ltd",
         "location": "Noida",
         "start": "Nov’24",
         "end": "Sep’25",
-        "method": "date_regex+comma_company_role_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 11,
         "bullets": [
           "At Kalp Digital Infra, I lead and mentor a high-performing engineering team, architect and design innova?ve blockchain-powered Web2 & Web3 solu?ons, and oversee end-to-end development and deployment, driving technological excellence and transforma?ve business growth.",
@@ -377,7 +405,8 @@
           "Built a customizable RAG-based AI assistant with mul?-source knowledge integra?on, reducing opera?onal costs by 15%.",
           "Transformed legacy applica?ons into secure, resilient systems, repelling advanced cyberaeacks and ensuring 99.99% up?me.",
           "Partnered with enterprise clients to deliver scalable solu?ons, achieving 95%+ sa?sfac?on and strengthening long-term rela?onships.",
-          "Aligned engineering roadmaps with business priori?es, enabling cross-func?onal delivery and securing repeat contracts worth ₹3 million."
+          "Aligned engineering roadmaps with business priori?es, enabling cross-func?onal delivery and securing repeat contracts worth ₹3 million.",
+          "Op?mized CI/CD pipelines and cloud infrastructure, cugng deployment ?me by 40% and improving release reliability."
         ],
         "sub_sections": [
           "Key Achievements"
@@ -387,12 +416,12 @@
         "source": "experience"
       },
       {
-        "role": "➢ Op?mized CI",
-        "company": "MTS SE 5",
-        "location": null,
+        "role": "Software Architect (MTS SE 5",
+        "company": "NetApp India Pvt. Ltd",
+        "location": "Bangalore",
         "start": "Aug’22",
         "end": "Sep’23",
-        "method": "date_regex+inline_parens",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 14,
         "bullets": [
           "At NetApp India R&D, I lead the architecture, design, development, and implementa?on of cugng-edge web applica?ons and scalable cloud-based SaaS solu?ons, driving innova?on and enhancing product performance.",
@@ -400,7 +429,8 @@
           "Evaluated MVPs and selected UI, tech stack, databases, and frameworks, shaping core project modules.",
           "Built large-scale API plaDorm integra?ng APIs via unified gateway with common authen?ca?on, enhancing scalability & security.",
           "Designed and implemented end-to-end architecture for complex mul?-?er enterprise web and desktop applica?ons.",
-          "Led architecture and product design for cri?cal projects, op?mizing system-wide trade-offs and boos?ng performance by 35%."
+          "Led architecture and product design for cri?cal projects, op?mizing system-wide trade-offs and boos?ng performance by 35%.",
+          "Provided technical leadership to engineering team on cri?cal projects, ensuring alignment and ?mely delivery."
         ],
         "sub_sections": [
           "Key Achievements"
@@ -410,34 +440,35 @@
         "source": "experience"
       },
       {
-        "role": "ensuring alignment and ?mely delivery. : Bajaj Finserv Ltd",
-        "company": "➢ Provided technical leadership to engineering team on cri?cal projects",
-        "location": "Pune as Deputy Na>onal Lead",
+        "role": "Deputy Na>onal Lead (E08",
+        "company": "Bajaj Finserv Ltd",
+        "location": "Pune",
         "start": "May’21",
         "end": "Aug’22",
-        "method": "date_regex+comma_company_role_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 16,
         "bullets": [
           "As a Project Manager, I spearheaded a dynamic team of 25+ professionals across leadership, development, QA, and support, successfully delivering",
           "major projects and mul?ple concurrent ini?a?ves. I ensured 24x7 system up?me by proac?vely diagnosing and resolving cri?cal technical challenges, while con?nuously driving process innova?on to enhance efficiency and performance.",
           "Established project governance, sprint planning & QA processes, boos?ng efficiency and deliverable quality.",
           "Deployed auto-scaling, disaster-resilient environments, improving system reliability and availability.",
-          "Developed monitoring tools for core and dependent components, preven?ng down?me and ensuring op?mal performance."
+          "Developed monitoring tools for core and dependent components, preven?ng down?me and ensuring op?mal performance.",
+          "Led team growth (3 to 25), improved collabora?on & morale, and shaped enterprise architecture to enhance performance & project vision."
         ],
         "sub_sections": [
           "Key Achievements"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "improved collabora?on & morale, and shaped enterprise architecture to enhance performance & project vision. : HCL Technologies Ltd",
-        "company": "➢ Led team growth",
-        "location": "Noida as Senior Technical Lead",
+        "role": "Senior Technical Lead",
+        "company": "HCL Technologies Ltd",
+        "location": "Noida",
         "start": "Jan’16",
         "end": "May’21",
-        "method": "date_regex+comma_company_role_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 65,
         "bullets": [
           "As Senior Technical Lead, I drove technical excellence across 4 major projects for top clients, leading a team of 15 engineers while fulfilling roles as Lead, Consultant, Architect, and Scrum/Kanban Master to deliver innova?ve solu?ons that consistently exceeded expecta?ons.",
@@ -455,26 +486,40 @@
         "source": "experience"
       },
       {
-        "role": "Architect/Project Manager",
-        "company": "Gurgaon, Haryana",
+        "role": "., India | Engineering Lead",
+        "company": "➢ Agnity India Technology Pvt. Ltd., Noida, U.P",
         "location": "India",
-        "start": "Oct’13",
-        "end": "May’14",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 8,
+        "start": "May’14",
+        "end": "Jan’16",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 21,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Lead",
-        "company": "Gurgaon, Haryana",
+        "role": "., India | Tech Architect/Project Manager",
+        "company": "➢ In>gate Technologies Pvt. Ltd., Noida, U.P",
+        "location": "India",
+        "start": "Oct’13",
+        "end": "May’14",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 8,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": ", India | Team Lead",
+        "company": "➢ IOMEDIA Inc., Gurgaon, Haryana",
         "location": "India",
         "start": "Jul’13",
         "end": "Oct’13",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 4,
         "bullets": [],
         "sub_sections": [],
@@ -483,12 +528,12 @@
         "source": "experience"
       },
       {
-        "role": "Senior So)ware Engineer",
-        "company": "Gurgaon, Haryana",
+        "role": ", India | Senior So)ware Engineer",
+        "company": "➢ Mobilous Inc., Gurgaon, Haryana",
         "location": "India",
         "start": "Sep’11",
         "end": "Jul’13",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 23,
         "bullets": [],
         "sub_sections": [],
@@ -497,27 +542,97 @@
         "source": "experience"
       },
       {
-        "role": "Engineer",
-        "company": "New Delhi",
+        "role": ", India | So)ware Engineer",
+        "company": "➢ NIIT Ltd., New Delhi",
         "location": "India",
         "start": "Mar’10",
         "end": "Aug’11",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 18,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": ", India | System Engineer",
+        "company": "➢ Geine Technologies India Pvt. Ltd., Gurgaon, Haryana",
+        "location": "India",
+        "start": "Oct’09",
+        "end": "Mar’10",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 6,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "., India | So)ware Engineer",
+        "company": "➢ G-Cube Solu>ons Pvt. Ltd., Noida, U.P",
+        "location": "India",
+        "start": "Nov’06",
+        "end": "Sep’09",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 35,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Nov’24",
+        "company": "Sep’25: Kalp Digital Infra Pvt. Ltd.",
+        "location": "Noida as Engineering Manager",
+        "start": "2016",
+        "end": "2017",
+        "method": "year_range_short_regex",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Won “Top Trainer Award ” for the Year",
+        "location": null,
+        "start": "2017",
+        "end": "2018",
+        "method": "year_range_short_regex",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Aug’22",
+        "company": "Sep’23: NetApp India Pvt. Ltd.",
+        "location": "Bangalore as Software Architect (MTS SE 5)",
+        "start": "2019",
+        "end": "2020",
+        "method": "year_range_short_regex",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.9,
-      "total_months": 155,
-      "overlapping_periods_merged": 4
+      "total_years": 17.8,
+      "total_months": 214,
+      "overlapping_periods_merged": 10
     },
-    "_confidence": 0.96
+    "_confidence": 0.83
   },
   "education": {
     "entries": [
@@ -605,18 +720,43 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[2]",
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[9]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[10]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[11]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[4]",
-      "confidence": 0.98,
+      "field": "experience.jobs[12]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[13]",
+      "confidence": 0.55,
       "reason": "incomplete_fields"
     },
     {

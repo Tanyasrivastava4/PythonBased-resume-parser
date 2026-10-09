@@ -2,7 +2,7 @@
 FILE: 419982f8_55809f7a_Naukri_SharjeelMuhammed[14y_1m]_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'early_career', 'education', 'experience', 'header', 'languages', 'projects', 'skills']
-Overall conf.  : 0.92
+Overall conf.  : 0.94
 Needs review   : True
 
 CONTACT
@@ -14,18 +14,18 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (45) — confidence 0.92
+SKILLS (53) — confidence 0.92
 ----------------------------------------------------------------------
-Accounts Receivable, Agile, Analytics Strategy, Asset Management, BFSI, Business Strategy, Change Management, Communication, Creativity, Cross-functional Collaboration, Customer Experience, Data Warehousing, Design Thinking, Digital Transformation, Go, Lease Management, Life Insurance, Logistics, MS Office, Microsoft Excel, Microsoft Power Automate, Microsoft PowerPoint, Microsoft Teams, Microsoft Visio, Microsoft Word, Operational Excellence, Oracle Fusion Cloud, Order-to-Cash, Payments, Power BI, Problem Solving, Process Improvement, Procure-to-Pay, Product Design, Project Management, Record-to-Report, Reporting, SAP, SAP FICO, Salesforce, Shared Services, Six Sigma, Stakeholder Management, Team Leadership, Xplanner
+Accounting, Accounts Receivable, Agile, Analytics Strategy, Asset Management, Auditing, BFSI, Business Strategy, Change Management, Communication, Creativity, Cross-functional Collaboration, Customer Experience, Data Warehousing, Design Thinking, Digital Transformation, Go, Lease Management, Life Insurance, LinkedIn, Logistics, MS Office, Microsoft Excel, Microsoft Power Automate, Microsoft PowerPoint, Microsoft Teams, Microsoft Visio, Microsoft Word, NBFC, Operational Excellence, Operations Management, Oracle Database, Oracle Fusion Cloud, Order-to-Cash, Payments, Power BI, Problem Solving, Process Improvement, Procure-to-Pay, Product Design, Professional Tax, Project Management, Record-to-Report, Reporting, SAP, SAP FICO, Salesforce, Shared Services, Six Sigma, Stakeholder Management, Team Leadership, Wealth Management, Xplanner
 
-EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.9
-Total experience: 14.8 years (177 months, 4 overlaps merged)
+EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.95
+Total experience: 14.8 years (178 months, 4 overlaps merged)
 ----------------------------------------------------------------------
-  1. Manager @ None (2016 - 2018) [conf 0.85, review=True]
-  2. Deloitte Touche Tohmatsu India LLP Senior Mumbai @ Accountants of India (Jan’23 - Present) [conf 0.98, review=False]
+  1. Overview @ Business Analyst (2016 - 2018) [conf 0.85, review=True]
+  2. Manager (EMA @ Institute of Chartered (Jan’23 - Present) [conf 0.98, review=False]
   3. Business Analyst @ Overview (Jun’17 - Present) [conf 0.98, review=False]
-  4. None @ 01 st Time Horizon (May’14 - Jun’17) [conf 0.85, review=True]
-  5. None @ Overview – Operations (Jan’12 - May’14) [conf 0.85, review=True]
+  4. Time Horizon @ Overview – Operations (May’14 - Jun’17) [conf 0.98, review=False]
+  5. Time Horizon @ Time Horizon (Jan’12 - May’14) [conf 0.98, review=False]
 
 EDUCATION (0) — confidence 0.0
 ----------------------------------------------------------------------
@@ -50,9 +50,7 @@ ACHIEVEMENTS (14) — confidence 0.85
   • processes.
   • RARE Award for successful fund accounting business migration of a leading asset management company.
 
-REVIEW QUEUE (4 flagged fields)
+REVIEW QUEUE (2 flagged fields)
 ----------------------------------------------------------------------
   experience.jobs[0]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[3]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[4]                  conf=0.85  reason=incomplete_fields
   education                           conf=0.0  reason=section_present_but_empty

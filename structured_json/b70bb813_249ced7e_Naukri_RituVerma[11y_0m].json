@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b70bb813_249ced7e_Naukri_RituVerma[11y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:08.371373+00:00",
+    "generated_at": "2026-10-07T09:28:00.222295+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -52,12 +52,12 @@
     "items": [
       "Analyze",
       "Cash Flow Management",
-      "Client Relationship Management",
       "Communication",
       "Cost Analysis",
+      "Customer Relationship Management",
       "Data Management",
-      "Disaster Recovery",
       "Employee Engagement",
+      "Exit Formalities",
       "MIS Reporting",
       "Mechanical Engineering",
       "Negotiation",
@@ -80,27 +80,25 @@
         "Cash Flow Management",
         "Cost Analysis"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
-      ],
       "soft_skill": [
         "Communication",
         "Negotiation",
         "Stakeholder Management"
       ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
       "productivity": [
         "Data Management"
-      ],
-      "operations": [
-        "Disaster Recovery",
-        "Procurement",
-        "Vendor Management"
       ],
       "hr": [
         "Employee Engagement",
         "Onboarding",
         "Payroll Administration",
         "Recruitment"
+      ],
+      "hr_recruitment": [
+        "Exit Formalities"
       ],
       "banking": [
         "MIS Reporting"
@@ -110,6 +108,10 @@
       ],
       "domain": [
         "Payments"
+      ],
+      "operations": [
+        "Procurement",
+        "Vendor Management"
       ],
       "real_estate": [
         "Real Estate Valuation"
@@ -122,72 +124,148 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Executive",
-        "company": "Work Experience",
-        "location": "Bonanza Portfolio Ltd",
+        "role": null,
+        "company": "Bonanza Portfolio Ltd",
+        "location": null,
         "start": "12-April 2022",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 54,
-        "bullets": [
-          "Interaction with all HODs at Pan India Level for Recruitment Process.",
-          "Understanding business needs on Manpower Requirement.",
-          "Facilitating clear communication on updation of Manpower Recruitment. 4) Coordinating with Vendors/Consultants for Hiring Related activity.",
-          "PMS (Goal Setting, Confirmation, Annual Appraisal, Prepared Appraisal File) all process were followed as per Timeline.",
-          "Handing complete life cycle of recruitment process from Sourcing, Initial Screening, Virtual/Telephonic Interviewing Analysis, Face-to-Face Interview process and co-ordination with candidates till they join the company. Looking after various job posts all over India, different levels including Head Hunting.",
-          "Expertise in the areas of Screening, Sourcing, Interviewing, Recruiting, Contract Recruitment, Salary Negotiation, Vendor Management.",
-          "Scrutinizing and Short listing profiles based on skills, domain, qualifications and relevant experience.",
-          "Posting the requirements in different job portals, downloading resumes.",
-          "Informing candidates about the opening, explaining them the job profile and company details.",
-          "Handling a Team of 5 employees in Human Resource Team.",
-          "Updating Recruitment related data on daily base.",
-          "Handling Employee Documentation, Salary Negotiation, Employee Onboarding. 2) Preparing Offer letters, Appointment letters, Joining formalities and employment terms & conditions.",
-          "Processing Probation, Confirmation, Extension, Transfer and Termination papers of the employees in the system.",
-          "Maintaining attendance and leave records, coordinating with employees to solve their queries.",
-          "Providing pilot induction to new incumbents.",
-          "Handling Employee Grievances by understanding employee concerns, escalate to appropriate levels, and ensure resolution of the concern.",
-          "Organize employee engagement activities.",
-          "Facilitating the resignation formalities to the employees."
-        ],
-        "sub_sections": [
-          "Recruitment",
-          "Employee Engagement and Operational Activities",
-          "Address: Global city, Virar West"
-        ],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Torrent Power Ltd",
-        "location": null,
-        "start": "16th Sept 2012",
-        "end": "15th Nov 2016",
         "method": "date_regex+company_suffix_match",
-        "duration_months": 50,
-        "bullets": [
-          "Coordinating with technical departments across the cities (Agra, Bhiwandi) Keeping proper follow up appointments.",
-          "Executing and updating the data in System Software like; SAP Keep accurate records of monthly and annual figures on a computer database.",
-          "Preparing reports for technical team performance analysis as well as Maintain MIS for management review."
-        ],
+        "duration_months": 54,
+        "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Designation (A): Assistant in Finance Department: Finance & Accountants",
+        "role": "Senior Executive",
+        "company": "Stakeholder Management",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [
+          "Understanding business needs on Manpower Requirement.",
+          "Facilitating clear communication on updation of Manpower Recruitment. 4) Coordinating with Vendors/Consultants for Hiring Related activity.",
+          "PMS (Goal Setting, Confirmation, Annual Appraisal, Prepared Appraisal File) all process were followed as per Timeline."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Recruitment",
+        "company": "1) Handing complete life cycle of recruitment process from Sourcing, Initial Screening, Virtual/Telephonic Interviewing Analysis, Face-to-Face Interview process and co-ordination with candidates till they join the company. Looking after various job posts all over India, different levels including Head Hunting",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.5,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "MIS Reports",
+        "company": "developing various reports for analysis of performance of sales team quarterly",
+        "location": "sales report, lead performance report, sales incentive report.",
+        "start": null,
+        "end": null,
+        "method": "none",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.35,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Updating Recruitment related data on daily base.",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "none",
+        "duration_months": 0,
+        "bullets": [
+          "Handling Employee Documentation, Salary Negotiation, Employee Onboarding. 2) Preparing Offer letters, Appointment letters, Joining formalities and employment terms & conditions."
+        ],
+        "sub_sections": [
+          "Employee Engagement and Operational Activities"
+        ],
+        "confidence": 0.35,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Maintaining attendance and leave records, coordinating with employees to solve their queries.",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "none",
+        "duration_months": 0,
+        "bullets": [
+          "Providing pilot induction to new incumbents.",
+          "Handling Employee Grievances by understanding employee concerns, escalate to appropriate levels, and ensure resolution of the concern.",
+          "Organize employee engagement activities.",
+          "Facilitating the resignation formalities to the employees."
+        ],
+        "sub_sections": [
+          "Address: Global city, Virar West"
+        ],
+        "confidence": 0.35,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Designation (B): HR (internal transfer",
+        "company": "Torrent Power Ltd",
+        "location": null,
+        "start": "16th Sept 2012",
+        "end": "15th Nov 2016",
+        "method": "date_regex+multiline_company_above_role",
+        "duration_months": 50,
+        "bullets": [
+          "Coordinating with technical departments across the cities (Agra, Bhiwandi) Keeping proper follow up appointments.",
+          "Executing and updating the data in System Software like; SAP Keep accurate records of monthly and annual figures on a computer database.",
+          "Create detailed HR reports to present to management.",
+          "Filing, Documentation and administration work.",
+          "Preparing reports for technical team performance analysis as well as Maintain MIS for management review.",
+          "Handling joining formalities for new hired employees across the process.",
+          "Generating the employee codes for all the employees joined.",
+          "Sending Hiring reports to all the process heads on a daily basis.",
+          "Ensuring completion of reference check and criminal verification and coordinating with the vendor for reports for the employees and ensure that it is completed within the TAT.",
+          "Maintain various monthly reports, MIS analysis & updating recruitment databases.",
+          "Managing entire documentation that includes filing of the documents etc.",
+          "Actively played a major role in quarterly audits."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Designation : Assistant in Finance",
         "company": "Torrent Power Pvt. Ltd",
         "location": null,
         "start": "Sept. 2009",
         "end": "12th Sep. 2012",
-        "method": "date_regex+date_prefix_title+subfield_label_company",
+        "method": "date_regex+subfield_label_company+title_dict",
+        "pre_date_header": [
+          "Generating Introduction letters for new bank account opening.s",
+          "Organisation: Torrent Power Pvt. Ltd.",
+          "Designation (A): Assistant in Finance"
+        ],
         "duration_months": 37,
         "bullets": [
           "Coordinating with Finance & operation departments across the city. Operation Process - Developing process for data management for various verticals like- Finance, Cash Management, Job costing, Vendor data, petty cash. Finance Management-Actively Involved in the entire Cash management which included the backend development. Handled the petty cash for the finance department for day to day work and analyzed department costing. MIS Reports – developing various reports for analysis of performance of sales team quarterly, sales report, lead performance report, sales incentive report. Analyze business information to identify process improvements for increasing business efficiency and effectiveness. Ensure that sales invoices are raised on time and payments are receive with regular follow up. Managing the Lead Management System. Ensuring proper and timely allocation of Leads to the sales team. Implementation & training given to sales team for Sales CRM.",
@@ -206,7 +284,7 @@
       "total_months": 141,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.94
+    "_confidence": 0.65
   },
   "education": {
     "entries": [
@@ -255,13 +333,38 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
+      "field": "experience",
+      "confidence": 0.65,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
       "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.5,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.35,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.35,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
+      "confidence": 0.35,
       "reason": "incomplete_fields"
     }
   ]

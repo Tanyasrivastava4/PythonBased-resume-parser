@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0af7d5bb_a7cf322e_Aasma_Resume__segmented.txt",
-    "generated_at": "2026-09-30T06:57:50.603756+00:00",
+    "generated_at": "2026-10-07T10:30:43.723144+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -52,16 +52,22 @@
       "CRM Tools",
       "Call Handling",
       "Communication",
+      "Customer Experience",
       "Customer Handling",
+      "Customer Relationship Management",
+      "Customer Retention",
       "Data Management",
       "Interpersonal Skills",
       "MS Office",
+      "Microsoft Teams",
       "Problem Solving",
+      "Professional Tax",
       "Service Scheduling"
     ],
     "by_category": {
       "sales": [
-        "CRM Tools"
+        "CRM Tools",
+        "Customer Relationship Management"
       ],
       "customer_service": [
         "Call Handling",
@@ -73,13 +79,21 @@
         "Interpersonal Skills",
         "Problem Solving"
       ],
+      "client_mgmt": [
+        "Customer Experience",
+        "Customer Retention"
+      ],
       "productivity": [
         "Data Management",
-        "MS Office"
+        "MS Office",
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Professional Tax"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%), Email communication→Communication(100%))"
+    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%), Email communication→Communication(100%), professional→Professional Tax(95%))"
   },
   "experience": {
     "jobs": [
@@ -90,12 +104,12 @@
         "start": "June 2022",
         "end": "Present",
         "method": "date_regex+comma_company_location",
-        "duration_months": 52,
+        "duration_months": 53,
         "bullets": [
           "Handling customer inquiries, feedback, and service scheduling",
           "Ensuring customer satisfaction and timely service delivery",
           "Coordinating with workshop and service teams for issue resolution",
-          "Managed inbound and outbound calls for service bookings and follow-ups"
+          "Maintaining service records in CRM and achieving satisfaction KPIs"
         ],
         "sub_sections": [],
         "confidence": 0.85,
@@ -104,40 +118,80 @@
       },
       {
         "role": null,
-        "company": "Supported the service department by tracking vehicle servicing and updates",
-        "location": null,
-        "start": "June 2020",
-        "end": "May 2021",
-        "method": "date_regex",
+        "company": "Ford",
+        "location": "Faridabad",
+        "start": "June 2021",
+        "end": "May 2022",
+        "method": "date_regex+comma_company_location",
         "duration_months": 12,
-        "bullets": [],
+        "bullets": [
+          "Managed inbound and outbound calls for service bookings and follow-ups",
+          "Handled customer complaints and escalations with professionalism"
+        ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
         "role": null,
-        "company": "Assisted customers with service requests and appointment coordination",
-        "location": null,
+        "company": "Mahadev Hyundai",
+        "location": "Faridabad",
+        "start": "June 2020",
+        "end": "May 2021",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 12,
+        "bullets": [
+          "Supported the service department by tracking vehicle servicing and updates",
+          "Improved service follow-up quality and maintained customer feedback logs"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Pasco",
+        "location": "Faridabad",
         "start": "June 2018",
         "end": "May 2020",
-        "method": "date_regex",
+        "method": "date_regex+comma_company_location",
         "duration_months": 24,
-        "bullets": [],
+        "bullets": [
+          "Assisted customers with service requests and appointment coordination",
+          "Contributed to customer retention through prompt support"
+        ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "ABC Motors",
+        "location": "Faridabad",
+        "start": "June 2016",
+        "end": "May 2018",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 24,
+        "bullets": [
+          "Handled customer calls and maintained satisfaction reports",
+          "Helped streamline service appointment processes for better customer experience"
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.3,
-      "total_months": 88,
+      "total_years": 10.4,
+      "total_months": 125,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.65
+    "_confidence": 0.85
   },
   "education": {
     "entries": [
@@ -186,15 +240,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.65,
-      "reason": "low_confidence"
-    },
     {
       "field": "experience.jobs[0]",
       "confidence": 0.85,
@@ -202,12 +251,22 @@
     },
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.55,
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     }
   ]

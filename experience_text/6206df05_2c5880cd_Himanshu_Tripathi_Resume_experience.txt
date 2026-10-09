@@ -1,0 +1,68 @@
+======================================================================
+FILE: 6206df05_2c5880cd_Himanshu_Tripathi_Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Company
+Role Duration
+Simple Logic Pvt Ltd
+Associate Technical Consultant / Oracle 02 Feb 2023 - 21 Jul 2025
+DBA
+Sysnet Technology Pvt Ltd
+Oracle Database Administrator 14 Aug 2025 - Present
+
+PROJECT EXPERIENCE
+Client
+Company
+
+• Oracle software installations and database creations.
+• Multiplexing of...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.7 years (44 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Simple Logic Pvt Ltd
+  Company      : Company
+  Location     : None
+  Start - End  : 02 Feb 2023 - 21 Jul 2025
+  Duration     : 30 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Sysnet Technology Pvt Ltd
+  Company      : DBA
+  Location     : None
+  Start - End  : 14 Aug 2025 - Present
+  Duration     : 14 months
+  Bullets      : 20
+    • Oracle software installations and database creations.
+    • Multiplexing of control files and redo log files.
+    • Provided support to production and test databases on Linux servers.
+    • Data Guard physical standby implementation and maintenance.
+    • Creating and adding tablespaces and datafiles.
+    • Creating users, granting privileges and roles.
+    • Looking into action requests (tickets), resolving issues, and providing permanent fixes.
+    • Schema and table-level refreshes using Data Pump.
+    • Configured tnsnames.ora and listener.ora files manually and using Net Manager.
+    • Performed database cloning from production to test environment.
+    • Restored and recovered databases for missing datafiles and block corruption using RMAN.
+    • Took RMAN backups on a daily basis and monitored backup job schedules.
+    • Performed logical backups when required.
+    • Successfully implemented TDE on UAT and Production.
+    • Monitored daily health check reports and troubleshot database problems.
+    • Configured pfile, spfile, and parameter management as required.
+    • Generated AWR reports, gathered statistics, and performed index rebuild activities for performance tuning.
+    • Worked on RAC environments and supported RAC database patching activities.
+    • Configured Data Guard and tested switchover operations.
+    • Worked in 24x7 production support environment.
+  Method       : date_regex+date_prefix_title+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

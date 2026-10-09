@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "fdeed472_e701e355_Amol Sake_RCS (Rich Communication Services) Specialist-Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:54.679855+00:00",
+    "generated_at": "2026-10-07T09:29:00.474953+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,14 +49,17 @@
   "summary": "• Overall, 11 Years of experience in Telecom and Networking. To work with an organization which will give an\nexcellent working environment and a challenging job where I can learn continuously and add value to myself as\nwell as to the organization.",
   "skills": {
     "items": [
-      "Analytical Thinking",
+      "4G",
       "Change Management",
+      "Coroutines Flow",
+      "DRA",
       "Facebook",
       "Firewall",
       "Google",
       "Grafana",
       "HPSM",
       "Huawei",
+      "LTE",
       "Mentoring",
       "Microsoft Teams",
       "Networking",
@@ -66,19 +69,24 @@
       "Root Cause Analysis",
       "Route",
       "Standard Operating Procedures",
+      "Straight-Through Processing",
+      "Team Coordination",
       "Team Leadership",
       "Telecom",
       "Wireshark",
       "Zendesk"
     ],
     "by_category": {
-      "soft_skill": [
-        "Analytical Thinking",
-        "Mentoring",
-        "Team Leadership"
+      "telecom": [
+        "4G",
+        "DRA",
+        "LTE"
       ],
       "project_mgmt": [
         "Change Management"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "web_framework": [
         "Facebook"
@@ -97,6 +105,10 @@
       ],
       "hardware": [
         "Huawei"
+      ],
+      "soft_skill": [
+        "Mentoring",
+        "Team Leadership"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -117,7 +129,11 @@
         "Wireshark"
       ],
       "management": [
-        "Standard Operating Procedures"
+        "Standard Operating Procedures",
+        "Team Coordination"
+      ],
+      "banking": [
+        "Straight-Through Processing"
       ],
       "domain": [
         "Telecom"
@@ -127,19 +143,23 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Networking.→Networking(95%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(Networking.→Networking(95%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "as a Assistant Manager",
-        "company": "Handling priority escalations email from client, so that end user is not impacted with the service provider.",
+        "role": "Assistant Manager",
+        "company": "Tata Communications Limited from",
         "location": null,
         "start": "September 2025",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 13,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Experience:7"
+        ],
+        "duration_months": 14,
         "bullets": [
+          "Handling priority escalations email from client, so that end user is not impacted with the service provider.",
           "Working as a mentor for team and solving their technical queries related to SMS, APIs, RCS, WhatsApp.",
           "Working on preparing SOPs for team for smooth operations handling.",
           "Handling customer critical issues like AIT, Bot Attack, billing disputes which are impacting Tata Business.",
@@ -147,19 +167,23 @@
           "Attending internal teams meetings to discuss the outages, critical issues, Process change update and improvement scope."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "as a Team Lead",
-        "company": "Responsible for take an action on escalations emails from client so that client is not impacted with our service and managing the team of 15 engineers.",
+        "role": "Team Lead",
+        "company": "iBasis India Private Limited from",
         "location": null,
         "start": "May 2023",
         "end": "August 2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Experience:6"
+        ],
         "duration_months": 28,
         "bullets": [
+          "Responsible for take an action on escalations emails from client so that client is not impacted with our service and managing the team of 15 engineers.",
           "Working on product IoT, Mobile (2G, 3G, 4G Signaling and Data), SMS, Voice and supporting to team regarding technical and critical issues.",
           "Providing technical and process training and mentoring to new team members for smooth operations.",
           "Handling customer’s calls and emails regarding Mobile (Signaling and Data), IoT, SMS and RCS, Voice related issues.",
@@ -175,17 +199,22 @@
           "Goal setting and checking individual team member performance and sharing feedback to team. Also monthly 1:1 discussion with team members to resolve their queries."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Experience:5 Infobip Private Limited from  as a Core Operation Engineer",
-        "company": "TelQ",
-        "location": "Alaris",
+        "role": "Core Operation Engineer",
+        "company": "Infobip Private Limited from",
+        "location": null,
         "start": "November 2021",
         "end": "April 2023",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "• Tools for investigation- Netscout, Cacti, PIC, Boxi, DROM, eSIM manager, Cellusys Platform, Secure CRT, HORISEN ,",
+          "TelQ, Alaris",
+          "Experience:5"
+        ],
         "duration_months": 18,
         "bullets": [
           "Responsible for take an action on priority emails from client so that client is not impacted with our service.",
@@ -204,14 +233,18 @@
         "source": "experience"
       },
       {
-        "role": "as a Senior Core Engineer",
-        "company": "Working knowledge of STP, SPS (DRA) and protocols such as SS7, Sigtran and diagnosis of faults and troubleshooting the same.",
+        "role": "Senior Core Engineer",
+        "company": "Vodafone idea limited from",
         "location": null,
         "start": "March 2020",
         "end": "Oct 2021",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Experience:4"
+        ],
         "duration_months": 20,
         "bullets": [
+          "Working knowledge of STP, SPS (DRA) and protocols such as SS7, Sigtran and diagnosis of faults and troubleshooting the same.",
           "24 X 7 monitoring and maintaining of all available media with Trace analysis.",
           "Monitoring of 12 STP & 16 SPS/DRA nodes (Pan India VIL network).",
           "Creation of Trouble Ticket by using HPSM Portal for STP/SPS if any fault observed in Nodes.",
@@ -219,22 +252,26 @@
           "Daily basis checking MNP database and Health checkup of all STP/SPS nodes.",
           "Coordinating with VOLTE, Roaming, NSS, Packet core, Circle team to resolve the customer complaint related to Voice and Data.",
           "GT routing checking at STP/SPS end and Backup of STPs as per schedule.",
-          "Raising CR to circle team and take the approval and forwarding to change management to do the activity. Once activity completed, we close the CR. Unknown - ol used for monitoring | HUAWEI- iManager, U2000, SG7000, PGW, Citrix, HPSM, E5MS, Putty."
+          "Raising CR to circle team and take the approval and forwarding to change management to do the activity. Once activity completed, we close the CR. Tool used for monitoring: HUAWEI- iManager, U2000, SG7000, PGW, Citrix, HPSM, E5MS, Putty."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Experience: 3 Monty Telecom Development Private Ltd from  as a SMS NOC Engineer",
-        "company": "Working on complaint tickets and provide the resolution to client by using tool B-PAL software.",
+        "role": "SMS NOC Engineer",
+        "company": "Monty Telecom Development Private Ltd from",
         "location": null,
         "start": "May 2019",
         "end": "Feb 2020",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Experience: 3"
+        ],
         "duration_months": 10,
         "bullets": [
+          "Working on complaint tickets and provide the resolution to client by using tool B-PAL software.",
           "Handling the SMS related issues like Messages non- delivery issue, Fake delivery issue, Messages pending issue and Content modification and Flooding messages issue using the BPAL software. Also checking outages and HUB related issue.",
           "Proactively monitoring the Facebook traffic and send the daily report to our internal teams.",
           "Daily doing OTT testing for exclusive destinations to find out the leakages and blocked at firewall end.",
@@ -243,19 +280,24 @@
           "We are blocking the SIM leakage, international leakages and local leakages to improve the quality of our route."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "as a SMS NOC Engineer",
-        "company": "Handling priority email from client, so that end user is not impacted with the service provider.",
+        "role": "SMS NOC Engineer",
+        "company": "Tata Communications Limited from",
         "location": null,
         "start": "Feb 2017",
         "end": "April 2019",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Experience: 2"
+        ],
         "duration_months": 27,
         "bullets": [
+          "Worked on Application to Person SMS project by using SMPP and SS7 Protocols.",
+          "Handling priority email from client, so that end user is not impacted with the service provider.",
           "Working on the critical SLA tickets which are important for customer and business of TATA.",
           "Our International and Domestic customers are connected with SMPP and HTTP protocols and Operators are connected with SMPP and SS7 Protocols.",
           "Proactively monitoring the SMS traffic of enterprise customers like Google, Facebook and if issue observed check with operators and internal teams to resolved issue on priority.",
@@ -266,17 +308,21 @@
           "By using Agilent, we can check Protocol analysis, session trace of SS7 customers and Link connectivity."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Nokia Solutions and Networks Ltd.   as a LTE Support Engineer",
-        "company": "Client: BHARTI AIRTEL LIMITED",
+        "role": "LTE Support Engineer",
+        "company": "Evolve India Pvt.Ltd",
         "location": null,
         "start": "Feb 2015",
         "end": "Jan 2017",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Experience: 1",
+          "Nokia Solutions and Networks Ltd. (as contractual employee of Vedang cellular Ltd and"
+        ],
         "duration_months": 24,
         "bullets": [
           "Core circuit knowledge of EPS LTE architecture MME, HSS, HLR and interfaces of 2G 3G &4G.",
@@ -292,11 +338,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.7,
-      "total_months": 140,
+      "total_years": 11.8,
+      "total_months": 141,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.78
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -316,7 +362,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Residential Junior College State Board of Ahmednagar Maharashtra",
+        "institution": "Pune Residential Junior College State Board of Ahmednagar Maharashtra",
         "year": "2010",
         "gpa": "78.79%",
         "_needs_review": false,
@@ -345,34 +391,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

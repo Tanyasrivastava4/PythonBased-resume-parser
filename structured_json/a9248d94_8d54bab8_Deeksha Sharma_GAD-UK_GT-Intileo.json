@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a9248d94_8d54bab8_Deeksha Sharma_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:59.035307+00:00",
+    "generated_at": "2026-10-07T09:27:47.095522+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,45 +49,131 @@
   "summary": "Qualified Chartered Accountant with experience in Statutory Audit at a Big 4 firm, involved in key audit procedures including\nWalkthroughs Test of Controls (TOC), and Test of Details (TOD). Hands-on exposure to preliminary engagement activities, risk\nassessment, and audit documentation while supporting end-to-end audit processes. Seeking to further build expertise in assurance,\nfinancial reporting, and statutory audit engagements in a professional environment.",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting",
+      "Accounts Receivable",
+      "Analytical Review",
+      "Auditing",
+      "Company Law",
+      "Coroutines Flow",
+      "Direct Taxation",
       "Financial Reporting",
+      "Fixed Assets Management",
       "GST",
+      "GSTR-1",
+      "GSTR-2B",
+      "GSTR-3B",
+      "GSTR-9",
+      "Income Tax Return",
+      "Indirect Taxation",
+      "Input Tax Credit",
+      "Internal Controls Testing",
+      "KYC",
+      "Legal Compliance",
+      "LinkedIn",
       "MS Office",
       "Microsoft Excel",
+      "Microsoft Teams",
       "Microsoft Windows",
       "Microsoft Word",
+      "Payroll Administration",
+      "Payroll Management",
+      "Procure-to-Pay",
+      "Procurement",
+      "Purchase Orders",
+      "RBI",
       "ROC Filing",
+      "Ratio Analysis",
+      "Reporting",
       "Risk Assessment",
+      "Segregation of Duties",
       "Statutory Audit",
       "TDS",
+      "TDS Return Filing",
       "Tally",
-      "Test of Details"
+      "Tax Auditing",
+      "Tax2win",
+      "Test of Details",
+      "Tests of Controls",
+      "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "GSTR-2B",
+        "GSTR-9",
+        "Input Tax Credit",
+        "TDS Return Filing",
+        "Tax Auditing"
+      ],
       "finance_ops": [
+        "Accounting",
+        "Accounts Receivable",
+        "Auditing",
+        "Direct Taxation",
         "Financial Reporting",
+        "Indirect Taxation",
+        "Internal Controls Testing",
+        "Ratio Analysis",
+        "Segregation of Duties",
         "Statutory Audit",
         "Tally"
       ],
       "accounting": [
-        "GST"
+        "Analytical Review",
+        "Fixed Assets Management",
+        "GST",
+        "Tax2win",
+        "Tests of Controls"
+      ],
+      "legal": [
+        "Company Law",
+        "KYC",
+        "Legal Compliance"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "finance": [
+        "Income Tax Return",
+        "Procure-to-Pay",
+        "ROC Filing",
+        "Test of Details",
+        "Vouching"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office",
         "Microsoft Excel",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
       "os_system": [
         "Microsoft Windows"
       ],
-      "finance": [
-        "ROC Filing",
-        "Test of Details"
+      "hr": [
+        "Payroll Administration",
+        "Payroll Management"
+      ],
+      "operations": [
+        "Procurement",
+        "Purchase Orders"
+      ],
+      "domain": [
+        "RBI"
+      ],
+      "soft_skill": [
+        "Reporting"
       ],
       "compliance": [
         "Risk Assessment"
-      ],
-      "taxation": [
-        "TDS"
       ]
     },
     "_confidence": 0.92,
@@ -96,12 +182,12 @@
   "experience": {
     "jobs": [
       {
-        "role": "LLP, Mumbai - Senior Executive",
+        "role": "Senior Executive",
         "company": "BSR & Co. LLP",
         "location": "Mumbai",
         "start": "Nov 25",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 311,
         "bullets": [
           "Client Assignment: Mahindra Steel Service Centre Limited",
@@ -121,7 +207,7 @@
         "source": "experience"
       },
       {
-        "role": "(Article Assistant)",
+        "role": "Articlership Experience",
         "company": "Articlership Experience",
         "location": null,
         "start": "2020",

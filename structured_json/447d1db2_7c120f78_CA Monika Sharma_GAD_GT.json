@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "447d1db2_7c120f78_CA Monika Sharma_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:29.493905+00:00",
+    "generated_at": "2026-10-07T10:31:28.650133+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,44 +48,138 @@
   "skills": {
     "items": [
       "Accounting",
+      "Accounting Standards",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Analytical Review",
       "Analytical Thinking",
+      "Budgeting",
+      "CARO 2020",
       "CARO Reporting",
+      "Company Law",
+      "Consolidated Financial Statements",
+      "Coroutines Flow",
+      "Data Collection",
+      "E-Way Bill",
+      "Finalization of Financial Statements",
       "Financial Reporting",
       "Financial Statement Analysis",
-      "Ind AS",
+      "Fixed Assets Management",
+      "Form 3CA-3CD",
+      "Form 3CD",
+      "GST",
+      "GSTR-1",
+      "GSTR-3B",
+      "General Ledger",
+      "Ind AS 115",
+      "Ind AS 16",
+      "Input Tax Credit",
+      "Internal Controls Testing",
       "Internal Financial Controls",
-      "Regulatory Compliance",
+      "Legal Compliance",
+      "LinkedIn",
+      "MGT-7",
+      "MIS Reporting",
+      "Payroll Administration",
+      "ROC Filing",
+      "ROC Filings",
+      "Ratio Analysis",
       "Reporting",
       "Risk Assessment",
+      "SA 520",
+      "Share Purchase Agreement",
+      "Standards on Auditing",
       "Statutory Audit",
+      "TDS",
+      "Tax Auditing",
+      "Taxation",
+      "Trend Analysis",
+      "Variance Analysis",
       "Vouching"
     ],
     "by_category": {
       "finance_ops": [
         "Accounting",
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Budgeting",
         "Financial Reporting",
-        "Statutory Audit"
+        "Internal Controls Testing",
+        "Ratio Analysis",
+        "Statutory Audit",
+        "Taxation"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Ind AS 115",
+        "Input Tax Credit",
+        "Standards on Auditing",
+        "Tax Auditing"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Consolidated Financial Statements",
+        "Finalization of Financial Statements",
+        "Fixed Assets Management",
+        "Form 3CA-3CD",
+        "Form 3CD",
+        "GST",
+        "General Ledger",
+        "Ind AS 16",
+        "SA 520"
       ],
       "soft_skill": [
         "Analytical Thinking",
         "Reporting"
       ],
+      "compliance": [
+        "CARO 2020",
+        "Risk Assessment"
+      ],
       "finance": [
         "CARO Reporting",
+        "E-Way Bill",
         "Financial Statement Analysis",
-        "Ind AS",
         "Internal Financial Controls",
+        "ROC Filing",
         "Vouching"
       ],
       "legal": [
-        "Regulatory Compliance"
+        "Company Law",
+        "Legal Compliance",
+        "MGT-7",
+        "ROC Filings",
+        "Share Purchase Agreement"
       ],
-      "compliance": [
-        "Risk Assessment"
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "research": [
+        "Data Collection"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "banking": [
+        "MIS Reporting"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "data_science": [
+        "Trend Analysis"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(financial reporting→Financial Reporting(100%), risk assessment→Risk Assessment(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Ind AS→Accounting Standards(100%), financial reporting→Financial Reporting(100%), Ind AS→Accounting Standards(100%), risk assessment→Risk Assessment(100%))"
   },
   "experience": {
     "jobs": [
@@ -95,7 +189,10 @@
         "location": null,
         "start": "Feb 2025",
         "end": "Jan 2026",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "MRG securities private limited. (Accounts manager)"
+        ],
         "duration_months": 12,
         "bullets": [
           "Prepared the balance sheet, profit and loss account, consolidated financial statements, and cash flow statements. Also Prepared MIS reports, budgeting & variance analysis for management decision-making.",
@@ -110,12 +207,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Major Clients and Industry",
-        "location": null,
+        "role": "Articled Assistant",
+        "company": "B.P. mundra & co.",
+        "location": "Jaipur",
         "start": "Oct 2024",
         "end": "Dec 2025",
-        "method": "date_regex",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Surendra gupta & associates. (Statutory Audit)"
+        ],
         "duration_months": 15,
         "bullets": [
           "Grass field resort",
@@ -135,15 +235,17 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "B.khosla & co",
+        "role": "B.khosla & co. (Statutory audit",
+        "company": "Rajasthan Rajya Vidhut",
         "location": null,
         "start": "July 2022",
         "end": "Sept 2023",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "B.khosla & co. (Statutory audit)"
+        ],
         "duration_months": 15,
         "bullets": [
-          "Rajasthan Rajya Vidhut",
           "Scrutiny of EMD/SD Ledgers, scrap ledger, expenses, TDS compliances, debtor ageing analysis. Utpadan Nigam Limited • Verification of accounting and disclosure in accordance with Ind AS 115-Revenue Recognition, Ind AS 16-PPE, (RRVUNL)- PSU (Turnover > Ind AS-23 Borrowing Costs, Fixed asset accounting etc.",
           "crores)",
           "Preparation of Audit Report in compliance with SA 700, SA 705, ICFR and matters pertaining to CARO 2020.",
@@ -164,8 +266,8 @@
           "& Jewellery)",
           ",Pushkar"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -175,6 +277,9 @@
         "start": "April 2019",
         "end": "March 2022",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Articled Assistant – B.P. mundra & co., Jaipur"
+        ],
         "duration_months": 36,
         "bullets": [
           "Filling of Return Filing of Individuals, Firms/LLP, Company & Trust. Tax Audit reports (Form 3CA/3CB, Form 3CD).",
@@ -195,7 +300,7 @@
       "total_months": 67,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -244,17 +349,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

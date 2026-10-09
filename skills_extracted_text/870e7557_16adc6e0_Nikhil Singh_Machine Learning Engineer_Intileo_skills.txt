@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/870e7557_16adc6e0_Nikhil Singh_Machine Learning Engineer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Programming Languages - Python, SQL, PySpark
+• AI, Data Science & Cloud – Azure ML, Machine Learning, Natural Language Processing, Databricks, LLM, Gen AI,
+Agentic AI Frameworks, Neural Networks, Time Series Analysis, OpenCV, langraph, transformers, Power BI,
+TensorFlow, Keras, Pytorch, MLFlow
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 40.79 ms
+Method         : flashtext_skills_section | fuzzy(Gen AI→Generative AI(91%), Neural Networks→ANN(100%), langraph→LangGraph(94%), transformers→Transformers(100%), Pytorch→PyTorch(100%)...)
+
+── All Skills (22) ──
+ANN, Agentic AI, Azure, Data Science, Databricks, Generative AI, Keras, LLM, LangGraph, LinkedIn, MLflow, Machine Learning, NLP, OpenCV, Power BI, PySpark, PyTorch, Python, SQL, TensorFlow, Time Series Forecasting, Transformers
+
+── By Category ──
+  ai_ml                          ['ANN', 'Data Science', 'Keras', 'MLflow', 'Machine Learning', 'NLP', 'OpenCV', 'PyTorch', 'TensorFlow', 'Time Series Forecasting']
+  cloud_infra                    ['Azure']
+  data_engineering               ['Databricks']
+  data_science                   ['Power BI', 'Transformers']
+  database                       ['PySpark', 'SQL']
+  genai                          ['Agentic AI', 'Generative AI', 'LLM', 'LangGraph']
+  programming_language           ['Python']
+  web_framework                  ['LinkedIn']

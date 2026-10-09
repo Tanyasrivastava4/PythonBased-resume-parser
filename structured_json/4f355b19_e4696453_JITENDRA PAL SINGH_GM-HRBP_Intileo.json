@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4f355b19_e4696453_JITENDRA PAL SINGH_GM-HRBP_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:38.584810+00:00",
+    "generated_at": "2026-10-07T10:31:41.561410+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,41 +49,63 @@
     "items": [
       "5S",
       "Auditing",
+      "Compensation & Benefits",
+      "Continuous Improvement",
+      "Document Understanding",
       "Employee Engagement",
+      "F&F Settlement",
+      "IMS",
       "ISO Standards",
       "Interpersonal Skills",
       "Kaizen",
       "Leadership",
+      "Liaison & Coordination",
+      "MS Office",
+      "Manpower Planning",
       "Negotiation",
       "Objective C",
+      "Oracle Database",
       "Payments",
       "Payroll Administration",
       "Payroll Management",
       "Performance Appraisal",
       "Performance Management",
+      "Quality Assurance",
       "R",
       "Real Estate Valuation",
       "Recruitment",
       "Regularization",
       "SAP",
       "Scheme",
+      "Strategic Planning",
       "Workshop Facilitation"
     ],
     "by_category": {
       "operations": [
         "5S",
-        "Kaizen"
+        "Continuous Improvement",
+        "Kaizen",
+        "Quality Assurance"
       ],
       "finance_ops": [
         "Auditing"
       ],
       "hr": [
+        "Compensation & Benefits",
         "Employee Engagement",
+        "F&F Settlement",
+        "Manpower Planning",
         "Payroll Administration",
         "Payroll Management",
         "Performance Appraisal",
         "Performance Management",
         "Recruitment"
+      ],
+      "rpa": [
+        "Document Understanding"
+      ],
+      "telecom": [
+        "IMS"
       ],
       "engineering": [
         "ISO Standards"
@@ -91,11 +113,18 @@
       "soft_skill": [
         "Interpersonal Skills",
         "Leadership",
+        "Liaison & Coordination",
         "Negotiation"
+      ],
+      "productivity": [
+        "MS Office"
       ],
       "programming_language": [
         "Objective C",
         "R"
+      ],
+      "database": [
+        "Oracle Database"
       ],
       "domain": [
         "Payments"
@@ -112,12 +141,15 @@
       "dev_tool": [
         "Scheme"
       ],
+      "management": [
+        "Strategic Planning"
+      ],
       "consulting": [
         "Workshop Facilitation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(schemes→Scheme(92%), Kaizens→Kaizen(92%), Facilitating→Workshop Facilitation(92%), Appraisal.→Real Estate Valuation(95%), interpersonal skills→Interpersonal Skills(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(liasoning→Liaison & Coordination(100%), schemes→Scheme(92%), Kaizens→Kaizen(92%), Facilitating→Workshop Facilitation(92%), Appraisal.→Real Estate Valuation(95%)...)"
   },
   "experience": {
     "jobs": [
@@ -151,12 +183,16 @@
         "source": "experience"
       },
       {
-        "role": "Asst. Manager-HR & Admn. in Roca Bathroom Products Pvt. Ltd. , Dewas, M.P",
-        "company": "Implementing welfare policies for both employees and contract worker in compliance with statutory norms, ensure prompt resolutions of employees’ day to day grievances, and maintain cordial management-union relations, Interaction with all Employees moving across the shop floor and indulging into formal & informal discussion. Organized various CSR activities on Health issues, Community development, women empowerment with involvement of locals and employees",
+        "role": "Parryware Roca Pvt. Ltd.), Dewas, M.P., (Since",
+        "company": "Asst. Manager-HR & Admn. in Roca Bathroom Products Pvt. Ltd. (Formerly known",
         "location": null,
         "start": "20th March 2007",
         "end": "9th Nov.2012",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Implementing welfare policies for both employees and contract worker in compliance with statutory norms, ensure prompt resolutions of employees’ day to day grievances, and maintain cordial management-union relations, Interaction with all Employees moving across the shop floor and indulging into formal & informal discussion. Organized various CSR activities on Health issues, Community development, women empowerment with involvement of locals and employees",
+          "."
+        ],
         "duration_months": 68,
         "bullets": [],
         "sub_sections": [],
@@ -165,9 +201,9 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Since",
-        "location": null,
+        "role": "20th",
+        "company": "Manpower Planning | Taking care of human resource requirements in consultation with heads of different functional and operational areas. Understanding the hiring requirements. Managing Critical Vacancies and support the business with required workforce",
+        "location": "Analyzing trends in turnover, Control and monitor attrition. Prepare and follows head count budget and thus controlling the cost on head count. selects the right person for the right job either internally or through external agencies.",
         "start": "March 2005",
         "end": "March 2007",
         "method": "date_regex",
@@ -182,30 +218,12 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Job profile",
-        "location": null,
-        "start": "OCT 2004",
-        "end": "Dec2004",
-        "method": "date_regex",
-        "duration_months": 3,
-        "bullets": [
-          "Preparing Database for recruitment",
-          "Coordinating interviews",
-          "Arranging induction Schedule"
-        ],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
+        "role": "",
         "company": "Job",
         "location": null,
         "start": "April 2004",
         "end": "Sept 2004",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 6,
         "bullets": [],
         "sub_sections": [],
@@ -214,12 +232,12 @@
         "source": "experience"
       },
       {
-        "role": "Research Associate in Symbiosis Centre for Mgmt. & Human Resource & Development  Since Oct",
-        "company": "1.Data feeding",
+        "role": "1.Data feeding",
+        "company": "Research Associate in Symbiosis Centre for Mgmt. & Human Resource & Development (SCMHRD) Since Oct",
         "location": null,
         "start": "2003",
         "end": "March 2004",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
         "duration_months": 15,
         "bullets": [
           "Research Assistant in Karve Institute of Social Service Coordinated a project on Absenteeism in Kirloskar Oil Engine Ltd."
@@ -239,18 +257,18 @@
           "JITENDRA PAL SINGH",
           "────────────────────────────────────────────────────────────"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 14.8,
-      "total_months": 177,
+      "total_years": 14.5,
+      "total_months": 174,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.87
+    "_confidence": 0.82
   },
   "education": {
     "entries": [],
@@ -350,7 +368,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.83
   },
   "_needs_review": true,
   "_review_queue": [
@@ -371,7 +389,7 @@
     },
     {
       "field": "experience.jobs[4]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

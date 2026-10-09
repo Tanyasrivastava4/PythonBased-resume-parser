@@ -2,8 +2,8 @@
 FILE: 1668ad40_Amit Kumar_QA Engineer_Intileo_segmented.txt
 ======================================================================
 Sections found : ['declaration', 'education', 'experience', 'header', 'personal_details', 'skills']
-Overall conf.  : 0.84
-Needs review   : True
+Overall conf.  : 0.91
+Needs review   : False
 
 CONTACT
 ----------------------------------------------------------------------
@@ -14,15 +14,15 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (15) — confidence 0.92
+SKILLS (25) — confidence 0.92
 ----------------------------------------------------------------------
-Agentic AI, Apache Maven, Cucumber, Eclipse, GPT, Generative AI, GitHub Copilot, Java, Jira, Joins, Manual Testing, Postman, SQL, Selenium, TestNG
+Agentic AI, Apache Maven, Automation Testing, Cross-Browser Testing, Cucumber, DDL, DML, ERP, Eclipse, GPT, Generative AI, GitHub Copilot, HP ALM, Java, Jira, Joins, Manual Testing, Microsoft Excel, Postman, Quality Assurance, Report Writing, SQL, Selenium, TestNG, Workflow Automation
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.7
-Total experience: 6.8 years (82 months, 1 overlaps merged)
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 6.9 years (83 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. Consultant Quality Analyst Expedien eSolution Ltd @ Managed and optimized MIS systems for national-level exams. Automated workflows (Dec 2023 - Present) [conf 0.7, review=True]
-  2. Software Test Engineer Procohort Technologies Pvt. Ltd @ Developed automation scripts using Selenium, TestNG, Maven; executed functional (Dec 2019 - Dec 2023) [conf 0.7, review=True]
+  1. Consultant Quality Analyst @ Expedien eSolution Ltd (Dec 2023 - Present) [conf 0.98, review=False]
+  2. Software Test Engineer @ Procohort Technologies Pvt. Ltd (Dec 2019 - Dec 2023) [conf 0.98, review=False]
 
 EDUCATION (1) — confidence 0.8
 ----------------------------------------------------------------------
@@ -31,8 +31,6 @@ EDUCATION (1) — confidence 0.8
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (3 flagged fields)
+REVIEW QUEUE (0 flagged fields)
 ----------------------------------------------------------------------
-  experience                          conf=0.7  reason=low_confidence
-  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  (nothing flagged)

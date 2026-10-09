@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f8f19513_1efe88f4_CA MONIKA SHARMA CV_segmented.txt",
-    "generated_at": "2026-09-30T07:00:50.907169+00:00",
+    "generated_at": "2026-10-07T09:28:55.802276+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,73 +47,154 @@
   "summary": "Qualified Chartered Accountant in May,2025 having\nExperience in Statutory & Internal Audits, Financial\nAnalysis, Taxation and Planning through Articleship\nFrom M/S B.P. Mundra and company, a well\nRenowned firm in Jaipur with over 35 years of\nExperience under the guidance of CA Bhraham\nPrakash Mundra sir.\nCONTACT\n+91-7062669150",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
       "Auditing",
+      "Budgeting",
+      "CARO 2020",
       "CARO Reporting",
+      "Consolidated Financial Statements",
+      "Coroutines Flow",
+      "ESIC",
       "Financial Analysis",
       "Financial Reporting",
       "Financial Statement Analysis",
+      "Fixed Assets Management",
+      "Form 3CD",
       "GAAP",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
       "General Ledger",
+      "General Ledger Accounting",
       "IFRS",
+      "Income Tax Return",
+      "Indian GAAP",
+      "Internal Audit",
+      "Internal Controls Testing",
+      "Labour Law",
+      "Legal Compliance",
+      "MIS Reporting",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
+      "Operations Management",
+      "Payroll Administration",
+      "Procure-to-Pay",
+      "Procurement",
+      "ROC Filings",
+      "Reporting",
       "Risk Assessment",
+      "Risk Control Matrix",
+      "Standards on Auditing",
       "Statutory Audit",
-      "Tally",
+      "TDS",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation",
       "Team Leadership",
       "Trend Analysis",
+      "Variance Analysis",
       "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "General Ledger Accounting",
+        "Standards on Auditing",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
         "Auditing",
+        "Budgeting",
         "Financial Analysis",
         "Financial Reporting",
         "GAAP",
         "IFRS",
+        "Internal Controls Testing",
         "Statutory Audit",
-        "Tally",
         "Taxation"
+      ],
+      "compliance": [
+        "CARO 2020",
+        "Risk Assessment"
       ],
       "finance": [
         "CARO Reporting",
         "Financial Statement Analysis",
+        "GST Return Filing",
+        "Income Tax Return",
+        "Procure-to-Pay",
         "Vouching"
       ],
       "accounting": [
-        "General Ledger"
+        "Consolidated Financial Statements",
+        "Fixed Assets Management",
+        "Form 3CD",
+        "General Ledger",
+        "Indian GAAP",
+        "Internal Audit",
+        "Risk Control Matrix"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "hr": [
+        "ESIC",
+        "Labour Law",
+        "Payroll Administration"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "legal": [
+        "Legal Compliance",
+        "ROC Filings"
+      ],
+      "banking": [
+        "MIS Reporting"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
-      "compliance": [
-        "Risk Assessment"
+      "operations": [
+        "Operations Management",
+        "Procurement"
       ],
       "soft_skill": [
+        "Reporting",
         "Team Leadership"
       ],
       "data_science": [
         "Trend Analysis"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Power Point→Microsoft PowerPoint(96%), Tally ERP→Tally(100%), Hindi.→Hindi(91%), Internal Audit→Auditing(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Power Point→Microsoft PowerPoint(96%), Tally ERP→Tally ERP 9(100%), Hindi.→Hindi(91%), Journal Entries→General Ledger(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Chartered Accountant ARTICLESHIP",
-        "company": "RMC- Statutory Audit",
+        "role": "Chartered Accountant",
+        "company": "ARTICLESHIP",
         "location": null,
         "start": "April 2019",
         "end": "April 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Chartered Accountant"
+        ],
         "duration_months": 37,
         "bullets": [
           "Evaluated the design and operational effectiveness of internal controls across key business cycles - Procure to Pay (Purchasing), Treasury, Hire to Retire (Payroll), Lease etc. at factory and corporate levels.",
@@ -205,7 +286,7 @@
         "degree_field": null,
         "institution": "University",
         "year": "2022",
-        "gpa": "72.05%",
+        "gpa": null,
         "_needs_review": true,
         "_confidence": 0.55
       },
@@ -215,8 +296,8 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": null,
-        "year": "2017",
-        "gpa": "62.05%",
+        "year": "2020",
+        "gpa": "72.05%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -227,7 +308,7 @@
         "degree_field": null,
         "institution": null,
         "year": "2015",
-        "gpa": "77.83%",
+        "gpa": "62.05%",
         "_needs_review": false,
         "_confidence": 0.8
       }

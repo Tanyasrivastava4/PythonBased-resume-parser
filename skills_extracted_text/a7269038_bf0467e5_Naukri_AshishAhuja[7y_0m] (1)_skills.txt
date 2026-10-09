@@ -1,0 +1,49 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a7269038_bf0467e5_Naukri_AshishAhuja[7y_0m] (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages
+: JavaScript, TypeScript, Java, Python
+Frontend Technologies : React, Redux, Angular (JS & 13+), HTML5, CSS3, Tailwind, Single SPA (Micro frontend)
+Backend Technologies : Node.js, Express.js, RESTful APIs, GraphQL, System Design, Microservices
+Databases
+: MongoDB, MySQL, Oracle
+Version Control : Git, GitHub, Bitbucket, Gitlab, SVN
+Cloud & DevOps : AWS (EC2, S3, CloudFront, API Gateway, IAM, RDS), Docker, Jenkins, GitHub Actions, CI/CD
+Project Management : Agile, Scrum, Jira, Azure DevOps, Sprint Planning, Code Reviews
+Testing Frameworks : Jest, Mocha, Jasmine, Cypress
+
+── Extraction Results ──
+Skills found   : 63
+Confidence     : 0.92
+Time           : 104.73 ms
+Method         : flashtext_skills_section | fuzzy(Tailwind→Tailwind CSS(100%), RESTful APIs→REST(100%), Gitlab→GitLab(100%), API Gateway→API Design(100%), Sprint Planning→Scrum(100%))
+
+── All Skills (63) ──
+API Design, AWS, AWS EC2, AWS RDS, AWS S3, Agile, Angular, Azure DevOps, Bitbucket, CI/CD, CSS3, Capital Markets, Classroom Management, Code Reviews, Collaboration, Cypress, Data Management, Data Validation, Data Visualization, DevOps, Docker, Express.js, Figma, Git, GitHub, GitHub Actions, GitLab, Google Drive, GraphQL, HIPAA, HTML5, Healthcare, Java, JavaScript, Jenkins, Jest, Jira, KPI, Material UI, Microservices, MongoDB, MySQL, Node.js, Onboarding, Oracle, Project Management, Python, Quality Assurance, REST, React, Redux, Regulatory Compliance, Reporting, Risk Management, SDLC, SVN, Scrum, Solution Design, System Design, Tailwind CSS, Trend Analysis, TypeScript, webpack
+
+── By Category ──
+  architecture                   ['API Design', 'Microservices', 'SDLC', 'Solution Design', 'System Design']
+  business_analysis              ['KPI']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS RDS', 'AWS S3', 'Google Drive']
+  data_engineering               ['Data Validation']
+  data_science                   ['Data Visualization', 'Trend Analysis']
+  database                       ['MongoDB', 'MySQL', 'Oracle']
+  design                         ['Figma']
+  dev_tool                       ['Bitbucket', 'Code Reviews', 'Git', 'GitHub', 'GitLab']
+  devops                         ['Azure DevOps', 'CI/CD', 'DevOps', 'Docker', 'GitHub Actions', 'Jenkins', 'SVN']
+  domain                         ['Healthcare']
+  education_domain               ['Classroom Management']
+  finance                        ['Capital Markets']
+  healthcare                     ['HIPAA']
+  hr                             ['Onboarding']
+  integration                    ['REST']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Quality Assurance']
+  productivity                   ['Data Management']
+  programming_language           ['Java', 'JavaScript', 'Python', 'TypeScript']
+  project_mgmt                   ['Agile', 'Jira', 'Project Management', 'Risk Management', 'Scrum']
+  soft_skill                     ['Collaboration', 'Reporting']
+  testing                        ['Cypress', 'Jest']
+  web_framework                  ['Angular', 'CSS3', 'Express.js', 'GraphQL', 'HTML5', 'Material UI', 'Node.js', 'React', 'Redux', 'Tailwind CSS', 'webpack']

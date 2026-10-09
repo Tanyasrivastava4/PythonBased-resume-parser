@@ -1,0 +1,58 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/4a5fbecb_cc6b9fda_Sahil Singla_Full Stack Developer_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+● Project Management Tools:
+● Development Tools:
+● Operating Systems:
+● Database:
+● Continuous Integration Tools:
+● Working Knowledge:
+● CI/CD Pipeline
+● Cloud Platforms
+● Monitoring & Logging
+● Operating Systems
+B. Tech
+GZSCCET, MRSPTU • Bhatinda, Punjab
+06/2018
+Waterfall, Agile, Scrum Methodology
+JIRA
+Visual Studio Code
+Linux, Windows
+MySQL
+Soap UI, Postman
+HTML, CSS, Python, Node.js, PHP, MySQL,
+ReactJS, jQuery, JavaScript, GitLab, Laravel, Jira
+Gitlab CI/CD, Jenkins, Github Actions(automated
+builds, testing and deployments).
+AWS (EC2, S3, Lambda, IAM, CloudWatch)
+New Relic, ELK Stack
+Linux (file system management, deployments,
+Bash Scripting, Log monitoring, Service
+Management), Windows
+
+── Extraction Results ──
+Skills found   : 46
+Confidence     : 0.92
+Time           : 551.27 ms
+Method         : flashtext_skills_section | fuzzy(ReactJS→React(100%), Github Actions→GitHub Actions(100%), CloudWatch→AWS CloudWatch(100%), Bash Scripting→Bash(100%), Windows→Microsoft Windows(100%)...)
+
+── All Skills (46) ──
+AWS, AWS CloudWatch, AWS EC2, AWS S3, Agile, Apache HTTP Server, Bash, CI/CD, CSS3, Communication, ELK Stack, Express.js, Firewall, GitHub, GitHub Actions, GitLab, GitLab CI, HTML5, Help Desk, JWT, JavaScript, Jenkins, Jira, Laravel, Linux, MVC, Microservices, Microsoft Windows, MySQL, MySQL Workbench, New Relic, Node.js, PHP, Postman, Project Management, Python, REST, React, SOAP, Scrum, SoapUI, VS Code, Vue.js, Waterfall, XML, jQuery
+
+── By Category ──
+  architecture                   ['Microservices']
+  cloud_infra                    ['AWS', 'AWS CloudWatch', 'AWS EC2', 'AWS S3', 'Apache HTTP Server']
+  database                       ['MySQL', 'MySQL Workbench']
+  dev_tool                       ['GitHub', 'GitLab', 'Postman', 'SoapUI', 'VS Code']
+  devops                         ['CI/CD', 'ELK Stack', 'GitHub Actions', 'GitLab CI', 'Jenkins', 'New Relic']
+  integration                    ['REST']
+  os_system                      ['Bash', 'Linux', 'Microsoft Windows']
+  programming_language           ['JavaScript', 'PHP', 'Python']
+  project_mgmt                   ['Agile', 'Jira', 'Project Management', 'Scrum', 'Waterfall']
+  security                       ['JWT']
+  security_ops                   ['Firewall']
+  soft_skill                     ['Communication']
+  support                        ['Help Desk']
+  web_framework                  ['CSS3', 'Express.js', 'HTML5', 'Laravel', 'MVC', 'Node.js', 'React', 'SOAP', 'Vue.js', 'XML', 'jQuery']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cbba9946_902715ee_Deeksha Gupta_AM1-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:20.601222+00:00",
+    "generated_at": "2026-10-07T09:28:16.102424+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,33 +47,88 @@
   "summary": "Experienced professional with a strong background in Big Four audits and more than 4 years of\npost-qualification experience. Skilled in areas such as focused attention to detail and effective\nleadership. Motivated to utilize expertise in driving organizational growth and contributing to\noverall success.",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting",
       "Analytical Thinking",
       "Attention to Detail",
+      "Auditing",
       "Aura",
+      "Budgeting",
       "Computax",
       "DataSnipper",
+      "Direct Taxation",
+      "Financial Reporting",
+      "GAAP",
+      "GST",
+      "GST Return Filing",
+      "Income Tax Return",
       "Leadership",
+      "LinkedIn",
       "MS Office",
       "Mac OS",
       "Mentoring",
       "Microsoft Visio",
+      "Operations Management",
+      "Oracle Database",
+      "Ratio Analysis",
+      "Reporting",
+      "Statutory Audit",
+      "Substantive Testing",
+      "TCS",
+      "TDS",
+      "TDS Return Filing",
       "Tally",
-      "Team Leadership"
+      "Tax Auditing",
+      "Taxation",
+      "Team Leadership",
+      "Time Series Forecasting",
+      "Transfer Pricing",
+      "Trend Analysis",
+      "Variance Analysis"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "TDS Return Filing",
+        "Tax Auditing"
+      ],
+      "finance_ops": [
+        "Accounting",
+        "Auditing",
+        "Budgeting",
+        "Direct Taxation",
+        "Financial Reporting",
+        "GAAP",
+        "Ratio Analysis",
+        "Statutory Audit",
+        "Substantive Testing",
+        "Tally",
+        "Taxation"
+      ],
       "soft_skill": [
         "Analytical Thinking",
         "Attention to Detail",
         "Leadership",
         "Mentoring",
+        "Reporting",
         "Team Leadership"
       ],
       "finance": [
         "Aura",
-        "DataSnipper"
+        "DataSnipper",
+        "GST Return Filing",
+        "Income Tax Return"
       ],
       "office": [
         "Computax"
+      ],
+      "accounting": [
+        "GST",
+        "TCS",
+        "Transfer Pricing"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office"
@@ -84,8 +139,23 @@
       "dev_tool": [
         "Microsoft Visio"
       ],
-      "finance_ops": [
-        "Tally"
+      "operations": [
+        "Operations Management"
+      ],
+      "database": [
+        "Oracle Database"
+      ],
+      "taxation": [
+        "TDS"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "data_science": [
+        "Trend Analysis"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -96,10 +166,10 @@
       {
         "role": "ASSISTANT MANAGER",
         "company": "DGA GLOBAL",
-        "location": "ASSISTANT MANAGER",
+        "location": null,
         "start": "OCTOBER 2024",
         "end": "JANUARY 2026",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 16,
         "bullets": [
           "Performed audits of US and UK based entities, including investment funds, manufacturing companies, textiles companies ensuring compliance with US GAAP and relevant regulatory standards Responsible for planning, execution and monitoring audit engagements ensuring audit is performed as planned Conducted Indian statutory audits in accordance with auditing standards, focusing on accuracy, completeness, and adherence to reporting requirements Reviewed financial statements and supporting schedules to identify accounting discrepancies and ensure accuracy of reported financial information"
@@ -114,7 +184,9 @@
           "FINANCE",
           "Developed financial plans, budgeting, and forecasting models for business operations",
           "Performed trend analysis, ratio analysis, and variance reviews to evaluate the financial",
-          "health, performance, and sustainability of target entities"
+          "health, performance, and sustainability of target entities",
+          "Reviewed P&L and balance sheet schedules, performing balance sheet reconciliations and",
+          "variance analysis to ensure accuracy of reported financial information"
         ],
         "confidence": 0.98,
         "needs_review": false,
@@ -122,27 +194,30 @@
       },
       {
         "role": "SENIOR ASSOCIATE",
-        "company": "variance analysis to ensure accuracy of reported financial information PwC AC Kolkata",
-        "location": "SENIOR ASSOCIATE",
+        "company": "PwC AC Kolkata",
+        "location": null,
         "start": "JUNE 2021",
         "end": "AUGUST 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 39,
         "bullets": [
           "Worked in Assurance practice with UK onshore team to provide core audit services to business clients Verified draft financial statements for completeness, accuracy, and internal consistency Coordinated with onshore engagement team members to ensure tasks were executed smoothly according to the audit plan Performed detail substantive testing and assisting in identifying audit & accounting issues and resolving them"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "SPCM & Associates, Pune Article Assistant March",
+        "role": "Article Assistant March",
         "company": "CA Articleship",
-        "location": "SPCM & Associates, Pune Article Assistant March",
+        "location": "SPCM & Associates, Pune",
         "start": "2017",
         "end": "2020",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "CA Articleship - SPCM & Associates, Pune"
+        ],
         "duration_months": 37,
         "bullets": [
           "Conducted statutory audit of various industries.",
@@ -170,7 +245,7 @@
       "total_months": 92,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -190,22 +265,22 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Jiwaji University, Gwalior (M.P.)",
+        "institution": null,
         "year": "2018",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Higher Secondary Certificate Examination | 2015",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Madhya Pradesh Board of",
+        "institution": "Jiwaji University, Gwalior (M.P.)",
         "year": "2015",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       },
       {
         "degree": "Madhya Pradesh Board of Secondary Education: 89%",
@@ -223,7 +298,7 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Madhya Pradesh Board of",
+        "institution": "Jiwaji University, Gwalior (M.P.)",
         "year": "2013",
         "gpa": null,
         "_needs_review": false,
@@ -235,10 +310,10 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "Madhya Pradesh Board of",
-        "year": "2021",
+        "year": null,
         "gpa": "92%",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Secured Exemption in Direct Taxation in IPCC and CA Final",
@@ -252,7 +327,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.91
+    "_confidence": 0.89
   },
   "certifications": {
     "items": [],
@@ -273,7 +348,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
@@ -281,11 +356,6 @@
       "field": "contact.name",
       "confidence": 0.0,
       "reason": "missing"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
     }
   ]
 }

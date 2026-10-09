@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "43c97281_7a3ce3ef_Mohit R Gaurishankar_ TSM NPS_ ABSLI_ Nagpur_segmented.txt",
-    "generated_at": "2026-09-30T06:58:29.012608+00:00",
+    "generated_at": "2026-10-07T10:31:28.061003+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,19 +50,27 @@
   "summary": "To work in your organization for the said post where I can exploit my basic skills and learning so that my Organization will be benefited and at all same time contributing more to my professional skills. This will ultimately improve my career prospects in a professional manner, also contributing to the Organization’s growth.",
   "skills": {
     "items": [
-      "Adaptability",
-      "Life Insurance"
+      "Life Insurance",
+      "Loan Against Property",
+      "Professional Tax",
+      "Team Management"
     ],
     "by_category": {
-      "soft_skill": [
-        "Adaptability"
-      ],
       "insurance": [
         "Life Insurance"
+      ],
+      "banking": [
+        "Loan Against Property"
+      ],
+      "hr": [
+        "Professional Tax"
+      ],
+      "management": [
+        "Team Management"
       ]
     },
-    "_confidence": 0.75,
-    "_method": "flashtext_full_text_fallback"
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | fuzzy(professional→Professional Tax(95%), professional→Professional Tax(95%))"
   },
   "experience": {
     "jobs": [
@@ -97,7 +105,7 @@
         "source": "experience"
       },
       {
-        "role": "Unknown - Profile | - \tPension Manager",
+        "role": "Unknown - Profile | - \tPension Manager (Annuity",
         "company": "Kotak Life Insurance",
         "location": null,
         "start": "Jun 2023",
@@ -111,7 +119,7 @@
         "source": "experience"
       },
       {
-        "role": "Unknown - Profile | - \tRelationship Manager",
+        "role": "Profile | - \tRelationship Manager",
         "company": "Shriram Life Insurance",
         "location": null,
         "start": "Jan 2024",
@@ -125,8 +133,8 @@
         "source": "experience"
       },
       {
-        "role": "",
-        "company": "Tenure",
+        "role": "Unknown",
+        "company": "Profile | - \tsales officer(insurance   distribution)",
         "location": null,
         "start": "Aug 2025",
         "end": "Still Working",
@@ -141,8 +149,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.4,
-      "total_months": 65,
+      "total_years": 5.5,
+      "total_months": 66,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.95
@@ -194,7 +202,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e16df479_484fc351_Sai Pavan Boddula_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:35.082277+00:00",
+    "generated_at": "2026-10-07T09:28:34.447872+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,6 +47,8 @@
   "skills": {
     "items": [
       "Accounting",
+      "Accounting Standards",
+      "Agentic AI",
       "Attention to Detail",
       "Audit Methodology",
       "Audit Software",
@@ -54,17 +56,24 @@
       "Collaboration",
       "Communication",
       "Data Analytics",
+      "Financial Reporting",
+      "GAAP",
+      "GitHub Copilot",
       "Internal Controls Testing",
       "Leadership",
-      "Microsoft DirectX",
+      "LinkedIn",
       "Microsoft Teams",
       "Professional Skepticism",
       "Project Management",
+      "Reporting",
       "Risk Assessment",
       "Spreadsheets",
       "Statutory Audit",
       "Substantive Testing",
+      "Tax Auditing",
+      "Test of Details",
       "TestNG",
+      "Tests of Controls",
       "Time Management",
       "Tutoring"
     ],
@@ -74,9 +83,19 @@
         "Audit Methodology",
         "Audit Software",
         "Auditing",
+        "Financial Reporting",
+        "GAAP",
         "Internal Controls Testing",
         "Statutory Audit",
         "Substantive Testing"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Tax Auditing"
+      ],
+      "genai": [
+        "Agentic AI",
+        "GitHub Copilot"
       ],
       "soft_skill": [
         "Attention to Detail",
@@ -84,13 +103,14 @@
         "Communication",
         "Leadership",
         "Professional Skepticism",
+        "Reporting",
         "Time Management"
       ],
       "data_science": [
         "Data Analytics"
       ],
-      "os_system": [
-        "Microsoft DirectX"
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Teams",
@@ -102,15 +122,21 @@
       "compliance": [
         "Risk Assessment"
       ],
+      "finance": [
+        "Test of Details"
+      ],
       "testing": [
         "TestNG"
+      ],
+      "accounting": [
+        "Tests of Controls"
       ],
       "education_domain": [
         "Tutoring"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(accounting→Accounting(100%), auditing→Auditing(100%), risk assessment→Risk Assessment(100%), testing.→TestNG(86%), direct→Microsoft DirectX(92%)...)"
+    "_method": "flashtext_skills_section | fuzzy(accounting→Accounting(100%), auditing→Auditing(100%), risk assessment→Risk Assessment(100%), testing.→TestNG(86%), Time management→Time Management(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -120,8 +146,12 @@
         "location": "Associate, HYDERABAD",
         "start": "May 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 53,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "PricewaterhouseCoopers",
+          "Senior Associate, HYDERABAD"
+        ],
+        "duration_months": 54,
         "bullets": [
           "Spearheaded and delivered over 10 high quality audit engagements by adhering to the audit methodology and auditing standards and leveraging the technology.",
           "Coached and guided the junior team members in achieving their professional goals and deliver high quality audit deliverables.",
@@ -140,12 +170,17 @@
         "source": "experience"
       },
       {
-        "role": "Article assistant & Paid Assistant",
+        "role": "Hyderabad, INDIA",
         "company": "Ramakrishna & Associates",
         "location": null,
         "start": "2016",
         "end": "2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Ramakrishna & Associates",
+          "Hyderabad, INDIA",
+          "Article assistant & Paid Assistant"
+        ],
         "duration_months": 61,
         "bullets": [
           "Executed statutory and tax audits for multiple Indian private companies within the manufacturing and service sectors, ensuring compliance with relevant accounting standards.",
@@ -159,8 +194,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.5,
-      "total_months": 114,
+      "total_years": 9.6,
+      "total_months": 115,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

@@ -2,7 +2,7 @@
 FILE: dfba57ae_8de0422b_Naukri_VivekSinghKushwaha[6y_6m]_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'skills']
-Overall conf.  : 0.85
+Overall conf.  : 0.9
 Needs review   : True
 
 CONTACT
@@ -14,19 +14,19 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (20) — confidence 0.92
+SKILLS (35) — confidence 0.92
 ----------------------------------------------------------------------
-AWS, AWS Athena, AWS S3, Apache Airflow, Data Visualization, Databricks, ETL, KPI, LinkedIn, MS Office, Machine Learning, Macro Modelling, Microsoft Excel, Microsoft Teams, Process Improvement, PySpark, Python, SQL, Stakeholder Management, Tableau
+AWS, AWS Athena, AWS S3, Active Directory, Apache Airflow, Cross-functional Collaboration, Data Validation, Data Visualization, Databricks, Domain-Driven Design, ETL, Effort Estimation, Healthcare, KPI, LinkedIn, MS Office, Machine Learning, Macro Modelling, Mentoring, Microsoft Excel, Microsoft PowerPoint, Microsoft SQL Server, Microsoft Teams, Process Improvement, Project Management, PySpark, Python, Reporting, Requirements Gathering, SQL, Stakeholder Management, Standard Operating Procedures, Tableau, Team Coordination, Team Leadership
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.77
-Total experience: 5.2 years (63 months, 0 overlaps merged)
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 5.3 years (64 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. Senior Associate @ artifacts, enabling seamless tracking and audit readiness. Axtria India Pvt. Ltd (Apr 2024 - Present) [conf 0.85, review=True]
-  2. Analyst/Associate @ Alignment, and various pharma datasets (Symphony, Liquid Hub, Veeva Call Activity, Value Centric, XPO, DDD, SPSD, 867, 852 data etc). Axtria India Pvt. Ltd (Jul 2019 - Mar 2022) [conf 0.7, review=True]
+  1. . Senior Associate @ Axtria India Pvt. Ltd (Apr 2024 - Present) [conf 0.98, review=False]
+  2. . Analyst/Associate @ Axtria India Pvt. Ltd (Jul 2019 - Mar 2022) [conf 0.98, review=False]
 
 EDUCATION (3) — confidence 0.95
 ----------------------------------------------------------------------
-  1. B.Tech — Axtria Institute (2019) [conf 0.95, review=False]
+  1. Dual Degree — Axtria Institute (2019) [conf 0.95, review=False]
   2. 12th — IIT Kharagpur (2013) [conf 0.95, review=False]
   3. 10th — CBSE (2011) [conf 0.95, review=False]
 
@@ -40,10 +40,8 @@ CERTIFICATIONS (7) — confidence 0.67
   6. https://www.linkedin.com/in/vivek-singh-kushwaha-30019/ — None (None) [conf 0.6]
   7. https://www.linkedin.com/in/piyush-jamadari-385783201/ — None (None) [conf 0.6]
 
-REVIEW QUEUE (7 flagged fields)
+REVIEW QUEUE (5 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.67  reason=low_confidence
   certifications.items[1]             conf=0.6  reason=incomplete_fields
   certifications.items[4]             conf=0.6  reason=incomplete_fields

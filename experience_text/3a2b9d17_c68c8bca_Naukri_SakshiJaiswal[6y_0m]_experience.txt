@@ -1,0 +1,61 @@
+======================================================================
+FILE: 3a2b9d17_c68c8bca_Naukri_SakshiJaiswal[6y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Rajiv Plastics Private Limited
+March 2023 - Present
+Technical Officer/Quality Manager
+Implemented and maintained ISO/IEC 17025:2017 Laboratory Management System, ensuring compliance
+with international testing standards.
+Prepared and issued MSDS, Product Safety Statements, RoHS-REACH-SVHC declaration...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 6.7 years (80 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Technical Officer/Quality Manager
+  Company      : Rajiv Plastics Private Limited
+  Location     : None
+  Start - End  : March 2023 - Present
+  Duration     : 44 months
+  Bullets      : 6
+    • Implemented and maintained ISO/IEC 17025:2017 Laboratory Management System, ensuring compliance with international testing standards.
+    • Prepared and issued MSDS, Product Safety Statements, RoHS-REACH-SVHC declarations, food compliance certificates, and shelf-life certificates.
+    • Developed hazard communication documents for global markets, ensuring adherence to regulatory requirements.
+    • Managed SAP S/4 HANA for product hazard classification, SDS generation, and hazard labeling.
+    • Facilitated 3TG compliance declarations and raw material acknowledgment letters for customer submissions.
+    • Oversaw regulatory compliance for SVHC, Conflict Minerals, RoHS, and California Proposition 65 for substances and mixtures including pigments, polymers, catalysts, and additives.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : Polymer Compounds and Masterbatches for various applications
+  Location     : Polymer Films, Flexibles
+  Start - End  : Jan 2021 - Mar 2023
+  Duration     : 27 months
+  Bullets      : 1
+    • Maintained accurate calibration records and generated reports in line with FDA regulations and internal standards.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 3
+  Role         : Quality Chemist
+  Company      : Bee Pharmo Labs Private Limited
+  Location     : None
+  Start - End  : Jan 2020 - Oct 2020
+  Duration     : 10 months
+  Bullets      : 3
+    • Performed qualitative and quantitative testing on raw materials, intermediates, and finished products.
+    • Operated FTIR, UV-Vis, Karl Fischer Titrator, Dissolution Tester, and LOD apparatus.
+    • Ensured regular instrument calibration and compliance with GMP and SOPs.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

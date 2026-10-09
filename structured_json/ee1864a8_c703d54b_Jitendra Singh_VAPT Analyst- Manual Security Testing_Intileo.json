@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ee1864a8_c703d54b_Jitendra Singh_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:42.248500+00:00",
+    "generated_at": "2026-10-07T09:28:44.529337+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -50,33 +50,51 @@
   "skills": {
     "items": [
       ".NET",
+      "APK Editor",
       "Acunetix",
-      "Apktool",
+      "Analytical Thinking",
       "Automation Testing",
       "Burp Suite",
       "CEH",
+      "CERT-In",
       "CSRF Tester",
+      "Code Reviews",
+      "DAST",
       "Directory Buster",
       "Dozer",
       "Drupal",
       "Emulators",
+      "Ethical Hacking",
+      "FIX Protocol",
       "Genymotion",
       "IBM AppScan",
+      "IT Security",
+      "Information Security",
       "Java",
       "Joomla",
       "Linux",
+      "Manual Testing",
+      "Metasploit",
       "Microsoft Windows",
       "MobSF",
       "Nessus",
       "Netsparker",
       "Nikto",
       "Nmap",
+      "OWASP Top 10",
       "PHP",
+      "Penetration Testing",
+      "Performance Optimization",
       "Postman",
+      "Problem Solving",
       "REST API",
+      "SAST",
       "SQLMAP",
       "Security Assessment",
+      "Security Compliance",
       "SoapUI",
+      "VAPT",
+      "Vulnerability Management",
       "Wireshark",
       "adb shell",
       "dex2jar"
@@ -87,28 +105,55 @@
         "Java",
         "PHP"
       ],
+      "cybersecurity": [
+        "APK Editor",
+        "Ethical Hacking"
+      ],
       "security_ops": [
         "Acunetix",
         "Burp Suite",
         "CEH",
+        "CERT-In",
+        "DAST",
         "MobSF",
         "Nessus",
-        "Security Assessment"
+        "OWASP Top 10",
+        "Penetration Testing",
+        "SAST",
+        "Security Assessment",
+        "VAPT"
+      ],
+      "soft_skill": [
+        "Analytical Thinking",
+        "Problem Solving"
+      ],
+      "testing": [
+        "Automation Testing",
+        "Manual Testing"
       ],
       "security": [
-        "Apktool",
         "CSRF Tester",
         "Directory Buster",
         "Dozer",
         "IBM AppScan",
+        "IT Security",
+        "Information Security",
+        "Metasploit",
         "Netsparker",
         "Nikto",
         "Nmap",
         "SQLMAP",
+        "Security Compliance",
+        "Vulnerability Management",
         "dex2jar"
       ],
-      "testing": [
-        "Automation Testing"
+      "dev_tool": [
+        "Code Reviews",
+        "Genymotion",
+        "Performance Optimization",
+        "Postman",
+        "SoapUI",
+        "adb shell"
       ],
       "web_framework": [
         "Drupal",
@@ -120,11 +165,8 @@
         "Linux",
         "Microsoft Windows"
       ],
-      "dev_tool": [
-        "Genymotion",
-        "Postman",
-        "SoapUI",
-        "adb shell"
+      "fintech": [
+        "FIX Protocol"
       ],
       "cloud_infra": [
         "Wireshark"
@@ -137,12 +179,19 @@
     "jobs": [
       {
         "role": "Information Security Consultant",
-        "company": "AAA Technologies Ltd",
+        "company": "Excellent Creative and",
         "location": null,
         "start": "May 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_parens_role",
-        "duration_months": 41,
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Excellent Creative and",
+          "Analytical skills with problem solving capabilities.",
+          "Hard Working and a Good",
+          "Team Player.",
+          "AAA Technologies Ltd."
+        ],
+        "duration_months": 42,
         "bullets": [
           "(DAST) of Web Applications, Mobiles Applications and Web Services using tools like Netsparker, Burpsuite, Metasploit, Sqlmap, Acunetix etc."
         ],
@@ -172,8 +221,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.4,
-      "total_months": 41,
+      "total_years": 3.5,
+      "total_months": 42,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -189,7 +238,7 @@
         "year": "2015",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "12th",
@@ -207,11 +256,11 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": "computer science",
-        "institution": null,
+        "institution": "Keshav Madhav Saraswati Vidya Mandir",
         "year": "2022",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
     "_confidence": 0.9

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d85bd4d7_bbb42c54_Atishay_Jain_Profile_segmented.txt",
-    "generated_at": "2026-09-30T07:00:30.796276+00:00",
+    "generated_at": "2026-10-07T09:28:28.599716+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -52,18 +52,34 @@
     "items": [
       "Business Analytics",
       "Cross-functional Collaboration",
+      "D2C Marketing",
       "Data Analysis",
+      "Demand Planning",
       "Digital Transformation",
+      "Dynamics 365",
+      "ERP",
+      "ERP Systems",
       "Financial Analysis",
+      "Inventory Management",
       "Leadership",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Operational Excellence",
+      "Operations Management",
+      "Process Re-Engineering",
+      "Procurement",
       "Program Management",
+      "Reporting",
+      "Risk Management",
       "SAP",
       "Six Sigma",
       "Stakeholder Management",
-      "Strategic Thinking",
-      "Tableau"
+      "Strategic Planning",
+      "Supply Chain",
+      "Tableau",
+      "Time Management"
     ],
     "by_category": {
       "data_science": [
@@ -74,27 +90,57 @@
       "soft_skill": [
         "Cross-functional Collaboration",
         "Leadership",
+        "Reporting",
         "Stakeholder Management",
-        "Strategic Thinking"
+        "Time Management"
+      ],
+      "marketing": [
+        "D2C Marketing"
+      ],
+      "supply_chain": [
+        "Demand Planning"
       ],
       "consulting": [
-        "Digital Transformation"
+        "Digital Transformation",
+        "Process Re-Engineering"
+      ],
+      "integration": [
+        "Dynamics 365",
+        "SAP"
+      ],
+      "erp": [
+        "ERP"
+      ],
+      "operations": [
+        "ERP Systems",
+        "Inventory Management",
+        "Operations Management",
+        "Procurement",
+        "Six Sigma"
       ],
       "finance_ops": [
         "Financial Analysis"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "Microsoft Excel",
-        "Microsoft PowerPoint"
+        "Microsoft PowerPoint",
+        "Microsoft Teams"
+      ],
+      "process": [
+        "Operational Excellence"
       ],
       "project_mgmt": [
-        "Program Management"
+        "Program Management",
+        "Risk Management"
       ],
-      "integration": [
-        "SAP"
+      "management": [
+        "Strategic Planning"
       ],
-      "operations": [
-        "Six Sigma"
+      "domain": [
+        "Supply Chain"
       ]
     },
     "_confidence": 0.92,
@@ -103,14 +149,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "| PharmEasy",
-        "company": "Analyzed procurement and returns processes, working with ERP systems and cross-functional teams to improve credit reconciliation and operational efficiency.",
-        "location": "PharmEasy (API Holdings",
+        "role": "Procurement Intern",
+        "company": "PharmEasy",
+        "location": null,
         "start": "Apr’25",
         "end": "May’25",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Procurement Intern | PharmEasy (API Holdings)"
+        ],
         "duration_months": 2,
         "bullets": [
+          "Analyzed procurement and returns processes, working with ERP systems and cross-functional teams to improve credit reconciliation and operational efficiency.",
           "Synthesized operational and financial data across ERP platforms including Microsoft Dynamics 365 to identify ₹4.12L in unresolved credits, enabling faster business closure",
           "Analyzed returns data and vendor ledgers, identifying key drivers behind pending credits and improving issue prioritization",
           "Built Excel-based automation tools, reducing manual effort and improving reporting accuracy",
@@ -121,28 +171,32 @@
           "Finance, and Returns teams, improving execution",
           "consistency"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| Minimalist",
-        "company": "Drove SAP ERP-enabled process transformation, improving operational efficiency by 40% through alignment of operations, technology, and business teams",
-        "location": "Minimalist (USPL",
+        "role": "Senior Executive",
+        "company": "Minimalist",
+        "location": null,
         "start": "Jun’22",
         "end": "Jul’23",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Senior Executive | Minimalist (USPL)"
+        ],
         "duration_months": 14,
         "bullets": [
           "Led end-to-end order fulfillment and supply chain operations, including demand planning, inventory management, and 3PL coordination across D2C and retail channels.",
           "Led a cross-functional transformation initiative, reducing lead time from 6.3 to 3.2 days through workflow redesign and stronger execution governance",
+          "Drove SAP ERP-enabled process transformation, improving operational efficiency by 40% through alignment of operations, technology, and business teams",
           "Implemented inventory governance mechanisms, reducing stock discrepancies by 27% and improving stock visibility",
           "Led fulfillment improvement initiatives, reducing RTO by 50% through proactive risk management and stakeholder alignment",
           "Developed business cases and led execution of warehouse expansion from 4 to 6 locations, enabling scalable growth Links: http://www.linkedin.com/in/atishay-jain291099 https://www.linkedin.com/in/atishay-jain-259649198"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -152,7 +206,7 @@
       "total_months": 16,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -215,7 +269,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.96
   },
   "_needs_review": true,
   "_review_queue": [
@@ -223,21 +277,6 @@
       "field": "contact.name",
       "confidence": 0.0,
       "reason": "missing"
-    },
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
     }
   ]
 }

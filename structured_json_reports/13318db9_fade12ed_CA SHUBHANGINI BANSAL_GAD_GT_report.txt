@@ -2,8 +2,8 @@
 FILE: 13318db9_fade12ed_CA SHUBHANGINI BANSAL_GAD_GT_segmented.txt
 ======================================================================
 Sections found : ['education', 'experience', 'header', 'skills']
-Overall conf.  : 0.93
-Needs review   : False
+Overall conf.  : 0.89
+Needs review   : True
 
 CONTACT
 ----------------------------------------------------------------------
@@ -14,15 +14,15 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (19) — confidence 0.92
+SKILLS (40) — confidence 0.92
 ----------------------------------------------------------------------
-AICPA, ERP, Financial Analysis, Financial Reporting, Financial Statement Analysis, GAAP, IFRS, Ind AS, Logistics, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, PCAOB, Risk Assessment, SAP, Statutory Audit, Substantive Testing, Trend Analysis, Working Capital Financing
+10-K, 10-Q, AICPA, Accounting Standards, Accounts Payable, CARO Reporting, Company Law, ERP, Financial Analysis, Financial Reporting, Financial Statement Analysis, Fixed Assets Management, GAAP, IFRS, Ind AS 115, Ind AS 116, Ind AS 2, Internal Controls Testing, Legal Compliance, LinkedIn, Logistics, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, PCAOB, Payroll Administration, Physical Verification, ROU Assets, Ratio Analysis, Reporting, Risk Assessment, SAP, Schedule III Compliance, Section 135, Section 188, Statutory Audit, Substantive Testing, TDS, Trend Analysis, Working Capital Financing
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
-Total experience: 3.1 years (37 months, 0 overlaps merged)
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.84
+Total experience: 3.2 years (38 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. Senior Audit Assistant-II Aug’ @ Deloitte US (2024 - Present) [conf 0.98, review=False]
-  2. Article Assistant Mar’ @ C.P KOTHARI & ASSOCIATES (2020 - Apr’20) [conf 0.98, review=False]
+  1. Deloitte US (India offices of the U.S) - USI @ Executed audits for PCAOB and AICPA engagements for U.S. clients across various industries, including energy and consumer sectors, and shipping clients with turnover over $500M. (2024 - Present) [conf 0.7, review=True]
+  2. Delhi @ C.P KOTHARI & ASSOCIATES (2020 - Apr’20) [conf 0.98, review=False]
 
 EDUCATION (3) — confidence 0.85
 ----------------------------------------------------------------------
@@ -33,6 +33,6 @@ EDUCATION (3) — confidence 0.85
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (0 flagged fields)
+REVIEW QUEUE (1 flagged fields)
 ----------------------------------------------------------------------
-  (nothing flagged)
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields

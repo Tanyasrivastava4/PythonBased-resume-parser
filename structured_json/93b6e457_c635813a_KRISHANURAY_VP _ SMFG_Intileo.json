@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "93b6e457_c635813a_KRISHANURAY_VP _ SMFG_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:44.688912+00:00",
+    "generated_at": "2026-10-07T09:27:28.373836+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,32 +48,22 @@
     "items": [
       "AML",
       "AWS",
-      "Account Management",
       "Accounting",
       "Active Directory",
-      "Adaptability",
       "Agile",
-      "Analyze",
-      "Apache Spark",
       "Auditing",
-      "Auto Loan",
+      "Azure ADF",
       "BCP",
       "BRD",
       "Budgeting",
-      "Business Analytics",
       "Business Development",
-      "Business Strategy",
-      "CIBIL",
-      "Change Management",
-      "Civil Engineering",
-      "Client Relationship Management",
-      "Communication",
-      "Computer Vision",
-      "Conflict Resolution",
+      "Business Rules Engine",
+      "CRMNext",
+      "Coroutines Flow",
       "Creativity",
       "Customer Experience",
       "Customer Onboarding",
-      "Customer Success",
+      "Customer Relationship Management",
       "DLP",
       "Data Management",
       "Decision Making",
@@ -81,68 +71,49 @@
       "Digital Transformation",
       "Disaster Recovery",
       "E-learning",
+      "Finnone",
+      "Finnone Neo",
       "Fintech",
       "Firewall",
-      "HR Management",
-      "ISO Standards",
-      "IT Security",
       "Information Security",
-      "KYC",
-      "Leadership",
       "Life Insurance",
       "MDM",
-      "MSDS",
       "Machine Learning",
       "Make",
-      "Microservices",
       "Microsoft Teams",
-      "Negotiation",
-      "PMP",
+      "NHB",
       "Pandas",
-      "Personal Loan",
-      "Portfolio Management",
       "Power BI",
-      "Prince2",
       "Private Equity",
       "Problem Solving",
-      "Process Improvement",
       "Procurement",
       "Product Marketing",
       "Program Management",
-      "Project Management",
       "Quality Assurance",
-      "R",
       "RBI",
+      "Reliability",
       "Reporting",
-      "Resource Optimization",
-      "Retail & Corporate Banking",
       "Risk Management",
       "SAS",
+      "SIT",
       "SOP",
-      "Salesforce",
-      "Scrum",
-      "Sigma Computing",
       "Solution Design",
       "Stakeholder Management",
-      "Standard Operating Procedures",
       "Statutory Audit",
-      "Strategic Partnerships",
-      "Test Plans",
+      "TCS",
       "Trend Analysis",
       "Turnaround Time",
       "UAT",
+      "Underwriting",
+      "Video KYC",
       "Vulnerability Management"
     ],
     "by_category": {
       "legal": [
-        "AML",
-        "KYC"
+        "AML"
       ],
       "cloud_infra": [
         "AWS"
-      ],
-      "sales": [
-        "Account Management"
       ],
       "finance_ops": [
         "Accounting",
@@ -156,82 +127,53 @@
         "Firewall",
         "MDM"
       ],
-      "soft_skill": [
-        "Adaptability",
-        "Communication",
-        "Conflict Resolution",
-        "Creativity",
-        "Decision Making",
-        "Leadership",
-        "Negotiation",
-        "Problem Solving",
-        "Reporting",
-        "Stakeholder Management"
-      ],
       "project_mgmt": [
         "Agile",
-        "Change Management",
-        "PMP",
-        "Portfolio Management",
-        "Prince2",
         "Program Management",
-        "Project Management",
-        "Risk Management",
-        "Scrum"
+        "Risk Management"
       ],
-      "data_science": [
-        "Analyze",
-        "Business Analytics",
-        "Power BI",
-        "SAS",
-        "Sigma Computing",
-        "Trend Analysis"
-      ],
-      "data_engineering": [
-        "Apache Spark"
-      ],
-      "finance": [
-        "Auto Loan",
-        "CIBIL",
-        "Personal Loan",
-        "Private Equity"
+      "cloud": [
+        "Azure ADF"
       ],
       "operations": [
         "BCP",
         "Disaster Recovery",
-        "Process Improvement",
         "Procurement",
         "Quality Assurance",
-        "Resource Optimization",
         "SOP"
       ],
       "business_analysis": [
         "BRD"
       ],
       "biz_dev": [
-        "Business Development",
-        "Strategic Partnerships"
+        "Business Development"
       ],
-      "consulting": [
-        "Business Strategy",
-        "Digital Transformation"
+      "banking": [
+        "Business Rules Engine",
+        "Finnone",
+        "Finnone Neo",
+        "Video KYC"
       ],
-      "engineering": [
-        "Civil Engineering",
-        "ISO Standards"
+      "crm": [
+        "CRMNext"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "soft_skill": [
+        "Creativity",
+        "Decision Making",
+        "Problem Solving",
+        "Reliability",
+        "Reporting",
+        "Stakeholder Management"
       ],
       "client_mgmt": [
-        "Client Relationship Management",
         "Customer Experience",
         "Customer Onboarding"
       ],
-      "ai_ml": [
-        "Computer Vision",
-        "Machine Learning",
-        "Pandas"
-      ],
-      "support": [
-        "Customer Success"
+      "sales": [
+        "Customer Relationship Management"
       ],
       "productivity": [
         "Data Management",
@@ -240,66 +182,74 @@
       "design": [
         "Design Thinking"
       ],
+      "consulting": [
+        "Digital Transformation"
+      ],
       "education_domain": [
         "E-learning"
       ],
       "domain": [
         "Fintech",
-        "RBI",
-        "Retail & Corporate Banking"
-      ],
-      "hr": [
-        "HR Management"
+        "RBI"
       ],
       "security": [
-        "IT Security",
         "Information Security",
         "Vulnerability Management"
       ],
       "insurance": [
         "Life Insurance"
       ],
-      "compliance": [
-        "MSDS"
+      "ai_ml": [
+        "Machine Learning",
+        "Pandas"
       ],
       "rpa": [
         "Make"
       ],
-      "architecture": [
-        "Microservices",
-        "Solution Design"
+      "compliance": [
+        "NHB"
+      ],
+      "data_science": [
+        "Power BI",
+        "SAS",
+        "Trend Analysis"
+      ],
+      "finance": [
+        "Private Equity"
       ],
       "marketing": [
         "Product Marketing"
       ],
-      "programming_language": [
-        "R"
+      "testing": [
+        "SIT",
+        "UAT"
       ],
-      "integration": [
-        "Salesforce"
+      "architecture": [
+        "Solution Design"
+      ],
+      "accounting": [
+        "TCS"
       ],
       "management": [
-        "Standard Operating Procedures",
         "Turnaround Time"
       ],
-      "testing": [
-        "Test Plans",
-        "UAT"
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
-        "role": "as SVP-Chief Digital and Information Officer- Niwas Home Finance Pvt Limited",
-        "company": "Key Result Areas",
+        "role": "Key Result Areas",
+        "company": "as SVP-Chief Digital and Information Officer- Niwas Home Finance Pvt Limited (Top Rating",
         "location": null,
         "start": "Sept-22",
         "end": "Present",
-        "method": "since_date_regex+title_dict",
-        "duration_months": 49,
+        "method": "since_date_regex+multiline_company_above_role",
+        "duration_months": 50,
         "bullets": [
           "First person to Join in IT Team and built independent strong 55 members Tech Team with Zero Attrition Built Digital capability and Paper less journey attracted investment of 2250 Cr.",
           "Responsible for Tech enabled Strategic IT Road Map resulting in growth driven Fintech Journey Responsible for setting up self-dependent Fintech strategy starting from scratch to full fledge IT Team and Solutioning Digital transformation (AI Enabled) to mobility driven Lead & Sales Module followed by Score Card and BRE Driven Underwriting along with Smart PD on Mobility Automated Loan Kit and online Legal, Technical, FI, RCU to reduce TAT by 50% and increase subsequent productivity"
@@ -307,13 +257,10 @@
         "sub_sections": [
           "Co-Lending workflow integration to suitable partner",
           "Setting up independent IT Strategy for increase productivity and bring Investments.",
-          "Responsible for Managing Regulatory needs and deal with NHB – Resulting in building robust reputation",
-          "Responsible for IT Process, Governance, Infrastructure, Procurement, Budgeting",
-          "Responsible for Managing and Change request and AI-ML Enabled solutioning for LOS, LMS, Collection system",
-          "Firewall Installation, AWS Hosting Migration, AD Migration, DR Site Implementation- Building Independent IT Infra for the Entity"
+          "Responsible for Managing Regulatory needs and deal with NHB – Resulting in building robust reputation"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -323,7 +270,7 @@
         "start": "Jan’20",
         "end": "Present",
         "method": "since_date_regex+with_as_split",
-        "duration_months": 81,
+        "duration_months": 82,
         "bullets": [
           "Worked as Lending Solution owner responsible for End-to-End Digital Lending Platform following Agile Principles Implemented In-House Mortgage Loan Solution for Affordable Housing and Small ticket Size Loan in Digital Lending Platform along with Co-Lending rule driven system processing and Partner Auto Selection.",
           "Integrated In House DLP with FinnOne LMS without spending extra cost.",
@@ -336,7 +283,9 @@
           "Designed Product Roadmap, Release Planning, Long-term and Short-term Goals and Go-To-Market, Minimum Viable Product (MVP), Systems Integrations.",
           "Executed Customer Co-Innovation, Design Thinking, User Experience (UX) Workshops, War-rooms.",
           "API Driven Automated cost Optimized Loan Life Cycle Management eliminating manual data entry and Maker-Checker concept which leads to Optimized, Cost Effective customer onboarding and improved delinquency.",
-          "Implemented NHB -ADF Project in record time line -helped to get improved rating by Regulator Planning and executing Business Continuity Plan and Disaster Recovery Drills (BCP-DR Drills) Responsible for Stakeholder Management, presentations to Board Members, Risk Committee Meetings, IT-Strategy Meetings, IT-Steering Committee meetings, Responsible for designing the Technology Costs Framework, identify all technology costs and track them for the overall Technology Landscape in the Credit Lending Business"
+          "Implemented NHB -ADF Project in record time line -helped to get improved rating by Regulator Planning and executing Business Continuity Plan and Disaster Recovery Drills (BCP-DR Drills) Responsible for Stakeholder Management, presentations to Board Members, Risk Committee Meetings, IT-Strategy Meetings, IT-Steering Committee meetings, Responsible for designing the Technology Costs Framework, identify all technology costs and track them for the overall Technology Landscape in the Credit Lending Business Worked in Risk and Mitigation Planning, defining Risk and Control Self-Assessment (RCSA), Risk Registers and Risk Acceptances Elevated to responsibility of CTO for EHFL – Responsible for Overall IT Health including Digital and Business App, Network, IT-Infra, IT- Security, IT -Governance and Compliance.",
+          "Responsibility for IT-Steer committee meeting, Quarterly Operating review, Quarterly Board update on IT Long and short-term strategy.",
+          "IT-Governance to manage Technology Governance and Compliance for Credit Lending-including IT-Security, Data Security, Regulatory Audits, Statutory Audits, Risk Management, RBI IT Master Direction, Technology Policies, Procedures/SOP and checklist Vulnerability Management etc."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -345,16 +294,16 @@
       },
       {
         "role": "Head IT",
-        "company": "Magma Fincorp Ltd. (ABF",
+        "company": "Magma Fincorp Ltd",
         "location": null,
         "start": "Sep’18",
         "end": "Jan’20",
-        "method": "date_regex+with_as_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 17,
         "bullets": [
           "Worked as a Digitization and Innovation leader for Lending Technology.",
           "Headed the IT team of ABF (80% of Magma’s portfolio) responsible to Application Automation, Network, Information Security, IT Infra, Internal Audit, Budgeting, DR Drilling.",
-          "Spearheading the process improvisation for Sourcing (POS/LOS), Accounting (CCA/LMS) Collection (CCA/CMS) System Steering efforts for problem-solving and delivering valuable solution to business as and when needed Internal Audit and Quality Assurance, Budgeting, DR Drilling (As per regulatory guidelines)"
+          "Spearheading the process improvisation for Sourcing (POS/LOS), Accounting (CCA/LMS) Collection (CCA/CMS) System"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -367,7 +316,14 @@
         "location": null,
         "start": "Jun’15",
         "end": "Sep’18",
-        "method": "date_regex+with_as_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Steering efforts for problem-solving and delivering valuable solution to business as and when needed",
+          "Internal Audit and Quality Assurance, Budgeting, DR Drilling (As per regulatory guidelines)",
+          "Deployed Improvised product, recommending modifications to enhance the operational efficiencies with help of IT initiatives, control variability, minimize escalations, costs and reduce cycle-time",
+          "Leading delivery of projects from the stage of initiation till monitoring & control including planning, estimation & scheduling, cost estimation & budgeting, working with onshore & offshore teams, updating information to all stakeholders, integrating change control, planning risk responses and contingency planning",
+          "Conducted research to identify and recommend effective solutions design and alternate options including new and emerging technologies to meet business requirements"
+        ],
         "duration_months": 40,
         "bullets": [
           "Valued contributor in design and execution of: Customer Relationship Management (CRM) solution at SBI (domestic, foreign branches/subsidiaries), Associate Banks, SBI Life Insurance Company Limited (SBI Life) and SBICAP Securities Limited (SSL) Cross-Selling Platform and Master Data Management (MDM) Solution for single source of truth for customer for SBI Group Strategized plans for SAS based analytics platform for delivering targeted product recommendations and cross-selling/up-selling opportunities for all customer segments Spearheaded projects for implementation of IT applications as per the requirement of customers and business Successfully designed Process Flow and Business Requirement Document (BRD); performed SIT and UAT Achieving next gen breakthrough levels in process capability for differentiated, noticeable delivery & quality standards Spearheading process automation initiatives; understanding business requirements & preparing functional specifications Analyzing business processes, conducting benchmarking study and trend analysis Setting out quality standards for various operational areas and ensuring a high-quality customer experience while adhering to SLAs Directed end-to-end implementation of IT Application and Integration Worked as an Application Owner of LOS (Retail and Corporate), CRM, LMS, Delinquency Management and Reconciliation (CRDMS), CBS, AML, OFSSA Spearheaded a wide range of activities including Solution Architecture, Workflow Management and Program Management Evaluating design of new and existing systems and technologies to assess their functionality, effectiveness, reliability, performance, usage and maintainability, and make build v/s buy recommendations to senior management and stakeholders Supporting the program manager with planning, status monitoring, estimates and budget control.",
@@ -387,16 +343,16 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.3,
-      "total_months": 136,
+      "total_years": 11.4,
+      "total_months": 137,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.98
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
       {
-        "degree": "Extensive experience in end-to-end implementation of Retail (Finnone, Omnifin-Newgen-LOS/LMS/CMS, Salesforce) and Whole Sale (TCS Bancs-CLOS, Finnone-CLOS) Lending domain and Digital Application Platform and CRM domain (SFDC, CRMNext); R-System, PERFIOS, POSIDEX, EXPERIAN, CIBIL, CRIF\tMBA (Finance-IT) from IBS, Mumbai First Class (Distinction last two semester) in Year 2011",
+        "degree": "Extensive experience in end-to-end implementation of Retail (Finnone, Omnifin-Newgen-LOS/LMS/CMS, Salesforce) and Whole Sale (TCS Bancs-CLOS, Finnone-CLOS) Lending domain and Digital Application Platform and CRM domain (SFDC, CRMNext); R-System, PERFIOS, POSIDEX, EXPERIAN, CIBIL, CRIF\tMBA (Finance-IT)",
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": "Finance-IT",
@@ -407,7 +363,7 @@
         "_confidence": 0.8
       },
       {
-        "degree": "Expert in aligning technical architecture to business strategy in order to deliver structured, efficient, sustainable and adaptable IT solutions in line with the business need along with responsible for dealing with RBI and NHB.\tB.E. (Computer Science) from G.H.R.C.E., Nagpur University with First Class in year 2005",
+        "degree": "Expert in aligning technical architecture to business strategy in order to deliver structured, efficient, sustainable and adaptable IT solutions in line with the business need along with responsible for dealing with RBI and NHB.\tB.E. (Computer Science)",
         "degree_name": "B.E.",
         "degree_type": "bachelors",
         "degree_field": "Computer Science",
@@ -440,7 +396,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [
@@ -448,6 +404,11 @@
       "field": "contact.name",
       "confidence": 0.0,
       "reason": "missing"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "24a4d2f7_8ccc82c7_CV_LALIT_KM_DUBEY_segmented.txt",
-    "generated_at": "2026-09-30T06:58:08.096634+00:00",
+    "generated_at": "2026-10-07T10:31:04.014904+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -48,63 +48,82 @@
   "summary": "Senior Backend Engineer with 10+ years of experience building scalable eCommerce and SaaS platforms. Expertise in\nPHP, Laravel, Symfony, REST APIs, and MySQL optimization, with a strong focus on performance tuning and system\nreliability.\nProven track record of designing high-performance backend systems, leading development teams, and implementing\nCI/CD pipelines to ensure seamless and stable deployments.\nRecently focused on AI-assisted development, building and integrating AI-powered solutions to automate debugging,\noptimize backend workflows, and improve development productivity.\nPassionate about developing secure, scalable, and efficient systems while leveraging modern technologies, including\nDevOps, automation, and AI-driven engineering practices.",
   "skills": {
     "items": [
-      ".NET",
       "Agile",
+      "Authorize.Net",
       "B2B Sales",
       "B2C Sales",
       "Bootstrap",
       "CI/CD",
+      "CRM Tools",
+      "CS-Cart",
       "CSS3",
       "Caching",
-      "Client Relationship Management",
       "Code Reviews",
       "CodeIgniter",
+      "Coroutines Flow",
+      "Customer Relationship Management",
       "DevOps",
       "Docker",
       "E-commerce",
       "E-learning",
       "ERP",
+      "FIX Protocol",
       "Git",
       "HTML5",
+      "Indexing",
       "JavaScript",
       "Jenkins",
       "Laravel",
       "Linux",
+      "Log Analysis",
       "Logistics",
       "MVC Architecture",
       "MariaDB",
+      "Mentoring",
       "Microservices",
       "Microsoft Teams",
+      "Multi-Tenancy",
       "MySQL",
+      "Onboarding",
+      "OpenAI API",
       "PHP",
       "Performance Optimization",
+      "Prompt Engineering",
+      "Quality Assurance",
       "Query Optimization",
+      "RBAC",
+      "REST",
       "REST API",
       "Razorpay",
       "React",
-      "Role-Based Access Control",
+      "Regression Testing",
+      "Reliability",
+      "Reporting",
+      "Root Cause Analysis",
       "SOAP",
+      "SQL",
       "Scrum",
+      "Symfony",
       "TypeScript",
       "Ubuntu",
       "WordPress",
       "Yii",
+      "cURL",
       "jQuery"
     ],
     "by_category": {
-      "programming_language": [
-        ".NET",
-        "JavaScript",
-        "PHP",
-        "TypeScript"
-      ],
       "project_mgmt": [
         "Agile",
         "Scrum"
       ],
+      "fintech_payment": [
+        "Authorize.Net"
+      ],
       "sales": [
         "B2B Sales",
-        "B2C Sales"
+        "B2C Sales",
+        "CRM Tools",
+        "Customer Relationship Management"
       ],
       "web_framework": [
         "Bootstrap",
@@ -124,17 +143,21 @@
         "Docker",
         "Jenkins"
       ],
+      "e_commerce": [
+        "CS-Cart"
+      ],
       "architecture": [
         "Caching",
-        "Microservices"
-      ],
-      "client_mgmt": [
-        "Client Relationship Management"
+        "Microservices",
+        "Multi-Tenancy"
       ],
       "dev_tool": [
         "Code Reviews",
         "Git",
         "Performance Optimization"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "retail": [
         "E-commerce"
@@ -145,32 +168,67 @@
       "erp": [
         "ERP"
       ],
+      "fintech": [
+        "FIX Protocol",
+        "Razorpay"
+      ],
+      "database": [
+        "Indexing",
+        "MariaDB",
+        "MySQL",
+        "Query Optimization",
+        "SQL"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP",
+        "TypeScript"
+      ],
       "os_system": [
         "Linux",
         "Ubuntu"
       ],
+      "security_ops": [
+        "Log Analysis",
+        "Regression Testing"
+      ],
       "operations": [
-        "Logistics"
+        "Logistics",
+        "Quality Assurance",
+        "Root Cause Analysis"
       ],
       "software_engineering": [
         "MVC Architecture"
       ],
-      "database": [
-        "MariaDB",
-        "MySQL",
-        "Query Optimization"
+      "soft_skill": [
+        "Mentoring",
+        "Reliability",
+        "Reporting"
       ],
       "productivity": [
         "Microsoft Teams"
       ],
-      "fintech": [
-        "Razorpay"
+      "hr": [
+        "Onboarding"
       ],
-      "security_ops": [
-        "Role-Based Access Control"
+      "genai": [
+        "OpenAI API",
+        "Prompt Engineering"
+      ],
+      "security": [
+        "RBAC"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "framework": [
+        "Symfony"
       ],
       "content": [
         "WordPress"
+      ],
+      "backend": [
+        "cURL"
       ]
     },
     "_confidence": 0.92,
@@ -179,14 +237,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "PROFESSIONAL EXPERIENCE (10+ YEARS) Senior PHP Developer / Technical Lead",
-        "company": "Basis Vectors Portfolio Services India Pvt. Ltd. (CommerceV3",
+        "role": "Senior PHP Developer / Technical Lead",
+        "company": "PROFESSIONAL EXPERIENCE (10+ YEARS",
         "location": null,
         "start": "Apr 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 42,
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "PROFESSIONAL EXPERIENCE (10+ YEARS)"
+        ],
+        "duration_months": 43,
         "bullets": [
+          "Basis Vectors Portfolio Services India Pvt. Ltd. (CommerceV3) | Gurgaon",
           "Leading backend development for a multi-tenant eCommerce SaaS platform supporting multiple merchants and high-volume transactions",
           "Designing and implementing secure RESTful APIs for products, checkout, orders, promotions, and third-party integrations.",
           "Developing and maintaining payment gateway integrations including Authorize.Net and Razorpay.",
@@ -208,17 +270,20 @@
         "sub_sections": [
           "Transformed By Uplers"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Net, Razorpay) Senior PHP Developer",
+        "role": "Senior PHP Developer",
         "company": "Stratbeans Consulting Pvt. Ltd",
         "location": "Gurgaon",
         "start": "Apr 2022",
         "end": "Mar 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Gateways (Authorize.Net, Razorpay)"
+        ],
         "duration_months": 12,
         "bullets": [
           "Designed and developed LMS modules using Laravel & Yii and ReactJS, aligned with enterprise training workflows.",
@@ -240,7 +305,7 @@
         "location": "Gurgaon",
         "start": "Oct 2020",
         "end": "Mar 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 18,
         "bullets": [
           "Developed and optimized large-scale eCommerce and content applications using Laravel.",
@@ -259,7 +324,7 @@
         "location": "Gurgaon",
         "start": "Mar 2019",
         "end": "Sep 2020",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 19,
         "bullets": [
           "Built and maintained core PHP modules for multiple eCommerce and CRM implementations with configurable dashboards.",
@@ -310,11 +375,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.3,
-      "total_months": 136,
+      "total_years": 11.4,
+      "total_months": 137,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.93
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -345,14 +410,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

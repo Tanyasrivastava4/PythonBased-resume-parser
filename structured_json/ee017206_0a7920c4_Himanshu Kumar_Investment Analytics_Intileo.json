@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ee017206_0a7920c4_Himanshu Kumar_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:42.111149+00:00",
+    "generated_at": "2026-10-07T09:28:44.350679+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,22 +48,28 @@
   "summary": null,
   "skills": {
     "items": [
+      ".NET",
       "AML",
       "Agile",
       "Alteryx",
       "Analyze",
       "Author-it",
+      "B2B Sales",
       "Business Development",
       "Business Strategy",
+      "Capital Markets",
       "ClearEDGE",
+      "Client Relationship Management",
       "Cross-functional Collaboration",
       "DAX",
       "DCF",
       "Data Science",
+      "ETL",
       "Equities",
       "Exploratory Data Analysis",
       "Financial Analysis",
       "Fixed Income",
+      "Hedge Funds",
       "Jira",
       "KPI",
       "KYC",
@@ -72,30 +78,43 @@
       "Logistics",
       "MS Office",
       "Machine Learning",
+      "Make",
       "Mentoring",
       "Microsoft Dynamics",
       "Microsoft Excel",
       "Microsoft Teams",
       "Pinterest",
+      "Portfolio Management",
       "Power BI",
+      "Private Equity",
+      "Project Management",
       "Python",
+      "Quantitative Research",
       "REACH",
+      "Ratio Analysis",
       "Reporting",
       "SAS",
       "SQL",
+      "Solution Design",
       "Stakeholder Management",
       "Tableau",
       "VBA",
       "Wealth Management"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "Python"
+      ],
       "legal": [
         "AML",
         "KYC"
       ],
       "project_mgmt": [
         "Agile",
-        "Jira"
+        "Jira",
+        "Portfolio Management",
+        "Project Management"
       ],
       "data_science": [
         "Alteryx",
@@ -111,11 +130,26 @@
         "ClearEDGE",
         "SQL"
       ],
+      "sales": [
+        "B2B Sales"
+      ],
       "biz_dev": [
         "Business Development"
       ],
       "consulting": [
         "Business Strategy"
+      ],
+      "finance": [
+        "Capital Markets",
+        "DCF",
+        "Equities",
+        "Fixed Income",
+        "Hedge Funds",
+        "Private Equity",
+        "Wealth Management"
+      ],
+      "client_mgmt": [
+        "Client Relationship Management"
       ],
       "soft_skill": [
         "Cross-functional Collaboration",
@@ -124,18 +158,16 @@
         "Reporting",
         "Stakeholder Management"
       ],
-      "finance": [
-        "DCF",
-        "Equities",
-        "Fixed Income",
-        "Wealth Management"
-      ],
       "ai_ml": [
         "Data Science",
         "Machine Learning"
       ],
+      "data_engineering": [
+        "ETL"
+      ],
       "finance_ops": [
-        "Financial Analysis"
+        "Financial Analysis",
+        "Ratio Analysis"
       ],
       "business_analysis": [
         "KPI"
@@ -151,18 +183,26 @@
         "Microsoft Excel",
         "Microsoft Teams"
       ],
+      "rpa": [
+        "Make"
+      ],
       "crm": [
         "Microsoft Dynamics"
       ],
       "search": [
         "Pinterest"
       ],
-      "programming_language": [
-        "Python",
-        "VBA"
+      "research": [
+        "Quantitative Research"
       ],
       "compliance": [
         "REACH"
+      ],
+      "architecture": [
+        "Solution Design"
+      ],
+      "programming": [
+        "VBA"
       ]
     },
     "_confidence": 0.92,
@@ -171,13 +211,16 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "ALPHA ALTERNATIVES",
-        "location": "DOMESTIC CAPITAL RAISING GROUP, Bengaluru",
+        "role": "ALPHA ALTERNATIVES - DOMESTIC CAPITAL",
+        "company": "RAISING GROUP",
+        "location": "Bengaluru",
         "start": "OCT 2025",
         "end": "Present",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 12,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "ALPHA ALTERNATIVES - DOMESTIC CAPITAL"
+        ],
+        "duration_months": 13,
         "bullets": [
           "Lead capital raising initiatives across institutional investors, family offices (Hurun), UHNI clients, and corporate treasuries.",
           "Develop and maintain a strong investor pipeline. Conduct investor meetings, roadshows, and fund presentations.",
@@ -189,17 +232,21 @@
           "Hedge Funds, Private Equity, Structured",
           "Credit, Real Estate, Infrastructure, Structured Gold & Silver, Offshore funds)."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "CHIEF MANAGER, PRIVATE • Managed a ₹350 Cr investment portfolio BANKING , Bengaluru",
+        "role": "CHIEF MANAGER, PRIVATE • Managed a ₹350 Cr investment portfolio",
         "company": "ICICI BANK",
         "location": null,
         "start": "JAN 2022",
         "end": "SEP 2025",
         "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Provide risk-adjusted portfolio recommendations.",
+          "ICICI BANK - CHIEF MANAGER, PRIVATE • Managed a ₹350 Cr investment portfolio"
+        ],
         "duration_months": 45,
         "bullets": [
           "across 75 Ultra-High Net Worth (UHNI) families, delivering 40% YoY AUM growth through strategic asset allocation, tailored financial planning, and proactive client relationship management."
@@ -210,12 +257,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "EDHUSK , CO-FOUNDER",
-        "location": "BUSINESS DEVELOPMENT, Jaipur",
+        "role": "EDHUSK , CO-FOUNDER - BUSINESS DEVELOPMENT",
+        "company": "Jaipur",
+        "location": null,
         "start": "JUN’17",
         "end": "JAN’22",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "EDHUSK , CO-FOUNDER - BUSINESS DEVELOPMENT"
+        ],
         "duration_months": 56,
         "bullets": [
           "Onboarded and managed a team of 3000+ qualified tutors for customized sessions in Academics & Hobbies.",
@@ -228,18 +278,18 @@
           "Setup an ETL process to extract raw data from various online resources; automated using SQL and python."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.3,
-      "total_months": 112,
+      "total_years": 9.4,
+      "total_months": 113,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -282,7 +332,7 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "Sainik School Ghorakhal",
-        "year": "2012",
+        "year": "2010",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -451,20 +501,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.64,

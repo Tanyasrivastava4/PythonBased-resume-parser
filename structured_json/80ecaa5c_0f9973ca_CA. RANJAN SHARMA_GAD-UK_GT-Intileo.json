@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "80ecaa5c_0f9973ca_CA. RANJAN SHARMA_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:26.475722+00:00",
+    "generated_at": "2026-10-07T09:27:04.736804+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,32 +47,42 @@
   "summary": "CONTACTS\nChartered Accountant with 3+ years of articleship experience in statutory\nand tax audits, financial reporting, and GST compliance. Exposure in\n+91-7004484594 Laxmi Nagar, New Delhi, 110092. https://www.linkedin.com/in/ca- ranjan-sharma-44905a1a2\nmanufacturing, leasing and energy sectors with turnover exceeding ₹200\nCrores. Proficient in risk-based audit procedures, preparation of financial\nstatements as per Schedule III of the Companies Act, 2013, Tax Audit Reports\nunder Section 44AB (Forms 3CA/3CB & 3CD), and audit reporting including\nCARO 2020.",
   "skills": {
     "items": [
-      "Accounting",
+      "Account Reconciliation",
       "CARO 2020",
       "Communication",
+      "Company Law",
+      "CompuOffice",
+      "Finacle",
       "Financial Reporting",
+      "Form 3CA-3CD",
       "GST",
+      "General Ledger Accounting",
       "Income Tax Return",
       "Lease Management",
+      "Legal Compliance",
       "LinkedIn",
       "Microsoft Excel",
-      "NPA Management",
-      "Regulatory Compliance",
+      "NPA Accounts",
       "Reporting",
       "SAP",
-      "Schedule III",
+      "Schedule III Compliance",
       "Statutory Audit",
-      "Tally",
-      "Tax Audit",
+      "Stock Take",
+      "TDS",
+      "TDS Return Filing",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation"
     ],
     "by_category": {
-      "finance_ops": [
-        "Accounting",
-        "Financial Reporting",
-        "Statutory Audit",
-        "Tally",
-        "Taxation"
+      "accounting_finance": [
+        "Account Reconciliation",
+        "General Ledger Accounting",
+        "Schedule III Compliance",
+        "Stock Take",
+        "TDS Return Filing",
+        "Tally ERP 9",
+        "Tax Auditing"
       ],
       "compliance": [
         "CARO 2020"
@@ -81,9 +91,22 @@
         "Communication",
         "Reporting"
       ],
+      "legal": [
+        "Company Law",
+        "Legal Compliance"
+      ],
       "accounting": [
-        "GST",
-        "Tax Audit"
+        "CompuOffice",
+        "Form 3CA-3CD",
+        "GST"
+      ],
+      "fintech": [
+        "Finacle"
+      ],
+      "finance_ops": [
+        "Financial Reporting",
+        "Statutory Audit",
+        "Taxation"
       ],
       "finance": [
         "Income Tax Return"
@@ -98,20 +121,17 @@
         "Microsoft Excel"
       ],
       "banking": [
-        "NPA Management"
-      ],
-      "legal": [
-        "Regulatory Compliance"
+        "NPA Accounts"
       ],
       "integration": [
         "SAP"
       ],
-      "financial_reporting": [
-        "Schedule III"
+      "taxation": [
+        "TDS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel.→Microsoft Excel(91%), GST Compliance→GST(100%), Reporting.→Reporting(95%), financial reporting→Financial Reporting(100%), leasing→Lease Management(100%))"
+    "_method": "flashtext_skills_section | fuzzy(reconciliation→Account Reconciliation(97%), Compu-Office→CompuOffice(100%), Forms 3CA→Form 3CA-3CD(94%), Excel.→Microsoft Excel(91%), GST Compliance→GST(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -121,7 +141,7 @@
         "location": "",
         "start": "September 2025",
         "end": "January 2026",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 5,
         "bullets": [
           " Preparation of monthly TDS statements and quarterly filling of TDS returns.",
@@ -148,7 +168,7 @@
         "degree": "• C.A Final (Group I) –Jan 2026",
         "degree_name": "CA Final",
         "degree_type": "professional_certification",
-        "degree_field": null,
+        "degree_field": "Jan 2026",
         "institution": null,
         "year": "2026",
         "gpa": "56%",
@@ -171,14 +191,14 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": "LNMU",
-        "institution": null,
+        "institution": "LNMU Darbhanga",
         "year": "September 2025 - January 2026",
         "gpa": "64%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.8
+    "_confidence": 0.85
   },
   "certifications": {
     "items": [],
@@ -189,7 +209,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.81
+    "overall": 0.82
   },
   "_needs_review": true,
   "_review_queue": [

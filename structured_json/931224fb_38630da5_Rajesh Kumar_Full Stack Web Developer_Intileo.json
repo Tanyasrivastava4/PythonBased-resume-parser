@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "931224fb_38630da5_Rajesh Kumar_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:44.205727+00:00",
+    "generated_at": "2026-10-07T09:27:27.600135+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -57,6 +57,7 @@
       "Bootstrap",
       "CI/CD",
       "CSS3",
+      "Communication",
       "Data Science",
       "DevOps",
       "Docker",
@@ -81,14 +82,19 @@
       "Machine Learning",
       "Microservices",
       "Node.js",
+      "Payroll Administration",
       "Problem Solving",
       "REST API",
       "React",
       "Redux",
       "SQL",
+      "Slack",
       "Spring Boot",
+      "Supply Chain Management",
       "System Design",
-      "TypeScript"
+      "Team Leadership",
+      "TypeScript",
+      "Value Stream Mapping"
     ],
     "by_category": {
       "web_framework": [
@@ -120,6 +126,11 @@
         "DevOps",
         "Docker",
         "Kubernetes"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Problem Solving",
+        "Team Leadership"
       ],
       "ai_ml": [
         "Data Science",
@@ -153,11 +164,20 @@
         "Microservices",
         "System Design"
       ],
-      "soft_skill": [
-        "Problem Solving"
+      "hr": [
+        "Payroll Administration"
       ],
       "database": [
         "SQL"
+      ],
+      "productivity": [
+        "Slack"
+      ],
+      "operations": [
+        "Supply Chain Management"
+      ],
+      "manufacturing": [
+        "Value Stream Mapping"
       ]
     },
     "_confidence": 0.92,
@@ -166,9 +186,9 @@
   "experience": {
     "jobs": [
       {
-        "role": "Technical Lead at HCL Tech, Vijayawada",
-        "company": "HCLTech",
-        "location": null,
+        "role": "Role | Tech Lead Developer",
+        "company": "May 2025)",
+        "location": "Tech, Vijayawada",
         "start": "Oct 2024",
         "end": "May 2025",
         "method": "date_regex+date_prefix_title",
@@ -180,9 +200,9 @@
         "source": "experience"
       },
       {
-        "role": "Software Engineer at Quest Global, Bangalore",
-        "company": null,
-        "location": null,
+        "role": "• Sr. Software Engineer at Quest Global, Bangalore (Sep 2022",
+        "company": "Jul 2023)",
+        "location": "Global, Bangalore",
         "start": "Sep 2022",
         "end": "Jul 2023",
         "method": "date_regex+date_prefix_title",
@@ -195,12 +215,61 @@
       },
       {
         "role": "Consultant at Coforge, Noida payroll: Raft Consulting",
-        "company": null,
-        "location": "C2H",
+        "company": "C2H",
+        "location": null,
         "start": "Feb 2022",
         "end": "May 2022",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+date_prefix_title+title_dash_company",
         "duration_months": 4,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Programmer",
+        "company": "PersonalFN",
+        "location": "Noida",
+        "start": "Feb 2019",
+        "end": "Feb 2022",
+        "method": "date_regex+at_split",
+        "duration_months": 37,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Software Engineer at Tech Mahindra, Bangalore payroll: Xpetize",
+        "company": "May 2022) | C2H",
+        "location": null,
+        "start": "Nov 2018",
+        "end": "Feb 2019",
+        "method": "date_regex+date_prefix_title+title_dash_company",
+        "duration_months": 4,
+        "bullets": [
+          "Technologies: Angular, TypeScript, HTML, CSS, Node.js, GCP Description: Objective of the BigLots project is a cross platform web application in which one primary Login page.",
+          "After enter valid username and password in login page, Menu page has with table of one company’s Employee Id, Name, Qualification, Total Experience and Gender.",
+          "Enter the data in application, rows are increased.",
+          "Developed a table with all employee’s insert, update and delete the data of rows.",
+          "Final page is a dashboard result page with all employee’s details.",
+          "All data is send to Cloud network."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "• Software Engineer at ARicent, Bangalore",
+        "company": "C2H",
+        "location": null,
+        "start": "Jan 2017",
+        "end": "Oct 2018",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 22,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -208,29 +277,9 @@
         "source": "experience"
       },
       {
-        "role": "Software Engineer at Tech Mahindra, Bangalore payroll: Xpetize",
-        "company": "Tech Mahindra",
-        "location": "C2H",
-        "start": "Nov 2018",
-        "end": "Feb 2019",
-        "method": "date_regex+date_prefix_title+inherited_company",
-        "duration_months": 4,
-        "bullets": [
-          "Technologies: Angular, TypeScript, HTML, CSS, Node.js, GCP Description: Objective of the BigLots project is a cross platform web application in which one primary Login page.",
-          "After enter valid username and password in login page, Menu page has with table of one company’s Employee Id, Name, Qualification, Total Experience and Gender.",
-          "Enter the data in application, rows are increased.",
-          "Developed a table with all employee’s insert, update and delete the data of rows.",
-          "Final page is a"
-        ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "Software Engineer at VSM Software, Bangalore",
-        "company": "• Programmer at PersonalFN, Noida",
-        "location": "C2H",
+        "role": "Software Engineer at VSM",
+        "company": "C2H",
+        "location": "Software, Bangalore",
         "start": "Aug 2014",
         "end": "Mar 2015",
         "method": "date_regex+date_prefix_title+inherited_company",
@@ -254,7 +303,8 @@
           "After enter valid username and password in login page, data is exchange between browser and web server.",
           "IP address of device i.e. mobile, tablet and laptop are store by server with the help of client request.",
           "IP address of all devices are store by server and browser.",
-          "Data is send from one device to another device anywhere"
+          "Data is send from one device to another device anywhere device is placed in universe.",
+          "All data is send to Cloud network."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -284,8 +334,8 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Training",
+        "role": "• Software Engineer at Tech Mahindra, Bangalore payroll: Xpetize (Nov 2018",
+        "company": "Feb 2019) | C2H",
         "location": null,
         "start": "2011",
         "end": "2012",
@@ -300,11 +350,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.5,
-      "total_months": 54,
-      "overlapping_periods_merged": 1
+      "total_years": 9.2,
+      "total_months": 111,
+      "overlapping_periods_merged": 3
     },
-    "_confidence": 0.92
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -401,22 +451,17 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
+      "field": "experience.jobs[5]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
-      "confidence": 0.98,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
+      "field": "experience.jobs[6]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[7]",
+      "field": "experience.jobs[9]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

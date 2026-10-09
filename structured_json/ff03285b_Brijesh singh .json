@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ff03285b_Brijesh singh _segmented.txt",
-    "generated_at": "2026-09-30T07:00:55.059332+00:00",
+    "generated_at": "2026-10-07T09:29:00.940796+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,22 +50,28 @@
       "Adobe Photoshop",
       "Bootstrap",
       "CSS3",
+      "Communication",
       "Elementor",
       "Figma",
+      "Graphic Design",
       "Gutenberg-e",
       "HTML5",
       "JavaScript",
       "Motion Graphics",
       "MySQL",
       "PHP",
+      "Presentation Skills",
       "React",
+      "UX Design",
       "WordPress"
     ],
     "by_category": {
       "design": [
         "Adobe Photoshop",
         "Figma",
-        "Motion Graphics"
+        "Graphic Design",
+        "Motion Graphics",
+        "UX Design"
       ],
       "web_framework": [
         "Bootstrap",
@@ -73,6 +79,10 @@
         "Elementor",
         "HTML5",
         "React"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Presentation Skills"
       ],
       "database": [
         "Gutenberg-e",
@@ -137,14 +147,14 @@
         "degree_name": "B.A.",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": null,
+        "institution": "DU.SOL C O N T A C T mandi house",
         "year": "2024 - 2027",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.68
+    "_confidence": 0.75
   },
   "certifications": {
     "items": [
@@ -177,15 +187,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "education",
-      "confidence": 0.68,
-      "reason": "low_confidence"
-    },
     {
       "field": "education.entries[0]",
       "confidence": 0.55,

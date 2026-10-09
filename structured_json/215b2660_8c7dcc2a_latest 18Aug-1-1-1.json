@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "215b2660_8c7dcc2a_latest 18Aug-1-1-1_segmented.txt",
-    "generated_at": "2026-09-30T06:58:06.513161+00:00",
+    "generated_at": "2026-10-07T10:31:02.267706+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,25 +49,72 @@
   "skills": {
     "items": [
       "Business Development",
+      "Channel Development",
+      "Competitive Analysis",
+      "Coroutines Flow",
+      "Corporate Governance",
+      "Credit Management",
+      "Customer Experience",
+      "Distribution Management",
+      "Field Sales",
+      "Inventory Management",
       "Leadership",
       "LinkedIn",
       "Market Expansion",
+      "Market Mapping",
       "Market Research",
+      "Merchandising",
       "Microsoft Edge",
+      "Onboarding",
+      "Operations Management",
       "Payroll Administration",
       "Payroll Management",
+      "Performance Management",
+      "Procurement",
       "Product Marketing",
+      "Product Mix",
+      "Professional Tax",
+      "Real Estate Valuation",
+      "Reporting",
       "Revenue Generation",
-      "Strategic Thinking"
+      "Sales Forecasting",
+      "Secondary Distribution",
+      "Strategic Planning"
     ],
     "by_category": {
       "biz_dev": [
         "Business Development",
+        "Competitive Analysis",
         "Market Expansion"
+      ],
+      "sales": [
+        "Channel Development",
+        "Credit Management",
+        "Distribution Management",
+        "Field Sales",
+        "Market Mapping",
+        "Product Mix",
+        "Revenue Generation",
+        "Sales Forecasting",
+        "Secondary Distribution"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "legal": [
+        "Corporate Governance"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
+      ],
+      "operations": [
+        "Inventory Management",
+        "Operations Management",
+        "Procurement"
       ],
       "soft_skill": [
         "Leadership",
-        "Strategic Thinking"
+        "Reporting"
       ],
       "web_framework": [
         "LinkedIn"
@@ -76,29 +123,42 @@
         "Market Research",
         "Product Marketing"
       ],
+      "retail": [
+        "Merchandising"
+      ],
       "dev_tool": [
         "Microsoft Edge"
       ],
       "hr": [
+        "Onboarding",
         "Payroll Administration",
-        "Payroll Management"
+        "Payroll Management",
+        "Performance Management",
+        "Professional Tax"
       ],
-      "sales": [
-        "Revenue Generation"
+      "real_estate": [
+        "Real Estate Valuation"
+      ],
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Professional→Professional Tax(95%), Payroll→Payroll Administration(100%))"
   },
   "experience": {
     "jobs": [
       {
         "role": "General Manager",
-        "company": "Prism Johnson Limited  North India",
+        "company": "Prism Johnson Limited",
         "location": null,
         "start": "06/2023",
         "end": "07/2025",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "General Manager",
+          "Prism Johnson Limited"
+        ],
         "duration_months": 26,
         "bullets": [
           "Led P&L for North India, driving growth, profitability, and operational efficiency.",
@@ -135,11 +195,15 @@
       },
       {
         "role": "Independent Consultant",
-        "company": "Afterbricks Consulting Pvt. Ltd. and Easybuild",
+        "company": "Afterbricks Consulting Pvt. Ltd. and Easybuild (Kanodia Group",
         "location": null,
         "start": "09/2022",
         "end": "06/2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Independent Consultant",
+          "Afterbricks Consulting Pvt. Ltd. and Easybuild (Kanodia Group)"
+        ],
         "duration_months": 10,
         "bullets": [
           "Led brand onboarding and price negotiations across core categories.",
@@ -152,17 +216,21 @@
           "Planned and executed customer engagement campaigns and enhancing brand visibility."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Business Head",
-        "company": "Valve Bathware India Ltd  Pan India",
+        "company": "Valve Bathware India Ltd",
         "location": null,
         "start": "12/2021",
         "end": "08/2022",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Head",
+          "Valve Bathware India Ltd"
+        ],
         "duration_months": 9,
         "bullets": [
           "Headed all-India operations with full P&L ownership for the Faucet and Sanitaryware division.",
@@ -188,11 +256,16 @@
       },
       {
         "role": "General Manager",
-        "company": "Ashirvad Pipes Pvt. Ltd  Pan India",
+        "company": "Established after sales services and recruited 12 Field Service Technicians for markets across North and East",
         "location": null,
         "start": "03/2021",
         "end": "12/2021",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "• Established after sales services and recruited 12 Field Service Technicians for markets across North and East.",
+          "General Manager",
+          "Ashirvad Pipes Pvt. Ltd"
+        ],
         "duration_months": 10,
         "bullets": [
           "Led P&L for the WST Division, restructuring pricing, sales policies, and schemes to streamline operations.",
@@ -210,32 +283,36 @@
         "sub_sections": [
           "Significant Highlights"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Dy. General Manager",
-        "company": "Cera Sanitaryware Ltd  East and Central India",
-        "location": null,
-        "start": "04/2010",
-        "end": "03/2021",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 132,
-        "bullets": [],
-        "sub_sections": [],
         "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
+        "role": "Dy. General Manager",
+        "company": "Cera Sanitaryware Ltd",
+        "location": null,
+        "start": "04/2010",
+        "end": "03/2021",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Dy. General Manager",
+          "Cera Sanitaryware Ltd"
+        ],
+        "duration_months": 132,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
         "role": "Asst. General Manager",
-        "company": "Cera Sanitaryware Ltd  East and Central India",
-        "location": "Senior Manager",
-        "start": "Apr 2012",
-        "end": "Mar 2015",
-        "method": "date_regex+title_dict+inherited_company",
-        "duration_months": 36,
+        "company": "Cera Sanitaryware Ltd",
+        "location": "Manager",
+        "start": "Apr 2010",
+        "end": "Mar 2012",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 24,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -248,7 +325,7 @@
         "location": null,
         "start": "Apr 2018",
         "end": "Mar 2021",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 36,
         "bullets": [
           "Led channel development and revenue growth across 7 North and East Indian states with a 60-member team.",
@@ -267,54 +344,67 @@
         "source": "experience"
       },
       {
-        "role": "Got awarded for the highest sales growth in the North Region from",
+        "role": "Got awarded for the highest sales growth in the North Region",
         "company": "Established CERA as the leading sanitaryware brand in East and Central India.",
         "location": "in India",
         "start": "2016",
         "end": "2020",
         "method": "date_regex",
+        "pre_date_header": [
+          "City and MR Proview."
+        ],
         "duration_months": 49,
-        "bullets": [],
+        "bullets": [
+          "Set up 15 CERA galleries within 5 years."
+        ],
         "sub_sections": [],
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "• Awarded & recognised as the Best Team and Best AGM in the financial years",
-        "company": "Established CERA as the leading sanitaryware brand in East and Central India.",
-        "location": "in India",
+        "role": "the Best Team and Best AGM in the financial years",
+        "company": "• Awarded & recognised",
+        "location": null,
         "start": "2012",
         "end": "2013",
-        "method": "year_range_short_regex+date_prefix_title+inherited_company",
+        "method": "year_range_short_regex+date_prefix_title",
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Deputy Manager",
-        "company": "Parryware Roca Pvt. Ltd  Delhi & East UP",
+        "company": "Parryware Roca Pvt. Ltd",
         "location": null,
         "start": "07/2005",
         "end": "03/2010",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Deputy Manager",
+          "Parryware Roca Pvt. Ltd"
+        ],
         "duration_months": 57,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Area Sales Executive",
-        "company": "Blowplast Ltd  Western UP",
+        "company": "Blowplast Ltd",
         "location": null,
         "start": "04/2004",
         "end": "07/2005",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Area Sales Executive",
+          "Blowplast Ltd"
+        ],
         "duration_months": 16,
         "bullets": [],
         "sub_sections": [],
@@ -324,11 +414,15 @@
       },
       {
         "role": "Asst. Sales Officer",
-        "company": "Hawkins Cookers Ltd  Delhi",
-        "location": "punjab and haryana",
+        "company": "Hawkins Cookers Ltd",
+        "location": null,
         "start": "11/2000",
         "end": "03/2004",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Asst. Sales Officer",
+          "Hawkins Cookers Ltd"
+        ],
         "duration_months": 41,
         "bullets": [],
         "sub_sections": [],
@@ -343,7 +437,7 @@
       "total_months": 297,
       "overlapping_periods_merged": 9
     },
-    "_confidence": 0.88
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -353,7 +447,7 @@
         "degree_type": "masters",
         "degree_field": "Marketing",
         "institution": "M. Marketing Lucknow University",
-        "year": "2000",
+        "year": "1998",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -364,7 +458,7 @@
         "degree_type": "masters",
         "degree_field": "Economics",
         "institution": "College",
-        "year": "1997",
+        "year": "2000",
         "gpa": null,
         "_needs_review": true,
         "_confidence": 0.55
@@ -487,7 +581,12 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[5]",
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },
@@ -504,16 +603,6 @@
     {
       "field": "experience.jobs[8]",
       "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[9]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[10]",
-      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

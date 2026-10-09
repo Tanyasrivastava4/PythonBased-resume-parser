@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "778657ab_Aniket Sharma (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:59:20.189132+00:00",
+    "generated_at": "2026-10-07T09:26:56.546692+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -64,6 +64,7 @@
       "Responsive Web Design",
       "SEO",
       "Shopify",
+      "Team Collaboration",
       "TestNG",
       "Visual Studio",
       "WordPress"
@@ -73,7 +74,8 @@
         "Adaptability",
         "Collaboration",
         "Creativity",
-        "Cross-functional Collaboration"
+        "Cross-functional Collaboration",
+        "Team Collaboration"
       ],
       "web_framework": [
         "Bootstrap",
@@ -143,19 +145,19 @@
         "degree_name": "Graduation",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Institute Of PCM",
-        "year": "2021",
+        "institution": "Spotify You Tube, College Website",
+        "year": "2018",
         "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.95
+        "_needs_review": true,
+        "_confidence": 0.55
       },
       {
         "degree": "(B.sc) Higher Education",
         "degree_name": "B.Sc",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Baiswara Inter College",
-        "year": "2018",
+        "institution": null,
+        "year": "2021",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
@@ -165,7 +167,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Alok HS School Lalganj",
+        "institution": "Baiswara Inter College",
         "year": "2018",
         "gpa": null,
         "_needs_review": false,
@@ -176,14 +178,14 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Spotify You Tube, College Website",
+        "institution": "UPBOARD Lalganj Alok HS School Lalganj Science",
         "year": "2016",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.92
+    "_confidence": 0.84
   },
   "certifications": {
     "items": [
@@ -300,10 +302,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.83
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "education.entries[1]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.6,

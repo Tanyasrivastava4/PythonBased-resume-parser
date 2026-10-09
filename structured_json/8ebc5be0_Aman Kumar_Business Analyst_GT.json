@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8ebc5be0_Aman Kumar_Business Analyst_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:40.595908+00:00",
+    "generated_at": "2026-10-07T09:27:22.491151+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -54,14 +54,25 @@
       "BRD",
       "Change Management",
       "Collaboration",
+      "Coroutines Flow",
+      "Gap Analysis",
       "Generative AI",
       "Jira",
       "KYC",
       "LLM",
+      "LinkedIn",
       "Lucidchart",
+      "Machine Learning",
+      "Market Research",
+      "Microsoft Teams",
+      "Prompt Engineering",
+      "Quality Assurance",
       "SQL",
       "Stakeholder Management",
+      "Team Collaboration",
       "UAT",
+      "UX Design",
+      "User Flows",
       "Wireframing"
     ],
     "by_category": {
@@ -78,19 +89,42 @@
         "BFSI"
       ],
       "business_analysis": [
-        "BRD"
+        "BRD",
+        "Gap Analysis"
       ],
       "soft_skill": [
         "Collaboration",
-        "Stakeholder Management"
+        "Stakeholder Management",
+        "Team Collaboration"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "genai": [
         "Generative AI",
-        "LLM"
+        "LLM",
+        "Prompt Engineering"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "design": [
         "Lucidchart",
+        "UX Design",
+        "User Flows",
         "Wireframing"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Quality Assurance"
       ],
       "database": [
         "SQL"
@@ -110,8 +144,12 @@
         "location": null,
         "start": "08/2025",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 14,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Analyst",
+          "DEVtrust"
+        ],
+        "duration_months": 15,
         "bullets": [
           "Currently working on SellerMax.ai, a platform that helps Amazon sellers optimize their listings and grow their sales using AI and data insights.",
           "Defined product roadmap and prioritized features based on user feedback and business goals.",
@@ -130,7 +168,11 @@
         "location": null,
         "start": "07/2023",
         "end": "07/2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Analyst",
+          "V2Infotech"
+        ],
         "duration_months": 25,
         "bullets": [
           "Managed end-to-end product lifecycle for Divyang Career, Newsroom 360, and Nebula, from idea to Product launch.",
@@ -145,12 +187,32 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "Links",
+        "company": "https://www.linkedin.com/in/aman-kumar 19654b202",
+        "location": null,
+        "start": "08/2016",
+        "end": "06/2019",
+        "method": "date_regex+multiline_role_above_company",
+        "duration_months": 35,
+        "bullets": [
+          "Divyang Career is a user-friendly, accessible platform designed to bridge the gap between job seekers with disabilities and employers.",
+          "This platform enables government bodies, NGOs, and private organizations to easily post job openings, while candidates with disabilities can apply for relevant opportunities.",
+          "I created use case and user story documents, developed the project plan, and estimated the project timeline.",
+          "I also designed the solution by making the data flow diagram, performed market research, and conducted a gap analysis for the project and coordinated with both internal and external stakeholders throughout the project's lifecycle.",
+          "Newsroom 360 and Nebula | AI MVP"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.2,
-      "total_months": 39,
+      "total_years": 6.2,
+      "total_months": 75,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -163,7 +225,7 @@
         "degree_type": "bachelors",
         "degree_field": "Electronics and Communication",
         "institution": "Electronics and Communication Guru Govind Sing Indrprastha University",
-        "year": "2022",
+        "year": "2019",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -174,7 +236,7 @@
         "degree_type": "diploma",
         "degree_field": "Electronic and Communication",
         "institution": "Electronic and Communication Guru Nanak Dev Institute of",
-        "year": "2019",
+        "year": "2022",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95

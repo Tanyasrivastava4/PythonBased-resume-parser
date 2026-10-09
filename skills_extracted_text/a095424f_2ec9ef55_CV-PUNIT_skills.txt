@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a095424f_2ec9ef55_CV-PUNIT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Languages: JavaScript (Node.js, React.js), PHP
+• Frameworks: Laravel, React.js
+• Databases: MongoDB, MySQL
+• Tools: Git, GitHub, Jira
+• Others: REST APIs, Agile Methodologies
+
+── Extraction Results ──
+Skills found   : 20
+Confidence     : 0.92
+Time           : 166.92 ms
+Method         : flashtext_skills_section | fuzzy(React.js→React(100%), React.js→React(100%), React.js→React(100%))
+
+── All Skills (20) ──
+Agile, Bitbucket, Client Relationship Management, Code Reviews, Cross-functional Collaboration, Data Management, Facebook, Git, GitHub, JavaScript, Jira, Laravel, LinkedIn, Microsoft Teams, MongoDB, MySQL, Node.js, PHP, REST API, React
+
+── By Category ──
+  client_mgmt                    ['Client Relationship Management']
+  database                       ['MongoDB', 'MySQL']
+  dev_tool                       ['Bitbucket', 'Code Reviews', 'Git', 'GitHub']
+  productivity                   ['Data Management', 'Microsoft Teams']
+  programming_language           ['JavaScript', 'PHP']
+  project_mgmt                   ['Agile', 'Jira']
+  soft_skill                     ['Cross-functional Collaboration']
+  web_framework                  ['Facebook', 'Laravel', 'LinkedIn', 'Node.js', 'REST API', 'React']

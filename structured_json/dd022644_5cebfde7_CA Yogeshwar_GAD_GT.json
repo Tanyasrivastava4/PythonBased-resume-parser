@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "dd022644_5cebfde7_CA Yogeshwar_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:32.033752+00:00",
+    "generated_at": "2026-10-07T09:28:30.236515+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -46,37 +46,100 @@
   "summary": null,
   "skills": {
     "items": [
+      "Auditing",
+      "CARO Reporting",
+      "Cash Flow Management",
+      "Company Law",
+      "Coroutines Flow",
+      "Financial Reporting",
+      "Form 3CD",
+      "GST",
+      "Internal Financial Controls",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
+      "Order-to-Cash",
+      "Payroll Administration",
+      "Procure-to-Pay",
+      "Ratio Analysis",
+      "Reporting",
       "SAP",
-      "Tally"
+      "Statutory Audit",
+      "TCS",
+      "TDS",
+      "Tally",
+      "Tally ERP 9",
+      "Tax Auditing"
     ],
     "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Cash Flow Management",
+        "Financial Reporting",
+        "Ratio Analysis",
+        "Statutory Audit",
+        "Tally"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay"
+      ],
+      "legal": [
+        "Company Law"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "accounting": [
+        "Form 3CD",
+        "GST",
+        "TCS"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "soft_skill": [
+        "Reporting"
       ],
       "integration": [
         "SAP"
       ],
-      "finance_ops": [
-        "Tally"
+      "taxation": [
+        "TDS"
+      ],
+      "accounting_finance": [
+        "Tally ERP 9",
+        "Tax Auditing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section"
+    "_method": "flashtext_skills_section | fuzzy(Tally→Tally(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Article Trainee at Lodha & Co LLP",
-        "company": "Statutory Audit",
+        "role": "Article Trainee",
+        "company": "Lodha & Co LLP Statutory Audit",
         "location": null,
         "start": "April 2022",
         "end": "April 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Article Trainee at Lodha & Co LLP"
+        ],
         "duration_months": 37,
         "bullets": [
           "Assisted in planning and executing statutory audits of Large corporate and non-corporate clients in 3+ sectors such as Paper & Board Manufacturing, Glass Bottle Manufacturing, Tyre & Tube Manufacturing Including listed companies having Turnover more than 6,000 crores.",
@@ -119,7 +182,7 @@
         "year": "2025",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "CA Intermediate",
@@ -127,7 +190,7 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2021",
+        "year": "2020",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -148,7 +211,7 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Guru Jambheshwar University",
+        "institution": "ICAI",
         "year": "2023",
         "gpa": null,
         "_needs_review": false,
@@ -159,7 +222,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "CBSE",
+        "institution": "Guru Jambheshwar University",
         "year": "2019",
         "gpa": null,
         "_needs_review": false,
@@ -174,7 +237,7 @@
         "year": null,
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.65
+        "_confidence": 0.8
       },
       {
         "degree": "• Received award of accounts topper in 12th class",

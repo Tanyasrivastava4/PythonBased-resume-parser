@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c42684c1_b928c019_DOC-20241227-WA0006. (1)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:17.308486+00:00",
+    "generated_at": "2026-10-07T09:28:11.812946+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,15 +47,19 @@
   "summary": "f gmail\ncom\nCAREER OBJECTIVE...\nresult of ! want\nmy Working to be SUCCeggs\nto the MY",
   "skills": {
     "items": [
-      "Bancassurance"
+      "Bancassurance",
+      "VMware Site Recovery Manager"
     ],
     "by_category": {
       "insurance": [
         "Bancassurance"
+      ],
+      "devops": [
+        "VMware Site Recovery Manager"
       ]
     },
     "_confidence": 0.75,
-    "_method": "flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
   },
   "experience": {
     "jobs": [
@@ -100,11 +104,11 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Board",
+        "institution": "Board Allahabaq e",
         "year": "2007",
         "gpa": null,
-        "_needs_review": true,
-        "_confidence": 0.55
+        "_needs_review": false,
+        "_confidence": 0.8
       },
       {
         "degree": "Graduation Allahabaq",
@@ -118,7 +122,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.82
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [],
@@ -129,18 +133,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
       "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "education.entries[1]",
-      "confidence": 0.55,
       "reason": "incomplete_fields"
     }
   ]

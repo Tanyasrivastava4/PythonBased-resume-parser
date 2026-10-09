@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cfe5e948_8171d170_Naukri_SumitAnand[12y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:24.459280+00:00",
+    "generated_at": "2026-10-07T09:28:21.156701+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -58,31 +58,49 @@
       "Accounts Payable",
       "Accounts Receivable",
       "Azure",
+      "B2B Sales",
+      "Business Intelligence",
       "C#",
       "C++",
       "CSS3",
+      "Client Handling",
       "Communication",
+      "DDL",
+      "DML",
+      "Data Analysis",
       "Data Science",
       "ERP",
+      "ETL",
+      "Fixed Assets Management",
       "GRC",
+      "General Insurance",
       "General Ledger",
       "Generative AI",
       "HTML5",
+      "ITIL",
       "Java",
       "JavaScript",
       "Leadership",
+      "LinkedIn",
+      "Mentoring",
       "Microsoft Teams",
+      "Oracle Cloud Infrastructure",
+      "Oracle Database",
       "Oracle E-Business Suite",
       "Oracle Fusion Cloud",
       "Oracle Reports",
+      "Oracle SQL",
       "Order-to-Cash",
       "PL/SQL",
       "Print Design",
       "Problem Solving",
       "Procure-to-Pay",
+      "PuTTY",
       "Requirements Gathering",
       "SQL",
       "Stored Procedures",
+      "Supply Chain",
+      "TCS",
       "Talent Management",
       "UNIX",
       "XML"
@@ -104,15 +122,41 @@
         "Accounts Payable",
         "Accounts Receivable"
       ],
+      "sales": [
+        "B2B Sales"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "Requirements Gathering"
+      ],
       "web_framework": [
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "XML"
+      ],
+      "management": [
+        "Client Handling",
+        "ITIL"
       ],
       "soft_skill": [
         "Communication",
         "Leadership",
+        "Mentoring",
         "Problem Solving"
+      ],
+      "database": [
+        "DDL",
+        "DML",
+        "Oracle Database",
+        "Oracle Reports",
+        "Oracle SQL",
+        "PL/SQL",
+        "SQL",
+        "Stored Procedures"
+      ],
+      "data_science": [
+        "Data Analysis"
       ],
       "ai_ml": [
         "Data Science"
@@ -120,11 +164,19 @@
       "erp": [
         "ERP"
       ],
+      "data_engineering": [
+        "ETL"
+      ],
+      "accounting": [
+        "Fixed Assets Management",
+        "General Ledger",
+        "TCS"
+      ],
       "security_ops": [
         "GRC"
       ],
-      "accounting": [
-        "General Ledger"
+      "insurance": [
+        "General Insurance"
       ],
       "genai": [
         "Generative AI"
@@ -132,15 +184,12 @@
       "productivity": [
         "Microsoft Teams"
       ],
+      "cloud": [
+        "Oracle Cloud Infrastructure"
+      ],
       "oracle_erp": [
         "Oracle E-Business Suite",
         "Oracle Fusion Cloud"
-      ],
-      "database": [
-        "Oracle Reports",
-        "PL/SQL",
-        "SQL",
-        "Stored Procedures"
       ],
       "finance": [
         "Order-to-Cash",
@@ -149,8 +198,11 @@
       "design": [
         "Print Design"
       ],
-      "business_analysis": [
-        "Requirements Gathering"
+      "dev_tool": [
+        "PuTTY"
+      ],
+      "domain": [
+        "Supply Chain"
       ],
       "hr": [
         "Talent Management"
@@ -160,17 +212,17 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), Generative→Generative AI(95%), team's→Microsoft Teams(91%), accounting→Accounting(100%), PLSQL→PL/SQL(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), Oracle→Oracle Database(100%), Oracle→Oracle Database(100%), Oracle→Oracle Database(100%), Oracle→Oracle Database(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Engineer",
-        "company": "HCL Technologies Ltd",
-        "location": null,
+        "role": "Engineer at HCL Technologies",
+        "company": "Worked",
+        "location": "Ltd, Mumbai",
         "start": "April 2013",
         "end": "Feb 2016",
-        "method": "date_regex+date_prefix_title+worked_as_role_in_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 35,
         "bullets": [],
         "sub_sections": [],
@@ -179,29 +231,30 @@
         "source": "experience"
       },
       {
-        "role": "Role\tTechno-Managerial Role as Technical Architect Duration",
+        "role": "Oracle EBS R12 Financials Techno-Functional Consultant",
         "company": "Project  #2",
         "location": null,
         "start": "Aug 2020",
         "end": "Feb 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex",
         "duration_months": 0,
         "bullets": [],
         "sub_sections": [
           "Project Name\tGE Power HQ Implementation",
-          "Client\tGeneral Electric (Power & Water)"
+          "Client\tGeneral Electric (Power & Water)",
+          "Role\tOracle EBS R12 Financials Techno-Functional Consultant"
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Role\tOracle EBS R12 Financials Techno-Functional Consultant Duration",
-        "company": "Project  #3",
+        "role": "Contextual Master in June, 2020 for long term engagement with esteemed Client and multiple value deliveries. The solution got published in TCS success stories.The project also involved implementation related to Fixed Assets module with respect to introduction of new Ledgers and related setups involved",
+        "company": "Project  #2",
         "location": null,
         "start": "Feb 2017",
         "end": "July 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+inherited_company",
         "duration_months": 42,
         "bullets": [
           "Project Details\tBusiness Requirement Gathering, Implementation of  a solution to automate entire GL Journal Approval Process and managing the approval process and hierarchy of eligible GL batches using Oracle Approval Management (AME) and governing the entire approval process and audit the same using Oracle GRC (Governance,Risk and Control).",
@@ -211,20 +264,20 @@
           "Extensive Experience in GL/AP/AR/FA.",
           "As an enterprise services consultant,enabled users within the company to use enterprise application.",
           "Managed changes, releases, user accounts,service catalog, incidents.",
-          "Project  #3: Project Name\tGE O&G B2B Project (Implementation & Maintenance) Client\tGeneral Electric (Oil & Gas),  Houston,USA"
+          "Project  #3: Project Name\tGE O&G B2B Project (Implementation & Maintenance) Client\tGeneral Electric (Oil & Gas),  Houston,USA Role\tOracle EBS R12 Financials Technical Consultant"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Role\tOracle EBS R12 Financials Technical Consultant Duration",
+        "role": "Analyst",
         "company": "Project  #4",
         "location": null,
         "start": "Feb 2016",
         "end": "Feb 2017",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex",
         "duration_months": 13,
         "bullets": [
           "Project Details\tBusiness Requirement Gathering, Implementation involved developing a automated solution to send email invoices and Order management header attachments to necessary Client recepients, improving the performance of existing time taking concurrent programs, developing a automated solution to generate pricelist reports and sending via email to the customers.",
@@ -232,38 +285,40 @@
         ],
         "sub_sections": [
           "Project Name\tR12 Implementation for SBIG",
-          "Client\tSBIGICL(State Bank of India General Insurance Company Ltd.)"
+          "Client\tSBIGICL(State Bank of India General Insurance Company Ltd.)",
+          "Role\tAnalyst"
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Role\tAnalyst Duration",
+        "role": "Oracle apps technical professional, Extracting and analyzing data of insurance business significance",
         "company": "Project  #4",
         "location": null,
         "start": "Dec 2013",
         "end": "Feb 2016",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+inherited_company",
         "duration_months": 27,
         "bullets": [
           "Primary Skill Involved: Client handling, Oracle 11g, Oracle EBS R12 Financials, SQL ,PL/SQL,Java,Oracle Reports, Forms Project #5 :"
         ],
         "sub_sections": [
           "Project Name\tR12 Implementation For UPPCL",
-          "Client\tUPPCL(Uttar Pradesh Power Corporation Ltd.)"
+          "Client\tUPPCL(Uttar Pradesh Power Corporation Ltd.)",
+          "Role\tEngineer"
         ],
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Role\tEngineer Duration",
-        "company": "Project  #4",
+        "role": "Client facing role, Supporting and providing solution on regular issues faced by  Power corporation customers pertaining to usage of Oracle applications mostly by visiting domestic client locations. Oracle EBS R12 Financials , SQL, PL/SQL, Java",
+        "company": "Project Details",
         "location": null,
         "start": "Apr 2013",
         "end": "Dec 2013",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex",
         "duration_months": 9,
         "bullets": [
           "Project Details\tClient facing role, Supporting and providing solution on regular issues faced by  Power corporation customers pertaining to usage of Oracle applications mostly by visiting domestic client locations.",
@@ -272,8 +327,8 @@
           "Creation of different type of Value sets in various Modules of the application as per the requirement Defining Concurrent Programs, Executables."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -477,12 +532,12 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[4]",
+      "field": "experience.jobs[2]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[5]",
+      "field": "experience.jobs[4]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

@@ -1,0 +1,57 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/f8e063f2_Amraditya Pradhan_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+10/2024 – 01/2025 | Hyderabad, India
+Deployed Voice Calling Agents based on speech modality models, finetuned the state-of-the-art models to attain end to
+end automation for AI calling to serve. Integrated RAG model for effective context based outputs. Assisting in
+developing and testing automation workflows. Conducted research on AI tools and automation techniques.
+Supporting the team in analyzing and optimizing automated processes.Documenting automation workflows and
+maintaining project reports. Technologies primarily used : RAG, NLP, Development, Fast APIs.
+Machine Learning Intern, DSCVRY AI
+01/2024 – 02/2024 | Chennai
+Deployed Optical Character Recognition based on machine learning models based on complex handwritten and
+pretexted data sheet. Developed and deployed OCR functions and APIs, achieving a 30% increase in character
+recognition accuracy over conventional market OCR technology. Engineered a data pipeline to preprocess the
+documents for OCR, efficient in columetric and tabular data extraction.
+Research Intern, Sai University x IIT Bombay
+09/2023 – 01/2024 | Chennai
+Independent Research under Prof. Krithi Ramamritham. IIT-Bombay under his guest lecture course at Sai University.
+The paper proposes a deep learning-driven personalized stock trading system using three models: RNN for
+fundamental analysis, CNN for technical analysis, and LSTM/BERT for sentiment analysis. It integrates smart
+contracts for automated trade execution. Ensemble learning consolidates model outputs for improved buy/sell
+predictions, offering transparency and risk management via blockchain. The system aims to address limitations
+of traditional trading by optimizing decision-making through data-driven insights and automation.
+LangChain | LlamaIndex | Computer Vision | Fine-Tuning | FAST API + REST API | LLM Fine Tuning |
+Natural Language Processing (NLP) | Neural Network and Transformers | ML Algorithms and Optimization |
+Retrieval-augmented generation (RAG) | Tensorflow | PyTorch | Snowflake (Snowpark) |
+Statistics and Probability | Visualization | Data Collection and Scraping | Time Series Modelling |
+Scientific Data Analysis
+Courses
+Computing and Data Science Major
+Natural Language Processing | | Computer Vision | Deep Learning | Machine Learning | Distributed Computing and
+Big Data | Reinforcement Learning | Data Analysis and Visualization | Python Programming | Data Base
+Management System | Smart Energy & Real Time Systems | Numerical Methods | Calculus | Linear Algebra
+
+── Extraction Results ──
+Skills found   : 38
+Confidence     : 0.92
+Time           : 1000.84 ms
+Method         : flashtext_skills_section | fuzzy(Ensemble→ENSEMBL(93%), Fine-Tuning→Fine-tuning(100%), Retrieval-augmented generation→RAG(100%), Tensorflow→TensorFlow(100%), Python Programming→Python(100%))
+
+── All Skills (38) ──
+ANN, AWS, AWS EC2, BERT, CNN, Computer Vision, Data Analysis, Data Collection, Data Pipeline, Data Science, Deep Learning, ENSEMBL, Exploratory Data Analysis, FastAPI, Fine-tuning, GCP, Generative AI, LLM, LSTM, LangChain, Linear, LlamaIndex, Machine Learning, Make, NLP, Nuxt.js, PostgreSQL, PyTorch, Python, RAG, REST API, RNN, Risk Management, Snowflake, Statistics, TensorFlow, Transformers, Vue.js
+
+── By Category ──
+  ai_ml                          ['ANN', 'BERT', 'CNN', 'Computer Vision', 'Data Science', 'Deep Learning', 'LSTM', 'Machine Learning', 'NLP', 'PyTorch', 'RNN', 'TensorFlow']
+  cloud_infra                    ['AWS', 'AWS EC2', 'GCP']
+  data_engineering               ['Data Pipeline']
+  data_science                   ['Data Analysis', 'ENSEMBL', 'Exploratory Data Analysis', 'Statistics', 'Transformers']
+  database                       ['PostgreSQL', 'Snowflake']
+  genai                          ['Fine-tuning', 'Generative AI', 'LLM', 'LangChain', 'LlamaIndex', 'RAG']
+  programming_language           ['Python']
+  project_mgmt                   ['Linear', 'Risk Management']
+  research                       ['Data Collection']
+  rpa                            ['Make']
+  web_framework                  ['FastAPI', 'Nuxt.js', 'REST API', 'Vue.js']

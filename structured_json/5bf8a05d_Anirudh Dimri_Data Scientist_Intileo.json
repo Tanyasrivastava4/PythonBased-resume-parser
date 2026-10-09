@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5bf8a05d_Anirudh Dimri_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.886417+00:00",
+    "generated_at": "2026-10-07T10:31:48.790551+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,17 +48,49 @@
   "skills": {
     "items": [
       "ANN",
+      "Agentic AI",
+      "Creativity",
+      "Data Analysis",
       "Data Science",
       "Deep Learning",
+      "Fine-tuning",
+      "GCP",
+      "LLM",
+      "LangChain",
+      "LangGraph",
       "Machine Learning",
-      "Python"
+      "NLP",
+      "Python",
+      "RAG",
+      "TensorFlow",
+      "Vector Databases"
     ],
     "by_category": {
       "ai_ml": [
         "ANN",
         "Data Science",
         "Deep Learning",
-        "Machine Learning"
+        "Machine Learning",
+        "NLP",
+        "TensorFlow"
+      ],
+      "genai": [
+        "Agentic AI",
+        "Fine-tuning",
+        "LLM",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Databases"
+      ],
+      "soft_skill": [
+        "Creativity"
+      ],
+      "data_science": [
+        "Data Analysis"
+      ],
+      "cloud_infra": [
+        "GCP"
       ],
       "programming_language": [
         "Python"
@@ -75,7 +107,10 @@
         "location": null,
         "start": "Mar 2025",
         "end": "Oct 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Ai ML Engineer - Data-Hat AI"
+        ],
         "duration_months": 8,
         "bullets": [
           "Developed and implemented Agentic AI solutions leveraging Retrieval-Augmented Generation (RAG) techniques to enhance model accuracy and performance.",

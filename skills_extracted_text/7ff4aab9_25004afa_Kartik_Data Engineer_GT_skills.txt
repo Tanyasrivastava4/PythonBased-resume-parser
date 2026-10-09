@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/7ff4aab9_25004afa_Kartik_Data Engineer_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages/ Technologies: Python, PySpark, SQL, C#, Apache Iceberg, Hive Metastore, Trino, Docker, Kubernetes (K8s),
+Microservices, REST/gRPC APIs, FAST API, OpenTelemetry, Shell Scripting
+Data Platforms & Storage: SQL Server, Oracle, PostgreSQL, MongoDB, ClickHouse, Hive Metastore, Databricks,
+Snowflake, AWS (S3, Glue, Lambda, Athena), MinIO (S3-compatible)
+Development Tools: PyCharm, Visual Studio Code, Visual Studio, Postman, BloomRPC, Rancher, Grafana, SonarQube,
+APM, pgAdmin, Studio 3T, Oracle SQL Developer, DBeaver
+Version Control & CI/CD: Git, GitHub, Azure DevOps, Jenkins, Jira
+Monitoring & Observability: OpenTelemetry, Grafana, APM
+
+── Extraction Results ──
+Skills found   : 52
+Confidence     : 0.92
+Time           : 126.92 ms
+Method         : flashtext_skills_section | fuzzy(gRPC APIs→gRPC(94%), FAST API→FastAPI(100%), Athena→AWS Athena(100%), pgAdmin→PgAdmin(100%))
+
+── All Skills (52) ──
+.NET Core, AWS, AWS Athena, AWS S3, Agile, Angular, Azure DevOps, BFSI, Bash, C#, CI/CD, Collaboration, Data Pipeline, Databricks, DevOps, Docker, ETL, FastAPI, Git, GitHub, Grafana, Hive Metastore, Jenkins, Jira, Kubernetes, LinkedIn, MSSQL, MVC, Microservices, Microsoft Teams, MongoDB, Observability, OpenTelemetry, Oracle, Oracle SQL Developer, Performance Optimization, PgAdmin, PostgreSQL, Postman, Process Improvement, PyCharm, PySpark, Python, Quality Assurance, REST, REST API, SQL, Snowflake, SonarQube, VS Code, Visual Studio, gRPC
+
+── By Category ──
+  architecture                   ['Microservices']
+  cloud_infra                    ['AWS', 'AWS Athena', 'AWS S3']
+  data_engineering               ['Data Pipeline', 'Databricks', 'ETL', 'Hive Metastore']
+  database                       ['MSSQL', 'MongoDB', 'Oracle', 'PgAdmin', 'PostgreSQL', 'PySpark', 'SQL', 'Snowflake']
+  dev_tool                       ['Git', 'GitHub', 'Oracle SQL Developer', 'Performance Optimization', 'Postman', 'PyCharm', 'VS Code', 'Visual Studio']
+  devops                         ['Azure DevOps', 'CI/CD', 'DevOps', 'Docker', 'Grafana', 'Jenkins', 'Kubernetes', 'Observability', 'OpenTelemetry']
+  domain                         ['BFSI']
+  integration                    ['REST']
+  operations                     ['Process Improvement', 'Quality Assurance']
+  os_system                      ['Bash']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['C#', 'Python']
+  project_mgmt                   ['Agile', 'Jira']
+  soft_skill                     ['Collaboration']
+  testing                        ['SonarQube']
+  web_framework                  ['.NET Core', 'Angular', 'FastAPI', 'LinkedIn', 'MVC', 'REST API', 'gRPC']

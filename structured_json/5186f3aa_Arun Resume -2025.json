@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5186f3aa_Arun Resume -2025_segmented.txt",
-    "generated_at": "2026-09-30T06:58:40.670158+00:00",
+    "generated_at": "2026-10-07T10:31:44.323530+00:00",
     "sections_found": [
       "achievements",
       "declaration",
@@ -52,17 +52,17 @@
   "skills": {
     "items": [
       "Analyze",
-      "Business Continuity Management",
       "Communication",
       "Creativity",
+      "Credit Management",
       "Customer Service",
+      "Internal Job Posting",
       "Make",
-      "Mechanical Engineering",
       "Operational Excellence",
       "Performance Management",
-      "R",
+      "Professional Tax",
       "Reporting",
-      "Strategic Thinking",
+      "Strategic Planning",
       "Time Management",
       "Tutoring"
     ],
@@ -70,52 +70,51 @@
       "data_science": [
         "Analyze"
       ],
-      "operations": [
-        "Business Continuity Management"
-      ],
       "soft_skill": [
         "Communication",
         "Creativity",
         "Reporting",
-        "Strategic Thinking",
         "Time Management"
+      ],
+      "sales": [
+        "Credit Management"
       ],
       "client_mgmt": [
         "Customer Service"
       ],
+      "hr": [
+        "Internal Job Posting",
+        "Performance Management",
+        "Professional Tax"
+      ],
       "rpa": [
         "Make"
-      ],
-      "engineering": [
-        "Mechanical Engineering"
       ],
       "process": [
         "Operational Excellence"
       ],
-      "hr": [
-        "Performance Management"
-      ],
-      "programming_language": [
-        "R"
+      "management": [
+        "Strategic Planning"
       ],
       "education_domain": [
         "Tutoring"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(make→Make(100%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(make→Make(100%), professional→Professional Tax(95%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Collection and  Credit Management (Senior Manager) Joined as off Roll collection Executive - Current Role Senior Manager",
-        "company": "Handling higher and Mid Bucket collection for Chennai & Coimbatore",
+        "role": "July 2013 to till Date\tClub Mahindra\tCollection and  Credit Management (Senior Manager) Joined as off Roll collection Executive",
+        "company": "Club Mahindra\tCollection and  Credit Management Joined",
         "location": null,
         "start": "July 2013",
         "end": "Present",
-        "method": "date_regex+tab_split+dash_split",
-        "duration_months": 159,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 160,
         "bullets": [
+          "Handling higher and Mid Bucket collection for Chennai & Coimbatore",
           "Strategic Planning & Execution.",
           "Develop and implement collection strategies to meet and exceed recovery targets for the region.",
           "Analyze Branch collection performance and adjust strategies to address emerging trends and issues.",
@@ -123,7 +122,8 @@
           "Lead, mentor, and manage a team of collection officers and supervisors, providing guidance, training, and support.",
           "Conduct regular performance reviews and provide actionable feedback to team members.",
           "Implementing collection policies and procedures to avoid excessive outstanding credit.",
-          "Negotiating with high profile customers in cases when non-payment occurs."
+          "Negotiating with high profile customers in cases when non-payment occurs.",
+          "Ensure Collection Process and Legal guidelines are adhered to and Collections Code of Conduct is followed"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -131,40 +131,42 @@
         "source": "experience"
       },
       {
-        "role": "Team Leader (Promoted in IJP",
-        "company": "First Source Solution Pvt Ltd",
+        "role": "Firstsource's deep domain expertise, technical innovation, process excellence and    Rightshoring model combine to deliver best in class solutions and make it a global leader in                                     providing business process outsourcing (BPO) services",
+        "company": "First Source Solution Pvt Ltd\tTeam Leader",
         "location": null,
         "start": "July 2012",
         "end": "June 2013",
-        "method": "date_regex+tab_split",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
         "duration_months": 12,
-        "bullets": [],
+        "bullets": [
+          "Job Responsibility: Ensure the Team achieves the target on input metrics."
+        ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": false,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Customer Care Service Executive (Airtel post paid collection",
-        "company": "First Source Solution Pvt Ltd",
+        "role": "(Airtel post paid collection",
+        "company": "First Source Solution Pvt Ltd\tCustomer Care Service Executive",
         "location": null,
         "start": "Dec 2009",
         "end": "July 2012",
-        "method": "date_regex+tab_split",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
         "duration_months": 32,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Customer Care Service  Executive (ICICI Bank Credit card Tele collection",
-        "company": "Motivate the team and ensure people connect",
+        "role": "(ICICI Bank Credit card Tele collection",
+        "company": "Adventity  BPO\tCustomer Care Service  Executive",
         "location": null,
         "start": "Aug 2008",
         "end": "Nov 2009",
-        "method": "date_regex+tab_split",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
         "duration_months": 16,
         "bullets": [
           "Adventity is a market leading full service KPO/BPO firm for the Banking & Financial Services and the Airlines & Travel industry, offering comprehensive & innovative knowledge services, transaction services and customer contact support solutions to clients across the globe."
@@ -178,10 +180,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 18.2,
-      "total_months": 218,
+      "total_months": 219,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -212,7 +214,7 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "T.M.H.N.U Matric Higher Sec School",
+        "institution": "E.C.E T.M.H.N.U Matric Higher Sec School",
         "year": "2005",
         "gpa": null,
         "_needs_review": false,
@@ -240,13 +242,23 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
       "confidence": 0.98,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.98,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

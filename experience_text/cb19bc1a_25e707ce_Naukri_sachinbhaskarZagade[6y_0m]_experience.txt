@@ -1,0 +1,71 @@
+======================================================================
+FILE: cb19bc1a_25e707ce_Naukri_sachinbhaskarZagade[6y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Cogeneration Plant
+
+01/2019 - 10/2020
+Qualified, calibrated, validated, maintained,
+troubleshooted PLC-based equipment,
+environmental monitoring systems by NEWTRONIC
+LIFECARE EQUIPMENT PVT. LTD. and other pharma
+equipment. Performed DQ, IQ, OQ, PQ, and technical
+documentation. Installed and qualifie...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.96
+Needs review   : False
+Total exp      : 13.0 years (156 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : troubleshooted PLC-based equipment
+  Company      : Qualified, calibrated, validated, maintained
+  Location     : 
+  Start - End  : 01/2019 - 10/2020
+  Duration     : 22 months
+  Bullets      : 2
+    • LIFECARE EQUIPMENT PVT. LTD. and other pharma equipment. Performed DQ, IQ, OQ, PQ, and technical documentation. Installed and qualified data acquisition system software Comply (21CFR PART 11). Installed and qualified remote view and alarm system (RVAS) and web-based software (ICDAS 2.1 AND
+    • Years 0 Month
+  Sub-sections : ['ICDAS1.2). Installed and qualified web-based data', 'logging & real-time monitoring system. Responsible', 'for breakdown and preventive maintenance of all', 'electrical systems. Organized and directed', 'maintenance shutdowns and startups. Completed', 'partial or full dismantling of equipment to quickly', 'repair or replace defective components and restore', 'functionality. Troubleshot and repaired complex', 'electrical equipment, including HT, LT Motors,', 'Compressors, Generator, and Furnace. Visually', 'inspected and tested machinery and equipment,', 'performing routine preventive maintenance.', 'Troubleshot and performed preventive maintenance', 'for pharma equipment (incubator, walk-in incubator,', 'humidity chamber, walk-in humidity chamber, deep', 'freezer, oven, photostability and thaw chamber).', 'Troubleshot Allen Bradley and Schneider (PLC, HMI)', 'panels. Identified specific cables, connectors, fuses,', 'circuit breakers, and other electrical devices required', 'for installation of systems. Rendered technical', 'drawings and electrical systems specifications', 'exceeding company standards. Troubleshot electrical', 'equipment problems such as electrical control panel', 'and sensors.']
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Senior Service Engineer
+  Company      : Aimil Ltd
+  Location     : None
+  Start - End  : 06/2024 - Present
+  Duration     : 29 months
+  Bullets      : 1
+    • issues for 100+ customers, resulting in a 20% increase in customer satisfaction.
+  Sub-sections : ['Collaborated with cross-functional teams to', 'streamline service processes, leading to a 15%', 'reduction in service delivery time.', 'Implemented proactive maintenance strategies,', 'reducing equipment downtime by 25% and saving an', 'estimated $50,000 in maintenance costs annually.']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Senior Executive Service Support
+  Company      : SAKSHAM ANALYTICAL INSTRUMENT PVT LTD
+  Location     : None
+  Start - End  : 09/2022 - 05/2024
+  Duration     : 21 months
+  Bullets      : 1
+    • [Found 10 sections total: ['header', 'skills', 'education', 'experience', 'languages', 'experience', 'education', 'experience', 'summary', 'experience']]
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : 0 Month
+  Company      : Unknown company
+  Location     : None
+  Start - End  : None - None
+  Duration     : 84 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d50faf70_45a0b07a_Pratheesh B_Sales Manager_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:28.443263+00:00",
+    "generated_at": "2026-10-07T09:28:25.526889+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,6 +50,7 @@
       "Business Development",
       "General Insurance",
       "Personal Loan",
+      "ROC Filings",
       "Time Management"
     ],
     "by_category": {
@@ -61,6 +62,9 @@
       ],
       "finance": [
         "Personal Loan"
+      ],
+      "legal": [
+        "ROC Filings"
       ],
       "soft_skill": [
         "Time Management"
@@ -77,7 +81,12 @@
         "location": null,
         "start": "4th August 2015",
         "end": "07th Oct 2016",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          ": ICICI BANK LTD",
+          ": Coimbatore.",
+          ": Senior Sales Executive."
+        ],
         "duration_months": 15,
         "bullets": [
           ": Branch channel and Open market business."
@@ -93,7 +102,12 @@
         "location": "",
         "start": "01st December 2016",
         "end": "01st June 2017",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          ": YES BANK LTD.",
+          ": Coimbatore.",
+          ": Sales Officer."
+        ],
         "duration_months": 7,
         "bullets": [],
         "sub_sections": [],
@@ -103,11 +117,16 @@
       },
       {
         "role": "Relationship Officer",
-        "company": null,
+        "company": "",
         "location": null,
         "start": "07th December 2017",
         "end": "Aug 16th 2022",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          ": AXIS BANK LTD.",
+          ": Coimbatore.",
+          ": Relationship Officer"
+        ],
         "duration_months": 57,
         "bullets": [],
         "sub_sections": [
@@ -138,7 +157,7 @@
         "degree_name": "MCA",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "DSA and Connector. Education SRS College of Science and Bharathiar University Commerce",
+        "institution": "DSA and Connector. Education SRS College of",
         "year": "2023",
         "gpa": null,
         "_needs_review": false,
@@ -149,7 +168,7 @@
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "SRS College of Science and Bharathiar University Commerce",
+        "institution": "and Bharathiar University Commerce",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -160,7 +179,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Govt High sec school State Board",
+        "institution": "and Bharathiar University Commerce",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -171,14 +190,14 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Govt High sec school State Board Handling Organization Location Designation Handling Organization Location Designation Handling",
-        "year": "1990",
-        "gpa": "71.25%",
+        "institution": "State Board",
+        "year": null,
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.88
+    "_confidence": 0.84
   },
   "certifications": {
     "items": [],
@@ -189,7 +208,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [

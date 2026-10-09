@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "2e5b019e_f761c6d4_Naukri_ShivshankerPathak[13y_5m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:13.470207+00:00",
+    "generated_at": "2026-10-07T10:31:10.140819+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -56,49 +56,83 @@
       "AWS Lambda",
       "AWS RDS",
       "AWS S3",
+      "Analyze",
+      "Angular",
       "Apache Kafka",
       "Apache Maven",
+      "Auditing",
+      "Automation Testing",
+      "Bootstrap",
       "CI/CD",
       "Caching",
+      "Capacity Management",
       "Collaboration",
       "Communication",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
       "DevOps",
       "Docker",
       "Dynatrace",
       "ELK Stack",
       "Event-Driven",
+      "Fintech",
+      "Firebase",
       "Grafana",
+      "IBM WebSphere",
+      "Indexing",
       "Information Security",
+      "JSP",
       "Java",
       "JavaScript",
       "Jenkins",
       "Kubernetes",
+      "Leadership",
       "Linux",
       "Mentoring",
       "Microservices",
+      "Microsoft Teams",
       "MongoDB",
       "Multithreading",
       "MySQL",
       "NoSQL",
+      "OAuth 2.0",
       "Observability",
+      "Oracle Database",
+      "Oracle PL/SQL",
       "Payments",
+      "Problem Solving",
+      "Production Support",
       "Project Management",
       "Prometheus",
       "Query Optimization",
+      "REST",
       "Redis",
+      "Reliability",
+      "Resilience4j",
+      "Retail & Corporate Banking",
+      "Ruby on Rails",
+      "SDLC",
+      "Secure Coding",
+      "Solution Design",
       "SonarQube",
       "Spring",
       "Spring Boot",
+      "Spring Cloud",
       "Spring Security",
-      "UPI"
+      "System Design",
+      "Technical Support",
+      "UPI",
+      "VPC"
     ],
     "by_category": {
       "architecture": [
         "API Design",
         "Caching",
         "Event-Driven",
-        "Microservices"
+        "Microservices",
+        "SDLC",
+        "Solution Design",
+        "System Design"
       ],
       "cloud_infra": [
         "AWS",
@@ -106,7 +140,19 @@
         "AWS Lambda",
         "AWS RDS",
         "AWS S3",
-        "Dynatrace"
+        "Dynatrace",
+        "IBM WebSphere"
+      ],
+      "data_science": [
+        "Analyze"
+      ],
+      "web_framework": [
+        "Angular",
+        "Bootstrap",
+        "JSP",
+        "Ruby on Rails",
+        "Spring",
+        "Spring Boot"
       ],
       "data_engineering": [
         "Apache Kafka"
@@ -114,8 +160,16 @@
       "dev_tool": [
         "Apache Maven"
       ],
+      "finance_ops": [
+        "Auditing"
+      ],
+      "testing": [
+        "Automation Testing",
+        "SonarQube"
+      ],
       "devops": [
         "CI/CD",
+        "Capacity Management",
         "DevOps",
         "Docker",
         "ELK Stack",
@@ -129,10 +183,34 @@
         "Collaboration",
         "Communication",
         "Cross-functional Collaboration",
-        "Mentoring"
+        "Leadership",
+        "Mentoring",
+        "Problem Solving",
+        "Reliability"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "domain": [
+        "Fintech",
+        "Payments",
+        "Retail & Corporate Banking",
+        "UPI"
+      ],
+      "database": [
+        "Firebase",
+        "Indexing",
+        "MongoDB",
+        "MySQL",
+        "NoSQL",
+        "Oracle Database",
+        "Oracle PL/SQL",
+        "Query Optimization",
+        "Redis"
       ],
       "security": [
-        "Information Security"
+        "Information Security",
+        "OAuth 2.0"
       ],
       "programming_language": [
         "Java",
@@ -142,44 +220,50 @@
       "os_system": [
         "Linux"
       ],
-      "database": [
-        "MongoDB",
-        "MySQL",
-        "NoSQL",
-        "Query Optimization",
-        "Redis"
+      "productivity": [
+        "Microsoft Teams"
       ],
-      "domain": [
-        "Payments",
-        "UPI"
+      "it_operations": [
+        "Production Support"
       ],
       "project_mgmt": [
         "Project Management"
       ],
-      "testing": [
-        "SonarQube"
-      ],
-      "web_framework": [
-        "Spring",
-        "Spring Boot"
+      "integration": [
+        "REST"
       ],
       "framework": [
+        "Resilience4j",
+        "Spring Cloud",
         "Spring Security"
+      ],
+      "cybersecurity": [
+        "Secure Coding"
+      ],
+      "support": [
+        "Technical Support"
+      ],
+      "networking": [
+        "VPC"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Spring Boot 3+→Spring Boot(95%), multithreading→Multithreading(100%), Spring Boot 3+→Spring Boot(95%), Spring Cloud→Spring(100%), Redis.→Redis(91%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Spring Boot 3+→Spring Boot(95%), multithreading→Multithreading(100%), Oracle→Oracle Database(100%), Spring Boot 3+→Spring Boot(95%), Redis.→Redis(91%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Problem-solving Application Architect",
-        "company": "Leadership",
+        "role": "Leadership",
+        "company": "Problem-solving",
         "location": null,
         "start": "Mar 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 31,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "pre_date_header": [
+          "Leadership",
+          "Problem-solving"
+        ],
+        "duration_months": 32,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -192,7 +276,7 @@
         "location": null,
         "start": "Oct 2018",
         "end": "Mar 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 66,
         "bullets": [
           "Mentored and led a cross-functional team of 10+ developers through the full SDLC, fostering a culture of continuous learning and technical excellence.",
@@ -216,6 +300,9 @@
         "start": "Jan 2016",
         "end": "Oct 2018",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Mentored junior team members and conducted technical interviews for project sta\u0000ng."
+        ],
         "duration_months": 34,
         "bullets": [
           "Led development and enhancement of key modules in the IDBI Payments ecosystem to improve reliability and performance.",
@@ -226,7 +313,8 @@
           "Designed and implemented the NEFT module for IDBI Bank branches using Core Java, Spring Boot, AngularJS, and Oracle database.",
           "Provided L2/L3 production support for enterprise banking payment platforms including NEFT, RTGS, and CPS systems, ensuring uninterrupted services and quick issue resolution.",
           "Built responsive and user-friendly interfaces using Spring MVC, JavaScript, and Bootstrap, enhancing user experience and operational e\u0000ciency.",
-          "Developed multithreaded background services in Core Java with Java Executer framework to process bulk \u0000nancial transactions, improving throughput and reducing processing time."
+          "Developed multithreaded background services in Core Java with Java Executer framework to process bulk \u0000nancial transactions, improving throughput and reducing processing time.",
+          "Created and optimized Oracle PL/SQL procedures, functions, and scripts to support secure, scalable backend transaction processing."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -239,7 +327,7 @@
         "location": null,
         "start": "Aug 2012",
         "end": "Jan 2016",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 42,
         "bullets": [
           "Developed and enhanced multiple features of the Liferay portal, including User Management, Audit Trail, and Voucher Management modules.",
@@ -259,7 +347,13 @@
           "Take complete ownership for deployment in production system with Jenkins.",
           "Implement security feature and recommendation as per ISD department.",
           "Owned the end-to-end architecture of a scalable, multi-channel noti\u0000cation system, translating business requirements into resilient, extensible system design and guiding implementation across teams.",
-          "Delivered event-driven microservices for Push and Email noti\u0000cations, de\u0000ning robust API contracts, security protocols, and seamless integrations with external systems including SMS gateways, Google Firebase (FCM), and enterprise SMTP servers."
+          "Delivered event-driven microservices for Push and Email noti\u0000cations, de\u0000ning robust API contracts, security protocols, and seamless integrations with external systems including SMS gateways, Google Firebase (FCM), and enterprise SMTP servers.",
+          "Create high-level and low-level architecture design, take design decision for overall migration \u0000ow.",
+          "Led the design and implementation of a scalable backend platform, including APIC OAuth2 \u0000ow integration, end-to-end migration of IBM MobileFirst Adapter APIs to Spring Boot microservices with improved performance, maintainability, and security.",
+          "Drive the complete SDLC life cycle, provide technical support, bug \u0000xing.",
+          "Lead the small team of developers, assign task and monitor the progress of project.",
+          "Created comprehensive technical documentation such as HLD, Sequence \u0000ow.",
+          "Design review, prepare deployment strategy and monitor every stage for software development"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -270,7 +364,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 14.2,
-      "total_months": 170,
+      "total_months": 171,
       "overlapping_periods_merged": 3
     },
     "_confidence": 0.98

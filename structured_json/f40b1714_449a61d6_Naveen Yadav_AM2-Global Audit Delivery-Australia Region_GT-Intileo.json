@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f40b1714_449a61d6_Naveen Yadav_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:47.299170+00:00",
+    "generated_at": "2026-10-07T09:28:51.124203+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,17 +52,37 @@
       "Auditing",
       "Aura",
       "Bloomberg Terminal",
+      "CCH Audit Automation",
       "Collaboration",
       "Communication",
       "Creativity",
+      "Data Analytics",
       "DataSnipper",
+      "Financial Analysis",
+      "Financial Reporting",
       "GAAP",
+      "GST",
+      "GST Return Filing",
+      "Income Tax Return",
+      "Interpersonal Skills",
+      "Legal Compliance",
+      "LinkedIn",
       "MS Office",
       "Mentoring",
+      "Microsoft Excel",
+      "Microsoft Teams",
+      "Payroll Administration",
       "Problem Solving",
       "Project Management",
-      "Regulatory Compliance",
+      "R",
+      "Reporting",
+      "Risk Assessment",
+      "Statutory Audit",
+      "Substantive Testing",
+      "TCS",
+      "TDS",
       "Tally",
+      "Team Management",
       "Time Management",
       "Tutoring"
     ],
@@ -70,7 +90,11 @@
       "finance_ops": [
         "Accounting",
         "Auditing",
+        "Financial Analysis",
+        "Financial Reporting",
         "GAAP",
+        "Statutory Audit",
+        "Substantive Testing",
         "Tally"
       ],
       "soft_skill": [
@@ -79,58 +103,89 @@
         "Collaboration",
         "Communication",
         "Creativity",
+        "Interpersonal Skills",
         "Mentoring",
         "Problem Solving",
+        "Reporting",
         "Time Management"
       ],
       "data_science": [
-        "Alteryx"
+        "Alteryx",
+        "Data Analytics"
       ],
       "finance": [
         "Aura",
         "Bloomberg Terminal",
-        "DataSnipper"
+        "DataSnipper",
+        "GST Return Filing",
+        "Income Tax Return"
+      ],
+      "accounting": [
+        "CCH Audit Automation",
+        "GST",
+        "TCS"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
-        "MS Office"
+        "MS Office",
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Payroll Administration"
       ],
       "project_mgmt": [
         "Project Management"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "programming_language": [
+        "R"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "taxation": [
+        "TDS"
+      ],
+      "management": [
+        "Team Management"
       ],
       "education_domain": [
         "Tutoring"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Critical Thinking→Problem Solving(100%), Coaching→Tutoring(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Team Handling→Team Management(100%), Critical Thinking→Problem Solving(100%), Regulatory Compliance→Legal Compliance(100%), Coaching→Tutoring(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Associate 2 | SandMartin Global Outsourcing LLP | Gurugram",
-        "company": "Execute detailed testing and prepare audit workpapers across key FSLIs, including revenue, PPE, prepaid expenses, cash, A/R, A/P, management fees, calls and distributions, equity, and unrecorded liabilities.",
+        "role": "Senior Associate 2",
+        "company": "SandMartin Global Outsourcing LLP",
         "location": null,
         "start": "SEPTEMBER 2024",
         "end": "PRESENT",
         "method": "date_regex",
-        "duration_months": 25,
+        "duration_months": 26,
         "bullets": [
           "Independently lead small to medium-sized audit assignments and support larger assignments by reporting to the manager or senior manager during planning, interim, and completion stages.",
+          "Execute detailed testing and prepare audit workpapers across key FSLIs, including revenue, PPE, prepaid expenses, cash, A/R, A/P, management fees, calls and distributions, equity, and unrecorded liabilities.",
           "Monitor work progress, manage and motivate the team to ensure all deliverables meet defined quality standards.",
           "Identify missing information, track open issues, and ensure timely resolution.",
-          "Build and maintain strong relationships with global assurance stakeholders, serving as a key liaison for"
+          "Build and maintain strong relationships with global assurance stakeholders, serving as a key liaison for communication and issue resolution."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Senior Associate 1  | PricewaterhouseCoopers AC  Private Limited | Bangalore",
-        "company": "communication and issue resolution",
+        "role": "Senior Associate 1",
+        "company": "PricewaterhouseCoopers AC  Private Limited",
         "location": null,
         "start": "JULY 2021",
         "end": "MAY 2024",
@@ -142,7 +197,7 @@
           "Executed assigned client engagements from start to finish, which included planning, directing, materiality, risk assessment, scoping, workflow management, and completing assigned tasks.",
           "Discussed the queries and issues faced during the audit with senior managers, directors of PwC US, and clients.",
           "Conducted quality checks on all deliverables to ensure they were consistent with the quality parameters.",
-          "Provided coaching, guidance, and walkthroughs to newly joined team members to familiarize them with"
+          "Provided coaching, guidance, and walkthroughs to newly joined team members to familiarize them with the work."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -150,8 +205,8 @@
         "source": "experience"
       },
       {
-        "role": "Article Trainee | VPGS & Co. | Delhi",
-        "company": "the work",
+        "role": "Article Trainee",
+        "company": "VPGS & Co",
         "location": null,
         "start": "AUGUST 2016",
         "end": "AUGUST 2019",
@@ -173,11 +228,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.1,
-      "total_months": 97,
+      "total_years": 8.2,
+      "total_months": 98,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -215,14 +270,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.93
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

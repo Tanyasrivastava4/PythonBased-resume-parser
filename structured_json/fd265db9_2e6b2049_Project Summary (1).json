@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "fd265db9_2e6b2049_Project Summary (1)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:53.627822+00:00",
+    "generated_at": "2026-10-07T09:28:59.154469+00:00",
     "sections_found": [
       "header"
     ],
@@ -42,14 +42,15 @@
   "summary": null,
   "skills": {
     "items": [
+      "Coroutines Flow",
       "Data Pipeline",
       "Data Preprocessing",
-      "Demand Forecasting",
+      "Demand Planning",
       "ERP",
       "ERP Systems",
       "Feature Engineering",
       "Operations Management",
-      "Predictive Analytics",
+      "Predictive Modeling",
       "Procurement",
       "Prophet",
       "Python",
@@ -60,14 +61,15 @@
       "XGBoost"
     ],
     "by_category": {
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "data_engineering": [
         "Data Pipeline",
         "Data Preprocessing"
       ],
-      "data_science": [
-        "Demand Forecasting",
-        "Feature Engineering",
-        "Predictive Analytics"
+      "supply_chain": [
+        "Demand Planning"
       ],
       "erp": [
         "ERP"
@@ -77,16 +79,20 @@
         "Operations Management",
         "Procurement"
       ],
+      "data_science": [
+        "Feature Engineering"
+      ],
+      "ai_ml": [
+        "Predictive Modeling",
+        "Random Forest",
+        "Time Series Forecasting",
+        "XGBoost"
+      ],
       "software": [
         "Prophet"
       ],
       "programming_language": [
         "Python"
-      ],
-      "ai_ml": [
-        "Random Forest",
-        "Time Series Forecasting",
-        "XGBoost"
       ],
       "integration": [
         "SAP"
@@ -95,8 +101,8 @@
         "Working Capital Financing"
       ]
     },
-    "_confidence": 0.75,
-    "_method": "flashtext_full_text_fallback"
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [],
@@ -121,7 +127,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [

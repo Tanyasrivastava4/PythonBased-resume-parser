@@ -1,0 +1,34 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/bcfc2908_483bd75e_Pankaj Jitendra Valendra_Assistant Manager or Senior Executive_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Successfully completed 100 hours of Information Technology Training in accordance with ICAI mandates.
+Highly proficient in utilizing Accounting and Tax software, operating primarily with Tally ERP/Prime.
+Advanced Excel capabilities, optimizing financial automation through the implementation of VBA and
+macros
+XLOOKUP.
+Skilled in complex data visualization and dynamic financial dashboard creation using Power BI.
+Comfortable working seamlessly across all standard Windows-based MS Office packages.
+
+── Extraction Results ──
+Skills found   : 20
+Confidence     : 0.92
+Time           : 392.53 ms
+Method         : flashtext_skills_section | fuzzy(auditing→Auditing(100%))
+
+── All Skills (20) ──
+Accounting, Auditing, Business Intelligence, Client Relationship Management, Client Reporting, Cost Analysis, Data Visualization, Financial Reporting, MIS Reporting, MS Office, Microsoft Excel, Microsoft Windows, Power BI, TDS, Tally, Tax Audit, Taxation, Time Series Forecasting, VBA, Wealth Management
+
+── By Category ──
+  accounting                     ['Tax Audit']
+  ai_ml                          ['Time Series Forecasting']
+  banking                        ['MIS Reporting']
+  client_mgmt                    ['Client Relationship Management']
+  content                        ['Client Reporting']
+  data_science                   ['Business Intelligence', 'Data Visualization', 'Power BI']
+  finance                        ['Wealth Management']
+  finance_ops                    ['Accounting', 'Auditing', 'Cost Analysis', 'Financial Reporting', 'TDS', 'Tally', 'Taxation']
+  os_system                      ['Microsoft Windows']
+  productivity                   ['MS Office', 'Microsoft Excel']
+  programming_language           ['VBA']

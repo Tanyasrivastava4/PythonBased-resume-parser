@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e157c4fa_3d0e2e5a_Kartik-Garg-Appsec-Consultant_segmented.txt",
-    "generated_at": "2026-09-30T07:00:34.660622+00:00",
+    "generated_at": "2026-10-07T09:28:33.859824+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,45 +49,67 @@
   "summary": "Application Security Consultant and Penetration Tester with\n3+ years of hands-on experience across Web, API, mobile\n(Android & IOS) and network environments and SAST. Skilled\nin identifying real-world vulnerabilities through VAPT,\nbusiness logic abuse and manual exploitation techniques\nacross complex application flows.\nExperienced in securing 100+ applications across banking and\nenterprise environments, with strong contributions in bug\nbounty and VDP programs including Hall of Fame recognition\nand CVE credits. Proficient in automation using Bash and\nPython to streamline security testing and improve operational\nefficiency.\nCurrently focused on advancing expertise in cloud security,\nred teaming and reverse engineering to better understand\nmodern attack techniques and evolving attack surfaces.",
   "skills": {
     "items": [
+      "API Testing",
       "AWS S3",
       "Active Directory",
       "Acunetix",
       "Android",
       "Azure",
       "Bash",
+      "BloodHound",
       "Burp Suite",
+      "Business Intelligence",
       "CEH",
-      "Client Relationship Management",
+      "CERT-In",
+      "CRTP",
+      "CrackMapExec",
+      "Customer Relationship Management",
       "DAST",
       "Directory Buster",
       "Firewall",
       "GitHub",
+      "IDOR",
+      "IT Security",
       "LLM",
       "LinkedIn",
+      "Manual Testing",
       "Metasploit",
+      "Microsoft Teams",
       "Nessus",
+      "Network Security",
       "Network Vulnerability Assessment",
       "Nmap",
+      "OSINT",
       "OWASP ZAP",
-      "Offensive Security",
       "Operations Management",
       "Penetration Testing",
       "Phishing",
+      "Pitch Scripts",
       "Postman",
       "Public Relations",
       "Python",
+      "Red Teaming",
       "Reverse Engineering",
       "SAST",
-      "SDLC",
+      "SQL",
       "SQLMAP",
+      "SSRF",
+      "Secure Configuration Review",
+      "Secure SDLC",
       "Software Composition Analysis",
       "VAPT",
       "WAF",
+      "Web Application Penetration Testing",
       "Wireshark",
       "XSS",
+      "eWPTX",
       "iOS"
     ],
     "by_category": {
+      "testing": [
+        "API Testing",
+        "Manual Testing"
+      ],
       "cloud_infra": [
         "AWS S3",
         "Azure",
@@ -98,9 +120,11 @@
         "Acunetix",
         "Burp Suite",
         "CEH",
+        "CERT-In",
         "DAST",
         "Firewall",
         "Nessus",
+        "Network Security",
         "OWASP ZAP",
         "Penetration Testing",
         "Phishing",
@@ -118,16 +142,33 @@
       "os_system": [
         "Bash"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "cybersecurity": [
+        "BloodHound",
+        "CRTP",
+        "CrackMapExec",
+        "IDOR",
+        "OSINT",
+        "Red Teaming",
+        "SSRF",
+        "Secure Configuration Review",
+        "Secure SDLC",
+        "eWPTX"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "sales": [
+        "Customer Relationship Management",
+        "Pitch Scripts"
       ],
       "security": [
         "Directory Buster",
+        "IT Security",
         "Metasploit",
         "Network Vulnerability Assessment",
         "Nmap",
-        "Offensive Security",
-        "SQLMAP"
+        "SQLMAP",
+        "Web Application Penetration Testing"
       ],
       "dev_tool": [
         "GitHub",
@@ -139,6 +180,9 @@
       "web_framework": [
         "LinkedIn"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "operations": [
         "Operations Management"
       ],
@@ -148,8 +192,8 @@
       "programming_language": [
         "Python"
       ],
-      "architecture": [
-        "SDLC"
+      "database": [
+        "SQL"
       ]
     },
     "_confidence": 0.92,
@@ -158,14 +202,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Associate Consultant, CyberCube Services Pvt Ltd",
-        "company": "Performed Web, API, Mobile (Android & IOS) and Network",
+        "role": "Associate Consultant",
+        "company": "CyberCube Services Pvt Ltd",
         "location": null,
         "start": "05/2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 29,
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Associate Consultant, CyberCube Services Pvt Ltd"
+        ],
+        "duration_months": 30,
         "bullets": [
+          "Performed Web, API, Mobile (Android & IOS) and Network",
           "VAPT across multiple client environments and SAST. Conducted security assessments on banking and enterprise",
           "applications to identify critical vulnerabilities and business logic flaws Executed ASV scans and analyzed results to ensure",
           "compliance with security standards Developed automation scripts using Bash and Python,",
@@ -178,8 +226,8 @@
         "sub_sections": [
           "Participated in Cert-In Exam"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -188,7 +236,11 @@
         "location": null,
         "start": "06/2023",
         "end": "03/2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Security Auditor & Penetration Tester,",
+          "Pheonix Technocyber Company"
+        ],
         "duration_months": 10,
         "bullets": [
           "testing, API Testing, Web Application Testing on-site in a banking environment as well as company environment Secure Testing 100+ Banking sites & Completed learning on",
@@ -210,6 +262,10 @@
         "start": "09/2022",
         "end": "11/2022",
         "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Cyber Security Researcher Intern,",
+          "Bureau of Police Research & Development"
+        ],
         "duration_months": 3,
         "bullets": [
           "Worked on confidential security-related projects and",
@@ -227,6 +283,9 @@
         "start": "04/02/2021",
         "end": "04/07/2021",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Security Analyst Intern, Craw Security Pvt. Ltd - Delhi"
+        ],
         "duration_months": 1,
         "bullets": [
           "environments Identified vulnerabilities including XSS, Blind SSRF, SQL",
@@ -242,11 +301,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.6,
-      "total_months": 43,
+      "total_years": 3.7,
+      "total_months": 44,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.91
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -415,15 +474,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.61,

@@ -1,0 +1,61 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/4a20681e_1fe3124e_Pankaj Kumar Jha_AI Solution Architect_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• AI, Analytics & Intelligent Automation: Agentic AI, LLM Integration, Vertex AI, Azure OpenAI, LangChain, ML
+Pipelines, Predictive Analytics, AI Governance, Responsible AI
+• Enterprise Data Strategy & Architecture: Enterprise Data Strategy, Data Governance Frameworks (DAMA-
+DMBOK), Data Mesh, Data Fabric, Lakehouse Architecture, Federated Analytics, Data Product Design
+• Cloud Platforms & Data Services: GCP (BigQuery, Dataflow, Vertex AI, Composer), Azure (Data Factory, Synapse
+Analytics, Databricks), AWS (Glue, Redshift, Athena, EMR)
+• Data Virtualization & Integration: Data Virtualization Architecture, Dremio, Starburst, Federated Query Engines,
+API-based Data Access, Logical Data Warehousing
+• Data Platforms & Engineering: Snowflake, Databricks, Apache Spark, DBT, Data Pipelines (ETL/ELT), Streaming &
+Batch Processing, Python, SQL, Dremio/Starburst, Informatica
+• Integration, iPaaS & Orchestration: SnapLogic, Cloud-native Integration Patterns, Event-driven Architecture,
+Workflow Orchestration, Composer, Airflow
+• Data Security, Privacy & Compliance: Data Security Architecture, IAM, Encryption, Data Masking, Access Control,
+Data Privacy, Regulatory Compliance (GDPR-ready designs)
+• DevOps, DataOps & MLOps: CI/CD Pipelines, Infrastructure as Code (Terraform), Automated Testing, Platform
+Reliability, Model Lifecycle Management
+• Architecture Frameworks & Methodologies: TOGAF, DAMA-DMBOK, Agile/Scrum, DevOps, Microservices,
+Domain-driven Design
+• Programming & Query Languages: Python, SQL, Scala, Java, C#
+• Databases & Storage: SQL Server, Oracle, PostgreSQL, Cloud-native Data Warehouses
+Telecom, Banking & Finance, Retail & E-commerce, Insurance, Surety, Academic, Logistics, Healthcare and Automotive
+
+── Extraction Results ──
+Skills found   : 78
+Confidence     : 0.92
+Time           : 848.37 ms
+Method         : flashtext_skills_section | fuzzy(Athena→AWS Athena(100%), Data Virtualization→Data Visualization(92%), Data Pipelines→Data Pipeline(100%), Airflow→Apache Airflow(100%), Encryption→Cryptography(100%)...)
+
+── All Skills (78) ──
+AWS, AWS Athena, AWS CloudWatch, AWS EC2, AWS RDS, AWS S3, Agentic AI, Agile, Apache Airflow, Apache Hadoop, Apache Spark, Azure, Azure DevOps, Azure OpenAI, BigQuery, C#, CI/CD, CloudFormation, Cryptography, Data Management, Data Pipeline, Data Quality, Data Science, Data Visualization, Data Warehousing, Databricks, DevOps, Domain-Driven Design, E-commerce, ETL, Electronic Health Records, Event-Driven, GCP, GDPR, Healthcare, Informatica PowerCenter, Java, KPI, LLM, LangChain, Leadership, Logistics, MDM, MLOps, MSSQL, Machine Learning, Make, Microservices, Microsoft Azure Data Factory, Microsoft Teams, Operations Management, Oracle, PMP, PostgreSQL, Power BI, Pre-Sales Support, Predictive Analytics, Product Design, Project Management, Python, Redshift, Regulatory Compliance, Reporting, Responsible AI, Retail Management, SLA Management, SQL, Salesforce Marketing Cloud, Scala, Scrum, Security Architecture, Snowflake, Team Leadership, Telecom, Terraform, Time Series Forecasting, Vertex AI, dbt
+
+── By Category ──
+  ai_ml                          ['Data Science', 'Machine Learning', 'Time Series Forecasting']
+  architecture                   ['Domain-Driven Design', 'Event-Driven', 'Microservices']
+  business_analysis              ['KPI']
+  cloud_infra                    ['AWS', 'AWS Athena', 'AWS CloudWatch', 'AWS EC2', 'AWS RDS', 'AWS S3', 'Azure', 'GCP', 'Microsoft Azure Data Factory']
+  data_engineering               ['Apache Airflow', 'Apache Hadoop', 'Apache Spark', 'Data Pipeline', 'Data Quality', 'Data Warehousing', 'Databricks', 'ETL', 'Informatica PowerCenter', 'dbt']
+  data_science                   ['Data Visualization', 'Power BI', 'Predictive Analytics']
+  database                       ['BigQuery', 'MSSQL', 'Oracle', 'PostgreSQL', 'Redshift', 'SQL', 'Snowflake']
+  devops                         ['Azure DevOps', 'CI/CD', 'CloudFormation', 'DevOps', 'Terraform']
+  domain                         ['Healthcare', 'Telecom']
+  engineering                    ['Product Design']
+  genai                          ['Agentic AI', 'Azure OpenAI', 'LLM', 'LangChain', 'MLOps', 'Responsible AI', 'Vertex AI']
+  healthcare                     ['Electronic Health Records']
+  legal                          ['GDPR', 'Regulatory Compliance']
+  operations                     ['Logistics', 'Operations Management']
+  productivity                   ['Data Management', 'Microsoft Teams']
+  programming_language           ['C#', 'Java', 'Python', 'Scala']
+  project_mgmt                   ['Agile', 'PMP', 'Project Management', 'Scrum']
+  retail                         ['E-commerce', 'Retail Management']
+  rpa                            ['Make']
+  sales                          ['Pre-Sales Support']
+  security_ops                   ['Cryptography', 'MDM', 'Security Architecture']
+  soft_skill                     ['Leadership', 'Reporting', 'Team Leadership']
+  support                        ['SLA Management']
+  web_framework                  ['Salesforce Marketing Cloud']

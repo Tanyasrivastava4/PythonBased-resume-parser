@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7ed8cb2f_51937d5e_Rahul Shirodkar_Executive-Sr. Executive - Purchase_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:25.581228+00:00",
+    "generated_at": "2026-10-07T09:27:03.704311+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,22 +48,42 @@
   "summary": null,
   "skills": {
     "items": [
+      "Cross-functional Collaboration",
+      "Inventory Management",
+      "Logistics",
       "MS Office",
       "Microsoft Teams",
+      "Negotiation",
+      "Payments",
       "Procurement",
       "Public Relations",
+      "Purchase Orders",
       "Quality Assurance",
+      "Reliability",
       "SAP S/4HANA",
+      "Standard Operating Procedures",
       "Supply Chain"
     ],
     "by_category": {
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Negotiation",
+        "Reliability"
+      ],
+      "operations": [
+        "Inventory Management",
+        "Logistics",
+        "Procurement",
+        "Purchase Orders",
+        "Quality Assurance"
+      ],
       "productivity": [
         "MS Office",
         "Microsoft Teams"
       ],
-      "operations": [
-        "Procurement",
-        "Quality Assurance"
+      "domain": [
+        "Payments",
+        "Supply Chain"
       ],
       "marketing": [
         "Public Relations"
@@ -71,37 +91,54 @@
       "integration": [
         "SAP S/4HANA"
       ],
-      "domain": [
-        "Supply Chain"
+      "management": [
+        "Standard Operating Procedures"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(procurement→Procurement(100%))"
+    "_method": "flashtext_skills_section | fuzzy(procurement→Procurement(100%), reliable→Reliability(100%))"
   },
   "experience": {
     "jobs": [
       {
         "role": "Purchase Executive | Sanathan Textiles Limited",
-        "company": null,
-        "location": "Maharashtra",
+        "company": "Sanathan Textiles Limited",
+        "location": null,
         "start": "2022-07",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 51,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "+91- 8779841032 E-mail rahulshirodkar25@gmail.com"
+        ],
+        "duration_months": 52,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "2022-07",
+        "company": "Present | Purchase Executive | Sanathan Textiles Limited",
+        "location": null,
+        "start": "2015-05",
+        "end": "2017-03",
+        "method": "date_regex",
+        "duration_months": 23,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.55,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.2,
-      "total_months": 51,
+      "total_years": 6.2,
+      "total_months": 75,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.77
   },
   "education": {
     "entries": [
@@ -114,10 +151,21 @@
         "year": "2009",
         "gpa": null,
         "_needs_review": false,
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Bachelors in Arts",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Maharashtra Board of",
+        "year": "2022",
+        "gpa": null,
+        "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [
@@ -149,13 +197,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.82
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
+      "field": "experience.jobs[1]",
+      "confidence": 0.55,
       "reason": "incomplete_fields"
     },
     {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3097e9d7_7e3870d5_Naukri_YashGarg[0y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:14.373327+00:00",
+    "generated_at": "2026-10-07T10:31:11.188159+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -48,28 +48,65 @@
   "summary": "Fresher with hands-on experience in statutory audit, financial statement preparation, and compliance review for multi-sector\nclients. Skilled in IFC walkthroughs, GST audit, and leveraging SAP and MS-Excel for process improvement and risk mitigation.",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounting Standards",
+      "Financial Reporting",
       "GST",
       "Internal Financial Controls",
+      "Limited Review",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft Word",
+      "Operations Management",
+      "Order-to-Cash",
+      "Payments",
       "Process Improvement",
+      "Procure-to-Pay",
+      "RBI",
       "Risk Management",
       "SAP",
-      "Statutory Audit"
+      "Schedule III Compliance",
+      "Statutory Audit",
+      "TCS",
+      "TDS",
+      "Tax Auditing",
+      "Variance Analysis"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "Schedule III Compliance",
+        "Tax Auditing"
+      ],
+      "finance_ops": [
+        "Financial Reporting",
+        "Statutory Audit"
+      ],
       "accounting": [
-        "GST"
+        "GST",
+        "Limited Review",
+        "TCS"
       ],
       "finance": [
-        "Internal Financial Controls"
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft Word"
       ],
       "operations": [
+        "Operations Management",
         "Process Improvement"
+      ],
+      "domain": [
+        "Payments",
+        "RBI"
       ],
       "project_mgmt": [
         "Risk Management"
@@ -77,8 +114,11 @@
       "integration": [
         "SAP"
       ],
-      "finance_ops": [
-        "Statutory Audit"
+      "taxation": [
+        "TDS"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -92,7 +132,10 @@
         "location": null,
         "start": "Apr 2022",
         "end": "Mar 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Article Assistant"
+        ],
         "duration_months": 36,
         "bullets": [],
         "sub_sections": [

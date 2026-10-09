@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "daecf8be_01105d4f_Resume_Aastik_SDE_segmented.txt",
-    "generated_at": "2026-09-30T07:00:31.434851+00:00",
+    "generated_at": "2026-10-07T09:28:29.387515+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,10 +47,14 @@
   "skills": {
     "items": [
       "AWS",
+      "Aadhaar Integration",
       "ArgoCD",
       "Bootstrap",
       "C++",
+      "CI/CD",
       "CSS3",
+      "Communication",
+      "Cryptography",
       "Database management systems",
       "DynamoDB",
       "Express.js",
@@ -59,6 +63,8 @@
       "GitHub",
       "Go",
       "HTML5",
+      "Instrumentation",
+      "JSON Web Token",
       "Java",
       "JavaScript",
       "LinkedIn",
@@ -66,16 +72,23 @@
       "MySQL",
       "Networking",
       "Node.js",
+      "OAuth 2.0",
+      "Observability",
+      "OpenTelemetry",
+      "Oracle Database",
       "Perl",
       "Postman",
       "REST API",
       "React",
+      "Reliability",
+      "Root Cause Analysis",
       "SASS",
       "SQL",
       "Spring Boot",
       "System Design",
       "Tailwind CSS",
       "VS Code",
+      "Workflow Automation",
       "gRPC",
       "jQuery"
     ],
@@ -83,8 +96,14 @@
       "cloud_infra": [
         "AWS"
       ],
+      "integration": [
+        "Aadhaar Integration"
+      ],
       "devops": [
-        "ArgoCD"
+        "ArgoCD",
+        "CI/CD",
+        "Observability",
+        "OpenTelemetry"
       ],
       "web_framework": [
         "Bootstrap",
@@ -109,39 +128,63 @@
         "JavaScript",
         "Perl"
       ],
+      "soft_skill": [
+        "Communication",
+        "Reliability"
+      ],
+      "security_ops": [
+        "Cryptography"
+      ],
       "database": [
         "Database management systems",
         "DynamoDB",
         "MongoDB",
         "MySQL",
+        "Oracle Database",
         "SQL"
       ],
       "dev_tool": [
         "Git",
         "GitHub",
-        "Postman",
-        "VS Code"
+        "Postman"
+      ],
+      "engineering_hardware": [
+        "Instrumentation"
+      ],
+      "security": [
+        "JSON Web Token",
+        "OAuth 2.0"
       ],
       "biz_dev": [
         "Networking"
       ],
+      "operations": [
+        "Root Cause Analysis",
+        "Workflow Automation"
+      ],
       "architecture": [
         "System Design"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), REST APIs→REST API(100%), Tailwind→Tailwind CSS(100%), JQuery→jQuery(100%), Sass→SASS(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), REST APIs→REST API(100%), OAuth→OAuth 2.0(100%), Tailwind→Tailwind CSS(100%), JQuery→jQuery(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Engineer - MTS",
-        "company": null,
-        "location": "Software",
+        "role": "Oracle | Software Engineer",
+        "company": "MTS",
+        "location": null,
         "start": "Jun 2025",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 16,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Oracle | Software Engineer - MTS"
+        ],
+        "duration_months": 17,
         "bullets": [
           "· Contributed to Oracle ACFS (cluster filesystem) validation infrastructure, working on backend test frameworks for storage and volume management systems. · Designed and implemented automated workflows to validate volume, snapshot, clone, and quarantine operations, ensuring correctness under concurrent and failure scenarios. · Analyzed large-scale test failures by parsing logs, kernel outputs, and .dif artifacts, performing detailed root cause analysis across filesystem and system layers in production-like environments. · Improved observability by introducing structured logging (Tlog) and enhancing test execution visibility, significantly reducing debugging time for complex infra-level failures across multiple test scenarios. · Enhanced reliability of test execution pipelines by refining command orchestration and error-handling logic in Perl-based backend frameworks, improving overall execution stability and consistency."
         ],
@@ -151,12 +194,15 @@
         "source": "experience"
       },
       {
-        "role": "Developer - Full Stack",
+        "role": "Software Developer - Full Stack",
         "company": "Unique Identification Authority of India",
-        "location": "Software",
+        "location": null,
         "start": "July 2023",
         "end": "May 2025",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Unique Identification Authority of India | Software Developer - Full Stack"
+        ],
         "duration_months": 23,
         "bullets": [
           "· Designed and implemented a high-throughput Go-based microservice for Aadhaar reactivation using gRPC and HTTP, handling large-scale concurrent requests with optimized latency and reliability. · Built a distributed enrolment tracking system using Go and MySQL, enabling real-time status updates and improving system observability through OpenTelemetry (OTEL) instrumentation. · Improved system reliability and debugging by integrating centralized logging, metrics, and tracing, reducing issue resolution time during production incidents. · Developed and deployed services using CI/CD pipelines (ArgoCD), ensuring automated rollouts and environment consistency across deployments. · Implemented secure authentication and communication using JWT, gRPC, and encryption techniques, ensuring safe data exchange in high-volume identity systems. · Reduced manual processing overhead by 40% by integrating child enrolment workflows (BRN, DigiLocker, Passport) into existing backend systems. · Built a React-based authentication interface integrating biometric verification flows, improving system usability."
@@ -167,12 +213,15 @@
         "source": "experience"
       },
       {
-        "role": "Engineer Intern",
+        "role": "Software Engineer Intern",
         "company": "Wabtec Corporation",
-        "location": "Software",
+        "location": null,
         "start": "Jan 2023",
         "end": "Jun 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Wabtec Corporation | Software Engineer Intern"
+        ],
         "duration_months": 6,
         "bullets": [
           "· Developed an automated routing system using C++ and JavaScript, optimizing execution plans and reducing manual intervention by 30%. · Implemented real-time signal clearance logic based on movement constraints, improving system efficiency and decision accuracy."
@@ -183,12 +232,15 @@
         "source": "experience"
       },
       {
-        "role": "Engineer Intern",
+        "role": "Software Engineer Intern",
         "company": "Bytelearn",
-        "location": "Software",
+        "location": null,
         "start": "Dec 2022",
         "end": "Jan 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Bytelearn | Software Engineer Intern"
+        ],
         "duration_months": 2,
         "bullets": [
           "· Improved frontend performance and responsiveness using React.js and Node.js, enhancing user engagement. · Identified and resolved cross-device compatibility issues, improving overall platform stability."
@@ -201,8 +253,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.8,
-      "total_months": 46,
+      "total_years": 3.9,
+      "total_months": 47,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.95

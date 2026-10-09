@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4805766f_6547987d_Ashish Sharma_Full Stack Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:31.136303+00:00",
+    "generated_at": "2026-10-07T10:31:30.805041+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,6 +49,7 @@
   "summary": "Full Stack Developer with 1+ year of experience specializing in frontend development with working knowledge of backend\ntechnologies. Skilled in building responsive interfaces and scalable web applications with modern JavaScript frameworks.",
   "skills": {
     "items": [
+      "API Design",
       "C++",
       "CI/CD",
       "CSS3",
@@ -60,6 +61,7 @@
       "Git",
       "GitHub",
       "HTML5",
+      "JSON Web Token",
       "JavaScript",
       "LinkedIn",
       "Microservices",
@@ -70,11 +72,17 @@
       "REST API",
       "React",
       "Redux",
+      "State Management",
       "Tailwind CSS",
       "TypeScript",
       "Vercel"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "Microservices",
+        "State Management"
+      ],
       "programming_language": [
         "C++",
         "ES6+",
@@ -105,8 +113,8 @@
         "Git",
         "GitHub"
       ],
-      "architecture": [
-        "Microservices"
+      "security": [
+        "JSON Web Token"
       ],
       "database": [
         "MongoDB",
@@ -127,7 +135,10 @@
         "location": null,
         "start": "Mar 2024",
         "end": "Sep 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Full Stack Developer"
+        ],
         "duration_months": 19,
         "bullets": [
           "Built frontend components with Next.js, React.js, and Tailwind CSS.",

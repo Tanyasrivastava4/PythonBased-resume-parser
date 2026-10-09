@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "41ad7ce5_Amit Kumar_UI-UX Designer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:28.487318+00:00",
+    "generated_at": "2026-10-07T10:31:27.482022+00:00",
     "sections_found": [
       "experience",
       "header",
@@ -57,16 +57,12 @@
       "Communication",
       "E-commerce",
       "Figma",
-      "Go",
       "Graphic Design",
-      "Interaction Design",
-      "Onboarding",
       "Problem Solving",
       "Product Design",
       "Prototyping",
       "R",
       "Responsive Web Design",
-      "UI Design",
       "UX Design",
       "Usability Testing",
       "User Flows",
@@ -75,7 +71,6 @@
     "by_category": {
       "programming_language": [
         ".NET",
-        "Go",
         "R"
       ],
       "design": [
@@ -84,9 +79,7 @@
         "Adobe XD",
         "Figma",
         "Graphic Design",
-        "Interaction Design",
         "Prototyping",
-        "UI Design",
         "UX Design",
         "Usability Testing",
         "User Flows",
@@ -104,9 +97,6 @@
       "retail": [
         "E-commerce"
       ],
-      "hr": [
-        "Onboarding"
-      ],
       "engineering": [
         "Product Design"
       ],
@@ -115,7 +105,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(problem-solving→Problem Solving(100%))"
   },
   "experience": {
     "jobs": [
@@ -125,7 +115,10 @@
         "location": null,
         "start": "Feb 2025",
         "end": "nov 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "UI/UX Designer — RV Solutions"
+        ],
         "duration_months": 10,
         "bullets": [
           "and mobile products across e-commerce, B2B, and Designed end-to-end web experiences for e-commerce and B2B platforms, including product subscription-based platforms.",

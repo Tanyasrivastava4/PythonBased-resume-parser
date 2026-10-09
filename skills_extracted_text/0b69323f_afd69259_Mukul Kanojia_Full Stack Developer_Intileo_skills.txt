@@ -1,0 +1,30 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/0b69323f_afd69259_Mukul Kanojia_Full Stack Developer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: Java, Python, JavaScript, HTML/CSS
+Tools: Git/GitHub, VS Code, Postman, Adobe Photoshop, Google Analytics, Search Console
+Frameworks: React, Node.js, Tailwind, SASS
+Database: MongoDB, MySQL
+Other: Basic Linux commands, Webpack, AWS, EC2, RestAPI
+
+── Extraction Results ──
+Skills found   : 25
+Confidence     : 0.92
+Time           : 38.69 ms
+Method         : flashtext_skills_section | fuzzy(HTML→HTML5(100%), Tailwind→Tailwind CSS(100%), Webpack→webpack(100%), RestAPI→REST API(100%))
+
+── All Skills (25) ──
+AWS, AWS EC2, Adobe Photoshop, CSS3, Communication, Git, GitHub, Google Analytics, HTML5, Java, JavaScript, LinkedIn, Linux, MongoDB, MySQL, Node.js, Postman, Problem Solving, Python, REST API, React, SASS, Tailwind CSS, VS Code, webpack
+
+── By Category ──
+  cloud_infra                    ['AWS', 'AWS EC2']
+  data_science                   ['Google Analytics']
+  database                       ['MongoDB', 'MySQL']
+  design                         ['Adobe Photoshop']
+  dev_tool                       ['Git', 'GitHub', 'Postman', 'VS Code']
+  os_system                      ['Linux']
+  programming_language           ['Java', 'JavaScript', 'Python']
+  soft_skill                     ['Communication', 'Problem Solving']
+  web_framework                  ['CSS3', 'HTML5', 'LinkedIn', 'Node.js', 'REST API', 'React', 'SASS', 'Tailwind CSS', 'webpack']

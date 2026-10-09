@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a469011a_3bbae430_Revashankar Kaushik_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:55.323061+00:00",
+    "generated_at": "2026-10-07T09:27:42.304050+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -49,6 +49,7 @@
   "summary": "Seeking a challenging role where I can leverage my expertise in cloud technologies, and development of\nscalable application architecture to deliver high-quality, business-driven solutions.\nProfessional Summary\nSeasoned senior Software Engineer with 12+ years of experience in designing and delivering scalable web\nand mobile applications. Strong expertise in Flutter, Dart, Java (Spring Boot), Node.js, REST APIs, React,\nMySQL, and AWS, with a proven ability to build high-performance platforms, optimize systems, and mentor\nteams.",
   "skills": {
     "items": [
+      "API Design",
       "AWS",
       "AWS EC2",
       "AWS S3",
@@ -56,7 +57,9 @@
       "Bootstrap",
       "CI/CD",
       "CSS3",
+      "Code Reviews",
       "Cross-Platform Development",
+      "Cross-functional Collaboration",
       "Dart",
       "DevOps",
       "Express.js",
@@ -72,13 +75,21 @@
       "Microsoft Teams",
       "MySQL",
       "Node.js",
+      "Project Management",
+      "REST",
       "REST API",
       "React",
       "React Native",
       "Spring Boot",
-      "State Management"
+      "State Management",
+      "Team Leadership"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "MVVM",
+        "State Management"
+      ],
       "cloud_infra": [
         "AWS",
         "AWS EC2",
@@ -104,28 +115,37 @@
         "CI/CD",
         "DevOps"
       ],
-      "programming_language": [
-        "Dart",
-        "Java",
-        "JavaScript"
+      "dev_tool": [
+        "Code Reviews",
+        "Git"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Team Leadership"
+      ],
+      "programming": [
+        "Dart"
       ],
       "database": [
         "Firebase",
         "MSSQL",
         "MySQL"
       ],
-      "dev_tool": [
-        "Git"
+      "programming_language": [
+        "Java",
+        "JavaScript"
       ],
       "genai": [
         "LLM"
       ],
-      "architecture": [
-        "MVVM",
-        "State Management"
-      ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "integration": [
+        "REST"
       ]
     },
     "_confidence": 0.92,
@@ -140,7 +160,7 @@
         "start": "Feb 2020",
         "end": "Present",
         "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 80,
+        "duration_months": 81,
         "bullets": [
           "⚫ Developing and maintaining scalable web and mobile applications using Node.js, Java (Spring Boot),"
         ],
@@ -156,26 +176,34 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "⚫ Collaborating with cross-functional teams to deliver production-ready solutions Webvillee Technology Pvt. Ltd",
-        "location": "Indore",
+        "role": "Webvillee Technology Pvt. Ltd., Indore",
+        "company": "⚫ Collaborating with cross-functional teams to deliver production-ready solutions",
+        "location": null,
         "start": "Oct 2014",
         "end": "Feb 2020",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "⚫ Collaborating with cross-functional teams to deliver production-ready solutions"
+        ],
         "duration_months": 65,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": ", Indore — Software Developer",
-        "company": "⚫ Ensured timely delivery and adherence to coding standards Silicon Tech",
-        "location": "Indore",
+        "role": "Silicon Tech, Indore — Software Developer",
+        "company": "⚫ Led a team of 15 technical resources across web and mobile projects",
+        "location": null,
         "start": "June2013",
         "end": "Oct 2014",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "⚫ Led a team of 15 technical resources across web and mobile projects",
+          "⚫ Managed project planning, task allocation, and code reviews",
+          "⚫ Ensured timely delivery and adherence to coding standards"
+        ],
         "duration_months": 17,
         "bullets": [
           "⚫ Worked on web development and mobile application projects ⚫ Contributed to backend logic, UI development, and API integration"
@@ -188,11 +216,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 13.3,
-      "total_months": 160,
+      "total_years": 13.4,
+      "total_months": 161,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.74
+    "_confidence": 0.79
   },
   "education": {
     "entries": [
@@ -212,7 +240,7 @@
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "BCA Shri Cloth Market Institute of Professional Studies",
+        "institution": "BCA Shri Cloth Market Institute of Professional Studies, Indore DAVV",
         "year": "2007 - 2010",
         "gpa": "63.2%",
         "_needs_review": false,
@@ -249,18 +277,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.74,
-      "reason": "low_confidence"
-    },
-    {
       "field": "experience.jobs[1]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

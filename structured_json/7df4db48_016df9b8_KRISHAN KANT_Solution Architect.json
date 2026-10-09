@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7df4db48_016df9b8_KRISHAN KANT_Solution Architect_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.995882+00:00",
+    "generated_at": "2026-10-07T09:27:02.947102+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,60 +46,256 @@
   "summary": "Architected secure, scalable, and high-performance applications for banking and financial services,\nensuring compliance with industry standards and seamless integration with enterprise platforms.",
   "skills": {
     "items": [
+      "AWS",
+      "AWS EC2",
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
+      "Angular",
+      "Apache Struts",
+      "Apache Tomcat",
+      "ArchiMedes",
       "Architecture Governance",
+      "Azure",
+      "BFSI",
+      "Bash",
       "Bing",
+      "Business Intelligence",
       "Business Process Optimization",
+      "CI/CD",
+      "CSS3",
       "Change Management",
+      "Creativity",
+      "Data Governance",
+      "Data Management",
+      "DevOps",
+      "Digital Transformation",
+      "Dynatrace",
+      "Enterprise Architecture",
+      "Event-Driven",
+      "Finacle",
+      "Fintech",
+      "GCP",
+      "Hibernate",
+      "IT Security",
+      "Java",
+      "JavaScript",
+      "Jenkins",
       "Jira",
+      "KYC",
+      "Kubernetes",
+      "Leadership",
+      "Legal Compliance",
+      "Life Insurance",
+      "Linux",
       "Lucidchart",
+      "MSSQL",
+      "Mambu",
+      "Mergers & Acquisitions",
+      "Microservices",
+      "Microsoft Edge",
+      "Microsoft Teams",
       "Microsoft Visio",
+      "Multithreading",
+      "Node.js",
+      "Operational Excellence",
+      "Oracle Database",
+      "Payments",
+      "Performance Optimization",
+      "Python",
+      "RBI",
+      "REST",
+      "Reporting",
+      "Risk Management",
+      "SAP",
+      "SEBI",
+      "Salesforce",
       "Scrum",
       "Solution Design",
+      "Splunk",
+      "Spring",
+      "Spring Boot",
       "Stakeholder Management",
+      "Standard Operating Procedures",
+      "TCS",
+      "TCS BaNCS",
+      "Temenos",
+      "TypeScript",
+      "UPI",
+      "Ubuntu",
       "UiPath"
     ],
     "by_category": {
+      "cloud_infra": [
+        "AWS",
+        "AWS EC2",
+        "AWS Lambda",
+        "AWS RDS",
+        "AWS S3",
+        "Azure",
+        "Dynatrace",
+        "GCP"
+      ],
+      "web_framework": [
+        "Angular",
+        "Apache Struts",
+        "CSS3",
+        "Hibernate",
+        "Node.js",
+        "Spring",
+        "Spring Boot"
+      ],
+      "dev_tool": [
+        "Apache Tomcat",
+        "Microsoft Edge",
+        "Microsoft Visio",
+        "Performance Optimization"
+      ],
       "architecture": [
+        "ArchiMedes",
         "Architecture Governance",
+        "Event-Driven",
+        "Microservices",
         "Solution Design"
       ],
+      "domain": [
+        "BFSI",
+        "Fintech",
+        "Payments",
+        "RBI",
+        "UPI"
+      ],
+      "os_system": [
+        "Bash",
+        "Linux",
+        "Ubuntu"
+      ],
       "database": [
-        "Bing"
+        "Bing",
+        "MSSQL",
+        "Oracle Database"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "operations": [
         "Business Process Optimization"
       ],
+      "devops": [
+        "CI/CD",
+        "DevOps",
+        "Jenkins",
+        "Kubernetes"
+      ],
       "project_mgmt": [
         "Change Management",
         "Jira",
+        "Risk Management",
         "Scrum"
+      ],
+      "soft_skill": [
+        "Creativity",
+        "Leadership",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "data_management": [
+        "Data Governance"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams"
+      ],
+      "consulting": [
+        "Digital Transformation"
+      ],
+      "it_ops": [
+        "Enterprise Architecture"
+      ],
+      "fintech": [
+        "Finacle",
+        "Mambu",
+        "TCS BaNCS",
+        "Temenos"
+      ],
+      "security": [
+        "IT Security"
+      ],
+      "programming_language": [
+        "Java",
+        "JavaScript",
+        "Multithreading",
+        "Python",
+        "TypeScript"
+      ],
+      "legal": [
+        "KYC",
+        "Legal Compliance",
+        "SEBI"
+      ],
+      "insurance": [
+        "Life Insurance"
       ],
       "design": [
         "Lucidchart"
       ],
-      "dev_tool": [
-        "Microsoft Visio"
+      "finance_strategy": [
+        "Mergers & Acquisitions"
       ],
-      "soft_skill": [
-        "Stakeholder Management"
+      "process": [
+        "Operational Excellence"
+      ],
+      "integration": [
+        "REST",
+        "SAP",
+        "Salesforce"
+      ],
+      "security_ops": [
+        "Splunk"
+      ],
+      "management": [
+        "Standard Operating Procedures"
+      ],
+      "accounting": [
+        "TCS"
       ],
       "rpa": [
         "UiPath"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(JIRA→Jira(100%))"
+    "_method": "flashtext_skills_section | fuzzy(JIRA→Jira(100%), enterprise→Business Intelligence(95%))"
   },
   "experience": {
     "jobs": [
       {
+        "role": "ENTERPRISE ARCHITECT",
+        "company": "Deloitte LLP",
+        "location": null,
+        "start": "June 2023",
+        "end": "Present",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "ENTERPRISE ARCHITECT"
+        ],
+        "duration_months": 41,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
         "role": "Serving as a strategic Application Architect for State Bank of India, providing end-to-end technical",
         "company": "Client",
-        "location": "State Bank of India, Mumbai, India",
+        "location": "State Bank of India, India",
         "start": "2024",
         "end": "PRESENT",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 33,
+        "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Client - State Bank of India | Mumbai, India"
+        ],
+        "duration_months": 34,
         "bullets": [
           "Serving as a strategic Application Architect for State Bank of India, providing end-to-end technical leadership and architectural direction for modernizing core and peripheral banking applications.",
           "Spearheaded the design and implementation of scalable, secure, and resilient application architectures, with a focus on AI-driven modernization, system interoperability, and cloud-readiness.",
@@ -116,10 +312,14 @@
       {
         "role": "SOLUTION ARCHITECT",
         "company": "Client",
-        "location": "Vodafone Global, Pune, India",
+        "location": "Vodafone Global, India",
         "start": "2023",
         "end": "2024",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "SOLUTION ARCHITECT",
+          "Client - Vodafone Global | Pune, India"
+        ],
         "duration_months": 13,
         "bullets": [
           "Designed and architected Price Manager, a modular application for managing and regulating asset pricing across Vodafone’s global operations.",
@@ -133,12 +333,32 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Enterprise ARCHITECT",
+        "company": "TCS",
+        "location": null,
+        "start": "Dec 2021",
+        "end": "June 2023",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Enterprise ARCHITECT"
+        ],
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Contributed to the customization and modular development of the Collibra Data Governance Platform",
         "company": "Client",
-        "location": "Royal Bank of Canada, Mumbai, India",
+        "location": "Royal Bank of Canada, India",
         "start": "2021",
         "end": "2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Client - Royal Bank of Canada | Mumbai, India"
+        ],
         "duration_months": 25,
         "bullets": [
           "Contributed to the customization and modular development of the Collibra Data Governance Platform, enabling a centralized view of business-critical data assets, including domains, metrics, APIs, models, and data products.",
@@ -148,8 +368,25 @@
           "Led efforts in cloud migration to Google Cloud Platform (GCP) and deployed services using Kubernetes, ensuring scalability and alignment with client infrastructure strategies."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "TECHNOLOGY LEAD",
+        "company": "Capgemini",
+        "location": null,
+        "start": "Nov 2016",
+        "end": "Dec 2021",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "TECHNOLOGY LEAD"
+        ],
+        "duration_months": 62,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -158,7 +395,10 @@
         "location": "DTCC, Guardian",
         "start": "2016",
         "end": "2021",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Client - DTCC, Guardian | Mumbai, India"
+        ],
         "duration_months": 61,
         "bullets": [
           "Worked on GPAC, a cloud-based policy administration system for managing Whole and Term Life insurance policies, enabling agents to view and process detailed policy information.",
@@ -173,12 +413,32 @@
         "source": "experience"
       },
       {
-        "role": "As Full stack java developer, I worked on application known as RDMS (Resilience Data Management",
-        "company": "Client",
-        "location": "DTCC, Guardian",
+        "role": "Sr. Software Developer",
+        "company": "Mphasis",
+        "location": null,
         "start": "Apr 2014",
         "end": "Apr 2016",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Sr. Software Developer"
+        ],
+        "duration_months": 25,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "As Full stack java developer, I worked on application known as RDMS (Resilience Data Management",
+        "company": "Client",
+        "location": "JP Morgan Chase, India",
+        "start": "2014",
+        "end": "2016",
+        "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Client - JP Morgan Chase | Mumbai, India"
+        ],
         "duration_months": 25,
         "bullets": [
           "As Full stack java developer, I worked on application known as RDMS (Resilience Data Management System).",
@@ -187,7 +447,7 @@
         ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -197,6 +457,10 @@
         "start": "June 2006",
         "end": "Aug 2007",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "S.S.C – C.B.S.E",
+          "Kendriya Vidyalaya No 1, AirForce Stn, J&K"
+        ],
         "duration_months": 15,
         "bullets": [
           "FrontEnd – Angular 17, primefaces, Nodejs, javascript",
@@ -214,11 +478,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 13.8,
-      "total_months": 165,
-      "overlapping_periods_merged": 4
+      "total_years": 14.1,
+      "total_months": 169,
+      "overlapping_periods_merged": 8
     },
-    "_confidence": 0.92
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -256,27 +520,17 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[2]",
+      "field": "experience.jobs[6]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.98,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
+      "field": "experience.jobs[9]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

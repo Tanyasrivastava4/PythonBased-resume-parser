@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "40c8257d_2ac8173a_ASHISH KUMAR YADAV_Machine Learning Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:26.230841+00:00",
+    "generated_at": "2026-10-07T10:31:24.915502+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,12 +51,21 @@
       "Azure",
       "BFSI",
       "BigQuery",
+      "Boosting",
+      "Business Loans",
+      "Cross-functional Collaboration",
       "Customer Segmentation",
+      "Data Analysis",
+      "Data Analytics",
+      "Data Collection",
+      "Data Management",
+      "Data Science",
       "Data Visualization",
       "Deep Learning",
-      "Demand Forecasting",
+      "Demand Planning",
       "E-Governance",
       "E-commerce",
+      "Financial Reporting",
       "GCP",
       "Git",
       "GitHub",
@@ -66,21 +75,33 @@
       "MLOps",
       "Machine Learning",
       "Mentoring",
+      "Microsoft Teams",
       "MySQL",
       "NumPy",
+      "Operational Excellence",
+      "Oracle SQL",
       "Pandas",
+      "Personal Loan",
       "Power BI",
+      "Predictive Modeling",
       "Process Re-Engineering",
+      "Professional Tax",
       "Project Management",
       "Python",
       "RAG",
+      "Reporting",
       "Risk Management",
+      "SAP",
       "SQL",
       "Stakeholder Management",
+      "Statistical Analysis",
       "Supply Chain",
       "Supply Chain Management",
       "System Design",
-      "Time Series Forecasting"
+      "TCS",
+      "Time Series Forecasting",
+      "XGBoost",
+      "scikit-learn"
     ],
     "by_category": {
       "cloud_infra": [
@@ -95,28 +116,59 @@
       "database": [
         "BigQuery",
         "MySQL",
+        "Oracle SQL",
         "SQL"
+      ],
+      "data_science": [
+        "Boosting",
+        "Data Analysis",
+        "Data Analytics",
+        "Data Visualization",
+        "Power BI",
+        "Statistical Analysis"
+      ],
+      "banking": [
+        "Business Loans"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring",
+        "Reporting",
+        "Stakeholder Management"
       ],
       "marketing": [
         "Customer Segmentation"
       ],
-      "data_science": [
-        "Data Visualization",
-        "Demand Forecasting",
-        "Power BI"
+      "research": [
+        "Data Collection"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams"
       ],
       "ai_ml": [
+        "Data Science",
         "Deep Learning",
         "Machine Learning",
         "NumPy",
         "Pandas",
-        "Time Series Forecasting"
+        "Predictive Modeling",
+        "Time Series Forecasting",
+        "XGBoost",
+        "scikit-learn"
+      ],
+      "supply_chain": [
+        "Demand Planning"
       ],
       "management": [
         "E-Governance"
       ],
       "retail": [
         "E-commerce"
+      ],
+      "finance_ops": [
+        "Financial Reporting"
       ],
       "dev_tool": [
         "Git",
@@ -127,11 +179,6 @@
         "Project Management",
         "Risk Management"
       ],
-      "soft_skill": [
-        "Leadership",
-        "Mentoring",
-        "Stakeholder Management"
-      ],
       "operations": [
         "Logistics",
         "Supply Chain Management"
@@ -140,29 +187,47 @@
         "MLOps",
         "RAG"
       ],
+      "process": [
+        "Operational Excellence"
+      ],
+      "finance": [
+        "Personal Loan"
+      ],
       "consulting": [
         "Process Re-Engineering"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "programming_language": [
         "Python"
       ],
+      "integration": [
+        "SAP"
+      ],
       "architecture": [
         "System Design"
+      ],
+      "accounting": [
+        "TCS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Stakeholder Management Git→Stakeholder Management(95%), customer segmentation→Customer Segmentation(100%), forecasting.→Time Series Forecasting(96%), governance-→E-Governance(91%))"
+    "_method": "flashtext_skills_section | fuzzy(Stakeholder Management Git→Stakeholder Management(95%), Professional→Professional Tax(95%), customer segmentation→Customer Segmentation(100%), forecasting.→Time Series Forecasting(96%), governance-→E-Governance(91%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "DATA SCIENTIST (Assistant Manager) Drona Logitech",
+        "role": "Assistant Manager",
         "company": null,
         "location": null,
         "start": "Dec 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 22,
+        "method": "date_regex+paren_title",
+        "pre_date_header": [
+          "DATA SCIENTIST (Assistant Manager)"
+        ],
+        "duration_months": 23,
         "bullets": [
           "Engineered and deployed an end-to-end ML-driven automation system using Python to process complex Uniecomrce, Eshopbox, P&L,YMS, TMS and SAP data files, resulting in an estimated 30% reduction in manual data processing time and boosting system efficiency.",
           "Designed and implemented a centralized data management system for 3PL supply chain and warehouse operations, providing a single source of truth for all projects and IT teams.",
@@ -175,11 +240,14 @@
       },
       {
         "role": "DATA SCIENTIST",
-        "company": "TATA Consultancy Services",
+        "company": "TATA Consultancy Services (TCS",
         "location": "Client: Lloyds Banking Group",
         "start": "Feb 2022",
         "end": "Dec 2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "DATA SCIENTIST"
+        ],
         "duration_months": 35,
         "bullets": [
           "Developed and deployed multiple high-impact regression and predictive modeling solutions using Python (Scikit-learn, XGBoost) to generate actionable financial risk insights and improve client-level decision-making accuracy.",
@@ -195,16 +263,20 @@
         "source": "experience"
       },
       {
-        "role": "DATA SCIENTIST Seabird Logisolution",
-        "company": "Automated ingestion, validation, and transformation of SAP operational data, warehouse reports, and field-level operational inputs, enabling faster decision-making and minimizing data discrepancies across logistics workflows.",
-        "location": "Apl",
+        "role": "Apl",
+        "company": "Seabird Logisolution – Data & Automation",
+        "location": null,
         "start": "2021",
         "end": "Feb 2022",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+pipe_split_header",
+        "pre_date_header": [
+          "DATA SCIENTIST"
+        ],
         "duration_months": 14,
         "bullets": [
           "Engineered and deployed an end-to-end ML-driven automation system using Python to process complex datasets sourced from SAP systems and Operations teams, significantly reducing manual data processing efforts by ~30% and improving overall system efficiency.",
           "Designed and implemented a centralized data management framework for 3PL supply chain and warehouse operations, establishing a single source of truth across finance, operations, and IT teams for accurate and consistent reporting.",
+          "Automated ingestion, validation, and transformation of SAP operational data, warehouse reports, and field-level operational inputs, enabling faster decision-making and minimizing data discrepancies across logistics workflows.",
           "Led monitoring and analysis of e-commerce and logistics order lifecycles, including order status tracking, SLA adherence, breach identification, and pendency analysis, to ensure smooth service delivery and operational excellence.",
           "Provided L1 level working support to the Hosting team, managing network and server health (e.g., Sys. Logs, Event Logs, Hardware Health).",
           "AWS and Azure cloud infra support of some services.",
@@ -215,18 +287,18 @@
           "DATA ANALYST/SUPPORT ENGINEER",
           "NIIT LIMITED | May 2019 – Apl 2021"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 5.8,
-      "total_months": 69,
+      "total_months": 70,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.84
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -268,18 +340,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
       "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

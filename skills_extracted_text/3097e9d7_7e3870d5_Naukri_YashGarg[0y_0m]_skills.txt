@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/3097e9d7_7e3870d5_Naukri_YashGarg[0y_0m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Technical Skills: MS-Excel, Word, Power Point
+Software: SAP Software
+Languages: English, Hindi
+
+── Extraction Results ──
+Skills found   : 14
+Confidence     : 0.92
+Time           : 141.24 ms
+Method         : flashtext_skills_section | fuzzy(Word→Microsoft Word(100%))
+
+── All Skills (14) ──
+Financial Reporting, LinkedIn, Microsoft Excel, Microsoft Word, Operations Management, Payments, Process Improvement, RBI, Risk Management, SAP, Statutory Audit, TDS, Taxation, Variance Analysis
+
+── By Category ──
+  business_analysis              ['Variance Analysis']
+  domain                         ['Payments', 'RBI']
+  finance_ops                    ['Financial Reporting', 'Statutory Audit', 'TDS', 'Taxation']
+  integration                    ['SAP']
+  operations                     ['Operations Management', 'Process Improvement']
+  productivity                   ['Microsoft Excel', 'Microsoft Word']
+  project_mgmt                   ['Risk Management']
+  web_framework                  ['LinkedIn']

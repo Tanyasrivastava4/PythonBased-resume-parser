@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f042f381_dc2e5fc5_Resume Jayvardhan Pakhale 2_segmented.txt",
-    "generated_at": "2026-09-30T07:00:44.387659+00:00",
+    "generated_at": "2026-10-07T09:28:47.393809+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -54,6 +54,7 @@
       "Data Backup",
       "Data Recovery",
       "Desktop Support",
+      "General Insurance",
       "Hardware Installation",
       "IT Asset Management",
       "Identity Management",
@@ -64,9 +65,12 @@
       "OneDrive",
       "Printer Support",
       "Remote Diagnostics",
+      "Room Database",
       "Software Installation",
+      "VDI",
       "VPN",
       "Video Conferencing",
+      "Work Instructions",
       "macOS"
     ],
     "by_category": {
@@ -89,6 +93,9 @@
         "Software Installation",
         "Video Conferencing"
       ],
+      "insurance": [
+        "General Insurance"
+      ],
       "security": [
         "Identity Management"
       ],
@@ -104,6 +111,15 @@
       ],
       "cloud": [
         "OneDrive"
+      ],
+      "database": [
+        "Room Database"
+      ],
+      "cloud_infra": [
+        "VDI"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
@@ -118,7 +134,7 @@
         "start": "08/2024",
         "end": "present",
         "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 26,
+        "duration_months": 27,
         "bullets": [
           "Backup and Restoration, Troubleshooting Internet & Basic Network Issues,"
         ],
@@ -133,7 +149,10 @@
           "ond archives mopping. Monitoring services requests raised on",
           "servecentral bUcket from PAN Indio user and",
           "ossigning them and also try to provide",
-          "resolution by maintaining SLA. Desktop support Worked in Domain Change"
+          "resolution by maintaining SLA. Desktop support Worked in Domain Change",
+          "Activity & Then as IT Support.",
+          "Computer Hardware Installation, Troubleshooting & Software installation",
+          "for asset and call coordination at HDFC ERGO General Insurance Bhandup."
         ],
         "confidence": 0.98,
         "needs_review": false,
@@ -141,11 +160,11 @@
       },
       {
         "role": "IT Desktop Support Engineer and asset Executive",
-        "company": "Computer Hardware Installation, Troubleshooting & Software installation",
+        "company": "Vertiv Energy PVT. LTD. Thane",
         "location": null,
         "start": "12/2022",
         "end": "08/2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 21,
         "bullets": [
           "Backup and Restoration, Troubleshooting Internet & Basic Network Issues,"
@@ -158,8 +177,8 @@
           "Windows Troubleshooting Handled asset and call coordination at Vertiv",
           "Energy PVT. LTD. Thane."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -168,7 +187,10 @@
         "location": null,
         "start": "07/2015",
         "end": "12/2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "IT Desktop /Laptop and asset Executive"
+        ],
         "duration_months": 90,
         "bullets": [
           "Managed technical and asset Desktop/Laptop Troubleshooting, Outlook"
@@ -186,11 +208,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.2,
-      "total_months": 135,
+      "total_years": 11.3,
+      "total_months": 136,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -217,14 +239,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

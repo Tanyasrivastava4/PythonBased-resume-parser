@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bcfc2908_483bd75e_Pankaj Jitendra Valendra_Assistant Manager or Senior Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:13.333125+00:00",
+    "generated_at": "2026-10-07T09:28:06.758648+00:00",
     "sections_found": [
       "achievements",
       "declaration",
@@ -50,59 +50,117 @@
   "summary": "Accomplished financial professional and consultant with over 5 years of comprehensive experience in statutory auditing,\ndirect/indirect taxation, and financial advisory. Transitioning from highly successful independent proprietorship to seek\na a\nchallenging, full-time corporate role. Eager to leverage extensive exposure in end-to-end MCA compliances, workflow\nautomation, and client management to drive strategic growth and financial clarity within a dynamic organization.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
       "Auditing",
-      "Client Relationship Management",
+      "Business Intelligence",
+      "Client Handling",
+      "Client Reporting",
+      "Company Law",
+      "Cost Analysis",
       "Data Visualization",
       "Financial Advisory",
+      "Financial Reporting",
+      "Form 3CA-3CD",
+      "GST",
+      "GST Return Filing",
+      "Income Tax Return",
+      "Indirect Taxation",
+      "MIS Reporting",
       "MS Office",
       "Mac OS",
-      "Microsoft DirectX",
       "Microsoft Excel",
+      "Microsoft Outlook",
       "Microsoft Windows",
       "Power BI",
-      "Tally",
+      "ROC Filings",
+      "TDS",
+      "TDS Return Filing",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation",
+      "Time Series Forecasting",
       "VBA",
+      "Wealth Management",
+      "Workflow Automation",
       "XLOOKUP"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "TDS Return Filing",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
         "Auditing",
-        "Tally",
+        "Cost Analysis",
+        "Financial Reporting",
+        "Indirect Taxation",
         "Taxation"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "management": [
+        "Client Handling"
+      ],
+      "content": [
+        "Client Reporting"
+      ],
+      "legal": [
+        "Company Law",
+        "ROC Filings"
       ],
       "data_science": [
         "Data Visualization",
         "Power BI"
       ],
       "finance": [
-        "Financial Advisory"
+        "Financial Advisory",
+        "GST Return Filing",
+        "Income Tax Return",
+        "Wealth Management"
+      ],
+      "accounting": [
+        "Form 3CA-3CD",
+        "GST"
+      ],
+      "banking": [
+        "MIS Reporting"
       ],
       "productivity": [
         "MS Office",
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Outlook"
       ],
       "os": [
         "Mac OS"
       ],
       "os_system": [
-        "Microsoft DirectX",
         "Microsoft Windows"
       ],
-      "programming_language": [
+      "taxation": [
+        "TDS"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
+      ],
+      "programming": [
         "VBA"
+      ],
+      "operations": [
+        "Workflow Automation"
       ],
       "software": [
         "XLOOKUP"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(macros→Mac OS(91%), XLOOKUP.→XLOOKUP(93%), auditing→Auditing(100%), direct→Microsoft DirectX(92%))"
+    "_method": "flashtext_skills_section | fuzzy(macros→Mac OS(91%), XLOOKUP.→XLOOKUP(93%), auditing→Auditing(100%), indirect taxation→Indirect Taxation(100%), workflow automation→Workflow Automation(100%))"
   },
   "experience": {
     "jobs": [
@@ -112,8 +170,8 @@
         "location": null,
         "start": "September 2021",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 61,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 62,
         "bullets": [
           "Served as a strategic Financial Consultant, advising clients on financial growth, precise forecasting, and sustainable wealth management.",
           "Managed rigorous MCA compliances for LLPs and Private Limited Companies, executing successful LLP incorporations and complex ancillary work for share transfer cases.",
@@ -147,8 +205,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.1,
-      "total_months": 61,
+      "total_years": 5.2,
+      "total_months": 62,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.7
@@ -157,8 +215,8 @@
     "entries": [
       {
         "degree": "C.A. Intermediate (Group 2)\tICAI\tPursuing (Expected Sept 2026)",
-        "degree_name": "12th",
-        "degree_type": "12th",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
         "degree_field": "Group 2",
         "institution": "ICAI Pursuing (Expected",
         "year": "2026",
@@ -168,10 +226,10 @@
       },
       {
         "degree": "C.A. Intermediate (Group 1)\tICAI\tMay 2019\t55%",
-        "degree_name": "12th",
-        "degree_type": "12th",
+        "degree_name": "CA Intermediate",
+        "degree_type": "professional_certification",
         "degree_field": "Group 1",
-        "institution": "ICAI",
+        "institution": "ICAI Pursuing (Expected",
         "year": "2019",
         "gpa": "55%",
         "_needs_review": false,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0de46c88_42a2d299_Naukri_LataBisht[15y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:57:51.454323+00:00",
+    "generated_at": "2026-10-07T10:30:44.745117+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,15 +49,17 @@
       "Compensation & Benefits",
       "Continuous Improvement",
       "Employee Engagement",
+      "Exit Formalities",
       "HR Management",
       "Leadership",
+      "LinkedIn",
       "Onboarding",
       "Payroll Administration",
       "Payroll Management",
       "Performance Management",
       "Recruitment",
       "Resource Planning",
-      "Strategic Thinking",
+      "Strategic Planning",
       "Talent Management",
       "Workshop Facilitation"
     ],
@@ -68,8 +70,7 @@
       ],
       "soft_skill": [
         "Collaboration",
-        "Leadership",
-        "Strategic Thinking"
+        "Leadership"
       ],
       "hr": [
         "Compensation & Benefits",
@@ -84,6 +85,15 @@
       ],
       "operations": [
         "Continuous Improvement"
+      ],
+      "hr_recruitment": [
+        "Exit Formalities"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "management": [
+        "Strategic Planning"
       ],
       "consulting": [
         "Workshop Facilitation"
@@ -100,8 +110,12 @@
         "location": null,
         "start": "JULY 2023",
         "end": "PRESENT",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 39,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "SJF Family Choice Consumer Pvt. Ltd| DELHI | FMCG",
+          "Asst General Manager – Human Resources"
+        ],
+        "duration_months": 40,
         "bullets": [
           "As Head of HR at SJF, I strategically lead all aspects of human resources management at the senior level.",
           "My responsibilities encompass organizational resource planning, cultural transformation, and change management initiatives aimed at enhancing employee morale, retention, and fostering a positive workplace environment.",
@@ -119,7 +133,11 @@
         "location": null,
         "start": "AUG 2020",
         "end": "JULY 2023",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "SPG GROUP | NOIDA | FMCG",
+          "Asst General Manager – Human Resources"
+        ],
         "duration_months": 36,
         "bullets": [
           "I oversee all HR functions to ensure alignment with organizational objectives and compliance with regulations.",
@@ -135,10 +153,13 @@
       {
         "role": "Senior Manager",
         "company": "Human Resources",
-        "location": "NOIDA | IT",
+        "location": null,
         "start": "MAY 2016",
         "end": "JULY 2020",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "OMNIESOLUTION PVT LTD. | NOIDA | IT"
+        ],
         "duration_months": 51,
         "bullets": [
           "Talent Management, Employee Engagement and Performance.",
@@ -152,11 +173,14 @@
       },
       {
         "role": "Dy Manager",
-        "company": "INDIA TV BROADCAST CENTER",
-        "location": "Noida, UP | NEWS CHANNEL",
+        "company": "Human Resources",
+        "location": null,
         "start": "MAR 2014",
         "end": "APRIL 2016",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "INDIA TV BROADCAST CENTER | Noida, UP | NEWS CHANNEL"
+        ],
         "duration_months": 26,
         "bullets": [
           "I steer talent acquisition and day to day operations while strategically analyzing HR trends and metrics to align with business objectives in hiring, fostering a supportive work environment, and enhancing employee engagement.",
@@ -172,8 +196,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.6,
-      "total_months": 151,
+      "total_years": 12.7,
+      "total_months": 152,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

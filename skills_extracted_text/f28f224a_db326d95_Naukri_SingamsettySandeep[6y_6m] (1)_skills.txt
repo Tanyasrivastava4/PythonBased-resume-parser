@@ -1,0 +1,49 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/f28f224a_db326d95_Naukri_SingamsettySandeep[6y_6m] (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Experienced Data Engineer and Quantitative Technology Languages Python, JavaScript, HTML, C++, C#, SQL,
+Analyst with over 6.5 years of industry exposure across
+Bash, CSS, YAML, XML
+quantitative finance, large-scale data engineering, and Frameworks Django, Flask, Bootstrap
+software development. Proven track record in designing
+and scaling mission-critical HFT infrastructure, from ETL Tools PySpark, Kafka, AWS Glue, Pandas, Polars
+real-time market data onboarding to high-throughput Scraping Scrapy, Selenium, Scrapyd, Tor, Privoxy
+execution shells. Proven expertise in building robust
+ETL pipelines, real-time data onboarding, and high- Data Science Keras, TensorFlow, PyTorch, NLTK
+frequency data systems using Python, SQL, Kafka, AWS, Databases SQLite, MySQL, PostgreSQL, ClickHouse
+and ClickHouse. Skilled in collaborating with research
+and trading teams to deliver scalable, production-grade Dev Tools Git, AWS, VS-Code, Splunk, Jenkins, MS-
+data solutions.
+Office, Jira, Notion
+
+── Extraction Results ──
+Skills found   : 45
+Confidence     : 0.92
+Time           : 306.61 ms
+Method         : flashtext_skills_section | fuzzy(HTML→HTML5(100%), Kafka→Apache Kafka(100%), onboarding→Onboarding(100%), Kafka→Apache Kafka(100%), collaborating→Collaboration(92%)...)
+
+── All Skills (45) ──
+AWS, Apache Kafka, BERT, Bash, Bootstrap, C#, C++, CSS3, Collaboration, Computer Vision, Data Science, Deep Learning, Django, E-commerce, ETL, Flask, GAN, Git, HTML5, JavaScript, Jenkins, Jira, Keras, Machine Learning, Microsoft Teams, MySQL, NLP, Networking, News Writing, Notion, Onboarding, Pandas, PostgreSQL, Project Management, PySpark, PyTorch, Python, SQL, SQLite, Selenium, Splunk, Team Leadership, TensorFlow, Workshop Facilitation, XML
+
+── By Category ──
+  ai_ml                          ['BERT', 'Computer Vision', 'Data Science', 'Deep Learning', 'GAN', 'Keras', 'Machine Learning', 'NLP', 'Pandas', 'PyTorch', 'TensorFlow']
+  biz_dev                        ['Networking']
+  cloud_infra                    ['AWS']
+  consulting                     ['Workshop Facilitation']
+  data_engineering               ['Apache Kafka', 'ETL']
+  database                       ['MySQL', 'PostgreSQL', 'PySpark', 'SQL', 'SQLite']
+  dev_tool                       ['Git']
+  devops                         ['Jenkins']
+  hr                             ['Onboarding']
+  media                          ['News Writing']
+  os_system                      ['Bash']
+  productivity                   ['Microsoft Teams', 'Notion']
+  programming_language           ['C#', 'C++', 'JavaScript', 'Python']
+  project_mgmt                   ['Jira', 'Project Management']
+  retail                         ['E-commerce']
+  security_ops                   ['Splunk']
+  soft_skill                     ['Collaboration', 'Team Leadership']
+  testing                        ['Selenium']
+  web_framework                  ['Bootstrap', 'CSS3', 'Django', 'Flask', 'HTML5', 'XML']

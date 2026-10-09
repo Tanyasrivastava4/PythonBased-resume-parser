@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cde8ac55_66e6297d_Abhishek Saraniya_Management Consultant_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:22.667833+00:00",
+    "generated_at": "2026-10-07T09:28:18.748954+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,59 +46,227 @@
   "summary": null,
   "skills": {
     "items": [
+      ".NET",
+      "Accounts Receivable",
       "Adobe Analytics",
       "Alteryx",
+      "Annual Operating Plan",
+      "Auto Loan",
+      "BFSI",
+      "Budgeting",
+      "Business Development",
+      "Business Intelligence",
+      "Business Loans",
+      "Business Rules Engine",
+      "Channel Development",
       "Collaboration",
       "Confluence",
+      "Continuous Improvement",
+      "Coroutines Flow",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Customer Onboarding",
+      "Customer Relationship Management",
+      "Customer Retention",
       "Data Visualization",
+      "Digital Transformation",
       "Drawio",
       "Figma",
+      "Fintech",
+      "Fixed Deposit",
+      "Flutter",
+      "Generative AI",
+      "Google",
       "Grafana",
       "Jira",
+      "KYC",
+      "Legal Compliance",
+      "LinkedIn",
       "Lucidchart",
       "MS Office",
+      "Machine Learning",
+      "Markdown",
+      "Market Research",
+      "Microservices",
       "Microsoft Visio",
       "PL/SQL",
+      "PMO",
+      "PWA",
+      "Payments",
+      "Personal Loan",
       "Postman",
+      "Power Platform",
+      "Process Re-Engineering",
+      "Product Design",
+      "Product Management",
+      "Product Marketing",
       "Project Management",
       "Prototyping",
-      "Tableau"
+      "Retail & Corporate Banking",
+      "Risk Management",
+      "Salesforce",
+      "Stock Take",
+      "Supply Chain",
+      "TCS",
+      "Tableau",
+      "Task Mining",
+      "Time Series Forecasting",
+      "Tokenization",
+      "Turnaround Time",
+      "UNIX",
+      "UiPath",
+      "Vendor Management",
+      "Wireframing",
+      "Working Capital Financing"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
+      "finance_ops": [
+        "Accounts Receivable",
+        "Budgeting"
+      ],
       "data_science": [
         "Adobe Analytics",
         "Alteryx",
         "Data Visualization",
         "Tableau"
       ],
+      "management": [
+        "Annual Operating Plan",
+        "Turnaround Time"
+      ],
+      "finance": [
+        "Auto Loan",
+        "Fixed Deposit",
+        "Personal Loan"
+      ],
+      "domain": [
+        "BFSI",
+        "Fintech",
+        "Payments",
+        "Retail & Corporate Banking",
+        "Supply Chain"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "banking": [
+        "Business Loans",
+        "Business Rules Engine",
+        "Working Capital Financing"
+      ],
+      "sales": [
+        "Channel Development",
+        "Customer Relationship Management"
+      ],
       "soft_skill": [
-        "Collaboration"
+        "Collaboration",
+        "Creativity",
+        "Cross-functional Collaboration"
       ],
       "collaboration": [
         "Confluence"
+      ],
+      "operations": [
+        "Continuous Improvement",
+        "Vendor Management"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "client_mgmt": [
+        "Customer Experience",
+        "Customer Onboarding",
+        "Customer Retention"
+      ],
+      "consulting": [
+        "Digital Transformation",
+        "Process Re-Engineering"
       ],
       "design": [
         "Drawio",
         "Figma",
         "Lucidchart",
-        "Prototyping"
+        "Prototyping",
+        "Wireframing"
+      ],
+      "mobile": [
+        "Flutter"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
+      "database": [
+        "Google",
+        "PL/SQL"
       ],
       "devops": [
         "Grafana"
       ],
       "project_mgmt": [
         "Jira",
-        "Project Management"
+        "PMO",
+        "Product Management",
+        "Project Management",
+        "Risk Management"
+      ],
+      "legal": [
+        "KYC",
+        "Legal Compliance"
+      ],
+      "web_framework": [
+        "LinkedIn",
+        "PWA"
       ],
       "productivity": [
         "MS Office"
+      ],
+      "ai_ml": [
+        "Machine Learning",
+        "Time Series Forecasting",
+        "Tokenization"
+      ],
+      "documentation": [
+        "Markdown"
+      ],
+      "marketing": [
+        "Market Research",
+        "Product Marketing"
+      ],
+      "architecture": [
+        "Microservices"
       ],
       "dev_tool": [
         "Microsoft Visio",
         "Postman"
       ],
-      "database": [
-        "PL/SQL"
+      "low_code": [
+        "Power Platform"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "integration": [
+        "Salesforce"
+      ],
+      "accounting_finance": [
+        "Stock Take"
+      ],
+      "accounting": [
+        "TCS"
+      ],
+      "rpa": [
+        "Task Mining",
+        "UiPath"
+      ],
+      "os_system": [
+        "UNIX"
       ]
     },
     "_confidence": 0.92,
@@ -107,14 +275,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Strategic Consultant",
+        "role": "| HDFC Bank (Contract",
         "company": "BaaS Digital Ecosystem & International Bank",
-        "location": "HDFC Bank (Contract",
+        "location": "HDFC Bank",
         "start": "Jul 2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 27,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "BaaS Digital Ecosystem & International Bank | HDFC Bank (Contract)"
+        ],
+        "duration_months": 28,
         "bullets": [
+          "Working as a Senior Strategic Consultant for newly formed vertical - Banking as a Service (BaaS) at HDFC bank",
           "Led an asset tokenization PoC at GIFT City, evaluating blockchain platforms, smart contract frameworks, and governance models for secure, scalable, and regulator-aligned deployment.",
           "Implemented a GenAI-powered chatbot to automate client onboarding at the Dubai International Financial Centre (DIFC) branch.",
           "Led initiatives to develop co-branded financial solutions with 1500+ corporate partners, resulting in monthly sales of 60k+ salary accounts, 40k+ credit card disbursals, and fixed deposit openings exceeding ₹4 Cr.",
@@ -129,32 +301,21 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Digital Products & Transformation",
-        "location": "JPMorgan Chase & Co",
+        "role": "Senior Product Manager- Digital Innovation & Emerging Technologies | HDFC Bank",
+        "company": "Banking as a Service (BaaS) at HDFC bank",
+        "location": null,
         "start": "Mar 2023",
         "end": "Jan 2024",
         "method": "date_regex",
+        "pre_date_header": [
+          "Digital Products & Transformation | JPMorgan Chase & Co."
+        ],
         "duration_months": 11,
         "bullets": [
           "Led Product & Transformation projects, achieving substantial savings via Ui Path-RPA, Task Capture, Signavio & AI/ML. Managed 16+ resources efficiently and conducted PoC on Ui Path Task Mining. Collaborated with stakeholders to define project scope, goals, deliverables, and timelines.",
           "Led the Product & transformation program overseeing, budgeting, forecasting, cost control, Annual operating plans & resource management, as a product owner was responsible for developing products, conducting impactful roadshows, webinars, and producing product marketing materials for increasing the adoption of Digital transformation tools.",
-          "Realized $1.8 million savings by achieving 35+ FTE reductions in 6 months, earning commendation."
-        ],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "| HDFC Bank",
-        "company": "Driving paperless banking projects with Vision AI, Cognitive Automation, and PWA, gaining CXO level approvals. Led HDFC's ecosystem initiatives, including India's first Account Aggregator use case. Worked with Google Vision AI, Microsoft Vision AI, Power platform, UiPath RPA, and Flutter Flow to identify and test emerging technologies.",
-        "location": "HDFC Bank",
-        "start": "Mar 2021",
-        "end": "Mar 2023",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 25,
-        "bullets": [
+          "Realized $1.8 million savings by achieving 35+ FTE reductions in 6 months, earning commendation.",
+          "Driving paperless banking projects with Vision AI, Cognitive Automation, and PWA, gaining CXO level approvals. Led HDFC's ecosystem initiatives, including India's first Account Aggregator use case. Worked with Google Vision AI, Microsoft Vision AI, Power platform, UiPath RPA, and Flutter Flow to identify and test emerging technologies.",
           "Designed and delivered HDFC Bank’s CBDC (e₹) application, and led blockchain proof-of-concepts for KYC and supply chain financing within a regulated banking environment.",
           "Led & Developed roadmap & strategy for eco system Initiatives like Account Aggregator& OCEN by reimagining Assets (Loan) & Liabilities (CASA) products leading to 25-35% increase in conversion rates.",
           "Led Operation & Compliance automation Strategy by using emerging Technologies like Vision AI & RPA.",
@@ -163,41 +324,68 @@
           "Led Proof of Concept (POC) initiatives and forged partnerships with technology firms on Low Code Platforms, AR/VR, Blockchain, Analytics, Hyper-personalization, Vein Biometric technologies, Automation of Adverse Media check for Compliance and Skip tracing for Collection team."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
+        "confidence": 0.98,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "| TCS",
+        "role": "AVP - Retail Banking Innovation",
+        "company": "Yes Bank",
+        "location": null,
+        "start": "Sep 2019",
+        "end": "Mar 2021",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "AVP - Retail Banking Innovation | Yes Bank"
+        ],
+        "duration_months": 19,
+        "bullets": [
+          "Spearheaded development of digital lending channels enabling seamless customer experiences. and developed branch strategies for customer retention.",
+          "Achieved monthly disbursals of 250+ Cr across personal Loans, Business Loans & Auto loan. Spearheaded Salesforce digital channel development, leveraging past experience to secure senior management buy-in.",
+          "Developed Branch & Liability strategy for retaining Customer and increasing wallet share.",
+          "Led Proof of Concept (POC) initiatives and forged partnerships with technology firms on Low Code Platforms,"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Developed cloud-based digital lending journeys using microservices architecture, driving fintech integrations, process",
         "company": "PMO & Innovation",
         "location": "Bajaj Finserv Direct Limited",
         "start": "Aug 2018",
         "end": "Aug 2019",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "AR/VR & Blockchain.",
+          "PMO & Innovation | Bajaj Finserv Direct Limited"
+        ],
         "duration_months": 13,
         "bullets": [
           "Developed cloud-based digital lending journeys using microservices architecture, driving fintech integrations, process optimisation, and end-to-end product delivery.",
           "Generated 150K+ EMI card leads and maintained 20K +monthly vehicle loan leads, in addition to 40K+ monthly FD applications.",
           "As a product owner led the development of digital products from scratch for payments, liabilities & assets, ensuring efficient resource management for fortnightly rollouts and continuous enhancements.",
           "Led proof-of-concept initiatives and collaborated with Fintech & Technology firms specializing in AI/ML, OCR & Facial Recognition. Use cases involved were in Alternate Credit Modelling, KYC, Process enhancement & elevating",
-          "Partner with stakeholders to define Project scope, Goals, Deliverables and Timelines. Communicate the",
-          "Lead Product owner of eTreasury application for Commonwealth bank of Australia.",
-          "Developed Business Intelligence Reports &Unix scripts to generate reports and automate system functionalities."
+          "Partner with stakeholders to define Project scope, Goals, Deliverables and Timelines. Communicate the"
         ],
         "sub_sections": [
           "Customer experience"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Led fintech partnerships and governance, driving product strategy, new product development, and process automation with",
         "company": "Digital Banking",
         "location": "Kotak Mahindra Bank",
         "start": "May 2016",
         "end": "Jul 2018",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex",
+        "pre_date_header": [
+          "Digital Banking | Kotak Mahindra Bank"
+        ],
         "duration_months": 27,
         "bullets": [
           "Led fintech partnerships and governance, driving product strategy, new product development, and process automation with end-to-end product and project management ownership",
@@ -207,37 +395,60 @@
           "Led automation of Working Capital Loan Origination system for SME & corporate banking."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| BinaryDove Communications",
-        "company": "Digital Banking",
-        "location": "BinaryDove Communications",
+        "role": "Technical Analyst",
+        "company": "BinaryDove Communications",
+        "location": null,
         "start": "Mar 2013",
         "end": "Apr 2014",
-        "method": "date_regex+pipe_company_loc_role+title_dict+inherited_company",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Technical Analyst | BinaryDove Communications"
+        ],
         "duration_months": 14,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Lead Product Owner of eTreasury Application for Commonwealth Bank",
+        "company": "TCS",
+        "location": null,
+        "start": "Aug 2010",
+        "end": "Feb 2013",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Lead Product Owner of eTreasury Application for Commonwealth Bank | TCS"
+        ],
+        "duration_months": 31,
+        "bullets": [
+          "Lead Product owner of eTreasury application for Commonwealth bank of Australia.",
+          "Developed Business Intelligence Reports &Unix scripts to generate reports and automate system functionalities."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.7,
-      "total_months": 116,
-      "overlapping_periods_merged": 1
+      "total_years": 11.9,
+      "total_months": 143,
+      "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "✓ MBA from NMIMS, Mumbai ()",
+        "degree": "✓ MBA",
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": null,
@@ -248,7 +459,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "✓ B.E (I.T) from B.M.S College of Engineering, Bangalore",
+        "degree": "✓ B.E (I.T)",
         "degree_name": "B.E.",
         "degree_type": "bachelors",
         "degree_field": "I.T",
@@ -270,33 +481,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.85,
+      "confidence": 0.98,
       "reason": "incomplete_fields"
     }
   ]

@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/9c1c33a1_20664ed4_Krishna Moorthy P_HR (HRBP – Rural  Urban)_SMFG_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+HR Business Partnering, Multi-State HR Operations, Employee Relations Management, Talent Acquisition Strategy,
+Attrition Management, Stakeholder Management, Team Leadership, HR Strategy Alignment, Compliance Management,
+Employee Lifecycle Management
+Technical Skills: HRBP Employee Relations Talent Acquisition Manpower Planning HR Operations Performance Management Attrition Control
+HR Analytics MIS Employee Engagement
+Soft Skills: Communication, Leadership, Problem-solving, Empathy, Collaboration
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 643.59 ms
+Method         : flashtext_skills_section | fuzzy(Problem-solving→Problem Solving(100%), teams→Microsoft Teams(100%), objectives→Objective C(90%), hiring→Recruitment(100%), recruitment→Recruitment(100%))
+
+── All Skills (21) ──
+Accounts Payable, BFSI, Business Development, Collaboration, Communication, Conflict Resolution, Employee Engagement, HR Management, Leadership, MIS Reporting, Microsoft Teams, Objective C, Onboarding, Performance Management, Problem Solving, Procurement, Recruitment, Regulatory Compliance, Resource Planning, Stakeholder Management, Team Leadership
+
+── By Category ──
+  banking                        ['MIS Reporting']
+  biz_dev                        ['Business Development']
+  domain                         ['BFSI']
+  finance_ops                    ['Accounts Payable']
+  hr                             ['Employee Engagement', 'HR Management', 'Onboarding', 'Performance Management', 'Recruitment']
+  legal                          ['Regulatory Compliance']
+  operations                     ['Procurement']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Objective C']
+  project_mgmt                   ['Resource Planning']
+  soft_skill                     ['Collaboration', 'Communication', 'Conflict Resolution', 'Leadership', 'Problem Solving', 'Stakeholder Management', 'Team Leadership']

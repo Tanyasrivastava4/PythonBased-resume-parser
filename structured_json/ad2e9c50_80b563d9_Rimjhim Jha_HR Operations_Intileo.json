@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ad2e9c50_80b563d9_Rimjhim Jha_HR Operations_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:01.361527+00:00",
+    "generated_at": "2026-10-07T09:27:50.057124+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -51,27 +51,41 @@
       "Collaboration",
       "Communication",
       "Data Management",
+      "Exit Formalities",
+      "HRMS",
       "Microsoft Excel",
+      "Microsoft PowerPoint",
       "Microsoft Word",
+      "Negotiation",
       "Onboarding",
       "Payroll Administration",
+      "Procurement",
       "Recruitment"
     ],
     "by_category": {
       "hr": [
         "Background Verification",
+        "HRMS",
         "Onboarding",
         "Payroll Administration",
         "Recruitment"
       ],
       "soft_skill": [
         "Collaboration",
-        "Communication"
+        "Communication",
+        "Negotiation"
       ],
       "productivity": [
         "Data Management",
         "Microsoft Excel",
+        "Microsoft PowerPoint",
         "Microsoft Word"
+      ],
+      "hr_recruitment": [
+        "Exit Formalities"
+      ],
+      "operations": [
+        "Procurement"
       ]
     },
     "_confidence": 0.92,
@@ -85,7 +99,10 @@
         "location": null,
         "start": "11/2025",
         "end": "01/2026",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "HR Executive"
+        ],
         "duration_months": 3,
         "bullets": [
           "Attendance management.",
@@ -109,7 +126,10 @@
         "location": null,
         "start": "09/2024",
         "end": "09/2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "HR Trainee"
+        ],
         "duration_months": 13,
         "bullets": [
           "Onboarding and Offboarding using Spine HRMS and Payroll software.",
@@ -152,7 +172,7 @@
         "degree_field": null,
         "institution": "K.J Somaiya College of Arts and Commerce",
         "year": "2021 - 2024",
-        "gpa": "77.99%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -163,7 +183,7 @@
         "degree_field": null,
         "institution": "Birla College of",
         "year": "2020 - 2021",
-        "gpa": "92.83%",
+        "gpa": "77.99%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -174,7 +194,7 @@
         "degree_field": null,
         "institution": "Priti Academy School",
         "year": "2018 - 2019",
-        "gpa": "82.60%",
+        "gpa": "92.83%",
         "_needs_review": false,
         "_confidence": 0.95
       }

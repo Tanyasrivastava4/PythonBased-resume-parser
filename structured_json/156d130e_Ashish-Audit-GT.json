@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "156d130e_Ashish-Audit-GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:58.632619+00:00",
+    "generated_at": "2026-10-07T10:30:52.959547+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,28 +47,48 @@
   "summary": null,
   "skills": {
     "items": [
+      "Analytical Review",
       "Auditing",
       "Financial Analysis",
       "GST",
       "IFRS",
+      "Income Tax Assessment",
+      "Indian GAAP",
+      "Insurance Sector Audit",
       "Leadership",
+      "Liaison & Coordination",
+      "Mechanical Engineering",
       "Microsoft Excel",
       "Taxation",
-      "Time Management"
+      "Tests of Controls",
+      "Time Management",
+      "US GAAP"
     ],
     "by_category": {
+      "accounting": [
+        "Analytical Review",
+        "GST",
+        "Indian GAAP",
+        "Tests of Controls",
+        "US GAAP"
+      ],
       "finance_ops": [
         "Auditing",
         "Financial Analysis",
         "IFRS",
+        "Insurance Sector Audit",
         "Taxation"
       ],
-      "accounting": [
-        "GST"
+      "taxation": [
+        "Income Tax Assessment"
       ],
       "soft_skill": [
         "Leadership",
+        "Liaison & Coordination",
         "Time Management"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
       ],
       "productivity": [
         "Microsoft Excel"
@@ -80,40 +100,34 @@
   "experience": {
     "jobs": [
       {
-        "role": "Assistant Manager",
-        "company": "Lodha & Co",
+        "role": "Assistant Manager- Audit & Assurance",
+        "company": "CP",
         "location": null,
         "start": "09/2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 25,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Assistant Manager",
+          "Lodha & Co."
+        ],
+        "duration_months": 26,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Assistant Manager- Audit & Assurance",
-        "company": "CP",
-        "location": "Delhi",
-        "start": "06/2023",
-        "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 40,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Senior- Audit",
-        "company": "Ernst and Young",
+        "company": "Ernst and Young (E&Y",
         "location": null,
         "start": "09/2021",
         "end": "12/2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior- Audit",
+          "Ernst and Young (E&Y)"
+        ],
         "duration_months": 16,
         "bullets": [],
         "sub_sections": [],
@@ -123,11 +137,16 @@
       },
       {
         "role": "Associate",
-        "company": "Ernst and Young",
+        "company": "Ernst and Young (E&Y",
         "location": "UP",
         "start": "04/2020",
         "end": "09/2021",
-        "method": "date_regex+title_dict+comma_company_location+inherited_company",
+        "method": "date_regex+title_dict_strong+comma_company_location+inherited_company",
+        "pre_date_header": [
+          "Noida, UP",
+          "Associate",
+          "Bhatia & Bhatia (BnB)"
+        ],
         "duration_months": 18,
         "bullets": [],
         "sub_sections": [],
@@ -142,6 +161,11 @@
         "start": "04/2016",
         "end": "04/2019",
         "method": "date_regex+title_dict+comma_company_location",
+        "pre_date_header": [
+          "Gurgaon, Haryana",
+          "Articled Assistant",
+          "Bhatia & Bhatia"
+        ],
         "duration_months": 37,
         "bullets": [
           "Led and participated in audit engagements including audit planning, control evaluation and report drafting.",
@@ -156,9 +180,9 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.2,
-      "total_months": 110,
-      "overlapping_periods_merged": 2
+      "total_years": 8.0,
+      "total_months": 96,
+      "overlapping_periods_merged": 1
     },
     "_confidence": 0.95
   },
@@ -198,7 +222,12 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[3]",
+      "field": "experience.jobs[0]",
+      "confidence": 0.98,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

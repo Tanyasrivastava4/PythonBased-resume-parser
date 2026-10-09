@@ -1,0 +1,35 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/05106cd7_9d737460_Golu_Kumar_Resume _segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Backend: PHP (Core & OOP), Laravel Framework, RESTful APIs
+Frontend: HTML5, CSS3, JavaScript (ES6+), jQuery, AJAX, Bootstrap
+Database: MySQL, PostgreSQL, Query Optimization, Eloquent ORM
+Tools: Postman, Git/GitHub, Composer, XAMPP, VS Code
+Concepts: MVC Architecture, SaaS Multi-Tenant Systems, Zoho CRM Integration, Background & Criminal Verification
+APIs, Secure Authentication (JWT/Bearer), OTP Verification, Payment Gateway Integration
+Soft Skills: Problem Solving, Collaboration, Time Management, Attention to Detail
+
+── Extraction Results ──
+Skills found   : 33
+Confidence     : 0.92
+Time           : 210.25 ms
+Method         : flashtext_skills_section | fuzzy(Payment→Payments(93%))
+
+── All Skills (33) ──
+AJAX, API Design, Agile, Attention to Detail, Bootstrap, CSS3, Client Relationship Management, Code Reviews, Collaboration, ES6+, Firebase, Git, GitHub, HTML5, JWT, JavaScript, Laravel, LinkedIn, MVC, MySQL, Onboarding, PHP, Payments, PostgreSQL, Postman, Problem Solving, Query Optimization, REST, REST API, Reporting, Time Management, VS Code, jQuery
+
+── By Category ──
+  architecture                   ['API Design']
+  client_mgmt                    ['Client Relationship Management']
+  database                       ['Firebase', 'MySQL', 'PostgreSQL', 'Query Optimization']
+  dev_tool                       ['Code Reviews', 'Git', 'GitHub', 'Postman', 'VS Code']
+  domain                         ['Payments']
+  hr                             ['Onboarding']
+  integration                    ['REST']
+  programming_language           ['ES6+', 'JavaScript', 'PHP']
+  project_mgmt                   ['Agile']
+  security                       ['JWT']
+  soft_skill                     ['Attention to Detail', 'Collaboration', 'Problem Solving', 'Reporting', 'Time Management']
+  web_framework                  ['AJAX', 'Bootstrap', 'CSS3', 'HTML5', 'Laravel', 'LinkedIn', 'MVC', 'REST API', 'jQuery']

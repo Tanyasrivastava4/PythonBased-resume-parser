@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c89bf6c0_15a477cd_K Vinay Kumar_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:19.961604+00:00",
+    "generated_at": "2026-10-07T09:28:15.303264+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,32 +49,70 @@
   "skills": {
     "items": [
       "Agile",
+      "Azure ADF",
+      "Business Intelligence",
+      "Canvas Apps",
+      "Cross-functional Collaboration",
       "DAX",
+      "Data Governance",
+      "Dynamic Measures",
       "Healthcare",
+      "Incremental Refresh",
       "Jira",
       "Joins",
+      "M Language",
       "MSSQL",
-      "Microsoft Azure Data Factory",
+      "Microsoft Excel",
+      "Microsoft Fabric",
       "Microsoft Power Automate",
+      "Microsoft SQL Server",
+      "Microsoft Teams",
+      "On-Premises Data Gateway",
+      "Oracle SQL",
+      "Paginated Reports",
       "Power Apps",
       "Power BI",
+      "Power BI Service",
       "Power Platform",
       "Power Query",
+      "Production Support",
+      "Query Optimization",
+      "Reporting",
       "Row Level Security",
-      "SQL",
+      "SLA Management",
       "Scrum",
       "SharePoint",
       "Snowflake",
+      "Snowflake Schema",
       "Stakeholder Management",
+      "Star Schema",
       "Stored Procedures",
+      "Supply Chain",
       "Tableau",
-      "UAT"
+      "Time Intelligence",
+      "UAT",
+      "Workflow Automation"
     ],
     "by_category": {
       "project_mgmt": [
         "Agile",
         "Jira",
         "Scrum"
+      ],
+      "cloud": [
+        "Azure ADF",
+        "Microsoft Fabric"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "low_code_no_code": [
+        "Canvas Apps"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reporting",
+        "Stakeholder Management"
       ],
       "data_science": [
         "DAX",
@@ -83,18 +121,39 @@
         "Row Level Security",
         "Tableau"
       ],
+      "data_management": [
+        "Data Governance"
+      ],
+      "bi_visualization": [
+        "Dynamic Measures",
+        "On-Premises Data Gateway",
+        "Paginated Reports",
+        "Power BI Service",
+        "Time Intelligence"
+      ],
       "domain": [
-        "Healthcare"
+        "Healthcare",
+        "Supply Chain"
+      ],
+      "analytics": [
+        "Incremental Refresh"
       ],
       "database": [
         "Joins",
         "MSSQL",
-        "SQL",
+        "Microsoft SQL Server",
+        "Oracle SQL",
+        "Query Optimization",
         "Snowflake",
+        "Star Schema",
         "Stored Procedures"
       ],
-      "cloud_infra": [
-        "Microsoft Azure Data Factory"
+      "programming_language": [
+        "M Language"
+      ],
+      "productivity": [
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
       "rpa": [
         "Microsoft Power Automate"
@@ -103,24 +162,33 @@
         "Power Apps",
         "Power Platform"
       ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "support": [
+        "SLA Management"
+      ],
       "integration": [
         "SharePoint"
       ],
-      "soft_skill": [
-        "Stakeholder Management"
+      "data_engineering": [
+        "Snowflake Schema"
       ],
       "testing": [
         "UAT"
+      ],
+      "operations": [
+        "Workflow Automation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Row-Level Security→Row Level Security(100%), Power Automate→Microsoft Power Automate(100%), JIRA→Jira(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Row-Level Security→Row Level Security(100%), Power Automate→Microsoft Power Automate(100%), JIRA→Jira(100%), enterprise→Business Intelligence(95%), L3 support.→Production Support(95%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Power BI Developer | FMCG | Tools: Power BI · SQL Server · Power Apps · Power Automate",
-        "company": "Managed L2/L3 production support — triaged and resolved RNA tickets in coordination with Snowflake and infrastructure teams while maintaining SLA compliance. Unilever International — Global Operations BI",
+        "role": "BI Consultant · Co Strategix ·",
+        "company": "Unilever International — Global Operations BI",
         "location": null,
         "start": "July 2021",
         "end": "Jan 2026",
@@ -130,18 +198,18 @@
           "Power BI Developer | FMCG | Tools: Power BI · SQL Server · Power Apps · Power Automate Architected an enterprise Power BI reporting suite consolidating multi-source sales, supply chain, and finance data across 3 regions into a single governed BI layer for global stakeholders."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.98,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Power BI Developer | Healthcare | Tools: Power BI · SQL Server · Power Query · Power Apps · Power Automate · Snowflake",
+        "role": "Power BI Developer",
         "company": "UnitedHealth Group — Healthcare Analytics",
         "location": null,
         "start": "Jan 2023",
         "end": "Present",
         "method": "date_regex+company_suffix_match",
-        "duration_months": 45,
+        "duration_months": 46,
         "bullets": [
           "Power BI Developer | Healthcare | Tools: Power BI · SQL Server · Power Query · Power Apps · Power Automate · Snowflake Collaborated with healthcare business stakeholders to gather and analyse reporting requirements around patient data, claims, billing, and operational KPIs for one of the largest healthcare companies globally."
         ],
@@ -151,8 +219,8 @@
         "source": "experience"
       },
       {
-        "role": "Power BI Developer | Insurance | Tools: Power BI · Tableau · Snowflake · DAX",
-        "company": "Configured scheduled dataset refresh and gateway connections in Power BI Service, providing stakeholders with always-current data without manual intervention. CIGNA Group — Employee Adherence Dashboard",
+        "role": "Power BI Developer",
+        "company": "CIGNA Group — Employee Adherence Dashboard",
         "location": null,
         "start": "Jul 2019",
         "end": "Jun 2021",
@@ -162,18 +230,18 @@
           "Power BI Developer | Insurance | Tools: Power BI · Tableau · Snowflake · DAX Built an enterprise-level Adherence Dashboard monitoring employee login-logout patterns, break compliance, and productivity benchmarks — enabling real-time adherence tracking for management."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.2,
-      "total_months": 87,
+      "total_years": 7.3,
+      "total_months": 88,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -222,18 +290,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
+      "confidence": 0.98,
       "reason": "incomplete_fields"
     },
     {

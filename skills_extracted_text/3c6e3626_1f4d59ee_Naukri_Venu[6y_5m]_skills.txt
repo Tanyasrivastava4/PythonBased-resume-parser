@@ -1,0 +1,59 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/3c6e3626_1f4d59ee_Naukri_Venu[6y_5m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Web Technologies: Java, J2EE, EJB, Golang, Java Beans, JSP/JSF, Servlets, JDBC, JNDI, Java Mail, Messaging (JMS), Multithreading, Web Services, SOAP, REST, JavaScript, SQL, PL/SQL, UML, HTML, XHTML, DHTML, XML, CSS, LDAP, Python, Java, HTML/HTML5, CSS/CSS3, XML, DOM, AJAX, jQuery, JSON And CSS Bootstrap, ReactJS, NextJS.
+Frameworks: Django, Flask. Frameworks Django, Flask, Pyramid, Pyjamas, Python, Spring, Hibernate Webserver Apache HTTP Webserver, WebLogic, WebSphere, JBoss Amazon EC2, Jenkins and Fabric J2EE JDBC, JNDI, JSP And Servlets Databases Oracle MySQL, DevOps & AWS, Pandas, NumPy, SciPy, Fast API.
+Programming Languages: Python 2.5-2.7/3.4-3.6, C, SQL and PL/SQL.
+Version Control: MVC, SVN, CVS, Git, GitHub.
+Front End: Angular, jQuery, Ajax, ExtJS, Node JS, React JS, JSON, Bootstrap, CSS, HTML Analytic Tools: JMP PRO, SAS, Tableau, UCI NET, Node XL
+Frameworks/ORM tools: Spring 3.0/2.5, Struts 2.0/1.1, Hibernate 3.0, JPA 2.0.
+Application servers: Apache Tomcat, JBoss, Web Logic 10.x/8.1, Tomcat 5.0, Jboss 4.x.
+Databases: Oracle, My SQL, PostgreSQL, Apache Cassandra.
+Web frameworks: Django, Flask, React JS, Angular JS, Vue JS, Node JS, Fast API
+Methodologies: Agile Methodologies
+IDE’s/ Development Tools: NetBeans, Spyder, Eclipse, PyCharm, PyScripter, PyStudio, Atom and Sublime Text.
+Operating Systems: Windows 98/2000/XP/7/8/10, Red hat Linux 4.x/5.x/6.x, Ubuntu, and MacOS.
+Protocols: TCP/IP, HTTP/HTTPS, SOAP, SMTP
+Testing Tools: PyTest, Testify, Selenium, Bugzilla and JIRA, Maven, Junit, ANT, SVN, Log4j, CVS/Win CVS, Toad, MS Visio, Find Bugs, Jira, Hudson, Git, Cobertura.
+
+── Extraction Results ──
+Skills found   : 162
+Confidence     : 0.92
+Time           : 2656.75 ms
+Method         : flashtext_skills_section | fuzzy(Golang→Go(100%), HTML→HTML5(100%), DHTML→HTML5(89%), HTML→HTML5(100%), ReactJS→React(100%)...)
+
+── All Skills (162) ──
+.NET, AJAX, API Design, AWS, AWS CloudWatch, AWS EC2, AWS IAM, AWS Lambda, AWS RDS, AWS S3, AWS SQS, Agile, Angular, Ansible, Apache Airflow, Apache HBase, Apache Hadoop, Apache Hive, Apache Kafka, Apache Maven, Apache Solr, Apache Spark, Apache Sqoop, Apache Struts, Apache Tomcat, Azure, Bitbucket, Bootstrap, Bugzilla, CI/CD, CSS3, CVS, Caching, Cassandra, Celery, CircleCI, Collaboration, Commercial Real Estate, Communication, Cross-functional Collaboration, Data Cleaning, Data Collection, Data Management, Data Migration, DevOps, Django, Docker, DynamoDB, ES6+, ETL, Eclipse, Elasticsearch, Electronic Health Records, Email Marketing, Express.js, Ext JS, FastAPI, Flask, GCP, Git, GitHub, Go, Google, HTML5, Healthcare, Heroku, Hibernate, J2EE, JBoss, JDBC, JMS, JNDI, JPA, JSF, JSON, JSP, JUnit, Java, JavaScript, Jenkins, Jira, Joins, LDAP, Linux, Load Balancer, MSSQL, MVC, Machine Learning, Make, Matplotlib, Mentoring, Microservices, Microsoft Teams, Microsoft Visio, Microsoft Windows, Modula, MongoDB, Multithreading, MySQL, NetBeans, Network Security, Next.js, Nginx, NoSQL, Node.js, NumPy, Oracle, PL/SQL, Pandas, Performance Optimization, Perl, PostgreSQL, Procurement, Proxy, PyCharm, PySpark, Pytest, Python, Python Tools for Visual Studio (PTVS), Quality Assurance, REST, REST API, RabbitMQ, Raspberry Pi, React, React Native, Red Hat Enterprise Linux, Redshift, Redux, SAS, SDLC, SOA, SOAP, SQL, SQLite, SVN, SciPy, Scrum, Selenium, Servlets, Snowflake, Spring, Spring Boot, Stored Procedures, System Design, TDD, Tableau, Technical Design Document, Technical Writing, Templating, Test Plans, Toad, UNIX, Ubuntu, VMware, Vertica, Vue.js, Waterfall, Window Functions, XHTML, XML, jQuery
+
+── By Category ──
+  ai_ml                          ['Machine Learning', 'Matplotlib', 'NumPy', 'Pandas', 'SciPy']
+  architecture                   ['API Design', 'Caching', 'Microservices', 'SDLC', 'SOA', 'System Design', 'Technical Design Document']
+  cloud_infra                    ['AWS', 'AWS CloudWatch', 'AWS EC2', 'AWS IAM', 'AWS Lambda', 'AWS RDS', 'AWS S3', 'AWS SQS', 'Azure', 'GCP', 'Heroku', 'VMware']
+  content                        ['Technical Writing']
+  data_engineering               ['Apache Airflow', 'Apache Hadoop', 'Apache Hive', 'Apache Kafka', 'Apache Spark', 'Celery', 'Data Cleaning', 'Data Migration', 'ETL', 'RabbitMQ']
+  data_science                   ['SAS', 'Tableau']
+  database                       ['Apache HBase', 'Apache Solr', 'Apache Sqoop', 'Cassandra', 'DynamoDB', 'Google', 'JDBC', 'Joins', 'MSSQL', 'MongoDB', 'MySQL', 'NoSQL', 'Oracle', 'PL/SQL', 'PostgreSQL', 'PySpark', 'Redshift', 'SQL', 'SQLite', 'Snowflake', 'Stored Procedures', 'Toad', 'Vertica', 'Window Functions']
+  dev_tool                       ['Apache Maven', 'Bitbucket', 'Eclipse', 'Git', 'GitHub', 'Microsoft Visio', 'NetBeans', 'Performance Optimization', 'PyCharm']
+  devops                         ['Ansible', 'CI/CD', 'CVS', 'CircleCI', 'DevOps', 'Docker', 'JBoss', 'Jenkins', 'Load Balancer', 'Nginx', 'SVN']
+  domain                         ['Healthcare']
+  embedded_systems               ['Raspberry Pi']
+  healthcare                     ['Electronic Health Records']
+  integration                    ['JMS', 'JNDI', 'REST']
+  marketing                      ['Email Marketing']
+  mobile                         ['React Native']
+  operations                     ['Procurement', 'Quality Assurance']
+  os_system                      ['Linux', 'Microsoft Windows', 'Red Hat Enterprise Linux', 'UNIX', 'Ubuntu']
+  productivity                   ['Data Management', 'Microsoft Teams']
+  programming_language           ['.NET', 'ES6+', 'Go', 'J2EE', 'Java', 'JavaScript', 'Modula', 'Multithreading', 'Perl', 'Python', 'Python Tools for Visual Studio (PTVS)']
+  project_mgmt                   ['Agile', 'Jira', 'Scrum', 'Waterfall']
+  real_estate                    ['Commercial Real Estate']
+  research                       ['Data Collection']
+  rpa                            ['Make']
+  search                         ['Elasticsearch']
+  security                       ['LDAP']
+  security_ops                   ['Network Security', 'Proxy']
+  soft_skill                     ['Collaboration', 'Communication', 'Cross-functional Collaboration', 'Mentoring']
+  testing                        ['Bugzilla', 'JUnit', 'Pytest', 'Selenium', 'TDD', 'Test Plans']
+  web_framework                  ['AJAX', 'Angular', 'Apache Struts', 'Apache Tomcat', 'Bootstrap', 'CSS3', 'Django', 'Express.js', 'Ext JS', 'FastAPI', 'Flask', 'HTML5', 'Hibernate', 'JPA', 'JSF', 'JSON', 'JSP', 'MVC', 'Next.js', 'Node.js', 'REST API', 'React', 'Redux', 'SOAP', 'Servlets', 'Spring', 'Spring Boot', 'Templating', 'Vue.js', 'XHTML', 'XML', 'jQuery']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d5c0d5fd_d4f3e051_Akshat_Suri_Resume_9811991059_01_segmented.txt",
-    "generated_at": "2026-09-30T07:00:29.011909+00:00",
+    "generated_at": "2026-10-07T09:28:26.242252+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -67,27 +67,34 @@
       "Generative AI",
       "Git",
       "Google",
+      "Image Preprocessing",
       "JavaScript",
       "Keras",
       "LLM",
       "LangChain",
       "LangGraph",
+      "LinkedIn",
       "MLOps",
       "Machine Learning",
       "Matplotlib",
+      "Multi-Agent",
       "NLP",
       "NumPy",
       "Pandas",
+      "Predictive Modeling",
       "Prompt Engineering",
       "PyTorch",
       "Python",
       "RAG",
       "React",
+      "Reliability",
+      "Resource Planning",
       "SQL",
       "TensorFlow",
       "Time Series Forecasting",
       "Transformers",
-      "Vector Databases"
+      "Vector Databases",
+      "spaCy"
     ],
     "by_category": {
       "ai_ml": [
@@ -101,6 +108,7 @@
         "NLP",
         "NumPy",
         "Pandas",
+        "Predictive Modeling",
         "PyTorch",
         "TensorFlow",
         "Time Series Forecasting"
@@ -117,6 +125,7 @@
         "LangChain",
         "LangGraph",
         "MLOps",
+        "Multi-Agent",
         "Prompt Engineering",
         "RAG",
         "Vector Databases"
@@ -138,6 +147,7 @@
         "Django",
         "FastAPI",
         "Flask",
+        "LinkedIn",
         "React"
       ],
       "dev_tool": [
@@ -147,9 +157,19 @@
         "Google",
         "SQL"
       ],
+      "computer_vision": [
+        "Image Preprocessing"
+      ],
       "programming_language": [
         "JavaScript",
-        "Python"
+        "Python",
+        "spaCy"
+      ],
+      "soft_skill": [
+        "Reliability"
+      ],
+      "project_mgmt": [
+        "Resource Planning"
       ]
     },
     "_confidence": 0.92,
@@ -158,16 +178,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "generative AI, machine learning, NLP, fine tuning, and predictive analytics. Delivered AI/ML Developer",
-        "company": "In2IT Technologies Pvt. Ltd",
-        "location": "Noida",
+        "role": "tuning, and predictive analytics. Delivered AI/ML Developer | In2IT Technologies Pvt. Ltd., Noida | May 2024",
+        "company": "Present",
+        "location": null,
         "start": "May 2024",
         "end": "Present",
-        "method": "date_regex+pipe_split",
-        "duration_months": 29,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 30,
         "bullets": [
-          "production-grade systems including a • Developed and deployed an AI chatbot for automated, multi agent support across various",
-          "Designed a productivity analysis pipeline that correlated user activity logs and system interaction signals with task data from Azure DevOps, enabling data-driven productivity"
+          "Designed a productivity analysis pipeline that correlated user activity logs and system interaction signals with task data from Azure DevOps, enabling data-driven productivity scoring and behavioural insights."
         ],
         "sub_sections": [
           "LangChain-based enterprise chatbot, a",
@@ -175,22 +194,22 @@
           "resource utilization forecasting dashboard • Built a system resource utilization forecasting system using time-series ML pipelines,",
           "improving infrastructure resource planning and predictive accuracy."
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "scoring and behavioural insights. Python Developer",
+        "role": "Python Developer | Brain Technosys Pvt. Ltd., Noida",
         "company": "Brain Technosys Pvt. Ltd",
         "location": "Noida",
         "start": "Jan. 2024",
         "end": "Apr. 2024",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 4,
         "bullets": [
           "Developed an NLP-driven feature using SpaCy to connect blue-collar suppliers and clients based on skills, tools, and language parameters.",
           "Engineered precision algorithms for job-candidate alignment to significantly boost platform match accuracy.",
-          "Utilized Git for source control and Docker for replicable local environments, ensuring stable"
+          "Utilized Git for source control and Docker for replicable local environments, ensuring stable development and streamlined deployments."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -198,12 +217,12 @@
         "source": "experience"
       },
       {
-        "role": "development and streamlined deployments. Data Science Intern",
+        "role": "Data Science Intern | Xapotech Systems Pvt. Ltd., Noida",
         "company": "Xapotech Systems Pvt. Ltd",
         "location": "Noida",
         "start": "Jun. 2023",
         "end": "Dec. 2023",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 7,
         "bullets": [
           "Designed and trained a neural network in TensorFlow for accurate animal classification based on visual features.",
@@ -218,11 +237,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.3,
-      "total_months": 40,
+      "total_years": 3.4,
+      "total_months": 41,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -231,9 +250,9 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "JSS ACADEMY OF TECHNICAL EDUCATION, NOIDA UP",
+        "institution": "JSS Academy of Technical",
         "year": "2019 - 2023",
-        "gpa": "80%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -244,7 +263,7 @@
         "degree_field": null,
         "institution": "Bal Bharti Public School Noida",
         "year": "2018 - 2019",
-        "gpa": "88%",
+        "gpa": "80%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -289,10 +308,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.7,

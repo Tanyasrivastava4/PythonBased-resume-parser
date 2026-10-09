@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f0060b4a_1d58d1ab_ArchitSunilHada_Solution Architect _Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:44.206987+00:00",
+    "generated_at": "2026-10-07T09:28:47.160888+00:00",
     "sections_found": [
       "experience",
       "header",
@@ -48,15 +48,22 @@
       "API Design",
       "AWS",
       "AWS API Gateway",
+      "Active Directory",
       "Agile",
       "Analytical Thinking",
       "Analyze",
       "Apache Maven",
       "Azure",
+      "Bancassurance",
       "Bash",
       "Bitbucket",
+      "Business Intelligence",
       "Communication",
       "Confluence",
+      "Cost Analysis",
+      "D2C Marketing",
+      "Distribution Management",
+      "ERP",
       "Eclipse",
       "General Insurance",
       "Git",
@@ -66,6 +73,7 @@
       "IBM DB2",
       "IBM WebSphere MQ",
       "IntelliJ IDEA",
+      "Inventory Management",
       "J2EE",
       "JDBC",
       "JMS",
@@ -75,28 +83,36 @@
       "Java",
       "Jenkins",
       "Jira",
+      "Life Insurance",
       "Linux",
       "Liquibase",
+      "Microservices",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Windows",
       "Microsoft Windows XP",
       "Microsoft Word",
       "Mulesoft",
+      "Onboarding",
       "PgAdmin",
       "PostgreSQL",
       "Project Management",
       "REST",
       "RabbitMQ",
+      "React",
+      "Route",
       "SDLC",
       "SOAP",
       "SQL",
       "SVN",
+      "Salesforce",
       "ServiceNow",
       "Servlets",
       "SharePoint",
       "Spring",
       "Spring Boot",
+      "Spring Cloud",
+      "Supply Chain",
       "TablePlus",
       "Technical Design Document",
       "TestNG",
@@ -109,6 +125,7 @@
     "by_category": {
       "architecture": [
         "API Design",
+        "Microservices",
         "SDLC",
         "Technical Design Document"
       ],
@@ -116,7 +133,11 @@
         "AWS",
         "AWS API Gateway",
         "Azure",
-        "IBM WebSphere MQ"
+        "IBM WebSphere MQ",
+        "Route"
+      ],
+      "security_ops": [
+        "Active Directory"
       ],
       "project_mgmt": [
         "Agile",
@@ -140,23 +161,41 @@
         "IntelliJ IDEA",
         "WinSCP"
       ],
+      "insurance": [
+        "Bancassurance",
+        "General Insurance",
+        "Life Insurance"
+      ],
       "os_system": [
         "Bash",
         "Linux",
         "Microsoft Windows",
         "Microsoft Windows XP"
       ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
       "collaboration": [
         "Confluence"
       ],
-      "insurance": [
-        "General Insurance"
+      "finance_ops": [
+        "Cost Analysis"
+      ],
+      "marketing": [
+        "D2C Marketing"
+      ],
+      "sales": [
+        "Distribution Management"
+      ],
+      "erp": [
+        "ERP"
       ],
       "web_framework": [
         "HTML5",
         "Hibernate",
         "JSF",
         "JSP",
+        "React",
         "SOAP",
         "Servlets",
         "Spring",
@@ -173,6 +212,9 @@
         "SQL",
         "TablePlus"
       ],
+      "operations": [
+        "Inventory Management"
+      ],
       "programming_language": [
         "J2EE",
         "Java"
@@ -181,6 +223,7 @@
         "JMS",
         "Mulesoft",
         "REST",
+        "Salesforce",
         "ServiceNow",
         "SharePoint"
       ],
@@ -197,15 +240,24 @@
         "Microsoft PowerPoint",
         "Microsoft Word"
       ],
+      "hr": [
+        "Onboarding"
+      ],
       "data_engineering": [
         "RabbitMQ"
+      ],
+      "framework": [
+        "Spring Cloud"
+      ],
+      "domain": [
+        "Supply Chain"
       ],
       "accounting": [
         "Transfer Pricing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Spring Cloud→Spring(100%), Java SE→Java(100%), HTML→HTML5(100%), Windows 7→Microsoft Windows(95%), Maven→Apache Maven(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Java SE→Java(100%), HTML→HTML5(100%), Windows 7→Microsoft Windows(95%), Maven→Apache Maven(100%), Excel→Microsoft Excel(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -224,26 +276,16 @@
         "source": "experience"
       },
       {
-        "role": "Role Java Developer",
+        "role": null,
         "company": "Project#1",
         "location": null,
         "start": "Oct 2012",
         "end": "Feb 2013",
-        "method": "date_regex+title_dict",
-        "duration_months": 5,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Gexpro is a world-class electrical products supplier. The project contains different applications supporting day-to-day business functions",
-        "company": "Project#1",
-        "location": null,
-        "start": "April 2013",
-        "end": "August 2013",
-        "method": "date_regex+at_split+inherited_company",
+        "method": "date_regex",
+        "pre_date_header": [
+          "Project#1",
+          "Project Title eXPD2 (Web team)"
+        ],
         "duration_months": 5,
         "bullets": [],
         "sub_sections": [],
@@ -252,13 +294,20 @@
         "source": "experience"
       },
       {
-        "role": "This project is developed from the scratch. User of this application are top level management of the account. The main purpose of this application is to provide a web based application using which Metlife project managers will be able to view and export consolidated report of their employees along with their respective Exhibit C forms. They will also be able to update few employee details like ‘Consultant ID’",
-        "company": "‘Metnet ID’",
+        "role": "Role Java Developer",
+        "company": "Project Description",
         "location": null,
-        "start": "August 2013",
-        "end": "Feb 2015",
-        "method": "date_regex+comma_title_company_split",
-        "duration_months": 19,
+        "start": "April 2013",
+        "end": "August 2013",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Role Java Developer",
+          "Project Description",
+          "Gexpro is a world-class electrical products supplier. The project contains different applications supporting day-to-day business functions at sales and distribution facilities located throughout the United States. It is said to be an “OSB” system, but it is an ERP system, covering all the important functions like Supply Chain, Inventory Management, Order-ship-bill, Price-cost management etc.",
+          "Project#2",
+          "Project Title MetLifeMetCompliance (Internal Portal)"
+        ],
+        "duration_months": 5,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -267,28 +316,23 @@
       },
       {
         "role": "Role Java Developer",
-        "company": "MetLife ALICO eServices Portal is a web application used by Members, Policy Holders and Intermediaries  in the Gulf region. The Portal provides multiple functional features for all these user groups. The application required some additional features along with some enhancement in the existing functionality. Capgemini Consulting India Pvt. Ltd",
+        "company": "Project Description",
         "location": null,
-        "start": "16th February 2015",
-        "end": "23rd April 2021",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 75,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "Project Title MBCPOS(Mercedes Benz Point Of Sales) Duration",
-        "company": "Project#1",
-        "location": null,
-        "start": "Feb 2015",
-        "end": "Oct2019",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 57,
+        "start": "August 2013",
+        "end": "Feb 2015",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Role Java Developer",
+          "Project Description",
+          "This project is developed from the scratch. User of this application are top level management of the account. The main purpose of this application is to provide a web based application using which Metlife project managers will be able to view and export consolidated report of their employees along with their respective Exhibit C forms. They will also be able to update few employee details like ‘Consultant ID’, ‘Metnet ID’.",
+          "Project#3",
+          "Project Title Metlife Alico eServices."
+        ],
+        "duration_months": 19,
         "bullets": [
-          "It’s a point of sales application for Mercedes Benz.It is being used by Dealers across different countries like UK,Turkey,Switzerland etc for selling of the Mercedes Benz Cars."
+          "MetLife ALICO eServices Portal is a web application used by Members, Policy Holders and Intermediaries (Agents/Brokers) in the Gulf region.",
+          "The Portal provides multiple functional features for all these user groups.",
+          "The application required some additional features along with some enhancement in the existing functionality."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -296,12 +340,51 @@
         "source": "experience"
       },
       {
-        "role": "This Application configures car do Sales Lead Management and also provides an Order Offering System.This Application is connected to 28 different systems to get various information like Financial",
-        "company": "Car parts etc",
+        "role": null,
+        "company": "Capgemini Consulting India Pvt. Ltd",
+        "location": null,
+        "start": "16th February 2015",
+        "end": "23rd April 2021",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 75,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Mercedes Benz Point Of Sales",
+        "company": "Project Title MBCPOS",
+        "location": null,
+        "start": "Feb 2015",
+        "end": "Oct2019",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "Project#1",
+          "Project Title MBCPOS(Mercedes Benz Point Of Sales)"
+        ],
+        "duration_months": 57,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "This Application configures car do Sales Lead Management and also provides an Order Offering System.This Application is connected to 28 different systems to get various information like Financial,Car parts etc",
+        "company": "Project Description",
         "location": null,
         "start": "Oct 2019",
         "end": "Jan 2020",
-        "method": "date_regex+comma_title_company_split",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Project Description",
+          "It’s a point of sales application for Mercedes Benz.It is being used by Dealers across different countries like UK,Turkey,Switzerland etc for selling of the Mercedes Benz Cars.",
+          "This Application configures car do Sales Lead Management and also provides an Order Offering System.This Application is connected to 28 different systems to get various information like Financial,Car parts etc.",
+          "Project#2",
+          "Project Title Artifical Transformation Hub(THub)"
+        ],
         "duration_months": 4,
         "bullets": [
           "It is a Transformation Hub which is used to translate the OV(Opel Vauxhall) vehicles related data so the warranty claim system(SAGAI) can used to process the warranty claims.",
@@ -318,12 +401,17 @@
         "location": null,
         "start": "Jan 2020",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 81,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Project#3",
+          "Project Title Application Development Centre"
+        ],
+        "duration_months": 82,
         "bullets": [
           "Here various microservices are being created using Spring Boot.",
           "Basically, a Pub Sub Mechanism is created where a subscriber subscribes for a particular resource and an event.",
-          "The Publisher publishes the information on RabbitMQ and Subscriber listens to the queue and get the information on their webhook URL."
+          "The Publisher publishes the information on RabbitMQ and Subscriber listens to the queue and get the information on their webhook URL.",
+          "Two types of subscription are available here Continuous and Polling So various APIs had been exposed here for publising, subscribing,revoking,registering various information."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -332,7 +420,7 @@
       },
       {
         "role": null,
-        "company": "Two types of subscription are available here Continuous and Polling",
+        "company": "Price Waterhouse Coopers",
         "location": null,
         "start": "26th April 2021",
         "end": "15 Nov 2023",
@@ -340,7 +428,7 @@
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       },
@@ -350,7 +438,11 @@
         "location": null,
         "start": "May 2021",
         "end": "Nov 2021",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Project#1",
+          "Project Title Axis"
+        ],
         "duration_months": 7,
         "bullets": [
           "Its a Bancassurance Project.Axis had a front end through which they connect to middleware.",
@@ -362,12 +454,16 @@
         "source": "experience"
       },
       {
-        "role": "Role Integration Lead",
+        "role": "Role Integration Lead(ESB",
         "company": "Project#2",
         "location": null,
         "start": "Dec 2021",
         "end": "Jan2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Project#2",
+          "Project Title Aditya Birla Life Insurance"
+        ],
         "duration_months": 2,
         "bullets": [
           "Its a Bancassurance Project.Various Portal connects to ESB which is a Microsoft Biz talk server which is returns connects to Downstream application.",
@@ -384,7 +480,11 @@
         "location": null,
         "start": "Feb 2022",
         "end": "Nov 2023",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Project#3",
+          "Project Title IDFC Bancassurance Project"
+        ],
         "duration_months": 22,
         "bullets": [
           "IDFC FIRST Bank intends to setup Bancassurance platform with all its tied-up insurers across categories Health & Savings.",
@@ -397,12 +497,15 @@
         "source": "experience"
       },
       {
-        "role": "Mainly branch personnel such as Relationship Manager (RM) / Lead Generator (LG) who will be assisting customers during issuance journey would use the Salesforce platform. For assisted channels, each application would require approval from assigned Specified Person (SP). If a SP himself is performing the journey, approval won't be required to sell the insurance products to customers. Liberty General Insurance",
-        "company": "Project#1",
+        "role": "Mainly branch personnel such as Relationship Manager (RM) / Lead Generator (LG) who will be assisting customers during issuance journey would use the Salesforce platform. For assisted channels, each application would require approval from assigned Specified Person (SP). If a SP himself is performing the journey, approval won't be required to sell the insurance products to customers",
+        "company": "Liberty General Insurance",
         "location": null,
         "start": "13th Nov 2023",
         "end": "current",
-        "method": "date_regex+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Mainly branch personnel such as Relationship Manager (RM) / Lead Generator (LG) who will be assisting customers during issuance journey would use the Salesforce platform. For assisted channels, each application would require approval from assigned Specified Person (SP). If a SP himself is performing the journey, approval won't be required to sell the insurance products to customers."
+        ],
         "duration_months": 35,
         "bullets": [
           "Bharat Bill Payment System is an integrated bill payment system in India offering interoperable and accessible bill payment service to customers through a network of agents of registered member as Agent Institutions, enabling multiple payment modes, and providing instant confirmation of payment.",
@@ -447,7 +550,7 @@
       "total_months": 175,
       "overlapping_periods_merged": 12
     },
-    "_confidence": 0.91
+    "_confidence": 0.94
   },
   "education": {
     "entries": [],
@@ -462,7 +565,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
@@ -472,18 +575,18 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
+      "field": "experience.jobs[1]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[4]",
-      "confidence": 0.7,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[8]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     }
   ]

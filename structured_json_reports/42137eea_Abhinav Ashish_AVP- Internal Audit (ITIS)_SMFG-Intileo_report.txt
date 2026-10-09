@@ -2,7 +2,7 @@
 FILE: 42137eea_Abhinav Ashish_AVP- Internal Audit (ITIS)_SMFG-Intileo_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'languages', 'skills']
-Overall conf.  : 0.89
+Overall conf.  : 0.9
 Needs review   : True
 
 CONTACT
@@ -14,17 +14,17 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (9) — confidence 0.92
+SKILLS (19) — confidence 0.92
 ----------------------------------------------------------------------
-BI Tools, Business Continuity Management, Cyber Security Governance, GRC, ISMS, ISO 27001, ISO Standards, Information Systems Audit, VAPT
+Auditing, BCP, BI Tools, Business Continuity Management, Cyber Security Governance, GRC, ISMS, ISO 27001, ISO Standards, IT Security, ITGC, Information Security, Information Systems Audit, Legal Compliance, Payments, RBI, Risk Assessment, Third-Party Risk, VAPT
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.91
-Total experience: 10.1 years (121 months, 0 overlaps merged)
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 10.2 years (122 months, 0 overlaps merged)
 ----------------------------------------------------------------------
   1. Senior Associate @ National Payments Corporation of India (March, 2022 - Present) [conf 0.98, review=False]
   2. Assistant Manager @ Grant Thornton LLP (March, 2019 - Feb, 2022) [conf 0.98, review=False]
   3. Information Security Consultant @ AAA Technologies Pvt. Ltd (July, 2017 - Feb, 2019) [conf 0.98, review=False]
-  4. Focus Forensics Technology (P) Ltd @ Provided specialized Cyber Forensics assistance to various government agencies. (July, 2016 - April, 2017) [conf 0.7, review=True]
+  4. Junior Security Analyst @ Focus Forensics Technology (P) Ltd (July, 2016 - April, 2017) [conf 0.98, review=False]
 
 EDUCATION (2) — confidence 0.95
 ----------------------------------------------------------------------
@@ -46,9 +46,8 @@ CERTIFICATIONS (12) — confidence 0.69
   11. ISO 27001: LA (Lead — None (2013) [conf 0.75]
   12. Auditor — None (2017) [conf 0.75]
 
-REVIEW QUEUE (7 flagged fields)
+REVIEW QUEUE (6 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[3]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.69  reason=low_confidence
   certifications.items[2]             conf=0.6  reason=incomplete_fields
   certifications.items[3]             conf=0.6  reason=incomplete_fields

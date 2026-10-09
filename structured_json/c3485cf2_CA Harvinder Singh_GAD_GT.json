@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c3485cf2_CA Harvinder Singh_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:16.721927+00:00",
+    "generated_at": "2026-10-07T09:28:11.048601+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,26 +46,107 @@
   "skills": {
     "items": [
       "Accounting",
+      "Accounting Standards",
+      "Analytical Review",
+      "Auditing",
+      "CARO 2020",
+      "Concurrent Audit",
       "Conditional Formatting",
+      "Coroutines Flow",
+      "Corporate Law",
+      "Cross-functional Collaboration",
       "Data Validation",
+      "Due Diligence",
+      "Financial Reporting",
+      "Fixed Assets Management",
+      "GST",
       "HLOOKUP",
+      "Income Tax Return",
+      "Ind AS",
+      "Insolvency & Bankruptcy Code",
+      "Internal Financial Controls",
+      "Legal Compliance",
+      "Limited Review",
       "LinkedIn",
+      "MGT-7",
+      "Make",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
+      "Performance Monitoring",
+      "Physical Verification",
       "Pivot Tables",
+      "RBI",
+      "ROC Filing",
+      "ROC Filings",
+      "Real Estate Valuation",
+      "Reporting",
+      "Risk Assessment",
+      "Risk Management",
       "SAP",
-      "Tally",
-      "VLOOKUP"
+      "SEBI",
+      "Schedule III Compliance",
+      "Statutory Audit",
+      "TDS",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "VLOOKUP",
+      "Variance Analysis",
+      "Working Capital Financing"
     ],
     "by_category": {
       "finance_ops": [
         "Accounting",
-        "Tally"
+        "Auditing",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Taxation"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Fixed Assets Management",
+        "GST",
+        "Limited Review",
+        "Physical Verification"
+      ],
+      "compliance": [
+        "CARO 2020",
+        "Risk Assessment"
+      ],
+      "finance": [
+        "Concurrent Audit",
+        "Due Diligence",
+        "Income Tax Return",
+        "Ind AS",
+        "Internal Financial Controls",
+        "ROC Filing"
       ],
       "software": [
         "Conditional Formatting",
         "HLOOKUP"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "legal": [
+        "Corporate Law",
+        "Insolvency & Bankruptcy Code",
+        "Legal Compliance",
+        "MGT-7",
+        "ROC Filings",
+        "SEBI"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reporting"
       ],
       "data_engineering": [
         "Data Validation"
@@ -73,21 +154,46 @@
       "web_framework": [
         "LinkedIn"
       ],
+      "rpa": [
+        "Make"
+      ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word",
         "Pivot Tables"
+      ],
+      "operations": [
+        "Performance Monitoring"
+      ],
+      "domain": [
+        "RBI"
+      ],
+      "real_estate": [
+        "Real Estate Valuation"
+      ],
+      "project_mgmt": [
+        "Risk Management"
       ],
       "integration": [
         "SAP"
       ],
+      "taxation": [
+        "TDS"
+      ],
       "office": [
         "VLOOKUP"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
+      ],
+      "banking": [
+        "Working Capital Financing"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel:→Microsoft Excel(91%), excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint:→Microsoft PowerPoint(95%), Tally ERP→Tally(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Excel:→Microsoft Excel(91%), excel→Microsoft Excel(100%), Word→Microsoft Word(100%), PowerPoint:→Microsoft PowerPoint(95%), Tally ERP→Tally ERP 9(100%))"
   },
   "experience": {
     "jobs": [
@@ -97,8 +203,11 @@
         "location": null,
         "start": "Aug 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 14,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Audit Manager"
+        ],
+        "duration_months": 15,
         "bullets": [
           "SARNUM & Co. (formerly known as Santosh Ramanuj & Co.), established in 2009, is a New Delhi–based Chartered Accountancy firm providing Statutory Audit, Internal Audit, Tax Advisory, Due Diligence, Valuation, IBC and Assurance services to private and listed entities across diverse sectors.",
           "IPO Listing Experience – Luxury Time Limited (₹18.74 Crore IPO) Reviewed and validated three years of restated financial statements in accordance with AS and SEBI (ICDR) Regulations for inclusion in DRHP, RHP, and Prospectus, ensuring accuracy, consistency, and regulatory compliance.",
@@ -138,7 +247,10 @@
         "location": null,
         "start": "Apr 2019",
         "end": "Mar 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Article Assistant"
+        ],
         "duration_months": 36,
         "bullets": [
           "[Renowned New Delhi Based firm, established in 1987, currently having 12 partners and 5 branches, excels in Audit and Assurance, Taxation, Legal Advisory and Other Financial Services] Conducted Statutory Audit of private and public entities with turnover ranging from 50-100 crores, ensuring compliance with financial reporting standards and statutory requirements. Executed Statutory audits of clients in various sectors such as Non-Banking Financial Companies (with turnover exceeding 4350 Cr), Agriculture Insurance (with premium exceeding 6000 Cr) Energy Trading (with turnover exceeding 10,000 Cr), Hotel catering & Tourism. Spearheaded Limited reviews of financial statements, including detailed analysis of notes to accounts, ensuring adherence to relevant Accounting Standards and IndAS. Validated annual statutory compliances such as TDS, GST, PF, ESI, 26AS for over 20 Clients, ensuring accuracy and regulatory adherence. Drafted Audit reports including Emphasis of Matter (EOM), Other Matter paragraphs, Internal Financial Controls (IFC), and CARO",
@@ -153,7 +265,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 4.2,
-      "total_months": 50,
+      "total_months": 51,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -200,7 +312,7 @@
         "degree_field": null,
         "institution": "Arya Sr. Sec. School Narwana",
         "year": "2016",
-        "gpa": "75.6%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -211,7 +323,7 @@
         "degree_field": null,
         "institution": "Arya Sr. Sec. School Narwana",
         "year": "2014",
-        "gpa": "71.4%",
+        "gpa": "75.6%",
         "_needs_review": false,
         "_confidence": 0.95
       }

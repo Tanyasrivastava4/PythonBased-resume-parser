@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9fc3d6df_Atul Chauhan_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:52.044142+00:00",
+    "generated_at": "2026-10-07T09:27:37.926606+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -56,16 +56,21 @@
       "AWS",
       "Agile",
       "Angular",
+      "Auditing",
       "Azure",
       "Bootstrap",
       "CSS3",
       "DNS",
+      "Deep Learning",
+      "GitHub",
       "HTML5",
       "JavaScript",
       "Laravel",
+      "LinkedIn",
       "MSSQL",
       "MVC Architecture",
       "Microservices",
+      "Microsoft Teams",
       "MongoDB",
       "MySQL",
       "Nginx",
@@ -77,7 +82,11 @@
       "REST API",
       "React",
       "Responsive Web Design",
+      "Secure Coding",
+      "Security Compliance",
+      "Smartsheet",
       "System Design",
+      "Team Leadership",
       "jQuery"
     ],
     "by_category": {
@@ -94,6 +103,7 @@
         "CSS3",
         "HTML5",
         "Laravel",
+        "LinkedIn",
         "Node.js",
         "REST API",
         "React",
@@ -111,10 +121,20 @@
       ],
       "project_mgmt": [
         "Agile",
-        "Project Management"
+        "Project Management",
+        "Smartsheet"
+      ],
+      "finance_ops": [
+        "Auditing"
       ],
       "networking": [
         "DNS"
+      ],
+      "ai_ml": [
+        "Deep Learning"
+      ],
+      "dev_tool": [
+        "GitHub"
       ],
       "database": [
         "MSSQL",
@@ -125,11 +145,23 @@
       "software_engineering": [
         "MVC Architecture"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "devops": [
         "Nginx"
       ],
       "domain": [
         "Payments"
+      ],
+      "cybersecurity": [
+        "Secure Coding"
+      ],
+      "security": [
+        "Security Compliance"
+      ],
+      "soft_skill": [
+        "Team Leadership"
       ]
     },
     "_confidence": 0.92,
@@ -144,7 +176,7 @@
         "start": "01/2025",
         "end": "Present",
         "method": "date_regex+title_dash_company+next_line_company",
-        "duration_months": 21,
+        "duration_months": 22,
         "bullets": [
           "LTIMindtree is a global technology consulting and digital solutions company.",
           "Working on DL-TNM-MMA-McGriff App Migration project, migrating enterprise apps from on- premises Azure to Azure Bubble.",
@@ -159,12 +191,12 @@
       },
       {
         "role": "Full Stack Developer & Team Lead",
-        "company": "09/-2025 Noida-63",
+        "company": "Noida-63",
         "location": null,
-        "start": "2019",
-        "end": "2001",
-        "method": "year_range_short_regex+title_dict",
-        "duration_months": 0,
+        "start": "09/2019",
+        "end": "01-2025",
+        "method": "date_regex+title_dict_strong",
+        "duration_months": 65,
         "bullets": [
           "A company specializing in technology solutions for the travel industry.",
           "Project Enhancement: Played a crucial role in enhancing and developing various web applications, leading to improved functionality and user experience.",
@@ -185,9 +217,9 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.8,
-      "total_months": 21,
-      "overlapping_periods_merged": 0
+      "total_years": 7.2,
+      "total_months": 86,
+      "overlapping_periods_merged": 1
     },
     "_confidence": 0.98
   },
@@ -198,7 +230,7 @@
         "degree_name": "MCA",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "New Delhi Indira Gandhi National Open University ATUL CHAUHAN",
+        "institution": "New Delhi Indira Gandhi National Open University",
         "year": "2021",
         "gpa": null,
         "_needs_review": false,
@@ -232,13 +264,13 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "New Delhi CBSE Portal",
-        "year": null,
+        "year": "2013 - 2014",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.91
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [],
@@ -254,7 +286,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.95
   },
   "_needs_review": false,
   "_review_queue": []

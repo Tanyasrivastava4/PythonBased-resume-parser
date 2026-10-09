@@ -183,7 +183,7 @@ def build_resume_record(segmented_filepath: str) -> dict:
         _flag(review_queue, "skills", 0.0, "section_present_but_empty")
 
     # ── Experience (+ early_career recap, if the splitter found one) ──
-    exp_text = sections.get("experience", "")
+    exp_text = (sections.get("experience", "") + "\n" + sections.get("roles_responsibilities", "")).strip()
     early_career_text = sections.get("early_career", "")
     projects_text = sections.get("projects", "")
     if projects_text and ("Previous experience" in projects_text or "Previous experience" in exp_text or re.search(r'\b(?:Software Engineer|Senior Project Lead|Technical Project Manager|Tech Lead)\b.*?\b(19\d{2}|20\d{2})\b', projects_text, re.I)):

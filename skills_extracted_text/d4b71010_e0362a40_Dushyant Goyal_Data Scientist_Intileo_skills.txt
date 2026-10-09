@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/d4b71010_e0362a40_Dushyant Goyal_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming Languages: Python, JavaScript, Java, Kotlin, C, C++, Dart
+Machine Learning & Deep Learning: Supervised & Unsupervised Learning, Neural Networks,
+AutoEncoders, Feature Engineering, Model Evaluation, Recommendation Systems, Cosine
+Similarity
+NLP & LLMs: Natural Language Processing, Embeddings, Transformers, Prompt Engineering,
+Retrieval-Augmented Generation (RAG), Conversational Memory, AI Agents.
+Frameworks & Libraries: PyTorch, Scikit-Learn, LangChain, LangGraph, Django, Django REST
+Framework, FastAPI, React
+Databases: SQL, MongoDB, Firebase, Chroma, Qdrant
+Tools & Platforms: Git, GitHub, Docker, VS Code, Excel, Advanced Excel (Pivot Tables,
+Lookups, Data Analysis), Google Sheets (Formulas, Reporting, Dashboards), Jupyter Lab
+
+── Extraction Results ──
+Skills found   : 45
+Confidence     : 0.92
+Time           : 238.84 ms
+Method         : flashtext_skills_section | fuzzy(Unsupervised Learning→Machine Learning(100%), Neural Networks→ANN(100%), Retrieval-Augmented Generation→RAG(100%), Scikit-Learn→scikit-learn(100%), Django REST Framework→Django(95%)...)
+
+── All Skills (45) ──
+ANN, Agentic AI, Android, C++, Dart, Data Analysis, Deep Learning, Django, Docker, Embeddings, FastAPI, Firebase, Gemini, Git, GitHub, Google Workspace, Java, JavaScript, Jupyter, Kotlin, LLM, LangChain, LangGraph, LinkedIn, Machine Learning, Microsoft Excel, MongoDB, NLP, Performance Optimization, Pivot Tables, Prompt Engineering, PyTorch, Python, Qdrant, RAG, REST, REST API, React, Reporting, SQL, Transformers, VS Code, Vector Databases, XML, scikit-learn
+
+── By Category ──
+  ai_ml                          ['ANN', 'Deep Learning', 'Embeddings', 'Machine Learning', 'NLP', 'PyTorch', 'scikit-learn']
+  data_science                   ['Data Analysis', 'Transformers']
+  database                       ['Firebase', 'MongoDB', 'SQL']
+  dev_tool                       ['Git', 'GitHub', 'Jupyter', 'Performance Optimization', 'VS Code']
+  devops                         ['Docker']
+  genai                          ['Agentic AI', 'Gemini', 'LLM', 'LangChain', 'LangGraph', 'Prompt Engineering', 'RAG', 'Vector Databases']
+  integration                    ['REST']
+  mobile                         ['Android']
+  productivity                   ['Google Workspace', 'Microsoft Excel', 'Pivot Tables']
+  programming_language           ['C++', 'Dart', 'Java', 'JavaScript', 'Kotlin', 'Python']
+  search                         ['Qdrant']
+  soft_skill                     ['Reporting']
+  web_framework                  ['Django', 'FastAPI', 'LinkedIn', 'REST API', 'React', 'XML']

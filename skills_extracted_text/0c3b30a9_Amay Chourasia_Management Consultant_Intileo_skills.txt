@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/0c3b30a9_Amay Chourasia_Management Consultant_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Process Consulting
+• Excellent Communication Skills
+
+── Extraction Results ──
+Skills found   : 33
+Confidence     : 0.92
+Time           : 238.07 ms
+Method         : flashtext_skills_section | fuzzy(presenting→Presentation Skills(100%))
+
+── All Skills (33) ──
+AWS, Agile, BFSI, Business Development, Business Process Optimization, CSAT, Capital Markets, Client Relationship Management, Collaboration, Communication, Competitive Analysis, Creativity, Cross-functional Collaboration, Data Migration, Digital Marketing, Digital Transformation, E-learning, Google, Leadership, LinkedIn, Management Consulting, Market Research, Microsoft Teams, Presentation Skills, Process Consulting, Product Design, Product Management, R, Risk Management, Scrum, Six Sigma, Team Leadership, Wealth Management
+
+── By Category ──
+  biz_dev                        ['Business Development', 'Competitive Analysis']
+  client_mgmt                    ['Client Relationship Management']
+  cloud_infra                    ['AWS']
+  consulting                     ['Digital Transformation', 'Management Consulting', 'Process Consulting']
+  customer_service               ['CSAT']
+  data_engineering               ['Data Migration']
+  database                       ['Google']
+  domain                         ['BFSI']
+  education_domain               ['E-learning']
+  engineering                    ['Product Design']
+  finance                        ['Capital Markets', 'Wealth Management']
+  marketing                      ['Digital Marketing', 'Market Research']
+  operations                     ['Business Process Optimization', 'Six Sigma']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['R']
+  project_mgmt                   ['Agile', 'Product Management', 'Risk Management', 'Scrum']
+  soft_skill                     ['Collaboration', 'Communication', 'Creativity', 'Cross-functional Collaboration', 'Leadership', 'Presentation Skills', 'Team Leadership']
+  web_framework                  ['LinkedIn']

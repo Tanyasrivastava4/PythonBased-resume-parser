@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a7826ca8_a34aa9b4_Naukri_AnoopChauhan[7y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:57.096010+00:00",
+    "generated_at": "2026-10-07T09:27:44.656464+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,33 +47,71 @@
   "summary": null,
   "skills": {
     "items": [
+      "Active Directory",
       "Adobe Illustrator",
       "Adobe InDesign",
       "Adobe Photoshop",
       "Adobe XD",
+      "Android",
       "Bootstrap",
+      "Brand Design",
       "CSS3",
+      "Design Thinking",
+      "Electrical Engineering",
+      "Facebook",
       "Figma",
+      "Google",
       "HTML5",
       "JavaScript",
+      "Microsoft Edge",
+      "PSD to WordPress",
+      "UX Design",
+      "Usability Testing",
+      "User Research",
+      "Wireframing",
       "jQuery"
     ],
     "by_category": {
+      "security_ops": [
+        "Active Directory"
+      ],
       "design": [
         "Adobe Illustrator",
         "Adobe InDesign",
         "Adobe Photoshop",
         "Adobe XD",
-        "Figma"
+        "Brand Design",
+        "Design Thinking",
+        "Figma",
+        "UX Design",
+        "Usability Testing",
+        "User Research",
+        "Wireframing"
+      ],
+      "mobile": [
+        "Android"
       ],
       "web_framework": [
         "Bootstrap",
         "CSS3",
+        "Facebook",
         "HTML5",
         "jQuery"
       ],
+      "engineering": [
+        "Electrical Engineering"
+      ],
+      "database": [
+        "Google"
+      ],
       "programming_language": [
         "JavaScript"
+      ],
+      "dev_tool": [
+        "Microsoft Edge"
+      ],
+      "content": [
+        "PSD to WordPress"
       ]
     },
     "_confidence": 0.92,
@@ -82,31 +120,39 @@
   "experience": {
     "jobs": [
       {
-        "role": "& Developer",
+        "role": "Graphic - UX ,UI Designer",
         "company": "Ima Appweb",
-        "location": "Graphic - UX ,UI Designer",
+        "location": null,
         "start": "June 2016",
         "end": "July 2019",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Ima Appweb - Graphic - UX ,UI Designer",
+          "& Developer"
+        ],
         "duration_months": 38,
         "bullets": [
           "Web Layout design."
         ],
-        "sub_sections": [
-          "UI/UX Design(For web and mobile devices)",
-          "Designing iPhone, Android and Blackberry Applications"
-        ],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Developer",
-        "company": "Nuage Biztech",
-        "location": "Graphic - UI,UX Designer &",
+        "role": "UI",
+        "company": "For web and mobile devices",
+        "location": null,
         "start": "August 2019",
         "end": "Oct 2020",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+inline_parens",
+        "pre_date_header": [
+          "UI/UX Design(For web and mobile devices)",
+          "Designing iPhone, Android and Blackberry Applications",
+          "PSD to HTML conversion.",
+          "Nuage Biztech - Graphic - UI,UX Designer &",
+          "Developer"
+        ],
         "duration_months": 15,
         "bullets": [
           "Device user interaction strategies in sync with user goals and business goals Working with stakeholders to get aligned for requirements Conducting research based on persona, customer journey mapping, wireframes and usability testing Working on visual designs & considering Brand guidelines & based on the user expectations Translated concepts into wireframes and mock-ups that lead to intuitive user experiences"
@@ -117,12 +163,16 @@
         "source": "experience"
       },
       {
-        "role": "Developer",
+        "role": "UI,UX Designer &",
         "company": "Majorel India Pvt. Ltd",
-        "location": "UI,UX Designer &",
+        "location": null,
         "start": "November 2020",
         "end": "December 2021",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Majorel India Pvt. Ltd - UI,UX Designer &",
+          "Developer"
+        ],
         "duration_months": 14,
         "bullets": [
           "Web Layout design."
@@ -143,7 +193,11 @@
         "location": null,
         "start": "Jan 2022",
         "end": "May 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "DXC Technologies ee",
+          "- Sr, UX ,UI Designer & Developer iki»,"
+        ],
         "duration_months": 29,
         "bullets": [
           "Strategize, Define, Design, and Validate Experiences for users in the space of digital Responsible for user research, building user personas, redesigning of robust 15 year old interface and usability testing Managed a team and implemented design thinking process along with timely delivery of the projects"
@@ -161,9 +215,9 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Responsible for user research",
-        "location": null,
+        "role": "Ima Appweb",
+        "company": "Graphic - UX",
+        "location": "UI Designer",
         "start": "August 2024",
         "end": "August 2025",
         "method": "date_regex",

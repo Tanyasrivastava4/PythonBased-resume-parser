@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7cbaefe6_36212a72_firoz mohammad shaikh_offer_letter_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.573548+00:00",
+    "generated_at": "2026-10-07T09:27:02.404740+00:00",
     "sections_found": [
       "header",
       "unknown"
@@ -44,33 +44,39 @@
   "skills": {
     "items": [
       ".NET",
+      "Aadhaar Integration",
       "Background Verification",
+      "Salary Structure",
       "Taxation"
     ],
     "by_category": {
       "programming_language": [
         ".NET"
       ],
+      "integration": [
+        "Aadhaar Integration"
+      ],
       "hr": [
-        "Background Verification"
+        "Background Verification",
+        "Salary Structure"
       ],
       "finance_ops": [
         "Taxation"
       ]
     },
-    "_confidence": 0.75,
-    "_method": "flashtext_full_text_fallback"
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Coordinator, Ops with our client GIA India Laboratory Pvt Ltd at Mumbai on the mutually agreed terms and",
-        "company": "1204, Tow er-C,12thFloor",
-        "location": "Sector-39",
+        "role": "Unitech Cyber Park, Unit No 1202, 1203",
+        "company": "U74910KA2001PTCO29517",
+        "location": null,
         "start": "04-May 2026",
         "end": "Present",
-        "method": "single_date_regex+comma_company_location",
-        "duration_months": 5,
+        "method": "single_date_regex+multiline_role_above_company",
+        "duration_months": 6,
         "bullets": [
           "In pursuance of your application followed by your interview, we are pleased to offer you the position of HR Coordinator, Ops with our client GIA India Laboratory Pvt Ltd at Mumbai on the mutually agreed terms and conditions. You are requested to join the services of GIA India Laboratory Pvt Ltd at the following address: GIA India Laboratory Pvt Ltd, Mumbai. The annual CTC shall be 3,23,076.00/-. The Salary structure is attached herewith as Annexure A. Please bring the following documents on the day of joining:",
           "Educational Certificates – Original and Photocopies",
@@ -96,8 +102,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 0.4,
-      "total_months": 5,
+      "total_years": 0.5,
+      "total_months": 6,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -160,7 +166,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [

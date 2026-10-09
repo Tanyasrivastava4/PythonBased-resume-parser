@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5ad3ee7b_7f84e5ed_Amit Bedre_Network Security Team Lead_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.441773+00:00",
+    "generated_at": "2026-10-07T10:31:48.069279+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -67,6 +67,7 @@
       "OSPF",
       "Procurement",
       "Project Management",
+      "Reliability",
       "Resource Planning",
       "Root Cause Analysis",
       "SWIFT",
@@ -97,7 +98,8 @@
         "Business Development"
       ],
       "soft_skill": [
-        "Communication"
+        "Communication",
+        "Reliability"
       ],
       "operations": [
         "Disaster Recovery",
@@ -150,18 +152,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Network Engineer L2",
-        "company": "Bharti Airtel Ltd",
+        "role": "Network Engineer L2-Bharti Airtel Ltd",
+        "company": "Network Engineer L2-Bharti Airtel Ltd",
         "location": null,
         "start": "Dec 2024",
         "end": "Aug 2025",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 9,
-        "bullets": [
-          "Taking charge of incidents, service requests, and vendor management to enhance service delivery.",
-          "Configuration of Huawei, cisco, Firewall, ZTE switches configuration.",
-          "Providing L1 support to configure Forti-Gate firewall"
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Network Engineer L2-Bharti Airtel Ltd"
         ],
+        "duration_months": 9,
+        "bullets": [],
         "sub_sections": [
           "Handing Mpls4G network",
           "Handling Microsoft Operation with new delivery. Installing new AVADA mux card",
@@ -181,12 +182,15 @@
         "source": "experience"
       },
       {
-        "role": "Project Manager",
-        "company": "Reecomps Teleservices",
+        "role": "Project Manager-Reecomps Teleservices",
+        "company": "Reecomps Teleservices, responsible for the end",
         "location": null,
         "start": "Aug 2023",
         "end": "Dec 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Project Manager-Reecomps Teleservices"
+        ],
         "duration_months": 17,
         "bullets": [
           "As a Project Manager at Reecomps Teleservices, responsible for the end-to-end management of telecom projects, ensuring timely delivery, budget control, and high-quality implementation of network solutions. Acts as the primary point of contact between clients, vendors, and internal teams to deliver telecom infrastructure projects aligned with business goals.",
@@ -211,12 +215,15 @@
         "source": "experience"
       },
       {
-        "role": "Network Engineer",
-        "company": "Tech Mahindra",
+        "role": "Network Engineer-Tech Mahindra",
+        "company": "Tech Mahindra, responsible for ensuring the stability, reliability, and performance of the bank's critical network infrastructure. The role involves proactive monitoring, incident resolution, configuration management, and providing seamless connectivity",
         "location": null,
         "start": "Feb 2022",
         "end": "Aug 2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Network Engineer-Tech Mahindra"
+        ],
         "duration_months": 19,
         "bullets": [
           "As a Network Engineer in the creadit Swiss Project at Tech Mahindra, responsible for ensuring the stability, reliability, and performance of the bank's critical network infrastructure. The role involves proactive monitoring, incident resolution, configuration management, and providing seamless connectivity to support critical banking applications and financial transactions. Monitor and manage the bank's network infrastructure (LAN/WAN, MPLS, VPN, Firewalls, Switches, Routers).",
@@ -225,8 +232,8 @@
           "Work closely with SWIFT infrastructure team to ensure secure and compliant network connectivity for financial messaging services."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -235,7 +242,10 @@
         "location": null,
         "start": "Jul 2013",
         "end": "Jul 2021",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Data Center Engineer-Lobo Staffing Solutions -Tata Communication Ltd)"
+        ],
         "duration_months": 97,
         "bullets": [
           "Troubleshoot hardware, software, and network issues to ensure minimal downtime.",
@@ -272,7 +282,7 @@
       "total_months": 260,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.91
+    "_confidence": 0.85
   },
   "education": {
     "entries": [
@@ -299,10 +309,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.92
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "experience.jobs[3]",
       "confidence": 0.7,

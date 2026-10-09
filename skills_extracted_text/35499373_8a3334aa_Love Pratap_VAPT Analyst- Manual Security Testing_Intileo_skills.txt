@@ -1,0 +1,38 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/35499373_8a3334aa_Love Pratap_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Penetration Testing: Network VAPT, Infrastructure Exploitation, Web & API Security, Red Teaming,
+Vulnerability Scanning.
+Tools:
+Nmap, Nessus, Metasploit, Burp Suite, Wireshark, OWASP ZAP, Acunetix, SQLmap, Kali
+Linux, Nikto.
+Monitoring & DFIR: SIEM (Sumo Logic, SentinelOne), SOC Operations, Log Analysis, Threat Hunting, FTK
+Imager.
+
+Networking & Protocols: TCP/IP, HTTP Security Headers, SSL/TLS, DMARC, SPF, DKIM, Network Architecture
+Auditing.
+
+── Extraction Results ──
+Skills found   : 31
+Confidence     : 0.92
+Time           : 80.84 ms
+Method         : flashtext_skills_section | fuzzy(Red Teaming→Offensive Security(100%), SQLmap→SQLMAP(100%))
+
+── All Skills (31) ──
+Acunetix, Auditing, Burp Suite, CEH, Cross-functional Collaboration, EDR, Fine-tuning, Kali Linux, LinkedIn, Log Analysis, Machine Learning, Metasploit, Microsoft Teams, Nessus, Network Vulnerability Assessment, Networking, Nikto, Nmap, OWASP ZAP, Offensive Security, Patch Management, Penetration Testing, Phishing, Python, SIEM, SOC Operations, SQLMAP, Threat Hunting, Threat Intelligence, VAPT, Wireshark
+
+── By Category ──
+  ai_ml                          ['Machine Learning']
+  biz_dev                        ['Networking']
+  cloud_infra                    ['Wireshark']
+  finance_ops                    ['Auditing']
+  genai                          ['Fine-tuning']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Python']
+  security                       ['Metasploit', 'Network Vulnerability Assessment', 'Nikto', 'Nmap', 'Offensive Security', 'SOC Operations', 'SQLMAP']
+  security_ops                   ['Acunetix', 'Burp Suite', 'CEH', 'EDR', 'Log Analysis', 'Nessus', 'OWASP ZAP', 'Patch Management', 'Penetration Testing', 'Phishing', 'SIEM', 'Threat Hunting', 'Threat Intelligence', 'VAPT']
+  soft_skill                     ['Cross-functional Collaboration']
+  testing                        ['Kali Linux']
+  web_framework                  ['LinkedIn']

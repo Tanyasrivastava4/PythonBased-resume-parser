@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3869aabf_352546ee_HarshvardhanResume_segmented.txt",
-    "generated_at": "2026-09-30T06:58:16.597042+00:00",
+    "generated_at": "2026-10-07T10:31:13.812639+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -74,6 +74,7 @@
       "RAG",
       "REST API",
       "React",
+      "SQL",
       "Tailwind CSS",
       "Vector Databases"
     ],
@@ -119,7 +120,8 @@
       ],
       "database": [
         "MongoDB",
-        "PostgreSQL"
+        "PostgreSQL",
+        "SQL"
       ],
       "search": [
         "Qdrant"
@@ -131,13 +133,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Software Developer",
+        "role": "Software Developer (Python & AI",
         "company": "Createch Software Pvt Ltd",
         "location": null,
         "start": "Oct 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 24,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Createch Software Pvt Ltd"
+        ],
+        "duration_months": 25,
         "bullets": [
           "Developed an intelligent chatbot with open-source search and RAG-based chat, enhanced with advanced filters.",
           "Integrated audio, text and document translation features, along with map-based search and timeline functionalities.",
@@ -156,8 +161,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.0,
-      "total_months": 24,
+      "total_years": 2.1,
+      "total_months": 25,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

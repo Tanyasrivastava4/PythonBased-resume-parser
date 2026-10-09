@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "60ab3393_8503b9bf_ravicvupdated_php-3_segmented.txt",
-    "generated_at": "2026-09-30T06:58:48.740766+00:00",
+    "generated_at": "2026-10-07T10:31:55.183921+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,16 +50,21 @@
     "items": [
       "AWS",
       "AWS EC2",
+      "AWS SES",
       "Bootstrap",
       "CSS3",
       "Caching",
+      "Code Reviews",
       "Django",
+      "Django REST Framework",
       "FastAPI",
       "Flask",
       "GitHub",
+      "HRIS",
       "HTML5",
       "Jira",
       "Laravel",
+      "LinkedIn",
       "MVC Architecture",
       "Microservices",
       "MySQL",
@@ -67,22 +72,26 @@
       "Python",
       "REST",
       "REST API",
+      "Recruitment",
       "Redis",
       "jQuery"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
-        "AWS EC2"
+        "AWS EC2",
+        "AWS SES"
       ],
       "web_framework": [
         "Bootstrap",
         "CSS3",
         "Django",
+        "Django REST Framework",
         "FastAPI",
         "Flask",
         "HTML5",
         "Laravel",
+        "LinkedIn",
         "REST API",
         "jQuery"
       ],
@@ -91,7 +100,12 @@
         "Microservices"
       ],
       "dev_tool": [
+        "Code Reviews",
         "GitHub"
+      ],
+      "hr": [
+        "HRIS",
+        "Recruitment"
       ],
       "project_mgmt": [
         "Jira"
@@ -117,32 +131,57 @@
   "experience": {
     "jobs": [
       {
-        "role": "| Unicode Systems",
-        "company": "Optimized database queries and improved system performance",
-        "location": "Unicode Systems",
+        "role": "Senior Software Engineer | Unicode Systems",
+        "company": "Unicode Systems",
+        "location": null,
         "start": "Oct 2023",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 36,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 37,
         "bullets": [
           "Developed scalable backend systems using PHP (Laravel) and Python frameworks",
           "Designed and implemented RESTful APIs for high-performance applications",
           "Integrated Redis caching, reducing processing time by 50%",
-          "Conducted code reviews and mentored developers on backend best practices"
+          "Optimized database queries and improved system performance",
+          "Conducted code reviews and mentored developers on backend best practices",
+          ""
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Full Stack Developer | Satma Technologies Pvt Ltd",
+        "company": "Satma Technologies Pvt Ltd",
+        "location": null,
+        "start": "Mar 2018",
+        "end": "Oct 2023",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 68,
+        "bullets": [
+          "Developed enterprise applications using laravel, php and MySQL.",
+          "Designed systems supporting 1000+ concurrent users.",
+          "Built HR systems, financial modules, and job portals.",
+          "Managed deployment and cloud infrastructure on AWS.",
+          "Tech Stack: Core PHP, Bootstrap, MySQL, AWS",
+          "Built a dual-interface platform for candidates and management",
+          "Enabled candidates to apply for jobs, while organizations could manage recruitment, training, and screening processes",
+          "Designed scalable backend logic to handle multiple user roles and workflows"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.0,
-      "total_months": 36,
-      "overlapping_periods_merged": 0
+      "total_years": 8.7,
+      "total_months": 104,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -165,6 +204,17 @@
         "institution": null,
         "year": null,
         "gpa": "75.2%",
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
+      {
+        "degree": "• Bachelor`s In Technology(Computer Science Engineering) : 63 %",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": "63%",
         "_needs_review": false,
         "_confidence": 0.65
       }
@@ -195,20 +245,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.76
+    "overall": 0.82
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.65,

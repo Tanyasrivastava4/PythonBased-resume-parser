@@ -1,0 +1,30 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/7df45244_Aditya Mishra -CV.doc.-1_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Knowledge of 5S, Kaizen, Pokey-Yoke,3R,4M,CAPA,7Wastage.
+Knowledge 5why analysis.
+Process Audit & Continuous improvement.
+• Time Management Team Building & Coordination Willing to learn new things Monitoring skills management
+Organization Skills Analytical Skills Able to work independently as well as a team Member Resource Optimization
+believes in practical involvement in project Phases. Communication Skills Confident.
+
+── Extraction Results ──
+Skills found   : 25
+Confidence     : 0.92
+Time           : 255.8 ms
+Method         : flashtext_skills_section | fuzzy(Pokey-Yoke→Poka-Yoke(100%), Continuous improvement.→Continuous Improvement(98%), objective→Objective C(95%), responsible→Responsible AI(95%))
+
+── All Skills (25) ──
+3R, 4M, 5 Whys, 5S, 7 Wastage, Analytical Thinking, CAPA, CSAT, Communication, Continuous Improvement, Data Analysis, Kaizen, Make, Mechanical Engineering, Objective C, Organization Skills, Poka-Yoke, Process Audit, Process Improvement, Quality Assurance, Quality Control, Resource Optimization, Responsible AI, Team Building & Coordination, Time Management
+
+── By Category ──
+  customer_service               ['CSAT']
+  data_science                   ['Data Analysis']
+  engineering                    ['Mechanical Engineering', 'Quality Control']
+  genai                          ['Responsible AI']
+  operations                     ['3R', '4M', '5 Whys', '5S', '7 Wastage', 'CAPA', 'Continuous Improvement', 'Kaizen', 'Poka-Yoke', 'Process Audit', 'Process Improvement', 'Quality Assurance', 'Resource Optimization']
+  programming_language           ['Objective C']
+  rpa                            ['Make']
+  soft_skill                     ['Analytical Thinking', 'Communication', 'Organization Skills', 'Team Building & Coordination', 'Time Management']

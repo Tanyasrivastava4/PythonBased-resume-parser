@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a259c8a2_293b7f56_Rachit Karani_Associate Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:52.972918+00:00",
+    "generated_at": "2026-10-07T09:27:39.053471+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,51 +48,68 @@
   "summary": null,
   "skills": {
     "items": [
+      "Calibration",
       "Leadership",
+      "Logistics",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
       "Problem Solving",
       "Reporting",
-      "Salesforce"
+      "Salesforce",
+      "Team Coordination"
     ],
     "by_category": {
+      "engineering_hardware": [
+        "Calibration"
+      ],
       "soft_skill": [
         "Leadership",
         "Problem Solving",
         "Reporting"
       ],
+      "operations": [
+        "Logistics"
+      ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
       "integration": [
         "Salesforce"
+      ],
+      "management": [
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Problem-Solving→Problem Solving(100%), Analytical Thinking Tools→Problem Solving(95%), Salesforce CRM→Salesforce(100%), MS Excel→Microsoft Excel(100%), Word→Microsoft Word(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Team Management→Team Coordination(100%), Problem-Solving→Problem Solving(100%), Analytical Thinking Tools→Problem Solving(95%), Salesforce CRM→Salesforce(100%), MS Excel→Microsoft Excel(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Service Engineer",
-        "company": "Metal Power Analytical Pvt. Ltd",
+        "company": "Installed & commissioned 50+ spectrometers across India & overseas.",
         "location": null,
         "start": "10/2023",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 36,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Service Engineer",
+          "Metal Power Analytical Pvt. Ltd."
+        ],
+        "duration_months": 37,
         "bullets": [
-          "Installed & commissioned 50+ spectrometers across India & overseas.",
           "Led critical troubleshooting projects, reducing downtime by 30%.",
           "Delivered training sessions to 50+ client teams, improving adoption.",
           "Handled International clients in both Online and On- site."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -101,7 +118,11 @@
         "location": null,
         "start": "08/2021",
         "end": "10/2023",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Trek Lead",
+          "Trek Panda"
+        ],
         "duration_months": 27,
         "bullets": [
           "Trek Panda provides end-to-end travel services for groups",
@@ -122,10 +143,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 5.2,
-      "total_months": 62,
+      "total_months": 63,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -195,10 +216,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.63,

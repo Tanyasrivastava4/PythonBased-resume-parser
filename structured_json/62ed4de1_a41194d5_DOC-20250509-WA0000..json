@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "62ed4de1_a41194d5_DOC-20250509-WA0000._segmented.txt",
-    "generated_at": "2026-09-30T06:59:00.048029+00:00",
+    "generated_at": "2026-10-07T09:26:39.766676+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -63,7 +63,6 @@
       "Lease Management",
       "Make",
       "Mechanical Engineering",
-      "Microsoft DirectX",
       "Objective C",
       "Payments",
       "Pinterest",
@@ -71,12 +70,14 @@
       "Procurement",
       "Professional Ethics",
       "REACH",
+      "Reliability",
       "Reporting",
       "RequireJS",
       "Responsible AI",
       "Sales Presentations",
       "Scheme",
       "Teaching",
+      "Tenable.sc",
       "WHONET"
     ],
     "by_category": {
@@ -97,6 +98,7 @@
       ],
       "soft_skill": [
         "Communication",
+        "Reliability",
         "Reporting"
       ],
       "instrumentation": [
@@ -116,9 +118,6 @@
       ],
       "engineering": [
         "Mechanical Engineering"
-      ],
-      "os_system": [
-        "Microsoft DirectX"
       ],
       "programming_language": [
         "Objective C"
@@ -152,10 +151,13 @@
       ],
       "education_domain": [
         "Teaching"
+      ],
+      "cybersecurity": [
+        "Tenable.sc"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(leaving→Lease Management(86%), direct→Microsoft DirectX(92%), clause→Claude(83%), authority→Author-it(89%), clause→Claude(83%)...)"
+    "_method": "flashtext_skills_section | fuzzy(leaving→Lease Management(86%), clause→Claude(83%), authority→Author-it(89%), clause→Claude(83%), enables→Tenable.sc(86%)...)"
   },
   "experience": {
     "jobs": [],

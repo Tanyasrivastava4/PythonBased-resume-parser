@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "83ea87fb_Ajit A Tupale_Netsuite Solution Architect_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:29.951870+00:00",
+    "generated_at": "2026-10-07T09:27:08.984501+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,27 +50,46 @@
   "skills": {
     "items": [
       "ActionScript",
+      "Agile",
       "CSS3",
-      "Client Relationship Management",
+      "Coroutines Flow",
+      "Customer Relationship Management",
+      "Customs & International Trade",
+      "Data Migration",
       "ERP",
       "Eclipse",
+      "GitHub",
       "HTML5",
+      "Incident Management",
+      "Integration Testing",
       "JSON",
       "Java",
       "JavaScript",
+      "Jira",
       "Leadership",
       "Microsoft Teams",
       "NetSuite",
       "Order-to-Cash",
+      "Payments",
       "Procure-to-Pay",
+      "Procurement",
       "REST API",
       "Risk Management",
+      "SDLC",
+      "SFTP",
       "SOAP",
+      "Salesforce",
+      "Saved Searches",
+      "SuiteAnalytics",
+      "SuiteBuilder",
+      "SuiteFlow",
       "SuiteScript",
       "Supply Chain Management",
+      "Team Coordination",
       "Technical Design Document",
       "Technical Writing",
       "TestNG",
+      "Ticketing Systems",
       "Visual Studio",
       "XML",
       "jQuery"
@@ -81,6 +100,11 @@
         "Java",
         "JavaScript"
       ],
+      "project_mgmt": [
+        "Agile",
+        "Jira",
+        "Risk Management"
+      ],
       "web_framework": [
         "CSS3",
         "HTML5",
@@ -90,15 +114,35 @@
         "XML",
         "jQuery"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "legal": [
+        "Customs & International Trade"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "erp": [
-        "ERP"
+        "ERP",
+        "Saved Searches",
+        "SuiteAnalytics",
+        "SuiteBuilder",
+        "SuiteFlow"
       ],
       "dev_tool": [
         "Eclipse",
+        "GitHub",
         "Visual Studio"
+      ],
+      "security": [
+        "Incident Management"
+      ],
+      "security_ops": [
+        "Integration Testing"
       ],
       "soft_skill": [
         "Leadership"
@@ -114,52 +158,66 @@
         "Order-to-Cash",
         "Procure-to-Pay"
       ],
-      "project_mgmt": [
-        "Risk Management"
+      "domain": [
+        "Payments"
       ],
       "operations": [
+        "Procurement",
         "Supply Chain Management"
       ],
       "architecture": [
+        "SDLC",
         "Technical Design Document"
+      ],
+      "protocols": [
+        "SFTP"
+      ],
+      "integration": [
+        "Salesforce"
+      ],
+      "management": [
+        "Team Coordination"
       ],
       "content": [
         "Technical Writing"
       ],
       "testing": [
         "TestNG"
+      ],
+      "support": [
+        "Ticketing Systems"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(JQuery→jQuery(100%), HTML→HTML5(100%), JSON.→JSON(89%), testing.→TestNG(86%), Risk analysis→Risk Management(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Suite Analytics→SuiteAnalytics(100%), JQuery→jQuery(100%), HTML→HTML5(100%), JSON.→JSON(89%), testing.→TestNG(86%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "CGI India Pvt Ltd / NetSuite Lead Analyst",
-        "company": "plan",
-        "location": "etc.  Date",
+        "role": "Unknown",
+        "company": "Role Played | NetSuite Techno-Functional Consultant.",
+        "location": "Pune",
         "start": "Apr 2022",
         "end": "Current",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 54,
+        "method": "date_regex+comma_company_location",
+        "duration_months": 55,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Invitra Technologies Pvt. Ltd. / Technical Consultant",
-        "company": "Capgemini India Pvt.Ltd. Duration",
+        "role": "Pune",
+        "company": "Design & develop custom architecture using SuiteScript 1.0 and 2.0 Suite Builder and SuiteFlow.",
         "location": null,
         "start": "Mar 2019",
         "end": "Jul 2020",
         "method": "date_regex",
         "duration_months": 17,
         "bullets": [
+          "Invitra Technologies Pvt.",
           "Ltd. / Technical Consultant",
-          "Design & develop custom architecture using SuiteScript 1.0 and 2.0 Suite Builder and SuiteFlow.",
           "Customization in Sales Process and Procurement processes as well.",
           "Development of custom forms, custom records as per client requirement.",
           "Creating Custom forms, custom records, Saved searches for dashboard, workflow as per the client requirement.",
@@ -168,8 +226,8 @@
           "Process flow."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -195,13 +253,16 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "CGI India Pvt Ltd Duration:  date",
+        "role": "Duration:  date",
+        "company": "CGI India Pvt Ltd",
         "location": null,
         "start": "May 2022",
         "end": "current",
-        "method": "date_regex+company_suffix_match",
-        "duration_months": 53,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "CGI India Pvt Ltd"
+        ],
+        "duration_months": 54,
         "bullets": [
           "Enhance the current InspHire – NetSuite integration including adding new features, optimize integration, etc.",
           "Support the current InspHire – NetSuite integration including addressing issues/bugs, resolve failures caused by and within the integration, etc.",
@@ -215,17 +276,20 @@
           "Implemented electronic bank payment and automate the file processing from NetSuite to Coupa using SFTP server."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": null,
-        "company": "TSYS Duration",
+        "company": "TSYS",
         "location": null,
         "start": "Nov 2021",
         "end": "Apr 2022",
         "method": "date_regex",
+        "pre_date_header": [
+          "TSYS"
+        ],
         "duration_months": 6,
         "bullets": [
           "Prepared Technical CAB Documentation developed objects.",
@@ -241,12 +305,15 @@
         "source": "experience"
       },
       {
-        "role": "Role Played | NetSuite Techno-Functional Consultant",
-        "company": "TietoEvry India Pvt Ltd Duration",
+        "role": "NetSuite Techno-Functional Consultant",
+        "company": "TietoEvry India Pvt Ltd",
         "location": null,
         "start": "Aug 2020",
         "end": "Nov 2021",
         "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "TietoEvry India Pvt Ltd"
+        ],
         "duration_months": 16,
         "bullets": [
           "PROJECT – Aimo Park (End to End Implementation) Unknown - Role Played | NetSuite Techno-Functional Consultant.",
@@ -269,11 +336,14 @@
       },
       {
         "role": null,
-        "company": "Invitra Technologies Pvt.Ltd. Duration",
+        "company": "PROJECT – Vision Technology",
         "location": null,
         "start": "May 2016",
         "end": "Jan 2019",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex",
+        "pre_date_header": [
+          "Invitra Technologies Pvt.Ltd."
+        ],
         "duration_months": 33,
         "bullets": [
           "PROJECT – Vision Technology (End to End Implementation) PROJECT – Aptus Health (End to End Implementation)",
@@ -294,11 +364,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.4,
-      "total_months": 125,
+      "total_years": 10.5,
+      "total_months": 126,
       "overlapping_periods_merged": 4
     },
-    "_confidence": 0.91
+    "_confidence": 0.87
   },
   "education": {
     "entries": [
@@ -340,7 +410,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.83
   },
   "_needs_review": true,
   "_review_queue": [
@@ -350,12 +420,17 @@
       "reason": "missing"
     },
     {
-      "field": "experience.jobs[2]",
+      "field": "experience.jobs[0]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

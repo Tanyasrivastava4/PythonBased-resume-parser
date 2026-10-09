@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "81772eb1_b75f878a_Dibesh Jha_Sr. Business Development Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:26.602332+00:00",
+    "generated_at": "2026-10-07T09:27:04.883283+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,28 +49,43 @@
     "items": [
       "Business Development",
       "CRM Tools",
+      "Client Handling",
       "Client Relationship Management",
       "Cold Calling",
       "Communication",
+      "Customer Relationship Management",
+      "Fiber",
       "Field Sales",
       "Fintech",
+      "Hikvision",
       "Lead Generation",
       "Negotiation",
+      "Networking",
+      "Onboarding",
+      "Purchase Orders",
       "Revenue Generation",
       "SAP",
+      "Sales Reporting",
+      "Spring",
       "Telecom",
       "Time Management"
     ],
     "by_category": {
       "biz_dev": [
-        "Business Development"
+        "Business Development",
+        "Networking"
       ],
       "sales": [
         "CRM Tools",
         "Cold Calling",
+        "Customer Relationship Management",
         "Field Sales",
         "Lead Generation",
-        "Revenue Generation"
+        "Revenue Generation",
+        "Sales Reporting"
+      ],
+      "management": [
+        "Client Handling"
       ],
       "client_mgmt": [
         "Client Relationship Management"
@@ -80,9 +95,22 @@
         "Negotiation",
         "Time Management"
       ],
+      "web_framework": [
+        "Fiber",
+        "Spring"
+      ],
       "domain": [
         "Fintech",
         "Telecom"
+      ],
+      "security_ops": [
+        "Hikvision"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "operations": [
+        "Purchase Orders"
       ],
       "integration": [
         "SAP"
@@ -100,6 +128,9 @@
         "start": "Dec 2025",
         "end": "Feb 2026",
         "method": "date_regex",
+        "pre_date_header": [
+          "BDA – House of EdTech"
+        ],
         "duration_months": 3,
         "bullets": [
           "Built strong relationships with customers",
@@ -118,6 +149,11 @@
         "start": "Nov 2023",
         "end": "Oct 2024",
         "method": "date_regex+title_dash_company+next_line_company",
+        "pre_date_header": [
+          "• Achieved average monthly sales of n1,50,000",
+          "Senior Officer – Business Development",
+          "PhonePe Pvt. Ltd., Kolkata"
+        ],
         "duration_months": 12,
         "bullets": [
           "Acquired merchants across schools, restaurants, and retail outlets for EDC machine deployment",
@@ -135,7 +171,12 @@
         "location": "Kolkata",
         "start": "Mar 2023",
         "end": "Nov 2023",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "• Provided post-sales support",
+          "Business Development Officer",
+          "Prama India Pvt. Ltd., Kolkata"
+        ],
         "duration_months": 9,
         "bullets": [
           "Built partnerships with SI partners",
@@ -148,12 +189,17 @@
         "source": "experience"
       },
       {
-        "role": "Field Sales Associate",
-        "company": "Reliance Jio Fiber",
-        "location": "Kolkata",
+        "role": "Achieved average monthly sales of n50",
+        "company": "000",
+        "location": null,
         "start": "Nov 2020",
         "end": "Oct 2022",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "• Achieved average monthly sales of n50,000",
+          "Field Sales Associate",
+          "Reliance Jio Fiber, Kolkata"
+        ],
         "duration_months": 24,
         "bullets": [
           "Generated leads through cold calling and field visits",
@@ -170,7 +216,12 @@
         "location": "Kolkata",
         "start": "May 2018",
         "end": "Mar 2020",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "• Achieved 45 units/month sales",
+          "Field Sales Executive",
+          "Spring Air Mattresses, Kolkata"
+        ],
         "duration_months": 23,
         "bullets": [
           "Product demos and negotiations",

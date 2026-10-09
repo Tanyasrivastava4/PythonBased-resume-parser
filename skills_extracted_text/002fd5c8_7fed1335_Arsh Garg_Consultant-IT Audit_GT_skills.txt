@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/002fd5c8_7fed1335_Arsh Garg_Consultant-IT Audit_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Technical Skills: SOC 1 & 2, SOX, IT General Controls (ITGC), ITAC, IT Attestation and External Audit Coordination
+Security & Audit Frameworks: SOX 404, SOC 1 & 2, COBIT, ISO 27001
+Cloud & Programming: Microsoft Azure, SQL, Code Review for Security & Compliance
+Audit & Analysis Tools: Microsoft Excel, Audit Methodologies, Risk Assessment Techniques, AuditBoard
+Domains: IAM, Access Governance, Change Management, Incident Response, IT Operations
+
+── Extraction Results ──
+Skills found   : 17
+Confidence     : 0.92
+Time           : 213.26 ms
+Method         : flashtext_skills_section | fuzzy(Audit Methodologies→Audit Methodology(89%), risk assessments→Risk Management(97%))
+
+── All Skills (17) ──
+Audit Methodology, Auditing, Azure, Change Management, Code Reviews, ISO 27001, IT Ops, ITAC, ITGC, Incident Response, LinkedIn, Microsoft Excel, Regulatory Compliance, Risk Management, SOC 1, SOX, SQL
+
+── By Category ──
+  cloud_infra                    ['Azure']
+  database                       ['SQL']
+  dev_tool                       ['Code Reviews']
+  domain                         ['IT Ops']
+  finance_ops                    ['Audit Methodology', 'Auditing', 'ITAC', 'ITGC', 'SOX']
+  legal                          ['Regulatory Compliance']
+  productivity                   ['Microsoft Excel']
+  project_mgmt                   ['Change Management', 'Risk Management']
+  security_ops                   ['ISO 27001', 'Incident Response', 'SOC 1']
+  web_framework                  ['LinkedIn']

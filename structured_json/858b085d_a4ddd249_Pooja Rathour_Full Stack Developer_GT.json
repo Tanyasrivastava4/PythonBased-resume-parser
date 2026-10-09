@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "858b085d_a4ddd249_Pooja Rathour_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:30.999745+00:00",
+    "generated_at": "2026-10-07T09:27:10.333806+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,13 +48,19 @@
   "summary": "Solution-focused Full-Stack Web Developer with 5.5+ years of experience, including 2.8 years in a full-stack\nrole since March 2023. Previously worked in UI/UX design and front-end development (3.5 years). Skilled in\ndeveloping scalable and high-performance web applications using Angular, TypeScript, Node.js, and\nMongoDB. Experienced in implementing caching with Redis and asynchronous messaging with RabbitMQ for\noptimized backend performance and system reliability. Proficient in REST API development, Agile\nmethodology, and tools like GitLab, Postman, and BrowserStack. Committed to writing clean, maintainable\ncode and delivering seamless user experiences.",
   "skills": {
     "items": [
+      ".NET",
       "API Design",
       "Aggregations",
       "Agile",
       "Angular",
+      "Bootstrap",
       "CSS3",
       "Caching",
       "Content Marketing",
+      "Coroutines Flow",
+      "Cross-Browser Testing",
+      "Django",
+      "Docker",
       "ES6+",
       "Express.js",
       "Figma",
@@ -64,21 +70,31 @@
       "HTML5",
       "Instagram",
       "JavaScript",
+      "LinkedIn",
       "Manual Testing",
       "MongoDB",
       "MySQL",
       "Node.js",
+      "PHP",
       "Postman",
       "REST",
       "REST API",
       "RabbitMQ",
       "React",
       "Redis",
+      "Reliability",
       "TypeScript",
       "UX Design",
       "jQuery"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "ES6+",
+        "JavaScript",
+        "PHP",
+        "TypeScript"
+      ],
       "architecture": [
         "API Design",
         "Caching"
@@ -94,11 +110,14 @@
       ],
       "web_framework": [
         "Angular",
+        "Bootstrap",
         "CSS3",
+        "Django",
         "Express.js",
         "GraphQL",
         "HTML5",
         "Instagram",
+        "LinkedIn",
         "Node.js",
         "REST API",
         "React",
@@ -107,10 +126,14 @@
       "marketing": [
         "Content Marketing"
       ],
-      "programming_language": [
-        "ES6+",
-        "JavaScript",
-        "TypeScript"
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "security_ops": [
+        "Cross-Browser Testing"
+      ],
+      "devops": [
+        "Docker"
       ],
       "design": [
         "Figma",
@@ -129,6 +152,9 @@
       ],
       "data_engineering": [
         "RabbitMQ"
+      ],
+      "soft_skill": [
+        "Reliability"
       ]
     },
     "_confidence": 0.92,
@@ -137,29 +163,40 @@
   "experience": {
     "jobs": [
       {
-        "role": "(iTM",
-        "company": null,
+        "role": "Web Developer",
+        "company": "iTech Mission Private Limited",
         "location": null,
         "start": "March, 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
-        "duration_months": 43,
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Web Developer, iTech Mission Private Limited (iTM)"
+        ],
+        "duration_months": 44,
         "bullets": [
           "Developed and integrated data-driven dashboards using Angular and React for enhanced interactivity and user experience.",
-          "Implemented RabbitMQ-based asynchronous processing to generate and download user registration reports Optimized API performance by 30% using advanced MongoDB queries and basic Redis caching strategies."
+          "Built scalable backend APIs using Node.js, Expres.s, and MongoDB for efficient data storage and retrieval.",
+          "Implemented RabbitMQ-based asynchronous processing to generate and download user registration reports Optimized API performance by 30% using advanced MongoDB queries and basic Redis caching strategies.",
+          "Containerized the application using Docker for consistent development and deployment environments.",
+          "Used GitLab for version control and collaborative code management in a team environment.",
+          "Tested and validated APIs using Postman to ensure accuracy, performance, and reliability.",
+          "Integrated RESTful APIs with Angular and React front-ends, ensuring smooth and reliable data flow."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Designed and developed responsive web interfaces using HTML5, CSS3, Bootstrap, and JavaScript for",
         "company": "Cybernauts technologies private limited",
         "location": null,
         "start": "July 2022",
         "end": "February 2023",
         "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "Cybernauts technologies private limited"
+        ],
         "duration_months": 8,
         "bullets": [
           "Designed and developed responsive web interfaces using HTML5, CSS3, Bootstrap, and JavaScript for consistent cross-device performance.",
@@ -167,8 +204,8 @@
           "Applied mobile-first design principles with touch-friendly layouts and Bootstrap utilities to enhance user experience."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -178,6 +215,9 @@
         "start": "September 2016",
         "end": "April 2019",
         "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Junior Designer, ITH Technologies Pvt. Ltd."
+        ],
         "duration_months": 32,
         "bullets": [
           "Developed responsive, mobile-first applications using the Ionic framework with AngularJS and Angular (2, 4, 6), ensuring fast performance across platforms.",
@@ -193,11 +233,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.9,
-      "total_months": 83,
+      "total_years": 7.0,
+      "total_months": 84,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -278,20 +318,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.63,

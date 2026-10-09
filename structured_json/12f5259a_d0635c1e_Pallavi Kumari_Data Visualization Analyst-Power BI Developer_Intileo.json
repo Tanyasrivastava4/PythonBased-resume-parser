@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "12f5259a_d0635c1e_Pallavi Kumari_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:57.156921+00:00",
+    "generated_at": "2026-10-07T10:30:51.295588+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,13 +47,21 @@
   "summary": "Power BI Developer and Data Visualization Analyst with 6.5+ years of experience owning end-to-end data visualization\ninitiatives — from data modelling and advanced DAX development to dashboard design, AI-powered insights, and\nstakeholder reporting. Expert in transforming complex datasets into intuitive, high-performance dashboards with strong\nUX, including Power BI Mobile implementations. Deep proficiency in advanced DAX (time intelligence, complex\nmeasures, performance optimization), SQL (joins, CTEs, window functions, query tuning), and schema design. Proven\nability to investigate data discrepancies, identify root causes of quality issues, and collaborate cross-functionally to ensure\naccuracy and reliability. Experienced in leveraging Generative AI tools to automate insight generation, build AI narrative\nsummaries, and enhance analytical productivity. Familiar with Figma for dashboard wireframing and prototyping prior to\ndevelopment. Track record of serving 150+ business users, reducing report refresh time by 40%, and eliminating 60%+\nmanual effort across enterprise BI environments.",
   "skills": {
     "items": [
+      "Aggregations",
       "Azure",
+      "Azure ADF",
+      "Azure Data Lake",
+      "Azure Synapse Analytics",
+      "Business Intelligence",
       "CTE",
+      "Cohort Analysis",
       "Communication",
       "Cross-functional Collaboration",
       "DAX",
       "Dashboard Development",
       "Data Cleaning",
+      "Data Governance",
+      "Data Pipeline",
       "Data Storytelling",
       "Data Visualization",
       "Data Warehousing",
@@ -66,52 +74,69 @@
       "GPT",
       "Generative AI",
       "GitHub Copilot",
+      "Incremental Refresh",
+      "Indexing",
       "Joins",
+      "KPI",
       "KPI Design",
+      "Lakehouse Architecture",
       "Leadership",
       "MSSQL",
       "Matplotlib",
+      "Medallion Architecture",
       "Mentoring",
-      "Microsoft Azure Data Factory",
       "Microsoft Excel",
+      "Microsoft Fabric",
       "Microsoft Power Automate",
+      "Microsoft Teams",
       "MySQL",
       "NumPy",
       "Pandas",
+      "Performance Monitoring",
       "Performance Optimization",
       "PostgreSQL",
       "Power BI",
+      "Power BI Mobile",
+      "Power Pivot",
+      "Power Platform",
       "Power Query",
+      "Process Improvement",
       "Prompt Engineering",
       "Prototyping",
       "Python",
       "Query Optimization",
       "R",
+      "RBAC",
+      "Reliability",
+      "Report Writing",
       "Reporting",
-      "Role-Based Access Control",
       "Root Cause Analysis",
       "Row Level Security",
       "SQL",
-      "Scheme",
       "Seaborn",
       "SharePoint",
       "Snowflake",
+      "Stakeholder Management",
+      "Star Schema",
       "Statistical Analysis",
       "Stored Procedures",
-      "Synapse Analytics",
       "Tableau",
+      "Technical Writing",
+      "Time Intelligence",
+      "Time Series Forecasting",
       "Trend Analysis",
+      "Trend Forecasting",
+      "Turnaround Time",
+      "VBA",
+      "Variance Analysis",
       "Window Functions",
       "Wireframing"
     ],
     "by_category": {
-      "cloud_infra": [
-        "Azure",
-        "Microsoft Azure Data Factory",
-        "Synapse Analytics"
-      ],
       "database": [
+        "Aggregations",
         "CTE",
+        "Indexing",
         "Joins",
         "MSSQL",
         "MySQL",
@@ -119,18 +144,26 @@
         "Query Optimization",
         "SQL",
         "Snowflake",
+        "Star Schema",
         "Stored Procedures",
         "Window Functions"
       ],
-      "soft_skill": [
-        "Communication",
-        "Cross-functional Collaboration",
-        "Executive Presentations",
-        "Leadership",
-        "Mentoring",
-        "Reporting"
+      "cloud_infra": [
+        "Azure"
+      ],
+      "cloud": [
+        "Azure ADF",
+        "Azure Data Lake",
+        "Azure Synapse Analytics",
+        "Microsoft Fabric"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI",
+        "Variance Analysis"
       ],
       "data_science": [
+        "Cohort Analysis",
         "DAX",
         "Dashboard Development",
         "Data Storytelling",
@@ -142,13 +175,29 @@
         "Row Level Security",
         "Statistical Analysis",
         "Tableau",
-        "Trend Analysis"
+        "Trend Analysis",
+        "Trend Forecasting"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Cross-functional Collaboration",
+        "Executive Presentations",
+        "Leadership",
+        "Mentoring",
+        "Reliability",
+        "Reporting",
+        "Stakeholder Management"
       ],
       "data_engineering": [
         "Data Cleaning",
+        "Data Pipeline",
         "Data Warehousing",
         "Data Wrangling",
-        "ETL"
+        "ETL",
+        "Medallion Architecture"
+      ],
+      "data_management": [
+        "Data Governance"
       ],
       "design": [
         "Figma",
@@ -163,50 +212,77 @@
         "Matplotlib",
         "NumPy",
         "Pandas",
-        "Seaborn"
+        "Seaborn",
+        "Time Series Forecasting"
       ],
       "genai": [
         "Generative AI",
         "GitHub Copilot",
         "Prompt Engineering"
       ],
+      "analytics": [
+        "Incremental Refresh",
+        "Power BI Mobile",
+        "Power Pivot"
+      ],
+      "data engineering": [
+        "Lakehouse Architecture"
+      ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
       "rpa": [
         "Microsoft Power Automate"
       ],
+      "operations": [
+        "Performance Monitoring",
+        "Process Improvement",
+        "Root Cause Analysis"
+      ],
       "dev_tool": [
-        "Performance Optimization",
-        "Scheme"
+        "Performance Optimization"
+      ],
+      "low_code": [
+        "Power Platform"
       ],
       "programming_language": [
         "Python",
         "R"
       ],
-      "security_ops": [
-        "Role-Based Access Control"
+      "security": [
+        "RBAC"
       ],
-      "operations": [
-        "Root Cause Analysis"
+      "content": [
+        "Report Writing",
+        "Technical Writing"
       ],
       "integration": [
         "SharePoint"
+      ],
+      "bi_visualization": [
+        "Time Intelligence"
+      ],
+      "management": [
+        "Turnaround Time"
+      ],
+      "programming": [
+        "VBA"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Copilot→GitHub Copilot(100%), Dashboard Design→Dashboard Development(100%), Excel→Microsoft Excel(100%), CTEs→CTE(100%), Query Optimisation→Query Optimization(94%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Copilot→GitHub Copilot(100%), Dashboard Design→Dashboard Development(100%), Excel→Microsoft Excel(100%), CTEs→CTE(100%), Query Optimisation→Query Optimization(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Team Computers Pvt Ltd •",
+        "role": "Senior Data Analyst",
+        "company": "BI & Analytics",
         "location": null,
         "start": "Sep 2025",
         "end": "Present",
         "method": "date_regex+company_suffix_match",
-        "duration_months": 13,
+        "duration_months": 14,
         "bullets": [
           "Power BI Dashboard Development: Designed and delivered end-to-end Power BI dashboards and reports — including Power BI Mobile implementations — incorporating AI-powered smart narratives and automated summary generation, reducing manual analytical effort by ~25% and accelerating executive reporting turnaround.",
           "Data Quality & Dashboard UX: Investigated data discrepancies, anomalies, and inconsistencies across reports — identified root causes, collaborated with stakeholders to resolve data quality issues, and iteratively refined DAX logic and dashboard UX, cutting revision cycles by ~30%.",
@@ -223,15 +299,19 @@
         "source": "experience"
       },
       {
-        "role": "Data Analyst – Analytics & Business Intelligence AkzoNobel India Limited •",
-        "company": "Data Discrepancy Investigation: Systematically investigated data discrepancies, anomalies, and reporting inconsistencies across dashboards — identified root causes through statistical analysis and query validation, collaborating with stakeholders to resolve issues before full report rollout.",
+        "role": "Data Analyst – Analytics & Business Intelligence",
+        "company": "AkzoNobel India Limited •",
         "location": null,
         "start": "May 2022",
         "end": "Jul 2025",
-        "method": "date_regex+title_dash_company",
+        "method": "date_regex+title_dash_company+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Analyst – Analytics & Business Intelligence"
+        ],
         "duration_months": 39,
         "bullets": [
           "Sales Analytics & Forecasting: Developed Python-based analytical models for sales trend forecasting and performance tracking — delivering forward-looking insights to Finance and Sales Directors to enable proactive strategy adjustments.",
+          "Data Discrepancy Investigation: Systematically investigated data discrepancies, anomalies, and reporting inconsistencies across dashboards — identified root causes through statistical analysis and query validation, collaborating with stakeholders to resolve issues before full report rollout.",
           "Advanced SQL & Database Optimisation: Engineered complex SQL queries using CTEs, window functions, and stored procedures on Snowflake (20M+ records) — optimised query performance by 35–40% through indexing strategies, query plan analysis, and ongoing performance monitoring aligned with database administration best practices.",
           "Analytical Reporting & Documentation: Prepared analytical reports, insight summaries, and solution documentation — enriched with domain expertise and structured for senior leadership consumption, supporting data-driven decision-making across Finance and Sales functions.",
           "ETL Automation & Data Pipeline: Automated multi-step ETL workflows using Power Automate, ADF-style pipelines, and VBA macros — eliminating ~20 hrs/week of manual data processing (60% effort reduction), improving data freshness, and ensuring consistent data quality outputs.",
@@ -240,38 +320,42 @@
           "Cross-regional KPI Reporting: Delivered structured KPI dashboards enabling cross-regional sales visibility and performance tracking — directly informing distribution strategy decisions across APAC and EMEA regions."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Data Analyst HCL Technologies Ltd •",
-        "company": "Stakeholder Requirement Gathering: Led structured requirement workshops with global cross-functional stakeholders — translated ambiguous business needs into precise data specifications using user story and use- case documentation frameworks.",
+        "role": "Data Analyst",
+        "company": "HCL Technologies Ltd •",
         "location": null,
         "start": "Aug 2019",
         "end": "May 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Analyst"
+        ],
         "duration_months": 34,
         "bullets": [
           "Exploratory Data Analysis (EDA): Conducted comprehensive EDA using Python (Pandas, Matplotlib, Seaborn) and SQL to uncover patterns, outliers, and trends — forming the analytical foundation for client-facing dashboard and reporting solutions.",
           "Multi-domain BI Delivery: Developed interactive Power BI dashboards, Tableau reports, and Excel-based analytical models for enterprise clients across Finance, Retail, and Manufacturing domains.",
+          "Stakeholder Requirement Gathering: Led structured requirement workshops with global cross-functional stakeholders — translated ambiguous business needs into precise data specifications using user story and use- case documentation frameworks.",
           "Statistical Analysis & Reporting: Applied regression analysis, variance analysis, and cohort analysis techniques to produce statistically robust insights — improving decision confidence for client leadership teams.",
           "Power Platform Automation: Developed VBA-based automation solutions and Power Automate workflows to streamline data processing, automate recurring reporting tasks, and reduce manual intervention — improving accuracy, reducing turnaround time, and enhancing overall workflow efficiency.",
           "Process Improvement & Documentation: Standardised analytics processes and technical documentation across teams — built reusable templates, DAX libraries, and SQL snippet repositories to accelerate future delivery."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.1,
-      "total_months": 85,
+      "total_years": 7.2,
+      "total_months": 86,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.75
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -298,23 +382,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
       "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

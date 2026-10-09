@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bb31dbdd_Ashwani Kumar_CMO-Business Development Head_Radiant-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:10.215463+00:00",
+    "generated_at": "2026-10-07T09:28:02.708406+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,30 +46,40 @@
   "summary": "• Sales Visionary leadership\n• Every type of Industrial Automation Turn Key Solution Run the Complete\nPlant & Give solutions as per the Customer Requirements.\n• Analytical",
   "skills": {
     "items": [
-      "Adobe InDesign",
+      "Bill of Materials",
       "Brand Management",
       "Business Development",
       "Business Planning",
       "Business Strategy",
       "Communication",
+      "Coroutines Flow",
       "Cost Analysis",
-      "Elasticsearch",
+      "HR Administration",
+      "Indexing",
+      "Joint Venture",
       "Leadership",
+      "LinkedIn",
+      "Microsoft Edge",
       "Microsoft Visio",
+      "NAT",
       "Negotiation",
       "Operations Management",
+      "Performance Management",
       "Process Improvement",
       "Product Design",
       "Project Management",
+      "Quality Assurance",
       "RFQ",
       "Resource Planning",
       "Risk Management",
+      "Room Database",
       "SCADA",
-      "Stakeholder Management"
+      "Stakeholder Management",
+      "TypeScript"
     ],
     "by_category": {
-      "design": [
-        "Adobe InDesign"
+      "manufacturing": [
+        "Bill of Materials"
       ],
       "marketing": [
         "Brand Management"
@@ -87,18 +97,40 @@
         "Negotiation",
         "Stakeholder Management"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "finance_ops": [
         "Cost Analysis"
       ],
-      "search": [
-        "Elasticsearch"
+      "hr_recruitment": [
+        "HR Administration"
+      ],
+      "database": [
+        "Indexing",
+        "Room Database"
+      ],
+      "business_analysis": [
+        "Joint Venture",
+        "RFQ"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "dev_tool": [
+        "Microsoft Edge",
         "Microsoft Visio"
+      ],
+      "networking": [
+        "NAT"
       ],
       "operations": [
         "Operations Management",
-        "Process Improvement"
+        "Process Improvement",
+        "Quality Assurance"
+      ],
+      "hr": [
+        "Performance Management"
       ],
       "engineering": [
         "Product Design"
@@ -108,26 +140,29 @@
         "Resource Planning",
         "Risk Management"
       ],
-      "business_analysis": [
-        "RFQ"
-      ],
       "engineering_hardware": [
         "SCADA"
+      ],
+      "programming_language": [
+        "TypeScript"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Risk management→Risk Management(100%), communicator→Communication(88%), negotiation skills→Negotiation(100%), Plastic→Elasticsearch(86%), Vision→Microsoft Visio(91%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Risk management→Risk Management(100%), communicator→Communication(88%), negotiation skills→Negotiation(100%), Vision→Microsoft Visio(91%), Scada→SCADA(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "BD & Marketing Director",
-        "company": "Ambesten Robotic & Automation India Pvt.Ltd",
+        "company": "Ambesten Robotic & Automation India Pvt.Ltd. in Faridabad",
         "location": null,
         "start": "Jan’24",
         "end": "Present",
-        "method": "date_regex+with_as_split",
-        "duration_months": 33,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "EMPLOYMENT DETAILS"
+        ],
+        "duration_months": 34,
         "bullets": [
           "Company Dealing in all Type of Line Building with customised tun key solution, - Automobile, Electronic, Agriculture ,Electronics , Food & Parma , Life Science , Earth Movers , Heavy Truck , Bus & Railways Industry’s – OEM’s / T-1 Company’s) Domestic & Export Customer.",
           "New customers & New Business (Above 125 Customer of NCR) Handling for increase the organization business & turnover (Automobile & Non-Automobile).(Haryana / Punjab / UP / UK/Himachal/Rajasthan / Gujrat/ Maharashtra)",
@@ -152,33 +187,36 @@
           "Monitoring RFQ submission to customer of all type of BIW sheet metal, plastic, electronic, chemical, food & pharma, agriculture, heavy earth movers , mobile , plywood , furniture industry."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Overall",
-        "company": "Weiss Automation Pvt.Ltd",
+        "role": "Overall North India Business Sales & Solution Head For Customized Solutions",
+        "company": "Weiss Automation Pvt.Ltd. German MNC Company Based in Pune",
         "location": null,
         "start": "July 2021",
         "end": "Jan 2024",
-        "method": "date_regex+with_as_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "PREVIOUS WORK EXPERIENCE"
+        ],
         "duration_months": 31,
         "bullets": [
           "North India Business Sales & Solution Head For Customized Solutions - (Weiss Automation is MNC Based 55 Years (From 1967) Company Dealing in all motion type products with customised solution, In NCR They Providing all Solution with or without our products range - Automobile, Electronic, Agriculture ,Electronics , Food & Parma , Life Science , Earth Movers , Heavy Truck , Bus & Railways Industry’s – OEM’s / T-1 Company’s)"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "General Manager of New",
+        "role": "General Manager of New Sales & Development Head",
         "company": "Vertex Automation System Pvt Ltd. Greater Noida",
         "location": null,
         "start": "Sep 2017",
         "end": "Mar 2021",
-        "method": "date_regex+with_as_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 43,
         "bullets": [],
         "sub_sections": [],
@@ -187,12 +225,15 @@
         "source": "experience"
       },
       {
-        "role": "Dept Head of Weld",
+        "role": "Dept Head of Weld Engineering Department",
         "company": "H-One India Pvt. Ltd., Greater Noida + Tapukara",
         "location": null,
         "start": "June 2014",
         "end": "Dec 2016",
-        "method": "date_regex+with_as_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Sales & Development Head (A Automation Solution Provider)."
+        ],
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
@@ -206,7 +247,10 @@
         "location": "Gurgoan",
         "start": "Feb 2007",
         "end": "May 2014",
-        "method": "date_regex+with_as_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Engineering Department (A Joint Venture of HCIL.& HMSIL)"
+        ],
         "duration_months": 88,
         "bullets": [],
         "sub_sections": [],
@@ -215,12 +259,15 @@
         "source": "experience"
       },
       {
-        "role": "Certified Company) as Executive - Design & Development Department (A Joint Venture of Maruti Suzuki India Ltd",
-        "company": "Department   with Mark Auto Industries Ltd",
-        "location": "Gurgaon (TS-16949",
+        "role": "Executive - Design & Development Department",
+        "company": "Mark Auto Industries Ltd",
+        "location": null,
         "start": "Oct 2002",
         "end": "Jan 2007",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Department (A Joint Venture of Maruti Suzuki India Ltd.)"
+        ],
         "duration_months": 52,
         "bullets": [
           "4 Week Training of Project Management & Leadership Skill Development at JBM Group in 2010.",
@@ -241,20 +288,20 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 23.1,
-      "total_months": 277,
+      "total_years": 23.2,
+      "total_months": 278,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.89
+    "_confidence": 0.79
   },
   "education": {
     "entries": [
       {
-        "degree": "Mechanical Engineering in (Product Development & Design) from Govt. Polytechnic of Ghandi Vidya Mandir, Sardarshahr (Board of",
+        "degree": "Mechanical Engineering in (Product Development & Design)",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Ghandi Vidya Mandir",
-        "institution": "Govt. of Ghandi Vidya Mandir Sardarshahr (Board of Institute of Advanced Studies Education) with",
+        "institution": "Govt. of Ghandi Vidya Mandir Sardarshahr (Board of Institute of Advanced Studies Education)",
         "year": "2002",
         "gpa": "75%",
         "_needs_review": false,
@@ -272,10 +319,20 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.7,

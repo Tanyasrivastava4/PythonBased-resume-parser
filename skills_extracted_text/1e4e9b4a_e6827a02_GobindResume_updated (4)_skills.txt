@@ -1,0 +1,44 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/1e4e9b4a_e6827a02_GobindResume_updated (4)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Backend Application Development
+• RESTful API Design & Integration
+• Data Structures & Algorithmic Thinking
+• Realtime Monitoring & IoT Data Flow Concepts
+• Embedded C Fundamentals & Sensor Interfacing Concepts
+• Python for Data Processing & AI Integration
+• Database Design (MySQL, MongoDB, Firebase)
+• Git, GitHub, VS Code, Linux Environment
+TECHNICAL SKILLS
+• Programming Languages: JavaScript (ES6+), TypeScript, Java, Python
+• Frontend: React.js, Next.js, HTML5, CSS3, Responsive Web Design, Component-Based Architecture, SPA Development
+• CSS Frameworks & UI Libraries:Material UI (MUI), Bootstrap, Tailwind CSS, Ant Design (AntD)
+• Backend & APIs: RESTful APIs, API Integration, JSON, Java (J2EE), Python, Node.js, Express.js, Backend Development
+• Databases: MySQL, MongoDB
+• Tools & Platforms: Git, GitHub, VS Code, Linux,, Agile Methodology, SDLC
+• Core Concepts: Data Structures & Algorithms, OOP, Asynchronous Programming, State Management, Real-Time Data Processing
+
+── Extraction Results ──
+Skills found   : 34
+Confidence     : 0.92
+Time           : 351.86 ms
+Method         : flashtext_skills_section | fuzzy(AI Integration→API Design(97%), API Integration→API Design(100%), Agile Methodology→Agile(100%), React.js→React(100%), RESTful APIs→REST(100%)...)
+
+── All Skills (34) ──
+API Design, Agile, Bootstrap, CSS3, Communication, Data Management, ES6+, Express.js, Firebase, Git, GitHub, HTML5, J2EE, JSON, Java, JavaScript, LinkedIn, Linux, Material UI, MongoDB, MySQL, Next.js, Node.js, Python, REST, REST API, React, Responsive Web Design, SDLC, Tailwind CSS, Technical Writing, TypeScript, UI Design, VS Code
+
+── By Category ──
+  architecture                   ['API Design', 'SDLC']
+  content                        ['Technical Writing']
+  database                       ['Firebase', 'MongoDB', 'MySQL']
+  design                         ['UI Design']
+  dev_tool                       ['Git', 'GitHub', 'VS Code']
+  integration                    ['REST']
+  os_system                      ['Linux']
+  productivity                   ['Data Management']
+  programming_language           ['ES6+', 'J2EE', 'Java', 'JavaScript', 'Python', 'TypeScript']
+  project_mgmt                   ['Agile']
+  soft_skill                     ['Communication']
+  web_framework                  ['Bootstrap', 'CSS3', 'Express.js', 'HTML5', 'JSON', 'LinkedIn', 'Material UI', 'Next.js', 'Node.js', 'REST API', 'React', 'Responsive Web Design', 'Tailwind CSS']

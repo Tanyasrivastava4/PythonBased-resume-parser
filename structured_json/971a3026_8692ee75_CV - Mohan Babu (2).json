@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "971a3026_8692ee75_CV - Mohan Babu (2)_segmented.txt",
-    "generated_at": "2026-09-30T06:59:47.240613+00:00",
+    "generated_at": "2026-10-07T09:27:31.744981+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,7 +49,10 @@
     "items": [
       "Analyze",
       "Communication",
+      "Corporate Governance",
       "Express.js",
+      "Home Loans",
+      "Loan Against Property",
       "Market Research",
       "PyTorch",
       "Sales Management"
@@ -61,8 +64,15 @@
       "soft_skill": [
         "Communication"
       ],
+      "legal": [
+        "Corporate Governance"
+      ],
       "web_framework": [
         "Express.js"
+      ],
+      "banking": [
+        "Home Loans",
+        "Loan Against Property"
       ],
       "marketing": [
         "Market Research"
@@ -75,76 +85,24 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
-        "role": "HEAD",
+        "role": "SALES MANAGER",
         "company": "Loans & LAP",
         "location": "RBL Bank",
         "start": "Jan’24",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 33,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "MANAGER",
-        "company": "To pursue a challenging",
-        "location": null,
-        "start": "Aug ’22",
-        "end": "Jan’24",
-        "method": "date_regex+title_dict",
-        "duration_months": 18,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Sales &",
-        "company": "Mktg, Lancor Holdings Ltd",
-        "location": "career in management",
-        "start": "Dec ’21",
-        "end": "Apr ‘22",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 5,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "VICE PRESIDENT",
-        "company": "Home Loans",
-        "location": "",
-        "start": "Apr ’21",
-        "end": "Oct ‘21",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 7,
-        "bullets": [
-          "as well as myself."
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "REGIONAL",
+          "SALES MANAGER",
+          "Prime Home",
+          "Loans & LAP, RBL Bank"
         ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "HEAD SALES",
-        "company": "Mortgages",
-        "location": "ICICI Bank",
-        "start": "Nov ’16",
-        "end": "Apr ‘21",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 54,
+        "duration_months": 34,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -153,12 +111,15 @@
       },
       {
         "role": null,
-        "company": "American Express",
-        "location": "challenges",
-        "start": "Mar ’06",
-        "end": "Jan ’08",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 23,
+        "company": "Finance",
+        "location": null,
+        "start": "Aug ’22",
+        "end": "Jan’24",
+        "method": "date_regex",
+        "pre_date_header": [
+          "Finance"
+        ],
+        "duration_months": 18,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -166,12 +127,88 @@
         "source": "experience"
       },
       {
-        "role": "MANAGER | Highly motivated",
-        "company": "Mortgages, ABN AMRO",
-        "location": "self-starter",
+        "role": "To pursue a challenging",
+        "company": "GENERAL",
+        "location": null,
+        "start": "Dec ’21",
+        "end": "Apr ‘22",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "To pursue a challenging",
+          "GENERAL",
+          "MANAGER",
+          "Sales &",
+          "Mktg, Lancor Holdings Ltd., career in management,"
+        ],
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "well as myself",
+        "company": "Axis Bank",
+        "location": null,
+        "start": "Apr ’21",
+        "end": "Oct ‘21",
+        "method": "date_regex",
+        "duration_months": 7,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "HEAD SALES",
+        "company": "Mortgages",
+        "location": "",
+        "start": "Nov ’16",
+        "end": "Apr ‘21",
+        "method": "date_regex+title_dict+comma_company_location",
+        "pre_date_header": [
+          "REGIONAL",
+          "HEAD SALES",
+          "Mortgages,"
+        ],
+        "duration_months": 54,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "American",
+        "company": "Express",
+        "location": "challenges",
+        "start": "Mar ’06",
+        "end": "Jan ’08",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "American"
+        ],
+        "duration_months": 23,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "MANAGER",
+        "company": "Highly motivated",
+        "location": "",
         "start": "Feb ’04",
         "end": "Mar ’06",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "RELATIONSHIP",
+          "MANAGER | Highly motivated,",
+          "Mortgages,"
+        ],
         "duration_months": 26,
         "bullets": [],
         "sub_sections": [],
@@ -181,11 +218,16 @@
       },
       {
         "role": "SALES OFFICER",
-        "company": "Home Loan, HSBC",
+        "company": "HSBC",
         "location": "Positive attitude",
         "start": "Feb ’03",
         "end": "Feb ’04",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "SALES OFFICER",
+          "| Positive attitude,",
+          "Home Loan,"
+        ],
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
@@ -194,12 +236,18 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "LTD",
+        "role": "SALES MANAGER",
+        "company": "JAIN HOUSING &",
         "location": null,
         "start": "Jul 2000",
         "end": "Feb ’03",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "SALES MANAGER,",
+          "JAIN HOUSING &",
+          "CONSTRUCTIONS",
+          "LTD"
+        ],
         "duration_months": 32,
         "bullets": [
           "To ensure MOM business targets are achieved through various channels.",
@@ -207,15 +255,18 @@
           "Train, motivate and monitor the performance of the team Implement MIS to analyze and improve on the performance Market analysis to understand the market opportunities Ensure and check that policies, process and standards are being implemented"
         ],
         "sub_sections": [
-          "Developing inter-personnel relationships within the organization"
+          "Developing inter-personnel relationships within the organization",
+          "Enhancing customer, channel, builder satisfaction & retaining their loyalty",
+          "KEY ACHIE VEM ENT S",
+          "All time high disbursal in PHL - OMT, Chennai, RBL Bank - July 2024."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": null,
-        "company": "All time high disbursal in PHL - OMT, Chennai, RBL Bank - July 2024. Pan India 2nd in ETRG Mortgage Disbursement",
+        "company": "Pan India 2nd in ETRG Mortgage Disbursement",
         "location": "ICICI",
         "start": "April ’20",
         "end": "Mar ‘21",
@@ -240,15 +291,15 @@
     "early_career": [],
     "total_experience": {
       "total_years": 17.2,
-      "total_months": 206,
+      "total_months": 207,
       "overlapping_periods_merged": 6
     },
-    "_confidence": 0.91
+    "_confidence": 0.92
   },
   "education": {
     "entries": [
       {
-        "degree": "Post graduate diploma in Sales and Marketing from Small Industries Service",
+        "degree": "Post graduate diploma in Sales and Marketing",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Sales and Marketing from Small Industries Service",
@@ -259,7 +310,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "Higher diploma in software engineering from Aptech Computer Education, June",
+        "degree": "Higher diploma in software engineering",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "software engineering from Aptech Computer Education",
@@ -297,12 +348,7 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[5]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[8]",
+      "field": "experience.jobs[1]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

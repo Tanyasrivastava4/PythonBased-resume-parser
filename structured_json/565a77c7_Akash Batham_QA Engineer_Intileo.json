@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "565a77c7_Akash Batham_QA Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:42.008277+00:00",
+    "generated_at": "2026-10-07T10:31:46.071420+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -63,7 +63,6 @@
       "Inventory Management",
       "Leadership",
       "LinkedIn",
-      "Make",
       "Mentoring",
       "Microsoft Teams",
       "Playwright",
@@ -122,9 +121,6 @@
       "web_framework": [
         "LinkedIn"
       ],
-      "rpa": [
-        "Make"
-      ],
       "productivity": [
         "Microsoft Teams"
       ],
@@ -141,17 +137,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Quality Analyst",
-        "company": "Softprodigy System Solutions",
+        "role": "Softprodigy System Solutions",
+        "company": "Senior Quality Analyst",
         "location": null,
         "start": "12/2023",
         "end": "Current",
-        "method": "date_regex+dash_split",
-        "duration_months": 34,
+        "method": "date_regex",
+        "duration_months": 35,
         "bullets": [
           "Playwright with typescript",
           "Managed multiple projects simultaneously from creating test documents to",
-          "Team leadership",
           "API testing assigning projects to team members.",
           "Continuous integration",
           "Facilitated active client communication to ensure alignment with project",
@@ -160,18 +155,18 @@
           "Utilized AI tools such as Cursor AI and Antigravity AI to improve testing accuracy"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.8,
-      "total_months": 34,
+      "total_years": 2.9,
+      "total_months": 35,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.85
   },
   "education": {
     "entries": [
@@ -198,8 +193,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.88
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

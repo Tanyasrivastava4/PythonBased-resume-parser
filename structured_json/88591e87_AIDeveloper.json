@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "88591e87_AIDeveloper_segmented.txt",
-    "generated_at": "2026-09-30T06:59:33.389988+00:00",
+    "generated_at": "2026-10-07T09:27:13.464011+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -58,6 +58,7 @@
       "Cursor",
       "Docker",
       "ElevenLabs",
+      "Embeddings",
       "Express.js",
       "FastAPI",
       "GCP",
@@ -76,25 +77,36 @@
       "LangChain",
       "LangGraph",
       "LinkedIn",
+      "Linux",
       "LlamaIndex",
       "MCP Server",
       "Make",
       "MiniMax",
       "MongoDB",
       "MySQL",
+      "Neo4j",
+      "Nginx",
       "Node.js",
+      "OAuth 2.0",
       "Ollama",
+      "Payments",
+      "Pinecone",
       "Prompt Engineering",
+      "Proxy",
       "Python",
       "RAG",
+      "REST",
       "React",
       "Redis",
+      "Reliability",
       "Supabase",
       "TypeScript",
+      "Ubuntu",
       "UltraRAG",
       "Vector Databases",
       "Vercel",
       "Zapier",
+      "Zoho Books",
       "n8n"
     ],
     "by_category": {
@@ -137,7 +149,12 @@
         "GitHub"
       ],
       "devops": [
-        "Docker"
+        "Docker",
+        "Nginx"
+      ],
+      "ai_ml": [
+        "Embeddings",
+        "GPT"
       ],
       "web_framework": [
         "Express.js",
@@ -146,14 +163,12 @@
         "Node.js",
         "React"
       ],
-      "ai_ml": [
-        "GPT"
-      ],
       "database": [
         "Google",
         "GraphDB",
         "MongoDB",
         "MySQL",
+        "Neo4j",
         "Redis",
         "Supabase"
       ],
@@ -162,10 +177,35 @@
         "Python",
         "TypeScript"
       ],
+      "os_system": [
+        "Linux",
+        "Ubuntu"
+      ],
       "rpa": [
         "Make",
         "Zapier",
         "n8n"
+      ],
+      "security": [
+        "OAuth 2.0"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "search": [
+        "Pinecone"
+      ],
+      "security_ops": [
+        "Proxy"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "soft_skill": [
+        "Reliability"
+      ],
+      "finance_ops": [
+        "Zoho Books"
       ]
     },
     "_confidence": 0.92,
@@ -176,11 +216,14 @@
       {
         "role": "Associate AI Engineer",
         "company": "1to10X",
-        "location": "Associate AI Engineer",
+        "location": null,
         "start": "MAY’25",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 17,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "1to10X – Associate AI Engineer"
+        ],
+        "duration_months": 18,
         "bullets": [
           "Developed and lead end-to-end RAG pipelines, including data ingestion, embeddings, retrieval logic, and response generation.",
           "Built and maintained Graph-based RAG solutions by organizing data as entities and relationships for improved retrieval accuracy.",
@@ -198,10 +241,13 @@
       {
         "role": "AI Developer",
         "company": "Robot Wallah",
-        "location": "AI Developer",
+        "location": null,
         "start": "SEP’24",
         "end": "APRIL’25",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Robot Wallah – AI Developer"
+        ],
         "duration_months": 8,
         "bullets": [
           "Developed and deployed AI agents using LangChain and LangGraph for automation and decision workflows.",
@@ -217,10 +263,13 @@
       {
         "role": "Full Stack Developer",
         "company": "Webjini Technologies",
-        "location": "Full Stack Developer",
+        "location": null,
         "start": "MAR’24",
         "end": "SEP’24",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Webjini Technologies – Full Stack Developer"
+        ],
         "duration_months": 7,
         "bullets": [
           "Revamped an Ed-Tech platform by integrating interactive course catalogs, secure user authentication, and seamless payment processing, resulting in 100+ successful transactions in the first month.",
@@ -242,8 +291,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.6,
-      "total_months": 31,
+      "total_years": 2.7,
+      "total_months": 32,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

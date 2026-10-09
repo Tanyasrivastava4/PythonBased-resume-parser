@@ -1,0 +1,73 @@
+======================================================================
+FILE: 12f5259a_d0635c1e_Pallavi Kumari_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior Data Analyst – BI & Analytics
+
+Team Computers Pvt Ltd • Sep 2025 – Present
+▸ Power BI Dashboard Development: Designed and delivered end-to-end Power BI dashboards and reports —
+including Power BI Mobile implementations — incorporating AI-powered smart narratives and automated summary
+generati...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 7.2 years (86 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Data Analyst
+  Company      : BI & Analytics
+  Location     : None
+  Start - End  : Sep 2025 - Present
+  Duration     : 14 months
+  Bullets      : 8
+    • Power BI Dashboard Development: Designed and delivered end-to-end Power BI dashboards and reports — including Power BI Mobile implementations — incorporating AI-powered smart narratives and automated summary generation, reducing manual analytical effort by ~25% and accelerating executive reporting turnaround.
+    • Data Quality & Dashboard UX: Investigated data discrepancies, anomalies, and inconsistencies across reports — identified root causes, collaborated with stakeholders to resolve data quality issues, and iteratively refined DAX logic and dashboard UX, cutting revision cycles by ~30%.
+    • Advanced Data Modelling: Architected Star Schema and composite data models on 15M+ row datasets supporting 150+ business users — applying Medallion architecture (Bronze/Silver/Gold) for scalable, governed data layers with robust data quality checks and validation controls.
+    • Figma & Dashboard Prototyping: Created dashboard wireframes and design prototypes using Figma to align UI/UX with business stakeholders before development — collaborated with Finance and Operations leadership to define and implement KPI frameworks, enabling self-serve analytics across business units.
+    • Performance Optimisation: Applied incremental refresh, query folding, aggregation tables, and DAX best practices — reducing report refresh time by 40% and improving dashboard responsiveness by 35%.
+    • ETL & Pipeline Management: Designed and maintained end-to-end data pipelines with gateway configuration, deployment pipelines, and scheduled refresh — ensuring data accuracy, integrity, and 99%+ pipeline reliability.
+    • AI Narrative Insights: Developed AI-based narrative summaries and insight generation using Generative AI tools (Copilot, ChatGPT) — helping business users interpret dashboard outputs effectively and enabling C-suite and Director-level stakeholders to act on data-driven findings.
+    • Documentation & Governance: Documented data logic, metric definitions, assumptions, and transformation rules across all reporting solutions — establishing analytics standards and governance frameworks to ensure transparency, consistency, and team delivery quality.
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Data Analyst – Analytics & Business Intelligence
+  Company      : AkzoNobel India Limited •
+  Location     : None
+  Start - End  : May 2022 - Jul 2025
+  Duration     : 39 months
+  Bullets      : 8
+    • Sales Analytics & Forecasting: Developed Python-based analytical models for sales trend forecasting and performance tracking — delivering forward-looking insights to Finance and Sales Directors to enable proactive strategy adjustments.
+    • Data Discrepancy Investigation: Systematically investigated data discrepancies, anomalies, and reporting inconsistencies across dashboards — identified root causes through statistical analysis and query validation, collaborating with stakeholders to resolve issues before full report rollout.
+    • Advanced SQL & Database Optimisation: Engineered complex SQL queries using CTEs, window functions, and stored procedures on Snowflake (20M+ records) — optimised query performance by 35–40% through indexing strategies, query plan analysis, and ongoing performance monitoring aligned with database administration best practices.
+    • Analytical Reporting & Documentation: Prepared analytical reports, insight summaries, and solution documentation — enriched with domain expertise and structured for senior leadership consumption, supporting data-driven decision-making across Finance and Sales functions.
+    • ETL Automation & Data Pipeline: Automated multi-step ETL workflows using Power Automate, ADF-style pipelines, and VBA macros — eliminating ~20 hrs/week of manual data processing (60% effort reduction), improving data freshness, and ensuring consistent data quality outputs.
+    • Data Quality & Governance: Implemented data quality checks, validation rules, and metadata management practices — alongside RLS and RBAC controls ensuring compliant, auditable data delivery aligned with GDPR- aware design.
+    • Report Performance & Scalability: Designed and continuously evaluated Power BI environments for performance, usability, and scalability — deploying governed data models, certified datasets, and RLS to enable 100+ non- technical users to independently access trusted, accurate data.
+    • Cross-regional KPI Reporting: Delivered structured KPI dashboards enabling cross-regional sales visibility and performance tracking — directly informing distribution strategy decisions across APAC and EMEA regions.
+  Method       : date_regex+title_dash_company+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Data Analyst
+  Company      : HCL Technologies Ltd •
+  Location     : None
+  Start - End  : Aug 2019 - May 2022
+  Duration     : 34 months
+  Bullets      : 6
+    • Exploratory Data Analysis (EDA): Conducted comprehensive EDA using Python (Pandas, Matplotlib, Seaborn) and SQL to uncover patterns, outliers, and trends — forming the analytical foundation for client-facing dashboard and reporting solutions.
+    • Multi-domain BI Delivery: Developed interactive Power BI dashboards, Tableau reports, and Excel-based analytical models for enterprise clients across Finance, Retail, and Manufacturing domains.
+    • Stakeholder Requirement Gathering: Led structured requirement workshops with global cross-functional stakeholders — translated ambiguous business needs into precise data specifications using user story and use- case documentation frameworks.
+    • Statistical Analysis & Reporting: Applied regression analysis, variance analysis, and cohort analysis techniques to produce statistically robust insights — improving decision confidence for client leadership teams.
+    • Power Platform Automation: Developed VBA-based automation solutions and Power Automate workflows to streamline data processing, automate recurring reporting tasks, and reduce manual intervention — improving accuracy, reducing turnaround time, and enhancing overall workflow efficiency.
+    • Process Improvement & Documentation: Standardised analytics processes and technical documentation across teams — built reusable templates, DAX libraries, and SQL snippet repositories to accelerate future delivery.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

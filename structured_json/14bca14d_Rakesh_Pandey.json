@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "14bca14d_Rakesh_Pandey_segmented.txt",
-    "generated_at": "2026-09-30T06:57:58.245585+00:00",
+    "generated_at": "2026-10-07T10:30:52.551992+00:00",
     "sections_found": [
       "certifications",
       "experience",
@@ -49,10 +49,16 @@
       ".NET",
       "Active Directory",
       "AnyDesk",
+      "Asset Management",
       "Azure",
+      "Communication",
+      "Coroutines Flow",
       "Cortex",
+      "Customer Service",
       "Cyberoam",
       "DHCP",
+      "DKIM",
+      "DMARC",
       "DNS",
       "Ethernet",
       "Exchange Server",
@@ -60,27 +66,42 @@
       "Firewall",
       "Fortinet",
       "Group Policy",
+      "IT Infrastructure Management",
+      "Identity Management",
+      "LAN",
       "Linux",
       "MPLS",
       "Mac OS",
       "McAfee",
+      "Microsoft Outlook",
       "Microsoft Teams",
       "Microsoft Windows",
       "Microsoft Windows Server",
+      "Multifactor Authentication",
       "Network Attached Storage",
+      "Networking",
+      "OSI Model",
       "Office 365",
+      "OneDrive",
       "PRI",
+      "Project Management",
       "RDP",
+      "Remote Diagnostics",
       "SAN",
       "SCCM",
       "SIP",
+      "SPF",
       "SentinelOne",
+      "SharePoint",
       "Skype",
       "Symantec",
+      "TCP/IP",
       "TeamViewer",
-      "VMware",
+      "VMware vSphere",
       "VPN",
+      "WAN",
       "WebEx",
+      "Work Instructions",
       "Zoom"
     ],
     "by_category": {
@@ -96,35 +117,57 @@
         "AnyDesk",
         "TeamViewer"
       ],
+      "sysadmin": [
+        "Asset Management",
+        "Exchange Server",
+        "Group Policy",
+        "Remote Diagnostics",
+        "SCCM"
+      ],
       "cloud_infra": [
         "Azure",
-        "Microsoft Windows Server",
-        "VMware"
+        "Microsoft Windows Server"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "security": [
         "Cortex",
         "Cyberoam",
+        "DKIM",
+        "DMARC",
         "Fortinet",
+        "Identity Management",
         "McAfee",
+        "Multifactor Authentication",
+        "SPF",
         "SentinelOne",
         "Symantec"
+      ],
+      "client_mgmt": [
+        "Customer Service"
       ],
       "networking": [
         "DHCP",
         "DNS",
         "Ethernet",
+        "LAN",
         "MPLS",
+        "OSI Model",
         "PRI",
         "RDP",
-        "SIP"
-      ],
-      "sysadmin": [
-        "Exchange Server",
-        "Group Policy",
-        "SCCM"
+        "SIP",
+        "TCP/IP",
+        "WAN"
       ],
       "web_framework": [
         "Fiber"
+      ],
+      "it_ops": [
+        "IT Infrastructure Management"
       ],
       "os_system": [
         "Linux",
@@ -134,6 +177,7 @@
         "Mac OS"
       ],
       "productivity": [
+        "Microsoft Outlook",
         "Microsoft Teams",
         "Zoom"
       ],
@@ -141,12 +185,28 @@
         "Network Attached Storage",
         "SAN"
       ],
+      "biz_dev": [
+        "Networking"
+      ],
       "integration": [
-        "Office 365"
+        "Office 365",
+        "SharePoint"
+      ],
+      "cloud": [
+        "OneDrive"
+      ],
+      "project_mgmt": [
+        "Project Management"
       ],
       "collaboration": [
         "Skype",
         "WebEx"
+      ],
+      "virtualization": [
+        "VMware vSphere"
+      ],
+      "quality": [
+        "Work Instructions"
       ]
     },
     "_confidence": 0.92,
@@ -155,13 +215,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "system administrator (Embassy Development Ltd Formerly Known as Indiabulls Real Estate Ltd",
-        "company": "Current responsibilities",
+        "role": "",
+        "company": "Sr. system administrator (Embassy Development Ltd Formerly Known as Indiabulls Real Estate Ltd",
         "location": null,
         "start": "July 2016",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 123,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Sr. system administrator (Embassy Development Ltd Formerly Known as Indiabulls Real Estate Ltd)"
+        ],
+        "duration_months": 124,
         "bullets": [
           "Handling and managing IT infrastructure of 200 users across Multiple locations",
           "Administration of Microsoft O365 workloads (Exchange Online, SharePoint, OneDrive for Business)",
@@ -179,19 +242,24 @@
           "Working on Asset management and ticketing tools"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.55,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "(Incedo Inc",
-        "company": null,
+        "role": "",
+        "company": "System administrator (Incedo Inc",
         "location": null,
         "start": "April 2006",
         "end": "June 2016",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "System administrator (Incedo Inc)"
+        ],
         "duration_months": 123,
-        "bullets": [],
+        "bullets": [
+          "Providing IT infrastructure support in corporate office and Remote Support to branch office"
+        ],
         "sub_sections": [],
         "confidence": 0.85,
         "needs_review": true,
@@ -199,13 +267,14 @@
       },
       {
         "role": null,
-        "company": "Good knowledge on networking concepts including OSI Models, TCP/IP, DNS, DHCP etc",
-        "location": "2016",
+        "company": "Installing, Configuring and Hardening of Windows Server",
+        "location": null,
         "start": "2008",
         "end": "2012",
         "method": "date_regex",
         "duration_months": 49,
         "bullets": [
+          "Good knowledge on networking concepts including OSI Models, TCP/IP, DNS, DHCP etc",
           "Active directory administration on DHCP, DNS, Users & Group policy",
           "Configured security, group policies and Trust-relationship",
           "Worked on System center configuration Manager SCCM 2012",
@@ -225,7 +294,10 @@
         "location": null,
         "start": "February 2005",
         "end": "March 2006",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Customer Support Engineer (Redington India Ltd)"
+        ],
         "duration_months": 14,
         "bullets": [
           "Installing, Configuring & troubleshooting problems of Back-office software and other Financial Application software (Odin, Neat, Bolt, trade anywhere etc."
@@ -241,7 +313,10 @@
         "location": null,
         "start": "June 2002",
         "end": "February 2005",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Customer Support Engineer (HCL Infosystems Ltd)"
+        ],
         "duration_months": 33,
         "bullets": [
           "Implemented LAN - WAN Projects for ONGC Client through structured cabling and fiber optics",
@@ -255,16 +330,16 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 24.3,
-      "total_months": 292,
+      "total_years": 24.4,
+      "total_months": 293,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.76
+    "_confidence": 0.67
   },
   "education": {
     "entries": [
       {
-        "degree": "Three years Full time Diploma in E&T, from K.V.P.Polytechnic, Maharashtra States in 1997",
+        "degree": "Three years Full time Diploma in E&T",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "E&T",
@@ -286,7 +361,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "Secondary School Certificate from S.M.K School in 1990",
+        "degree": "Secondary School Certificate",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
@@ -372,10 +447,20 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience",
+      "confidence": 0.67,
+      "reason": "low_confidence"
+    },
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.55,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "experience.jobs[1]",
       "confidence": 0.85,

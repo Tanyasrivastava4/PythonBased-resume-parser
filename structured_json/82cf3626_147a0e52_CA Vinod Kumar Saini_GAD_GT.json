@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "82cf3626_147a0e52_CA Vinod Kumar Saini_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:27.591366+00:00",
+    "generated_at": "2026-10-07T09:27:06.092802+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,19 +45,93 @@
   "summary": null,
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
+      "Analytical Review",
+      "Audit Methodology",
+      "Bank Audit",
+      "CARO 2020",
+      "CARO Reporting",
+      "CompuOffice",
+      "Financial Reporting",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "IFRS",
+      "Income Tax Return",
+      "Ind AS 116",
+      "Input Tax Credit",
+      "Internal Financial Controls",
+      "Legal Compliance",
       "LinkedIn",
       "MS Office",
-      "Microsoft Dynamics",
+      "Microsoft Dynamics AX",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
-      "Tally"
+      "Payroll Administration",
+      "Physical Verification",
+      "Reporting",
+      "SA 520",
+      "Standards on Auditing",
+      "Statutory Audit",
+      "TDS",
+      "TDS Return Filing",
+      "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Tests of Controls",
+      "Vouching",
+      "Vulnerability Remediation"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "Ind AS 116",
+        "Input Tax Credit",
+        "Standards on Auditing",
+        "TDS Return Filing",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
-        "Tally"
+        "Audit Methodology",
+        "Financial Reporting",
+        "IFRS",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "CompuOffice",
+        "Physical Verification",
+        "SA 520",
+        "Tests of Controls"
+      ],
+      "finance": [
+        "Bank Audit",
+        "CARO Reporting",
+        "GST Return Filing",
+        "Income Tax Return",
+        "Internal Financial Controls",
+        "Vouching"
+      ],
+      "compliance": [
+        "CARO 2020"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B",
+        "TDS"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "web_framework": [
         "LinkedIn"
@@ -66,37 +140,51 @@
         "MS Office",
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
-      "crm": [
-        "Microsoft Dynamics"
+      "erp_systems": [
+        "Microsoft Dynamics AX"
+      ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%), Tally ERP9→Tally(95%))"
+    "_method": "flashtext_skills_section | fuzzy(MS Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), PowerPoint→Microsoft PowerPoint(100%), Tally ERP9→Tally ERP 9(95%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Secured 95% in Economics",
+        "role": "Secured 95% in Economics",
+        "company": "methodology and quality standards. confirmations for debtors and bank audit planning, scope assessment and risk expenses, payroll, and inventory.",
         "location": null,
         "start": "APR 2025",
         "end": "AUG 2025",
-        "method": "date_regex",
-        "duration_months": 5,
-        "bullets": [
-          "methodology and quality standards. confirmations for debtors and bank audit planning, scope assessment and risk expenses, payroll, and inventory."
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Secured 95% in Economics"
         ],
-        "sub_sections": [],
-        "confidence": 0.85,
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [
+          "III, ensuring accurate reporting and",
+          "documentation and regulatory compliance."
+        ],
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "entries",
-        "location": "reconciliations",
+        "role": "LOUIS DREYFUS COMPANY",
+        "company": "SENIOR ANALYST",
+        "location": "GURUGRAM",
         "start": "OCT 2024",
         "end": "FEB 2025",
         "method": "date_regex+comma_company_location",
@@ -108,23 +196,9 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "accuracy and reducing unreconciled",
-        "location": null,
-        "start": "JAN 2022",
-        "end": "APR 2024",
-        "method": "date_regex",
-        "duration_months": 28,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "of financial transactions to ensure accuracy",
-        "location": "",
+        "role": "GOPITA GUPTA & CO",
+        "company": "AUDIT ASSOCIATE (SEMI CA)",
+        "location": "JAIPUR",
         "start": "AUG 2017",
         "end": "OCT 2020",
         "method": "date_regex+comma_company_location",
@@ -140,11 +214,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.4,
-      "total_months": 77,
+      "total_years": 4.1,
+      "total_months": 49,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.8
   },
   "education": {
     "entries": [
@@ -154,8 +228,8 @@
         "degree_type": "professional_certification",
         "degree_field": null,
         "institution": "ICAI",
-        "year": "2017",
-        "gpa": "56.00%",
+        "year": "2024",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -166,7 +240,7 @@
         "degree_field": null,
         "institution": null,
         "year": "2014",
-        "gpa": "52.89%",
+        "gpa": "56.00%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -204,13 +278,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
@@ -220,11 +294,6 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

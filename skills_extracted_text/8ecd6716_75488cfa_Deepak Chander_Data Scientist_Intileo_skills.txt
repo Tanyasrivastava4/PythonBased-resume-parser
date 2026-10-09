@@ -1,0 +1,46 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/8ecd6716_75488cfa_Deepak Chander_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+AI & LLM System: LangChain,
+Agentic AI, MCP, Prompt Engineering & Tool Calling, OpenAI / Gemini APIs,
+Autonomous Agents
+Automation & Integration:
+n8n, Zapier, make, Webhooks, API Orchestration, Workflow Automation
+Backend & APIs: Python,
+Django, REST APIs, FASTAPI, OAuth 2.0, JWT Authentication
+Cloud & DevOps: AWS
+EC2, AWS S3, Linux (Ubuntu), Nginx
+Databases: MySQL, Supabase,
+Mongo DB
+Hardware & IoT (Secondary):Arduino,
+ESP Boards, Raspberry Pi, Sensors & Actuators
+Institute of Management
+
+── Extraction Results ──
+Skills found   : 35
+Confidence     : 0.92
+Time           : 301.48 ms
+Method         : flashtext_skills_section | fuzzy(OpenAI→OpenAI API(100%), make→Make(100%), REST APIs→REST API(100%), FASTAPI→FastAPI(100%), OAuth 2.0→OAuth2(100%)...)
+
+── All Skills (35) ──
+AWS, AWS EC2, AWS S3, Agentic AI, Communication, DevOps, Django, FastAPI, Gemini, GitHub, JWT, LLM, LangChain, LinkedIn, Linux, MCP Server, Make, MongoDB, MySQL, Nginx, OAuth2, OpenAI API, Operations Management, Prompt Engineering, Proxy, Python, REST, REST API, Raspberry Pi, Route, Supabase, System Design, Ubuntu, Zapier, n8n
+
+── By Category ──
+  architecture                   ['System Design']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3', 'Route']
+  database                       ['MongoDB', 'MySQL', 'Supabase']
+  dev_tool                       ['GitHub']
+  devops                         ['DevOps', 'Nginx']
+  embedded_systems               ['Raspberry Pi']
+  genai                          ['Agentic AI', 'Gemini', 'LLM', 'LangChain', 'MCP Server', 'OpenAI API', 'Prompt Engineering']
+  integration                    ['REST']
+  operations                     ['Operations Management']
+  os_system                      ['Linux', 'Ubuntu']
+  programming_language           ['Python']
+  rpa                            ['Make', 'Zapier', 'n8n']
+  security                       ['JWT', 'OAuth2']
+  security_ops                   ['Proxy']
+  soft_skill                     ['Communication']
+  web_framework                  ['Django', 'FastAPI', 'LinkedIn', 'REST API']

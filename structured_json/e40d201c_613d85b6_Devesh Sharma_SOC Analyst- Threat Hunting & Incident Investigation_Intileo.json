@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e40d201c_613d85b6_Devesh Sharma_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:36.248256+00:00",
+    "generated_at": "2026-10-07T09:28:36.106701+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -57,19 +57,24 @@
       "Google Chronicle",
       "Incident Management",
       "KQL",
+      "Legal Compliance",
+      "LinkedIn",
       "MITRE ATT&CK",
       "Microsoft Azure Sentinel",
       "Microsoft Defender",
       "Microsoft Sentinel",
+      "Microsoft Teams",
       "Network Security",
       "Office 365",
       "PostgreSQL",
-      "Regulatory Compliance",
+      "SC-200",
       "SIEM",
       "SOAR",
       "SOC Operations",
       "Security Operations Center",
-      "Threat Hunting"
+      "Threat Hunting",
+      "Threat Intelligence",
+      "Vulnerability Remediation"
     ],
     "by_category": {
       "security_ops": [
@@ -86,7 +91,8 @@
         "SIEM",
         "SOAR",
         "Security Operations Center",
-        "Threat Hunting"
+        "Threat Hunting",
+        "Threat Intelligence"
       ],
       "cloud_infra": [
         "Azure",
@@ -96,34 +102,47 @@
         "Incident Management",
         "SOC Operations"
       ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "integration": [
         "Office 365"
       ],
       "database": [
         "PostgreSQL"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "certification": [
+        "SC-200"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Defender→Microsoft Defender(100%), Google Chronicle SIEM→Google Chronicle(95%), firewalls→Firewall(100%), Sentinel→Microsoft Sentinel(100%), incident response→Incident Management(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Defender→Microsoft Defender(100%), SC-900→SC-200(83%), Google Chronicle SIEM→Google Chronicle(95%), firewalls→Firewall(100%), Sentinel→Microsoft Sentinel(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "cloud security services for multiple global clients, threats.",
+        "role": "Gurugram, Haryana",
+        "company": "cloud security services for multiple global clients",
         "location": "Haryana",
         "start": "Oct 2021",
         "end": "Present",
         "method": "date_regex+comma_company_location",
-        "duration_months": 60,
+        "duration_months": 61,
         "bullets": [
+          "cloud security services for multiple global clients, threats.",
           "Proven ability to strengthen security across diverse cloud environments. responses, collaborating with the Incident/Change Microsoft 365 Defender tools (MDE, MDI, O365 developed KQL-based detection rules aligned with executing remediation actions and ensuring regulatory to strengthen threat detection capabilities. configurations, adding log sources, developing Hunting teams to enhance client security posture. ────────────────────────────────────────────────────────────"
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
@@ -145,11 +164,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.0,
-      "total_months": 120,
+      "total_years": 10.1,
+      "total_months": 121,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.73
+    "_confidence": 0.8
   },
   "education": {
     "entries": [
@@ -223,18 +242,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience",
-      "confidence": 0.73,
-      "reason": "low_confidence"
-    },
-    {
       "field": "experience.jobs[0]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

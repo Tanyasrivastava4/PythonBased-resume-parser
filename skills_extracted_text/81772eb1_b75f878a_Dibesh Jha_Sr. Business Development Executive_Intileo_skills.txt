@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/81772eb1_b75f878a_Dibesh Jha_Sr. Business Development Executive_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Sales & Business Development
+• Merchant Acquisition & Retention
+• Cold Calling & Lead Generation
+• Product Demonstration
+• CRM Tools (SAP CRM)
+• Communication & Negotiation
+• Time Management
+
+── Extraction Results ──
+Skills found   : 18
+Confidence     : 0.92
+Time           : 109.79 ms
+Method         : flashtext_skills_section | fuzzy(telecom→Telecom(100%), fintech→Fintech(100%), field sales→Outside Sales(100%))
+
+── All Skills (18) ──
+Business Development, CRM Tools, Client Relationship Management, Cold Calling, Communication, Fiber, Fintech, Lead Generation, Negotiation, Networking, Onboarding, Outside Sales, Reporting, Revenue Generation, SAP, Spring, Telecom, Time Management
+
+── By Category ──
+  biz_dev                        ['Business Development', 'Networking']
+  client_mgmt                    ['Client Relationship Management']
+  domain                         ['Fintech', 'Telecom']
+  hr                             ['Onboarding']
+  integration                    ['SAP']
+  sales                          ['CRM Tools', 'Cold Calling', 'Lead Generation', 'Outside Sales', 'Revenue Generation']
+  soft_skill                     ['Communication', 'Negotiation', 'Reporting', 'Time Management']
+  web_framework                  ['Fiber', 'Spring']

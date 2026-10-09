@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4faf18f4_f6b04455_ILAMPARITHI SIVAJI -RESUME_segmented.txt",
-    "generated_at": "2026-09-30T06:58:38.806134+00:00",
+    "generated_at": "2026-10-07T10:31:41.849973+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -54,9 +54,12 @@
       "DSA Channel",
       "Dialer Management",
       "General Insurance",
+      "Home Loans",
       "Lead Generation",
       "Leadership",
       "Life Insurance",
+      "Loan Against Property",
+      "Manpower Planning",
       "Negotiation",
       "Outbound Sales",
       "Performance Management",
@@ -64,6 +67,7 @@
       "Problem Solving",
       "REACH",
       "Recruitment",
+      "Reliability",
       "Reporting"
     ],
     "by_category": {
@@ -79,6 +83,7 @@
         "Leadership",
         "Negotiation",
         "Problem Solving",
+        "Reliability",
         "Reporting"
       ],
       "support": [
@@ -96,7 +101,12 @@
         "General Insurance",
         "Life Insurance"
       ],
+      "banking": [
+        "Home Loans",
+        "Loan Against Property"
+      ],
       "hr": [
+        "Manpower Planning",
         "Performance Management",
         "Recruitment"
       ],
@@ -110,13 +120,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "Head-Assisted Channel",
-        "company": "Unknown",
-        "location": "Designation",
+        "role": "Designation | Head-Assisted Channel",
+        "company": "Unknown Emp Code : 10",
+        "location": null,
         "start": "1998",
         "end": "Present",
-        "method": "single_date_regex+pipe_split",
-        "duration_months": 345,
+        "method": "single_date_regex+subfield_label_company+multiline_dash_split",
+        "duration_months": 346,
         "bullets": [
           "Manage a team of 5 Agency Managers, 14 Team leads, 400+ Callers in addition to training team related to the process.",
           "Operating out of 6 agencies spread across geographical spread and an Inhouse team.",
@@ -126,7 +136,7 @@
           "Reviewing MIS on Business target actuals as agreed by the agency on run rate DTD & MTD.",
           "Increasing customer volume inflow by running various campaigns (IVR, SMS,",
           "Ensuring Dialer metrics are maintained and monitored on regular basis.",
-          "Over see the P&L of CFU -Automated, AI-bot Calling channel and Assisted Channel. ORGANIZATION: ANDROMEDA SALES & DISTRIBUTION PVT LTD."
+          "Over see the P&L of CFU -Automated, AI-bot Calling channel and Assisted"
         ],
         "sub_sections": [
           "Email)"
@@ -136,12 +146,19 @@
         "source": "experience"
       },
       {
-        "role": "Business Head- DSA Channel",
-        "company": "Unknown",
-        "location": "Designation",
+        "role": "Designation | Business Head- DSA Channel",
+        "company": "Unknown Emp Code : 4031001841",
+        "location": null,
         "start": "Dec 2021",
         "end": "March 2024",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+subfield_label_company+multiline_dash_split",
+        "pre_date_header": [
+          "Channel.",
+          "ORGANIZATION: ANDROMEDA SALES & DISTRIBUTION PVT LTD.",
+          "Unknown - Designation | Business Head- DSA Channel",
+          "Emp Code : 4031001841",
+          "Period"
+        ],
         "duration_months": 28,
         "bullets": [
           "Manage a team of 30 Plus DSA Partners.",
@@ -154,27 +171,32 @@
           "Expanded the Business Operation to Muli Locations -Trichy, Chennai and"
         ],
         "sub_sections": [
-          "Bangalore",
-          "ORGANIZATION: HDFC BANK LTD."
+          "Bangalore"
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Have Received the BEST SALES MANAGER AWARD -auto loan sales",
-        "company": "Unknown",
-        "location": "Designation",
+        "role": "Unknown - Designation | Senior Manager- Unified outbound sales",
+        "company": "Emp ID : I0725",
+        "location": null,
         "start": "March 2014",
         "end": "April 2021",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+subfield_label_company+multiline_dash_split",
+        "pre_date_header": [
+          "ORGANIZATION: HDFC BANK LTD.",
+          "Unknown - Designation | Senior Manager- Unified outbound sales",
+          "Emp ID : I0725",
+          "Period"
+        ],
         "duration_months": 86,
         "bullets": [
           "Manning a team of 4 managers, 80 Tse’s and 20 FSE’s.",
           "Special focus on retails Loans (Auto loan and Personal loan -TN & KL)",
           "Ensuring sales targets are met which covers Auto loans, Credit Cards, Personal Loans, Two wheeler Loan and Home loans, consumer durable, general insurance and life insurance.",
           "Over all 18 products selling process.",
-          "Ensuring sales targets are met which covers Auto loans, Credit Cards, Personal Loans, Two wheeler Loan and Home loans, consumer durable, general insurance and life insurance. Regular interaction with auto loan dealers for incremental business. Involved in manpower planning and recruitment & performance reviews of my team & providing feedback on areas of improvements. Coordinating with channel partners like Bank Bazzar & Policy Bazzar for lead generation and monitoring the leads received from channel partners. Performance reviews of my team & providing feedback on areas of improvements on weekly and monthly basis. Helping the managers to drive for their incremental business through referrals and cross sell products. Coordinating with the Credit team for better approval rates and keeping the rejection rate below 40% Monthly review with the channel partners to ensure sufficient numbers of leads are generated and business targets being met through them. Coordinating with channel partners like Bank Bazaar & Policy Bazaar for lead generation and monitoring the leads received from channel partners. Improved the channel growth through driving the leaders towards the bank vision Frequently traveled Cochin and set the kerala team to deliver the productivity in automotive mode. Maintained very good relationship with dealers and business partners which increased the new car loans business, Created new bench mark in Productivity."
+          "Ensuring sales targets are met which covers Auto loans, Credit Cards, Personal Loans, Two wheeler Loan and Home loans, consumer durable, general insurance and life insurance. Regular interaction with auto loan dealers for incremental business. Involved in manpower planning and recruitment & performance reviews of my team & providing feedback on areas of improvements. Coordinating with channel partners like Bank Bazzar & Policy Bazzar for lead generation and monitoring the leads received from channel partners. Performance reviews of my team & providing feedback on areas of improvements on weekly and monthly basis. Helping the managers to drive for their incremental business through referrals and cross sell products. Coordinating with the Credit team for better approval rates and keeping the rejection rate below 40% Monthly review with the channel partners to ensure sufficient numbers of leads are generated and business targets being met through them. Coordinating with channel partners like Bank Bazaar & Policy Bazaar for lead generation and monitoring the leads received from channel partners. Improved the channel growth through driving the leaders towards the bank vision Frequently traveled Cochin and set the kerala team to deliver the productivity in automotive mode. Maintained very good relationship with dealers and business partners which increased the new car loans business, Created new bench mark in Productivity. ACHEIVEMENTS:"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -182,9 +204,9 @@
         "source": "experience"
       },
       {
-        "role": "ACHEIVEMENTS: Have Received BEST BUSINESS HEAD AWARD in DUBAI –FY",
-        "company": "Unknown",
-        "location": "Designation",
+        "role": "Have Received BEST BUSINESS HEAD AWARD in DUBAI –FY",
+        "company": "Emp ID : I0725",
+        "location": null,
         "start": "2022",
         "end": "2023",
         "method": "date_regex+date_prefix_title+inherited_company",
@@ -210,43 +232,47 @@
         "source": "experience"
       },
       {
-        "role": "Have Received the BEST SALES MANAGERAWARD  for outstanding",
-        "company": "performance",
-        "location": "FY",
+        "role": "Unknown",
+        "company": "Designation | Head-Assisted Channel",
+        "location": null,
         "start": "2017",
         "end": "2018",
-        "method": "year_range_short_regex+title_dict",
+        "method": "year_range_short_regex+multiline_company_above_role",
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Have Received the BEST SALES MANAGER AWARD  for highest",
-        "company": "business units – FY",
+        "role": "Unknown",
+        "company": "Designation | Business Head- DSA Channel",
         "location": null,
         "start": "2016",
         "end": "2017",
-        "method": "year_range_short_regex+title_dict",
+        "method": "year_range_short_regex+multiline_company_above_role",
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Unknown - Designation | Assistant Manager- Operations",
-        "company": "RELIABLE BUSINESS SOLUTIONS PVT LTD",
-        "location": null,
+        "company": "Manning a team of 6 Team Leaders & 60 Agents.",
+        "location": "",
         "start": "Aug 2012",
         "end": "Jan 2014",
-        "method": "date_regex+subfield_label_company+title_dict",
+        "method": "date_regex+subfield_label_company+multiline_dash_split",
+        "pre_date_header": [
+          "ORGANIZATION: RELIABLE BUSINESS SOLUTIONS PVT LTD.",
+          "Unknown - Designation | Assistant Manager- Operations",
+          "Period"
+        ],
         "duration_months": 18,
         "bullets": [
-          "Manning a team of 6 Team Leaders & 60 Agents.",
           "Database Management – assigning data, ensuring CSM gets approval from the builder to post their projects.",
           "Handled three processes - (Indian health organization, World vision and icici credit cards).",
           "Have set the new process into a standard process.",
@@ -255,38 +281,46 @@
           "Have achieved assigned target on both billing and performance month on month.",
           "Preparing various weekly/monthly reports pertaining to process and productivity."
         ],
-        "sub_sections": [
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Sr. Team Leader",
+        "company": "SERCO BPO PVT LTD",
+        "location": null,
+        "start": "Aug 2010",
+        "end": "July 2012",
+        "method": "date_regex+subfield_label_company+subfield_label_role",
+        "pre_date_header": [
           "ORGANIZATION: SERCO BPO PVT LTD",
-          "Unknown - Designation | Sr. Team Leader."
+          "Designation : Sr. Team Leader.",
+          "Period"
         ],
+        "duration_months": 24,
+        "bullets": [
+          "Handled RSA (Royal sundaram health insurance) sales 2 TL'S with 18 Agents.",
+          "Maintained good attrition control and outstanding performance.",
+          "Ranked among the Top 5 Pan India Leaders."
+        ],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Maintained good attrition control and outstanding performance.",
-        "location": "",
-        "start": "Aug 2010",
-        "end": "July 2012",
-        "method": "date_regex",
-        "duration_months": 24,
-        "bullets": [
-          "Handled RSA (Royal sundaram health insurance) sales 2 TL'S with 18 Agents.",
-          "Ranked among the Top 5 Pan India Leaders."
-        ],
-        "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
+        "role": "Team Leader",
         "company": "ICICI LOMBARD GENERAL INSURANCE COMPANY",
         "location": null,
         "start": "Feb 2007",
         "end": "July 2010",
-        "method": "date_regex+subfield_label_company",
+        "method": "date_regex+subfield_label_company+subfield_label_role",
+        "pre_date_header": [
+          "ORGANIZATION: ICICI LOMBARD GENERAL INSURANCE COMPANY",
+          "Designation : Team Leader",
+          "Period"
+        ],
         "duration_months": 42,
         "bullets": [
           "Handled Icici Lombard general insurance sales with 20 TSO's (Tele sales officers)",
@@ -294,15 +328,15 @@
           "Telesales officers had become pan India top -5 ranker holders under self leadership"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 28.8,
-      "total_months": 345,
+      "total_months": 346,
       "overlapping_periods_merged": 9
     },
     "_confidence": 0.91
@@ -326,8 +360,8 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "P.A.A. School",
-        "year": "2000",
-        "gpa": "68%",
+        "year": "2002",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -337,8 +371,8 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "P.A.A.Hsc School",
-        "year": "2002",
-        "gpa": "70%",
+        "year": "2000",
+        "gpa": "68%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -349,7 +383,7 @@
         "degree_field": "ECE",
         "institution": "ECE S.A.Eng College",
         "year": "2006",
-        "gpa": "78%",
+        "gpa": "70%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -375,13 +409,18 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[8]",
-      "confidence": 0.55,
+      "field": "experience.jobs[5]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[9]",
+      "field": "experience.jobs[6]",
       "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[7]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

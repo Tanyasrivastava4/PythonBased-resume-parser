@@ -2,7 +2,7 @@
 FILE: 84e13902_8776de2e_Jasveer Singh_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'languages', 'strengths']
-Overall conf.  : 0.86
+Overall conf.  : 0.85
 Needs review   : True
 
 CONTACT
@@ -14,17 +14,17 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (36) — confidence 0.92
+SKILLS (42) — confidence 0.92
 ----------------------------------------------------------------------
-CCNA, CEH, Communication, Creativity, Cross-functional Collaboration, CrowdStrike, Desktop Support, Elasticsearch, Endpoint Security, Firewall, IDS/IPS, IT Security, Incident Management, Linux, Log Analysis, MITRE ATT&CK, Malware Analysis, Microsoft Defender, Microsoft Network Monitor, Microsoft Sentinel, Microsoft Teams, Microsoft Windows, Nessus, Network Security, Network Troubleshooting, Office 365, Phishing, SIEM, SIEM Monitoring, SOC Operations, Standard Operating Procedures, Technical Support, Threat Hunting, Threat Intelligence, VPN, Vulnerability Management
+CCNA, CEH, Communication, Correlation Rules, Creativity, Cross-functional Collaboration, CrowdStrike, Desktop Support, Elasticsearch, Endpoint Security, Firewall, IDS/IPS, IT Security, Incident Management, Linux, Log Analysis, MITRE ATT&CK, Malware Analysis, Microsoft Defender, Microsoft Network Monitor, Microsoft Sentinel, Microsoft Teams, Microsoft Windows, Nessus, Network Security, Network Troubleshooting, Office 365, Phishing, Reliability, SC-200, SIEM, SIEM Monitoring, SOC Operations, Seceon, Standard Operating Procedures, Technical Support, Threat Hunting, Threat Intelligence, VPN, Vulnerability Management, Vulnerability Remediation, Wazuh
 
-EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.86
+EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.83
 Total experience: 15.8 years (189 months, 1 overlaps merged)
 ----------------------------------------------------------------------
   1. Desktop and Network Support Engineer-Comet Innovation Pvt Ltd @ Provided desktop support and network troubleshooting for clients. (Jan 2018 - Dec 2020) [conf 0.7, review=True]
-  2. Network Engineer @ GKC Management Pvt Ltd (Jan 2020 - Jul 2020) [conf 0.98, review=False]
-  3. None @ including Seceon (Apr 2022 - Present) [conf 0.85, review=True]
-  4. None @ security tools to enhance (Jan 2021 - Mar 2022) [conf 0.85, review=True]
+  2. Network Engineer-GKC Management Pvt Ltd @ Assisted in implementing network solutions to ensure compliance with security protocols. (Jan 2020 - Jul 2020) [conf 0.7, review=True]
+  3. Development Correlation Rule @ including Seceon, Wazuh (Apr 2022 - Present) [conf 0.98, review=False]
+  4. None @ attempts (Jan 2021 - Mar 2022) [conf 0.85, review=True]
   5. 0 Month @ Unknown company (None - None) [conf 0.9, review=False]
 
 EDUCATION (1) — confidence 0.95
@@ -40,7 +40,7 @@ CERTIFICATIONS (3) — confidence 0.6
 REVIEW QUEUE (7 flagged fields)
 ----------------------------------------------------------------------
   experience.jobs[0]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
   experience.jobs[3]                  conf=0.85  reason=incomplete_fields
   certifications                      conf=0.6  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields

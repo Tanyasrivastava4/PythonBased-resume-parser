@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/5e8bfae5_f94c526c_Pratham Kumar_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Frameworks: Python, NumPy, Pandas, PyTorch, TensorFlow, Keras, scikit-learn, Neural Networks
+(CNN/RNN/Transformers)
+Domain: Fintech, Generative AI (GenAI), MLOps, Automation workflows, Predictive Analytics, Research
+Data: SQL, Data Cleaning, Preprocessing, EDA, Feature Engineering, Model Evaluation, Visualization
+Tools & Platforms: Jupyter Notebook, Git, Docker, N8N, AWS, Jira, PySpark
+
+── Extraction Results ──
+Skills found   : 44
+Confidence     : 0.92
+Time           : 111.44 ms
+Method         : flashtext_skills_section | fuzzy(Neural Networks→ANN(100%), GenAI→Generative AI(100%), Preprocessing→Data Preprocessing(100%))
+
+── All Skills (44) ──
+ANN, AWS, BERT, CNN, Data Analysis, Data Cleaning, Data Preprocessing, Docker, Exploratory Data Analysis, FAISS, FastAPI, Fintech, Flask, Generative AI, Git, Hyperparameter Tuning, Jira, Jupyter, Keras, LLM, LangChain, LightGBM, MLOps, Machine Learning, Microsoft Teams, NER, NLP, NumPy, Pandas, Predictive Analytics, Prompt Engineering, PySpark, PyTorch, Python, RAG, RNN, SQL, Semantic Search, TensorFlow, Transformers, XGBoost, n8n, scikit-learn, spaCy
+
+── By Category ──
+  ai_ml                          ['ANN', 'BERT', 'CNN', 'Keras', 'LightGBM', 'Machine Learning', 'NER', 'NLP', 'NumPy', 'Pandas', 'PyTorch', 'RNN', 'TensorFlow', 'XGBoost', 'scikit-learn']
+  cloud_infra                    ['AWS']
+  data_engineering               ['Data Cleaning', 'Data Preprocessing']
+  data_science                   ['Data Analysis', 'Exploratory Data Analysis', 'Hyperparameter Tuning', 'Predictive Analytics', 'Transformers']
+  database                       ['PySpark', 'SQL']
+  dev_tool                       ['Git', 'Jupyter']
+  devops                         ['Docker']
+  domain                         ['Fintech']
+  genai                          ['Generative AI', 'LLM', 'LangChain', 'MLOps', 'Prompt Engineering', 'RAG', 'Semantic Search']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['Python', 'spaCy']
+  project_mgmt                   ['Jira']
+  rpa                            ['n8n']
+  search                         ['FAISS']
+  web_framework                  ['FastAPI', 'Flask']

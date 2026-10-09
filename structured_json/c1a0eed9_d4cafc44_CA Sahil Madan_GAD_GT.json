@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c1a0eed9_d4cafc44_CA Sahil Madan_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:16.416027+00:00",
+    "generated_at": "2026-10-07T09:28:10.656719+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,40 +48,86 @@
   "summary": "https://www.linkedin.com/in/ca-\nsahilmadan",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
+      "Accounting Standards",
       "Audit Software",
       "Auditing",
       "Computax",
+      "Cross-functional Collaboration",
       "Data Management",
       "Email Marketing",
+      "Finalization of Financial Statements",
+      "Financial Reporting",
+      "Fixed Assets Management",
       "GPT",
       "GitHub Copilot",
-      "Ind AS",
+      "Income Tax Return",
+      "Ind AS 115",
+      "Internal Financial Controls",
       "Leadership",
+      "Liaison & Coordination",
       "LinkedIn",
       "Microsoft Excel",
+      "Microsoft Teams",
+      "Physical Verification",
       "Python",
       "Recruitment",
+      "Reliability",
+      "Standards on Auditing",
+      "Statutory Audit",
       "Tally",
-      "VLOOKUP"
+      "Tally ERP 9",
+      "Taxation",
+      "Telecom",
+      "Test of Details",
+      "Tests of Controls",
+      "Typing",
+      "VLOOKUP",
+      "Variance Analysis",
+      "Vouching"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Accounting Standards",
+        "Ind AS 115",
+        "Standards on Auditing",
+        "Tally ERP 9"
+      ],
       "finance_ops": [
         "Accounting",
         "Audit Software",
         "Auditing",
-        "Tally"
+        "Financial Reporting",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
       ],
       "office": [
         "Computax",
         "VLOOKUP"
       ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Liaison & Coordination",
+        "Reliability"
+      ],
       "productivity": [
         "Data Management",
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams",
+        "Typing"
       ],
       "marketing": [
         "Email Marketing"
+      ],
+      "accounting": [
+        "Finalization of Financial Statements",
+        "Fixed Assets Management",
+        "Physical Verification",
+        "Tests of Controls"
       ],
       "ai_ml": [
         "GPT"
@@ -90,10 +136,10 @@
         "GitHub Copilot"
       ],
       "finance": [
-        "Ind AS"
-      ],
-      "soft_skill": [
-        "Leadership"
+        "Income Tax Return",
+        "Internal Financial Controls",
+        "Test of Details",
+        "Vouching"
       ],
       "web_framework": [
         "LinkedIn"
@@ -103,10 +149,16 @@
       ],
       "hr": [
         "Recruitment"
+      ],
+      "domain": [
+        "Telecom"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Copilot→GitHub Copilot(100%), Excel→Microsoft Excel(100%), ChatGPT→GPT(100%), Hiking→Recruitment(83%))"
+    "_method": "flashtext_skills_section | fuzzy(Copilot→GitHub Copilot(100%), Tally→Tally(100%), typing→Typing(100%), Excel→Microsoft Excel(100%), Alison→Liaison & Coordination(83%)...)"
   },
   "experience": {
     "jobs": [
@@ -116,8 +168,11 @@
         "location": null,
         "start": "Dec 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 46,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Audit Associate"
+        ],
+        "duration_months": 47,
         "bullets": [],
         "sub_sections": [
           "Network)",
@@ -144,7 +199,10 @@
         "location": null,
         "start": "Jan 2022",
         "end": "Sep 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Audit Assistant"
+        ],
         "duration_months": 9,
         "bullets": [
           "Oversaw personalized tax planning and corporate finance services & filing of ITR-1, ITR-2, ITR-3, ITR-4 including 44AD, 44ADA, and 44AE for individuals and SMEs."
@@ -156,11 +214,14 @@
       },
       {
         "role": "Audit Assistant",
-        "company": "M/s SSR Associates & M/s Vibha Patni Associates",
+        "company": "prime locations having 7+ partners and serving 500+ clients providing plethora of services for more than last in diverse areas ranging",
         "location": null,
         "start": "Jul 2016",
         "end": "Oct 2019",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Audit Assistant"
+        ],
         "duration_months": 40,
         "bullets": [],
         "sub_sections": [
@@ -195,8 +256,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.9,
-      "total_months": 95,
+      "total_years": 8.0,
+      "total_months": 96,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.79
@@ -212,14 +273,14 @@
         "year": "2025",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "MCOM",
         "degree_name": "M.Com",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "Present Indira Gandhi National Open University Delhi",
+        "institution": "Indira Gandhi National Open University Delhi",
         "year": "2022",
         "gpa": null,
         "_needs_review": false,
@@ -237,7 +298,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [
@@ -364,7 +425,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [

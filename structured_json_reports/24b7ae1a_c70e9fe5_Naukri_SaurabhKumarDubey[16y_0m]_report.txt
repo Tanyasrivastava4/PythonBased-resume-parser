@@ -2,7 +2,7 @@
 FILE: 24b7ae1a_c70e9fe5_Naukri_SaurabhKumarDubey[16y_0m]_segmented.txt
 ======================================================================
 Sections found : ['declaration', 'education', 'experience', 'header', 'personal_details', 'roles_responsibilities', 'skills']
-Overall conf.  : 0.89
+Overall conf.  : 0.87
 Needs review   : True
 
 CONTACT
@@ -14,16 +14,21 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (7) — confidence 0.92
+SKILLS (48) — confidence 0.92
 ----------------------------------------------------------------------
-Collaboration, Communication, Mentoring, Microsoft Teams, Problem Solving, Project Management, Team Leadership
+Azure, Azure Migration, BGP, Cisco ASR, Cisco ISE, Cisco Nexus, Cisco Prime, Communication, DMVPN, DRA, F5 BIG-IP, FRR, FTTX, Firewall, Fortinet, HP NNMi, HPSM, HSRP, IPSec, IS-IS, Infoblox, L2VPN, L3VPN, LTE, Leadership, MPLS, Mentoring, Microsoft Teams, NAT, Network Monitoring Tools, Network Security, Networking, OSPF, Operational Excellence, Palo Alto Networks, Problem Solving, Project Management, Silver Peak, SolarWinds, TeMIP, Team Collaboration, Team Leadership, VDC, VPC, VRRP, WLC, Work Instructions, iOS
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.89
-Total experience: 10.6 years (127 months, 0 overlaps merged)
+EXPERIENCE (8 jobs, 0 early_career entries) — confidence 0.82
+Total experience: 25.9 years (311 months, 6 overlaps merged)
 ----------------------------------------------------------------------
-  1. ▶ TechnicalExperience Accenture Solution Pvt Ltd  Cloud Migration & Imp Associate @ None (Feb-21 - Present) [conf 0.85, review=True]
-  2. None @ Reliance Jio Infocomm Pvt Ltd (Sep-12 - Apr 2016) [conf 0.85, review=True]
-  3. Network Engineer” @ 3i-infotech (Nov 2008 - Jan 2010) [conf 0.98, review=False]
+  1. ▶ TechnicalExperience @ Accenture Solution Pvt Ltd () Cloud Migration & Imp Associate (Feb-21 - Present) [conf 0.7, review=True]
+  2. 3i-infotech (Nov 2008 @ Jan 2010) Network Engineer” (Sep-12 - Apr 2016) [conf 0.85, review=True]
+  3. 3i-infotech Network Engineer” @ robust security architectures for enterprise-wide systems, applications, and networks (Nov 2008 - Jan 2010) [conf 0.7, review=True]
+  4. Roles & Responsibility @ Infinite Computer Solutions Ltd () Sr. Lead Consultant (Aug-20 - Feb-21) [conf 0.7, review=True]
+  5. Roles & Responsibility @ CompuCom Pvt Ltd () Network III (Dec-19 - July-20) [conf 0.98, review=False]
+  6. Sr. Consultant @ Infosys Limited (JUN-17 - Dec-19) [conf 0.98, review=False]
+  7. Wipro infotech () Sr. Network administrator @ Roles & Responsibility (Apr-16 - Jun 2017) [conf 0.98, review=False]
+  8. Roles & Responsibility @ CMS Info Systems Pvt Ltd. () Network Administrator (Nov 10 - Sep-12) [conf 0.7, review=True]
 
 EDUCATION (1) — confidence 0.8
 ----------------------------------------------------------------------
@@ -32,7 +37,10 @@ EDUCATION (1) — confidence 0.8
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (2 flagged fields)
+REVIEW QUEUE (5 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
   experience.jobs[1]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[7]                  conf=0.7  reason=incomplete_fields

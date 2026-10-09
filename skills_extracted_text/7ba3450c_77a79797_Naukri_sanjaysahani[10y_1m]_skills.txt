@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/7ba3450c_77a79797_Naukri_sanjaysahani[10y_1m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: C/C++, Java, Python, JavaScript, JQuery, TypeScript, SQL, PHP, HTML, CSS.
+Technologies & Tools: Docker, Kafka, Spring Boot, J2EE Programming, Hibernate/ JPA, React, Swagger,
+Laravel, Postman, Git, Micro-services, RESTful API, Responsive frameworks.
+Database: phpmyadmin, MySQL, Postgresql, MS SQL Server, Postgressql vector database.
+Cloud Server: AWS, National Government Cloud Services.
+Penetration Testing: Burp Suite, Kali Linux, OWASP top 10 vulnerabilities and secure coding practices.
+AI and ML: Generative AI, Spring AI, Ollama.
+
+── Extraction Results ──
+Skills found   : 46
+Confidence     : 0.92
+Time           : 109.06 ms
+Method         : flashtext_skills_section | fuzzy(JQuery→jQuery(100%), HTML→HTML5(100%), Kafka→Apache Kafka(100%), RESTful API→REST API(100%), Postgresql→PostgreSQL(100%)...)
+
+── All Skills (46) ──
+.NET, AWS, AWS EC2, AWS S3, Angular, Apache Kafka, Bootstrap, Burp Suite, C++, CSS3, Client Relationship Management, Data Migration, Docker, Generative AI, Git, HTML5, Hibernate, J2EE, JPA, Java, JavaScript, Kali Linux, Laravel, MSSQL, Machine Learning, Moodle, MySQL, OWASP Top 10, Ollama, Oracle PL/SQL, PHP, Penetration Testing, PostgreSQL, Postman, Python, RAG, REST API, React, SQL, Spring, Spring Boot, Swagger, TestNG, TypeScript, Vector Databases, jQuery
+
+── By Category ──
+  ai_ml                          ['Machine Learning']
+  client_mgmt                    ['Client Relationship Management']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS S3']
+  data_engineering               ['Apache Kafka', 'Data Migration']
+  database                       ['MSSQL', 'MySQL', 'Oracle PL/SQL', 'PostgreSQL', 'SQL']
+  dev_tool                       ['Git', 'Postman', 'Swagger']
+  devops                         ['Docker']
+  education_domain               ['Moodle']
+  genai                          ['Generative AI', 'Ollama', 'RAG', 'Vector Databases']
+  programming_language           ['.NET', 'C++', 'J2EE', 'Java', 'JavaScript', 'PHP', 'Python', 'TypeScript']
+  security_ops                   ['Burp Suite', 'OWASP Top 10', 'Penetration Testing']
+  testing                        ['Kali Linux', 'TestNG']
+  web_framework                  ['Angular', 'Bootstrap', 'CSS3', 'HTML5', 'Hibernate', 'JPA', 'Laravel', 'REST API', 'React', 'Spring', 'Spring Boot', 'jQuery']

@@ -1,0 +1,44 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/abbfcbe5_aefb0fa0_Bhuvnesh Resume 1 (1)_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• VAPT
+Penetration Testing | Web App Auditing | OWASP top 10 | DDOS
+• Application Security Dynamic Analysis | API Auditing | Network Interception
+• Security Auditing
+CIS Benchmarks | Custom Compliance Audit Files
+• Network Security
+TCP/IP | OSI | Server Security | DNS | Firewall
+• Server Security
+Domain Security | Mail Security | HTTP Headers Addressing
+• Information Security Compliance Framework (Basics) – HIPAA, PCI-DSS, GDPR, NIST, ISO 27001
+• Digital Forensics
+Logs | System Maintenance | Risk & Disaster Management
+• Tools, OS
+Windows | Kali Linux | Wireshark | NMAP | Metasploit | Nessus
+• Scripting
+• Scripting Language
+Shell Scripting | Python | QA Automation | Java
+
+── Extraction Results ──
+Skills found   : 28
+Confidence     : 0.92
+Time           : 274.11 ms
+Method         : flashtext_skills_section | fuzzy(OWASP top 10→OWASP Top 10(96%), Network Security TCP→Network Security(95%), Digital Forensics Logs→Digital Forensics(95%), NMAP→Nmap(100%), Linux+→Linux(91%))
+
+── All Skills (28) ──
+AWS, Auditing, Bash, CEH, CIS Controls, Digital Forensics, Firewall, GDPR, HIPAA, ISO 27001, Java, Kali Linux, LinkedIn, Linux, Metasploit, Microsoft Windows, NIST, Nessus, Network Security, Nmap, OWASP Top 10, PCI-DSS, Penetration Testing, Python, Quality Assurance, VAPT, Vulnerability Assessment, Wireshark
+
+── By Category ──
+  cloud_infra                    ['AWS', 'Wireshark']
+  finance_ops                    ['Auditing']
+  healthcare                     ['HIPAA']
+  legal                          ['GDPR']
+  operations                     ['Quality Assurance']
+  os_system                      ['Bash', 'Linux', 'Microsoft Windows']
+  programming_language           ['Java', 'Python']
+  security                       ['Metasploit', 'Nmap']
+  security_ops                   ['CEH', 'CIS Controls', 'Digital Forensics', 'Firewall', 'ISO 27001', 'NIST', 'Nessus', 'Network Security', 'OWASP Top 10', 'PCI-DSS', 'Penetration Testing', 'VAPT', 'Vulnerability Assessment']
+  testing                        ['Kali Linux']
+  web_framework                  ['LinkedIn']

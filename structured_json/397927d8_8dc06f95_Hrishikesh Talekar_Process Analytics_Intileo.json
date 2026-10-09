@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "397927d8_8dc06f95_Hrishikesh Talekar_Process Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:17.733627+00:00",
+    "generated_at": "2026-10-07T10:31:15.184193+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,26 +47,40 @@
   "summary": null,
   "skills": {
     "items": [
+      "5 Whys",
       "AutoCAD",
       "CAPA",
       "Continuous Improvement",
       "Data Analysis",
+      "ISO Standards",
       "KPI",
+      "Lean Manufacturing",
+      "LinkedIn",
       "MS Office",
+      "Maintenance Management",
       "Microsoft Excel",
+      "Operations Management",
       "Process Improvement",
       "Reporting",
-      "Root Cause Analysis"
+      "Risk Assessment",
+      "Root Cause Analysis",
+      "Six Sigma"
     ],
     "by_category": {
-      "engineering": [
-        "AutoCAD"
-      ],
       "operations": [
+        "5 Whys",
         "CAPA",
         "Continuous Improvement",
+        "Lean Manufacturing",
+        "Operations Management",
         "Process Improvement",
-        "Root Cause Analysis"
+        "Root Cause Analysis",
+        "Six Sigma"
+      ],
+      "engineering": [
+        "AutoCAD",
+        "ISO Standards",
+        "Maintenance Management"
       ],
       "data_science": [
         "Data Analysis"
@@ -74,12 +88,18 @@
       "business_analysis": [
         "KPI"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "MS Office",
         "Microsoft Excel"
       ],
       "soft_skill": [
         "Reporting"
+      ],
+      "compliance": [
+        "Risk Assessment"
       ]
     },
     "_confidence": 0.92,
@@ -88,12 +108,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Process and Quality Analyst",
-        "company": "City Mumbai",
+        "role": "City Mumbai",
+        "company": "Country INDIA",
         "location": null,
         "start": "Mar 2024",
         "end": "Jan 2026",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "City Mumbai",
+          "Country INDIA"
+        ],
         "duration_months": 23,
         "bullets": [
           "Scottish and Southern Energy - Business Operations"
@@ -104,12 +128,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Brose Limited",
+        "role": "Japanese",
+        "company": "Social links",
         "location": null,
         "start": "Feb 2024",
         "end": "Mar 2024",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Japanese"
+        ],
         "duration_months": 2,
         "bullets": [
           "Supported production quality through daily inspections, risk assessments https://www.linkedin.com/in/hrishi-talekar/ and preventive maintenance checks.",
@@ -121,22 +148,25 @@
           "ensuring zero unplanned downtime.",
           "Six Sigma"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Freelance Designer",
-        "company": "Warehouse Operative",
-        "location": "Process Compliance Support",
+        "company": "Delivered 20+ commissioned sketches",
+        "location": null,
         "start": "Nov 2022",
         "end": "Dec 2023",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Freelance Designer"
+        ],
         "duration_months": 14,
         "bullets": [
           "quality standards.",
           "Maintained process accuracy and quality in high-volume order fulfilment sections.",
-          "Used inventory systems to manage 500+ SKUs, ensuring data accuracy"
+          "Used inventory systems to manage 500+ SKUs, ensuring data accuracy and compliance."
         ],
         "sub_sections": [
           "The Range"
@@ -147,14 +177,13 @@
       },
       {
         "role": "Quality Intern",
-        "company": "and compliance",
+        "company": "Adarsh Surgical Works",
         "location": null,
         "start": "Nov 2021",
         "end": "Apr 2022",
         "method": "date_regex+title_dict",
         "duration_months": 6,
         "bullets": [
-          "Adarsh Surgical Works (Certified ISO 9001 manufacturer)",
           "Conducted inspections of 500+ precision surgical components monthly, ensuring full compliance with ISO 9001 standards.",
           "Identified defects, performed root cause analysis using 5 Whys, and supported CAPA implementation.",
           "Assisted supplier quality checks, helping maintain supplier conformance and reduce defect rates."
@@ -171,7 +200,7 @@
       "total_months": 44,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.95
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -180,7 +209,7 @@
         "degree_name": "M.S.",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "CATIA MSA Coventry University United Kingdom Excel PowerPoint",
+        "institution": "CATIA MSA Coventry University United Kingdom",
         "year": "2023",
         "gpa": null,
         "_needs_review": false,
@@ -209,14 +238,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

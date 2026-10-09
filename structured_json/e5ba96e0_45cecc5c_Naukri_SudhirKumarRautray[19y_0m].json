@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e5ba96e0_45cecc5c_Naukri_SudhirKumarRautray[19y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:37.252231+00:00",
+    "generated_at": "2026-10-07T09:28:37.660958+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,26 +46,55 @@
   "summary": "I am a customer-oriented General Manager with 18 years of experience focused on increasing revenues and expanding margins. My adaptive and deadline-oriented approach allows me to consistently execute and complete multiple projects in high-stress environments. As a meticulous leader and strategic planner, I leverage my comprehensive managerial acumen to offer vision and motivate teams towards achieving targets\nForecasting & Scheduling",
   "skills": {
     "items": [
+      "Annual Operating Plan",
+      "Business Development",
       "Client Relationship Management",
+      "Cold Calling",
       "Cost Analysis",
+      "Customer Service",
       "Decision Making",
+      "Leadership",
       "Mechanical Engineering",
       "Microsoft Teams",
       "Microsoft Visio",
       "Negotiation",
+      "Outbound Sales",
+      "Revenue Generation",
+      "Strategic Planning",
+      "Strategic Thinking",
+      "Telecalling",
       "Time Series Forecasting",
+      "Turnaround Time",
+      "Vendor Management",
       "Xplanner"
     ],
     "by_category": {
+      "management": [
+        "Annual Operating Plan",
+        "Strategic Planning",
+        "Turnaround Time"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
       "client_mgmt": [
-        "Client Relationship Management"
+        "Client Relationship Management",
+        "Customer Service"
+      ],
+      "sales": [
+        "Cold Calling",
+        "Outbound Sales",
+        "Revenue Generation",
+        "Telecalling"
       ],
       "finance_ops": [
         "Cost Analysis"
       ],
       "soft_skill": [
         "Decision Making",
-        "Negotiation"
+        "Leadership",
+        "Negotiation",
+        "Strategic Thinking"
       ],
       "engineering": [
         "Mechanical Engineering"
@@ -79,6 +108,9 @@
       "ai_ml": [
         "Time Series Forecasting"
       ],
+      "operations": [
+        "Vendor Management"
+      ],
       "database": [
         "Xplanner"
       ]
@@ -90,12 +122,16 @@
     "jobs": [
       {
         "role": "Deputy General Manager - Tele sales & Vendor Management",
-        "company": "Bank Bazaar .com  \t Chennai",
+        "company": "Bank Bazaar .com",
         "location": null,
         "start": "12/2018",
         "end": "Current",
         "method": "date_regex+dash_title_next_line_company",
-        "duration_months": 94,
+        "pre_date_header": [
+          "Deputy General Manager - Tele sales & Vendor Management",
+          "Bank Bazaar .com"
+        ],
+        "duration_months": 95,
         "bullets": [
           "A financial services company specializing in various financial products Led Contact Center Operations including In-house G Vendor line of business across PAN India for cards"
         ],
@@ -103,53 +139,89 @@
           "Outsourcing",
           "Established 300 Seats business externally with 40% reduction in cost",
           "Increased month-on-month revenue growth by transitioning in-house business to external and ensuring positive margins",
-          "Managed a portfolio of 400 FTEs for Cards G loans ensuring profitability",
-          "Established effective utilization of telephonic metrics as per COPC standards",
-          "Collaborated with Service Excellence, Quality, LGD teams to improve Processes and TAT"
+          "Managed a portfolio of 400 FTEs for Cards G loans ensuring profitability"
         ],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Operations Manager - Tele sales",
-        "company": "Concentrix Daksh Services India Private Limited \t Vishakhapatnam & Hyderabad",
-        "location": null,
+        "role": "Operations Manager - Sales",
+        "company": "Drove year-over-year business growth while leading operations, strategic vision",
+        "location": "and planning",
         "start": "04/2018",
         "end": "11/2018",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+multiline_dash_split",
+        "pre_date_header": [
+          "Established effective utilization of telephonic metrics as per COPC standards",
+          "Collaborated with Service Excellence, Quality, LGD teams to improve Processes and TAT",
+          "Drove year-over-year business growth while leading operations, strategic vision, and planning",
+          "Operations Manager - Sales",
+          "Epicenter Technologies Private Limited"
+        ],
         "duration_months": 8,
         "bullets": [
-          "A company focused on technology-based solutions and services Led 250 Pre-sales tele calling associates to generate quality walk-ins across various projects Performed outbound sales activities such as cold calling, lead follow-up, and sales qualifications Converted prospects into customers by showcasing appropriate residential properties Identified and resolved unauthorized, unsafe, or ineffective practices",
-          "A leading global provider of business services Managed Contact Center for constant performance achievements of 300 FTEs Achieved annually 70 Cr Revenue (Premium) with 7% (NOP) conversion Drove cost reduction initiatives in processes with automation opportunities Negotiated contracts with clients to obtain best pricing and terms Developed systems G procedures to improve operational quality G team efficiency"
+          "A company focused on technology-based solutions and services Led 250 Pre-sales tele calling associates to generate quality walk-ins across various projects Performed outbound sales activities such as cold calling, lead follow-up, and sales qualifications Converted prospects into customers by showcasing appropriate residential properties Identified and resolved unauthorized, unsafe, or ineffective practices"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
+        "role": "Operations Manager - Tele sales",
+        "company": "Concentrix Daksh Services India Private Limited",
+        "location": null,
+        "start": "04/2012",
+        "end": "01/2018",
+        "method": "date_regex+dash_title_next_line_company",
+        "pre_date_header": [
+          "Operations Manager - Tele sales",
+          "Concentrix Daksh Services India Private Limited"
+        ],
+        "duration_months": 70,
+        "bullets": [
+          "A leading global provider of business services Managed Contact Center for constant performance achievements of 300 FTEs Achieved annually 70 Cr Revenue (Premium) with 7% (NOP) conversion Drove cost reduction initiatives in processes with automation opportunities"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
         "role": "Senior Executive",
-        "company": null,
+        "company": "Customer Service Delivery Bharti Airtel Ltd",
         "location": null,
         "start": "02/2007",
         "end": "01/2011",
-        "method": "date_regex+dash_split",
+        "method": "date_regex+multiline_dash_split",
+        "pre_date_header": [
+          "Negotiated contracts with clients to obtain best pricing and terms",
+          "Developed systems G procedures to improve operational quality G team efficiency",
+          "Directed initiatives to enhance work environment, company culture, and overall strategy",
+          "Senior Executive - Customer Service Delivery",
+          "Bharti Airtel Ltd"
+        ],
         "duration_months": 48,
-        "bullets": [],
+        "bullets": [
+          "Reduced attrition rate by 15% through effective churn analysis and monitoring practices.",
+          "Achieved targets (numbers G revenue) as per AOP.",
+          "Analyzed zero-user prediction to control high ARPU churn.",
+          "Maintained positive customer relations by addressing problems and implementing corrective actions."
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.5,
-      "total_months": 150,
+      "total_years": 18.4,
+      "total_months": 221,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -159,7 +231,7 @@
         "degree_type": "masters",
         "degree_field": null,
         "institution": "Mahatma Gandhi University",
-        "year": "2012",
+        "year": "2010",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -169,8 +241,8 @@
         "degree_name": "BBA",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Guru Ghasidas University",
-        "year": "2007",
+        "institution": "Meghalaya Guru Ghasidas University",
+        "year": "2012",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -180,7 +252,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Kendriya Vidyalaya Ballygunge",
+        "institution": "Chhattisgarh Kendriya Vidyalaya Ballygunge",
         "year": "2004",
         "gpa": null,
         "_needs_review": false,
@@ -204,12 +276,7 @@
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

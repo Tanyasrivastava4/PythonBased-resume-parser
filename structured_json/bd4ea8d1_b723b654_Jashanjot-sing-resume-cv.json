@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bd4ea8d1_b723b654_Jashanjot-sing-resume-cv_segmented.txt",
-    "generated_at": "2026-09-30T07:00:13.786368+00:00",
+    "generated_at": "2026-10-07T09:28:07.322290+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,17 +48,25 @@
   "summary": "Aspiring Software Developer with expertise in Python, Django, AI/ML, and Web Automation. Passionate about building\nefficient, scalable solutions and leveraging AI for automation. Seeking an opportunity to apply technical skills in a dynamic\nenvironment.",
   "skills": {
     "items": [
+      "Agentic AI",
+      "AutoGen",
       "C++",
       "CCNA",
       "ChromaDB",
+      "CrewAI",
       "Django",
+      "FastAPI",
+      "Identity Management",
       "LLM",
+      "LLaMA",
+      "LangChain",
       "Machine Learning",
       "MongoDB",
       "MySQL",
       "NLP",
       "Networking",
       "NumPy",
+      "Nutrition",
       "Ollama",
       "OpenAI API",
       "Pandas",
@@ -72,6 +80,18 @@
       "scikit-learn"
     ],
     "by_category": {
+      "genai": [
+        "Agentic AI",
+        "AutoGen",
+        "CrewAI",
+        "LLM",
+        "LLaMA",
+        "LangChain",
+        "Ollama",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG"
+      ],
       "programming_language": [
         "C++",
         "Python"
@@ -85,14 +105,11 @@
       ],
       "web_framework": [
         "Django",
+        "FastAPI",
         "Spring"
       ],
-      "genai": [
-        "LLM",
-        "Ollama",
-        "OpenAI API",
-        "Prompt Engineering",
-        "RAG"
+      "security": [
+        "Identity Management"
       ],
       "ai_ml": [
         "Machine Learning",
@@ -108,6 +125,9 @@
       "biz_dev": [
         "Networking"
       ],
+      "healthcare": [
+        "Nutrition"
+      ],
       "testing": [
         "Playwright"
       ],
@@ -121,12 +141,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Developer",
+        "role": "AI Developer",
         "company": "AI Agent Framework for Web Automation",
-        "location": "AI",
+        "location": null,
         "start": "02/2025",
         "end": "05/2025",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "AI Agent Framework for Web Automation | AI Developer"
+        ],
         "duration_months": 4,
         "bullets": [
           "Built an LLM-powered agentic web automation framework using Microsoft AutoGen and",
@@ -145,7 +168,10 @@
         "location": null,
         "start": "05/2025",
         "end": "09/2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "AIML Developer"
+        ],
         "duration_months": 5,
         "bullets": [
           "Developed a medical chatbot for symptom detection and disease prediction.",
@@ -162,30 +188,31 @@
       },
       {
         "role": "AI Engineer",
-        "company": "Future Tech IT Global (Equiax",
-        "location": null,
+        "company": "Fine-tuned custom LLMs for domain-specific performance improvements.",
+        "location": "India",
         "start": "10/2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 12,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "AI Engineer"
+        ],
+        "duration_months": 13,
         "bullets": [
-          "Built AI agents for business workflows using CrewAI.",
-          "Implemented a RAG agent over 10,000+ company documents for fast, accurate retrieval.",
-          "Fine-tuned custom LLMs for domain-specific performance improvements."
+          "Implemented a RAG agent over 10,000+ company documents for fast, accurate retrieval."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.7,
-      "total_months": 20,
+      "total_years": 1.8,
+      "total_months": 21,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -255,10 +282,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.6,

@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/dfba57ae_8de0422b_Naukri_VivekSinghKushwaha[6y_6m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Programming/Tools - SQL | Advanced Excel | Microsoft Office | Tableau | Python | PySpark | AWS | Athena | S3 | Airflow | Databricks
+• Analytics & Domain Expertise - Data Visualization | ETL Pipelines | Machine Learning | Incentive Compensation | Sales Crediting | Goal
+Setting | Alignment | Call Planning | KPI Monitoring
+• Soft Skills - Team Management | Stakeholder Management | Process Optimization | Automation | Documentation & Compliance
+
+── Extraction Results ──
+Skills found   : 34
+Confidence     : 0.92
+Time           : 227.05 ms
+Method         : flashtext_skills_section | fuzzy(Advanced Excel→Microsoft Excel(100%), Microsoft Office→MS Office(100%), Athena→AWS Athena(100%), Airflow→Apache Airflow(100%), ETL Pipelines→ETL(96%)...)
+
+── All Skills (34) ──
+AWS, AWS Athena, AWS S3, Active Directory, Apache Airflow, Cross-functional Collaboration, Data Quality, Data Validation, Data Visualization, Databricks, Domain-Driven Design, ETL, Effort Estimation, Healthcare, KPI, LinkedIn, MS Office, MSSQL, Machine Learning, Macro Modelling, Mentoring, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Process Improvement, Project Management, PySpark, Python, Reporting, Requirements Gathering, SQL, Stakeholder Management, Tableau, Team Leadership
+
+── By Category ──
+  ai_ml                          ['Machine Learning']
+  architecture                   ['Domain-Driven Design']
+  business_analysis              ['KPI', 'Requirements Gathering']
+  cloud_infra                    ['AWS', 'AWS Athena', 'AWS S3']
+  data_engineering               ['Apache Airflow', 'Data Quality', 'Data Validation', 'Databricks', 'ETL']
+  data_science                   ['Data Visualization', 'Tableau']
+  database                       ['MSSQL', 'PySpark', 'SQL']
+  domain                         ['Healthcare']
+  finance                        ['Macro Modelling']
+  operations                     ['Process Improvement']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Teams']
+  programming_language           ['Python']
+  project_mgmt                   ['Effort Estimation', 'Project Management']
+  security_ops                   ['Active Directory']
+  soft_skill                     ['Cross-functional Collaboration', 'Mentoring', 'Reporting', 'Stakeholder Management', 'Team Leadership']
+  web_framework                  ['LinkedIn']

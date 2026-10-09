@@ -1,0 +1,34 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/c1a0eed9_d4cafc44_CA Sahil Madan_GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages: English, Hindi, Punjabi
+Audit Software: Computax-Caseware-
+Coptool
+AI Tools: Microsoft Copilot - Python basics -
+Notebook LM - Basics
+Accounting Software: Tally ERP 9 - Busy
+Technicals: IND AS - Standards on Auditing
+
+── Extraction Results ──
+Skills found   : 20
+Confidence     : 0.92
+Time           : 353.73 ms
+Method         : flashtext_skills_section | fuzzy(Copilot→GitHub Copilot(100%), Excel→Microsoft Excel(100%), ChatGPT→GPT(100%), Hiking→Recruitment(83%))
+
+── All Skills (20) ──
+Accounting, Audit Software, Auditing, Cross-functional Collaboration, Data Management, Email Marketing, Financial Reporting, GPT, GitHub Copilot, Leadership, LinkedIn, Microsoft Excel, Microsoft Teams, Python, Recruitment, Statutory Audit, Tally, Taxation, Telecom, Variance Analysis
+
+── By Category ──
+  ai_ml                          ['GPT']
+  business_analysis              ['Variance Analysis']
+  domain                         ['Telecom']
+  finance_ops                    ['Accounting', 'Audit Software', 'Auditing', 'Financial Reporting', 'Statutory Audit', 'Tally', 'Taxation']
+  genai                          ['GitHub Copilot']
+  hr                             ['Recruitment']
+  marketing                      ['Email Marketing']
+  productivity                   ['Data Management', 'Microsoft Excel', 'Microsoft Teams']
+  programming_language           ['Python']
+  soft_skill                     ['Cross-functional Collaboration', 'Leadership']
+  web_framework                  ['LinkedIn']

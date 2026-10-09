@@ -1,0 +1,39 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/92ffea46_4fe40b0f_RishiD_Resume_DS_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+PROGRAMMING:
+Python, SQL
+DATA & ML LIBRARIES:
+Pandas, NumPy, Keras, OpenCV, PyTesseract, EasyOCR
+DATA ENGINEERING & DATABASES:
+Airbyte, Firebase (Firestore, Realtime DB), DBeaver, PgAdmin
+BI, AUTOMATION & CLOUD:
+Power BI, Zoho Analytics, Looker Studio, Power Automate, AWS
+i
+
+── Extraction Results ──
+Skills found   : 37
+Confidence     : 0.92
+Time           : 422.36 ms
+Method         : flashtext_skills_section | fuzzy(Firestore→Firebase(100%), Looker Studio→Looker(100%), Power Automate→Microsoft Power Automate(100%))
+
+── All Skills (37) ──
+AWS, AWS CloudWatch, AWS Lambda, AWS S3, Agentic AI, Airbyte, Analyze, Attention to Detail, Business Intelligence, Business Strategy, Data Analysis, Data Pipeline, Data Preprocessing, Firebase, GCP, Hyperparameter Tuning, IBM DB2, JSON, Keras, Leadership, Looker, Machine Learning, Microsoft Excel, Microsoft Power Automate, MySQL, NumPy, OpenCV, Pandas, Performance Marketing, PgAdmin, Power BI, Python, Reporting, SQL, Seaborn, Semantic Modeling, Streamlit
+
+── By Category ──
+  ai_ml                          ['Keras', 'Machine Learning', 'NumPy', 'OpenCV', 'Pandas', 'Seaborn']
+  cloud_infra                    ['AWS', 'AWS CloudWatch', 'AWS Lambda', 'AWS S3', 'GCP']
+  consulting                     ['Business Strategy']
+  data_engineering               ['Airbyte', 'Data Pipeline', 'Data Preprocessing']
+  data_science                   ['Analyze', 'Business Intelligence', 'Data Analysis', 'Hyperparameter Tuning', 'Looker', 'Power BI', 'Semantic Modeling']
+  database                       ['Firebase', 'IBM DB2', 'MySQL', 'PgAdmin', 'SQL']
+  dev_tool                       ['Streamlit']
+  genai                          ['Agentic AI']
+  marketing                      ['Performance Marketing']
+  productivity                   ['Microsoft Excel']
+  programming_language           ['Python']
+  rpa                            ['Microsoft Power Automate']
+  soft_skill                     ['Attention to Detail', 'Leadership', 'Reporting']
+  web_framework                  ['JSON']

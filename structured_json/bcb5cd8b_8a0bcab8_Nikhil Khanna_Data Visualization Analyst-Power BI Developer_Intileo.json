@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bcb5cd8b_8a0bcab8_Nikhil Khanna_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:12.841075+00:00",
+    "generated_at": "2026-10-07T09:28:06.190452+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -49,103 +49,160 @@
     "items": [
       "Agile",
       "Business Analytics",
+      "Business Intelligence",
       "Business Process Optimization",
       "Business Strategy",
+      "CTE",
       "Collaboration",
       "Cross-functional Collaboration",
       "DAX",
+      "Dashboard Development",
       "Data Analysis",
       "Data Cleaning",
+      "Data Governance",
+      "Data Lineage",
       "Data Modeling",
       "Data Storytelling",
+      "Data Validation",
       "Data Visualization",
+      "Data Warehousing",
       "Data Wrangling",
       "Databricks",
       "ETL",
       "Financial Analysis",
+      "Gap Analysis",
       "Jira",
+      "Joins",
       "KPI",
+      "Leadership",
+      "MIS Reporting",
       "Matplotlib",
       "Microsoft Excel",
+      "Microsoft Teams",
       "NumPy",
+      "Operations Management",
       "Pandas",
       "Power BI",
+      "Power Pivot",
       "Power Query",
-      "Predictive Analytics",
+      "Predictive Modeling",
       "Process Improvement",
+      "Process Re-Engineering",
       "Project Management",
       "Python",
+      "Quality Assurance",
       "Reporting",
       "Requirements Gathering",
+      "Resource Planning",
+      "Revenue Generation",
       "Revenue Optimization",
       "Risk Assessment",
       "Root Cause Analysis",
+      "Row Level Security",
       "SQL",
       "Snowflake",
       "Stakeholder Management",
       "Statistical Analysis",
+      "Strategic Planning",
       "Tableau",
       "Time Series Forecasting",
-      "Trend Analysis"
+      "Trend Analysis",
+      "Trend Forecasting",
+      "Window Functions",
+      "Workflow Automation"
     ],
     "by_category": {
       "project_mgmt": [
         "Agile",
         "Jira",
-        "Project Management"
+        "Project Management",
+        "Resource Planning"
       ],
       "data_science": [
         "Business Analytics",
         "DAX",
+        "Dashboard Development",
         "Data Analysis",
+        "Data Lineage",
         "Data Modeling",
         "Data Storytelling",
         "Data Visualization",
         "Power BI",
         "Power Query",
-        "Predictive Analytics",
+        "Row Level Security",
         "Statistical Analysis",
         "Tableau",
-        "Trend Analysis"
+        "Trend Analysis",
+        "Trend Forecasting"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "Gap Analysis",
+        "KPI",
+        "Requirements Gathering"
       ],
       "operations": [
         "Business Process Optimization",
+        "Operations Management",
         "Process Improvement",
-        "Root Cause Analysis"
+        "Quality Assurance",
+        "Root Cause Analysis",
+        "Workflow Automation"
       ],
       "consulting": [
-        "Business Strategy"
+        "Business Strategy",
+        "Process Re-Engineering"
+      ],
+      "database": [
+        "CTE",
+        "Joins",
+        "SQL",
+        "Snowflake",
+        "Window Functions"
       ],
       "soft_skill": [
         "Collaboration",
         "Cross-functional Collaboration",
+        "Leadership",
         "Reporting",
         "Stakeholder Management"
       ],
       "data_engineering": [
         "Data Cleaning",
+        "Data Validation",
+        "Data Warehousing",
         "Data Wrangling",
         "Databricks",
         "ETL"
       ],
+      "data_management": [
+        "Data Governance"
+      ],
       "finance_ops": [
         "Financial Analysis"
       ],
-      "business_analysis": [
-        "KPI",
-        "Requirements Gathering"
+      "banking": [
+        "MIS Reporting"
       ],
       "ai_ml": [
         "Matplotlib",
         "NumPy",
         "Pandas",
+        "Predictive Modeling",
         "Time Series Forecasting"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "analytics": [
+        "Power Pivot"
       ],
       "programming_language": [
         "Python"
+      ],
+      "sales": [
+        "Revenue Generation"
       ],
       "marketing": [
         "Revenue Optimization"
@@ -153,13 +210,12 @@
       "compliance": [
         "Risk Assessment"
       ],
-      "database": [
-        "SQL",
-        "Snowflake"
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Advanced Excel→Microsoft Excel(100%), Business Analysis→Business Analytics(91%), ETL Processes→ETL(92%), KPI Reporting→KPI(100%), Data Cleansing→Data Cleaning(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Advanced Excel→Microsoft Excel(100%), Business Analysis→Business Analytics(91%), ETL Processes→ETL(92%), Predictive Analytics→Predictive Modeling(100%), KPI Reporting→KPI(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -170,7 +226,7 @@
         "start": "April 2025",
         "end": "Present",
         "method": "date_regex+date_prefix_title+company_parens_role",
-        "duration_months": 18,
+        "duration_months": 19,
         "bullets": [
           "Business Requirements & Stakeholder Collaboration: Partnered with finance, operations, and leadership to gather business requirements, KPIs, and reporting objectives. Translated business needs into scalable BI solutions using SQL, Power BI, and Tableau. Conducted gap analysis to align analytics with strategic goals.",
           "KPI Dashboard Development & Data Visualization: Designed and maintained interactive KPI dashboards in Power BI and Tableau for real-time tracking of operational efficiency, financial performance, and resource utilization. Applied Power Query for data transformation, DAX for complex calculations, and Power Pivot for advanced data modeling. Implemented row-level security for leadership consumption.",
@@ -178,7 +234,7 @@
           "Data Integration & ETL Optimization: Managed and automated ETL workflows using SSIS, SQL, and Power Query, integrating data from internal and cloud sources including Snowflake and Databricks. Automated data cleansing and validation, reducing manual effort..",
           "Data Governance & Quality Assurance: Established data validation frameworks, governance practices, and quality checks to ensure data integrity and compliance. Documented data lineage and business logic for audit readiness.",
           "Executive Reporting & Data Storytelling: Created executive-level dashboards, MIS reports, and financial summaries in Power BI and Excel, translating complex datasets into clear, insight-driven narratives for leadership reviews and strategic planning.",
-          "Agile Project Management & Cross-Functional Collaboration: Operated within Agile methodologies using JIRA to manage analytics projects, track deliverables, and prioritize enhancements. Collaborated with finance, engineering, and business"
+          "Agile Project Management & Cross-Functional Collaboration: Operated within Agile methodologies using JIRA to manage analytics projects, track deliverables, and prioritize enhancements. Collaborated with finance, engineering, and business teams to drive data-driven decision-making."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -187,7 +243,7 @@
       },
       {
         "role": "Data Analyst",
-        "company": "teams to drive data-driven decision-making. CGM Aria",
+        "company": "CGM Aria",
         "location": "Noida",
         "start": "Aug 2022",
         "end": "April 2025",
@@ -201,18 +257,18 @@
           "ETL Processes and Workflow Automation: Managed and automated ETL pipelines using SSIS, SQL, and Power Query, integrating data from multiple sources. Automated data cleansing, transformation, and validation processes, reducing manual effort and ensuring reporting accuracy.",
           "Data Visualization and Advanced Reporting: Designed executive-level reports and data visualizations in Power BI, Tableau, and Excel, leveraging DAX and Power Pivot for in-depth analysis. Translated complex datasets into actionable insights through data storytelling.",
           "Agile Project Management and Stakeholder Collaboration: Worked in Agile using JIRA to manage analytics projects and facilitate cross-functional collaboration. Led requirements sessions with business users to define data-driven solutions and ensure alignment with business objectives.",
-          "Financial and Operational Metrics Analysis: Conducted financial analysis, forecasting, and KPI reporting using SQL, Power"
+          "Financial and Operational Metrics Analysis: Conducted financial analysis, forecasting, and KPI reporting using SQL, Power BI, and Advanced Excel. Applied scenario analysis and financial modeling to optimize resource allocation and revenue performances."
         ],
         "sub_sections": [
           "R e s u m e"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "MIS-Data Analyst",
-        "company": "performances. Ashoka Autos",
+        "company": "Ashoka Autos",
         "location": null,
         "start": "Jan 2021",
         "end": "August 2022",
@@ -235,10 +291,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 5.8,
-      "total_months": 69,
+      "total_months": 70,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -277,14 +333,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,0 +1,32 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/60ab3393_8503b9bf_ravicvupdated_php-3_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Programming: PHP, Python
+Frameworks: Laravel, Flask, FastAPI, Django Rest framework,
+Backend : REST API Development, MVC Architecture, Microservices
+Frontend: HTML, CSS, Bootstrap, jQuery
+Database: MySQL
+Caching & Performance : Redis
+Cloud & Tools: AWS (EC2, SES), GitHub, Jira
+
+── Extraction Results ──
+Skills found   : 25
+Confidence     : 0.92
+Time           : 223.98 ms
+Method         : flashtext_skills_section | fuzzy(Django Rest framework→Django(95%), RESTful APIs→REST(100%), microservices→Microservices(100%), caching→Caching(100%))
+
+── All Skills (25) ──
+AWS, AWS EC2, Bootstrap, CSS3, Caching, Code Reviews, Django, FastAPI, Flask, GitHub, HRIS, HTML5, Jira, Laravel, LinkedIn, MVC, Microservices, MySQL, PHP, Python, REST, REST API, Recruitment, Redis, jQuery
+
+── By Category ──
+  architecture                   ['Caching', 'Microservices']
+  cloud_infra                    ['AWS', 'AWS EC2']
+  database                       ['MySQL', 'Redis']
+  dev_tool                       ['Code Reviews', 'GitHub']
+  hr                             ['HRIS', 'Recruitment']
+  integration                    ['REST']
+  programming_language           ['PHP', 'Python']
+  project_mgmt                   ['Jira']
+  web_framework                  ['Bootstrap', 'CSS3', 'Django', 'FastAPI', 'Flask', 'HTML5', 'Laravel', 'LinkedIn', 'MVC', 'REST API', 'jQuery']

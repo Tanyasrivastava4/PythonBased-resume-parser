@@ -2,7 +2,7 @@
 FILE: dc22f883_64ee4adf_Aman Bhatnagar_resume_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header']
-Overall conf.  : 0.81
+Overall conf.  : 0.82
 Needs review   : True
 
 CONTACT
@@ -14,18 +14,19 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : google.com/drive/folders/1WovkLxburb_SCKPNOk7YndI9v2Z2kPef  (conf 0.85, regex)
 
-SKILLS (19) — confidence 0.92
+SKILLS (20) — confidence 0.92
 ----------------------------------------------------------------------
-Bloomberg Terminal, Comps, Conflict Resolution, Cross-functional Collaboration, DCF, Equities, Factor Risk, Financial Analysis, Google, Leadership, LinkedIn, Management Consulting, Microsoft Excel, Microsoft PowerPoint, Options & Futures, Recruitment, Report Writing, Risk Management, Time Series Forecasting
+Bloomberg Terminal, Comps, Conflict Resolution, Cross-functional Collaboration, DCF, Equities, Factor Risk, Financial Analysis, Google, Leadership, LinkedIn, MSMED Act, Management Consulting, Microsoft Excel, Microsoft PowerPoint, Options & Futures, Recruitment, Report Writing, Risk Management, Time Series Forecasting
 
 EXPERIENCE (0 jobs, 0 early_career entries) — confidence 0.0
 Total experience: 0.0 years (0 months, 0 overlaps merged)
 ----------------------------------------------------------------------
 
-EDUCATION (2) — confidence 0.75
+EDUCATION (3) — confidence 0.82
 ----------------------------------------------------------------------
-  1. CFA — ITL Public School Dwarka (2020) [conf 0.95, review=False]
-  2. CFA — Shaheed Bhagat Singh College (2024) [conf 0.55, review=True]
+  1. B.Tech — Shaheed Bhagat Singh College (2025) [conf 0.95, review=False]
+  2. CFA — University of Delhi (2020) [conf 0.95, review=False]
+  3. CFA — ITL Public School Dwarka (2024) [conf 0.55, review=True]
 
 CERTIFICATIONS (9) — confidence 0.62
 ----------------------------------------------------------------------
@@ -42,7 +43,7 @@ CERTIFICATIONS (9) — confidence 0.62
 REVIEW QUEUE (11 flagged fields)
 ----------------------------------------------------------------------
   experience                          conf=0.0  reason=section_present_but_empty
-  education.entries[1]                conf=0.55  reason=incomplete_fields
+  education.entries[2]                conf=0.55  reason=incomplete_fields
   certifications                      conf=0.62  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields
   certifications.items[1]             conf=0.6  reason=incomplete_fields

@@ -2,7 +2,7 @@
 FILE: 3cd8e28a_bef08565_Prasun_Bhattacharya_CV (1)_segmented.txt
 ======================================================================
 Sections found : ['declaration', 'education', 'experience', 'header', 'languages']
-Overall conf.  : 0.9
+Overall conf.  : 0.91
 Needs review   : True
 
 CONTACT
@@ -18,10 +18,14 @@ SKILLS (5) — confidence 0.92
 ----------------------------------------------------------------------
 Fiber, Field Sales, Medical Sales, Sales Management, Telecalling
 
-EXPERIENCE (1 jobs, 0 early_career entries) — confidence 0.85
-Total experience: 31.8 years (381 months, 0 overlaps merged)
+EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.88
+Total experience: 5.9 years (71 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. None @ Address: 3A (26/01/1995 - Present) [conf 0.85, review=True]
+  1. • Area Sales Manager @ Excellence Ventures Pvt. Ltd. | Sep 2023 – Jan 2024 (Feb 2017 - Jun 2018) [conf 0.85, review=True]
+  2. None @ Field Work – Jio Fiber (Jan 2021 - Dec 2022) [conf 0.85, review=True]
+  3. None @ Medical Representative – The Medipower (Jan 2023 - Sep 2023) [conf 0.85, review=True]
+  4. Area Sales Manager @ Excellence Ventures Pvt. Ltd (Sep 2023 - Jan 2024) [conf 0.98, review=False]
+  5. None @ CIC – Justdial Limited (Sep 2024 - Jan 2026) [conf 0.85, review=True]
 
 EDUCATION (2) — confidence 0.88
 ----------------------------------------------------------------------
@@ -31,6 +35,9 @@ EDUCATION (2) — confidence 0.88
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (1 flagged fields)
+REVIEW QUEUE (4 flagged fields)
 ----------------------------------------------------------------------
   experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[4]                  conf=0.85  reason=incomplete_fields

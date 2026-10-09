@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "dfd08105_4f12f795_CA Praveen Kumar Pathak_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:34.014266+00:00",
+    "generated_at": "2026-10-07T09:28:32.965076+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -46,28 +46,42 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounting Standards",
       "Adaptability",
       "Analyze",
+      "Auditing",
       "Bank Reconciliation",
       "CARO 2020",
       "CARO Reporting",
       "Computax",
       "Financial Reporting",
-      "Ind AS",
+      "Fixed Assets Management",
+      "Income Tax Return",
+      "Internal Audit",
       "Internal Financial Controls",
       "LinkedIn",
       "MS Office",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "NPA Accounts",
+      "Order-to-Cash",
+      "Physical Verification",
+      "Procure-to-Pay",
       "Reporting",
-      "Risk & Control Matrix",
+      "Risk Control Matrix",
       "SAP",
-      "Schedule III",
+      "Schedule III Compliance",
       "Statutory Audit",
-      "Stock Audit",
+      "Stock Take",
       "Tally"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Accounting Standards",
+        "Schedule III Compliance",
+        "Stock Take"
+      ],
       "soft_skill": [
         "Adaptability",
         "Reporting"
@@ -75,26 +89,31 @@
       "data_science": [
         "Analyze"
       ],
+      "finance_ops": [
+        "Auditing",
+        "Financial Reporting",
+        "Statutory Audit",
+        "Tally"
+      ],
       "accounting": [
-        "Bank Reconciliation"
+        "Bank Reconciliation",
+        "Fixed Assets Management",
+        "Internal Audit",
+        "Physical Verification",
+        "Risk Control Matrix"
       ],
       "compliance": [
         "CARO 2020"
       ],
       "finance": [
         "CARO Reporting",
-        "Ind AS",
+        "Income Tax Return",
         "Internal Financial Controls",
-        "Risk & Control Matrix",
-        "Stock Audit"
+        "Order-to-Cash",
+        "Procure-to-Pay"
       ],
       "office": [
         "Computax"
-      ],
-      "finance_ops": [
-        "Financial Reporting",
-        "Statutory Audit",
-        "Tally"
       ],
       "web_framework": [
         "LinkedIn"
@@ -102,13 +121,14 @@
       "productivity": [
         "MS Office",
         "Microsoft Excel",
-        "Microsoft PowerPoint"
+        "Microsoft PowerPoint",
+        "Microsoft Teams"
+      ],
+      "banking": [
+        "NPA Accounts"
       ],
       "integration": [
         "SAP"
-      ],
-      "financial_reporting": [
-        "Schedule III"
       ]
     },
     "_confidence": 0.92,
@@ -117,16 +137,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Article Assistant , Paid Assistant",
-        "company": "Amod Agrawal & Associates, East of Kailash",
+        "role": "Article Assistant",
+        "company": "Amod Agrawal & Associates, East of Kailash, New Delhi (Firm with 40 years of experience, known for Statutory Audit, with a PROFILE strong client base including listed companies)",
         "location": null,
         "start": "Jul 2019",
         "end": "Aug 2022",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 38,
-        "bullets": [
-          "Amod Agrawal & Associates, East of Kailash, New Delhi (Firm with 40 years of experience, known for Statutory Audit, with a PROFILE strong client base including listed companies)"
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Article Assistant , Paid Assistant"
         ],
+        "duration_months": 38,
+        "bullets": [],
         "sub_sections": [
           "Internal Audit",
           "Led several teams of for Internal Audit Assignment.",
@@ -147,7 +168,10 @@
         "location": null,
         "start": "Jun 2023",
         "end": "Feb 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Paid Assistant"
+        ],
         "duration_months": 21,
         "bullets": [
           "Managed Statutory Audit of unlisted clients.",

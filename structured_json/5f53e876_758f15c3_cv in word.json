@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5f53e876_758f15c3_cv in word_segmented.txt",
-    "generated_at": "2026-09-30T06:58:47.391853+00:00",
+    "generated_at": "2026-10-07T10:31:53.567222+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -53,10 +53,12 @@
   "skills": {
     "items": [
       "AWS",
+      "Aadhaar Integration",
       "Agile",
       "BRD",
       "ChatGPT",
-      "Client Relationship Management",
+      "Communication",
+      "Customer Relationship Management",
       "Digital Transformation",
       "E-Governance",
       "Go",
@@ -69,6 +71,7 @@
       "PMP",
       "Postman",
       "Procurement",
+      "Professional Tax",
       "Project Coordination",
       "Project Management",
       "RFP",
@@ -82,6 +85,9 @@
     "by_category": {
       "cloud_infra": [
         "AWS"
+      ],
+      "integration": [
+        "Aadhaar Integration"
       ],
       "project_mgmt": [
         "Agile",
@@ -99,8 +105,11 @@
         "ChatGPT",
         "MS Office"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "soft_skill": [
+        "Communication"
+      ],
+      "sales": [
+        "Customer Relationship Management"
       ],
       "consulting": [
         "Digital Transformation"
@@ -117,7 +126,8 @@
         "SQL"
       ],
       "hr": [
-        "HR Management"
+        "HR Management",
+        "Professional Tax"
       ],
       "hardware": [
         "Juniper"
@@ -140,18 +150,36 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(People Management→HR Management(100%), e-Governance→E-Governance(100%), User Manual→Technical Writing(96%))"
+    "_method": "flashtext_skills_section | fuzzy(Professional→Professional Tax(95%), professional→Professional Tax(95%), People Management→HR Management(100%), e-Governance→E-Governance(100%), User Manual→Technical Writing(96%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "🕾: +91-8393881701",
-        "location": "9410196049",
+        "role": "🕾: +91-8393881701, 9410196049",
+        "company": "Location",
+        "location": "Dehradun, Uttarakhand-248121",
         "start": "2019",
         "end": "2020",
-        "method": "year_range_short_regex+comma_company_location",
+        "method": "year_range_short_regex+multiline_role_above_company",
         "duration_months": 13,
+        "bullets": [
+          "Working with Ernst&Young LLP as a senior consultant in Tech consulting from December 2025"
+        ],
+        "sub_sections": [
+          "#\tDesignation\tOrganization\tEmployment Duration"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "1\tProject Manager, UIDAI (Aadhaar)\tUIDAI Gov. of India on Roll of National Institute for Smart Government (NISG",
+        "company": "Location",
+        "location": "Dehradun, Uttarakhand-248121",
+        "start": "September 2022",
+        "end": "November 2025",
+        "method": "date_regex+date_prefix_title+inherited_company",
+        "duration_months": 39,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -159,37 +187,23 @@
         "source": "experience"
       },
       {
-        "role": "senior consultant in Tech consulting from",
-        "company": "Ernst&Young LLP",
-        "location": null,
-        "start": "December 2025",
-        "end": "Present",
-        "method": "single_date_regex+with_as_split",
-        "duration_months": 10,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "State Project Coordinator",
-        "company": "2",
-        "location": null,
+        "role": "2\tState Project Coordinator\tDepartment of Information Technology Electronics & Communication Government of Haryana on roll of National Institute of Electronics & Information Technology (NIELIT",
+        "company": "Location",
+        "location": "Dehradun, Uttarakhand-248121",
         "start": "October 2020",
         "end": "September 2022",
-        "method": "date_regex+tab_split",
+        "method": "date_regex+date_prefix_title+inherited_company",
         "duration_months": 24,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "3\tE-District Manager\tDEGS (ITDA) Government of Uttarakhand",
-        "company": "2",
-        "location": null,
+        "company": "Location",
+        "location": "Dehradun, Uttarakhand-248121",
         "start": "November 2014",
         "end": "September 2020",
         "method": "date_regex+date_prefix_title+inherited_company",
@@ -202,11 +216,11 @@
       },
       {
         "role": "4\tAssociate",
-        "company": "Network Management\tNational Informatics Center , Govt of India on roll of  Wipro InfoTech",
+        "company": "Network Management\tNational Informatics Center, Govt of India on roll of  Wipro InfoTech",
         "location": null,
         "start": "September 2012",
         "end": "November 2014",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 27,
         "bullets": [],
         "sub_sections": [],
@@ -215,17 +229,17 @@
         "source": "experience"
       },
       {
-        "role": "Network Engineer",
-        "company": "5",
+        "role": "5\tNetwork Engineer\tNational Informatics Center (NIC), Govt of India on roll of  H. C.L INFOSYSTEMS Ltd",
+        "company": "5\tNetwork Engineer\tNational Informatics Center , Govt of India on roll of  H. C.L INFOSYSTEMS Ltd",
         "location": null,
         "start": "December 2009",
         "end": "June 2012",
-        "method": "date_regex+tab_split",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -234,7 +248,7 @@
         "location": null,
         "start": "June 2007",
         "end": "December 2009",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 31,
         "bullets": [],
         "sub_sections": [],
@@ -245,11 +259,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 16.0,
-      "total_months": 192,
-      "overlapping_periods_merged": 3
+      "total_years": 18.3,
+      "total_months": 220,
+      "overlapping_periods_merged": 4
     },
-    "_confidence": 0.9
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -381,12 +395,17 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },
@@ -397,6 +416,11 @@
     },
     {
       "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[5]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

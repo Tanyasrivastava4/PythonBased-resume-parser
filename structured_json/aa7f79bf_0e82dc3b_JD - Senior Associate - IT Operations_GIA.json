@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "aa7f79bf_0e82dc3b_JD - Senior Associate - IT Operations_GIA_segmented.txt",
-    "generated_at": "2026-09-30T06:59:59.459298+00:00",
+    "generated_at": "2026-10-07T09:27:47.645728+00:00",
     "sections_found": [
       "education",
       "header",
@@ -54,6 +54,7 @@
       "DNS",
       "Firewall",
       "IT Ops",
+      "ITIL",
       "Incident Management",
       "Information Security",
       "Linux",
@@ -88,6 +89,9 @@
       "domain": [
         "IT Ops"
       ],
+      "management": [
+        "ITIL"
+      ],
       "security": [
         "Incident Management",
         "Information Security"
@@ -103,8 +107,8 @@
         "Procurement"
       ]
     },
-    "_confidence": 0.75,
-    "_method": "flashtext_full_text_fallback"
+    "_confidence": 0.92,
+    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
   },
   "experience": {
     "jobs": [],
@@ -118,6 +122,17 @@
   },
   "education": {
     "entries": [
+      {
+        "degree": "• Any Bachelor's degree with 7-10 years of relevant experience",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": null,
+        "year": null,
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.65
+      },
       {
         "degree": "• Certifications such as CCNA, AWS, Azure, Windows, Linux, ITIL will be an advantage",
         "degree_name": "B.E.",
@@ -141,7 +156,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.77
+    "overall": 0.82
   },
   "_needs_review": true,
   "_review_queue": [

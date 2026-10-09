@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "db63ef5b_7a88bbfc_Animesh Pandey- Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:31.599218+00:00",
+    "generated_at": "2026-10-07T09:28:29.612533+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -57,6 +57,7 @@
       "Django",
       "Docker",
       "FastAPI",
+      "Firebase",
       "Flask",
       "Flutter",
       "LLM",
@@ -78,10 +79,8 @@
         "AWS",
         "Azure"
       ],
-      "programming_language": [
-        "Dart",
-        "Python",
-        "TypeScript"
+      "programming": [
+        "Dart"
       ],
       "ai_ml": [
         "Data Science",
@@ -97,6 +96,10 @@
       "devops": [
         "Docker"
       ],
+      "database": [
+        "Firebase",
+        "MySQL"
+      ],
       "mobile": [
         "Flutter"
       ],
@@ -106,8 +109,9 @@
         "LangGraph",
         "RAG"
       ],
-      "database": [
-        "MySQL"
+      "programming_language": [
+        "Python",
+        "TypeScript"
       ],
       "integration": [
         "REST"
@@ -127,11 +131,11 @@
       {
         "role": "Associate Consultant Developer – Full Time",
         "company": "Oodles Technologies",
-        "location": "Associate Consultant Developer – Full Time",
+        "location": null,
         "start": "Nov 2024",
         "end": "Ongoing",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 23,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 24,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -141,10 +145,10 @@
       {
         "role": "Flutter developer intern - Intern",
         "company": "Madrocket Technologies",
-        "location": "Flutter developer intern - Intern,  Utilized the",
+        "location": null,
         "start": "March 2024",
         "end": "Sep 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 7,
         "bullets": [
           "knowledge of Flutter and Dart to create multiple applications.",
@@ -159,8 +163,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.5,
-      "total_months": 30,
+      "total_years": 2.6,
+      "total_months": 31,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

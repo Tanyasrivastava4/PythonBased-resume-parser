@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cc82edd8_fa366db7_Naukri_SANUKUMARROY[4y_5m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:21.494223+00:00",
+    "generated_at": "2026-10-07T09:28:17.229955+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,35 +47,59 @@
   "summary": "Playwright Automation Test Engineer with 4.5+ years of\nexperience in designing scalable UI/API automation\nframeworks using Playwright, JavaScripT and modern\nDevOps workflows. Strong expertise in GenAI-powered\ntesting, CI/CD (Jenkins, GitHub Actions), cloud-based\nexecution (AWS), and API validation using Playwright &\nPostman. Skilled in building robust POM frameworks,\nimplementing parallel execution, optimizing selectors with\nLLMs, and improving automation coverage by 60–80%.\nProven ability to deliver fast, stable, high-quality releases in\nremote and onsite Agile environments while collaborating\nglobally across cross-functional teams.",
   "skills": {
     "items": [
+      "API Testing",
       "AWS",
       "Agile",
+      "Analyze",
       "CI/CD",
       "Collaboration",
+      "Cross-Browser Testing",
       "Cross-functional Collaboration",
       "DevOps",
+      "Functional Testing",
       "Generative AI",
       "Git",
       "GitHub",
       "GitHub Actions",
+      "GitHub Copilot",
       "JavaScript",
       "Jenkins",
       "Jest",
+      "Jira",
       "LLM",
+      "LinkedIn",
       "MCP Server",
       "Microsoft Teams",
+      "Page Object Model",
       "Playwright",
       "Postman",
       "Prompt Engineering",
+      "Quality Assurance",
+      "Regression Testing",
       "Reporting",
       "Selenium",
-      "TypeScript"
+      "TypeScript",
+      "Usability Testing",
+      "Value Analysis"
     ],
     "by_category": {
+      "testing": [
+        "API Testing",
+        "Functional Testing",
+        "Jest",
+        "Playwright",
+        "Selenium"
+      ],
       "cloud_infra": [
         "AWS"
       ],
       "project_mgmt": [
-        "Agile"
+        "Agile",
+        "Jira"
+      ],
+      "data_science": [
+        "Analyze",
+        "Value Analysis"
       ],
       "devops": [
         "CI/CD",
@@ -88,8 +112,13 @@
         "Cross-functional Collaboration",
         "Reporting"
       ],
+      "security_ops": [
+        "Cross-Browser Testing",
+        "Regression Testing"
+      ],
       "genai": [
         "Generative AI",
+        "GitHub Copilot",
         "LLM",
         "MCP Server",
         "Prompt Engineering"
@@ -103,13 +132,20 @@
         "JavaScript",
         "TypeScript"
       ],
-      "testing": [
-        "Jest",
-        "Playwright",
-        "Selenium"
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "software": [
+        "Page Object Model"
+      ],
+      "operations": [
+        "Quality Assurance"
+      ],
+      "design": [
+        "Usability Testing"
       ]
     },
     "_confidence": 0.92,
@@ -119,12 +155,16 @@
     "jobs": [
       {
         "role": "Freelance Automation Test Engineer",
-        "company": "Upwork, Fiverr",
-        "location": "uTest",
+        "company": "Upwork, Fiverr, uTest",
+        "location": "Testlio",
         "start": "08/2024",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 26,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Freelance Automation Test Engineer",
+          "Upwork, Fiverr, uTest, Testlio"
+        ],
+        "duration_months": 27,
         "bullets": [
           "(JavaScript) for UI, functional, and regression testing. Designed reusable Page Object Model (POM) frameworks",
           "for scalable automation. Performed API testing using Playwright request context",
@@ -160,10 +200,14 @@
       {
         "role": "QA Engineer",
         "company": "Crestech Software Systems",
-        "location": "Gurgaon",
+        "location": null,
         "start": "07/2021",
         "end": "07/2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "QA Engineer",
+          "Crestech Software Systems"
+        ],
         "duration_months": 37,
         "bullets": [
           "automation frameworks using JavaScript for large-scale web and API testing. Implemented Page Object Model (POM) and Data-Driven",
@@ -191,8 +235,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.2,
-      "total_months": 63,
+      "total_years": 5.3,
+      "total_months": 64,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

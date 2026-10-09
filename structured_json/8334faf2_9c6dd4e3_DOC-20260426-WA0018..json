@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8334faf2_9c6dd4e3_DOC-20260426-WA0018._segmented.txt",
-    "generated_at": "2026-09-30T06:59:27.833677+00:00",
+    "generated_at": "2026-10-07T09:27:06.388251+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,8 +48,8 @@
   "skills": {
     "items": [
       "Attention to Detail",
-      "Collaboration",
-      "Control Testing",
+      "Auditing",
+      "Equities",
       "Financial Analysis",
       "Financial Reporting",
       "Financial Statement Analysis",
@@ -59,25 +59,32 @@
       "Microsoft Excel",
       "Problem Solving",
       "Professional Ethics",
+      "Report Writing",
+      "Reporting",
       "Risk Assessment",
-      "Statutory Audit"
+      "Standards on Auditing",
+      "Statutory Audit",
+      "Team Collaboration",
+      "Tests of Controls"
     ],
     "by_category": {
       "soft_skill": [
         "Attention to Detail",
-        "Collaboration",
-        "Problem Solving"
-      ],
-      "finance": [
-        "Control Testing",
-        "Financial Statement Analysis"
+        "Problem Solving",
+        "Reporting",
+        "Team Collaboration"
       ],
       "finance_ops": [
+        "Auditing",
         "Financial Analysis",
         "Financial Reporting",
         "IFRS",
         "Internal Controls Testing",
         "Statutory Audit"
+      ],
+      "finance": [
+        "Equities",
+        "Financial Statement Analysis"
       ],
       "web_framework": [
         "LinkedIn"
@@ -88,8 +95,17 @@
       "soft_skills": [
         "Professional Ethics"
       ],
+      "content": [
+        "Report Writing"
+      ],
       "compliance": [
         "Risk Assessment"
+      ],
+      "accounting_finance": [
+        "Standards on Auditing"
+      ],
+      "accounting": [
+        "Tests of Controls"
       ]
     },
     "_confidence": 0.92,
@@ -104,6 +120,10 @@
         "start": "June 2025",
         "end": "August 2025",
         "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Equity research and Financial Analysis Intern",
+          "Remote – Hedge equities Palarivattom"
+        ],
         "duration_months": 3,
         "bullets": [
           "Conducted macroeconomic and industry analysis to assess financial performance and business risks",
@@ -123,6 +143,10 @@
         "start": "July 2025",
         "end": "August 2025",
         "method": "date_regex+inherited_role",
+        "pre_date_header": [
+          "Internal audit",
+          "Remote - Goldman’s Sachs – Forage"
+        ],
         "duration_months": 2,
         "bullets": [
           "Performed risk-based audit procedures including control testing and evaluation of internal controls",
@@ -162,7 +186,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Education Vidya Vihar Central School Thrissur",
+        "institution": "Vidya Vihar Central School Thrissur",
         "year": "2023",
         "gpa": null,
         "_needs_review": false,

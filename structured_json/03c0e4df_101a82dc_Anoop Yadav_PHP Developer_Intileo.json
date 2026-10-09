@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "03c0e4df_101a82dc_Anoop Yadav_PHP Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:45.755931+00:00",
+    "generated_at": "2026-10-07T10:30:37.834237+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -50,16 +50,20 @@
       "API Design",
       "Bootstrap",
       "CSS3",
+      "Communication",
       "Git",
       "HTML5",
       "JavaScript",
       "Laravel",
       "MySQL",
+      "Next.js",
       "PHP",
+      "Product Management",
       "REST",
       "REST API",
       "React",
       "Redux",
+      "SQL",
       "jQuery"
     ],
     "by_category": {
@@ -69,6 +73,7 @@
         "CSS3",
         "HTML5",
         "Laravel",
+        "Next.js",
         "REST API",
         "React",
         "Redux",
@@ -76,6 +81,9 @@
       ],
       "architecture": [
         "API Design"
+      ],
+      "soft_skill": [
+        "Communication"
       ],
       "dev_tool": [
         "Git"
@@ -85,7 +93,11 @@
         "PHP"
       ],
       "database": [
-        "MySQL"
+        "MySQL",
+        "SQL"
+      ],
+      "project_mgmt": [
+        "Product Management"
       ],
       "integration": [
         "REST"
@@ -102,14 +114,14 @@
         "location": "Singsys, Lucknow",
         "start": "Feb 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 32,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 33,
         "bullets": [
           " Created REST APIs, Admin Panels, Dashboards & reusable modules.",
           " Led 3+ individual end-to-end projects (development deployment).",
           " Prepared scalable backend architecture & optimized SQL operations. ‘* Software Engineer Angel Pearl Infotech, Rajkot (Gujarat) Sep 2022 Feb 2024 — - Built and maintained Laravel-based web applications. © Developed secure API systems for web & mobile integration,",
           " Worked on feature updates, bug fixing & production enhancements.",
-          "",
+          " </> PROJECTS (All Included Requested) Maskmann Singsys — Built a dual-platform (Client & Expert) web application using Laravel and React.js, with RESTful API integration.",
           " — Next.js customer platform built with Laravel API integration & chat feature implementation",
           "SetSum Singsys — Developed REST APIs & admin functionality using Laravel",
           "Stevie Wash Singsys — Developed Admin Panel & API architecture for service management system.",
@@ -119,11 +131,6 @@
           " React-based frontend + Laravel backend & API integration for dynamic dashboard."
         ],
         "sub_sections": [
-          "</> PROJECTS (All Included Requested)",
-          "as",
-          "Maskmann Singsys",
-          "—",
-          "Built a dual-platform (Client & Expert) web application using Laravel and React.js, with RESTful API integration.",
           "Corporate Supplier (Avon) Singsys",
           "EmpowerEd Singsys",
           "©",
@@ -139,8 +146,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.7,
-      "total_months": 32,
+      "total_years": 2.8,
+      "total_months": 33,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.7
@@ -152,11 +159,22 @@
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "Computer Science & Engineering",
-        "institution": "Feroze Gandhi Polytechnic Raebareli",
+        "institution": "S.N.V.M. School Raebareli",
         "year": "2022",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
+      },
+      {
+        "degree": "Feroze Gandhi Polytechnic, Raebareli",
+        "degree_name": "Diploma",
+        "degree_type": "diploma",
+        "degree_field": null,
+        "institution": null,
+        "year": "2016",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.8
       },
       {
         "degree": "Intermediate (12th Grade)",
@@ -174,14 +192,14 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "S.N.V.M. School Raebareli",
+        "institution": "V.LC. Inter College Raebareli",
         "year": null,
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.65
       }
     ],
-    "_confidence": 0.85
+    "_confidence": 0.8
   },
   "certifications": {
     "items": [],
@@ -192,7 +210,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [

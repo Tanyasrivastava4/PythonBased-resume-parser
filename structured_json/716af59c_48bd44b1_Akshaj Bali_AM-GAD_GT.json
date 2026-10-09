@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "716af59c_48bd44b1_Akshaj Bali_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:13.471593+00:00",
+    "generated_at": "2026-10-07T09:26:49.447664+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,25 +47,47 @@
   "skills": {
     "items": [
       "Auditing",
+      "Brand Management",
+      "Business Planning",
       "Collaboration",
       "Communication",
+      "Content Writing",
+      "Coroutines Flow",
+      "Data Analytics",
       "Internal Financial Controls",
       "Leadership",
       "MS Office",
       "Management Consulting",
+      "Market Research",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Teams",
       "Microsoft Word",
+      "Order-to-Cash",
+      "Payroll Administration",
       "Pinterest",
+      "Process Improvement",
+      "Procure-to-Pay",
+      "Risk Assessment",
       "Risk Management",
       "SAP S/4HANA",
+      "SEO",
+      "SOX",
       "SOX 404",
       "Stakeholder Management"
     ],
     "by_category": {
       "finance_ops": [
-        "Auditing"
+        "Auditing",
+        "SOX"
+      ],
+      "marketing": [
+        "Brand Management",
+        "Market Research",
+        "SEO"
+      ],
+      "biz_dev": [
+        "Business Planning"
       ],
       "soft_skill": [
         "Collaboration",
@@ -73,8 +95,19 @@
         "Leadership",
         "Stakeholder Management"
       ],
+      "content": [
+        "Content Writing"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "data_science": [
+        "Data Analytics"
+      ],
       "finance": [
-        "Internal Financial Controls"
+        "Internal Financial Controls",
+        "Order-to-Cash",
+        "Procure-to-Pay"
       ],
       "productivity": [
         "MS Office",
@@ -86,8 +119,17 @@
       "consulting": [
         "Management Consulting"
       ],
+      "hr": [
+        "Payroll Administration"
+      ],
       "search": [
         "Pinterest"
+      ],
+      "operations": [
+        "Process Improvement"
+      ],
+      "compliance": [
+        "Risk Assessment"
       ],
       "project_mgmt": [
         "Risk Management"
@@ -110,8 +152,11 @@
         "location": null,
         "start": "Jul 2022",
         "end": "Current",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 51,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Consultant, Internal Audit – Ernst and Young (EY) LLP"
+        ],
+        "duration_months": 52,
         "bullets": [
           "Conducted business and risk reviews across multiple domains for various listed and unlisted clients.",
           "Independently led ~20 reviews within the domain of internal audit, risk consulting, process improvement and IFC / SOX testing within a span of 3 years for various listed and unlisted clients within industries such as textile, pharma, automotive and engineering.",
@@ -131,7 +176,11 @@
         "location": "Mohali",
         "start": "Jun 2021",
         "end": "Feb 2022",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "PREVIOUS EXPERIENCES",
+          "Marketing Executive – Blue Basic India, Mohali"
+        ],
         "duration_months": 9,
         "bullets": [
           "Handled marketing and sales for the brand and its subsidiaries within automotive industry.",
@@ -148,7 +197,10 @@
         "location": "Chandigarh",
         "start": "Apr 2021",
         "end": "Oct 2021",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Marketing Executive and Content Manager – Crea Brand Management, Chandigarh"
+        ],
         "duration_months": 7,
         "bullets": [
           "Handled marketing and advertising campaigns for numerous homegrown and international hospitality clients."
@@ -164,7 +216,10 @@
         "location": "Chandigarh",
         "start": "Mar 2021",
         "end": "Sep 2021",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Department Head (Women Empowerment) – Empowering Hands Foundation, Chandigarh"
+        ],
         "duration_months": 7,
         "bullets": [],
         "sub_sections": [],
@@ -173,12 +228,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Content Writer – Bewakoof Brands Private Limited",
+        "role": "Consultant, Internal Audit",
+        "company": "Ernst and Young (EY) LLP",
         "location": "Mumbai",
         "start": "Dec 2019",
         "end": "Dec 2020",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Content Writer – Bewakoof Brands Private Limited, Mumbai"
+        ],
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
@@ -189,8 +247,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.3,
-      "total_months": 76,
+      "total_years": 6.4,
+      "total_months": 77,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.89
@@ -204,9 +262,9 @@
         "degree_field": "Financial Market",
         "institution": "Kishinchand Chellaram College University of Mumbai",
         "year": "2019 - 2022",
-        "gpa": "8.93",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Central Board of Secondary Education (CBSE) (Class - XII) - Commerce",
@@ -220,7 +278,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -231,7 +289,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [

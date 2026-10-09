@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "df571e1e_8e4a6487_PrateekCV (1)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:32.988530+00:00",
+    "generated_at": "2026-10-07T09:28:31.550232+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -60,17 +60,21 @@
       "DevOps",
       "Django",
       "Docker",
+      "FAISS",
       "FastAPI",
+      "GPT",
       "Gemini",
       "Git",
       "GitHub",
       "HTML5",
+      "Hugging Face",
       "K-means Clustering",
       "LLM",
       "LLaMA",
       "LangChain",
       "LinkedIn",
       "Logistic Regression",
+      "MSSQL",
       "Machine Learning",
       "Matplotlib",
       "MySQL",
@@ -87,8 +91,12 @@
       "SQL",
       "Seaborn",
       "Selenium",
+      "Semantic Search",
+      "Streamlit",
       "TensorFlow",
       "Vector Databases",
+      "Vector Search",
+      "Vertex AI",
       "YOLO",
       "scikit-learn"
     ],
@@ -97,6 +105,7 @@
         "ANN",
         "CNN",
         "Deep Learning",
+        "GPT",
         "K-means Clustering",
         "Logistic Regression",
         "Machine Learning",
@@ -113,12 +122,16 @@
       "genai": [
         "Agentic AI",
         "Gemini",
+        "Hugging Face",
         "LLM",
         "LLaMA",
         "LangChain",
         "OpenAI API",
         "RAG",
-        "Vector Databases"
+        "Semantic Search",
+        "Vector Databases",
+        "Vector Search",
+        "Vertex AI"
       ],
       "library": [
         "BeautifulSoup"
@@ -141,12 +154,17 @@
         "Decision Trees",
         "Power BI"
       ],
+      "search": [
+        "FAISS"
+      ],
       "dev_tool": [
         "Git",
         "GitHub",
-        "Postman"
+        "Postman",
+        "Streamlit"
       ],
       "database": [
+        "MSSQL",
         "MySQL",
         "PostgreSQL",
         "SQL"
@@ -165,12 +183,15 @@
     "jobs": [
       {
         "role": "Python AI Developer",
-        "company": "VOCSO Technologies Pvt. Ltd",
-        "location": null,
+        "company": "Faridabad",
+        "location": "Haryana",
         "start": "December 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 22,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "VOCSO Technologies Pvt. Ltd."
+        ],
+        "duration_months": 23,
         "bullets": [
           "Built intelligent systems using FastAPI, OpenAI APIs, MSSQL, and FAISS for vector search.",
           "Developed backend architecture for LLM-based enterprise tools and prompt-driven platforms.",
@@ -184,46 +205,50 @@
       },
       {
         "role": "AI Developer",
-        "company": "Clothwari Printing Pvt. Ltd",
+        "company": "Generated images using Gemini and OpenAI with Vertex AI tools based on text prompts.",
         "location": null,
         "start": "May 2024",
         "end": "September 2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Clothwari Printing Pvt. Ltd."
+        ],
         "duration_months": 5,
         "bullets": [
-          "Generated images using Gemini and OpenAI with Vertex AI tools based on text prompts.",
           "Built image prediction models and automated image generation pipelines."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
         "role": "Machine Learning Intern",
-        "company": "Surepass Technologies Pvt. Ltd",
+        "company": "Processed text image data using YOLOv8, DeepFace, built a passport recognition system.",
         "location": null,
         "start": "March 2024",
         "end": "May 2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Surepass Technologies Pvt. Ltd."
+        ],
         "duration_months": 3,
         "bullets": [
-          "Processed text image data using YOLOv8, DeepFace, built a passport recognition system.",
           "Created desktop apps using Tkinter and Streamlit for data interface"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.4,
-      "total_months": 29,
+      "total_years": 2.5,
+      "total_months": 30,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.79
   },
   "education": {
     "entries": [
@@ -234,7 +259,7 @@
         "degree_field": "Master of Computer Applications",
         "institution": "Master of Computer Applications Dr. RML Avadh University",
         "year": "2021 - 2023",
-        "gpa": "69.5%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -245,7 +270,7 @@
         "degree_field": "Bachelor of Computer Applications",
         "institution": "Bachelor of Computer Applications Dr. RML Avadh University",
         "year": "2018 - 2021",
-        "gpa": "67.7%",
+        "gpa": "69.5%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -261,8 +286,19 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.91
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

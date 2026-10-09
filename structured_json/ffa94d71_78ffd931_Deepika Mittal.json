@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ffa94d71_78ffd931_Deepika Mittal_segmented.txt",
-    "generated_at": "2026-09-30T07:00:55.506230+00:00",
+    "generated_at": "2026-10-07T09:29:01.506177+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,29 +47,65 @@
   "summary": "Talent Acquisition professional with 11+ years of experience in global hiring across\nTechnology, Analytics, and Consulting domains. Experienced in managing end-to-end\nrecruitment lifecycle, stakeholder management, workforce planning, and global hiring\nacross India, US, and South Africa. Proven track record in improving offer-to-join ratio,\nreducing time-to-hire, and building strong sourcing pipelines through LinkedIn, referrals,\nand job portals.",
   "skills": {
     "items": [
+      "Employee Engagement",
+      "Go",
+      "HR Management",
+      "HRIS",
+      "HRMS",
+      "Leadership",
       "LinkedIn",
+      "Microsoft Teams",
+      "Negotiation",
+      "Onboarding",
       "Procurement",
+      "Project Management",
+      "Ratio Analysis",
       "Recruitment",
       "Resource Planning",
+      "SDLC",
       "Stakeholder Management",
-      "Talent Management"
+      "Talent Management",
+      "Turnaround Time"
     ],
     "by_category": {
+      "hr": [
+        "Employee Engagement",
+        "HR Management",
+        "HRIS",
+        "HRMS",
+        "Onboarding",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "programming_language": [
+        "Go"
+      ],
+      "soft_skill": [
+        "Leadership",
+        "Negotiation",
+        "Stakeholder Management"
+      ],
       "web_framework": [
         "LinkedIn"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "operations": [
         "Procurement"
       ],
-      "hr": [
-        "Recruitment",
-        "Talent Management"
-      ],
       "project_mgmt": [
+        "Project Management",
         "Resource Planning"
       ],
-      "soft_skill": [
-        "Stakeholder Management"
+      "finance_ops": [
+        "Ratio Analysis"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "management": [
+        "Turnaround Time"
       ]
     },
     "_confidence": 0.92,
@@ -78,12 +114,15 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Talent Partner Chryselys Consulting Ltd",
+        "role": "Talent Partner",
+        "company": "Chryselys Consulting Ltd",
         "location": null,
         "start": "2024",
         "end": "2025",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Talent Partner"
+        ],
         "duration_months": 13,
         "bullets": [
           "Managed end-to-end hiring for 30–40 technology and business roles annually.",
@@ -93,36 +132,43 @@
           "Developed recruitment dashboards to track hiring pipeline and workforce metrics."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Talent Acquisition Specialist Sincera Consulting Ltd",
-        "company": "Acted as recruitment SPOC for hiring managers, ensuring smooth hiring coordination.",
+        "role": "Talent Acquisition Specialist",
+        "company": "Sincera Consulting Ltd",
         "location": null,
         "start": "2021",
         "end": "2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Talent Acquisition Specialist"
+        ],
         "duration_months": 37,
         "bullets": [
           "Led global recruitment across India, US, and South Africa for technology roles.",
           "Delivered 45+ hires within 17 months across critical technical positions.",
           "Built multi-channel sourcing strategy including LinkedIn, referrals, job portals, and campus hiring.",
+          "Acted as recruitment SPOC for hiring managers, ensuring smooth hiring coordination.",
           "Improved onboarding turnaround time by 40% through structured recruitment processes."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Assistant Manager",
-        "company": "Talent Management Randstad",
+        "company": "Talent Management",
         "location": null,
         "start": "2017",
         "end": "2018",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Assistant Manager – Talent Management"
+        ],
         "duration_months": 13,
         "bullets": [
           "Managed end-to-end onboarding operations for 70–100 hires annually.",
@@ -137,11 +183,14 @@
       },
       {
         "role": "Functional Consultant",
-        "company": "HRIS Global Groupware Solutions Ltd",
+        "company": "HRIS",
         "location": null,
         "start": "2012",
         "end": "2014",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Functional Consultant – HRIS"
+        ],
         "duration_months": 25,
         "bullets": [
           "Implemented HRMS solutions for 10+ corporate clients annually.",
@@ -154,12 +203,15 @@
         "source": "experience"
       },
       {
-        "role": "(Moody’s Group",
-        "company": null,
+        "role": "Senior Executive – HR Operations",
+        "company": "Copal Research (Moody’s Group",
         "location": null,
         "start": "2010",
         "end": "2012",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Executive – HR Operations"
+        ],
         "duration_months": 25,
         "bullets": [
           "Managed employee onboarding, HR operations, and engagement initiatives.",
@@ -167,24 +219,28 @@
           "Designed employee engagement initiatives to improve retention."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Software Engineer Infosys Technologies Ltd",
-        "company": "Worked on software development lifecycle and testing activities.",
+        "role": "Software Engineer",
+        "company": "Infosys Technologies Ltd",
         "location": null,
         "start": "2005",
         "end": "2007",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Engineer"
+        ],
         "duration_months": 25,
         "bullets": [
+          "Worked on software development lifecycle and testing activities.",
           "Coordinated with project teams to ensure timely project delivery."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -194,7 +250,7 @@
       "total_months": 136,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -244,29 +300,8 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9bb295a4_Naukri_PritiThorat[8y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:49.687001+00:00",
+    "generated_at": "2026-10-07T09:27:34.855330+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -56,18 +56,20 @@
       "Bank Reconciliation",
       "Communication",
       "Creativity",
-      "Disaster Recovery",
+      "Data Migration",
       "Effort Estimation",
+      "FSD",
       "Go",
       "Google",
-      "IDS/IPS",
       "Interpersonal Skills",
       "Inventory Management",
-      "Mechanical Engineering",
       "NetSuite",
+      "Oracle Database",
       "Payments",
       "Procure-to-Pay",
-      "Project Management",
+      "Purchase Orders",
+      "Saved Searches",
+      "Self Motivation",
       "Supply Chain Management",
       "Technical Writing",
       "Trial Balance",
@@ -85,34 +87,33 @@
         "Adaptability",
         "Communication",
         "Creativity",
-        "Interpersonal Skills"
+        "Interpersonal Skills",
+        "Self Motivation"
       ],
       "business_analysis": [
-        "BRD"
+        "BRD",
+        "FSD"
       ],
       "accounting": [
         "Bank Reconciliation"
       ],
-      "operations": [
-        "Disaster Recovery",
-        "Inventory Management",
-        "Supply Chain Management"
+      "data engineering": [
+        "Data Migration"
       ],
       "project_mgmt": [
-        "Effort Estimation",
-        "Project Management"
+        "Effort Estimation"
       ],
       "programming_language": [
         "Go"
       ],
       "database": [
-        "Google"
+        "Google",
+        "Oracle Database"
       ],
-      "security_ops": [
-        "IDS/IPS"
-      ],
-      "engineering": [
-        "Mechanical Engineering"
+      "operations": [
+        "Inventory Management",
+        "Purchase Orders",
+        "Supply Chain Management"
       ],
       "netsuite": [
         "NetSuite"
@@ -123,6 +124,9 @@
       "finance": [
         "Procure-to-Pay",
         "Trial Balance"
+      ],
+      "erp": [
+        "Saved Searches"
       ],
       "content": [
         "Technical Writing"
@@ -135,7 +139,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Cloudtech→AWS CloudWatch(84%), Cloudtech→AWS CloudWatch(84%), Communication”→Communication(96%), Cloudtech→AWS CloudWatch(84%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(self- motivation→Self Motivation(97%), Cloudtech→AWS CloudWatch(84%), Cloudtech→AWS CloudWatch(84%), Communication”→Communication(96%), Cloudtech→AWS CloudWatch(84%))"
   },
   "experience": {
     "jobs": [
@@ -146,7 +150,7 @@
         "start": "June 2023",
         "end": "Present",
         "method": "date_regex",
-        "duration_months": 40,
+        "duration_months": 41,
         "bullets": [
           "Position: Sr. Associate",
           "Requirement gathering and BRD preparation for one world instance",
@@ -156,7 +160,8 @@
           "Report customization and Saved searches",
           "Bank Reconciliation with CAMT.053 statement format",
           "Data Migration – Trial Balance",
-          "Post Go live support"
+          "Post Go live support",
+          "Yantra Tech Innovation Lab Pvt. Ltd."
         ],
         "sub_sections": [
           "Domain Media and Technology Service Provider"
@@ -210,7 +215,8 @@
           "Value limit logic calculation by using formulas in workflow",
           "DocuSign setup",
           "Sign off document preparation for each phase of implementation",
-          "Reports preparation for TAT analysis"
+          "Reports preparation for TAT analysis",
+          "Inspirria Cloudtech pvt. Ltd."
         ],
         "sub_sections": [
           "Domain Grocery Service Provider",
@@ -223,7 +229,7 @@
       },
       {
         "role": null,
-        "company": "Working on One world account with 6 Subsidiaries: Indonesia, China, Srilanka,",
+        "company": "Nov’",
         "location": null,
         "start": "2016",
         "end": "May 2021",
@@ -231,6 +237,7 @@
         "duration_months": 65,
         "bullets": [
           "Position: Functional Consultant Domain Domain Water Water Purifier Purifier Busin Business",
+          "Working on One world account with 6 Subsidiaries: Indonesia, China, Srilanka,",
           "Created workflows for various functionality like phone number validations, field enable/disable & mandatory/Non-mandatory, Approval routing, etc.",
           "Lead the project of NetSuite and Google map integration",
           "Installed and configured NetSuite bundle like sticky notes, SuiteSocial, etc.",
@@ -267,7 +274,7 @@
           "Domain Domain",
           "Domain Domain SCM Restaqurant Restaurant"
         ],
-        "confidence": 0.55,
+        "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
       }
@@ -275,10 +282,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 10.8,
-      "total_months": 129,
+      "total_months": 130,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.75
+    "_confidence": 0.85
   },
   "education": {
     "entries": [
@@ -470,7 +477,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
@@ -486,7 +493,7 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.55,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

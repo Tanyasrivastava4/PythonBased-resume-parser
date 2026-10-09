@@ -2,7 +2,7 @@
 FILE: bd4ea8d1_b723b654_Jashanjot-sing-resume-cv_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'projects', 'skills', 'summary']
-Overall conf.  : 0.88
+Overall conf.  : 0.86
 Needs review   : True
 
 CONTACT
@@ -20,16 +20,16 @@ Aspiring Software Developer with expertise in Python, Django, AI/ML, and Web Aut
 efficient, scalable solutions and leveraging AI for automation. Seeking an opportunity to apply technical skills in a dynamic
 environment.
 
-SKILLS (22) — confidence 0.92
+SKILLS (30) — confidence 0.92
 ----------------------------------------------------------------------
-C++, CCNA, ChromaDB, Django, LLM, Machine Learning, MongoDB, MySQL, NLP, Networking, NumPy, Ollama, OpenAI API, Pandas, Playwright, Prompt Engineering, Python, Qdrant, RAG, Spring, Streamlit, scikit-learn
+Agentic AI, AutoGen, C++, CCNA, ChromaDB, CrewAI, Django, FastAPI, Identity Management, LLM, LLaMA, LangChain, Machine Learning, MongoDB, MySQL, NLP, Networking, NumPy, Nutrition, Ollama, OpenAI API, Pandas, Playwright, Prompt Engineering, Python, Qdrant, RAG, Spring, Streamlit, scikit-learn
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
-Total experience: 1.7 years (20 months, 1 overlaps merged)
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.89
+Total experience: 1.8 years (21 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. Developer @ AI Agent Framework for Web Automation (02/2025 - 05/2025) [conf 0.98, review=False]
+  1. AI Developer @ AI Agent Framework for Web Automation (02/2025 - 05/2025) [conf 0.98, review=False]
   2. AIML Developer @ Xpedicr Pvt LTD (05/2025 - 09/2025) [conf 0.98, review=False]
-  3. AI Engineer @ Future Tech IT Global (Equiax (10/2025 - Present) [conf 0.98, review=False]
+  3. AI Engineer @ Fine-tuned custom LLMs for domain-specific performance improvements. (10/2025 - Present) [conf 0.7, review=True]
 
 EDUCATION (1) — confidence 0.95
 ----------------------------------------------------------------------
@@ -44,8 +44,9 @@ CERTIFICATIONS (6) — confidence 0.6
   5. Singh Bahadur Engineering — None (None) [conf 0.6]
   6. of C-DAC — None (None) [conf 0.6]
 
-REVIEW QUEUE (7 flagged fields)
+REVIEW QUEUE (8 flagged fields)
 ----------------------------------------------------------------------
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.6  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields
   certifications.items[1]             conf=0.6  reason=incomplete_fields

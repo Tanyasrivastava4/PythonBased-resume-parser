@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c519f6b3_2cd66eba_Naukri_MohanKumar[13y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:18.362608+00:00",
+    "generated_at": "2026-10-07T09:28:13.247678+00:00",
     "sections_found": [
       "achievements",
       "declaration",
@@ -53,12 +53,15 @@
       "B2B Sales",
       "BigQuery",
       "Campaign Management",
-      "Client Relationship Management",
       "Communication",
+      "Coroutines Flow",
+      "Creativity",
+      "Customer Relationship Management",
       "Customer Service",
       "Data Analysis",
       "Digital Transformation",
       "E-learning",
+      "Finacle",
       "HR Management",
       "Interpersonal Skills",
       "Lead Generation",
@@ -70,11 +73,14 @@
       "Problem Solving",
       "Procurement",
       "Product Management",
+      "Production Support",
       "RBI",
       "Recruitment",
       "Regulatory Compliance",
-      "SOP",
+      "SOP Development",
       "Sales Management",
+      "Straight-Through Processing",
+      "Team Coordination",
       "Telecalling",
       "Time Management"
     ],
@@ -91,6 +97,7 @@
       ],
       "sales": [
         "B2B Sales",
+        "Customer Relationship Management",
         "Lead Generation",
         "Sales Management",
         "Telecalling"
@@ -102,17 +109,20 @@
         "Campaign Management",
         "Market Research"
       ],
-      "client_mgmt": [
-        "Client Relationship Management",
-        "Customer Service"
-      ],
       "soft_skill": [
         "Communication",
+        "Creativity",
         "Interpersonal Skills",
         "Leadership",
         "Mentoring",
         "Problem Solving",
         "Time Management"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "client_mgmt": [
+        "Customer Service"
       ],
       "data_science": [
         "Data Analysis"
@@ -122,6 +132,9 @@
       ],
       "education_domain": [
         "E-learning"
+      ],
+      "fintech": [
+        "Finacle"
       ],
       "hr": [
         "HR Management",
@@ -135,49 +148,66 @@
       ],
       "operations": [
         "Procurement",
-        "SOP"
+        "SOP Development"
       ],
       "project_mgmt": [
         "Product Management"
       ],
+      "it_operations": [
+        "Production Support"
+      ],
       "legal": [
         "Regulatory Compliance"
+      ],
+      "banking": [
+        "Straight-Through Processing"
+      ],
+      "management": [
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(People management→HR Management(100%), problem-solving→Problem Solving(100%), Campaign management→Campaign Management(100%), Data analysis→Data Analysis(100%), Lead generation→Lead Generation(100%))"
+    "_method": "flashtext_skills_section | fuzzy(People management→HR Management(100%), Product support→Production Support(91%), Team Management→Team Coordination(100%), problem-solving→Problem Solving(100%), Campaign management→Campaign Management(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Unknown - Role | Chief Manager – Tele sales",
-        "company": "Shriram finance limited from Nov 2023 to till date",
+        "role": "Unknown - Role | Chief Manager - Tele sales (Handling South India leads",
+        "company": "Organization: Shriram finance limited from",
         "location": null,
         "start": "Nov 2023",
         "end": "Present",
-        "method": "date_regex+subfield_label_company+title_dict",
-        "duration_months": 35,
+        "method": "date_regex+subfield_label_company+multiline_dash_split+company_suffix_match",
+        "pre_date_header": [
+          "Unknown - Role | Chief Manager – Tele sales (Handling South India leads)"
+        ],
+        "duration_months": 36,
         "bullets": [
           "Unknown - Description | Part of a Digital transformation and Strategy team Involved in developing process transformation for Tele sales vertical of Shriram Finance ltd.",
           "Building a Tele sales journey for lead generated via various touch point of investment, Insurance and landing products lead like Website journey, Shriram one app touch point, Chat Bot, Talk to US feature, Marketing Journeys, Affiliate marketing journeys.",
           "Responsibility: Managing Tele sales outbound team of Investment and lending (South India) Coordinating with all internal stakeholders and external stakeholders to achieve the assigned target.",
           "Market analysis and product analysis for better improvement of launched products Cab analysis of all the business departments and providing necessary training support Post launching the products providing feedback and reviews to improve the further Process enhancement for existing process which used in the B2B environment.",
-          "Providing necessary strategy and process implementation updates to director’s levels Stakeholder for Call Centre Transformation and B2B application capability enhancement Revamping the existing process without impacting company’s regulations Lead conversion analysis for entire data movements."
+          "Providing necessary strategy and process implementation updates to director’s levels Stakeholder for Call Centre Transformation and B2B application capability enhancement"
         ],
-        "sub_sections": [
-          "SOLUTION ENVIRONMENT: CSMS"
-        ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Unknown - Role | Senior Manager – Tele sales call Centre",
-        "company": "HDFC Bank limited from Dec 2019 to Nov 2023",
+        "role": "Unknown - Role | Senior Manager - Tele sales call Centre (Retail asset and insurance products",
+        "company": "CAREER PROFILE: 5",
         "location": null,
         "start": "Dec 2019",
         "end": "Nov 2023",
-        "method": "date_regex+subfield_label_company+title_dict",
+        "method": "date_regex+subfield_label_company+multiline_dash_split",
+        "pre_date_header": [
+          "Revamping the existing process without impacting company’s regulations",
+          "Lead conversion analysis for entire data movements.",
+          "SOLUTION ENVIRONMENT: CSMS",
+          "CAREER PROFILE: 5",
+          "Unknown - Role | Senior Manager – Tele sales call Centre (Retail asset and insurance products)"
+        ],
         "duration_months": 48,
         "bullets": [
           "Description: Handling HDFC bank Tele sales team to drive the business.",
@@ -193,8 +223,8 @@
           "Additional responsibility:",
           "Responsible for audit and compliance of assigned products, ensure there is no bank policy and RBI regulatory violence on the digital products, if its find need to report to concern product team to rectify the same."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -204,24 +234,32 @@
         "start": "June 2019",
         "end": "Dec 2019",
         "method": "date_regex+subfield_label_company+title_dash_company",
+        "pre_date_header": [
+          "CAREER PROFILE: 4",
+          "Unknown - Role | Manager – Premier Acquisition (Business Banking)"
+        ],
         "duration_months": 7,
         "bullets": [
-          "Description: Business banking, handling high value CA customers Responsibility: Acquisition of NTB current account customers minimum value worth 1lakh and above"
+          "Description: Business banking, handling high value CA customers Responsibility:"
         ],
-        "sub_sections": [
-          "Asset management solutions up to 500cr"
-        ],
+        "sub_sections": [],
         "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Unknown - Role | Team Manager – Business Sales & Operations",
-        "company": "Bank Bazaar limited from Feb 2019 to June 2019",
+        "role": "Unknown - Role | Team Manager - Business Sales & Operations (Outbound",
+        "company": "CAREER PROFILE: 3",
         "location": null,
         "start": "Feb 2019",
         "end": "June 2019",
-        "method": "date_regex+subfield_label_company+title_dict",
+        "method": "date_regex+subfield_label_company+multiline_dash_split",
+        "pre_date_header": [
+          "Acquisition of NTB current account customers minimum value worth 1lakh and above",
+          "Asset management solutions up to 500cr",
+          "CAREER PROFILE: 3",
+          "Unknown - Role | Team Manager – Business Sales & Operations (Outbound)"
+        ],
         "duration_months": 5,
         "bullets": [
           "Description: Handling Bank Bazaar Tele calling team size of 75 members along with 3TL’s.",
@@ -233,21 +271,27 @@
           "Daily team huddles with TLs to understand officer’s concern and new update sharing.",
           "Team roster, leave shrinkage, UPL shrinkage handling.",
           "Adherence monitoring and short login management.",
-          "Additional responsibility: Working with sales team and finding scop of improvement on customer journey.",
-          "Providing feedback and improvement request which will help the sales team to achieve the target without compliance issue"
+          "Additional responsibility:"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Role: Associate Manger – Global Desk Organization: IndusInd bank limited from",
-        "company": "SOLUTION ENVIRONMENT : CSDB-CRM",
-        "location": "Ameyo",
+        "role": "Associate Manger – Global Desk",
+        "company": "IndusInd bank limited from July 2015 to January 2019",
+        "location": null,
         "start": "July 2015",
         "end": "January 2019",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+subfield_label_role+subfield_label_company",
+        "pre_date_header": [
+          "Working with sales team and finding scop of improvement on customer journey.",
+          "Providing feedback and improvement request which will help the sales team to achieve the target without compliance issue",
+          "SOLUTION ENVIRONMENT : CSDB-CRM, Ameyo – Dialer",
+          "CAREER PROFILE: 2",
+          "Role: Associate Manger – Global Desk"
+        ],
         "duration_months": 43,
         "bullets": [
           "Description: Building a new channel in Chennai which will have complete customer digital journeys with credit card and debit card process.",
@@ -255,40 +299,43 @@
           "Working with service delivery team and ensuring all the new products lunch logical testing, software enhancement, Customer engagement for feedback.",
           "Responsibility: Need to ensure all GD officers are equipped with Banking and Credit card process and           product knowledge Global desk hiring in Chennai location, attrition control and cross training process of the officers Working on End-to-End new process SOP creation, process flow, officers training and other unit training (Email channel banking and cards, SME team, compliant team) for contact Centre Additional responsibility: Dissemination file sharing for entire contact Centre for more than 150 team members"
         ],
-        "sub_sections": [
-          "AYIC audit for Chennai contact Centre",
-          "As a learning and development team involving various projects like new process and product implementation",
-          "SOLUTION ENVIRONMENT: ECS, ARIS, LOS, ACS, AIR2WEB, BITZZ, TALISMA, FINACLE, DCMS, REWARDS LOILTY, RED APP.IWORKS"
-        ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Unknown - Role | Junior Officer-Phone banking",
-        "company": "ADFC(HDFC Bank) from February 2012 to June 2015",
+        "role": "Unknown - Role | Junior Officer-Phone banking (Credit Cards",
+        "company": "CAREER PROFILE: 1",
         "location": null,
         "start": "February 2012",
         "end": "June 2015",
-        "method": "date_regex+subfield_label_company+title_dict",
+        "method": "date_regex+subfield_label_company+multiline_dash_split",
+        "pre_date_header": [
+          "AYIC audit for Chennai contact Centre",
+          "As a learning and development team involving various projects like new process and product implementation",
+          "SOLUTION ENVIRONMENT: ECS, ARIS, LOS, ACS, AIR2WEB, BITZZ, TALISMA, FINACLE, DCMS, REWARDS LOILTY, RED APP.IWORKS",
+          "CAREER PROFILE: 1",
+          "Unknown - Role | Junior Officer-Phone banking (Credit Cards)."
+        ],
         "duration_months": 41,
         "bullets": [
           "Description: Handled HDFC bank credit card inbound customer service Responsibility: Need to solve the customer queries & complaints such as address change, mobile number Change, charges reversals of the over limit charges, Finance charges reversals.",
           "SOLUTION ENVIRONMENT: CBCI, ELEARNING, LMS OF HDFC BANK."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 14.7,
-      "total_months": 176,
+      "total_years": 14.8,
+      "total_months": 177,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.75
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -334,32 +381,17 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[5]",
+      "field": "experience.jobs[4]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

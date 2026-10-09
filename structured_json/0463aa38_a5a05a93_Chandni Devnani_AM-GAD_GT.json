@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0463aa38_a5a05a93_Chandni Devnani_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:46.208735+00:00",
+    "generated_at": "2026-10-07T10:30:38.374788+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,27 +45,32 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounts Payable",
       "Accounts Receivable",
       "Aura",
       "ERP",
       "IFRS",
       "Internal Controls Testing",
+      "Legal Compliance",
       "MS Office",
       "Mentoring",
       "Microsoft Teams",
+      "Oracle Database",
       "Payroll Administration",
       "Problem Solving",
-      "Regulatory Compliance",
       "Resource Planning",
       "Risk Assessment",
       "SAP",
       "Statutory Audit",
       "Tally",
+      "Tax Auditing",
       "Team Leadership",
-      "Test of Details"
+      "Test of Details",
+      "Tests of Controls"
     ],
     "by_category": {
       "finance_ops": [
+        "Accounts Payable",
         "Accounts Receivable",
         "IFRS",
         "Internal Controls Testing",
@@ -79,6 +84,9 @@
       "erp": [
         "ERP"
       ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "productivity": [
         "MS Office",
         "Microsoft Teams"
@@ -88,11 +96,11 @@
         "Problem Solving",
         "Team Leadership"
       ],
+      "database": [
+        "Oracle Database"
+      ],
       "hr": [
         "Payroll Administration"
-      ],
-      "legal": [
-        "Regulatory Compliance"
       ],
       "project_mgmt": [
         "Resource Planning"
@@ -102,20 +110,26 @@
       ],
       "integration": [
         "SAP"
+      ],
+      "accounting_finance": [
+        "Tax Auditing"
+      ],
+      "accounting": [
+        "Tests of Controls"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Senior Associate",
-        "company": "PWC SDC (Kolkata) Private Limited",
+        "role": "PWC SDC (Kolkata) Private Limited | Senior Associate",
+        "company": "PWC SDC Private Limited",
         "location": null,
         "start": "05/2022",
         "end": "08/2025",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 40,
         "bullets": [],
         "sub_sections": [],
@@ -124,14 +138,15 @@
         "source": "experience"
       },
       {
-        "role": "Assistant",
-        "company": "Core experience in Accounts and Audit of AWM Industry as well as other sectors including Pensions.",
-        "location": "ArRcle",
+        "role": ". | ArRcle Assistant",
+        "company": "RSPH & Associates and JSS &Co",
+        "location": null,
         "start": "05/2017",
         "end": "11/2020",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 43,
         "bullets": [
+          "Core experience in Accounts and Audit of AWM Industry as well as other sectors including Pensions.",
           "AcMng as a Team Lead in the audit assignment of the listed company in the AWM Funds sector with aggregated revenue exceeding $ 1.6 Billion and many big private Fund Companies in AWM Sector. Performed Quarterly reviews, Statutory Audits, Tax Audits, and CerMficaMons under various tendering/regulatory requirements.",
           "DraWing audit plans, design and implementaMon of audit procedures in accordance with IFRS, which includes performing risk assessment of various FSLI’s, reviewing test of controls and test of details.",
           "Extensive experience leading a team of seven people during Audit Assignment.",
@@ -142,28 +157,28 @@
           "Prepared the comparaMve analysis and directly engaged with the client for the variance responses.",
           "Collaborated with the team to thoroughly assess the Management RepresentaMon Le_er.",
           "Involved in resource planning during the plan interim and final stage of audit.",
-          "IniMated weekly planning meeRngs and stand-up calls with the team to boost output tracking, resulMng in efficient staff management and acknowledgment from clients for Mmely deliverables."
+          "IniMated weekly planning meeRngs and stand-up calls with the team to boost output tracking, resulMng in efficient staff management and acknowledgment from clients for Mmely deliverables.",
+          "Acknowledged with many rewards from Onshore and team in recogniMon of excepMonal performance."
         ],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "sub_sections": [
+          "OTHER INFORMATIONS"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Honors & ▪ Appreciated by the Partner and Director of Onshore on several occasions",
-        "company": "OTHER INFORMATIONS",
+        "company": "Technical Skills MS Office | ERP – SAP, Oracle, Tally, EMS, Omnia, AURA, Connect, Disclosure Checklist | Financial reporMng –IFRS,INDAS",
         "location": null,
         "start": "2023",
         "end": "2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 13,
-        "bullets": [
-          "Awards ▪ Titled “Student of the year” and awarded with scholarships for three years by school authoriMes.",
-          "Technical Skills MS Office | ERP – SAP, Oracle, Tally, EMS, Omnia, AURA, Connect, Disclosure Checklist | Financial reporMng –IFRS,INDAS"
-        ],
+        "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
@@ -205,13 +220,13 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": null,
+        "year": "Mar 2015 - 2017",
         "gpa": "9.2",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.85
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [],
@@ -222,12 +237,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
+      "field": "experience.jobs[2]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7319daff_0809cf6c_Bipin Yadav_Network Security Team Lead_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:14.965771+00:00",
+    "generated_at": "2026-10-07T09:26:50.569126+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,30 +50,63 @@
   "skills": {
     "items": [
       "Active Directory",
+      "Asset Management",
+      "Azure",
+      "Canva",
+      "Communication",
+      "Content Marketing",
       "DHCP",
       "DNS",
       "Data Science",
+      "Digital Marketing",
       "Disaster Recovery",
       "Endpoint Security",
+      "Ethical Hacking",
+      "Facebook",
       "Firewall",
       "Fortinet",
+      "Google Meet",
       "Group Policy",
       "IT Infrastructure Management",
+      "ITIL",
       "Incident Management",
+      "Instagram",
+      "LAN",
+      "LinkedIn",
       "Linux",
       "Log Analysis",
+      "Microsoft Defender",
+      "Microsoft Outlook",
+      "Microsoft Teams",
       "Microsoft Windows",
+      "Multifactor Authentication",
       "Nessus",
       "Network Security",
       "Office 365",
       "OpenVAS",
       "Patch Management",
+      "Phishing",
+      "Procurement",
+      "Production Support",
+      "Project Management",
+      "RBAC",
+      "Redmine",
+      "Root Cause Analysis",
       "SIEM",
       "SIEM Monitoring",
+      "SOC Operations",
+      "Security Awareness Training",
+      "Software Installation",
+      "Standard Operating Procedures",
       "Technical Support",
       "VLAN",
       "VPN",
-      "Vulnerability Management"
+      "Veeam",
+      "Vendor Management",
+      "Vulnerability Management",
+      "Work Instructions",
+      "YouTube",
+      "Zoom"
     ],
     "by_category": {
       "security_ops": [
@@ -81,47 +114,106 @@
         "Endpoint Security",
         "Firewall",
         "Log Analysis",
+        "Microsoft Defender",
         "Nessus",
         "Network Security",
         "Patch Management",
+        "Phishing",
         "SIEM",
+        "Security Awareness Training",
         "VPN"
+      ],
+      "sysadmin": [
+        "Asset Management",
+        "Group Policy",
+        "Software Installation"
+      ],
+      "cloud_infra": [
+        "Azure",
+        "VLAN"
+      ],
+      "design": [
+        "Canva"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "marketing": [
+        "Content Marketing",
+        "Digital Marketing"
       ],
       "networking": [
         "DHCP",
-        "DNS"
+        "DNS",
+        "LAN"
       ],
       "ai_ml": [
         "Data Science"
       ],
       "operations": [
-        "Disaster Recovery"
+        "Disaster Recovery",
+        "Procurement",
+        "Root Cause Analysis",
+        "Vendor Management"
+      ],
+      "cybersecurity": [
+        "Ethical Hacking"
+      ],
+      "web_framework": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn"
       ],
       "security": [
         "Fortinet",
         "Incident Management",
+        "Multifactor Authentication",
         "OpenVAS",
+        "RBAC",
         "SIEM Monitoring",
+        "SOC Operations",
         "Vulnerability Management"
       ],
-      "sysadmin": [
-        "Group Policy"
+      "collaboration": [
+        "Google Meet"
       ],
       "it_ops": [
         "IT Infrastructure Management"
+      ],
+      "management": [
+        "ITIL",
+        "Standard Operating Procedures"
       ],
       "os_system": [
         "Linux",
         "Microsoft Windows"
       ],
+      "productivity": [
+        "Microsoft Outlook",
+        "Microsoft Teams",
+        "Zoom"
+      ],
       "integration": [
         "Office 365"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "project_mgmt": [
+        "Project Management",
+        "Redmine"
       ],
       "support": [
         "Technical Support"
       ],
-      "cloud_infra": [
-        "VLAN"
+      "devops": [
+        "Veeam"
+      ],
+      "quality": [
+        "Work Instructions"
+      ],
+      "media": [
+        "YouTube"
       ]
     },
     "_confidence": 0.92,
@@ -135,8 +227,11 @@
         "location": null,
         "start": "08/2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 26,
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "IT Support Administrator,"
+        ],
+        "duration_months": 27,
         "bullets": [
           "Ramanbyte Pvt.",
           "Ltd. / Pune Institute of Business Management, Pune"
@@ -176,14 +271,19 @@
         "source": "experience"
       },
       {
-        "role": "System Administrator (IT & Media Operations), Vedic Group of",
-        "company": "Odisha",
-        "location": "Institutions, Odisha",
+        "role": "System Administrator",
+        "company": "Vedic Group of Institutions",
+        "location": "Odisha",
         "start": "03/2021",
         "end": "08/2024",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "System Administrator (IT & Media Operations), Vedic Group of Institutions, Odisha"
+        ],
         "duration_months": 42,
-        "bullets": [],
+        "bullets": [
+          "Sole IT administrator for 3 academic campuses, delivering end-to-end L2 support for 300+"
+        ],
         "sub_sections": [
           "Odisha",
           "employees and managing daily operations across systems, networks, and devices. •",
@@ -210,14 +310,19 @@
         "source": "experience"
       },
       {
-        "role": "IT Helpdesk Technician, KOEL Care, Odisha",
-        "company": "Delivered Tier-1 IT support for 150+ endpoints covering Windows OS, LAN/Wi-Fi",
-        "location": "Care, Odisha",
+        "role": "IT Helpdesk Technician",
+        "company": "KOEL Care",
+        "location": "Odisha",
         "start": "08/2019",
         "end": "03/2021",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "IT Helpdesk Technician, KOEL Care, Odisha"
+        ],
         "duration_months": 20,
-        "bullets": [],
+        "bullets": [
+          "Delivered Tier-1 IT support for 150+ endpoints covering Windows OS, LAN/Wi-Fi,"
+        ],
         "sub_sections": [
           "Odisha",
           "printing, and application issues in a distributed field service environment.",
@@ -233,18 +338,18 @@
           "Provided IT support during service center visits, field meetings, and coordination",
           "calls between branches."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 7.2,
-      "total_months": 86,
+      "total_months": 87,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.79
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -344,17 +449,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

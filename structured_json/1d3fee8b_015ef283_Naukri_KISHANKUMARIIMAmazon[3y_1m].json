@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1d3fee8b_015ef283_Naukri_KISHANKUMARIIMAmazon[3y_1m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:03.867568+00:00",
+    "generated_at": "2026-10-07T10:30:59.262717+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,31 +48,87 @@
   "summary": null,
   "skills": {
     "items": [
+      "Business Intelligence",
+      "CFA",
+      "Collaboration",
+      "DCF",
+      "Fixed Income",
+      "Generative AI",
       "Machine Learning",
       "Microsoft Excel",
+      "Microsoft Teams",
+      "Monte Carlo Simulation",
+      "Onboarding",
+      "Product Management",
+      "Professional Tax",
       "Python",
+      "Quality Assurance",
+      "Reliability",
+      "Reporting",
+      "Risk Assessment",
+      "Root Cause Analysis",
       "SQL",
-      "Tableau"
+      "Tableau",
+      "UPI",
+      "VaR"
     ],
     "by_category": {
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "logistics": [
+        "CFA"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Reliability",
+        "Reporting"
+      ],
+      "finance": [
+        "DCF",
+        "Fixed Income",
+        "VaR"
+      ],
+      "genai": [
+        "Generative AI"
+      ],
       "ai_ml": [
         "Machine Learning"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "data_science": [
+        "Monte Carlo Simulation",
+        "Tableau"
+      ],
+      "hr": [
+        "Onboarding",
+        "Professional Tax"
+      ],
+      "project_mgmt": [
+        "Product Management"
       ],
       "programming_language": [
         "Python"
       ],
+      "operations": [
+        "Quality Assurance",
+        "Root Cause Analysis"
+      ],
+      "compliance": [
+        "Risk Assessment"
+      ],
       "database": [
         "SQL"
       ],
-      "data_science": [
-        "Tableau"
+      "domain": [
+        "UPI"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Professional→Professional Tax(95%))"
   },
   "experience": {
     "jobs": [
@@ -82,8 +138,12 @@
         "location": null,
         "start": "2025",
         "end": "present",
-        "method": "date_regex+title_dict",
-        "duration_months": 21,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Intelligence Engineer",
+          "Amazon"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Enabled AI-driven self-serve analytics by onboarding 10+ KPIs into Flamingo (GenAI platform), reducing root cause analysis time from hours to minutes and cutting manual deep-dive effort by 60%+.",
           "Collated feedback from 10+ programs to build a unified dashboard identifying low-resolution address IDs, enabling targeted interventions and improving feedback resolution rate by 30% within 2 months.",
@@ -106,7 +166,11 @@
         "location": null,
         "start": "2024",
         "end": "2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Strategy Consultant",
+          "Mind Share Analytics"
+        ],
         "duration_months": 13,
         "bullets": [
           "Developed strategic disinvestment plans for the Karnataka State Government to optimize and monetize 100+ state-owned PSUs, including the merger of 8 entities for enhanced efficiency and value realization.",
@@ -125,7 +189,7 @@
         "location": null,
         "start": "2023",
         "end": "2023",
-        "method": "single_year_regex+title_dict",
+        "method": "single_year_regex+multiline_role_above_company",
         "duration_months": 1,
         "bullets": [
           "Computed MeitY incentives for UPI by technology intervention using Python & SQL, reducing CT by 22%",
@@ -134,20 +198,18 @@
           "Designed derivative strategies such as double straddle & condor spreads, optimizing risk-reward trade-offs.",
           "Developed Monte Carlo simulation models to calculate VaR and stress-testing portfolios across multiple scenarios"
         ],
-        "sub_sections": [
-          "Contractual"
-        ],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Trade Finance Consultant",
-        "company": "Euro EXIM Bank",
+        "company": "Contractual",
         "location": null,
         "start": "2023",
         "end": "2024",
-        "method": "year_range_short_regex+title_dict",
+        "method": "year_range_short_regex+title_dict_strong",
         "duration_months": 13,
         "bullets": [
           "Underwritten 12 Letter of Credit worth $200000 to 8 clients from 4 different nations ensuring end-to-end transaction",
@@ -162,7 +224,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 3.8,
-      "total_months": 45,
+      "total_months": 46,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.98

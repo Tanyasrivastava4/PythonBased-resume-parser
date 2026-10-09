@@ -1,0 +1,34 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/42137eea_Abhinav Ashish_AVP- Internal Audit (ITIS)_SMFG-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Cyber Security Governance
+• Information Systems Audit
+• Governance, Risk and
+Compliance
+• Information Security
+Management Systems
+• Business Continuity
+Management Systems
+• Sound knowledge of BI
+Tools, VAPT
+
+── Extraction Results ──
+Skills found   : 17
+Confidence     : 0.92
+Time           : 101.66 ms
+Method         : flashtext_skills_section
+
+── All Skills (17) ──
+Auditing, BCP, BI Tools, Business Continuity Management, Cyber Security Governance, GRC, ISMS, ISO 27001, ISO Standards, ITGC, Information Systems Audit, Payments, RBI, Regulatory Compliance, Risk Management, Third-Party Risk, VAPT
+
+── By Category ──
+  data_science                   ['BI Tools']
+  domain                         ['Payments', 'RBI']
+  engineering                    ['ISO Standards']
+  finance_ops                    ['Auditing', 'ITGC']
+  legal                          ['Regulatory Compliance']
+  operations                     ['BCP', 'Business Continuity Management']
+  project_mgmt                   ['Risk Management']
+  security_ops                   ['Cyber Security Governance', 'GRC', 'ISMS', 'ISO 27001', 'Information Systems Audit', 'Third-Party Risk', 'VAPT']

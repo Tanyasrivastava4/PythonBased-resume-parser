@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bcee73cb_5407e5e5_JeminShah-Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:13.033394+00:00",
+    "generated_at": "2026-10-07T09:28:06.395374+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,9 +50,14 @@
       ".NET",
       "AWS",
       "Agentic AI",
+      "Agile",
+      "Automation Anywhere",
+      "CI/CD",
       "CSS3",
       "Claude",
       "Claude Code",
+      "Code Reviews",
+      "Creativity",
       "Cursor",
       "Git",
       "GitHub Copilot",
@@ -61,19 +66,30 @@
       "Java",
       "JavaScript",
       "Jenkins",
+      "LLM",
+      "LinkedIn",
       "MCP Server",
-      "MSSQL",
       "MVC Architecture",
       "Microservices",
+      "Microsoft SQL Server",
+      "Microsoft Teams",
       "Microsoft Visio",
       "MySQL",
+      "Oracle Database",
+      "Performance Optimization",
       "PostgreSQL",
       "PowerShell",
+      "Production Support",
+      "RAG",
       "REST API",
+      "Reliability",
       "SQL",
+      "Scrum",
       "Spring Boot",
       "VB.NET",
-      "VS Code"
+      "VS Code",
+      "Vector Databases",
+      "Vector Search"
     ],
     "by_category": {
       "programming_language": [
@@ -89,30 +105,42 @@
         "Agentic AI",
         "Claude",
         "GitHub Copilot",
-        "MCP Server"
+        "LLM",
+        "MCP Server",
+        "RAG",
+        "Vector Databases",
+        "Vector Search"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Scrum"
+      ],
+      "rpa": [
+        "Automation Anywhere"
+      ],
+      "devops": [
+        "CI/CD",
+        "Jenkins"
       ],
       "web_framework": [
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "REST API",
         "Spring Boot"
       ],
       "dev_tool": [
         "Claude Code",
+        "Code Reviews",
         "Cursor",
         "Git",
         "IntelliJ IDEA",
         "Microsoft Visio",
-        "VS Code"
+        "Performance Optimization"
       ],
-      "devops": [
-        "Jenkins"
-      ],
-      "database": [
-        "MSSQL",
-        "MySQL",
-        "PostgreSQL",
-        "SQL"
+      "soft_skill": [
+        "Creativity",
+        "Reliability"
       ],
       "software_engineering": [
         "MVC Architecture"
@@ -120,22 +148,41 @@
       "architecture": [
         "Microservices"
       ],
+      "database": [
+        "Microsoft SQL Server",
+        "MySQL",
+        "Oracle Database",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "os_system": [
         "PowerShell"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(.Net→.NET(100%), Html→HTML5(100%), Claude code→Claude Code(100%), IntelliJ Idea Git→IntelliJ IDEA(95%))"
+    "_method": "flashtext_skills_section | fuzzy(.Net→.NET(100%), Html→HTML5(100%), Claude code→Claude Code(100%), IntelliJ Idea Git→IntelliJ IDEA(95%), Oracle→Oracle Database(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "DEVELOPER",
+        "role": "SOFTWARE DEVELOPER",
         "company": "Access Computech Pvt Ltd",
-        "location": "SOFTWARE",
+        "location": null,
         "start": "2008",
         "end": "2011",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Access Computech Pvt Ltd| SOFTWARE DEVELOPER"
+        ],
         "duration_months": 37,
         "bullets": [],
         "sub_sections": [],
@@ -144,13 +191,13 @@
         "source": "experience"
       },
       {
-        "role": "REDWOOD SOFTWARE | AI / JAVA CONSULTANT  | Remote",
-        "company": "Last edited",
+        "role": "AI / JAVA CONSULTANT",
+        "company": "REDWOOD SOFTWARE",
         "location": null,
         "start": "04th February, 2026",
         "end": "Present",
-        "method": "single_date_regex+title_dict",
-        "duration_months": 8,
+        "method": "single_date_regex+dash_split",
+        "duration_months": 9,
         "bullets": [
           "Architected and led delivery of Redwood RangerAI, an enterprise AI automation and orchestration platform from concept to production.",
           "Designed AI architecture leveraging MCP, RAG, fine- tuning, and vector databases to enable secure, context-aware LLM-driven automation.",
@@ -170,7 +217,10 @@
         "location": null,
         "start": "2012",
         "end": "Aug, 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "AUTOMATION ANYWHERE | LEAD SOFTWARE ENGINEER"
+        ],
         "duration_months": 140,
         "bullets": [
           "Owned end-to-end design and delivery of core RPA platform features, driving architecture, development, testing, and production readiness.",
@@ -189,8 +239,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 15.4,
-      "total_months": 185,
+      "total_years": 15.5,
+      "total_months": 186,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

@@ -2,7 +2,7 @@
 FILE: 36502a70_Atishay_Jain_Profile_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'education', 'experience', 'header', 'interests', 'other', 'projects', 'skills', 'unknown']
-Overall conf.  : 0.89
+Overall conf.  : 0.96
 Needs review   : True
 
 CONTACT
@@ -14,15 +14,15 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (14) — confidence 0.92
+SKILLS (30) — confidence 0.92
 ----------------------------------------------------------------------
-Business Analytics, Cross-functional Collaboration, Data Analysis, Digital Transformation, Financial Analysis, Leadership, Microsoft Excel, Microsoft PowerPoint, Program Management, SAP, Six Sigma, Stakeholder Management, Strategic Thinking, Tableau
+Business Analytics, Cross-functional Collaboration, D2C Marketing, Data Analysis, Demand Planning, Digital Transformation, Dynamics 365, ERP, ERP Systems, Financial Analysis, Inventory Management, Leadership, LinkedIn, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Operational Excellence, Operations Management, Process Re-Engineering, Procurement, Program Management, Reporting, Risk Management, SAP, Six Sigma, Stakeholder Management, Strategic Planning, Supply Chain, Tableau, Time Management
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.7
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
 Total experience: 1.3 years (16 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. | PharmEasy @ Analyzed procurement and returns processes, working with ERP systems and cross-functional teams to improve credit reconciliation and operational efficiency. (Apr’25 - May’25) [conf 0.7, review=True]
-  2. | Minimalist @ Drove SAP ERP-enabled process transformation, improving operational efficiency by 40% through alignment of operations, technology, and business teams (Jun’22 - Jul’23) [conf 0.7, review=True]
+  1. Procurement Intern @ PharmEasy (Apr’25 - May’25) [conf 0.98, review=False]
+  2. Senior Executive @ Minimalist (Jun’22 - Jul’23) [conf 0.98, review=False]
 
 EDUCATION (4) — confidence 0.95
 ----------------------------------------------------------------------
@@ -39,9 +39,6 @@ ACHIEVEMENTS (2) — confidence 0.85
   • Best Team Award, BloodConnect (Mumbai-Pune 2025 &
   • PAN India 2024)
 
-REVIEW QUEUE (4 flagged fields)
+REVIEW QUEUE (1 flagged fields)
 ----------------------------------------------------------------------
   contact.name                        conf=0.0  reason=missing
-  experience                          conf=0.7  reason=low_confidence
-  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[1]                  conf=0.7  reason=incomplete_fields

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "537e0b0e_4afe2331_ASHISH SAXENA_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:41.396730+00:00",
+    "generated_at": "2026-10-07T10:31:45.288631+00:00",
     "sections_found": [
       "experience",
       "header",
@@ -48,32 +48,50 @@
     "items": [
       "AWS",
       "Agile",
+      "Analyze",
       "Angular",
       "Automation Testing",
       "Azure",
       "CI/CD",
+      "CSS3",
       "Caching",
+      "Code Reviews",
       "Collaboration",
       "Communication",
       "Cross-functional Collaboration",
       "DevOps",
+      "Django",
       "E-commerce",
+      "GDPR",
+      "Git",
+      "HTML5",
       "JavaScript",
       "Leadership",
+      "Linux",
       "Mentoring",
       "Microservices",
+      "Microsoft Edge",
       "Microsoft Teams",
       "MongoDB",
+      "MySQL",
       "Node.js",
       "PHP",
+      "Performance Optimization",
       "Problem Solving",
+      "Product Design",
+      "Prototyping",
       "Quality Assurance",
       "REST",
       "REST API",
       "React",
       "SQL",
+      "Time Management",
+      "TypeScript",
+      "UNIX",
       "UX Design",
-      "Vue.js"
+      "Vue.js",
+      "XHTML",
+      "jQuery"
     ],
     "by_category": {
       "cloud_infra": [
@@ -83,12 +101,20 @@
       "project_mgmt": [
         "Agile"
       ],
+      "data_science": [
+        "Analyze"
+      ],
       "web_framework": [
         "Angular",
+        "CSS3",
+        "Django",
+        "HTML5",
         "Node.js",
         "REST API",
         "React",
-        "Vue.js"
+        "Vue.js",
+        "XHTML",
+        "jQuery"
       ],
       "testing": [
         "Automation Testing"
@@ -101,36 +127,56 @@
         "Caching",
         "Microservices"
       ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "Microsoft Edge",
+        "Performance Optimization"
+      ],
       "soft_skill": [
         "Collaboration",
         "Communication",
         "Cross-functional Collaboration",
         "Leadership",
         "Mentoring",
-        "Problem Solving"
+        "Problem Solving",
+        "Time Management"
       ],
       "retail": [
         "E-commerce"
       ],
+      "legal": [
+        "GDPR"
+      ],
       "programming_language": [
         "JavaScript",
-        "PHP"
+        "PHP",
+        "TypeScript"
+      ],
+      "os_system": [
+        "Linux",
+        "UNIX"
       ],
       "productivity": [
         "Microsoft Teams"
       ],
       "database": [
         "MongoDB",
+        "MySQL",
         "SQL"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "design": [
+        "Prototyping",
+        "UX Design"
       ],
       "operations": [
         "Quality Assurance"
       ],
       "integration": [
         "REST"
-      ],
-      "design": [
-        "UX Design"
       ]
     },
     "_confidence": 0.92,
@@ -139,13 +185,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "FULLSTACK DEVELOPER",
+        "role": "Testing and Debugging\tSR. FULLSTACK DEVELOPER",
         "company": "Scalability and Performance Optimization\tREDIAN SOFTWARE",
         "location": null,
         "start": "MaR ’24",
         "end": "PRESENT",
         "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 31,
+        "duration_months": 32,
         "bullets": [
           "Version Control Systems (e.g., Git)\tROLES & RESPONSIBILITIES: DevOps and CI/CD\tDeveloping and maintaining scalable full-stack web applications, utilizing a wide range of technologies including front-end frameworks, back-end programming languages, and databases Problem Solving and Troubleshooting\tCollaborating with cross-functional teams to gather requirements, design user interfaces, and implement robust and user-friendly features, ensuring a seamless and intuitive user experience"
         ],
@@ -155,15 +201,15 @@
         "source": "experience"
       },
       {
-        "role": "PRODUCT ENGINEER",
+        "role": "Node.Js\tSR. PRODUCT ENGINEER",
         "company": "Scalability and Performance Optimization\tREDIAN SOFTWARE",
         "location": "CHENNAI",
         "start": "SEPT’23",
         "end": "DEC 2023",
-        "method": "date_regex+date_prefix_title+next_line_company+inherited_company",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split+inherited_company",
         "duration_months": 4,
         "bullets": [
-          "PHP\tDeveloping and maintaining scalable full-stack web applications, utilizing a wide range of technologies including front-end frameworks, back-end programming languages, and databases MySQL\tCollaborating with cross-functional teams to gather requirements, design user interfaces, and implement robust and user-friendly features, ensuring a seamless and intuitive user experience NO SQL\tWriting clean and efficient code, conducting comprehensive testing, and debugging applications to deliver high-quality software, meeting project deadlines and exceeding client expectations"
+          "PHP\tDeveloping and maintaining scalable full-stack web applications, utilizing a wide range of technologies including front-end frameworks, back-end programming languages, and databases MySQL\tCollaborating with cross-functional teams to gather requirements, design user interfaces, and implement robust and user-friendly features, ensuring a seamless and intuitive user experience NO SQL\tWriting clean and efficient code, conducting comprehensive testing, and debugging applications to deliver high-quality software, meeting project deadlines and exceeding client expectations Mongo DB\tResolving complex technical issues by applying strong problem-solving skills, optimizing application performance, and ensuring smooth functionality across different platforms and devices"
         ],
         "sub_sections": [],
         "confidence": 0.85,
@@ -171,7 +217,7 @@
         "source": "experience"
       },
       {
-        "role": "PRODUCT ENGINEER",
+        "role": "Django\tSR. PRODUCT ENGINEER",
         "company": "Scalability and Performance Optimization\tREDIAN SOFTWARE",
         "location": "CHENNAI",
         "start": "FEB’23",
@@ -180,7 +226,8 @@
         "duration_months": 8,
         "bullets": [
           "HTML / XHTML\tEXPERTUSONE PVT.",
-          "LTD. | CHENNAI Prototype\tROLES & RESPONSIBILITIES: CSS\tDeveloping and maintaining scalable full-stack web applications, utilizing a wide range of technologies including front-end frameworks, back-end programming languages, and databases Unix/Linux\tCollaborating with cross-functional teams to gather requirements, design user interfaces, and implement robust and user-friendly features, ensuring a seamless and intuitive user experience Apache Web Server\tWriting clean and efficient code, conducting comprehensive testing, and debugging applications to deliver high-quality software, meeting project deadlines and exceeding client expectations Send mail\tResolving complex technical issues by applying strong problem-solving skills, optimizing application performance, and ensuring smooth functionality across different platforms and devices"
+          "LTD. | CHENNAI Prototype\tROLES & RESPONSIBILITIES: CSS\tDeveloping and maintaining scalable full-stack web applications, utilizing a wide range of technologies including front-end frameworks, back-end programming languages, and databases Unix/Linux\tCollaborating with cross-functional teams to gather requirements, design user interfaces, and implement robust and user-friendly features, ensuring a seamless and intuitive user experience Apache Web Server\tWriting clean and efficient code, conducting comprehensive testing, and debugging applications to deliver high-quality software, meeting project deadlines and exceeding client expectations Send mail\tResolving complex technical issues by applying strong problem-solving skills, optimizing application performance, and ensuring smooth functionality across different platforms and devices EDUCATION & CREDENTIALS\tFINOUX SOLUTION PVT.",
+          "LTD. | MUMBAI"
         ],
         "sub_sections": [],
         "confidence": 0.85,
@@ -188,15 +235,15 @@
         "source": "experience"
       },
       {
-        "role": "FULLSTACK DEVELOPER",
-        "company": "SOFT SKILLS\tROLES & RESPONSIBILITIES",
-        "location": null,
+        "role": "| Uttar Pradesh | 2013\tSR. FULLSTACK DEVELOPER",
+        "company": "Tech. from UPTU",
+        "location": "2013\tSR. FULLSTACK DEVELOPER",
         "start": "SEPT’20",
         "end": "SEP’20",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 1,
         "bullets": [
-          "Self-Driven\tLed the development and implementation of complex full-stack web applications, providing technical guidance and mentorship to junior developers, ensuring adherence to best practices and high-quality code standards Communication\tCollaborated with stakeholders to define project requirements, architected scalable solutions, and delivered innovative features, leveraging expertise in front-end and back-end technologies Time Management\tConducted code reviews and implemented code refactoring strategies to optimize performance, maintainability, and scalability of existing applications, ensuring efficient and sustainable software development"
+          "Self-Driven\tLed the development and implementation of complex full-stack web applications, providing technical guidance and mentorship to junior developers, ensuring adherence to best practices and high-quality code standards Communication\tCollaborated with stakeholders to define project requirements, architected scalable solutions, and delivered innovative features, leveraging expertise in front-end and back-end technologies Time Management\tConducted code reviews and implemented code refactoring strategies to optimize performance, maintainability, and scalability of existing applications, ensuring efficient and sustainable software development Analytical\tImplemented security measures and best practices to safeguard applications against potential vulnerabilities, proactively identified and addressed potential risks, and ensured data privacy and integrity"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -204,7 +251,7 @@
         "source": "experience"
       },
       {
-        "role": "Analytical\tImplemented security measures and best practices to safeguard applications against potential vulnerabilities, proactively identified and addressed potential risks, and ensured data privacy and integrity Flexible\tPHP DEVELOPER",
+        "role": "Flexible\tPHP DEVELOPER",
         "company": "Works well under Pressure\tSHIPROCKET PVT LTD",
         "location": null,
         "start": "JUN’19",
@@ -220,12 +267,12 @@
         "source": "experience"
       },
       {
-        "role": "PHP DEVELOPER",
+        "role": "SR.PHP DEVELOPER",
         "company": "WEB SMARTZZ SOFTWARE SOLUTION",
         "location": "CHANDIGARH",
         "start": "MAY’14",
         "end": "JUN’19",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 62,
         "bullets": [
           "Led the development and implementation of complex PHP applications, leveraging extensive experience in PHP frameworks and technologies to deliver robust and scalable solutions Mentored and provided technical guidance to junior developers, conducting code reviews and ensuring adherence to coding standards, best practices, and industry guidelines Collaborated with cross-functional teams to gather and analyze requirements, design efficient database structures, and develop secure and optimized back-end solutions Optimized performance and scalability of PHP applications by conducting thorough testing, identifying bottlenecks, and implementing performance tuning techniques, resulting in enhanced user experience and increased system efficiency Resolved complex technical issues and provided timely support, debugging and troubleshooting PHP code, ensuring smooth functionality and minimizing downtime PLEASE REFER TO ANNEXURE FOR PROJECT DETAILS"
@@ -240,8 +287,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.9,
-      "total_months": 119,
+      "total_years": 10.0,
+      "total_months": 120,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.89
@@ -249,7 +296,7 @@
   "education": {
     "entries": [
       {
-        "degree": "B.Tech. from UPTU | Uttar Pradesh | 2013\tSR. FULLSTACK DEVELOPER | 23",
+        "degree": "B.Tech",
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,

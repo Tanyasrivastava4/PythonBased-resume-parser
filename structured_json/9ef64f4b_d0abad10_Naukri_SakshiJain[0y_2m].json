@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9ef64f4b_d0abad10_Naukri_SakshiJain[0y_2m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:51.659207+00:00",
+    "generated_at": "2026-10-07T09:27:37.416112+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,30 +48,50 @@
   "skills": {
     "items": [
       ".NET",
+      "Account Reconciliation",
       "Accounting",
       "Analytical Thinking",
       "Auditing",
       "CARO Reporting",
+      "Client Handling",
+      "Company Law",
+      "CompuOffice",
+      "Coroutines Flow",
       "Financial Reporting",
       "GST",
+      "Input Tax Credit",
+      "Internal Audit",
       "Internal Controls Testing",
       "Leadership",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Teams",
       "Microsoft Word",
+      "ROC Filings",
+      "Reliability",
       "Reporting",
       "Risk Management",
-      "Schedule III",
+      "Schedule III Compliance",
       "Statutory Audit",
+      "TCS",
       "TDS",
       "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation",
       "Team Leadership"
     ],
     "by_category": {
       "programming_language": [
         ".NET"
+      ],
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Input Tax Credit",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
       ],
       "finance_ops": [
         "Accounting",
@@ -85,14 +105,31 @@
       "soft_skill": [
         "Analytical Thinking",
         "Leadership",
+        "Reliability",
         "Reporting",
         "Team Leadership"
       ],
       "finance": [
         "CARO Reporting"
       ],
+      "management": [
+        "Client Handling"
+      ],
+      "legal": [
+        "Company Law",
+        "ROC Filings"
+      ],
       "accounting": [
-        "GST"
+        "CompuOffice",
+        "GST",
+        "Internal Audit",
+        "TCS"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
@@ -103,15 +140,12 @@
       "project_mgmt": [
         "Risk Management"
       ],
-      "financial_reporting": [
-        "Schedule III"
-      ],
       "taxation": [
         "TDS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(leadership.→Leadership(95%), Excel→Microsoft Excel(100%), PowerPoint.→Microsoft PowerPoint(95%))"
+    "_method": "flashtext_skills_section | fuzzy(leadership.→Leadership(95%), Excel→Microsoft Excel(100%), PowerPoint.→Microsoft PowerPoint(95%), Tally→Tally(100%))"
   },
   "experience": {
     "jobs": [
@@ -121,8 +155,11 @@
         "location": "Gurugram",
         "start": "January 2026",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 9,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Audit Assistant (Contractual) – Deloitte USI, Gurugram"
+        ],
+        "duration_months": 10,
         "bullets": [
           "Statutory • Supporting statutory audits for global investment management clients, including investment funds and asset managers.",
           "Performing testing of financial statements, investment transactions, and portfolio balances to validate accuracy of fund reporting.",
@@ -142,7 +179,10 @@
         "location": "Meerut",
         "start": "April 2021",
         "end": "April 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Articled Assistant – Gulati Sharma and Associates, Meerut"
+        ],
         "duration_months": 37,
         "bullets": [
           "Internal Audit • Conducted end-to-end internal audits for clients across manufacturing, trading, and service sectors.",
@@ -174,8 +214,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.8,
-      "total_months": 46,
+      "total_years": 3.9,
+      "total_months": 47,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -200,7 +240,7 @@
         "degree_field": "Group II",
         "institution": "ICAI",
         "year": "2021",
-        "gpa": "52.75%",
+        "gpa": "56.33%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -211,7 +251,7 @@
         "degree_field": null,
         "institution": "ICAI",
         "year": "2018",
-        "gpa": "65.75%",
+        "gpa": "63.25%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -220,9 +260,9 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": "Hons.",
-        "institution": "Delhi University Delhi Graduated with First Division",
+        "institution": "University Delhi Graduated with First Division",
         "year": "2018",
-        "gpa": "70.30%",
+        "gpa": "65.75%",
         "_needs_review": false,
         "_confidence": 0.95
       },

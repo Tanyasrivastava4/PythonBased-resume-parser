@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "fd8e30d6_e2866132_HIREN SONI_Senior Principal- Salesforce Health Cloud_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:54.525309+00:00",
+    "generated_at": "2026-10-07T09:29:00.280657+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,15 +50,23 @@
   "skills": {
     "items": [
       ".NET",
+      "Accounts Payable",
       "Agile",
+      "Auditing",
+      "Automation Testing",
       "B2B Sales",
       "Bitbucket",
       "Business Development",
+      "Business Intelligence",
       "C#",
       "CI/CD",
       "CSS3",
+      "Caching",
       "Communication",
+      "Coroutines Flow",
       "Creativity",
+      "Cross-functional Collaboration",
+      "Cryptography",
       "Data Analytics",
       "Data Modeling",
       "DevOps",
@@ -67,40 +75,56 @@
       "Eclipse",
       "Enterprise Architecture",
       "Event-Driven",
+      "GDPR",
       "Git",
+      "HIPAA",
       "HTML5",
+      "Help Desk",
       "Identity Management",
       "Informatica",
       "Java",
       "JavaScript",
       "Jira",
       "Leadership",
+      "LinkedIn",
+      "MS Access",
       "MSSQL",
-      "Make",
+      "Microsoft SQL Server",
+      "Microsoft Teams",
       "Mulesoft",
       "MySQL",
       "Negotiation",
+      "OAuth 2.0",
       "Objective C",
       "Operations Management",
+      "Oracle Database",
+      "Performance Testing",
       "Problem Solving",
       "Process Improvement",
       "Process Re-Engineering",
       "Python",
+      "Quality Assurance",
+      "Query Optimization",
       "REST",
       "RFI",
       "RFP",
       "SOAP",
       "Salesforce",
+      "Sandboxing",
       "Selenium",
       "Solution Design",
       "SonarQube",
       "Stakeholder Management",
-      "Strategic Thinking",
+      "Strategic Planning",
+      "Team Leadership",
       "TestNG",
       "Time Management",
+      "UAT",
       "VS Code",
       "Visual Studio",
-      "XML"
+      "Workflow Automation",
+      "XML",
+      "jQuery"
     ],
     "by_category": {
       "programming_language": [
@@ -111,9 +135,21 @@
         "Objective C",
         "Python"
       ],
+      "finance_ops": [
+        "Accounts Payable",
+        "Auditing"
+      ],
       "project_mgmt": [
         "Agile",
         "Jira"
+      ],
+      "testing": [
+        "Automation Testing",
+        "Performance Testing",
+        "Selenium",
+        "SonarQube",
+        "TestNG",
+        "UAT"
       ],
       "sales": [
         "B2B Sales"
@@ -122,11 +158,15 @@
         "Bitbucket",
         "Eclipse",
         "Git",
-        "VS Code",
         "Visual Studio"
       ],
       "biz_dev": [
         "Business Development"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "RFI",
+        "RFP"
       ],
       "devops": [
         "CI/CD",
@@ -135,18 +175,33 @@
       "web_framework": [
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "SOAP",
-        "XML"
+        "XML",
+        "jQuery"
+      ],
+      "architecture": [
+        "Caching",
+        "Event-Driven",
+        "Solution Design"
       ],
       "soft_skill": [
         "Communication",
         "Creativity",
+        "Cross-functional Collaboration",
         "Leadership",
         "Negotiation",
         "Problem Solving",
         "Stakeholder Management",
-        "Strategic Thinking",
+        "Team Leadership",
         "Time Management"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "security_ops": [
+        "Cryptography",
+        "Sandboxing"
       ],
       "data_science": [
         "Data Analytics",
@@ -162,20 +217,30 @@
       "it_ops": [
         "Enterprise Architecture"
       ],
-      "architecture": [
-        "Event-Driven",
-        "Solution Design"
+      "legal": [
+        "GDPR"
+      ],
+      "healthcare": [
+        "HIPAA"
+      ],
+      "support": [
+        "Help Desk"
       ],
       "security": [
-        "Identity Management"
+        "Identity Management",
+        "OAuth 2.0"
       ],
       "database": [
         "Informatica",
+        "MS Access",
         "MSSQL",
-        "MySQL"
+        "Microsoft SQL Server",
+        "MySQL",
+        "Oracle Database",
+        "Query Optimization"
       ],
-      "rpa": [
-        "Make"
+      "productivity": [
+        "Microsoft Teams"
       ],
       "integration": [
         "Mulesoft",
@@ -184,31 +249,30 @@
       ],
       "operations": [
         "Operations Management",
-        "Process Improvement"
+        "Process Improvement",
+        "Quality Assurance",
+        "Workflow Automation"
       ],
-      "business_analysis": [
-        "RFI",
-        "RFP"
+      "management": [
+        "Strategic Planning"
       ],
-      "testing": [
-        "Selenium",
-        "SonarQube",
-        "TestNG"
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(.Net→.NET(100%), VisualStudio→Visual Studio(100%), VSCode→VS Code(100%), MuleSoft→Mulesoft(100%), BitBucket→Bitbucket(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(.Net→.NET(100%), VisualStudio→Visual Studio(100%), MuleSoft→Mulesoft(100%), BitBucket→Bitbucket(100%), SOAP APIs→SOAP(94%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "May': Manager",
+        "role": "May' : Manager",
         "company": "Work with Product Owners, Business Analysts, and Stakeholders to translate business requirements into Salesforce capabilities.",
         "location": "Pune",
         "start": "2025",
         "end": "Present",
-        "method": "date_regex+dash_split",
-        "duration_months": 21,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 22,
         "bullets": [
           "Conduct solutioning workshops and document architectural decisions",
           "Design custom and standard object models, relationship mappings, and field structures.",
@@ -239,7 +303,7 @@
           "Designing and optimizing Salesforce implementations, leveraging automation, user experience enhancements, and best practices to maximize ROI and system performance.",
           "Leading innovation in analytics integration, enabling real-time insights for data-driven decision-making and enhancing business agility.",
           "Developing structured training programs, fostering a high-performance culture and increasing team efficiency in Salesforce best practices. Cloud components and customized workflow solutions.",
-          "Led the architecture and execution of innovative Salesforce strategies, driving measurable improvements in productivity, operational efficiency, and customer"
+          "Led the architecture and execution of innovative Salesforce strategies, driving measurable improvements in productivity, operational efficiency, and customer engagement."
         ],
         "sub_sections": [],
         "confidence": 0.7,
@@ -247,33 +311,32 @@
         "source": "experience"
       },
       {
-        "role": "engagement. Oct': Executive Project Manager (SF Architect",
-        "company": "Intellect Design Arena",
-        "location": "Pune",
+        "role": "Oct' : Executive Project Manager (SF Architect) at Intellect Design",
+        "company": "Work with Product Owners, Business Analysts, and Stakeholders to translate business requirements into Salesforce capabilities",
+        "location": "Arena, Pune",
         "start": "2023",
         "end": "April 25",
-        "method": "date_regex+at_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 0,
         "bullets": [
-          "Work with Product Owners, Business Analysts, and Stakeholders to translate business requirements into Salesforce capabilities",
           "Design and guide integration patterns with external systems via REST/SOAP APIs, Middleware (MuleSoft), Platform Events.",
           "Recommend tools for CI/CD, test automation, and code quality (e.g., Gearset, Copado, SFDX).",
           "Recommend use of caching, asynchronous processing (Queueables, Batch Apex), and lightweight UI (LWC, lazy loading).",
           "Ensure the platform adheres to compliance frameworks (e.g., GDPR, HIPAA).",
-          "Work with Salesforce Industries to define OmniStudio Flax Cards, Data raptor and"
+          "Work with Salesforce Industries to define OmniStudio Flax Cards, Data raptor and integration procedures."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "integration procedures. Nov'23: Principal Architect",
-        "company": "LTIMindtree",
+        "role": "Nov' 23: Principal Architect at LTIMindtree, Pune",
+        "company": "Nov'23: Principal Architect at LTIMindtree",
         "location": "Pune",
         "start": "2021",
         "end": "Oct'20",
-        "method": "date_regex+at_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 0,
         "bullets": [
           "Led Salesforce digital transformation projects, driving strategic cloud migrations & integrations.",
@@ -287,29 +350,56 @@
         "source": "experience"
       },
       {
-        "role": "Jun'21: Technical Specialist",
-        "company": "Zensar Technology Pvt. Ltd",
+        "role": "Jun' 21: Technical Specialist at Zensar Technology Pvt. Ltd., Pune",
+        "company": "Jun'21: Technical Specialist at Zensar Technology Pvt. Ltd",
         "location": "Pune",
         "start": "2019",
         "end": "Oct'20",
-        "method": "date_regex+at_split",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "pre_date_header": [
+          "(LWC)."
+        ],
         "duration_months": 22,
         "bullets": [
           "Designed and deployed Salesforce automation workflows, reducing ticket resolution time by 40%.",
-          "Provided technical leadership for enterprise Salesforce implementation projects."
+          "Provided technical leadership for enterprise Salesforce implementation projects.",
+          "Streamlined process efficiency, improving Salesforce adoption across global teams."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Software Developer",
+        "role": "May'2025 to Present: Manager",
+        "company": "Salesforce Architect at Full Potential Solution",
+        "location": "Pune",
+        "start": "Nov 2012",
+        "end": "June 2019",
+        "method": "date_regex+comma_company_location",
+        "duration_months": 80,
+        "bullets": [
+          "Project Title: AP Flow, PLM (Helpdesk), Sysco, Westcon, KONE (Genpact) Technologies: Apex Classes, Apex Triggers, Visualforce, Component, Force.com API, JavaScript, Views, Public Group, Queue Key Result Areas:",
+          "Developed a dual-layout PDF viewer, enabling side-by-side PDF display and data entry for users with custom profile-based data segregation.",
+          "Led package development for 40+ clients, creating customized product features.",
+          "Migrated two major products to Lightning, leveraging enhanced Salesforce capabilities.",
+          "Configured Salesforce components, including Roles, Profiles, Groups, Views, and Queues.",
+          "Built custom logic using Apex & Token classes, utilizing interface-based architecture.",
+          "Automated workflows using Process Builder and invocable classes.",
+          "Managed custom setting data, documentation, and code coverage activities."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Growth Path | Sr. Software Developer",
         "company": "Unknown",
-        "location": "Growth Path | Sr. Software Developer  → Team Lead",
+        "location": null,
         "start": "2012",
         "end": "2016",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 49,
         "bullets": [],
         "sub_sections": [],
@@ -318,26 +408,12 @@
         "source": "experience"
       },
       {
-        "role": "→ Project Lead",
-        "company": "Unknown",
-        "location": "→ Project Lead",
-        "start": "2016",
-        "end": "2018",
-        "method": "date_regex+title_dict+inherited_company",
-        "duration_months": 25,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
         "role": "Software Engineer",
         "company": "Designed, developed, and maintained Salesforce managed packages, ensuring compliance with AppExchange security review guidelines and seamless upgrades.",
         "location": "Software Engineer",
         "start": "July 2010",
         "end": "Oct 2012",
-        "method": "date_regex+title_dict+inherited_company",
+        "method": "date_regex+date_prefix_title+inherited_company",
         "duration_months": 28,
         "bullets": [
           "Developed and optimized enterprise applications, focusing on .NET & database management.",
@@ -359,44 +435,15 @@
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Action Sailfin Technology Pvt. Ltd",
-        "location": "Surat",
-        "start": "Nov’12",
-        "end": "Jun’19",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 80,
-        "bullets": [
-          "Project Title: AP Flow, PLM (Helpdesk), Sysco, Westcon, KONE (Genpact) Technologies: Apex Classes, Apex Triggers, Visualforce, Component, Force.com API, JavaScript, Views, Public Group, Queue Key Result Areas:",
-          "Developed a dual-layout PDF viewer, enabling side-by-side PDF display and data entry for users with custom profile-based data segregation.",
-          "Led package development for 40+ clients, creating customized product features.",
-          "Migrated two major products to Lightning, leveraging enhanced Salesforce capabilities.",
-          "Configured Salesforce components, including Roles, Profiles, Groups, Views, and Queues.",
-          "Built custom logic using Apex & Token classes, utilizing interface-based architecture.",
-          "Automated workflows using Process Builder and invocable classes.",
-          "Managed custom setting data, documentation, and code coverage activities."
-        ],
-        "sub_sections": [
-          "Aditi Infotech",
-          "Office Automation Software | Client: Tusher Hoses Pvt. Ltd.",
-          "Technologies: Visual Studio 2008 (Vb), Crystal Report & MS Access",
-          "Multimedia Web Application Technologies",
-          "Technologies: JavaScript, jQuery, SQL Server 2005 & Visual Studio 2008 (C#, VB)"
-        ],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.1,
-      "total_months": 145,
-      "overlapping_periods_merged": 4
+      "total_years": 12.2,
+      "total_months": 146,
+      "overlapping_periods_merged": 3
     },
-    "_confidence": 0.9
+    "_confidence": 0.84
   },
   "education": {
     "entries": [],
@@ -626,7 +673,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
@@ -636,17 +683,22 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[5]",
-      "confidence": 0.85,
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.98,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[6]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[7]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

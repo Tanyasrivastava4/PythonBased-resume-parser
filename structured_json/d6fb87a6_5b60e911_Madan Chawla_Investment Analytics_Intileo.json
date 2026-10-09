@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d6fb87a6_5b60e911_Madan Chawla_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:29.725851+00:00",
+    "generated_at": "2026-10-07T09:28:27.120452+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,24 +46,44 @@
   "skills": {
     "items": [
       "A/B Testing",
+      "Amazon Seller",
       "Analytics Strategy",
+      "BI Tools",
       "Business Analytics",
       "Cohort Analysis",
       "Consumer Analytics",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Data Analysis",
+      "Data Science",
       "Data-Driven Decision Making",
       "Fintech",
       "Funnel Analysis",
+      "Growth Marketing",
+      "Healthcare",
+      "Hypothesis Testing",
+      "Instrumentation",
+      "KPI",
       "KPI Design",
       "Leadership",
+      "Legal Compliance",
       "Looker",
       "Microsoft Excel",
+      "Microsoft Teams",
+      "Net Promoter Score",
       "Payments",
       "Power BI",
       "Problem Solving",
+      "Product Analytics",
+      "Product Design",
       "Python",
+      "Quality Control",
+      "Reliability",
+      "Reporting",
       "SQL",
       "Stakeholder Management",
       "Statistical Analysis",
+      "Supply Chain",
       "Tableau",
       "UPI"
     ],
@@ -71,29 +91,67 @@
       "data_science": [
         "A/B Testing",
         "Analytics Strategy",
+        "BI Tools",
         "Business Analytics",
         "Cohort Analysis",
         "Consumer Analytics",
+        "Data Analysis",
         "Funnel Analysis",
+        "Hypothesis Testing",
         "KPI Design",
         "Looker",
         "Power BI",
         "Statistical Analysis",
         "Tableau"
       ],
+      "retail": [
+        "Amazon Seller"
+      ],
       "soft_skill": [
+        "Cross-functional Collaboration",
         "Data-Driven Decision Making",
         "Leadership",
         "Problem Solving",
+        "Reliability",
+        "Reporting",
         "Stakeholder Management"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
+      ],
+      "ai_ml": [
+        "Data Science"
       ],
       "domain": [
         "Fintech",
+        "Healthcare",
         "Payments",
+        "Supply Chain",
         "UPI"
       ],
+      "marketing": [
+        "Growth Marketing"
+      ],
+      "engineering_hardware": [
+        "Instrumentation"
+      ],
+      "business_analysis": [
+        "KPI",
+        "Product Analytics"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "management": [
+        "Net Promoter Score"
+      ],
+      "engineering": [
+        "Product Design",
+        "Quality Control"
       ],
       "programming_language": [
         "Python"
@@ -110,11 +168,14 @@
       {
         "role": "Senior Analytics Manager - Product",
         "company": "Paytm",
-        "location": "Noida, India",
+        "location": null,
         "start": "Apr 2023",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 42,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Paytm | Senior Analytics Manager - Product"
+        ],
+        "duration_months": 43,
         "bullets": [
           "Lead analytics for large-scale payments products, driving data-driven product strategy and business decision-making across product, business, and engineering teams.",
           "Act as analytics partner to leadership, embedding experimentation culture across product strategy and operational initiatives.",
@@ -134,10 +195,13 @@
       {
         "role": "Senior Product Analyst",
         "company": "Meesho",
-        "location": "Bengaluru, India",
+        "location": null,
         "start": "May 2021",
         "end": "Apr 2023",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Meesho | Senior Product Analyst"
+        ],
         "duration_months": 24,
         "bullets": [
           "Led product analytics and experimentation across Growth, Trust, and Seller Experience Managed and mentored a team of 3 analysts supporting multiple product verticals Built self-serve dashboards and analytical frameworks linking seller experience, NPS drivers, and funnel retention metrics Conducted hypothesis testing and experimentation to evaluate growth and monetization initiatives Led monetization analytics covering seller Ads ROI, festive campaigns, deal performance, and pricing competitiveness Built and scaled the “Graded Views” framework across 100% of catalog to improve product quality and buyer conversion Defined trust markers and feature thresholds on product detail pages to strengthen buyer confidence and improve conversion rates"
@@ -150,10 +214,13 @@
       {
         "role": "Consultant II – Analytics",
         "company": "EXL",
-        "location": "Gurgaon, India",
+        "location": null,
         "start": "Oct 2020",
         "end": "May 2021",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "EXL | Consultant II – Analytics"
+        ],
         "duration_months": 8,
         "bullets": [
           "Worked on retail lending analytics and risk strategy initiatives for a large US financial institution.",
@@ -165,12 +232,15 @@
         "source": "experience"
       },
       {
-        "role": "Analyst – Growth",
+        "role": "Business Analyst – Growth",
         "company": "Mfine",
-        "location": "Bengaluru, India",
+        "location": null,
         "start": "Jun 2019",
         "end": "Oct 2020",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Mfine | Business Analyst – Growth"
+        ],
         "duration_months": 17,
         "bullets": [
           "Owned analytics for growth experiments and new product initiatives in a digital healthcare platform Built dashboards, forecasts, and business metrics frameworks to support leadership decision-making Partnered with Technology, Operations, Doctors, and Supply Chain teams to scale growth initiatives and product adoption"
@@ -183,8 +253,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.3,
-      "total_months": 88,
+      "total_years": 7.4,
+      "total_months": 89,
       "overlapping_periods_merged": 3
     },
     "_confidence": 0.98

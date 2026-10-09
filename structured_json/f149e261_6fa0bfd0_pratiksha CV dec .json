@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f149e261_6fa0bfd0_pratiksha CV dec _segmented.txt",
-    "generated_at": "2026-09-30T07:00:45.180529+00:00",
+    "generated_at": "2026-10-07T09:28:48.433617+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,13 +51,18 @@
       "Adaptability",
       "Bootstrap",
       "CSS3",
+      "E-commerce",
       "ES6+",
       "Git",
+      "GitHub",
       "HTML5",
       "JavaScript",
       "Leadership",
+      "LinkedIn",
       "Problem Solving",
       "React",
+      "SEO",
+      "Theme Customization",
       "Time Management",
       "VS Code",
       "WordPress"
@@ -73,7 +78,11 @@
         "Bootstrap",
         "CSS3",
         "HTML5",
+        "LinkedIn",
         "React"
+      ],
+      "retail": [
+        "E-commerce"
       ],
       "programming_language": [
         "ES6+",
@@ -81,10 +90,17 @@
       ],
       "dev_tool": [
         "Git",
-        "VS Code"
+        "GitHub"
+      ],
+      "marketing": [
+        "SEO"
       ],
       "content": [
+        "Theme Customization",
         "WordPress"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -98,7 +114,10 @@
         "location": null,
         "start": "April 2025",
         "end": "July 2025",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Marktale Company"
+        ],
         "duration_months": 4,
         "bullets": [
           "Designing and developing WordPress websites with custom themes and plugins.",
@@ -115,7 +134,10 @@
         "location": null,
         "start": "Jan 2025",
         "end": "Apr 2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Grow Hype"
+        ],
         "duration_months": 4,
         "bullets": [
           "Worked on live WordPress projects including theme customization and plugin integration.",
@@ -165,13 +187,13 @@
         "degree_type": "10th",
         "degree_field": null,
         "institution": "Ganga Inter College Garhumrao",
-        "year": null,
+        "year": "2019",
         "gpa": "81%",
         "_needs_review": false,
-        "_confidence": 0.65
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.85
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [
@@ -213,7 +235,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [

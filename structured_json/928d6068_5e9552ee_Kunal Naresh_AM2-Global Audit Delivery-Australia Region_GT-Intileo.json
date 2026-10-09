@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "928d6068_5e9552ee_Kunal Naresh_AM2-Global Audit Delivery-Australia Region_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:43.710369+00:00",
+    "generated_at": "2026-10-07T09:27:26.873060+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,13 +48,21 @@
     "items": [
       "ASC 815",
       "Accounting",
+      "Accounting Standards",
       "Budgeting",
+      "Cash Flow Management",
       "Financial Reporting",
       "GAAP",
+      "GST",
+      "General Ledger",
       "IFRS",
-      "Ind AS",
+      "Income Tax Return",
+      "Ind AS 116",
+      "ROC Filings",
       "Record-to-Report",
       "Stakeholder Management",
+      "TDS",
+      "Tax Auditing",
       "Time Series Forecasting",
       "Variance Analysis"
     ],
@@ -63,16 +71,32 @@
         "ASC 815",
         "Accounting",
         "Budgeting",
+        "Cash Flow Management",
         "Financial Reporting",
         "GAAP",
         "IFRS"
       ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Ind AS 116",
+        "Tax Auditing"
+      ],
+      "accounting": [
+        "GST",
+        "General Ledger"
+      ],
       "finance": [
-        "Ind AS",
+        "Income Tax Return",
         "Record-to-Report"
+      ],
+      "legal": [
+        "ROC Filings"
       ],
       "soft_skill": [
         "Stakeholder Management"
+      ],
+      "taxation": [
+        "TDS"
       ],
       "ai_ml": [
         "Time Series Forecasting"
@@ -82,22 +106,23 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(ASC 805→ASC 815(86%), ASC 810→ASC 815(86%), accounting.→Accounting(95%))"
+    "_method": "flashtext_skills_section | fuzzy(ASC 805→ASC 815(86%), ASC 810→ASC 815(86%), Ind AS→Accounting Standards(100%), accounting.→Accounting(95%))"
   },
   "experience": {
     "jobs": [
       {
         "role": "Assistant Manager",
         "company": "Macquarie Group",
-        "location": null,
+        "location": "Assistant Manager",
         "start": "05/2025",
         "end": "Present",
-        "method": "date_regex+pipe_split",
-        "duration_months": 17,
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 18,
         "bullets": [
           "Part of finance team involved in posting journal entries, monthly and quarterly books closure",
           "Led and supervised a team of 2–3 professionals",
-          "Performed budgeting, forecasting and variance analysis"
+          "Performed budgeting, forecasting and variance analysis",
+          "Assisted in treasury and cash management"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -105,40 +130,45 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Drafted technical accounting whitepapers on different topics under IFRS and USGAAP",
+        "role": "Assistant Manager",
+        "company": "EY GDS",
         "location": "Assistant Manager",
         "start": "02/2023",
         "end": "05/2025",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 28,
-        "bullets": [],
+        "bullets": [
+          "Drafted technical accounting whitepapers on different topics under IFRS and USGAAP",
+          "Led and supervised a team of 2–3 professionals"
+        ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Prepared accounting memos on: o Business Combinations (ASC 805 / IFRS 3) o Debt vs Equity classification under USGAAP o Revenue Recognition (IFRS 15)",
+        "role": "Consultant",
+        "company": "KPMG Global Services",
         "location": "Consultant",
         "start": "08/2021",
         "end": "02/2023",
-        "method": "date_regex",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 19,
-        "bullets": [],
+        "bullets": [
+          "Prepared accounting memos on: o Business Combinations (ASC 805 / IFRS 3) o Debt vs Equity classification under USGAAP o Revenue Recognition (IFRS 15) o Consolidation assessment (ASC 810)"
+        ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Assistant Manager",
-        "company": "o Consolidation assessment (ASC 810) Deloitte India",
-        "location": null,
+        "company": "Deloitte India",
+        "location": "Assistant Manager",
         "start": "04/2019",
         "end": "08/2021",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
         "duration_months": 29,
         "bullets": [
           "Participated in Ind AS 116 implementation",
@@ -154,18 +184,18 @@
           "Articleship & Paid Assistant",
           "Anil Kakar & Associates"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.5,
-      "total_months": 90,
+      "total_years": 7.6,
+      "total_months": 91,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -203,29 +233,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

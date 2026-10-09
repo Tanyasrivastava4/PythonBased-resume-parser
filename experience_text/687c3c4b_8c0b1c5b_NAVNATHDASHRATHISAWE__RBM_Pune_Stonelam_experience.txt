@@ -1,0 +1,76 @@
+======================================================================
+FILE: 687c3c4b_8c0b1c5b_NAVNATHDASHRATHISAWE__RBM_Pune_Stonelam_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Officer - Retail Sales Since Oct 2021
+Contact
+Saint Gobain India Pvt Ltd - Glass Business
+Pune, Solapur & Satara
+Key Responsibilities :
++ 91 8796614736
+Handled 50+Direct Retailers of Pune, Solapur and Satara.
+Accountable for 600 tons of volume and in terms of value 3
+to 3.5 C business on monthly bas...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 9.4 years (113 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Officer
+  Company      : Retail Sales Since Oct 2021
+  Location     : Retail Sales
+  Start - End  : Oct 2021 - Present
+  Duration     : 61 months
+  Bullets      : 0
+  Sub-sections : ['Pune, Solapur & Satara', 'Key Responsibilities :', '+ 91 8796614736', 'Handled 50+Direct Retailers of Pune, Solapur and Satara.', 'Accountable for 600 tons of volume and in terms of value 3', 'to 3.5 C business on monthly basis. Launching of new', 'D-1008, Majestic Venice, Near', 'products in a assigned area.', 'Nalanda School, Dhayari, Pune', 'Customer level - Product level sales planning.', '411041', 'Network Expansion in Pune & Solapur.', 'Revenue Management (Ensure timely collection).', 'Effective implementation of marketing initiatives. [Run', 'Fabricators’', 'i incentive schemes to ensure liquidation]', 'Drive market development activities such as In shop meets.']
+  Method       : since_date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Territory Sales Officer (TSO
+  Company      : Kansai Nerolac Paints limited
+  Location     : None
+  Start - End  : March 2019 - Sept 2021
+  Duration     : 31 months
+  Bullets      : 5
+    • Key Responsibilities: Handled 60+ Direct Retailers of Pune (Camp Territory),.
+    • Accountable for Sales of value 60 lakhs of. business on monthly basis.
+    • Launching of new products in assigned area.
+    • Customer level - Product level sales planning.
+    • Network Expansion in Pune (Camp Territory).
+  Sub-sections : ['Revenue Management (Ensure timely collection) Effective', 'implementation of marketing initiatives. [Run Painters’', 'incentive schemes to ensure liquidation] Drive market', 'development activities such as In shop meets. and Painter’s', 'meet.']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Senior Sales Officer (SSO
+  Company      : Berger Paints India Ltd
+  Location     : None
+  Start - End  : June 2018 - March 2019
+  Duration     : 10 months
+  Bullets      : 1
+    • Key Responsibilities: Handling Distributors and Sub dealers in Kolhapur and
+  Sub-sections : ['Satara area', 'Appointment of distributors and sub dealers', '·Adopted company programs amongst assigned', 'partners which resulted in revenue enhancement from']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Sales Officer Trainee (SOT
+  Company      : INR 8 Lakhs to INR 21Lakhs
+  Location     : None
+  Start - End  : June 2017 - June 2018
+  Duration     : 13 months
+  Bullets      : 1
+    • Key Responsibilities: Handling Distributors and there sub dealers in Pune area.
+  Sub-sections : ['Appointing distributors and sub dealer network', 'expansion.']
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False

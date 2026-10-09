@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/1852e02b_Ashish_Dabas_CV_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Email, Voice & Chat Support
+• International Customer Support (U.S., U.K., Middle East)
+• SLA & KPI Management (CSAT, AHT, FCR)
+• Order Management & WMS Support
+• Refunds, Returns & Payment Resolution
+• Escalation Handling & Complaint Management
+• Team Mentoring & New Hire Support
+
+── Extraction Results ──
+Skills found   : 16
+Confidence     : 0.92
+Time           : 198.15 ms
+Method         : flashtext_skills_section | fuzzy(WMS Support→WMS(100%), e-commerce→E-commerce(100%), escalation handling→Escalation Handling(100%))
+
+── All Skills (16) ──
+AHT, CSAT, Chat Support, Customer Service, E-commerce, Escalation Handling, FCR, KPI, Logistics, Mentoring, Microsoft Teams, Onboarding, Order Management, Payments, SLA Management, WMS
+
+── By Category ──
+  business_analysis              ['KPI']
+  client_mgmt                    ['Customer Service']
+  customer_service               ['AHT', 'CSAT', 'Escalation Handling', 'FCR']
+  domain                         ['Payments']
+  hr                             ['Onboarding']
+  operations                     ['Logistics', 'Order Management', 'WMS']
+  productivity                   ['Microsoft Teams']
+  retail                         ['E-commerce']
+  soft_skill                     ['Mentoring']
+  support                        ['Chat Support', 'SLA Management']

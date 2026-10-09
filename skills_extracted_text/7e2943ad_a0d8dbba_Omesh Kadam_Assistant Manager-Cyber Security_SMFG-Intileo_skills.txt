@@ -1,0 +1,39 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/7e2943ad_a0d8dbba_Omesh Kadam_Assistant Manager-Cyber Security_SMFG-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• SIEM - IBM Qradar
+• TrendMicro Email Gateway
+• Ticketing Tool- Sapphire, Pitagora
+• Network Traffic Analysis – FortiGate, Checkpoint,
+• Endpoint Security - AV, DLP, Proxy, Data
+Fortianalyser, Palo Alto, Net Scaler (Load Balancer)
+Classification, NAC, Encryption
+WAF (App Trana), Color Token (Micro segmentation)
+Classification | INTERNAL
+
+── Extraction Results ──
+Skills found   : 32
+Confidence     : 0.92
+Time           : 266.67 ms
+Method         : flashtext_skills_section | fuzzy(Checkpoint→Check Point(100%), Endpoint Security - AV→Endpoint Security(95%), Palo Alto→Palo Alto Networks(100%), Classification→Classification Web(95%), Classification→Classification Web(95%))
+
+── All Skills (32) ──
+.NET, AWS, Analyze, Azure, CEH, Check Point, Classification Web, Continuous Improvement, Cross-functional Collaboration, Cryptography, DLP, Data Visualization, EDR, Endpoint Security, FortiGate, Incident Response, Load Balancer, Microsoft Teams, Microsoft Windows, Networking, Oracle, Palo Alto Networks, Proxy, R, SIEM, SLA Management, SOC Operations, SQL, Threat Intelligence, UNIX, VAPT, WAF
+
+── By Category ──
+  biz_dev                        ['Networking']
+  cloud_infra                    ['AWS', 'Azure']
+  data_science                   ['Analyze', 'Data Visualization']
+  database                       ['Oracle', 'SQL']
+  devops                         ['Load Balancer']
+  operations                     ['Continuous Improvement']
+  os_system                      ['Microsoft Windows', 'UNIX']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['.NET', 'R']
+  search                         ['Classification Web']
+  security                       ['SOC Operations']
+  security_ops                   ['CEH', 'Check Point', 'Cryptography', 'DLP', 'EDR', 'Endpoint Security', 'FortiGate', 'Incident Response', 'Palo Alto Networks', 'Proxy', 'SIEM', 'Threat Intelligence', 'VAPT', 'WAF']
+  soft_skill                     ['Cross-functional Collaboration']
+  support                        ['SLA Management']

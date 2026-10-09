@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "687c3c4b_8c0b1c5b_NAVNATHDASHRATHISAWE__RBM_Pune_Stonelam_segmented.txt",
-    "generated_at": "2026-09-30T06:59:05.333273+00:00",
+    "generated_at": "2026-10-07T09:26:43.939965+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,12 +51,19 @@
       "Business Development",
       "Channel Sales",
       "Creativity",
+      "Dealer Management",
       "Leadership",
+      "Market Mapping",
       "Mechanical Engineering",
-      "Microsoft DirectX",
       "Negotiation",
       "Problem Solving",
-      "Sales Management",
+      "Retail Sales",
+      "Revenue Management",
+      "SSO",
+      "Sales Strategy",
+      "Secondary Distribution",
+      "Team Management",
+      "Territory Management",
       "Time Management"
     ],
     "by_category": {
@@ -65,7 +72,12 @@
       ],
       "sales": [
         "Channel Sales",
-        "Sales Management"
+        "Dealer Management",
+        "Market Mapping",
+        "Retail Sales",
+        "Sales Strategy",
+        "Secondary Distribution",
+        "Territory Management"
       ],
       "soft_skill": [
         "Creativity",
@@ -77,23 +89,29 @@
       "engineering": [
         "Mechanical Engineering"
       ],
-      "os_system": [
-        "Microsoft DirectX"
+      "hospitality": [
+        "Revenue Management"
+      ],
+      "security": [
+        "SSO"
+      ],
+      "management": [
+        "Team Management"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Direct→Microsoft DirectX(92%), Business development→Business Development(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Business development→Business Development(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Retail Sales",
-        "company": null,
+        "role": "Officer",
+        "company": "Retail Sales Since Oct 2021",
         "location": "Retail Sales",
         "start": "Oct 2021",
         "end": "Present",
         "method": "since_date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 60,
+        "duration_months": 61,
         "bullets": [],
         "sub_sections": [
           "Pune, Solapur & Satara",
@@ -124,7 +142,10 @@
         "location": null,
         "start": "March 2019",
         "end": "Sept 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Territory Sales Officer (TSO)"
+        ],
         "duration_months": 31,
         "bullets": [
           "Handled 60+ Direct Retailers of Pune (Camp Territory),.",
@@ -150,11 +171,13 @@
         "location": null,
         "start": "June 2018",
         "end": "March 2019",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Sales Officer (SSO)"
+        ],
         "duration_months": 10,
         "bullets": [
-          "Handling Distributors and Sub dealers in Kolhapur and",
-          "Handling Distributors and there sub dealers in Pune area."
+          "Handling Distributors and Sub dealers in Kolhapur and"
         ],
         "sub_sections": [
           "Satara area",
@@ -165,15 +188,39 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "Sales Officer Trainee (SOT",
+        "company": "INR 8 Lakhs to INR 21Lakhs",
+        "location": null,
+        "start": "June 2017",
+        "end": "June 2018",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "INR 8 Lakhs to INR 21Lakhs",
+          "Sales Officer Trainee (SOT)",
+          "Berger Paints India Ltd."
+        ],
+        "duration_months": 13,
+        "bullets": [
+          "Handling Distributors and there sub dealers in Pune area."
+        ],
+        "sub_sections": [
+          "Appointing distributors and sub dealer network",
+          "expansion."
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.3,
-      "total_months": 100,
-      "overlapping_periods_merged": 1
+      "total_years": 9.4,
+      "total_months": 113,
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.94
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -182,9 +229,9 @@
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": "Marketing",
-        "institution": "Marketing Pune University Vishwakarma Institute of Management",
+        "institution": "Marketing Pune University",
         "year": null,
-        "gpa": "69.70%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -193,20 +240,20 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Pune University M.M.C.C Pune",
-        "year": "2021",
-        "gpa": "60.70%",
+        "institution": "Vishwakarma Institute of Management",
+        "year": null,
+        "gpa": "69.70%",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "12th Commerce",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Commerce Kendriya Vidyalaya D.I.A.T Girinagar",
+        "institution": "M.M.C.C Pune Commerce Kendriya Vidyalaya",
         "year": "2021",
-        "gpa": "62.2%",
+        "gpa": "60.70%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -217,12 +264,12 @@
         "degree_field": null,
         "institution": "Kendriya Vidyalaya D.I.A.T Girinagar",
         "year": "1993",
-        "gpa": "61.4%",
+        "gpa": "62.2%",
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.91
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -233,7 +280,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [

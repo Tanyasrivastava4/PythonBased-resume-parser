@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d98071ba_373b7efe_Hiralal Channapattan_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:31.355960+00:00",
+    "generated_at": "2026-10-07T09:28:29.264994+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,52 +48,108 @@
   "summary": "Results-driven BI Developer with 4.5 years of experience in Business Intelligence, Data Analysis, and Data Visualization,\ndelivering actionable insights to support strategic business decisions. Proficient in Microsoft Power BI, SQL Server, Azure,\nDAX, and ETL processes for analyzing complex datasets and developing interactive dashboards and analytical reports.\nExperienced in designing scalable data models, optimizing report performance, and delivering high-quality BI solutions\nacross cross-functional environments. Strong expertise in stakeholder collaboration, requirement gathering, and\ntransforming business needs into data-driven solutions.",
   "skills": {
     "items": [
+      "AWS S3",
       "Azure",
+      "BFSI",
+      "BRD",
+      "Business Analytics",
+      "Business Intelligence",
       "Collaboration",
+      "Conditional Formatting",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
       "DAX",
       "Data Analysis",
       "Data Analytics",
+      "Data Modeling",
       "Data Visualization",
       "Data Warehousing",
       "Dataflow",
+      "E-commerce",
       "ETL",
+      "GCP",
+      "Identity Management",
+      "Incremental Refresh",
+      "KPI",
       "LinkedIn",
       "MSSQL",
+      "Microsoft Excel",
       "Microsoft Power Automate",
+      "Model Optimization",
+      "Oracle Database",
       "Performance Optimization",
+      "Pitch Scripts",
+      "PostgreSQL",
+      "Power Apps",
       "Power BI",
+      "Power BI Service",
       "Power Query",
       "PowerShell",
+      "Redshift",
       "Report Writing",
       "Reporting",
       "Requirements Gathering",
       "Row Level Security",
       "SQL",
+      "SharePoint",
+      "Star Schema",
+      "Telecom",
+      "Workflow Automation",
       "jQuery"
     ],
     "by_category": {
       "cloud_infra": [
+        "AWS S3",
         "Azure",
-        "Dataflow"
+        "Dataflow",
+        "GCP"
+      ],
+      "domain": [
+        "BFSI",
+        "Telecom"
+      ],
+      "business_analysis": [
+        "BRD",
+        "Business Intelligence",
+        "KPI",
+        "Requirements Gathering"
+      ],
+      "data_science": [
+        "Business Analytics",
+        "DAX",
+        "Data Analysis",
+        "Data Analytics",
+        "Data Modeling",
+        "Data Visualization",
+        "Model Optimization",
+        "Power BI",
+        "Power Query",
+        "Row Level Security"
       ],
       "soft_skill": [
         "Collaboration",
         "Cross-functional Collaboration",
         "Reporting"
       ],
-      "data_science": [
-        "DAX",
-        "Data Analysis",
-        "Data Analytics",
-        "Data Visualization",
-        "Power BI",
-        "Power Query",
-        "Row Level Security"
+      "software": [
+        "Conditional Formatting"
+      ],
+      "sales": [
+        "Customer Relationship Management",
+        "Pitch Scripts"
       ],
       "data_engineering": [
         "Data Warehousing",
         "ETL"
+      ],
+      "retail": [
+        "E-commerce"
+      ],
+      "security": [
+        "Identity Management"
+      ],
+      "analytics": [
+        "Incremental Refresh"
       ],
       "web_framework": [
         "LinkedIn",
@@ -101,7 +157,14 @@
       ],
       "database": [
         "MSSQL",
-        "SQL"
+        "Oracle Database",
+        "PostgreSQL",
+        "Redshift",
+        "SQL",
+        "Star Schema"
+      ],
+      "productivity": [
+        "Microsoft Excel"
       ],
       "rpa": [
         "Microsoft Power Automate"
@@ -109,28 +172,41 @@
       "dev_tool": [
         "Performance Optimization"
       ],
+      "low_code": [
+        "Power Apps"
+      ],
+      "bi_visualization": [
+        "Power BI Service"
+      ],
       "os_system": [
         "PowerShell"
       ],
       "content": [
         "Report Writing"
       ],
-      "business_analysis": [
-        "Requirements Gathering"
+      "integration": [
+        "SharePoint"
+      ],
+      "operations": [
+        "Workflow Automation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Query→jQuery(91%), SQL Server→MSSQL(100%), optimizing report performance→Performance Optimization(95%), cross-functional→Cross-functional Collaboration(100%), requirement gathering→Requirements Gathering(98%))"
+    "_method": "flashtext_skills_section | fuzzy(Query→jQuery(91%), scripting→Pitch Scripts(100%), SQL Server→MSSQL(100%), optimizing report performance→Performance Optimization(95%), cross-functional→Cross-functional Collaboration(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Power BI Developer",
-        "company": "Celebal Technologies  Pune",
-        "location": "India",
+        "company": "Celebal Technologies",
+        "location": null,
         "start": "10/2021",
         "end": "12/2023",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Power BI Developer",
+          "Celebal Technologies"
+        ],
         "duration_months": 27,
         "bullets": [
           "Delivered end-to-end business intelligence solutions across sales and marketing, BFSI, mining and metals, mechanical, HR, finance, telecom, and e-commerce domains using Microsoft Power BI.",
@@ -152,11 +228,15 @@
       },
       {
         "role": "Power BI Developer",
-        "company": "SR analytics  Pune",
-        "location": "India",
+        "company": "SR analytics",
+        "location": null,
         "start": "03/2024",
         "end": "02/2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Power BI Developer",
+          "SR analytics"
+        ],
         "duration_months": 12,
         "bullets": [
           "Developed interactive dashboards and analytical reports across BFSI, Manufacturing, Finance, and E-Commerce domains.",
@@ -171,11 +251,15 @@
       },
       {
         "role": "Power BI Developer",
-        "company": "Infosys  Pune",
-        "location": "India",
+        "company": "Infosys",
+        "location": null,
         "start": "04/2025",
         "end": "12/2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Power BI Developer",
+          "Infosys"
+        ],
         "duration_months": 9,
         "bullets": [
           "Designed and developed enterprise Power BI dashboards, analytical reports, and data models for business intelligence solutions.",
@@ -188,11 +272,15 @@
       },
       {
         "role": "Power BI Developer",
-        "company": "Tenneco  Pune",
-        "location": "India",
+        "company": "Tenneco",
+        "location": null,
         "start": "12/2025",
         "end": "03/2026",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Power BI Developer",
+          "Tenneco"
+        ],
         "duration_months": 4,
         "bullets": [
           "Developed Power BI dashboards and financial analytics reports for KPI tracking, profitability analysis, and executive reporting.",

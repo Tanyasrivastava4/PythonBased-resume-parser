@@ -1,0 +1,38 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/6ac367ce_f8281f75_Aman Kumar_Business Analyst_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Requirement Gathering BRD FRD
+User Stories Wireframing
+Stakeholder Management Jira SQL BFSI
+Process Mapping Agile
+Change Management Requirement Elicitation
+Cross team collobration Lucidchart Balsamiq
+LLM Generative AI Banking Systems
+AML/KYC UAT
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 126.3 ms
+Method         : flashtext_skills_section | fuzzy(collobration→Collaboration(88%), Generative→Generative AI(95%), Generative→Generative AI(95%))
+
+── All Skills (21) ──
+AML, Agile, BFSI, BRD, Change Management, Collaboration, Generative AI, Jira, KYC, LLM, LinkedIn, Lucidchart, Machine Learning, Market Research, Microsoft Teams, Prompt Engineering, Quality Assurance, SQL, Stakeholder Management, UAT, UX Design
+
+── By Category ──
+  ai_ml                          ['Machine Learning']
+  business_analysis              ['BRD']
+  database                       ['SQL']
+  design                         ['Lucidchart', 'UX Design']
+  domain                         ['BFSI']
+  genai                          ['Generative AI', 'LLM', 'Prompt Engineering']
+  legal                          ['AML', 'KYC']
+  marketing                      ['Market Research']
+  operations                     ['Quality Assurance']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Agile', 'Change Management', 'Jira']
+  soft_skill                     ['Collaboration', 'Stakeholder Management']
+  testing                        ['UAT']
+  web_framework                  ['LinkedIn']

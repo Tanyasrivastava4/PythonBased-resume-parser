@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7b9b0a2b_d7f97234_brijesh updated cv_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.439137+00:00",
+    "generated_at": "2026-10-07T09:27:02.245761+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,11 +51,15 @@
       "Bootstrap",
       "CSS3",
       "Canva",
+      "Communication",
       "Elementor",
       "Figma",
+      "Graphic Design",
       "HTML5",
       "JavaScript",
       "Motion Graphics",
+      "Presentation Skills",
+      "UX Design",
       "WordPress",
       "jQuery"
     ],
@@ -64,7 +68,9 @@
         "Adobe Photoshop",
         "Canva",
         "Figma",
-        "Motion Graphics"
+        "Graphic Design",
+        "Motion Graphics",
+        "UX Design"
       ],
       "web_framework": [
         "Bootstrap",
@@ -72,6 +78,10 @@
         "Elementor",
         "HTML5",
         "jQuery"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Presentation Skills"
       ],
       "programming_language": [
         "JavaScript"
@@ -107,7 +117,7 @@
         "location": null,
         "start": "2025",
         "end": "2025",
-        "method": "single_year_regex+title_dict+company_suffix_match",
+        "method": "single_year_regex+multiline_role_above_company",
         "duration_months": 1,
         "bullets": [
           "months"
@@ -123,7 +133,10 @@
         "location": null,
         "start": "2025",
         "end": "2026",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Wordpress Developer"
+        ],
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [
@@ -160,14 +173,14 @@
         "degree_name": "B.A.",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": null,
+        "institution": "DU.SOL C O N T A C T mandi house",
         "year": "2024 - 2027",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.68
+    "_confidence": 0.75
   },
   "certifications": {
     "items": [
@@ -200,7 +213,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.82
+    "overall": 0.83
   },
   "_needs_review": true,
   "_review_queue": [
@@ -208,11 +221,6 @@
       "field": "experience.jobs[0]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
-    },
-    {
-      "field": "education",
-      "confidence": 0.68,
-      "reason": "low_confidence"
     },
     {
       "field": "education.entries[0]",

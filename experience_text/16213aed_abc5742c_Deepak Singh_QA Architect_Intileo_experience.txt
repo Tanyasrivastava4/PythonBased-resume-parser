@@ -1,0 +1,100 @@
+======================================================================
+FILE: 16213aed_abc5742c_Deepak Singh_QA Architect_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+15 Years 6 Months
+Company Name	Experience	Job profile
+Programmers.ai	3 March 2025 – till now	Team Lead QA
+Jio Tesseract Imaging Ltd	6 Dec 2024 – 4 Feb 2025	Senior Quality Manger
+WebMatrix Pvt Ltd	3 Aug 2021-5 Dec 2024	Senior Technical Quality Engineer
+Associated Corporate Consultants India Pvt Ltd	8...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.77
+Needs review   : True
+Total exp      : 31.2 years (374 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Programmers.ai	3 March 2025
+  Company      : till now	Team Lead QA
+  Location     : None
+  Start - End  : 3 March 2025 - Present
+  Duration     : 20 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Jio Tesseract Imaging Ltd Senior Quality Manger
+  Company      : Jio Tesseract Imaging Ltd		Senior Quality Manger
+  Location     : None
+  Start - End  : 6 Dec 2024 - 4 Feb 2025
+  Duration     : 2 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : WebMatrix Pvt Ltd Senior Technical Quality Engineer
+  Company      : WebMatrix Pvt Ltd		Senior Technical Quality Engineer
+  Location     : None
+  Start - End  : 3 Aug 2021 - 5 Dec 2024
+  Duration     : 41 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 4
+  Role         : Associated Corporate Consultants India Pvt Ltd Manager-Quality Assurance
+  Company      : Associated Corporate Consultants India Pvt Ltd		Manager-Quality Assurance
+  Location     : None
+  Start - End  : 8 Feb 2021 - 19 Jul 2021
+  Duration     : 6 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 5
+  Role         : Square Panda India LLP QA Games Lead
+  Company      : Associated Corporate Consultants India Pvt Ltd		Manager-Quality Assurance
+  Location     : None
+  Start - End  : 7 Sep 2020 - 5 Feb 2021
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : Capgemini Technology Service India Limited Test Lead, Test Manager & Business Analyst
+  Company      : Acts as a mentor for Test team and Development team members for functional queries Preparing Test Plan and Test Strategy and involved in Test Estimation, Scheduling and Tracking Involved in Test data preparation and test scenario identification Giving functional understanding to testing team and assigning them daily work Involved in the execution complex and critical test cases.
+  Location     : None
+  Start - End  : 18 Sep 2010 - 31 Aug 2020
+  Duration     : 120 months
+  Bullets      : 5
+    • Roles and Responsibilities: Having 15 Years 6 Months of rich work experience in Software Testing, Game Testing, Test Management & Business Analysis of various project domains which includes Insurance, Financial Market, Automobile, Oil and gas, Risk management, Information System, Banking Applications, E-Learning, Digital Media & Advertisement, Identity and Access Management, Artificial Intelligence, AR/VR/MR Experience in Regulatory Compliance awareness, Transaction/payment system understanding, Security Risk management, Data analytics Worked in Programmers.io, Jio Tesseract, WebMatrix, ACC India, Square Panda and Capgemini as a Manager-Quality Assurance, Business Analyst and QA Lead.
+    • Created Test Automation framework from scratch with Selenium using Java and Python Have experience on Data Driven, Keyword Driven and Hybrid framework Integrated Test Automation framework using TestNG, Junit and CI/CD with help of Jenkins and Azure DevOps Created REST Assured API Automation framework from the scratch and Integrated with CI/CD Tools Experience in code review of Automation test script considering completeness, reusability, and maintenance of the test script Hands-on experience in Playwright automation using JavaScript and TypeScript Hands-on experience in creating Mobile automation framework using Appium, UI Automator and XCUITEST Working Experience as a Business Analyst in Daimler Project of Automobile Domain Worked at Client location (Munich-Germany) as a Test Lead for UAT support, SIT knowledge transfer to client Daimler and Tec Alliance.
+    • Hands-on experience in REST API, SOAP UI, RFT and Ghost Inspector Hands-on experience in JMeter Tool for Performance, Load & Stress Testing Hands on experience in Security testing using Burp Suite Tool to find out the Vulnerabilities Extensive hand on experience with all levels of testing including Smoke Testing, Functional Testing, Integration Testing, System Testing, Regression Testing including Test Plan and Test Strategy.
+    • Involved in preparing test execution plan for regression test Defect reporting and tracking through JIRA to manage the lifecycle of the Defects.
+    • Involved in planning, execution of Performance and Load Testing Creating test scenarios and test cases for End-to-End Business Transactions Executing the Functional and Integration test cases.
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 7
+  Role         : 6 Months
+  Company      : Unknown company
+  Location     : None
+  Start - End  : None - None
+  Duration     : 180 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False

@@ -2,7 +2,7 @@
 FILE: bfdd8751_c6621fdd_Deepanshu Gupta_GAD_GT_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'education', 'experience', 'header', 'skills']
-Overall conf.  : 0.9
+Overall conf.  : 0.93
 Needs review   : True
 
 CONTACT
@@ -14,28 +14,30 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (7) — confidence 0.92
+SKILLS (24) — confidence 0.92
 ----------------------------------------------------------------------
-Data Analysis, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, SAP, Tally
+Account Reconciliation, Accounting, Accounts Payable, Computax, Data Analysis, E-Way Bill, Financial Reporting, GST, GST Return Filing, Income Tax Return, Input Tax Credit, Internal Controls Testing, LinkedIn, MIS Reporting, MS Office, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, SAP, Statutory Audit, Tally, Tally ERP 9, Taxation, VAT
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.77
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.91
 Total experience: 25.6 years (307 months, 2 overlaps merged)
 ----------------------------------------------------------------------
-  1. Senior Accountant, Pradeep K Saini & @ Coordinated with clients to finalise accounting records and prepare accurate financial statements in compliance with applicable standards. (Oct’22 - Dec’25) [conf 0.7, review=True]
-  2. Executive Accountant, Mazars Advisory LLP, Gurugram @ Outsourced to the Accounts Payable team of one of the leading Airlines with highest domestic market share. (May 22 - Sep’22) [conf 0.7, review=True]
-  3. Industrial Trainee, Indian Oil Corporation @ Assistance in accurate calculation and finalization of monthly VAT & CST, ensuring compliance with tax regulations. (Apr’18 - Feb’19) [conf 0.7, review=True]
-  4. Article Assistant @ Pravesh Jain & Co (Feb’16 - Mar’18) [conf 0.98, review=False]
+  1. Senior Accountant @ Pradeep K Saini & Associates (Oct’22 - Dec’25) [conf 0.98, review=False]
+  2. Executive Accountant @ Mazars Advisory LLP (May 22 - Sep’22) [conf 0.98, review=False]
+  3. Industrial Trainee @ Indian Oil Corporation Limited (Apr’18 - Feb’19) [conf 0.98, review=False]
+  4. Compiled and prepared monthly sales tax MIS reports for submission to the HVAT Department @ Efficiently managed the preparation and filing of income tax returns through CompuTax software ensuring timely submissions. (Feb’16 - Mar’18) [conf 0.7, review=True]
 
-EDUCATION (8) — confidence 0.95
+EDUCATION (10) — confidence 0.92
 ----------------------------------------------------------------------
   1. CA Final — al Group II Institute of Chartered Accountants of India (2025) [conf 0.95, review=False]
-  2. CA Final — al Group II Institute of Chartered Accountants of India (2024) [conf 0.95, review=False]
-  3. B.Com — Hons School of Open Learning, University of Delhi (2014) [conf 0.95, review=False]
+  2. CA Final — al Group II Institute of Chartered Accountants of India (2024) [conf 0.8, review=False]
+  3. B.Com — Institute of Chartered Accountants of India (2017) [conf 0.95, review=False]
   4. 12th — IPC- Group II Institute of Chartered Accountants of India (2017) [conf 0.95, review=False]
   5. 12th — IPC- Group I Institute of Chartered Accountants of India (2015) [conf 0.95, review=False]
   6. CA Foundation — al Group II Institute of Chartered Accountants of India (2014) [conf 0.95, review=False]
   7. 12th — CBSE (2012) [conf 0.95, review=False]
-  8. 10th — XI, Air Force Golden Jubilee Institute (2025) [conf 0.95, review=False]
+  8. 10th — CBSE (Oct2022 - Dec2025) [conf 0.95, review=False]
+  9. CA Final — al Group II Institute of Chartered Accountants of India (2025) [conf 0.8, review=False]
+  10. CA Intermediate — al Group II Institute of Chartered Accountants of India (2017) [conf 0.95, review=False]
 
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
@@ -45,8 +47,6 @@ ACHIEVEMENTS (2) — confidence 0.85
   • Assisted in VAT & CST assessment for FY 2015-2016, resulting in withdrawal of departmental demand of approximately Rs 3000 Crores and
   • received special recognition from GM (Finance), Indian Oil Corporation Limited.
 
-REVIEW QUEUE (3 flagged fields)
+REVIEW QUEUE (1 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.7  reason=incomplete_fields

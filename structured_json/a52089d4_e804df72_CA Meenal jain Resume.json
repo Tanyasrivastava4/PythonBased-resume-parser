@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a52089d4_e804df72_CA Meenal jain Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:59:56.348869+00:00",
+    "generated_at": "2026-10-07T09:27:43.701052+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,33 +48,79 @@
   "summary": "Chartered Accountant possessing a solid foundation in Financial Accounting, Auditing and Taxation (Both Personal and\nCorporate) . Detail-oriented and experienced tax professional with expertise in U.S. and Canadian taxation, including corporate,\npersonal, and cross-border tax compliance. Skilled in preparing financial statements, corporate and personal tax returns, and\nensuring compliance with CRA and IRS regulations. Proficient in tax software such as Profile, Drake, Xero, and QuickBooks.\nAdept at implementing tax-saving strategies and providing expert client support for complex cross-border tax matters.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
       "Auditing",
       "Communication",
       "Financial Reporting",
+      "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-3B",
+      "General Ledger",
+      "Income Tax Return",
+      "Indirect Taxation",
+      "LinkedIn",
       "MS Office",
+      "Make",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "QuickBooks",
+      "R",
+      "Reporting",
+      "SEBI",
+      "Schedule III Compliance",
       "Tally",
+      "Tax Auditing",
       "Taxation"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Schedule III Compliance",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
         "Auditing",
         "Financial Reporting",
+        "Indirect Taxation",
         "QuickBooks",
         "Tally",
         "Taxation"
       ],
       "soft_skill": [
-        "Communication"
+        "Communication",
+        "Reporting"
+      ],
+      "accounting": [
+        "GST",
+        "General Ledger"
+      ],
+      "finance": [
+        "GST Return Filing",
+        "Income Tax Return"
+      ],
+      "taxation": [
+        "GSTR-1",
+        "GSTR-3B"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "MS Office",
         "Microsoft Excel",
         "Microsoft PowerPoint"
+      ],
+      "rpa": [
+        "Make"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "legal": [
+        "SEBI"
       ]
     },
     "_confidence": 0.92,
@@ -84,12 +130,15 @@
     "jobs": [
       {
         "role": "Associate",
-        "company": "Mashcubes CPA Inc. From",
+        "company": "From",
         "location": null,
         "start": "Nov 2024",
         "end": "present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 23,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Mashcubes CPA Inc."
+        ],
+        "duration_months": 24,
         "bullets": [
           "Prepare and finalize financial statements for U.S. and Canadian corporations using Excel, Xero, and Quick-books, ensuring full compliance with CRA regulations and IRS regulations.",
           "Prepare corporate tax returns (T2) for Canadian clients using Profile, ensuring adherence to Canadian tax rules and regulations.",
@@ -107,12 +156,15 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Employee",
         "company": "Pradeep garg and Associates",
         "location": null,
         "start": "May2022",
         "end": "Aug2023",
-        "method": "date_regex",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Pradeep garg and Associates"
+        ],
         "duration_months": 16,
         "bullets": [
           "Prepared financial statements for proprietorship, partnerships, and companies using Tally and Busy.",
@@ -122,17 +174,20 @@
           "Created reconciliation statements for annual GST returns and assisted in GST audits."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Article Assistant",
-        "company": "R.Osatwal and Associates",
-        "location": null,
+        "company": "R.Osatwal and Associates (well known for Auditing",
+        "location": "Accounting and Taxation",
         "start": "Aug2017",
         "end": "Aug2020",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "R.Osatwal and Associates (well known for Auditing, Accounting and Taxation)"
+        ],
         "duration_months": 37,
         "bullets": [
           "Managed end-to-end Preparation and filing of GST Returns, including conducting GST Audit in Compliance with Act and Rules and Regulations.",
@@ -147,18 +202,18 @@
           "Prepared and Reviewed Balance Sheet and Profit & Loss Statement in accordance with Schedule III, ensuring financial accuracy."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.3,
-      "total_months": 76,
+      "total_years": 6.4,
+      "total_months": 77,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.94
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -169,9 +224,9 @@
         "degree_field": null,
         "institution": "Institute Of Chartered Accountants Of India",
         "year": "2024",
-        "gpa": "52%",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Bachelor of Commerce",
@@ -180,7 +235,7 @@
         "degree_field": null,
         "institution": "Maharishi Dayanand Saraswati University",
         "year": "2019",
-        "gpa": "68%",
+        "gpa": "52%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -229,7 +284,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.93
   },
   "certifications": {
     "items": [
@@ -262,13 +317,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

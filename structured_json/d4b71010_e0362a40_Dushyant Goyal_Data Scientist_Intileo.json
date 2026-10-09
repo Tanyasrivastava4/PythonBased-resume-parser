@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d4b71010_e0362a40_Dushyant Goyal_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:27.889870+00:00",
+    "generated_at": "2026-10-07T09:28:24.839051+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,17 +50,21 @@
     "items": [
       "ANN",
       "Agentic AI",
+      "Android",
       "C++",
       "Chroma",
+      "Cosine Similarity",
       "Dart",
       "Data Analysis",
       "Deep Learning",
       "Django",
+      "Django REST Framework",
       "Docker",
       "Embeddings",
       "FastAPI",
       "Feature Engineering",
       "Firebase",
+      "Gemini",
       "Git",
       "GitHub",
       "Google Workspace",
@@ -71,10 +75,14 @@
       "LLM",
       "LangChain",
       "LangGraph",
+      "LinkedIn",
       "Machine Learning",
       "Microsoft Excel",
+      "Model Evaluation",
       "MongoDB",
       "NLP",
+      "Performance Optimization",
+      "Pitch Scripts",
       "Pivot Tables",
       "Prompt Engineering",
       "PyTorch",
@@ -82,18 +90,22 @@
       "Qdrant",
       "RAG",
       "REST",
+      "REST API",
       "React",
       "Reporting",
       "SQL",
       "Transformers",
       "VS Code",
+      "Vector Databases",
       "XLOOKUP",
+      "XML",
       "scikit-learn"
     ],
     "by_category": {
       "ai_ml": [
         "ANN",
         "Chroma",
+        "Cosine Similarity",
         "Deep Learning",
         "Embeddings",
         "Machine Learning",
@@ -103,19 +115,26 @@
       ],
       "genai": [
         "Agentic AI",
+        "Gemini",
         "LLM",
         "LangChain",
         "LangGraph",
         "Prompt Engineering",
-        "RAG"
+        "RAG",
+        "Vector Databases"
+      ],
+      "mobile": [
+        "Android"
       ],
       "programming_language": [
         "C++",
-        "Dart",
         "Java",
         "JavaScript",
         "Kotlin",
         "Python"
+      ],
+      "programming": [
+        "Dart"
       ],
       "data_science": [
         "Data Analysis",
@@ -124,8 +143,12 @@
       ],
       "web_framework": [
         "Django",
+        "Django REST Framework",
         "FastAPI",
-        "React"
+        "LinkedIn",
+        "REST API",
+        "React",
+        "XML"
       ],
       "devops": [
         "Docker"
@@ -139,12 +162,18 @@
         "Git",
         "GitHub",
         "Jupyter",
-        "VS Code"
+        "Performance Optimization"
       ],
       "productivity": [
         "Google Workspace",
         "Microsoft Excel",
         "Pivot Tables"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
+      ],
+      "sales": [
+        "Pitch Scripts"
       ],
       "search": [
         "Qdrant"
@@ -155,22 +184,28 @@
       "soft_skill": [
         "Reporting"
       ],
+      "tools": [
+        "VS Code"
+      ],
       "software": [
         "XLOOKUP"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Unsupervised Learning→Machine Learning(100%), Neural Networks→ANN(100%), Retrieval-Augmented Generation→RAG(100%), Scikit-Learn→scikit-learn(100%), Django REST Framework→Django(95%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Unsupervised Learning→Machine Learning(100%), Neural Networks→ANN(100%), Cosine Similarity NLP→Cosine Similarity(95%), Retrieval-Augmented Generation→RAG(100%), Scikit-Learn→scikit-learn(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "AI Associate Remote",
+        "role": "AI Associate",
         "company": "Sensekore Technologies",
-        "location": "AI Associate Remote",
+        "location": null,
         "start": "January 2025",
         "end": "December 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Sensekore Technologies — AI Associate"
+        ],
         "duration_months": 12,
         "bullets": [
           "Built AI-driven applications using Machine Learning, Deep Learning concepts, LLMs, and LangChain Designed Retrieval-Augmented Generation (RAG) pipelines for document search, semantic retrieval, and intelligent Q&A Integrated Google Gemini API, vector databases (Chroma, Qdrant), and embeddings for chatbot intelligence Worked on resume parsing, NLP-based information extraction, interview automation, and workflow orchestration Applied prompt engineering, Python scripting, and LLM tool calling for real-world AI agents Contributed to intelligent interview assistant systems with contextual memory and multi-step reasoning"
@@ -181,12 +216,15 @@
         "source": "experience"
       },
       {
-        "role": "Android Development Intern Noida",
+        "role": "Android Development Intern",
         "company": "Tecxon Technology",
-        "location": "Android Development Intern Noida",
+        "location": null,
         "start": "May 2024",
         "end": "July 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Tecxon Technology — Android Development Intern"
+        ],
         "duration_months": 3,
         "bullets": [
           "Developed Android applications focused on ride-sharing and productivity platforms Designed UI using XML and Jetpack components for responsive user experience"
@@ -201,7 +239,7 @@
         "source": "experience"
       },
       {
-        "role": "Android Development Intern Noida",
+        "role": "Android Development Intern",
         "company": "Aptron Android Certificate",
         "location": null,
         "start": "06/2022",
@@ -232,7 +270,7 @@
         "degree_field": null,
         "institution": "Mastero fComputer Applications Vivekananda Institute of Professional Studies",
         "year": "2023 - 2025",
-        "gpa": "92%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -242,8 +280,8 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "BCA Maharshi Dayanand University Haryana",
-        "year": "2020 - 2023",
-        "gpa": "86%",
+        "year": "2023 - 2025",
+        "gpa": "92%",
         "_needs_review": false,
         "_confidence": 0.95
       },

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "02240c19_9f67e8cf_Harshavardhan Kamble_Process Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:42.515998+00:00",
+    "generated_at": "2026-10-09T05:41:19.796057+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,23 +51,37 @@
       "Agile",
       "AutoCAD",
       "Budgeting",
+      "CATIA",
       "Change Management",
       "Communication",
       "Conflict Resolution",
       "Cross-functional Collaboration",
       "ERP",
       "Google",
+      "Internal Audit",
       "Inventory Management",
       "KPI",
+      "Leadership",
       "Lean Six Sigma",
+      "LinkedIn",
       "Logistics",
       "MS Office",
       "Microsoft Excel",
+      "Microsoft Teams",
       "Negotiation",
+      "Operations Management",
+      "PLC",
+      "Performance Monitoring",
       "Power BI",
+      "Process Improvement",
+      "Process Re-Engineering",
+      "Procure-to-Pay",
       "Procurement",
+      "Professional Tax",
       "Project Management",
       "RACI",
+      "Reliability",
+      "Resource Planning",
       "Risk Assessment",
       "Risk Management",
       "SEM",
@@ -76,8 +90,10 @@
       "SolidWorks",
       "Supply Chain",
       "Supply Chain Management",
+      "Team Coordination",
       "Team Leadership",
       "Time Series Forecasting",
+      "Vendor Development",
       "Vendor Management",
       "Waterfall"
     ],
@@ -86,20 +102,26 @@
         "5S",
         "Inventory Management",
         "Logistics",
+        "Operations Management",
+        "Performance Monitoring",
+        "Process Improvement",
         "Procurement",
         "Supply Chain Management",
+        "Vendor Development",
         "Vendor Management"
       ],
       "project_mgmt": [
         "Agile",
         "Change Management",
         "Project Management",
+        "Resource Planning",
         "Risk Management",
         "Scrum",
         "Waterfall"
       ],
       "engineering": [
         "AutoCAD",
+        "CATIA",
         "SolidWorks"
       ],
       "finance_ops": [
@@ -109,7 +131,9 @@
         "Communication",
         "Conflict Resolution",
         "Cross-functional Collaboration",
+        "Leadership",
         "Negotiation",
+        "Reliability",
         "Team Leadership"
       ],
       "erp": [
@@ -118,19 +142,38 @@
       "database": [
         "Google"
       ],
+      "accounting": [
+        "Internal Audit"
+      ],
       "business_analysis": [
         "KPI"
       ],
       "process": [
         "Lean Six Sigma"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
         "MS Office",
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
+      ],
+      "engineering_hardware": [
+        "PLC"
       ],
       "data_science": [
         "Power BI",
         "Sigma Computing"
+      ],
+      "consulting": [
+        "Process Re-Engineering"
+      ],
+      "finance": [
+        "Procure-to-Pay"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "project_management": [
         "RACI"
@@ -144,12 +187,15 @@
       "domain": [
         "Supply Chain"
       ],
+      "management": [
+        "Team Coordination"
+      ],
       "ai_ml": [
         "Time Series Forecasting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(KPI Tracking.→KPI(96%), Sourcing→Procurement(100%), Excel→Microsoft Excel(100%), Sigma→Sigma Computing(100%))"
+    "_method": "flashtext_skills_section | fuzzy(KPI Tracking.→KPI(96%), Sourcing→Procurement(100%), Excel→Microsoft Excel(100%), Sigma→Sigma Computing(100%), Professional→Professional Tax(95%))"
   },
   "experience": {
     "jobs": [
@@ -174,7 +220,7 @@
           "Onboarded 20+ new suppliers, expanding the vendor base by 10% and ensuring long-term project supply stability.",
           "Designed and tracked 10+ procurement KPIs through dashboards, enhancing supplier evaluation accuracy and reducing purchase cycle time by 20%.",
           "Made outsourcing plans, conducted price comparisons, and finalized vendor orders according to project material requirements.",
-          "Monitored and optimized inventory levels, maintaining in-house stock balance and eliminating excess inventory or"
+          "Monitored and optimized inventory levels, maintaining in-house stock balance and eliminating excess inventory or stock-out situations."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -182,12 +228,12 @@
         "source": "experience"
       },
       {
-        "role": "VISHWAKARMA ENGINEERING – Production Planning Engineer",
-        "company": "stock-out situations. VISHWAKARMA ENGINEERING",
-        "location": "Production Planning Engineer",
+        "role": "Production Planning Engineer",
+        "company": "VISHWAKARMA ENGINEERING",
+        "location": null,
         "start": "Sept 2019",
         "end": "March 2022",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 31,
         "bullets": [
           "Managed and executed 20+ production and process improvement projects, achieving a 20% increase in operational efficiency through automation and workflow optimization.",
@@ -202,7 +248,7 @@
           "Developed and maintained ITSM documentation, workflows, and training materials for production and support teams, ensuring standardized operations and faster issue resolution.",
           "Ensured accurate documentation of production data for internal audits and ISO compliance, maintaining 100% audit readiness.",
           "Prepared and presented weekly project progress and KPI reports to senior management, enabling data-driven decision-making and improved resource planning.",
-          "Handled team scheduling, workload distribution, and conflict resolution, maintaining high team efficiency and consistent project performance."
+          "Handled team scheduling, workload distribution, and conflict resolution, maintaining high team efficiency and consistent project performance. INTERNSHIP EXPERIENCE:"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -211,11 +257,11 @@
       },
       {
         "role": "Purchase Intern",
-        "company": "INTERNSHIP EXPERIENCE: ALIMENTO AGRO FOODS PVT LTD",
-        "location": "Purchase Intern",
+        "company": "ALIMENTO AGRO FOODS PVT LTD",
+        "location": null,
         "start": "Apr 2023",
         "end": "Sept 2023",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 6,
         "bullets": [
           "Supported procurement execution for multiple product line expansion projects, managing 1 crore+ worth of materials and ensuring timely delivery aligned with production schedules.",
@@ -226,8 +272,8 @@
           "Prepared project-wise procurement reports and cost analyses, enabling data-driven decision-making and improving budget accuracy by 25%."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -237,7 +283,7 @@
       "total_months": 50,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -352,15 +398,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.69,

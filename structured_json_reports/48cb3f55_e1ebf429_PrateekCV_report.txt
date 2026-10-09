@@ -2,8 +2,8 @@
 FILE: 48cb3f55_e1ebf429_PrateekCV_segmented.txt
 ======================================================================
 Sections found : ['education', 'experience', 'header', 'projects', 'skills', 'summary']
-Overall conf.  : 0.95
-Needs review   : False
+Overall conf.  : 0.91
+Needs review   : True
 
 CONTACT
 ----------------------------------------------------------------------
@@ -20,16 +20,16 @@ AI Developer and Python/Django Developer with hands-on experience building intel
 modern LLMs (OpenAI, Gemini, LLAMA) and full AI pipelines using vector databases, RAG, and deep learning models.
 Strong background in backend development using FastAPI, SQL, and scalable architectures.
 
-SKILLS (44) — confidence 0.92
+SKILLS (52) — confidence 0.92
 ----------------------------------------------------------------------
-ANN, Agentic AI, BeautifulSoup, Bootstrap, CI/CD, CNN, CSS3, Data Analysis, Decision Trees, Deep Learning, DevOps, Django, Docker, FastAPI, Gemini, Git, GitHub, HTML5, K-means Clustering, LLM, LLaMA, LangChain, LinkedIn, Logistic Regression, Machine Learning, Matplotlib, MySQL, NLP, NumPy, OpenAI API, Pandas, PostgreSQL, Postman, Power BI, Python, RAG, RNN, SQL, Seaborn, Selenium, TensorFlow, Vector Databases, YOLO, scikit-learn
+ANN, Agentic AI, BeautifulSoup, Bootstrap, CI/CD, CNN, CSS3, Data Analysis, Decision Trees, Deep Learning, DevOps, Django, Docker, FAISS, FastAPI, GPT, Gemini, Git, GitHub, HTML5, Hugging Face, K-means Clustering, LLM, LLaMA, LangChain, LinkedIn, Logistic Regression, MSSQL, Machine Learning, Matplotlib, MySQL, NLP, NumPy, OpenAI API, Pandas, PostgreSQL, Postman, Power BI, Python, RAG, RNN, SQL, Seaborn, Selenium, Semantic Search, Streamlit, TensorFlow, Vector Databases, Vector Search, Vertex AI, YOLO, scikit-learn
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
-Total experience: 2.4 years (29 months, 1 overlaps merged)
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.79
+Total experience: 2.5 years (30 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. Python AI Developer @ VOCSO Technologies Pvt. Ltd (December 2024 - Present) [conf 0.98, review=False]
-  2. AI Developer @ Clothwari Printing Pvt. Ltd (May 2024 - September 2024) [conf 0.98, review=False]
-  3. Machine Learning Intern @ Surepass Technologies Pvt. Ltd (March 2024 - May 2024) [conf 0.98, review=False]
+  1. Python AI Developer @ Faridabad (December 2024 - Present) [conf 0.98, review=False]
+  2. AI Developer @ Generated images using Gemini and OpenAI with Vertex AI tools based on text prompts. (May 2024 - September 2024) [conf 0.7, review=True]
+  3. Machine Learning Intern @ Processed text image data using YOLOv8, DeepFace, built a passport recognition system. (March 2024 - May 2024) [conf 0.7, review=True]
 
 EDUCATION (2) — confidence 0.95
 ----------------------------------------------------------------------
@@ -39,6 +39,7 @@ EDUCATION (2) — confidence 0.95
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (0 flagged fields)
+REVIEW QUEUE (2 flagged fields)
 ----------------------------------------------------------------------
-  (nothing flagged)
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields

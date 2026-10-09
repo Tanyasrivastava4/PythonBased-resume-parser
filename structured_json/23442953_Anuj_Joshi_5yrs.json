@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "23442953_Anuj_Joshi_5yrs_segmented.txt",
-    "generated_at": "2026-09-30T06:58:07.336519+00:00",
+    "generated_at": "2026-10-07T10:31:03.190549+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,26 +45,52 @@
   "skills": {
     "items": [
       "API Security Testing",
+      "APK Editor",
       "AWS",
+      "Airmon-ng",
       "Apache Tomcat",
       "Azure",
+      "BloodHound",
       "Burp Suite",
       "CEH",
+      "CRTP",
+      "CSPM",
+      "CrackMapExec",
+      "EAPHammer",
       "Frida",
+      "HackTricks",
+      "Hashcat",
       "IT Security",
+      "JADX",
       "JBoss",
+      "Kismet",
+      "Malware Analysis",
+      "Microsoft IIS",
       "MobSF",
+      "Mobile Application Penetration Testing",
       "Nessus",
+      "NetExec",
       "Nmap",
       "OWASP Top 10",
-      "Offensive Security",
       "Penetration Testing",
       "Postman",
+      "Qualys",
+      "Red Teaming",
+      "Samsung Knox",
       "Secure Code Review",
+      "Secure Configuration Review",
       "Security Assessment",
+      "TPCA Audit",
+      "Tenable.sc",
       "VAPT",
       "VLAN",
-      "Vulnerability Management"
+      "VLAN Segmentation",
+      "VTM",
+      "Vulnerability Management",
+      "Vulnerability Remediation",
+      "Web Application Penetration Testing",
+      "Wireless Penetration Testing",
+      "eWPTX"
     ],
     "by_category": {
       "security_ops": [
@@ -72,6 +98,7 @@
         "Burp Suite",
         "CEH",
         "Frida",
+        "Malware Analysis",
         "MobSF",
         "Nessus",
         "OWASP Top 10",
@@ -80,25 +107,54 @@
         "Security Assessment",
         "VAPT"
       ],
+      "cybersecurity": [
+        "APK Editor",
+        "Airmon-ng",
+        "BloodHound",
+        "CRTP",
+        "CSPM",
+        "CrackMapExec",
+        "EAPHammer",
+        "HackTricks",
+        "Hashcat",
+        "JADX",
+        "Kismet",
+        "Mobile Application Penetration Testing",
+        "NetExec",
+        "Qualys",
+        "Red Teaming",
+        "Samsung Knox",
+        "Secure Configuration Review",
+        "TPCA Audit",
+        "Tenable.sc",
+        "VTM",
+        "Vulnerability Remediation",
+        "Wireless Penetration Testing",
+        "eWPTX"
+      ],
       "cloud_infra": [
         "AWS",
         "Azure",
         "VLAN"
       ],
-      "web_framework": [
-        "Apache Tomcat"
+      "dev_tool": [
+        "Apache Tomcat",
+        "Postman"
       ],
       "security": [
         "IT Security",
         "Nmap",
-        "Offensive Security",
-        "Vulnerability Management"
+        "Vulnerability Management",
+        "Web Application Penetration Testing"
       ],
       "devops": [
         "JBoss"
       ],
-      "dev_tool": [
-        "Postman"
+      "devops_cloud": [
+        "Microsoft IIS"
+      ],
+      "networking": [
+        "VLAN Segmentation"
       ]
     },
     "_confidence": 0.92,
@@ -107,13 +163,17 @@
   "experience": {
     "jobs": [
       {
-        "role": "Assistant Manager",
-        "company": "Grant Thornton Bharat LLP",
+        "role": "Grant Thornton Bharat LLP",
+        "company": "CSPM Audits",
         "location": null,
         "start": "SEP 2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 25,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Grant Thornton Bharat LLP",
+          "CSPM Audits"
+        ],
+        "duration_months": 26,
         "bullets": [
           "Led Infrastructure VA/PT and CSPM audits for cloud-native environments (AWS/Azure), scanning 300+ assets and remediating"
         ],
@@ -158,12 +218,15 @@
         "source": "experience"
       },
       {
-        "role": "KPMG India Associate Security Consultant",
-        "company": "CRTP",
+        "role": "Associate Security Consultant",
+        "company": "KPMG India",
         "location": null,
         "start": "MAY 2023",
         "end": "SEP 2024",
         "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "KPMG India"
+        ],
         "duration_months": 17,
         "bullets": [
           "Performed Web, Mobile and API Security testing of various"
@@ -214,8 +277,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.4,
-      "total_months": 41,
+      "total_years": 3.5,
+      "total_months": 42,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "25e85c88_43c80f6b_Amit Kumar_QA Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:09.054154+00:00",
+    "generated_at": "2026-10-07T10:31:05.145828+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -49,19 +49,29 @@
     "items": [
       "Agentic AI",
       "Apache Maven",
+      "Automation Testing",
+      "Cross-Browser Testing",
       "Cucumber",
+      "DDL",
+      "DML",
+      "ERP",
       "Eclipse",
       "GPT",
       "Generative AI",
       "GitHub Copilot",
+      "HP ALM",
       "Java",
       "Jira",
       "Joins",
       "Manual Testing",
+      "Microsoft Excel",
       "Postman",
+      "Quality Assurance",
+      "Report Writing",
       "SQL",
       "Selenium",
-      "TestNG"
+      "TestNG",
+      "Workflow Automation"
     ],
     "by_category": {
       "genai": [
@@ -72,13 +82,27 @@
       "dev_tool": [
         "Apache Maven",
         "Eclipse",
+        "HP ALM",
         "Postman"
       ],
       "testing": [
+        "Automation Testing",
         "Cucumber",
         "Manual Testing",
         "Selenium",
         "TestNG"
+      ],
+      "security_ops": [
+        "Cross-Browser Testing"
+      ],
+      "database": [
+        "DDL",
+        "DML",
+        "Joins",
+        "SQL"
+      ],
+      "erp": [
+        "ERP"
       ],
       "ai_ml": [
         "GPT"
@@ -89,9 +113,15 @@
       "project_mgmt": [
         "Jira"
       ],
-      "database": [
-        "Joins",
-        "SQL"
+      "productivity": [
+        "Microsoft Excel"
+      ],
+      "operations": [
+        "Quality Assurance",
+        "Workflow Automation"
+      ],
+      "content": [
+        "Report Writing"
       ]
     },
     "_confidence": 0.92,
@@ -100,29 +130,35 @@
   "experience": {
     "jobs": [
       {
-        "role": "Consultant Quality Analyst Expedien eSolution Ltd",
-        "company": "Managed and optimized MIS systems for national-level exams. Automated workflows",
+        "role": "Consultant Quality Analyst",
+        "company": "Expedien eSolution Ltd",
         "location": null,
         "start": "Dec 2023",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 34,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Consultant Quality Analyst"
+        ],
+        "duration_months": 35,
         "bullets": [
           "Managed and optimized MIS systems for national-level exams.",
           "Automated workflows, generated analytical reports, managed SQL/Excel/API tasks, and optimized ERP modules."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Software Test Engineer Procohort Technologies Pvt. Ltd",
-        "company": "Developed automation scripts using Selenium, TestNG, Maven; executed functional",
+        "role": "Software Test Engineer",
+        "company": "Procohort Technologies Pvt. Ltd",
         "location": null,
         "start": "Dec 2019",
         "end": "Dec 2023",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Test Engineer"
+        ],
         "duration_months": 49,
         "bullets": [
           "Developed automation scripts using Selenium, TestNG, Maven; executed functional, regression, and cross-browser testing; used Jira for bug tracking."
@@ -132,18 +168,18 @@
           "Languages: English, Hindi",
           "Address: Jai Prakash Nagar, Karma Road, Aurangabad (Bihar)"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.8,
-      "total_months": 82,
+      "total_years": 6.9,
+      "total_months": 83,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -170,24 +206,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "dfba57ae_8de0422b_Naukri_VivekSinghKushwaha[6y_6m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:33.162923+00:00",
+    "generated_at": "2026-10-07T09:28:31.781586+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,23 +49,38 @@
       "AWS",
       "AWS Athena",
       "AWS S3",
+      "Active Directory",
       "Apache Airflow",
+      "Cross-functional Collaboration",
+      "Data Validation",
       "Data Visualization",
       "Databricks",
+      "Domain-Driven Design",
       "ETL",
+      "Effort Estimation",
+      "Healthcare",
       "KPI",
       "LinkedIn",
       "MS Office",
       "Machine Learning",
       "Macro Modelling",
+      "Mentoring",
       "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft SQL Server",
       "Microsoft Teams",
       "Process Improvement",
+      "Project Management",
       "PySpark",
       "Python",
+      "Reporting",
+      "Requirements Gathering",
       "SQL",
       "Stakeholder Management",
-      "Tableau"
+      "Standard Operating Procedures",
+      "Tableau",
+      "Team Coordination",
+      "Team Leadership"
     ],
     "by_category": {
       "cloud_infra": [
@@ -73,17 +88,39 @@
         "AWS Athena",
         "AWS S3"
       ],
+      "security_ops": [
+        "Active Directory"
+      ],
       "data_engineering": [
         "Apache Airflow",
+        "Data Validation",
         "Databricks",
         "ETL"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Mentoring",
+        "Reporting",
+        "Stakeholder Management",
+        "Team Leadership"
       ],
       "data_science": [
         "Data Visualization",
         "Tableau"
       ],
+      "architecture": [
+        "Domain-Driven Design"
+      ],
+      "project_mgmt": [
+        "Effort Estimation",
+        "Project Management"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
       "business_analysis": [
-        "KPI"
+        "KPI",
+        "Requirements Gathering"
       ],
       "web_framework": [
         "LinkedIn"
@@ -91,6 +128,7 @@
       "productivity": [
         "MS Office",
         "Microsoft Excel",
+        "Microsoft PowerPoint",
         "Microsoft Teams"
       ],
       "ai_ml": [
@@ -99,18 +137,20 @@
       "finance": [
         "Macro Modelling"
       ],
-      "operations": [
-        "Process Improvement"
-      ],
       "database": [
+        "Microsoft SQL Server",
         "PySpark",
         "SQL"
+      ],
+      "operations": [
+        "Process Improvement"
       ],
       "programming_language": [
         "Python"
       ],
-      "soft_skill": [
-        "Stakeholder Management"
+      "management": [
+        "Standard Operating Procedures",
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
@@ -119,38 +159,39 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Associate",
-        "company": "artifacts, enabling seamless tracking and audit readiness. Axtria India Pvt. Ltd",
+        "role": ". Senior Associate",
+        "company": "Axtria India Pvt. Ltd",
         "location": "Project Leader",
         "start": "Apr 2024",
         "end": "Present",
-        "method": "date_regex+company_suffix_match",
-        "duration_months": 30,
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "duration_months": 31,
         "bullets": [
           "Utilized AWS Athena and Databricks for ad hoc analysis and data validation, re-engineered logic, and optimized queries, enhancing accuracy and saving time.",
           "Led analytics efforts, managed implementation, requirements gathering, development, and testing. Regularly coordinated with clients and onshore team for effort estimation, change requests, new reports, tracker maintenance, and project timeline planning.",
           "Designed and implemented Super DAGs in Airflow to automate weekly pipeline executions, with notification features improving monitoring and reducing manual effort by 60%.",
           "Worked directly with the client and led a 3-member team to build a standardized and business-aligned data quality framework using Athena, S3 and Databricks, helping in early detection of issues and reducing resolution time.",
           "Manage 4 associates, guiding and mentoring them for best practices and professional development.",
-          "Ensured project compliance by maintaining structured documentation, including project plans, checklists, BRDs, SOPs, and other relevant",
+          "Ensured project compliance by maintaining structured documentation, including project plans, checklists, BRDs, SOPs, and other relevant artifacts, enabling seamless tracking and audit readiness.",
           "Worked with a US-based pharma client on Incentive Compensation covering Sales Crediting, Goal Setting, Eligibility & Payouts.",
           "Designed models for multiple products to forecast quarterly goals (based on historical data, trends, market metrics, and other factors) for various US geographies. Validated these models on test data by performing multiple statistical tests.",
           "Developed user-friendly interactive simulator tools with dynamic functionalities and built several reports from scratch.",
           "Developed various scripts from scratch in MS SQL Server for reporting, sales crediting, and goal-setting modules.",
-          "Took end-to-end ownership of several reports and ad hoc analysis requests from clients, onboarded and mentored new and junior team members in IC modules, and conducted training sessions to enhance their technical and business acumen."
+          "Took end-to-end ownership of several reports and ad hoc analysis requests from clients, onboarded and mentored new and junior team members in IC modules, and conducted training sessions to enhance their technical and business acumen.",
+          "Gained deep expertise in Incentive Compensation (Sales Crediting, Goal Setting, Eligibility, and Payouts), Reporting, Call Planning, Alignment, and various pharma datasets (Symphony, Liquid Hub, Veeva Call Activity, Value Centric, XPO, DDD, SPSD, 867, 852 data etc)."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Analyst/Associate",
-        "company": "Alignment, and various pharma datasets (Symphony, Liquid Hub, Veeva Call Activity, Value Centric, XPO, DDD, SPSD, 867, 852 data etc). Axtria India Pvt. Ltd",
-        "location": null,
+        "role": ". Analyst/Associate",
+        "company": "Axtria India Pvt. Ltd",
+        "location": "Analyst/Associate",
         "start": "Jul 2019",
         "end": "Mar 2022",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+date_prefix_title+company_suffix_match",
         "duration_months": 33,
         "bullets": [
           "Designed complex reports using SQL, Excel, and PowerPoint.",
@@ -160,24 +201,24 @@
           "Acted as an SME in the reporting team, resolved client and onshore team queries related to reporting and analytics."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.2,
-      "total_months": 63,
+      "total_years": 5.3,
+      "total_months": 64,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.77
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
         "degree": "2019 Dual Degree 5Y (BTech + MTech)",
-        "degree_name": "B.Tech",
+        "degree_name": "Dual Degree",
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Axtria Institute",
@@ -193,7 +234,7 @@
         "degree_field": "CBSE",
         "institution": "IIT Kharagpur",
         "year": "2013",
-        "gpa": "84.6%",
+        "gpa": "7.57/10",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -270,20 +311,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.67,

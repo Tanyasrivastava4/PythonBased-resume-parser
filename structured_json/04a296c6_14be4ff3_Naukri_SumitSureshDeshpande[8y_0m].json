@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "04a296c6_14be4ff3_Naukri_SumitSureshDeshpande[8y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:57:46.899477+00:00",
+    "generated_at": "2026-10-07T10:30:39.238036+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -53,29 +53,48 @@
       ".NET",
       "Agile",
       "Android",
+      "Apache Flex",
+      "Asset Management",
       "Bugzilla",
+      "CRMNext",
       "Capital Markets",
       "Cash Flow Management",
       "Change Management",
-      "Client Relationship Management",
       "Communication",
+      "Customer Relationship Management",
+      "Defect Triage",
       "Functional Testing",
+      "ISTQB",
+      "Integration Testing",
       "Interpersonal Skills",
+      "J2EE",
       "JUnit",
+      "Java",
       "Jira",
       "Lease Management",
       "MS Office",
       "MantisBT",
       "Manual Testing",
       "Microsoft Teams",
+      "Operational Excellence",
+      "Oracle Database",
       "Oracle Siebel CRM",
+      "PMO",
       "Payments",
+      "Performance Management",
+      "Professional Tax",
       "Project Management",
       "Quality Assurance",
+      "Regression Testing",
       "Reporting",
       "Responsible AI",
       "SAP NetWeaver",
       "SDLC",
+      "SIP",
+      "SOA",
+      "Supply Chain",
+      "TCS",
+      "TCS BaNCS",
       "Team Leadership",
       "Test Plans",
       "UAT",
@@ -86,12 +105,15 @@
     ],
     "by_category": {
       "programming_language": [
-        ".NET"
+        ".NET",
+        "J2EE",
+        "Java"
       ],
       "project_mgmt": [
         "Agile",
         "Change Management",
         "Jira",
+        "PMO",
         "Project Management",
         "Waterfall"
       ],
@@ -99,13 +121,24 @@
         "Android",
         "iOS"
       ],
+      "web_framework": [
+        "Apache Flex"
+      ],
+      "sysadmin": [
+        "Asset Management"
+      ],
       "testing": [
         "Bugzilla",
+        "Defect Triage",
         "Functional Testing",
         "JUnit",
         "Manual Testing",
         "Test Plans",
         "UAT"
+      ],
+      "crm": [
+        "CRMNext",
+        "Oracle Siebel CRM"
       ],
       "finance": [
         "Capital Markets"
@@ -113,14 +146,21 @@
       "finance_ops": [
         "Cash Flow Management"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
-      ],
       "soft_skill": [
         "Communication",
         "Interpersonal Skills",
         "Reporting",
         "Team Leadership"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "certification": [
+        "ISTQB"
+      ],
+      "security_ops": [
+        "Integration Testing",
+        "Regression Testing"
       ],
       "real_estate": [
         "Lease Management"
@@ -130,14 +170,20 @@
         "Microsoft Teams"
       ],
       "database": [
-        "MantisBT"
+        "MantisBT",
+        "Oracle Database"
       ],
-      "crm": [
-        "Oracle Siebel CRM"
+      "process": [
+        "Operational Excellence"
       ],
       "domain": [
         "Payments",
+        "Supply Chain",
         "UPI"
+      ],
+      "hr": [
+        "Performance Management",
+        "Professional Tax"
       ],
       "operations": [
         "Quality Assurance"
@@ -149,26 +195,99 @@
         "SAP NetWeaver"
       ],
       "architecture": [
-        "SDLC"
+        "SDLC",
+        "SOA"
+      ],
+      "networking": [
+        "SIP"
+      ],
+      "accounting": [
+        "TCS"
+      ],
+      "fintech": [
+        "TCS BaNCS"
       ],
       "rpa": [
         "UiPath"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Manual testing→Manual Testing(100%), Mantis→MantisBT(86%), SAP Netweaver→SAP NetWeaver(100%), responsible→Responsible AI(95%), Release Management→Lease Management(94%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Manual testing→Manual Testing(100%), Regression testing→Regression Testing(100%), TCS Banks→TCS BaNCS(89%), CRMNEXT→CRMNext(100%), Mantis→MantisBT(86%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Worked as a Functional Consultant in Tata Technologies Ltd, (Experis IT Pay roll) Mumbai since",
-        "company": "Managing end to end testing of UAT, Preprod environment as a single point of contact for KotakMF new website development project across Web, Android, IOS. (developing Test Plan, Communicating with stakeholders on requirement analysis in shift-left walkthrough, sharing test estimations, assigning task, training the new team member, analyzing the test result, ensuring quality, sharing the daily, weekly status reports)",
-        "location": "",
+        "role": "Deputy Manager",
+        "company": "Kotak Mahindra Asset Management Company Ltd",
+        "location": null,
+        "start": "December 2025",
+        "end": "Present",
+        "method": "date_regex+worked_as_role_in_company",
+        "pre_date_header": [
+          "• Working as a Deputy Manager in Kotak Mahindra Asset Management Company Ltd. , BKC, Mumbai since 8th"
+        ],
+        "duration_months": 11,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Associate Test Lead in QualityKiosk Technologies Pvt. Ltd, Navi Mumbai since",
+        "company": "Worked",
+        "location": null,
+        "start": "7th April 2021",
+        "end": "3rd December 2025",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 56,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Sr. QA Analyst in Yethi Consulting Pvt. Ltd, Navi Mumbai since",
+        "company": "Worked",
+        "location": null,
+        "start": "1st June 2020",
+        "end": "5th April 2021",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 11,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Test Engineer",
+        "company": "QualityKiosk Technologies Pvt",
+        "location": null,
+        "start": "7th Dec 2017",
+        "end": "26th May 2020",
+        "method": "date_regex+date_prefix_title+worked_as_role_in_company",
+        "pre_date_header": [
+          "• Worked as a Test Engineer in QualityKiosk Technologies Pvt. Ltd, One of the leading Independent Software Testing"
+        ],
+        "duration_months": 30,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Functional Consultant in Tata Technologies Ltd, (Experis IT Pay roll) Mumbai since",
+        "company": "Worked",
+        "location": null,
         "start": "10th March 2016",
         "end": "5th Dec 2017",
         "method": "date_regex+date_prefix_title",
         "duration_months": 21,
         "bullets": [
+          "Managing end to end testing of UAT, Preprod environment as a single point of contact for KotakMF new website development project across Web, Android, IOS. (developing Test Plan, Communicating with stakeholders on requirement analysis in shift-left walkthrough, sharing test estimations, assigning task, training the new team member, analyzing the test result, ensuring quality, sharing the daily, weekly status reports)",
           "Analyzing and understanding the FS document",
           "Involved in Test Design, writing Test scenarios, conditions and Test cases and maintaining the test cases.",
           "Execution of Test Cases in Zephyr",
@@ -235,12 +354,12 @@
           "Project Name",
           ": Induslnd Bank Connect Online, Indusdirect Web, Indusdirect -Corporate Mobile Banking"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "2nd",
         "company": "2nd",
         "location": null,
         "start": "Nov 18",
@@ -251,34 +370,37 @@
           ": STATE BANK OF INDIA provides cash management services, viz Payments(bulk File Mandates to wide range of Clients which includes of Central Government, State of various industries under the Centralized brand name SBI FAST(Funds Available in"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "IDFC Bank Pre-login, Online Acquisition, Backbase, CRM NEXT : 2nd",
-        "location": null,
+        "role": "2nd",
+        "company": "IDFC Bank Pre-login, Online Acquisition, Backbase",
+        "location": "CRM NEXT",
         "start": "May 18",
         "end": "31 October 2018",
-        "method": "date_regex",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          ": IDFC Bank Pre-login, Online Acquisition, Backbase, CRM NEXT"
+        ],
         "duration_months": 222,
         "bullets": [
           ": Bank of Baroda FY18PMS (Performance management system) : 19th March 18 – 27th April 18 2018"
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 20.1,
-      "total_months": 241,
-      "overlapping_periods_merged": 2
+      "total_years": 26.6,
+      "total_months": 319,
+      "overlapping_periods_merged": 4
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -334,30 +456,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.7,

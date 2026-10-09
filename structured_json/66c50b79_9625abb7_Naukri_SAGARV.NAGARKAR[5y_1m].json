@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "66c50b79_9625abb7_Naukri_SAGARV.NAGARKAR[5y_1m]_segmented.txt",
-    "generated_at": "2026-09-30T06:59:03.934236+00:00",
+    "generated_at": "2026-10-07T09:26:42.916363+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -49,26 +49,78 @@
   "summary": null,
   "skills": {
     "items": [
+      "Apache Spark",
+      "Calibration",
+      "Computer Vision",
+      "Cost Analysis",
+      "Customer Relationship Management",
+      "Data Collection",
+      "Equipment Testing",
+      "GIS",
+      "Instrumentation",
       "Ladder Logic",
+      "Maintenance Management",
+      "Mechanical Engineering",
+      "Microsoft Teams",
       "PLC",
+      "Procurement",
+      "Project Management",
+      "Reliability",
       "SCADA",
       "SOP",
+      "SOX",
       "Transformer",
+      "Transmitters",
       "WHONET"
     ],
     "by_category": {
+      "data_engineering": [
+        "Apache Spark"
+      ],
+      "engineering_hardware": [
+        "Calibration",
+        "Instrumentation",
+        "PLC",
+        "SCADA",
+        "Transmitters"
+      ],
+      "ai_ml": [
+        "Computer Vision",
+        "Transformer"
+      ],
+      "finance_ops": [
+        "Cost Analysis",
+        "SOX"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "research": [
+        "Data Collection"
+      ],
+      "engineering": [
+        "Equipment Testing",
+        "Maintenance Management",
+        "Mechanical Engineering"
+      ],
+      "data engineering": [
+        "GIS"
+      ],
       "dev_tool": [
         "Ladder Logic"
       ],
-      "engineering_hardware": [
-        "PLC",
-        "SCADA"
+      "productivity": [
+        "Microsoft Teams"
       ],
       "operations": [
+        "Procurement",
         "SOP"
       ],
-      "ai_ml": [
-        "Transformer"
+      "project_mgmt": [
+        "Project Management"
+      ],
+      "soft_skill": [
+        "Reliability"
       ],
       "database": [
         "WHONET"
@@ -80,13 +132,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "SAI VIGHNESH ELECTRICALS (ENGINEER) Date",
-        "company": "SAI VIGHNESH ELECTRICALS  Date",
+        "role": "ENGINEER",
+        "company": "SAI VIGHNESH ELECTRICALS",
         "location": null,
         "start": "January 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 21,
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "SAI VIGHNESH ELECTRICALS (ENGINEER)"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Project Site : TATA POWER PSP (TATA Project JV HCC) 1000MW",
           "Installation and commissioning of 3300 Kv sub station for client.",
@@ -108,12 +163,15 @@
         "source": "experience"
       },
       {
-        "role": "MATHERAN MUNICIPAL COUNCIL (City Coordinator) Date",
-        "company": "MATHERAN MUNICIPAL COUNCIL  Date",
+        "role": "City Coordinator",
+        "company": "MATHERAN MUNICIPAL COUNCIL",
         "location": null,
         "start": "July 2019",
         "end": "March 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "MATHERAN MUNICIPAL COUNCIL (City Coordinator)"
+        ],
         "duration_months": 9,
         "bullets": [
           "Contract, Procurement, DPR, General administration & Community relation.",
@@ -130,12 +188,16 @@
         "source": "experience"
       },
       {
-        "role": "TATA POWER & STEEL 134 MW CP Plant (O & M Engineer) Date",
-        "company": "TATA POWER & STEEL 134 MW CP Plant  Date",
+        "role": "O & M Engineer",
+        "company": "TATA POWER & STEEL 134 MW CP Plant",
         "location": null,
         "start": "2018",
         "end": "2019",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          ".",
+          "TATA POWER & STEEL 134 MW CP Plant (O & M Engineer)"
+        ],
         "duration_months": 13,
         "bullets": [
           "Enhancement for Plant start up, Performance, Electrical, Isolations & safety, Cost Management, SOP, FMEA",
@@ -152,12 +214,15 @@
         "source": "experience"
       },
       {
-        "role": "TATA POWER 4150 MW Thermal Power Plant (O & M Trainee) Date",
-        "company": "TATA POWER 4150 MW Thermal Power Plant  Date",
+        "role": "O & M Trainee",
+        "company": "TATA POWER 4150 MW Thermal Power Plant",
         "location": null,
         "start": "2016",
         "end": "2018",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "TATA POWER 4150 MW Thermal Power Plant (O & M Trainee)"
+        ],
         "duration_months": 25,
         "bullets": [
           "Maintain 5 S. Working in Different area in pant such as BOP, Lubrication, Electrical and Turbine, Boiler (Corner fired)",
@@ -180,8 +245,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.6,
-      "total_months": 67,
+      "total_years": 5.7,
+      "total_months": 68,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.84
@@ -189,13 +254,24 @@
   "education": {
     "entries": [
       {
+        "degree": "• -- Bachelor of Engineer, University of Mumbai",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Bachelor of Engineer, University of Mumbai",
+        "year": "2011 - 2014",
+        "gpa": "69%",
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
         "degree": "• -- Diploma Engineer, University Of Mumbai",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": null,
         "institution": "Engineer, University Of Mumbai.",
         "year": "2008 - 2011",
-        "gpa": "80.00%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -206,7 +282,7 @@
         "degree_field": null,
         "institution": "Maharashtra State Board",
         "year": "2008",
-        "gpa": "86.15%",
+        "gpa": "80.00%",
         "_needs_review": false,
         "_confidence": 0.95
       }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a4c917cb_AMAN_CV_BCA_segmented.txt",
-    "generated_at": "2026-09-30T06:59:55.913149+00:00",
+    "generated_at": "2026-10-07T09:27:43.123052+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,34 +48,60 @@
   "summary": "Full-Stack Web Developer with expertise in React, Next.js, and Node.js.\nExperienced in building e-commerce platforms, travel booking systems,\nand educational websites. Strong focus on creating responsive, user-\nfriendly applications with clean code and optimized performance.",
   "skills": {
     "items": [
+      "API Design",
+      "B2B Sales",
       "Bootstrap",
+      "CDN",
       "CSS3",
+      "Classroom Management",
+      "Collaboration",
+      "Data Science",
       "E-commerce",
+      "E-learning",
       "Express.js",
       "Git",
       "GitHub",
       "HTML5",
+      "Healthcare",
+      "JSON Web Token",
+      "Java",
       "JavaScript",
+      "Lead Generation",
+      "LinkedIn",
       "Material UI",
+      "Microservices",
       "MongoDB",
       "Next.js",
       "Node.js",
+      "Payments",
       "Postman",
       "Python",
+      "Razorpay",
       "React",
       "Redux",
+      "Shopify",
       "Tailwind CSS",
       "TypeScript",
+      "UX Design",
       "VS Code",
       "Vercel",
       "Vite"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "Microservices"
+      ],
+      "sales": [
+        "B2B Sales",
+        "Lead Generation"
+      ],
       "web_framework": [
         "Bootstrap",
         "CSS3",
         "Express.js",
         "HTML5",
+        "LinkedIn",
         "Material UI",
         "Next.js",
         "Node.js",
@@ -83,17 +109,39 @@
         "Redux",
         "Tailwind CSS"
       ],
+      "cloud_infra": [
+        "CDN",
+        "Vercel"
+      ],
+      "education_domain": [
+        "Classroom Management",
+        "E-learning"
+      ],
+      "soft_skill": [
+        "Collaboration"
+      ],
+      "ai_ml": [
+        "Data Science"
+      ],
       "retail": [
-        "E-commerce"
+        "E-commerce",
+        "Shopify"
       ],
       "dev_tool": [
         "Git",
         "GitHub",
         "Postman",
-        "VS Code",
         "Vite"
       ],
+      "domain": [
+        "Healthcare",
+        "Payments"
+      ],
+      "security": [
+        "JSON Web Token"
+      ],
       "programming_language": [
+        "Java",
         "JavaScript",
         "Python",
         "TypeScript"
@@ -101,8 +149,14 @@
       "database": [
         "MongoDB"
       ],
-      "cloud_infra": [
-        "Vercel"
+      "fintech": [
+        "Razorpay"
+      ],
+      "design": [
+        "UX Design"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -112,12 +166,16 @@
     "jobs": [
       {
         "role": "Full-Stack Developer",
-        "company": "Full-Stack",
+        "company": "Full Time",
         "location": null,
         "start": "Feb 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 20,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Asha Tech (Asha Learnology)",
+          "Full-Stack Developer - Full Time"
+        ],
+        "duration_months": 21,
         "bullets": [
           "Successfully completed 6-month internship and transitioned to full-time Full- Stack Developer.",
           "Architected comprehensive B2B travel platform managing 5+ service categories (Cab, Flight, Train, Hotel, Bus)",
@@ -131,8 +189,8 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Sustainable Women's Activewear Brand - Headless Shopify Solution (Live &",
+        "role": "Sustainable Women's Activewear Brand - Headless Shopify Solution (Live &",
+        "company": "Complete",
         "location": null,
         "start": "Aug 2025",
         "end": "Oct 2025",
@@ -148,8 +206,8 @@
           "Complete)",
           "React 19 with Shopify integration"
         ],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -159,6 +217,11 @@
         "start": "Mar 2025",
         "end": "May 2025",
         "method": "date_regex",
+        "pre_date_header": [
+          "Full-Stack",
+          "Asha Learnology - EdTech Platform",
+          "🔗 Live Demo"
+        ],
         "duration_months": 3,
         "bullets": [
           "Developed comprehensive LMS platform with 10+ technical course categories",
@@ -174,12 +237,17 @@
         "source": "experience"
       },
       {
-        "role": "Frontend Developer",
+        "role": "Frontend Developer (Freelance",
         "company": "Adiroha",
         "location": "Cybersecurity Website",
         "start": "Sep 2025",
         "end": "Oct 2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Frontend Developer (Freelance)",
+          "Adiroha - Cybersecurity Website",
+          "🔗 Live Demo"
+        ],
         "duration_months": 2,
         "bullets": [
           "Enterprise Cybersecurity Services Website - Freelance Project (In Progress)",
@@ -202,11 +270,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.7,
-      "total_months": 20,
+      "total_years": 1.8,
+      "total_months": 21,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.84
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -215,7 +283,7 @@
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "BCA IGNOU Delhi Pursuing",
+        "institution": "BCA IGNOU Delhi",
         "year": null,
         "gpa": null,
         "_needs_review": false,
@@ -244,15 +312,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.85,

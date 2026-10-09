@@ -2,7 +2,7 @@
 FILE: 6622023b_6d40ca5b_Naukri_SHIVUNIYAL[16y_0m]_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'certifications', 'declaration', 'education', 'experience', 'header', 'interests', 'personal_details', 'projects', 'skills', 'summary']
-Overall conf.  : 0.84
+Overall conf.  : 0.85
 Needs review   : True
 
 CONTACT
@@ -18,14 +18,14 @@ SUMMARY
 ----------------------------------------------------------------------
 • Accomplished IT professional with 16 + years of extensive experience in Program &
 
-SKILLS (13) — confidence 0.92
+SKILLS (15) — confidence 0.92
 ----------------------------------------------------------------------
-AWS, ChatGPT, Digital Transformation, E-Governance, GDPR, Juniper, MS Office, Manual Testing, Objective C, PMP, Project Management, SLA Management, Vendor Management
+AWS, ChatGPT, Digital Transformation, E-Governance, GDPR, Juniper, MS Office, Manual Testing, Objective C, PMP, Project Coordination, Project Management, Reliability, SLA Management, Vendor Management
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.92
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
 Total experience: 3.1 years (37 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. None @ : +91-8393881701 (2019 - 2020) [conf 0.85, review=True]
+  1. : +91-8393881701, 9410196049 @ Location (2019 - 2020) [conf 0.98, review=False]
   2. State Level Project Coordinator for Line Departments and Districts of Haryana @ Chandigarh (2020 - 2022) [conf 0.98, review=False]
 
 EDUCATION (3) — confidence 0.8
@@ -110,10 +110,9 @@ ACHIEVEMENTS (22) — confidence 0.85
   • Maharashtra in Mumbai.
   • Aadhaar Samvad 2025.
 
-REVIEW QUEUE (44 flagged fields)
+REVIEW QUEUE (43 flagged fields)
 ----------------------------------------------------------------------
   contact.name                        conf=0.0  reason=missing
-  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
   certifications                      conf=0.63  reason=low_confidence
   certifications.items[2]             conf=0.6  reason=incomplete_fields
   certifications.items[6]             conf=0.6  reason=incomplete_fields

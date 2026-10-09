@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "faa07057_Aryan Malviya_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:51.730164+00:00",
+    "generated_at": "2026-10-07T09:28:56.755737+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,6 +49,9 @@
     "items": [
       "Agentic AI",
       "Azure",
+      "Business Planning",
+      "Cross-functional Collaboration",
+      "Customer Service",
       "Data Science",
       "Flask",
       "Generative AI",
@@ -60,16 +63,19 @@
       "Machine Learning",
       "Matplotlib",
       "Microsoft Excel",
+      "Microsoft Teams",
       "MySQL",
       "NumPy",
       "Pandas",
+      "Predictive Modeling",
       "Prompt Engineering",
       "Python",
       "RAG",
       "SQL",
       "Seaborn",
       "Transformers",
-      "VS Code"
+      "VS Code",
+      "Vector Databases"
     ],
     "by_category": {
       "genai": [
@@ -79,10 +85,20 @@
         "LLM",
         "LangChain",
         "Prompt Engineering",
-        "RAG"
+        "RAG",
+        "Vector Databases"
       ],
       "cloud_infra": [
         "Azure"
+      ],
+      "biz_dev": [
+        "Business Planning"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
+      "client_mgmt": [
+        "Customer Service"
       ],
       "ai_ml": [
         "Data Science",
@@ -90,6 +106,7 @@
         "Matplotlib",
         "NumPy",
         "Pandas",
+        "Predictive Modeling",
         "Seaborn"
       ],
       "web_framework": [
@@ -97,11 +114,11 @@
       ],
       "dev_tool": [
         "GitHub",
-        "Jupyter",
-        "VS Code"
+        "Jupyter"
       ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
       "database": [
         "MySQL",
@@ -112,6 +129,9 @@
       ],
       "data_science": [
         "Transformers"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -120,12 +140,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Associate",
+        "role": "Data Science Associate",
         "company": "Glorious Insight",
-        "location": "Noida, Uttar Pradesh Data Science",
+        "location": "Noida, Uttar Pradesh",
         "start": "09/2024",
         "end": "09/2025",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Glorious Insight | Noida, Uttar Pradesh"
+        ],
         "duration_months": 13,
         "bullets": [
           "Designed and implemented RAG pipelines using LangChain and Azure AI Search to enable intelligent document retrieval for business teams.",
@@ -140,12 +163,16 @@
         "source": "experience"
       },
       {
-        "role": "Intern",
+        "role": "Data Science Intern",
         "company": "Glorious Insight",
-        "location": "Noida, Uttar Pradesh Data Science",
+        "location": "Noida, Uttar Pradesh",
         "start": "04/2024",
         "end": "09/2024",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "pre_date_header": [
+          "Operationalized models into production using APIs and automation workflows; ensured robust testing and documentation",
+          "Glorious Insight | Noida, Uttar Pradesh"
+        ],
         "duration_months": 6,
         "bullets": [
           "Assisted in implementing retrieval-augmented generation (RAG) pipelines for internal knowledge systems, combining vector databases with transformer models.",

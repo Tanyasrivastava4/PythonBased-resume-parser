@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "a819b154_f07c4e9f_ASHISH ASHOK WASNIK_Network Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:57.948542+00:00",
+    "generated_at": "2026-10-07T09:27:45.683970+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,24 +47,56 @@
   "skills": {
     "items": [
       "AWS",
+      "Accounts Payable",
       "BGP",
       "Cisco ASA",
+      "Cisco ISE",
+      "Cisco Meraki",
+      "Cisco Nexus",
       "Cross-functional Collaboration",
       "Data Center Migration",
+      "Disaster Recovery",
       "EIGRP",
+      "F5 Load Balancer",
       "Firewall",
       "Fortinet",
       "HLD/LLD",
+      "HSRP",
+      "IPSec",
+      "Incident Management",
       "Juniper",
+      "LAN",
+      "Legal Compliance",
+      "Life Insurance",
+      "MPLS",
+      "Make",
       "Microsoft Teams",
+      "Microsoft Visio",
+      "NAT",
+      "NMS",
       "Network Security",
+      "Networking",
       "OSPF",
       "Onboarding",
+      "PRI",
       "Palo Alto Networks",
+      "Presentation Skills",
+      "Privileged Access Management",
+      "Production Support",
+      "Root Cause Analysis",
       "Routing & Switching",
       "ServiceNow",
+      "Straight-Through Processing",
+      "System Design",
+      "Technical Support",
+      "Technical Writing",
       "VLAN",
-      "VPN"
+      "VPN",
+      "VRRP",
+      "WAN",
+      "WLC",
+      "Work Instructions",
+      "iOS"
     ],
     "by_category": {
       "cloud_infra": [
@@ -73,53 +105,173 @@
         "Routing & Switching",
         "VLAN"
       ],
+      "finance_ops": [
+        "Accounts Payable"
+      ],
       "networking": [
         "BGP",
+        "Cisco ISE",
+        "Cisco Nexus",
         "EIGRP",
-        "OSPF"
+        "HSRP",
+        "IPSec",
+        "LAN",
+        "MPLS",
+        "NAT",
+        "NMS",
+        "OSPF",
+        "PRI",
+        "VRRP",
+        "WAN"
       ],
       "security_ops": [
         "Cisco ASA",
         "Firewall",
         "Network Security",
         "Palo Alto Networks",
+        "Privileged Access Management",
         "VPN"
       ],
+      "network": [
+        "Cisco Meraki",
+        "F5 Load Balancer"
+      ],
       "soft_skill": [
-        "Cross-functional Collaboration"
+        "Cross-functional Collaboration",
+        "Presentation Skills"
+      ],
+      "operations": [
+        "Disaster Recovery",
+        "Root Cause Analysis"
       ],
       "security": [
-        "Fortinet"
+        "Fortinet",
+        "Incident Management"
       ],
       "architecture": [
-        "HLD/LLD"
+        "HLD/LLD",
+        "System Design"
       ],
       "hardware": [
-        "Juniper"
+        "Juniper",
+        "WLC"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "insurance": [
+        "Life Insurance"
+      ],
+      "rpa": [
+        "Make"
       ],
       "productivity": [
         "Microsoft Teams"
       ],
+      "dev_tool": [
+        "Microsoft Visio"
+      ],
+      "biz_dev": [
+        "Networking"
+      ],
       "hr": [
         "Onboarding"
       ],
+      "it_operations": [
+        "Production Support"
+      ],
       "integration": [
         "ServiceNow"
+      ],
+      "banking": [
+        "Straight-Through Processing"
+      ],
+      "support": [
+        "Technical Support"
+      ],
+      "content": [
+        "Technical Writing"
+      ],
+      "quality": [
+        "Work Instructions"
+      ],
+      "mobile": [
+        "iOS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(VLANs→VLAN(89%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%))"
+    "_method": "flashtext_skills_section | fuzzy(IPSec VPN→IPSec(100%), VLANs→VLAN(89%), Cisco Nexus 5K→Cisco Nexus(95%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Position | Lead Domain Architect",
-        "company": "Unknown",
-        "location": null,
+        "role": "Lead Domain Architect",
+        "company": "Position | Lead Domain Architect",
+        "location": "Position",
         "start": "July 2022",
         "end": "Present",
         "method": "date_regex+dash_split",
-        "duration_months": 51,
+        "pre_date_header": [
+          "Fujitsu Consulting India Pvt. Ltd.",
+          "Location: Pune",
+          "Unknown - Position | Lead Domain Architect"
+        ],
+        "duration_months": 52,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Unknown",
+        "company": "Position | Consultant",
+        "location": null,
+        "start": "1st Feb 2024",
+        "end": "Present",
+        "method": "date_regex",
+        "pre_date_header": [
+          "Customer: Fujitsu IT"
+        ],
+        "duration_months": 33,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Customer: TVH",
+        "location": null,
+        "start": "4th July 2022",
+        "end": "31st Jan 2024",
+        "method": "date_regex",
+        "pre_date_header": [
+          "Planning & implementing Firewall changes.",
+          "Provide L3 support to team.",
+          "Customer: TVH (Europe Region)"
+        ],
+        "duration_months": 19,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Consultant",
+        "company": "Unknown",
+        "location": "Position",
+        "start": "July 2021",
+        "end": "June 2022",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Capgemini Technology Services India limited",
+          "Location: Mumbai",
+          "Unknown - Position | Consultant"
+        ],
+        "duration_months": 12,
         "bullets": [
           "Provided network support for customer Coke One NA for US region.",
           "Managing stake holders of multiple customers (Bottlers) as per their business requirements.",
@@ -140,56 +292,17 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Customer: Oceania  Duration",
-        "location": null,
-        "start": "Oct 2024",
-        "end": "Present",
-        "method": "date_regex",
-        "duration_months": 24,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Customer: Fujitsu IT Duration",
-        "location": null,
-        "start": "1st Feb 2024",
-        "end": "Present",
-        "method": "date_regex",
-        "duration_months": 32,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Customer: TVH  Duration",
-        "location": null,
-        "start": "4th July 2022",
-        "end": "31st Jan 2024",
-        "method": "date_regex",
-        "duration_months": 19,
-        "bullets": [],
-        "sub_sections": [
-          "Capgemini Technology Services India limited"
-        ],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "Position: Senior Network Engineer Duration",
+        "role": "Senior Network Engineer",
         "company": "Location: Mumbai",
         "location": null,
         "start": "March 2017",
         "end": "July 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+next_line_company",
+        "pre_date_header": [
+          "Dynacons Systems & Solutions Ltd.",
+          "Location: Mumbai",
+          "Position: Senior Network Engineer"
+        ],
         "duration_months": 53,
         "bullets": [
           "Role & Responsibilities: Bank Project – EXIM (Export Import Bank of India) As a part of Network operations team, creating & planning new LAN Network & security policy & co-ordination with different vendor & provide onsite support from client for data center build.",
@@ -210,11 +323,16 @@
       },
       {
         "role": "Position: Network Engineer",
-        "company": "L2 Duration",
+        "company": "L2",
         "location": null,
         "start": "August 2015",
         "end": "January 2017",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+subfield_label_role+title_dash_company",
+        "pre_date_header": [
+          "Swan Solution and Services (P) Ltd",
+          "Location: Mumbai",
+          "Position: Network Engineer - L2"
+        ],
         "duration_months": 18,
         "bullets": [
           "Role & Responsibilities: Bank Project – SBI Life Insurance Working as part of a proactive SBI Life Insurance team of Network Operations & Management responsible for delivering a high quality, customer-focused professional services and solutions.",
@@ -234,12 +352,17 @@
         "source": "experience"
       },
       {
-        "role": "Network Engineer. Duration: May 2014 to August 2015",
+        "role": "Network Engineer",
         "company": "Location: Mumbai",
         "location": null,
         "start": "May 2014",
         "end": "August 2015",
         "method": "date_regex+subfield_label_role+next_line_company",
+        "pre_date_header": [
+          "Dimension Data India Ltd.",
+          "Location: Mumbai",
+          "Position: Network Engineer."
+        ],
         "duration_months": 16,
         "bullets": [
           "Role & Responsibilities: Bank Project – SBI, SBI Life Insurance, Axis Bank Working as a NOC Engineer in SBI Life, Belapur Major project being ‘SBI-Connect’ which includes implementation and maintenance of networking devices such as Cisco Routers, Switches, IP Phones, Leased Circuit, ISDN Lines for State Bank group in Mumbai Region.",
@@ -257,11 +380,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.4,
-      "total_months": 137,
+      "total_years": 12.4,
+      "total_months": 149,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.92
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -310,7 +433,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
@@ -321,11 +444,6 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

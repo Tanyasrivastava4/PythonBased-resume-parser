@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "06fd341b_Bhanu Prakash Reddy_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:48.080302+00:00",
+    "generated_at": "2026-10-07T10:30:40.722853+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,18 +51,24 @@
       "API Design",
       "AWS",
       "AWS EC2",
+      "AWS Lambda",
       "AWS S3",
       "Agile",
       "Angular",
       "Apache Maven",
+      "Apache Tomcat",
       "Azure",
+      "Azure DevOps",
       "Bitbucket",
       "Blog Writing",
       "Bootstrap",
       "CI/CD",
+      "CORS",
       "CSS3",
       "Code Reviews",
       "Confluence",
+      "Context API",
+      "Coroutines Flow",
       "Creativity",
       "Cross-functional Collaboration",
       "Data Modeling",
@@ -73,14 +79,18 @@
       "Express.js",
       "Git",
       "GitHub",
+      "GitLab",
       "Gradle",
+      "HIPAA",
       "HTML5",
       "Healthcare",
       "Hibernate",
+      "Integration Testing",
       "IntelliJ IDEA",
       "JMeter",
       "JPA",
       "JSON",
+      "JSON Web Token",
       "JUnit",
       "Java",
       "JavaScript",
@@ -91,18 +101,25 @@
       "Material UI",
       "Microservices",
       "Microsoft Teams",
+      "Mockito",
       "MongoDB",
       "MySQL",
       "Node.js",
+      "OAuth 2.0",
+      "Oracle Database",
+      "PCI-DSS",
       "PL/SQL",
       "Performance Testing",
       "PostgreSQL",
       "Postman",
       "Quality Assurance",
       "Query Optimization",
+      "R",
       "REST",
       "REST API",
       "React",
+      "Redux",
+      "Reliability",
       "Responsive Web Design",
       "SASS",
       "SOAP",
@@ -111,9 +128,15 @@
       "Selenium",
       "Spring",
       "Spring Boot",
+      "Spring Cloud",
+      "Spring Security",
+      "State Management",
+      "Stored Procedures",
       "Swagger",
+      "Technical Design Document",
       "TypeScript",
       "VS Code",
+      "WebLogic",
       "XML",
       "jQuery"
     ],
@@ -123,15 +146,19 @@
         "Gradle",
         "Java",
         "JavaScript",
+        "R",
         "TypeScript"
       ],
       "architecture": [
         "API Design",
-        "Microservices"
+        "Microservices",
+        "State Management",
+        "Technical Design Document"
       ],
       "cloud_infra": [
         "AWS",
         "AWS EC2",
+        "AWS Lambda",
         "AWS S3",
         "Azure"
       ],
@@ -154,6 +181,7 @@
         "Node.js",
         "REST API",
         "React",
+        "Redux",
         "Responsive Web Design",
         "SASS",
         "SOAP",
@@ -164,32 +192,45 @@
       ],
       "dev_tool": [
         "Apache Maven",
+        "Apache Tomcat",
         "Bitbucket",
         "Code Reviews",
         "Eclipse",
         "Git",
         "GitHub",
+        "GitLab",
         "IntelliJ IDEA",
         "Postman",
         "Swagger",
-        "VS Code"
-      ],
-      "content": [
-        "Blog Writing"
+        "WebLogic"
       ],
       "devops": [
+        "Azure DevOps",
         "CI/CD",
         "DevOps",
         "Docker",
         "Jenkins",
         "Kubernetes"
       ],
+      "content": [
+        "Blog Writing"
+      ],
+      "web_development": [
+        "CORS"
+      ],
       "collaboration": [
         "Confluence"
       ],
+      "frontend": [
+        "Context API"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "soft_skill": [
         "Creativity",
-        "Cross-functional Collaboration"
+        "Cross-functional Collaboration",
+        "Reliability"
       ],
       "data_science": [
         "Data Modeling"
@@ -197,14 +238,26 @@
       "data_engineering": [
         "Data Validation"
       ],
+      "healthcare": [
+        "HIPAA"
+      ],
       "domain": [
         "Healthcare"
+      ],
+      "security_ops": [
+        "Integration Testing",
+        "PCI-DSS"
       ],
       "testing": [
         "JMeter",
         "JUnit",
+        "Mockito",
         "Performance Testing",
         "Selenium"
+      ],
+      "security": [
+        "JSON Web Token",
+        "OAuth 2.0"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -212,26 +265,35 @@
       "database": [
         "MongoDB",
         "MySQL",
+        "Oracle Database",
         "PL/SQL",
         "PostgreSQL",
         "Query Optimization",
-        "SQL"
+        "SQL",
+        "Stored Procedures"
       ],
       "operations": [
         "Quality Assurance"
       ],
       "integration": [
         "REST"
+      ],
+      "framework": [
+        "Spring Cloud",
+        "Spring Security"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(RESTful Web Services→REST API(95%), Microservices Architecture→Microservices(100%), Maven→Apache Maven(100%), JIRA→Jira(100%), Code Review→Code Reviews(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(RESTful Web Services→REST API(95%), Microservices Architecture→Microservices(100%), Oracle→Oracle Database(100%), Maven→Apache Maven(100%), JIRA→Jira(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "● Working as a Software Engineer with",
-        "company": null,
+        "role": "Software Engineer with",
+        "company": "● Working",
         "location": "Capgemini, Since",
         "start": "Jun 2022",
         "end": "Jan 2026",
@@ -239,19 +301,20 @@
         "duration_months": 44,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "● Worked as a Software Engineer with",
-        "company": "Managerial Abilities:",
+        "role": "Software Engineer with",
+        "company": "● Worked",
         "location": "Wipro, Since",
         "start": "Nov 2019",
         "end": "Jun 2022",
         "method": "date_regex+date_prefix_title",
         "duration_months": 32,
         "bullets": [
+          "Managerial Abilities:",
           "Engineered scalable full-stack solutions leveraging Java, Spring Boot, Node.js, Angular, React.js, and SQL, ensuring robustness and high availability across platforms.",
           "Built dynamic, modular user interfaces using Angular and React.js, applying reusable components, efficient state management (Redux, Context API), and responsive design principles.",
           "Designed interactive dashboards, forms, and visual analytics modules to improve user engagement and data visibility.",
@@ -287,7 +350,7 @@
       "total_months": 75,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [],
@@ -302,15 +365,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.0,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ce9f4f75_38e45abc_Ayush Srivastava_Full Stack Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:23.128988+00:00",
+    "generated_at": "2026-10-07T09:28:19.459772+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -51,18 +51,60 @@
   "skills": {
     "items": [
       "Adaptability",
+      "Angular",
       "Attention to Detail",
+      "Collaboration",
       "Communication",
+      "Cross-functional Collaboration",
+      "JavaScript",
+      "Laravel",
       "Leadership",
-      "Problem Solving"
+      "Microsoft Teams",
+      "MySQL",
+      "Next.js",
+      "Node.js",
+      "PHP",
+      "Performance Optimization",
+      "Problem Solving",
+      "REST",
+      "React",
+      "SEO"
     ],
     "by_category": {
       "soft_skill": [
         "Adaptability",
         "Attention to Detail",
+        "Collaboration",
         "Communication",
+        "Cross-functional Collaboration",
         "Leadership",
         "Problem Solving"
+      ],
+      "web_framework": [
+        "Angular",
+        "Laravel",
+        "Next.js",
+        "Node.js",
+        "React"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "PHP"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "database": [
+        "MySQL"
+      ],
+      "dev_tool": [
+        "Performance Optimization"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "marketing": [
+        "SEO"
       ]
     },
     "_confidence": 0.92,
@@ -71,68 +113,85 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Web Developer RV Solutions Pvt. Ltd",
-        "company": "Optimize database queries, improve performance, and ensure application security.",
+        "role": "Senior Web Developer",
+        "company": "RV Solutions Pvt. Ltd",
         "location": null,
         "start": "Apr 2022",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 54,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Web Developer"
+        ],
+        "duration_months": 55,
         "bullets": [
           "Lead development of scalable web applications using PHP Laravel, Node.js, and modern frontend frameworks (React.js, Next.js, Angular).",
           "Architect and integrate high-performance modules and APIs.",
+          "Optimize database queries, improve performance, and ensure application security.",
           "Collaborate with clients to gather requirements and deliver project updates."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Full-Stack Developer Globalhunt Technologies Pvt. Ltd",
-        "company": "Integrated RESTful APIs and third-party services for business-critical features.",
+        "role": "Full-Stack Developer",
+        "company": "Globalhunt Technologies Pvt. Ltd",
         "location": null,
         "start": "Aug 2020",
         "end": "Mar 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong+company_suffix_match",
+        "pre_date_header": [
+          "• Mentor junior developers and enforce code quality standards.",
+          "Full-Stack Developer"
+        ],
         "duration_months": 20,
         "bullets": [
           "Built and maintained dynamic web applications using Laravel, JavaScript, React.js, and Angular.",
+          "Integrated RESTful APIs and third-party services for business-critical features.",
           "Enhanced application performance and implemented database security in MySQL.",
           "Collaborated with cross-functional teams to deliver projects within tight deadlines."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Web Designer & Developer RR Multisales",
-        "company": "Improved UI/UX through modern design practices and performance optimization.",
+        "role": "Web Designer & Developer",
+        "company": "RR Multisales",
         "location": null,
         "start": "Nov 2018",
         "end": "Aug 2020",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Web Designer & Developer"
+        ],
         "duration_months": 22,
         "bullets": [
           "Designed and developed responsive, SEO-friendly websites for clients.",
+          "Improved UI/UX through modern design practices and performance optimization.",
           "Boosted site traffic by ~20% through speed and SEO enhancements."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Web Developer Finelogics Consulting",
-        "company": "Reviewed and optimized code for performance improvements.",
+        "role": "Web Developer",
+        "company": "Finelogics Consulting",
         "location": null,
         "start": "Aug 2016",
         "end": "Nov 2017",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Web Developer"
+        ],
         "duration_months": 16,
         "bullets": [
           "Developed responsive web applications in collaboration with designers.",
+          "Reviewed and optimized code for performance improvements.",
           "Delivered modern, user-friendly solutions using the latest web technologies."
         ],
         "sub_sections": [
@@ -140,18 +199,18 @@
           "ood",
           "────────────────────────────────────────────────────────────"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 9.2,
-      "total_months": 111,
+      "total_years": 9.3,
+      "total_months": 112,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -178,34 +237,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f76eb92c_17ed4074__Adarsh_Bhagat Resume_segmented.txt",
-    "generated_at": "2026-09-30T07:00:50.032499+00:00",
+    "generated_at": "2026-10-07T09:28:54.682950+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,39 +47,57 @@
   "summary": "Cybersecurity Analyst with nearly 3 years of experience managing SIEM/EDR operations within the Microsoft ecosystem.\nProven success in optimizing Microsoft Sentinel workbooks and leveraging KQL for proactive threat hunting and custom\ndetection engineering. Demonstrated ability to automate incident response workflows using Logic Apps, significantly\nimproving SOC efficiency. Deep technical knowledge in OWASP and MITRE frameworks for investigating cloud, identity, and\nendpoint-based security breaches.",
   "skills": {
     "items": [
+      "Active Directory",
       "Any.Run",
       "Azure",
       "CEH",
+      "Communication",
+      "Customs & International Trade",
       "Cyber Kill Chain",
+      "Digital Forensics",
       "EDR",
       "Fine-tuning",
+      "Firewall",
+      "IDS/IPS",
       "ISO 31000",
+      "IT Security",
       "Incident Management",
       "Incident Response",
       "KQL",
+      "Linux",
       "Log Analysis",
       "MITRE ATT&CK",
       "Malware Analysis",
+      "Mentoring",
       "Microsoft Defender",
       "Microsoft Sentinel",
+      "Microsoft Windows",
       "NIST",
       "OWASP Top 10",
       "Phishing",
+      "Root Cause Analysis",
+      "SC-200",
       "SIEM",
       "SOAR",
       "Security Awareness Training",
       "ServiceNow",
       "Splunk",
+      "Standard Operating Procedures",
       "Threat Hunting",
       "Threat Intelligence",
-      "VirusTotal"
+      "VirusTotal",
+      "Vulnerability Remediation"
     ],
     "by_category": {
       "security_ops": [
+        "Active Directory",
         "Any.Run",
         "CEH",
         "Cyber Kill Chain",
+        "Digital Forensics",
         "EDR",
+        "Firewall",
+        "IDS/IPS",
         "ISO 31000",
         "Incident Response",
         "KQL",
@@ -102,14 +120,38 @@
       "cloud_infra": [
         "Azure"
       ],
+      "soft_skill": [
+        "Communication",
+        "Mentoring"
+      ],
+      "legal": [
+        "Customs & International Trade"
+      ],
       "genai": [
         "Fine-tuning"
       ],
       "security": [
+        "IT Security",
         "Incident Management"
+      ],
+      "os_system": [
+        "Linux",
+        "Microsoft Windows"
+      ],
+      "operations": [
+        "Root Cause Analysis"
+      ],
+      "certification": [
+        "SC-200"
       ],
       "integration": [
         "ServiceNow"
+      ],
+      "management": [
+        "Standard Operating Procedures"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
@@ -124,7 +166,10 @@
         "start": "July 2023",
         "end": "Present",
         "method": "date_regex+title_dash_company",
-        "duration_months": 39,
+        "pre_date_header": [
+          "PricewaterhouseCoopers Services LLP - PwC India"
+        ],
+        "duration_months": 40,
         "bullets": [
           "Incident Orchestration, Investigation & RCA: Directed 24x7 threat monitoring and triage across network, cloud, and identity environments; managed incident lifecycles in ServiceNow with 100% SLA adherence, and conducted deep-dive alert analysis with network forensics and RCA to deliver actionable remediation that strengthened client security postures.",
           "Cross-Platform Security Event Analysis: Performed in-depth analysis across heterogeneous sources including Windows/Linux Endpoints, Syslog, Firewalls, Proxies, EDR, Defender XDR, IDS/IPS, and Active Directory; correlated multi-source telemetry to identify and validate true positive alerts.",
@@ -140,21 +185,26 @@
         "source": "experience"
       },
       {
-        "role": "Intern at PricewaterhouseCoopers Services LLP- PwC India",
-        "company": "Security Monitoring & Incident Documentation: Managed initial threat detection and alert triage within the SIEM environment, analyzing network and endpoint telemetry to identify potential IOCs; documented investigation findings and performed initial analysis to support rapid incident containment and closure.",
+        "role": "Intern",
+        "company": "PricewaterhouseCoopers Services LLP- PwC India",
         "location": null,
         "start": "Jan 2023",
         "end": "July 2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Intern at PricewaterhouseCoopers Services LLP- PwC India"
+        ],
         "duration_months": 7,
-        "bullets": [],
+        "bullets": [
+          "Security Monitoring & Incident Documentation: Managed initial threat detection and alert triage within the SIEM environment, analyzing network and endpoint telemetry to identify potential IOCs; documented investigation findings and performed initial analysis to support rapid incident containment and closure."
+        ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Intern at PricewaterhouseCoopers Services LLP- PwC India",
+        "role": "Intern",
         "company": "Electronics and Communication Engineering - CGPA",
         "location": null,
         "start": "Aug 2019",
@@ -173,10 +223,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 7.2,
-      "total_months": 86,
+      "total_months": 87,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.84
+    "_confidence": 0.94
   },
   "education": {
     "entries": [],
@@ -227,15 +277,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.85,

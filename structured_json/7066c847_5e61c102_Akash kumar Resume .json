@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7066c847_5e61c102_Akash kumar Resume _segmented.txt",
-    "generated_at": "2026-09-30T06:59:12.707318+00:00",
+    "generated_at": "2026-10-07T09:26:48.898745+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -49,7 +49,9 @@
     "items": [
       "4M",
       "5 Whys",
+      "7 QC Tools",
       "Adaptability",
+      "Bill of Materials",
       "CAPA",
       "Microsoft Excel",
       "Poka-Yoke",
@@ -68,8 +70,14 @@
         "Poka-Yoke",
         "SOP"
       ],
+      "quality": [
+        "7 QC Tools"
+      ],
       "soft_skill": [
         "Adaptability"
+      ],
+      "manufacturing": [
+        "Bill of Materials"
       ],
       "productivity": [
         "Microsoft Excel"
@@ -96,12 +104,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "Designatio Engineer",
-        "company": "Organization",
+        "role": "62.2%",
+        "company": "Padget Electronics Pvt. Ltd",
         "location": null,
         "start": "09 Oct 2023",
         "end": "Present",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "62.2%",
+          "Padget Electronics Pvt. Ltd",
+          "Organization (Dixon)",
+          "SBU",
+          "Mobile Manufacturing"
+        ],
         "duration_months": 36,
         "bullets": [],
         "sub_sections": [],
@@ -110,12 +125,16 @@
         "source": "experience"
       },
       {
-        "role": "Mobile Manufacturing Practice  Designation Assistant Engineer",
+        "role": "Mobile Manufacturing",
         "company": "Organization VIVO MOBILE INDIA PVT. LTD SBU",
         "location": null,
         "start": "23 April 2018",
         "end": "05 Oct 2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "Organization VIVO MOBILE INDIA PVT. LTD SBU",
+          "Mobile Manufacturing"
+        ],
         "duration_months": 66,
         "bullets": [],
         "sub_sections": [],

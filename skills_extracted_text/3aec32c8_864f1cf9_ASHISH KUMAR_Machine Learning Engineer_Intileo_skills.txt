@@ -1,0 +1,48 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/3aec32c8_864f1cf9_ASHISH KUMAR_Machine Learning Engineer_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+GenAI & LLM
+GPT-4o, LangChain, LangGraph, CrewAI, Agentic RAG, RLHF, Reward Modeling,
+Prompt Engineering, Function Calling, Hugging Face, LoRA/PEFT
+ML Engineering
+Scikit-learn, Time-Series Forecasting, Feature Engineering, Model Evaluation at Scale
+(F1/P/R/AUC), Hyperparameter Tuning, Fine-tuning
+MLOps & Deploy
+FastAPI, MLflow, Docker, Kubernetes, GitHub Actions, CI/CD, A/B Testing, Canary
+Deploys, Drift Detection, LangSmith
+Data & Pipelines
+PySpark, Databricks (Delta Lake, DLT), SQL, ETL, Batch + Streaming, Azure ML
+Pipelines, Pinecone
+Cloud
+Azure (OpenAI, ML, AI Search, Functions, Fabric) · AWS (SageMaker, Lambda, S3) ·
+GCP (Cloud Run)
+Healthcare AI
+FHIR R4/R5, HL7 v2/v3, HIPAA Compliance, EHR Integration, Clinical NLP
+
+── Extraction Results ──
+Skills found   : 52
+Confidence     : 0.92
+Time           : 348.77 ms
+Method         : flashtext_skills_section | fuzzy(GenAI→Generative AI(100%), Azure ML Pipelines→Azure DevOps(95%), OpenAI→OpenAI API(100%), HIPAA Compliance→HIPAA(100%), Bedrock:→Bedrock(93%)...)
+
+── All Skills (52) ──
+A/B Testing, AWS, AWS S3, Azure, Azure DevOps, Azure OpenAI, Bedrock, C++, CI/CD, Cost Analysis, CrewAI, Data Pipeline, Data Science, Databricks, Deep Learning, Docker, ETL, Electronic Health Records, FastAPI, Fine-tuning, GCP, GPT-4, Generative AI, GitHub, GitHub Actions, HIPAA, Healthcare, Hugging Face, Hyperparameter Tuning, Kubernetes, LLM, LangChain, LangGraph, LangSmith, LinkedIn, MLOps, MLflow, Machine Learning, Microservices, Multi-Agent, NLP, OpenAI API, Pinecone, Prompt Engineering, PySpark, R, RAG, SQL, System Design, Time Series Forecasting, WebSockets, scikit-learn
+
+── By Category ──
+  ai_ml                          ['Data Science', 'Deep Learning', 'MLflow', 'Machine Learning', 'NLP', 'Time Series Forecasting', 'scikit-learn']
+  architecture                   ['Microservices', 'System Design']
+  cloud_infra                    ['AWS', 'AWS S3', 'Azure', 'GCP']
+  data_engineering               ['Data Pipeline', 'Databricks', 'ETL']
+  data_science                   ['A/B Testing', 'Hyperparameter Tuning']
+  database                       ['PySpark', 'SQL']
+  dev_tool                       ['GitHub']
+  devops                         ['Azure DevOps', 'CI/CD', 'Docker', 'GitHub Actions', 'Kubernetes']
+  domain                         ['Healthcare']
+  finance_ops                    ['Cost Analysis']
+  genai                          ['Azure OpenAI', 'Bedrock', 'CrewAI', 'Fine-tuning', 'GPT-4', 'Generative AI', 'Hugging Face', 'LLM', 'LangChain', 'LangGraph', 'LangSmith', 'MLOps', 'Multi-Agent', 'OpenAI API', 'Prompt Engineering', 'RAG']
+  healthcare                     ['Electronic Health Records', 'HIPAA']
+  programming_language           ['C++', 'R']
+  search                         ['Pinecone']
+  web_framework                  ['FastAPI', 'LinkedIn', 'WebSockets']

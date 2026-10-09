@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "984eab43_737158c4_CA Tarun Kumar Raju B_AM-GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:47.942647+00:00",
+    "generated_at": "2026-10-07T09:27:32.725017+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,47 +47,87 @@
   "summary": "I’m a Chartered Accountant having 3 years 10 months of post-qualification experience in Big 4's. Actively\nlooking for the opportunities wherein I could adapt my knowledge, experience and analytical thinking to\ndevelop effective management techniques by proactive research and ensure protection of interest of\nIndustry and emerge as good corporate professional.",
   "skills": {
     "items": [
+      "Accounting",
+      "Accounting Standards",
+      "Analytical Review",
       "Auditing",
+      "Financial Reporting",
+      "Fixed Assets Management",
       "GAAP",
       "GST",
+      "GST Return Filing",
       "IFRS",
-      "Ind AS",
+      "Income Tax Return",
+      "Internal Controls Testing",
+      "LinkedIn",
       "MIS Reporting",
       "MS Office",
+      "Microsoft Teams",
+      "Payroll Administration",
       "Pinterest",
       "Problem Solving",
+      "Reporting",
       "SAP",
+      "Statutory Audit",
+      "Substantive Testing",
       "Tally",
-      "Taxation"
+      "Taxation",
+      "Tests of Controls",
+      "Variance Analysis",
+      "Vouching"
     ],
     "by_category": {
       "finance_ops": [
+        "Accounting",
         "Auditing",
+        "Financial Reporting",
         "GAAP",
         "IFRS",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Substantive Testing",
         "Tally",
         "Taxation"
       ],
+      "accounting_finance": [
+        "Accounting Standards"
+      ],
       "accounting": [
-        "GST"
+        "Analytical Review",
+        "Fixed Assets Management",
+        "GST",
+        "Tests of Controls"
       ],
       "finance": [
-        "Ind AS"
+        "GST Return Filing",
+        "Income Tax Return",
+        "Vouching"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "banking": [
         "MIS Reporting"
       ],
       "productivity": [
-        "MS Office"
+        "MS Office",
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Payroll Administration"
       ],
       "search": [
         "Pinterest"
       ],
       "soft_skill": [
-        "Problem Solving"
+        "Problem Solving",
+        "Reporting"
       ],
       "integration": [
         "SAP"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
@@ -96,13 +136,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Associate",
+        "role": "Senior Associate (Asst. Manager",
         "company": "KPMG",
         "location": "Bengaluru",
         "start": "Oct 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 24,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "KPMG, Bengaluru"
+        ],
+        "duration_months": 25,
         "bullets": [
           "Leading end-to-end audit engagements for Canada & US based clients across various industries, ensuring compliance with IFRS and US GAAP standards.",
           "Led the team of 4 professionals for audit services which includes review of their work, status of the tasks assigned to them.",
@@ -121,7 +164,10 @@
         "location": "Bengaluru",
         "start": "Apr 2022",
         "end": "Oct 2024",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "Price Waterhouse Chartered Accountants LLP, Bengaluru"
+        ],
         "duration_months": 31,
         "bullets": [
           "Assisted & performed Statutory audits of various private limited and Public limited companies which are engaged in various sectors like pharmaceutical, techonological, fashion retail etc.",
@@ -143,6 +189,9 @@
         "start": "Feb 2017",
         "end": "Feb 2020",
         "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Chowdary and Rao Chartered Accountants - Vijayawada"
+        ],
         "duration_months": 37,
         "bullets": [
           "Held responsible for Bookkeeping and helped in Finalization of books for different concerns like Proprietorships, Partnership Firms & companies for filing of income tax returns.",
@@ -158,8 +207,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.6,
-      "total_months": 91,
+      "total_years": 7.7,
+      "total_months": 92,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

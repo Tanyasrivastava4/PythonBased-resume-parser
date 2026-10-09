@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b6fb26c3_d6bb3452_Kaustubh Singh_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:08.314356+00:00",
+    "generated_at": "2026-10-07T09:28:00.146103+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,15 +52,21 @@
       "Android",
       "CI/CD",
       "Communication",
+      "Creativity",
       "Cross-Platform Development",
+      "Cross-functional Collaboration",
       "Dart",
       "DevOps",
       "Firebase",
       "Flutter",
+      "GDPR",
       "GetX",
       "Git",
       "GitHub Actions",
+      "Hikvision",
+      "LinkedIn",
       "Machine Learning",
+      "Microsoft Teams",
       "Mobile Application Development",
       "Modula",
       "Problem Solving",
@@ -91,24 +97,38 @@
       ],
       "soft_skill": [
         "Communication",
+        "Creativity",
+        "Cross-functional Collaboration",
         "Problem Solving"
       ],
-      "programming_language": [
-        "Dart",
-        "Modula"
+      "programming": [
+        "Dart"
       ],
       "database": [
         "Firebase"
       ],
+      "legal": [
+        "GDPR"
+      ],
       "dev_tool": [
         "Git"
+      ],
+      "security_ops": [
+        "Hikvision"
+      ],
+      "web_framework": [
+        "LinkedIn",
+        "REST API",
+        "WebSockets"
       ],
       "ai_ml": [
         "Machine Learning"
       ],
-      "web_framework": [
-        "REST API",
-        "WebSockets"
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "programming_language": [
+        "Modula"
       ],
       "fintech": [
         "Razorpay"
@@ -123,23 +143,28 @@
   "experience": {
     "jobs": [
       {
-        "role": "Staqu Technologies, Software Developer",
-        "company": " platform designed for real-time surveillance, behavioural analysis, and intelligent alerting. Built and maintained the Jarvis Streamer App, which converts",
-        "location": "Haryana",
+        "role": "PROFESSIONAL",
+        "company": "Staqu Technologies",
+        "location": "Software Developer",
         "start": "08/2024",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 26,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "PROFESSIONAL"
+        ],
+        "duration_months": 27,
         "bullets": [
+          "Lead Flutter development for Jarvis, an AI-powered video analytics",
+          " platform designed for real-time surveillance, behavioural analysis, and intelligent alerting. Built and maintained the Jarvis Streamer App, which converts",
           " smartphones into secure mobile surveillance units, effectively replacing traditional CCTV systems. Played a key role in the development of state-level police tech solutions,",
           " delivering scalable, secure, and user-friendly mobile applications: Integrated AI/ML-driven features such as face recognition, license plate",
           " detection, and event tracking directly into mobile workflows. Collaborated with cross-functional teams, including law enforcement tech",
           " officers, AI researchers, and backend engineers to ensure robustness, compliance, and scalability. Ensured strict adherence to security, data privacy, and government",
-          ""
+          " compliance standards during deployment and testing phases."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -148,7 +173,7 @@
         "location": "Punjab",
         "start": "02/2022",
         "end": "08/2024",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 31,
         "bullets": [
           "Developed and maintained cross-platform mobile applications for Android",
@@ -170,11 +195,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.7,
-      "total_months": 56,
+      "total_years": 4.8,
+      "total_months": 57,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -201,14 +226,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

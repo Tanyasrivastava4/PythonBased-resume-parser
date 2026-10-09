@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7db50faa_AKASH KUMAR_WordPress Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.672928+00:00",
+    "generated_at": "2026-10-07T09:27:02.524289+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -95,8 +95,11 @@
         "location": null,
         "start": "April 2025",
         "end": "Present",
-        "method": "date_regex+with_as_split",
-        "duration_months": 18,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "═════════════════════════════════════════════════════════"
+        ],
+        "duration_months": 19,
         "bullets": [
           "Designed responsive web pages using HTML and CSS",
           "Implemented responsive layouts using Bootstrap",
@@ -112,8 +115,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.5,
-      "total_months": 18,
+      "total_years": 1.6,
+      "total_months": 19,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

@@ -2,8 +2,8 @@
 FILE: 7fb8cae2_c8fcc61a_Ashish Chaturvedi N-BM-Hamirpur_segmented.txt
 ======================================================================
 Sections found : ['declaration', 'education', 'experience', 'header', 'interests', 'languages', 'personal_details', 'skills', 'strengths', 'summary']
-Overall conf.  : 0.93
-Needs review   : False
+Overall conf.  : 0.9
+Needs review   : True
 
 CONTACT
 ----------------------------------------------------------------------
@@ -22,27 +22,33 @@ experience be converted into the organizations growth, profitability and self
 can
 development.
 
-SKILLS (8) — confidence 0.92
+SKILLS (15) — confidence 0.92
 ----------------------------------------------------------------------
-Auditing, Identity Management, KPI, MS Office, Microsoft Windows, Recruitment, Responsible AI, SOP
+Aadhaar Integration, Agency Management, Auditing, Cash Handling, Identity Management, Inventory Management, KPI, MS Office, Microsoft Windows, Recruitment, Responsible AI, Room Database, SOP, Sales Reporting, Shift Operations
 
-EXPERIENCE (5 jobs, 0 early_career entries) — confidence 0.92
-Total experience: 14.4 years (172 months, 0 overlaps merged)
+EXPERIENCE (8 jobs, 0 early_career entries) — confidence 0.8
+Total experience: 16.7 years (200 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. 6) Currently Working Senior Agency Development Manager in MaxLife @ as a Insurance Kanpur from (29 July 2019 - Present) [conf 0.98, review=False]
-  2. UIDAI (AADHAAR) Center head incharge @ Viesa Technologies (None - None) [conf 0.9, review=False]
-  3. K.V.S.S. (Govt. N.G.O.) District Co-Ordinator @ Unknown company (None - None) [conf 0.9, review=False]
-  4. Sales Advisor @ Sarthak Estate Noida (None - None) [conf 0.9, review=False]
-  5. Sales Executive @ Nutnbolt Infra Pvt.Ltd Kanpur (None - None) [conf 0.9, review=False]
+  1. 1) in UIDAI  Center head incharge in Viesa Technologies @ Joined the industry A part of SRS Group, this Cinema industry of the fastestgrowing (None - 2 Years) [conf 0.65, review=True]
+  2. 3) SRS Cinemas-Duty Manager @ Joined the industry A part of SRS Group, this Cinema industry of the fastestgrowing (None - None) [conf 0.5, review=True]
+  3. 5) Sales Executive in Nutnbolt Infra Pvt.Ltd Kanpur @ None (None - 3 Months) [conf 0.65, review=True]
+  4. 6) Currently Working Senior Agency Development Manager in MaxLife Insurance Kanpur @ Archivments (29 July 2019 - Present) [conf 0.98, review=False]
+  5. UIDAI (AADHAAR) Center head incharge @ Viesa Technologies (None - None) [conf 0.9, review=False]
+  6. K.V.S.S. (Govt. N.G.O.) District Co-Ordinator @ Unknown company (None - None) [conf 0.9, review=False]
+  7. Sales Advisor @ Sarthak Estate Noida (None - None) [conf 0.9, review=False]
+  8. Sales Executive @ Nutnbolt Infra Pvt.Ltd Kanpur (None - None) [conf 0.9, review=False]
 
-EDUCATION (2) — confidence 0.95
+EDUCATION (3) — confidence 0.95
 ----------------------------------------------------------------------
   1. 10th — S. D.V. M.Inter College (2001) [conf 0.95, review=False]
   2. 12th — S. J. V. N. Inter College (2003) [conf 0.95, review=False]
+  3. B.A. — C.S. J. M. University CSJIMU (2007) [conf 0.95, review=False]
 
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (0 flagged fields)
+REVIEW QUEUE (3 flagged fields)
 ----------------------------------------------------------------------
-  (nothing flagged)
+  experience.jobs[0]                  conf=0.65  reason=incomplete_fields
+  experience.jobs[1]                  conf=0.5  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.65  reason=incomplete_fields

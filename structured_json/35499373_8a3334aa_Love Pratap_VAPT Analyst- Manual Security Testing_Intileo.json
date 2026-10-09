@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "35499373_8a3334aa_Love Pratap_VAPT Analyst- Manual Security Testing_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:15.686934+00:00",
+    "generated_at": "2026-10-07T10:31:12.720480+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,19 +48,30 @@
       "Acunetix",
       "Auditing",
       "Burp Suite",
+      "CEH",
+      "Cross-functional Collaboration",
       "DKIM",
       "DMARC",
+      "EDR",
+      "Fine-tuning",
+      "IT Security",
       "Kali Linux",
+      "LinkedIn",
       "Log Analysis",
+      "Machine Learning",
       "Metasploit",
+      "Microsoft Teams",
       "Nessus",
       "Network Vulnerability Assessment",
       "Networking",
       "Nikto",
       "Nmap",
       "OWASP ZAP",
-      "Offensive Security",
+      "Patch Management",
       "Penetration Testing",
+      "Phishing",
+      "Python",
+      "Red Teaming",
       "SIEM",
       "SOC Operations",
       "SPF",
@@ -68,40 +79,69 @@
       "SentinelOne",
       "TCP/IP",
       "Threat Hunting",
+      "Threat Intelligence",
+      "VAPT",
       "Wireshark"
     ],
     "by_category": {
       "security_ops": [
         "Acunetix",
         "Burp Suite",
+        "CEH",
+        "EDR",
         "Log Analysis",
         "Nessus",
         "OWASP ZAP",
+        "Patch Management",
         "Penetration Testing",
+        "Phishing",
         "SIEM",
-        "Threat Hunting"
+        "Threat Hunting",
+        "Threat Intelligence",
+        "VAPT"
       ],
       "finance_ops": [
         "Auditing"
       ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
       "security": [
         "DKIM",
         "DMARC",
+        "IT Security",
         "Metasploit",
         "Network Vulnerability Assessment",
         "Nikto",
         "Nmap",
-        "Offensive Security",
         "SOC Operations",
         "SPF",
         "SQLMAP",
         "SentinelOne"
       ],
+      "genai": [
+        "Fine-tuning"
+      ],
       "testing": [
         "Kali Linux"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "biz_dev": [
         "Networking"
+      ],
+      "programming_language": [
+        "Python"
+      ],
+      "cybersecurity": [
+        "Red Teaming"
       ],
       "networking": [
         "TCP/IP"
@@ -111,7 +151,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Red Teaming→Offensive Security(100%), SQLmap→SQLMAP(100%))"
+    "_method": "flashtext_skills_section | fuzzy(SQLmap→SQLMAP(100%))"
   },
   "experience": {
     "jobs": [
@@ -121,7 +161,10 @@
         "location": "Delhi",
         "start": "Nov 2025",
         "end": "May 2026",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Security Engineer"
+        ],
         "duration_months": 7,
         "bullets": [
           "Conduct end-to-end network penetration testing and vulnerability assessments to identify and exploit latent infrastructure weaknesses.",
@@ -142,7 +185,10 @@
         "location": "Delhi",
         "start": "Sep 2023",
         "end": "Oct 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Cyber Security Analyst"
+        ],
         "duration_months": 26,
         "bullets": [
           "Led vulnerability assessments for network segments and web/mobile applications, effectively reducing the organizational attack surface.",

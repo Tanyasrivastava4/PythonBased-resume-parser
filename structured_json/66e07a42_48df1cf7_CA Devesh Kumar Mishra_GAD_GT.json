@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "66e07a42_48df1cf7_CA Devesh Kumar Mishra_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:04.446794+00:00",
+    "generated_at": "2026-10-07T09:26:43.254309+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,22 +48,84 @@
   "summary": "Linkedin\nSUMMARY\nAmbitious Chartered Accountant with hands-on\nexperience in statutory & internal audits, tax\ncompliance, and risk assessment for large client\nportfolios. Proficient in MS Excel and emerging AI\nautomation tools, with a track record of top 10%\nworldwide success in business simulations.",
   "skills": {
     "items": [
-      "Auditing",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Analytical Review",
+      "CARO Reporting",
+      "Company Law",
       "Computax",
+      "Finalization of Financial Statements",
+      "Financial Auditing",
+      "Financial Reporting",
+      "Finnone",
+      "GAMA AI",
+      "Income Tax Return",
+      "Ind AS",
+      "Ind AS 115",
+      "Ind AS 16",
+      "Internal Audit",
       "LinkedIn",
       "Market Research",
       "Microsoft Excel",
+      "Omnifin",
+      "Payroll Administration",
+      "Procure-to-Pay",
+      "Procurement",
       "Product Design",
+      "Reporting",
       "Risk Assessment",
-      "Taxation"
+      "SA 520",
+      "Schedule III Compliance",
+      "Standards on Auditing",
+      "Statutory Audit",
+      "TDS",
+      "Tax2win",
+      "Taxation",
+      "Tests of Controls",
+      "Trend Analysis",
+      "Variance Analysis"
     ],
     "by_category": {
       "finance_ops": [
-        "Auditing",
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Financial Reporting",
+        "Statutory Audit",
         "Taxation"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Finalization of Financial Statements",
+        "Ind AS 16",
+        "Internal Audit",
+        "SA 520",
+        "Tax2win",
+        "Tests of Controls"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "Income Tax Return",
+        "Ind AS",
+        "Procure-to-Pay"
+      ],
+      "legal": [
+        "Company Law"
       ],
       "office": [
         "Computax"
+      ],
+      "accounting_finance": [
+        "Financial Auditing",
+        "Ind AS 115",
+        "Schedule III Compliance",
+        "Standards on Auditing"
+      ],
+      "banking": [
+        "Finnone",
+        "Omnifin"
+      ],
+      "ai_ml": [
+        "GAMA AI"
       ],
       "web_framework": [
         "LinkedIn"
@@ -74,39 +136,67 @@
       "productivity": [
         "Microsoft Excel"
       ],
+      "hr": [
+        "Payroll Administration"
+      ],
+      "operations": [
+        "Procurement"
+      ],
       "engineering": [
         "Product Design"
       ],
+      "soft_skill": [
+        "Reporting"
+      ],
       "compliance": [
         "Risk Assessment"
+      ],
+      "taxation": [
+        "TDS"
+      ],
+      "data_science": [
+        "Trend Analysis"
+      ],
+      "business_analysis": [
+        "Variance Analysis"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Compu-tax→Computax(94%), product design→Product Design(100%), Linkedin→LinkedIn(100%), internal audits→Auditing(97%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), GAMA→GAMA AI(100%), Compu-tax→Computax(94%), product design→Product Design(100%), Linkedin→LinkedIn(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Associate",
-        "company": "Abhijit Sharma & Associates",
+        "role": "Sr. Associate",
+        "company": null,
         "location": null,
         "start": "Jan 2025",
         "end": "Sep 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Sr. Associate"
+        ],
         "duration_months": 9,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.85,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Associate",
-        "company": "Most renowned CA firm in Jaipur, well known for Statutory & Internal",
+        "role": "Jaipur, Rajasthan",
+        "company": "Abhijit Sharma & Associates",
         "location": null,
         "start": "Jun 2018",
         "end": "Dec 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Abhijit Sharma & Associates",
+          "Jaipur, Rajasthan",
+          "Most renowned CA firm in Jaipur, well known for Statutory & Internal",
+          "Audits with 200+ clients.",
+          "Article -> Jr. Associate"
+        ],
         "duration_months": 43,
         "bullets": [
           "Leading CA firm in Jaipur over 40 Yr. of experience with 4 partners servicing 300+ clients.",
@@ -157,8 +247,8 @@
           "statutory deadlines.",
           "Comprehensive and accurate taxation advice to clients related Sec"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -168,7 +258,7 @@
       "total_months": 52,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.84
+    "_confidence": 0.92
   },
   "education": {
     "entries": [
@@ -177,7 +267,7 @@
         "degree_name": "CA Intermediate",
         "degree_type": "professional_certification",
         "degree_field": "3 Exemptions",
-        "institution": null,
+        "institution": "Sufal Vidhyapeeth Sr. Sec. School (RBSE)",
         "year": "2015",
         "gpa": "52%",
         "_needs_review": false,
@@ -188,20 +278,20 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Rajasthan University",
+        "institution": null,
         "year": "2018",
-        "gpa": "42%",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Senior Secondary",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Sufal Vidhyapeeth Sr. Sec. School (RBSE)",
+        "institution": "Rajasthan University",
         "year": "2015",
-        "gpa": "75%",
+        "gpa": "42%",
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -212,12 +302,12 @@
         "degree_field": null,
         "institution": "Sufal Vidhyapeeth Sr. Sec. School (RBSE)",
         "year": "2013",
-        "gpa": "61%",
+        "gpa": "75%",
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.91
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [
@@ -354,13 +444,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.86
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
+      "field": "experience.jobs[0]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

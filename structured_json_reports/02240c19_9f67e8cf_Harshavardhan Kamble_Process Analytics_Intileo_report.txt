@@ -2,7 +2,7 @@
 FILE: 02240c19_9f67e8cf_Harshavardhan Kamble_Process Analytics_Intileo_segmented.txt
 ======================================================================
 Sections found : ['certifications', 'education', 'experience', 'header', 'other', 'skills']
-Overall conf.  : 0.87
+Overall conf.  : 0.89
 Needs review   : True
 
 CONTACT
@@ -14,16 +14,16 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (33) — confidence 0.92
+SKILLS (49) — confidence 0.92
 ----------------------------------------------------------------------
-5S, Agile, AutoCAD, Budgeting, Change Management, Communication, Conflict Resolution, Cross-functional Collaboration, ERP, Google, Inventory Management, KPI, Lean Six Sigma, Logistics, MS Office, Microsoft Excel, Negotiation, Power BI, Procurement, Project Management, RACI, Risk Assessment, Risk Management, SEM, Scrum, Sigma Computing, SolidWorks, Supply Chain, Supply Chain Management, Team Leadership, Time Series Forecasting, Vendor Management, Waterfall
+5S, Agile, AutoCAD, Budgeting, CATIA, Change Management, Communication, Conflict Resolution, Cross-functional Collaboration, ERP, Google, Internal Audit, Inventory Management, KPI, Leadership, Lean Six Sigma, LinkedIn, Logistics, MS Office, Microsoft Excel, Microsoft Teams, Negotiation, Operations Management, PLC, Performance Monitoring, Power BI, Process Improvement, Process Re-Engineering, Procure-to-Pay, Procurement, Professional Tax, Project Management, RACI, Reliability, Resource Planning, Risk Assessment, Risk Management, SEM, Scrum, Sigma Computing, SolidWorks, Supply Chain, Supply Chain Management, Team Coordination, Team Leadership, Time Series Forecasting, Vendor Development, Vendor Management, Waterfall
 
-EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.89
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
 Total experience: 4.2 years (50 months, 0 overlaps merged)
 ----------------------------------------------------------------------
   1. , Management Trainee (Purchase @ HITECH RADIATORS PVT LTD (May 2024 - May 2025) [conf 0.98, review=False]
-  2. VISHWAKARMA ENGINEERING – Production Planning Engineer @ stock-out situations. VISHWAKARMA ENGINEERING (Sept 2019 - March 2022) [conf 0.98, review=False]
-  3. Purchase Intern @ INTERNSHIP EXPERIENCE: ALIMENTO AGRO FOODS PVT LTD (Apr 2023 - Sept 2023) [conf 0.7, review=True]
+  2. Production Planning Engineer @ VISHWAKARMA ENGINEERING (Sept 2019 - March 2022) [conf 0.98, review=False]
+  3. Purchase Intern @ ALIMENTO AGRO FOODS PVT LTD (Apr 2023 - Sept 2023) [conf 0.98, review=False]
 
 EDUCATION (4) — confidence 0.88
 ----------------------------------------------------------------------
@@ -49,9 +49,8 @@ ACHIEVEMENTS (4) — confidence 0.85
   • Winner - Tug of War competition at ITM Business School - 2022
   • Runner-up in district-level football and technical paper presentation competitions - 2015
 
-REVIEW QUEUE (6 flagged fields)
+REVIEW QUEUE (5 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
   certifications                      conf=0.69  reason=low_confidence
   certifications.items[1]             conf=0.6  reason=incomplete_fields
   certifications.items[3]             conf=0.6  reason=incomplete_fields

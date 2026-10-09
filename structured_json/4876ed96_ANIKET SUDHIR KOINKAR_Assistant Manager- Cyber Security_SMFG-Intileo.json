@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4876ed96_ANIKET SUDHIR KOINKAR_Assistant Manager- Cyber Security_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:31.484946+00:00",
+    "generated_at": "2026-10-07T10:31:31.293502+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,12 +49,20 @@
     "items": [
       "AWS",
       "Active Directory",
+      "Analyze",
+      "Anomaly Detection",
       "Azure",
+      "Azure ADF",
+      "Business Intelligence",
       "Carbon Black",
+      "Communication",
+      "Correlation Rules",
+      "Cross-functional Collaboration",
       "CrowdStrike",
       "DHCP",
       "DNS",
       "DevOps",
+      "Digital Forensics",
       "Docker",
       "EDR",
       "Fraud Detection",
@@ -63,54 +71,103 @@
       "Google",
       "Google SecOps",
       "HIPAA",
+      "Healthcare",
       "Identity Management",
       "Incident Management",
       "Jira",
+      "KPI",
       "Kubernetes",
+      "LinkedIn",
       "Log Analysis",
+      "MITRE ATT&CK",
       "Malware Analysis",
+      "Microsoft Azure Sentinel",
       "Microsoft Defender",
       "Microsoft Sentinel",
+      "Microsoft Teams",
+      "Multifactor Authentication",
       "NIST",
       "Networking",
+      "Onboarding",
       "PCI-DSS",
+      "Phishing",
+      "Pitch Scripts",
       "PowerShell",
+      "Process Improvement",
       "Python",
+      "R",
+      "SC-200",
       "SIEM",
       "SOAR",
+      "SOC Operations",
       "SailPoint",
       "Security Operations Center",
       "SentinelOne",
       "ServiceNow",
       "Symantec",
       "TCP/IP",
+      "Telecom",
       "Threat Hunting",
       "Threat Intelligence",
-      "Vulnerability Management"
+      "VPN",
+      "Vulnerability Management",
+      "Vulnerability Remediation"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
         "Azure",
-        "GCP"
+        "GCP",
+        "Microsoft Azure Sentinel"
       ],
       "security_ops": [
         "Active Directory",
         "Carbon Black",
         "CrowdStrike",
+        "Digital Forensics",
         "EDR",
         "Google SecOps",
         "Log Analysis",
+        "MITRE ATT&CK",
         "Malware Analysis",
         "Microsoft Defender",
         "Microsoft Sentinel",
         "NIST",
         "PCI-DSS",
+        "Phishing",
         "SIEM",
         "SOAR",
         "Security Operations Center",
         "Threat Hunting",
-        "Threat Intelligence"
+        "Threat Intelligence",
+        "VPN"
+      ],
+      "data_science": [
+        "Analyze"
+      ],
+      "ai_ml": [
+        "Anomaly Detection"
+      ],
+      "cloud": [
+        "Azure ADF"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Cross-functional Collaboration"
+      ],
+      "security": [
+        "Correlation Rules",
+        "Identity Management",
+        "Incident Management",
+        "Multifactor Authentication",
+        "SOC Operations",
+        "SentinelOne",
+        "Symantec",
+        "Vulnerability Management"
       ],
       "networking": [
         "DHCP",
@@ -134,45 +191,67 @@
       "healthcare": [
         "HIPAA"
       ],
-      "security": [
-        "Identity Management",
-        "Incident Management",
-        "SentinelOne",
-        "Symantec",
-        "Vulnerability Management"
+      "domain": [
+        "Healthcare",
+        "Telecom"
       ],
       "project_mgmt": [
         "Jira"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "biz_dev": [
         "Networking"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "sales": [
+        "Pitch Scripts"
       ],
       "os_system": [
         "PowerShell"
       ],
+      "operations": [
+        "Process Improvement"
+      ],
       "programming_language": [
-        "Python"
+        "Python",
+        "R"
+      ],
+      "certification": [
+        "SC-200"
       ],
       "iam": [
         "SailPoint"
       ],
       "integration": [
         "ServiceNow"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Incident Response→Incident Management(100%), Defender→Microsoft Defender(100%), Vulnerability Assessment→Vulnerability Management(100%), Google→Google(100%), threat hunting→Threat Hunting(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Incident Response→Incident Management(100%), Defender→Microsoft Defender(100%), Azure AD→Azure ADF(94%), Vulnerability Assessment→Vulnerability Management(100%), Google→Google(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "NAM Region — Security Managed Services Analyst",
         "company": "Cross-Client SOC Operations",
-        "location": "Security Managed Services Analyst",
+        "location": null,
         "start": "Sep 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 13,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Accenture – Security Managed Services Analyst"
+        ],
+        "duration_months": 14,
         "bullets": [
           "Supporting NAM clients across banking, retail, healthcare, manufacturing, and telecom.",
           "Monitoring endpoint, cloud, network, and identity alerts using SIEM/EDR tools.",
@@ -200,10 +279,13 @@
       {
         "role": "Credit Agricole Corporate & Investment Bank – SOC Analyst",
         "company": "Credit Agricole",
-        "location": "Credit Agricole Corporate & Investment Bank – SOC Analyst",
+        "location": null,
         "start": "Feb 2023",
         "end": "Sep 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Capgemini – Credit Agricole Corporate & Investment Bank – SOC Analyst"
+        ],
         "duration_months": 32,
         "bullets": [
           "Monitored global financial infrastructure using Azure Sentinel and Google SecOps.",
@@ -232,8 +314,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.7,
-      "total_months": 44,
+      "total_years": 3.8,
+      "total_months": 45,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98
@@ -246,7 +328,7 @@
         "degree_type": "masters",
         "degree_field": null,
         "institution": "Savitribai Phule Pune University",
-        "year": "Jul 2019 - Mar 2022",
+        "year": "Nov 2022 - Mar 2024",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -257,10 +339,10 @@
         "degree_type": "bachelors",
         "degree_field": "Computer Science",
         "institution": "Computer Science Nashik, Maharashtra K.R.T. Arts, B.H. Commerce and A.M.Science College",
-        "year": "Jul 2017 - Mar 2019",
+        "year": "Jul 2019 - Mar 2022",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "State Board HSC",
@@ -268,10 +350,10 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "State Board Nashik",
-        "year": null,
+        "year": "Jul 2017 - Mar 2019",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
     "_confidence": 0.9

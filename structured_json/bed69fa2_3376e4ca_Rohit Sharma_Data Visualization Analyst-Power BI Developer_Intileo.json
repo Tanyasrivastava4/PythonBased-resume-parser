@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bed69fa2_3376e4ca_Rohit Sharma_Data Visualization Analyst-Power BI Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:15.112783+00:00",
+    "generated_at": "2026-10-07T09:28:09.022750+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -53,12 +53,16 @@
       "Aggregations",
       "Alteryx",
       "Apache Superset",
+      "Business Intelligence",
       "CTE",
       "Claude",
+      "Cross-functional Collaboration",
+      "Customer Retention",
       "DAX",
       "Dashboard Development",
       "Data Analytics",
       "Data Cleaning",
+      "Data Migration",
       "Data Modeling",
       "Data Storytelling",
       "Data Validation",
@@ -66,23 +70,30 @@
       "Drill-through Analysis",
       "ETL",
       "Exploratory Data Analysis",
+      "Facebook Ads",
       "GPT",
       "Git",
+      "Google Ads",
       "Jira",
       "Joins",
       "KPI",
+      "Marketing Analytics",
       "Matplotlib",
+      "MicroStrategy",
       "Microsoft Excel",
       "Microsoft Power Automate",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "NumPy",
       "Operations Management",
       "Pandas",
       "Power BI",
       "Power Query",
-      "Predictive Analytics",
+      "Predictive Modeling",
       "Python",
+      "Reliability",
       "Reporting",
+      "Revenue Generation",
       "Row Level Security",
       "SQL",
       "Semantic Modeling",
@@ -92,7 +103,8 @@
       "Tableau",
       "Telecom",
       "Trend Analysis",
-      "Window Functions"
+      "Window Functions",
+      "Workflow Automation"
     ],
     "by_category": {
       "cloud_infra": [
@@ -118,17 +130,30 @@
         "Data Storytelling",
         "Drill-through Analysis",
         "Exploratory Data Analysis",
+        "MicroStrategy",
         "Power BI",
         "Power Query",
-        "Predictive Analytics",
         "Row Level Security",
         "Semantic Modeling",
         "Statistical Analysis",
         "Tableau",
         "Trend Analysis"
       ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
+      ],
       "genai": [
         "Claude"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reliability",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "client_mgmt": [
+        "Customer Retention"
       ],
       "data_engineering": [
         "Data Cleaning",
@@ -136,11 +161,20 @@
         "Data Wrangling",
         "ETL"
       ],
+      "data engineering": [
+        "Data Migration"
+      ],
+      "marketing": [
+        "Facebook Ads",
+        "Google Ads",
+        "Marketing Analytics"
+      ],
       "ai_ml": [
         "GPT",
         "Matplotlib",
         "NumPy",
-        "Pandas"
+        "Pandas",
+        "Predictive Modeling"
       ],
       "dev_tool": [
         "Git"
@@ -148,25 +182,23 @@
       "project_mgmt": [
         "Jira"
       ],
-      "business_analysis": [
-        "KPI"
-      ],
       "productivity": [
         "Microsoft Excel",
-        "Microsoft PowerPoint"
+        "Microsoft PowerPoint",
+        "Microsoft Teams"
       ],
       "rpa": [
         "Microsoft Power Automate"
       ],
       "operations": [
-        "Operations Management"
+        "Operations Management",
+        "Workflow Automation"
       ],
       "programming_language": [
         "Python"
       ],
-      "soft_skill": [
-        "Reporting",
-        "Stakeholder Management"
+      "sales": [
+        "Revenue Generation"
       ],
       "domain": [
         "Telecom"
@@ -178,12 +210,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Data Analyst",
-        "company": "BI Reporting Modernization Impetus •",
-        "location": "Gurugram",
+        "role": "BI Reporting Modernization",
+        "company": "Impetus Via Advayan Technologies",
+        "location": null,
         "start": "September 2025",
         "end": "March 2026",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Analyst",
+          "Impetus Via Advayan Technologies"
+        ],
         "duration_months": 7,
         "bullets": [
           "Led migration of enterprise Tableau and MicroStrategy reports to Power BI, improving reporting consistency, dashboard usability, and KPI standardization.",
@@ -205,12 +241,16 @@
         "source": "experience"
       },
       {
-        "role": "Data Analyst",
-        "company": "Customer Footfall & Marketing Analytics Infinite Analytics •",
-        "location": "Mumbai",
+        "role": "Customer Footfall & Marketing Analytics",
+        "company": "Infinite Analytics •",
+        "location": null,
         "start": "March 2025",
         "end": "August 2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Data Analyst",
+          "Infinite Analytics"
+        ],
         "duration_months": 6,
         "bullets": [
           "Developed and maintained 10+ interactive Power BI dashboards delivering automated insights for retail and real-estate clients.",
@@ -231,12 +271,17 @@
         "source": "experience"
       },
       {
-        "role": "Associate Software Engineer",
+        "role": "Created executive dashboards and visual reports supporting strategic decision-making and operational planning",
         "company": "Tech Mahindra Ltd",
-        "location": "Gurugram",
+        "location": null,
         "start": "November 2021",
         "end": "February 2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+title_dict_strong+company_suffix_match",
+        "pre_date_header": [
+          "•Created executive dashboards and visual reports supporting strategic decision-making and operational planning.",
+          "Associate Software Engineer",
+          "Tech Mahindra Ltd"
+        ],
         "duration_months": 40,
         "bullets": [
           "Developed ETL workflows using SQL and Python to prepare analytical datasets for reporting and dashboard development.",
@@ -252,12 +297,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Telecom Customer Churn Analysis Tech MahindraLtd •",
+        "role": "Telecom Customer Churn Analysis",
+        "company": "Tech MahindraLtd •",
         "location": null,
         "start": "January 2023",
         "end": "September 2024",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Telecom Customer Churn Analysis"
+        ],
         "duration_months": 21,
         "bullets": [
           "Performed exploratory data analysis on telecom customer datasets to identify churn behavior and customer retention patterns.",
@@ -266,8 +314,8 @@
           "Tech Stack: Python, SQL, Power BI"
         ],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -277,11 +325,23 @@
       "total_months": 53,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.87
+    "_confidence": 0.98
   },
   "education": {
-    "entries": [],
-    "_confidence": 0.0
+    "entries": [
+      {
+        "degree": "Bachelor’s Of Engineering",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "National Power Training Institute",
+        "year": "2020",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -335,20 +395,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "education",
-      "confidence": 0.0,
-      "reason": "section_present_but_empty"
-    },
     {
       "field": "certifications",
       "confidence": 0.74,

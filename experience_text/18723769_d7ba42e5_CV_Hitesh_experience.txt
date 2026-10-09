@@ -1,0 +1,126 @@
+======================================================================
+FILE: 18723769_d7ba42e5_CV_Hitesh_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+NAB India Innovation Centre Pvt. Ltd.
+Analyst – HR Talent Acquisition (Shared Services) |                                                                           Oct 2023 – Sep 2025
+ANSR Private Limited (Contract for NAB)
+Assistant Manager – HR Talent Acquisition (Shared Services) |               ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.96
+Needs review   : True
+Total exp      : 12.1 years (145 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Analyst
+  Company      : HR Talent Acquisition (Shared Services
+  Location     : None
+  Start - End  : Oct 2023 - Sep 2025
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Assistant Manager
+  Company      : HR Talent Acquisition (Shared Services
+  Location     : None
+  Start - End  : Jun 2023 - Sep 2023
+  Duration     : 4 months
+  Bullets      : 6
+    • Conducted HR screening and competency-based interviews to assess candidates' technical expertise, functional capabilities, cultural fit, and overall role suitability.
+    • Partnered with hiring managers and technical stakeholders to align candidate evaluations with business and workforce requirements.
+    • Managed end-to-end interview coordination, feedback consolidation, and hiring decisions to ensure efficient recruitment outcomes.
+    • Evaluated candidate qualifications, compensation expectations, notice periods, and organizational fit to support informed hiring decisions.
+    • Maintained recruitment data, interview records, and hiring metrics within ATS platforms, ensuring process compliance and reporting accuracy.
+    • Supported high-volume and niche hiring initiatives by driving seamless candidate assessment, stakeholder engagement, and offer conversion processes.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Key Account Manager-Learning Coordinator
+  Company      : Teamlease
+  Location     : Edtech
+  Start - End  : Apr-22 - Mar-23
+  Duration     : 12 months
+  Bullets      : 6
+    • Managed end-to-end training operations across ~5 client accounts, successfully delivering 10–20 concurrent technology and non-technology training batches through classroom, virtual, and web-based platforms.
+    • Recruited, screened, onboarded, and managed freelance technical trainers across domains including Java, Python, .NET, Full Stack Development, AWS, Azure, DevOps, Cybersecurity, Data Science, AI/ML, Salesforce, SAP, and ServiceNow.
+    • Coordinated international training programs, overseeing training schedules, trainer allocation, budgeting, participant communication, content readiness, reporting, and client governance reviews.
+    • Partnered with clients, business leaders, SMEs, and vendors to identify training needs, map qualified trainers, and ensure seamless delivery aligned with business objectives.
+    • Maintained training compliance through attendance tracking, session recordings, LMS updates, audit-ready documentation, and weekly/monthly MIS dashboards on training effectiveness and utilization.
+    • Managed trainer contracts, purchase orders, invoicing, and payment processing in coordination with Finance, while supporting BGV documentation and onboarding activities for trainers and participants.
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Assistant Manager-Learning Coordinator
+  Company      : StackRoute
+  Location     : NIIT Limited
+  Start - End  : Jul-21 - Apr-22
+  Duration     : 10 months
+  Bullets      : 6
+    • Led a team of 4 and managed training operations for 8 client accounts, successfully delivering 30–40 concurrent technology and non-technology training batches while ensuring quality, timelines, and stakeholder satisfaction.
+    • Recruited, evaluated, and onboarded freelance and contract technical trainers across technologies such as Java, Python, .NET, Full Stack Development, AWS, Azure, DevOps, Cybersecurity, Data Science, AI/ML, Salesforce, SAP, ServiceNow, Power BI, and Agile methodologies.
+    • Planned and executed international technology training programs, managing training schedules, participant communication, content alignment, budgeting, reporting, and weekly client governance reviews.
+    • Partnered with clients, business leaders, SMEs, vendors, and training partners to identify learning requirements, source qualified trainers, and ensure seamless program delivery.
+    • Managed end-to-end trainer operations including onboarding, contracts, logistics, virtual training setup, session recordings, attendance tracking, compliance documentation, and audit readiness.
+    • Published client-wise dashboards and training MIS reports, providing insights on utilization, trainer performance, learner participation, training effectiveness, budget adherence, and overall program outcomes during leadership and client cadence calls.
+  Method       : date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Analyst
+  Company      : HR Talent Acquisition (Shared Services) |                                                                           Oct 2023 – Sep 2025
+  Location     : None
+  Start - End  : Sep-13 - Dec-20
+  Duration     : 88 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : Analyst
+  Company      : HR Shared Services
+  Location     : None
+  Start - End  : May 15 - Dec 20
+  Duration     : 8 months
+  Bullets      : 10
+    • Led large-scale L&D programs, training 1,000+ managers under NatWest’s Determined to Lead initiative.
+    • Owned end-to-end learning operations—calendars, trainers, logistics, vendors, inventories, and PAN-India delivery.
+    • Managed budgets, financial analysis, vendor negotiations, and approvals; delivered ₹2.75 lakh+ annual cost savings.
+    • Published learning MIS, feedback analytics, and automated dashboards to drive data-backed improvements.
+    • Served as single point of contact for leadership trainers; ensured seamless pre- and post-session execution.
+    • Handled quality checks on nominations, Workday offers, and HRBP reports prior to leadership release.
+    • Supported talent acquisition—screening, interviewing, selection communication, and contract hiring.
+    • Independently managed onboarding, BGV initiation, adverse case resolution, and Day-1 induction.
+    • Led facilities and admin operations—POs, vendors, bill clearance, transport, helpdesk, and on/offsite events.
+    • Managed projects, contractors, safety compliance, space planning, cafeteria operations, and central services.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : Sr. Client Service Specialist—Knowledge Management Centre
+  Company      : Computer Science Corporation
+  Location     : None
+  Start - End  : Sep 08 - Jul 13
+  Duration     : 0 months
+  Bullets      : 5
+    • Managed UKBA-approved website content across Training, UAT, and Production environments.
+    • Resolved escalated VAC immigration queries and complaints via WIS.
+    • Tested and validated WIS 2.0 releases before production deployment.
+    • Administered KMC helpdesk server and coordinated with cross-functional teams.
+    • Audited ISCC cases and calls across regions; maintained BAU, billing, and SLA reports on SharePoint.
+  Method       : date_regex+date_prefix_title+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

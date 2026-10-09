@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3e835f49_481ec5f3_CA Yogesh Gupta_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:24.042558+00:00",
+    "generated_at": "2026-10-07T10:31:22.430875+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,19 +48,26 @@
   "skills": {
     "items": [
       "Accounting",
+      "Accounting Standards",
+      "Analytical Review",
       "Asset Management",
       "Bank Audit",
       "Bank Reconciliation",
-      "Client Relationship Management",
+      "CAD",
+      "Client Handling",
       "Computax",
+      "Concurrent Audit",
       "DSC",
       "ERP",
+      "Factor Risk",
+      "Finalization of Financial Statements",
       "Financial Reporting",
       "GST",
       "GST Return Filing",
+      "GSTR-9",
       "General Ledger",
       "Income Tax Return",
-      "Ind AS",
+      "Input Tax Credit",
       "KYC",
       "Leadership",
       "Microsoft Teams",
@@ -69,38 +76,54 @@
       "ROC Filing",
       "Statutory Audit",
       "Stock Audit",
-      "Tally",
-      "Tax Audit",
+      "Stock Take",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Tax Cloud",
-      "Taxation"
+      "Taxation",
+      "Time Management",
+      "Trial Balance"
     ],
     "by_category": {
       "finance_ops": [
         "Accounting",
         "Financial Reporting",
         "Statutory Audit",
-        "Tally",
         "Taxation"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "GSTR-9",
+        "Input Tax Credit",
+        "Stock Take",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Bank Reconciliation",
+        "Finalization of Financial Statements",
+        "GST",
+        "General Ledger"
       ],
       "sysadmin": [
         "Asset Management"
       ],
       "finance": [
         "Bank Audit",
+        "Concurrent Audit",
+        "Factor Risk",
         "GST Return Filing",
         "Income Tax Return",
-        "Ind AS",
         "ROC Filing",
-        "Stock Audit"
+        "Stock Audit",
+        "Trial Balance"
       ],
-      "accounting": [
-        "Bank Reconciliation",
-        "GST",
-        "General Ledger",
-        "Tax Audit"
+      "engineering": [
+        "CAD"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "management": [
+        "Client Handling"
       ],
       "office": [
         "Computax",
@@ -116,7 +139,8 @@
         "KYC"
       ],
       "soft_skill": [
-        "Leadership"
+        "Leadership",
+        "Time Management"
       ],
       "productivity": [
         "Microsoft Teams",
@@ -132,12 +156,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "Chartered Accountants) Article Assistant",
-        "company": "JIVAP & Associates LLP",
+        "role": "Article Assistant",
+        "company": "JIVAP & Associates LLP (Chartered Accountants",
         "location": null,
         "start": "Jun 2019",
         "end": "Feb 2020",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "JIVAP & Associates LLP (Chartered Accountants)"
+        ],
         "duration_months": 9,
         "bullets": [],
         "sub_sections": [],
@@ -146,12 +173,15 @@
         "source": "experience"
       },
       {
-        "role": "Chartered Accountants) Article Assistant",
-        "company": "GGPS & Associates",
+        "role": "Article Assistant",
+        "company": "GGPS & Associates (Chartered Accountants",
         "location": null,
         "start": "Feb 2020",
         "end": "Jun 2022",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title+multiline_company_above_role",
+        "pre_date_header": [
+          "GGPS & Associates (Chartered Accountants)"
+        ],
         "duration_months": 29,
         "bullets": [
           "Manage concurrent audit of CAD function within Credit risk mgt. at corporate branch on individual basis.",
@@ -163,12 +193,15 @@
         "source": "experience"
       },
       {
-        "role": "Chartered Accountants) Article Assistant",
-        "company": "• Team Leader Contractual",
+        "role": "Team Leader",
+        "company": "Contractual",
         "location": null,
         "start": "Jan 2025",
         "end": "April 2025",
-        "method": "date_regex+inherited_role",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "• Team Leader"
+        ],
         "duration_months": 4,
         "bullets": [
           "Self-motivated",
@@ -179,8 +212,8 @@
           "Performed various Audit Testing like Bank Reconciliation Testing, Investment"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -190,7 +223,7 @@
       "total_months": 41,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.94
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -239,7 +272,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "12th from Ram Chandra Sch. C.B.S.E. Delhi",
+        "degree": "12th",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
@@ -250,7 +283,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "10th from Govt. Boys Sch. C.B.S.E. Delhi",
+        "degree": "10th",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
@@ -441,7 +474,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
@@ -449,11 +482,6 @@
       "field": "contact.name",
       "confidence": 0.0,
       "reason": "missing"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
     },
     {
       "field": "certifications",

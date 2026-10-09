@@ -1,0 +1,133 @@
+======================================================================
+FILE: 2475b72a_PRAGNESH S. SHAH_Sr. Associate-IT Ops_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Microsoft Certified – 70-290 (Windows Server 2003)
+
+Name of Organisation: Comfort Securities Ltd.
+Designation: IT System Administrator
+Period of work: January 2023 – Present
+• Maintain ODIN and Greek share market software & back-office software.
+• Manage Windows Servers, VMware, desktops, laptops,...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 8
+Confidence     : 0.93
+Needs review   : True
+Total exp      : 21.2 years (254 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Designation: IT System Administrator
+  Company      : Period of work
+  Location     : None
+  Start - End  : January 2023 - Present
+  Duration     : 46 months
+  Bullets      : 7
+    • Maintain ODIN and Greek share market software & back-office software.
+    • Manage Windows Servers, VMware, desktops, laptops, networks & Sophos XGS 2100 firewalls.
+    • Handle Google Workspace (250 Users), Zoho Mail, Rediff Enterprise Mail.
+    • Manage Seqrite Endpoint Security antivirus
+    • Managing network access and performing data backups
+    • Oversee IT security, IT compliance & infrastructure across group companies.
+    • Troubleshooting user issues and providing IT support.
+  Method       : date_regex+subfield_label_role+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : IT System Administrator
+  Company      : Name of Organisation: Eagle Security and Personnel Service
+  Location     : None
+  Start - End  : September 2019 - January 2023
+  Duration     : 41 months
+  Bullets      : 4
+    • Manage server, desktop & network operations across multiple locations.
+    • Manage Fortigate 80E firewall, data backup, Access control & ESSL biometric devices.
+    • Administer Hikvision CCTV, Seqrite antivirus & Google Workspace (100 users).
+    • Manage ERP Software
+  Method       : date_regex+subfield_label_role+next_line_company
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Designation: IT System Administrator
+  Company      : Period of work
+  Location     : None
+  Start - End  : October 2017 - July 2019
+  Duration     : 22 months
+  Bullets      : 7
+    • Maintain Windows 2008 Servers with Hyper-V.
+    • Install & upgrade hardware & software.
+    • Support Microsoft Dynamics NAV ERP.
+    • Manage NAS & DLT backups for 95 users.
+    • Support Cerberus, SugarCRM, Joomla, PHPList & WordPress.
+    • Maintain Avhan Dialer & CCTV (Spyeye, Hikvision).
+    • Handle asset & vendor management.
+  Method       : date_regex+subfield_label_role+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : IT Executive
+  Company      : Unknown
+  Location     : Designation
+  Start - End  : February 2014 - August 2017
+  Duration     : 43 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Unknown
+  Company      : Designation | IT Executive
+  Location     : Servers
+  Start - End  : 2008 - 2012
+  Duration     : 49 months
+  Bullets      : 3
+    • Manage Smarter Mail server & data backup to tape.
+    • Administer Fortigate firewall & 3CX software.
+    • Install & upgrade hardware/software; manage desktops & thin clients.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 6
+  Role         : Technologies
+  Company      : Name of Organisation: Galiakotwala
+  Location     : None
+  Start - End  : December 2012 - January 2014
+  Duration     : 14 months
+  Bullets      : 2
+    • Manage Windows 2008 Servers with Hyper-V.
+    • Perform hardware and software upgrades & maintenance.
+  Method       : date_regex+subfield_label_role+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : Technologies
+  Company      : Name of Organisation: SVN
+  Location     : None
+  Start - End  : February 2006 - September 2007
+  Duration     : 20 months
+  Bullets      : 2
+    • Provide Lotus Notes support.
+    • Manage IBM desktops & data backup software.
+  Method       : date_regex+subfield_label_role+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 8
+  Role         : Designation: IT Support Engineer
+  Company      : Name of Organisation: Kalyani Informix
+  Location     : None
+  Start - End  : June 2004 - January 2006
+  Duration     : 20 months
+  Bullets      : 1
+    • [Found 5 sections total: ['header', 'education', 'experience', 'skills', 'experience']]
+  Method       : date_regex+subfield_label_role+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

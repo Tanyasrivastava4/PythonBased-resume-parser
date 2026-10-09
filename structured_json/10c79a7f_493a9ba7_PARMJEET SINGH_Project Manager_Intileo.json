@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "10c79a7f_493a9ba7_PARMJEET SINGH_Project Manager_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:53.435224+00:00",
+    "generated_at": "2026-10-07T10:30:47.006258+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -60,9 +60,11 @@
       "Agile",
       "C#",
       "C++",
+      "CakePHP",
       "Client Relationship Management",
       "Code Reviews",
       "CodeIgniter",
+      "ColdFusion",
       "Cross-functional Collaboration",
       "Decision Making",
       "HTML5",
@@ -75,10 +77,11 @@
       "Leadership",
       "Linux",
       "MERN Stack",
-      "MSSQL",
+      "MODX",
+      "MS Access",
       "MariaDB",
       "Mentoring",
-      "Microsoft Access",
+      "Microsoft SQL Server",
       "Microsoft Teams",
       "Microsoft Windows",
       "MongoDB",
@@ -90,9 +93,12 @@
       "PHP",
       "PMP",
       "Performance Optimization",
+      "Pitch Scripts",
       "Professional Ethics",
+      "Professional Tax",
       "Quality Assurance",
       "React",
+      "Reliability",
       "Requirements Gathering",
       "SDLC",
       "SQLite",
@@ -103,6 +109,7 @@
       "Ubuntu",
       "WordPress",
       "XML",
+      "Zend Framework",
       "jQuery"
     ],
     "by_category": {
@@ -126,6 +133,10 @@
         "PMP",
         "Scrum"
       ],
+      "framework": [
+        "CakePHP",
+        "Zend Framework"
+      ],
       "client_mgmt": [
         "Client Relationship Management"
       ],
@@ -144,6 +155,9 @@
         "XML",
         "jQuery"
       ],
+      "web_technology": [
+        "ColdFusion"
+      ],
       "soft_skill": [
         "Cross-functional Collaboration",
         "Decision Making",
@@ -151,6 +165,7 @@
         "Leadership",
         "Mentoring",
         "Negotiation",
+        "Reliability",
         "Team Leadership"
       ],
       "it_ops": [
@@ -161,10 +176,13 @@
         "Microsoft Windows",
         "Ubuntu"
       ],
+      "cms": [
+        "MODX"
+      ],
       "database": [
-        "MSSQL",
+        "MS Access",
         "MariaDB",
-        "Microsoft Access",
+        "Microsoft SQL Server",
         "MongoDB",
         "MySQL",
         "NoSQL",
@@ -177,8 +195,14 @@
         "Operations Management",
         "Quality Assurance"
       ],
+      "sales": [
+        "Pitch Scripts"
+      ],
       "soft_skills": [
         "Professional Ethics"
+      ],
+      "hr": [
+        "Professional Tax"
       ],
       "business_analysis": [
         "Requirements Gathering"
@@ -195,46 +219,72 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Core Java→Java(100%), HTML→HTML5(100%), MS Access→Microsoft Access(100%), Ethics→Professional Ethics(100%), Requirement Gathering→Requirements Gathering(98%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Core Java→Java(100%), HTML→HTML5(100%), Ethics→Professional Ethics(100%), Requirement Gathering→Requirements Gathering(98%), React.js→React(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Software Engineer – Team Lead",
-        "company": "LWD: 31/10/2025",
-        "location": null,
+        "role": "Aug 2017",
+        "company": "Oct 2025(LWD: 31/10/2025) | Software Engineer – Team Lead | Headerlabs InfoTech Pvt. Ltd.",
+        "location": "Gurugram",
         "start": "Aug 2017",
         "end": "Oct 2025",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 99,
         "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "BSES Rajdhani Power Ltd., New Delhi",
+        "company": "Billing Section",
+        "location": null,
+        "start": "Mar 2005",
+        "end": "Jun 2011",
+        "method": "date_regex+pipe_split_header",
+        "duration_months": 76,
+        "bullets": [
+          "Leading a team of software developers, managing task allocation, mentoring, and monitoring progress to ensure timely project delivery.",
+          "Designing and maintaining storage systems, including database architecture, to support efficient data management.",
+          "Executing end-to-end project lifecycle activities such as requirement gathering, analysis, and implementation for client applications using PHP, React.js, Node.js and related technologies.",
+          "Coordinating with stakeholders to align project goals with business requirements and ensure successful project outcomes.",
+          "Implementing and enforcing software development processes including version control, testing, and deployment strategies.",
+          "Troubleshooting and resolving complex technical issues related to backend and frontend components to maintain system reliability."
+        ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Billing Section",
-        "location": "New Delhi",
-        "start": "Mar 2005",
-        "end": "Jun 2011",
-        "method": "date_regex+comma_company_location",
-        "duration_months": 76,
-        "bullets": [],
+        "role": "Senior Web Developer",
+        "company": "Improved code quality by conducting structured code reviews, enforcing coding standards, and implementing best practices for scalability and security. Coordinating with stakeholders to align project goals with business requirements and ensure successful project outcomes.",
+        "location": "New Media Guru Pvt. Ltd., New Delhi",
+        "start": "Feb 2012",
+        "end": "Jun 2017",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 65,
+        "bullets": [
+          "Led a team of developers by assigning tasks, providing technical mentorship, and ensuring smooth collaboration across backend and frontend teams. Designing and maintaining storage systems, including database architecture, to support efficient data management.",
+          "Created comprehensive Functional Specification Documents (FSDs) that translated business requirements into clear technical workflows, reducing development rework and improving delivery accuracy.",
+          "Communicated directly with clients to gather requirements, clarify technical queries, and provide regular updates, resulting in stronger client satisfaction and trust.",
+          "Delivered multiple project modules on time by planning sprints, tracking progress, removing blockers, and coordinating across cross-functional teams."
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 14.6,
-      "total_months": 175,
+      "total_years": 20.0,
+      "total_months": 240,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.92
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -346,13 +396,18 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
+      "field": "experience.jobs[0]",
       "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

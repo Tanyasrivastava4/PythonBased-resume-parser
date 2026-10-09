@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9b094516_11254781_Naukri_AshwaniKumarDwivedi[2y_0m] 1_segmented.txt",
-    "generated_at": "2026-09-30T06:59:49.266048+00:00",
+    "generated_at": "2026-10-07T09:27:34.390473+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,59 +47,173 @@
   "summary": "Designed and developed a robust IT Hub Management System\nusing Python, Django, and Django REST Framework, aimed at\nstreamlining internal operations and data management for tech\ncompanies. Built secure and scalable CRUD APIs for managing\ncompany resources such as employees, projects, assets, and client\ndata. Integrated MySQL for structured data storage and optimized\ncomplex queries for fast and reliable data retrieval. Ensured\nmodular design with clean separation of concerns across models,\nviews, serializers, and permissions. Implemented role-based access\ncontrol (RBAC) using DRF’s permission classes to enforce data\nsecurity. Designed a responsive and user-friendly admin dashboard\nusing Bootstrap and Django templates for real-time monitoring\nand updates. Enabled filtered data views, search functionality, and\nrelational data management for seamless navigation and usability.\nFocused on performance, security, and maintainability, ensuring\nthe system can scale with growing business needs. \u0000 Outcome:\nDelivered a complete IT management solution that significantly\nimproved data accessibility, operational transparency, and digital\nworkflow efficiency across departments.\nGithub\n\n────────────────────────────────────────────────────────────",
   "skills": {
     "items": [
+      "API Testing",
       "AWS",
+      "AWS CloudFront",
+      "AWS CloudWatch",
+      "AWS EC2",
+      "AWS RDS",
+      "AWS S3",
       "Agentic AI",
+      "Analyze",
       "Bootstrap",
+      "CI/CD",
+      "CSS3",
+      "Celery",
+      "ChromaDB",
       "Data Management",
       "Django",
+      "Django REST Framework",
+      "Docker",
+      "E-commerce",
+      "Embeddings",
+      "FAISS",
+      "FastAPI",
       "Generative AI",
       "Git",
       "GitHub",
+      "GitHub Actions",
+      "HTML5",
+      "Identity Management",
+      "Indexing",
+      "JSON Web Token",
+      "JavaScript",
       "LLM",
       "LangChain",
+      "LinkedIn",
+      "Linux",
       "Modula",
       "MySQL",
       "NumPy",
+      "OpenAI API",
+      "Operations Management",
       "Pandas",
+      "PostgreSQL",
+      "Postman",
+      "Product Management",
       "Python",
-      "Role-Based Access Control",
-      "Vector Databases"
+      "Query Optimization",
+      "RAG",
+      "RBAC",
+      "REST",
+      "Razorpay",
+      "Redis",
+      "Reliability",
+      "Semantic Search",
+      "Streamlit",
+      "Stripe",
+      "Tenable.sc",
+      "Transformers",
+      "Vector Databases",
+      "WebSockets",
+      "jQuery"
     ],
     "by_category": {
+      "testing": [
+        "API Testing"
+      ],
       "cloud_infra": [
-        "AWS"
+        "AWS",
+        "AWS CloudFront",
+        "AWS CloudWatch",
+        "AWS EC2",
+        "AWS RDS",
+        "AWS S3"
       ],
       "genai": [
         "Agentic AI",
         "Generative AI",
         "LLM",
         "LangChain",
+        "OpenAI API",
+        "RAG",
+        "Semantic Search",
         "Vector Databases"
+      ],
+      "data_science": [
+        "Analyze",
+        "Transformers"
       ],
       "web_framework": [
         "Bootstrap",
-        "Django"
+        "CSS3",
+        "Django",
+        "Django REST Framework",
+        "FastAPI",
+        "HTML5",
+        "LinkedIn",
+        "WebSockets",
+        "jQuery"
+      ],
+      "devops": [
+        "CI/CD",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "data_engineering": [
+        "Celery"
+      ],
+      "search": [
+        "ChromaDB",
+        "FAISS"
       ],
       "productivity": [
         "Data Management"
       ],
-      "dev_tool": [
-        "Git",
-        "GitHub"
-      ],
-      "programming_language": [
-        "Modula",
-        "Python"
-      ],
-      "database": [
-        "MySQL"
+      "retail": [
+        "E-commerce"
       ],
       "ai_ml": [
+        "Embeddings",
         "NumPy",
         "Pandas"
       ],
-      "security_ops": [
-        "Role-Based Access Control"
+      "dev_tool": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "Streamlit"
+      ],
+      "security": [
+        "Identity Management",
+        "JSON Web Token",
+        "RBAC"
+      ],
+      "database": [
+        "Indexing",
+        "MySQL",
+        "PostgreSQL",
+        "Query Optimization",
+        "Redis"
+      ],
+      "programming_language": [
+        "JavaScript",
+        "Modula",
+        "Python"
+      ],
+      "os_system": [
+        "Linux"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
+      "project_mgmt": [
+        "Product Management"
+      ],
+      "integration": [
+        "REST"
+      ],
+      "fintech": [
+        "Razorpay"
+      ],
+      "soft_skill": [
+        "Reliability"
+      ],
+      "payment_gateway": [
+        "Stripe"
+      ],
+      "cybersecurity": [
+        "Tenable.sc"
       ]
     },
     "_confidence": 0.92,
@@ -113,8 +227,12 @@
         "location": null,
         "start": "12/2023",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 34,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Developer-Associate",
+          "SmartSchool Education Private Limited"
+        ],
+        "duration_months": 35,
         "bullets": [
           "\u0000 ️ SmartSchool – Feature-Rich E-commerce & Learning Platform Role : Full-Stack Developer Tech Stack: Python, Django, Django REST Framework (DRF), Bootstrap, jQuery, Celery, Redis, Docker, Docker Compose, AWS (EC2, S3, RDS, CloudFront, CloudWatch), PostgreSQL/MySQL, Django Channels, WebSockets, Pandas, NumPy, LLM, LangChain, RAG, Git, CI/CD (GitHub Actions), Stripe/Razorpay/PayPal \u0000 Key Contributions: Developed and deployed SmartSchool, a robust e-commerce and learning platform using Python, Django, and DRF, featuring scalable APIs for product management, order workflows, and real-time delivery tracking.",
           "Implemented pagination, filtering, query optimization, and role- based access control (RBAC) using DRF permissions for secure and scalable operations.",
@@ -171,15 +289,36 @@
         "confidence": 0.85,
         "needs_review": true,
         "source": "experience"
+      },
+      {
+        "role": "Github",
+        "company": "IT HUB",
+        "location": null,
+        "start": "07/2023",
+        "end": "09/2023",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Github"
+        ],
+        "duration_months": 3,
+        "bullets": [
+          "Tech Stack: Python, Django, Django REST Framework (DRF),"
+        ],
+        "sub_sections": [
+          "MySQL, Bootstrap, HTML/CSS, JavaScript \u0000 Project"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.8,
-      "total_months": 34,
+      "total_years": 3.2,
+      "total_months": 38,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -206,7 +345,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [

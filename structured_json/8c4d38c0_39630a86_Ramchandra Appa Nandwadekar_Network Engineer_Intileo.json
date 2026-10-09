@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8c4d38c0_39630a86_Ramchandra Appa Nandwadekar_Network Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:38.833153+00:00",
+    "generated_at": "2026-10-07T09:27:20.109596+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,18 +49,28 @@
     "items": [
       "AWS",
       "Analyze",
+      "Azure Site Recovery",
+      "Bluecoat",
+      "Business Intelligence",
       "CCNA",
+      "CCNP",
       "CISSP",
       "Check Point",
       "Cisco ASA",
+      "Cisco ASR",
+      "Cisco ISE",
+      "Cisco Nexus",
       "Collaboration",
       "Communication",
       "Continuous Improvement",
       "Disaster Recovery",
+      "F5 Load Balancer",
       "Firewall",
       "Fortinet",
       "IDS/IPS",
+      "IPSec",
       "ISO 27001",
+      "ITIL",
       "Identity Management",
       "Incident Management",
       "Incident Response",
@@ -70,6 +80,7 @@
       "Mentoring",
       "Microsoft Teams",
       "NIST",
+      "Network Access Control",
       "Network Security",
       "Networking",
       "Operations Management",
@@ -80,14 +91,17 @@
       "Risk Management",
       "Root Cause Analysis",
       "SD-WAN",
+      "SEBI",
       "Schedule III",
       "Security Compliance",
       "ServiceNow",
       "SonicWall",
       "Symantec",
+      "Team Coordination",
       "Technical Support",
       "UAT",
       "VPN",
+      "Vulnerability Remediation",
       "WAF"
     ],
     "by_category": {
@@ -97,8 +111,29 @@
       "data_science": [
         "Analyze"
       ],
+      "cloud": [
+        "Azure Site Recovery"
+      ],
+      "security": [
+        "Bluecoat",
+        "Fortinet",
+        "Identity Management",
+        "Incident Management",
+        "McAfee",
+        "Network Access Control",
+        "Security Compliance",
+        "Symantec"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
       "networking": [
         "CCNA",
+        "CCNP",
+        "Cisco ASR",
+        "Cisco ISE",
+        "Cisco Nexus",
+        "IPSec",
         "MPLS",
         "SD-WAN"
       ],
@@ -129,13 +164,12 @@
         "Operations Management",
         "Root Cause Analysis"
       ],
-      "security": [
-        "Fortinet",
-        "Identity Management",
-        "Incident Management",
-        "McAfee",
-        "Security Compliance",
-        "Symantec"
+      "network": [
+        "F5 Load Balancer"
+      ],
+      "management": [
+        "ITIL",
+        "Team Coordination"
       ],
       "devops": [
         "Load Balancer"
@@ -153,6 +187,9 @@
       "hr": [
         "Recruitment"
       ],
+      "legal": [
+        "SEBI"
+      ],
       "financial_reporting": [
         "Schedule III"
       ],
@@ -164,10 +201,13 @@
       ],
       "testing": [
         "UAT"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(FortiGate→Fortinet(100%), Checkpoint→Check Point(100%), Sonicwall→SonicWall(100%), firewalls→Firewall(100%), teams→Microsoft Teams(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(FortiGate→Fortinet(100%), Checkpoint→Check Point(100%), Sonicwall→SonicWall(100%), ASR 1000→Cisco ASR(100%), Nexus 7K→Cisco Nexus(100%)...)"
   },
   "experience": {
     "jobs": [],
@@ -182,7 +222,7 @@
   "education": {
     "entries": [
       {
-        "degree": "• BE(EXTC) from Mumbai University protection, and access control policies",
+        "degree": "• BE(EXTC)",
         "degree_name": "B.E.",
         "degree_type": "bachelors",
         "degree_field": "EXTC",
@@ -193,11 +233,11 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• Diploma(EXTC) from Maharashtra and gaining expertise in security frameworks such as ISO 27001, PCI",
+        "degree": "• Diploma(EXTC)",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "EXTC",
-        "institution": "PCI- University with",
+        "institution": "PCI- University",
         "year": "2020 - Aug2020",
         "gpa": "65%",
         "_needs_review": false,

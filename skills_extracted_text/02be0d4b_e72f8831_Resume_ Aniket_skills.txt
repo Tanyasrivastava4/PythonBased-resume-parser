@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/02be0d4b_e72f8831_Resume_ Aniket_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Javascript Oracle cloud commerce
+React JS Mongo DB
+Node JS My SQL
+Mern Stack Express JS
+TOOLS
+Bitbucket ClickUp
+Github Postman
+Trello Jira
+
+── Extraction Results ──
+Skills found   : 21
+Confidence     : 0.92
+Time           : 29.81 ms
+Method         : flashtext_skills_section | fuzzy(Javascript→JavaScript(100%), Mongo→MongoDB(100%), Node→Node.js(100%), Mern→MERN Stack(100%), Express→Express.js(100%)...)
+
+── All Skills (21) ──
+Bitbucket, Collaboration, Cross-functional Collaboration, E-commerce, Express.js, GitHub, JavaScript, Jira, LinkedIn, MERN Stack, Microsoft Teams, MongoDB, Next.js, Node.js, Oracle, Postman, Prompt Engineering, React, SQL, Trello, VS Code
+
+── By Category ──
+  database                       ['MongoDB', 'Oracle', 'SQL']
+  dev_tool                       ['Bitbucket', 'GitHub', 'Postman', 'VS Code']
+  genai                          ['Prompt Engineering']
+  productivity                   ['Microsoft Teams', 'Trello']
+  programming_language           ['JavaScript']
+  project_mgmt                   ['Jira']
+  retail                         ['E-commerce']
+  soft_skill                     ['Collaboration', 'Cross-functional Collaboration']
+  web_framework                  ['Express.js', 'LinkedIn', 'MERN Stack', 'Next.js', 'Node.js', 'React']

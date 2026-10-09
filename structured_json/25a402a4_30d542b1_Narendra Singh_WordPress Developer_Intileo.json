@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "25a402a4_30d542b1_Narendra Singh_WordPress Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:08.959213+00:00",
+    "generated_at": "2026-10-07T10:31:05.038272+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -51,33 +51,56 @@
   "summary": null,
   "skills": {
     "items": [
+      "Advanced Custom Fields",
+      "Angular",
       "Apache Hadoop",
+      "Astra Theme",
       "Bootstrap",
       "CSS3",
+      "Child Theme Development",
+      "Custom Post Type",
       "Elementor",
       "GitLab",
       "HTML5",
       "JavaScript",
+      "LinkedIn",
       "MySQL",
       "PHP",
+      "PSD to WordPress",
       "Postman",
+      "WAMP",
+      "WPBakery",
       "WordPress",
+      "XAMPP",
       "jQuery"
     ],
     "by_category": {
-      "data_engineering": [
-        "Apache Hadoop"
+      "content": [
+        "Advanced Custom Fields",
+        "Astra Theme",
+        "Child Theme Development",
+        "Custom Post Type",
+        "PSD to WordPress",
+        "WPBakery",
+        "WordPress"
       ],
       "web_framework": [
+        "Angular",
         "Bootstrap",
         "CSS3",
         "Elementor",
         "HTML5",
+        "LinkedIn",
         "jQuery"
+      ],
+      "data_engineering": [
+        "Apache Hadoop"
       ],
       "dev_tool": [
         "GitLab",
-        "Postman"
+        "Postman",
+        "WAMP",
+        "XAMPP"
       ],
       "programming_language": [
         "JavaScript",
@@ -85,19 +108,84 @@
       ],
       "database": [
         "MySQL"
-      ],
-      "content": [
-        "WordPress"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), JQuery→jQuery(100%))"
+    "_method": "flashtext_skills_section | fuzzy(WpBakery→WPBakery(100%), HTML→HTML5(100%), JQuery→jQuery(100%), Wamp Server.→WAMP(96%))"
   },
   "experience": {
     "jobs": [
       {
+        "role": "WordPress Developer",
+        "company": "Digital Asia",
+        "location": null,
+        "start": "12 December 2025",
+        "end": "Present",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "• WordPress Developer | Digital Asia"
+        ],
+        "duration_months": 10,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "WordPress Developer",
+        "company": "AbyM Technology",
+        "location": null,
+        "start": "14 July 2023",
+        "end": "15 April 2025",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "• WordPress Developer | AbyM Technology"
+        ],
+        "duration_months": 22,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Front-End Developer",
+        "company": "Mimansa Technology",
+        "location": null,
+        "start": "25 July 2022",
+        "end": "23 Apr 2023",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "• Front-End Developer | Mimansa Technology"
+        ],
+        "duration_months": 9,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Front-End Developer",
+        "company": "ProManage IT Solution",
+        "location": null,
+        "start": "20 Dec 2021",
+        "end": "24 July 2022",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "• Front-End Developer | ProManage IT Solution"
+        ],
+        "duration_months": 8,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
         "role": null,
-        "company": "Description: Designed Forms template in Adobe",
+        "company": "Sign up and Sign in Forms",
         "location": null,
         "start": "Aug 2022",
         "end": "Sep2022",
@@ -112,11 +200,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 0.2,
-      "total_months": 2,
-      "overlapping_periods_merged": 0
+      "total_years": 4.1,
+      "total_months": 49,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.95
   },
   "education": {
     "entries": [
@@ -148,13 +236,13 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Application Uttar Pradesh Search University API integration done",
-        "year": null,
+        "year": "2013",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.9
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -180,12 +268,12 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
+      "field": "experience.jobs[4]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     },

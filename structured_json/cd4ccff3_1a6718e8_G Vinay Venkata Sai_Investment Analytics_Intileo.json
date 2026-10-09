@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cd4ccff3_1a6718e8_G Vinay Venkata Sai_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:22.612412+00:00",
+    "generated_at": "2026-10-07T09:28:18.633655+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,12 +50,17 @@
       "Aggregations",
       "Apache Hive",
       "BRD",
+      "Business Intelligence",
       "CTE",
       "Collaboration",
       "Cross-functional Collaboration",
       "Dashboard Development",
+      "Data Analysis",
       "Data Warehousing",
+      "Gap Analysis",
+      "GitHub",
       "Joins",
+      "LinkedIn",
       "Microsoft Excel",
       "Microsoft Teams",
       "NumPy",
@@ -63,7 +68,9 @@
       "Power BI",
       "Python",
       "Query Optimization",
+      "RFQ",
       "Reporting",
+      "Root Cause Analysis",
       "SQL",
       "Tableau",
       "UAT",
@@ -83,7 +90,10 @@
         "Data Warehousing"
       ],
       "business_analysis": [
-        "BRD"
+        "BRD",
+        "Business Intelligence",
+        "Gap Analysis",
+        "RFQ"
       ],
       "soft_skill": [
         "Collaboration",
@@ -92,8 +102,15 @@
       ],
       "data_science": [
         "Dashboard Development",
+        "Data Analysis",
         "Power BI",
         "Tableau"
+      ],
+      "dev_tool": [
+        "GitHub"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel",
@@ -106,6 +123,9 @@
       "programming_language": [
         "Python"
       ],
+      "operations": [
+        "Root Cause Analysis"
+      ],
       "testing": [
         "UAT"
       ]
@@ -116,33 +136,35 @@
   "experience": {
     "jobs": [
       {
-        "role": "| National Stock Exchange (NSE",
-        "company": "– Collaborated with Investigation, Surveillance, Trade Operations, and Policy teams to translate regulatory and trading business requirements into scalable data solutions within a high-volume exchange environment. – Led structured stakeholder workshops to define KPIs, data definitions, and reporting standards, reducing requirement clarification cycles by 35% and improving delivery eﬀiciency. – Performed cross-platform data analysis across Equity, Derivatives, RFQ, OFS, IPO, and secondary market systems, identifying data quality gaps and strengthening compliance-sensitive reporting accuracy – Designed and optimized complex SQL- and Python-based analytics frameworks supporting 10+ high-priority regulatory and operational reporting use cases monthly on billion-scale trading datasets – Conducted production-grade root cause analysis and managed UAT validation cycles to ensure data integrity, audit readiness, and post-deployment stability across high-volume trading data platforms.",
+        "role": "Manager",
+        "company": "Data Warehouse & Advanced Analytics",
         "location": "National Stock Exchange (NSE",
         "start": "June 2024",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
-        "duration_months": 28,
-        "bullets": [],
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 29,
+        "bullets": [
+          "– Collaborated with Investigation, Surveillance, Trade Operations, and Policy teams to translate regulatory and trading business requirements into scalable data solutions within a high-volume exchange environment. – Led structured stakeholder workshops to define KPIs, data definitions, and reporting standards, reducing requirement clarification cycles by 35% and improving delivery eﬀiciency. – Performed cross-platform data analysis across Equity, Derivatives, RFQ, OFS, IPO, and secondary market systems, identifying data quality gaps and strengthening compliance-sensitive reporting accuracy – Designed and optimized complex SQL- and Python-based analytics frameworks supporting 10+ high-priority regulatory and operational reporting use cases monthly on billion-scale trading datasets – Conducted production-grade root cause analysis and managed UAT validation cycles to ensure data integrity, audit readiness, and post-deployment stability across high-volume trading data platforms."
+        ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.3,
-      "total_months": 28,
+      "total_years": 2.4,
+      "total_months": 29,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
         "degree": "Dual Degree (B.Tech + M.Tech)",
-        "degree_name": "B.Tech",
+        "degree_name": "Dual Degree",
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Indian Institute of Technology (IIT) Kharagpur",
@@ -185,19 +207,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.9
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

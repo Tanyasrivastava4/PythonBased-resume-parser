@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "12af9851_1c428fdf_CV_2025121723255028_segmented.txt",
-    "generated_at": "2026-09-30T06:57:56.595528+00:00",
+    "generated_at": "2026-10-07T10:30:50.681505+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -82,23 +82,30 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Accounting.→Accounting(95%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(Excel→Microsoft Excel(100%), Word→Microsoft Word(100%), Accounting.→Accounting(95%))"
   },
   "experience": {
     "jobs": [
       {
         "role": "Back Office staff and Junior Accountant",
-        "company": "Father Name : Ram Chandra Bera",
+        "company": "Place : Kolkata",
         "location": null,
         "start": "2020",
         "end": "2021",
         "method": "date_regex",
+        "pre_date_header": [
+          "Place : Kolkata",
+          "Salary Claim : Last salary Rs. 26000/-",
+          "Father Name : Ram Chandra Bera",
+          "Mother Name: Renuka Bera"
+        ],
         "duration_months": 13,
         "bullets": [
           "Tally Operator",
           "Back office related work.",
           "Collect Data from various Govt. and Private Website.",
-          "Manage Company Account."
+          "Manage Company Account.",
+          "Project Preparation"
         ],
         "sub_sections": [
           "Back Office staff and Junior Accountant",
@@ -110,73 +117,64 @@
       },
       {
         "role": "Branch Manager and Accountant",
-        "company": "5. Project Preparation",
+        "company": "Customer Sale, service and satisfaction.",
         "location": null,
-        "start": "2021",
-        "end": "2023",
-        "method": "date_regex",
-        "duration_months": 25,
+        "start": null,
+        "end": null,
+        "method": "title_dict_strong",
+        "duration_months": 0,
         "bullets": [
-          "Branch Assistant Manager.",
-          "Customer Sale, service and satisfaction."
+          "Stock Management.",
+          "Stock Management"
         ],
-        "sub_sections": [
-          "Branch Manager and Accountant"
-        ],
-        "confidence": 0.98,
+        "sub_sections": [],
+        "confidence": 0.8,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Sales & Service Manager",
-        "company": "3. Stock Management",
-        "location": null,
-        "start": "2023",
-        "end": "2024",
-        "method": "date_regex",
-        "duration_months": 13,
-        "bullets": [
-          "Area Sales Manager.",
-          "Customer Sale, service and satisfaction."
-        ],
-        "sub_sections": [
-          "Sales & Service Manager"
-        ],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "SALES EXECUTIVE",
-        "company": "3. Stock Management",
+        "role": "SALES EXECUTIVE (INDIAMART",
+        "company": "PS HR Services",
         "location": null,
         "start": "2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 33,
+        "method": "date_regex+multiline_company_above_role",
+        "duration_months": 34,
         "bullets": [
-          "New Client Acquisition.",
-          "Service Provided Associate.",
-          "Complete monthly target 🎯"
+          "New Client Acquisition."
         ],
         "sub_sections": [],
         "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "2. Service Provided Associate",
+        "company": "Complete monthly target 🎯",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "title_dict_strong",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.8,
         "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.8,
-      "total_months": 81,
-      "overlapping_periods_merged": 3
+      "total_years": 3.9,
+      "total_months": 47,
+      "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
       {
-        "degree": "PANIPARUL MUKTESWER HIGH SCHOOL Madhyamik: Qualified year 2013 from West",
+        "degree": "PANIPARUL MUKTESWER HIGH SCHOOL Madhyamik: Qualified year 2013",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
@@ -187,7 +185,7 @@
         "_confidence": 0.8
       },
       {
-        "degree": "PANIPARUL MUKTESWER HIGH SCHOOL Madhyamik: Qualified year 2015 from West",
+        "degree": "PANIPARUL MUKTESWER HIGH SCHOOL Madhyamik: Qualified year 2015",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
@@ -242,7 +240,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.89
   },
   "_needs_review": false,
   "_review_queue": []

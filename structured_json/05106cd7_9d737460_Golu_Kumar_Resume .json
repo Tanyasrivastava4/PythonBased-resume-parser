@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "05106cd7_9d737460_Golu_Kumar_Resume _segmented.txt",
-    "generated_at": "2026-09-30T06:57:47.332078+00:00",
+    "generated_at": "2026-10-07T10:30:39.773086+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,29 +47,42 @@
   "skills": {
     "items": [
       "AJAX",
+      "API Design",
+      "Agile",
       "Attention to Detail",
+      "Background Verification",
       "Bootstrap",
       "CSS3",
-      "Client Relationship Management",
+      "Code Reviews",
       "Collaboration",
+      "Customer Relationship Management",
       "ES6+",
+      "Firebase",
       "Git",
       "GitHub",
       "HTML5",
+      "JSON Web Token",
       "JavaScript",
+      "Jetpack Compose",
       "Laravel",
       "LinkedIn",
       "MVC Architecture",
+      "Multi-Tenancy",
       "MySQL",
+      "Onboarding",
       "PHP",
       "Payments",
       "PostgreSQL",
       "Postman",
       "Problem Solving",
       "Query Optimization",
+      "RBAC",
       "REST",
+      "REST API",
+      "Reporting",
       "Time Management",
       "VS Code",
+      "XAMPP",
       "Zoho Books",
       "jQuery"
     ],
@@ -81,35 +94,57 @@
         "HTML5",
         "Laravel",
         "LinkedIn",
+        "REST API",
         "jQuery"
+      ],
+      "architecture": [
+        "API Design",
+        "Multi-Tenancy"
+      ],
+      "project_mgmt": [
+        "Agile"
       ],
       "soft_skill": [
         "Attention to Detail",
         "Collaboration",
         "Problem Solving",
+        "Reporting",
         "Time Management"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "hr": [
+        "Background Verification",
+        "Onboarding"
+      ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "Postman",
+        "XAMPP"
+      ],
+      "sales": [
+        "Customer Relationship Management"
       ],
       "programming_language": [
         "ES6+",
         "JavaScript",
         "PHP"
       ],
-      "dev_tool": [
-        "Git",
-        "GitHub",
-        "Postman",
-        "VS Code"
-      ],
-      "software_engineering": [
-        "MVC Architecture"
-      ],
       "database": [
+        "Firebase",
         "MySQL",
         "PostgreSQL",
         "Query Optimization"
+      ],
+      "security": [
+        "JSON Web Token",
+        "RBAC"
+      ],
+      "mobile_dev": [
+        "Jetpack Compose"
+      ],
+      "software_engineering": [
+        "MVC Architecture"
       ],
       "domain": [
         "Payments"
@@ -117,29 +152,33 @@
       "integration": [
         "REST"
       ],
+      "tools": [
+        "VS Code"
+      ],
       "finance_ops": [
         "Zoho Books"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Payment→Payments(93%))"
+    "_method": "flashtext_skills_section | fuzzy(Composer→Jetpack Compose(93%), Payment→Payments(93%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "PHP  Developer",
-        "company": "Evatoz Solution Pvt. Ltd",
-        "location": null,
+        "role": "PHP (Laravel) Developer",
+        "company": "– Designing, developing, and maintaining scalable web applications using Laravel, PHP, MySQL, and RESTful APIs. – Developed core business modules including user management, reporting systems, billing, and role-based access control. – Integrated Zoho CRM APIs to synchronize Contacts, Leads, and automate CRM workflows. – Worked on criminal and background verification (BGV) API integration, managing request initiation, status polling, and final verification responses. – Implemented OTP-based authentication, Bearer token security, and API validation for mobile and web platforms. – Integrated Firebase Cloud Messaging (FCM) for real-time alerts and push notifications. – Optimized backend queries and API performance, reducing response time by nearly 20–25%. – Collaborated in Agile sprints involving debugging, code reviews, testing, and production deployments.",
+        "location": "India",
         "start": "Sep 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 25,
-        "bullets": [
-          "– Designing, developing, and maintaining scalable web applications using Laravel, PHP, MySQL, and RESTful APIs. – Developed core business modules including user management, reporting systems, billing, and role-based access control. – Integrated Zoho CRM APIs to synchronize Contacts, Leads, and automate CRM workflows. – Worked on criminal and background verification (BGV) API integration, managing request initiation, status polling, and final verification responses. – Implemented OTP-based authentication, Bearer token security, and API validation for mobile and web platforms. – Integrated Firebase Cloud Messaging (FCM) for real-time alerts and push notifications. – Optimized backend queries and API performance, reducing response time by nearly 20–25%. – Collaborated in Agile sprints involving debugging, code reviews, testing, and production deployments."
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Evatoz Solution Pvt. Ltd."
         ],
+        "duration_months": 26,
+        "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
@@ -149,6 +188,9 @@
         "start": "Sep 2024",
         "end": "Mar 2025",
         "method": "date_regex",
+        "pre_date_header": [
+          "Fleet Management System"
+        ],
         "duration_months": 7,
         "bullets": [
           "– Developed a complete web solution for vehicle management, driver assignment, and trip scheduling. – Built modules for service maintenance, expense tracking, and advanced reporting. – Designed and optimized database schemas to support large-scale operational data. – Deployed the application in a production environment with secure authentication and API integrations."
@@ -165,7 +207,10 @@
         "start": "Apr 2025",
         "end": "Present",
         "method": "date_regex",
-        "duration_months": 18,
+        "pre_date_header": [
+          "A2Z Connect (GPS Tracking & IoT Platform)"
+        ],
+        "duration_months": 19,
         "bullets": [
           "– Developed and maintained Laravel-based REST APIs for real-time GPS tracking, trip monitoring, and geofencing. – Implemented backend logic for device status detection (Moving, Idle, Parked, Offline) using live IoT data. – Built secure OTP-based authentication APIs for mobile app integration. – Integrated Firebase Cloud Messaging (FCM) for automated alerts and notifications. – Developed Refer & Earn module including referral tracking, reward distribution, and wallet management. – Integrated payment gateway APIs for automated transaction handling. – Integrated background verification APIs to manage candidate verification lifecycle and status tracking."
         ],
@@ -181,7 +226,10 @@
         "start": "Jun 2025",
         "end": "Present",
         "method": "date_regex",
-        "duration_months": 16,
+        "pre_date_header": [
+          "SaaS CRM Platform (Multi-Tenant System)"
+        ],
+        "duration_months": 17,
         "bullets": [
           "– Developed a multi-tenant SaaS CRM platform with tenant isolation and subscription-based access control. – Implemented Super Admin dashboard for plan management, tenant monitoring, and analytics. – Built modules for tenant onboarding, CRM roles, permissions, and automated billing workflows."
         ],
@@ -193,11 +241,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.1,
-      "total_months": 25,
+      "total_years": 2.2,
+      "total_months": 26,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.88
+    "_confidence": 0.81
   },
   "education": {
     "entries": [
@@ -221,10 +269,10 @@
         "year": "2018 - 2021",
         "gpa": "71%",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [
@@ -278,10 +326,15 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.87
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "experience.jobs[1]",
       "confidence": 0.85,

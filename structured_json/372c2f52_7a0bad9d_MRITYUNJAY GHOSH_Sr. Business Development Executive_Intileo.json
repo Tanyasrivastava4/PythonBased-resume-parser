@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "372c2f52_7a0bad9d_MRITYUNJAY GHOSH_Sr. Business Development Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:16.054128+00:00",
+    "generated_at": "2026-10-07T10:31:13.162117+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,50 +47,82 @@
   "summary": "Strategic Sales & Growth Leader with cross-industry expertise in healthcare, fintech, and edtech. Known for\nturning opportunities into revenue, building high-performing teams, and forging partnerships that fuel long-term\nbusiness success. A persuasive communicator and market driver who thrives on creating impact and accelerating\ngrowth.",
   "skills": {
     "items": [
-      "Client Relationship Management",
+      "Boosting",
+      "Business Development",
+      "Business Intelligence",
       "Communication",
+      "Coroutines Flow",
+      "Customer Relationship Management",
       "Data Analysis",
       "Data Science",
       "Fintech",
+      "Group Policy",
       "Healthcare",
+      "LinkedIn",
       "Market Expansion",
+      "Market Research",
       "Microsoft Excel",
       "Microsoft Teams",
       "Negotiation",
+      "Persuasive Skills",
       "Power BI",
       "Python",
+      "Ratio Analysis",
       "Reporting",
       "Revenue Generation",
+      "Sales Forecasting",
+      "Sales Presentations",
       "Sales Strategy",
       "Salesforce",
       "Team Leadership",
-      "Time Series Forecasting",
+      "Tutoring",
       "Zoho Books"
     ],
     "by_category": {
-      "client_mgmt": [
-        "Client Relationship Management"
+      "data_science": [
+        "Boosting",
+        "Data Analysis",
+        "Power BI"
+      ],
+      "biz_dev": [
+        "Business Development",
+        "Market Expansion"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "soft_skill": [
         "Communication",
         "Negotiation",
+        "Persuasive Skills",
         "Reporting",
         "Team Leadership"
       ],
-      "data_science": [
-        "Data Analysis",
-        "Power BI"
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "sales": [
+        "Customer Relationship Management",
+        "Revenue Generation",
+        "Sales Forecasting",
+        "Sales Presentations",
+        "Sales Strategy"
       ],
       "ai_ml": [
-        "Data Science",
-        "Time Series Forecasting"
+        "Data Science"
       ],
       "domain": [
         "Fintech",
         "Healthcare"
       ],
-      "biz_dev": [
-        "Market Expansion"
+      "sysadmin": [
+        "Group Policy"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "marketing": [
+        "Market Research"
       ],
       "productivity": [
         "Microsoft Excel",
@@ -99,30 +131,33 @@
       "programming_language": [
         "Python"
       ],
-      "sales": [
-        "Revenue Generation",
-        "Sales Strategy"
+      "finance_ops": [
+        "Ratio Analysis",
+        "Zoho Books"
       ],
       "integration": [
         "Salesforce"
       ],
-      "finance_ops": [
-        "Zoho Books"
+      "education_domain": [
+        "Tutoring"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Revenue Growth→Revenue Generation(100%), Negotiations→Negotiation(96%), Zoho→Zoho Books(100%), fintech→Fintech(100%), healthcare→Healthcare(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Revenue Growth→Revenue Generation(100%), Enterprise→Business Intelligence(95%), Negotiations→Negotiation(96%), Zoho→Zoho Books(100%), fintech→Fintech(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Executive",
         "company": "Narayana Health",
-        "location": "Executive",
+        "location": null,
         "start": "Jan 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 21,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Narayana Health – Executive"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Orchestrated end-to-end sales strategy for 3 multi-speciality clinics, achieving consistent 18% MoM revenue growth.",
           "Designed and executed 32 corporate health camps with leading companies, generating 420+ qualified patient leads.",
@@ -140,10 +175,13 @@
       {
         "role": "Senior Executive",
         "company": "PhonePe Pvt. Ltd",
-        "location": "Senior Executive",
+        "location": null,
         "start": "July 2023",
         "end": "April 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "PhonePe Pvt. Ltd. – Senior Executive"
+        ],
         "duration_months": 10,
         "bullets": [
           "Joined as Senior Executive in the Payment Gateway segment, managing enterprise merchant relationships.",
@@ -161,12 +199,15 @@
         "source": "experience"
       },
       {
-        "role": "Associate Sales Manager",
-        "company": "Drove business growth by engaging with working professionals, understanding career goals",
+        "role": "U-Next Learning (TeamLease Pvt. Ltd.) Associate Sales Manager",
+        "company": "U-Next Learning (TeamLease Pvt. Ltd.) Associate Sales Manager",
         "location": null,
         "start": "Nov 2022",
         "end": "June 2023",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "U-Next Learning (TeamLease Pvt. Ltd.) Associate Sales Manager"
+        ],
         "duration_months": 8,
         "bullets": [
           "Drove business growth by engaging with working professionals, understanding career goals, and recommending online certification programs from Manipal University (MAHE Online).",
@@ -179,12 +220,15 @@
         "source": "experience"
       },
       {
-        "role": "– Business Development Associate",
+        "role": "Business Development Associate",
         "company": "BYJU’S",
-        "location": "Business Development Associate",
+        "location": null,
         "start": "Oct 2021",
         "end": "Oct 2022",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "BYJU’S (Think & Learn Pvt. Ltd.) – Business Development Associate"
+        ],
         "duration_months": 13,
         "bullets": [
           "Built a personal sales pipeline from scratch, consistently closing ₹6–8 lakhs monthly.",
@@ -200,8 +244,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.3,
-      "total_months": 52,
+      "total_years": 4.4,
+      "total_months": 53,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.91

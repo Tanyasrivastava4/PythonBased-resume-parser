@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "bbbaad23_5b1a74fe_PRAGATI KHARE_GM-HRBP_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:10.232994+00:00",
+    "generated_at": "2026-10-07T09:28:02.751241+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -44,13 +44,21 @@
   "summary": null,
   "skills": {
     "items": [
+      "Business Strategy",
       "Change Management",
+      "Corporate Governance",
       "Credit Scorecard",
       "Digital Transformation",
       "Diversity & Inclusion",
       "Due Diligence",
+      "ESIC",
+      "ESOP",
       "Employee Engagement",
+      "HRMS",
       "Leadership",
+      "Legal Compliance",
+      "LinkedIn",
+      "NBFC",
       "Operational Excellence",
       "Performance Management",
       "Recruitment",
@@ -58,26 +66,38 @@
       "Talent Management"
     ],
     "by_category": {
+      "consulting": [
+        "Business Strategy",
+        "Digital Transformation"
+      ],
       "project_mgmt": [
         "Change Management",
         "Resource Planning"
       ],
+      "legal": [
+        "Corporate Governance",
+        "Legal Compliance"
+      ],
       "finance": [
         "Credit Scorecard",
-        "Due Diligence"
-      ],
-      "consulting": [
-        "Digital Transformation"
+        "Due Diligence",
+        "NBFC"
       ],
       "hr": [
         "Diversity & Inclusion",
+        "ESIC",
+        "ESOP",
         "Employee Engagement",
+        "HRMS",
         "Performance Management",
         "Recruitment",
         "Talent Management"
       ],
       "soft_skill": [
         "Leadership"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "process": [
         "Operational Excellence"
@@ -89,15 +109,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "Head",
-        "company": "Act as a strategic advisor to promoters, CXOs, and investors on organization design, workforce strategy, and governance",
-        "location": "Group HR",
+        "role": "Deputy General Manager",
+        "company": "HR",
+        "location": "Group HR Head",
         "start": "Nov 2019",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 83,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Arya.ag"
+        ],
+        "duration_months": 84,
         "bullets": [
           "Lead enterprise-wide HR strategy for diversified businesses (Warehousing, NBFC, Technology) covering 4,000+ workforce across 22 states",
+          "Act as a strategic advisor to promoters, CXOs, and investors on organization design, workforce strategy, and governance",
           "Drove HR transformation agenda, including org structuring, policy standardization, and scalable operating models",
           "Led HR digitization (HRMS, ESOP platforms) to enable data-led decision-making and efficiency",
           "Delivered 30+ HR process transformations and automation initiatives aligned with scale and governance",
@@ -109,35 +133,42 @@
           "Built and mentored HR leadership team delivering strategic and operational excellence"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Head HR",
-        "company": "Established India HR function from ground up; scaled to 400+ employees within 12 months",
-        "location": null,
+        "role": "AGM",
+        "company": "HR",
+        "location": "Head HR",
         "start": "Jun 2017",
         "end": "Feb 2019",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Topwise Communications (Comio India)"
+        ],
         "duration_months": 21,
         "bullets": [
+          "Established India HR function from ground up; scaled to 400+ employees within 12 months",
           "Built end-to-end HR architecture including hiring, PMS, rewards, and governance frameworks",
           "Enabled market entry through strong employer branding and talent strategy",
           "Ensured full statutory compliance and HR governance during rapid scale-up"
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "India) Ltd. Senior Manager – HR (HRBP, TA, TM",
-        "company": "Intex Technologies",
-        "location": null,
+        "role": "Senior Manager",
+        "company": "HR (HRBP, TA",
+        "location": "TM",
         "start": "Jul 2010",
         "end": "May 2017",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Intex Technologies (India) Ltd."
+        ],
         "duration_months": 83,
         "bullets": [
           "Managed HR Business Partner responsibilities for a workforce of 11,000+ employees across multiple business units",
@@ -155,11 +186,14 @@
       },
       {
         "role": "Assistant Manager HR (PMS and OD",
-        "company": "Earlier Career NetAmbit Infosource Pvt. Ltd",
-        "location": "Assistant Manager HR",
+        "company": "NetAmbit Infosource Pvt. Ltd",
+        "location": null,
         "start": "2009",
         "end": "2010",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Earlier Career"
+        ],
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
@@ -170,10 +204,10 @@
       {
         "role": "Recruitment Executive",
         "company": "Denave India Pvt. Ltd",
-        "location": "Recruitment Executive",
+        "location": null,
         "start": "2008",
         "end": "2009",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 13,
         "bullets": [
           "HR Strategy & CXO Partnering | Org Design & Workforce Planning HR Transformation & Digitization | Governance, Compliance & Risk HR Audits & Due Diligence | Talent & Leadership Development Performance & Rewards | DEI & Culture Transformation"
@@ -186,11 +220,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 17.7,
-      "total_months": 212,
+      "total_years": 17.8,
+      "total_months": 213,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.87
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -217,19 +251,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.91
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ecc5e124_e35eb77d_Naukri_priyanshKurmi[4y_5m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:40.453929+00:00",
+    "generated_at": "2026-10-07T09:28:42.138386+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,39 +46,94 @@
   "summary": null,
   "skills": {
     "items": [
+      "API Design",
       "AWS",
       "AWS Athena",
+      "AWS CloudWatch",
+      "AWS DMS",
       "AWS EC2",
+      "AWS Glue",
+      "AWS Lambda",
       "AWS S3",
       "AWS SNS",
+      "AWS Secrets Manager",
+      "Amazon EMR",
+      "Amazon Kinesis",
       "Apache Airflow",
       "Apache Kafka",
+      "Apache NiFi",
+      "Apache Parquet",
       "Apache Spark",
       "Azure",
+      "Azure ADF",
+      "Azure Data Lake",
+      "Cron Jobs",
+      "Cryptography",
+      "DPDPA",
+      "Data Archival",
+      "Data Migration",
       "Data Warehousing",
       "Databricks",
+      "Delta Lake",
       "ETL",
-      "Electronic Health Records",
       "GDPR",
+      "Joins",
+      "Lakehouse Architecture",
+      "LinkedIn",
       "MongoDB",
       "MySQL",
+      "Oracle Database",
+      "PII Masking",
       "PostgreSQL",
+      "Product Design",
       "PySpark",
       "Python",
       "Query Optimization",
+      "RBAC",
       "Redshift",
-      "Role-Based Access Control",
+      "Reporting",
+      "SFTP",
       "SQL",
-      "Snowflake"
+      "Snowflake",
+      "Star Schema",
+      "Subqueries"
     ],
     "by_category": {
+      "architecture": [
+        "API Design"
+      ],
       "cloud_infra": [
         "AWS",
         "AWS Athena",
+        "AWS CloudWatch",
         "AWS EC2",
+        "AWS Lambda",
         "AWS S3",
         "AWS SNS",
         "Azure"
+      ],
+      "cloud": [
+        "AWS DMS",
+        "AWS Glue",
+        "AWS Secrets Manager",
+        "Amazon EMR",
+        "Azure ADF",
+        "Azure Data Lake"
+      ],
+      "database": [
+        "Amazon Kinesis",
+        "Joins",
+        "MongoDB",
+        "MySQL",
+        "Oracle Database",
+        "PostgreSQL",
+        "PySpark",
+        "Query Optimization",
+        "Redshift",
+        "SQL",
+        "Snowflake",
+        "Star Schema",
+        "Subqueries"
       ],
       "data_engineering": [
         "Apache Airflow",
@@ -88,44 +143,63 @@
         "Databricks",
         "ETL"
       ],
-      "healthcare": [
-        "Electronic Health Records"
+      "bigdata": [
+        "Apache NiFi",
+        "Apache Parquet",
+        "Delta Lake"
+      ],
+      "devops": [
+        "Cron Jobs"
+      ],
+      "security_ops": [
+        "Cryptography"
+      ],
+      "compliance": [
+        "DPDPA"
+      ],
+      "data engineering": [
+        "Data Archival",
+        "Data Migration",
+        "Lakehouse Architecture"
       ],
       "legal": [
         "GDPR"
       ],
-      "database": [
-        "MongoDB",
-        "MySQL",
-        "PostgreSQL",
-        "PySpark",
-        "Query Optimization",
-        "Redshift",
-        "SQL",
-        "Snowflake"
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "security": [
+        "PII Masking",
+        "RBAC"
+      ],
+      "engineering": [
+        "Product Design"
       ],
       "programming_language": [
         "Python"
       ],
-      "security_ops": [
-        "Role-Based Access Control"
+      "soft_skill": [
+        "Reporting"
+      ],
+      "protocols": [
+        "SFTP"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Kafka→Apache Kafka(100%), Airflow→Apache Airflow(100%), Athena→AWS Athena(100%), RBAC→Role-Based Access Control(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Kafka→Apache Kafka(100%), Airflow→Apache Airflow(100%), Glue→AWS Glue(100%), Lambda→AWS Lambda(100%), Athena→AWS Athena(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "| SMTS",
+        "role": "Data Engineer | SMTS",
         "company": "Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%",
-        "location": "SMTS - Oracle | Bengaluru",
+        "location": "Bengaluru",
         "start": "Mar, 2025",
         "end": "Apr, 2026",
-        "method": "date_regex+pipe_company_loc_role+title_dash_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 14,
         "bullets": [
-          "Collaborated on designing and implementing a star schema data model from scratch for Oracle Transportation"
+          "Collaborated on designing and implementing a star schema data model from scratch for Oracle Transportation Management (OTM) on Oracle ADW, built 5 fact tables and 35 dimension tables covering end-to-end stages from requirement analysis to testing, supporting millions of rows per fact table."
         ],
         "sub_sections": [],
         "confidence": 0.7,
@@ -133,37 +207,38 @@
         "source": "experience"
       },
       {
-        "role": "requirement analysis to testing, supporting millions of rows per fact table. Data Product Engineer, Nuclei | Bengaluru",
-        "company": "Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%",
-        "location": "Nuclei",
+        "role": "Data Product Engineer, Nuclei | Bengaluru",
+        "company": "Nuclei",
+        "location": null,
         "start": "Jan, 2023",
         "end": "Mar, 2025",
-        "method": "date_regex+pipe_company_loc_role+title_dict+inherited_company",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 27,
         "bullets": [
           "Refactored 25+ unversioned cron-based reporting scripts into a modular Python framework with centralized logging and access controls, orchestrated via Apache Airflow, achieving 100% DAG visibility and reducing undetected failures from days to minutes via centralized alerting.",
           "Implemented a PII data masking framework for MySQL protecting 1M+ user records, enforced role-based masked views with granular RBAC, AES encryption via AWS Secrets Manager, and CloudWatch audit logging to achieve GDPR and DPDPA compliance.",
-          "Configured AWS DMS and Kinesis Firehose to automate data archival from a production database processing 1M+ daily transactions, streamed historical records into partitioned S3 Parquet, cutting hot-tier storage costs by 40% and"
+          "Configured AWS DMS and Kinesis Firehose to automate data archival from a production database processing 1M+ daily transactions, streamed historical records into partitioned S3 Parquet, cutting hot-tier storage costs by 40% and p95 query time by 30%."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "p95 query time by 30%. Data Analyst, Nuclei | Bengaluru",
-        "company": "Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and reducing churn by 40%.",
-        "location": "Nuclei",
+        "role": "Data Analyst, Nuclei | Bengaluru",
+        "company": "Nuclei",
+        "location": null,
         "start": "Aug, 2021",
         "end": "Dec, 2022",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 17,
         "bullets": [
+          "Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and reducing churn by 40%.",
           "Optimized 50+ slow MySQL queries across millions-of-rows tables by adding targeted indexes, rewriting correlated subqueries, and eliminating redundant joins, reduced runtime from 1–2 hours to under 5 minutes and automated secure report delivery to external clients via Apache NiFi and SFTP."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -173,11 +248,23 @@
       "total_months": 57,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.75
+    "_confidence": 0.89
   },
   "education": {
-    "entries": [],
-    "_confidence": 0.0
+    "entries": [
+      {
+        "degree": "Dual Degree in Electrical Engineering",
+        "degree_name": "Dual Degree",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Indian Institute of Technology (IIT)",
+        "year": "2021",
+        "gpa": "7.2/10",
+        "_needs_review": false,
+        "_confidence": 0.95
+      }
+    ],
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [],
@@ -188,7 +275,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
@@ -196,21 +283,6 @@
       "field": "experience.jobs[0]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "education",
-      "confidence": 0.0,
-      "reason": "section_present_but_empty"
     }
   ]
 }

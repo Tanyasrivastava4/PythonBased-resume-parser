@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ee37b8c7_Awasthi_Abhay_segmented.txt",
-    "generated_at": "2026-09-30T07:00:42.943001+00:00",
+    "generated_at": "2026-10-07T09:28:45.470410+00:00",
     "sections_found": [
       "certifications",
       "declaration",
@@ -52,6 +52,9 @@
   "summary": "Result-oriented IT Professional with 5 years of experience in Software\n\nDevelopment.\nWorked on designing and developing scalable application for various tools\nand Automation process.\nProficient in handling programming in Codeigniter, PHP, HTML, CSS,\nBootstrap, JQuery and adept in database.\nAbility to express technical concepts clearly to people with no technical\nbackground. An effective communicator with excellent interpersonal skills,\nlogical thinking & analytical abilities.\nCompleted five Month’s of Industrial Training in PHP at Mindfact Software",
   "skills": {
     "items": [
+      "AJAX",
+      "Adobe Dreamweaver",
+      "Angular",
       "Bootstrap",
       "C++",
       "CSS3",
@@ -61,20 +64,30 @@
       "HTML5",
       "Interpersonal Skills",
       "JavaScript",
+      "MS Office",
+      "MSSQL",
       "MySQL",
+      "NetBeans",
+      "Oracle Database",
       "Orbius",
       "PHP",
+      "React",
       "SQL",
+      "VS Code",
       "jQuery"
     ],
     "by_category": {
       "web_framework": [
+        "AJAX",
+        "Adobe Dreamweaver",
+        "Angular",
         "Bootstrap",
         "CSS3",
         "CodeIgniter",
         "Express.js",
         "HTML5",
         "Orbius",
+        "React",
         "jQuery"
       ],
       "programming_language": [
@@ -86,9 +99,20 @@
         "Communication",
         "Interpersonal Skills"
       ],
+      "productivity": [
+        "MS Office"
+      ],
       "database": [
+        "MSSQL",
         "MySQL",
+        "Oracle Database",
         "SQL"
+      ],
+      "dev_tool": [
+        "NetBeans"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -97,8 +121,8 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Development PVT. LTD",
+        "role": "Working in AIIMS Delhi (JPNATC) in Delhi as a Project Scientist",
+        "company": "II",
         "location": null,
         "start": "Feb 2018",
         "end": "June 2018",
@@ -117,6 +141,9 @@
         "start": "July 2018",
         "end": "Dec 2018",
         "method": "date_regex+at_split",
+        "pre_date_header": [
+          "Worked at Morbous Technologies Pvt. Ltd. as a PHP Developer."
+        ],
         "duration_months": 6,
         "bullets": [],
         "sub_sections": [],
@@ -125,30 +152,33 @@
         "source": "experience"
       },
       {
-        "role": "Worked",
-        "company": "Morbous Technologies Pvt. Ltd. as a PHP Developer",
+        "role": "PHP Developer",
+        "company": "Worked at Holistic Partners",
         "location": null,
         "start": "Dec 2018",
         "end": "Jun 2020",
-        "method": "date_regex+at_split+inherited_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 19,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Worked at Indian Council of Medical Research (ICMR) in Delhi as a Project Scientist- I",
-        "company": "Morbous Technologies Pvt. Ltd. as a PHP Developer",
-        "location": "",
+        "role": "Project Scientist- I",
+        "company": "Worked at Indian Council of Medical Research (ICMR) in Delhi as a",
+        "location": null,
         "start": "May 2023",
         "end": "June 2024",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "Worked at Indian Council of Medical Research (ICMR) in Delhi as a"
+        ],
         "duration_months": 14,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
@@ -158,7 +188,10 @@
         "location": null,
         "start": "June 2024",
         "end": "Dec 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Working in AIIMS Delhi (JPNATC) in Delhi as a Project Scientist – II"
+        ],
         "duration_months": 7,
         "bullets": [
           "PHP, Code igniter, HTML, CSS, JavaScript, JQuery, Ajax, Bootstrap, ReactJS, Angular 6.",
@@ -177,56 +210,56 @@
       "total_months": 49,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.85
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
       {
-        "degree": "2018 Master of Computer Application (MCA) from Jagran Institute of",
+        "degree": "2018 Master of Computer Application (MCA)",
         "degree_name": "MCA",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "Jagran Institute of Management (Affiliated to AKTU) with",
+        "institution": "Jagran Institute of Management (Affiliated to AKTU)",
         "year": "2018",
         "gpa": "76.40%",
         "_needs_review": false,
         "_confidence": 0.95
       },
       {
-        "degree": "2016 Bachelor of Computer Application (BCA) from Maharana Pratap",
+        "degree": "2016 Bachelor of Computer Application (BCA)",
         "degree_name": "BCA",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": null,
+        "institution": "Maharana Pratap Collage of Management & Technology",
         "year": "2016",
         "gpa": "78.6%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       },
       {
-        "degree": "2013 12th from U.P.Board with 79.20% marks",
+        "degree": "2013 12th",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "U.P. Board with",
+        "institution": "U.P. Board",
         "year": "2013",
         "gpa": "79.20%",
         "_needs_review": false,
         "_confidence": 0.95
       },
       {
-        "degree": "2011 10th from U.P.Board with 69.83% marks",
+        "degree": "2011 10th",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "U.P. Board with",
+        "institution": "U.P. Board",
         "year": "2011",
         "gpa": "69.83%",
         "_needs_review": false,
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.91
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -266,7 +299,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
@@ -281,13 +314,8 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[3]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

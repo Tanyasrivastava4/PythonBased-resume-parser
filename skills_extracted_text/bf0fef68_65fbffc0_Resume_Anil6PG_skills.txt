@@ -1,0 +1,43 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/bf0fef68_65fbffc0_Resume_Anil6PG_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+IT Infrastructure Management Information Security Cism Infrastructure Management Ceh Leadership
+IT Management IT Security Management IT Risk Management SIEM IT Infrastructure Operations SOC
+Data Management Arficial intelligence Amazon Web Services Ec2 Cloud Security Data Security
+Identity Access Management Security Controls Security Management AWS Security Pre Sales Solutions
+IAM ISO 27001 Lead Auditor Data Center Management IT Operations Management
+
+── Extraction Results ──
+Skills found   : 64
+Confidence     : 0.92
+Time           : 1052.62 ms
+Method         : flashtext_skills_section | fuzzy(Cism→CISM(100%), risk management→Risk Management(100%), cross-functional→Cross-functional Collaboration(100%), teams→Microsoft Teams(100%), regulatory compliance→Regulatory Compliance(100%)...)
+
+── All Skills (64) ──
+AWS, AWS CloudWatch, AWS EC2, Aggregations, Azure, BCP, BFSI, BigQuery, Budgeting, CEH, CIS Controls, CISM, CSAT, Cash Flow Management, Communication, Creativity, Cross-functional Collaboration, Data Management, Disaster Recovery, Diversity & Inclusion, Endpoint Security, Factor Risk, Financial Analysis, ISMS, ISO 27001, IT Ops, Incident Response, Leadership, Linux, Maintenance Management, Microsoft Sentinel, Microsoft Teams, Microsoft Windows, Network Security, Objective C, Operations Management, Palo Alto Networks, Performance Optimization, Predictive Analytics, Project Management, Quality Assurance, RBI, Redshift, Regulatory Compliance, Reporting, Resilience4j, Resource Planning, Risk Management, Risk and Issue Management, SDLC, SIEM, SLA Management, SOAR, SOC Operations, Security Architecture, Security Awareness Training, Security Operations Center, Splunk, Splunk Enterprise, Technical Support, Threat Hunting, UNIX, Vendor Management, WAF
+
+── By Category ──
+  architecture                   ['SDLC']
+  cloud_infra                    ['AWS', 'AWS CloudWatch', 'AWS EC2', 'Azure', 'Splunk Enterprise']
+  customer_service               ['CSAT']
+  data_science                   ['Predictive Analytics']
+  database                       ['Aggregations', 'BigQuery', 'Redshift']
+  dev_tool                       ['Performance Optimization']
+  domain                         ['BFSI', 'IT Ops', 'RBI']
+  engineering                    ['Maintenance Management']
+  finance                        ['Factor Risk']
+  finance_ops                    ['Budgeting', 'Cash Flow Management', 'Financial Analysis']
+  hr                             ['Diversity & Inclusion']
+  legal                          ['Regulatory Compliance']
+  operations                     ['BCP', 'Disaster Recovery', 'Operations Management', 'Quality Assurance', 'Vendor Management']
+  os_system                      ['Linux', 'Microsoft Windows', 'UNIX']
+  productivity                   ['Data Management', 'Microsoft Teams']
+  programming_language           ['Objective C']
+  project_mgmt                   ['Project Management', 'Resource Planning', 'Risk Management', 'Risk and Issue Management']
+  security                       ['SOC Operations']
+  security_ops                   ['CEH', 'CIS Controls', 'CISM', 'Endpoint Security', 'ISMS', 'ISO 27001', 'Incident Response', 'Microsoft Sentinel', 'Network Security', 'Palo Alto Networks', 'SIEM', 'SOAR', 'Security Architecture', 'Security Awareness Training', 'Security Operations Center', 'Splunk', 'Threat Hunting', 'WAF']
+  soft_skill                     ['Communication', 'Creativity', 'Cross-functional Collaboration', 'Leadership', 'Reporting']
+  support                        ['SLA Management', 'Technical Support']
+  web_framework                  ['Resilience4j']

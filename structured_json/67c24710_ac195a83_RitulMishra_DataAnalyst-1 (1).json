@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "67c24710_ac195a83_RitulMishra_DataAnalyst-1 (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:59:04.848118+00:00",
+    "generated_at": "2026-10-07T09:26:43.577100+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -54,9 +54,12 @@
       "Agile",
       "Attention to Detail",
       "Budget Tracking",
+      "Business Intelligence",
+      "Chart.js",
       "Client Reporting",
       "Communication",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
       "DAX",
       "Data Analytics",
       "Data Cleaning",
@@ -77,12 +80,14 @@
       "Performance Monitoring",
       "Pivot Tables",
       "Power BI",
+      "Power Query",
       "Problem Solving",
       "Reporting",
       "SQL",
       "Subqueries",
       "Tableau",
       "Time Management",
+      "Time Series Forecasting",
       "Trend Forecasting"
     ],
     "by_category": {
@@ -112,8 +117,19 @@
       "finance_ops": [
         "Budget Tracking"
       ],
+      "business_analysis": [
+        "Business Intelligence",
+        "KPI"
+      ],
+      "web_framework": [
+        "Chart.js",
+        "LinkedIn"
+      ],
       "content": [
         "Client Reporting"
+      ],
+      "sales": [
+        "Customer Relationship Management"
       ],
       "data_science": [
         "DAX",
@@ -122,6 +138,7 @@
         "Data Visualization",
         "Looker",
         "Power BI",
+        "Power Query",
         "Tableau",
         "Trend Forecasting"
       ],
@@ -134,12 +151,6 @@
         "Microsoft Teams",
         "Pivot Tables"
       ],
-      "business_analysis": [
-        "KPI"
-      ],
-      "web_framework": [
-        "LinkedIn"
-      ],
       "banking": [
         "MIS Reporting"
       ],
@@ -151,21 +162,24 @@
       ],
       "operations": [
         "Performance Monitoring"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Macros→Mac OS(91%), Google Sheets→Google Workspace(100%), MIS Automation→MIS Reporting(100%), Campaign Analysis→Marketing Analytics(91%), Trend Forecasting.→Trend Forecasting(97%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Charts→Chart.js(92%), Macros→Mac OS(91%), Google Sheets→Google Workspace(100%), MIS Automation→MIS Reporting(100%), Campaign Analysis→Marketing Analytics(91%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "ata Analyst",
+        "role": "| Data Analyst",
         "company": "All India Achievers' Conference",
-        "location": "D",
+        "location": null,
         "start": "June 2023",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 40,
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "duration_months": 41,
         "bullets": [
           "Worked as part of the analytics and reporting team, delivering data-driven solutions for internal stakeholders and business clients. Focused on performance tracking, dashboard automation, and actionable reporting using Power BI, Excel, and SQL.",
           "Built Power BI dashboards to track KPIs, sales trends, regional performance, and participation funnels from contact → payment → event attendance.",
@@ -185,8 +199,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.3,
-      "total_months": 40,
+      "total_years": 3.4,
+      "total_months": 41,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

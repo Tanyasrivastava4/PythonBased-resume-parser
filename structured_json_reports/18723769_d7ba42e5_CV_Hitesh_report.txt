@@ -2,7 +2,7 @@
 FILE: 18723769_d7ba42e5_CV_Hitesh_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'education', 'experience', 'header']
-Overall conf.  : 0.92
+Overall conf.  : 0.93
 Needs review   : True
 
 CONTACT
@@ -14,18 +14,18 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (35) — confidence 0.92
+SKILLS (41) — confidence 0.92
 ----------------------------------------------------------------------
-.NET, AWS, Agile, Azure, Background Verification, Budgeting, Communication, Creativity, Cross-functional Collaboration, Data Science, DevOps, E-learning, Financial Analysis, Help Desk, Java, Leadership, Learning & Development, Logistics, MIS Reporting, Machine Learning, Microsoft Teams, Onboarding, Payments, Power BI, Python, Recruitment, Reporting, SAP, Salesforce, ServiceNow, SharePoint, Shared Services, Stakeholder Management, Team Leadership, UAT
+.NET, AWS, Agile, Azure, Background Verification, Budgeting, Communication, Continuous Improvement, Creativity, Cross-functional Collaboration, Data Science, DevOps, E-learning, Employee Engagement, Financial Analysis, HR Management, Help Desk, Java, Leadership, Learning & Development, Logistics, MIS Reporting, Machine Learning, Microsoft Teams, Onboarding, Payments, Power BI, Project Management, Purchase Orders, Python, Recruitment, Reporting, SAP, Salesforce, ServiceNow, SharePoint, Shared Services, Stakeholder Management, Team Leadership, UAT, Vendor Management
 
-EXPERIENCE (7 jobs, 0 early_career entries) — confidence 0.92
+EXPERIENCE (7 jobs, 0 early_career entries) — confidence 0.96
 Total experience: 12.1 years (145 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. NAB India Innovation Centre Pvt. Ltd. Analyst @ HR Talent Acquisition (Oct 2023 - Sep 2025) [conf 0.98, review=False]
-  2. Contract for NAB) Assistant Manager – HR Talent Acquisition (Shared Services @ ANSR Private Limited (Jun 2023 - Sep 2023) [conf 0.98, review=False]
-  3. Edtech Key Account Manager-Learning Coordinator @ Teamlease (Apr-22 - Mar-23) [conf 0.98, review=False]
-  4. NIIT Limited Assistant Manager-Learning Coordinator @ StackRoute (Jul-21 - Apr-22) [conf 0.98, review=False]
-  5. None @ Published client-wise dashboards and training MIS reports, providing insights on utilization, trainer performance, learner participation, training effectiveness, budget adherence, and overall program outcomes during leadership and client cadence calls. NatWest Group (Sep-13 - Dec-20) [conf 0.55, review=True]
+  1. Analyst @ HR Talent Acquisition (Shared Services (Oct 2023 - Sep 2025) [conf 0.98, review=False]
+  2. Assistant Manager @ HR Talent Acquisition (Shared Services (Jun 2023 - Sep 2023) [conf 0.98, review=False]
+  3. Key Account Manager-Learning Coordinator @ Teamlease (Apr-22 - Mar-23) [conf 0.98, review=False]
+  4. Assistant Manager-Learning Coordinator @ StackRoute (Jul-21 - Apr-22) [conf 0.98, review=False]
+  5. Analyst @ HR Talent Acquisition (Shared Services) |                                                                           Oct 2023 – Sep 2025 (Sep-13 - Dec-20) [conf 0.85, review=True]
   6. Analyst @ HR Shared Services (May 15 - Dec 20) [conf 0.98, review=False]
   7. Sr. Client Service Specialist—Knowledge Management Centre @ Computer Science Corporation (Sep 08 - Jul 13) [conf 0.98, review=False]
 
@@ -48,4 +48,4 @@ ACHIEVEMENTS (6) — confidence 0.85
 
 REVIEW QUEUE (1 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[4]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[4]                  conf=0.85  reason=incomplete_fields

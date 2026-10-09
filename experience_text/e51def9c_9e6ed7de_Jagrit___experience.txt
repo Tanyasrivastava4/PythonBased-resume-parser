@@ -1,0 +1,43 @@
+======================================================================
+FILE: e51def9c_9e6ed7de_Jagrit___segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Graduate Engineer Trainee
+January 2024 – June 2025
+HCLTech
+Noida, India
+∗ Ensured consistent and reliable backups using enterprise-level tools, supporting business continuity and disaster
+recovery goals.
+∗ Managed incident and change requests using ServiceNow, contributing to efficient ITSM practice...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.0 years (24 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Graduate Engineer Trainee
+  Company      : HCLTech
+  Location     : None
+  Start - End  : January 2024 - June 2025
+  Duration     : 18 months
+  Bullets      : 1
+    • ∗ Ensured consistent and reliable backups using enterprise-level tools, supporting business continuity and disaster recovery goals. ∗ Managed incident and change requests using ServiceNow, contributing to efficient ITSM practices in alignment with ITIL framework. ∗ Collaborated with infrastructure teams to coordinate system upgrades, patch deployments, and configuration changes across storage and backup environments. ∗ Managed daily backup jobs, monitored alerts, and ensured data protection using enterprise tools integrated with ServiceNow ITSM. ∗ Created and maintained internal documentation for troubleshooting procedures and knowledge base articles to support team efficiency.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Python Developer Intern
+  Company      : Chandigarh
+  Location     : India
+  Start - End  : January 2023 - June 2023
+  Duration     : 6 months
+  Bullets      : 1
+    • ∗ Developed and maintained web applications using Django framework, enhancing project modularity and scalability. ∗ Implemented backend business logic and integrated database models to support dynamic content and user interactions.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

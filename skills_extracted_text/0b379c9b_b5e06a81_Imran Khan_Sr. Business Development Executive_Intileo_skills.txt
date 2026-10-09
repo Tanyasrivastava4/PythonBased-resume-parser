@@ -1,0 +1,43 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/0b379c9b_b5e06a81_Imran Khan_Sr. Business Development Executive_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Ticketing Tools
+• Lead Generation
+• CRM
+• Issue Tracking
+• Troubleshooting
+• SLA Management
+• RCA
+• Resolution
+• Incident Management
+• Escalation Handling
+• Market Research
+• Cross-functional
+• Coordination
+• Sales Support
+• Time Management
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 25.89 ms
+Method         : flashtext_skills_section | fuzzy(Issue Tracking→Ticketing Systems(100%), Cross-functional→Cross-functional Collaboration(100%))
+
+── All Skills (22) ──
+B2B Sales, Business Development, CSAT, Client Relationship Management, Communication, Cross-functional Collaboration, Customer Onboarding, Customer Retention, Escalation Handling, Fixed Income, Incident Management, Lead Generation, Market Research, Microsoft Teams, Negotiation, Networking, Onboarding, Outside Sales, Root Cause Analysis, SLA Management, Ticketing Systems, Time Management
+
+── By Category ──
+  biz_dev                        ['Business Development', 'Networking']
+  client_mgmt                    ['Client Relationship Management', 'Customer Onboarding', 'Customer Retention']
+  customer_service               ['CSAT', 'Escalation Handling']
+  finance                        ['Fixed Income']
+  hr                             ['Onboarding']
+  marketing                      ['Market Research']
+  operations                     ['Root Cause Analysis']
+  productivity                   ['Microsoft Teams']
+  sales                          ['B2B Sales', 'Lead Generation', 'Outside Sales']
+  security_ops                   ['Incident Management']
+  soft_skill                     ['Communication', 'Cross-functional Collaboration', 'Negotiation', 'Time Management']
+  support                        ['SLA Management', 'Ticketing Systems']

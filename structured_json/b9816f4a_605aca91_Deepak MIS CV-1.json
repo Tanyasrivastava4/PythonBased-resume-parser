@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b9816f4a_605aca91_Deepak MIS CV-1_segmented.txt",
-    "generated_at": "2026-09-30T07:00:08.749412+00:00",
+    "generated_at": "2026-10-07T09:28:00.789319+00:00",
     "sections_found": [
       "experience",
       "header",
@@ -116,12 +116,12 @@
       "management": [
         "Turnaround Time"
       ],
-      "programming_language": [
+      "programming": [
         "VBA"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
@@ -132,6 +132,9 @@
         "start": "Aug 2022",
         "end": "Aug 2025",
         "method": "date_regex",
+        "pre_date_header": [
+          "MIS(Reporting)"
+        ],
         "duration_months": 37,
         "bullets": [
           "Macros Aligned with Finance Operations vertical and helping in performing Financial planning, budgeting,",
@@ -153,9 +156,12 @@
         "start": "Mar 2018",
         "end": "Mar 2021",
         "method": "date_regex",
+        "pre_date_header": [
+          "Hindi(Fluent)"
+        ],
         "duration_months": 37,
         "bullets": [
-          "Collect, manage, and maintain accurate data related to sales, inventory, and customer information, Handling multiple reports (Daily, weekly, Monthly MIS), working with formula & pivot tables(GPS Tracker) and various other excel sheet components for accurate data EDUCATION providing insights & analytical support to leadership on key performance indicators by developing dashboards for Multiple Sales Teams as per their requirement Delhi University (SOL),"
+          "Collect, manage, and maintain accurate data related to sales, inventory, and customer information, Handling multiple reports (Daily, weekly, Monthly MIS), working with formula & pivot tables(GPS Tracker) and various other excel sheet components for accurate data EDUCATION providing insights & analytical support to leadership on key performance indicators by developing dashboards for Multiple Sales Teams as per their requirement"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -163,17 +169,23 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Delhi University (SOL",
         "company": "Delhi — BA(Bachelor of",
         "location": null,
         "start": "OCT 2010",
         "end": "MAY 2014",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Delhi University (SOL),",
+          "Delhi — BA(Bachelor of",
+          "Providing support to Logistics or Supply Chain Team to assure dispatch can be done on time",
+          "Arts)"
+        ],
         "duration_months": 44,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -182,35 +194,45 @@
         "location": null,
         "start": "Jun 2015",
         "end": "July 2017",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "SNAPDEAL(GOJAVAS), Gurgaon(Gurugram) — MIS Executive (SCM)"
+        ],
         "duration_months": 26,
-        "bullets": [],
+        "bullets": [
+          "Co-ordinating and relying on reports generated from systems to help the business in validating the"
+        ],
+        "sub_sections": [
+          "Senior Sec. School",
+          "uploaded data with an inventory sheet, meet TAT & tracking daily activities, Building and maintaining"
+        ],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "strong relationships with vendors, ensuring quality and timely delivery, Preparing reports on 1st Mile to",
+        "company": "Last Mile Activities and Dashboards",
+        "location": null,
+        "start": "APR 2008",
+        "end": "May 2009",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "duration_months": 14,
+        "bullets": [
+          "Perform monthly inventory reconciliation to find and resolve mismatches between online platforms and Higher School physical warehouse stock"
+        ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Senior Sec. School",
-        "company": "Co-ordinating and relying on reports generated from systems to help the business in validating the",
+        "role": "provide tailored solutions",
+        "company": "Work with various departments, including operations and logistics, to understand their data needs and",
         "location": null,
-        "start": "APR 2008",
-        "end": "May 2009",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 14,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "GBSSS",
-        "location": "New Delhi",
         "start": "APR 2006",
         "end": "May 2007",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex",
         "duration_months": 14,
         "bullets": [
           "Work with various departments, including operations and logistics, to understand their data needs and provide tailored solutions Troubleshoot and resolve any system-related issues or data discrepancies that arise in the warehouse"
@@ -222,7 +244,7 @@
           "Married (2021)",
           "────────────────────────────────────────────────────────────"
         ],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       }
@@ -233,7 +255,7 @@
       "total_months": 172,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.87
+    "_confidence": 0.91
   },
   "education": {
     "entries": [],
@@ -248,7 +270,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
@@ -258,18 +280,8 @@
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[5]",
-      "confidence": 0.85,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

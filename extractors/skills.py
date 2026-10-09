@@ -49,7 +49,9 @@ FUZZY_SKIP_TOKENS = {
     "optimizing", "performing", "managing", "leading", "supporting",
     "ensuring", "creating", "developing", "transforming", "scaling",
     "active", "reset", "passed", "handling", "handled", "dynamic", "tds",
-    "schedule", "statistic", "min", "testing", "test", "legal"
+    "schedule", "statistic", "min", "minimal", "minimum", "maximum", "minor", "major", "swift", "testing", "test", "legal",
+    "design", "search", "edge", "view", "mode", "type",
+    "plastic", "plastics", "casting", "glass", "chemical", "furniture", "plywood", "cutting", "direct"
 }
 
 TOKEN_SPLIT_RE = re.compile(r"[,|•·\n\t/&;()\[\]]+")
@@ -213,15 +215,13 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
     if any(kw in edu_sec for kw in ("TECHNICAL FORTE", "TECHNICAL SKILLS", "CORE COMPETENCIES", "SKILLS & TOOLS")):
         tech_forte = edu_sec
 
-    has_skills_sec = bool((sections.get("skills") or "").strip())
-    exp_sec = (sections.get("experience", "") or "") if not has_skills_sec else ""
-
     skills_text = " ".join([
         sections.get("skills", "") or "",
         sections.get("certifications", "") or "",
         sections.get("summary", "") or "",
         tech_forte,
-        exp_sec
+        sections.get("header", "") or "",
+        sections.get("experience", "") or ""
     ])
     skills_text = skills_text.replace("\n", " ")
     skills_text = " ".join(skills_text.split())
@@ -273,11 +273,82 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
     from segmenter.section_splitter import _SPOKEN_LANGUAGE_KEYWORDS
     found_skills = {s for s in found_skills if s.lower() not in _SPOKEN_LANGUAGE_KEYWORDS}
 
-    # Filter out single-letter R if it only matched a middle initial in candidate name/header (e.g. Mohit R. Gaurishankar)
+    # Filter out single-letter R if without tech context
     if "R" in found_skills and full_text:
         has_r_tech_context = bool(re.search(r'\b(?:r\s+programming|r\s+language|r\s+studio|rstudio|r\s+shiny|python[,\s/]+r|r[,\s/]+python|r\s+code|r\s+package)\b', full_text, re.I))
-        if not has_r_tech_context and re.search(r'\b(?:mr\.?|shri|dr\.?|[a-z]+)\s+R\.?\s+[a-z]', full_text, re.I):
+        if not has_r_tech_context:
             found_skills.remove("R")
+
+    if "Microsoft Edge" in found_skills and full_text:
+        if not re.search(r'\bmicrosoft\s+edge\b', full_text, re.I) and re.search(r'\bcutting\s+edge\b', full_text, re.I):
+            found_skills.remove("Microsoft Edge")
+
+    if "Mechanical Engineering" in found_skills and full_text:
+        if not re.search(r'\bmechanical\s+(?:engineering|engineer|design)\b', full_text, re.I):
+            found_skills.remove("Mechanical Engineering")
+
+    if "Make" in found_skills and full_text:
+        if not re.search(r'\b(?:make\.com|integromat|makefile|make\s+build|make\s+automation)\b', full_text, re.I):
+            found_skills.remove("Make")
+
+    if "Intercom" in found_skills and full_text:
+        if re.search(r'\bintercom\s+(?:facility|system|connection|lines?)\b', full_text, re.I) and not re.search(r'\bintercom\s+(?:app|tool|crm|chat|support|desk)\b', full_text, re.I):
+            found_skills.remove("Intercom")
+
+    if "Swift" in found_skills and full_text:
+        if not re.search(r'\b(?:swift\s+(?:programming|language|developer|code|app|ui|framework)|swiftui|swift[,\s/]+objective-c|objective-c[,\s/]+swift)\b', full_text, re.I) and re.search(r'\bswift\s+(?:incident|response|resolution|action|triage|escalation|delivery|execution|support|transition)\b', full_text, re.I):
+            found_skills.remove("Swift")
+
+    if ".NET" in found_skills and full_text:
+        if not re.search(r'\b(?:\.net|dotnet|asp\.net|vb\.net|c#|aspnet)\b', full_text, re.I) and re.search(r'\bnet\s+(?:billing|income|price|worth|sales|revenue|profit|collections?)\b', full_text, re.I):
+            found_skills.remove(".NET")
+
+    if "Business Development" in found_skills and full_text:
+        if not re.search(r'\bbusiness\s+development\b|\bbiz\s*dev\b', full_text, re.I) and re.search(r'\bnew\s+business\b', full_text, re.I):
+            found_skills.remove("Business Development")
+
+    if "Microsoft Teams" in found_skills and full_text:
+        if not re.search(r'\b(?:microsoft|ms)\s+teams\b', full_text, re.I):
+            found_skills.remove("Microsoft Teams")
+
+    if "Ruby on Rails" in found_skills and full_text:
+        if not re.search(r'\b(?:ruby|rails|rubyonrails)\b', full_text, re.I) and re.search(r'\bRoR\b', full_text):
+            found_skills.remove("Ruby on Rails")
+
+    if "Deep Learning" in found_skills and full_text:
+        if not re.search(r'\bdeep\s+learning\b', full_text, re.I) and re.search(r'\bDL\b', full_text):
+            found_skills.remove("Deep Learning")
+
+    if "Document Understanding" in found_skills and full_text:
+        if not re.search(r'\bdocument\s+understanding\b', full_text, re.I) and re.search(r'\bIDP\b', full_text):
+            found_skills.remove("Document Understanding")
+
+    if "Azure" in found_skills and full_text:
+        if not re.search(r'\b(?:azure\s+cloud|azure\s+devops|azure\s+portal|microsoft\s+azure|azure\s+app|azure\s+services?)\b', full_text, re.I) and re.search(r'\bazure\s+power\b', full_text, re.I):
+            found_skills.remove("Azure")
+
+    if "E-learning" in found_skills and full_text:
+        if not re.search(r'\b(?:e-learning|elearning|e\s+learning|online\s+learning|edtech)\b', full_text, re.I):
+            found_skills.remove("E-learning")
+
+    if "Product Design" in found_skills and full_text:
+        if not re.search(r'\bproduct\s+design\b', full_text, re.I):
+            found_skills.remove("Product Design")
+
+    if "Creativity" in found_skills and full_text:
+        if not re.search(r'\bcreativity\b', full_text, re.I):
+            found_skills.remove("Creativity")
+
+    if "Recruitment" in found_skills and full_text:
+        if not re.search(r'\b(?:recruitment|recruiting|recruit|hiring)\b', full_text, re.I):
+            found_skills.remove("Recruitment")
+
+    if "RAG" in found_skills and full_text:
+        if not re.search(r'\b(?:retrieval|augmented|llm|langchain|llamaindex|vector|embeddings?)\b', full_text, re.I) and re.search(r'\bRAG\s+(?:analysis|status|rating|project|matrix)\b', full_text, re.I):
+            found_skills.remove("RAG")
+
+    if "TANKS" in found_skills and full_text and re.search(r'\bshark\s+tank\b', full_text, re.I):
+        found_skills.remove("TANKS")
 
     sorted_skills = sorted(found_skills)
 

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3c4a47c2_331351c5_Karanraj Duraikannu - Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:58:20.446616+00:00",
+    "generated_at": "2026-10-07T10:31:18.321349+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,12 +49,17 @@
   "summary": "Senior Software Engineer with 6 years of experience in architecting and delivering full-\nstack solutions. Proven ability to lead projects focused on application modernization\n(React to TypeScript conversion), performance optimization, and implementing robust\ntest automation strategies. Combines technical expertise in Java and React with deep\nknowledge of DevOps, including containerization and orchestration, to enhance team\nproductivity and ensure seamless, high-quality product delivery.",
   "skills": {
     "items": [
+      "5G",
       "Agile",
       "Ant Design",
       "Apache Airflow",
       "Automation Testing",
       "Babel",
+      "Business Process Automation",
       "CSS3",
+      "Camunda",
+      "Communication",
+      "Data Governance",
       "DevOps",
       "Docker",
       "ES6+",
@@ -62,24 +67,35 @@
       "Git",
       "GitLab CI",
       "HTML5",
+      "Incident Management",
       "IntelliJ IDEA",
       "JMeter",
       "Java",
       "JavaScript",
       "Kubernetes",
+      "LinkedIn",
+      "Log Analysis",
+      "Machine Learning",
+      "Microsoft Excel",
       "MongoDB",
       "MySQL",
       "Next.js",
       "Nginx",
       "Node.js",
+      "Onboarding",
       "Performance Optimization",
       "PostgreSQL",
       "Postman",
+      "Product Design",
       "PyCharm",
       "Python",
       "REST",
+      "REST API",
       "React",
+      "Recruitment",
+      "SEO",
       "Selenium",
+      "ServiceNow",
       "Tailwind CSS",
       "TypeScript",
       "VS Code",
@@ -88,6 +104,9 @@
       "webpack"
     ],
     "by_category": {
+      "telecom": [
+        "5G"
+      ],
       "project_mgmt": [
         "Agile"
       ],
@@ -104,24 +123,35 @@
       ],
       "dev_tool": [
         "Babel",
+        "Camunda",
         "Git",
         "IntelliJ IDEA",
         "Performance Optimization",
         "Postman",
         "PyCharm",
-        "VS Code",
         "Vitria"
+      ],
+      "software": [
+        "Business Process Automation"
       ],
       "web_framework": [
         "CSS3",
         "Express.js",
         "HTML5",
+        "LinkedIn",
         "Next.js",
         "Node.js",
+        "REST API",
         "React",
         "Tailwind CSS",
         "jQuery",
         "webpack"
+      ],
+      "soft_skill": [
+        "Communication"
+      ],
+      "data_management": [
+        "Data Governance"
       ],
       "devops": [
         "DevOps",
@@ -137,13 +167,39 @@
         "Python",
         "TypeScript"
       ],
+      "security": [
+        "Incident Management"
+      ],
+      "security_ops": [
+        "Log Analysis"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ],
+      "productivity": [
+        "Microsoft Excel"
+      ],
       "database": [
         "MongoDB",
         "MySQL",
         "PostgreSQL"
       ],
+      "hr": [
+        "Onboarding",
+        "Recruitment"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
       "integration": [
-        "REST"
+        "REST",
+        "ServiceNow"
+      ],
+      "marketing": [
+        "SEO"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -158,7 +214,11 @@
         "start": "December 2025",
         "end": "Present",
         "method": "date_regex+subfield_label_role+company_loc_dash_split",
-        "duration_months": 10,
+        "pre_date_header": [
+          "Freelance",
+          "SinceNew Technologies – Freelance"
+        ],
+        "duration_months": 11,
         "bullets": [
           "Project: AI-Powered Talent Acquisition & Recruitment Portal Project Description: Engineered a full-stack recruitment platform featuring an AI/ML- driven resume parser to automate candidate data extraction and streamline the \"Easy Apply\" process. Developed a comprehensive Admin & HR Dashboard to manage job postings, track applications, and perform bulk candidate data uploads for large-scale hiring. Built an automated email notification system to alert enrolled candidates of new openings, significantly increasing applicant engagement. The system enhances HR efficiency by centralizing candidate management and providing real-time analytics on job availability. Technologies: Next.js, Express, MongoDB, Ant Design, Tailwind CSS.",
           "Development: Building a high-performance web platform for renewable energy services, utilizing Next.js for SEO-friendly rendering and Tailwind CSS for responsive UI.",
@@ -173,12 +233,15 @@
         "source": "experience"
       },
       {
-        "role": "Senior Software Engineer",
+        "role": "Full Stack Automation Developer",
         "company": "Tech Mahindra",
-        "location": "Senior Software Engineer , Bangalore",
+        "location": "Senior Software Engineer",
         "start": "September 2024",
         "end": "November 2025",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+subfield_label_role+company_loc_dash_split",
+        "pre_date_header": [
+          "Tech Mahindra — Senior Software Engineer"
+        ],
         "duration_months": 15,
         "bullets": [
           "Project Description: Architected a full-stack automation platform at Tech Mahindra to manage and monitor large-scale router configurations via Camunda BPA. Designed a React frontend for bulk configuration updates, significantly reducing manual deployment errors across the network. Integrated Vitria for continuous real-time log monitoring and built custom Python scripts for automated incident detection. Engineered a seamless ServiceNow integration to trigger instant ticketing and team notifications upon detecting router failures. Technologies: React, Camunda (BPA), Python, Vitria, ServiceNow API, REST APIs",
@@ -200,10 +263,13 @@
       {
         "role": "Product Engineer",
         "company": "Orion Data Governance",
-        "location": "Product Engineer , Bangalore",
+        "location": null,
         "start": "August 2019",
         "end": "September 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Orion Data Governance — Product Engineer"
+        ],
         "duration_months": 62,
         "bullets": [
           "Role: UI Developer & Backend Integration Engineer"
@@ -220,7 +286,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 7.2,
-      "total_months": 86,
+      "total_months": 87,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

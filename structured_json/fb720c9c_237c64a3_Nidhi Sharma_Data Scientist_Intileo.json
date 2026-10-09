@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "fb720c9c_237c64a3_Nidhi Sharma_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:52.162412+00:00",
+    "generated_at": "2026-10-07T09:28:57.226158+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -64,21 +64,28 @@
       "Flask",
       "GAN",
       "Generative AI",
+      "GitHub",
+      "Hugging Face",
       "Keras",
       "LLM",
       "LangChain",
       "Machine Learning",
       "Matplotlib",
+      "Model Evaluation",
       "NLP",
+      "NLTK",
       "NumPy",
       "Pandas",
       "Plotly",
+      "Predictive Modeling",
       "Prompt Engineering",
       "Python",
+      "RAG",
       "RNN",
       "SQL",
       "Seaborn",
       "TensorFlow",
+      "Time Series Forecasting",
       "Transformers",
       "scikit-learn"
     ],
@@ -93,12 +100,15 @@
         "Machine Learning",
         "Matplotlib",
         "NLP",
+        "NLTK",
         "NumPy",
         "Pandas",
         "Plotly",
+        "Predictive Modeling",
         "RNN",
         "Seaborn",
         "TensorFlow",
+        "Time Series Forecasting",
         "scikit-learn"
       ],
       "library": [
@@ -126,9 +136,17 @@
       ],
       "genai": [
         "Generative AI",
+        "Hugging Face",
         "LLM",
         "LangChain",
-        "Prompt Engineering"
+        "Prompt Engineering",
+        "RAG"
+      ],
+      "dev_tool": [
+        "GitHub"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
       ],
       "programming_language": [
         "Python"
@@ -148,7 +166,10 @@
         "location": null,
         "start": "JUNE 2025",
         "end": "December 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Goanny Technologies: Data Scientist"
+        ],
         "duration_months": 7,
         "bullets": [
           "Automated inventory planning, reducing stockouts and overstock by 40%.",
@@ -170,7 +191,10 @@
         "location": null,
         "start": "APR 2024",
         "end": "FEB 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "CK and Sons Textiles: Data Scientist"
+        ],
         "duration_months": 11,
         "bullets": [
           "Conducted Data Collection from various websites to support Analysis objectives."
@@ -186,7 +210,10 @@
         "location": null,
         "start": "JAN 2024",
         "end": "MAR 2024",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+title_dict+inherited_company",
+        "pre_date_header": [
+          "Freelancer : Data Scientist"
+        ],
         "duration_months": 3,
         "bullets": [
           "Built scalable, data-driven ML solutions solving real business problems and enhancing performance.",

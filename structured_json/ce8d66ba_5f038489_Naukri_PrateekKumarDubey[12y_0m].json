@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ce8d66ba_5f038489_Naukri_PrateekKumarDubey[12y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:22.984316+00:00",
+    "generated_at": "2026-10-07T09:28:19.240123+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -50,25 +50,48 @@
       "Accounts Payable",
       "Accounts Receivable",
       "Agile",
+      "Amazon Seller",
       "Annual Operating Plan",
       "B2B Sales",
+      "Boosting",
       "Business Process Re-Engineering",
       "Change Management",
+      "Continuous Improvement",
+      "Coroutines Flow",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Customer Experience",
       "Data Analytics",
       "Digital Transformation",
       "GAN",
+      "Leadership",
       "Lean Six Sigma",
+      "LinkedIn",
       "Management Consulting",
+      "Market Expansion",
+      "Mentoring",
       "Microsoft Excel",
+      "Microsoft Teams",
+      "Net Promoter Score",
       "Operational Excellence",
+      "Operations Management",
+      "Order-to-Cash",
       "Power BI",
+      "Process Improvement",
+      "Process Re-Engineering",
       "Procure-to-Pay",
+      "Procurement",
       "Program Management",
+      "Root Cause Analysis",
+      "SOP",
       "Sigma Computing",
       "Supply Chain",
       "Supply Chain Management",
       "Tableau",
-      "Waterfall"
+      "Turnaround Time",
+      "Vendor Management",
+      "Waterfall",
+      "Workflow Automation"
     ],
     "by_category": {
       "finance_ops": [
@@ -81,41 +104,76 @@
         "Program Management",
         "Waterfall"
       ],
+      "retail": [
+        "Amazon Seller"
+      ],
       "management": [
-        "Annual Operating Plan"
+        "Annual Operating Plan",
+        "Net Promoter Score",
+        "Turnaround Time"
       ],
       "sales": [
         "B2B Sales"
+      ],
+      "data_science": [
+        "Boosting",
+        "Data Analytics",
+        "Power BI",
+        "Sigma Computing",
+        "Tableau"
       ],
       "process": [
         "Business Process Re-Engineering",
         "Lean Six Sigma",
         "Operational Excellence"
       ],
-      "data_science": [
-        "Data Analytics",
-        "Power BI",
-        "Sigma Computing",
-        "Tableau"
+      "operations": [
+        "Continuous Improvement",
+        "Operations Management",
+        "Process Improvement",
+        "Procurement",
+        "Root Cause Analysis",
+        "SOP",
+        "Supply Chain Management",
+        "Vendor Management",
+        "Workflow Automation"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "soft_skill": [
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Leadership",
+        "Mentoring"
+      ],
+      "client_mgmt": [
+        "Customer Experience"
       ],
       "consulting": [
         "Digital Transformation",
-        "Management Consulting"
+        "Management Consulting",
+        "Process Re-Engineering"
       ],
       "ai_ml": [
         "GAN"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "biz_dev": [
+        "Market Expansion"
+      ],
       "productivity": [
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
       "finance": [
+        "Order-to-Cash",
         "Procure-to-Pay"
       ],
       "domain": [
         "Supply Chain"
-      ],
-      "operations": [
-        "Supply Chain Management"
       ]
     },
     "_confidence": 0.92,
@@ -124,18 +182,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Assistant Vice President (Engagement Leader",
+        "role": "| Assistant Vice President (Engagement Leader",
         "company": "Practus Advisors",
         "location": null,
         "start": "Dec 2024",
         "end": "Jul 2025",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 8,
         "bullets": [
           "Engagement Leadership: Spearheaded large-scale Finance, Procurement, and Operations transformations for Fortune 500 clients.",
           "P2P Optimization: Implemented robust AP and P2P frameworks, boosting invoice processing efficiency and optimizing Days Payable Outstanding (DPO).",
           "Strategic Analytics: Developed automated Power BI dashboards to enhance CFO visibility into vendor performance, PO compliance, and AP aging.",
-          "Standardization: Delivered cost efficiencies through comprehensive SOP redesign"
+          "Standardization: Delivered cost efficiencies through comprehensive SOP redesign and Enterprise Process Transformation."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -143,12 +201,12 @@
         "source": "experience"
       },
       {
-        "role": "Senior Manager – Lean Digital Transformation",
-        "company": "Genpact",
+        "role": "Genpact | Senior Manager",
+        "company": "Lean Digital Transformation",
         "location": null,
         "start": "Aug 2022",
         "end": "Dec 2024",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 29,
         "bullets": [
           "Global Transformation: Directed Finance Transformation across 13 geographies for a premier insurance client, realizing $921K in savings and a 19 FTE benefit.",
@@ -162,12 +220,12 @@
         "source": "experience"
       },
       {
-        "role": "Manager – Process Design & Strategy (B2B",
-        "company": "Reliance Retail Limited",
+        "role": "Reliance Retail Limited | Manager",
+        "company": "Process Design & Strategy (B2B",
         "location": null,
         "start": "Sep 2020",
         "end": "Jul 2022",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 23,
         "bullets": [
           "Strategic Partnership: Partnered with Bain & Co. to transition to a Regional Supply Chain model, driving significant cost-to-serve reductions.",
@@ -181,12 +239,15 @@
         "source": "experience"
       },
       {
-        "role": "Assistant Manager – International Operations Excellence (SEAME",
-        "company": "OYO",
+        "role": "OYO | Assistant Manager",
+        "company": "International Operations Excellence (SEAME",
         "location": null,
         "start": "Sep 2019",
         "end": "Jan 2020",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Delivery\" initiative, achieving 82% on-time shipments."
+        ],
         "duration_months": 5,
         "bullets": [
           "Market Expansion: Managed operational metrics across 7 countries in SEAME, owning the functional Annual Operating Plan (AOP).",
@@ -199,17 +260,17 @@
         "source": "experience"
       },
       {
-        "role": "Executive – Process Optimization (Supply Chain",
-        "company": "Nestlé India Limited",
+        "role": "Nestlé India Limited | Executive",
+        "company": "Process Optimization (Supply Chain",
         "location": null,
         "start": "Jul 2018",
         "end": "Sep 2019",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 15,
         "bullets": [
           "Loss Mitigation: Led the \"Returns & Refusals\" project for South Asia (India & Sri Lanka), cutting volume and value of returns within 3 months.",
           "Process Transparency: Established performance KPIs and service plans for O2C teams, promoting integrated NCE measures.",
-          "Innovation: Recognized for leading one of the most well-managed supply chain"
+          "Innovation: Recognized for leading one of the most well-managed supply chain projects in the organization."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -217,17 +278,17 @@
         "source": "experience"
       },
       {
-        "role": "Manager II – Centre of Excellence (CoE",
-        "company": "Swiggy",
+        "role": "Swiggy | Manager II",
+        "company": "Centre of Excellence (CoE",
         "location": null,
         "start": "Jan 2017",
         "end": "Jun 2018",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 18,
         "bullets": [
           "Performance Turnaround: Elevated Bengaluru operations to 2nd best city nationally, improving vendor management metrics from 84% to 93% within 2 months.",
           "Workflow Design: Redesigned business operational flows at all levels (Sub-process to Task) and reduced delivery TAT from 45 to 30 minutes.",
-          "Rapid Growth: Promoted within 9 months for delivering 100% results on central"
+          "Rapid Growth: Promoted within 9 months for delivering 100% results on central projects directly with the Director."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -235,12 +296,12 @@
         "source": "experience"
       },
       {
-        "role": "Manager – Operations Excellence",
-        "company": "Blinkit",
-        "location": "Deputy",
+        "role": "Blinkit | Deputy Manager",
+        "company": "Operations Excellence",
+        "location": null,
         "start": "May 2015",
         "end": "Nov 2016",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 19,
         "bullets": [
           "Scale & Expansion: Managed operations across 16 cities and spearheaded national expansion into major hubs like Chennai and Hyderabad.",

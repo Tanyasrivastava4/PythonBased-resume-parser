@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "50a60a80_0393a268_Arjun Sharma_Data Architect_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:39.039084+00:00",
+    "generated_at": "2026-10-07T10:31:42.150605+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -49,41 +49,110 @@
   "summary": null,
   "skills": {
     "items": [
+      "A/B Testing",
       "AWS",
+      "Analyze",
       "Angular",
       "Ansible",
+      "Apache Kafka",
       "Azure",
+      "Azure ADF",
+      "Azure Data Lake",
       "Azure DevOps",
+      "Azure SQL",
+      "Azure Synapse Analytics",
+      "Business Analytics",
+      "Business Intelligence",
+      "Business Process Re-Engineering",
       "C++",
+      "CCNA",
       "CSS3",
+      "Campaign Management",
+      "Collaboration",
+      "Cribl",
+      "Data Analysis",
+      "Data Analytics",
+      "Data Management",
+      "Data Pipeline",
+      "Data Science",
+      "Data Validation",
+      "Data Visualization",
+      "Data Warehousing",
       "Databricks",
+      "DevOps",
+      "Digital Transformation",
+      "Django",
       "ELK Stack",
+      "ETL",
       "Elasticsearch",
       "Flask",
+      "Gap Analysis",
+      "Generative AI",
+      "Git",
       "GitHub",
+      "Google Analytics",
       "Grafana",
+      "Informatica",
       "Java",
       "JavaScript",
+      "Kibana",
       "Kubernetes",
-      "Microsoft Access",
+      "LinkedIn",
+      "Linux",
+      "MS Access",
+      "Machine Learning",
+      "Market Research",
+      "Microsoft Excel",
+      "Microsoft Fabric",
+      "Moogsoft",
       "Mulesoft",
       "MySQL",
+      "Network Monitoring Tools",
       "Networking",
+      "Oracle Cloud Infrastructure",
+      "Oracle Database",
+      "PingPlotter",
       "Power Apps",
       "Power BI",
+      "PuTTY",
+      "PyCharm",
       "PySpark",
+      "PyTorch",
       "Python",
       "R",
-      "SAP",
+      "Reporting",
+      "Revenue Generation",
+      "Risk Management",
+      "SAP BO",
       "SIEM",
       "SQL",
+      "Salesforce",
       "SharePoint",
       "Snowflake",
+      "SolarWinds",
       "Splunk",
+      "Statistical Analysis",
+      "Statistics",
+      "Strategic Planning",
       "Tableau",
+      "TensorFlow",
+      "ThousandEyes",
       "Visual Studio"
     ],
     "by_category": {
+      "data_science": [
+        "A/B Testing",
+        "Analyze",
+        "Business Analytics",
+        "Data Analysis",
+        "Data Analytics",
+        "Data Visualization",
+        "Google Analytics",
+        "Power BI",
+        "Statistical Analysis",
+        "Statistics",
+        "Tableau"
+      ],
       "cloud_infra": [
         "AWS",
         "Azure"
@@ -91,14 +160,55 @@
       "web_framework": [
         "Angular",
         "CSS3",
-        "Flask"
+        "Django",
+        "Flask",
+        "LinkedIn"
       ],
       "devops": [
         "Ansible",
         "Azure DevOps",
+        "Cribl",
+        "DevOps",
         "ELK Stack",
         "Grafana",
-        "Kubernetes"
+        "Kubernetes",
+        "Moogsoft",
+        "Network Monitoring Tools",
+        "ThousandEyes"
+      ],
+      "data_engineering": [
+        "Apache Kafka",
+        "Data Pipeline",
+        "Data Validation",
+        "Data Warehousing",
+        "Databricks",
+        "ETL"
+      ],
+      "cloud": [
+        "Azure ADF",
+        "Azure Data Lake",
+        "Azure Synapse Analytics",
+        "Microsoft Fabric",
+        "Oracle Cloud Infrastructure"
+      ],
+      "database": [
+        "Azure SQL",
+        "Informatica",
+        "MS Access",
+        "MySQL",
+        "Oracle Database",
+        "PySpark",
+        "SQL",
+        "Snowflake"
+      ],
+      "business_analysis": [
+        "Business Intelligence",
+        "Gap Analysis",
+        "Kibana",
+        "SAP BO"
+      ],
+      "process": [
+        "Business Process Re-Engineering"
       ],
       "programming_language": [
         "C++",
@@ -107,26 +217,50 @@
         "Python",
         "R"
       ],
-      "data_engineering": [
-        "Databricks"
+      "networking": [
+        "CCNA"
+      ],
+      "marketing": [
+        "Campaign Management",
+        "Market Research"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Reporting"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Excel"
+      ],
+      "ai_ml": [
+        "Data Science",
+        "Machine Learning",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "consulting": [
+        "Digital Transformation"
       ],
       "search": [
         "Elasticsearch"
       ],
+      "genai": [
+        "Generative AI"
+      ],
       "dev_tool": [
+        "Git",
         "GitHub",
+        "PingPlotter",
+        "PuTTY",
+        "PyCharm",
         "Visual Studio"
       ],
-      "database": [
-        "Microsoft Access",
-        "MySQL",
-        "PySpark",
-        "SQL",
-        "Snowflake"
+      "os_system": [
+        "Linux"
       ],
       "integration": [
         "Mulesoft",
-        "SAP",
+        "Salesforce",
         "SharePoint"
       ],
       "biz_dev": [
@@ -135,37 +269,48 @@
       "low_code": [
         "Power Apps"
       ],
-      "data_science": [
-        "Power BI",
-        "Tableau"
+      "sales": [
+        "Revenue Generation"
+      ],
+      "project_mgmt": [
+        "Risk Management"
       ],
       "security_ops": [
         "SIEM",
         "Splunk"
+      ],
+      "security": [
+        "SolarWinds"
+      ],
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(ANGULAR 8→Angular(95%), Pyspark→PySpark(100%), Elastic Search→Elasticsearch(100%), Ms. Access→Microsoft Access(95%), Snowflake.→Snowflake(95%))"
+    "_method": "flashtext_skills_section | fuzzy(ANGULAR 8→Angular(95%), Pyspark→PySpark(100%), Oracle→Oracle Database(100%), Elastic Search→Elasticsearch(100%), Ms. Access→MS Access(95%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Microsoft Certified: Azure Solution Architect Expert (AZ-305",
-        "company": null,
+        "role": "Certified: Azure Administrator Associate (AZ-104)",
+        "company": "Certified: Accredited Generative AI Fundamentals",
         "location": null,
         "start": "Mar. 2025",
         "end": "2026",
         "method": "date_regex+date_prefix_title",
         "duration_months": 11,
-        "bullets": [],
+        "bullets": [
+          "Oracle",
+          "Microsoft"
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.98,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Oracle Certified: Oracle Cloud Infrastructure 2025 Certified Architect Associate(1Z0-1072-25)_",
-        "company": "WORK",
+        "role": "Certified: Oracle Cloud Infrastructure 2025 Certified Architect Associate(1Z0-1072-25)_",
+        "company": "Microsoft",
         "location": "",
         "start": "Sept 2025",
         "end": "2027",
@@ -174,58 +319,47 @@
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Microsoft Certified: Azure Cosmos DB Developer Specialty (DP-420",
-        "company": null,
+        "role": "(AZ-400",
+        "company": "Certified: Accredited Generative AI Fundamentals",
         "location": null,
         "start": "April 2025",
         "end": "2026",
         "method": "date_regex+date_prefix_title",
         "duration_months": 10,
-        "bullets": [],
+        "bullets": [
+          "Oracle",
+          "Microsoft"
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Microsoft Certified: Azure Data Engineer Associate (DP-203",
-        "company": null,
-        "location": null,
-        "start": "Jan. 2025",
-        "end": "2026",
+        "role": "Certified: PowerBi Data Analyst Associate(PL",
+        "company": "300",
+        "location": "",
+        "start": "Feb. 2024",
+        "end": "2027",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 13,
+        "duration_months": 36,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Microsoft Certified: Azure Data Scientist Associate (DP-100",
-        "company": null,
-        "location": null,
-        "start": "Dec. 2024",
-        "end": "2026",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 14,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "■ Associate",
+        "role": "Associate",
         "company": "Architecting, creating and maintaining Data pipelines. Driving Automation by renovating the Data management Architecture.",
-        "location": null,
+        "location": "India",
         "start": null,
         "end": "5 Years",
-        "method": "stated_duration_regex+title_dict",
+        "method": "stated_duration_regex+title_dict_strong+comma_company_location",
         "duration_months": 60,
         "bullets": [
           "Development of data related instruments, management of Integration tools-Kafka, ADF, data bases, warehouses, and analytical systems.",
@@ -233,8 +367,7 @@
           "Worked on Gen A.I & M.L., Pycharm,Visual studio, Github, Libraries/frameworks such as Django,Flask,Tensorflow, Pytorch for web dev.",
           "Analyzing and documenting client’s business requirements, Processes by Constructing basic conceptual Data, Process models using Databricks, Algorithms, data Integrations, data warehousing & vol. estimates.; Improve present business intelligence systems.",
           "Develop digital technologies, platforms, roadmaps, Business Process re-engineering, program Mgmt. & policies.",
-          "Analyze public sector challenges & recommend tech. sols; Provide strategic insights for digital transformation projects.",
-          "Analyst-2"
+          "Analyze public sector challenges & recommend tech. sols; Provide strategic insights for digital transformation projects."
         ],
         "sub_sections": [],
         "confidence": 0.5,
@@ -242,15 +375,20 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Sci. Corp. ) DEPT.--Analytics & Engg.  Bengaluru",
+        "role": "Analyst-2",
+        "company": "Writing Queries & scripts for ETL tasks, Data pipeline orchestration, Data processing & transformation, Utility function & Data viz.",
         "location": "India",
         "start": "01 Nov 2023",
         "end": "05 Dec. 2024",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "■ Analyst-2",
+          "Data Engineering----DXC TECHNOLOGY (U.S based MNC, Successor of Hewlett-Packard Ent. (HPE)",
+          "& Computer",
+          "Sci. Corp. (CSC)) DEPT.--Analytics & Engg."
+        ],
         "duration_months": 14,
         "bullets": [
-          "Writing Queries & scripts for ETL tasks, Data pipeline orchestration, Data processing & transformation, Utility function & Data viz.",
           "Developing, maintaining, testing, implementing, analyzing, and evaluating big data systems & processes using Databricks, ADF,ASA.",
           "Azure data Engg., Data bricks, Snowflake & sol. architecture expertise; Automated ETL processes, improving efficiency & Accuracy.",
           "Monitoring & Reporting of Applications & Websites, Infrastructure health, Cloud hosted Systems & Services, Network systems Etc.",
@@ -259,7 +397,7 @@
           "Enhancing resource utilization-Snowflake, Define & Standardize the technology Stack; Grafana deployment & Elastic Search tuning."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
@@ -286,12 +424,15 @@
         "source": "experience"
       },
       {
-        "role": "■ Assistant Engineer-----Iron Triangle Pvt. Ltd",
-        "company": "Rajkot",
-        "location": "Gujarat",
+        "role": "Rajkot",
+        "company": "Assistant Engineer-----Iron Triangle Pvt. Ltd. (ENGG. & Const. CO",
+        "location": "Gujarat, India",
         "start": "01 May 2018",
         "end": "01 June 2020",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "■ Assistant Engineer-----Iron Triangle Pvt. Ltd. (ENGG. & Const. CO.)"
+        ],
         "duration_months": 26,
         "bullets": [
           "Designing & implementing data storage solutions on Azure.; Building & maintaining data pipelines for data integration & processing.",
@@ -303,17 +444,21 @@
           "Monitor network traffic, identify bandwidth bottlenecks & packet loss and providing Alerts Using SolarWinds, Pingplotter & Putty."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "■ Financial Data Analyst Intern----- G A M P & CO",
+        "role": "Financial Data Analyst Intern----- G A M P & CO",
         "company": "INTERNSHIPS: ____________________________________________________________________________________",
         "location": "Faridabad, India",
         "start": "04 April 2022",
         "end": "04 June 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "INTERNSHIPS: ____________________________________________________________________________________",
+          "■ Financial Data Analyst Intern----- G A M P & CO., Faridabad, India"
+        ],
         "duration_months": 3,
         "bullets": [
           "Analyze data & financial performance, Develop Data Models & forecast, trends, preparing reports and providing insights."
@@ -324,12 +469,15 @@
         "source": "experience"
       },
       {
-        "role": "■ Network Engineering Intern-----Comtel Technologies",
+        "role": "Network Engineering Intern-----Comtel Technologies",
         "company": "Got trained in MOBILE BACKHAUL, MPL-VPNS, SolarWinds, Linux, Thousand eyes, AppDynamics and Network monitoring.",
-        "location": "Gurugram, India",
+        "location": "India",
         "start": "05 June 2016",
         "end": "20 July 2016",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "■ Network Engineering Intern-----Comtel Technologies, Gurugram, India"
+        ],
         "duration_months": 2,
         "bullets": [],
         "sub_sections": [],
@@ -338,12 +486,15 @@
         "source": "experience"
       },
       {
-        "role": "■ CNDA Intern----- C.M.S I T SERVICES Pvt. Ltd. Mumbai",
+        "role": "CNDA Intern----- C.M.S I T SERVICES Pvt. Ltd. Mumbai",
         "company": "India",
         "location": null,
         "start": "13 Jan 2016",
         "end": "03 April 2016",
         "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "■ CNDA(CCNA) Intern----- C.M.S I T SERVICES Pvt. Ltd. Mumbai, India"
+        ],
         "duration_months": 3,
         "bullets": [
           "Worked on Computer Networks, I.P connectivity & Services, Security, Cloud Ntw. Mgmt., Automation & programmability."
@@ -358,9 +509,9 @@
     "total_experience": {
       "total_years": 11.7,
       "total_months": 140,
-      "overlapping_periods_merged": 5
+      "overlapping_periods_merged": 4
     },
-    "_confidence": 0.8
+    "_confidence": 0.82
   },
   "education": {
     "entries": [
@@ -398,17 +549,6 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• LinkedIn course on- Ms Azure (AZ-900)Cert Prep:1 Cloud Concepts; ■ Udemy-Azure Admin. Essentials",
-        "degree_name": "M.S.",
-        "degree_type": "masters",
-        "degree_field": null,
-        "institution": "Udemy Azure Admin. Essentials.",
-        "year": null,
-        "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.8
-      },
-      {
         "degree": "• UDEMY course on –Databricks Certified Machine Learning Associate Exam Guide;■DP-420 Ms. Azure Cosmos DB ExamGuid",
         "degree_name": "M.S.",
         "degree_type": "masters",
@@ -420,7 +560,7 @@
         "_confidence": 0.8
       }
     ],
-    "_confidence": 0.89
+    "_confidence": 0.91
   },
   "certifications": {
     "items": [],
@@ -448,38 +588,23 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.89
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
       "confidence": 0.98,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
       "field": "experience.jobs[4]",
-      "confidence": 0.85,
+      "confidence": 0.5,
       "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[5]",
-      "confidence": 0.5,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
@@ -489,11 +614,11 @@
     },
     {
       "field": "experience.jobs[7]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[10]",
+      "field": "experience.jobs[9]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "9500bdab_da1bf922_Pramod Sahu_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:45.112157+00:00",
+    "generated_at": "2026-10-07T09:27:28.857742+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,6 +49,7 @@
     "items": [
       "AWS",
       "AWS EC2",
+      "AWS Lambda",
       "AWS S3",
       "Angular",
       "Bootstrap",
@@ -73,6 +74,7 @@
       "React",
       "React Native",
       "Spring Boot",
+      "TCS BaNCS",
       "Tailwind CSS",
       "TypeScript",
       "VS Code",
@@ -83,6 +85,7 @@
       "cloud_infra": [
         "AWS",
         "AWS EC2",
+        "AWS Lambda",
         "AWS S3",
         "GCP",
         "Vercel"
@@ -116,8 +119,7 @@
       ],
       "dev_tool": [
         "Git",
-        "Postman",
-        "VS Code"
+        "Postman"
       ],
       "programming_language": [
         "Java",
@@ -132,6 +134,12 @@
       ],
       "mobile": [
         "React Native"
+      ],
+      "fintech": [
+        "TCS BaNCS"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -140,13 +148,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Software Engineer",
-        "company": null,
+        "role": "Senior Software Engineer, Aug 2022",
+        "company": "Present",
         "location": "",
         "start": "Aug 2022",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 50,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 51,
         "bullets": [
           "Developed and deployed 11+ projects across Java, MEAN, and MERN stacks Bootstrap, jQuery, NextJs,",
           "Architected & launched a PWA for Employee Sales Visit Tracking,",
@@ -164,12 +172,16 @@
         "source": "experience"
       },
       {
-        "role": "Netlify, Vercel, Docker, CI/CD Software Engineer",
+        "role": "AWS (EC2, S3, Lambda), GCP",
         "company": null,
-        "location": "",
+        "location": "CI/CD",
         "start": "Apr 2022",
         "end": "Aug 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "pre_date_header": [
+          "AWS (EC2, S3, Lambda), GCP,",
+          "Netlify, Vercel, Docker, CI/CD"
+        ],
         "duration_months": 5,
         "bullets": [],
         "sub_sections": [],
@@ -183,10 +195,11 @@
         "location": null,
         "start": "Nov 2020",
         "end": "Apr 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 18,
         "bullets": [
-          "Led end-to-end test planning, case design, and execution for TCS Bancs, a LinkedIn: banking software. https://www.linkedin.com/in/pr"
+          "Led end-to-end test planning, case design, and execution for TCS Bancs, a LinkedIn: banking software. https://www.linkedin.com/in/pr",
+          "Collaborated with developers to enhance software quality & performance. amod-sahu"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -194,7 +207,7 @@
         "source": "experience"
       },
       {
-        "role": "amod-sahu Junior Software Engineer",
+        "role": "Junior Software Engineer",
         "company": "PLEASE VISIT",
         "location": null,
         "start": "Oct 2019",
@@ -210,8 +223,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 7.0,
-      "total_months": 84,
+      "total_years": 7.1,
+      "total_months": 85,
       "overlapping_periods_merged": 2
     },
     "_confidence": 0.88

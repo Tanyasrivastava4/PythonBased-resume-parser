@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "598ec77b_e9e9c051_Naukri_APOORVASHARMA[18y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.063405+00:00",
+    "generated_at": "2026-10-07T10:31:47.503173+00:00",
     "sections_found": [
       "achievements",
       "early_career",
@@ -52,29 +52,54 @@
     "items": [
       "Budgeting",
       "Business Development",
+      "CORS",
+      "Calibration",
+      "Collaboration",
       "Communication",
       "Digital Transformation",
       "Electrical Engineering",
       "Employee Engagement",
+      "Employee Lifecycle Management",
+      "F&F Settlement",
+      "HR Analytics",
+      "HR Generalist",
+      "HR Management",
       "Leadership",
       "Learning & Development",
+      "Make",
+      "Market Research",
+      "Networking",
       "Nursing",
       "Onboarding",
       "Payroll Administration",
+      "Performance Management",
       "Process Improvement",
+      "Procurement",
+      "Professional Tax",
       "Recruitment",
       "Resource Planning",
       "Stakeholder Management",
-      "Talent Management"
+      "Talent Management",
+      "Tenable.sc",
+      "Training Needs Analysis",
+      "Turnaround Time"
     ],
     "by_category": {
       "finance_ops": [
         "Budgeting"
       ],
       "biz_dev": [
-        "Business Development"
+        "Business Development",
+        "Networking"
+      ],
+      "web_development": [
+        "CORS"
+      ],
+      "engineering_hardware": [
+        "Calibration"
       ],
       "soft_skill": [
+        "Collaboration",
         "Communication",
         "Leadership",
         "Stakeholder Management"
@@ -87,20 +112,43 @@
       ],
       "hr": [
         "Employee Engagement",
+        "Employee Lifecycle Management",
+        "F&F Settlement",
+        "HR Analytics",
+        "HR Generalist",
+        "HR Management",
         "Learning & Development",
         "Onboarding",
         "Payroll Administration",
+        "Performance Management",
+        "Professional Tax",
         "Recruitment",
         "Talent Management"
+      ],
+      "rpa": [
+        "Make"
+      ],
+      "marketing": [
+        "Market Research"
       ],
       "healthcare": [
         "Nursing"
       ],
       "operations": [
-        "Process Improvement"
+        "Process Improvement",
+        "Procurement"
       ],
       "project_mgmt": [
         "Resource Planning"
+      ],
+      "cybersecurity": [
+        "Tenable.sc"
+      ],
+      "learning_development": [
+        "Training Needs Analysis"
+      ],
+      "management": [
+        "Turnaround Time"
       ]
     },
     "_confidence": 0.92,
@@ -109,28 +157,28 @@
   "experience": {
     "jobs": [
       {
-        "role": "intelligence, executive networking, campus programs, and data-driven recruitment",
-        "company": "",
+        "role": "HR Business Partner",
+        "company": "SunSource Energy Pvt. Ltd",
         "location": "Noida",
         "start": "July 2020",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role",
-        "duration_months": 75,
+        "method": "date_regex+pipe_split_header",
+        "duration_months": 76,
         "bullets": [
-          "▶ Talent Acquisition & Pipeline Excellence: Built proactive talent pipelines using market intelligence, executive networking, campus programs, and data-driven recruitment models, improving diversity, cost efficiency, and time-to-hire. ▶ Strategic Workforce & Talent Partnering: Drove workforce planning, HR budgeting, senior leadership hiring (up to VP level), and succession planning to align talent strategy with business growth, scalability, and leadership continuity. ▶ Performance, Capability & Leadership Development: Led enterprise PMS, conducted organization-wide TNA, and designed integrated L&D frameworks to strengthen leadership bench strength, capability building, and employee engagement. ▶ HR Operations, Governance & Analytics: Institutionalized recruitment dashboards, governed payroll and statutory compliance, and embedded analytics-driven decision-"
+          "▶ Talent Acquisition & Pipeline Excellence: Built proactive talent pipelines using market intelligence, executive networking, campus programs, and data-driven recruitment models, improving diversity, cost efficiency, and time-to-hire. ▶ Strategic Workforce & Talent Partnering: Drove workforce planning, HR budgeting, senior leadership hiring (up to VP level), and succession planning to align talent strategy with business growth, scalability, and leadership continuity. ▶ Performance, Capability & Leadership Development: Led enterprise PMS, conducted organization-wide TNA, and designed integrated L&D frameworks to strengthen leadership bench strength, capability building, and employee engagement. ▶ HR Operations, Governance & Analytics: Institutionalized recruitment dashboards, governed payroll and statutory compliance, and embedded analytics-driven decision- making to enhance workforce effectiveness and business outcomes."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "including goal alignment, mid-year and annual reviews, calibration support, and manager",
+        "role": "People Management",
         "company": "Tata Projects Limited",
         "location": "Noida",
         "start": "Aug 2018",
         "end": "July 2020",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header",
         "duration_months": 24,
         "bullets": [
           "▶ Onboarding, Learning & Capability Building: Designed structured onboarding programs (Buddy Program, 30-60-90 Day Plan), drove TNI, and co-created annual technical and behavioral learning calendars, tracking effectiveness through data-driven assessments. ▶ Engagement, Leadership & Culture: Enabled leadership connect forums, Skip-levels, Coffee with Leaders and masterclasses series while building engagement calendars and recognition frameworks to foster collaboration, trust, and a high-performance culture. ▶ Performance Management (PMS): Led end-to-end Performance Management System cycles including goal alignment, mid-year and annual reviews, calibration support, and manager enablement to drive differentiated performance and merit outcomes."
@@ -141,30 +189,46 @@
         "source": "experience"
       },
       {
-        "role": "Executive – Human Resources",
-        "company": "BGC Company Limited",
-        "location": "Delhi",
+        "role": "CEC International Corporation (India) Pvt. Ltd., Gurgaon | Executive",
+        "company": "Human Resources",
+        "location": null,
         "start": "Feb 2018",
         "end": "Aug 2018",
-        "method": "date_regex+pipe_company_loc_role",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
         "duration_months": 7,
         "bullets": [
-          "▶ Strategic Talent Acquisition & Workforce Planning: Led end-to-end talent acquisition aligned with workforce plans and evolving business priorities.",
+          "▶ Strategic Talent Acquisition & Workforce Planning: Led end-to-end talent acquisition aligned with workforce plans and evolving business priorities. ▶ Policy Development & HR Analytics: Formulated and institutionalized HR policies, dashboards, organizational structures & manpower analytics.",
           "▶ End-to-End Recruitment Lifecycle Management: Managed the complete recruitment lifecycle, achieving timely closures and high-quality hiring outcomes. ▶ Hiring Manager Collaboration & Requirement Translation: Partnered with hiring managers to translate manpower requirements into precise role specifications and coordinated interview and evaluation processes."
         ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "HR Generalist",
+        "company": "Isolux Corsán India Engineering & Construction Pvt. Ltd",
+        "location": "Gurgaon",
+        "start": "Apr 2011",
+        "end": "Jan 2018",
+        "method": "date_regex+pipe_split_header",
+        "duration_months": 82,
+        "bullets": [
+          "▶ Talent Acquisition, HR Operations & Compliance Excellence: Led complete recruitment process, HR operations spanning structured onboarding, payroll, compliance, and employee lifecycle management, consistently meeting TAT and accuracy standards. ▶ Employee Engagement, Retention & Attrition Management: Strengthened employee engagement and retention by launching leadership connect forums, driving employee listening mechanisms (exit interviews, feedback loops), and applying attrition analytics to improve transparency, trust, and workforce stability."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.7,
-      "total_months": 104,
+      "total_years": 15.6,
+      "total_months": 187,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.94
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -193,13 +257,13 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
+      "field": "experience.jobs[3]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     }
   ]

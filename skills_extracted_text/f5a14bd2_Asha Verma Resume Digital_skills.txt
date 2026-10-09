@@ -1,0 +1,43 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/f5a14bd2_Asha Verma Resume Digital_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Enterprise Program Leadership
+• Data & Digital Transformation
+• Marketing & Growth Strategy
+• Advanced Analytics & BI
+• Campaign Management
+• Revenue Optimization
+• Customer Experience & CRM
+• Regulatory & Governance Programs
+• Stakeholder Leadership
+• PMO & Change Management
+• Technology Enablement
+• Performance & KPI Management
+
+── Extraction Results ──
+Skills found   : 34
+Confidence     : 0.92
+Time           : 270.57 ms
+Method         : flashtext_skills_section | fuzzy(Growth Strategy→Growth Marketing(100%), digital transformation→Digital Transformation(100%))
+
+── All Skills (34) ──
+Active Directory, Adobe Analytics, Business Development, Business Intelligence, Business Strategy, Campaign Management, Change Management, Client Relationship Management, Communication, Consumer Analytics, Creativity, Customer Experience, DevOps, Digital Transformation, Email Marketing, Facebook, Google Ads, Growth Marketing, Instagram, KPI, Lead Generation, Leadership, Linear, LinkedIn, MIS Reporting, Management Consulting, Marketing Analytics, Mentoring, Microsoft Teams, Performance Monitoring, Reporting, Revenue Generation, Strategic Thinking, Tableau
+
+── By Category ──
+  banking                        ['MIS Reporting']
+  biz_dev                        ['Business Development']
+  business_analysis              ['KPI']
+  client_mgmt                    ['Client Relationship Management', 'Customer Experience']
+  consulting                     ['Business Strategy', 'Digital Transformation', 'Management Consulting']
+  data_science                   ['Adobe Analytics', 'Business Intelligence', 'Consumer Analytics', 'Tableau']
+  devops                         ['DevOps']
+  marketing                      ['Campaign Management', 'Email Marketing', 'Google Ads', 'Growth Marketing', 'Marketing Analytics']
+  operations                     ['Performance Monitoring']
+  productivity                   ['Microsoft Teams']
+  project_mgmt                   ['Change Management', 'Linear']
+  sales                          ['Lead Generation', 'Revenue Generation']
+  security_ops                   ['Active Directory']
+  soft_skill                     ['Communication', 'Creativity', 'Leadership', 'Mentoring', 'Reporting', 'Strategic Thinking']
+  web_framework                  ['Facebook', 'Instagram', 'LinkedIn']

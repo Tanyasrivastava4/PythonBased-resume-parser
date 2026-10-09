@@ -1,0 +1,138 @@
+======================================================================
+FILE: e7189085_Ashish Chaturvedi N-BM-Hamirpur_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+1) 2 years in UIDAI (AADHAAR) as a Center head incharge in Viesa Technologies.
+2) 3 Years in K.V.S.S. (Govt. N.G.O.) as a District Co-Ordinator.
+3) SRS Cinemas-Duty Manager
+Joined the industry A part of SRS Group, this Cinema industry one of the fastestgrowing
+industry in India now SRS is the one of...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 9
+Confidence     : 0.8
+Needs review   : True
+Total exp      : 16.7 years (200 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : 1) in UIDAI  as a Center head incharge in Viesa Technologies
+  Company      : Joined the industry A part of SRS Group, this Cinema industry one of the fastestgrowing
+  Location     : None
+  Start - End  : None - 2 Years
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : stated_duration_regex+title_dict
+  Confidence   : 0.65
+  Needs Review : True
+
+Entry 2
+  Role         : 3) SRS Cinemas-Duty Manager
+  Company      : Joined the industry A part of SRS Group, this Cinema industry one of the fastestgrowing
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 20
+    • Joined the industry A part of SRS Group, this Cinema industry one of the fastestgrowing industry in India now SRS is the one of top 5 cinema industry in India.
+    • Responsibilities: Taking care of the entire shift operational activities.
+    • Managing inventory.
+    • Increasing revenue by means of suggestive selling / up selling / upgrading etc Working hand in hand with booking and ensuring smooth operations.
+    • Handling Cash Of All ESP On Daily Basis and Maintain My Cash safe.
+    • Screening all the areas of property.
+    • Ensuring all the standard operating procedure is followed and adhered to Operator.
+    • Night Auditing & Day Auditing.
+    • Handling all inward and outward Stock.
+    • Order and keep eatable material daily.
+    • Composing and sending reports such as Daily Sales Report, Monthly SalesReport, Business Flash Report, Kiosk Sale Report, Daily KPI.
+    • Handling all booking query on phone and e-mail.
+    • Check and update the Current Screening Schedule and VIP's/VVIP's booking ondaily basis.
+    • Handling correspondence, confirm wait list or regret.
+    • Handling all calls, e-mails, fax, messages, parcels and complaints of guests and enquiring guest satisfaction Coordination with other departments for maximum guest satisfaction and comfort.
+    • Check and update all the register/records/slip/Bills on daily basis.
+    • Check all the stationeries and keep satisfactory par stock of the same.
+    • Constantly update room rack/reservation rack/information rack.
+    • Watch the all guest activities, maintain the privacy of all the guest's and Cinema's.
+    • A complete understanding of the Cinema policies and procedures and service standards and detail knowledge of the Cinema facilities and happenings.
+  Method       : title_dict_strong
+  Confidence   : 0.5
+  Needs Review : True
+
+Entry 3
+  Role         : 5) as a Sales Executive in Nutnbolt Infra Pvt. Ltd Kanpur
+  Company      : None
+  Location     : None
+  Start - End  : None - 3 Months
+  Duration     : 3 months
+  Bullets      : 0
+  Method       : stated_duration_regex+title_dict_strong
+  Confidence   : 0.65
+  Needs Review : True
+
+Entry 4
+  Role         : Senior Agency Development Manager
+  Company      : MaxLife
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 0
+  Method       : working_as_split
+  Confidence   : 0.8
+  Needs Review : False
+
+Entry 5
+  Role         : Qualified MY 5
+  Company      : Insurance Kanpur from
+  Location     : 
+  Start - End  : 29 July 2019 - Present
+  Duration     : 87 months
+  Bullets      : 1
+    • Quality Recruitment in a month in Jan 2020 Qualified 2 times Coach of the Batch in April and May 2020 Qualified Regional Coach of the Batch in May 2020 Qualified Regional Lakhpati Manager in 1 Quarter (AMJ) Qualified Star of the Quarter in (AMJ)
+  Sub-sections : ['Archivments-', 'Qualified MY 5', 'Qualified ZVP ANGELS']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : UIDAI (AADHAAR) as a Center head incharge
+  Company      : Viesa Technologies
+  Location     : None
+  Start - End  : None - None
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False
+
+Entry 7
+  Role         : K.V.S.S. (Govt. N.G.O.) as a District Co-Ordinator
+  Company      : Unknown company
+  Location     : None
+  Start - End  : None - None
+  Duration     : 36 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False
+
+Entry 8
+  Role         : Sales Advisor
+  Company      : Sarthak Estate Noida
+  Location     : None
+  Start - End  : None - None
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False
+
+Entry 9
+  Role         : Sales Executive
+  Company      : Nutnbolt Infra Pvt. Ltd Kanpur
+  Location     : None
+  Start - End  : None - None
+  Duration     : 3 months
+  Bullets      : 0
+  Method       : stated_duration
+  Confidence   : 0.9
+  Needs Review : False

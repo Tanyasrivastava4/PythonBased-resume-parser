@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3a2b9d17_c68c8bca_Naukri_SakshiJaiswal[6y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:18.378144+00:00",
+    "generated_at": "2026-10-07T10:31:15.946073+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,37 +48,47 @@
   "summary": "A results-driven Quality Manager and Technical Officer with extensive experience in laboratory operations,\nquality assurance, and regulatory compliance. Proven expertise in implementing and maintaining ISO/IEC\n17025:2017 Laboratory Management Systems while ensuring analytical precision, reliability, and adherence\nto global quality standards. Adept at supporting regulatory submissions, technical documentation, and\nfostering continuous improvement to uphold scientific integrity and operational excellence.",
   "skills": {
     "items": [
+      "Analytical Instruments",
       "Auditing",
       "Calibration",
       "California Proposition 65",
       "Classification Web",
+      "Communication",
       "Conflict Minerals",
       "Continuous Improvement",
       "DSC",
       "Dissolution Testing",
       "E-learning",
       "ED-XRF",
+      "FDA Regulations",
       "FTIR",
       "GMP",
       "ISO 17025",
       "Instrumentation",
       "Karl Fischer Titration",
+      "Legal Compliance",
       "Loss on Drying",
       "MSDS",
       "Operational Excellence",
+      "Product Design",
       "Quality Assurance",
+      "R",
       "REACH",
-      "Regulatory Compliance",
+      "Reliability",
       "RoHS",
       "SAP",
       "SAP S/4HANA",
       "SOP",
       "SVHC",
+      "Standard Operating Procedures",
       "TGA",
       "Technical Writing",
       "UV-Vis Spectrophotometry"
     ],
     "by_category": {
+      "hardware": [
+        "Analytical Instruments"
+      ],
       "finance_ops": [
         "Auditing"
       ],
@@ -99,6 +109,10 @@
       "search": [
         "Classification Web"
       ],
+      "soft_skill": [
+        "Communication",
+        "Reliability"
+      ],
       "operations": [
         "Continuous Improvement",
         "Quality Assurance",
@@ -117,15 +131,27 @@
       "education_domain": [
         "E-learning"
       ],
+      "healthcare": [
+        "FDA Regulations"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "process": [
         "Operational Excellence"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "engineering": [
+        "Product Design"
+      ],
+      "programming_language": [
+        "R"
       ],
       "integration": [
         "SAP",
         "SAP S/4HANA"
+      ],
+      "management": [
+        "Standard Operating Procedures"
       ],
       "content": [
         "Technical Writing"
@@ -142,8 +168,11 @@
         "location": null,
         "start": "March 2023",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 43,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Rajiv Plastics Private Limited"
+        ],
+        "duration_months": 44,
         "bullets": [
           "Implemented and maintained ISO/IEC 17025:2017 Laboratory Management System, ensuring compliance with international testing standards.",
           "Prepared and issued MSDS, Product Safety Statements, RoHS-REACH-SVHC declarations, food compliance certificates, and shelf-life certificates.",
@@ -164,6 +193,11 @@
         "start": "Jan 2021",
         "end": "Mar 2023",
         "method": "date_regex+comma_company_location",
+        "pre_date_header": [
+          "Conducted instrumental analysis to support R&D, deformulation and equivalent product development of",
+          "Polymer Compounds and Masterbatches for various applications - Polymer Films, Flexibles, Solids etc",
+          "Paralab Private Limited"
+        ],
         "duration_months": 27,
         "bullets": [
           "Maintained accurate calibration records and generated reports in line with FDA regulations and internal standards."
@@ -174,27 +208,34 @@
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "Quality Chemist",
         "company": "Bee Pharmo Labs Private Limited",
         "location": null,
         "start": "Jan 2020",
         "end": "Oct 2020",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Bee Pharmo Labs Private Limited"
+        ],
         "duration_months": 10,
-        "bullets": [],
+        "bullets": [
+          "Performed qualitative and quantitative testing on raw materials, intermediates, and finished products.",
+          "Operated FTIR, UV-Vis, Karl Fischer Titrator, Dissolution Tester, and LOD apparatus.",
+          "Ensured regular instrument calibration and compliance with GMP and SOPs."
+        ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.6,
-      "total_months": 79,
+      "total_years": 6.7,
+      "total_months": 80,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.79
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -215,7 +256,7 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Chemistry Thakur College of Science and Commerce",
-        "year": "2014 - 2017",
+        "year": "2017 - 2019",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -356,18 +397,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[1]",
       "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

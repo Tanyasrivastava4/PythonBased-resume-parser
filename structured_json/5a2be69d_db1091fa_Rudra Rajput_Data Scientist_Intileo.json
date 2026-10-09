@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5a2be69d_db1091fa_Rudra Rajput_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:43.113469+00:00",
+    "generated_at": "2026-10-07T10:31:47.575055+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,8 +47,17 @@
   "skills": {
     "items": [
       "AWS",
+      "AWS EC2",
+      "AWS ECS",
+      "AWS RDS",
+      "AWS S3",
       "Agentic AI",
+      "Azure OpenAI",
+      "BeautifulSoup",
       "Celery",
+      "Claude",
+      "Communication",
+      "Data Management",
       "DevOps",
       "Django",
       "Docker",
@@ -56,11 +65,15 @@
       "FastAPI",
       "Flask",
       "GCP",
+      "Gemini",
       "Generative AI",
+      "Git",
+      "JSON Web Token",
       "LangChain",
       "LinkedIn",
       "Linux",
       "LlamaIndex",
+      "Machine Learning",
       "MySQL",
       "Nginx",
       "OpenAI API",
@@ -69,27 +82,49 @@
       "Python",
       "REST API",
       "Redis",
+      "Reliability",
       "SQLite",
       "Semantic Search",
       "Templating",
-      "Vector Databases"
+      "Vector Databases",
+      "Vector Search"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
+        "AWS EC2",
+        "AWS RDS",
+        "AWS S3",
         "GCP"
+      ],
+      "cloud": [
+        "AWS ECS"
       ],
       "genai": [
         "Agentic AI",
+        "Azure OpenAI",
+        "Claude",
+        "Gemini",
         "Generative AI",
         "LangChain",
         "LlamaIndex",
         "OpenAI API",
         "Semantic Search",
-        "Vector Databases"
+        "Vector Databases",
+        "Vector Search"
+      ],
+      "library": [
+        "BeautifulSoup"
       ],
       "data_engineering": [
         "Celery"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reliability"
+      ],
+      "productivity": [
+        "Data Management"
       ],
       "devops": [
         "DevOps",
@@ -105,7 +140,14 @@
         "Templating"
       ],
       "ai_ml": [
-        "Embeddings"
+        "Embeddings",
+        "Machine Learning"
+      ],
+      "dev_tool": [
+        "Git"
+      ],
+      "security": [
+        "JSON Web Token"
       ],
       "os_system": [
         "Linux"
@@ -129,14 +171,18 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "Python Developer",
         "company": "Excellence Technologies",
         "location": null,
         "start": "Mar 2024",
         "end": "Present",
-        "method": "date_regex",
-        "duration_months": 31,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Excellence Technologies"
+        ],
+        "duration_months": 32,
         "bullets": [
+          "Noida, U.P.",
           "Developed and maintained REST APIs using FastAPI, Django, and Flask, delivering scalable, production-ready backend services.",
           "Built and enhanced three major projects: — Hotel & Rent Recommendation Platform leveraging ML/AI-based scoring and recommendation logic. — AI Agents Platform using GenAI models (OpenAI, Claude, Gemini) with LangChain, LlamaIndex, and vector DBs like Pinecone. — User Authorization & Digital Information Storage Platform, implementing secure tokenized data storage using JWK, JWT flows, and encrypted user data.",
           "Implemented background task processing and automation using Celery and Redis.",
@@ -150,18 +196,18 @@
           "Followed Test Driven Development (TDD) practices to ensure reliability and maintainability across projects."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.6,
-      "total_months": 31,
+      "total_years": 2.7,
+      "total_months": 32,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -188,14 +234,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/5b682ed1_a52a1216_Naukri_VishalGupta[0y_3m]_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+IT Skills: Excel, Tally, MS-Office, Other customised softwares
+Professional Skills: Teamwork, Time-management, Adaptability, Leadership, Focus, Determination, Practicality, Patience, Positivity,
+Problem-solving, Stress-management, Interpersonal-skills, Communication
+
+── Extraction Results ──
+Skills found   : 16
+Confidence     : 0.92
+Time           : 215.35 ms
+Method         : flashtext_skills_section | fuzzy(MS-Office→MS Office(100%), Problem-solving→Problem Solving(100%), Interpersonal-skills→Interpersonal Skills(97%))
+
+── All Skills (16) ──
+Accounts Receivable, Adaptability, Communication, Data Analytics, Financial Reporting, Interpersonal Skills, Leadership, LinkedIn, MS Office, Microsoft Excel, Microsoft Teams, Problem Solving, RBI, Statutory Audit, Tally, Taxation
+
+── By Category ──
+  data_science                   ['Data Analytics']
+  domain                         ['RBI']
+  finance_ops                    ['Accounts Receivable', 'Financial Reporting', 'Statutory Audit', 'Tally', 'Taxation']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft Teams']
+  soft_skill                     ['Adaptability', 'Communication', 'Interpersonal Skills', 'Leadership', 'Problem Solving']
+  web_framework                  ['LinkedIn']

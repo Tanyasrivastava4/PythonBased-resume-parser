@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0c3b30a9_Amay Chourasia_Management Consultant_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:51.393961+00:00",
+    "generated_at": "2026-10-07T10:30:44.657735+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,17 +51,41 @@
     "items": [
       "AWS",
       "Agile",
+      "BFSI",
       "Business Development",
+      "Business Process Optimization",
+      "Capital Markets",
+      "Collaboration",
       "Communication",
+      "Competitive Analysis",
+      "Creativity",
       "Cross-functional Collaboration",
+      "Customer Relationship Management",
+      "Data Migration",
       "Digital Marketing",
       "Digital Transformation",
+      "E-learning",
       "Google",
+      "ITIL",
+      "Leadership",
       "Lean Six Sigma",
+      "LinkedIn",
+      "Management Consulting",
+      "Markdown",
+      "Market Research",
       "Microsoft Teams",
       "Presentation Skills",
       "Process Consulting",
-      "Scrum"
+      "Product Design",
+      "Product Management",
+      "Program Management",
+      "R",
+      "Risk Management",
+      "Scrum",
+      "Security Compliance",
+      "Team Leadership",
+      "Wealth Management",
+      "Workflow Automation"
     ],
     "by_category": {
       "cloud_infra": [
@@ -69,31 +93,79 @@
       ],
       "project_mgmt": [
         "Agile",
+        "Product Management",
+        "Program Management",
+        "Risk Management",
         "Scrum"
       ],
+      "domain": [
+        "BFSI"
+      ],
       "biz_dev": [
-        "Business Development"
+        "Business Development",
+        "Competitive Analysis"
+      ],
+      "operations": [
+        "Business Process Optimization",
+        "Workflow Automation"
+      ],
+      "finance": [
+        "Capital Markets",
+        "Wealth Management"
       ],
       "soft_skill": [
+        "Collaboration",
         "Communication",
+        "Creativity",
         "Cross-functional Collaboration",
-        "Presentation Skills"
+        "Leadership",
+        "Presentation Skills",
+        "Team Leadership"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "marketing": [
-        "Digital Marketing"
+        "Digital Marketing",
+        "Market Research"
       ],
       "consulting": [
         "Digital Transformation",
+        "Management Consulting",
         "Process Consulting"
+      ],
+      "education_domain": [
+        "E-learning"
       ],
       "database": [
         "Google"
       ],
+      "management": [
+        "ITIL"
+      ],
       "process": [
         "Lean Six Sigma"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "documentation": [
+        "Markdown"
+      ],
       "productivity": [
         "Microsoft Teams"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "programming_language": [
+        "R"
+      ],
+      "security": [
+        "Security Compliance"
       ]
     },
     "_confidence": 0.92,
@@ -102,14 +174,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Unknown - Role | Program Manager",
-        "company": "Infosys Management Consulting",
+        "role": "Client: Wells Fargo",
+        "company": "Infosys Management Consulting: (Financial Services & Capital Markets",
         "location": "Bangalore",
         "start": "Feb/25",
         "end": "Present",
-        "method": "date_regex",
-        "duration_months": 20,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Infosys Management Consulting: (Financial Services & Capital Markets) - Bangalore"
+        ],
+        "duration_months": 21,
         "bullets": [
+          "Project: Wealth Investment Management (WIM) App Migration",
           "Partnered with Wells Fargo CIO Office to drive the transition of the Wealth & Investment Management (WIM) Advisory platform from legacy Host-Greenscreen to the modern Beta NXT Operations Workbench, ensuring business alignment, operational continuity, and seamless transition across functions.",
           "Collaborated with multiple business functions, including Stock records, Clearance, Settlements, to ensure operational continuity, risk mitigation, and process modernisation, resulting in the successful adoption of 5 key modules, receiving formal client appreciation for deliverable excellence. Recognition- link.",
           "Collaborated with IC-BFSI leadership to develop strategic proposals and solution pitches for the Wealth Management IT (WMIT) vertical, resulting in a $260K revenue increase from the WMIT LOB."
@@ -117,19 +193,23 @@
         "sub_sections": [
           "Unknown - Role | Program Manager"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Unknown - Role | Senior Consultant/ Program Manager",
-        "company": "Accenture",
-        "location": "Bangalore",
+        "role": "Accenture - Bangalore",
+        "company": "Client: Deutsche Bank",
+        "location": null,
         "start": "May/22",
         "end": "Feb/25",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Accenture - Bangalore"
+        ],
         "duration_months": 34,
         "bullets": [
+          "Unknown - Role | Senior Consultant/ Program Manager",
           "Led the digital transformation & automation of various security Compliance controls within the bank, resulting in an average 40% enhancement in efficiency.",
           "Led a team of 3 BAs to collaborate with VP-level stakeholders and cross-functional teams for process mapping and requirement gathering, ensuring alignment with long-term business objectives. Received Recognition Link from the Bank’s MD for customer centricity.",
           "Completed automation of a highly complex workflow for the Credit Service Organisation, meeting 96% of the deployment deadlines, earning recognition from senior leadership.- Recommendation link.",
@@ -155,12 +235,15 @@
         "source": "experience"
       },
       {
-        "role": "Role | Account Manager -BFSI",
+        "role": "Account Manager -BFSI",
         "company": "Sinch India, Enterprise Product & Service Provider: A SaaS Product- Bangalore",
         "location": null,
         "start": "Jan/21",
         "end": "May/21",
         "method": "date_regex",
+        "pre_date_header": [
+          "Sinch India, Enterprise Product & Service Provider: A SaaS Product- Bangalore"
+        ],
         "duration_months": 5,
         "bullets": [
           "Managed end-to-end enterprise communication service for the portfolio of 9 BFSI accounts, generating revenue of Rs 80 Cr of A.R.R.",
@@ -173,12 +256,15 @@
         "source": "experience"
       },
       {
-        "role": "Role | Manager-Product Development & Sales",
+        "role": "Manager-Product Development & Sales",
         "company": "CloodOn Inc, Enterprise Product & Service Provider: A SaaS Product- Bangalore",
         "location": null,
         "start": "April/17",
         "end": "Jan/21",
         "method": "date_regex+company_suffix_match",
+        "pre_date_header": [
+          "CloodOn Inc, Enterprise Product & Service Provider: A SaaS Product- Bangalore"
+        ],
         "duration_months": 46,
         "bullets": [
           "Led market research and competitive analysis on 20+ product assortments to realign product offerings for the online ed-tech market during Covid-19, resulting in 35% increase in ARR.",
@@ -192,12 +278,15 @@
         "source": "experience"
       },
       {
-        "role": "Senior Associate- Marketing",
+        "role": "Role: Senior Associate- Marketing",
         "company": "Think & Learn Pvt Ltd: Byju’s the learning App.- Bangalore",
         "location": null,
         "start": "Sep/15",
         "end": "April/17",
-        "method": "date_regex+subfield_label_role+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_company_above_role",
+        "pre_date_header": [
+          "Think & Learn Pvt Ltd: Byju’s the learning App.- Bangalore"
+        ],
         "duration_months": 20,
         "bullets": [
           "Led digital transformation of sales by implementing Ameyo and Lead Squared (CRM), optimizing workflows and enhancing customer engagement",
@@ -214,10 +303,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 10.2,
-      "total_months": 122,
+      "total_months": 123,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.81
+    "_confidence": 0.76
   },
   "education": {
     "entries": [
@@ -238,24 +327,13 @@
         "degree_type": "bachelors",
         "degree_field": null,
         "institution": "Symbiosis International University Pune",
-        "year": "2022",
+        "year": "2020",
         "gpa": "40%",
         "_needs_review": false,
         "_confidence": 0.95
-      },
-      {
-        "degree": "Recognition Link from the Bank’s MD for customer centricity",
-        "degree_name": "MD",
-        "degree_type": "masters",
-        "degree_field": null,
-        "institution": null,
-        "year": "2020",
-        "gpa": "96%",
-        "_needs_review": false,
-        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.9
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [
@@ -344,6 +422,11 @@
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "experience.jobs[2]",
       "confidence": 0.7,

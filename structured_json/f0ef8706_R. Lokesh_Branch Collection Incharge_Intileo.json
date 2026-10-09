@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f0ef8706_R. Lokesh_Branch Collection Incharge_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:45.139796+00:00",
+    "generated_at": "2026-10-07T09:28:48.382774+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -51,12 +51,16 @@
   "skills": {
     "items": [
       "MS Office",
+      "Room Database",
       "Scheme",
       "Tally"
     ],
     "by_category": {
       "productivity": [
         "MS Office"
+      ],
+      "database": [
+        "Room Database"
       ],
       "dev_tool": [
         "Scheme"
@@ -66,7 +70,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(room→Room Database(100%)) | flashtext_full_text_fallback"
   },
   "experience": {
     "jobs": [],
@@ -98,7 +102,7 @@
         "degree_field": null,
         "institution": "Gugai Hr. Sec. School State board",
         "year": "2017",
-        "gpa": "70%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -107,9 +111,9 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Gugai Hr. Sec. School State board",
+        "institution": "Salem Gugai Hr. Sec. School State board",
         "year": "Apr 2024 - Aug 2025",
-        "gpa": null,
+        "gpa": "70%",
         "_needs_review": false,
         "_confidence": 0.95
       }

@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/5e5aafaf_ae7b44f0_Digambar Singh_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Python AI \ ML NLP, LLMs RAG LangChain Django Fast API REST API MySQL
+PostgreSQL SQLite Django ORM Postman Git & GitHub Docker Redis AWS
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 145.04 ms
+Method         : flashtext_skills_section | fuzzy(LLMs→LLM(100%), RESTful APIs→REST(100%), PostgreSQL.→PostgreSQL(95%), API integration→API Design(100%))
+
+── All Skills (22) ──
+API Design, AWS, Code Reviews, Django, Docker, FastAPI, Git, GitHub, LLM, LangChain, Machine Learning, MySQL, NLP, PostgreSQL, Postman, Python, RAG, REST, REST API, Redis, SQLite, System Design
+
+── By Category ──
+  ai_ml                          ['Machine Learning', 'NLP']
+  architecture                   ['API Design', 'System Design']
+  cloud_infra                    ['AWS']
+  database                       ['MySQL', 'PostgreSQL', 'Redis', 'SQLite']
+  dev_tool                       ['Code Reviews', 'Git', 'GitHub', 'Postman']
+  devops                         ['Docker']
+  genai                          ['LLM', 'LangChain', 'RAG']
+  integration                    ['REST']
+  programming_language           ['Python']
+  web_framework                  ['Django', 'FastAPI', 'REST API']

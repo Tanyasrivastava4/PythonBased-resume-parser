@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f9d4b69e_f7afc661_Prakhar Srivastava_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:51.516922+00:00",
+    "generated_at": "2026-10-07T09:28:56.541003+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,14 +49,17 @@
     "items": [
       "Azure",
       "BeautifulSoup",
+      "Caching",
       "Celery",
       "ChromaDB",
       "Django",
+      "Django REST Framework",
       "Elasticsearch",
       "FastAPI",
       "Flask",
       "Generative AI",
       "HTML5",
+      "JSON Web Token",
       "JavaScript",
       "Keras",
       "LLM",
@@ -65,6 +68,8 @@
       "LangGraph",
       "LlamaIndex",
       "Machine Learning",
+      "Markdown",
+      "Microsoft Teams",
       "NLP",
       "NumPy",
       "OpenAI API",
@@ -73,6 +78,7 @@
       "Prompt Engineering",
       "Python",
       "RAG",
+      "REST",
       "REST API",
       "React",
       "Redis",
@@ -80,6 +86,7 @@
       "Sentence Transformers",
       "Tailwind CSS",
       "TensorFlow",
+      "Vector Databases",
       "scikit-learn"
     ],
     "by_category": {
@@ -88,6 +95,9 @@
       ],
       "library": [
         "BeautifulSoup"
+      ],
+      "architecture": [
+        "Caching"
       ],
       "data_engineering": [
         "Celery"
@@ -98,6 +108,7 @@
       ],
       "web_framework": [
         "Django",
+        "Django REST Framework",
         "FastAPI",
         "Flask",
         "HTML5",
@@ -115,7 +126,11 @@
         "OpenAI API",
         "Prompt Engineering",
         "RAG",
-        "Semantic Search"
+        "Semantic Search",
+        "Vector Databases"
+      ],
+      "security": [
+        "JSON Web Token"
       ],
       "programming_language": [
         "JavaScript",
@@ -131,13 +146,22 @@
         "TensorFlow",
         "scikit-learn"
       ],
+      "documentation": [
+        "Markdown"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "database": [
         "PostgreSQL",
         "Redis"
+      ],
+      "integration": [
+        "REST"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), LLMs→LLM(100%), Retrieval-Augmented Generation→RAG(100%), Generative→Generative AI(95%))"
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), JWT Authentication→JSON Web Token(100%), LLMs→LLM(100%), Retrieval-Augmented Generation→RAG(100%), Generative→Generative AI(95%))"
   },
   "experience": {
     "jobs": [
@@ -147,7 +171,10 @@
         "location": null,
         "start": "2024",
         "end": "2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Python Developer"
+        ],
         "duration_months": 13,
         "bullets": [
           "– Designed and developed RAG-based AI applications using LLaMA models, LangChain, LlamaIndex, and OpenAI APIs, enabling intelligent document retrieval over large repositories. – Built and maintained RESTful APIs using Django and Django REST Framework to serve AI features to frontend clients at scale. – Integrated Azure OCR and Document Parsing for automated text extraction from structured and unstructured documents. – Implemented semantic search pipelines using Sentence Transformers and vector databases, significantly improving query accuracy and response relevance. – Leveraged Redis and PostgreSQL for caching and persistent storage in high-throughput AI workflows; used JWT authentication for secure API access. – Collaborated with React.js frontend teams to deliver full-stack AI features including chat UIs, file upload handling, and markdown rendering."
@@ -184,14 +211,14 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Mata Kasturi Devi Public School Delhi",
+        "institution": "Mata Kasturi Devi Public School",
         "year": null,
         "gpa": "89%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.65
       }
     ],
-    "_confidence": 0.8
+    "_confidence": 0.73
   },
   "certifications": {
     "items": [],
@@ -202,8 +229,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.89
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "education",
+      "confidence": 0.73,
+      "reason": "low_confidence"
+    }
+  ]
 }

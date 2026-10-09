@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "49aebe6a_96814f41_MY LATEST WEBDEV RESUME_segmented.txt",
-    "generated_at": "2026-09-30T06:58:32.506764+00:00",
+    "generated_at": "2026-10-07T10:31:32.644331+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,6 +50,8 @@
       "Android",
       "Bootstrap",
       "CSS3",
+      "Collaboration",
+      "Coroutines Flow",
       "Express.js",
       "Git",
       "GitHub",
@@ -58,19 +60,24 @@
       "IntelliJ IDEA",
       "JavaScript",
       "Jupyter",
+      "LinkedIn",
       "Linux",
       "MERN Stack",
+      "Microsoft Teams",
       "Microsoft Windows",
       "MongoDB",
       "Node.js",
       "Postman",
       "Problem Solving",
       "Python",
+      "Quality Control",
       "React",
       "Redux",
+      "Reporting",
       "Tailwind CSS",
       "Ubuntu",
       "VS Code",
+      "Vercel",
       "WordPress"
     ],
     "by_category": {
@@ -82,11 +89,20 @@
         "CSS3",
         "Express.js",
         "HTML5",
+        "LinkedIn",
         "MERN Stack",
         "Node.js",
         "React",
         "Redux",
         "Tailwind CSS"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Problem Solving",
+        "Reporting"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "dev_tool": [
         "Git",
@@ -94,8 +110,7 @@
         "GitLab",
         "IntelliJ IDEA",
         "Jupyter",
-        "Postman",
-        "VS Code"
+        "Postman"
       ],
       "programming_language": [
         "JavaScript",
@@ -106,11 +121,20 @@
         "Microsoft Windows",
         "Ubuntu"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "database": [
         "MongoDB"
       ],
-      "soft_skill": [
-        "Problem Solving"
+      "engineering": [
+        "Quality Control"
+      ],
+      "tools": [
+        "VS Code"
+      ],
+      "cloud_infra": [
+        "Vercel"
       ],
       "content": [
         "WordPress"
@@ -127,8 +151,12 @@
         "location": "Gurgaon",
         "start": "August 2025",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 14,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Frontend Web Developer",
+          "ARM World Wide, Gurgaon"
+        ],
+        "duration_months": 15,
         "bullets": [
           "As a Frontend Developer at ARM Worldwide, I work on building and optimizing user friendly, responsive, and visually appealing web applications. My role focuses on transforming design concepts into seamless digital experiences using modern frontend technologies.",
           "Contributed to the CG Global project by designing responsive web pages using React and collaborating closely with the UI/UX and development teams.",
@@ -151,7 +179,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 1.2,
-      "total_months": 14,
+      "total_months": 15,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

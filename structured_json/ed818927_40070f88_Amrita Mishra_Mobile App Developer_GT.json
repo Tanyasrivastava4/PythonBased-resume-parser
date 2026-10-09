@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ed818927_40070f88_Amrita Mishra_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:41.200741+00:00",
+    "generated_at": "2026-10-07T09:28:43.157670+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -53,6 +53,7 @@
       "CSS3",
       "Dart",
       "Figma",
+      "Firebase",
       "Flutter",
       "GitHub",
       "GraphQL",
@@ -63,9 +64,13 @@
       "MySQL",
       "Next.js",
       "Node.js",
+      "Onboarding",
       "REST",
+      "REST API",
       "React",
       "React Native",
+      "Shopify",
+      "Speech-to-Text",
       "WebSockets"
     ],
     "by_category": {
@@ -83,28 +88,41 @@
         "Material UI",
         "Next.js",
         "Node.js",
+        "REST API",
         "React",
         "WebSockets"
       ],
-      "programming_language": [
-        "Dart",
-        "JavaScript"
+      "programming": [
+        "Dart"
       ],
       "design": [
         "Figma"
+      ],
+      "database": [
+        "Firebase",
+        "MySQL"
       ],
       "mobile": [
         "Flutter",
         "React Native"
       ],
+      "programming_language": [
+        "JavaScript"
+      ],
       "testing": [
         "Jest"
       ],
-      "database": [
-        "MySQL"
+      "hr": [
+        "Onboarding"
       ],
       "integration": [
         "REST"
+      ],
+      "retail": [
+        "Shopify"
+      ],
+      "ai_ml": [
+        "Speech-to-Text"
       ]
     },
     "_confidence": 0.92,
@@ -119,7 +137,11 @@
         "start": "09/2024",
         "end": "Present",
         "method": "date_regex+company_parens_role",
-        "duration_months": 25,
+        "pre_date_header": [
+          "SDE II (React Developer)",
+          "Scaleupally"
+        ],
+        "duration_months": 26,
         "bullets": [
           "AnyLearn – AI-based Learning Platform: Developed both mobile (React Native) and web (Next.js) applications integrating AI-driven REST APIs, featuring real-time data streaming , text- to-speech , and speech-to-text capabilities.",
           "CaretIQ Shopify & WooCommerce Integration: Enhanced e- commerce performance using React.js, Ant Design, GraphQL, and Strapi."
@@ -135,7 +157,11 @@
         "location": null,
         "start": "01/2022",
         "end": "07/2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Frontend Developer",
+          "InnoBit Systems Pvt Ltd"
+        ],
         "duration_months": 31,
         "bullets": [
           "Samarth Elder Care: Built a React-based admin panel, improving operations.",
@@ -170,7 +196,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 5.8,
-      "total_months": 69,
+      "total_months": 70,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.94

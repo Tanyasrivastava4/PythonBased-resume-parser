@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "03fe63a0_b1810f45_Nitin Kumar Jha_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:57:45.895618+00:00",
+    "generated_at": "2026-10-07T10:30:38.003373+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,6 +50,7 @@
       "Android",
       "Bloc",
       "Clean Architecture",
+      "Collaboration",
       "Dart",
       "E-commerce",
       "Express.js",
@@ -58,6 +59,7 @@
       "GetX",
       "Git",
       "GitHub",
+      "Google",
       "JUnit",
       "JavaScript",
       "MVC Architecture",
@@ -66,8 +68,13 @@
       "MongoDB",
       "Node.js",
       "Offline Sync",
+      "Payments",
       "Performance Optimization",
+      "Problem Solving",
       "REST API",
+      "Reliability",
+      "Route",
+      "SDLC",
       "SQLite",
       "State Management",
       "VS Code",
@@ -86,11 +93,17 @@
       "architecture": [
         "Clean Architecture",
         "MVVM",
+        "SDLC",
         "State Management"
       ],
-      "programming_language": [
-        "Dart",
-        "JavaScript"
+      "soft_skill": [
+        "Collaboration",
+        "Mentoring",
+        "Problem Solving",
+        "Reliability"
+      ],
+      "programming": [
+        "Dart"
       ],
       "retail": [
         "E-commerce"
@@ -103,23 +116,32 @@
       ],
       "database": [
         "Firebase",
+        "Google",
         "MongoDB",
         "SQLite"
       ],
       "dev_tool": [
         "Git",
         "GitHub",
-        "Performance Optimization",
-        "VS Code"
+        "Performance Optimization"
       ],
       "testing": [
         "JUnit"
       ],
+      "programming_language": [
+        "JavaScript"
+      ],
       "software_engineering": [
         "MVC Architecture"
       ],
-      "soft_skill": [
-        "Mentoring"
+      "domain": [
+        "Payments"
+      ],
+      "cloud_infra": [
+        "Route"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -133,8 +155,11 @@
         "location": "Jaipur",
         "start": "2024",
         "end": "PRESENT",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 33,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Engineer - SOFTSERV INC , Jaipur (Rajasthan)"
+        ],
+        "duration_months": 34,
         "bullets": [
           "Designed and developed feature-rich, cross-platform applications using Flutter and Dart.",
           "Delivered seamless user experiences with pixel-perfect UIs and efficient backend integrations.",
@@ -152,30 +177,33 @@
         "source": "experience"
       },
       {
-        "role": "Jr Flutter Developer - Appentus Technology Pvt. Ltd., Jaipur",
-        "company": "Developed and deployed 4+ projects from scratch to production on both Google",
-        "location": null,
+        "role": "Jr Flutter Developer",
+        "company": "Appentus Technology Pvt. Ltd",
+        "location": "Jaipur",
         "start": "May 2022",
         "end": "Nov 2023",
-        "method": "date_regex+title_dash_company",
+        "method": "date_regex+title_dash_company+multiline_dash_split",
+        "pre_date_header": [
+          "Jr Flutter Developer - Appentus Technology Pvt. Ltd., Jaipur"
+        ],
         "duration_months": 19,
         "bullets": [
           "Developed and deployed 4+ projects from scratch to production on both Google Play Store (Android) and Apple App Store (iOS), following the complete SDLC across multiple domains.",
           "Implemented advanced technologies such as Google Maps, live tracking, route creation with Polylines, local databases, Firebase Auth, notifications, deep links, and WebSockets."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.3,
-      "total_months": 52,
+      "total_years": 4.4,
+      "total_months": 53,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -199,10 +227,10 @@
         "year": "2017 - 2018",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -213,14 +241,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.94
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

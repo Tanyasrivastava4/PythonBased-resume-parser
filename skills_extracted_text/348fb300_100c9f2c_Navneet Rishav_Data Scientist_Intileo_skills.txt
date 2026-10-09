@@ -1,0 +1,37 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/348fb300_100c9f2c_Navneet Rishav_Data Scientist_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Programming & Tools: Python,C++, SQL, Linux, Git
+• Machine Learning: Supervised & Unsupervised Learning, Time-Series Forecasting, NLP, Model Training &
+Evaluation
+• GenAI: LLM Fundamentals,Embeddings & Vector Search, HuggingFace Transformers, Gradio, Prompt Engineering,
+RAG Architecture
+• Libraries & Frameworks: Pytorch, Scikit-learn, LangChain, LangGraph, VectorDatabse, Matplotlib, OpenCV
+• Backend & Systems: REST APIs, FastAPI, Django, Docker, AWS
+
+── Extraction Results ──
+Skills found   : 34
+Confidence     : 0.92
+Time           : 263.14 ms
+Method         : flashtext_skills_section | fuzzy(Unsupervised Learning→Machine Learning(100%), HuggingFace Transformers→Transformers(100%), Scikit-learn→scikit-learn(100%), RAG Pipelines→RAG(96%), preprocessing→Data Preprocessing(100%))
+
+── All Skills (34) ──
+AWS, C++, Cross-functional Collaboration, Data Preprocessing, Django, Docker, Embeddings, FastAPI, Generative AI, Git, GitHub, Gradio, LLM, LangChain, LangGraph, LinkedIn, Linux, Machine Learning, Matplotlib, Microsoft Teams, NLP, OpenCV, Prompt Engineering, PyTorch, Python, RAG, REST, REST API, SQL, Time Series Forecasting, Transformers, Vector Databases, Vector Search, scikit-learn
+
+── By Category ──
+  ai_ml                          ['Embeddings', 'Machine Learning', 'Matplotlib', 'NLP', 'OpenCV', 'PyTorch', 'Time Series Forecasting', 'scikit-learn']
+  cloud_infra                    ['AWS']
+  data_engineering               ['Data Preprocessing']
+  data_science                   ['Transformers']
+  database                       ['SQL']
+  dev_tool                       ['Git', 'GitHub', 'Gradio']
+  devops                         ['Docker']
+  genai                          ['Generative AI', 'LLM', 'LangChain', 'LangGraph', 'Prompt Engineering', 'RAG', 'Vector Databases', 'Vector Search']
+  integration                    ['REST']
+  os_system                      ['Linux']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['C++', 'Python']
+  soft_skill                     ['Cross-functional Collaboration']
+  web_framework                  ['Django', 'FastAPI', 'LinkedIn', 'REST API']

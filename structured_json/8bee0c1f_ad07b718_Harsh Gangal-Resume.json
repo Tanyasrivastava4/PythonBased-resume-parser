@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8bee0c1f_ad07b718_Harsh Gangal-Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:59:37.291334+00:00",
+    "generated_at": "2026-10-07T09:27:18.189432+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,10 +49,13 @@
       "Android",
       "Burp Suite",
       "CEH",
+      "Ethical Hacking",
       "Fortinet",
       "Frida",
       "ISMS",
       "IT Security",
+      "Import Export Code",
+      "JADX",
       "LinkedIn",
       "MobSF",
       "Network Security",
@@ -62,7 +65,9 @@
       "OWASP ZAP",
       "Penetration Testing",
       "Postman",
-      "VAPT"
+      "Secure Coding",
+      "VAPT",
+      "Vulnerability Remediation"
     ],
     "by_category": {
       "testing": [
@@ -83,11 +88,20 @@
         "Penetration Testing",
         "VAPT"
       ],
+      "cybersecurity": [
+        "Ethical Hacking",
+        "JADX",
+        "Secure Coding",
+        "Vulnerability Remediation"
+      ],
       "security": [
         "Fortinet",
         "IT Security",
         "Nikto",
         "Nmap"
+      ],
+      "operations": [
+        "Import Export Code"
       ],
       "web_framework": [
         "LinkedIn"
@@ -107,8 +121,12 @@
         "location": null,
         "start": "March 2026",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 7,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Rah Infotech Pvt Ltd",
+          "Technical Engineer"
+        ],
+        "duration_months": 8,
         "bullets": [
           "Conducted advanced penetration testing on web apps, APIs, networks, and mobile platforms, and led vulnerability assessments to identify and remediate security weaknesses, strengthening overall product security."
         ],
@@ -123,7 +141,11 @@
         "location": "Noida",
         "start": "July 2023",
         "end": "Feb 2026",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Allied Boston Consultants, Noida",
+          "Cyber Security Engineer"
+        ],
         "duration_months": 32,
         "bullets": [
           "Conducted advanced penetration testing across multiple platforms, including web applications, APIs, network devices, and mobile applications, ensuring the integrity of the company's product suite.",
@@ -140,7 +162,11 @@
         "location": null,
         "start": "Apr 2022",
         "end": "Dec 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Cyber Smith Secure",
+          "VAPT Intern"
+        ],
         "duration_months": 9,
         "bullets": [
           "Conduct penetration testing on assigned infrastructure tasks to identify security vulnerabilities.",
@@ -157,7 +183,11 @@
         "location": "India",
         "start": "May 2021",
         "end": "Aug 2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict+comma_company_location",
+        "pre_date_header": [
+          "Hack-X Security, India",
+          "Penetration Tester Intern"
+        ],
         "duration_months": 4,
         "bullets": [
           "Performed static and dynamic analysis of web applications to identify potential system vulnerabilities resulting from improper configurations or software flaws."
@@ -170,8 +200,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.3,
-      "total_months": 52,
+      "total_years": 4.4,
+      "total_months": 53,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

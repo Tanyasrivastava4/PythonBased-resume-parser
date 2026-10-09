@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "5e5aafaf_ae7b44f0_Digambar Singh_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:46.575949+00:00",
+    "generated_at": "2026-10-07T10:31:52.486365+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,6 +49,7 @@
     "items": [
       "API Design",
       "AWS",
+      "Code Reviews",
       "Django",
       "Docker",
       "FastAPI",
@@ -66,15 +67,25 @@
       "REST",
       "REST API",
       "Redis",
+      "Reliability",
       "SQLite",
+      "Speech-to-Text",
+      "System Design",
       "Text-to-Speech"
     ],
     "by_category": {
       "architecture": [
-        "API Design"
+        "API Design",
+        "System Design"
       ],
       "cloud_infra": [
         "AWS"
+      ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "Postman"
       ],
       "web_framework": [
         "Django",
@@ -84,11 +95,6 @@
       "devops": [
         "Docker"
       ],
-      "dev_tool": [
-        "Git",
-        "GitHub",
-        "Postman"
-      ],
       "genai": [
         "LLM",
         "LangChain",
@@ -97,6 +103,7 @@
       "ai_ml": [
         "Machine Learning",
         "NLP",
+        "Speech-to-Text",
         "Text-to-Speech"
       ],
       "database": [
@@ -110,21 +117,27 @@
       ],
       "integration": [
         "REST"
+      ],
+      "soft_skill": [
+        "Reliability"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(LLMs→LLM(100%), RESTful APIs→REST(100%), PostgreSQL.→PostgreSQL(95%), API integration→API Design(100%))"
+    "_method": "flashtext_skills_section | fuzzy(LLMs→LLM(100%), RESTful APIs→REST(100%), PostgreSQL.→PostgreSQL(95%), API integration→API Design(100%), reliability→Reliability(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Lead team to develope voicebot and guide them through owning system design, code review &",
-        "company": "Keyanna Tech Pyt. Ltd",
+        "role": "Lead team to develope voicebot and guide them through owning system design",
+        "company": "code review &",
         "location": null,
         "start": "Sep 2025",
         "end": "Present",
-        "method": "date_regex+company_suffix_match",
-        "duration_months": 13,
+        "method": "date_regex",
+        "pre_date_header": [
+          "Keyanna Tech Pyt. Ltd."
+        ],
+        "duration_months": 14,
         "bullets": [
           "Lead team to develope voicebot and guide them through owning system design, code review & developed workflow."
         ],
@@ -132,32 +145,15 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "Tsyn Pvt. Ltd",
-        "location": null,
-        "start": "Aug 2024",
-        "end": "Aug 2025",
-        "method": "date_regex+company_suffix_match",
-        "duration_months": 13,
-        "bullets": [
-          "Developing and maintaining Django-based backend systems with a focus on REST API optimization and scalability.",
-          "Use MySQL for store data so write code to maintain data also use Djando ORM for getting data from database"
-        ],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.2,
-      "total_months": 26,
+      "total_years": 1.2,
+      "total_months": 14,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.92
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -184,14 +180,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

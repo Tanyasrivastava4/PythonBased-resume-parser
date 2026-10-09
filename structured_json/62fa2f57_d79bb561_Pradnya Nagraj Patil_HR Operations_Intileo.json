@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "62fa2f57_d79bb561_Pradnya Nagraj Patil_HR Operations_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:00.324862+00:00",
+    "generated_at": "2026-10-07T09:26:39.960938+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,30 +47,58 @@
   "summary": "Detail-oriented MBA (HR) graduate with hands-on experience in HR Operations. Skilled in\nemployee lifecycle management, payroll coordination, compliance documentation, and\nHRMS handling. Seeking an HR Operations role where I can contribute to efficient HR\nprocesses and employee experience.",
   "skills": {
     "items": [
+      "Absconding Notices",
       "Attention to Detail",
       "Communication",
       "Data Management",
+      "ESIC",
+      "Employee Lifecycle Management",
+      "Exit Formalities",
+      "F&F Settlement",
+      "Form 16",
       "HR Management",
+      "HRMS",
+      "Logistics",
+      "Mail Merge",
       "Microsoft Excel",
+      "Microsoft Teams",
       "Onboarding",
       "Payroll Administration",
+      "Procurement",
       "Recruitment",
+      "Salary Structure",
       "VLOOKUP"
     ],
     "by_category": {
+      "hr": [
+        "Absconding Notices",
+        "ESIC",
+        "Employee Lifecycle Management",
+        "F&F Settlement",
+        "Form 16",
+        "HR Management",
+        "HRMS",
+        "Onboarding",
+        "Payroll Administration",
+        "Recruitment",
+        "Salary Structure"
+      ],
       "soft_skill": [
         "Attention to Detail",
         "Communication"
       ],
       "productivity": [
         "Data Management",
-        "Microsoft Excel"
+        "Mail Merge",
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
-      "hr": [
-        "HR Management",
-        "Onboarding",
-        "Payroll Administration",
-        "Recruitment"
+      "hr_recruitment": [
+        "Exit Formalities"
+      ],
+      "operations": [
+        "Logistics",
+        "Procurement"
       ],
       "office": [
         "VLOOKUP"
@@ -82,13 +110,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Professional Work HR Operations Intern",
+        "role": "HR Operations Intern",
         "company": "BGR Logistics",
         "location": null,
         "start": "Apr 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 18,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Professional Work"
+        ],
+        "duration_months": 19,
         "bullets": [
           "Managed end-to-end onboarding including joining documentation, ID card requests, access creation, and employee induction.",
           "Handled Full & Final (F&F) settlements and maintained employee clearance records.",
@@ -115,8 +146,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.5,
-      "total_months": 18,
+      "total_years": 1.6,
+      "total_months": 19,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -124,11 +155,22 @@
   "education": {
     "entries": [
       {
+        "degree": "• Bachelor Of Management Studies | Human Resource Management | Mumbai University |",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "Singhania University",
+        "year": "2021",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
         "degree": "• HSC | Maharashtra State Board | 2018",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Singhania University",
+        "institution": "Mumbai University",
         "year": "2018",
         "gpa": null,
         "_needs_review": false,

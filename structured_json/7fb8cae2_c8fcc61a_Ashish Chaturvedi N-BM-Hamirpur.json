@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7fb8cae2_c8fcc61a_Ashish Chaturvedi N-BM-Hamirpur_segmented.txt",
-    "generated_at": "2026-09-30T06:59:25.869131+00:00",
+    "generated_at": "2026-10-07T09:27:04.003232+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -51,21 +51,42 @@
   "summary": "To be at responsible position in organization where skill, knowledgeand\na an my\nexperience be converted into the organizations growth, profitability and self\ncan\ndevelopment.",
   "skills": {
     "items": [
+      "Aadhaar Integration",
+      "Agency Management",
       "Auditing",
+      "Cash Handling",
       "Identity Management",
+      "Inventory Management",
       "KPI",
       "MS Office",
       "Microsoft Windows",
       "Recruitment",
       "Responsible AI",
-      "SOP"
+      "Room Database",
+      "SOP",
+      "Sales Reporting",
+      "Shift Operations"
     ],
     "by_category": {
+      "integration": [
+        "Aadhaar Integration"
+      ],
+      "management": [
+        "Agency Management"
+      ],
       "finance_ops": [
         "Auditing"
       ],
+      "finance": [
+        "Cash Handling"
+      ],
       "security": [
         "Identity Management"
+      ],
+      "operations": [
+        "Inventory Management",
+        "SOP",
+        "Shift Operations"
       ],
       "business_analysis": [
         "KPI"
@@ -82,25 +103,86 @@
       "genai": [
         "Responsible AI"
       ],
-      "operations": [
-        "SOP"
+      "database": [
+        "Room Database"
+      ],
+      "sales": [
+        "Sales Reporting"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(responsible→Responsible AI(95%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(responsible→Responsible AI(95%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "6) Currently Working Senior Agency Development Manager in MaxLife",
-        "company": "as a Insurance Kanpur from",
+        "role": "1) in UIDAI  Center head incharge in Viesa Technologies",
+        "company": "Joined the industry A part of SRS Group, this Cinema industry of the fastestgrowing",
+        "location": null,
+        "start": null,
+        "end": "2 Years",
+        "method": "stated_duration_regex+title_dict",
+        "duration_months": 24,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.65,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "3) SRS Cinemas-Duty Manager",
+        "company": "Joined the industry A part of SRS Group, this Cinema industry of the fastestgrowing",
+        "location": null,
+        "start": null,
+        "end": null,
+        "method": "title_dict_strong",
+        "duration_months": 0,
+        "bullets": [
+          "Joined the industry A part of SRS Group, this Cinema industry of the fastestgrowing one industry in India SRS is the of top 5 cinema industry in India. now one Responsibilities: Taking of the entire shift operational activities. e care Brief and all ESP staff Daily basis. ° manage on Managing inventory.",
+          "Increasing by of suggestive selling / e revenue means up selling / upgrading etc Working hand in hand with booking and ensuring smooth operations.",
+          "Handling Cash Of All ESP On Daily Basis and Maintain My Cash safe.",
+          "Screening all the of property. areas Ensuring all the standard operating procedure is followed and adhered to Operator.",
+          "Night Auditing & Day Auditing.",
+          "Handling all inward and outward Stock.",
+          "Order and keep eatable material daily.",
+          "Composing and sending reports such Daily Sales Report, Monthly SalesReport, Business Flash Report, Kiosk Sale Report, Daily KPI.",
+          "Handling all booking query on phone and e-mail.",
+          "Check and update the Current Screening Schedule and VIP’s/VVIP's booking ondaily basis.",
+          "Handling correspondence, confirm wait list or regret.",
+          "Handling all calls, e-mails, fax, messages, parcels and complaints of guests and enquiring guest satisfaction Coordination with other departments for maximum guest satisfaction and comfort.",
+          "Check and update all the register/records/slip/Bills daily basis. on Check all the stationeries and keep satisfactory par stock of the same.",
+          "Constantly update room rack/reservation rack/information rack.",
+          "Watch the all guest activities, maintain the privacy of all the guest’s and Cinema’s.",
+          "A complete understanding of the Cinema policies and procedures and service standards and detail knowledge of the Cinema facilities and happenings."
+        ],
+        "sub_sections": [],
+        "confidence": 0.5,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "5) Sales Executive in Nutnbolt Infra Pvt.Ltd Kanpur",
+        "company": null,
+        "location": null,
+        "start": null,
+        "end": "3 Months",
+        "method": "stated_duration_regex+title_dict_strong",
+        "duration_months": 3,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.65,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "6) Currently Working Senior Agency Development Manager in MaxLife Insurance Kanpur",
+        "company": "Archivments",
         "location": "",
         "start": "29 July 2019",
         "end": "Present",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 87,
         "bullets": [
-          "Job Roll- Recruitment and Development of Agency.",
           "Quality Recruitment in month in Jan 2020 a Qualified 2 times Coach of the Batch in April and May 2020 Qualified Regional Coach of the Batch in May 2020 Qualified Regional Lakhpati Manager in I Quarter (AMJ) Qualified Star of the Quarter in (AMJ)"
         ],
         "sub_sections": [
@@ -175,11 +257,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 14.4,
-      "total_months": 172,
+      "total_years": 16.7,
+      "total_months": 200,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.92
+    "_confidence": 0.8
   },
   "education": {
     "entries": [
@@ -204,6 +286,17 @@
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
+      },
+      {
+        "degree": "C.S. J. M.University\tBatchler of Art's\tCSJIMU\t2007-10",
+        "degree_name": "B.A.",
+        "degree_type": "bachelors",
+        "degree_field": null,
+        "institution": "C.S. J. M. University CSJIMU",
+        "year": "2007",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
       }
     ],
     "_confidence": 0.95
@@ -217,8 +310,24 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.9
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.65,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.5,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.65,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

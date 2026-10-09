@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b105f152_cd3fe690_Anmolpreet Singh_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:05.110991+00:00",
+    "generated_at": "2026-10-07T09:27:55.583054+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,34 +47,73 @@
   "skills": {
     "items": [
       "AWS",
+      "Agentic AI",
+      "Algorithmic Trading",
       "Apache Airflow",
+      "B2B Sales",
       "BigQuery",
+      "C++",
+      "Caching",
+      "Data Pipeline",
+      "Drawdown Analysis",
+      "ETL",
       "Elasticsearch",
       "FastAPI",
       "GCS",
+      "GPT",
+      "GitLab CI",
+      "Google Workspace",
       "Hugging Face",
+      "LLM",
+      "Linear Regression",
       "LinkedIn",
+      "Logistic Regression",
+      "MCP Server",
       "Machine Learning",
+      "Microsoft Teams",
       "MongoDB",
+      "Multi-Tenancy",
       "NLP",
+      "Observability",
+      "Onboarding",
       "Pandas",
       "PostgreSQL",
       "Python",
+      "RAG",
       "Redis",
       "Redshift",
       "SQL",
       "SQLite",
+      "Salesforce",
       "Snowflake",
       "Streamlit",
-      "Terraform"
+      "Terraform",
+      "Time Management",
+      "Underwriting"
     ],
     "by_category": {
       "cloud_infra": [
         "AWS",
         "GCS"
       ],
+      "genai": [
+        "Agentic AI",
+        "Hugging Face",
+        "LLM",
+        "MCP Server",
+        "RAG"
+      ],
+      "finance": [
+        "Algorithmic Trading",
+        "Drawdown Analysis"
+      ],
       "data_engineering": [
-        "Apache Airflow"
+        "Apache Airflow",
+        "Data Pipeline",
+        "ETL"
+      ],
+      "sales": [
+        "B2B Sales"
       ],
       "database": [
         "BigQuery",
@@ -86,6 +125,14 @@
         "SQLite",
         "Snowflake"
       ],
+      "programming_language": [
+        "C++",
+        "Python"
+      ],
+      "architecture": [
+        "Caching",
+        "Multi-Tenancy"
+      ],
       "search": [
         "Elasticsearch"
       ],
@@ -93,22 +140,39 @@
         "FastAPI",
         "LinkedIn"
       ],
-      "genai": [
-        "Hugging Face"
-      ],
       "ai_ml": [
+        "GPT",
+        "Logistic Regression",
         "Machine Learning",
         "NLP",
         "Pandas"
       ],
-      "programming_language": [
-        "Python"
+      "devops": [
+        "GitLab CI",
+        "Observability",
+        "Terraform"
+      ],
+      "productivity": [
+        "Google Workspace",
+        "Microsoft Teams"
+      ],
+      "data_science": [
+        "Linear Regression"
+      ],
+      "hr": [
+        "Onboarding"
+      ],
+      "integration": [
+        "Salesforce"
       ],
       "dev_tool": [
         "Streamlit"
       ],
-      "devops": [
-        "Terraform"
+      "soft_skill": [
+        "Time Management"
+      ],
+      "finance_strategy": [
+        "Underwriting"
       ]
     },
     "_confidence": 0.92,
@@ -117,30 +181,36 @@
   "experience": {
     "jobs": [
       {
-        "role": "SR. AI/DATA ENGINEER | Agnie Consulting",
-        "company": null,
-        "location": "Agnie Consulting (Client: Abcam Limited, UK",
+        "role": "SR. AI/DATA ENGINEER",
+        "company": "Agnie Consulting",
+        "location": null,
         "start": "Jan’25",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 21,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "SR. AI/DATA ENGINEER | Agnie Consulting (Client: Abcam Limited, UK)"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Engineered production-grade, multi-tenant AI lead-generation solutions on AWS Fargate using Python, Snowflake and Terraform, reducing onboarding time for global business units by ~75% o Delivered Salesforce-ready data (SFDC) enabling direct lead activation, conversion tracking, and analytics",
           "Architected and packaged a reusable AI lead scoring framework in Python, exposing a unified interface adopted across multiple AI lead-generation applications o Versioned and distributed via GitLab CI pipelines to enable controlled releases and consistent rollout",
           "Designed an agentic AI system hosted on MCP server to autonomously discover, qualify, and ingest tender data from external websites using keyword-driven filtering, enabling sales teams to query and derive insights"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "SR. DATA ANALYST | FischerJordan",
-        "company": null,
-        "location": "FischerJordan",
+        "role": "SR. DATA ANALYST",
+        "company": "FischerJordan",
+        "location": null,
         "start": "Jan’24",
         "end": "Dec’24",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "SR. DATA ANALYST | FischerJordan"
+        ],
         "duration_months": 12,
         "bullets": [
           "Improved system efficiency by creating pipeline to integrate diverse data sources (CSVs, JSONs, APIs) into BigQuery database with 150M+ rows for real estate enrichment analysis using SQL and Python transformations",
@@ -148,17 +218,20 @@
           "Created ML-based investment strategy model using 50+ parameters, achieving consistent returns in back test o Implemented robust algorithmic trading code in Python to paper trade the strategy in Indian equity market o Automated tracking dashboard for strategy using Streamlit and Google Sheets to analyse the trades analytics"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| FischerJordan",
-        "company": null,
-        "location": "FischerJordan",
+        "role": "DATA ANALYST",
+        "company": "FischerJordan",
+        "location": null,
         "start": "Mar’23",
         "end": "Jan’24",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "DATA ANALYST | FischerJordan"
+        ],
         "duration_months": 11,
         "bullets": [
           "Orchestrated implementation of chatbot leveraging LLMs to streamline interactions with structured data o Developed and curated training datasets to fine-tune OpenAI GPT-3.5 for chatbot’s conversational module o Engineered robust ETL pipelines, transforming data from Redshift SQL to Elasticsearch on AWS infrastructure o Executed RAG model for semantic caching, optimizing data retrieval efficiency and responsiveness in product o Implemented template-based responses & data manipulating techniques, resulting in 6x faster bot response",
@@ -167,32 +240,37 @@
           "Organized and led a python training on Linear Regression and Logistic Regression to improve team capabilities"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "| Suzlon Energy Ltd",
-        "company": "Recognized with an A+ (highest rating), for outstanding performance, being the sole recipient in the joining batch",
-        "location": "Suzlon Energy Ltd",
+        "role": "ASSISTANT MANAGER",
+        "company": "Suzlon Energy Ltd",
+        "location": null,
         "start": "Sept’21",
         "end": "Mar’23",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "ASSISTANT MANAGER | Suzlon Energy Ltd"
+        ],
         "duration_months": 19,
-        "bullets": [],
+        "bullets": [
+          "Recognized with an A+ (highest rating), for outstanding performance, being the sole recipient in the joining batch"
+        ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.1,
-      "total_months": 61,
+      "total_years": 5.2,
+      "total_months": 62,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.81
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -230,29 +308,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

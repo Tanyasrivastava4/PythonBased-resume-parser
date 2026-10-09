@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "7df45244_Aditya Mishra -CV.doc.-1_segmented.txt",
-    "generated_at": "2026-09-30T06:59:24.870985+00:00",
+    "generated_at": "2026-10-07T09:27:02.775524+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -52,21 +52,43 @@
       "4M",
       "5 Whys",
       "5S",
+      "7 QC Tools",
       "7 Wastage",
       "Analytical Thinking",
+      "Bill of Materials",
       "CAPA",
       "Communication",
       "Continuous Improvement",
+      "Coroutines Flow",
+      "Critical to Quality",
+      "Customer Simulation Analysis",
+      "Daily Process Inspection Report",
+      "Data Analysis",
+      "First Pass Yield",
+      "Incoming Quality Control",
+      "Internal Audit",
       "Kaizen",
+      "Line Quality Control",
+      "Make",
       "Mechanical Engineering",
+      "OS&D",
       "Objective C",
+      "One Point Lesson",
       "Organization Skills",
+      "Out of Box Audit",
+      "Outgoing Quality Control",
       "Poka-Yoke",
       "Process Audit",
+      "Process Improvement",
+      "Process Quality Control",
+      "Quality Assurance",
+      "Quality Control",
       "Resource Optimization",
       "Responsible AI",
       "Team Building & Coordination",
-      "Time Management"
+      "Time Management",
+      "Visual Inspection",
+      "Work Instructions"
     ],
     "by_category": {
       "operations": [
@@ -78,9 +100,27 @@
         "CAPA",
         "Continuous Improvement",
         "Kaizen",
+        "OS&D",
         "Poka-Yoke",
         "Process Audit",
+        "Process Improvement",
+        "Quality Assurance",
         "Resource Optimization"
+      ],
+      "quality": [
+        "7 QC Tools",
+        "Critical to Quality",
+        "Customer Simulation Analysis",
+        "Daily Process Inspection Report",
+        "First Pass Yield",
+        "Incoming Quality Control",
+        "Line Quality Control",
+        "One Point Lesson",
+        "Out of Box Audit",
+        "Outgoing Quality Control",
+        "Process Quality Control",
+        "Visual Inspection",
+        "Work Instructions"
       ],
       "soft_skill": [
         "Analytical Thinking",
@@ -89,8 +129,24 @@
         "Team Building & Coordination",
         "Time Management"
       ],
+      "manufacturing": [
+        "Bill of Materials"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "data_science": [
+        "Data Analysis"
+      ],
+      "accounting": [
+        "Internal Audit"
+      ],
+      "rpa": [
+        "Make"
+      ],
       "engineering": [
-        "Mechanical Engineering"
+        "Mechanical Engineering",
+        "Quality Control"
       ],
       "programming_language": [
         "Objective C"
@@ -105,13 +161,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Xiaomi Technology India Privet Limited , as a OBA Engineer, from",
-        "company": "Xiaomi technology (Noida). Since",
+        "role": "OBA Engineer",
+        "company": "Presently, I am working with Xiaomi technology",
         "location": null,
         "start": "Aug 2024",
         "end": "Present",
-        "method": "date_regex+with_as_split",
-        "duration_months": 26,
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Xiaomi Technology India Privet Limited (NOIDA)"
+        ],
+        "duration_months": 27,
         "bullets": [
           "Responsible for OBA lot Verification as well as label verification and audit",
           "Responsible for OBA weekly and monthly report maintain and summit to Manager",
@@ -147,31 +206,17 @@
         ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": false,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Quality Engineer",
-        "company": "Transsion holding (NOIDA",
-        "location": null,
-        "start": null,
-        "end": "1.5 Years",
-        "method": "stated_duration_regex+worked_as_role_in_company",
-        "duration_months": 18,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.8,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "as a Process Quality Engineer, from",
-        "company": "Key Responsibility",
+        "role": "Process Quality Engineer",
+        "company": "Transsion holding",
         "location": null,
         "start": "March 2023",
         "end": "July 2024",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 17,
+        "method": "stated_duration_regex+worked_as_role_in_company",
+        "duration_months": 18,
         "bullets": [
           "Implementation of quality tools & continuous improvement activities to improve the product quality.",
           "Good Knowledge of PQC documentation.",
@@ -206,36 +251,19 @@
           "Responsible for DPIR (Daily Process Inspection Report) Finishing Line. Planning for QUALITY INSPECTION according to the production.",
           "Basic Knowledge of Quality tools..i.e.5’s, Poka Yoke, kaizen, 7QCtools."
         ],
-        "sub_sections": [
-          "Responsibility:-"
-        ],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "company": "Transsion Holding",
-        "role": "Experience",
-        "start": null,
-        "end": null,
-        "location": null,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.9,
-        "needs_review": false,
-        "source": "stated_duration",
-        "method": "stated_duration",
-        "duration_years": 5.0,
-        "duration_months": 60
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.1,
-      "total_months": 121,
+      "total_years": 3.7,
+      "total_months": 44,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.91
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -246,7 +274,7 @@
         "degree_field": "ECE",
         "institution": "ECE PK University",
         "year": "2024",
-        "gpa": "73%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
@@ -257,7 +285,7 @@
         "degree_field": null,
         "institution": "Tulasi Inter College",
         "year": "2020",
-        "gpa": null,
+        "gpa": "73%",
         "_needs_review": false,
         "_confidence": 0.95
       }
@@ -273,8 +301,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.95
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[0]",
+      "confidence": 0.98,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

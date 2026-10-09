@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b295aa18_8ee473cd_Prashant Balu lalge_AM-CyberSecurity_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:05.850899+00:00",
+    "generated_at": "2026-10-07T09:27:56.552846+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,28 +48,74 @@
   "skills": {
     "items": [
       "CEH",
+      "Check Point",
+      "Correlation Rules",
       "Cryptography",
+      "IBM QRadar",
+      "IT Audit",
+      "Identity Management",
       "Information Security",
+      "LinkedIn",
+      "Mechanical Engineering",
+      "Microsoft Windows",
+      "MySQL",
+      "Oracle Database",
       "Phishing",
       "Proxy",
       "Redmine",
+      "Reporting",
       "SIEM",
-      "SentinelOne"
+      "SentinelOne",
+      "Threat Hunting",
+      "Trend Analysis",
+      "Trend Micro",
+      "User Access Review",
+      "Zscaler"
     ],
     "by_category": {
       "security_ops": [
         "CEH",
+        "Check Point",
         "Cryptography",
         "Phishing",
         "Proxy",
-        "SIEM"
+        "SIEM",
+        "Threat Hunting"
       ],
       "security": [
+        "Correlation Rules",
+        "IBM QRadar",
+        "IT Audit",
+        "Identity Management",
         "Information Security",
-        "SentinelOne"
+        "SentinelOne",
+        "Trend Micro",
+        "Zscaler"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "engineering": [
+        "Mechanical Engineering"
+      ],
+      "os_system": [
+        "Microsoft Windows"
+      ],
+      "database": [
+        "MySQL",
+        "Oracle Database"
       ],
       "project_mgmt": [
         "Redmine"
+      ],
+      "soft_skill": [
+        "Reporting"
+      ],
+      "data_science": [
+        "Trend Analysis"
+      ],
+      "compliance": [
+        "User Access Review"
       ]
     },
     "_confidence": 0.92,
@@ -78,13 +124,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "DESIGNATION | Deputy Manager-Security Operation Center",
+        "role": "EURONET SERVICES INDIA PVT LTD",
         "company": "the date",
-        "location": "EURONET SERVICES INDIA PVT LTD",
+        "location": null,
         "start": "August 2017",
         "end": "Present",
-        "method": "date_regex+company_suffix_match",
-        "duration_months": 110,
+        "method": "date_regex+pipe_split_header",
+        "duration_months": 111,
         "bullets": [
           "Unknown - DESIGNATION | Deputy Manager-Security Operation Center Key Result Areas:",
           "Working in Security Operation Centre (24x7), monitoring of SOC events, detecting, and preventing the Intrusion attempts. Monitoring and analyzing real- time events using SIEM tools and responding to infrastructure threats. Collecting the logs of all the network devices and analyses the logs to find the suspicious activities. Analysis of bank threat hunting across all IT assets and providing trend analysis reports on daily basis, monthly basis, and quarterly basis to customer. Collecting the logs of all the network devices and analyses the logs to find the suspicious activities. Coordination with support team to define various Use-cases and fine tune existing correlation rules to reduce false positive tickets and configure the various Log sources/multiple devices, setting up Dashboard with SIEM. Event source Integration for SIEM environment like (Cisco’s, checkpoint, Oracle dB, Windows, Solaris, MySQL, PIM, MacAfee). Analyzing the raw log & Meta value from the respond engine and handling the incident till the closure. Investigation, Analysis, Reporting and Escalations of Security Events from SIEM tool QRADAR. Forensic Investigation of Phishing alert & Cloud alerts for Global Soc. Basic Troubleshooting of Inactive Devices & Servers. Whitelisting URLs and Domain Blocking, Bypass Domain observe on Zscaler Proxy. Handling Privilege Access Management tool ARCOS for centralized session management.",
@@ -100,7 +146,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 9.2,
-      "total_months": 110,
+      "total_months": 111,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -108,7 +154,7 @@
   "education": {
     "entries": [
       {
-        "degree": "• Bachelor of Science in Information Technology from Mumbai University",
+        "degree": "• Bachelor of Science in Information Technology",
         "degree_name": "B.Sc",
         "degree_type": "bachelors",
         "degree_field": "Information Technology from Mumbai University",
@@ -119,7 +165,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• HSC from Maharashtra state board",
+        "degree": "• HSC",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
@@ -130,7 +176,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• SSC from Maharashtra state board",
+        "degree": "• SSC",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,

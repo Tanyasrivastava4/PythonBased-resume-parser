@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3bb7e171_Anurag Sharma_PHP Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:20.112481+00:00",
+    "generated_at": "2026-10-07T10:31:17.930234+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -61,15 +61,16 @@
       "Java",
       "JavaScript",
       "Laravel",
+      "LinkedIn",
       "MVC Architecture",
       "Markdown",
       "Microsoft Teams",
       "Multithreading",
       "PHP",
       "Query Optimization",
+      "RBAC",
       "REST",
       "Reporting",
-      "Role-Based Access Control",
       "SDLC",
       "SQL",
       "Tailwind CSS",
@@ -81,12 +82,15 @@
       "project_mgmt": [
         "Agile"
       ],
+      "web_dev": [
+        "Axios"
+      ],
       "web_framework": [
-        "Axios",
         "Bootstrap",
         "CSS3",
         "HTML5",
         "Laravel",
+        "LinkedIn",
         "Tailwind CSS",
         "Yii",
         "jQuery"
@@ -131,11 +135,11 @@
         "Query Optimization",
         "SQL"
       ],
+      "security": [
+        "RBAC"
+      ],
       "integration": [
         "REST"
-      ],
-      "security_ops": [
-        "Role-Based Access Control"
       ],
       "content": [
         "WordPress"
@@ -152,8 +156,11 @@
         "location": null,
         "start": "August 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 14,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Developer, Globohub Slx – Meerut"
+        ],
+        "duration_months": 15,
         "bullets": [
           "Developed core backend features including order processing, currency handling, coupons, and pricing rules",
           "Built and integrated admin panel functionalities such as product, category, order, user, and coupon management.",
@@ -172,7 +179,10 @@
         "location": null,
         "start": "July 2024",
         "end": "May 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Developer, Samarth Egov – New Delhi"
+        ],
         "duration_months": 11,
         "bullets": [
           "Developed and maintained web applications using PHP (Yii2 Framework) and SQL, contributing across the full software development lifecycle.",
@@ -180,7 +190,8 @@
           "Optimized application performance and page speed using caching, query optimization.",
           "Built full-stack features by designing and integrating front-end (HTML, CSS, JavaScript), back-end logic (PHP), and database schemas SQL.",
           "Explored and implemented advanced features like Job Queues and Dynamic PDF generation for large-scale reporting.",
-          "Worked in agile teams, collaborating with designers, testers, and backend engineers to deliver high-quality, scalable software within deadlines."
+          "Worked in agile teams, collaborating with designers, testers, and backend engineers to deliver high-quality, scalable software within deadlines.",
+          "Completed 6 weeks of Core JAVA training by submitting the capstone project on JAVA."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -193,7 +204,10 @@
         "location": null,
         "start": "Jan 2023",
         "end": "July 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Software Engineer, Thinkway Industries Pvt Ltd – New Delhi"
+        ],
         "duration_months": 19,
         "bullets": [
           "Collaborated in a team to build a healthcare web application allowing patients to book appointments and doctors to manage medical records, using PHP with SQL for the backend.",
@@ -212,31 +226,15 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
-      },
-      {
-        "role": null,
-        "company": "CERTIFICATES",
-        "location": null,
-        "start": "July 2022",
-        "end": "August 2022",
-        "method": "date_regex",
-        "duration_months": 2,
-        "bullets": [
-          "Completed 6 weeks of Core JAVA training by submitting the capstone project on JAVA."
-        ],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.8,
-      "total_months": 45,
+      "total_years": 3.7,
+      "total_months": 44,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.95
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -285,14 +283,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.94
+    "overall": 0.95
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

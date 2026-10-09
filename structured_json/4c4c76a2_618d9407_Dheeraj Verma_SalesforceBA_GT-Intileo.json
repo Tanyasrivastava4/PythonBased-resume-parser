@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4c4c76a2_618d9407_Dheeraj Verma_SalesforceBA_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:34.940207+00:00",
+    "generated_at": "2026-10-07T10:31:36.214447+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -48,19 +48,53 @@
   "summary": null,
   "skills": {
     "items": [
+      "Android",
+      "Change Management",
+      "Cold Calling",
       "Confluence",
+      "Customer Relationship Management",
       "Data Management",
+      "Express.js",
+      "Go",
       "Jira",
+      "LinkedIn",
       "Lucidchart",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
+      "Mobile Application Development",
+      "Multifactor Authentication",
+      "Project Management",
+      "Proofreading",
       "Salesforce",
       "Salesforce Marketing Cloud",
+      "Sandboxing",
+      "Scrum",
       "Slack",
       "Solution Design",
-      "Stakeholder Management"
+      "Stakeholder Management",
+      "Technical Support",
+      "Ticketing Systems",
+      "UAM",
+      "UAT",
+      "iOS"
     ],
     "by_category": {
+      "mobile": [
+        "Android",
+        "Mobile Application Development",
+        "iOS"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Jira",
+        "Project Management",
+        "Scrum"
+      ],
+      "sales": [
+        "Cold Calling",
+        "Customer Relationship Management"
+      ],
       "collaboration": [
         "Confluence"
       ],
@@ -68,25 +102,45 @@
         "Data Management",
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Slack"
       ],
-      "project_mgmt": [
-        "Jira"
+      "web_framework": [
+        "Express.js",
+        "LinkedIn",
+        "Salesforce Marketing Cloud"
+      ],
+      "programming_language": [
+        "Go"
       ],
       "design": [
         "Lucidchart"
       ],
+      "security": [
+        "Multifactor Authentication"
+      ],
+      "content": [
+        "Proofreading"
+      ],
       "integration": [
         "Salesforce"
       ],
-      "web_framework": [
-        "Salesforce Marketing Cloud"
+      "security_ops": [
+        "Sandboxing",
+        "UAM"
       ],
       "architecture": [
         "Solution Design"
       ],
       "soft_skill": [
         "Stakeholder Management"
+      ],
+      "support": [
+        "Technical Support",
+        "Ticketing Systems"
+      ],
+      "testing": [
+        "UAT"
       ]
     },
     "_confidence": 0.92,
@@ -96,12 +150,16 @@
     "jobs": [
       {
         "role": "Salesforce Functional Lead",
-        "company": "Concentrix Catalyst  Hyderabad \u0000Remote",
+        "company": "Concentrix Catalyst",
         "location": null,
         "start": "04/2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 30,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Salesforce Functional Lead",
+          "Concentrix Catalyst"
+        ],
+        "duration_months": 31,
         "bullets": [
           "Concentrix Catalyst is the experience design and technology services division of Concentrix.",
           "Led Salesforce functional implementation and optimization aligned with business objectives.",
@@ -118,11 +176,15 @@
       },
       {
         "role": "Sr. Salesforce Administrator",
-        "company": "Birdeye Software India Pvt Ltd  Gurugram",
+        "company": "Birdeye Software India Pvt Ltd",
         "location": null,
         "start": "05/2021",
         "end": "03/2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Sr. Salesforce Administrator",
+          "Birdeye Software India Pvt Ltd"
+        ],
         "duration_months": 35,
         "bullets": [
           "Birdeye is the leading reviews software and messaging platform for multi-location business.",
@@ -144,11 +206,15 @@
       },
       {
         "role": "Sr. Lead Analyst",
-        "company": "American Express India Pvt Ltd  Gurugram",
+        "company": "American Express India Pvt Ltd",
         "location": null,
         "start": "02/2018",
         "end": "05/2021",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Sr. Lead Analyst",
+          "American Express India Pvt Ltd"
+        ],
         "duration_months": 40,
         "bullets": [
           "American Express offers a wide range of Credit and Charge Cards with exclusive travel & lifestyle benefits",
@@ -169,12 +235,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "PISoftek Ltd  Noida",
+        "role": "Noida",
+        "company": "PISoftek Ltd",
         "location": null,
         "start": "11/2016",
         "end": "01/2018",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "PISoftek Ltd"
+        ],
         "duration_months": 15,
         "bullets": [
           "PIsoftek is expert IT service provider: Mobile app development services in iOS and Android",
@@ -185,17 +254,21 @@
           "Improved customer response time and service efficiency through process automation."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Technical Support Advisor",
+        "role": "Technical Support Advisor (Adobe",
+        "company": "Teleperformance India",
         "location": null,
         "start": "03/2015",
         "end": "09/2016",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Technical Support Advisor (Adobe)",
+          "Teleperformance India"
+        ],
         "duration_months": 19,
         "bullets": [
           "Teleperformance offers debt collection, telemarketing, and CRM services.",
@@ -206,18 +279,18 @@
           "Maintained detailed support documentation and ticket updates for issue tracking. Links: https://www.linkedin.com/in/dheeraj-verma-a197ab145/"
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.5,
-      "total_months": 138,
+      "total_years": 11.6,
+      "total_months": 139,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.93
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -358,20 +431,10 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.84
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[3]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.73,

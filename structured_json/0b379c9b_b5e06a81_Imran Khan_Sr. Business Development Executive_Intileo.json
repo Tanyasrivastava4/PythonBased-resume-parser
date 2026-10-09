@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0b379c9b_b5e06a81_Imran Khan_Sr. Business Development Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:51.093001+00:00",
+    "generated_at": "2026-10-07T10:30:44.293498+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -48,32 +48,62 @@
   "summary": null,
   "skills": {
     "items": [
-      "Client Relationship Management",
+      "B2B Sales",
+      "Business Development",
+      "Communication",
       "Cross-functional Collaboration",
+      "Customer Onboarding",
+      "Customer Relationship Management",
+      "Customer Retention",
+      "Field Sales",
+      "Fixed Income",
       "Incident Management",
       "Lead Generation",
       "Market Research",
+      "Microsoft Teams",
+      "Negotiation",
+      "Networking",
+      "Onboarding",
       "Root Cause Analysis",
       "SLA Management",
       "Ticketing Systems",
       "Time Management"
     ],
     "by_category": {
-      "client_mgmt": [
-        "Client Relationship Management"
+      "sales": [
+        "B2B Sales",
+        "Customer Relationship Management",
+        "Field Sales",
+        "Lead Generation"
+      ],
+      "biz_dev": [
+        "Business Development",
+        "Networking"
       ],
       "soft_skill": [
+        "Communication",
         "Cross-functional Collaboration",
+        "Negotiation",
         "Time Management"
+      ],
+      "client_mgmt": [
+        "Customer Onboarding",
+        "Customer Retention"
+      ],
+      "finance": [
+        "Fixed Income"
       ],
       "security": [
         "Incident Management"
       ],
-      "sales": [
-        "Lead Generation"
-      ],
       "marketing": [
         "Market Research"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Onboarding"
       ],
       "operations": [
         "Root Cause Analysis"
@@ -89,16 +119,18 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior Sales Officer",
-        "company": "Reliance SMSL Pvt Ltd",
+        "role": "B2B Field Sales",
+        "company": "Generated business by taking regular product orders from shop owners and maintaining strong outlet relationships.",
         "location": null,
         "start": "August 2020",
         "end": "February 2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+paren_title",
+        "pre_date_header": [
+          "Reliance SMSL Pvt Ltd."
+        ],
         "duration_months": 31,
         "bullets": [
           "Managed B2B field sales operations by visiting multiple Kirana outlets and retail stores daily.",
-          "Generated business by taking regular product orders from shop owners and maintaining strong outlet relationships.",
           "Promoted and sold POS machines (Price: ₹3000) used for billing, customer orders, and card transactions.",
           "Explained product usage, service benefits, and payment solutions to business owners. Maintained outlet records, sales reports, and regular follow-up activities for business continuity.",
           "Achieved sales targets through repeat business generation and strong customer satisfaction.",
@@ -126,12 +158,12 @@
           "Cityflo",
           "Sales Executive / Customer Acquisition Executive"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
+        "role": "through professional demonstrations",
         "company": "through professional demonstrations",
         "location": null,
         "start": "January 2024",
@@ -142,15 +174,16 @@
         "sub_sections": [
           "Lakhs based on business",
           "negotiation and contract closures.",
-          "bonds with clients."
+          "bonds with clients.",
+          "for issue resolution and client"
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": null,
-        "company": "for issue resolution and client",
+        "company": "customers across different",
         "location": null,
         "start": "October 2025",
         "end": "April 2026",
@@ -171,7 +204,7 @@
       "total_months": 59,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.89
+    "_confidence": 0.84
   },
   "education": {
     "entries": [
@@ -191,14 +224,14 @@
         "degree_name": "B.Sc",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "MSG SGKM College art and science",
+        "institution": "MSG SGKM College art and",
         "year": "2019",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -209,13 +242,13 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.9
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
+      "field": "experience.jobs[0]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

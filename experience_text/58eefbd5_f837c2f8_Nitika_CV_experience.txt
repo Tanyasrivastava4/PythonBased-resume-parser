@@ -1,0 +1,75 @@
+======================================================================
+FILE: 58eefbd5_f837c2f8_Nitika_CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior-KPMG Assurance and
+Consulting Services LLP (Feb 2025 – Jan 2026)
+• Concurrent audits in the P2P (Procure-to-Pay) cycle for renowned client.
+Advisory – Consulting – Transformation
+• Reviewing procurement processes, vendor payments, and compliance with internal controls to ensure accuracy
+and e...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 4.2 years (51 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior-KPMG Assurance and
+  Company      : Consulting Services LLP
+  Location     : None
+  Start - End  : Feb 2025 - Jan 2026
+  Duration     : 12 months
+  Bullets      : 4
+    • Concurrent audits in the P2P (Procure-to-Pay) cycle for renowned client.
+    • Reviewing procurement processes, vendor payments, and compliance with internal controls to ensure accuracy and efficiency.
+    • Preparing monthly audit reports identifying control gaps and providing actionable recommendations for process
+    • Collaborating with cross-functional teams and client stakeholders to resolve audit observations and enhance process robustness.
+  Sub-sections : ['Advisory – Consulting – Transformation', 'MPA', 'improvements.']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Assistant
+  Company      : Sunil Rajinder & Co. () Taxation
+  Location     : None
+  Start - End  : Dec 2022 - Jan 2025
+  Duration     : 26 months
+  Bullets      : 6
+    • Offered strategic tax advisory services.
+    • Prepared and Filled Income tax return, TDS/ TCS return.
+    • Analyzed recent GST amendments for weekly updates, contributed to HSN code classification and GST rate finalization.
+    • Performed various analytical procedures such as preparation of analytical review documents and ratio analysis.
+    • Assisted in the finalization of financial statements including notes-to-accounts as per guidelines mentioned in the Schedule III of Companies Act, 2013.
+    • Prepared deliverables including audit reports, letter of representation.
+  Sub-sections : ['Audit']
+  Method       : date_regex+at_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Singh & Co
+  Company      : Articleship from Gurinder
+  Location     : None
+  Start - End  : Sep 2019 - Sep 2020
+  Duration     : 13 months
+  Bullets      : 11
+    • Filled Income tax return of all Assesses along with Tax planning and Tax advisory.
+    • Calculated taxes on a monthly and quarterly basis along with Advance tax collections; collected various Tax Form Books from the concerned departments and fulfilled all necessary formalities (Tax Compliances).
+    • Assisted in the successful completion of various number of tax audits, ensuring compliance with all regulatory requirements.
+    • Conducted thorough research and analysis on complex tax regulations to provide accurate tax planning advice to clients.
+    • Managed computation of GST liabilities and filing of Returns GSTR-1, GSTR-3B for various clients
+    • Input Tax Credit Calculation
+    • Filed TDS/TCS return of GST (which is filed when there is sale through e-commerce operator)
+    • Reconciled and filed GSTR-9 and 9C for multiple companies including companies.
+    • Review of NPA Accounts and other compliances of Bank Audit.
+    • Prepared LFAR and Other reports of Bank audit
+    • Attended cash counting and cash reconciliation with cash register.
+  Sub-sections : ['Indirect Tax Domain', 'Bank Audit']
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

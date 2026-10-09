@@ -1,0 +1,65 @@
+======================================================================
+FILE: daecf8be_01105d4f_Resume_Aastik_SDE_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Oracle | Software Engineer - MTS
+Jun 2025 - Present
+· Contributed to Oracle ACFS (cluster filesystem) validation infrastructure, working on backend test frameworks for storage
+and volume management systems.
+· Designed and implemented automated workflows to validate volume, snapshot, clone, and quara...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 3.9 years (47 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Oracle | Software Engineer
+  Company      : MTS
+  Location     : None
+  Start - End  : Jun 2025 - Present
+  Duration     : 17 months
+  Bullets      : 1
+    • · Contributed to Oracle ACFS (cluster filesystem) validation infrastructure, working on backend test frameworks for storage and volume management systems. · Designed and implemented automated workflows to validate volume, snapshot, clone, and quarantine operations, ensuring correctness under concurrent and failure scenarios. · Analyzed large-scale test failures by parsing logs, kernel outputs, and .dif artifacts, performing detailed root cause analysis across filesystem and system layers in production-like environments. · Improved observability by introducing structured logging (Tlog) and enhancing test execution visibility, significantly reducing debugging time for complex infra-level failures across multiple test scenarios. · Enhanced reliability of test execution pipelines by refining command orchestration and error-handling logic in Perl-based backend frameworks, improving overall execution stability and consistency.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Software Developer - Full Stack
+  Company      : Unique Identification Authority of India
+  Location     : None
+  Start - End  : July 2023 - May 2025
+  Duration     : 23 months
+  Bullets      : 1
+    • · Designed and implemented a high-throughput Go-based microservice for Aadhaar reactivation using gRPC and HTTP, handling large-scale concurrent requests with optimized latency and reliability. · Built a distributed enrolment tracking system using Go and MySQL, enabling real-time status updates and improving system observability through OpenTelemetry (OTEL) instrumentation. · Improved system reliability and debugging by integrating centralized logging, metrics, and tracing, reducing issue resolution time during production incidents. · Developed and deployed services using CI/CD pipelines (ArgoCD), ensuring automated rollouts and environment consistency across deployments. · Implemented secure authentication and communication using JWT, gRPC, and encryption techniques, ensuring safe data exchange in high-volume identity systems. · Reduced manual processing overhead by 40% by integrating child enrolment workflows (BRN, DigiLocker, Passport) into existing backend systems. · Built a React-based authentication interface integrating biometric verification flows, improving system usability.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Software Engineer Intern
+  Company      : Wabtec Corporation
+  Location     : None
+  Start - End  : Jan 2023 - Jun 2023
+  Duration     : 6 months
+  Bullets      : 1
+    • · Developed an automated routing system using C++ and JavaScript, optimizing execution plans and reducing manual intervention by 30%. · Implemented real-time signal clearance logic based on movement constraints, improving system efficiency and decision accuracy.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Software Engineer Intern
+  Company      : Bytelearn
+  Location     : None
+  Start - End  : Dec 2022 - Jan 2023
+  Duration     : 2 months
+  Bullets      : 1
+    • · Improved frontend performance and responsiveness using React.js and Node.js, enhancing user engagement. · Identified and resolved cross-device compatibility issues, improving overall platform stability.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False

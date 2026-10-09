@@ -2,7 +2,7 @@
 FILE: 0684dca1_daf9fc0f_Pawan K Singh Resume.docx_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'certifications', 'education', 'experience', 'header']
-Overall conf.  : 0.82
+Overall conf.  : 0.83
 Needs review   : True
 
 CONTACT
@@ -14,21 +14,22 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (25) — confidence 0.92
+SKILLS (35) — confidence 0.92
 ----------------------------------------------------------------------
-Analyze, Change Management, Collaboration, Communication, Conflict Resolution, Creative Writing, Creativity, Cross-functional Collaboration, Employee Engagement, Google, HR Management, Inside Sales, Labour Law, Leadership, Learning & Development, MS Office, Microsoft Teams, Onboarding, Procurement, Qualitative Research, R, Recruitment, Risk Management, Talent Management, Tutoring
+Analyze, Change Management, Collaboration, Communication, Conflict Resolution, Creative Writing, Creativity, Cross-functional Collaboration, Employee Engagement, Employee Lifecycle Management, Exit Formalities, Google, HR Analytics, HR Management, HRMS, Inside Sales, Labour Law, Leadership, Learning & Development, Legal Compliance, MS Office, Mental Health, Microsoft Teams, Onboarding, Procurement, Product Training, Qualitative Research, R, Recruitment, Risk Management, SAP, Salary Benchmarking, Talent Management, Tutoring, Zoho Books
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.81
-Total experience: 9.2 years (111 months, 1 overlaps merged)
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.95
+Total experience: 9.3 years (112 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. Thrivepass, People and Culture Lead India @ Employee Lifecycle & Early Engagement (0–90 Days): Designed and executed a structured early employee experience strategy covering onboarding, induction, buddy systems, and cultural assimilation; created a seamless transition from recruitment to role readiness. (Sept 2024 - Present) [conf 0.7, review=True]
+  1. and Culture Lead India @ Thrivepass (Sept 2024 - Present) [conf 0.98, review=False]
   2. None @ India & Gulf (Oct 2020 - Apr 2023) [conf 0.85, review=True]
-  3. OYO, CLT Analyst India @ Facilitated training and development sessions for new hires and regional employees. (Nov 2019 - Aug 2020) [conf 0.7, review=True]
-  4. , Process Lead (Employee Engagement, CSR, Branding) India @ Capgemini (Feb 2016 - Nov 2019) [conf 0.98, review=False]
+  3. OYO, CLT Analyst @ India (Nov 2019 - Aug 2020) [conf 0.98, review=False]
+  4. Capgemini, Process Lead (Employee Engagement, CSR, Branding @ India (Feb 2016 - Nov 2019) [conf 0.98, review=False]
 
-EDUCATION (1) — confidence 0.8
+EDUCATION (2) — confidence 0.73
 ----------------------------------------------------------------------
   1. MBA — Subharti University (None) [conf 0.8, review=False]
+  2. B.Tech — Mewar University (None) [conf 0.65, review=False]
 
 CERTIFICATIONS (8) — confidence 0.62
 ----------------------------------------------------------------------
@@ -133,11 +134,10 @@ ACHIEVEMENTS (89) — confidence 0.85
   • Responsible for change management and policy harmonisation during internal HR transformation.
   • Ferns N Petals, HR Lead/HRBP, Engagement & Branding
 
-REVIEW QUEUE (11 flagged fields)
+REVIEW QUEUE (10 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[0]                  conf=0.7  reason=incomplete_fields
   experience.jobs[1]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  education                           conf=0.73  reason=low_confidence
   certifications                      conf=0.62  reason=low_confidence
   certifications.items[1]             conf=0.6  reason=incomplete_fields
   certifications.items[2]             conf=0.6  reason=incomplete_fields

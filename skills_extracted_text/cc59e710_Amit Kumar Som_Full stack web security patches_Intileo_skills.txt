@@ -1,0 +1,44 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/cc59e710_Amit Kumar Som_Full stack web security patches_Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Languages	: Java
+Framework	: Spring, Spring Boot, Spring Security, Junit, Microservices,
+Scripting Languages	: JavaScript, Reactjs, NodeJS
+Database	: SQL Server, MySQL, MariaDB
+Repository, PMT	: GIT, Bitbucket, JIRA, TFS, GitLab
+Operating System	: Window, Linux, Mac OS
+Tools	: Docker, Kubernetes, New Relic, Jenkins, Bamboo, Postman
+IDEs	: IntelliJ IDEA, Spring Tool Suite, Eclipse
+I am working as standalone person in this project
+
+── Extraction Results ──
+Skills found   : 62
+Confidence     : 0.92
+Time           : 733.82 ms
+Method         : flashtext_skills_section | fuzzy(Junit→JUnit(100%), Reactjs→React(100%), JIRA→Jira(100%), caching.→Caching(93%), SQL Server→MSSQL(100%)...)
+
+── All Skills (62) ──
+AWS, AWS EC2, AWS RDS, AWS S3, Agile, Angular, Apache Kafka, Bitbucket, CI/CD, CSS3, Caching, Confluence, DevOps, Docker, DynamoDB, E-commerce, Eclipse, Effort Estimation, GDPR, Git, GitHub, GitLab, GraphQL, HTML5, Hibernate, IntelliJ IDEA, J2EE, JBoss, JPA, JSP, JUnit, JWT, Java, JavaScript, Jenkins, Jira, Kubernetes, Linux, MSSQL, MariaDB, Mechanical Engineering, Microservices, MongoDB, MySQL, New Relic, Node.js, OAuth2, PCI-DSS, PostgreSQL, Postman, REST, REST API, RabbitMQ, React, Redis, SOC 2, SQL, Scrum, Spring, Spring Boot, Technical Writing, jQuery
+
+── By Category ──
+  architecture                   ['Caching', 'Microservices']
+  cloud_infra                    ['AWS', 'AWS EC2', 'AWS RDS', 'AWS S3']
+  collaboration                  ['Confluence']
+  content                        ['Technical Writing']
+  data_engineering               ['Apache Kafka', 'RabbitMQ']
+  database                       ['DynamoDB', 'MSSQL', 'MariaDB', 'MongoDB', 'MySQL', 'PostgreSQL', 'Redis', 'SQL']
+  dev_tool                       ['Bitbucket', 'Eclipse', 'Git', 'GitHub', 'GitLab', 'IntelliJ IDEA', 'Postman']
+  devops                         ['CI/CD', 'DevOps', 'Docker', 'JBoss', 'Jenkins', 'Kubernetes', 'New Relic']
+  engineering                    ['Mechanical Engineering']
+  integration                    ['REST']
+  legal                          ['GDPR']
+  os_system                      ['Linux']
+  programming_language           ['J2EE', 'Java', 'JavaScript']
+  project_mgmt                   ['Agile', 'Effort Estimation', 'Jira', 'Scrum']
+  retail                         ['E-commerce']
+  security                       ['JWT', 'OAuth2']
+  security_ops                   ['PCI-DSS', 'SOC 2']
+  testing                        ['JUnit']
+  web_framework                  ['Angular', 'CSS3', 'GraphQL', 'HTML5', 'Hibernate', 'JPA', 'JSP', 'Node.js', 'REST API', 'React', 'Spring', 'Spring Boot', 'jQuery']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c83ebb8c_be56e52d_Narendra Singh_MERN Stack Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:19.461465+00:00",
+    "generated_at": "2026-10-07T09:28:14.673472+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,11 +47,16 @@
   "summary": "Dedicated Full Stack Engineer specializing in the MERN stack (MongoDB, Express, React, Node.js). Proven track\nrecord of translating business requirements into clean, efficient code and user-friendly interfaces. Demonstrated\nexpertise in RESTful API integration, state management, and delivering high-quality software solutions using modern\nweb standards.",
   "skills": {
     "items": [
+      "API Design",
+      "Aggregations",
       "Bootstrap 5",
       "C++",
       "CSS3",
+      "Context API",
+      "Coroutines Flow",
       "Creativity",
       "Express.js",
+      "GDPR",
       "Git",
       "GitHub",
       "HTML5",
@@ -59,12 +64,18 @@
       "Leadership",
       "MERN Stack",
       "MongoDB",
+      "News Writing",
       "Node.js",
       "Postman",
       "Problem Solving",
+      "RBAC",
       "REST",
       "REST API",
       "React",
+      "Recruitment",
+      "Redux",
+      "Responsive Web Design",
+      "SDLC",
       "State Management",
       "Tailwind CSS",
       "TypeScript",
@@ -72,6 +83,15 @@
       "Visual Studio"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "SDLC",
+        "State Management"
+      ],
+      "database": [
+        "Aggregations",
+        "MongoDB"
+      ],
       "web_framework": [
         "Bootstrap 5",
         "CSS3",
@@ -81,6 +101,8 @@
         "Node.js",
         "REST API",
         "React",
+        "Redux",
+        "Responsive Web Design",
         "Tailwind CSS"
       ],
       "programming_language": [
@@ -88,26 +110,40 @@
         "JavaScript",
         "TypeScript"
       ],
+      "frontend": [
+        "Context API"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
       "soft_skill": [
         "Creativity",
         "Leadership",
         "Problem Solving"
       ],
+      "legal": [
+        "GDPR"
+      ],
       "dev_tool": [
         "Git",
         "GitHub",
         "Postman",
-        "VS Code",
         "Visual Studio"
       ],
-      "database": [
-        "MongoDB"
+      "media": [
+        "News Writing"
+      ],
+      "security": [
+        "RBAC"
       ],
       "integration": [
         "REST"
       ],
-      "architecture": [
-        "State Management"
+      "hr": [
+        "Recruitment"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -121,7 +157,7 @@
         "location": "Ghaziabad",
         "start": "July 2024",
         "end": "Oct 2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 4,
         "bullets": [
           "1). Khiladi India (Multi-Vendor Sports Ecosystem Platform) Role: Full-Stack Developer – Responsible for complete frontend UI architecture (React.js), backend REST API development (Node.js/Express.js), and database schema design (MongoDB). Key features include:",
@@ -129,8 +165,7 @@
           "Comprehensive Vendor Dashboard: Built a robust dashboard where vendors can manage their specific profiles—shops can manage inventory, academies can schedule classes, and trainers can update availability—in real-time.",
           "Recruitment & Job Portal Module: Implemented a dedicated job section enabling vendors to post vacancies (e.g., for coaches or staff) and review applicant profiles directly through the platform.",
           "Dynamic Content Rendering: Designed a flexible React frontend that adapts the UI layout based on the category selected (e.g., displaying product grids for Shops vs. course lists for Academies).",
-          "Search & Filtering Logic: Created advanced filtering APIs allowing users to search for specific equipment, locate nearby academies, or find trainers based on sport type and location.",
-          "End-to-End System Management: As the sole developer for this project, managed the complete SDLC, ensuring seamless integration between the user interface and the backend administrative controls."
+          "Search & Filtering Logic: Created advanced filtering APIs allowing users to search for specific equipment, locate nearby academies, or find trainers based on sport type and location."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -138,19 +173,52 @@
         "source": "experience"
       },
       {
-        "role": "Full Stack Mern Developer",
-        "company": "Tech. Stack: MongoDB, Express.js",
-        "location": "React.js",
+        "role": "6. End-to-End System Management: As the sole developer for this project",
+        "company": "managed the complete SDLC",
+        "location": "",
+        "start": null,
+        "end": null,
+        "method": "comma_title_company_split",
+        "duration_months": 0,
+        "bullets": [
+          "ensuring seamless integration between the user interface and the backend administrative controls."
+        ],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Tech. Stack: MongoDB, Express.js, React.js, Node.js (MERN",
+        "company": "Krystal Movies PVT LTD",
+        "location": "Ghaziabad",
         "start": "Nov 2024",
         "end": "Dec 2025",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Tech. Stack: MongoDB, Express.js, React.js, Node.js (MERN)"
+        ],
         "duration_months": 14,
         "bullets": [
           "1). Ebox Cinema (Online Movie Booking Platform) Role: Full-Stack Developer – Responsible for frontend UI development (React.js), backend REST API architecture (Node.js/Express.js), and database modeling (MongoDB) Key features include:",
           "Developed End-to-End Booking Flow: Built a seamless movie ticket booking system allowing users to select movies, view showtimes, and book tickets with real-time seat availability.",
           "Dynamic Seat Layout System: Designed an interactive seat selection UI using React, handling complex logic for different seat categories (Gold, Platinum) and pricing dynamically.",
-          "Admin Dashboard for Theatre Management: Created a comprehensive admin panel to manage movie listings, show timings, theater screens, and pricing rules using React forms and Redux.",
-          "Optimized API Performance: Developed optimized RESTful APIs in Node.js/Express to handle highconcurrency requests for fetching movie data.",
+          "Admin Dashboard for Theatre Management: Created a comprehensive admin panel to manage movie listings, show timings, theater screens, and pricing rules using React forms and Redux."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Role: Full-Stack Developer",
+        "company": "Responsible for complete frontend UI architecture (React.js)",
+        "location": "backend REST",
+        "start": null,
+        "end": null,
+        "method": "none",
+        "duration_months": 0,
+        "bullets": [
           "Reusable Component Library: Built reusable UI components (Movie Cards, Search Bars, Modals) to ensure design consistency across the user and admin portals. Tech. Stack: Tailwind CSS, MongoDB, Express.js, React.js, Node.js (MERN) 2). Bruchi Club (Social & Club Management Platform) Role: Full-Stack Developer – Responsible for developing interactive UI features, managing backend logic for user memberships, and database schema design. Key features include:",
           "Membership Management Module: Developed a robust system for user registration, membership plan selection, and profile management using React and Node.js.",
           "Event & Activity Booking: Implemented functionality for members to browse upcoming club events, book slots, and view history, utilizing MongoDB for efficient data retrieval.",
@@ -164,8 +232,8 @@
           "User Engagement Features: Added features for user comments, likes, and social media sharing integration to increase platform engagement. Tech. Stack: Tailwind CSS, MongoDB, Express.js, React.js, Node.js (MERN)"
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.35,
+        "needs_review": true,
         "source": "experience"
       }
     ],
@@ -175,7 +243,7 @@
       "total_months": 18,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.78
   },
   "education": {
     "entries": [
@@ -184,11 +252,11 @@
         "degree_name": "MCA",
         "degree_type": "masters",
         "degree_field": null,
-        "institution": "Galgotias University Greater Noida",
+        "institution": "University Greater Noida",
         "year": "2022 - 2024",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "Bachelor of Computer Applications",
@@ -202,7 +270,7 @@
         "_confidence": 0.95
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.88
   },
   "certifications": {
     "items": [],
@@ -213,8 +281,14 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.88
   },
-  "_needs_review": false,
-  "_review_queue": []
+  "_needs_review": true,
+  "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.35,
+      "reason": "incomplete_fields"
+    }
+  ]
 }

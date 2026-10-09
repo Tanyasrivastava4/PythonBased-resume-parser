@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4173dd1b_2523c35d_Ishan Chand_Manager- Learning & Development_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:27.286717+00:00",
+    "generated_at": "2026-10-07T10:31:26.102204+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,57 +47,85 @@
   "skills": {
     "items": [
       "Analyze",
+      "Communication",
+      "Customer Service",
       "Data Analysis",
+      "Diversity & Inclusion",
       "E-learning",
       "Leadership",
+      "Learning & Development",
+      "Make",
       "Microsoft Teams",
       "Onboarding",
+      "Problem Solving",
+      "Product Training",
+      "REACH",
       "Reporting",
       "Schedule III",
       "Stakeholder Management",
       "Standard Operating Procedures",
-      "Tutoring"
+      "Tutoring",
+      "Up-Selling"
     ],
     "by_category": {
       "data_science": [
         "Analyze",
         "Data Analysis"
       ],
+      "soft_skill": [
+        "Communication",
+        "Leadership",
+        "Problem Solving",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "hr": [
+        "Diversity & Inclusion",
+        "Learning & Development",
+        "Onboarding"
+      ],
       "education_domain": [
         "E-learning",
         "Tutoring"
       ],
-      "soft_skill": [
-        "Leadership",
-        "Reporting",
-        "Stakeholder Management"
+      "rpa": [
+        "Make"
       ],
       "productivity": [
         "Microsoft Teams"
       ],
-      "hr": [
-        "Onboarding"
+      "learning_development": [
+        "Product Training"
+      ],
+      "compliance": [
+        "REACH"
       ],
       "financial_reporting": [
         "Schedule III"
       ],
       "management": [
         "Standard Operating Procedures"
+      ],
+      "sales": [
+        "Up-Selling"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(e-learning→E-learning(100%), Analyzed→Analyze(93%), scheduled→Schedule III(84%), Coaching→Tutoring(100%))"
+    "_method": "flashtext_skills_section | fuzzy(e-learning→E-learning(100%), Analyzed→Analyze(93%), scheduled→Schedule III(84%), Upselling→Up-Selling(100%), upselling→Up-Selling(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Devyani International Limited -Deputy Manager",
-        "company": "L&D",
+        "company": "Walmart India",
         "location": null,
         "start": "March 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 31,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 32,
         "bullets": [
           "New Hire Orientation: Onboarding training covering store culture, policies, POSH, compliance, and job-specific training.",
           "Training Coordination: Conduct hands-on demos, role-playing, e-learning, and OJT sessions.",
@@ -113,12 +141,15 @@
         "source": "experience"
       },
       {
-        "role": "Reliance METRO : Metro wholesale  as Assistant Manager",
-        "company": "L&D",
+        "role": "Assistant Manager – L&D",
+        "company": "Metro wholesale",
         "location": null,
         "start": "May 2022",
         "end": "March 2024",
-        "method": "date_regex+title_dash_company",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Reliance METRO"
+        ],
         "duration_months": 23,
         "bullets": [],
         "sub_sections": [],
@@ -127,26 +158,26 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Reliance Retail L&D",
+        "role": "Reliance Retail L&D",
+        "company": "Role & Responsibilities",
         "location": null,
         "start": "September 2021",
         "end": "May 2022",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 9,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Grofers India as Assistant Manager",
-        "company": "L&D",
+        "role": "Assistant Manager – L&D",
+        "company": "Grofers India",
         "location": null,
         "start": "November 2020",
         "end": "September2021",
-        "method": "date_regex+title_dash_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 11,
         "bullets": [
           "Implement gamification strategies to make training sessions interactive, engaging, and impactful.",
@@ -162,32 +193,35 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "NIIT  : NIIT Limited as Field Trainer",
+        "role": "Field Trainer",
+        "company": "NIIT Limited",
         "location": null,
         "start": "August 2016",
         "end": "March 2019",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "NIIT"
+        ],
         "duration_months": 32,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.6,
-      "total_months": 103,
+      "total_years": 8.7,
+      "total_months": 104,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.87
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "M.B.A in Marketing (Himalayan University 2016) Diploma From Indian society of",
+        "degree": "M.B.A in Marketing (Himalayan University 2016) Diploma",
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": "Marketing (Himalayan University 2016) Diploma From Indian society of",
@@ -557,20 +591,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.88
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[4]",
-      "confidence": 0.55,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "certifications",
       "confidence": 0.61,

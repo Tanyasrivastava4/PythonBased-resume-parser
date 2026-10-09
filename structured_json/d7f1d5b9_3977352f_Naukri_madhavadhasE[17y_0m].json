@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d7f1d5b9_3977352f_Naukri_madhavadhasE[17y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:30.378407+00:00",
+    "generated_at": "2026-10-07T09:28:28.044696+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,20 +50,55 @@
   "summary": "Seeking a challenging position that allows me to utilize myskills in credit control, customer relations, and leadership while\ncontributing to the company’s success",
   "skills": {
     "items": [
+      "Agency Management",
+      "Auditing",
+      "Coroutines Flow",
+      "Customer Relationship Management",
+      "DRA",
       "Data Analysis",
+      "Dunning Letters",
       "Leadership",
       "MS Office",
       "Mechanical Engineering",
       "Microsoft Excel",
+      "Microsoft Teams",
       "Microsoft Windows",
       "Negotiation",
       "Pivot Tables",
       "Problem Solving",
+      "REACH",
+      "Recruitment",
+      "SAND",
+      "SSO",
+      "Team Coordination",
+      "Territory Management",
+      "Turnaround Time",
       "VLOOKUP"
     ],
     "by_category": {
+      "management": [
+        "Agency Management",
+        "Team Coordination",
+        "Turnaround Time"
+      ],
+      "finance_ops": [
+        "Auditing"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "sales": [
+        "Customer Relationship Management",
+        "Territory Management"
+      ],
+      "telecom": [
+        "DRA"
+      ],
       "data_science": [
         "Data Analysis"
+      ],
+      "finance": [
+        "Dunning Letters"
       ],
       "soft_skill": [
         "Leadership",
@@ -73,6 +108,7 @@
       "productivity": [
         "MS Office",
         "Microsoft Excel",
+        "Microsoft Teams",
         "Pivot Tables"
       ],
       "engineering": [
@@ -81,12 +117,24 @@
       "os_system": [
         "Microsoft Windows"
       ],
+      "compliance": [
+        "REACH"
+      ],
+      "hr": [
+        "Recruitment"
+      ],
+      "database": [
+        "SAND"
+      ],
+      "security": [
+        "SSO"
+      ],
       "office": [
         "VLOOKUP"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MSOffice→MS Office(100%), V-lookup→VLOOKUP(100%), Pivot-Table→Pivot Tables(91%))"
+    "_method": "flashtext_skills_section | fuzzy(MSOffice→MS Office(100%), V-lookup→VLOOKUP(100%), Pivot-Table→Pivot Tables(91%), customer relations→Customer Relationship Management(92%))"
   },
   "experience": {
     "jobs": [
@@ -96,8 +144,8 @@
         "location": null,
         "start": "May 2019",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 89,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 90,
         "bullets": [
           "Handling CD bkt portfolio for Chennai region.",
           "Monitoring the vendors on daily basis to ensure the target completion and customer relationship met.",
@@ -128,12 +176,15 @@
         "source": "experience"
       },
       {
-        "role": "Asst Manager – Retention)from  (Chennai , Vellore &Trichy",
-        "company": "BhartiAirtel Ltd",
+        "role": "BhartiAirtel Ltd (Asst Manager",
+        "company": "Retention)from",
         "location": null,
         "start": "July 2013",
         "end": "November 2015",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "BhartiAirtel Ltd (Asst Manager – Retention)from"
+        ],
         "duration_months": 29,
         "bullets": [
           "Acted as a High ARPU Retention Manager for VIP Customers and Corporate Accounts.",
@@ -148,20 +199,21 @@
         "source": "experience"
       },
       {
-        "role": "Territory Sales Manager – Rural Prepaid) from  (Vellore",
-        "company": "BhartiAirtel Ltd",
+        "role": "Sales Manager",
+        "company": "Rural Prepaid) from",
         "location": null,
         "start": "September 2011",
         "end": "June 2013",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "BhartiAirtel Ltd (Territory"
+        ],
         "duration_months": 22,
         "bullets": [
           "Handled 5 Prepaid Channel Partners and 15 Distributors - Rural Mobility.",
           "Drove Prepaid Activation / DTH and Recharge Products in Outlets.",
           "Increased the SSO & LSO across the Market.",
-          "Enlarged Revenue Market Share by ensuring the recharge availability by increasing the retail width and also pushing all the products of Airtel 3G, Dongles,",
-          "Handled Involuntary Base Collection Process which includes Collection and Retention with a 20 Members team (Tele call and Field Executive).",
-          "Maintained relationship with SME / Commercial Customers as a Relationship Manager"
+          "Enlarged Revenue Market Share by ensuring the recharge availability by increasing the retail width and also pushing all the products of Airtel 3G, Dongles,"
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -169,18 +221,39 @@
         "source": "experience"
       },
       {
-        "role": "SivanesanCompany (Officer – Sales and Marketing) From",
-        "company": "● Premier Marketing",
-        "location": "SivanesanCompany  From",
+        "role": "Retention Executive",
+        "company": "BhartiAirtel Ltd",
+        "location": null,
+        "start": "September 2007",
+        "end": "August 2011",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "DTH etc..",
+          "BhartiAirtel Ltd (Retention Executive)"
+        ],
+        "duration_months": 48,
+        "bullets": [
+          "Handled Involuntary Base Collection Process which includes Collection and Retention with a 20 Members team (Tele call and Field Executive).",
+          "Maintained relationship with SME / Commercial Customers as a Relationship Manager",
+          "Worked as a Relationship Manager for Corporate accounts.",
+          "Premier Marketing – SivanesanCompany"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Best Executive",
+        "company": "Made analysis about competitor products and service.",
+        "location": null,
         "start": "September 2006",
         "end": "April 2007",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 8,
         "bullets": [
-          "in Retention and Recovery.",
           "Worked as a Sales Officer for Home appliance in Premier Marketing.",
-          "Conducted Exhibition sales and Trade sales.",
-          "Made analysis about competitor products and service."
+          "Conducted Exhibition sales and Trade sales."
         ],
         "sub_sections": [
           "DateofBirth:22",
@@ -188,18 +261,18 @@
           "th",
           "CurriculumVitae 3"
         ],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.3,
-      "total_months": 148,
+      "total_years": 16.4,
+      "total_months": 197,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.98
+    "_confidence": 0.92
   },
   "education": {
     "entries": [
@@ -297,10 +370,15 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.6,

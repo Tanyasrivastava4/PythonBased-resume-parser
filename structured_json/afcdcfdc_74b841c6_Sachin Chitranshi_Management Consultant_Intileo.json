@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "afcdcfdc_74b841c6_Sachin Chitranshi_Management Consultant_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:04.733164+00:00",
+    "generated_at": "2026-10-07T09:27:55.053516+00:00",
     "sections_found": [
       "certifications",
       "early_career",
@@ -50,20 +50,33 @@
     "items": [
       ".NET",
       "ABBYY",
+      "Accounts Payable",
+      "Accounts Receivable",
       "Agentic AI",
       "Agile",
       "Automation Anywhere",
       "BRD",
       "Blue Prism",
       "Budgeting",
+      "Business Intelligence",
+      "Business Strategy",
+      "Collaboration",
       "Confluence",
+      "Cross-functional Collaboration",
+      "Customer Experience",
+      "Customer Service",
+      "Data Analytics",
       "Data Science",
       "DevOps",
       "Digital Transformation",
       "Help Desk",
       "Jira",
+      "Leadership",
+      "Legal Compliance",
       "Microsoft Dynamics CRM",
       "Microsoft Power Automate",
+      "Microsoft Teams",
+      "Operations Management",
       "Order-to-Cash",
       "PDD",
       "Pre-Sales Support",
@@ -72,9 +85,11 @@
       "Program Management",
       "Project Charter",
       "Project Governance",
+      "Purchase Orders",
       "Python",
       "Record-to-Report",
       "Requirements Gathering",
+      "Retail & Corporate Banking",
       "Risk Management",
       "Risk and Issue Management",
       "SOP",
@@ -84,8 +99,10 @@
       "SharePoint",
       "Solution Design",
       "Supply Chain",
+      "Telecom",
       "Test Plans",
-      "UiPath"
+      "UiPath",
+      "Workflow Automation"
     ],
     "by_category": {
       "programming_language": [
@@ -99,6 +116,11 @@
         "Microsoft Power Automate",
         "PDD",
         "UiPath"
+      ],
+      "finance_ops": [
+        "Accounts Payable",
+        "Accounts Receivable",
+        "Budgeting"
       ],
       "genai": [
         "Agentic AI"
@@ -115,13 +137,27 @@
       ],
       "business_analysis": [
         "BRD",
+        "Business Intelligence",
         "Requirements Gathering"
       ],
-      "finance_ops": [
-        "Budgeting"
+      "consulting": [
+        "Business Strategy",
+        "Digital Transformation"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Cross-functional Collaboration",
+        "Leadership"
       ],
       "collaboration": [
         "Confluence"
+      ],
+      "client_mgmt": [
+        "Customer Experience",
+        "Customer Service"
+      ],
+      "data_science": [
+        "Data Analytics"
       ],
       "ai_ml": [
         "Data Science"
@@ -129,14 +165,24 @@
       "devops": [
         "DevOps"
       ],
-      "consulting": [
-        "Digital Transformation"
-      ],
       "support": [
         "Help Desk"
       ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "crm": [
         "Microsoft Dynamics CRM"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Operations Management",
+        "Procurement",
+        "Purchase Orders",
+        "SOP",
+        "Workflow Automation"
       ],
       "finance": [
         "Order-to-Cash",
@@ -146,9 +192,10 @@
       "sales": [
         "Pre-Sales Support"
       ],
-      "operations": [
-        "Procurement",
-        "SOP"
+      "domain": [
+        "Retail & Corporate Banking",
+        "Supply Chain",
+        "Telecom"
       ],
       "database": [
         "SQL"
@@ -160,9 +207,6 @@
       "architecture": [
         "Solution Design"
       ],
-      "domain": [
-        "Supply Chain"
-      ],
       "testing": [
         "Test Plans"
       ]
@@ -173,15 +217,15 @@
   "experience": {
     "jobs": [
       {
-        "role": "KPMG () Unknown - Client | Leading Public Sector Bank Project 1: Enterprise Digital Transformation and Automation Program Unknown - Project Description | Led a large-scale digital transformation initiative for a leading Public Sector Bank (PSB) aimed",
-        "company": "KPMG",
+        "role": "KPMG",
+        "company": "Client: Leading Public Sector Bank",
         "location": null,
         "start": "Oct 2023",
         "end": "Nov 2025",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 26,
         "bullets": [
-          "Unknown - Client | Leading Public Sector Bank Project 1: Enterprise Digital Transformation and Automation Program Unknown - Project Description | Led a large-scale digital transformation initiative for a leading Public Sector Bank (PSB) aimed at modernizing legacy operations, improving customer experience, and enhancing operational efficiency through automation and digital platforms. The program focused on transforming end-to-end banking processes across Retail Banking, Corporate Banking, and Back-Office Operations using digital technologies such as workflow automation, data analytics, AI-driven decisioning, and omni-channel platforms. Unknown - Client | Leading Telecom Company Project 2: Enterprise Digital Transformation and Automation Program Project Description: Delivered a large-scale digital transformation and intelligent automation program for a leading telecom operator to modernize operations, enhance customer experience, and drive cost efficiency across Customer Service, Network Operations, Sales, and Finance. The initiative focused on digitizing legacy, manual, and siloed processes by implementing workflow automation, AI-driven decisioning, analytics, and RPA, enabling faster service delivery, improved SLA adherence, and scalable digital operations.",
+          "Project 1: Enterprise Digital Transformation and Automation Program Project Description: Led a large-scale digital transformation initiative for a leading Public Sector Bank (PSB) aimed at modernizing legacy operations, improving customer experience, and enhancing operational efficiency through automation and digital platforms. The program focused on transforming end-to-end banking processes across Retail Banking, Corporate Banking, and Back-Office Operations using digital technologies such as workflow automation, data analytics, AI-driven decisioning, and omni-channel platforms.",
           "Led Design and Architecture Sessions: Directed and participated in design and architecture sessions with clients, gathering and documenting business processes and requirements to develop effective automation solutions.",
           "Captured and Delivered Business Requirements: Identified and translated stated and unstated business requirements into actionable deliverables, ensuring alignment with client objectives and project goals.",
           "Coordinating with various specialist teams to deliver complex solutions, facilitating collaboration and ensuring all project components were effectively integrated.",
@@ -193,6 +237,13 @@
           "AP (Vendor master and configuration, Purchase Order creation, Invoice reconciliation), AR (Customer"
         ],
         "sub_sections": [
+          "Client: Leading Telecom Company",
+          "Project 2: Enterprise Digital Transformation and Automation Program",
+          "Project Description: Delivered a large-scale digital transformation and intelligent automation program for a",
+          "leading telecom operator to modernize operations, enhance customer experience, and drive cost efficiency",
+          "across Customer Service, Network Operations, Sales, and Finance. The initiative focused on digitizing legacy,",
+          "manual, and siloed processes by implementing workflow automation, AI-driven decisioning, analytics, and",
+          "RPA, enabling faster service delivery, improved SLA adherence, and scalable digital operations.",
           "Client: Major Indian Airport",
           "Project 3: Digital Transformation & Intelligent Automation on Newgen Software Platform",
           "Project Description: Executed an enterprise-wide digital transformation and process automation program for",
@@ -207,31 +258,22 @@
     ],
     "early_career": [
       {
-        "role": "Manager",
-        "company": "KPMG",
+        "role": "Senior Consultant",
+        "company": "HCL Tech",
         "location": "",
         "start": "Jul 2021",
         "end": "Sep 2023",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "pre_date_header": [
+          "Manager",
+          "|",
+          "KPMG"
+        ],
         "duration_months": 27,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": false,
-        "source": "early_career"
-      },
-      {
-        "role": "Senior Consultant",
-        "company": "HCL Tech",
-        "location": null,
-        "start": "Jul 2019",
-        "end": "Jul 2021",
-        "method": "date_regex+pipe_split",
-        "duration_months": 25,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "needs_review": true,
         "source": "early_career"
       },
       {
@@ -240,7 +282,10 @@
         "location": null,
         "start": "Apr 2016",
         "end": "Jul 2019",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+date_prefix_title+next_line_company",
+        "pre_date_header": [
+          "EY"
+        ],
         "duration_months": 40,
         "bullets": [],
         "sub_sections": [],
@@ -249,12 +294,15 @@
         "source": "early_career"
       },
       {
-        "role": "Technical Manager",
-        "company": "Sailfin Technologies",
+        "role": "Technical Manager | MobiQuest Mobile Technologies (Paytm",
+        "company": "MobiQuest Mobile Technologies (Paytm",
         "location": null,
         "start": "Jul 2008",
         "end": "Apr 2016",
-        "method": "date_regex+pipe_split",
+        "method": "date_regex+pipe_split_header+date_prefix_title",
+        "pre_date_header": [
+          "Sailfin Technologies"
+        ],
         "duration_months": 94,
         "bullets": [],
         "sub_sections": [],
@@ -264,16 +312,16 @@
       }
     ],
     "total_experience": {
-      "total_years": 17.4,
-      "total_months": 209,
-      "overlapping_periods_merged": 3
+      "total_years": 15.5,
+      "total_months": 186,
+      "overlapping_periods_merged": 1
     },
     "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "MBA (Finance) from IASE University in 2012 (Part Time)",
+        "degree": "MBA (Finance)",
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": "Finance",
@@ -284,7 +332,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "MCA from Uttar Pradesh Technical University in 2004 (Full Time)",
+        "degree": "MCA",
         "degree_name": "MCA",
         "degree_type": "masters",
         "degree_field": null,
@@ -295,7 +343,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "B.Sc. Maths from Dr. RML Awadh University in 2001 (Full Time)",
+        "degree": "B.Sc. Maths",
         "degree_name": "B.Sc",
         "degree_type": "bachelors",
         "degree_field": null,
@@ -399,6 +447,11 @@
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.early_career[0]",
+      "confidence": 0.98,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.62,

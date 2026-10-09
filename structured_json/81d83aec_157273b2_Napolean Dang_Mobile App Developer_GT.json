@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "81d83aec_157273b2_Napolean Dang_Mobile App Developer_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:27.379649+00:00",
+    "generated_at": "2026-10-07T09:27:05.829740+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,21 +46,55 @@
   "summary": "• Android Developer with 8+ years of experience in designing and developing scalable mobile applications\nusing Java and Kotlin.\n• Proficient in Android SDK, Jetpack components, and MVVM architecture, ensuring robust, maintainable,\nand high-performing applications.\n• Skilled in integrating third-party APIs, Bluetooth, Aadhaar services, and biometric authentication, delivering\nsecure and feature-rich mobile solutions.\n• Hands-on expertise in Room Database, Retrofit, Coroutines Flow, Dagger, Hilt, and Jetpack Compose, with\na strong focus on clean code and performance optimization.\n• Proven track record of delivering user-friendly, multilingual, and client-centric apps across domains such as\n\ne-commerce, mobility, and government services.",
   "skills": {
     "items": [
+      "Aadhaar Integration",
       "Android",
+      "Bluetooth",
+      "Communication",
+      "Coroutines Flow",
+      "Dagger 2",
+      "Data Management",
       "E-commerce",
       "Git",
+      "Google",
+      "Hilt",
       "JSON",
       "Java",
+      "Jetpack Compose",
       "Kotlin",
       "MVVM",
+      "Onboarding",
       "Performance Optimization",
       "REST",
       "REST API",
+      "Reliability",
+      "Retrofit",
+      "Room Database",
       "SQLite"
     ],
     "by_category": {
+      "integration": [
+        "Aadhaar Integration",
+        "REST"
+      ],
       "mobile": [
         "Android"
+      ],
+      "hardware": [
+        "Bluetooth"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Reliability"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow",
+        "Dagger 2",
+        "Hilt",
+        "Jetpack Compose",
+        "Retrofit"
+      ],
+      "productivity": [
+        "Data Management"
       ],
       "retail": [
         "E-commerce"
@@ -68,6 +102,11 @@
       "dev_tool": [
         "Git",
         "Performance Optimization"
+      ],
+      "database": [
+        "Google",
+        "Room Database",
+        "SQLite"
       ],
       "web_framework": [
         "JSON",
@@ -80,25 +119,25 @@
       "architecture": [
         "MVVM"
       ],
-      "integration": [
-        "REST"
-      ],
-      "database": [
-        "SQLite"
+      "hr": [
+        "Onboarding"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Rest→REST(100%), Kotlin.→Kotlin(92%), e-commerce→E-commerce(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Rest→REST(100%), Coroutines→Coroutines Flow(100%), Flow→Coroutines Flow(100%), Room→Room Database(100%), Kotlin.→Kotlin(92%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Software Developer",
+        "role": "Software Developer (Android Developer",
         "company": "Pavitra Retail Pvt ltd",
         "location": null,
         "start": "Dec 2015",
         "end": "Aug 2019",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Pavitra Retail Pvt ltd"
+        ],
         "duration_months": 45,
         "bullets": [
           "Designed and developed an e-commerce Android application using Java for selling organic products, integrating secure product browsing and checkout features.",
@@ -122,7 +161,7 @@
   "education": {
     "entries": [
       {
-        "degree": "B.Tech/B.E. in Computers from Indian Institute of Technology, Guwahati 2013",
+        "degree": "B.Tech/B.E. in Computers",
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "fb7751ac_ca6902e2_MOGALLA_VASAVI_Resume1_segmented.txt",
-    "generated_at": "2026-09-30T07:00:52.321974+00:00",
+    "generated_at": "2026-10-07T09:28:57.432674+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -52,14 +52,21 @@
       "ArcSight",
       "Continuous Improvement",
       "EDR",
+      "IBM QRadar",
       "Incident Management",
       "Log Analysis",
+      "Microsoft Teams",
       "Objective C",
+      "Phishing",
+      "Production Support",
+      "Reliability",
       "Risk Management",
       "SAP",
       "SIEM",
       "SOC Operations",
+      "Secure Coding",
       "Splunk",
+      "Threat Intelligence",
       "Vulnerability Management"
     ],
     "by_category": {
@@ -67,40 +74,59 @@
         "ArcSight",
         "EDR",
         "Log Analysis",
+        "Phishing",
         "SIEM",
-        "Splunk"
+        "Splunk",
+        "Threat Intelligence"
       ],
       "operations": [
         "Continuous Improvement"
       ],
       "security": [
+        "IBM QRadar",
         "Incident Management",
         "SOC Operations",
         "Vulnerability Management"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "programming_language": [
         "Objective C"
+      ],
+      "it_operations": [
+        "Production Support"
+      ],
+      "soft_skill": [
+        "Reliability"
       ],
       "project_mgmt": [
         "Risk Management"
       ],
       "integration": [
         "SAP"
+      ],
+      "cybersecurity": [
+        "Secure Coding"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(EDR Tools→EDR(100%), Incident Response→Incident Management(100%), log analysis→Log Analysis(100%), objectives→Objective C(90%))"
+    "_method": "flashtext_skills_section | fuzzy(Qradar→IBM QRadar(100%), EDR Tools→EDR(100%), Incident Response→Incident Management(100%), log analysis→Log Analysis(100%), objectives→Objective C(90%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Security Consultant",
+        "role": "Security Consultant (SOC",
         "company": "Capgemini Technology Services India Limited",
-        "location": "Gurugram",
+        "location": null,
         "start": "Oct 2022",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 48,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Security Consultant (SOC)",
+          "Capgemini Technology Services India Limited"
+        ],
+        "duration_months": 49,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -108,13 +134,16 @@
         "source": "experience"
       },
       {
-        "role": "(L1",
+        "role": "SOC Analyst (L1",
         "company": "Monitor and analyse security events in a 24×7 SOC environment.",
-        "location": "Gurugram",
+        "location": null,
         "start": "Oct 2022",
         "end": "Current",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 48,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "SOC Analyst (L1)"
+        ],
+        "duration_months": 49,
         "bullets": [
           "Investigate real-time alerts to identify true positive threats and minimize false positives using Splunk, Qradar, ArcSight.",
           "Conduct malware and threat analysis to support prompt incident response.",
@@ -132,12 +161,15 @@
         "source": "experience"
       },
       {
-        "role": "",
+        "role": "SAP ABAP Analyst",
         "company": "Translated business requirements into clear and effective technical specifications.",
-        "location": "Chennai",
+        "location": null,
         "start": "Oct 2021",
         "end": "Oct 2022",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "SAP ABAP Analyst"
+        ],
         "duration_months": 13,
         "bullets": [
           "Designed and developed custom reports, smart forms, and system enhancements using SAP ABAP.",
@@ -146,18 +178,18 @@
           "Provided production support for ABAP development and resolved technical issues."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.0,
-      "total_months": 60,
+      "total_years": 5.1,
+      "total_months": 61,
       "overlapping_periods_merged": 2
     },
-    "_confidence": 0.74
+    "_confidence": 0.79
   },
   "education": {
     "entries": [
@@ -192,15 +224,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.8
+    "overall": 0.81
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.74,
-      "reason": "low_confidence"
-    },
     {
       "field": "experience.jobs[1]",
       "confidence": 0.7,
@@ -208,7 +235,7 @@
     },
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

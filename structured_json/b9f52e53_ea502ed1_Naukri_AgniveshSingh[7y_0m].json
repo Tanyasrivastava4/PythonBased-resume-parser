@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b9f52e53_ea502ed1_Naukri_AgniveshSingh[7y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:09.104599+00:00",
+    "generated_at": "2026-10-07T09:28:01.309143+00:00",
     "sections_found": [
       "certifications",
       "early_career",
@@ -52,14 +52,64 @@
   "skills": {
     "items": [
       "BRD",
+      "Business Rules Engine",
+      "Collaboration",
+      "Creativity",
+      "Cross-functional Collaboration",
+      "Data Management",
+      "Data Preprocessing",
+      "Data-Driven Decision Making",
       "Digital Transformation",
       "E-learning",
+      "FSD",
+      "Home Loans",
+      "Leadership",
+      "Legal Compliance",
       "Machine Learning",
-      "Turnaround Time"
+      "Microsoft Teams",
+      "Operations Management",
+      "Personal Loan",
+      "Process Improvement",
+      "Product Design",
+      "Product Management",
+      "Reliability",
+      "Risk Management",
+      "SAP",
+      "SQL",
+      "Stakeholder Management",
+      "Straight-Through Processing",
+      "Strategic Planning",
+      "Team Leadership",
+      "Tenable.sc",
+      "Turnaround Time",
+      "UAT"
     ],
     "by_category": {
       "business_analysis": [
-        "BRD"
+        "BRD",
+        "FSD"
+      ],
+      "banking": [
+        "Business Rules Engine",
+        "Home Loans",
+        "Straight-Through Processing"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Creativity",
+        "Cross-functional Collaboration",
+        "Data-Driven Decision Making",
+        "Leadership",
+        "Reliability",
+        "Stakeholder Management",
+        "Team Leadership"
+      ],
+      "productivity": [
+        "Data Management",
+        "Microsoft Teams"
+      ],
+      "data_engineering": [
+        "Data Preprocessing"
       ],
       "consulting": [
         "Digital Transformation"
@@ -67,42 +117,78 @@
       "education_domain": [
         "E-learning"
       ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "ai_ml": [
         "Machine Learning"
       ],
+      "operations": [
+        "Operations Management",
+        "Process Improvement"
+      ],
+      "finance": [
+        "Personal Loan"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "project_mgmt": [
+        "Product Management",
+        "Risk Management"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "database": [
+        "SQL"
+      ],
       "management": [
+        "Strategic Planning",
         "Turnaround Time"
+      ],
+      "cybersecurity": [
+        "Tenable.sc"
+      ],
+      "testing": [
+        "UAT"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section"
+    "_method": "flashtext_skills_section | fuzzy(Enabled→Tenable.sc(86%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": null,
+        "role": "2023-2024 2024-Present",
         "company": "JM FINANCIAL AXIS BANK Piramal",
         "location": null,
         "start": "2021",
         "end": "2022",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
         "role": "Digital Product Manager",
-        "company": "Data-Driven Decision Making",
+        "company": "Collaboration",
         "location": null,
         "start": "Mar 2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 31,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Collaboration",
+          "Digital Product Manager",
+          "Data-Driven Decision Making",
+          "Piramal Capital & Housing Finance (PCHF)"
+        ],
+        "duration_months": 32,
         "bullets": [
-          "Unknown - Enterprise Lending Platform Leadership | Leading product analysis and delivery for LOS, LMS, BRE, and mobile applications across Microfinance, Personal Loans, and Home Loans portfolios.",
+          "Enterprise Lending Platform Leadership: Leading product analysis and delivery for LOS, LMS, BRE, and mobile applications across Microfinance, Personal Loans, and Home Loans portfolios.",
           "End-to-End Product Ownership: Owning the full lifecycle from requirement gathering and BRD/FSD creation to solution validation, UAT coordination, and production readiness.",
           "Stakeholder & Process Optimization: Partnering with business, technology, and operations stakeholders to streamline lending workflow, improve system efficiency, and reduce manual interventions.",
           "Quality & Delivery Assurance: Validating functional and technical designs, managing UAT cycles, managing defect resolution, and ensuring timely, high-quality releases aligned with business goals.",
@@ -122,7 +208,11 @@
         "location": null,
         "start": "Dec 2023",
         "end": "Mar 2024",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Product Manager",
+          "Axis Bank"
+        ],
         "duration_months": 4,
         "bullets": [],
         "sub_sections": [],
@@ -137,6 +227,9 @@
         "start": "Aug 2022",
         "end": "Dec 2023",
         "method": "date_regex",
+        "pre_date_header": [
+          "JM Financial Home Loans"
+        ],
         "duration_months": 17,
         "bullets": [
           "Multi-System Lending Expertise: Led BA activities across LOS, LMS, BRE, Customer Portals, Collections, and Mobile Applications for Home Loan products.",
@@ -154,7 +247,11 @@
         "location": null,
         "start": "Mar 2021",
         "end": "Jun 2022",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Analyst",
+          "Indostar Capital"
+        ],
         "duration_months": 16,
         "bullets": [
           "Requirements & Testing Ownership: Gathered business requirements, prepared BRDs, and supported UAT planning and execution for lending and operational systems.",
@@ -171,7 +268,11 @@
         "location": null,
         "start": "Dec 2016",
         "end": "Dec 2018",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Software Engineer",
+          "Accenture"
+        ],
         "duration_months": 25,
         "bullets": [
           "Data Engineering & ML Support: Performed data preprocessing for machine learning models, including data extraction via APIs and SQL-based data handling.",
@@ -187,10 +288,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 7.8,
-      "total_months": 93,
+      "total_months": 94,
       "overlapping_periods_merged": 3
     },
-    "_confidence": 0.94
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -251,11 +352,6 @@
       "field": "contact.name",
       "confidence": 0.0,
       "reason": "missing"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
     },
     {
       "field": "experience.jobs[3]",

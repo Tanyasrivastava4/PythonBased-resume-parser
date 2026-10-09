@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ce406d99_c5875cac_Firoz Mohammad Shaikh_HR Operations_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:22.790511+00:00",
+    "generated_at": "2026-10-07T09:28:18.940000+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,25 +47,49 @@
   "summary": "Dedicated and motivated HR professional with excellent organizational skills, seeking a position to contribute to team\nsuccess and support company objectives. Eager to leverage my passion for hard work and learning in a professional\nenvironment.",
   "skills": {
     "items": [
+      "Auditing",
+      "CIBIL",
       "Collaboration",
       "Communication",
+      "Cross-functional Collaboration",
+      "Employee Records Management",
+      "HRMS",
       "MS Office",
       "Microsoft Excel",
+      "Microsoft Teams",
+      "Onboarding",
+      "Risk Assessment",
       "Tally",
       "Time Management"
     ],
     "by_category": {
+      "finance_ops": [
+        "Auditing",
+        "Tally"
+      ],
+      "finance": [
+        "CIBIL"
+      ],
       "soft_skill": [
         "Collaboration",
         "Communication",
+        "Cross-functional Collaboration",
         "Time Management"
+      ],
+      "hr_recruitment": [
+        "Employee Records Management"
+      ],
+      "hr": [
+        "HRMS",
+        "Onboarding"
       ],
       "productivity": [
         "MS Office",
-        "Microsoft Excel"
+        "Microsoft Excel",
+        "Microsoft Teams"
       ],
-      "finance_ops": [
-        "Tally"
+      "compliance": [
+        "Risk Assessment"
       ]
     },
     "_confidence": 0.92,
@@ -74,18 +98,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "Worked as a HR Assistant",
-        "company": "*INDUSIND BANK LTD",
+        "role": "HR Assistant",
+        "company": "INDUSIND BANK LTD Worked",
         "location": null,
         "start": "May 2025",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 17,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 18,
         "bullets": [
           "Managed the full employee onboarding lifecycle by coordinating with recruiters, candidates, and backend teams to ensure seamless process integration.",
           "Using the Workline Pulse HRMS, I conducted rigorous document verification and credential auditing to validate all candidate paperwork before updating and releasing formal offer letters.",
           "This role involved generating CIBIL and CFR reports for risk assessment, maintaining organized soft and hard copy employee records, and resolving candidate or employee grievances with professional care.",
-          "By working closely with HR managers and cross-functional teams, I ensured all operational tasks remained in strict compliance with company policies and regulatory standards."
+          "By working closely with HR managers and cross-functional teams, I ensured all operational tasks remained in strict compliance with company policies and regulatory standards.",
+          "Maintained accurate onboarding Tracker On Weekly and Monthly basis on excel."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -93,12 +118,12 @@
         "source": "experience"
       },
       {
-        "role": "Worked as a Relationship Executive",
-        "company": "Maintained accurate onboarding Tracker On Weekly and Monthly basis on excel. LiquiLoans",
+        "role": "Relationship Executive",
+        "company": "LiquiLoans (NDX P2 P Private Limited Worked",
         "location": null,
         "start": "June 2023",
         "end": "Feb 2025",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 21,
         "bullets": [
           "We provide education loans through a straightforward two-step process.",
@@ -114,7 +139,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 3.2,
-      "total_months": 38,
+      "total_months": 39,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.84
@@ -137,25 +162,14 @@
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "Shrinivas Bagarga College",
-        "year": "2020",
-        "gpa": null,
-        "_needs_review": false,
-        "_confidence": 0.95
-      },
-      {
-        "degree": "S.V.M High School",
-        "degree_name": "10th",
-        "degree_type": "10th",
-        "degree_field": null,
-        "institution": "Chandrabhan Sharma College Mumbai University",
+        "institution": "S.V.M High School",
         "year": "2018",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.9
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [],
@@ -166,7 +180,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [

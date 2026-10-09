@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b42421e8_Naukri_RajatBora[1y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:06.564039+00:00",
+    "generated_at": "2026-10-07T09:27:57.627499+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -50,36 +50,44 @@
     "items": [
       "Bootstrap",
       "CSS3",
-      "Collaboration",
       "Communication",
       "ES6+",
+      "Express.js",
       "Git",
       "HTML5",
+      "JSON Web Token",
       "JavaScript",
+      "LinkedIn",
       "MERN Stack",
+      "MongoDB",
       "Next.js",
+      "Node.js",
       "Problem Solving",
       "REST API",
       "React",
       "Responsive Web Design",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Team Collaboration"
     ],
     "by_category": {
       "web_framework": [
         "Bootstrap",
         "CSS3",
+        "Express.js",
         "HTML5",
+        "LinkedIn",
         "MERN Stack",
         "Next.js",
+        "Node.js",
         "REST API",
         "React",
         "Responsive Web Design",
         "Tailwind CSS"
       ],
       "soft_skill": [
-        "Collaboration",
         "Communication",
-        "Problem Solving"
+        "Problem Solving",
+        "Team Collaboration"
       ],
       "programming_language": [
         "ES6+",
@@ -87,10 +95,16 @@
       ],
       "dev_tool": [
         "Git"
+      ],
+      "security": [
+        "JSON Web Token"
+      ],
+      "database": [
+        "MongoDB"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(React.js→React(100%), REST APIs→REST API(100%), Problem-solving→Problem Solving(100%), MERN→MERN Stack(100%), React.js→React(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(React.js→React(100%), REST APIs→REST API(100%), Team Collaboration.→Team Collaboration(97%), Problem-solving→Problem Solving(100%), MERN→MERN Stack(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -100,7 +114,7 @@
         "location": null,
         "start": null,
         "end": "1 Year",
-        "method": "stated_duration_regex+title_dict+company_suffix_match",
+        "method": "stated_duration_regex+multiline_role_above_company",
         "duration_months": 12,
         "bullets": [
           "Developed and maintainedresponsive websites using HTML, CSS, JavaScript,",

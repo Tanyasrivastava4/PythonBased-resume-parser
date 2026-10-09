@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1852e02b_Ashish_Dabas_CV_segmented.txt",
-    "generated_at": "2026-09-30T06:57:59.502614+00:00",
+    "generated_at": "2026-10-07T10:30:54.050699+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,8 +51,14 @@
       "Customer Service",
       "E-commerce",
       "KPI",
+      "Logistics",
       "Mentoring",
-      "SLA Management"
+      "Microsoft Teams",
+      "Onboarding",
+      "Payments",
+      "Professional Tax",
+      "SLA Management",
+      "Turnaround Time"
     ],
     "by_category": {
       "support": [
@@ -68,12 +74,28 @@
       "business_analysis": [
         "KPI"
       ],
+      "operations": [
+        "Logistics"
+      ],
       "soft_skill": [
         "Mentoring"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "hr": [
+        "Onboarding",
+        "Professional Tax"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "management": [
+        "Turnaround Time"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(e-commerce→E-commerce(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Professional→Professional Tax(95%), e-commerce→E-commerce(100%))"
   },
   "experience": {
     "jobs": [
@@ -84,6 +106,10 @@
         "start": "September 2014",
         "end": "October 2018",
         "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "CONCENTRIX DAKSH PVT. LTD – SENIOR CUSTOMER SERVICE EXECUTIVE (AMAZON",
+          "U.S. & U.K. - EMAIL PROCESS)"
+        ],
         "duration_months": 50,
         "bullets": [
           "Handled customer queries for Amazon U.S. and U.K. markets via email support.",
@@ -98,12 +124,15 @@
         "source": "experience"
       },
       {
-        "role": "COM – SENIOR CUSTOMER SERVICE EXECUTIVE (CALL & EMAIL SUPPORT",
+        "role": "SENIOR CUSTOMER SERVICE EXECUTIVE",
         "company": "KOOVS.COM",
-        "location": "SENIOR CUSTOMER SERVICE EXECUTIVE",
+        "location": null,
         "start": "January 2019",
         "end": "August 2020",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "KOOVS.COM – SENIOR CUSTOMER SERVICE EXECUTIVE (CALL & EMAIL SUPPORT)"
+        ],
         "duration_months": 20,
         "bullets": [
           "Managed inbound and outbound calls along with email support for e-commerce customers.",
@@ -117,13 +146,17 @@
         "source": "experience"
       },
       {
-        "role": "EXECUTIVE (CALL, EMAIL & CHAT SUPPORT",
+        "role": "SENIOR CUSTOMER SERVICE",
         "company": "HONASA CONSUMER PVT. LTD",
-        "location": "SENIOR CUSTOMER SERVICE",
+        "location": null,
         "start": "September 2020",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 73,
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "HONASA CONSUMER PVT. LTD (MAMAEARTH) – SENIOR CUSTOMER SERVICE",
+          "EXECUTIVE (CALL, EMAIL & CHAT SUPPORT)"
+        ],
+        "duration_months": 74,
         "bullets": [
           "Provided multichannel support (call, email, chat) for domestic and Middle East customers.",
           "Resolved product inquiries, delivery delays, refund requests, and payment disputes.",
@@ -139,8 +172,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.9,
-      "total_months": 143,
+      "total_years": 12.0,
+      "total_months": 144,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c75c98ce_f3c4c640_Ritu Pandey_UIUX Lead_GT_segmented.txt",
-    "generated_at": "2026-09-30T07:00:19.300665+00:00",
+    "generated_at": "2026-10-07T09:28:14.449602+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,13 +51,19 @@
       "Adobe Photoshop",
       "Adobe Premiere Pro",
       "Adobe XD",
+      "Brand Design",
       "Business Development",
       "Collaboration",
       "Cross-functional Collaboration",
+      "Design Systems",
       "Figma",
       "Graphic Design",
       "Microsoft Teams",
-      "Sketch"
+      "Prototyping",
+      "Sketch",
+      "UX Design",
+      "User Research",
+      "Wireframing"
     ],
     "by_category": {
       "design": [
@@ -66,9 +72,15 @@
         "Adobe Photoshop",
         "Adobe Premiere Pro",
         "Adobe XD",
+        "Brand Design",
+        "Design Systems",
         "Figma",
         "Graphic Design",
-        "Sketch"
+        "Prototyping",
+        "Sketch",
+        "UX Design",
+        "User Research",
+        "Wireframing"
       ],
       "biz_dev": [
         "Business Development"
@@ -87,13 +99,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Manager (UI/UX Designer) Digital India Corporation New Delhi (Year",
-        "company": "Manager  Digital India Corporation New Delhi",
+        "role": "Manager (UI/UX Designer",
+        "company": "Digital India Corporation New Delhi (Year",
         "location": null,
         "start": "2019",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 93,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Manager (UI/UX Designer)"
+        ],
+        "duration_months": 94,
         "bullets": [
           "— Designed and prototyped user interfaces for Multiple Ministries such as « Ministry of Textile, National Narcotics Contro! Buauro, Nation! Commision of Woman, Ministry of Agriculture-ICAR, NRML, Minstry of Ayush etc. Created visual assets and graphics for web and mobile applications, adhering to brand guidelines and design principles. Engaged in user research, including surveys and interviews, to gather insights and drive design decisions. Collaborated with product managers and developers to create wireframes, prototypes, and high-fidelity designs, ensuring seamless handoff and implementation. Developed and maintained design systems and style guides to ensure consistency across platforms and products. Worked closely with developers to ensure accurate implementation of designs and resolve any design-related issues."
         ],
@@ -103,15 +118,19 @@
         "source": "experience"
       },
       {
-        "role": "Senior Graphic Designer The Web Artists Lucknow (Year",
-        "company": " solutions that met their objectives. Managed multiple projects simultaneously, ensuring timely delivery and « adherence to client specifications.",
+        "role": "Senior Graphic Designer",
+        "company": "The Web Artists Lucknow (Year",
         "location": null,
         "start": "2014",
         "end": "2019",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Senior Graphic Designer"
+        ],
         "duration_months": 61,
         "bullets": [
-          " Designed marketing materials, Including brochures, banners, and social e¢ media graphics, increasing brand visibility and engagement. Collaborated with clients to understand their needs and deliver creative"
+          " Designed marketing materials, Including brochures, banners, and social e¢ media graphics, increasing brand visibility and engagement. Collaborated with clients to understand their needs and deliver creative",
+          " solutions that met their objectives. Managed multiple projects simultaneously, ensuring timely delivery and « adherence to client specifications."
         ],
         "sub_sections": [
           "Graphic Designer",
@@ -122,45 +141,56 @@
           "various projects. Participated in brainstorming sessions and contributing",
           "ideas. Helped to maintain brand consistency across all designs."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 12.8,
-      "total_months": 153,
+      "total_months": 154,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.84
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
       {
-        "degree": "Intermediate From Science Stream",
-        "degree_name": "12th",
-        "degree_type": "12th",
+        "degree": "Bachelors in Visual Arts in Graphic Designing",
+        "degree_name": "B.Tech",
+        "degree_type": "bachelors",
         "degree_field": null,
         "institution": "College of Arts and Crafts, Lucknow University Lucknow",
-        "year": "2014",
+        "year": "2016",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
       },
       {
-        "degree": "High School From Science Stream",
+        "degree": "Intermediate",
+        "degree_name": "12th",
+        "degree_type": "12th",
+        "degree_field": null,
+        "institution": "Government Girls College Lucknow",
+        "year": "2010",
+        "gpa": null,
+        "_needs_review": false,
+        "_confidence": 0.95
+      },
+      {
+        "degree": "High School",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": "College of Arts and Crafts, Lucknow University Lucknow",
+        "institution": "Government Girls College",
         "year": null,
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.65
       }
     ],
-    "_confidence": 0.8
+    "_confidence": 0.85
   },
   "certifications": {
     "items": [],
@@ -171,14 +201,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.92
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,0 +1,59 @@
+======================================================================
+FILE: 2220af21_CA Aryan Kumar Gupta_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+PAID ASSISTANT:
+Agarwal URS & Co. (as a Senior Associates)
+(June 2024 - Present)
+ARTICLED ASSISTANT:
+Sanjeev Bhagat & Co.
+(September 2020 September 2022)
+Shyam Amitesh & Co.
+(September 2019 - September 2020)
+Audit and Consultancy:
+Key Clients: Hyatt Regency, Lotus Herbal Color Cosmetics, Addverb Rob...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 3.5 years (42 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Associates
+  Company      : Agarwal URS & Co
+  Location     : None
+  Start - End  : June 2024 - Present
+  Duration     : 29 months
+  Bullets      : 1
+    • ARTICLED ASSISTANT:
+  Method       : date_regex+company_parens_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : ARTICLED ASSISTANT
+  Company      : September 2020 September 2022
+  Location     : None
+  Start - End  : September 2019 - September 2020
+  Duration     : 13 months
+  Bullets      : 14
+    • Audit and Consultancy: Key Clients: Hyatt Regency, Lotus Herbal Color Cosmetics, Addverb Robotics, Perch, IFFCO-MC Pvt.
+    • Ltd., Meenu Creation Etc.
+    • Led end-to-end statutory and internal audits across the manufacturing, service, hospitality, and real estate sectors, ensuring adherence to applicable laws, regulations, auditing and accounting standards, internal control frameworks, and ICFR requirements.
+    • Performed comprehensive risk assessment and engagement planning by defining audit scope, designing sampling methodologies, testing key financial and operational processes.
+    • Evaluated the effectiveness of internal controls across procurement, revenue, inventory, payroll, HR compliance, cash/bank, and other operational processes; identified control gaps, non-compliances, and process weaknesses, and recommended measures to enhance reliability, compliance, and operational efficiency.
+    • Performed detailed audits of Procure-to-Pay (P2P), Related party transactions, and HR processes (including vendor onboarding, purchase orders, goods receipt, invoicing, payments, employee lifecycle, approval matrices, and segregation of duties), resulting in improvements in cost efficiency, approval workflows, and documentation standards.
+    • Assessed IT general controls (ITGCs) and data security controls and accounting systems, data integrity, user access rights, backup procedures, and cybersecurity practices.
+    • Prepared structured audit reports, and presented key observations and recommendations to management to support corrective and preventive actions and finalization of financial statements.
+    • Taxation Department: Key Clients: Prakash Gold Industries, Bizflix Global, V Prakash Pump, Kazo International Pvt.
+    • Ltd.
+    • Prepared and filed Income Tax Returns, Tax Audit Reports for individuals, firms, small businesses and companies to ensuring accuracy and timely compliance.
+    • Performed GST reconciliation (GSTR 2A/2B v/s Books) and prepared monthly/Quarterly GST returns (GSTR-1 and GSTR-3B) for Individual & Companies.
+    • Legal Compliances and Other Work: Key Clients: NirogStreet Pvt.
+    • Ltd., Andor Communication, Aerobay India, Cyzen X Intelligence Etc.
+  Method       : date_regex+company_line_above_role_line+section_header_role
+  Confidence   : 0.85
+  Needs Review : True

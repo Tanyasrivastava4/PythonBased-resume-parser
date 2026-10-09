@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "97cdfa08_2cfce37b_CV_CA Aryan Jhajharia_segmented.txt",
-    "generated_at": "2026-09-30T06:59:47.410698+00:00",
+    "generated_at": "2026-10-07T09:27:31.985596+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,28 +47,40 @@
   "skills": {
     "items": [
       "Adaptability",
+      "Analytical Review",
       "Auditing",
       "CARO Reporting",
+      "CaseWare IDEA",
       "Communication",
       "Control Testing",
       "GPT",
       "GitHub Copilot",
+      "HSE Compliance",
       "Interpersonal Skills",
+      "Legal Compliance",
+      "Limited Review",
       "LinkedIn",
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
       "Office 365",
       "Payroll Administration",
-      "Regulatory Compliance",
+      "Physical Verification",
       "Statutory Audit",
-      "Substantive Testing"
+      "Substantive Testing",
+      "Team Coordination"
     ],
     "by_category": {
       "soft_skill": [
         "Adaptability",
         "Communication",
         "Interpersonal Skills"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "CaseWare IDEA",
+        "Limited Review",
+        "Physical Verification"
       ],
       "finance_ops": [
         "Auditing",
@@ -85,6 +97,12 @@
       "genai": [
         "GitHub Copilot"
       ],
+      "compliance": [
+        "HSE Compliance"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
       "web_framework": [
         "LinkedIn"
       ],
@@ -99,8 +117,8 @@
       "hr": [
         "Payroll Administration"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "management": [
+        "Team Coordination"
       ]
     },
     "_confidence": 0.92,
@@ -109,49 +127,58 @@
   "experience": {
     "jobs": [
       {
-        "role": "Senior BSR & Co. LLP (KPMG",
-        "company": null,
+        "role": "Senior",
+        "company": "BSR & Co. LLP",
         "location": null,
         "start": "October 2025",
         "end": "Current",
-        "method": "date_regex+title_dash_company",
-        "duration_months": 12,
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Senior"
+        ],
+        "duration_months": 13,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "(Mumbai",
-        "company": null,
+        "role": "Executive",
+        "company": "Larsen & Toubro (Mumbai",
         "location": null,
         "start": "May 2025",
         "end": "October 2025",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Executive"
+        ],
         "duration_months": 6,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Article Assistant D.N Gupta & Co",
-        "company": null,
+        "role": "Article Assistant",
+        "company": "D.N Gupta & Co",
         "location": null,
         "start": "February 2024",
         "end": "April 2025",
         "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "Article Assistant"
+        ],
         "duration_months": 15,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Article Assistant D.N Gupta & Co",
+        "role": "Article Assistant",
         "company": "BSR & Co. LLP",
         "location": null,
         "start": "September 2022",
@@ -165,7 +192,7 @@
         "source": "experience"
       },
       {
-        "role": "Article Assistant D.N Gupta & Co",
+        "role": "Article Assistant",
         "company": "S.K Patodia & Associates",
         "location": null,
         "start": "April 2022",
@@ -192,11 +219,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.5,
-      "total_months": 54,
+      "total_years": 4.6,
+      "total_months": 55,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -207,7 +234,7 @@
         "degree_field": null,
         "institution": "ICAI",
         "year": null,
-        "gpa": "50.00%",
+        "gpa": null,
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -218,7 +245,7 @@
         "degree_field": null,
         "institution": "ICAI",
         "year": null,
-        "gpa": "56.13%",
+        "gpa": "50.00%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -229,7 +256,7 @@
         "degree_field": null,
         "institution": "ICAI",
         "year": null,
-        "gpa": "69.00%",
+        "gpa": "56.13%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -240,7 +267,7 @@
         "degree_field": null,
         "institution": null,
         "year": "2025",
-        "gpa": "72%",
+        "gpa": "69.00%",
         "_needs_review": false,
         "_confidence": 0.8
       },
@@ -250,10 +277,10 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "CBSE Rajasthan",
-        "year": null,
-        "gpa": "93%",
+        "year": "May 2025 - October 2025",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       },
       {
         "degree": "Class X",
@@ -262,12 +289,12 @@
         "degree_field": null,
         "institution": "CBSE Rajasthan",
         "year": null,
-        "gpa": "71%",
+        "gpa": "93%",
         "_needs_review": false,
         "_confidence": 0.8
       }
     ],
-    "_confidence": 0.8
+    "_confidence": 0.83
   },
   "certifications": {
     "items": [
@@ -342,25 +369,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.85
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[3]",
       "confidence": 0.85,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "58f54a6d_d9707bec_RahulJain_RBM_Pune_Stonelam_segmented.txt",
-    "generated_at": "2026-09-30T06:58:42.749469+00:00",
+    "generated_at": "2026-10-07T10:31:47.091602+00:00",
     "sections_found": [
       "declaration",
       "experience",
@@ -47,30 +47,58 @@
   "summary": "I am an experienced and self-driven Sales Manager with over 15+ years of industry expertise, specializing in overseeing\nsales performance and developing new accounts. I have a strong track record of collaborating effectively with sales teams\nto meet objectives, drive revenue growth, and streamline the sales cycle.\nI am a dedicated contributor with a proven ability to boost sales and devise strategies for customer retention. Throughout\nmy career, I have developed my communication skills and demonstrated a talent for building strong relationships. My\npassion lies in working closely with businesses to deliver exceptional service.\nI hold an MBA in Marketing from SCMLD, Pune, which I completed in 2010.",
   "skills": {
     "items": [
+      "Analyze",
       "Business Development",
+      "Business Planning",
       "Collaboration",
       "Communication",
       "Customer Retention",
+      "Customer Service",
+      "Lead Generation",
       "Leadership",
+      "Market Research",
+      "Merchandising",
       "Microsoft Teams",
       "Microsoft Windows",
       "Objective C",
+      "Presentation Skills",
       "Project Sales",
+      "Promotional Execution",
+      "REACH",
       "Revenue Generation",
-      "Strategic Thinking"
+      "Sales Management",
+      "Strategic Planning"
     ],
     "by_category": {
+      "data_science": [
+        "Analyze"
+      ],
       "biz_dev": [
-        "Business Development"
+        "Business Development",
+        "Business Planning"
       ],
       "soft_skill": [
         "Collaboration",
         "Communication",
         "Leadership",
-        "Strategic Thinking"
+        "Presentation Skills"
       ],
       "client_mgmt": [
-        "Customer Retention"
+        "Customer Retention",
+        "Customer Service"
+      ],
+      "sales": [
+        "Lead Generation",
+        "Project Sales",
+        "Promotional Execution",
+        "Revenue Generation",
+        "Sales Management"
+      ],
+      "marketing": [
+        "Market Research"
+      ],
+      "retail": [
+        "Merchandising"
       ],
       "productivity": [
         "Microsoft Teams"
@@ -81,13 +109,15 @@
       "programming_language": [
         "Objective C"
       ],
-      "sales": [
-        "Project Sales",
-        "Revenue Generation"
+      "compliance": [
+        "REACH"
+      ],
+      "management": [
+        "Strategic Planning"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Strategic Planning→Strategic Thinking(100%), collaborating→Collaboration(92%), teams→Microsoft Teams(100%), objectives→Objective C(90%))"
+    "_method": "flashtext_skills_section | fuzzy(collaborating→Collaboration(92%), teams→Microsoft Teams(100%), objectives→Objective C(90%))"
   },
   "experience": {
     "jobs": [
@@ -97,8 +127,12 @@
         "location": "Maharashtra",
         "start": "05/2022",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 53,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Manager",
+          "VEKA Pvt. Limited • Pune, Maharashtra"
+        ],
+        "duration_months": 54,
         "bullets": [
           "Managing and expanding the uPVC doors and windows hardware sales at VEKA Pvt.",
           "Ltd., with responsibility for business growth and operations across West Region — Maharashtra, Madhya Pradesh, Gujarat, and Chhattisgarh.",
@@ -121,7 +155,11 @@
         "location": null,
         "start": "10/2018",
         "end": "11/2021",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Deputy Manager Sales",
+          "HR Johnson Tiles Limited"
+        ],
         "duration_months": 38,
         "bullets": [
           "To analyze business potential, conceptualize & execute strategies to drive vertical growth, increase turnover and achieve the targets thereby as per the parameters agreed; through dealers / trade management.",
@@ -142,7 +180,11 @@
         "location": null,
         "start": "05/2015",
         "end": "10/2018",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior officer",
+          "JAQUAR COMPANY LTD"
+        ],
         "duration_months": 42,
         "bullets": [
           "Identify Builders who are not specifying different Vertical Products as per their CBS potential Mapping and converting them to give us sustain CBS Business.",
@@ -165,6 +207,11 @@
         "start": "07/2011",
         "end": "04/2015",
         "method": "date_regex+comma_company_role_split",
+        "pre_date_header": [
+          "To support projects & resolve their issues related to supplies, sales, policies, Customer Care & other issues.",
+          "Asst. Department Manager",
+          "Infiniti Retail Limited, Croma - A Tata Enterprises"
+        ],
         "duration_months": 46,
         "bullets": [
           "To Manage and motivate a team to increase sales and ensure efficiency.",
@@ -190,7 +237,11 @@
         "location": null,
         "start": "06/2010",
         "end": "06/2011",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Business Development Manager",
+          "GRAM OORJA SOLUTIONS PVT LTD"
+        ],
         "duration_months": 13,
         "bullets": [
           "Develop sales and marketing strategies to drive sales growth in the assigned area.",
@@ -206,8 +257,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 15.9,
-      "total_months": 191,
+      "total_years": 16.0,
+      "total_months": 192,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.92

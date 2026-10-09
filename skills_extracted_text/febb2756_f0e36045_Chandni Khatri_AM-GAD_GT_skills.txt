@@ -1,0 +1,30 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/febb2756_f0e36045_Chandni Khatri_AM-GAD_GT_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Statutory Audit | Internal Audit | IFRS | IND AS | GAAP | Financial Reporting | Risk
+Control Testing | Audit Planning | Substantive Testing | Analytical Review | Walkthroughs
+Disclosures | Client Management | Team Leadership | KPMG Audit Methodology
+Sampling (MUS, Random) | Advanced Excel | MS Word | Audit Compliance | Audit
+
+── Extraction Results ──
+Skills found   : 22
+Confidence     : 0.92
+Time           : 99.5 ms
+Method         : flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), Client Management→Client Relationship Management(100%), Advanced Excel→Microsoft Excel(100%), MS Word→Microsoft Word(100%), Risk Assessment→Risk Management(100%))
+
+── All Skills (22) ──
+Accounting, Accounts Receivable, Audit Methodology, Auditing, Client Relationship Management, Communication, Financial Analysis, Financial Reporting, GAAP, Healthcare, IFRS, LinkedIn, Microsoft Excel, Microsoft Teams, Microsoft Word, R, Regulatory Compliance, Risk Management, Statutory Audit, Substantive Testing, Team Leadership, Tutoring
+
+── By Category ──
+  client_mgmt                    ['Client Relationship Management']
+  domain                         ['Healthcare']
+  education_domain               ['Tutoring']
+  finance_ops                    ['Accounting', 'Accounts Receivable', 'Audit Methodology', 'Auditing', 'Financial Analysis', 'Financial Reporting', 'GAAP', 'IFRS', 'Statutory Audit', 'Substantive Testing']
+  legal                          ['Regulatory Compliance']
+  productivity                   ['Microsoft Excel', 'Microsoft Teams', 'Microsoft Word']
+  programming_language           ['R']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Communication', 'Team Leadership']
+  web_framework                  ['LinkedIn']

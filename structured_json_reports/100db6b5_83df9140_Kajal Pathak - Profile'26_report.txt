@@ -2,7 +2,7 @@
 FILE: 100db6b5_83df9140_Kajal Pathak - Profile'26_segmented.txt
 ======================================================================
 Sections found : ['education', 'experience', 'header', 'personal_details', 'skills', 'summary']
-Overall conf.  : 0.95
+Overall conf.  : 0.9
 Needs review   : True
 
 CONTACT
@@ -63,15 +63,15 @@ Compliance
 coordinating with the treasury team for the release of salary on timely date.
 ▪ Been point of contact for PF/PT & Insurance related queries and managing the same.
 
-SKILLS (19) — confidence 0.92
+SKILLS (31) — confidence 0.92
 ----------------------------------------------------------------------
-BFSI, Background Verification, Change Management, Customer Onboarding, HRIS, Labour Law, Leadership, Microsoft Visio, Onboarding, Operational Excellence, Payments, Payroll Administration, Procurement, Profilers, Recruitment, Responsible AI, Talent Management, Turnaround Time, Workshop Facilitation
+Attrition Analysis, BFSI, Background Verification, Change Management, Customer Onboarding, Employee Engagement, Exit Formalities, HR Generalist, HR Management, HRIS, HRMIS, Internal Job Posting, Labour Law, Leadership, Microsoft Visio, NBFC, Onboarding, Operational Excellence, Payments, Payroll Administration, Procurement, Profilers, Recruitment, Recruitment MIS, Responsible AI, Salary Benchmarking, Talent Management, Team Management, Turnaround Time, Vendor Management, Workshop Facilitation
 
-EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.84
 Total experience: 4.3 years (52 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. HR Associate @ ASHV Finance Tenure: From (May 2024 - November 2025) [conf 0.98, review=False]
-  2. HR Executive @ ICICI Bank  Tenure: From (August 2021 - April 2024) [conf 0.98, review=False]
+  1. Tenure: From HR Associate @ ASHV Finance (May 2024 - November 2025) [conf 0.98, review=False]
+  2. HR Executive @ ICICI Bank (Integra Unisource Pvt ltd) Tenure: From (August 2021 - April 2024) [conf 0.7, review=True]
 
 EDUCATION (0) — confidence 0.0
 ----------------------------------------------------------------------
@@ -79,6 +79,7 @@ EDUCATION (0) — confidence 0.0
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (1 flagged fields)
+REVIEW QUEUE (2 flagged fields)
 ----------------------------------------------------------------------
+  experience.jobs[1]                  conf=0.7  reason=incomplete_fields
   education                           conf=0.0  reason=section_present_but_empty

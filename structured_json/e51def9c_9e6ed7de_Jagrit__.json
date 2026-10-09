@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e51def9c_9e6ed7de_Jagrit___segmented.txt",
-    "generated_at": "2026-09-30T07:00:36.708415+00:00",
+    "generated_at": "2026-10-07T09:28:36.824759+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,15 +49,18 @@
       "Agile",
       "C++",
       "CI/CD",
+      "Disaster Recovery",
       "Django",
       "Docker",
       "Embeddings",
       "Fine-tuning",
       "Git",
       "GitHub",
+      "ITIL",
       "LLM",
       "LangChain",
       "LinkedIn",
+      "Microsoft Teams",
       "NumPy",
       "Pandas",
       "PostgreSQL",
@@ -65,10 +68,12 @@
       "PyTorch",
       "Python",
       "RAG",
+      "Reliability",
       "SDLC",
       "SQL",
       "SQLite",
       "Scrum",
+      "ServiceNow",
       "Transformers",
       "VS Code",
       "Vector Databases",
@@ -86,6 +91,9 @@
       "devops": [
         "CI/CD",
         "Docker"
+      ],
+      "operations": [
+        "Disaster Recovery"
       ],
       "web_framework": [
         "Django",
@@ -108,19 +116,33 @@
       "dev_tool": [
         "Git",
         "GitHub",
-        "Postman",
-        "VS Code"
+        "Postman"
+      ],
+      "management": [
+        "ITIL"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "database": [
         "PostgreSQL",
         "SQL",
         "SQLite"
       ],
+      "soft_skill": [
+        "Reliability"
+      ],
       "architecture": [
         "SDLC"
       ],
+      "integration": [
+        "ServiceNow"
+      ],
       "data_science": [
         "Transformers"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -134,7 +156,10 @@
         "location": null,
         "start": "January 2024",
         "end": "June 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Graduate Engineer Trainee"
+        ],
         "duration_months": 18,
         "bullets": [
           "∗ Ensured consistent and reliable backups using enterprise-level tools, supporting business continuity and disaster recovery goals. ∗ Managed incident and change requests using ServiceNow, contributing to efficient ITSM practices in alignment with ITIL framework. ∗ Collaborated with infrastructure teams to coordinate system upgrades, patch deployments, and configuration changes across storage and backup environments. ∗ Managed daily backup jobs, monitored alerts, and ensured data protection using enterprise tools integrated with ServiceNow ITSM. ∗ Created and maintained internal documentation for troubleshooting procedures and knowledge base articles to support team efficiency."
@@ -150,7 +175,10 @@
         "location": "India",
         "start": "January 2023",
         "end": "June 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Python Developer Intern"
+        ],
         "duration_months": 6,
         "bullets": [
           "∗ Developed and maintained web applications using Django framework, enhancing project modularity and scalability. ∗ Implemented backend business logic and integrated database models to support dynamic content and user interactions."

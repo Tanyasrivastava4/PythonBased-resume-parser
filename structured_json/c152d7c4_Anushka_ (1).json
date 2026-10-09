@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "c152d7c4_Anushka_ (1)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:16.147902+00:00",
+    "generated_at": "2026-10-07T09:28:10.314859+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,42 +46,82 @@
   "summary": null,
   "skills": {
     "items": [
+      "API Design",
       "AWS",
+      "AWS Lambda",
       "AWS S3",
+      "BERT",
+      "Caching",
       "Celery",
+      "Coroutines Flow",
+      "Cross-functional Collaboration",
       "Django",
+      "Django REST Framework",
       "Docker",
       "Elasticsearch",
       "Fine-tuning",
+      "GPT",
       "Git",
       "GitHub",
+      "HR Management",
       "Hugging Face",
       "LLM",
       "LangChain",
+      "LinkedIn",
       "Machine Learning",
+      "Microsoft Teams",
       "MySQL",
       "NLP",
       "NumPy",
+      "OpenAI API",
+      "Payroll Administration",
+      "Payroll Management",
       "PostgreSQL",
       "Postman",
       "Python",
       "RAG",
+      "RBAC",
+      "Recruitment",
       "Redis",
       "SQL",
+      "System Design",
       "TensorFlow",
       "Tokenization",
       "Transformers"
     ],
     "by_category": {
+      "architecture": [
+        "API Design",
+        "Caching",
+        "System Design"
+      ],
       "cloud_infra": [
         "AWS",
+        "AWS Lambda",
         "AWS S3"
+      ],
+      "ai_ml": [
+        "BERT",
+        "GPT",
+        "Machine Learning",
+        "NLP",
+        "NumPy",
+        "TensorFlow",
+        "Tokenization"
       ],
       "data_engineering": [
         "Celery"
       ],
+      "mobile_dev": [
+        "Coroutines Flow"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
       "web_framework": [
-        "Django"
+        "Django",
+        "Django REST Framework",
+        "LinkedIn"
       ],
       "devops": [
         "Docker"
@@ -94,6 +134,7 @@
         "Hugging Face",
         "LLM",
         "LangChain",
+        "OpenAI API",
         "RAG"
       ],
       "dev_tool": [
@@ -101,12 +142,14 @@
         "GitHub",
         "Postman"
       ],
-      "ai_ml": [
-        "Machine Learning",
-        "NLP",
-        "NumPy",
-        "TensorFlow",
-        "Tokenization"
+      "hr": [
+        "HR Management",
+        "Payroll Administration",
+        "Payroll Management",
+        "Recruitment"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "database": [
         "MySQL",
@@ -117,49 +160,74 @@
       "programming_language": [
         "Python"
       ],
+      "security": [
+        "RBAC"
+      ],
       "data_science": [
         "Transformers"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Django REST Framework→Django(95%), LLMs→LLM(100%))"
+    "_method": "flashtext_skills_section | fuzzy(LLMs→LLM(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": "| GeeksforGeeks| Noida",
-        "company": "Collaborated with cross-functional teams to define system architecture and align RAG implementations with business requirements.",
-        "location": "The HRAlly | Remote",
+        "role": "Software Development Engineer",
+        "company": "The HRAlly",
+        "location": null,
         "start": "April 2025",
         "end": "Present",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
-        "duration_months": 18,
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Software Development Engineer | The HRAlly | Remote"
+        ],
+        "duration_months": 19,
         "bullets": [
           "Developed AI-powered HR chatbot with natural language to SQL conversion with Role-Based Access Control (RBAC) and Redis caching for real-time database queries and enabling users to access complex HR data independently.",
           "Built comprehensive Xero API integration for bidirectional payroll data synchronization, including employees, pay runs, and leave applications reducing payroll processing time by 80 percent.",
           "Developed and maintained 15+ Django modules for end-to-end flow of HR management system spanning recruitment, payroll, attendance, leave, and asset tracking workflows.",
           "Deployed Django HR application to AWS Elastic Beanstalk with AWS S3 static file storage, implementing automated deployment pipeline and environment configuration management.",
-          "Built AI resume filtration module using OpenAI, tiktoken for tokenization, and Django Celery background tasks, creating an intelligent candidate screening system with NLP-based resume parsing, skill matching, and automated ranking algorithms, processing 500+ resumes daily",
+          "Built AI resume filtration module using OpenAI, tiktoken for tokenization, and Django Celery background tasks, creating an intelligent candidate screening system with NLP-based resume parsing, skill matching, and automated ranking algorithms, processing 500+ resumes daily"
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Software Development Engineer",
+        "company": "GeeksforGeeks",
+        "location": null,
+        "start": "Apr 2023",
+        "end": "Apr 2025",
+        "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Software Development Engineer | GeeksforGeeks| Noida"
+        ],
+        "duration_months": 25,
+        "bullets": [
           "Developed and optimized scalable AI-powered backend services using Django, Python, and LangChain, integrating NLP models (GPT, BERT) to improve data retrieval by 30 percent",
           "Built and optimized Django REST APIs for AI-driven applications, reducing latency and improving response time.",
           "Designed and implemented high-performance backend data retrieval systems using Django ORM, Elasticsearch, PostgreSQL, and AWS Lambda, reducing query time by 40 percent.",
           "Developed and maintained user authentication role-based access control in Django to enhance security",
           "Integrated Django Celery for asynchronous task execution, enhancing system efficiency.",
+          "Collaborated with cross-functional teams to define system architecture and align RAG implementations with business requirements.",
           "Implemented Redis caching and optimized Django ORM queries, reducing DB load and improving API response time by 35 percent."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.5,
-      "total_months": 18,
-      "overlapping_periods_merged": 0
+      "total_years": 3.6,
+      "total_months": 43,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -181,7 +249,7 @@
         "degree_field": null,
         "institution": "ISC Kanpur",
         "year": null,
-        "gpa": null,
+        "gpa": "83.00 / 100.00",
         "_needs_review": false,
         "_confidence": 0.8
       }
@@ -197,14 +265,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.92
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

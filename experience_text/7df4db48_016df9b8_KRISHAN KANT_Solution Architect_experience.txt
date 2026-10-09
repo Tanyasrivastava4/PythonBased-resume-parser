@@ -1,0 +1,138 @@
+======================================================================
+FILE: 7df4db48_016df9b8_KRISHAN KANT_Solution Architect_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Designed and maintained enterprise architecture frameworks to support digital banking, core
+banking modernization, and financial product innovation.
+• Aligned IT strategy with regulatory requirements (e.g., RBI, SEBI, etc) and business objectives
+across retail, corporate, and investment banking di...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 9
+Confidence     : 0.97
+Needs review   : True
+Total exp      : 12.8 years (154 months, 8 overlapping periods merged)
+
+Entry 1
+  Role         : ENTERPRISE ARCHITECT
+  Company      : Deloitte LLP
+  Location     : None
+  Start - End  : June 2023 - Present
+  Duration     : 41 months
+  Bullets      : 0
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Spearheaded the design and implementation of scalable, secure, and resilient application architectures
+  Company      : Client
+  Location     : State Bank of India, India
+  Start - End  : 2024 - PRESENT
+  Duration     : 34 months
+  Bullets      : 6
+    • Serving as a strategic Application Architect for State Bank of India, providing end-to-end technical leadership and architectural direction for modernizing core and peripheral banking applications.
+    • Spearheaded the design and implementation of scalable, secure, and resilient application architectures, with a focus on AI-driven modernization, system interoperability, and cloud-readiness.
+    • Responsible for architectural reviews, design validation, and defining modernization roadmaps aligned with the bank's digital transformation goals.
+    • Created detailed architectural documentation, proof of concepts (PoCs), and technical feasibility assessments to evaluate emerging technologies.
+    • Developed SOPs, reusable frameworks, and best practice guidelines to ensure consistency, regulatory compliance, and maintainability across projects.
+    • Worked cross-functionally with development, security, DevOps, and business teams to drive innovation while ensuring adherence to performance, security, and governance standards.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : SOLUTION ARCHITECT
+  Company      : Client
+  Location     : Vodafone Global, India
+  Start - End  : 2023 - 2024
+  Duration     : 13 months
+  Bullets      : 4
+    • Designed and architected Price Manager, a modular application for managing and regulating asset pricing across Vodafone’s global operations.
+    • Built on AWS using services like EC2, S3, Lambda, and RDS, ensuring scalability and integration with both internal and external systems.
+    • Enabled real-time monitoring and performance optimization through Dynatrace.
+    • Focused on modularity, interoperability, and maintainability to support dynamic pricing and global asset governance.
+  Method       : date_regex+title_dict_strong+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Enterprise ARCHITECT
+  Company      : TCS
+  Location     : None
+  Start - End  : Dec 2021 - June 2023
+  Duration     : 19 months
+  Bullets      : 0
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Contributed to the customization and modular development of the Collibra Data Governance Platform
+  Company      : Client
+  Location     : Royal Bank of Canada, India
+  Start - End  : 2021 - 2023
+  Duration     : 25 months
+  Bullets      : 5
+    • Contributed to the customization and modular development of the Collibra Data Governance Platform, enabling a centralized view of business-critical data assets, including domains, metrics, APIs, models, and data products.
+    • Developed the Payment Module using Angular 8, CSS, JavaScript, and TypeScript for front-end enhancements.
+    • On the backend, implemented functionality using Spring MVC, Spring Batch, and a standalone Spring Boot reporting tool.
+    • Supported the creation of custom asset types, rules, domains, and user profiles based on business requirements.
+    • Led efforts in cloud migration to Google Cloud Platform (GCP) and deployed services using Kubernetes, ensuring scalability and alignment with client infrastructure strategies.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : TECHNOLOGY LEAD
+  Company      : Capgemini
+  Location     : None
+  Start - End  : Nov 2016 - Dec 2021
+  Duration     : 62 months
+  Bullets      : 0
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : None
+  Company      : Client
+  Location     : DTCC, Guardian
+  Start - End  : 2016 - 2021
+  Duration     : 61 months
+  Bullets      : 5
+    • Worked on GPAC, a cloud-based policy administration system for managing Whole and Term Life insurance policies, enabling agents to view and process detailed policy information.
+    • Migrated the application from Java 7 to Java 8, used Hibernate with DB2/Oracle, and deployed via Jenkins in AWS with monitoring through Splunk.
+    • Also developed BigFish, an automated trade reporting system for DTCC GTR, handling global trade data using Angular 4, Spring Boot, Struts, and Hibernate.
+    • Focused on multithreading, RESTful APIs, and automated reporting.
+    • Ensured high performance, regulatory compliance, and seamless vendor integration.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 8
+  Role         : Sr. Software Developer
+  Company      : Mphasis
+  Location     : None
+  Start - End  : Apr 2014 - Apr 2016
+  Duration     : 25 months
+  Bullets      : 0
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 9
+  Role         : As Full stack java developer
+  Company      : Client
+  Location     : JP Morgan Chase, India
+  Start - End  : 2014 - 2016
+  Duration     : 25 months
+  Bullets      : 3
+    • As Full stack java developer, I worked on application known as RDMS (Resilience Data Management System).
+    • This application deals with the data and role management for JPMC employees for critical applications data.
+    • Technical stack for the application includes Primefaces, struts 3.x, Java 7, spring MVC, spring batch, cognos, Jenkins, Mokito.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False

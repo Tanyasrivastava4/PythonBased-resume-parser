@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3cd8e28a_bef08565_Prasun_Bhattacharya_CV (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:58:22.329178+00:00",
+    "generated_at": "2026-10-07T10:31:20.473879+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -69,13 +69,69 @@
   "experience": {
     "jobs": [
       {
+        "role": "• Area Sales Manager",
+        "company": "Excellence Ventures Pvt. Ltd. | Sep 2023 – Jan 2024",
+        "location": null,
+        "start": "Feb 2017",
+        "end": "Jun 2018",
+        "method": "date_regex",
+        "duration_months": 17,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
         "role": null,
-        "company": "Address: 3A",
-        "location": "Haladhar Bardhan Lane",
-        "start": "26/01/1995",
-        "end": "Present",
-        "method": "single_date_regex+comma_company_location",
-        "duration_months": 381,
+        "company": "Field Work – Jio Fiber",
+        "location": null,
+        "start": "Jan 2021",
+        "end": "Dec 2022",
+        "method": "date_regex",
+        "duration_months": 24,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "Medical Representative – The Medipower",
+        "location": null,
+        "start": "Jan 2023",
+        "end": "Sep 2023",
+        "method": "date_regex",
+        "duration_months": 9,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Area Sales Manager",
+        "company": "Excellence Ventures Pvt. Ltd",
+        "location": null,
+        "start": "Sep 2023",
+        "end": "Jan 2024",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 5,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "CIC – Justdial Limited",
+        "location": null,
+        "start": "Sep 2024",
+        "end": "Jan 2026",
+        "method": "date_regex+company_suffix_match",
+        "duration_months": 17,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.85,
@@ -85,11 +141,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 31.8,
-      "total_months": 381,
-      "overlapping_periods_merged": 0
+      "total_years": 5.9,
+      "total_months": 71,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.85
+    "_confidence": 0.88
   },
   "education": {
     "entries": [
@@ -127,12 +183,27 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.91
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[1]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

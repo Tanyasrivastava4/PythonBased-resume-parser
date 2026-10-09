@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "6d63a1a7_54dae574_Dr Ankit Singh Kushwah_mCura_segmented.txt",
-    "generated_at": "2026-09-30T06:59:07.394554+00:00",
+    "generated_at": "2026-10-07T09:26:45.685202+00:00",
     "sections_found": [
       "certifications",
       "experience",
@@ -49,31 +49,53 @@
       "Collaboration",
       "Communication",
       "Decision Making",
+      "Desensitization Protocols",
+      "Dialysis Catheter Insertion",
+      "Disaster Recovery",
       "Healthcare",
       "Hemodialysis",
+      "Immunosuppression",
+      "Markdown",
       "Medical Ethics",
+      "Microsoft Teams",
       "Nephrology",
       "Patient Care",
       "Plasma Exchange",
       "Professional Ethics",
-      "Renal Transplant"
+      "Renal Biopsy",
+      "Renal Transplant",
+      "Team Collaboration"
     ],
     "by_category": {
       "soft_skill": [
         "Collaboration",
         "Communication",
-        "Decision Making"
-      ],
-      "domain": [
-        "Healthcare"
+        "Decision Making",
+        "Team Collaboration"
       ],
       "healthcare": [
+        "Desensitization Protocols",
+        "Dialysis Catheter Insertion",
         "Hemodialysis",
+        "Immunosuppression",
         "Medical Ethics",
         "Nephrology",
         "Patient Care",
         "Plasma Exchange",
+        "Renal Biopsy",
         "Renal Transplant"
+      ],
+      "operations": [
+        "Disaster Recovery"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "documentation": [
+        "Markdown"
+      ],
+      "productivity": [
+        "Microsoft Teams"
       ],
       "soft_skills": [
         "Professional Ethics"
@@ -91,13 +113,13 @@
         "start": "01/2023",
         "end": "Current",
         "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 45,
+        "duration_months": 46,
         "bullets": [
           "Managed patient care plans and coordinated treatment among multidisciplinary teams.",
           "Assisted & Performed independently in Nephrology procedures, Tunnelled Hemodialysis catheter insertion, renal biopsy, peritoneal dialysis catheter insertion with proper sterilization and instrument availability.",
           "Participated in case reviews, contributing insights to improve patient outcomes.",
           "Trained in Renal transplant (ABO compatible ABO incompatible HLA incompatible).",
-          "Active participation in immnuosuppresion tailoring along with densitization"
+          "Active participation in immnuosuppresion tailoring along with densitization protocols."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -114,7 +136,8 @@
         "duration_months": 4,
         "bullets": [
           "Participated in cases and made key decisions regarding patient treatment.",
-          "Prescribed medications or treatment regimens to address patient conditions."
+          "Prescribed medications or treatment regimens to address patient conditions.",
+          "Supervised patient care activities to ensure adherence to hospital protocols."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -130,21 +153,53 @@
         "method": "date_regex+date_prefix_title",
         "duration_months": 4,
         "bullets": [
-          "Supervision of emergency duties"
+          "Supervision of emergency duties",
+          "Team collaboration"
         ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "DRNB RESIDENT, 01/2023",
+        "company": "Current",
+        "location": null,
+        "start": "05/2018",
+        "end": "08/2021",
+        "method": "date_regex",
+        "duration_months": 40,
+        "bullets": [
+          "Diverse experience with various diseases.",
+          "Learning skills in medicine."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "SENIOR RESIDENT NEPHROLOGY (ADHOC), 02/2022",
+        "company": "05/2022",
+        "location": null,
+        "start": "08/2012",
+        "end": "02/2018",
+        "method": "date_regex",
+        "duration_months": 67,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.4,
-      "total_months": 53,
-      "overlapping_periods_merged": 0
+      "total_years": 13.3,
+      "total_months": 160,
+      "overlapping_periods_merged": 1
     },
-    "_confidence": 0.98
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -190,10 +245,20 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.88
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
+    {
+      "field": "experience.jobs[3]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
+      "reason": "incomplete_fields"
+    },
     {
       "field": "certifications",
       "confidence": 0.6,

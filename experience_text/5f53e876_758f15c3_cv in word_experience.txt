@@ -1,0 +1,98 @@
+======================================================================
+FILE: 5f53e876_758f15c3_cv in word_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+🕾: +91-8393881701, 9410196049
+Location: - Dehradun, Uttarakhand-248121
+National Award for e-Governance 2019-20 (GOLD)
+
+Working with Ernst&Young LLP as a senior consultant in Tech consulting from December 2025
+#	Designation	Organization	Employment Duration
+1	Project Manager, UIDAI (Aadhaar)	UIDAI Gov...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.84
+Needs review   : True
+Total exp      : 18.3 years (220 months, 4 overlapping periods merged)
+
+Entry 1
+  Role         : Location: - Dehradun, Uttarakhand-248121
+  Company      : 🕾: +91-8393881701
+  Location     : 9410196049
+  Start - End  : 2019 - 2020
+  Duration     : 13 months
+  Bullets      : 1
+    • Working with Ernst&Young LLP as a senior consultant in Tech consulting from December 2025
+  Sub-sections : ['#\tDesignation\tOrganization\tEmployment Duration']
+  Method       : year_range_short_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : 1	Project Manager, UIDAI (Aadhaar)	UIDAI Gov. of India on Roll of National Institute for Smart Government (NISG
+  Company      : 🕾: +91-8393881701
+  Location     : 9410196049
+  Start - End  : September 2022 - November 2025
+  Duration     : 39 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : 2	State Project Coordinator	Department of Information Technology Electronics & Communication Government of Haryana on roll of National Institute of Electronics & Information Technology (NIELIT
+  Company      : 🕾: +91-8393881701
+  Location     : 9410196049
+  Start - End  : October 2020 - September 2022
+  Duration     : 24 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : 3	E-District Manager	DEGS (ITDA) Government of Uttarakhand
+  Company      : 🕾: +91-8393881701
+  Location     : 9410196049
+  Start - End  : November 2014 - September 2020
+  Duration     : 71 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 5
+  Role         : 4	Associate
+  Company      : Network Management	National Informatics Center (NIC), Govt of India on roll of  Wipro InfoTech
+  Location     : None
+  Start - End  : September 2012 - November 2014
+  Duration     : 27 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 6
+  Role         : 5	Network Engineer	National Informatics Center (NIC), Govt of India on roll of  H. C.L INFOSYSTEMS Ltd
+  Company      : 5	Network Engineer	National Informatics Center , Govt of India on roll of  H. C.L INFOSYSTEMS Ltd
+  Location     : None
+  Start - End  : December 2009 - June 2012
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 7
+  Role         : 6	Junior Engineer
+  Company      : IT	M/S APUS Consultancy Services
+  Location     : None
+  Start - End  : June 2007 - December 2009
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False

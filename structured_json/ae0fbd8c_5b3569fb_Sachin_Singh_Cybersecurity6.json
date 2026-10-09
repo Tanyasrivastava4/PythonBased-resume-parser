@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ae0fbd8c_5b3569fb_Sachin_Singh_Cybersecurity6_segmented.txt",
-    "generated_at": "2026-09-30T07:00:01.811252+00:00",
+    "generated_at": "2026-10-07T09:27:50.642556+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,9 +51,9 @@
       "Burp Suite",
       "CEH",
       "CISSP",
-      "Collaboration",
       "Communication",
       "Defensive Security",
+      "Docker",
       "Incident Management",
       "Leadership",
       "Linux",
@@ -68,9 +68,12 @@
       "Report Writing",
       "SIEM",
       "SIEM Monitoring",
+      "Security Architecture",
       "Stakeholder Management",
+      "Team Collaboration",
       "VAPT",
       "Vulnerability Management",
+      "Vulnerability Remediation",
       "Web Application Penetration Testing",
       "Wireshark"
     ],
@@ -83,13 +86,14 @@
         "OWASP ZAP",
         "Penetration Testing",
         "SIEM",
+        "Security Architecture",
         "VAPT"
       ],
       "soft_skill": [
-        "Collaboration",
         "Communication",
         "Leadership",
-        "Stakeholder Management"
+        "Stakeholder Management",
+        "Team Collaboration"
       ],
       "security": [
         "Defensive Security",
@@ -102,6 +106,9 @@
         "Vulnerability Management",
         "Web Application Penetration Testing"
       ],
+      "devops": [
+        "Docker"
+      ],
       "os_system": [
         "Linux"
       ],
@@ -110,6 +117,9 @@
       ],
       "content": [
         "Report Writing"
+      ],
+      "cybersecurity": [
+        "Vulnerability Remediation"
       ],
       "cloud_infra": [
         "Wireshark"
@@ -126,8 +136,11 @@
         "location": null,
         "start": "Jan 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 21,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Cybersecurity Specialist @ Aguna"
+        ],
+        "duration_months": 22,
         "bullets": [
           "Conducted penetration testing on web applications. Identified critical security flaws in client applications.",
           "Performed Network vulnerability assessments using tools such as Nessus, Nmap.",
@@ -145,7 +158,10 @@
         "location": null,
         "start": "July 2023",
         "end": "Dec 2024",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Cybersecurity Analyst @ Alphatec"
+        ],
         "duration_months": 18,
         "bullets": [
           "Performed VAPT for web applications, APIs, internal networks, and external infrastructure.",
@@ -164,6 +180,9 @@
         "start": "July 2022",
         "end": "June 2023",
         "method": "date_regex",
+        "pre_date_header": [
+          "Penetration Tester @ Krishna Automation"
+        ],
         "duration_months": 12,
         "bullets": [
           "Engaged with clients to define scope of work (SoW) for application security assessments.",
@@ -178,8 +197,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.2,
-      "total_months": 51,
+      "total_years": 4.3,
+      "total_months": 52,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.75

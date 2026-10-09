@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b406ef21_Rima_Karmakar_CV_segmented.txt",
-    "generated_at": "2026-09-30T07:00:06.322603+00:00",
+    "generated_at": "2026-10-07T09:27:57.258577+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,8 +46,11 @@
   "summary": "ISTQB-certified Quality Engineering Leader with 10+ years of experience in Banking, Payments,\nand NBFC domains, including test strategy ownership, automation architecture, and team\nleadership. Proven track record of leading cross-functional QA teams across manual, automation,\nAPI, database, and performance testing. Strong advocate of shift-left quality, CI/CD integration, and\ncloud-ready testing practices. Hands-on in building scalable frameworks using Java-based\nautomation, API validation, and test governance.",
   "skills": {
     "items": [
+      ".NET",
+      "API Testing",
       "Agile",
       "Apache Maven",
+      "Automation Testing",
       "Azure DevOps",
       "CI/CD",
       "Confluence",
@@ -55,17 +58,22 @@
       "Cucumber",
       "Git",
       "GitLab CI",
+      "Integration Testing",
       "Java",
       "Jenkins",
       "Jira",
       "Leadership",
       "Microsoft Teams",
+      "NBFC",
       "Payments",
       "Performance Testing",
+      "Pitch Scripts",
       "Postman",
       "Quality Assurance",
       "REST API",
       "REST Assured",
+      "Reporting",
+      "Root Cause Analysis",
       "SQL",
       "Selenium",
       "Swagger",
@@ -73,6 +81,19 @@
       "TestNG"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET",
+        "Java"
+      ],
+      "testing": [
+        "API Testing",
+        "Automation Testing",
+        "Cucumber",
+        "Performance Testing",
+        "REST Assured",
+        "Selenium",
+        "TestNG"
+      ],
       "project_mgmt": [
         "Agile",
         "Jira"
@@ -95,26 +116,27 @@
       "soft_skill": [
         "Cross-functional Collaboration",
         "Leadership",
+        "Reporting",
         "Team Leadership"
       ],
-      "testing": [
-        "Cucumber",
-        "Performance Testing",
-        "REST Assured",
-        "Selenium",
-        "TestNG"
-      ],
-      "programming_language": [
-        "Java"
+      "security_ops": [
+        "Integration Testing"
       ],
       "productivity": [
         "Microsoft Teams"
       ],
+      "finance": [
+        "NBFC"
+      ],
       "domain": [
         "Payments"
       ],
+      "sales": [
+        "Pitch Scripts"
+      ],
       "operations": [
-        "Quality Assurance"
+        "Quality Assurance",
+        "Root Cause Analysis"
       ],
       "web_framework": [
         "REST API"
@@ -131,11 +153,11 @@
       {
         "role": "Assistant Test Manager",
         "company": "QualityKiosk Technologies Pvt Ltd",
-        "location": "Assistant Test Manager",
+        "location": null,
         "start": "Apr 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 18,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 19,
         "bullets": [
           "Lead and mentor QA engineers across manual and automation testing streams.",
           "Define end-to-end test strategy covering web, API, and database layers.",
@@ -143,7 +165,8 @@
           "Support shift-left testing practices through early QA engagement.",
           "Own test planning, execution governance, defect management, and reporting.",
           "Collaborate with product owners, developers, and stakeholders.",
-          "Conduct RCA and implement preventive quality controls."
+          "Conduct RCA and implement preventive quality controls.",
+          "Hands-on in exploratory testing and automation scripting."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -151,25 +174,26 @@
         "source": "experience"
       },
       {
-        "role": "Blenheim Chalcot IT Services – Senior Test Engineer",
-        "company": "QualityKiosk Technologies Pvt Ltd",
-        "location": "Assistant Test Manager",
+        "role": "Senior Test Engineer",
+        "company": "Blenheim Chalcot IT Services",
+        "location": null,
         "start": "Sept 2024",
         "end": "Apr 2025",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 8,
         "bullets": [
           "Performed REST API testing and validation using Postman and REST Assured.",
-          "Executed SQL validation for backend data integrity."
+          "Executed SQL validation for backend data integrity.",
+          "Participated in Agile ceremonies and defect triage."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Crossasyst Technologies - QA Automation Engineer",
-        "company": "Supported integration testing across banking systems.",
+        "role": "QA Lead",
+        "company": "Expleo Solutions",
         "location": null,
         "start": "Dec 2021",
         "end": "Sept 2024",
@@ -179,6 +203,7 @@
           "Managed QA team activities across functional, automation, and API testing.",
           "Implemented structured test planning and release readiness validation.",
           "Led regression automation maintenance and CI integration.",
+          "Supported integration testing across banking systems.",
           "Improved defect prevention and quality metrics."
         ],
         "sub_sections": [
@@ -187,15 +212,57 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "QA Automation Engineer",
+        "company": "Crossasyst Technologies",
+        "location": null,
+        "start": "Dec 2020",
+        "end": "Dec 2021",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 13,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Senior Test Engineer",
+        "company": "IIFL Finance Ltd",
+        "location": null,
+        "start": "Sept 2018",
+        "end": "Dec 2020",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 28,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "QA Engineer",
+        "company": "Media.net",
+        "location": null,
+        "start": "Oct 2015",
+        "end": "Sept 2018",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 36,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.8,
-      "total_months": 58,
-      "overlapping_periods_merged": 2
+      "total_years": 11.1,
+      "total_months": 133,
+      "overlapping_periods_merged": 5
     },
-    "_confidence": 0.94
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -222,15 +289,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.87
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[1]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.65,

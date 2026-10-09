@@ -2,7 +2,7 @@
 FILE: f28f224a_db326d95_Naukri_SingamsettySandeep[6y_6m] (1)_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'education', 'experience', 'header', 'projects', 'skills', 'unknown']
-Overall conf.  : 0.92
+Overall conf.  : 0.89
 Needs review   : True
 
 CONTACT
@@ -14,24 +14,24 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : ac.in/  (conf 0.85, regex)
 
-SKILLS (34) — confidence 0.92
+SKILLS (49) — confidence 0.92
 ----------------------------------------------------------------------
-AWS, Apache Kafka, Bash, Bootstrap, C#, C++, CSS3, ClickHouse, Collaboration, Data Science, Django, ETL, Flask, Git, HTML5, JavaScript, Jenkins, Jira, Keras, Microsoft Teams, MySQL, Notion, Onboarding, Pandas, PostgreSQL, PySpark, PyTorch, Python, SQL, SQLite, Selenium, Splunk, TensorFlow, XML
+AWS, AWS Glue, Apache Kafka, BERT, Bash, Bootstrap, C#, C++, CSS3, ClickHouse, Collaboration, Computer Vision, Data Science, Deep Learning, Django, E-commerce, ETL, Flask, GAN, Git, HTML5, JavaScript, Jenkins, Jira, Keras, Machine Learning, Microsoft Teams, MySQL, NLP, NLTK, Networking, News Writing, Notion, Onboarding, Pandas, PostgreSQL, Project Management, PySpark, PyTorch, Python, SQL, SQLite, Selenium, Splunk, Team Leadership, TensorFlow, VS Code, Workshop Facilitation, XML
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.95
-Total experience: 7.2 years (87 months, 1 overlaps merged)
+EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.81
+Total experience: 7.3 years (88 months, 1 overlaps merged)
 ----------------------------------------------------------------------
   1. Quantitative Technology Analyst @ Qube Research and Technologies LLP (7/2023 - ongoing) [conf 0.98, review=False]
-  2. C++ / SQL / C# / Git / Python / Postgres / AWS / Kafka / Click House  Team Lead @ Qube Research and Technologies LLP (10/2019 - 6/2023) [conf 0.85, review=True]
-  3. Web Scraping / Web Development / Project Management  Research and Development Intern @ IBM Research (5/2022 - 8/2022) [conf 0.98, review=False]
-  4. NLP / Deep Learning / Machine Learning  AI Intern @ SMS DataTech Co (5/2018 - 7/2018) [conf 0.98, review=False]
+  2. Team Lead | Project Manager | Software Developer | Scraping Expert @ Qube Research and Technologies LLP (10/2019 - 6/2023) [conf 0.85, review=True]
+  3. Research and Development Intern @ Web Scraping / Web Development / Project Management (5/2022 - 8/2022) [conf 0.7, review=True]
+  4. AI Intern @ NLP / Deep Learning / Machine Learning (5/2018 - 7/2018) [conf 0.7, review=True]
 
 EDUCATION (4) — confidence 0.88
 ----------------------------------------------------------------------
   1. M.Tech — Computer Science IIT Bombay (2023) [conf 0.95, review=False]
   2. Post Graduation — None (2019) [conf 0.8, review=False]
-  3. B.Tech — Computer Science IIT Jodhpur (2019) [conf 0.95, review=False]
-  4. Graduation — None (2023) [conf 0.8, review=False]
+  3. B.Tech — None (2019) [conf 0.8, review=False]
+  4. Graduation — IIT Jodhpur (2023) [conf 0.95, review=False]
 
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
@@ -48,6 +48,8 @@ ACHIEVEMENTS (9) — confidence 0.85
   • https://www.ibm.com/in-en
   • ────────────────────────────────────────────────────────────
 
-REVIEW QUEUE (1 flagged fields)
+REVIEW QUEUE (3 flagged fields)
 ----------------------------------------------------------------------
   experience.jobs[1]                  conf=0.85  reason=incomplete_fields
+  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
+  experience.jobs[3]                  conf=0.7  reason=incomplete_fields

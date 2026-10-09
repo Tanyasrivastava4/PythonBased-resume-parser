@@ -1,0 +1,42 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/6bee3986_15917f30_Monika Sharma_GAD-UK_GT-Intileo_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+• Statutory Audit
+• TDS/TCS Compliances
+• Risk Assessment & Internal Controls
+• Substantive Audit Procedures
+• Financial Statement Preparation & Review
+• Audit Documentation & Working Papers
+• AS & Ind AS, GAAP, IFRS Compliances
+• Bank Reconciliation & Ledger Scrutiny
+• CARO Reporting
+• Balance Sheet Finalization
+• Companies Act, 2013 Compliance
+• MS Excel (Pivot Tables, XLOOKUP/VLOOKUP, Data
+• Tax Audit (Section 44AB)
+Validation)
+• GST & Income Tax Compliance
+• ERP Exposure (SAP basic, Tally, etc.)
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 316.41 ms
+Method         : flashtext_skills_section | fuzzy(Risk Assessment→Risk Management(100%), Internal Controls→Internal Controls Testing(100%), MS Excel→Microsoft Excel(100%), tax audit→Tax Audit(100%), financial reporting→Financial Reporting(100%)...)
+
+── All Skills (24) ──
+Accounting, Auditing, Bank Reconciliation, Client Relationship Management, Financial Reporting, GAAP, IFRS, Internal Controls Testing, Microsoft Excel, Pivot Tables, Problem Solving, R, Regulatory Compliance, Reporting, Risk Management, SAP, SAS, Stakeholder Management, Statutory Audit, Substantive Testing, TDS, Tally, Tax Audit, Taxation
+
+── By Category ──
+  accounting                     ['Bank Reconciliation', 'Tax Audit']
+  client_mgmt                    ['Client Relationship Management']
+  data_science                   ['SAS']
+  finance_ops                    ['Accounting', 'Auditing', 'Financial Reporting', 'GAAP', 'IFRS', 'Internal Controls Testing', 'Statutory Audit', 'Substantive Testing', 'TDS', 'Tally', 'Taxation']
+  integration                    ['SAP']
+  legal                          ['Regulatory Compliance']
+  productivity                   ['Microsoft Excel', 'Pivot Tables']
+  programming_language           ['R']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Problem Solving', 'Reporting', 'Stakeholder Management']

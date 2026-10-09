@@ -1,0 +1,52 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/1a316b8e_fdf51107_Rohit kalaria_latest_CV_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Account Payables, General ledger, Property manager, Account receivables,
+Modules Knowledge
+Fixed Assets
+Tools
+Oracle R12,Fusion
+SQL
+SQL, Toad, MySQL
+IT Tools
+JIRA, MS Teams, Zoom
+MS Office
+Outlook, Excel, word & Power Point
+Programming Languages: SQL
+Operating System: Windows/Linux
+Office Suite and Tools: MS -Office all versions.
+Data base: Oracle
+Other Interest: Networking
+EXTRA CURRCULAR ACTIVITIES
+Class Representative
+Basketball player
+Good leadership skills
+Quick learner
+Decision Maker
+
+── Extraction Results ──
+Skills found   : 29
+Confidence     : 0.92
+Time           : 498.29 ms
+Method         : flashtext_skills_section | fuzzy(Account Payables→Accounts Payable(94%), General ledger→Accounting(100%), Property manager→Property Management(100%), Account receivables→Accounts Receivable(95%), MS Teams→Microsoft Teams(100%)...)
+
+── All Skills (29) ──
+Accounting, Accounts Payable, Accounts Receivable, Adaptability, Analyze, Business Development, Data Science, General Ledger, Jira, Leadership, Linux, MS Office, Microsoft Excel, Microsoft Teams, Microsoft Windows, Microsoft Word, MySQL, Networking, Oracle, Oracle Fusion Cloud, Payments, Property Management, SOP, SQL, Supply Chain Management, TDS, Taxation, Toad, Zoom
+
+── By Category ──
+  accounting                     ['General Ledger']
+  ai_ml                          ['Data Science']
+  biz_dev                        ['Business Development', 'Networking']
+  data_science                   ['Analyze']
+  database                       ['MySQL', 'Oracle', 'SQL', 'Toad']
+  domain                         ['Payments']
+  finance_ops                    ['Accounting', 'Accounts Payable', 'Accounts Receivable', 'TDS', 'Taxation']
+  operations                     ['SOP', 'Supply Chain Management']
+  oracle_erp                     ['Oracle Fusion Cloud']
+  os_system                      ['Linux', 'Microsoft Windows']
+  productivity                   ['MS Office', 'Microsoft Excel', 'Microsoft Teams', 'Microsoft Word', 'Zoom']
+  project_mgmt                   ['Jira']
+  real_estate                    ['Property Management']
+  soft_skill                     ['Adaptability', 'Leadership']

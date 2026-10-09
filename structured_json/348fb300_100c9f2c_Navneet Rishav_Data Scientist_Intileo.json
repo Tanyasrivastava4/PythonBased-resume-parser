@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "348fb300_100c9f2c_Navneet Rishav_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:15.418241+00:00",
+    "generated_at": "2026-10-07T10:31:12.433324+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -50,6 +50,7 @@
     "items": [
       "AWS",
       "C++",
+      "Cross-functional Collaboration",
       "Data Preprocessing",
       "Django",
       "Docker",
@@ -58,20 +59,27 @@
       "Feature Engineering",
       "Generative AI",
       "Git",
+      "GitHub",
       "Gradio",
       "LLM",
       "LangChain",
       "LangGraph",
+      "LinkedIn",
       "Linux",
       "Machine Learning",
       "Matplotlib",
+      "Microsoft Teams",
+      "Model Evaluation",
       "NLP",
       "OpenCV",
+      "Predictive Modeling",
       "Prompt Engineering",
       "PyTorch",
       "Python",
       "RAG",
+      "REST",
       "REST API",
+      "Reliability",
       "SQL",
       "Time Series Forecasting",
       "Transformers",
@@ -87,12 +95,17 @@
         "C++",
         "Python"
       ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Reliability"
+      ],
       "data_engineering": [
         "Data Preprocessing"
       ],
       "web_framework": [
         "Django",
         "FastAPI",
+        "LinkedIn",
         "REST API"
       ],
       "devops": [
@@ -104,6 +117,7 @@
         "Matplotlib",
         "NLP",
         "OpenCV",
+        "Predictive Modeling",
         "PyTorch",
         "Time Series Forecasting",
         "scikit-learn"
@@ -124,10 +138,20 @@
       ],
       "dev_tool": [
         "Git",
+        "GitHub",
         "Gradio"
       ],
       "os_system": [
         "Linux"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "machine_learning": [
+        "Model Evaluation"
+      ],
+      "integration": [
+        "REST"
       ],
       "database": [
         "SQL"
@@ -144,8 +168,11 @@
         "location": "India",
         "start": "June 2024",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 28,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "AI Engineer"
+        ],
+        "duration_months": 29,
         "bullets": [
           "– Designed, developed, and deployed machine learning and GenAI solutions across the full lifecycle, from data preprocessing to production APIs. – Built and optimized ML pipelines for prediction, classification, and text analytics, improving model performance and inference efficiency. – Implemented Retrieval-Augmented Generation (RAG) systems using embeddings and vector databases to enable accurate, domain-specific question answering. – Developed RESTful APIs using FastAPI for real-time model inference and GenAI workflows, ensuring scalable and low-latency responses. – Collaborated with cross-functional teams to translate business requirements into deployable ML systems and measurable outcomes. – Applied best practices in model evaluation, error analysis, and prompt design to reduce hallucinations and improve output reliability."
         ],
@@ -166,8 +193,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 2.3,
-      "total_months": 28,
+      "total_years": 2.4,
+      "total_months": 29,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

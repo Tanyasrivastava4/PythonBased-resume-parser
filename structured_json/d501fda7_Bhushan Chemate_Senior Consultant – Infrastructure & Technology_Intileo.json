@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "d501fda7_Bhushan Chemate_Senior Consultant – Infrastructure & Technology_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:28.150859+00:00",
+    "generated_at": "2026-10-07T09:28:25.166910+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,41 +47,91 @@
   "summary": "• Business Continuity Manager with 13+ years of experience in\nbusiness continuity management, disaster recovery, and DR\nautomation, with strong expertise in strategic planning, risk\nmanagement, crisis management, incident response and program\nmanagement aligned to business objectives.\n• Led and supported BCM and DR exercises for clients across banking,\ninsurance, retail, telecom, automobile, and aviation sectors.\n• Specialized in end-to-end Business Continuity Management, including\nbusiness impact analysis (BIA), risk analysis and management, crisis\nand incident management, and BCM planning, implementation, and\ntesting.\n• Experienced in planning and executing DR drills for scenarios such as\nproject DR, BAU DR, data center migrations, transition projects, and\nBCM standardization/compliance initiatives; additionally supported\ndata center-level DR drills, major incidents, and DR automation using\nthe Kyndryl Recovery Orchestration tool.",
   "skills": {
     "items": [
+      "BCP",
       "Business Continuity Management",
+      "Business Impact Analysis",
       "Change Management",
+      "Client Handling",
+      "Client Reporting",
+      "Data Center Migration",
       "Disaster Recovery",
+      "Effort Estimation",
+      "ISO 22301",
+      "IT Ops",
       "Incident Management",
+      "Kyndryl Recovery Organizer",
+      "Microsoft Teams",
       "Program Management",
       "Project Management",
+      "Reporting",
+      "Risk Assessment",
       "Risk Management",
-      "Strategic Thinking",
+      "SAP",
+      "SDLC",
+      "Stakeholder Management",
+      "Strategic Planning",
       "Team Leadership",
-      "Telecom"
+      "Telecom",
+      "Test Plans"
     ],
     "by_category": {
       "operations": [
+        "BCP",
         "Business Continuity Management",
         "Disaster Recovery"
       ],
+      "management": [
+        "Business Impact Analysis",
+        "Client Handling",
+        "Strategic Planning"
+      ],
       "project_mgmt": [
         "Change Management",
+        "Effort Estimation",
         "Program Management",
         "Project Management",
         "Risk Management"
       ],
+      "content": [
+        "Client Reporting"
+      ],
+      "cloud_infra": [
+        "Data Center Migration"
+      ],
       "security": [
+        "ISO 22301",
         "Incident Management"
       ],
+      "domain": [
+        "IT Ops",
+        "Telecom"
+      ],
+      "devops": [
+        "Kyndryl Recovery Organizer"
+      ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
       "soft_skill": [
-        "Strategic Thinking",
+        "Reporting",
+        "Stakeholder Management",
         "Team Leadership"
       ],
-      "domain": [
-        "Telecom"
+      "compliance": [
+        "Risk Assessment"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "architecture": [
+        "SDLC"
+      ],
+      "testing": [
+        "Test Plans"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Disaster recovery→Disaster Recovery(100%), disaster recovery→Disaster Recovery(100%), risk management→Risk Management(100%), telecom→Telecom(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Disaster recovery→Disaster Recovery(100%), Kyndryl→Kyndryl Recovery Organizer(100%), disaster recovery→Disaster Recovery(100%), risk management→Risk Management(100%), telecom→Telecom(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -92,7 +142,11 @@
         "start": "03/2023",
         "end": "Current",
         "method": "date_regex+dash_split",
-        "duration_months": 43,
+        "pre_date_header": [
+          "Kyndryl Solutions – Business Continuity Manager- DR and BCM",
+          "Mumbai"
+        ],
+        "duration_months": 44,
         "bullets": [
           "Led BCM planning engagements for multiple banks, including defining BCM scope, objectives, policies, processes, roles and responsibilities, and developing end-to-end BCM plans.",
           "Conducted annual Business Impact Analyses (BIA) for banks to define RTO, RPO, SLAs, and recovery priorities for critical business functions and applications.",
@@ -115,6 +169,10 @@
         "start": "04/2022",
         "end": "02/2023",
         "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Zensar Technologies – Disaster Recovery Manager",
+          "Pune"
+        ],
         "duration_months": 11,
         "bullets": [
           "Spearheaded Business continuity and Disaster Recovery implementation for EBRD as part of Data center migration project.",
@@ -135,6 +193,10 @@
         "start": "03/2019",
         "end": "06/2021",
         "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Capgemini - BCM and DR Test Consultant",
+          "Pune"
+        ],
         "duration_months": 28,
         "bullets": [
           "Delivered expert Business Continuity and Disaster Recovery (BC/DR) support in a multi-client environment as part of Capgemini’s DR/BCM-as-a-Service program.",
@@ -153,12 +215,15 @@
         "source": "experience"
       },
       {
-        "role": "Telstra - DR Test Consultant Pune",
+        "role": "Telstra - DR Test Consultant",
         "company": "Infosys Technologies",
-        "location": "Telstra - DR Test Consultant Pune",
+        "location": null,
         "start": "08/2018",
         "end": "03/2019",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Infosys Technologies – Telstra - DR Test Consultant"
+        ],
         "duration_months": 8,
         "bullets": [
           "Served as the Operational Readiness Testing (ORT) and Disaster Recovery (DR) Consultant for the Telstra project, providing support for both ORT and DR testing at the project level.",
@@ -172,12 +237,15 @@
         "source": "experience"
       },
       {
-        "role": "ERGO – STLC and Environment Management Tool Consultant Germany",
+        "role": "STLC and Environment Management Tool Consultant",
         "company": "Infosys Technologies",
-        "location": "ERGO, STLC and Environment Management Tool Consultant Germany",
+        "location": "ERGO",
         "start": "12/2017",
         "end": "07/2018",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Infosys Technologies - ERGO – STLC and Environment Management Tool Consultant"
+        ],
         "duration_months": 8,
         "bullets": [
           "Consulted on the Software Testing Life Cycle (STLC) and environment management procedures for ERGO.",
@@ -191,12 +259,15 @@
         "source": "experience"
       },
       {
-        "role": "Daimler – Operation Resiliency Testing/ DR Test Consultant Germany",
+        "role": "Operation Resiliency Testing/ DR Test Consultant",
         "company": "Infosys Technologies",
-        "location": "Daimler, Operation Resiliency Testing/ DR Test Consultant Germany",
+        "location": "Daimler",
         "start": "04/2017",
         "end": "11/2017",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+dash_split",
+        "pre_date_header": [
+          "Infosys Technologies - Daimler – Operation Resiliency Testing/ DR Test Consultant"
+        ],
         "duration_months": 8,
         "bullets": [
           "Acted as the Operational Resiliency Testing (ORT) and DR Test Consultant for Daimler during the implementation of SAP on the cloud.",
@@ -210,12 +281,15 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Infosys Technologies - Barclays – Operational Resiliency Testing, DR Test Co-Ordinator Pune",
-        "location": null,
+        "role": "Pune",
+        "company": "Infosys Technologies - Barclays – Operational Resiliency Testing",
+        "location": "DR Test Co-Ordinator",
         "start": "11/2013",
         "end": "03/2017",
-        "method": "date_regex",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Infosys Technologies - Barclays – Operational Resiliency Testing, DR Test Co-Ordinator"
+        ],
         "duration_months": 41,
         "bullets": [
           "Acted as the single point of contact and coordinator for Infrastructure Readiness activities, focusing on DR and ORT as part of Barclays’ IT operations.",
@@ -225,7 +299,7 @@
           "Assisted in finalizing recovery procedures for DR setups and led simulated disaster tests, ensuring clear 'before, during, and after' processes for seamless execution."
         ],
         "sub_sections": [],
-        "confidence": 0.55,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       }
@@ -233,10 +307,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 12.2,
-      "total_months": 146,
+      "total_months": 147,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.92
+    "_confidence": 0.94
   },
   "education": {
     "entries": [
@@ -291,7 +365,7 @@
   "_review_queue": [
     {
       "field": "experience.jobs[6]",
-      "confidence": 0.55,
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

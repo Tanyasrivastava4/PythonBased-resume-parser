@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f9a326df_8dcf6e76_Milan Shivaji Mohite_Associate Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:51.297583+00:00",
+    "generated_at": "2026-10-07T09:28:56.304838+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -48,6 +48,7 @@
   "summary": "I am looking forward for a job which would provide me competitive as well as professional environment\nthat would help me to flourish, hence achieving self as well as organizational goal.",
   "skills": {
     "items": [
+      "Analytical Instruments",
       "Calibration",
       "Data Acquisition",
       "Dissolution Testing",
@@ -57,6 +58,9 @@
       "Transmitters"
     ],
     "by_category": {
+      "hardware": [
+        "Analytical Instruments"
+      ],
       "engineering_hardware": [
         "Calibration",
         "Data Acquisition",
@@ -84,15 +88,37 @@
         "location": null,
         "start": "September 2022",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 49,
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 50,
         "bullets": [
           "Performed Installation Qualification and Operational Qualification.",
           "Provide troubleshooting, diagnostic assessment and other technical support on Instruments.",
           "Resolve technical service issue according to standard process and procedure..",
           "Installation, Calibration, Maintains Instruments.",
           "Give Technical knowledge and helping them to find out the suitable product to the machinery.",
-          "Giving Technical Support to Client."
+          "Giving Technical Support to Client.",
+          "Follow-up with customers for Instruments AMC, Spare Parts."
+        ],
+        "sub_sections": [],
+        "confidence": 0.7,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Service Engineer in CONTECH ENGINEERS",
+        "company": "Working Experience on Data Acquisition Instruments, PID Controllers, Indicators, Signal Conditioners, Transmitters, Vibration Monitoring Instruments, Infrared Sensors, Pyrometers, Wireless Process Instruments, Calibrators, Power Monitoring Instruments, Event and Fault Recording Instruments, Time Synchronization Instruments, Data Converters.",
+        "location": null,
+        "start": "August 2019",
+        "end": "September 2022",
+        "method": "date_regex+date_prefix_title",
+        "duration_months": 38,
+        "bullets": [
+          "Done big projects in Government Sectors and private sectors.",
+          "Good Knowledge of all Control and Electrical panels.",
+          "Installation, Calibration, Maintain Instruments.",
+          "Give Technical knowledge and helping them to find out the suitable product to the machinery.",
+          "Giving Technical Support to Client.",
+          "Installation and Termination of Electrical Panels according to electrical Drawings."
         ],
         "sub_sections": [],
         "confidence": 0.7,
@@ -105,7 +131,7 @@
         "location": null,
         "start": "February 2016",
         "end": "August 2019",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 43,
         "bullets": [
           "Installation and Calibration Digital Temperature Controller, Digital Temperature Indicator,",
@@ -117,12 +143,15 @@
         "source": "experience"
       },
       {
-        "role": "Glass Thermometer. Graduate Trainee Engineer in CEAT TYRE CO",
+        "role": "Graduate Trainee Engineer in CEAT TYRE CO",
         "company": "Calibration of Electrical, Mechanical, Pressure Instruments.",
         "location": null,
         "start": "December 2014",
         "end": "December 2015",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Glass Thermometer."
+        ],
         "duration_months": 13,
         "bullets": [
           "Completing all tasks set by the supervisor and assisting wherever possible.",
@@ -136,16 +165,16 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 8.8,
-      "total_months": 105,
-      "overlapping_periods_merged": 0
+      "total_years": 11.8,
+      "total_months": 142,
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.79
+    "_confidence": 0.77
   },
   "education": {
     "entries": [
       {
-        "degree": "• Bachelor of Engineering in INSTRUMENTATION from Mumbai University",
+        "degree": "• Bachelor of Engineering in INSTRUMENTATION",
         "degree_name": "B.E.",
         "degree_type": "bachelors",
         "degree_field": "INSTRUMENTATION from Mumbai University",
@@ -167,7 +196,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• HSC from Mumbai board in 2006 with 60%",
+        "degree": "• HSC",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
@@ -178,7 +207,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "• SSC from Mumbai board in 2004 with 56%",
+        "degree": "• SSC",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
@@ -211,6 +240,11 @@
     },
     {
       "field": "experience.jobs[1]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[2]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

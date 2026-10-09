@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "86cfdcdc_Anshika Singh_Investment Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:31.972812+00:00",
+    "generated_at": "2026-10-07T09:27:11.582785+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -45,17 +45,42 @@
   "summary": null,
   "skills": {
     "items": [
+      "Accounting",
+      "Azure",
       "Bloomberg Terminal",
+      "Budgeting",
       "Cross-functional Collaboration",
+      "Data Analytics",
+      "ETL",
       "Executive Presentations",
+      "Financial Analysis",
+      "GCP",
+      "Leadership",
+      "LinkedIn",
       "MS Office",
+      "Microsoft Teams",
+      "Operations Management",
+      "Process Improvement",
       "Python",
+      "Quality Assurance",
+      "Reliability",
+      "Reporting",
       "SQL",
       "Slang",
       "Stakeholder Management",
-      "Strategic Thinking"
+      "Strategic Thinking",
+      "Time Series Forecasting"
     ],
     "by_category": {
+      "finance_ops": [
+        "Accounting",
+        "Budgeting",
+        "Financial Analysis"
+      ],
+      "cloud_infra": [
+        "Azure",
+        "GCP"
+      ],
       "finance": [
         "Bloomberg Terminal",
         "Slang"
@@ -63,17 +88,38 @@
       "soft_skill": [
         "Cross-functional Collaboration",
         "Executive Presentations",
+        "Leadership",
+        "Reliability",
+        "Reporting",
         "Stakeholder Management",
         "Strategic Thinking"
       ],
+      "data_science": [
+        "Data Analytics"
+      ],
+      "data_engineering": [
+        "ETL"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "productivity": [
-        "MS Office"
+        "MS Office",
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Operations Management",
+        "Process Improvement",
+        "Quality Assurance"
       ],
       "programming_language": [
         "Python"
       ],
       "database": [
         "SQL"
+      ],
+      "ai_ml": [
+        "Time Series Forecasting"
       ]
     },
     "_confidence": 0.92,
@@ -101,8 +147,11 @@
         "location": null,
         "start": "Apr’23",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_parens_role",
-        "duration_months": 42,
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "GOLDMAN SACHS (Associate Quantitative Strategist)"
+        ],
+        "duration_months": 43,
         "bullets": [
           "Portfolio Analytics, Financial Modelling & Investment Strategy",
           "Led end-to-end budgeting for a $1.2B+ private credit portfolio, delivered revenue forecasts& asset monitoring",
@@ -137,7 +186,10 @@
         "location": null,
         "start": "Sep’20",
         "end": "Jul’21",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+company_parens_role",
+        "pre_date_header": [
+          "DELOITTE USI (Business Technology Analyst)"
+        ],
         "duration_months": 11,
         "bullets": [
           "Delivered 10 modules with 100% accuracy; Saved up to 100 man-hours (2 weeks/25% time) for migration",
@@ -157,8 +209,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.9,
-      "total_months": 71,
+      "total_years": 6.0,
+      "total_months": 72,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.94

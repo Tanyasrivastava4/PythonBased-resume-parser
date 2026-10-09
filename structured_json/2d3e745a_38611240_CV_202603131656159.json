@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "2d3e745a_38611240_CV_202603131656159_segmented.txt",
-    "generated_at": "2026-09-30T06:58:11.477955+00:00",
+    "generated_at": "2026-10-07T10:31:07.868305+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,7 +52,8 @@
       "Microsoft Excel",
       "Microsoft PowerPoint",
       "Microsoft Word",
-      "Onboarding"
+      "Onboarding",
+      "Room Database"
     ],
     "by_category": {
       "rpa": [
@@ -68,10 +69,13 @@
       ],
       "hr": [
         "Onboarding"
+      ],
+      "database": [
+        "Room Database"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Power Point→Microsoft PowerPoint(96%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section | fuzzy(MS Word→Microsoft Word(100%), MS Power Point→Microsoft PowerPoint(96%))"
   },
   "experience": {
     "jobs": [
@@ -81,7 +85,10 @@
         "location": null,
         "start": "April 2019",
         "end": "November 2021",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Britannia Pvt Ltd"
+        ],
         "duration_months": 32,
         "bullets": [
           "I had to visit general store, hotel, restaurants, cafe shop and do onboarding to shop and provide our products services and taking order from all the shop, medical, horeca platform.",
@@ -98,7 +105,10 @@
         "location": null,
         "start": "January 2023",
         "end": "June 2023",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Eveready India Pvt Ltd"
+        ],
         "duration_months": 6,
         "bullets": [
           "I had to visit general shop, electronic store and hardware shop, medical, and taking order from that, forward it to company accountant for billing.",
@@ -112,13 +122,16 @@
         "source": "experience"
       },
       {
-        "role": "Sr. Sales Executive",
-        "company": "Fortune India Pvt Ltd ly working",
+        "role": "ly working",
+        "company": "Fortune India Pvt Ltd",
         "location": null,
         "start": "June 2023",
         "end": "Current",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 40,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Fortune India Pvt Ltd"
+        ],
+        "duration_months": 41,
         "bullets": [
           "I had to visit, general shop ,store, hotel, restaurants, cafe shop and do onboarding to shop and provide our products services and taking order from all the hotel, horeca platform.",
           "Explain products features and benefit to hotel maneger like what is the use, what's the brand, what is the service, etc and give them demo to use customer and take products review from customer.",
@@ -135,8 +148,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.4,
-      "total_months": 77,
+      "total_years": 6.5,
+      "total_months": 78,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98
@@ -159,7 +172,7 @@
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": "Uttar Pradesh Board",
+        "institution": "Mumbai University",
         "year": "2014",
         "gpa": "75%",
         "_needs_review": false,
@@ -170,14 +183,14 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Mumbai University",
+        "institution": "Uttar Pradesh Board",
         "year": "2018",
         "gpa": "55%",
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       }
     ],
-    "_confidence": 0.95
+    "_confidence": 0.9
   },
   "certifications": {
     "items": [],
@@ -188,7 +201,7 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.95
+    "overall": 0.94
   },
   "_needs_review": false,
   "_review_queue": []

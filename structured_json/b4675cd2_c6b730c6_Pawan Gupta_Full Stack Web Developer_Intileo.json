@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "b4675cd2_c6b730c6_Pawan Gupta_Full Stack Web Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:06.899711+00:00",
+    "generated_at": "2026-10-07T09:27:58.162151+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -51,23 +51,38 @@
       "AWS",
       "AWS ECS",
       "AWS EKS",
+      "AWS Lambda",
       "Agile",
       "Angular",
       "Apache Maven",
       "Apache Spark",
+      "ArgoCD",
       "Asana",
       "Azure",
+      "Azure Data Lake",
       "Azure SQL",
+      "BDD",
       "Bitbucket",
+      "Business Development",
       "CI/CD",
       "CSS3",
       "Code Reviews",
+      "Collaboration",
+      "Communication",
+      "DevOps",
       "Docker",
       "DynamoDB",
       "Elasticsearch",
+      "Event-Driven",
+      "GCP",
+      "Git",
       "GitHub",
+      "GitHub Actions",
+      "Google",
       "Google Meet",
+      "GraphQL",
       "HTML5",
+      "Helm",
       "J2EE",
       "Java",
       "JavaScript",
@@ -75,41 +90,53 @@
       "Jira",
       "Kubernetes",
       "MSSQL",
+      "Microservices",
       "Microsoft Teams",
       "MongoDB",
       "MySQL",
       "Next.js",
       "NoSQL",
       "Node.js",
+      "Oracle Database",
+      "PL/SQL",
       "PostgreSQL",
       "Postman",
       "Problem Solving",
       "Project Management",
+      "REST",
       "React",
       "SDLC",
       "SQL",
       "Slack",
       "SonarQube",
+      "System Design",
       "Trello",
       "TypeScript",
       "VS Code",
       "Web API",
       "Wireframing",
       "Zoom",
-      "iOS"
+      "iOS",
+      "jQuery"
     ],
     "by_category": {
       "architecture": [
         "API Design",
-        "SDLC"
+        "Event-Driven",
+        "Microservices",
+        "SDLC",
+        "System Design"
       ],
       "cloud_infra": [
         "AWS",
         "AWS EKS",
-        "Azure"
+        "AWS Lambda",
+        "Azure",
+        "GCP"
       ],
       "cloud": [
-        "AWS ECS"
+        "AWS ECS",
+        "Azure Data Lake"
       ],
       "project_mgmt": [
         "Agile",
@@ -119,22 +146,34 @@
       "web_framework": [
         "Angular",
         "CSS3",
+        "GraphQL",
         "HTML5",
         "Next.js",
         "Node.js",
         "React",
-        "Web API"
+        "Web API",
+        "jQuery"
       ],
       "dev_tool": [
         "Apache Maven",
         "Bitbucket",
         "Code Reviews",
+        "Git",
         "GitHub",
-        "Postman",
-        "VS Code"
+        "Postman"
       ],
       "data_engineering": [
         "Apache Spark"
+      ],
+      "devops": [
+        "ArgoCD",
+        "CI/CD",
+        "DevOps",
+        "Docker",
+        "GitHub Actions",
+        "Helm",
+        "Jenkins",
+        "Kubernetes"
       ],
       "productivity": [
         "Asana",
@@ -146,18 +185,27 @@
       "database": [
         "Azure SQL",
         "DynamoDB",
+        "Google",
         "MSSQL",
         "MongoDB",
         "MySQL",
         "NoSQL",
+        "Oracle Database",
+        "PL/SQL",
         "PostgreSQL",
         "SQL"
       ],
-      "devops": [
-        "CI/CD",
-        "Docker",
-        "Jenkins",
-        "Kubernetes"
+      "testing": [
+        "BDD",
+        "SonarQube"
+      ],
+      "biz_dev": [
+        "Business Development"
+      ],
+      "soft_skill": [
+        "Collaboration",
+        "Communication",
+        "Problem Solving"
       ],
       "search": [
         "Elasticsearch"
@@ -171,11 +219,11 @@
         "JavaScript",
         "TypeScript"
       ],
-      "soft_skill": [
-        "Problem Solving"
+      "integration": [
+        "REST"
       ],
-      "testing": [
-        "SonarQube"
+      "tools": [
+        "VS Code"
       ],
       "design": [
         "Wireframing"
@@ -190,13 +238,13 @@
   "experience": {
     "jobs": [
       {
-        "role": "Roles & Responsibilities: - Full stack developer",
+        "role": "Hands-on experience with Google Cloud Platform",
         "company": "Siril Technologies Pvt. Ltd",
         "location": null,
         "start": "4th September 2023",
         "end": "Present",
         "method": "date_regex+company_suffix_match",
-        "duration_months": 37,
+        "duration_months": 38,
         "bullets": [],
         "sub_sections": [
           "Hands-on experience with Google Cloud Platform",
@@ -234,7 +282,68 @@
           "Links:",
           "https://www.hummcare.com/",
           "https://sheikhproperty.com/",
-          "────────────────────────────────────────────────────────────"
+          "────────────────────────────────────────────────────────────",
+          "Experience in Java, experience in Java/J2EE web application development, building scalable and high-performance enterprise applications.",
+          "Strong experience working with Big Data technologies and Azure cloud ecosystem for data-driven application development.",
+          "Hands-on expertise with Azure Data Factory for designing and implementing end-to-end ETL pipelines for data integration and transformation.",
+          "Extensive experience with Azure Data Services, including Azure SQL Database, Azure Data Lake, and Azure Blob Storage.",
+          "Proficient in Azure Databricks for data processing, analytics, and integration with Azure data platforms.",
+          "Solid understanding of SQL and SQL-based databases, with experience in complex queries, performance tuning, and data validation.",
+          "Experience working with relational and NoSQL databases such as MySQL, PostgreSQL, and MongoDB.",
+          "Proficient in front-end technologies including HTML, CSS, and JavaScript, with hands-on experience in modern frameworks such as React.js / Angular.js / Vue.js.",
+          "Experience with server-side technologies including Node.js, Java, or PHP for building RESTful APIs and backend services.",
+          "Strong experience in ETL (Extract, Transform, Load) processes for data ingestion and integration across multiple systems.",
+          "Worked in Agile/Scrum development environments, collaborating with cross-functional teams to deliver high-quality solutions.",
+          "Demonstrated ability to analyze business requirements and translate them into technical solutions aligned with best practices.",
+          "React.js and Angular for full-stack development.",
+          "Experienced in developing scalable, high-performance applications using modern web frameworks and APIs.",
+          "Skilled in designing and implementing asynchronous messaging systems to ensure reliable data flow and integration.",
+          "Experience designing, building, migrating, and optimizing large-scale distributed systems using Java, J2EE",
+          "Strong expertise in backend development, including multi-threading, performance optimization, and scalable system design",
+          "Extensive experience working with relational (RDBMS) and NoSQL databases, including data warehousing and data lake architectures",
+          "Proven experience across the Google Cloud Platform (GCP) ecosystem, including App Engine (Standard & Flexible), Compute Engine, cloud storage, analytics, caching, search, and IAM/SSO solutions",
+          "Designed and implemented ETL processes, data pipelines, and CI/CD pipelines to support reliable and efficient deployments",
+          "Led application and code migrations, including modernization and third-party system integrations",
+          "Hands-on frontend development experience using HTML, CSS, Java, and frameworks such as React.js, AngularJS.",
+          "Experience integrating Angular-based services and AI / Generative AI APIs into production applications",
+          "Demonstrated leadership in technical decision-making, mentoring junior developers, and guiding distributed systems architecture initiatives.",
+          "Proficient in working with NoSQL databases such as DynamoDB, and RDBMS platforms like Oracle, MySQL, and Couchbase.",
+          "Strong knowledge of Unix/Linux environments for application deployment, monitoring, and automation.",
+          "Experienced in version control systems, particularly GitHub, for collaborative software development.",
+          "Hands-on experience with CI/CD pipelines using tools like Harness to automate build, test, and deployment processes.",
+          "Proficient in cloud technologies such as AWS EKS and ECS for containerized application deployment and management.",
+          "Worked extensively with Oracle and PostgreSQL databases, writing efficient PL/SQL queries, procedures, and performing data optimization.",
+          "Develop, test, and deploy data processing pipelines using AWS Serverless technologies such as AWS Lambda, Step Functions, DynamoDB, and S3.",
+          "Implement ETL processes to transform and process structured and unstructured data efficiently.",
+          "Collaborate with business analysts and other developers to understand requirements and deliver solutions that meet business needs.",
+          "Write clean, maintainable, and well-documented code following best practices.",
+          "Monitor and optimize the performance and cost of serverless applications.",
+          "Ensure high availability and reliability of the pipeline through proper design and error handling mechanisms.",
+          "Troubleshoot and debug issues in serverless applications and data workflows.",
+          "Stay up-to-date with emerging technologies in the AWS and serverless ecosystem to recommend improvements.",
+          "Worked extensively with SQL and NoSQL databases, modeling schemas, optimizing queries, and ensuring data integrity and performance.",
+          "Deployed and operated applications in cloud environments (AWS, Azure), focusing on reliability, observability, and scalability.",
+          "Leveraged CI/CD pipelines to ship high-quality code frequently with confidence and minimal downtime.",
+          "Collaborated with cross-functional teams using Jira and Postman for task tracking and API testing throughout the software development lifecycle.",
+          "Applied strong knowledge of data structures, algorithms, and software design principles to optimize application performance and maintainability.",
+          "Developed applications using modern Java, J2EE, adhering to best practices in cloud-native development and microservice orchestration.",
+          "Designed and implemented enterprise intranet and web applications using Java, J2EE (Flask/FastAPI), and PostgreSQL, deployed on Heroku, GCP, and other cloud platforms.",
+          "Designed and deployed AWS serverless architectures utilizing Lambda, API Gateway, and related cloud-native services.",
+          "Led the design and development of scalable, high-performance applications using Java, J2EE, and React.js",
+          "Architected and implemented microservices-based systems with well-defined RESTful APIs",
+          "Designed cloud-native solutions on AWS, ensuring reliability, security, and cost efficiency",
+          "Containerized applications using Docker and implemented automated CI/CD pipelines for faster, reliable deployments",
+          "Collaborated with cross-functional teams to translate business requirements into technical solutions",
+          "Mentored and guided engineering teams, fostering technical growth and best practices",
+          "Developed scalable backend services using Java, J2EE, optimizing performance and reducing operational overhead.",
+          "Built responsive, component-driven frontend applications using React.js with modern state-management practices.",
+          "Containerized applications using Docker to ensure consistent builds and streamlined deployments.",
+          "Implemented and managed Kubernetes clusters for orchestrating containerized workloads and improving system reliability.",
+          "Integrated CI/CD pipelines to automate testing, container builds, and cloud deployments across serverless and containerized environments.",
+          "Familiarity with tools like Git, Maven, Jenkins, and Docker is a plus",
+          "Designed backend logic using Spring Data JPA, Hibernate, and SQLAlchemy, with databases like PostgreSQL, MySQL, and Oracle.",
+          "Built, deployed, and monitored applications using CI/CD pipelines with GitHub Actions, Docker, and deployment tools like Argo CD, Capistrano, and Jenkins.",
+          "Implemented secure authentication and authorization workflows using Spring Security, OAuth2, and JWT."
         ],
         "confidence": 0.98,
         "needs_review": false,
@@ -243,8 +352,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.1,
-      "total_months": 37,
+      "total_years": 3.2,
+      "total_months": 38,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

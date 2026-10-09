@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "8c8f931d_7af84860_Omkar Pandit Hodale_Process Analytics_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:38.983807+00:00",
+    "generated_at": "2026-10-07T09:27:20.312524+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,9 +48,11 @@
   "skills": {
     "items": [
       "5 Whys",
+      "5S",
       "AutoCAD",
       "Continuous Improvement",
       "Cross-functional Collaboration",
+      "Internal Audit",
       "KPI",
       "Kaizen",
       "Lean Manufacturing",
@@ -60,7 +62,10 @@
       "Problem Solving",
       "Process Audit",
       "Process Improvement",
+      "Process Re-Engineering",
+      "Product Design",
       "Prototyping",
+      "R",
       "Rapide",
       "Risk Assessment",
       "Root Cause Analysis",
@@ -68,11 +73,13 @@
       "Sigma Computing",
       "Six Sigma",
       "SolidWorks",
+      "Standard Operating Procedures",
       "Workshop Facilitation"
     ],
     "by_category": {
       "operations": [
         "5 Whys",
+        "5S",
         "Continuous Improvement",
         "Kaizen",
         "Lean Manufacturing",
@@ -84,11 +91,15 @@
       ],
       "engineering": [
         "AutoCAD",
+        "Product Design",
         "SolidWorks"
       ],
       "soft_skill": [
         "Cross-functional Collaboration",
         "Problem Solving"
+      ],
+      "accounting": [
+        "Internal Audit"
       ],
       "business_analysis": [
         "KPI"
@@ -100,10 +111,15 @@
         "MS Office",
         "Microsoft Excel"
       ],
+      "consulting": [
+        "Process Re-Engineering",
+        "Workshop Facilitation"
+      ],
       "design": [
         "Prototyping"
       ],
       "programming_language": [
+        "R",
         "Rapide"
       ],
       "compliance": [
@@ -112,8 +128,8 @@
       "data_science": [
         "Sigma Computing"
       ],
-      "consulting": [
-        "Workshop Facilitation"
+      "management": [
+        "Standard Operating Procedures"
       ]
     },
     "_confidence": 0.92,
@@ -122,13 +138,16 @@
   "experience": {
     "jobs": [
       {
-        "role": "Product Engineer",
-        "company": "MT&T 10",
+        "role": "MT&T",
+        "company": "10",
         "location": null,
         "start": "Mar/2024",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 31,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "MT&T"
+        ],
+        "duration_months": 32,
         "bullets": [
           "Leading Kaizen & TPM initiatives to improve productivity and reduce downtime.",
           "Conducting time studies and workflow optimization to improve process efficiency.",
@@ -147,7 +166,10 @@
         "location": null,
         "start": "10/10/2022",
         "end": "10/03/2024",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Connectwell Industry"
+        ],
         "duration_months": 24,
         "bullets": [
           "Facilitated continuous improvement initiatives and Kaizen events.",

@@ -1,0 +1,93 @@
+======================================================================
+FILE: 4d169930_105b0878_Naukri_AnanyaGupta[1y_1m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Biz Digital IT | Gurugram, India
+Jan’25 - Present
+AI Software Engineer| Hybrid
+• Designed and implemented a government-facing
+RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova
+Pro, owning the system from POC to production
+integration.
+• Implemented semantic retrieval, multi-turn
+...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.81
+Needs review   : True
+Total exp      : 2.3 years (28 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : AI Software Engineer
+  Company      : Hybrid
+  Location     : None
+  Start - End  : Jan’25 - Present
+  Duration     : 22 months
+  Bullets      : 9
+    • Designed and implemented a government-facing RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova Pro, owning the system from POC to production integration.
+    • Implemented semantic retrieval, multi-turn follow-up handling, and hallucination control, ensuring accurate, scope-restricted responses aligned with official MIDC data.
+    • Designed and deployed two production Generative AI systems for document summarization and question answering across PDFs,
+    • DOCX, images, and structured data using GPT-4o
+    • Optimized multi-document processing pipelines
+    • Developed token-level inference analysis (per
+    • Conducted research-oriented experimentation OCR–LLM hybrids, and structured extraction (Azure OpenAI). using parallel execution, reducing end-to-end latency from ~40s to ~10s. page and per document) to enable LLM cost monitoring and optimization. on complex multi-page invoice understanding, evaluating vision–language models, pipelines.
+    • Designed and implemented a RAG framework on AWS using Amazon Nova Pro for long-document summarization and Amazon Titan embeddings for semantic retrieval over large document collections.
+    • Currently developing a cost-efficient invoice extraction pipeline using Amazon Nova Pro, achieving ~93–95% accuracy, with ongoing optimization and evaluation.
+  Method       : date_regex+pipe_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : R&D Intern
+  Company      : Docquity
+  Location     : India
+  Start - End  : July’24 - Sept’24
+  Duration     : 3 months
+  Bullets      : 3
+    • R&D Intern | on-site • Fine-tuned Phi-1.5 on large-scale biomedical text (PubMed XML).
+    • Explored prompting and inference behavior across Claude, OpenAI, and AWS Bedrock models.
+    • Gained exposure to LLM serving, scalable inference pipelines, and system-level architecture.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy
+  Company      : Learning
+  Location     : None
+  Start - End  : Feb’25 - May’25
+  Duration     : 4 months
+  Bullets      : 2
+    • Tools: AWS Bedrock , PyTorch, Hugging Face (BERT, RoBERTa, DistilBERT), Python o Built a system that analyzed sentiment from raw images and text by generating structured metadata with Amazon Nova Pro. Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy o Created vibrant visualizations (e.g., radial heatmaps, tree maps) with Python/PyTorch, producing publication-ready figures for a research paper.
+    • Medical RAG Chatbot for Knowledge-Grounded Question Answering | Link
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : None
+  Company      : o Designed a Retrieval-Augmented Generation  system to answer domain-specific queries using a structured CSV-based
+  Location     : None
+  Start - End  : Aug’24 - Sept’24
+  Duration     : 2 months
+  Bullets      : 2
+    • Tools: Sentence Transformers, FAISS, RAG, Groq LLM, Python, Streamlit o Designed a Retrieval-Augmented Generation (RAG) system to answer domain-specific queries using a structured CSV-based knowledge base. o Implemented semantic retrieval with Sentence Transformers and FAISS to ground LLM responses and reduce hallucinations. o Engineered modular preprocessing, retrieval, and generation components with transparent context inspection and conversational memory.
+    • Multi-File RAG & LLM Chat System with Streamlit | LINK
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 5
+  Role         : None
+  Company      : o Developed a Streamlit application integrating Retrieval-Augmented Generation  to support multi-file uploads (PDF
+  Location     : None
+  Start - End  : Sept’24 - Dec’24
+  Duration     : 4 months
+  Bullets      : 1
+    • Tools: Grok API , Hugging face, sentence transformers, Faiss, RAG, python, Llama 8B, Python, Streamlit o Developed a Streamlit application integrating Retrieval-Augmented Generation (RAG) to support multi-file uploads (PDF, DOCX, TXT, MP3, MP4) for context-based responses. o Implemented a conversational interface using Llama 8B via the Groq API, enabling users to engage in natural language queries with the model. o Enhanced user experience by allowing seamless interaction with uploaded documents, facilitating efficient information retrieval and summarization.
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True

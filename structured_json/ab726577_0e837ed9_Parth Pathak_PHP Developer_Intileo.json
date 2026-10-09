@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "ab726577_0e837ed9_Parth Pathak_PHP Developer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:59.767539+00:00",
+    "generated_at": "2026-10-07T09:27:47.989131+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -52,36 +52,59 @@
       "API Testing",
       "Adaptability",
       "Bootstrap",
+      "Bootstrap 5",
       "CSS3",
-      "Client Relationship Management",
+      "Code Reviews",
       "CodeIgniter",
-      "Cost Analysis",
+      "Cron Jobs",
+      "Customer Relationship Management",
       "Customer Service",
+      "E-learning",
+      "Elementor",
       "Git",
+      "GitHub",
       "GraphQL",
       "HTML5",
+      "Indexing",
+      "JSON",
       "JavaScript",
       "Laravel",
+      "LinkedIn",
       "MySQL",
       "Operations Management",
       "PHP",
+      "Payments",
       "Postman",
       "Problem Solving",
+      "Product Design",
+      "Quality Assurance",
+      "Query Optimization",
       "REST API",
+      "Razorpay",
+      "SEO",
       "SQL",
       "Shopify",
+      "Technical Writing",
+      "Ticketing Systems",
+      "User Flows",
+      "VPS",
       "WordPress",
+      "cPanel",
       "jQuery"
     ],
     "by_category": {
       "web_framework": [
         "AJAX",
         "Bootstrap",
+        "Bootstrap 5",
         "CSS3",
         "CodeIgniter",
+        "Elementor",
         "GraphQL",
         "HTML5",
+        "JSON",
         "Laravel",
+        "LinkedIn",
         "REST API",
         "jQuery"
       ],
@@ -95,48 +118,82 @@
         "Adaptability",
         "Problem Solving"
       ],
+      "dev_tool": [
+        "Code Reviews",
+        "Git",
+        "GitHub",
+        "Postman"
+      ],
+      "devops": [
+        "Cron Jobs",
+        "VPS",
+        "cPanel"
+      ],
+      "sales": [
+        "Customer Relationship Management"
+      ],
       "client_mgmt": [
-        "Client Relationship Management",
         "Customer Service"
       ],
-      "finance_ops": [
-        "Cost Analysis"
+      "education_domain": [
+        "E-learning"
       ],
-      "dev_tool": [
-        "Git",
-        "Postman"
+      "database": [
+        "Indexing",
+        "MySQL",
+        "Query Optimization",
+        "SQL"
       ],
       "programming_language": [
         "JavaScript",
         "PHP"
       ],
-      "database": [
-        "MySQL",
-        "SQL"
-      ],
       "operations": [
-        "Operations Management"
+        "Operations Management",
+        "Quality Assurance"
+      ],
+      "domain": [
+        "Payments"
+      ],
+      "engineering": [
+        "Product Design"
+      ],
+      "fintech": [
+        "Razorpay"
+      ],
+      "marketing": [
+        "SEO"
       ],
       "retail": [
         "Shopify"
       ],
       "content": [
+        "Technical Writing",
         "WordPress"
+      ],
+      "support": [
+        "Ticketing Systems"
+      ],
+      "design": [
+        "User Flows"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), hosting→Cost Analysis(86%), CodeIgniter.→CodeIgniter(96%), problem-solving→Problem Solving(100%), adaptability→Adaptability(100%))"
+    "_method": "flashtext_skills_section | fuzzy(HTML→HTML5(100%), CodeIgniter.→CodeIgniter(96%), problem-solving→Problem Solving(100%), adaptability→Adaptability(100%))"
   },
   "experience": {
     "jobs": [
       {
-        "role": ", Noida, UP: Full-Stack Developer (Product Development",
+        "role": "Noida, UP: Full-Stack Developer",
         "company": "TUMBLEDRY",
-        "location": "Noida",
+        "location": null,
         "start": "Feb 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+comma_company_location",
-        "duration_months": 20,
+        "method": "date_regex+comma_company_role_split",
+        "pre_date_header": [
+          "TUMBLEDRY, Noida, UP: Full-Stack Developer (Product Development)"
+        ],
+        "duration_months": 21,
         "bullets": [
           "Maintained and enhanced in-house CodeIgniter apps; delivered 8 feature releases and resolved production bugs , code improvements to improve system stability.",
           "Owned the Lead CRM (CodeIgniter) used by 80+ sales agents — implemented enhancements , API integrations and supported day-to-day operations that increased lead processing throughput by 35%.",
@@ -155,10 +212,13 @@
       {
         "role": "Noida, UP: Full-Stack Developer",
         "company": "FIRSTVITE E-LEARNING PVT. LTD",
-        "location": "Noida",
+        "location": null,
         "start": "Jan 2024",
         "end": "Jan 2025",
-        "method": "date_regex+date_prefix_title+comma_company_location",
+        "method": "date_regex+comma_company_role_split",
+        "pre_date_header": [
+          "FIRSTVITE E-LEARNING PVT. LTD., Noida, UP: Full-Stack Developer"
+        ],
         "duration_months": 13,
         "bullets": [
           "Developed and maintained projects (GoingBo, IIMSR, CollegeVihar) serving 5,000+ monthly users; implemented secure form handling and admin panels that processed 6,000+ monthly submissions.",
@@ -174,30 +234,34 @@
         "source": "experience"
       },
       {
-        "role": "Junior Web Developer",
-        "company": "DAZZLER SOFTWARE PVT. LTD., Kota, Raj.: Junior Web Developer",
+        "role": "Kota, Raj.: Junior Web Developer",
+        "company": "DAZZLER SOFTWARE PVT. LTD",
         "location": null,
         "start": "Dec 2022",
         "end": "Jan 2024",
-        "method": "date_regex+date_prefix_title+company_suffix_match",
+        "method": "date_regex+comma_company_role_split",
+        "pre_date_header": [
+          "SMS API, Git.",
+          "DAZZLER SOFTWARE PVT. LTD., Kota, Raj.: Junior Web Developer"
+        ],
         "duration_months": 14,
         "bullets": [
           "Gained hands-on experience as a Web Developer with a strong focus on both front-end and back-end technologies using PHP, MySQL, HTML5, CSS3 & Bootstrap5.",
           "My responsibilities encompassed creating and maintaining web applications, ensuring they are user-friendly, re- sponsive, and feature-rich."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 3.8,
-      "total_months": 46,
+      "total_years": 3.9,
+      "total_months": 47,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.89
+    "_confidence": 0.98
   },
   "education": {
     "entries": [],
@@ -212,15 +276,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.92
+    "overall": 0.95
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[2]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "education",
       "confidence": 0.0,

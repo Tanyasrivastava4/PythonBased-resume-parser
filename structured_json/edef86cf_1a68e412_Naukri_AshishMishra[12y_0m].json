@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "edef86cf_1a68e412_Naukri_AshishMishra[12y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:41.422617+00:00",
+    "generated_at": "2026-10-07T09:28:43.457591+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,36 +51,97 @@
   "summary": null,
   "skills": {
     "items": [
+      "Active Directory",
+      "Auditing",
       "AutoCAD",
+      "B2B Sales",
+      "B2C Sales",
+      "Background Verification",
+      "Boosting",
       "Change Management",
       "Collaboration",
       "Communication",
       "Conflict Resolution",
       "Continuous Improvement",
+      "D2C Marketing",
       "Data Management",
+      "Due Diligence",
       "Employee Engagement",
+      "Employee Records Management",
+      "Fintech",
       "Google",
       "Google Sheets",
       "Google Workspace",
       "HR Generalist",
+      "HR Management",
+      "HRIS",
+      "HRMS",
+      "Help Desk",
+      "Instagram",
+      "KPI",
       "Leadership",
+      "Learning & Development",
+      "Legal Compliance",
+      "LinkedIn",
       "MS Office",
+      "Machine Learning",
       "Mental Health",
       "Mentoring",
       "Onboarding",
       "Payroll Administration",
+      "Performance Appraisal",
+      "Performance Management",
+      "Performance Monitoring",
       "Problem Solving",
+      "Process Improvement",
       "Program Management",
+      "Real Estate Valuation",
+      "Recruitment",
+      "Regularization",
+      "Resource Planning",
+      "Risk Management",
       "Six Sigma",
-      "Tutoring"
+      "Strategic Planning",
+      "Tutoring",
+      "Vendor Management"
     ],
     "by_category": {
+      "security_ops": [
+        "Active Directory"
+      ],
+      "finance_ops": [
+        "Auditing"
+      ],
       "engineering": [
         "AutoCAD"
       ],
+      "sales": [
+        "B2B Sales",
+        "B2C Sales"
+      ],
+      "hr": [
+        "Background Verification",
+        "Employee Engagement",
+        "HR Generalist",
+        "HR Management",
+        "HRIS",
+        "HRMS",
+        "Learning & Development",
+        "Onboarding",
+        "Payroll Administration",
+        "Performance Appraisal",
+        "Performance Management",
+        "Recruitment"
+      ],
+      "data_science": [
+        "Boosting",
+        "Regularization"
+      ],
       "project_mgmt": [
         "Change Management",
-        "Program Management"
+        "Program Management",
+        "Resource Planning",
+        "Risk Management"
       ],
       "soft_skill": [
         "Collaboration",
@@ -92,7 +153,13 @@
       ],
       "operations": [
         "Continuous Improvement",
-        "Six Sigma"
+        "Performance Monitoring",
+        "Process Improvement",
+        "Six Sigma",
+        "Vendor Management"
+      ],
+      "marketing": [
+        "D2C Marketing"
       ],
       "productivity": [
         "Data Management",
@@ -100,17 +167,42 @@
         "Google Workspace",
         "MS Office"
       ],
-      "hr": [
-        "Employee Engagement",
-        "HR Generalist",
-        "Onboarding",
-        "Payroll Administration"
+      "finance": [
+        "Due Diligence"
+      ],
+      "hr_recruitment": [
+        "Employee Records Management"
+      ],
+      "domain": [
+        "Fintech"
       ],
       "database": [
         "Google"
       ],
+      "support": [
+        "Help Desk"
+      ],
+      "web_framework": [
+        "Instagram",
+        "LinkedIn"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "legal": [
+        "Legal Compliance"
+      ],
+      "ai_ml": [
+        "Machine Learning"
+      ],
       "healthcare": [
         "Mental Health"
+      ],
+      "real_estate": [
+        "Real Estate Valuation"
+      ],
+      "management": [
+        "Strategic Planning"
       ],
       "education_domain": [
         "Tutoring"
@@ -122,9 +214,9 @@
   "experience": {
     "jobs": [
       {
-        "role": "Designation | HR Manager",
+        "role": "HR Manager",
         "company": "Unknown",
-        "location": null,
+        "location": "Designation",
         "start": "Sep 2017",
         "end": "Oct 2019",
         "method": "date_regex+dash_split",
@@ -150,15 +242,15 @@
         "source": "experience"
       },
       {
-        "role": "Designation | Manager",
+        "role": "pASSION FOR NUTRITIOy",
         "company": "VKC Group",
         "location": "Noida",
         "start": "Nov 2022",
         "end": "Oct 2024",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 24,
         "bullets": [
-          "Unknown - Designation | Manager (TA & Operations) Unknown - Team size | 14 (5 Asst. Managers, 9 Executives)",
+          "Unknown - Designation | Manager (TA & Operations) Team size: 14 (5 Asst. Managers, 9 Executives)",
           "Conceptualizing HR Policies, Processes and fair HR practices.",
           "Implemented HRMS/ HRIS at Corporate office, Factory and Retail Outlets.",
           "Designing Performance Management System by facilitating and finalizing the goal setting, KRA/KPI and review mechanism.",
@@ -194,27 +286,13 @@
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Janhvi Constructions & Infrastructure Advisory",
+        "role": "2 Jr. Officer, 4 Executives",
+        "company": "Designation | HR Manager",
         "location": null,
         "start": "June 2014",
         "end": "Feb 2016",
         "method": "date_regex",
         "duration_months": 21,
-        "bullets": [],
-        "sub_sections": [],
-        "confidence": 0.85,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "2 Jr. Officer, 4 Executives",
-        "company": "Unknown",
-        "location": "Team size, 6",
-        "start": "June 2013",
-        "end": "May 2014",
-        "method": "date_regex+company_parens_role",
-        "duration_months": 12,
         "bullets": [
           "Recruitment and Selection, Creation of job descriptions, APR (Annual Performance Review).",
           "Responsible for onboarding and orientations of new joinees.",
@@ -232,23 +310,19 @@
           "Responsible for risk analysis, resource allocation (man-machine-material etc.), execution of planning.",
           "Work-sheet preparation on daily basis and administering employees’ productivity."
         ],
-        "sub_sections": [
-          "Performance Appraisals, Promotion, Transfer, Increment, Warning",
-          "letters, Show-cause notice, Domestic enquiries, Experience letters etc.",
-          "Job Responsibilities (as Engineering Manager)"
-        ],
+        "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": false,
+        "needs_review": true,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 6.9,
-      "total_months": 83,
+      "total_years": 5.9,
+      "total_months": 71,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.95
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -257,11 +331,11 @@
         "degree_name": "MBA",
         "degree_type": "masters",
         "degree_field": "HRM",
-        "institution": null,
+        "institution": "HRM, DAVV Indore",
         "year": null,
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.65
+        "_confidence": 0.8
       },
       {
         "degree": "B.Tech.- Mechanical, UEC Ujjain",
@@ -308,7 +382,7 @@
         "_confidence": 0.8
       }
     ],
-    "_confidence": 0.68
+    "_confidence": 0.71
   },
   "certifications": {
     "items": [
@@ -397,18 +471,18 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.83
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[2]",
-      "confidence": 0.85,
+      "confidence": 0.98,
       "reason": "incomplete_fields"
     },
     {
       "field": "education",
-      "confidence": 0.68,
+      "confidence": 0.71,
       "reason": "low_confidence"
     },
     {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "1a316b8e_fdf51107_Rohit kalaria_latest_CV_segmented.txt",
-    "generated_at": "2026-09-30T06:58:01.451105+00:00",
+    "generated_at": "2026-10-07T10:30:56.430774+00:00",
     "sections_found": [
       "declaration",
       "education",
@@ -53,7 +53,14 @@
       "Accounts Receivable",
       "Adaptability",
       "Analyze",
+      "Business Development",
+      "Data Science",
+      "FIX Protocol",
+      "Fixed Assets Management",
+      "GST",
       "General Ledger",
+      "General Ledger Accounting",
+      "Goods Receipt Note",
       "Jira",
       "Leadership",
       "Linux",
@@ -65,11 +72,20 @@
       "Microsoft Word",
       "MySQL",
       "Networking",
+      "Oracle Database",
       "Oracle Fusion Cloud",
+      "Payments",
       "Procure-to-Pay",
+      "Production Support",
       "Property Management",
+      "Purchase Orders",
+      "Reliability",
       "SOP",
+      "SOP Development",
       "SQL",
+      "Supply Chain Management",
+      "TDS",
+      "Taxation",
       "Toad",
       "Zoom"
     ],
@@ -77,17 +93,41 @@
       "finance_ops": [
         "Accounting",
         "Accounts Payable",
-        "Accounts Receivable"
+        "Accounts Receivable",
+        "Taxation"
       ],
       "soft_skill": [
         "Adaptability",
-        "Leadership"
+        "Leadership",
+        "Reliability"
       ],
       "data_science": [
         "Analyze"
       ],
+      "biz_dev": [
+        "Business Development",
+        "Networking"
+      ],
+      "ai_ml": [
+        "Data Science"
+      ],
+      "fintech": [
+        "FIX Protocol"
+      ],
       "accounting": [
+        "Fixed Assets Management",
+        "GST",
         "General Ledger"
+      ],
+      "accounting_finance": [
+        "General Ledger Accounting"
+      ],
+      "operations": [
+        "Goods Receipt Note",
+        "Purchase Orders",
+        "SOP",
+        "SOP Development",
+        "Supply Chain Management"
       ],
       "project_mgmt": [
         "Jira"
@@ -106,27 +146,31 @@
       ],
       "database": [
         "MySQL",
+        "Oracle Database",
         "SQL",
         "Toad"
-      ],
-      "biz_dev": [
-        "Networking"
       ],
       "oracle_erp": [
         "Oracle Fusion Cloud"
       ],
+      "domain": [
+        "Payments"
+      ],
       "finance": [
         "Procure-to-Pay"
+      ],
+      "it_operations": [
+        "Production Support"
       ],
       "real_estate": [
         "Property Management"
       ],
-      "operations": [
-        "SOP"
+      "taxation": [
+        "TDS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Account Payables→Accounts Payable(94%), General ledger→Accounting(100%), Property manager→Property Management(100%), Account receivables→Accounts Receivable(95%), MS Teams→Microsoft Teams(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Account Payables→Accounts Payable(94%), General ledger→General Ledger Accounting(100%), Property manager→Property Management(100%), Account receivables→Accounts Receivable(95%), MS Teams→Microsoft Teams(100%)...)"
   },
   "experience": {
     "jobs": [

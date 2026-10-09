@@ -2,8 +2,8 @@
 FILE: 78124441_Anushka__segmented.txt
 ======================================================================
 Sections found : ['education', 'experience', 'header', 'projects', 'skills']
-Overall conf.  : 0.88
-Needs review   : True
+Overall conf.  : 0.92
+Needs review   : False
 
 CONTACT
 ----------------------------------------------------------------------
@@ -14,14 +14,15 @@ CONTACT
   github    : github.com/anu8303  (conf 0.99, regex)
   website   : None  (conf 0.0, regex)
 
-SKILLS (25) — confidence 0.92
+SKILLS (42) — confidence 0.92
 ----------------------------------------------------------------------
-AWS, AWS S3, Celery, Django, Docker, Elasticsearch, Fine-tuning, Git, GitHub, Hugging Face, LLM, LangChain, Machine Learning, MySQL, NLP, NumPy, PostgreSQL, Postman, Python, RAG, Redis, SQL, TensorFlow, Tokenization, Transformers
+API Design, AWS, AWS Lambda, AWS S3, BERT, Caching, Celery, Coroutines Flow, Cross-functional Collaboration, Django, Django REST Framework, Docker, Elasticsearch, Fine-tuning, GPT, Git, GitHub, HR Management, Hugging Face, LLM, LangChain, LinkedIn, Machine Learning, Microsoft Teams, MySQL, NLP, NumPy, OpenAI API, Payroll Administration, Payroll Management, PostgreSQL, Postman, Python, RAG, RBAC, Recruitment, Redis, SQL, System Design, TensorFlow, Tokenization, Transformers
 
-EXPERIENCE (1 jobs, 0 early_career entries) — confidence 0.85
-Total experience: 1.5 years (18 months, 0 overlaps merged)
+EXPERIENCE (2 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 3.6 years (43 months, 1 overlaps merged)
 ----------------------------------------------------------------------
-  1. | GeeksforGeeks| Noida @ Collaborated with cross-functional teams to define system architecture and align RAG implementations with business requirements. (April 2025 - Present) [conf 0.85, review=True]
+  1. Software Development Engineer @ The HRAlly (April 2025 - Present) [conf 0.98, review=False]
+  2. Software Development Engineer @ GeeksforGeeks (Apr 2023 - Apr 2025) [conf 0.98, review=False]
 
 EDUCATION (2) — confidence 0.8
 ----------------------------------------------------------------------
@@ -31,6 +32,6 @@ EDUCATION (2) — confidence 0.8
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
 
-REVIEW QUEUE (1 flagged fields)
+REVIEW QUEUE (0 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
+  (nothing flagged)

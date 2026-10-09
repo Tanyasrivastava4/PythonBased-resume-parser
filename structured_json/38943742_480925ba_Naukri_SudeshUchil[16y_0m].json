@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "38943742_480925ba_Naukri_SudeshUchil[16y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T06:58:16.985484+00:00",
+    "generated_at": "2026-10-07T10:31:14.277923+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,37 +49,80 @@
   "summary": "Seas oned technology leader with over 16 years of experience aligning people,\nproc esses, and technology to drive organizational performance. Recognized for\nshap ing strategy, leading high-performing teams, and fostering a culture of\ncont inuous improvement and innovation.\nProv en track record in leading enterprise-scale initiatives and managing cross-\nfunc tional teams to optimize technology environments. Expertise in infrastructure,\ncrisi s and vendor management with hands-on leadership in infrastructure security\nmod ules to strengthen threat detection, automate risk mitigation, and continuous\nimp rovement in cybersecurity frameworks.",
   "skills": {
     "items": [
+      ".NET",
       "Audit & Compliance",
       "Azure",
+      "Azure ADF",
+      "Bluecoat",
       "Budgeting",
       "CCNA",
       "CISM",
       "CISSP",
-      "Cost Analysis",
+      "Change Management",
+      "Collaboration",
+      "Communication",
+      "Cost Accounting",
       "Creativity",
+      "Customer Onboarding",
+      "Customer Relationship Management",
       "DLP",
       "Digital Transformation",
+      "Disaster Recovery",
+      "Employee Engagement",
       "Enterprise Sales",
+      "FDA Regulations",
+      "Finnone",
       "Firewall",
       "GCP",
+      "GPT",
+      "Healthcare Management",
+      "ITIL",
+      "Incident Management",
+      "Information Security",
       "Juniper",
+      "KYC",
       "Leadership",
+      "Legal Compliance",
+      "LinkedIn",
+      "MPLS",
+      "Make",
       "Mechanical Engineering",
       "Mentoring",
       "Microsoft Teams",
       "Networking",
+      "Onboarding",
+      "Operations Management",
+      "Oracle Database",
+      "PLC",
       "PMP",
       "Palo Alto Networks",
+      "Penetration Testing",
+      "Performance Optimization",
+      "Privileged Access Management",
+      "Professional Tax",
       "RBI",
+      "Reliability",
+      "Reporting",
       "Risk Management",
+      "SAN",
+      "SEBI",
       "SHAP",
+      "SOX",
       "SQL",
+      "SSO",
       "Scrum",
       "Solution Design",
+      "Symantec",
       "VMware",
-      "Vendor Management"
+      "VPN",
+      "Vendor Management",
+      "WAF",
+      "iOS"
     ],
     "by_category": {
+      "programming_language": [
+        ".NET"
+      ],
       "domain": [
         "Audit & Compliance",
         "RBI"
@@ -89,33 +132,100 @@
         "GCP",
         "VMware"
       ],
+      "cloud": [
+        "Azure ADF"
+      ],
+      "security": [
+        "Bluecoat",
+        "Incident Management",
+        "Information Security",
+        "SSO",
+        "Symantec"
+      ],
       "finance_ops": [
         "Budgeting",
-        "Cost Analysis"
+        "SOX"
       ],
       "networking": [
-        "CCNA"
+        "CCNA",
+        "MPLS"
       ],
       "security_ops": [
         "CISM",
         "CISSP",
         "DLP",
         "Firewall",
-        "Palo Alto Networks"
+        "Palo Alto Networks",
+        "Penetration Testing",
+        "Privileged Access Management",
+        "VPN",
+        "WAF"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "PMP",
+        "Risk Management",
+        "Scrum"
       ],
       "soft_skill": [
+        "Collaboration",
+        "Communication",
         "Creativity",
         "Leadership",
-        "Mentoring"
+        "Mentoring",
+        "Reliability",
+        "Reporting"
+      ],
+      "accounting": [
+        "Cost Accounting"
+      ],
+      "client_mgmt": [
+        "Customer Onboarding"
+      ],
+      "sales": [
+        "Customer Relationship Management",
+        "Enterprise Sales"
       ],
       "consulting": [
         "Digital Transformation"
       ],
-      "sales": [
-        "Enterprise Sales"
+      "operations": [
+        "Disaster Recovery",
+        "Operations Management",
+        "Vendor Management"
+      ],
+      "hr": [
+        "Employee Engagement",
+        "Onboarding",
+        "Professional Tax"
+      ],
+      "healthcare": [
+        "FDA Regulations",
+        "Healthcare Management"
+      ],
+      "banking": [
+        "Finnone"
+      ],
+      "ai_ml": [
+        "GPT",
+        "SHAP"
+      ],
+      "management": [
+        "ITIL"
       ],
       "hardware": [
         "Juniper"
+      ],
+      "legal": [
+        "KYC",
+        "Legal Compliance",
+        "SEBI"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "rpa": [
+        "Make"
       ],
       "engineering": [
         "Mechanical Engineering"
@@ -126,26 +236,28 @@
       "biz_dev": [
         "Networking"
       ],
-      "project_mgmt": [
-        "PMP",
-        "Risk Management",
-        "Scrum"
-      ],
-      "ai_ml": [
-        "SHAP"
-      ],
       "database": [
+        "Oracle Database",
         "SQL"
+      ],
+      "engineering_hardware": [
+        "PLC"
+      ],
+      "dev_tool": [
+        "Performance Optimization"
+      ],
+      "storage": [
+        "SAN"
       ],
       "architecture": [
         "Solution Design"
       ],
-      "operations": [
-        "Vendor Management"
+      "mobile": [
+        "iOS"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Costing→Cost Analysis(100%), Palo Alto→Palo Alto Networks(100%), CISM®→CISM(89%), CISSP*→CISSP(91%), shap→SHAP(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Costing→Cost Accounting(100%), Palo Alto→Palo Alto Networks(100%), Oracle®→Oracle Database(92%), ITIL®→ITIL(89%), Professional→Professional Tax(95%)...)"
   },
   "experience": {
     "jobs": [
@@ -155,8 +267,11 @@
         "location": null,
         "start": "Jan 2022",
         "end": "Present",
-        "method": "date_regex+title_dash_company+next_line_company",
-        "duration_months": 57,
+        "method": "date_regex+title_dash_company+multiline_company_above_role",
+        "pre_date_header": [
+          "MSCI Inc. (Morgan Stanley Capital International)"
+        ],
+        "duration_months": 58,
         "bullets": [
           "Led and mentored a high-performing team responsible for continuous coverage and smooth, secure operations across MSCI’s global sites in India, Budapest, London, and the U.S.",
           "Successfully upheld SLA commitments by directing timely response and resolution of data, email, and infrastructure security incidents across MSCI’s security landscape.",
@@ -170,7 +285,7 @@
           "Enhanced operational efficiency for internal certificate notifications by implementing RPA to streamline processes and improve scalability.",
           "Integrated AKV with GlobalSign to automate certificate lifecycle workflows, achieving zero-touch provisioning and seamless renewals.",
           "Partnered with C-level executives and senior stakeholders to align security initiatives with business objectives and drive strategic outcomes.",
-          "Defined and implemented a robust security onboarding process to support the deployment of Enterprise SSO into production."
+          "Defined and implemented a robust security onboarding process to support the deployment of Enterprise SSO into production. CyberRim Inc. | Infotek Inc. | HAYS plc."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -179,11 +294,11 @@
       },
       {
         "role": "Technology Consultant",
-        "company": "CyberRim Inc",
-        "location": "Infotek Inc. | HAYS plc",
+        "company": "IT Infrastructure & Security Services",
+        "location": null,
         "start": "June 2019",
         "end": "Aug 2021",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex",
         "duration_months": 27,
         "bullets": [
           "Technology Consultant - IT Infrastructure & Security Services Clie nt: Grant Thornton LLP (Canada) – on-site",
@@ -200,12 +315,15 @@
         "source": "experience"
       },
       {
-        "role": "Assistant Vice President | Technology Solution Group",
-        "company": "YES BANK LTD",
+        "role": "Assistant Vice President",
+        "company": "Technology Solution Group",
         "location": null,
         "start": "Oct 2016",
         "end": "May 2019",
-        "method": "date_regex+company_suffix_match",
+        "method": "date_regex",
+        "pre_date_header": [
+          "YES BANK LTD."
+        ],
         "duration_months": 32,
         "bullets": [
           "Migrated Bank’s reporting platform from legacy to modern infrastructure, enhancing availability, resiliency, and disaster recovery.",
@@ -228,12 +346,15 @@
         "source": "experience"
       },
       {
-        "role": "Manager",
-        "company": "IT",
-        "location": "Information",
+        "role": "Manager - IT",
+        "company": "Information",
+        "location": null,
         "start": "Mar 2016",
         "end": "Sep 2016",
         "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Emkay Global Financial Services Ltd"
+        ],
         "duration_months": 7,
         "bullets": [],
         "sub_sections": [],
@@ -242,12 +363,15 @@
         "source": "experience"
       },
       {
-        "role": "Technical Analyst",
-        "company": "DBS Bank Ltd",
-        "location": "Development Bank of Singapore",
+        "role": "Development Bank of Singapore Rewards",
+        "company": "Ltd",
+        "location": null,
         "start": "May 2011",
         "end": "Feb 2016",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header",
+        "pre_date_header": [
+          "DBS Bank"
+        ],
         "duration_months": 58,
         "bullets": [
           "IT | Information Technology Group",
@@ -285,48 +409,34 @@
         "source": "experience"
       },
       {
-        "role": "Consultant",
-        "company": "L&T Infotech Ltd",
-        "location": "Polaris Lab Ltd",
+        "role": "Polaris Lab Ltd",
+        "company": "Pvt Ltd",
+        "location": null,
         "start": "Oct 2010",
         "end": "May 2011",
-        "method": "date_regex+pipe_company_loc_role+title_dict",
+        "method": "date_regex+pipe_split_header",
+        "pre_date_header": [
+          "L&T Infotech"
+        ],
         "duration_months": 8,
         "bullets": [
           "IT, Client: Condé Nast, Fidelity Investments, US",
           "Identified and analyzed OS/IOS bugs on network devices; provided recommendations on appropriate software versions and upgrades.",
           "Planned, scheduled, and implemented global firewall policy changes across U.S. regions in compliance with change management protocols.",
-          "Validated and tested post-implementation changes with clients, ensuring successful deployment and minimal service disruption."
-        ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "Sr Executive",
-        "company": "Siro Clinpharm Pvt Ltd",
-        "location": null,
-        "start": "Oct 2008",
-        "end": "Sep 2010",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 24,
-        "bullets": [
+          "Validated and tested post-implementation changes with clients, ensuring successful deployment and minimal service disruption.",
           "Information Technology",
           "Installed, configured, and maintained network infrastructure and devices, including internet services and VPN solutions, to ensure optimal performance and minimal latency.",
           "Managed and supported a wide range of security and network appliances, including NOKIA IP 390, Juniper SSG 520 / SSL SA 4000, PineApp Anti-Spam,",
           "Conducted end-user training sessions covering new technologies, information security, 21 CFR Part 11 compliance, and IT onboarding/induction programs.",
           "Served as the primary IT point of contact for key enterprise clients such as Pfizer, Johnson & Johnson, Baxter, and Merck, ensuring seamless support and service delivery.",
-          "Planned and executed large-scale infrastructure initiatives, including visitor wireless solutions, Exchange SCR implementation, network teaming, and backup modernization using Symantec and Citrix platforms."
+          "Planned and executed large-scale infrastructure initiatives, including visitor wireless solutions, Exchange SCR implementation, network teaming, and backup modernization using Symantec and Citrix platforms.",
+          "Evaluated HPE HCI part of server consolidation an initiative to reduce physical footprint.",
+          "Blueprint formulated for redesigning VMware infrastructure part of consolidation project.",
+          "Formulated SOP's for implementing infrastructure components as per industry best practice.",
+          "Planned & Evaluated Infrastructure / Application / Security Monitoring tool from ManageEngine.",
+          "Controlling program budget and individual project budgets across all projects."
         ],
-        "sub_sections": [
-          "Symantec",
-          "HIDS/IPS, Radware LinkProof, and Bluecoat PacketShaper.",
-          "Roles & Responsibilities",
-          "Roles & Responsibilities",
-          "Block 11|607, Sion, Mumbai.",
-          "www.linkedin.com/in/sudeshluchil"
-        ],
+        "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
@@ -334,8 +444,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 17.7,
-      "total_months": 212,
+      "total_years": 15.8,
+      "total_months": 189,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f6d5cb05_5d7a51c6_Resume_Harnoor Kaur (2)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:49.517604+00:00",
+    "generated_at": "2026-10-07T09:28:54.014494+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -46,24 +46,41 @@
   "summary": null,
   "skills": {
     "items": [
+      "Adaptability",
       "EDR",
       "Elasticsearch",
       "GitHub",
       "LinkedIn",
       "Microsoft Azure Sentinel",
       "Microsoft Defender",
+      "Microsoft Teams",
+      "OSINT",
       "Office 365",
+      "Phishing",
+      "Reporting",
+      "Risk Management",
       "SIEM",
+      "SOC Operations",
+      "Security Awareness Training",
       "SentinelOne",
       "Threat Hunting",
-      "Ticketing Systems"
+      "Threat Intelligence",
+      "Ticketing Systems",
+      "Vulnerability Remediation"
     ],
     "by_category": {
+      "soft_skill": [
+        "Adaptability",
+        "Reporting"
+      ],
       "security_ops": [
         "EDR",
         "Microsoft Defender",
+        "Phishing",
         "SIEM",
-        "Threat Hunting"
+        "Security Awareness Training",
+        "Threat Hunting",
+        "Threat Intelligence"
       ],
       "search": [
         "Elasticsearch"
@@ -77,10 +94,21 @@
       "cloud_infra": [
         "Microsoft Azure Sentinel"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "cybersecurity": [
+        "OSINT",
+        "Vulnerability Remediation"
+      ],
       "integration": [
         "Office 365"
       ],
+      "project_mgmt": [
+        "Risk Management"
+      ],
       "security": [
+        "SOC Operations",
         "SentinelOne"
       ],
       "support": [
@@ -98,8 +126,11 @@
         "location": "Noida",
         "start": "Jan 2024",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 33,
+        "method": "date_regex+title_dict_strong+comma_company_location",
+        "pre_date_header": [
+          "BolsterAI, Noida"
+        ],
+        "duration_months": 34,
         "bullets": [
           "Proactively monitored social media platforms and external digital channels for phishing campaigns, brand impersonation, and malicious activity to protect brand reputation and customer trust.",
           "Conducted in-depth threat assessments and delivered detailed reports to senior management, directly influencing security strategies and risk mitigation plans.",
@@ -117,7 +148,10 @@
         "location": "Mohali",
         "start": "May 2022",
         "end": "Jan 2024",
-        "method": "date_regex+title_dict+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "SafeAeon Inc., Mohali"
+        ],
         "duration_months": 21,
         "bullets": [
           "Investigated and resolved incidents involving unauthorized access to sensitive data through detailed root-cause analysis and corrective actions.",
@@ -140,8 +174,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 4.4,
-      "total_months": 53,
+      "total_years": 4.5,
+      "total_months": 54,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.98
@@ -153,7 +187,7 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": "Computer Science and Engineering",
-        "institution": "EDUCATION Baba Banda Singh Bahadur Engineering College",
+        "institution": "Baba Banda Singh Bahadur Engineering College",
         "year": "2024",
         "gpa": "8.95",
         "_needs_review": false,

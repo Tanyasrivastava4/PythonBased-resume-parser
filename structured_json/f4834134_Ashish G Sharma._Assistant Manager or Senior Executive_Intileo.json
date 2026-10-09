@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "f4834134_Ashish G Sharma._Assistant Manager or Senior Executive_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T07:00:47.697950+00:00",
+    "generated_at": "2026-10-07T09:28:51.641790+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,6 +49,10 @@
   "summary": "Dedicated Assistant Account Manager at Touras India Private Limited\nwith solid experience in business management, team leadership, and\nfinancial operations. Skilled in enhancing transaction accuracy,",
   "skills": {
     "items": [
+      "Account Reconciliation",
+      "Accounts Payable",
+      "Bank Reconciliation",
+      "Coroutines Flow",
       "Financial Reporting",
       "GST Return Filing",
       "GSTR-1",
@@ -58,23 +62,38 @@
       "Operations Management",
       "Payments",
       "Payroll Administration",
+      "Reliability",
       "Reporting",
-      "TDS",
+      "TDS Return Filing",
       "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Team Leadership"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "TDS Return Filing",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
+        "Accounts Payable",
         "Financial Reporting",
         "Tally"
+      ],
+      "accounting": [
+        "Bank Reconciliation"
+      ],
+      "mobile_dev": [
+        "Coroutines Flow"
       ],
       "finance": [
         "GST Return Filing"
       ],
       "taxation": [
         "GSTR-1",
-        "GSTR-3B",
-        "TDS"
+        "GSTR-3B"
       ],
       "banking": [
         "MIS Reporting"
@@ -92,12 +111,13 @@
         "Payroll Administration"
       ],
       "soft_skill": [
+        "Reliability",
         "Reporting",
         "Team Leadership"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(reporting.→Reporting(95%), payments→Payments(100%), payroll→Payroll Administration(100%), Excel→Microsoft Excel(100%), team leadership→Team Leadership(100%))"
+    "_method": "flashtext_skills_section | fuzzy(reporting.→Reporting(95%), payments→Payments(100%), payroll→Payroll Administration(100%), Tally→Tally(100%), Excel→Microsoft Excel(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -107,8 +127,11 @@
         "location": null,
         "start": "Nov 2017",
         "end": "Present",
-        "method": "date_regex+title_dict",
-        "duration_months": 107,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Country INDIA"
+        ],
+        "duration_months": 108,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -121,7 +144,7 @@
         "location": null,
         "start": "Oct 2016",
         "end": "Oct 2017",
-        "method": "date_regex+title_dict",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 13,
         "bullets": [
           "Efficiently managed daily banking operations, including bank work, bank reconciliation, contractor bill verification, and processing contractor and vendor payments.",
@@ -142,8 +165,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.0,
-      "total_months": 120,
+      "total_years": 10.1,
+      "total_months": 121,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98
@@ -155,7 +178,7 @@
         "degree_name": "B.Com",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Demand Drafts DDs Internal and external audits Mumbai University Vendor Payments",
+        "institution": "Demand Drafts DDs Internal and external audits Mumbai University",
         "year": "2017",
         "gpa": null,
         "_needs_review": false,

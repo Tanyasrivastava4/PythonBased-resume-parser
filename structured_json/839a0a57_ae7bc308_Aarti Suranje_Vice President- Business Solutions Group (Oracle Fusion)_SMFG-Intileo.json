@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "839a0a57_ae7bc308_Aarti Suranje_Vice President- Business Solutions Group (Oracle Fusion)_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:29.130570+00:00",
+    "generated_at": "2026-10-07T09:27:08.061181+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,6 +51,8 @@
       "Accounts Receivable",
       "Active Directory",
       "Agentic AI",
+      "Business Intelligence",
+      "Data Migration",
       "Data Validation",
       "ERP",
       "Financial Analysis",
@@ -62,6 +64,7 @@
       "Mentoring",
       "Microsoft Teams",
       "Oracle Agent Studio",
+      "Oracle Database",
       "Oracle E-Business Suite",
       "Oracle Fusion Cloud",
       "Oracle Integration Cloud",
@@ -69,6 +72,7 @@
       "Payroll Management",
       "Postman",
       "Procure-to-Pay",
+      "Production Support",
       "Prompt Engineering",
       "PuTTY",
       "Python",
@@ -97,6 +101,12 @@
         "Agentic AI",
         "Generative AI",
         "Prompt Engineering"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "data_engineering": [
         "Data Validation"
@@ -129,6 +139,7 @@
         "Microsoft Teams"
       ],
       "database": [
+        "Oracle Database",
         "PL/SQL",
         "SQL"
       ],
@@ -143,6 +154,9 @@
       ],
       "finance": [
         "Procure-to-Pay"
+      ],
+      "it_operations": [
+        "Production Support"
       ],
       "web_framework": [
         "REST API"
@@ -165,18 +179,32 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(mentorship→Mentoring(100%), Scheduled→Schedule III(84%), mentorship→Mentoring(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Oracle→Oracle Database(100%), Oracle→Oracle Database(100%), enterprise→Business Intelligence(95%), Oracle→Oracle Database(100%), Oracle→Oracle Database(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "PRINCIPAL CONSULTANT",
-        "company": "Infosys Ltd",
+        "role": "PRINCIPAL CONSULTANT, 01/2023",
+        "company": "Current",
         "location": null,
         "start": "01/2023",
         "end": "Current",
         "method": "date_regex+date_prefix_title",
-        "duration_months": 45,
+        "duration_months": 46,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "TECHNOLOGY LEAD",
+        "company": "Infosys Ltd",
+        "location": null,
+        "start": "01/2017",
+        "end": "12/2022",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 72,
         "bullets": [
           "Led client requirement workshops and translated functional specifications into technical design for Oracle Fusion HCM data migration and integrations.",
           "Managed end-to-end data migration using HDL, covering workforce, salary structures, compensation components, personal demographics, and statutory data.",
@@ -187,7 +215,7 @@
         ],
         "sub_sections": [],
         "confidence": 0.98,
-        "needs_review": true,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -196,12 +224,12 @@
         "location": null,
         "start": "01/2015",
         "end": "01/2017",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 25,
         "bullets": [
           "Facilitated production support for Oracle EBS Financials (AP AR GL) to maintain over 99% system availability.",
           "Assisted with month-end and quarter-end close processes by identifying and resolving issues proactively.",
-          "Prepared and evaluated MD200 technical documentation to align with"
+          "Prepared and evaluated MD200 technical documentation to align with business and architectural standards."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -214,12 +242,12 @@
         "location": null,
         "start": "01/2013",
         "end": "01/2015",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 25,
         "bullets": [
           "Assisted in financial system stabilisation activities during and after go-live to ensure smooth transition with minimal production disruptions.",
           "Supported integration backfeed processes for ap/ar/gl to maintain financial data integrity across upstream and downstream systems.",
-          "Executed gl period setups and calendar configurations for future financial"
+          "Executed gl period setups and calendar configurations for future financial planning cycles."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -232,13 +260,13 @@
         "location": null,
         "start": "01/2012",
         "end": "01/2013",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 13,
         "bullets": [
           "Spearheaded supplier lifecycle implementation and banking configuration, ensuring accurate financial transactions and seamless P2P integration.",
           "Established strong system governance through AOL and SysAdmin controls, enhancing security, audit readiness, and operational transparency.",
           "Drove successful data conversion initiatives through structured reporting and reconciliation frameworks.",
-          "Partnered with functional and finance stakeholders to align technical solutions"
+          "Partnered with functional and finance stakeholders to align technical solutions with business compliance requirements."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -285,11 +313,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 11.8,
-      "total_months": 142,
-      "overlapping_periods_merged": 3
+      "total_years": 17.8,
+      "total_months": 214,
+      "overlapping_periods_merged": 4
     },
-    "_confidence": 0.92
+    "_confidence": 0.91
   },
   "education": {
     "entries": [
@@ -341,11 +369,11 @@
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.98,
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[4]",
+      "field": "experience.jobs[5]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     }

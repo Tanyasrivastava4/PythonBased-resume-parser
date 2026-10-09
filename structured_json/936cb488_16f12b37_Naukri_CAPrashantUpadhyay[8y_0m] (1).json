@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "936cb488_16f12b37_Naukri_CAPrashantUpadhyay[8y_0m] (1)_segmented.txt",
-    "generated_at": "2026-09-30T06:59:44.534849+00:00",
+    "generated_at": "2026-10-07T09:27:28.062215+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -50,28 +50,44 @@
   "summary": "Experienced Chartered Accountant with strong expertise in audit, taxation, and financial controls, delivering\nreliable compliance and process‑driven solutions across CA firms, Manufacturing environments, Government\nAuthorities and Corporates. Adept at leading audits, evaluating internal controls, preparing financial reports,\nand advising management on regulatory and process improvements. Known for structured documentation,\ndisciplined execution, and the ability to manage diverse assignments with accuracy and professionalism.\n\n• GST compliance, ITR filing, tax audit, advisory for SMEs.\n• Financial planning & statutory compliance consulting.\nCobra Cables Pvt. Ltd. – Delhi (Manufacturing Sector)",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Accounting",
       "Auditing",
-      "Client Relationship Management",
+      "Client Handling",
       "Due Diligence",
       "Financial Analysis",
       "Financial Reporting",
+      "Fixed Assets Management",
       "Fraud Detection",
       "GST",
+      "General Insurance",
       "Income Tax Return",
+      "Insolvency & Bankruptcy Code",
+      "Internal Audit",
       "Internal Controls Testing",
       "Internal Financial Controls",
+      "Legal Compliance",
       "Microsoft Excel",
       "Microsoft PowerPoint",
+      "Microsoft Teams",
       "Microsoft Word",
+      "Process Improvement",
+      "RERA",
+      "Reliability",
       "Reporting",
       "Statutory Audit",
-      "Tally",
-      "Tax Audit",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation",
-      "Team Leadership"
+      "Team Leadership",
+      "Telecom"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "finance_ops": [
         "Accounting",
         "Auditing",
@@ -79,11 +95,10 @@
         "Financial Reporting",
         "Internal Controls Testing",
         "Statutory Audit",
-        "Tally",
         "Taxation"
       ],
-      "client_mgmt": [
-        "Client Relationship Management"
+      "management": [
+        "Client Handling"
       ],
       "finance": [
         "Due Diligence",
@@ -92,39 +107,56 @@
         "Internal Financial Controls"
       ],
       "accounting": [
+        "Fixed Assets Management",
         "GST",
-        "Tax Audit"
+        "Internal Audit"
+      ],
+      "insurance": [
+        "General Insurance"
+      ],
+      "legal": [
+        "Insolvency & Bankruptcy Code",
+        "Legal Compliance",
+        "RERA"
       ],
       "productivity": [
         "Microsoft Excel",
         "Microsoft PowerPoint",
+        "Microsoft Teams",
         "Microsoft Word"
       ],
+      "operations": [
+        "Process Improvement"
+      ],
       "soft_skill": [
+        "Reliability",
         "Reporting",
         "Team Leadership"
+      ],
+      "domain": [
+        "Telecom"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Internal Audit→Auditing(100%), ITR Filing→Income Tax Return(100%), Client Management→Client Relationship Management(100%), Tally ERP→Tally(100%), Tally Prime→Tally(100%)...)"
+    "_method": "flashtext_skills_section | fuzzy(ITR Filing→Income Tax Return(100%), Tax Audit→Tax Auditing(100%), Client Management→Client Handling(100%), Tally ERP→Tally ERP 9(100%), Tally Prime→Tally ERP 9(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Senior Audit Manager",
-        "company": "KARMV & Co",
-        "location": "Chartered Accountants",
+        "company": "Major Clients",
+        "location": null,
         "start": "Jan 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
-        "duration_months": 21,
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
+        "duration_months": 22,
         "bullets": [
           "Reliable Data Services Ltd., (Provider of IT-enabled services) Palladium Safety Solutions Pvt. Ltd. (Manufacture of Fire protection Equipment’s) Green Network Telecom Pvt. Ltd. (Telecommunications equipment supplier) Towards Vision Technologies Pvt. Ltd. (Software Developers) Key Achievements:",
           "Successfully contributed to audit planning and documentation improvements.",
           "Enhanced internal control review processes through structured audit methodologies. Responsibilities:",
           "Lead internal & statutory audits of mid-sized companies.",
           "Review internal controls, financial statements, and regulatory compliance.",
-          "Guide audit teams and provide process improvement recommendations."
+          "Guide audit teams and provide process improvement recommendations. USP & Co., Chartered Accountants – Noida A mid-sized audit and advisory firm providing statutory audits, internal audits, tax compliance, and financial consulting services."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -133,11 +165,11 @@
       },
       {
         "role": "Manager",
-        "company": "USP & Co",
-        "location": "Chartered Accountants",
+        "company": "Major Client: YEIDA (Yamuna Expressway Industrial Development Authority",
+        "location": null,
         "start": "Jan 2024",
         "end": "Dec 2024",
-        "method": "date_regex+date_prefix_title+company_loc_dash_split",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 12,
         "bullets": [
           "Major Client: YEIDA (Yamuna Expressway Industrial Development Authority) Key Achievements:",
@@ -150,17 +182,20 @@
           "Supervising fixed assets audit and certification processes."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": null,
-        "company": "Independent CA Practice – Sultanpur  CA in Practice",
+        "role": "Independent CA Practice – Sultanpur (U.P",
+        "company": "CA in Practice",
         "location": null,
         "start": "Jun 2022",
         "end": "Dec 2023",
-        "method": "date_regex",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Independent CA Practice – Sultanpur (U.P.)"
+        ],
         "duration_months": 19,
         "bullets": [
           "Delivered GST and Income Tax compliance services to client.",
@@ -169,8 +204,8 @@
         "sub_sections": [
           "Work"
         ],
-        "confidence": 0.55,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -179,7 +214,7 @@
         "location": null,
         "start": "Jun 2017",
         "end": "Jun 2020",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 37,
         "bullets": [
           "Contributed towards improving monthly closing processes.",
@@ -199,13 +234,14 @@
         "location": null,
         "start": "Dec 2014",
         "end": "Mar 2017",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title+multiline_role_above_company",
         "duration_months": 28,
         "bullets": [
           "Blossom Kochhar Beauty Products Pvt. Ltd. (Aroma) Integrated Batteries India Pvt. Ltd. Belle Laboratories Pvt. Ltd. Key Achievements:",
           "Led audits of companies across different industries.",
           "Contributed to designing and refining audit procedures. Responsibilities:",
-          "Planning & execution of audits, reporting & documentation."
+          "Planning & execution of audits, reporting & documentation.",
+          "Review of internal controls, accounting systems & statutory compliances."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -231,11 +267,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.8,
-      "total_months": 154,
+      "total_years": 12.9,
+      "total_months": 155,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.86
+    "_confidence": 0.89
   },
   "education": {
     "entries": [
@@ -284,8 +320,8 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[2]",
-      "confidence": 0.55,
+      "field": "experience.jobs[1]",
+      "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {

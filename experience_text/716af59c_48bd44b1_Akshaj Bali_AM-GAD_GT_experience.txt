@@ -1,0 +1,81 @@
+======================================================================
+FILE: 716af59c_48bd44b1_Akshaj Bali_AM-GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Consultant, Internal Audit – Ernst and Young (EY) LLP
+Jul 2022 – Current
+Conducted business and risk reviews across multiple domains for various listed and unlisted clients.
+• Independently led ~20 reviews within the domain of internal audit, risk consulting, process improvement and IFC / SOX
+testin...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.89
+Needs review   : True
+Total exp      : 6.4 years (77 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Consultant, Internal Audit
+  Company      : Ernst and Young  LLP
+  Location     : None
+  Start - End  : Jul 2022 - Current
+  Duration     : 52 months
+  Bullets      : 6
+    • Conducted business and risk reviews across multiple domains for various listed and unlisted clients.
+    • Independently led ~20 reviews within the domain of internal audit, risk consulting, process improvement and IFC / SOX testing within a span of 3 years for various listed and unlisted clients within industries such as textile, pharma, automotive and engineering.
+    • Conducted reviews for multiple merged, acquired and demerged entities of listed companies in the textile, automotive and engineering sector.
+    • Presented review observations and strategic & risk assessments to upper management and board members, facilitating informed and effective decision-making for multiple Fortune 500 clients.
+    • Executed in-depth reviews within domains such as Production, Sales and Marketing, Investment, Procure to Pay, HR Payroll, EXIM, Governance & Compliances, Order to Cash, IFC / SOX Controls etc.
+    • Validated process understanding through market research, data analytics, strategic analysis, and risk assessments related to process flow.
+  Method       : date_regex+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Marketing Executive
+  Company      : Blue Basic India
+  Location     : Mohali
+  Start - End  : Jun 2021 - Feb 2022
+  Duration     : 9 months
+  Bullets      : 2
+    • Handled marketing and sales for the brand and its subsidiaries within automotive industry.
+    • Conducted business planning to lay down a market approach for the brand and helping the company establish a digital footprint via relevant SEO optimized blogs and articles.
+  Method       : date_regex+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Marketing Executive and Content Manager
+  Company      : Crea Brand Management
+  Location     : Chandigarh
+  Start - End  : Apr 2021 - Oct 2021
+  Duration     : 7 months
+  Bullets      : 1
+    • Handled marketing and advertising campaigns for numerous homegrown and international hospitality clients.
+  Method       : date_regex+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Department Head
+  Company      : Empowering Hands Foundation
+  Location     : Chandigarh
+  Start - End  : Mar 2021 - Sep 2021
+  Duration     : 7 months
+  Bullets      : 0
+  Method       : date_regex+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Consultant, Internal Audit
+  Company      : Ernst and Young (EY) LLP
+  Location     : Mumbai
+  Start - End  : Dec 2019 - Dec 2020
+  Duration     : 13 months
+  Bullets      : 0
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.55
+  Needs Review : True

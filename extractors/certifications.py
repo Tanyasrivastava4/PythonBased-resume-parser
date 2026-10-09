@@ -26,6 +26,7 @@ CERT_ISSUERS = [
     "HackerRank", "HackerEarth", "Databricks", "Snowflake", "Tableau",
     "HashiCorp", "Kubernetes", "CNCF", "ITIL", "Six Sigma", "PRINCE2", "SAP",
     "NASSCOM", "upGrad", "Simplilearn", "Great Learning", "DataCamp", "ISTQB",
+    "K2 Analytics",
 ]
 ISSUER_RE = re.compile(
     r'\b(' + '|'.join(re.escape(i) for i in CERT_ISSUERS) + r')\b',
@@ -73,7 +74,7 @@ def parse_cert_line(line: str) -> dict:
         if sep in line:
             left, _, right = line.rpartition(sep)
             left, right = left.strip(), right.strip()
-            if left and right and ISSUER_RE.fullmatch(right):
+            if left and right and (ISSUER_RE.search(right) or sep == "|"):
                 cert["name"] = left
                 cert["issuer"] = right
                 split_done = True
@@ -112,7 +113,19 @@ def extract_certifications(cert_section_text: str, achievement_section_text: str
 
     # ── Certifications ──
     if cert_section_text.strip():
-        for line in cert_section_text.split("\n"):
+        raw_lines = [l.strip() for l in cert_section_text.split("\n") if l.strip()]
+        lines = []
+        i = 0
+        while i < len(raw_lines):
+            cur = raw_lines[i]
+            if cur.endswith("|") and i + 1 < len(raw_lines):
+                lines.append(cur + " " + raw_lines[i+1])
+                i += 2
+            else:
+                lines.append(cur)
+                i += 1
+
+        for line in lines:
             line = line.strip()
             if not line or len(line) < 5:
                 continue
@@ -120,6 +133,8 @@ def extract_certifications(cert_section_text: str, achievement_section_text: str
                 continue
             # skip section-heading-only lines like "Certifications" / "Licenses"
             if re.match(r'^certif|^licen', line, re.IGNORECASE) and len(line) < 25:
+                continue
+            if re.match(r'^(?:references?|available\s+(?:upon|on)\s+request\.?|declaration|personal\s+details)[\s.:]*$', line, re.IGNORECASE):
                 continue
             cert = parse_cert_line(line)
             if cert["name"]:

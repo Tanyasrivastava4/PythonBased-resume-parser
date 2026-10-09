@@ -1,0 +1,56 @@
+======================================================================
+FILE: ecc5e124_e35eb77d_Naukri_priyanshKurmi[4y_5m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
++91-7318019209 | priyanshpatel360@gmail.com | LinkedIn
+
+Data Engineer | SMTS - Oracle | Bengaluru | Mar, 2025 – Apr, 2026
+● Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary
+source, redesigned ETL transformation logic to bypass hard-dele...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.89
+Needs review   : True
+Total exp      : 4.8 years (57 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Data Engineer | SMTS
+  Company      : Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%
+  Location     : Bengaluru
+  Start - End  : Mar, 2025 - Apr, 2026
+  Duration     : 14 months
+  Bullets      : 1
+    • Collaborated on designing and implementing a star schema data model from scratch for Oracle Transportation Management (OTM) on Oracle ADW, built 5 fact tables and 35 dimension tables covering end-to-end stages from requirement analysis to testing, supporting millions of rows per fact table.
+  Method       : date_regex+pipe_split_header+date_prefix_title
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 2
+  Role         : Data Product Engineer, Nuclei | Bengaluru
+  Company      : Nuclei
+  Location     : None
+  Start - End  : Jan, 2023 - Mar, 2025
+  Duration     : 27 months
+  Bullets      : 3
+    • Refactored 25+ unversioned cron-based reporting scripts into a modular Python framework with centralized logging and access controls, orchestrated via Apache Airflow, achieving 100% DAG visibility and reducing undetected failures from days to minutes via centralized alerting.
+    • Implemented a PII data masking framework for MySQL protecting 1M+ user records, enforced role-based masked views with granular RBAC, AES encryption via AWS Secrets Manager, and CloudWatch audit logging to achieve GDPR and DPDPA compliance.
+    • Configured AWS DMS and Kinesis Firehose to automate data archival from a production database processing 1M+ daily transactions, streamed historical records into partitioned S3 Parquet, cutting hot-tier storage costs by 40% and p95 query time by 30%.
+  Method       : date_regex+pipe_split_header+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Data Analyst, Nuclei | Bengaluru
+  Company      : Nuclei
+  Location     : None
+  Start - End  : Aug, 2021 - Dec, 2022
+  Duration     : 17 months
+  Bullets      : 2
+    • Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and reducing churn by 40%.
+    • Optimized 50+ slow MySQL queries across millions-of-rows tables by adding targeted indexes, rewriting correlated subqueries, and eliminating redundant joins, reduced runtime from 1–2 hours to under 5 minutes and automated secure report delivery to external clients via Apache NiFi and SFTP.
+  Method       : date_regex+pipe_split_header+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False

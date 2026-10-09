@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "4743cefd_76d97262_Pavan Babalad_Business Analyst_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:58:30.658205+00:00",
+    "generated_at": "2026-10-07T10:31:30.166255+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -49,26 +49,50 @@
   "skills": {
     "items": [
       "BRD",
+      "Business Intelligence",
+      "Client Handling",
+      "Communication",
+      "Data Migration",
       "Data Validation",
       "ERP",
+      "Gap Analysis",
       "Go",
+      "HRMS",
+      "LinkedIn",
       "Linux",
       "MySQL",
       "Payroll Administration",
       "PostgreSQL",
       "Problem Solving",
       "PuTTY",
+      "R",
       "Reporting",
       "SQL",
       "Stakeholder Management",
       "Standard Operating Procedures",
+      "TCS",
       "Technical Writing",
       "UAT",
       "WinSCP"
     ],
     "by_category": {
       "business_analysis": [
-        "BRD"
+        "BRD",
+        "Business Intelligence",
+        "Gap Analysis"
+      ],
+      "management": [
+        "Client Handling",
+        "Standard Operating Procedures"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Problem Solving",
+        "Reporting",
+        "Stakeholder Management"
+      ],
+      "data engineering": [
+        "Data Migration"
       ],
       "data_engineering": [
         "Data Validation"
@@ -77,7 +101,15 @@
         "ERP"
       ],
       "programming_language": [
-        "Go"
+        "Go",
+        "R"
+      ],
+      "hr": [
+        "HRMS",
+        "Payroll Administration"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "os_system": [
         "Linux"
@@ -87,20 +119,12 @@
         "PostgreSQL",
         "SQL"
       ],
-      "hr": [
-        "Payroll Administration"
-      ],
-      "soft_skill": [
-        "Problem Solving",
-        "Reporting",
-        "Stakeholder Management"
-      ],
       "dev_tool": [
         "PuTTY",
         "WinSCP"
       ],
-      "management": [
-        "Standard Operating Procedures"
+      "accounting": [
+        "TCS"
       ],
       "content": [
         "Technical Writing"
@@ -110,7 +134,7 @@
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%), SOPs→Standard Operating Procedures(100%), data validation→Data Validation(100%), Payroll→Payroll Administration(100%))"
+    "_method": "flashtext_skills_section | fuzzy(Payroll→Payroll Administration(100%), SOPs→Standard Operating Procedures(100%), data validation→Data Validation(100%), Payroll→Payroll Administration(100%), enterprise→Business Intelligence(95%))"
   },
   "experience": {
     "jobs": [
@@ -120,7 +144,10 @@
         "location": null,
         "start": "2020",
         "end": "2022",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Stumpp Schuele and Somappa Springs Pvt Ltd"
+        ],
         "duration_months": 25,
         "bullets": [
           "Coordinated with OEM clients for suspension component design & testing.",

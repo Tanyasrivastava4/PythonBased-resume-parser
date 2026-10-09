@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "cb19bc1a_25e707ce_Naukri_sachinbhaskarZagade[6y_0m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:20.323187+00:00",
+    "generated_at": "2026-10-07T09:28:15.775844+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -47,29 +47,49 @@
   "summary": "My experience includes developing technical studies\nand investigations, as well as working with PLC-based\nequipment, environmental monitoring systems, and\nother pharma equipment. I have been responsible for\nbreakdown and preventive maintenance of electrical\nsystems, organizing and directing maintenance\nshutdowns and have experience in customer handling,\nand Equipment Qualification(IQ, OQ,PQ).",
   "skills": {
     "items": [
+      "Control Panel",
+      "Cross-functional Collaboration",
       "Customer Handling",
+      "Data Acquisition",
       "Data Validation",
       "Electrical Engineering",
+      "HMI",
       "Maintenance Management",
+      "Microsoft Teams",
       "PLC",
-      "Responsible AI"
+      "Responsible AI",
+      "Technical Writing"
     ],
     "by_category": {
+      "hardware": [
+        "Control Panel"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration"
+      ],
       "customer_service": [
         "Customer Handling"
+      ],
+      "engineering_hardware": [
+        "Data Acquisition",
+        "PLC"
       ],
       "data_engineering": [
         "Data Validation"
       ],
       "engineering": [
         "Electrical Engineering",
+        "HMI",
         "Maintenance Management"
       ],
-      "engineering_hardware": [
-        "PLC"
+      "productivity": [
+        "Microsoft Teams"
       ],
       "genai": [
         "Responsible AI"
+      ],
+      "content": [
+        "Technical Writing"
       ]
     },
     "_confidence": 0.92,
@@ -78,12 +98,12 @@
   "experience": {
     "jobs": [
       {
-        "role": null,
-        "company": "Qualified, calibrated, validated",
-        "location": "maintained",
+        "role": "Qualified, calibrated, validated, maintained",
+        "company": "troubleshooted PLC-based equipment",
+        "location": "",
         "start": "01/2019",
         "end": "10/2020",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_role_above_company",
         "duration_months": 22,
         "bullets": [
           "LIFECARE EQUIPMENT PVT. LTD. and other pharma equipment. Performed DQ, IQ, OQ, PQ, and technical documentation. Installed and qualified data acquisition system software Comply (21CFR PART 11). Installed and qualified remote view and alarm system (RVAS) and web-based software (ICDAS 2.1 AND",
@@ -115,8 +135,8 @@
           "equipment problems such as electrical control panel",
           "and sensors."
         ],
-        "confidence": 0.85,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -125,8 +145,12 @@
         "location": null,
         "start": "06/2024",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 28,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Service Engineer",
+          "Aimil Ltd"
+        ],
+        "duration_months": 29,
         "bullets": [
           "issues for 100+ customers, resulting in a 20% increase in customer satisfaction."
         ],
@@ -148,7 +172,11 @@
         "location": null,
         "start": "09/2022",
         "end": "05/2024",
-        "method": "date_regex+title_dict+company_suffix_match",
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Senior Executive Service Support",
+          "SAKSHAM ANALYTICAL INSTRUMENT PVT LTD"
+        ],
         "duration_months": 21,
         "bullets": [],
         "sub_sections": [],
@@ -174,11 +202,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 12.9,
-      "total_months": 154,
+      "total_years": 13.0,
+      "total_months": 156,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.93
+    "_confidence": 0.96
   },
   "education": {
     "entries": [
@@ -187,31 +215,31 @@
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": null,
-        "institution": "Pune University",
+        "institution": null,
         "year": "2017",
         "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.95
+        "_confidence": 0.8
       },
       {
         "degree": "12th",
         "degree_name": "12th",
         "degree_type": "12th",
         "degree_field": null,
-        "institution": null,
+        "institution": "Pune University",
         "year": "2008",
-        "gpa": "60",
+        "gpa": null,
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       },
       {
         "degree": "10th",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": null,
-        "institution": null,
+        "institution": "Pune University",
         "year": "2006",
-        "gpa": "50",
+        "gpa": "60",
         "_needs_review": false,
         "_confidence": 0.8
       }
@@ -227,14 +255,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.92
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.85,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "870e7557_16adc6e0_Nikhil Singh_Machine Learning Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:33.060525+00:00",
+    "generated_at": "2026-10-07T09:27:12.999974+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -55,6 +55,7 @@
       "Keras",
       "LLM",
       "LangGraph",
+      "LinkedIn",
       "MLflow",
       "Machine Learning",
       "NLP",
@@ -64,6 +65,7 @@
       "PyTorch",
       "Python",
       "SQL",
+      "TCS",
       "TensorFlow",
       "Time Series Forecasting",
       "Transformers"
@@ -93,6 +95,9 @@
       "data_engineering": [
         "Databricks"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "data_science": [
         "Power BI",
         "Transformers"
@@ -103,6 +108,9 @@
       ],
       "programming_language": [
         "Python"
+      ],
+      "accounting": [
+        "TCS"
       ]
     },
     "_confidence": 0.92,
@@ -116,8 +124,12 @@
         "location": null,
         "start": "Aug 2021",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 62,
+        "method": "date_regex+title_dict",
+        "pre_date_header": [
+          "TCS",
+          "Data Scientist"
+        ],
+        "duration_months": 63,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -128,7 +140,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 5.2,
-      "total_months": 62,
+      "total_months": 63,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

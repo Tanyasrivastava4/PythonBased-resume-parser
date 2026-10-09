@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/36502a70_Atishay_Jain_Profile_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Technical: Excel, PowerPoint, SAP ERP, Financial Modeling,
+Data Analysis, Tableau
+Certifications: Six Sigma (Green Belt), Consulting
+Foundations, Digital Transformation
+Core Skills: Strategic Planning, Program Management,
+Stakeholder Management, Cross-Functional Leadership,
+Business Analytics
+
+── Extraction Results ──
+Skills found   : 24
+Confidence     : 0.92
+Time           : 64.36 ms
+Method         : flashtext_skills_section | fuzzy(PowerPoint→Microsoft PowerPoint(100%), SAP ERP→SAP(100%), Financial Modeling→Financial Analysis(100%))
+
+── All Skills (24) ──
+Business Analytics, Cross-functional Collaboration, Data Analysis, Digital Transformation, Dynamics 365, ERP Systems, Financial Analysis, Inventory Management, Leadership, LinkedIn, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Operations Management, Procurement, Reporting, Risk Management, SAP, Six Sigma, Stakeholder Management, Strategic Thinking, Supply Chain, Tableau, Time Management
+
+── By Category ──
+  consulting                     ['Digital Transformation']
+  data_science                   ['Business Analytics', 'Data Analysis', 'Tableau']
+  domain                         ['Supply Chain']
+  finance_ops                    ['Financial Analysis']
+  integration                    ['Dynamics 365', 'SAP']
+  operations                     ['ERP Systems', 'Inventory Management', 'Operations Management', 'Procurement', 'Six Sigma']
+  productivity                   ['Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Teams']
+  project_mgmt                   ['Risk Management']
+  soft_skill                     ['Cross-functional Collaboration', 'Leadership', 'Reporting', 'Stakeholder Management', 'Strategic Thinking', 'Time Management']
+  web_framework                  ['LinkedIn']

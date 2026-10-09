@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "0724f39a_8138e54f_Ankush Mehta_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:48.127117+00:00",
+    "generated_at": "2026-10-07T10:30:40.786577+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -50,36 +50,58 @@
       "AWS EC2",
       "AWS S3",
       "Agentic AI",
+      "Azure ADF",
       "BERT",
       "CNN",
+      "Customer Relationship Management",
+      "Customer Service",
+      "DDL",
       "Data Analytics",
+      "Data Science",
       "Deep Learning",
+      "Demand Planning",
       "Docker",
+      "Event-Driven",
+      "Exploratory Data Analysis",
       "Fine-tuning",
       "GPT",
+      "Gemini",
       "Generative AI",
       "Git",
       "GitHub",
+      "LLM",
       "LSTM",
       "LangChain",
+      "Lead Generation",
+      "LinkedIn",
       "MLOps",
       "MLflow",
       "Machine Learning",
       "Microsoft Excel",
+      "Multi-Agent",
       "NLP",
+      "NLTK",
       "NumPy",
+      "Operations Management",
       "Pandas",
       "Power BI",
+      "Prompt Engineering",
       "PyTorch",
       "Python",
       "RAG",
       "RNN",
+      "Reliability",
       "SQL",
       "Seaborn",
+      "Streamlit",
+      "Stripe",
+      "Supabase",
       "Tableau",
       "TensorFlow",
       "Transfer Learning",
       "Transformer",
+      "Vector Databases",
+      "n8n",
       "scikit-learn"
     ],
     "by_category": {
@@ -91,20 +113,30 @@
       "genai": [
         "Agentic AI",
         "Fine-tuning",
+        "Gemini",
         "Generative AI",
+        "LLM",
         "LangChain",
         "MLOps",
-        "RAG"
+        "Multi-Agent",
+        "Prompt Engineering",
+        "RAG",
+        "Vector Databases"
+      ],
+      "cloud": [
+        "Azure ADF"
       ],
       "ai_ml": [
         "BERT",
         "CNN",
+        "Data Science",
         "Deep Learning",
         "GPT",
         "LSTM",
         "MLflow",
         "Machine Learning",
         "NLP",
+        "NLTK",
         "NumPy",
         "Pandas",
         "PyTorch",
@@ -115,26 +147,58 @@
         "Transformer",
         "scikit-learn"
       ],
+      "sales": [
+        "Customer Relationship Management",
+        "Lead Generation"
+      ],
+      "client_mgmt": [
+        "Customer Service"
+      ],
+      "database": [
+        "DDL",
+        "SQL",
+        "Supabase"
+      ],
       "data_science": [
         "Data Analytics",
+        "Exploratory Data Analysis",
         "Power BI",
         "Tableau"
+      ],
+      "supply_chain": [
+        "Demand Planning"
       ],
       "devops": [
         "Docker"
       ],
+      "architecture": [
+        "Event-Driven"
+      ],
       "dev_tool": [
         "Git",
-        "GitHub"
+        "GitHub",
+        "Streamlit"
+      ],
+      "web_framework": [
+        "LinkedIn"
       ],
       "productivity": [
         "Microsoft Excel"
       ],
+      "operations": [
+        "Operations Management"
+      ],
       "programming_language": [
         "Python"
       ],
-      "database": [
-        "SQL"
+      "soft_skill": [
+        "Reliability"
+      ],
+      "payment_gateway": [
+        "Stripe"
+      ],
+      "rpa": [
+        "n8n"
       ]
     },
     "_confidence": 0.92,
@@ -148,8 +212,11 @@
         "location": "Engineer, Isourse",
         "start": "August 2025",
         "end": "Present",
-        "method": "date_regex+date_prefix_title+title_dash_company",
-        "duration_months": 14,
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "AI Engineer, Isourse – Delhi, India"
+        ],
+        "duration_months": 15,
         "bullets": [
           "Built a RAG system within the CRMS using Gemini File Search and product-specific document stores to generate BRDs, acceptance criteria, and dependency maps, reducing BA documentation time by 50%.",
           "Developed an AI-driven change-request rewriting pipeline for the CRMS that enriched incomplete client submissions via contextual retrieval, improving request quality and cutting processing time by 30%.",
@@ -168,7 +235,10 @@
         "location": "Intern, Buyogo",
         "start": "May 2025",
         "end": "July 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "AI Developer Intern, Buyogo – Noida, UP,India"
+        ],
         "duration_months": 3,
         "bullets": [
           "Built an analytical chatbot that enables natural language querying across 40+ apparel operations SQL tables by designing a custom few-shot–based SQL generation framework, achieving 85% accuracy on complex queries.",
@@ -187,7 +257,10 @@
         "location": "UK",
         "start": "April 2025",
         "end": "June 2025",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Generative AI Intern, Everyday Series – London, UK (Remote)"
+        ],
         "duration_months": 3,
         "bullets": [
           "Developed Micro SaaS products for solopreneurs, leveraging Generative AI solve niche problems.",
@@ -207,7 +280,10 @@
         "location": "India",
         "start": "July 2024",
         "end": "August 2024",
-        "method": "date_regex+date_prefix_title+title_dash_company",
+        "method": "date_regex+title_dash_company",
+        "pre_date_header": [
+          "Data Science Intern, Tata Power DDL – Delhi, India"
+        ],
         "duration_months": 2,
         "bullets": [
           "Developed time series models to forecast customer service call volumes, optimizing staffing and improving operational efficiency.",
@@ -223,8 +299,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.7,
-      "total_months": 20,
+      "total_years": 1.8,
+      "total_months": 21,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.84

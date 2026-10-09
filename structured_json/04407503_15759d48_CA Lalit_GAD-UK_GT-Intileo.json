@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "04407503_15759d48_CA Lalit_GAD-UK_GT-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:57:46.175784+00:00",
+    "generated_at": "2026-10-07T10:30:38.337152+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -47,10 +47,14 @@
   "summary": "Qualified Chartered Accountant with hands-on experience in Tax Audits, GST compliance, and financial statement preparation\nacross diverse industries. Proficient in financial analysis and tools such as Tally ERP 9, Compu-Tax, and MS Excel, with a strong\nfocus on regulatory compliance and business efficiency.",
   "skills": {
     "items": [
+      "Account Reconciliation",
       "Adaptability",
       "Attention to Detail",
+      "Auditing",
+      "CARO Reporting",
       "Collaboration",
       "Communication",
+      "Company Law",
       "Computax",
       "Conflict Resolution",
       "Creativity",
@@ -59,19 +63,38 @@
       "Financial Reporting",
       "GAAP",
       "GST",
+      "GST Return Filing",
+      "GSTR-1",
+      "GSTR-9",
+      "Income Tax Return",
+      "Input Tax Credit",
+      "Internal Controls Testing",
       "Leadership",
+      "Legal Compliance",
       "LinkedIn",
       "Machine Learning",
       "Microsoft Excel",
       "Negotiation",
       "Problem Solving",
       "Project Management",
-      "Regulatory Compliance",
+      "Reporting",
       "Risk Assessment",
+      "Statutory Audit",
       "Strategic Thinking",
-      "Tally"
+      "Tally",
+      "Tally ERP 9",
+      "Tax Auditing",
+      "Taxation",
+      "Tests of Controls"
     ],
     "by_category": {
+      "accounting_finance": [
+        "Account Reconciliation",
+        "GSTR-9",
+        "Input Tax Credit",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
       "soft_skill": [
         "Adaptability",
         "Attention to Detail",
@@ -83,19 +106,37 @@
         "Leadership",
         "Negotiation",
         "Problem Solving",
+        "Reporting",
         "Strategic Thinking"
+      ],
+      "finance_ops": [
+        "Auditing",
+        "Financial Analysis",
+        "Financial Reporting",
+        "GAAP",
+        "Internal Controls Testing",
+        "Statutory Audit",
+        "Tally",
+        "Taxation"
+      ],
+      "finance": [
+        "CARO Reporting",
+        "GST Return Filing",
+        "Income Tax Return"
+      ],
+      "legal": [
+        "Company Law",
+        "Legal Compliance"
       ],
       "office": [
         "Computax"
       ],
-      "finance_ops": [
-        "Financial Analysis",
-        "Financial Reporting",
-        "GAAP",
-        "Tally"
-      ],
       "accounting": [
-        "GST"
+        "GST",
+        "Tests of Controls"
+      ],
+      "taxation": [
+        "GSTR-1"
       ],
       "web_framework": [
         "LinkedIn"
@@ -109,9 +150,6 @@
       "project_mgmt": [
         "Project Management"
       ],
-      "legal": [
-        "Regulatory Compliance"
-      ],
       "compliance": [
         "Risk Assessment"
       ]
@@ -122,12 +160,12 @@
   "experience": {
     "jobs": [
       {
-        "role": "Manoj Singla & Associates is a Chartered Accountant firm established in 1994, serving 300+ clients with comprehensive audit, tax",
-        "company": "FARIDABAD",
-        "location": "HARYANA",
+        "role": "FARIDABAD, HARYANA",
+        "company": "Manoj Singla & Associates (CA Firm",
+        "location": null,
         "start": "Jun 2018",
         "end": "Nov 2025",
-        "method": "date_regex+comma_company_location",
+        "method": "date_regex+multiline_company_above_role",
         "duration_months": 90,
         "bullets": [
           "Manoj Singla & Associates is a Chartered Accountant firm established in 1994, serving 300+ clients with comprehensive audit, tax, and advisory services."
@@ -176,7 +214,7 @@
         "degree_name": "CA",
         "degree_type": "professional_certification",
         "degree_field": null,
-        "institution": "The Institute of Chartered New Delhi (with",
+        "institution": "The Institute of Chartered New Delhi",
         "year": "June 2018 - June 2021",
         "gpa": null,
         "_needs_review": false,

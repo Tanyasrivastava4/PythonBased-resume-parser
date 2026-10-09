@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e946ec8d_72dc7138_Naukri_Kartik[4y_6m]_segmented.txt",
-    "generated_at": "2026-09-30T07:00:38.677304+00:00",
+    "generated_at": "2026-10-07T09:28:39.691361+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,17 +47,28 @@
   "summary": null,
   "skills": {
     "items": [
+      ".NET Core",
       "AWS",
       "AWS Athena",
+      "AWS Glue",
+      "AWS Lambda",
       "AWS S3",
+      "Agile",
+      "Angular",
       "Azure DevOps",
+      "BFSI",
       "Bash",
       "C#",
       "CI/CD",
+      "CRMNext",
       "ClickHouse",
       "DBeaver",
+      "Data Archival",
+      "Data Pipeline",
       "Databricks",
+      "DevOps",
       "Docker",
+      "ETL",
       "FastAPI",
       "Git",
       "GitHub",
@@ -66,41 +77,71 @@
       "Jenkins",
       "Jira",
       "Kubernetes",
+      "LinkedIn",
       "MSSQL",
+      "MVC Architecture",
       "Microservices",
+      "Microsoft Teams",
       "MongoDB",
       "Observability",
       "OpenTelemetry",
+      "Oracle Database",
       "Oracle SQL Developer",
+      "Performance Optimization",
       "PgAdmin",
       "PostgreSQL",
       "Postman",
+      "Process Improvement",
       "PyCharm",
       "PySpark",
       "Python",
+      "Quality Assurance",
       "REST",
+      "REST API",
+      "Reliability",
       "SQL",
       "Snowflake",
       "SonarQube",
+      "Team Collaboration",
       "VS Code",
       "Visual Studio",
       "gRPC"
     ],
     "by_category": {
+      "web_framework": [
+        ".NET Core",
+        "Angular",
+        "FastAPI",
+        "LinkedIn",
+        "REST API",
+        "gRPC"
+      ],
       "cloud_infra": [
         "AWS",
         "AWS Athena",
+        "AWS Lambda",
         "AWS S3"
+      ],
+      "cloud": [
+        "AWS Glue"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Jira"
       ],
       "devops": [
         "Azure DevOps",
         "CI/CD",
+        "DevOps",
         "Docker",
         "Grafana",
         "Jenkins",
         "Kubernetes",
         "Observability",
         "OpenTelemetry"
+      ],
+      "domain": [
+        "BFSI"
       ],
       "os_system": [
         "Bash"
@@ -109,10 +150,14 @@
         "C#",
         "Python"
       ],
+      "crm": [
+        "CRMNext"
+      ],
       "database": [
         "ClickHouse",
         "MSSQL",
         "MongoDB",
+        "Oracle Database",
         "PgAdmin",
         "PostgreSQL",
         "PySpark",
@@ -124,45 +169,63 @@
         "Git",
         "GitHub",
         "Oracle SQL Developer",
+        "Performance Optimization",
         "Postman",
         "PyCharm",
-        "VS Code",
         "Visual Studio"
       ],
+      "data engineering": [
+        "Data Archival"
+      ],
       "data_engineering": [
+        "Data Pipeline",
         "Databricks",
+        "ETL",
         "Hive Metastore"
       ],
-      "web_framework": [
-        "FastAPI",
-        "gRPC"
-      ],
-      "project_mgmt": [
-        "Jira"
+      "software_engineering": [
+        "MVC Architecture"
       ],
       "architecture": [
         "Microservices"
       ],
+      "productivity": [
+        "Microsoft Teams"
+      ],
+      "operations": [
+        "Process Improvement",
+        "Quality Assurance"
+      ],
       "integration": [
         "REST"
       ],
+      "soft_skill": [
+        "Reliability",
+        "Team Collaboration"
+      ],
       "testing": [
         "SonarQube"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(gRPC APIs→gRPC(94%), FAST API→FastAPI(100%), Athena→AWS Athena(100%), pgAdmin→PgAdmin(100%))"
+    "_method": "flashtext_skills_section | fuzzy(gRPC APIs→gRPC(94%), FAST API→FastAPI(100%), Oracle→Oracle Database(100%), Glue→AWS Glue(100%), Lambda→AWS Lambda(100%)...)"
   },
   "experience": {
     "jobs": [
       {
         "role": "Data Engineer",
-        "company": "Acidaes Solutions Pvt. Ltd",
+        "company": "Acidaes Solutions Pvt. Ltd. (CRMNEXT",
         "location": null,
         "start": "Jan 2022",
         "end": "Present",
-        "method": "date_regex+title_dict+company_suffix_match",
-        "duration_months": 57,
+        "method": "date_regex+multiline_company_above_role",
+        "pre_date_header": [
+          "Acidaes Solutions Pvt. Ltd. (CRMNEXT)"
+        ],
+        "duration_months": 58,
         "bullets": [
           "Led the end-to-end design, development, and deployment of scalable data engineering solutions integrated within the CRMNEXT platform, ensuring seamless functionality from UI to data pipelines in an Agile environment.",
           "Worked extensively in the Banking and Financial Services (BFSI) domain, leading multiple client implementations and delivering high-impact data projects.",
@@ -180,11 +243,14 @@
       },
       {
         "role": "Associate Professional Software Engineer",
-        "company": "Acidaes Solutions Pvt. Ltd",
+        "company": "Acidaes Solutions Pvt. Ltd. (CRMNEXT",
         "location": "India",
         "start": "June 2021",
         "end": "Jan 2022",
-        "method": "date_regex+title_dict+comma_company_location+inherited_company",
+        "method": "date_regex+title_dict_strong+comma_company_location+inherited_company",
+        "pre_date_header": [
+          "DXC Technology"
+        ],
         "duration_months": 8,
         "bullets": [
           "Acquired strong proficiency in Git and Agile methodologies while managing repositories and using Jira to track and streamline project progress throughout the development lifecycle.",
@@ -200,8 +266,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 5.3,
-      "total_months": 64,
+      "total_years": 5.4,
+      "total_months": 65,
       "overlapping_periods_merged": 1
     },
     "_confidence": 0.92
@@ -225,13 +291,13 @@
         "degree_type": "12th",
         "degree_field": null,
         "institution": "CBSE",
-        "year": null,
+        "year": "April 2016 - May 2017",
         "gpa": "91.4%",
         "_needs_review": false,
-        "_confidence": 0.8
+        "_confidence": 0.95
       }
     ],
-    "_confidence": 0.88
+    "_confidence": 0.95
   },
   "certifications": {
     "items": [],
@@ -245,7 +311,7 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.91
+    "overall": 0.93
   },
   "_needs_review": true,
   "_review_queue": [

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "6a69a0b4_99019808_Jatin Bansal_GAD_GT_segmented.txt",
-    "generated_at": "2026-09-30T06:59:06.359710+00:00",
+    "generated_at": "2026-10-07T09:26:44.823643+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -48,32 +48,50 @@
   "skills": {
     "items": [
       "Accounting",
+      "Accounting Standards",
+      "Analytical Review",
       "Communication",
+      "Financial Analysis",
       "Financial Modelling",
       "Financial Reporting",
+      "Form 3CA-3CD",
       "Income Tax Return",
-      "Ind AS",
       "Internal Financial Controls",
+      "Limited Review",
       "MS Office",
       "Order-to-Cash",
       "Procure-to-Pay",
-      "Risk & Control Matrix",
+      "Risk Control Matrix",
       "SAP",
-      "Schedule III",
+      "Schedule III Compliance",
       "Statutory Audit",
-      "Tally",
-      "Tax Audit",
+      "Tally ERP 9",
+      "Tax Auditing",
       "Taxation",
       "Team Leadership",
-      "Test of Details"
+      "Test of Details",
+      "Tests of Controls"
     ],
     "by_category": {
       "finance_ops": [
         "Accounting",
+        "Financial Analysis",
         "Financial Reporting",
         "Statutory Audit",
-        "Tally",
         "Taxation"
+      ],
+      "accounting_finance": [
+        "Accounting Standards",
+        "Schedule III Compliance",
+        "Tally ERP 9",
+        "Tax Auditing"
+      ],
+      "accounting": [
+        "Analytical Review",
+        "Form 3CA-3CD",
+        "Limited Review",
+        "Risk Control Matrix",
+        "Tests of Controls"
       ],
       "soft_skill": [
         "Communication",
@@ -82,11 +100,9 @@
       "finance": [
         "Financial Modelling",
         "Income Tax Return",
-        "Ind AS",
         "Internal Financial Controls",
         "Order-to-Cash",
         "Procure-to-Pay",
-        "Risk & Control Matrix",
         "Test of Details"
       ],
       "productivity": [
@@ -94,27 +110,24 @@
       ],
       "integration": [
         "SAP"
-      ],
-      "financial_reporting": [
-        "Schedule III"
-      ],
-      "accounting": [
-        "Tax Audit"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Tally ERP 9→Tally(95%)) | flashtext_full_text_fallback"
+    "_method": "flashtext_skills_section"
   },
   "experience": {
     "jobs": [
       {
-        "role": "Executive",
-        "company": "Forvis Mazars",
-        "location": "Gurugram",
+        "role": "Executive, Forvis Mazars (SN Dhawan & Co. LLP), Gurugram",
+        "company": "Financial Accounting Advisory Services",
+        "location": null,
         "start": "Feb’25",
         "end": "Present",
-        "method": "date_regex+comma_title_company_split",
-        "duration_months": 20,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Executive, Forvis Mazars (SN Dhawan & Co. LLP), Gurugram"
+        ],
+        "duration_months": 21,
         "bullets": [
           "Assisted a client undergoing IPO listing by preparing financial statements for international group entities in compliance with Ind AS requirements.",
           "Developed audit-ready schedules for key balance sheet and P&L items, facilitating a smooth and efficient audit process.",
@@ -140,6 +153,10 @@
         "start": "March 21",
         "end": "April 24",
         "method": "date_regex+comma_title_company_split",
+        "pre_date_header": [
+          "Test of Details (TOD).",
+          "Article Assistant, S.C. V & Co.LLP (Formerly known as S.C. Vasudeva), Ludhiana"
+        ],
         "duration_months": 2,
         "bullets": [
           "Leading CA Firm with 15 partners, headquartered in Delhi with 300+ clients and 40+ employees.",
@@ -165,8 +182,8 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 1.8,
-      "total_months": 22,
+      "total_years": 1.9,
+      "total_months": 23,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

@@ -1,0 +1,44 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/a8888439_JeminShah-Resume_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+PROGRAMMING
+Agentic AI | MCP | Java | SpringBoot
+Microservices | Restful Api
+TDD | .Net | VC++ | Vb.Net
+PL-SQL | Html | JavaScript | CSS
+PowerShell | VBScript | Vb6
+MVC | WCF | WPF | AWS
+TOOLS
+Github Copilot | Claude code | Claude
+Cursor | VS Code | IntelliJ Idea
+Git | Jenkins | MS Visio
+DATABASES
+PG Vector | Oracle | Ms SQL Server |
+PostgreSQL | MySQL
+
+── Extraction Results ──
+Skills found   : 47
+Confidence     : 0.92
+Time           : 156.8 ms
+Method         : flashtext_skills_section | fuzzy(.Net→.NET(100%), Html→HTML5(100%), Claude code→Claude Code(100%), IntelliJ Idea Git→IntelliJ IDEA(95%))
+
+── All Skills (47) ──
+.NET, AWS, Agentic AI, Agile, Automation Anywhere, CI/CD, CSS3, Claude, Claude Code, Code Reviews, Creativity, Cursor, Git, GitHub Copilot, HTML5, IntelliJ IDEA, Java, JavaScript, Jenkins, LLM, LinkedIn, MCP Server, MSSQL, MVC, Microservices, Microsoft Teams, Microsoft Visio, MySQL, Oracle, PL/SQL, Performance Optimization, PostgreSQL, PowerShell, RAG, REST API, Scrum, Spring Boot, TDD, VB6, VBScript, VC++, VS Code, Vector Databases, Vector Search, WCF, WPF, pgvector
+
+── By Category ──
+  architecture                   ['Microservices']
+  cloud_infra                    ['AWS']
+  database                       ['MSSQL', 'MySQL', 'Oracle', 'PL/SQL', 'PostgreSQL', 'pgvector']
+  dev_tool                       ['Claude Code', 'Code Reviews', 'Cursor', 'Git', 'IntelliJ IDEA', 'Microsoft Visio', 'Performance Optimization', 'VS Code']
+  devops                         ['CI/CD', 'Jenkins']
+  genai                          ['Agentic AI', 'Claude', 'GitHub Copilot', 'LLM', 'MCP Server', 'RAG', 'Vector Databases', 'Vector Search']
+  os_system                      ['PowerShell']
+  productivity                   ['Microsoft Teams']
+  programming_language           ['.NET', 'Java', 'JavaScript', 'VB6', 'VBScript', 'VC++']
+  project_mgmt                   ['Agile', 'Scrum']
+  rpa                            ['Automation Anywhere']
+  soft_skill                     ['Creativity']
+  testing                        ['TDD']
+  web_framework                  ['CSS3', 'HTML5', 'LinkedIn', 'MVC', 'REST API', 'Spring Boot', 'WCF', 'WPF']

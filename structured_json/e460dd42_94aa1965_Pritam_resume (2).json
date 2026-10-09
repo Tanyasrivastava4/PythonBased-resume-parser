@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "e460dd42_94aa1965_Pritam_resume (2)_segmented.txt",
-    "generated_at": "2026-09-30T07:00:36.405918+00:00",
+    "generated_at": "2026-10-07T09:28:36.364166+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -132,7 +132,11 @@
         "location": null,
         "start": "Aug 2024",
         "end": "july 2025",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Kolkata India",
+          "Software Developer Engineer (Remote)"
+        ],
         "duration_months": 12,
         "bullets": [
           "Digivahan Digital Private Limited"
@@ -148,8 +152,12 @@
         "location": null,
         "start": "Aug 2025",
         "end": "Now",
-        "method": "date_regex+date_prefix_title+next_line_company",
-        "duration_months": 14,
+        "method": "date_regex+title_dict_strong",
+        "pre_date_header": [
+          "Noida India",
+          "Backend Developer Engineer"
+        ],
+        "duration_months": 15,
         "bullets": [],
         "sub_sections": [],
         "confidence": 0.98,
@@ -160,7 +168,7 @@
     "early_career": [],
     "total_experience": {
       "total_years": 2.2,
-      "total_months": 26,
+      "total_months": 27,
       "overlapping_periods_merged": 0
     },
     "_confidence": 0.98

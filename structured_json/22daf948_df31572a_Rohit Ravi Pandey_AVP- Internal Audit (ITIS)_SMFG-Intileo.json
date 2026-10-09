@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "22daf948_df31572a_Rohit Ravi Pandey_AVP- Internal Audit (ITIS)_SMFG-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:07.204595+00:00",
+    "generated_at": "2026-10-07T10:31:03.033629+00:00",
     "sections_found": [
       "achievements",
       "certifications",
@@ -51,30 +51,55 @@
       "AWS",
       "Acunetix",
       "Android",
+      "Auditing",
       "Azure",
+      "BCP",
+      "Barracuda",
       "CDN",
       "CEH",
       "CERT-In",
       "CIS Controls",
       "CISM",
       "CISSP",
+      "CMMI",
+      "Change Management",
+      "Check Point",
+      "Cisco ASA",
+      "Citrix NetScaler",
       "Cross-functional Collaboration",
       "Cryptography",
+      "DFRA",
       "DLP",
+      "DNIF SIEM",
+      "DPSC",
+      "Decision Making",
       "Disaster Recovery",
       "Domain Monitoring",
       "Endpoint Security",
+      "F5 Load Balancer",
       "Firewall",
+      "Fortinet",
+      "Freshdesk",
+      "GRC",
       "HTML5",
+      "Help Desk",
       "Hyper-V",
       "IDS/IPS",
       "IRM/DRM",
       "ISC2 CC",
+      "ISMS",
       "ISO 27001",
+      "IT Audit",
+      "IT Ops",
+      "IT Security",
+      "Incident Management",
       "Incident Response",
       "Information Security",
       "JBoss",
       "Java",
+      "KPI",
+      "Leadership",
+      "Legal Compliance",
       "Linux",
       "Load Balancer",
       "MDM",
@@ -82,41 +107,77 @@
       "Microsoft Windows",
       "NIST",
       "Nessus",
+      "Network Access Control",
       "Network Monitoring Tools",
       "Nmap",
       "OWASP Top 10",
       "PCI-DSS",
+      "Palo Alto Networks",
+      "Patch Management",
+      "Penetration Testing",
       "PostgreSQL",
+      "Privileged Access Management",
+      "Professional Tax",
+      "Project Management",
       "Proxy",
-      "Regulatory Compliance",
+      "RBI",
+      "Red Teaming",
+      "Reporting",
+      "Risk Assessment",
       "Risk Management",
       "SANS",
+      "SFTP",
       "SIEM",
+      "SOC 2",
       "SQL",
+      "Secure Configuration Review",
       "Security Awareness Training",
+      "Security Operations Center",
+      "Seqrite",
+      "SonicWall",
+      "Standard Operating Procedures",
+      "TPRA",
+      "Technical Support",
+      "Third-Party Risk",
+      "Trend Micro",
+      "User Access Review",
       "VACA",
+      "VAPT",
+      "VMS",
       "VPN",
       "VirtualBox",
+      "Vulnerability Management",
       "WAF",
-      "Wireshark"
+      "Wireshark",
+      "Zendesk"
     ],
     "by_category": {
       "security_ops": [
         "ATD",
         "Acunetix",
+        "Barracuda",
         "CEH",
         "CERT-In",
         "CIS Controls",
         "CISM",
         "CISSP",
+        "CMMI",
+        "Check Point",
+        "Cisco ASA",
+        "Citrix NetScaler",
         "Cryptography",
+        "DFRA",
         "DLP",
+        "DNIF SIEM",
+        "DPSC",
         "Domain Monitoring",
         "Endpoint Security",
         "Firewall",
+        "GRC",
         "IDS/IPS",
         "IRM/DRM",
         "ISC2 CC",
+        "ISMS",
         "ISO 27001",
         "Incident Response",
         "MDM",
@@ -124,11 +185,23 @@
         "Nessus",
         "OWASP Top 10",
         "PCI-DSS",
+        "Palo Alto Networks",
+        "Patch Management",
+        "Penetration Testing",
+        "Privileged Access Management",
         "Proxy",
         "SANS",
         "SIEM",
+        "SOC 2",
         "Security Awareness Training",
+        "Security Operations Center",
+        "Seqrite",
+        "SonicWall",
+        "TPRA",
+        "Third-Party Risk",
         "VACA",
+        "VAPT",
+        "VMS",
         "VPN",
         "WAF"
       ],
@@ -143,18 +216,50 @@
       "mobile": [
         "Android"
       ],
-      "soft_skill": [
-        "Cross-functional Collaboration"
+      "finance_ops": [
+        "Auditing"
       ],
       "operations": [
+        "BCP",
         "Disaster Recovery"
+      ],
+      "project_mgmt": [
+        "Change Management",
+        "Project Management",
+        "Risk Management"
+      ],
+      "soft_skill": [
+        "Cross-functional Collaboration",
+        "Decision Making",
+        "Leadership",
+        "Reporting"
+      ],
+      "network": [
+        "F5 Load Balancer"
+      ],
+      "security": [
+        "Fortinet",
+        "IT Audit",
+        "IT Security",
+        "Incident Management",
+        "Information Security",
+        "Network Access Control",
+        "Nmap",
+        "Trend Micro",
+        "Vulnerability Management"
+      ],
+      "support": [
+        "Freshdesk",
+        "Help Desk",
+        "Technical Support",
+        "Zendesk"
       ],
       "web_framework": [
         "HTML5"
       ],
-      "security": [
-        "Information Security",
-        "Nmap"
+      "domain": [
+        "IT Ops",
+        "RBI"
       ],
       "devops": [
         "JBoss",
@@ -163,6 +268,12 @@
       ],
       "programming_language": [
         "Java"
+      ],
+      "business_analysis": [
+        "KPI"
+      ],
+      "legal": [
+        "Legal Compliance"
       ],
       "os_system": [
         "Linux",
@@ -175,11 +286,22 @@
         "PostgreSQL",
         "SQL"
       ],
-      "legal": [
-        "Regulatory Compliance"
+      "hr": [
+        "Professional Tax"
       ],
-      "project_mgmt": [
-        "Risk Management"
+      "cybersecurity": [
+        "Red Teaming",
+        "Secure Configuration Review"
+      ],
+      "compliance": [
+        "Risk Assessment",
+        "User Access Review"
+      ],
+      "protocols": [
+        "SFTP"
+      ],
+      "management": [
+        "Standard Operating Procedures"
       ]
     },
     "_confidence": 0.92,
@@ -188,13 +310,27 @@
   "experience": {
     "jobs": [
       {
-        "role": "Information Security Officer",
+        "role": null,
         "company": "1. Working with IndiaIdeas.com Limited – BillDesk",
-        "location": "Mumbai from",
+        "location": "Mumbai",
+        "start": null,
+        "end": null,
+        "method": "comma_company_location",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.35,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "from",
+        "company": "Key performance indicators",
+        "location": null,
         "start": "December 2023",
         "end": "Present",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 34,
+        "method": "date_regex+multiline_role_above_company",
+        "duration_months": 35,
         "bullets": [
           "Developed and enforced comprehensive information security policies and procedures, ensuring data protection and regulatory compliance.",
           "Led Governance, Risk, and Compliance (GRC) initiatives, assuring adherence to PCI DSS, ISO 27001, regulatory (RBI) circulars/guidelines and other pertinent standards, achieving a 100% compliance rate.",
@@ -211,89 +347,7 @@
           "Review of policies, procedure and baseline documents on annual basis.",
           "Performing vendor risk assessment on annual basis.",
           "Generate regular reports for senior leadership, highlighting security metrics, risks, and performance of security initiatives.",
-          "Coordinated with respective stakeholders to manage Change Management, Incident Management, Vulnerability Assessment and Penetration Testing (VAPT), Security Operations Center (SOC/SIEM) and Business Continuity Planning (BCP)/IT Disaster Recovery (IT DR) activities"
-        ],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "2. Worked",
-        "company": "Kotak Mahindra Bank Limited",
-        "location": "Mumbai",
-        "start": "June 2023",
-        "end": "November 2023",
-        "method": "date_regex+at_split",
-        "duration_months": 6,
-        "bullets": [
-          "Governing IT Infrastructure security operations to deliver it at its best with ensuring all compliant process on it place.",
-          "Managing vendor support ensuring support availability to continue security operations.",
-          "Reviewing VA, CA and PT observations of applications to handle the same over web application firewall.",
-          "Performing review of security polices on periodic basis to fine tune implemented policy and enhance security control.",
-          "Active team member in the DR and cluster drills."
-        ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "3. Worked",
-        "company": "National Stock Exchange IT",
-        "location": "Mumbai",
-        "start": "April 2021",
-        "end": "June 2023",
-        "method": "date_regex+at_split",
-        "duration_months": 27,
-        "bullets": [
-          "Primarily looks upon the cyber security of the organization.",
-          "Driving VAPT and red teaming projects followed by third party engagement, assessment, observation closure and reassessment to attain compliance.",
-          "Forensic evidence reporting and explaining root cause of the incidents to the government superiors such as IAS, IPS, etc.",
-          "Information protection responsibilities such as network architecture review, access control, privilege control, event monitoring, business continuity planning.",
-          "Ensuring effective implementation of Information Security Management System.",
-          "Cyber and Information security certifications and compliance such as audits from CERT-In empaneled organization, VAPT, ISO, SOC2, STQC, CMMI.",
-          "Evaluating security solutions and its implementation to leverage the security posture of the organization.",
-          "Third party technology risk assessment from engagement to implementation and so on.",
-          "Addressing security related queries and concerns of clients in the engagement meets."
-        ],
-        "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
-        "source": "experience"
-      },
-      {
-        "role": "▪ Jointly working with the investigating officer in responding to the false allegations with the written report and evidence",
-        "company": "4. Worked at Infosec Ventures Private Limited",
-        "location": "Mumbai from",
-        "start": "October 2019",
-        "end": "September 2020",
-        "method": "date_regex+title_dict+comma_company_location",
-        "duration_months": 12,
-        "bullets": [
-          "Managing team of 5 L1 Engineers.",
-          "Primary technology ownership of WAF, IRM/DRM, NIPS, SFTP, Proxy and ATD solutions.",
-          "Secondary technology ownership of PIM/PAM, MDM, VPN, NAC.",
-          "Firewall rule ratification and checker/verifier for firewall requests.",
-          "Preparing plan of action for upgradation and migration by coordinating with OEM and senior management of the organization.",
-          "Planning and performing DR drills.",
-          "Planning and decision making of IT operations while executing upgrade, license renewal and fail-over test.",
-          "Performing BAU task such as signature/hotfix updates, periodic reporting, and escalating ticket handling."
-        ],
-        "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
-        "source": "experience"
-      },
-      {
-        "role": "5. Worked",
-        "company": "National Stock Exchange IT",
-        "location": "Mumbai",
-        "start": "December 2016",
-        "end": "September 2019",
-        "method": "date_regex+at_split",
-        "duration_months": 34,
-        "bullets": [
+          "Coordinated with respective stakeholders to manage Change Management, Incident Management, Vulnerability Assessment and Penetration Testing (VAPT), Security Operations Center (SOC/SIEM) and Business Continuity Planning (BCP)/IT Disaster Recovery (IT DR) activities",
           "L1 support for WAF (f5, barracuda, Fortinet)",
           "Managing team of 10 regional IT by coordinating for project delivery operations, knowledge transfer of technical skills.",
           "DNIF SIEM implementation/setup in A10 and distributed architecture.",
@@ -313,41 +367,164 @@
         "source": "experience"
       },
       {
-        "role": "6. Worked",
-        "company": "Pratima Computer Services",
+        "role": "2. Worked",
+        "company": "Kotak Mahindra Bank Limited",
         "location": "Mumbai",
-        "start": "May 2011",
-        "end": "April 2012",
-        "method": "date_regex+at_split",
-        "duration_months": 12,
+        "start": null,
+        "end": null,
+        "method": "at_split",
+        "duration_months": 0,
         "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "from",
+        "company": "Key performance indicators",
+        "location": null,
+        "start": "June 2023",
+        "end": "November 2023",
+        "method": "date_regex+multiline_role_above_company",
+        "duration_months": 6,
+        "bullets": [
+          "Governing IT Infrastructure security operations to deliver it at its best with ensuring all compliant process on it place.",
+          "Managing vendor support ensuring support availability to continue security operations.",
+          "Reviewing VA, CA and PT observations of applications to handle the same over web application firewall.",
+          "Performing review of security polices on periodic basis to fine tune implemented policy and enhance security control.",
+          "Active team member in the DR and cluster drills."
+        ],
         "sub_sections": [],
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
       },
       {
+        "role": "3. Worked",
+        "company": "National Stock Exchange IT",
+        "location": "Mumbai",
+        "start": null,
+        "end": null,
+        "method": "at_split",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "from",
+        "company": "Key performance indicators",
+        "location": null,
+        "start": "April 2021",
+        "end": "June 2023",
+        "method": "date_regex+multiline_role_above_company",
+        "duration_months": 27,
+        "bullets": [
+          "Primarily looks upon the cyber security of the organization.",
+          "Driving VAPT and red teaming projects followed by third party engagement, assessment, observation closure and reassessment to attain compliance.",
+          "Forensic evidence reporting and explaining root cause of the incidents to the government superiors such as IAS, IPS, etc.",
+          "Information protection responsibilities such as network architecture review, access control, privilege control, event monitoring, business continuity planning.",
+          "Ensuring effective implementation of Information Security Management System.",
+          "Cyber and Information security certifications and compliance such as audits from CERT-In empaneled organization, VAPT, ISO, SOC2, STQC, CMMI.",
+          "Evaluating security solutions and its implementation to leverage the security posture of the organization.",
+          "Third party technology risk assessment from engagement to implementation and so on.",
+          "Addressing security related queries and concerns of clients in the engagement meets."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "Jointly working with the investigating officer in responding to the false allegations with the written report and evidence",
+        "company": "4. Worked at Infosec Ventures Private Limited",
+        "location": "Mumbai",
+        "start": null,
+        "end": null,
+        "method": "multiline_role_above_company",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.5,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Laptop Engineer",
+        "company": "Client: IDFC First Bank Limited",
+        "location": null,
+        "start": "October 2019",
+        "end": "September 2020",
+        "method": "date_regex+multiline_role_above_company",
+        "duration_months": 12,
+        "bullets": [
+          "Managing team of 5 L1 Engineers.",
+          "Primary technology ownership of WAF, IRM/DRM, NIPS, SFTP, Proxy and ATD solutions.",
+          "Secondary technology ownership of PIM/PAM, MDM, VPN, NAC.",
+          "Firewall rule ratification and checker/verifier for firewall requests.",
+          "Preparing plan of action for upgradation and migration by coordinating with OEM and senior management of the organization.",
+          "Planning and performing DR drills.",
+          "Planning and decision making of IT operations while executing upgrade, license renewal and fail-over test.",
+          "Performing BAU task such as signature/hotfix updates, periodic reporting, and escalating ticket handling."
+        ],
+        "sub_sections": [],
+        "confidence": 0.98,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": "6. Worked",
+        "company": "Pratima Computer Services",
+        "location": "Mumbai",
+        "start": null,
+        "end": null,
+        "method": "at_split",
+        "duration_months": 0,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.8,
+        "needs_review": false,
+        "source": "experience"
+      },
+      {
+        "role": null,
+        "company": "from",
+        "location": null,
+        "start": "May 2011",
+        "end": "April 2012",
+        "method": "date_regex",
+        "duration_months": 12,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
         "role": "Desktop Engineer 7. Worked",
         "company": "HCL Infosystems Limited",
         "location": "Mumbai",
-        "start": "October 2010",
-        "end": "April 2011",
-        "method": "date_regex+at_split",
-        "duration_months": 7,
+        "start": null,
+        "end": null,
+        "method": "at_split",
+        "duration_months": 0,
         "bullets": [],
         "sub_sections": [],
-        "confidence": 0.98,
+        "confidence": 0.8,
         "needs_review": false,
         "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 10.9,
-      "total_months": 131,
+      "total_years": 7.6,
+      "total_months": 91,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.9
+    "_confidence": 0.8
   },
   "education": {
     "entries": [
@@ -368,7 +545,7 @@
         "degree_type": "diploma",
         "degree_field": null,
         "institution": "Tilak Maharashtra University",
-        "year": "2010",
+        "year": "2007",
         "gpa": null,
         "_needs_review": false,
         "_confidence": 0.95
@@ -467,18 +644,23 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.84
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[0]",
-      "confidence": 0.7,
+      "confidence": 0.35,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[3]",
-      "confidence": 0.7,
+      "field": "experience.jobs[6]",
+      "confidence": 0.5,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[9]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     },
     {

@@ -2,7 +2,7 @@
 FILE: edef86cf_1a68e412_Naukri_AshishMishra[12y_0m]_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'certifications', 'early_career', 'education', 'experience', 'header', 'languages', 'personal_details', 'projects', 'skills']
-Overall conf.  : 0.83
+Overall conf.  : 0.84
 Needs review   : True
 
 CONTACT
@@ -14,21 +14,20 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : instagram.com/ashishgp  (conf 0.85, regex)
 
-SKILLS (22) — confidence 0.92
+SKILLS (53) — confidence 0.92
 ----------------------------------------------------------------------
-AutoCAD, Change Management, Collaboration, Communication, Conflict Resolution, Continuous Improvement, Data Management, Employee Engagement, Google, Google Sheets, Google Workspace, HR Generalist, Leadership, MS Office, Mental Health, Mentoring, Onboarding, Payroll Administration, Problem Solving, Program Management, Six Sigma, Tutoring
+Active Directory, Auditing, AutoCAD, B2B Sales, B2C Sales, Background Verification, Boosting, Change Management, Collaboration, Communication, Conflict Resolution, Continuous Improvement, D2C Marketing, Data Management, Due Diligence, Employee Engagement, Employee Records Management, Fintech, Google, Google Sheets, Google Workspace, HR Generalist, HR Management, HRIS, HRMS, Help Desk, Instagram, KPI, Leadership, Learning & Development, Legal Compliance, LinkedIn, MS Office, Machine Learning, Mental Health, Mentoring, Onboarding, Payroll Administration, Performance Appraisal, Performance Management, Performance Monitoring, Problem Solving, Process Improvement, Program Management, Real Estate Valuation, Recruitment, Regularization, Resource Planning, Risk Management, Six Sigma, Strategic Planning, Tutoring, Vendor Management
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.95
-Total experience: 6.9 years (83 months, 0 overlaps merged)
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 5.9 years (71 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. Designation | HR Manager @ Unknown (Sep 2017 - Oct 2019) [conf 0.98, review=False]
-  2. Designation | Manager @ VKC Group (Nov 2022 - Oct 2024) [conf 0.98, review=False]
-  3. None @ Janhvi Constructions & Infrastructure Advisory (June 2014 - Feb 2016) [conf 0.85, review=True]
-  4. 2 Jr. Officer, 4 Executives @ Unknown (June 2013 - May 2014) [conf 0.98, review=False]
+  1. HR Manager @ Unknown (Sep 2017 - Oct 2019) [conf 0.98, review=False]
+  2. pASSION FOR NUTRITIOy @ VKC Group (Nov 2022 - Oct 2024) [conf 0.98, review=False]
+  3. 2 Jr. Officer, 4 Executives @ Designation | HR Manager (June 2014 - Feb 2016) [conf 0.98, review=True]
 
-EDUCATION (5) — confidence 0.68
+EDUCATION (5) — confidence 0.71
 ----------------------------------------------------------------------
-  1. MBA — None (None) [conf 0.65, review=False]
+  1. MBA — HRM, DAVV Indore (None) [conf 0.8, review=False]
   2. B.Tech — None (None) [conf 0.65, review=False]
   3. PGDCA — None (None) [conf 0.65, review=False]
   4. 12th — None (None) [conf 0.65, review=False]
@@ -70,8 +69,8 @@ ACHIEVEMENTS (20) — confidence 0.85
 
 REVIEW QUEUE (9 flagged fields)
 ----------------------------------------------------------------------
-  experience.jobs[2]                  conf=0.85  reason=incomplete_fields
-  education                           conf=0.68  reason=low_confidence
+  experience.jobs[2]                  conf=0.98  reason=incomplete_fields
+  education                           conf=0.71  reason=low_confidence
   certifications                      conf=0.65  reason=low_confidence
   certifications.items[0]             conf=0.6  reason=incomplete_fields
   certifications.items[1]             conf=0.6  reason=incomplete_fields

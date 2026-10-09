@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "600a7de7_Biplab Dalai_Data Scientist_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:48.540031+00:00",
+    "generated_at": "2026-10-07T10:31:54.959772+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -56,6 +56,7 @@
       "CrewAI",
       "Cursor",
       "Data Pipeline",
+      "Data Science",
       "Deep Learning",
       "Django",
       "Exploratory Data Analysis",
@@ -65,25 +66,33 @@
       "Fine-tuning",
       "Flask",
       "GPT",
+      "Gemini",
       "Generative AI",
       "Git",
+      "GitHub",
       "Google",
       "Gradio",
       "Groq",
+      "Healthcare",
       "Hugging Face",
       "Keras",
+      "LLM",
       "LangChain",
       "LangGraph",
       "LangSmith",
+      "LinkedIn",
       "LlamaIndex",
       "MCP Server",
       "Machine Learning",
       "Matplotlib",
+      "Microsoft Edge",
       "NLP",
+      "NLTK",
       "NumPy",
       "Ollama",
       "OpenCV",
       "Pandas",
+      "Patient Care",
       "PostgreSQL",
       "Postman",
       "Problem Solving",
@@ -91,10 +100,14 @@
       "PyCharm",
       "PyTorch",
       "Python",
+      "RAG",
       "Redis",
+      "Reliability",
+      "Room Database",
       "SQL",
       "Seaborn",
       "Streamlit",
+      "Team Collaboration",
       "TensorFlow",
       "Transformers",
       "VS Code",
@@ -109,27 +122,32 @@
         "Agentic AI",
         "CrewAI",
         "Fine-tuning",
+        "Gemini",
         "Generative AI",
         "Groq",
         "Hugging Face",
+        "LLM",
         "LangChain",
         "LangGraph",
         "LangSmith",
         "LlamaIndex",
         "MCP Server",
         "Ollama",
-        "Prompt Engineering"
+        "Prompt Engineering",
+        "RAG"
       ],
       "ai_ml": [
         "BERT",
         "Chroma",
         "Computer Vision",
+        "Data Science",
         "Deep Learning",
         "GPT",
         "Keras",
         "Machine Learning",
         "Matplotlib",
         "NLP",
+        "NLTK",
         "NumPy",
         "OpenCV",
         "Pandas",
@@ -142,16 +160,19 @@
       "soft_skill": [
         "Collaboration",
         "Communication",
-        "Problem Solving"
+        "Problem Solving",
+        "Reliability",
+        "Team Collaboration"
       ],
       "dev_tool": [
         "Cursor",
         "Git",
+        "GitHub",
         "Gradio",
+        "Microsoft Edge",
         "Postman",
         "PyCharm",
-        "Streamlit",
-        "VS Code"
+        "Streamlit"
       ],
       "data_engineering": [
         "Data Pipeline"
@@ -159,7 +180,8 @@
       "web_framework": [
         "Django",
         "FastAPI",
-        "Flask"
+        "Flask",
+        "LinkedIn"
       ],
       "data_science": [
         "Exploratory Data Analysis",
@@ -173,10 +195,20 @@
         "Google",
         "PostgreSQL",
         "Redis",
+        "Room Database",
         "SQL"
+      ],
+      "domain": [
+        "Healthcare"
+      ],
+      "healthcare": [
+        "Patient Care"
       ],
       "programming_language": [
         "Python"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
@@ -186,11 +218,14 @@
     "jobs": [
       {
         "role": "AI Engineer | Data Scientist",
-        "company": "Chetu India Pvt Ltd (Feb 2024 – Oct 2025",
+        "company": "Chetu India Pvt Ltd",
         "location": null,
         "start": "Feb 2024",
         "end": "Oct 2025",
         "method": "date_regex+subfield_label_company+subfield_label_role",
+        "pre_date_header": [
+          "Company: Chetu India Pvt Ltd"
+        ],
         "duration_months": 21,
         "bullets": [
           "Summary: Implemented cutting-edge AI/ML, IoT automation, and backend solutions across diverse domains including education, healthcare, and enterprise systems. Specialized in building scalable platforms, integrating LLM-powered applications, and deploying production-ready solutions on AWS and Streamlit Cloud to drive automation, efficiency, and user engagement.",
@@ -204,8 +239,8 @@
           "Human Attribution Detection – beanai.streamlit.app: Developed an AI system leveraging Gemini to classify human attribution with real time inference and hosted it on Streamlit Cloud."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       }
     ],
@@ -215,7 +250,7 @@
       "total_months": 21,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.7
+    "_confidence": 0.98
   },
   "education": {
     "entries": [
@@ -242,19 +277,8 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.85
+    "overall": 0.92
   },
-  "_needs_review": true,
-  "_review_queue": [
-    {
-      "field": "experience",
-      "confidence": 0.7,
-      "reason": "low_confidence"
-    },
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    }
-  ]
+  "_needs_review": false,
+  "_review_queue": []
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "3a947ac9_2ba9335d_RESUME(new_updated)-1_segmented.txt",
-    "generated_at": "2026-09-30T06:58:18.921213+00:00",
+    "generated_at": "2026-10-07T10:31:16.546337+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -51,10 +51,17 @@
   "summary": "To work with an organization where I can synergize my aspiration with the organization goals by holding a responsible position so that personnel and organizational growth is ensured.\nAbility to work with team, Ability to work under pressure & self-motivated.",
   "skills": {
     "items": [
+      "AWS",
+      "Agile",
       "Apache Maven",
+      "Apache Tomcat",
       "Bitbucket",
+      "CI/CD",
       "CSS3",
+      "Communication",
+      "Docker",
       "Eclipse",
+      "Function Generator",
       "Git",
       "GitHub",
       "HTML5",
@@ -62,27 +69,48 @@
       "J2EE",
       "JDBC",
       "JSP",
+      "JUnit",
       "Java",
       "JavaScript",
       "Jenkins",
+      "Jira",
       "Microservices",
       "Microsoft Windows",
+      "Multithreading",
       "MySQL",
       "NetBeans",
+      "Oracle Database",
+      "Oscilloscope",
       "PL/SQL",
       "Postman",
       "PuTTY",
       "Python",
       "REST API",
+      "React",
       "Responsible AI",
+      "SAP",
+      "Self Motivation",
+      "Share Purchase Agreement",
       "Spring",
       "Spring Boot",
+      "Spring Security",
+      "TCS",
+      "Telecom",
       "VS Code",
-      "WinSCP"
+      "WinSCP",
+      "phpMyAdmin"
     ],
     "by_category": {
+      "cloud_infra": [
+        "AWS"
+      ],
+      "project_mgmt": [
+        "Agile",
+        "Jira"
+      ],
       "dev_tool": [
         "Apache Maven",
+        "Apache Tomcat",
         "Bitbucket",
         "Eclipse",
         "Git",
@@ -90,8 +118,12 @@
         "NetBeans",
         "Postman",
         "PuTTY",
-        "VS Code",
         "WinSCP"
+      ],
+      "devops": [
+        "CI/CD",
+        "Docker",
+        "Jenkins"
       ],
       "web_framework": [
         "CSS3",
@@ -99,22 +131,34 @@
         "Hibernate",
         "JSP",
         "REST API",
+        "React",
         "Spring",
         "Spring Boot"
+      ],
+      "soft_skill": [
+        "Communication",
+        "Self Motivation"
+      ],
+      "hardware": [
+        "Function Generator",
+        "Oscilloscope"
       ],
       "programming_language": [
         "J2EE",
         "Java",
         "JavaScript",
+        "Multithreading",
         "Python"
       ],
       "database": [
         "JDBC",
         "MySQL",
-        "PL/SQL"
+        "Oracle Database",
+        "PL/SQL",
+        "phpMyAdmin"
       ],
-      "devops": [
-        "Jenkins"
+      "testing": [
+        "JUnit"
       ],
       "architecture": [
         "Microservices"
@@ -124,38 +168,58 @@
       ],
       "genai": [
         "Responsible AI"
+      ],
+      "integration": [
+        "SAP"
+      ],
+      "legal": [
+        "Share Purchase Agreement"
+      ],
+      "framework": [
+        "Spring Security"
+      ],
+      "accounting": [
+        "TCS"
+      ],
+      "domain": [
+        "Telecom"
+      ],
+      "tools": [
+        "VS Code"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(Java8→Java(91%), HTML→HTML5(100%), Springboot→Spring Boot(100%), RestAPI→REST API(100%), microservice→Microservices(96%)...)"
+    "_method": "flashtext_skills_section | fuzzy(Java8→Java(91%), HTML→HTML5(100%), Oracle→Oracle Database(100%), Springboot→Spring Boot(100%), RestAPI→REST API(100%)...)"
   },
   "experience": {
     "jobs": [
       {
-        "role": "5 Year’s Experience in “MINISTRY OF DEFENCES” BEL COMPANY as a contract engineer (Testing in Radar System & Programming) in IFF/PAR-1 Department through Contractor (UDS) Since",
-        "company": "ROLE & RESPONSIBILITIES",
+        "role": "contract engineer (Testing in Radar System & Programming) in IFF/PAR-1 Department through Contractor (UDS) Since",
+        "company": "5 Year’s  in “MINISTRY OF DEFENCES” BEL COMPANY",
         "location": null,
         "start": "5/10/2016",
         "end": "31/6/2021",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 0,
         "bullets": [
           "Working in domain of Electronics & Communication Engineering (AREA) PCB level programming, testing and repair of Processor PCBs, Receiver & Transmitter Processor PCBs, REI PCBs, Power supply PCBs, Line filter PCBs, DC-DC convertor PCBs etc.",
           "Understanding of different type of Engineering Documents like — Schematic Diagram (SD), General Assembly (GA), Acceptance Test Procedures (ATPs), Production Test Procedures (PTP) etc.",
-          "Module and Sub-system level testing of various Analog, Digital and RF modules used in Interrogator and Decoder Unit."
+          "Module and Sub-system level testing of various Analog, Digital and RF modules used in Interrogator and Decoder Unit.",
+          "Familiarization and usage of various test instruments like Digital Oscilloscope, Digital Volt Meter (DVM), Pulse generator, Signal generator, Spectrum Analyzer etc.",
+          "Familiarization and usage of Systems Applications & Products (SAP)."
         ],
         "sub_sections": [],
-        "confidence": 0.98,
-        "needs_review": false,
+        "confidence": 0.7,
+        "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "DVM), Pulse generator, Signal generator, Spectrum Analyzer etc. Familiarization and usage of Systems Applications & Products (SAP).’s Experience in “FUTECH IT PARK” as a Java/J2ee , data structure with Project (IDE) Eclipse and NetBeans 8.0.2 (software developer) and Web designer since",
-        "company": "Familiarization and usage of various test instruments like Digital Oscilloscope",
-        "location": "Digital Volt Meter",
+        "role": "Java/J2ee , data structure with Project (IDE) Eclipse and NetBeans 8.0.2 (software developer) and Web designer since",
+        "company": "4 Year’s  in “FUTECH IT PARK”",
+        "location": null,
         "start": "5/10/2012",
         "end": "4/10/2016",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 48,
         "bullets": [
           "CLINIC MANAGEMENT SYSTEM: This project has been developing in java.",
@@ -173,17 +237,21 @@
           "Project-3: Description",
           "NOTEPAD EDITOR: This project has been developing in j2ee."
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "IDE) Eclipse “indigo” & Netbeans6.5 as a Trainee since",
-        "company": "Software used: Java,Swings’s Experience in “EMPHASIS CAREER SOLUTION” in Java/J2ee , Data Structure with PROJECT",
+        "role": "Trainee since",
+        "company": "6 Month’s  in “EMPHASIS CAREER SOLUTION” in Java/J2ee , Data Structure with PROJECT Eclipse “indigo” & Netbeans6.5",
         "location": null,
         "start": "April 2012",
         "end": "September 2012",
-        "method": "date_regex+date_prefix_title+company_parens_role",
+        "method": "date_regex+date_prefix_title",
+        "pre_date_header": [
+          "Role & Responsibilities: Responsible for requirements analysis,design & implementation (Desktop Application)",
+          "Software used: Java,Swings"
+        ],
         "duration_months": 6,
         "bullets": [
           "ONLINE/OFFLINE EXAMINATION SYSTEM: This project has been developing in core java.",
@@ -209,7 +277,7 @@
   "education": {
     "entries": [
       {
-        "degree": "Passed B.TECH in (COMPUTER SCIENCE & ENGINEERING) from GBTU University in 2011, Ghaziabad",
+        "degree": "Passed B.TECH in (COMPUTER SCIENCE & ENGINEERING)",
         "degree_name": "B.Tech",
         "degree_type": "bachelors",
         "degree_field": "(COMPUTER SCIENCE & ENGINEERING) from GBTU University in 2011",
@@ -220,7 +288,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "Passed DIPLOMA in (ELECTRONICS ENGINEERING) from Govt.Polytechnic Jhansi in 2008, Jhansi",
+        "degree": "Passed DIPLOMA in (ELECTRONICS ENGINEERING)",
         "degree_name": "Diploma",
         "degree_type": "diploma",
         "degree_field": "(ELECTRONICS ENGINEERING) from Govt.Polytechnic Jhansi in 2008",
@@ -231,7 +299,7 @@
         "_confidence": 0.95
       },
       {
-        "degree": "Passed High School in (SCIENECE SIDE) From U.P Board from Ghaziabad",
+        "degree": "Passed High School in (SCIENECE SIDE)",
         "degree_name": "10th",
         "degree_type": "10th",
         "degree_field": "(SCIENECE SIDE) From U.P Board from Ghaziabad",
@@ -287,7 +355,7 @@
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[1]",
+      "field": "experience.jobs[0]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },

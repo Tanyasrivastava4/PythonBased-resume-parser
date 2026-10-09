@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "86adaf37_78d57038_Rajeev Sharma_MIS&HR- TA Analytics_ABC-Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:31.856478+00:00",
+    "generated_at": "2026-10-07T09:27:11.417005+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -47,34 +47,69 @@
   "summary": "Senior TA Reporting & Analytics Specialist with 8+ years of experience in Talent\nAcquisition MIS, HR analytics, dashboarding, and data automation across large-scale\noperations. Proven expertise in digitizing hiring data, building TA dashboards, multi-\ndimensional analysis, and stakeholder reporting for senior HR leadership. Strong\nbackground in data extraction, cleansing, dashboard visualization, and delivering\nactionable hiring insights to enable data-driven workforce decisions. Advanced skills in\nExcel automation, reporting frameworks, and cross-functional stakeholder management.",
   "skills": {
     "items": [
-      "CARO Reporting",
+      "Active Directory",
+      "Business Analytics",
+      "CHRO Reporting",
       "Cross-functional Collaboration",
       "Data Cleaning",
       "Data Management",
       "Data Validation",
       "Data Wrangling",
-      "Funnel Analysis",
+      "E-commerce",
+      "Excel Automation",
+      "HR Analytics",
+      "HR MIS",
       "HRIS",
+      "Hiring Forecast Support",
+      "Hiring Funnel Analysis",
       "KPI",
+      "KPI Scorecards",
       "Leadership",
       "Microsoft Excel",
       "Microsoft Teams",
+      "Onboarding",
+      "Quality Assurance",
+      "Recruiter Performance Tracking",
       "Recruitment",
       "RegMon",
       "Reporting",
+      "Resource Planning",
+      "Root Cause Analysis",
       "SQL",
       "Stakeholder Management",
-      "Trend Analysis"
+      "Statistics",
+      "Supply Chain",
+      "Team Leadership",
+      "Tenable.sc",
+      "Trend Analysis",
+      "Turnaround Time"
     ],
     "by_category": {
-      "finance": [
-        "CARO Reporting"
+      "security_ops": [
+        "Active Directory"
+      ],
+      "data_science": [
+        "Business Analytics",
+        "Statistics",
+        "Trend Analysis"
+      ],
+      "hr": [
+        "CHRO Reporting",
+        "HR Analytics",
+        "HR MIS",
+        "HRIS",
+        "Hiring Forecast Support",
+        "Hiring Funnel Analysis",
+        "Onboarding",
+        "Recruiter Performance Tracking",
+        "Recruitment"
       ],
       "soft_skill": [
         "Cross-functional Collaboration",
         "Leadership",
         "Reporting",
-        "Stakeholder Management"
+        "Stakeholder Management",
+        "Team Leadership"
       ],
       "data_engineering": [
         "Data Cleaning",
@@ -83,29 +118,42 @@
       ],
       "productivity": [
         "Data Management",
+        "Excel Automation",
         "Microsoft Excel",
         "Microsoft Teams"
       ],
-      "data_science": [
-        "Funnel Analysis",
-        "Trend Analysis"
-      ],
-      "hr": [
-        "HRIS",
-        "Recruitment"
+      "retail": [
+        "E-commerce"
       ],
       "business_analysis": [
-        "KPI"
+        "KPI",
+        "KPI Scorecards"
+      ],
+      "operations": [
+        "Quality Assurance",
+        "Root Cause Analysis"
       ],
       "testing": [
         "RegMon"
       ],
+      "project_mgmt": [
+        "Resource Planning"
+      ],
       "database": [
         "SQL"
+      ],
+      "domain": [
+        "Supply Chain"
+      ],
+      "cybersecurity": [
+        "Tenable.sc"
+      ],
+      "management": [
+        "Turnaround Time"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section | fuzzy(CHRO Reporting→CARO Reporting(93%), Data Cleansing→Data Cleaning(100%), Region→RegMon(83%), hiring→Recruitment(100%), leadership.→Leadership(95%)...)"
+    "_method": "flashtext_skills_section | fuzzy(TA Analytics→HR Analytics(100%), Data Cleansing→Data Cleaning(100%), Region→RegMon(83%), HR analytics→HR Analytics(100%), hiring→Recruitment(100%)...)"
   },
   "experience": {
     "jobs": [
@@ -146,7 +194,8 @@
         "bullets": [
           "Conducted root cause analysis (RCA) to identify operational gaps and recommend corrective actions.",
           "Developed and maintained quality management systems.",
-          "Streamlined business processes to reduce operational costs."
+          "Streamlined business processes to reduce operational costs.",
+          "Delivered actionable insights and recommendations to improve business performance."
         ],
         "sub_sections": [],
         "confidence": 0.98,
@@ -154,28 +203,30 @@
         "source": "experience"
       },
       {
-        "role": "Business Analyst (MIS",
-        "company": "Market Expertise",
-        "location": "Pune, India",
+        "role": "(MIS",
+        "company": "Identified bottlenecks in distribution and supply chain processes.",
+        "location": null,
         "start": "Oct 2022",
         "end": "Jan 2024",
-        "method": "date_regex+date_prefix_title+inherited_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 16,
         "bullets": [
-          "Analyzed business performance drivers and presented insights to senior management."
+          "Analyzed business performance drivers and presented insights to senior management.",
+          "Prepared daily, weekly, and monthly sales reports across regions and channels.",
+          "Managed sales pipeline tracking for Digital and E-Commerce marketing."
         ],
         "sub_sections": [],
-        "confidence": 0.85,
+        "confidence": 0.7,
         "needs_review": true,
         "source": "experience"
       },
       {
-        "role": "Team Lead – MIS",
-        "company": "Startek (Aegis BPO",
+        "role": "Team Lead",
+        "company": "MIS",
         "location": null,
         "start": "Aug 2017",
         "end": "Oct 2022",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+date_prefix_title",
         "duration_months": 63,
         "bullets": [
           "Managed end-to-end MIS and reporting for large-scale operations, including HR, workforce and HR performance analytics.",
@@ -192,15 +243,29 @@
         "confidence": 0.98,
         "needs_review": false,
         "source": "experience"
+      },
+      {
+        "role": "Senior Reporting Analyst | Jul 2024",
+        "company": "Jan 2026",
+        "location": null,
+        "start": "July’21",
+        "end": "Sep’21",
+        "method": "date_regex",
+        "duration_months": 3,
+        "bullets": [],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
       }
     ],
     "early_career": [],
     "total_experience": {
       "total_years": 8.4,
       "total_months": 101,
-      "overlapping_periods_merged": 1
+      "overlapping_periods_merged": 2
     },
-    "_confidence": 0.95
+    "_confidence": 0.9
   },
   "education": {
     "entries": [
@@ -251,12 +316,17 @@
     "_confidence": 0.85
   },
   "_confidence": {
-    "overall": 0.9
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
     {
       "field": "experience.jobs[2]",
+      "confidence": 0.7,
+      "reason": "incomplete_fields"
+    },
+    {
+      "field": "experience.jobs[4]",
       "confidence": 0.85,
       "reason": "incomplete_fields"
     }

@@ -2,7 +2,7 @@
 FILE: e97d25a8_Anjusha Gupta HRBP_segmented.txt
 ======================================================================
 Sections found : ['achievements', 'early_career', 'education', 'experience', 'header', 'languages', 'personal_details', 'skills']
-Overall conf.  : 0.88
+Overall conf.  : 0.94
 Needs review   : True
 
 CONTACT
@@ -14,22 +14,21 @@ CONTACT
   github    : None  (conf 0.0, regex)
   website   : Better.com  (conf 0.85, regex)
 
-SKILLS (15) — confidence 0.92
+SKILLS (33) — confidence 0.92
 ----------------------------------------------------------------------
-Change Management, Collaboration, Conflict Resolution, Customer Retention, Data-Driven Decision Making, Employee Engagement, Leadership, Learning & Development, Onboarding, Performance Management, Regulatory Compliance, Resource Planning, Stakeholder Management, Talent Management, Workshop Facilitation
+Adaptability, Change Management, Collaboration, Communication, Compensation & Benefits, Conflict Resolution, Customer Retention, Data-Driven Decision Making, Employee Engagement, Employee Lifecycle Management, HR Analytics, HRIS, Instructional Design, Labour Law, Leadership, Learning & Development, Legal Compliance, Microsoft Teams, Onboarding, Operations Management, Performance Management, Power BI, Process Re-Engineering, Program Management, Recruitment, Regulatory Compliance, Reporting, Resource Planning, Stakeholder Management, Standard Operating Procedures, Talent Management, Trend Analysis, Workshop Facilitation
 
-EXPERIENCE (4 jobs, 0 early_career entries) — confidence 0.74
-Total experience: 10.4 years (125 months, 1 overlaps merged)
+EXPERIENCE (3 jobs, 0 early_career entries) — confidence 0.98
+Total experience: 6.0 years (72 months, 0 overlaps merged)
 ----------------------------------------------------------------------
-  1. planning insights and recommendations to managers, contributing to business-aligned talent decisions. Assistant Manager HR | Zenith Pharmaceuticals @ Manpower Planning & Workforce Optimization: Spearheaded manpower planning and workforce deployment strategies, ensuring strict alignment with approved FTE forecasts and HR budget controls. (Apr'14 - Jun'18) [conf 0.85, review=True]
-  2. setting frameworks while supporting employee relations initiatives to sustain a performance-driven workplace. HR Trainee | IIFL Securities @ IIFL Securities (Jul'20 - Jan'21) [conf 0.85, review=True]
-  3. | Cognizant | Remote @ Organizational Restructuring & Succession Planning: Spearheading restructuring and succession initiatives to strengthen leadership pipelines and expand coverage for critical roles by 35%. (Apr'22 - Present) [conf 0.7, review=True]
-  4. None @ 18% year-over-year increase in participation and strengthening employee experience. HR (Mar'21 - Apr'22) [conf 0.55, review=True]
+  1. Assistant Manager HR | Zenith Pharmaceuticals @ Zenith Pharmaceuticals (Apr'14 - Jun'18) [conf 0.98, review=True]
+  2. HR Trainee | IIFL Securities @ IIFL Securities (Jul'20 - Jan'21) [conf 0.98, review=False]
+  3. Better.com @ HR (Mar'21 - Apr'22) [conf 0.98, review=False]
 
 EDUCATION (2) — confidence 0.95
 ----------------------------------------------------------------------
   1. MBA — Learning & Development Indian Institute of Management Lucknow (2026) [conf 0.95, review=False]
-  2. BBA — ICFAI Business School Hyderabad (2020) [conf 0.95, review=False]
+  2. BBA — initiatives that enhance agility and organizational effectiveness. AMITY University Uttar Pradesh (2018) [conf 0.95, review=False]
 
 CERTIFICATIONS (0) — confidence 0.0
 ----------------------------------------------------------------------
@@ -45,10 +44,6 @@ ACHIEVEMENTS (8) — confidence 0.85
   • contributing to a large-scale collaborative
   • innovation initiative.
 
-REVIEW QUEUE (5 flagged fields)
+REVIEW QUEUE (1 flagged fields)
 ----------------------------------------------------------------------
-  experience                          conf=0.74  reason=low_confidence
-  experience.jobs[0]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[1]                  conf=0.85  reason=incomplete_fields
-  experience.jobs[2]                  conf=0.7  reason=incomplete_fields
-  experience.jobs[3]                  conf=0.55  reason=incomplete_fields
+  experience.jobs[0]                  conf=0.98  reason=incomplete_fields

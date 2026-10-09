@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "2475b72a_PRAGNESH S. SHAH_Sr. Associate-IT Ops_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:58:07.789376+00:00",
+    "generated_at": "2026-10-07T10:31:03.680353+00:00",
     "sections_found": [
       "education",
       "experience",
@@ -54,16 +54,23 @@
       "Cobian Backup",
       "DHCP",
       "DNS",
+      "Data Backup",
+      "ERP",
       "Firewall",
       "Fortinet",
       "Google",
       "Google Workspace",
       "Group Policy",
+      "Hikvision",
       "IT Infrastructure Management",
+      "IT Security",
       "IT Security & Compliance",
       "Java",
       "Joomla",
       "Linux",
+      "Lotus Notes",
+      "Microsoft Dynamics NAV",
+      "Microsoft Hyper-V",
       "Microsoft Outlook",
       "Microsoft Windows",
       "Microsoft Windows Server",
@@ -71,6 +78,7 @@
       "Networking",
       "PHPList",
       "Performance Monitoring",
+      "SVN",
       "Seqrite",
       "SonicWall",
       "Sophos",
@@ -93,6 +101,7 @@
         "Active Directory",
         "Bitdefender",
         "Firewall",
+        "Hikvision",
         "Seqrite",
         "SonicWall",
         "Sophos",
@@ -106,6 +115,7 @@
       ],
       "sysadmin": [
         "Cobian Backup",
+        "Data Backup",
         "Group Policy",
         "Symantec Backup Exec"
       ],
@@ -113,8 +123,13 @@
         "DHCP",
         "DNS"
       ],
+      "erp": [
+        "ERP",
+        "Microsoft Dynamics NAV"
+      ],
       "security": [
         "Fortinet",
+        "IT Security",
         "Symantec"
       ],
       "database": [
@@ -122,6 +137,7 @@
       ],
       "productivity": [
         "Google Workspace",
+        "Lotus Notes",
         "Microsoft Outlook",
         "Zoho Mail"
       ],
@@ -139,6 +155,9 @@
         "Linux",
         "Microsoft Windows"
       ],
+      "virtualization": [
+        "Microsoft Hyper-V"
+      ],
       "cloud_infra": [
         "Microsoft Windows Server",
         "VMware"
@@ -153,6 +172,9 @@
         "Performance Monitoring",
         "Vendor Management"
       ],
+      "devops": [
+        "SVN"
+      ],
       "crm": [
         "Sugar CRM"
       ],
@@ -166,14 +188,19 @@
   "experience": {
     "jobs": [
       {
-        "role": "Designation: IT System Administrator Period of work",
-        "company": "Maintain ODIN and Greek share market software & back-office software.",
+        "role": "Designation: IT System Administrator",
+        "company": "Period of work",
         "location": null,
         "start": "January 2023",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 45,
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Name of Organisation: Comfort Securities Ltd.",
+          "Designation: IT System Administrator"
+        ],
+        "duration_months": 46,
         "bullets": [
+          "Maintain ODIN and Greek share market software & back-office software.",
           "Manage Windows Servers, VMware, desktops, laptops, networks & Sophos XGS 2100 firewalls.",
           "Handle Google Workspace (250 Users), Zoho Mail, Rediff Enterprise Mail.",
           "Manage Seqrite Endpoint Security antivirus",
@@ -182,17 +209,21 @@
           "Troubleshooting user issues and providing IT support."
         ],
         "sub_sections": [],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
-        "role": "Designation: IT System Administrator Period of work",
+        "role": "IT System Administrator",
         "company": "Name of Organisation: Eagle Security and Personnel Service",
         "location": null,
         "start": "September 2019",
         "end": "January 2023",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+next_line_company",
+        "pre_date_header": [
+          "Name of Organisation: Eagle Security and Personnel Service",
+          "Designation: IT System Administrator"
+        ],
         "duration_months": 41,
         "bullets": [
           "Manage server, desktop & network operations across multiple locations.",
@@ -206,14 +237,19 @@
         "source": "experience"
       },
       {
-        "role": "Designation: IT System Administrator Period of work",
-        "company": "Maintain Windows 2008 Servers with Hyper-V.",
+        "role": "Designation: IT System Administrator",
+        "company": "Period of work",
         "location": null,
         "start": "October 2017",
         "end": "July 2019",
-        "method": "date_regex+date_prefix_title",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Name of Organisation: KMI Business Technologies Pvt. Ltd.",
+          "Designation: IT Support Engineer"
+        ],
         "duration_months": 22,
         "bullets": [
+          "Maintain Windows 2008 Servers with Hyper-V.",
           "Install & upgrade hardware & software.",
           "Support Microsoft Dynamics NAV ERP.",
           "Manage NAS & DLT backups for 95 users.",
@@ -233,6 +269,10 @@
         "start": "February 2014",
         "end": "August 2017",
         "method": "date_regex+pipe_split",
+        "pre_date_header": [
+          "Name of Organisation: Travel XP Pvt. Ltd.",
+          "Unknown - Designation | IT Executive"
+        ],
         "duration_months": 43,
         "bullets": [],
         "sub_sections": [],
@@ -241,12 +281,35 @@
         "source": "experience"
       },
       {
-        "role": "Designation: IT Support Engineer Period of work",
-        "company": "Name of Organisation: Galiakotwala",
+        "role": "Unknown",
+        "company": "Designation | IT Executive",
+        "location": "Servers",
+        "start": "2008",
+        "end": "2012",
+        "method": "date_regex",
+        "duration_months": 49,
+        "bullets": [
+          "Manage Smarter Mail server & data backup to tape.",
+          "Administer Fortigate firewall & 3CX software.",
+          "Install & upgrade hardware/software; manage desktops & thin clients."
+        ],
+        "sub_sections": [],
+        "confidence": 0.85,
+        "needs_review": true,
+        "source": "experience"
+      },
+      {
+        "role": "Name of Organisation: Galiakotwala",
+        "company": "Name of Organisation: Galiakotwala Technologies",
         "location": null,
         "start": "December 2012",
         "end": "January 2014",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Name of Organisation: Galiakotwala",
+          "Name of Organisation: Galiakotwala Technologies",
+          "Designation: IT Support Engineer"
+        ],
         "duration_months": 14,
         "bullets": [
           "Manage Windows 2008 Servers with Hyper-V.",
@@ -258,12 +321,17 @@
         "source": "experience"
       },
       {
-        "role": "Designation: IT Support Engineer Period of work",
-        "company": "Name of Organisation: SVN",
+        "role": "Name of Organisation: SVN",
+        "company": "Name of Organisation: SVN Technologies",
         "location": null,
         "start": "February 2006",
         "end": "September 2007",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+multiline_role_above_company",
+        "pre_date_header": [
+          "Name of Organisation: SVN",
+          "Name of Organisation: SVN Technologies",
+          "Designation: IT Support Engineer"
+        ],
         "duration_months": 20,
         "bullets": [
           "Provide Lotus Notes support.",
@@ -275,12 +343,16 @@
         "source": "experience"
       },
       {
-        "role": "Designation: IT Support Engineer Period of work",
+        "role": "IT Support Engineer",
         "company": "Name of Organisation: Kalyani Informix",
         "location": null,
         "start": "June 2004",
         "end": "January 2006",
-        "method": "date_regex+date_prefix_title+next_line_company",
+        "method": "date_regex+subfield_label_role+next_line_company",
+        "pre_date_header": [
+          "Name of Organisation: Kalyani Informix",
+          "Designation: IT Support Engineer"
+        ],
         "duration_months": 20,
         "bullets": [],
         "sub_sections": [],
@@ -291,11 +363,11 @@
     ],
     "early_career": [],
     "total_experience": {
-      "total_years": 17.0,
-      "total_months": 204,
+      "total_years": 21.2,
+      "total_months": 254,
       "overlapping_periods_merged": 1
     },
-    "_confidence": 0.9
+    "_confidence": 0.93
   },
   "education": {
     "entries": [
@@ -355,18 +427,18 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.93
+    "overall": 0.94
   },
   "_needs_review": true,
   "_review_queue": [
     {
-      "field": "experience.jobs[0]",
+      "field": "experience.jobs[1]",
       "confidence": 0.7,
       "reason": "incomplete_fields"
     },
     {
-      "field": "experience.jobs[1]",
-      "confidence": 0.7,
+      "field": "experience.jobs[4]",
+      "confidence": 0.85,
       "reason": "incomplete_fields"
     }
   ]

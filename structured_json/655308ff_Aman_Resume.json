@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "655308ff_Aman_Resume_segmented.txt",
-    "generated_at": "2026-09-30T06:59:01.816045+00:00",
+    "generated_at": "2026-10-07T09:26:41.292456+00:00",
     "sections_found": [
       "certifications",
       "education",
@@ -49,7 +49,9 @@
   "skills": {
     "items": [
       "Attention to Detail",
+      "Business Intelligence",
       "Communication",
+      "Creativity",
       "Data Analytics",
       "Data Cleaning",
       "Data Management",
@@ -58,6 +60,8 @@
       "Exploratory Data Analysis",
       "Generative AI",
       "Google",
+      "Healthcare",
+      "LinkedIn",
       "Machine Learning",
       "Microsoft Excel",
       "Microsoft PowerPoint",
@@ -67,6 +71,7 @@
       "Power BI",
       "Python",
       "Reporting",
+      "SAP",
       "SQL",
       "TensorFlow",
       "Time Management"
@@ -75,8 +80,12 @@
       "soft_skill": [
         "Attention to Detail",
         "Communication",
+        "Creativity",
         "Reporting",
         "Time Management"
+      ],
+      "business_analysis": [
+        "Business Intelligence"
       ],
       "data_science": [
         "Data Analytics",
@@ -107,8 +116,17 @@
         "MySQL",
         "SQL"
       ],
+      "domain": [
+        "Healthcare"
+      ],
+      "web_framework": [
+        "LinkedIn"
+      ],
       "programming_language": [
         "Python"
+      ],
+      "integration": [
+        "SAP"
       ]
     },
     "_confidence": 0.92,
@@ -118,13 +136,17 @@
     "jobs": [
       {
         "role": "Research Intern",
-        "company": "Indian Institute of Information Technology (IIIT) Dharwad",
+        "company": "·",
         "location": null,
         "start": "Feb 2026",
         "end": "Present",
-        "method": "date_regex+date_prefix_title",
-        "duration_months": 8,
+        "method": "date_regex+multiline_role_above_company",
+        "pre_date_header": [
+          "Research Intern"
+        ],
+        "duration_months": 9,
         "bullets": [
+          "Indian Institute of Information Technology (IIIT) Dharwad | Remote",
           "Working as part of a student research team on topic- Generative AI and Quantum Computing, contributing to research, review, documentation, and ideation. AI Intern – TechSaksham (Microsoft & SAP CSR Initiative)",
           "Built an AI Powered Medical Diagnosis System involving ML model development for healthcare data, gained hands-on exposure to labelling, preprocessing, and structuring real-world datasets.",
           "Maintained structured records of all interactions and handled applicant communications via email and phone.",
@@ -137,8 +159,8 @@
           "Apr – Jul 2025 · 4 mos",
           "Lingaya's Vidyapeeth | Faridabad, On-site"
         ],
-        "confidence": 0.7,
-        "needs_review": true,
+        "confidence": 0.98,
+        "needs_review": false,
         "source": "experience"
       },
       {
@@ -159,10 +181,10 @@
     "early_career": [],
     "total_experience": {
       "total_years": 2.8,
-      "total_months": 33,
+      "total_months": 34,
       "overlapping_periods_merged": 0
     },
-    "_confidence": 0.77
+    "_confidence": 0.92
   },
   "education": {
     "entries": [
@@ -239,15 +261,10 @@
     "_confidence": 0.0
   },
   "_confidence": {
-    "overall": 0.86
+    "overall": 0.89
   },
   "_needs_review": true,
   "_review_queue": [
-    {
-      "field": "experience.jobs[0]",
-      "confidence": 0.7,
-      "reason": "incomplete_fields"
-    },
     {
       "field": "experience.jobs[1]",
       "confidence": 0.85,

@@ -1,0 +1,43 @@
+────────────────────────────────────────────────────────────
+SKILLS EXTRACTED FROM: segmented_text/654895b4_50618e7a_Neha_Rani_CV_MIS_segmented.txt
+────────────────────────────────────────────────────────────
+
+── Skills Section Text (raw, as segmented) ──
+Sets/Domain Knowledge
+• Software Tools:
+ERP Systems (Logisti-Cal, YiFe), Site Forge, familiar to SAP
+• Operating System:
+Windows (Proficient)
+• Professional Tools:
+MS Excel (Advanced: VLOOKUP, Pivot Table, Dashboard), Google Sheets, MS PowerPoint, MS
+Word
+• Technical & MIS Skills:
+• MIS Reporting (Daily/Weekly/Monthly)
+• Data Analysis & Data Cleaning
+• KPI Tracking & Performance Monitoring
+• Documentation & Report Preparation
+• Creating and Managing BOM (Bill of Material)
+• ERP Data Management & Inventory Coordination
+
+── Extraction Results ──
+Skills found   : 27
+Confidence     : 0.92
+Time           : 128.3 ms
+Method         : flashtext_skills_section | fuzzy(Pivot Table→Pivot Tables(100%), Google Sheets→Google Workspace(100%), MS PowerPoint→Microsoft PowerPoint(100%), MS Word→Microsoft Word(100%), KPI Tracking→KPI(100%))
+
+── All Skills (27) ──
+3R, 4M, 5S, Cross-functional Collaboration, Customer Service, Data Analysis, Data Cleaning, Data Management, ERP Systems, Google Workspace, ISO Standards, KPI, Logistics, MIS Reporting, Microsoft Excel, Microsoft PowerPoint, Microsoft Teams, Microsoft Windows, Microsoft Word, Order Management, Performance Monitoring, Pivot Tables, Procurement, Quality Management System, Reporting, SAP, Supply Chain
+
+── By Category ──
+  banking                        ['MIS Reporting']
+  business_analysis              ['KPI']
+  client_mgmt                    ['Customer Service']
+  data_engineering               ['Data Cleaning']
+  data_science                   ['Data Analysis']
+  domain                         ['Supply Chain']
+  engineering                    ['ISO Standards']
+  integration                    ['SAP']
+  operations                     ['3R', '4M', '5S', 'ERP Systems', 'Logistics', 'Order Management', 'Performance Monitoring', 'Procurement', 'Quality Management System']
+  os_system                      ['Microsoft Windows']
+  productivity                   ['Data Management', 'Google Workspace', 'Microsoft Excel', 'Microsoft PowerPoint', 'Microsoft Teams', 'Microsoft Word', 'Pivot Tables']
+  soft_skill                     ['Cross-functional Collaboration', 'Reporting']

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source_file": "88871b69_4d07a986_Nilesh Shivram Magare_Associate Engineer_Intileo_segmented.txt",
-    "generated_at": "2026-09-30T06:59:33.449254+00:00",
+    "generated_at": "2026-10-07T09:27:13.545386+00:00",
     "sections_found": [
       "achievements",
       "education",
@@ -51,26 +51,56 @@
   "skills": {
     "items": [
       "AutoCAD",
+      "Control Panel",
+      "Customer Service",
       "HMI",
       "Instrumentation",
+      "LinkedIn",
+      "Operations Management",
       "PLC",
-      "Project Management"
+      "Project Management",
+      "Room Database",
+      "Technical Support",
+      "VFD",
+      "cPanel"
     ],
     "by_category": {
       "engineering": [
         "AutoCAD",
-        "HMI"
+        "HMI",
+        "VFD"
+      ],
+      "hardware": [
+        "Control Panel"
+      ],
+      "client_mgmt": [
+        "Customer Service"
       ],
       "engineering_hardware": [
         "Instrumentation",
         "PLC"
       ],
+      "web_framework": [
+        "LinkedIn"
+      ],
+      "operations": [
+        "Operations Management"
+      ],
       "project_mgmt": [
         "Project Management"
+      ],
+      "database": [
+        "Room Database"
+      ],
+      "support": [
+        "Technical Support"
+      ],
+      "devops": [
+        "cPanel"
       ]
     },
     "_confidence": 0.92,
-    "_method": "flashtext_skills_section"
+    "_method": "flashtext_skills_section | fuzzy(Panel→cPanel(91%))"
   },
   "experience": {
     "jobs": [],
