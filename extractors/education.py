@@ -46,9 +46,13 @@ _DEGREE_MATCHER = KeywordProcessor(case_sensitive=False)
 _DEGREE_CATEGORY = {}          # canonical name -> category (bachelors/masters/...)
 _ALL_ALIASES = []              # flat list, used for the fuzzy fallback
 
+_MONTH_NAMES_LOWER = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december", "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec"}
+
 for _canonical, _info in _DEGREE_TAXONOMY.items():
     _DEGREE_CATEGORY[_canonical] = _info["category"]
     for _alias in _info["aliases"]:
+        if _alias.lower() in _MONTH_NAMES_LOWER:
+            continue
         _DEGREE_MATCHER.add_keyword(_alias, _canonical)
         _ALL_ALIASES.append((_alias, _canonical))
 
@@ -65,7 +69,6 @@ _FUZZY_DEGREE_THRESHOLD = 85
 # all, so no new entry ever started for it — it silently got swallowed
 # into the adjacent "12th" entry's institution-line merge logic instead.
 _DEGREE_MATCHER_STRIPPED = KeywordProcessor(case_sensitive=False)
-_MONTH_NAMES_LOWER = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december", "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec"}
 for _alias, _canonical in _ALL_ALIASES:
     _stripped_alias = re.sub(r'[.\s]', '', _alias)
     if _stripped_alias and _stripped_alias.lower() not in _MONTH_NAMES_LOWER and _stripped_alias.lower() != "march":
@@ -119,6 +122,9 @@ def _is_invalid_degree_match(canonical: str, line: str) -> bool:
             return True
     elif canonical in ("M.S.", "MS"):
         if re.search(r'\bms\s+(?:visio|window|windows|office|excel|word|access|project|projects|teams|sql|dynamic|dynamics|fabric|bi|powerpoint|crm|azure|dos|intune|copilot|paint)\b', line, re.IGNORECASE):
+            return True
+    elif canonical == "Master":
+        if re.search(r'\b(?:scrum\s+master|master\s+data|master\s+trainer|webmaster)\b', line, re.IGNORECASE):
             return True
     return False
 
@@ -179,6 +185,15 @@ def match_degree(line: str) -> tuple[str, str, int, int] | tuple[None, None, Non
             canonical = next(c for a, c in _ALL_ALIASES if a == matched_alias)
             if not _is_invalid_degree_match(canonical, line):
                 return canonical, _DEGREE_CATEGORY[canonical], None, None
+
+    pat_x = re.search(
+        r"^\s*[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\ue25f\-\*\d.]*\s*(?:class\s+|std\.?\s+|standard\s+|grade\s+)?\b(X)\b(?!\s*[-–—]?\s*ray)(?:\s*[-–—:,/|\t]|\s+(?:from|passed|board|school|vidya|cbse|icse|\d{4}))",
+        line,
+        re.IGNORECASE
+    )
+    if pat_x:
+        return "10th", "10th", pat_x.start(1), pat_x.end(1)
+
     return None, None, None, None
 
 
@@ -186,6 +201,24 @@ _FIELD_PAREN_RE = re.compile(r'^\(([^)]+)\)')
 _FIELD_COLON_RE = re.compile(r'^:\s*(.+)')
 _FIELD_CONNECTOR_RE = re.compile(r'^(?:in|of|with|stream\s*:?|specialization\s*:?)\s+(.+)', re.IGNORECASE)
 _FIELD_DASH_RE = re.compile(r'^[-\u2013]\s*(.+)')
+_KNOWN_DEGREE_FIELDS = (
+    "computer science and engineering",
+    "computer science & engineering",
+    "computer science",
+    "information technology",
+    "mechanical engineering",
+    "electrical engineering",
+    "electronics and communication",
+    "electronics & communication",
+    "electronics",
+    "civil engineering",
+    "chemical engineering",
+    "aerospace engineering",
+    "data science",
+    "artificial intelligence",
+    "commerce",
+    "business administration"
+)
 
 
 def _extract_degree_field(trigger_line: str, match_end: int | None) -> str | None:
@@ -223,12 +256,18 @@ def _extract_degree_field(trigger_line: str, match_end: int | None) -> str | Non
     if field is None:
         return None
 
-    # Stop at the first comma/bullet/pipe — usually separates field from
+    # Stop at the first comma/bullet/pipe/dash — usually separates field from
     # institution/city or from ranking blurbs ("Finance • Top 10% of 572")
-    field = re.split(r'[,•|]', field)[0].strip(" .")
+    field = re.split(r'[,•|\t–—]|(?:\s+-\s+)', field)[0].strip(" .")
+    for f in _KNOWN_DEGREE_FIELDS:
+        if field.lower().startswith(f + " ") and (len(field) > len(f) + 3):
+            field = field[:len(f)].strip()
+            break
     # Strip trailing date or year range (e.g. " - May 2022", " - 2022", " (2018-2022)")
     field = re.sub(r'[\s\-–—,/]+\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)?[\s,.-]*(?:19|20)\d{2}.*$', '', field, flags=re.IGNORECASE).strip(" .-")
     field = re.sub(r'[\s\-–—,/]+\b(?:19|20)\d{2}.*$', '', field).strip(" .-")
+    if field and re.fullmatch(r'(?:19|20)\d{2}', field.strip()):
+        return None
     return field or None
 
 # Year — plain year, or a fuller date like "23 Sep 2011" / "Jan 2018"
@@ -283,12 +322,12 @@ def _expand_apostrophe_year(date_str: str) -> str:
 
 # GPA — keyword-led first ("CGPA: 8.16 /10", "Percentage:- 89%")
 GPA_KEYWORD_RE = re.compile(
-    r'(?:gpa|cgpa|sgpa|percentage|grade|score|marks)[:\s\-]+([0-9.]+(?:\s*/\s*[0-9.]+)?%?)',
+    r'(?:gpa|cgpa|sgpa|cgpi|percentage|grade|score|marks)[:\s\-]+([0-9.]+(?:\s*/\s*[0-9.]+)?%?)',
     re.IGNORECASE
 )
 # Reversed order — number BEFORE the keyword ("7.8 CGPA", "7.8 SGPA")
 GPA_KEYWORD_REVERSED_RE = re.compile(
-    r'\b([0-9.]+)\s*(?:gpa|cgpa|sgpa)\b', re.IGNORECASE
+    r'\b([0-9.]+)\s*(?:gpa|cgpa|sgpa|cgpi)\b', re.IGNORECASE
 )
 # Fallback: bare "8.16 /10" style CGPA with no keyword in front
 GPA_BARE_SCALE_RE = re.compile(r'\b(\d(?:\.\d{1,2})?)\s*/\s*(10|4)\b')
@@ -318,7 +357,7 @@ _INSTITUTIONS_DB = _load_institutions_db()
 _FULL_NAME_MATCHER = KeywordProcessor(case_sensitive=False)
 for _name in _INSTITUTIONS_DB.get("full_names", []):
     _FULL_NAME_MATCHER.add_keyword(_name)
-for _extra_inst in ["DU.SOL", "DU SOL", "DU-SOL", "DU_SOL", "School of Open Learning"]:
+for _extra_inst in ["DU.SOL", "DU SOL", "DU-SOL", "DU_SOL", "School of Open Learning", "MIT Aurangabad", "MIT, Aurangabad", "MIT Pune", "MIT Manipal"]:
     _FULL_NAME_MATCHER.add_keyword(_extra_inst)
 
 
@@ -327,7 +366,7 @@ _CONNECTOR_WORDS = {"of", "the", "and", "for", "&"}
 
 # All-caps tokens that are degree/GPA jargon, not institution-name acronyms —
 # these should never be swept into an institution name during expansion.
-_NON_INSTITUTION_ACRONYMS = {"CGPA", "SGPA", "GPA", "SSC", "HSC", "PGDM", "PGDCA", "PGDBA"} | {
+_NON_INSTITUTION_ACRONYMS = {"CGPA", "SGPA", "CGPI", "GPA", "SSC", "HSC", "PGDM", "PGDCA", "PGDBA"} | {
     a.upper().replace(".", "") for a, _ in _ALL_ALIASES if a.isupper() or "." in a
 }
 
@@ -340,7 +379,7 @@ _MONTH_NAMES_SET = {
 
 
 _HEADER_NOISE_WORDS = {
-    "class", "course", "grade", "std", "standard", "level", "percentage", "marks", "year", "duration"
+    "class", "course", "grade", "std", "standard", "level", "percentage", "marks", "year", "duration", "cgpi", "cgpa", "sgpa"
 }
 
 
@@ -368,7 +407,12 @@ def _expand_left(entry_text: str, start: int) -> list:
     institution name just because it's Title-Case. If exactly one word
     would be pulled in and it's directly preceded by 'in', that's a
     specialization clause ('degree in X'), not part of the institution."""
-    before = entry_text[:start].rstrip()
+    before = entry_text[:start]
+    if "\t" in before:
+        before = before[before.rfind("\t") + 1:]
+    before = before.rstrip()
+    if before.rstrip().endswith((",", ":", ";", "-")):
+        return []
     tokens_before = before.split(" ") if before else []
     extended = []
     stop_token = None
@@ -381,8 +425,14 @@ def _expand_left(entry_text: str, start: int) -> list:
         else:
             stop_token = tok
             break
-    if len(extended) == 1 and stop_token and stop_token.lower() == "in":
-        return []
+    if stop_token and stop_token.lower() == "in":
+        if len(extended) == 1:
+            return []
+        ext_text = " ".join(extended)
+        for f in _KNOWN_DEGREE_FIELDS:
+            if ext_text.lower().startswith(f + " "):
+                extended = ext_text[len(f):].strip().split()
+                break
     return extended
 
 
@@ -392,7 +442,10 @@ def _expand_right(entry_text: str, end: int) -> list:
     Management' truncating the real name 'Indian Institute of Management
     Calcutta' (connector 'of' must be allowed through, not just Title-Case
     words, or the expansion stops one word too early)."""
-    after = entry_text[end:].lstrip(" \t,-–—")
+    after = entry_text[end:]
+    if "\t" in after:
+        after = after[:after.find("\t")]
+    after = after.lstrip(" \t,-–—")
     tokens_after = after.split(" ") if after else []
     extended = []
     for tok in tokens_after:
@@ -421,7 +474,7 @@ def _match_full_name(entry_text: str) -> str | None:
 
 
 _INSTITUTION_KEYWORDS_SAFE_RE = re.compile(
-    r'\b(university|institute|institution|college|collage|school|sch\.?|board|iit|iiit|nit|bits?|iim|ignou|'
+    r'\b(university|institute|institution|college|collage|school|sch\.?|board|iit|iiit|nit|bits?|iim|ims|ignou|'
     r'nmims|aktu|uptu|vtu|rntu|srm|vit|vesit|hvn|polytechnic|vidyalaya|vidya\s*niketan|vidya\s*mandir|'
     r'vishwa\s*vidyalaya|shikshan|parishad|kendriya|convent|high\s+school|public\s+school|'
     r'cbse|c\.b\.s\.e\.?|icse|isc|nios|icai|icsi|icmai|ccsu|c\.c\.s\.u|ggsipu|jntu|j\.?\s*n\.?\s*t\.?\s*u\.?|sppu|csjm|c\.s\.j\.m|udemy|jecrc|je\s*crc|hospital|vmmc|aiims|du\.sol|du\s+sol|lnmu|l\.n\.m\.u\.?|mithila)\b',
@@ -430,7 +483,7 @@ _INSTITUTION_KEYWORDS_SAFE_RE = re.compile(
 _INSTITUTION_KEYWORDS_RISKY_RE = re.compile(r'\b(academy)\b', re.IGNORECASE)
 # Kept for _extract_institution's final-string matching, where both matter equally
 _INSTITUTION_KEYWORDS_RE = re.compile(
-    r'\b(universit(?:y|ies)|institute?s?|institution?s?|academ(?:y|ies)|colleges?|collages?|schools?|sch\.?|boards?|iit|iiit|nit|bits?|iim|ignou|'
+    r'\b(universit(?:y|ies)|institute?s?|institution?s?|academ(?:y|ies)|colleges?|collages?|schools?|sch\.?|boards?|iit|iiit|nit|bits?|iim|ims|ignou|'
     r'nmims|aktu|uptu|vtu|rntu|srm|vit|vesit|hvn|polytechnic|vidyalaya|vidya\s*niketan|vidya\s*mandir|'
     r'vishwa\s*vidyalaya|shikshan|parishad|kendriya|convent|high\s+school|public\s+school|'
     r'cbse|c\.b\.s\.e\.?|icse|isc|nios|icai|icsi|icmai|ccsu|c\.c\.s\.u|ggsipu|jntu|j\.?\s*n\.?\s*t\.?\s*u\.?|sppu|csjm|c\.s\.j\.m|udemy|jecrc|je\s*crc|hospitals?|vmmc|aiims|du\.sol|du\s+sol|lnmu|l\.n\.m\.u\.?|mithila)\b',
@@ -444,7 +497,7 @@ _BARE_GENERIC_INSTITUTION = {"school", "college", "university", "institute", "bo
 _TABLE_HEADER_WORDS = {
     "qualification", "degree", "exam", "board", "institute", "institution",
     "university", "year", "passing", "duration", "percentage",
-    "cgpa", "gpa", "score", "specialization", "course", "stream", "marks",
+    "cgpa", "cgpi", "sgpa", "gpa", "score", "specialization", "course", "stream", "marks",
     "examination", "universi", "institu", "te", "y", "t", "sr", "no", "sno",
     "slno", "roll", "div", "division", "class", "srno", "sl", "subject",
     "subjects", "college", "school", "yearof", "passingyear", "schoolcollege",
@@ -490,9 +543,9 @@ def _extract_institution(entry_text: str, trigger_line: str | None = None) -> tu
             full = _match_full_name(post_trig_text)
             if full:
                 return full, False
-            clean_post = re.sub(r"\b\d+(?:\.\d+)?\s*%|\b\d+(?:\.\d+)?\s*cgpa\b|\bexemption\s+in\b.*?(?=\b(?:institute|university|college|school|board|icai)\b|$)", "", post_trig_text, flags=re.I)
+            clean_post = re.sub(r"\b\d+(?:\.\d+)?\s*%|\b\d+(?:\.\d+)?\s*(?:cgpa|cgpi|sgpa|gpa)\b|\bexemption\s+in\b.*?(?=\b(?:institute|university|college|school|board|icai)\b|$)", "", post_trig_text, flags=re.I)
             clean_post = re.sub(r"\bpassed\s+with\s+(?:first|second|third|distinction|honours|honors)?\s*(?:division|class)?\b", "", clean_post, flags=re.I)
-            clean_post = re.sub(r"\s+", " ", clean_post).strip()
+            clean_post = re.sub(r"[^\S\t\n\r]+", " ", clean_post).strip()
             fallback = _match_keyword_fallback(clean_post or post_trig_text)
             if fallback and fallback.strip().lower() not in _BARE_GENERIC_INSTITUTION:
                 return fallback, False
@@ -501,9 +554,9 @@ def _extract_institution(entry_text: str, trigger_line: str | None = None) -> tu
     if full:
         return full, False
 
-    clean_entry_text = re.sub(r"\b\d+(?:\.\d+)?\s*%|\b\d+(?:\.\d+)?\s*cgpa\b|\bexemption\s+in\b.*?(?=\b(?:institute|university|college|school|board|icai)\b|$)", "", entry_text, flags=re.I)
+    clean_entry_text = re.sub(r"\b\d+(?:\.\d+)?\s*%|\b\d+(?:\.\d+)?\s*(?:cgpa|cgpi|sgpa|gpa)\b|\bexemption\s+in\b.*?(?=\b(?:institute|university|college|school|board|icai)\b|$)", "", entry_text, flags=re.I)
     clean_entry_text = re.sub(r"\bpassed\s+with\s+(?:first|second|third|distinction|honours|honors)?\s*(?:division|class)?\b", "", clean_entry_text, flags=re.I)
-    clean_entry_text = re.sub(r"\s+", " ", clean_entry_text).strip()
+    clean_entry_text = re.sub(r"[^\S\t\n\r]+", " ", clean_entry_text).strip()
 
     fallback = _match_keyword_fallback(clean_entry_text or entry_text)
     if fallback:
@@ -529,7 +582,7 @@ def _extract_year(entry_text: str, trigger_line: str | None = None) -> str | Non
             start = _expand_apostrophe_year(range_match.group(1).strip())
             end = _expand_apostrophe_year(range_match.group(2).strip())
             return f"{start} - {end}"
-        trigger_matches = list(YEAR_RE.finditer(trigger_line))
+        trigger_matches = [m for m in YEAR_RE.finditer(trigger_line) if not re.search(r'ISO\s*\d+:\s*$', trigger_line[max(0, m.start() - 15):m.start()], re.I)]
         if trigger_matches:
             m = trigger_matches[-1]
             return m.group(1) or m.group(2)
@@ -558,7 +611,7 @@ def _extract_year(entry_text: str, trigger_line: str | None = None) -> str | Non
     # completion year, not the start year. This path only fires now when
     # no recognizable range exists at all (e.g. a bare "2023" with no
     # start date given anywhere).
-    matches = list(YEAR_RE.finditer(entry_text))
+    matches = [m for m in YEAR_RE.finditer(entry_text) if not re.search(r'ISO\s*\d+:\s*$', entry_text[max(0, m.start() - 15):m.start()], re.I)]
     if not matches:
         return None
     m = matches[-1]
@@ -675,6 +728,19 @@ def _flush_entry(current: dict, full_text: str = "", entry_idx: int = 0) -> dict
         if last_line and len(last_line) >= 4 and last_line in full_text:
             pos = full_text.find(last_line)
             after_text = full_text[pos + len(last_line):pos + len(last_line) + 350]
+            sec_bound = re.search(r'\n\s*(?:LABEL:\s*\w+|[─\-]{5,}|CERTIFICAT(?:ION|IONS)|EXPERIENCE|WORK EXPERIENCE|EMPLOYMENT|PROJECTS|SKILLS|TECHNICAL SKILLS|PUBLICATIONS|ACHIEVEMENTS|AWARDS|DECLARATION|PERSONAL DETAILS|EXTRA-CURRICULAR)\b', after_text, re.IGNORECASE)
+            if sec_bound:
+                after_text = after_text[:sec_bound.start()]
+            lines_after = after_text.splitlines()
+            for l_after in lines_after:
+                l_after_clean = l_after.strip()
+                if not l_after_clean:
+                    continue
+                deg_match, _, _, _ = match_degree(l_after_clean)
+                if deg_match:
+                    deg_pos = after_text.find(l_after)
+                    after_text = after_text[:deg_pos]
+                    break
             m_ranges = list(DATE_RANGE_RE.finditer(after_text))
             if m_ranges:
                 m_range = m_ranges[entry_idx] if entry_idx < len(m_ranges) else m_ranges[0]
@@ -684,8 +750,11 @@ def _flush_entry(current: dict, full_text: str = "", entry_idx: int = 0) -> dict
             else:
                 m_yrs = list(YEAR_RE.finditer(after_text))
                 if m_yrs:
-                    m_yr = m_yrs[entry_idx] if entry_idx < len(m_yrs) else m_yrs[0]
-                    year = m_yr.group(1) or m_yr.group(2)
+                    # Filter out standard certification codes like 2000 in BCLE 2000
+                    filtered_yrs = [m for m in m_yrs if not re.search(r'\b(?:BCLE|ISO)\s*' + re.escape(m.group(0)), after_text, re.I)]
+                    if filtered_yrs:
+                        m_yr = filtered_yrs[entry_idx] if entry_idx < len(filtered_yrs) else filtered_yrs[0]
+                        year = m_yr.group(1) or m_yr.group(2)
     gpa = _extract_gpa(entry_text)
 
     degree_name = current["degree_name"]
@@ -697,9 +766,10 @@ def _flush_entry(current: dict, full_text: str = "", entry_idx: int = 0) -> dict
         if current["trigger_line"] else None
 
     if institution:
-        pattern = r'^(?:Science and Engineering\.?|Computer Science and Engineering\.?|Human Resources|Development|Engineering|Management|Science|Administration)\s+'
+        pattern = r'^(?:Science and Engineering\.?|Computer Science and Engineering\.?|Human Resources|Development|Engineering|Management|Science|Administration|Accounting\s+and|Finance|H\.?\s*S\.?\s*C\.?|S\.?\s*S\.?\s*C\.?)\s+'
         institution = re.sub(pattern, '', institution, flags=re.IGNORECASE).strip()
         institution = re.sub(r'\s+with\s*$', '', institution, flags=re.IGNORECASE).strip()
+        institution = re.sub(r'\s+\b(?:CGPI|CGPA|SGPA|GPA)\b.*$', '', institution, flags=re.IGNORECASE).strip()
 
     # Some resumes write contradictory things like "Higher Secondary School (10)"
     # — an explicit (10)/(12)/"10th"/"12th" marker overrides the fuzzy
@@ -774,12 +844,37 @@ def extract_education(education_section_text: str, full_text: str = "") -> dict:
         return {"education": [], "_confidence": 0.0}
 
     education_section_text = re.sub(r"\b(Master|Bachelor|Doctor|Doctorate)of\b", r"\1 of", education_section_text, flags=re.IGNORECASE)
+    education_section_text = re.sub(r'^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\ue25f\-\*\d]+\s*(?=[BMDPCbmdpc]\.[A-Za-z])', '', education_section_text, flags=re.MULTILINE)
+    education_section_text = re.sub(r'(?<=[A-Za-z]\.[A-Za-z]\.)(in|of|from)\b', r' \1', education_section_text, flags=re.IGNORECASE)
     raw_lines = [l.strip() for l in education_section_text.strip().split("\n") if l.strip()]
+    raw_lines = [
+        l for l in raw_lines
+        if not re.search(r'\b(?:certified\s+rewards|iso\s*9001|hrms:|posh\s+committee|positioning\s+note|whistleblower)\b', l, re.I)
+    ]
+    expanded_raw = []
+    for l in raw_lines:
+        if "|" in l:
+            parts = [p.strip() for p in l.split("|") if p.strip()]
+            if len(parts) >= 2 and all(match_degree(p)[0] for p in parts):
+                expanded_raw.extend(parts)
+                continue
+        expanded_raw.append(l)
+    raw_lines = expanded_raw
+
     lines = []
     i = 0
     while i < len(raw_lines):
         line = re.sub(r'\b([BMDPCbmdpc])\.\s+([A-Za-z]+)\b', r'\1.\2', raw_lines[i])
-        if i + 1 < len(raw_lines) and re.match(r'^(?:institute|institution|college|university|board)\s*:', raw_lines[i+1], re.IGNORECASE):
+        if i + 1 < len(raw_lines) and raw_lines[i+1].startswith(":"):
+            val = re.sub(r'^:\s*', '', raw_lines[i+1]).strip()
+            if re.match(r'^(?:board|institute|institution|college|university)\b', line, re.I):
+                lines.append(val)
+            elif re.match(r'^(?:cgpa|cgpi|sgpa|gpa|grade|percentage|marks)\b', line, re.I):
+                lines.append(f"{line}: {val}")
+            else:
+                lines.append(f"{line} {val}")
+            i += 2
+        elif i + 1 < len(raw_lines) and re.match(r'^(?:institute|institution|college|university|board)\s*:', raw_lines[i+1], re.IGNORECASE):
             lines.append(line + " | " + raw_lines[i+1])
             i += 2
         else:
@@ -790,14 +885,29 @@ def extract_education(education_section_text: str, full_text: str = "") -> dict:
     current = _new_current()
 
     in_bullet_achievement = False
+    _ACH_VERB_RE = re.compile(
+        r'\b(?:qualified|cleared|passed|secured|ranked|achieved|completed|earned|'
+        r'excelled|topped|received|obtained|awarded|performed|attempted)\b',
+        re.IGNORECASE
+    )
     for line_idx, line in enumerate(lines):
         line = re.sub(r'\b([BMDPCbmdpc])\.\s+([A-Za-z]+)\b', r'\1.\2', line)
         canonical, category, degree_start, degree_end = match_degree(line)
+
+        # Suppress degree triggers from achievement/prose bullet sentences.
+        # e.g. "▪ Qualified CA Foundation in First Attempt (70+)" — the degree
+        # is mentioned as an achievement, not as an education record header.
+        if canonical and re.match(r'^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\ue25f\-\*]+\s*', line):
+            prefix = line[:degree_start] if degree_start is not None else line
+            if _ACH_VERB_RE.search(prefix):
+                canonical, category, degree_start, degree_end = None, None, None, None
 
         if not canonical:
             if re.match(r'^\s*(?:organizational\s+experience|work\s+experience|employment\s+history|professional\s+experience)\b', line, re.IGNORECASE):
                 break
             if re.match(r'^\s*LABEL:\s*(?:skills|summary|personal_details|languages|certifications)\b', line, re.IGNORECASE):
+                break
+            if re.match(r'^\s*(?:extra[\s-]?curricular(?:\s*activities)?|extracurricularactivities|declaration|personal\s+details|projects?|certifications?|awards?|achievements?)\b', line, re.IGNORECASE):
                 break
             if re.match(r'^\s*LABEL:\s*experience\b', line, re.IGNORECASE):
                 next_lines = [l for l in lines[line_idx+1:line_idx+3] if l.strip()]
@@ -835,7 +945,7 @@ def extract_education(education_section_text: str, full_text: str = "") -> dict:
                     degree_conflict = False
 
         year_before_degree_conflict = False
-        if current["degree_name"] and YEAR_RE.search(line):
+        if not canonical and current["degree_name"] and YEAR_RE.search(line):
             for k in range(line_idx + 1, min(len(lines), line_idx + 4)):
                 next_canon, _, _, _ = match_degree(lines[k])
                 if next_canon and next_canon != current["degree_name"]:
@@ -927,6 +1037,38 @@ def extract_education(education_section_text: str, full_text: str = "") -> dict:
         else:
             cleaned_entries.append(entry)
     education_entries = cleaned_entries
+
+    # Dual degree reconciliation: if an entry mentions "Dual Degree" or multiple degrees joined by "+" (e.g. "B.Tech + M.Tech"),
+    # and is followed by constituent degree entries lacking an institution, propagate the parent's institution and date range,
+    # and retire the redundant parent placeholder.
+    dual_reconciled = []
+    idx = 0
+    while idx < len(education_entries):
+        e = education_entries[idx]
+        deg_str = (e.get("degree") or "").lower()
+        if "dual degree" in deg_str or ("+" in deg_str and any(d in deg_str for d in ("b.tech", "m.tech", "btech", "mtech", "b.sc", "m.sc", "bs", "ms"))):
+            constituents = []
+            next_idx = idx + 1
+            while next_idx < len(education_entries):
+                next_e = education_entries[next_idx]
+                if not next_e.get("institution") and next_e.get("degree_name"):
+                    constituents.append(next_e)
+                    next_idx += 1
+                else:
+                    break
+            if constituents:
+                for c in constituents:
+                    c["institution"] = e.get("institution")
+                    c["year"] = c.get("year") or e.get("year")
+                    c["gpa"] = c.get("gpa") or e.get("gpa")
+                    c["_confidence"] = max(c["_confidence"], e.get("_confidence", 0.95))
+                    c["_needs_review"] = False
+                    dual_reconciled.append(c)
+                idx = next_idx
+                continue
+        dual_reconciled.append(e)
+        idx += 1
+    education_entries = dual_reconciled
 
     ca_inst = next((e["institution"] for e in education_entries if e["degree_name"] in ("CA Final", "CA Intermediate", "CA Foundation", "CA") and e["institution"] and "India" in e["institution"]), None)
     if not ca_inst:

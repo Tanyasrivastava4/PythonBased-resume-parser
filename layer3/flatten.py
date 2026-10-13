@@ -7,6 +7,7 @@ next to every field so confidence is visible without nesting each
 value into an object.
 """
 
+import re
 from pathlib import Path
 
 from layer3.assemble import build_resume_record, parse_segmented_file
@@ -106,6 +107,13 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
     company_details += [_fmt_experience_line(i, j) for i, j in enumerate(exp["jobs"], 1)]
 
     languages_text = sections.get("languages", "")
+    if not languages_text:
+        pd_text = sections.get("personal_details", "")
+        m = re.search(r"(?:languages\s*known|spoken\s*languages|languages)\s*[:\-]\s*([^\n]+)", full_text, re.I)
+        if m:
+            languages_text = m.group(1)
+        elif pd_text:
+            languages_text = pd_text
 
     flat = {
         "email": contact["email"]["value"],
@@ -142,7 +150,7 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
         "skills": record["skills"]["items"],
         "skills_confidence": record["skills"]["_confidence"],
 
-        "languages": _extract_languages_simple(languages_text, full_text),
+        "languages": _extract_languages_simple(languages_text),
         "languages_confidence": None,  # no dedicated language extractor yet — see note below
 
         "total_experience": te["total_years"],

@@ -3,10 +3,15 @@
     "category": "10th",
     "aliases": [
       "10th",
+      "xth",
       "x std",
+      "std x",
+      "standard x",
       "ssc",
       "secondary school certificate",
       "class 10",
+      "class x",
+      "class 10th",
       "grade 10",
       "matriculation",
       "matric",
@@ -18,10 +23,17 @@
     "category": "12th",
     "aliases": [
       "12th",
+      "xii",
+      "xiith",
       "xii std",
+      "std xii",
+      "standard xii",
       "hsc",
       "higher secondary certificate",
       "class 12",
+      "class xii",
+      "class 12th",
+      "10+2",
       "grade 12",
       "senior secondary",
       "intermediate",
@@ -83,6 +95,13 @@
     "aliases": [
       "pgdba",
       "post graduate diploma in business analytics"
+    ]
+  },
+  "PGDBM": {
+    "category": "diploma",
+    "aliases": [
+      "pgdbm",
+      "post graduate diploma in business management"
     ]
   },
   "B.Tech": {
@@ -190,7 +209,8 @@
     "category": "bachelors",
     "aliases": [
       "bca",
-      "bachelor of computer applications"
+      "bachelor of computer applications",
+      "bachelor of computer application"
     ]
   },
   "B.Pharm": {
@@ -324,7 +344,15 @@
       "m.com",
       "mcom",
       "m com",
-      "master of commerce"
+      "master of commerce",
+      "master's degree in commerce",
+      "master’s degree in commerce",
+      "masters degree in commerce",
+      "master degree in commerce",
+      "master's in commerce",
+      "master’s in commerce",
+      "masters in commerce",
+      "master in commerce"
     ]
   },
   "MBA": {
@@ -340,7 +368,8 @@
     "category": "masters",
     "aliases": [
       "mca",
-      "master of computer applications"
+      "master of computer applications",
+      "master of computer application"
     ]
   },
   "M.Pharm": {
@@ -378,7 +407,6 @@
     "category": "masters",
     "aliases": [
       "m.arch",
-      "march",
       "master of architecture"
     ]
   },
@@ -454,6 +482,37 @@
       "doctor of literature"
     ]
   },
+  "CA Final": {
+    "category": "professional_certification",
+    "aliases": [
+      "ca final",
+      "ca-final",
+      "chartered accountant final"
+    ]
+  },
+  "CA Intermediate": {
+    "category": "professional_certification",
+    "aliases": [
+      "ca intermediate",
+      "ca-intermediate",
+      "ca inter",
+      "ca-inter",
+      "cainter",
+      "ca ipcc",
+      "ca-ipcc",
+      "ipcc"
+    ]
+  },
+  "CA Foundation": {
+    "category": "professional_certification",
+    "aliases": [
+      "ca foundation",
+      "ca-foundation",
+      "ca cpt",
+      "ca-cpt",
+      "cpt"
+    ]
+  },
   "CA": {
     "category": "professional_certification",
     "aliases": [
@@ -464,7 +523,9 @@
   "CS": {
     "category": "professional_certification",
     "aliases": [
-      "company secretary"
+      "company secretary",
+      "associate member of the institute of company secretaries of india",
+      "associate company secretary"
     ]
   },
   "CMA": {
@@ -480,6 +541,32 @@
     "aliases": [
       "cfa",
       "chartered financial analyst"
+    ]
+  },
+  "Bachelor": {
+    "category": "bachelors",
+    "aliases": [
+      "bachelor",
+      "bachelors",
+      "bachelor's",
+      "bachelor degree",
+      "bachelor's degree",
+      "bachelors degree",
+      "bachelor of accounting",
+      "bachelor of professional accounting"
+    ]
+  },
+  "Master": {
+    "category": "masters",
+    "aliases": [
+      "master",
+      "masters",
+      "master's",
+      "master degree",
+      "master's degree",
+      "masters degree",
+      "master of accounting",
+      "master of professional accounting"
     ]
   }
 }

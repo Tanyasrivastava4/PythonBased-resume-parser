@@ -1411,6 +1411,22 @@ BATCH_5_ADDITIONS = {
 
 MODERN_TECH_SKILLS.update(BATCH_5_ADDITIONS)
 
+BATCH_6_ADDITIONS = {
+    # ── G Vinay Venkata Sai (Financial Markets / Trading Analytics) ──
+    "Apache Impala": (["impala", "cloudera impala"], "database"),
+    "Trade Lifecycle": (["trade lifecycle analytics", "trade life cycle"], "finance"),
+    "Order Book Analysis": (["order book", "order book dynamics"], "finance"),
+    "Impact Cost": (["impact cost analysis", "liquidity impact cost"], "finance"),
+    "Liquidity Metrics": (["liquidity monitoring", "market liquidity"], "finance"),
+    "Corporate Actions": (["corporate actions adjustments", "corporate action adjustments"], "finance"),
+    "Equity & Derivatives": (["equity and derivatives", "derivatives market", "derivatives markets"], "finance"),
+    "Regulatory Reporting": (["regulatory reporting support", "regulatory analytics"], "compliance"),
+    "Functional Requirements Document": (["frd"], "business_analysis"),
+    "Gap Analysis": ([], "business_analysis"),
+}
+
+MODERN_TECH_SKILLS.update(BATCH_6_ADDITIONS)
+
 
 # ── Bug fixes: aliases that were lost, missing, or too narrow on
 # existing entries, confirmed against real extraction output (batch 5
@@ -1844,7 +1860,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Build skills_taxonomy.json from O*NET + custom modern tech skills"
     )
-    parser.add_argument("--onet", default="Software_Skills.txt")
+    default_onet = "Software Skills.txt" if Path("Software Skills.txt").exists() else "Software_Skills.txt"
+    parser.add_argument("--onet", default=default_onet)
     parser.add_argument("--output", default="data/skills_taxonomy.json")
     args = parser.parse_args()
     build_taxonomy(args.onet, args.output)

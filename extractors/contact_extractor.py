@@ -79,7 +79,7 @@ PHONE_PATTERN = re.compile(
 )
 
 LINKEDIN_PATTERN = re.compile(
-    r"(?:https?://)?(?:www\.)?(?:linkedin\.com/(?:in|pub|profile)/|in/|linkedin/)((?:[\w\-]+[\s\-]*){1,10})/?",
+    r"(?:https?://)?(?:www\.)?(?:linkedin\.com/(?:in|pub|profile)/|(?:(?<![a-zA-Z0-9.])\bin/)|linkedin/)((?:[\w\-]+[\s\-]*){1,10})/?",
     re.IGNORECASE
 )
 
@@ -126,7 +126,7 @@ NON_NAME_BLACKLIST = {
     "personal summary", "professional summary", "career summary",
     "core competencies", "professional experience", "work experience",
     "technical skills", "key skills", "education", "certifications",
-    "projects", "objective", "summary", "contact", "contact information",
+    "projects", "objective", "summary", "about me", "about", "contact", "contact information",
     "date of birth", "dob", "birth date", "gender", "nationality",
     "marital status", "passport", "location", "father's name", "father name",
     "first name, surname", "first name", "surname", "last name",
@@ -135,12 +135,18 @@ NON_NAME_BLACKLIST = {
     "linkedin", "github", "behance", "dribbble", "portfolio", "location", "address", "linkedin id", "github id",
     "ccna", "ccnp", "ccie", "pmp", "cissp", "cisa", "aws", "gcp", "azure", "itil", "ceh", "fortinet",
     "tcp", "udp", "mpls", "ospf", "bgp", "eigrp",
+    # Professional designations that appear in headers but are NOT names
+    "chartered accountant", "ca", "cpa", "cfa", "fca", "aca", "acca", "cs", "cwa",
+    "software engineer", "data scientist", "data analyst", "business analyst",
+    "project manager", "product manager", "human resources", "hr professional",
 }
 
 TITLE_WORDS = {
     "consultant", "engineer", "developer", "manager", "analyst", "lead",
     "specialist", "architect", "director", "executive", "administrator",
     "coordinator", "designer", "officer", "intern", "resume", "profile",
+    # Finance / professional titles that appear as standalone header lines
+    "accountant", "auditor", "chartered", "treasurer", "controller",
 }
 
 NAME_LINE_PATTERN = re.compile(r"^[A-Z][a-zA-Z.\-']*(?:\s+[a-zA-Z.\-']+){0,3}$")
@@ -156,6 +162,7 @@ def _strip_known_matches(text: str) -> str:
     cleaned = EMAIL_PATTERN.sub(" ", text)
     cleaned = LINKEDIN_PATTERN.sub(" ", cleaned)
     cleaned = GITHUB_PATTERN.sub(" ", cleaned)
+    cleaned = re.sub(r'\b(?:ISO(?:/IEC)?\s*)?\d{4,5}[-:]\d{4}\b', ' ', cleaned, flags=re.IGNORECASE)
     return cleaned
 
 
@@ -204,16 +211,23 @@ def clean_phone(raw_phone: str) -> str:
     """
     Cleans and validates a raw phone-number-shaped string.
     """
-    raw_phone_fix = re.sub(r'(?<=\d|\+|-)\s+(?=\d|-)', '', raw_phone)
+    raw_phone_fix = re.sub(r'^\+91\)\s*', '+91 ', raw_phone)
+    raw_phone_fix = re.sub(r'(?<=\d|\+|-)\s+(?=\d|-)', '', raw_phone_fix)
     digits_only = re.sub(r"\D", "", raw_phone_fix)
 
     if len(digits_only) < 7 or len(digits_only) > 15:
+        return None
+
+    if not any(c in raw_phone for c in ('+', '-', ' ', '(', ')')) and len(digits_only) not in (10, 11, 12):
         return None
 
     if PHONE_BLACKLIST.match(digits_only):
         return None
 
     if re.search(r"(19|20)\d{2}(19|20)\d{2}", digits_only):
+        return None
+
+    if re.search(r"\((?:19|20)\d{2}\)", raw_phone):
         return None
 
     if _is_date_of_birth(raw_phone_fix):
@@ -243,8 +257,8 @@ def extract_header_section(full_text: str) -> str:
     if header_lines:
         return "\n".join(header_lines)
 
-    # Fallback: no Layer 1 labels present -- use first 5 non-empty lines.
-    lines = [l for l in full_text.splitlines() if l.strip()][:5]
+    # Fallback: no Layer 1 labels present -- use first 10 non-empty lines.
+    lines = [l for l in full_text.splitlines() if l.strip()][:10]
     return "\n".join(lines)
 
 
@@ -268,13 +282,31 @@ def _is_address_line(line: str) -> bool:
 
 def _is_blacklisted_line(line: str) -> bool:
     lowered = line.strip().lower()
-    if lowered in NON_NAME_BLACKLIST:
+    if (
+        lowered in NON_NAME_BLACKLIST
+        or lowered.replace("-", " ") in NON_NAME_BLACKLIST
+        or lowered.replace(" ", "") in {"emailid", "email", "phone", "mobile", "contact", "page", "dateofbirth", "dob"}
+    ):
         return True
     return any(w in TITLE_WORDS for w in lowered.split())
 
 
 def _regex_name_candidate(header_text: str) -> Optional[str]:
     candidates = []
+    # Pre-scan: look for OCR-fragmented all-caps names like "g GOPALI and SINGLA"
+    # (single lowercase letter prefix + all-caps tokens joined by 'and'/'&').
+    # These get rejected by NAME_LINE_PATTERN but are clearly names.
+    for raw_line in header_text.splitlines():
+        line = raw_line.strip()
+        m_ocr = re.match(
+            r'^[a-z]\s+([A-Z]{2,}(?:\s+(?:and|&)\s+[A-Z]{2,})+)$', line
+        )
+        if m_ocr:
+            # "g GOPALI and SINGLA" -> "GOPALI SINGLA"
+            parts = re.split(r'\s+(?:and|&)\s+', m_ocr.group(1))
+            candidate = " ".join(p.capitalize() for p in parts)
+            if 2 <= len(candidate.split()) <= 4 and not _is_blacklisted_line(candidate):
+                return candidate
     for raw_line in header_text.splitlines():
         line = raw_line.strip()
         line = re.sub(r"^[\s:\-]+", "", line).strip()
@@ -292,6 +324,7 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
             part = NAME_PREFIX_CLEANER.sub("", part).strip()
             part = re.sub(r"\s*\.\s*", " ", part).strip()
             part = re.sub(r"\s*\([^)]*(?:exp|years?|yrs?|yr|experience)[^)]*\)", "", part, flags=re.I).strip()
+            part = re.sub(r"(?:,\s*|\s+[-–—]\s+|\s*\()\s*(?:CA\s*(?:ANZ)?|CPA|CFA|PMP|ACCA|FCA|ACA|PhD|Ph\.D\.?|MD|MBBS|PE|ESQ|JD|MBA(?:\s*[-–—/]\s*PGDM)?|PGDM)\)?\s*$", "", part, flags=re.I).strip()
             part = re.sub(r"[,]", " ", part)
             # Normalize spaced-out names (e.g. "N I L E S H   S H I V R A M   M A G A R E" or "N i l e s h S h i v r a m M a g a r e")
             if re.search(r"^(?:[a-zA-Z]\s+){2,}[a-zA-Z]$", part):
@@ -339,7 +372,21 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
 
     if candidates:
         candidates.sort(key=lambda x: x[0], reverse=True)
-        return candidates[0][1]
+        best_name = candidates[0][1]
+        b_words = best_name.split()
+        if len(b_words) == 2 and len(b_words[0]) == 1 and len(b_words[1]) >= 3:
+            merged_first = (b_words[0] + b_words[1]).lower()
+            if merged_first in header_text.lower():
+                surname = None
+                for _, other_cand in candidates[1:]:
+                    if not _is_blacklisted_line(other_cand) and len(other_cand.split()) == 1 and len(other_cand) >= 3 and other_cand.lower() != b_words[1].lower():
+                        surname = other_cand
+                        break
+                if surname:
+                    best_name = f"{merged_first.capitalize()} {surname.capitalize()}"
+                else:
+                    best_name = merged_first.capitalize()
+        return best_name
 
     return None
 
@@ -409,6 +456,17 @@ def extract_contact(full_text: str) -> dict:
         "website": {"value": None, "confidence": 0.0, "method": "regex"},
     }
 
+    glyph_map = {
+        "Ʃ": "tt",
+        "ƫ": "tt",
+        "Ɵ": "ti",
+        "Ō": "ft",
+        "ō": "ft",
+    }
+    for k, v in glyph_map.items():
+        if k in full_text:
+            full_text = full_text.replace(k, v)
+
     # Reconnect emails line-wrapped across line breaks (e.g. user@gm\nail.com -> user@gmail.com or user@gmail.c\nom -> user@gmail.com)
     def _fix_wrapped_email(m):
         email_part = m.group(1)
@@ -456,11 +514,12 @@ def extract_contact(full_text: str) -> dict:
     linkedin_match = LINKEDIN_PATTERN.search(full_text_clean)
     if linkedin_match:
         username = linkedin_match.group(1).strip()
+        username = username.splitlines()[0].strip()
         tokens = username.split()
         valid_tokens = []
         for tok in tokens:
             tok_clean = tok.strip()
-            if tok_clean.upper() in ("PROFILE", "SUMMARY", "EXPERIENCE", "WORK", "EDUCATION", "SKILLS", "PROJECTS", "AWARDS", "INTERESTS", "CERTIFICATIONS", "LANGUAGES", "CONTACT", "IN"):
+            if tok_clean.upper() in ("PROFESSIONAL", "PROFILE", "SUMMARY", "EXPERIENCE", "WORK", "EDUCATION", "SKILLS", "PROJECTS", "AWARDS", "INTERESTS", "CERTIFICATIONS", "LANGUAGES", "CONTACT", "IN", "SENIOR", "MANAGEMENT", "DIRECTOR", "ENGINEER", "MANAGER", "LEAD", "ANALYST", "DEVELOPER"):
                 break
             valid_tokens.append(tok_clean)
         username = "-".join(valid_tokens).strip('-')
@@ -485,7 +544,7 @@ def extract_contact(full_text: str) -> dict:
 
     # ── PHONE ──────────────────────────────────────────────
     phone_search_text = _strip_known_matches(full_text_clean)
-    phone_search_text = re.sub(r'(?<=\d|\+|-)\s+(?=\d|-)', '', phone_search_text)
+    phone_search_text = re.sub(r'(?<=\d|\+|-)[ \t]+(?=\d|-)', '', phone_search_text)
     found_phones = []
     seen_digit_keys = set()
     for raw_match in PHONE_PATTERN.findall(phone_search_text):
@@ -498,8 +557,8 @@ def extract_contact(full_text: str) -> dict:
                 if len(found_phones) >= 2:
                     break
 
-    if len(found_phones) < 2:
-        for m in re.findall(r'\b[6-9]\d{8,9}\b', full_text_clean[:1000]):
+    if not found_phones:
+        for m in re.findall(r'\b[6-9]\d{9}\b', full_text_clean[:1000]):
             cleaned = clean_phone(m) or m.strip()
             digit_key = re.sub(r'\D', '', cleaned)[-10:]
             if digit_key and digit_key not in seen_digit_keys:
@@ -523,7 +582,14 @@ def extract_contact(full_text: str) -> dict:
         val = website_match.group(1).strip()
         val_clean = val.rstrip('.').lower()
         # Reject academic degrees & programming languages/libraries (e.g. B.Com, Vb.net, ASP.net, Socket.io) matching generic website TLDs
-        if val_clean not in {"b.com", "m.com", "d.com", "e.com", "bcom", "mcom", "vb.net", "asp.net", "c#.net", "dot.net", "vbnet", "aspnet", "socket.io", "nest.js", "node.js", "next.js", "vue.js", "react.js", "express.js"} and not re.search(r'^(?:b|m|d|e)\.com$', val_clean, re.I):
+        _NON_PERSONAL_DOMAINS = (
+            "google.com", "drive.google.com", "colab.research.google.com",
+            "scrum.org", "credly.com", "coursera.org", "udemy.com",
+            "microsoft.com", "oracle.com", "github.com", "linkedin.com"
+        )
+        if (val_clean not in {"b.com", "m.com", "d.com", "e.com", "bcom", "mcom", "vb.net", "asp.net", "c#.net", "dot.net", "vbnet", "aspnet", "socket.io", "nest.js", "node.js", "next.js", "vue.js", "react.js", "express.js"}
+            and not re.search(r'^(?:b|m|d|e)\.com$', val_clean, re.I)
+            and not any(val_clean.startswith(d) for d in _NON_PERSONAL_DOMAINS)):
             result["website"] = {
                 "value": val,
                 "confidence": 0.85,

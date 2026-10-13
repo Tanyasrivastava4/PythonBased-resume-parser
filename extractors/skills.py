@@ -221,7 +221,9 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
         sections.get("summary", "") or "",
         tech_forte,
         sections.get("header", "") or "",
-        sections.get("experience", "") or ""
+        sections.get("experience", "") or "",
+        sections.get("projects", "") or "",
+        sections.get("languages", "") or ""
     ])
     skills_text = skills_text.replace("\n", " ")
     skills_text = " ".join(skills_text.split())
@@ -300,7 +302,7 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
             found_skills.remove("Swift")
 
     if ".NET" in found_skills and full_text:
-        if not re.search(r'\b(?:\.net|dotnet|asp\.net|vb\.net|c#|aspnet)\b', full_text, re.I) and re.search(r'\bnet\s+(?:billing|income|price|worth|sales|revenue|profit|collections?)\b', full_text, re.I):
+        if not re.search(r'(?:\.net\b|dotnet\b|asp\.net|vb\.net|\bc#\b|aspnet)', full_text, re.I):
             found_skills.remove(".NET")
 
     if "Business Development" in found_skills and full_text:
