@@ -1,0 +1,263 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+HARISH KUMAWAT
+Data Scientist | AI/ML Engineer
+6357772088
+harish020201@gmail.com
+
+────────────────────────────────────────────────────────────
+LABEL: summary   CONFIDENCE: 0.95   START LINE: 2
+────────────────────────────────────────────────────────────
+Data Scientist with 5 years of experience designing and deploying data-driven
+solutions to enhance business decision-making and operational efficiency.
+Strong expertise in machine learning, deep learning, generative AI, and advanced
+analytics, with hands-on experience building scalable models and end-to-end AI
+systems.
+Proven ability to transform complex datasets into actionable insights through
+predictive modeling, NLP solutions, and AI-powered applications.
+Experienced in developing and optimizing data pipelines, feature engineering, and
+model evaluation to improve performance and accuracy.
+Hands-on experience with Generative AI, LLMs, and Agentic AI frameworks to
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 13
+────────────────────────────────────────────────────────────
+Skilled in translating business problems into data science solutions, delivering
+measurable impact and driving strategic outcomes.
+2021 - Present
+HCL Technologies
+Data Scientist with 5 years of experience building
+Contact
+machine learning, deep learning, and generative AI
+solutions to drive business insights and operational
+Phone
+efficiency.
+Experienced in developing scalable pipelines,
+Email
+predictive models, and AI-powered applications in
+enterprise environments.
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 31
+────────────────────────────────────────────────────────────
+Developed and deployed machine learning
+2017-2021
+models (classification, regression, clustering) to
+Bachelors of Technology,
+solve business problems and improve decision-
+CSE
+making.
+JE CRC University
+Performed EDA, data preprocessing, and feature
+engineering on large structured and semi-
+2016-2017
+structured datasets.
+ST Anslems School
+Built end-to-end ML pipelines using Python and
+CBSE
+SQL, covering data ingestion, model training, and
+deployment.
+
+────────────────────────────────────────────────────────────
+LABEL: languages   CONFIDENCE: 0.95   START LINE: 49
+────────────────────────────────────────────────────────────
+Implemented deep learning, NLP, and Generative
+AI solutions for automation, document
+English
+processing, and knowledge retrieval.
+Explored Agentic AI workflows to enable multi-
+Hindi
+step task automation.
+Collaborated with cross-functional teams to
+deliver scalable data-driven solutions.
+
+TECHNICAL STACK
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 61
+────────────────────────────────────────────────────────────
+Strong command of Python and SQL for data processing, querying, and building scalable
+data systems.
+Adept at writing optimized, production-grade code and managing high-volume datasets.
+Machine Learning & Deep Learning
+Hands-on experience in machine learning and deep learning using Scikit-learn and TensorFlow.
+Applied techniques including classification, regression, clustering, along with feature
+engineering, model validation, and hyperparameter optimization.
+LLM Engineering & Generative AI
+Practical experience working with LLMs, prompt design, and RAG-based architectures.
+Skilled in using LangChain, along with OpenAI APIs and HuggingFace Transformers, to
+develop intelligent AI applications.
+Familiar with context handling and retrieval optimization for improving model responses.
+Agentic AI Systems
+Experience building agent-based systems with multi-agent coordination and autonomous
+workflows.
+Proficient in task orchestration, tool integration, and step-wise automation for complex
+problem- solving.
+Natural Language Processing (NLP)
+Solid understanding of text processing techniques, including entity extraction, document
+parsing, and text analytics.
+Developed NLP-driven solutions for practical business use cases.
+Data Analysis & Visualization
+Experienced in EDA, data wrangling, and transformation using NumPy and Pandas.
+Created visual insights using Seaborn to support data-driven decisions.
+Vector Databases & AI Systems
+Worked with vector databases such as Chroma, Weaviate, and Pinecone for embedding-
+based retrieval and semantic search.
+Integrated these systems into LLM-powered pipelines for enhanced knowledge retrieval.
+MLOps & Model Deployment
+Familiar with end-to-end ML lifecycle practices, including experiment tracking and model
+versioning using MLflow and Weights & Biases.
+Experience deploying models via FastAPI, Docker, and RESTful services.
+Basic exposure to model monitoring and performance tracking in production.
+Data Engineering & Processing
+Built data pipelines and ETL workflows using Python and SQL for both structured and
+unstructured data.
+Developed feature pipelines to support scalable ML systems.
+Frameworks & API Development
+Experienced in building robust APIs using Flask and FastAPI for integrating ML models
+into applications.
+Cloud & Tools
+Hands-on experience with AWS for deploying and managing data and AI workloads.
+Proficient in GitHub for version control and collaborative development.
+
+PROJECT 1: AGENTIC AI AUTONOMOUS RESEARCH ASSISTANT
+Project Overview
+Designed and developed an Agentic AI-based autonomous research assistant
+capable of
+handling complex queries by performing multi-step reasoning, retrieving
+information from
+multiple sources, analyzing documents, and generating structured insights. The
+system
+leverages LLMs and multi-agent architecture to automate research workflows and
+enable
+intelligent decision support.
+Responsibilities
+Designed and implemented a multi-agent architecture using LangChain
+Agents to handle task orchestration and execution.
+Developed task planning and decomposition modules to break down complex
+queries into smaller, manageable sub-tasks.
+Integrated external tools such as search APIs, document retrieval systems,
+and data analysis modules to enhance agent capabilities.
+Built a reasoning pipeline enabling LLMs to dynamically decide tool usage and
+execution flow.
+Implemented memory modules to maintain context across multi-step
+interactions and improve response consistency.
+Developed and deployed scalable backend services using FastAPI, with
+containerization via Docker
+Technologies
+Python, LangChain Agents,LLMs
+Vector Databases (Chroma / Pinecone \Weaviate)
+FastAPI, Docker
+Business Impact
+Reduced manual research effort by ~70%, improving productivity and
+turnaround time.
+Enabled automated report generation and faster knowledge discovery
+across domains.
+Demonstrated practical implementation of Agentic AI systems for
+enterprise-level analytics and decision support.
+
+PROJECT 2: GEN-AI – ENTERPRISE KNOWLEDGE ASSISTANT (RAG
++ INTELLIGENT SEARCH)
+Project Overview
+Designed and developed an Agentic AI-powered autonomous research and
+decision support system capable of handling complex, multi-step queries through
+dynamic reasoning, tool orchestration, and contextual understanding. The solution
+leverages LLMs and multi-agent architecture to automate research workflows,
+document analysis, and insight generation, enabling faster and more accurate
+decision-making in enterprise environments. Responsibilities
+The system integrates LLMs with vector databases to provide accurate, context-
+aware responses by retrieving relevant information from internal documents,
+policies, and knowledge bases.
+Responsibilities
+Built RAG pipeline combining LLM with vector database for contextual
+retrieval
+Implemented document ingestion pipeline for PDFs, reports, and structured
+data
+Developed embedding-based search system using FAISS / Pinecone
+Designed chunking and indexing strategy for efficient retrieval
+Integrated semantic search + LLM reasoning for better answers
+Applied prompt engineering to improve response quality
+Built backend APIs using FastAPI for real-time query handling
+Implemented caching and optimization for faster response
+Technologies
+Technologies
+Python, LangChain
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 172
+────────────────────────────────────────────────────────────
+LLMs (GPT / LLaMA)
+FastAPI, Docker
+Business Impact
+Reduced information retrieval time by 60–70%
+Improved decision-making with accurate contextual answers
+Enabled self-service knowledge access across teams
+
+PROJECT 3: NLP & MACHINE LEARNING – CUSTOMER SUPPORT
+AUTOMATION SYSTEM
+Project Overview
+Developed an NLP-driven customer support automation system to streamline
+query classification, prioritization, and resolution workflows. The solution
+leverages machine learning and NLP techniques to analyze customer interactions,
+automate responses, and assist support teams with intelligent recommendations,
+improving overall service efficiency and response quality.
+Responsibilities
+Built NLP pipelines for text classification, sentiment analysis, and entity
+extraction on customer queries.
+Developed machine learning models to automate query routing,
+prioritization, and response recommendations.
+Performed data preprocessing, feature engineering, and exploratory data
+analysis (EDA) on large-scale customer interaction datasets.
+Designed and deployed real-time inference APIs using FastAPI, with Docker-
+based deployment for scalability.
+Evaluated and optimized models using cross-validation, performance
+metrics, and hyperparameter tuning to improve accuracy.
+Collaborated with product and operations teams to align solutions with
+business requirements and user needs.
+Technologies
+Python, Machine Learning, NLP
+Scikit-learn, Pandas, NumPy
+FastAPI, Docker, AWS
+Business Impact
+Improved first-contact resolution rate, reducing support escalations by
+~40%.
+Automated query classification and routing, significantly lowering manual
+workload for support teams.
+Enhanced customer experience through faster and more accurate
+response handling.
+
+PROJECT 4: AI LOAN APPROVAL & RISK SCORING SYSTEM
+(ADVANCED)
+Project Overview
+Designed and developed an AI-driven loan approval and risk scoring system to
+automate credit decision-making using customer financial behavior, transaction
+history, and alternative data sources.
+The system predicts default risk and assigns a dynamic risk score, enabling faster
+and more accurate loan approvals with improved risk control.
+Responsibilities
+Performed EDA to identify key financial risk patterns and customer behavior
+trends
+Built advanced feature engineering pipeline including credit utilization ratio,
+payment consistency, and income stability
+Trained models like Logistic Regression, Random Forest, and XGBoost
+Developed a risk scoring system (scorecard style) for business interpretability
+Applied hyperparameter tuning to optimize performance
+Implemented model explainability using SHAP to ensure transparency
+Designed threshold-based decision system for loan approval/rejection
+Built APIs using FastAPI for real-time credit risk scoring
+Technologies
+Python, Scikit-learn, XGBoost
+Pandas, SHAP
+FastAPI
+Business Impact
+Improved loan approval decision speed by 40%
+Reduced default risk through better risk segmentation
+Enabled automated decision-making system for credit evaluation
+
+Links:
+https://en.wikipedia.org/wiki/JECRC_University
+
+────────────────────────────────────────────────────────────
+[Found 7 sections total: ['header', 'summary', 'experience', 'experience', 'languages', 'skills', 'experience']]
