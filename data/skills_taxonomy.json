@@ -25182,6 +25182,7 @@
     "aliases": [
       "mobile responsive design",
       "responsive design",
+      "responsive ui",
       "responsivewebdesign"
     ],
     "category": "web_framework",
@@ -25287,6 +25288,7 @@
   "Data Modeling": {
     "aliases": [
       "data model design",
+      "data modelling",
       "datamodeling",
       "dimensional modeling"
     ],
@@ -26789,6 +26791,7 @@
   },
   "Predictive Analytics": {
     "aliases": [
+      "predictive modeling",
       "predictiveanalytics"
     ],
     "category": "data_science",
@@ -27162,13 +27165,18 @@
     "source": "custom"
   },
   "Identity and Access Management": {
-    "aliases": [],
+    "aliases": [
+      "iam",
+      "identity & access management"
+    ],
     "category": "security_ops",
     "source": "custom"
   },
   "FortiGate": {
     "aliases": [
-      "forti gate"
+      "forti gate",
+      "fortigate firewall",
+      "fortinet"
     ],
     "category": "security_ops",
     "source": "custom"
@@ -27321,7 +27329,7 @@
   ".NET": {
     "aliases": [
       "dot net",
-      "dotnet"
+      "net"
     ],
     "category": "programming_language",
     "source": "custom"
@@ -28059,6 +28067,411 @@
       "gapanalysis"
     ],
     "category": "business_analysis",
+    "source": "custom"
+  },
+  "NLTK": {
+    "aliases": [
+      "natural language toolkit",
+      "nltk library"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "BeautifulSoup": {
+    "aliases": [
+      "beautiful soup",
+      "beautifulsoup4",
+      "bs4"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Feature Engineering": {
+    "aliases": [
+      "feature extraction",
+      "feature selection",
+      "featureengineering"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Random Forest": {
+    "aliases": [
+      "random forest classifier",
+      "random forest regressor",
+      "random forests",
+      "randomforest"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "KNN": {
+    "aliases": [
+      "k nearest neighbors",
+      "k-nearest neighbors",
+      "k-nn",
+      "knn classifier"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Naive Bayes": {
+    "aliases": [
+      "gaussian naive bayes",
+      "naive bayes classifier",
+      "naivebayes"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Model Evaluation": {
+    "aliases": [
+      "model performance evaluation",
+      "model validation",
+      "modelevaluation"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Logistic Regression": {
+    "aliases": [
+      "logistic regression model",
+      "logisticregression",
+      "logit regression"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Decision Tree": {
+    "aliases": [
+      "decision tree classifier",
+      "decision trees",
+      "decisiontree"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "Scrapy": {
+    "aliases": [
+      "scrapy framework",
+      "scrapy spider"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "MediaPipe": {
+    "aliases": [
+      "google mediapipe"
+    ],
+    "category": "ai_ml",
+    "source": "custom"
+  },
+  "DNS": {
+    "aliases": [
+      "dns management",
+      "dns server",
+      "domain name system"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "DHCP": {
+    "aliases": [
+      "dhcp configuration",
+      "dhcp protocol",
+      "dhcp server"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "FTP": {
+    "aliases": [
+      "file transfer protocol",
+      "ftp server",
+      "sftp/ftp"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "TCP/IP": {
+    "aliases": [
+      "tcp ip",
+      "tcp/ip protocol",
+      "transmission control protocol"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "SMTP": {
+    "aliases": [
+      "simple mail transfer protocol",
+      "smtp server"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "SSH": {
+    "aliases": [
+      "secure shell",
+      "ssh key",
+      "ssh protocol"
+    ],
+    "category": "networking",
+    "source": "custom"
+  },
+  "cPanel": {
+    "aliases": [
+      "cpanel / whm",
+      "cpanel hosting",
+      "cpanel management"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "Group Policy": {
+    "aliases": [
+      "active directory group policy",
+      "gpo",
+      "group policy objects",
+      "grouppolicy"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "IT Infrastructure Management": {
+    "aliases": [
+      "infrastructure management",
+      "it infrastructure"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "Netlify": {
+    "aliases": [
+      "netlify app",
+      "netlify deployment",
+      "netlify hosting"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Azure Data Factory": {
+    "aliases": [
+      "adf",
+      "adf pipelines",
+      "azure data factory (adf)",
+      "azuredatafactory"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "AWS Glue": {
+    "aliases": [
+      "aws glue etl",
+      "awsglue",
+      "glue",
+      "glue etl"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "DBeaver": {
+    "aliases": [
+      "dbeaver client",
+      "dbeaver community",
+      "dbeaver sql"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "ClickHouse": {
+    "aliases": [
+      "clickhouse database",
+      "clickhouse db"
+    ],
+    "category": "database",
+    "source": "custom"
+  },
+  "DLT": {
+    "aliases": [
+      "databricks dlt",
+      "delta live tables"
+    ],
+    "category": "data_engineering",
+    "source": "custom"
+  },
+  "Lakehouse Architecture": {
+    "aliases": [
+      "data lakehouse",
+      "lakehouse"
+    ],
+    "category": "data_engineering",
+    "source": "custom"
+  },
+  "Power Pivot": {
+    "aliases": [
+      "excel power pivot",
+      "power pivot excel",
+      "powerpivot"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "VLOOKUP": {
+    "aliases": [
+      "v-lookup",
+      "vlookup formula"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "XLOOKUP": {
+    "aliases": [
+      "x-lookup",
+      "xlookup formula"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "HLOOKUP": {
+    "aliases": [
+      "h-lookup",
+      "hlookup formula"
+    ],
+    "category": "data_science",
+    "source": "custom"
+  },
+  "MVVM": {
+    "aliases": [
+      "model-view-viewmodel",
+      "mvvm architecture",
+      "mvvm pattern"
+    ],
+    "category": "architecture",
+    "source": "custom"
+  },
+  "Retrofit": {
+    "aliases": [
+      "retrofit android",
+      "retrofit library",
+      "retrofit2"
+    ],
+    "category": "mobile_dev",
+    "source": "custom"
+  },
+  "Mockito": {
+    "aliases": [
+      "mockito framework",
+      "mockito unit testing"
+    ],
+    "category": "testing",
+    "source": "custom"
+  },
+  "CakePHP": {
+    "aliases": [
+      "cake php",
+      "cakephp framework"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "Composer": {
+    "aliases": [
+      "composer dependency manager",
+      "php composer"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "LWC": {
+    "aliases": [
+      "lightning web components",
+      "salesforce lwc"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "Service Cloud": {
+    "aliases": [
+      "salesforce service cloud",
+      "servicecloud"
+    ],
+    "category": "crm",
+    "source": "custom"
+  },
+  "Design Thinking": {
+    "aliases": [
+      "design thinking methodology",
+      "designthinking"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Usability Testing": {
+    "aliases": [
+      "usability tests",
+      "usabilitytesting",
+      "user testing"
+    ],
+    "category": "design",
+    "source": "custom"
+  },
+  "Cross-Browser Compatibility": {
+    "aliases": [
+      "cross browser compatibility",
+      "cross browser testing",
+      "cross-browser testing"
+    ],
+    "category": "testing",
+    "source": "custom"
+  },
+  "RBAC": {
+    "aliases": [
+      "role based access control",
+      "role-based access control"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "OTBI": {
+    "aliases": [
+      "oracle otbi",
+      "oracle transactional business intelligence"
+    ],
+    "category": "oracle_erp",
+    "source": "custom"
+  },
+  "ArcSight": {
+    "aliases": [
+      "arcsight siem",
+      "hp arcsight",
+      "micro focus arcsight"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "SentinelOne": {
+    "aliases": [
+      "sentinel one",
+      "sentinelone edr"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Symantec": {
+    "aliases": [
+      "broadcom symantec",
+      "symantec endpoint protection"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Financial Statement Analysis": {
+    "aliases": [
+      "financial statement analysis",
+      "fsa"
+    ],
+    "category": "finance",
     "source": "custom"
   }
 }

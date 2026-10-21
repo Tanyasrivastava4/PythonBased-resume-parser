@@ -1427,6 +1427,76 @@ BATCH_6_ADDITIONS = {
 
 MODERN_TECH_SKILLS.update(BATCH_6_ADDITIONS)
 
+BATCH_7_ADDITIONS = {
+    # ── AI, Machine Learning & Data Science ──
+    "NLTK": (["natural language toolkit", "nltk library"], "ai_ml"),
+    "BeautifulSoup": (["beautiful soup", "bs4", "beautifulsoup4"], "data_science"),
+    "Feature Engineering": (["feature extraction", "feature selection"], "data_science"),
+    "Random Forest": (["random forests", "random forest classifier", "random forest regressor"], "data_science"),
+    "KNN": (["k-nearest neighbors", "k nearest neighbors", "knn classifier", "k-nn"], "data_science"),
+    "Naive Bayes": (["naive bayes classifier", "gaussian naive bayes"], "data_science"),
+    "Model Evaluation": (["model validation", "model performance evaluation"], "data_science"),
+    "Logistic Regression": (["logit regression", "logistic regression model"], "data_science"),
+    "Decision Tree": (["decision trees", "decision tree classifier"], "data_science"),
+    "Scrapy": (["scrapy framework", "scrapy spider"], "data_science"),
+    "MediaPipe": (["google mediapipe"], "ai_ml"),
+
+    # ── Networking, IT Infrastructure & DevOps ──
+    "DNS": (["domain name system", "dns server", "dns management"], "networking"),
+    "DHCP": (["dhcp protocol", "dhcp server", "dhcp configuration"], "networking"),
+    "FTP": (["file transfer protocol", "ftp server", "sftp/ftp"], "networking"),
+    "TCP/IP": (["tcp ip", "transmission control protocol", "tcp/ip protocol"], "networking"),
+    "SMTP": (["simple mail transfer protocol", "smtp server"], "networking"),
+    "SSH": (["secure shell", "ssh protocol", "ssh key"], "networking"),
+    "cPanel": (["cpanel hosting", "cpanel management", "cpanel / whm"], "devops"),
+    "Group Policy": (["group policy objects", "gpo", "active directory group policy"], "devops"),
+    "IT Infrastructure Management": (["it infrastructure", "infrastructure management"], "devops"),
+    "Netlify": (["netlify hosting", "netlify deployment", "netlify app"], "cloud_infra"),
+
+    # ── Cloud, Data Engineering & Databases ──
+    "Azure Data Factory": (["adf", "azure data factory (adf)", "adf pipelines"], "cloud_infra"),
+    "AWS Glue": (["glue", "glue etl", "aws glue etl"], "cloud_infra"),
+    "DBeaver": (["dbeaver sql", "dbeaver client", "dbeaver community"], "database"),
+    "ClickHouse": (["clickhouse db", "clickhouse database"], "database"),
+    "DLT": (["delta live tables", "databricks dlt"], "data_engineering"),
+    "Lakehouse Architecture": (["data lakehouse", "lakehouse"], "data_engineering"),
+    "Power Pivot": (["powerpivot", "excel power pivot", "power pivot excel"], "data_science"),
+    "VLOOKUP": (["v-lookup", "vlookup formula"], "data_science"),
+    "XLOOKUP": (["x-lookup", "xlookup formula"], "data_science"),
+    "HLOOKUP": (["h-lookup", "hlookup formula"], "data_science"),
+
+    # ── Software, Mobile & Web Frameworks ──
+    "MVVM": (["model-view-viewmodel", "mvvm pattern", "mvvm architecture"], "architecture"),
+    "Retrofit": (["retrofit library", "retrofit android", "retrofit2"], "mobile_dev"),
+    "Mockito": (["mockito framework", "mockito unit testing"], "testing"),
+    "CakePHP": (["cakephp framework", "cake php"], "web_framework"),
+    "Composer": (["php composer", "composer dependency manager"], "dev_tool"),
+    "LWC": (["lightning web components", "salesforce lwc"], "web_framework"),
+    "Service Cloud": (["salesforce service cloud"], "crm"),
+    "Design Thinking": (["design thinking methodology"], "design"),
+    "Usability Testing": (["user testing", "usability tests"], "design"),
+    "Cross-Browser Compatibility": (["cross browser testing", "cross-browser testing"], "testing"),
+
+    # ── Cybersecurity & Enterprise ──
+    "RBAC": (["role based access control", "role-based access control"], "security"),
+    "OTBI": (["oracle transactional business intelligence", "oracle otbi"], "oracle_erp"),
+    "ArcSight": (["micro focus arcsight", "arcsight siem", "hp arcsight"], "security"),
+    "SentinelOne": (["sentinel one", "sentinelone edr"], "security"),
+    "Symantec": (["symantec endpoint protection", "broadcom symantec"], "security"),
+    "Financial Statement Analysis": (["financial statement analysis", "fsa"], "finance"),
+}
+
+MODERN_TECH_SKILLS.update(BATCH_7_ADDITIONS)
+
+# Aliases on pre-existing entries
+_add_alias("Identity and Access Management", "iam")
+_add_alias("Identity and Access Management", "identity & access management")
+_add_alias("FortiGate", "fortinet")
+_add_alias("FortiGate", "fortigate firewall")
+_add_alias("Responsive Web Design", "responsive ui")
+_add_alias("Predictive Analytics", "predictive modeling")
+_add_alias("Data Modeling", "data modelling")
+
 
 # ── Bug fixes: aliases that were lost, missing, or too narrow on
 # existing entries, confirmed against real extraction output (batch 5

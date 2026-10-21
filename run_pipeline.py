@@ -112,10 +112,14 @@ def process_resume(
         print(f"{'═' * 65}")
 
     # Layer 0: Ingestion
+    t_start = time.perf_counter()
     if input_path.suffix.lower() == ".txt":
         raw_text = input_path.read_text(encoding="utf-8")
     else:
         raw_text = read_resume_file(str(input_path))
+
+    t_ingest = time.perf_counter()
+    print(f"[TIMING] {input_path.name}: Layer 0 ingestion/OCR = {t_ingest - t_start:.1f}s", flush=True)
 
     extracted_txt_path = _save_raw_text(str(input_path), raw_text, EXTRACTED_TEXT_DIR, unique_id)
     if verbose:
@@ -134,6 +138,7 @@ def process_resume(
     flat_record = flatten_resume_record(str(segmented_txt_path))
 
     # Insert unique ID at top of record
+    print(f"[TIMING] {input_path.name}: Layers 1-4 = {time.perf_counter() - t_ingest:.1f}s", flush=True)
     flat_record = {"id": unique_id, **flat_record}
 
     flat_json_path = out_dir_path / f"{unique_id}_{input_path.stem}_flat.json"

@@ -188,7 +188,7 @@ def build_resume_record(segmented_filepath: str) -> dict:
     projects_text = sections.get("projects", "")
     if projects_text and ("Previous experience" in projects_text or "Previous experience" in exp_text or re.search(r'\b(?:Software Engineer|Senior Project Lead|Technical Project Manager|Tech Lead)\b.*?\b(19\d{2}|20\d{2})\b', projects_text, re.I)):
         early_career_text = (early_career_text + "\n" + projects_text).strip()
-    experience_result = extract_experience(exp_text, early_career_text)
+    experience_result = extract_experience(exp_text, early_career_text, full_text=full_text)
     has_experience_content = bool(experience_result["experience"] or experience_result["early_career"])
     if not has_experience_content and sections.get("header"):
         hdr_result = extract_experience(sections.get("header", ""))
@@ -252,8 +252,15 @@ def build_resume_record(segmented_filepath: str) -> dict:
     # heading wording -- fall back to "other" the same way
     # test_certifications.py already does.
     cert_text = sections.get("certifications", "")
+    if not cert_text and edu_text:
+        edu_cert_lines = [
+            l for l in edu_text.splitlines()
+            if re.search(r'\b(?:certified|internal\s+auditor|iso\s*\d+|aon\s+hewitt)\b', l, re.I)
+        ]
+        if edu_cert_lines:
+            cert_text = "\n".join(edu_cert_lines)
     achievement_text = sections.get("achievements", "") or sections.get("other", "")
-    cert_result = extract_certifications(cert_text, achievement_text)
+    cert_result = extract_certifications(cert_text, achievement_text, full_text=full_text)
 
     cert_conf = cert_result["_confidence"].get("certifications")
     ach_conf = cert_result["_confidence"].get("achievements")

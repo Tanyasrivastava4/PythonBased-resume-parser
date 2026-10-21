@@ -6,6 +6,15 @@ used only if Surya can't be imported, can't load its models, or throws
 during inference. You don't need to choose one manually -- this module
 tries Surya first every time and only drops to tesseract if that fails.
 
+ENGINE SWITCH (added in this version)
+-------------------------------------
+Set the environment variable OCR_ENGINE=tesseract to skip Surya entirely
+and send every scanned page / image straight to ocr_reader_pytesseract.py.
+Default (variable not set, or any other value) is "surya", which behaves
+exactly as before this switch was added.
+
+    OCR_ENGINE=tesseract ./venv/bin/python -m uvicorn server:app --port 8000
+
 TARGETS: surya-ocr==0.14.7 (confirmed via `pip show surya-ocr` against
 the actual installed environment -- see version history below for why
 this matters more than it sounds like it should).
@@ -189,6 +198,7 @@ exactly as it did before this revision.
 """
 
 import logging
+import os
 import re
 from pathlib import Path
 from PIL import Image
@@ -211,6 +221,16 @@ from ingestion.ocr_output_quality import (
 )
 
 logger = logging.getLogger(__name__)
+
+# ── OCR engine switch ──────────────────────────────────────────────
+# "surya" (default) or "tesseract". Set with:  OCR_ENGINE=tesseract
+# When "tesseract", read_with_surya_pages() and read_with_surya() below
+# hand off to ocr_reader_pytesseract.py immediately and Surya is never
+# imported or loaded.
+# when we were using surya
+#OCR_ENGINE = os.environ.get("OCR_ENGINE", "surya").lower()
+#when are using tesseract
+OCR_ENGINE = os.environ.get("OCR_ENGINE", "tesseract").lower()
 
 _MATH_BULLET_RE = re.compile(r"<math[^>]*>\s*\\bullet\s*</math>", re.IGNORECASE)
 _MATH_TAG_RE = re.compile(r"</?math[^>]*>", re.IGNORECASE)
@@ -310,7 +330,6 @@ _PIXEL_TO_POINT = _PDF_POINTS_PER_INCH / OCR_DPI
 # problem (like "Career Objective:" landing after its own first
 # content line) to see Surya's ACTUAL coordinates for that page,
 # instead of guessing. Paste that debug output back for diagnosis.
-import os
 DEBUG_SURYA_COORDS = os.environ.get("DEBUG_SURYA", "0") == "1"
 
 
@@ -613,6 +632,8 @@ def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
     on any failure. Returns {page_index: text}. This is the function
     pdf_reader.py calls for pages classified "scanned".
 
+    If OCR_ENGINE=tesseract, skips Surya entirely and uses tesseract only.
+
     ImageQualityError (raised by pdf_to_images()'s preprocessing step)
     is deliberately re-raised BEFORE the generic except-block below, so
     a blur rejection is never mistaken for "Surya failed, try tesseract
@@ -621,6 +642,11 @@ def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
     """
     if not page_indices:
         return {}
+
+    # ── Engine switch: tesseract only, never touch Surya ──
+    if OCR_ENGINE == "tesseract":
+        from ingestion.ocr_reader_pytesseract import read_with_surya_pages as _tess_pages
+        return _tess_pages(pdf_path, page_indices)
 
     global _surya_import_failed
     if not _surya_import_failed:
@@ -665,11 +691,18 @@ def read_with_surya(file_path: str) -> str:
     Whole-file OCR for a standalone image or a fully-scanned PDF,
     joined into one string. Surya first, tesseract fallback on failure.
 
+    If OCR_ENGINE=tesseract, skips Surya entirely and uses tesseract only.
+
     Standalone image uploads (.jpg/.png/etc.) also go through
     preprocess_scanned_image() before OCR, same as PDF pages. See
     read_with_surya_pages() docstring for why ImageQualityError is
     re-raised before the generic fallback except-block.
     """
+    # ── Engine switch: tesseract only, never touch Surya ──
+    if OCR_ENGINE == "tesseract":
+        from ingestion.ocr_reader_pytesseract import read_with_surya as _tess_file
+        return _tess_file(file_path)
+
     global _surya_import_failed
     path = Path(file_path)
 
@@ -717,6 +750,735 @@ if __name__ == "__main__":
     import sys
     print(read_with_surya(sys.argv[1]))
 
+
+
+
+
+
+
+
+
+## changing this to just only see how tesseract will work istead of surya
+#"""
+#ocr_reader.py — Layer 0, full-page OCR (scanned pages)
+#
+#Surya is the PRIMARY OCR engine. pytesseract is an automatic FALLBACK,
+#used only if Surya can't be imported, can't load its models, or throws
+#during inference. You don't need to choose one manually -- this module
+#tries Surya first every time and only drops to tesseract if that fails.
+#
+#TARGETS: surya-ocr==0.14.7 (confirmed via `pip show surya-ocr` against
+#the actual installed environment -- see version history below for why
+#this matters more than it sounds like it should).
+#
+#── Three different Surya APIs found across versions, confirmed by
+#   downloading and inspecting the actual PyPI packages, not guessing ──
+#
+#1. surya-ocr==0.6.13 -- what the ORIGINAL ocr_reader.py was written
+#   against: standalone functions, `surya.model.detection.model.load_model`,
+#   `surya.model.recognition.model.load_model`, `surya.ocr.run_ocr(images,
+#   langs, det_model, det_processor, rec_model, rec_processor)`. Even in
+#   this exact version the original code had a wrong import path
+#   (`surya.model.detection.PROCESSOR.load_processor` -- that function
+#   actually lives in `surya.model.detection.MODEL`, confirmed against
+#   the real file contents).
+#
+#2. surya-ocr==0.14.7 -- what's ACTUALLY INSTALLED in your venv (confirmed
+#   via your `pip show surya-ocr` output). No `surya.model` package at
+#   all anymore -- detection and recognition are now predictor CLASSES:
+#   `surya.detection.DetectionPredictor`, `surya.recognition.RecognitionPredictor`.
+#   No `langs` parameter either (dropped in this generation). Call shape:
+#
+#       det_predictor = DetectionPredictor()
+#       rec_predictor = RecognitionPredictor()
+#       results = rec_predictor(images, det_predictor=det_predictor)
+#
+#   This is the version this file is now written against.
+#
+#3. surya-ocr==0.22.x (current PyPI default if you `pip install surya-ocr`
+#   with no version pin) -- a further VLM-based rewrite requiring a
+#   running model server. Different again from both of the above.
+#
+#The lesson: don't assume a Surya upgrade/reinstall keeps the same call
+#shape. If you ever bump this dependency, re-check `pip show surya-ocr`
+#and re-verify the import shape before assuming this file still works --
+#it's changed shape at least 3 times.
+#
+#── Fallback behaviour ──
+#If Surya's imports fail, its models fail to load, or the predictor call
+#throws for any reason, this module logs a warning once and falls back
+#to ocr_reader_pytesseract.py for that call. The fallback is all-or-
+#nothing per batch (not per-page) -- if Surya breaks partway through a
+#multi-page document, the whole document's scanned pages go to
+#tesseract rather than trying to reconcile a half-Surya, half-tesseract
+#result.
+#
+#── Model caching ──
+#Your original _load_surya_models() reloaded all 4 models on every call
+#to read_with_surya_pages(). Across a batch of 60+ resumes that's 60+
+#model loads. Predictors are now cached at module level after first load.
+#
+#── REVISION — broadened LaTeX/math markup cleanup ──
+#Confirmed on a real scanned job description (SMFG_Job_Document_Scanned
+#.pdf): the previous _clean_surya_text() only stripped the specific
+#<math>\bullet</math> pattern plus a handful of inline formatting tags
+#(b/i/u/del/mark/sup/sub/br). That's too narrow. Surya's format-aware
+#recognition model also wraps STACKED/logo-style text -- e.g. a company
+#logo rendered as "SMFG" on one line with "IndiaCredit" in smaller type
+#underneath it -- in full LaTeX subscript/font markup that looks nothing
+#like the bullet case:
+#
+#    \mathop{\hbox{\rm SMFG}}_{\hbox{\scriptsize \rm Indiacredit}}
+#
+#_strip_latex_markup() below is a general-purpose peel that handles this
+#and the old bullet case with one shared implementation. This part WAS
+#verified directly (tested against the exact leaked string above and
+#the pre-existing bullet-math case).
+#
+#── REVISION — layout-aware page reconstruction (SUPERSEDED, see below) ──
+#An earlier version of this file tried reusing reconstruct_page_text()
+#(the word-level sidebar/two-column-aware function) for Surya's output,
+#by treating each Surya TextLine as one "word". That was flagged at the
+#time as unverified against a real Surya model. It has now BEEN tested
+#against real Surya output, and it actively broke things -- see the
+#next REVISION note below. Do not reintroduce reconstruct_page_text()
+#here without re-reading that note.
+#
+#── REVISION — switched to sort_lines_only(), NOT
+#   reconstruct_page_text() ──
+#Confirmed on a real scanned resume (Anandu Chandran,
+#PDF_image2pdf_20260821121805.pdf): reconstruct_page_text() badly
+#scrambled a completely ordinary SINGLE-COLUMN resume. Two different,
+#unrelated lines (e.g. two lines of a center-aligned address block) got
+#merged onto one output line and reordered left-to-right, because
+#Surya provides LINE-granularity bounding boxes (one box per whole
+#line), not word-granularity -- and reconstruct_page_text()'s merging
+#and sidebar/two-column logic is calibrated for word-level data, where
+#merging nearby-top fragments into one line is the whole point. Applied
+#to already-whole-line data, that same merging step can wrongly fuse
+#two DIFFERENT lines together whenever their measured "top" values
+#happen to land close to each other, which is easy to hit with center-
+#aligned text (every line has a different x0) or a short heading next
+#to a wrapped bullet line. Reproduced exactly against this real
+#resume's garbled output using plausible coordinates for the two lines
+#that got fused -- see ocr_layout_reconstruction.py's module docstring
+#for the full trace.
+#
+#Fixed by switching to ocr_layout_reconstruction.sort_lines_only():
+#sorts Surya's lines by (top, x0) and emits one output line per input
+#line, with NO merging and NO sidebar/two-column detection at all.
+#Trade-off, accepted deliberately: a short heading can occasionally
+#land one line off from its ideal position if Surya's box for it is
+#very slightly mismeasured (cosmetic). In exchange, two different
+#lines' text can never be fused together again, which was the actually
+#severe failure mode breaking ordinary single-column resumes in
+#production. This gives up any "smart" sidebar/table reordering for a
+#scanned sidebar-style document processed via Surya specifically (that
+#capability was never verified working in the first place) in favor of
+#guaranteed correctness on the much more common single-column case.
+#
+#reconstruct_page_text() itself is UNCHANGED and still correct --
+#ocr_reader_pytesseract.py's tesseract fallback path still uses it,
+#because tesseract's image_to_data() provides genuine word-level
+#fragments, which is what that function's thresholds and tolerances
+#are calibrated for.
+#
+#── REVISION — pre-OCR image quality gate ──
+#Added a preprocessing step (ingestion/image_preprocessing.py) that runs
+#on every rendered/loaded image BEFORE it reaches Surya:
+#
+#  1. Blur rejection -- raises ImageQualityError for pages too blurry to
+#     trust. Calibrated via a controlled blur ladder on a real resume:
+#     sentences stay grammatically intact but silently wrong fields
+#     (emails, dates, proper nouns) start appearing well before the
+#     image looks like obvious garbage -- so this is a hard reject, not
+#     a warning. The blur score is resolution-normalized (see that
+#     module's _BLUR_REFERENCE_WIDTH) so the same threshold is valid
+#     whether an image was rendered at this file's 200 DPI or the
+#     tesseract fallback's 300 DPI.
+#  2. Deskew -- corrects page rotation. Justified by a real finding on
+#     this project: a 4.5-degree rotation caused a section heading to be
+#     sorted into the middle of an unrelated bullet sentence, and
+#     dropped a line entirely, because reading-order reconstruction
+#     sorts by y-coordinate and a rotated page's "same visual line" has
+#     different y-coordinates on the left vs. right edge of the page.
+#  3. Brightness correction -- inverts pages that are moderately dark
+#     overall (a real underexposed photo).
+#
+#ImageQualityError must propagate all the way up to the caller as a
+#genuine rejection -- it is explicitly re-raised BEFORE the generic
+#Surya-failure except-block below, so a blurry page is rejected outright
+#rather than silently retried with tesseract (tesseract cannot recover
+#detail a blur destroyed any better than Surya can).
+#
+#── REVISION (this version) — image-based table grid detection ──
+#Replaced the previous in-file attempt to detect tables from Surya's
+#LINE-granularity boxes (which called ocr_layout_reconstruction.py's
+#_reconstruct_table() by pretending each Surya TextLine was a single
+#"word" -- see _text_line_to_word_dict(), now removed). That approach
+#reintroduced the exact line-fusion risk the "switched to
+#sort_lines_only()" revision above was written to eliminate: two
+#genuinely different lines landing close together vertically could get
+#merged into one fake table "row" and have their text sliced apart at
+#the wrong point. It was also never verified against real Surya output
+#before being written.
+#
+#Replaced with ingestion/table_grid_detector.py's
+#detect_and_ocr_tables(), which finds table structure from the PAGE
+#IMAGE's actual printed grid lines (real black rules), independent of
+#Surya's boxes entirely, and OCRs each cell on its own. This is a
+#strict improvement, not a tuning tweak: table structure now comes from
+#physical pixels, not from guessing at Surya's line positions. Verified
+#directly against SMFG_Job_Document_Scanned.pdf (both pages) and
+#Anandu Chandran's real scanned resume (4-column academic-qualifications
+#table) -- see table_grid_detector.py's module docstring for the full
+#verification notes.
+#
+#Tables are detected and OCR'd BEFORE Surya even runs (grid detection
+#only needs the image, not Surya's output). Any Surya line whose center
+#falls inside a detected table region is dropped from the line list (its
+#text is about to be replaced by the table's own, more accurate, per-
+#cell OCR) and the table's real text is spliced back into the final
+#output at the correct reading-order position -- see
+#table_grid_detector.py's merge_tables_into_words()/splice_placeholders()
+#docstrings for exactly how.
+#
+#Pages with no detected table (the large majority) are completely
+#unaffected: detect_and_ocr_tables() returns [], merge_tables_into_words()
+#returns the original line list unchanged, and everything proceeds
+#exactly as it did before this revision.
+#"""
+#
+#import logging
+#import re
+#from pathlib import Path
+#from PIL import Image
+#import fitz  # PyMuPDF
+#
+## adding code from antigravity
+#from ingestion.ocr_layout_reconstruction import sort_lines_only, _sort_lines_with_column_detection
+#from ingestion.image_preprocessing import preprocess_scanned_image, ImageQualityError
+#from ingestion.table_grid_detector import (
+#    detect_and_ocr_tables,
+#    merge_tables_into_words,
+#    splice_placeholders,
+#)
+## adding code from antigravity
+#from ingestion.ocr_output_quality import (
+#    repeated_ngram_ratio,
+#    check_not_degenerate,
+#    DegenerateOCROutputError,
+#    MAX_REPEATED_NGRAM_RATIO,
+#)
+#
+#logger = logging.getLogger(__name__)
+#
+#_MATH_BULLET_RE = re.compile(r"<math[^>]*>\s*\\bullet\s*</math>", re.IGNORECASE)
+#_MATH_TAG_RE = re.compile(r"</?math[^>]*>", re.IGNORECASE)
+#_BARE_BULLET_CMD_RE = re.compile(r"\\bullet")
+#_FORMAT_TAG_RE = re.compile(r"</?(b|i|u|del|mark|sup|sub|br)\b[^>]*>", re.IGNORECASE)
+#_LONE_BULLET_GLYPH_LINE_RE = re.compile(r"^[\u0660\u06F0.]$")
+#
+## ── LaTeX/math markup cleanup (see REVISION note above) ──
+#_MATH_BLOCK_RE = re.compile(r"<math[^>]*>(.*?)</math>", re.IGNORECASE | re.DOTALL)
+#_LATEX_BRACE_CMD_RE = re.compile(r"\\[a-zA-Z]+\{([^{}]*)\}")
+#_LATEX_SCRIPT_RE = re.compile(r"[_^]\{([^{}]*)\}")
+#_LATEX_NOARG_CMD_RE = re.compile(
+#    r"\\(rm|bf|it|tt|sf|em|scriptsize|scriptstyle|displaystyle|textstyle|"
+#    r"normalsize|tiny|small|footnotesize|large|Large|LARGE|huge|Huge|"
+#    r"mathop|mathrm|mathbf|mathit)\b"
+#)
+#_LATEX_STRAY_CMD_RE = re.compile(r"\\[a-zA-Z]+")
+#_LATEX_STRAY_BRACE_RE = re.compile(r"[{}]")
+#
+#
+#def _strip_latex_markup(text: str) -> str:
+#    """
+#    General-purpose LaTeX/math markup peel. Order matters:
+#      1. Unwrap <math>...</math> tags, keeping inner content.
+#      2. Repeatedly peel \\command{content} and _{content}/^{content}
+#         groups from the INSIDE OUT (handles nesting like
+#         \\mathop{\\hbox{\\rm SMFG}}, resolving one layer per loop
+#         iteration until stable).
+#      3. Turn \\bullet into a real "•" (before step 4's generic sweep
+#         would otherwise just delete it).
+#      4. Drop bare style commands with no braces left (\\rm,
+#         \\scriptsize, \\mathbf, etc.).
+#      5. Sweep up anything left over: stray \\commands with no braces,
+#         and any orphaned { or }.
+#      6. Collapse extra whitespace this stripping tends to leave.
+#    """
+#    text = _MATH_BLOCK_RE.sub(r"\1", text)
+#    prev = None
+#    while prev != text:
+#        prev = text
+#        text = _LATEX_BRACE_CMD_RE.sub(r"\1", text)
+#        text = _LATEX_SCRIPT_RE.sub(r"\1", text)
+#    text = _BARE_BULLET_CMD_RE.sub("•", text)
+#    text = _LATEX_NOARG_CMD_RE.sub("", text)
+#    text = _LATEX_STRAY_CMD_RE.sub("", text)
+#    text = _LATEX_STRAY_BRACE_RE.sub("", text)
+#    text = re.sub(r"[ \t]{2,}", " ", text)
+#    return text
+#
+#
+#def _clean_surya_text(text: str) -> str:
+#    """
+#    surya-ocr 0.14.7's recognition model is format-aware, not plain OCR:
+#    it wraps text it judged bold in <b>...</b>, tags bullet-point dots
+#    as <math display="inline">\\bullet</math>, and -- confirmed on a
+#    real scanned job description -- also wraps stacked/logo-style text
+#    in full LaTeX subscript markup. See _strip_latex_markup() above.
+#
+#    Separately, the same model sometimes misreads the bullet glyph
+#    entirely as some other small-dot-shaped character -- an Arabic-Indic
+#    digit zero (٠, U+0660), Extended Arabic-Indic digit zero (۰,
+#    U+06F0), or even a plain period (.). These show up as a lone
+#    character alone on its own line where a bullet should be.
+#
+#    This normalizes all of the above down to a plain "•" and strips
+#    other inline formatting tags to their plain text content, so
+#    section_splitter.py sees ordinary text instead of markup it was
+#    never built to parse.
+#    """
+#    text = _strip_latex_markup(text)
+#    text = _FORMAT_TAG_RE.sub("", text)
+#    cleaned_lines = [
+#        "•" if _LONE_BULLET_GLYPH_LINE_RE.match(line.strip()) else line
+#        for line in text.split("\n")
+#    ]
+#    return "\n".join(cleaned_lines)
+#
+## ── Surya availability check + predictor cache (populated lazily, once) ──
+#_surya_predictors = None   # (det_predictor, rec_predictor) once loaded
+#_surya_import_failed = False
+#_surya_warned = False
+#_bbox_warned = False
+## adding code from antigravity
+#_degenerate_warned = False
+#
+## Surya renders at 200 DPI (see pdf_to_images below). Used to convert a
+## TextLine's bbox (pixel coordinates) into PDF points, same coordinate
+## space pdfplumber's extract_words() and the tesseract-fallback path
+## both use.
+#OCR_DPI = 200
+#_PDF_POINTS_PER_INCH = 72
+#_PIXEL_TO_POINT = _PDF_POINTS_PER_INCH / OCR_DPI
+#
+## Set to True (or set env var DEBUG_SURYA=1) to print every detected
+## line's real (top, x0, confidence, text) BEFORE reconstruction runs --
+## turn this on and re-run against a resume showing a heading-ordering
+## problem (like "Career Objective:" landing after its own first
+## content line) to see Surya's ACTUAL coordinates for that page,
+## instead of guessing. Paste that debug output back for diagnosis.
+#import os
+#DEBUG_SURYA_COORDS = os.environ.get("DEBUG_SURYA", "0") == "1"
+#
+#
+#def _warn_once(message: str):
+#    global _surya_warned
+#    if not _surya_warned:
+#        logger.warning(message)
+#        print(f"[WARNING] {message}")
+#        _surya_warned = True
+#
+#
+#def _warn_bbox_once(message: str):
+#    global _bbox_warned
+#    if not _bbox_warned:
+#        logger.warning(message)
+#        print(f"[WARNING] {message}")
+#        _bbox_warned = True
+#
+#
+## adding code from antigravity
+#def _warn_degenerate_once(message: str):
+#    global _degenerate_warned
+#    if not _degenerate_warned:
+#        logger.warning(message)
+#        print(f"[WARNING] {message}")
+#        _degenerate_warned = True
+#
+#
+## adding code from antigravity
+#def _retry_degenerate_pages_with_tesseract(pdf_path: str, results: dict) -> dict:
+#    """
+#    After Surya runs, checks each page's text for degenerate/looping
+#    output (see ocr_output_quality.py). Any page that looks degenerate
+#    is re-OCR'd via tesseract for just that page. If tesseract's retry
+#    is ALSO degenerate, raises DegenerateOCROutputError -- both engines
+#    failed, this is a genuine hard rejection.
+#
+#    Does NOT set _surya_import_failed -- a single page looping is a
+#    content-quality problem for that page, not a Surya engine failure.
+#    """
+#    degenerate_indices = [
+#        idx for idx, text in results.items()
+#        if repeated_ngram_ratio(text) > MAX_REPEATED_NGRAM_RATIO
+#    ]
+#    if not degenerate_indices:
+#        return results
+#
+#    _warn_degenerate_once(
+#        f"Surya produced degenerate (repeating/looping) output on "
+#        f"{len(degenerate_indices)} page(s) of {pdf_path}. Re-OCRing "
+#        f"just those pages via tesseract before deciding whether to "
+#        f"reject -- see ocr_output_quality.py."
+#    )
+#
+#    from ingestion.ocr_reader_pytesseract import read_with_surya_pages as _tesseract_pages
+#    retried = _tesseract_pages(pdf_path, degenerate_indices)
+#
+#    for idx in degenerate_indices:
+#        retried_text = retried.get(idx, "")
+#        ratio = repeated_ngram_ratio(retried_text)
+#        if ratio > MAX_REPEATED_NGRAM_RATIO:
+#            raise DegenerateOCROutputError(
+#                f"OCR output for page {idx + 1} of {pdf_path} looks "
+#                f"degenerate on BOTH the primary (Surya) and fallback "
+#                f"(tesseract) engines (repeated-phrase ratio {ratio:.3f}, "
+#                f"threshold {MAX_REPEATED_NGRAM_RATIO}). Please re-upload "
+#                f"a clearer scan or photo of this page.",
+#                repeated_ratio=ratio,
+#                context=f"page {idx + 1} of {pdf_path}",
+#            )
+#        results[idx] = retried_text
+#
+#    return results
+#
+#
+## adding code from antigravity
+#def _retry_degenerate_whole_file(file_path: str, all_text: list) -> list:
+#    """
+#    Same idea as _retry_degenerate_pages_with_tesseract(), for
+#    read_with_surya()'s whole-file path. Returns a new list with any
+#    degenerate entries replaced by tesseract's retry, or raises
+#    DegenerateOCROutputError if still degenerate after retry.
+#    """
+#    from pathlib import Path as _Path
+#    degenerate_indices = [
+#        i for i, text in enumerate(all_text)
+#        if repeated_ngram_ratio(text) > MAX_REPEATED_NGRAM_RATIO
+#    ]
+#    if not degenerate_indices:
+#        return all_text
+#
+#    _warn_degenerate_once(
+#        f"Surya produced degenerate (repeating/looping) output on "
+#        f"{len(degenerate_indices)} page(s) of {file_path}. Re-OCRing "
+#        f"just those pages via tesseract before deciding whether to reject."
+#    )
+#
+#    new_all_text = list(all_text)
+#    path = _Path(file_path)
+#
+#    if path.suffix.lower() == ".pdf":
+#        from ingestion.ocr_reader_pytesseract import read_with_surya_pages as _tesseract_pages
+#        retried = _tesseract_pages(file_path, degenerate_indices)
+#        for idx in degenerate_indices:
+#            retried_text = retried.get(idx, "")
+#            ratio = repeated_ngram_ratio(retried_text)
+#            if ratio > MAX_REPEATED_NGRAM_RATIO:
+#                raise DegenerateOCROutputError(
+#                    f"OCR output for page {idx + 1} of {file_path} looks "
+#                    f"degenerate on BOTH engines (repeated-phrase ratio "
+#                    f"{ratio:.3f}, threshold {MAX_REPEATED_NGRAM_RATIO}). "
+#                    f"Please re-upload a clearer scan or photo of this page.",
+#                    repeated_ratio=ratio,
+#                    context=f"page {idx + 1} of {file_path}",
+#                )
+#            new_all_text[idx] = retried_text
+#    else:
+#        # Standalone image: re-run tesseract on the whole file.
+#        from ingestion.ocr_reader_pytesseract import read_with_surya as _tesseract_file
+#        retried_text = _tesseract_file(file_path)
+#        ratio = repeated_ngram_ratio(retried_text)
+#        if ratio > MAX_REPEATED_NGRAM_RATIO:
+#            raise DegenerateOCROutputError(
+#                f"OCR output for {file_path} looks degenerate on BOTH engines "
+#                f"(repeated-phrase ratio {ratio:.3f}, threshold "
+#                f"{MAX_REPEATED_NGRAM_RATIO}). Please re-upload a clearer scan.",
+#                repeated_ratio=ratio,
+#                context=file_path,
+#            )
+#        new_all_text = [retried_text]
+#
+#    return new_all_text
+#
+#
+#def _load_surya_predictors():
+#    """Loads and caches Surya's detection + recognition predictors.
+#    Raises on any failure -- callers must catch and fall back to
+#    pytesseract."""
+#    global _surya_predictors
+#    if _surya_predictors is not None:
+#        return _surya_predictors
+#
+#    # surya-ocr==0.14.7 API: predictor classes, not standalone
+#    # load_model()/load_processor() functions -- see module docstring.
+#    from surya.detection import DetectionPredictor
+#    from surya.recognition import RecognitionPredictor
+#    import torch
+#    try:
+#        #torch.set_num_threads(2)
+#        torch.set_num_threads(6)
+#    except Exception:
+#        pass
+#
+#    print("[INFO] Loading Surya OCR predictors (first call only; cached after)...")
+#    det_predictor = DetectionPredictor()
+#    rec_predictor = RecognitionPredictor()
+#
+#    _surya_predictors = (det_predictor, rec_predictor)
+#    return _surya_predictors
+#
+#
+#def _text_line_to_line_dict(line) -> dict:
+#    """
+#    Converts one Surya TextLine into the dict shape sort_lines_only()
+#    expects: {"text", "x0", "top"}. Also stores "x1" and "bottom" so
+#    that _sort_lines_with_column_detection() can determine which column
+#    each line belongs to (left vs right). sort_lines_only() ignores
+#    the extra fields, so adding them is fully backward-compatible.
+#    Raises AttributeError if `.bbox` isn't present in the shape
+#    expected -- caller catches this per page.
+#    """
+#    x0, top, x1, bottom = line.bbox
+#    return {
+#        "text":   line.text,
+#        "x0":     x0 * _PIXEL_TO_POINT,
+#        "x1":     x1 * _PIXEL_TO_POINT,
+#        "top":    top * _PIXEL_TO_POINT,
+#        "bottom": bottom * _PIXEL_TO_POINT,
+#    }
+#
+#
+#def _run_surya_on_images(images: list) -> list:
+#    """Raises on any failure -- callers must catch and fall back."""
+#    import torch
+#    det_predictor, rec_predictor = _load_surya_predictors()
+#
+#    # 0.14.7 dropped the explicit `langs` parameter entirely -- passing
+#    # it raises TypeError. Detection is supplied via det_predictor, and
+#    # recognition runs language-agnostic OCR by default.
+#    # Wrap in torch.no_grad() to disable autograd graph memory allocation during inference.
+#    with torch.no_grad():
+#        results = rec_predictor(images, det_predictor=det_predictor)
+#
+#    all_text = []
+#    for page_idx, page_result in enumerate(results):
+#        confident_lines = [line for line in page_result.text_lines if line.confidence > 0.3]
+#
+#        if DEBUG_SURYA_COORDS:
+#            print(f"[DEBUG] Surya line coordinates for page {page_idx + 1}:")
+#            for line in confident_lines:
+#                x0, top, x1, bottom = line.bbox
+#                print(f"  top={top * _PIXEL_TO_POINT:7.1f}  x0={x0 * _PIXEL_TO_POINT:7.1f}  "
+#                      f"conf={line.confidence:.2f}  text={line.text!r}")
+#
+#        # ── Image-based table detection (see REVISION note in module
+#        # docstring) -- runs on the page IMAGE directly, independent of
+#        # Surya's line boxes entirely, so it carries none of the
+#        # line-fusion risk the old _reconstruct_table()-on-Surya-lines
+#        # approach had. Returns [] for the large majority of pages that
+#        # have no genuine bordered table, in which case everything
+#        # below behaves exactly as before this revision.
+#        tables = detect_and_ocr_tables(images[page_idx])
+#
+#        try:
+#            line_dicts = [_text_line_to_line_dict(line) for line in confident_lines]
+#            if tables:
+#                line_dicts, placeholder_map = merge_tables_into_words(
+#                    line_dicts, tables, pixel_to_point=_PIXEL_TO_POINT
+#                )
+#            else:
+#                placeholder_map = {}
+#            # adding code from antigravity
+#            # Use column-aware sort instead of plain sort_lines_only.
+#            # Detects two-column layouts (e.g. Experience left / Summary+Skills
+#            # right) and outputs left column first, then right -- so the
+#            # segmenter receives each section contiguously rather than
+#            # left-right-left-right interleaved. Falls back to sort_lines_only
+#            # for single-column pages, so existing resumes are unaffected.
+#            page_width = images[page_idx].width * _PIXEL_TO_POINT
+#            page_text = _sort_lines_with_column_detection(line_dicts, page_width)
+#            if not page_text.strip():
+#                raise ValueError("reconstruction produced empty text")
+#        except Exception as e:
+#            _warn_bbox_once(
+#                f"Surya line-position reconstruction failed ({type(e).__name__}: {e}). "
+#                f"Falling back to plain engine-order line join for any page "
+#                f"where this happens -- other pages/files are unaffected. "
+#                f"This means Surya's TextLine shape in your installed version "
+#                f"may not expose .bbox as expected (see ocr_reader.py's "
+#                f"module docstring)."
+#            )
+#            page_text = "\n".join(line.text for line in confident_lines)
+#            placeholder_map = {}
+#
+#        page_text = _clean_surya_text(page_text)
+#        # Splice real table text in AFTER _clean_surya_text() runs, so
+#        # the LaTeX/formatting cleanup (aimed at Surya's own markup
+#        # quirks) never has a chance to touch text that came from our
+#        # own separate cell-by-cell Tesseract OCR -- that text was never
+#        # wrapped in Surya's markup in the first place.
+#        page_text = splice_placeholders(page_text, placeholder_map)
+#        all_text.append(page_text)
+#    return all_text
+#
+#
+#def _free_ocr_memory():
+#    """
+#    Triggers explicit Python garbage collection and PyTorch memory cache release
+#    after heavy OCR passes to prevent RAM accumulation during batch execution.
+#    """
+#    import gc
+#    gc.collect()
+#    try:
+#        import torch
+#        if torch.cuda.is_available():
+#            torch.cuda.empty_cache()
+#    except Exception:
+#        pass
+#
+#
+#def pdf_to_images(pdf_path: str, page_indices: list = None) -> list:
+#    """Converts pages of a PDF into PIL Images at 200 DPI (good balance
+#    of Surya accuracy vs. speed). page_indices=None converts every page.
+#
+#    Each rendered page goes through preprocess_scanned_image() (blur
+#    gate + deskew + brightness correction) before being handed back to
+#    the caller. A page that fails the blur gate raises
+#    ImageQualityError here -- read_with_surya_pages() below is
+#    responsible for NOT swallowing that into the generic
+#    tesseract-fallback path."""
+#    doc = fitz.open(pdf_path)
+#    images = []
+#    indices = page_indices if page_indices is not None else range(len(doc))
+#    try:
+#        for page_num in indices:
+#            page = doc[page_num]
+#            mat = fitz.Matrix(200 / 72, 200 / 72)
+#            pix = page.get_pixmap(matrix=mat)
+#            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+#            pix = None  # Free pixmap buffer
+#            img = preprocess_scanned_image(img, context=f"page {page_num + 1} of {pdf_path}")
+#            images.append(img)
+#    finally:
+#        doc.close()
+#    return images
+#
+#
+#def read_with_surya_pages(pdf_path: str, page_indices: list) -> dict:
+#    """
+#    OCRs the given 0-based page indices, Surya first, tesseract fallback
+#    on any failure. Returns {page_index: text}. This is the function
+#    pdf_reader.py calls for pages classified "scanned".
+#
+#    ImageQualityError (raised by pdf_to_images()'s preprocessing step)
+#    is deliberately re-raised BEFORE the generic except-block below, so
+#    a blur rejection is never mistaken for "Surya failed, try tesseract
+#    instead" -- tesseract cannot recover detail a blur destroyed any
+#    better than Surya can.
+#    """
+#    if not page_indices:
+#        return {}
+#
+#    global _surya_import_failed
+#    if not _surya_import_failed:
+#        images = []
+#        try:
+#            images = pdf_to_images(pdf_path, page_indices=page_indices)
+#            texts = _run_surya_on_images(images)
+#            # adding code from antigravity
+#            # Check each page's Surya output for degenerate/looping text.
+#            # Degenerate pages are retried via tesseract; if still bad,
+#            # DegenerateOCROutputError is raised (never caught here).
+#            results = dict(zip(page_indices, texts))
+#            results = _retry_degenerate_pages_with_tesseract(pdf_path, results)
+#            return results
+#        except ImageQualityError:
+#            raise
+#        # adding code from antigravity
+#        except DegenerateOCROutputError:
+#            raise
+#        except Exception as e:
+#            _surya_import_failed = True
+#            _warn_once(
+#                f"Surya OCR failed ({type(e).__name__}: {e}). "
+#                f"Falling back to pytesseract for this and all subsequent pages. "
+#                f"Check `pip show surya-ocr` is exactly 0.6.13, and that model "
+#                f"downloads aren't being blocked by network/firewall."
+#            )
+#        finally:
+#            # Explicitly close PIL images and sweep memory
+#            for img in images:
+#                if hasattr(img, "close"):
+#                    img.close()
+#            del images
+#            _free_ocr_memory()
+#
+#    from ingestion.ocr_reader_pytesseract import read_with_surya_pages as tesseract_fallback
+#    return tesseract_fallback(pdf_path, page_indices)
+#
+#
+#def read_with_surya(file_path: str) -> str:
+#    """
+#    Whole-file OCR for a standalone image or a fully-scanned PDF,
+#    joined into one string. Surya first, tesseract fallback on failure.
+#
+#    Standalone image uploads (.jpg/.png/etc.) also go through
+#    preprocess_scanned_image() before OCR, same as PDF pages. See
+#    read_with_surya_pages() docstring for why ImageQualityError is
+#    re-raised before the generic fallback except-block.
+#    """
+#    global _surya_import_failed
+#    path = Path(file_path)
+#
+#    if not _surya_import_failed:
+#        images = []
+#        try:
+#            if path.suffix.lower() == ".pdf":
+#                images = pdf_to_images(file_path)
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#                img = Image.open(file_path).convert("RGB")
+#                img = preprocess_scanned_image(img, context=file_path)
+#                images = [img]
+#            else:
+#                raise ValueError(f"Unsupported file type for OCR: {path.suffix}")
+#            all_text = _run_surya_on_images(images)
+#            # adding code from antigravity
+#            # Check each page for degenerate/looping Surya output.
+#            # Degenerate pages are retried via tesseract; if still bad,
+#            # DegenerateOCROutputError is raised (never caught here).
+#            all_text = _retry_degenerate_whole_file(file_path, all_text)
+#            return "\n\n".join(all_text)
+#        except ImageQualityError:
+#            raise
+#        # adding code from antigravity
+#        except DegenerateOCROutputError:
+#            raise
+#        except Exception as e:
+#            _surya_import_failed = True
+#            _warn_once(
+#                f"Surya OCR failed ({type(e).__name__}: {e}). "
+#                f"Falling back to pytesseract."
+#            )
+#        finally:
+#            for img in images:
+#                if hasattr(img, "close"):
+#                    img.close()
+#            del images
+#            _free_ocr_memory()
+#
+#    from ingestion.ocr_reader_pytesseract import read_with_surya as tesseract_fallback
+#    return tesseract_fallback(file_path)
+#
+#
+#if __name__ == "__main__":
+#    import sys
+#    print(read_with_surya(sys.argv[1]))
+#
 
 
 

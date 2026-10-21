@@ -17,12 +17,12 @@ from pathlib import Path
 TAXONOMY = {
     # ── School level ──
     "10th": {"category": "10th", "aliases": [
-        "10th", "x std", "ssc", "secondary school certificate", "class 10",
-        "grade 10", "matriculation", "matric", "high school", "secondary",
+        "10th", "xth", "x std", "std x", "standard x", "ssc", "secondary school certificate", "class 10",
+        "class x", "class 10th", "grade 10", "matriculation", "matric", "high school", "secondary",
     ]},
     "12th": {"category": "12th", "aliases": [
-        "12th", "xii std", "hsc", "higher secondary certificate", "class 12",
-        "grade 12", "senior secondary", "intermediate", "puc", "hsc board",
+        "12th", "xii", "xiith", "xii std", "std xii", "standard xii", "hsc", "higher secondary certificate", "class 12",
+        "class xii", "class 12th", "10+2", "grade 12", "senior secondary", "intermediate", "puc", "hsc board",
         "higher secondary",
     ]},
     "Graduation": {"category": "bachelors", "aliases": [
@@ -49,6 +49,9 @@ TAXONOMY = {
     ]},
     "PGDBA": {"category": "diploma", "aliases": [
         "pgdba", "post graduate diploma in business analytics",
+    ]},
+    "PGDBM": {"category": "diploma", "aliases": [
+        "pgdbm", "post graduate diploma in business management",
     ]},
 
     # ── Bachelors ──
@@ -86,7 +89,7 @@ TAXONOMY = {
         "bba", "bachelor of business administration",
     ]},
     "BCA": {"category": "bachelors", "aliases": [
-        "bca", "bachelor of computer applications",
+        "bca", "bachelor of computer applications", "bachelor of computer application",
     ]},
     "B.Pharm": {"category": "bachelors", "aliases": [
         "b.pharm", "bpharm", "bachelor of pharmacy",
@@ -140,12 +143,15 @@ TAXONOMY = {
     ]},
     "M.Com": {"category": "masters", "aliases": [
         "m.com", "mcom", "m com", "master of commerce",
+        "master's degree in commerce", "master’s degree in commerce",
+        "masters degree in commerce", "master degree in commerce",
+        "master's in commerce", "master’s in commerce", "masters in commerce", "master in commerce",
     ]},
     "MBA": {"category": "masters", "aliases": [
         "mba", "m.b.a", "m.b.a.", "master of business administration",
     ]},
     "MCA": {"category": "masters", "aliases": [
-        "mca", "master of computer applications",
+        "mca", "master of computer applications", "master of computer application",
     ]},
     "M.Pharm": {"category": "masters", "aliases": [
         "m.pharm", "mpharm", "master of pharmacy",
@@ -160,7 +166,7 @@ TAXONOMY = {
         "mfa", "master of fine arts",
     ]},
     "M.Arch": {"category": "masters", "aliases": [
-        "m.arch", "march", "master of architecture",
+        "m.arch", "master of architecture",
     ]},
     "M.Des": {"category": "masters", "aliases": [
         "m.des", "mdes", "master of design",
@@ -193,17 +199,39 @@ TAXONOMY = {
     ]},
 
     # ── Professional certifications sometimes listed in the education section ──
+    "CA Final": {"category": "professional_certification", "aliases": [
+        "ca final", "ca-final", "chartered accountant final",
+    ]},
+    "CA Intermediate": {"category": "professional_certification", "aliases": [
+        "ca intermediate", "ca-intermediate", "ca inter", "ca-inter", "cainter", "ca ipcc", "ca-ipcc", "ipcc",
+    ]},
+    "CA Foundation": {"category": "professional_certification", "aliases": [
+        "ca foundation", "ca-foundation", "ca cpt", "ca-cpt", "cpt",
+    ]},
     "CA": {"category": "professional_certification", "aliases": [
         "chartered accountant", "ca (chartered accountant)",
     ]},
     "CS": {"category": "professional_certification", "aliases": [
-        "company secretary",
+        "company secretary", "associate member of the institute of company secretaries of india", "associate company secretary",
     ]},
     "CMA": {"category": "professional_certification", "aliases": [
         "cma", "cost management accountant", "icwa",
     ]},
     "CFA": {"category": "professional_certification", "aliases": [
         "cfa", "chartered financial analyst",
+    ]},
+    "BMS": {"category": "bachelors", "aliases": [
+        "bms", "bachelor of management studies", "bachelor of management",
+    ]},
+    "Bachelor": {"category": "bachelors", "aliases": [
+        "bachelor", "bachelors", "bachelor's", "bachelor degree",
+        "bachelor's degree", "bachelors degree", "bachelor of accounting",
+        "bachelor of professional accounting",
+    ]},
+    "Master": {"category": "masters", "aliases": [
+        "master", "masters", "master's", "master degree",
+        "master's degree", "masters degree", "master of accounting",
+        "master of professional accounting", "maters",
     ]},
 }
 
