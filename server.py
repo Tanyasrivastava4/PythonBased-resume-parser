@@ -34,6 +34,8 @@ except Exception:
 
 import uuid
 import logging
+import threading
+import concurrent.futures
 from typing import List, Optional
 from pathlib import Path
 from datetime import datetime, timezone
@@ -78,6 +80,74 @@ def _purge_oldest_jobs_if_needed():
         else:
             del JOBS[next(iter(JOBS))]
         gc.collect()
+
+
+# ── Bulk Batch Processing Manager (100-200 files) ───────────────────────────
+MAX_BATCHES = 20
+BATCH_STORE = {}
+BATCH_EXECUTOR = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+
+
+class BatchJob:
+    def __init__(self, batch_id: str, total_files: int):
+        self.batch_id = batch_id
+        self.total = total_files
+        self.completed = 0
+        self.failed = 0
+        self.status = "processing"  # "processing" -> "completed"
+        self.created_at = datetime.now(timezone.utc).isoformat()
+        self.completed_at = None
+        self.candidates = []
+        self.lock = threading.Lock()
+
+
+def _purge_oldest_batches_if_needed():
+    """Keeps the in-memory BATCH_STORE bounded under MAX_BATCHES to prevent RAM leaks."""
+    if len(BATCH_STORE) >= MAX_BATCHES:
+        completed = [k for k, v in BATCH_STORE.items() if v.status == "completed"]
+        if completed:
+            del BATCH_STORE[completed[0]]
+        else:
+            del BATCH_STORE[next(iter(BATCH_STORE))]
+        gc.collect()
+
+
+def _process_batch_item(batch: BatchJob, file_path: Path, original_filename: str):
+    """Processes 1 resume inside the ThreadPoolExecutor and thread-safely updates batch."""
+    try:
+        logger.info(f"⏳ [BATCH {batch.batch_id}] Processing: {original_filename}")
+        parsed_record = process_resume(str(file_path), verbose=False)
+        parsed_record["source_file"] = original_filename
+        parsed_record["batch_status"] = "completed"
+
+        with batch.lock:
+            batch.candidates.append(parsed_record)
+            batch.completed += 1
+            if (batch.completed + batch.failed) >= batch.total:
+                batch.status = "completed"
+                batch.completed_at = datetime.now(timezone.utc).isoformat()
+                logger.info(f"✅ [BATCH {batch.batch_id}] All {batch.total} resumes processed successfully!")
+    except Exception as e:
+        logger.error(f"❌ [BATCH {batch.batch_id}] Failed to parse {original_filename}: {e}")
+        with batch.lock:
+            batch.candidates.append({
+                "id": uuid.uuid4().hex[:8],
+                "name": "Failed to parse",
+                "source_file": original_filename,
+                "batch_status": "failed",
+                "error": str(e)
+            })
+            batch.failed += 1
+            if (batch.completed + batch.failed) >= batch.total:
+                batch.status = "completed"
+                batch.completed_at = datetime.now(timezone.utc).isoformat()
+    finally:
+        try:
+            file_path.unlink(missing_ok=True)
+        except Exception:
+            pass
+        gc.collect()
+
 
 
 # ── Lifespan Startup Manager: Pre-load Models into RAM ─────────────────────────
@@ -202,6 +272,8 @@ def health_check():
         },
         "active_background_jobs": sum(1 for j in JOBS.values() if j["status"] == "processing"),
         "total_jobs_in_ram": len(JOBS),
+        "active_batches": sum(1 for b in BATCH_STORE.values() if b.status == "processing"),
+        "total_batches_in_ram": len(BATCH_STORE),
     }
 
 
@@ -299,73 +371,70 @@ def get_job_status(job_id: str):
 
 @app.post("/api/v1/parse-batch", tags=["Batch Parsing"])
 async def parse_batch_endpoint(
-    background_tasks: BackgroundTasks,
     files: List[UploadFile] = File(...),
 ):
     """
-    Accepts multiple resume files (e.g. 100+ files) in a single API call.
-    Digital files return results immediately; scanned files are queued.
+    Accepts 100-200+ resume files in a single API call.
+    Returns HTTP 202 Accepted immediately with batch_id; files are processed
+    concurrently by a bounded 4-worker pool without blocking the server or UI.
     """
     if not files:
         raise HTTPException(status_code=400, detail="No files provided")
 
-    summary_results = []
-    digital_count = 0
-    scanned_count = 0
+    _purge_oldest_batches_if_needed()
+
+    batch_id = f"batch_{uuid.uuid4().hex[:10]}"
+    batch_dir = UPLOAD_TEMP_DIR / batch_id
+    batch_dir.mkdir(parents=True, exist_ok=True)
+
+    batch = BatchJob(batch_id=batch_id, total_files=len(files))
+    BATCH_STORE[batch_id] = batch
+
+    logger.info(f"🚀 [BATCH {batch_id}] Received {len(files)} files for bulk processing.")
 
     for file in files:
-        file_id = str(uuid.uuid4())[:8]
-        sanitized_filename = f"{file_id}_{Path(file.filename).name}"
-        save_path = UPLOAD_TEMP_DIR / sanitized_filename
+        sanitized_filename = f"{uuid.uuid4().hex[:6]}_{Path(file.filename).name}"
+        save_path = batch_dir / sanitized_filename
 
         contents = await file.read()
         with open(save_path, "wb") as f:
             f.write(contents)
 
-        is_scanned = _is_scanned_pdf(str(save_path))
+        BATCH_EXECUTOR.submit(_process_batch_item, batch, save_path, file.filename)
 
-        if not is_scanned:
-            try:
-                res = process_resume(str(save_path), verbose=False)
-                digital_count += 1
-                summary_results.append({
-                    "file": file.filename,
-                    "mode": "digital_immediate",
-                    "status": "completed",
-                    "data": res,
-                })
-            except Exception as e:
-                summary_results.append({
-                    "file": file.filename,
-                    "mode": "digital_immediate",
-                    "status": "failed",
-                    "error": str(e),
-                })
-        else:
-            job_id = f"job_{uuid.uuid4().hex[:12]}"
-            JOBS[job_id] = {
-                "job_id": job_id,
-                "status": "processing",
-                "source_file": file.filename,
-                "created_at": datetime.now(timezone.utc).isoformat(),
-                "result": None,
-                "error": None,
-            }
-            background_tasks.add_task(_run_background_parsing, job_id, str(save_path))
-            scanned_count += 1
-            summary_results.append({
-                "file": file.filename,
-                "mode": "async_background_ocr",
-                "status": "processing",
-                "job_id": job_id,
-            })
+    return JSONResponse(
+        status_code=status.HTTP_202_ACCEPTED,
+        content={
+            "status": "processing",
+            "batch_id": batch_id,
+            "total_files": len(files),
+            "status_url": f"/api/v1/batch/{batch_id}",
+            "message": f"{len(files)} resumes queued for background processing with 4 workers.",
+        }
+    )
 
-    return {
-        "total_files": len(files),
-        "digital_immediate_completed": digital_count,
-        "scanned_background_queued": scanned_count,
-        "results": summary_results,
-    }
+
+@app.get("/api/v1/batch/{batch_id}", tags=["Batch Parsing"])
+def get_batch_status(batch_id: str):
+    """Returns the live progress and cumulative candidate results of a batch."""
+    if batch_id not in BATCH_STORE:
+        raise HTTPException(status_code=404, detail="Batch ID not found")
+
+    batch = BATCH_STORE[batch_id]
+    with batch.lock:
+        processed = batch.completed + batch.failed
+        pct = round((processed / batch.total) * 100, 1) if batch.total > 0 else 100.0
+        return {
+            "batch_id": batch.batch_id,
+            "status": batch.status,
+            "total": batch.total,
+            "completed": batch.completed,
+            "failed": batch.failed,
+            "percentage": pct,
+            "created_at": batch.created_at,
+            "completed_at": batch.completed_at,
+            "candidates": list(batch.candidates),
+        }
 
 
 if __name__ == "__main__":
