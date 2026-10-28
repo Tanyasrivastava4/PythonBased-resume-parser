@@ -46,8 +46,34 @@ export default function App() {
     })
 
     try {
-      // 1. Single API call sending all 100-200 files!
+      // 1. Single API call: parse-batch now returns candidates directly!
       const initRes = await uploadBatch(files)
+
+      if (initRes.candidates && initRes.status === 'completed') {
+        const mapped = initRes.candidates.map((c) => ({
+          id: c.id || crypto.randomUUID(),
+          name: c.name && c.name !== 'Failed to parse' ? c.name : (c.source_file || 'Unknown candidate'),
+          filename: c.source_file,
+          status: c.batch_status || 'done',
+          data: c,
+          error: c.error || null,
+        }))
+
+        setItems(mapped)
+        setSelectedId(mapped[0]?.id || null)
+        setBatchInfo({
+          active: false,
+          batchId: initRes.batch_id,
+          total: initRes.total,
+          completed: initRes.completed,
+          failed: initRes.failed,
+          percentage: 100,
+          statusText: `All ${initRes.total} resumes processed successfully!`,
+        })
+        return
+      }
+
+      // Fallback if async polling mode was triggered
       const batchId = initRes.batch_id
 
       setBatchInfo((prev) => ({

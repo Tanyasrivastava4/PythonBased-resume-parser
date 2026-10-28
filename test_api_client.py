@@ -131,7 +131,17 @@ def test_batch_payload(input_dir: str = "resumes", count: int = 5):
         print(f"[BATCH CLIENT] Status Code : {response.status_code}")
         print(f"[BATCH CLIENT] Elapsed Time: {elapsed:.2f} seconds")
 
-        if response.status_code in (200, 202):
+        if response.status_code == 200:
+            data = response.json()
+            batch_id = data.get("batch_id")
+            candidates = data.get("candidates", [])
+            print(f"   Batch ID    : {batch_id}")
+            print(f"   Total Files : {data.get('total')}")
+            print(f"   Status      : {data.get('status')}")
+            print(f"✅ Immediate synchronous response received in /parse-batch! Successfully parsed {len(candidates)} candidate(s).")
+            for idx, c in enumerate(candidates[:5], 1):
+                print(f"      {idx}. {c.get('name')} | {c.get('email')} | Exp: {c.get('total_experience')} yrs")
+        elif response.status_code == 202:
             data = response.json()
             batch_id = data.get("batch_id")
             print(f"   Batch ID    : {batch_id}")

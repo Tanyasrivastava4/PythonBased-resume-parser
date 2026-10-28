@@ -35,6 +35,7 @@ except Exception:
 import uuid
 import logging
 import threading
+import asyncio
 import concurrent.futures
 from typing import List, Optional
 from pathlib import Path
@@ -372,11 +373,14 @@ def get_job_status(job_id: str):
 @app.post("/api/v1/parse-batch", tags=["Batch Parsing"])
 async def parse_batch_endpoint(
     files: List[UploadFile] = File(...),
+    wait: bool = Query(True, description="If true (default), waits for all resumes to be parsed and returns the candidate JSONs directly in this response. If false, returns 202 Accepted with batch_id for async polling."),
 ):
     """
     Accepts 100-200+ resume files in a single API call.
-    Returns HTTP 202 Accepted immediately with batch_id; files are processed
-    concurrently by a bounded 4-worker pool without blocking the server or UI.
+    Files are processed concurrently by a bounded 4-worker pool.
+    
+    - Default (wait=True): Returns HTTP 200 OK directly with all parsed candidate JSONs.
+    - Async mode (wait=False): Returns HTTP 202 Accepted immediately with batch_id for background polling.
     """
     if not files:
         raise HTTPException(status_code=400, detail="No files provided")
@@ -390,8 +394,9 @@ async def parse_batch_endpoint(
     batch = BatchJob(batch_id=batch_id, total_files=len(files))
     BATCH_STORE[batch_id] = batch
 
-    logger.info(f"🚀 [BATCH {batch_id}] Received {len(files)} files for bulk processing.")
+    logger.info(f"🚀 [BATCH {batch_id}] Received {len(files)} files for bulk processing (wait={wait}).")
 
+    futures = []
     for file in files:
         sanitized_filename = f"{uuid.uuid4().hex[:6]}_{Path(file.filename).name}"
         save_path = batch_dir / sanitized_filename
@@ -400,8 +405,39 @@ async def parse_batch_endpoint(
         with open(save_path, "wb") as f:
             f.write(contents)
 
-        BATCH_EXECUTOR.submit(_process_batch_item, batch, save_path, file.filename)
+        fut = BATCH_EXECUTOR.submit(_process_batch_item, batch, save_path, file.filename)
+        futures.append(fut)
 
+    if wait:
+        # Await completion of all worker threads without blocking FastAPI's async event loop
+        loop = asyncio.get_running_loop()
+        await loop.run_in_executor(None, concurrent.futures.wait, futures)
+
+        # Cleanup batch directory if empty
+        try:
+            batch_dir.rmdir()
+        except Exception:
+            pass
+
+        with batch.lock:
+            processed = batch.completed + batch.failed
+            pct = round((processed / batch.total) * 100, 1) if batch.total > 0 else 100.0
+            return JSONResponse(
+                status_code=status.HTTP_200_OK,
+                content={
+                    "batch_id": batch.batch_id,
+                    "status": batch.status,
+                    "total": batch.total,
+                    "completed": batch.completed,
+                    "failed": batch.failed,
+                    "percentage": pct,
+                    "created_at": batch.created_at,
+                    "completed_at": batch.completed_at,
+                    "candidates": list(batch.candidates),
+                }
+            )
+
+    # Async polling mode (wait=False)
     return JSONResponse(
         status_code=status.HTTP_202_ACCEPTED,
         content={
