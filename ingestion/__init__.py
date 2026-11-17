@@ -251,11 +251,11 @@ def read_resume_file(file_path: str) -> str:
         from ingestion.doc_converter import convert_doc_to_docx_tmp
         with convert_doc_to_docx_tmp(file_path) as converted_path:
             raw_text = read_docx(converted_path)
-    elif ext in [".jpg", ".jpeg", ".png", ".tiff", ".tif"]:
+    elif ext in [".jpg", ".jpeg", ".png", ".tiff", ".tif", ".jfif"]:
         from ingestion.ocr_reader import read_with_surya
         raw_text = read_with_surya(file_path)
     else:
-        raise ValueError(f"Unsupported file type: {ext}. Supported: PDF, DOCX, DOC, JPG, PNG, TIFF")
+        raise ValueError(f"Unsupported file type: {ext}. Supported: PDF, DOCX, DOC, JPG, JPEG, PNG, TIFF, JFIF")
 
     return normalise_text(raw_text)
 

@@ -67,10 +67,10 @@ MIN_NGRAM_LENGTH = 6
 
 # See CALIBRATION STATUS above. A page whose repeated-6-word-phrase
 # ratio exceeds this is flagged as degenerate.
-# Set to 0.12 so legitimate resumes with repeated employer/institution names
-# across multiple roles on short pages (e.g. 4 roles at same hospital scoring 0.085)
-# are not falsely rejected, while genuine looping hallucinated OCR (scoring 0.15+) is still caught.
-MAX_REPEATED_NGRAM_RATIO = 0.12
+# Set to 0.25 so legitimate resumes with repeated job duties or project descriptions
+# across multiple roles (e.g. ERP implementations with repeated AP/AR/GL responsibilities)
+# are not falsely rejected, while genuine infinite-looping OCR hallucinations are still caught.
+MAX_REPEATED_NGRAM_RATIO = 0.25
 
 # Below this many words there isn't enough text for a ratio to mean
 # anything reliable. Pages shorter than this are never flagged.

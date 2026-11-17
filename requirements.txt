@@ -29,3 +29,14 @@ spacy==3.8.14
 
 # --- Testing & HTTP Client ---
 requests==2.34.2
+
+# --- Vector Database & Semantic Embeddings (Qdrant Auto-Sync) ---
+qdrant-client==1.20.0
+fastembed==0.9.1
+onnxruntime==1.23.2
+
+# --- Optional: Advanced Vision/OCR (Surya OCR Engine) ---
+# Uncomment below if you wish to run OCR_ENGINE=surya instead of OCR_ENGINE=tesseract
+# surya-ocr==0.14.7
+# pypdfium2==4.30.0
+# torch>=2.2.0

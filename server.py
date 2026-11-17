@@ -38,6 +38,8 @@ import threading
 import asyncio
 import concurrent.futures
 from typing import List, Optional
+
+from qdrant_sync import sync_resume_to_qdrant
 from pathlib import Path
 from datetime import datetime, timezone
 from contextlib import asynccontextmanager
@@ -120,6 +122,22 @@ def _process_batch_item(batch: BatchJob, file_path: Path, original_filename: str
         parsed_record = process_resume(str(file_path), verbose=False)
         parsed_record["source_file"] = original_filename
         parsed_record["batch_status"] = "completed"
+
+        # Read file bytes for Qdrant sync before unlinking
+        file_bytes = None
+        try:
+            with open(file_path, "rb") as fp:
+                file_bytes = fp.read()
+        except Exception:
+            pass
+
+        # Auto-sync parsed candidate to shared Qdrant Vector DB
+        try:
+            point_id = sync_resume_to_qdrant(parsed_record, original_filename, file_bytes)
+            if point_id:
+                logger.info(f"✅ [QDRANT-SYNC] Synced {original_filename} -> Point ID: {point_id}")
+        except Exception as q_err:
+            logger.warning(f"⚠️ [QDRANT-SYNC] Failed to auto-sync {original_filename} to Qdrant: {q_err}")
 
         with batch.lock:
             batch.candidates.append(parsed_record)
@@ -237,6 +255,17 @@ def _run_background_parsing(job_id: str, file_path: str):
             JOBS[job_id]["result"] = result
             JOBS[job_id]["completed_at"] = datetime.now(timezone.utc).isoformat()
             logger.info(f"✅ [ASYNC JOB {job_id}] Background OCR completed successfully!")
+
+            # Auto-sync parsed candidate to shared Qdrant Vector DB
+            try:
+                raw_bytes = None
+                p_file = Path(file_path)
+                if p_file.exists():
+                    raw_bytes = p_file.read_bytes()
+                orig_name = JOBS[job_id].get("source_file") or p_file.name
+                sync_resume_to_qdrant(result, orig_name, raw_bytes)
+            except Exception as qe:
+                logger.warning(f"Failed to sync async resume to Qdrant: {qe}")
         except Exception as e:
             logger.error(f"❌ [ASYNC JOB {job_id}] Background OCR failed: {e}")
             JOBS[job_id]["status"] = "failed"
@@ -308,6 +337,10 @@ async def parse_resume_endpoint(
         # Fast-Path: Digital text document -> process synchronously (< 0.1s)
         try:
             result = process_resume(str(save_path), verbose=False)
+
+            # Auto-sync parsed candidate to shared Qdrant Vector DB in non-blocking background task
+            background_tasks.add_task(sync_resume_to_qdrant, result, file.filename, contents)
+
             return JSONResponse(
                 status_code=status.HTTP_200_OK,
                 content={

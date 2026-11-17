@@ -42,7 +42,7 @@ from datetime import datetime
 
 MONTH_NAMES = (
     r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|Apil|"
-    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|"
+    r"May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember|tembe)?|"
     r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 )
 
@@ -61,7 +61,8 @@ _VALID_YEAR = r"(?:19[6-9]\d|20[0-3]\d)"
 _NUM_DATE = rf"\d{{1,2}}[-/.]\d{{1,2}}[-/.](?:{_VALID_YEAR}|\d{{2}})"
 _MONTH_DAY_YEAR = rf"{MONTH_NAMES}[\s,.-]*\d{{1,2}}(?:st|nd|rd|th)?[\s,.-]*{_VALID_YEAR}"
 _DAY_MONTH_YEAR = rf"\d{{1,2}}(?:st|nd|rd|th)?[\s,.-]*{MONTH_NAMES}[\s,.-]*{_VALID_YEAR}"
-_MONTH_YEAR = rf"(?:{MONTH_NAMES}[\s,/.-]*(?:{_VALID_YEAR}|['’‘`´]?\s*\d{{2}})|{_VALID_YEAR}[\s,/.-]*{MONTH_NAMES})"
+_SEP = r"[\s,/.\-–—'’‘`´]*"
+_MONTH_YEAR = rf"(?:{MONTH_NAMES}{_SEP}(?:{_VALID_YEAR}|['’‘`´]?\s*\d{{2}})|{_VALID_YEAR}{_SEP}{MONTH_NAMES})"
 _YYYY_MM = rf"{_VALID_YEAR}[-/.]\s*(?:0[1-9]|1[0-2])\b"
 
 DATE_RANGE_RE = re.compile(
@@ -792,7 +793,7 @@ def _parse_header(header_lines: list, date_line: str):
         if not job.get("company") and job.get("pre_date_header"):
             for pl in reversed(job["pre_date_header"]):
                 p_line = pl.strip()
-                if not p_line or _SECTION_HEADER_RE.match(p_line):
+                if not p_line or _SECTION_HEADER_RE.match(p_line) or p_line.startswith(("✓", "•", "●", "○", "◦", "▪", "▫", "■", "□", "▸", "►", "‣", "➤", "✔", "➢", "❖", "✦", "★", "✪", "", "", "-", "*")):
                     continue
                 if p_line.lower() in ("duration", "duration:", "responsibilities", "key highlights", "key highlights of work handled", "work handled", "organization", "organisation"):
                     continue
@@ -870,7 +871,7 @@ def _parse_header(header_lines: list, date_line: str):
             elif re.search(r'\b(?:as\s+a?|as)\b', target_text, re.I):
                 c_part, r_part = re.split(r'\b(?:as\s+a?|as)\b', target_text, flags=re.I, maxsplit=1)
                 c_part = re.sub(r'^(?:From|Since\s+)?(?:\d+(?:\.\d+)?\s*Years\s*)?(?:\([^)]+\)\s*)?(?:[A-Za-z]+[’\']?\d{2,4}\s*(?:to|-|–)\s*(?:till\s+date|present)\s*)?(?:with\s+)?', '', c_part, flags=re.I).strip(" .–-—,")
-                if c_part.lower() in ("from", "since", "during", "between", "in"):
+                if c_part.lower() in ("from", "since", "during", "between", "in", "worked", "working", "presently working", "currently working"):
                     c_part = ""
                 r_part = re.sub(r'^(?:an?|the)\s+', '', r_part, flags=re.I).strip()
                 r_part = re.sub(r'^(?:whole\s+time\s+)?', '', r_part, flags=re.I).strip()
@@ -970,7 +971,7 @@ def _parse_header(header_lines: list, date_line: str):
             elif re.search(r'\b(?:as\s+a?|as)\b', date_prefix, re.I):
                 c_part, r_part = re.split(r'\b(?:as\s+a?|as)\b', date_prefix, flags=re.I, maxsplit=1)
                 c_part = c_part.rstrip(" .–-—,")
-                if c_part:
+                if c_part and c_part.lower() not in ("worked", "working", "presently working", "currently working", "joined", "serving"):
                     job["company"] = c_part
                 job["role"] = r_part
             else:
@@ -1008,7 +1009,7 @@ def _parse_header(header_lines: list, date_line: str):
             if re.search(r'\b(?:as\s+a?|as)\b', date_prefix, re.I):
                 c_part, r_part = re.split(r'\b(?:as\s+a?|as)\b', date_prefix, flags=re.I, maxsplit=1)
                 c_part = c_part.rstrip(" .–-—,")
-                if c_part:
+                if c_part and c_part.lower() not in ("worked", "working", "presently working", "currently working", "joined", "serving"):
                     job["company"] = c_part
                 job["role"] = r_part
             else:
@@ -1068,7 +1069,7 @@ def _parse_header(header_lines: list, date_line: str):
             l = (l[:dur_m.start()] + l[dur_m.end():])
             l = re.sub(r'^[\s\-–—,/|()]+|[\s\-–—,/|()]+$', '', l)
         l_low = l.lower().strip().rstrip(" -–—:")
-        if l and l_low not in {"duration", "role", "designation", "period", "tenure", "responsibilities", "key responsibilities", "previous experience", "previous experience(s)", "previous experiences", "past experience", "career summary", "early career", "early career summary"} and not l_low.startswith(("environment", "application", "tools")):
+        if l and l_low not in {"duration", "role", "designation", "organization", "organisation", "company", "employer", "period", "tenure", "responsibilities", "key responsibilities", "previous experience", "previous experience(s)", "previous experiences", "past experience", "career summary", "early career", "early career summary"} and not l_low.startswith(("environment", "application", "tools")):
             cleaned.append(l)
 
     _KNOWN_LOC_CITIES = {"mumbai", "delhi", "noida", "gurgaon", "gurugram", "pune", "bangalore", "bengaluru", "hyderabad", "chennai", "kolkata", "ahmedabad", "india", "remote", "usa", "uk", "vasai", "palghar", "goregaon", "andheri", "sewree", "mumbai, india", "maharashtra"}
@@ -1078,16 +1079,23 @@ def _parse_header(header_lines: list, date_line: str):
     for idx_l, l in enumerate(clean_header_lines):
         m_org = re.search(r'^\s*(?:organization|organisation|company|employer)\s*[:\-–—\t]+\s*(.+)$', l, re.IGNORECASE)
         if m_org and not job["company"]:
-            job["company"] = m_org.group(1).strip()
+            job["company"] = m_org.group(1).strip(" :–-—\t,")
             job["method"].append("subfield_label_company")
+        elif re.match(r'^\s*(?:organization|organisation|company|employer)\s*[:\-–—\t]?\s*$', l, re.IGNORECASE):
+            if idx_l + 1 < len(clean_header_lines) and not job["company"]:
+                cand_c = re.sub(r'^[:\-–—\t\s]+', '', clean_header_lines[idx_l + 1]).strip(" :–-—\t,")
+                if cand_c and len(cand_c.split()) <= 10:
+                    job["company"] = cand_c
+                    job["method"].append("subfield_label_company_next_line")
+
         m_role = re.search(r'^\s*(?:profile|designation|role|position|title)\s*[:\-–—\t]+\s*(.+)$', l, re.IGNORECASE)
         if m_role and not job["role"]:
-            job["role"] = m_role.group(1).strip()
+            job["role"] = m_role.group(1).strip(" :–-—\t,")
             job["method"].append("subfield_label_role")
         elif re.match(r'^\s*(?:profile|designation|role|position|title)\s*[:\-–—\t]?\s*$', l, re.IGNORECASE):
             if idx_l + 1 < len(clean_header_lines) and not job["role"]:
-                cand_r = clean_header_lines[idx_l + 1].strip()
-                if TITLE_RE.search(cand_r) or len(cand_r.split()) <= 6:
+                cand_r = re.sub(r'^[:\-–—\t\s]+', '', clean_header_lines[idx_l + 1]).strip(" :–-—\t,")
+                if TITLE_RE.search(cand_r) or len(cand_r.split()) <= 8:
                     job["role"] = cand_r
                     job["method"].append("subfield_label_role_next_line")
 
@@ -2263,6 +2271,10 @@ def extract_experience(experience_section_text: str, early_career_section_text: 
         experience_section_text = "\n".join(clean_exp_lines)
 
     # Pre-clean OCR line breaks in experience text
+    experience_section_text = re.sub(r'\bSeptembe\s+r\b', 'September', experience_section_text, flags=re.IGNORECASE)
+    experience_section_text = re.sub(r'\bT\s+ill\s+Da\s+te\b', 'Till Date', experience_section_text, flags=re.IGNORECASE)
+    experience_section_text = re.sub(r'\bManufactur\s+ing\b', 'Manufacturing', experience_section_text, flags=re.IGNORECASE)
+    experience_section_text = re.sub(r'(\S)\s+(Worked\s+as\b|Working\s+as\b)', r'\1\n\2', experience_section_text, flags=re.IGNORECASE)
     experience_section_text = re.sub(r'\bmet\s+life\b', 'MetLife Insurance', experience_section_text, flags=re.IGNORECASE)
     experience_section_text = re.sub(r'India\s+first[\'`\s]*life\s+Insurance(?:\s+12\s+October)?\s+Insurance\s+2020\s+Company', 'India First Life Insurance Company', experience_section_text, flags=re.IGNORECASE)
     experience_section_text = re.sub(r'\bfirst[\'`\s]+life\b', 'First Life Insurance', experience_section_text, flags=re.IGNORECASE)
@@ -2328,6 +2340,20 @@ def extract_experience(experience_section_text: str, early_career_section_text: 
     if stated_jobs:
         jobs.extend(stated_jobs)
 
+    # Recover any unparsed jobs with valid date ranges from full_text (e.g. multi-column layouts)
+    if full_text:
+        extra_jobs = _extract_jobs_from_text(full_text)
+        existing_sigs = {(str(j.get("start")).lower(), str(j.get("end")).lower()) for j in jobs}
+        for ej in extra_jobs:
+            esig = (str(ej.get("start")).lower(), str(ej.get("end")).lower())
+            if ej.get("start") and ej.get("end") and esig not in existing_sigs:
+                role = str(ej.get("role") or "").lower()
+                comp = str(ej.get("company") or "").lower()
+                if not any(edu in role or edu in comp for edu in ("b.tech", "btech", "m.tech", "mtech", "b.e", "bachelor", "master", "university", "college", "school")):
+                    ej["source"] = "full_text_recovery"
+                    jobs.append(ej)
+                    existing_sigs.add(esig)
+
     if not jobs and not early_career_jobs:
         return {
             "experience": [],
@@ -2345,6 +2371,35 @@ def extract_experience(experience_section_text: str, early_career_section_text: 
     if stated_years > 0.0:
         total_exp["total_years"] = round(total_exp["total_years"] + stated_years, 1)
         total_exp["total_months"] = int(total_exp["total_years"] * 12)
+
+    # Check stated overall career experience in full_text if parsed intervals are undercounting
+    if full_text:
+        m_stated = re.search(
+            r'\b(?:over\s+)?(\d+(?:\.\d+)?)\+?\s*years?\s+(?:of\s+)?(?:enriching\s+)?(?:global\s+)?(?:overall\s+)?(?:professional\s+)?(?:work\s+)?(?:experience|exposure)\b|\b(?:exposure|experience)\s+(?:of\s+)?(?:over\s+)?(\d+(?:\.\d+)?)\+?\s*years?\b',
+            full_text,
+            re.IGNORECASE
+        )
+        if m_stated:
+            st_val = float(m_stated.group(1) or m_stated.group(2))
+            if st_val >= 2.0:
+                all_starts = [parse_date(j["start"]) for j in combined if j.get("start") and parse_date(j["start"])]
+                if all_starts:
+                    min_start = min(all_starts)
+                    all_ends = []
+                    for j in combined:
+                        if j.get("end"):
+                            raw_e = str(j.get("end")).lower()
+                            if any(w in raw_e for w in ("present", "current", "now", "till")):
+                                all_ends.append(datetime.now())
+                            else:
+                                pe = parse_date(j["end"])
+                                if pe:
+                                    all_ends.append(pe)
+                    max_end = max(all_ends) if all_ends else datetime.now()
+                    career_span = (max_end - min_start).days / 365.25
+                    if career_span >= (st_val - 1.5) and total_exp["total_years"] < st_val:
+                        total_exp["total_years"] = round(st_val, 1)
+                        total_exp["total_months"] = int(st_val * 12)
 
     return {
         "experience": jobs,

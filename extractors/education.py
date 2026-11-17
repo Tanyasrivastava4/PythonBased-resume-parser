@@ -907,7 +907,7 @@ def extract_education(education_section_text: str, full_text: str = "") -> dict:
                 break
             if re.match(r'^\s*LABEL:\s*(?:skills|summary|personal_details|languages|certifications)\b', line, re.IGNORECASE):
                 break
-            if re.match(r'^\s*(?:extra[\s-]?curricular(?:\s*activities)?|extracurricularactivities|declaration|personal\s+details|projects?|certifications?|awards?|achievements?)\b', line, re.IGNORECASE):
+            if re.match(r'^\s*(?:extra[\s-]?curricular(?:\s*activities)?|extracurricularactivities|declaration|personal\s+details)\b', line, re.IGNORECASE) or (re.match(r'^\s*(?:projects?|certifications?|awards?|achievements?)\s*$', line, re.IGNORECASE) and not _looks_like_table_header_row(line)):
                 break
             if re.match(r'^\s*LABEL:\s*experience\b', line, re.IGNORECASE):
                 next_lines = [l for l in lines[line_idx+1:line_idx+3] if l.strip()]

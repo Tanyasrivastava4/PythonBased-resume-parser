@@ -711,7 +711,7 @@ def read_with_surya(file_path: str) -> str:
         try:
             if path.suffix.lower() == ".pdf":
                 images = pdf_to_images(file_path)
-            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
                 img = Image.open(file_path).convert("RGB")
                 img = preprocess_scanned_image(img, context=file_path)
                 images = [img]
@@ -1440,7 +1440,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                img = Image.open(file_path).convert("RGB")
 #                img = preprocess_scanned_image(img, context=file_path)
 #                images = [img]
@@ -1992,7 +1992,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                img = Image.open(file_path).convert("RGB")
 #                img = preprocess_scanned_image(img, context=file_path)
 #                images = [img]
@@ -2452,7 +2452,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                img = Image.open(file_path).convert("RGB")
 #                img = preprocess_scanned_image(img, context=file_path)
 #                images = [img]
@@ -2912,7 +2912,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                img = Image.open(file_path).convert("RGB")
 #                img = preprocess_scanned_image(img, context=file_path)
 #                images = [img]
@@ -3292,7 +3292,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                img = Image.open(file_path).convert("RGB")
 #                img = preprocess_scanned_image(img, context=file_path)
 #                images = [img]
@@ -3622,7 +3622,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                images = [Image.open(file_path).convert("RGB")]
 #            else:
 #                raise ValueError(f"Unsupported file type for OCR: {path.suffix}")
@@ -3866,7 +3866,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                images = [Image.open(file_path).convert("RGB")]
 #            else:
 #                raise ValueError(f"Unsupported file type for OCR: {path.suffix}")
@@ -4069,7 +4069,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                images = [Image.open(file_path).convert("RGB")]
 #            else:
 #                raise ValueError(f"Unsupported file type for OCR: {path.suffix}")
@@ -4275,7 +4275,7 @@ if __name__ == "__main__":
 #        try:
 #            if path.suffix.lower() == ".pdf":
 #                images = pdf_to_images(file_path)
-#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#            elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #                images = [Image.open(file_path).convert("RGB")]
 #            else:
 #                raise ValueError(f"Unsupported file type for OCR: {path.suffix}")

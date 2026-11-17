@@ -4415,9 +4415,11 @@
   },
   "Oracle SQL Developer": {
     "aliases": [
-      "oraclesqldeveloper"
+      "oracle sql developer tool",
+      "oraclesqldeveloper",
+      "sql developer"
     ],
-    "category": "dev_tool",
+    "category": "database",
     "source": "onet_hot"
   },
   "Rapide": {
@@ -21292,7 +21294,7 @@
     "aliases": [
       "pandas dataframe",
       "pandas python",
-      "pd"
+      "python pandas"
     ],
     "category": "ai_ml",
     "source": "custom"
@@ -22801,7 +22803,8 @@
   "SEM": {
     "aliases": [
       "paid search",
-      "ppc",
+      "pay per click",
+      "pay-per-click",
       "search engine marketing"
     ],
     "category": "marketing",
@@ -25828,6 +25831,7 @@
   },
   "Cyber Kill Chain": {
     "aliases": [
+      "cyber kill chain framework",
       "cyberkillchain",
       "kill chain",
       "lockheed kill chain"
@@ -26516,14 +26520,21 @@
   },
   "Mortgage Lending": {
     "aliases": [
+      "mortgage credit",
       "mortgage loans",
-      "mortgagelending"
+      "mortgage underwriting",
+      "mortgagelending",
+      "mortgages",
+      "sme mortgages"
     ],
     "category": "banking",
     "source": "custom"
   },
   "MSME Lending": {
     "aliases": [
+      "micro enterprise lending",
+      "micro enterprise loans",
+      "micro lending",
       "msme finance",
       "msmelending"
     ],
@@ -28472,6 +28483,718 @@
       "fsa"
     ],
     "category": "finance",
+    "source": "custom"
+  },
+  "Credit Underwriting": {
+    "aliases": [
+      "credit appraisal & underwriting",
+      "credit underwriting",
+      "creditunderwriting",
+      "hl & lap underwriting",
+      "loan underwriting",
+      "underwriting"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Credit Appraisal": {
+    "aliases": [
+      "credit appraisal",
+      "credit assessment",
+      "credit evaluation",
+      "creditappraisal",
+      "loan appraisal"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Loan Against Property": {
+    "aliases": [
+      "lap",
+      "lap loan",
+      "loan against property",
+      "loanagainstproperty",
+      "micro lap",
+      "micro lap loan",
+      "micro-lap",
+      "mlap",
+      "prime lap"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Home Loan": {
+    "aliases": [
+      "affordable housing loan",
+      "ahl",
+      "hl",
+      "home loan",
+      "home loans",
+      "homeloan",
+      "housing loan",
+      "housing loans"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Secured Lending": {
+    "aliases": [
+      "sbl",
+      "secured business loans",
+      "secured credit",
+      "secured lending",
+      "secured loans",
+      "securedlending"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Unsecured Lending": {
+    "aliases": [
+      "collateral free loans",
+      "collateral-free loans",
+      "unsecured business loans",
+      "unsecured lending",
+      "unsecured loans",
+      "unsecuredlending"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "FOIR": {
+    "aliases": [
+      "fixed obligation to income ratio",
+      "foir",
+      "foir assessment",
+      "foir calculation"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "LTV": {
+    "aliases": [
+      "loan to value",
+      "loan to value ratio",
+      "ltv",
+      "ltv ratio"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Credit Bureau Analysis": {
+    "aliases": [
+      "bureau analysis",
+      "bureau check",
+      "cibil",
+      "cibil analysis",
+      "cibil score",
+      "credit behaviour assessment",
+      "credit bureau",
+      "creditbureauanalysis"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Personal Discussion": {
+    "aliases": [
+      "borrower personal discussion",
+      "pd verification",
+      "pd/tpc",
+      "personal discussion",
+      "personaldiscussion"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Field Verification": {
+    "aliases": [
+      "fi/fcu",
+      "field investigation",
+      "field verification",
+      "fieldverification",
+      "office verification",
+      "residence verification",
+      "third party confirmation",
+      "tpc verification"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Fraud Control Unit": {
+    "aliases": [
+      "fcu",
+      "fcu verification",
+      "fraud control unit",
+      "fraud detection in lending",
+      "fraudcontrolunit"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "CAM Preparation": {
+    "aliases": [
+      "cam note",
+      "cam preparation",
+      "campreparation",
+      "credit appraisal memo",
+      "credit appraisal memorandum",
+      "credit appraisal note"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Bank Statement Analysis": {
+    "aliases": [
+      "abb analysis",
+      "average bank balance",
+      "bank statement analysis",
+      "banking analysis"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Legal & Technical Due Diligence": {
+    "aliases": [
+      "l&t verification",
+      "legal & technical",
+      "legal & technical due diligence",
+      "legal and technical",
+      "property due diligence",
+      "title verification"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Collateral Assessment": {
+    "aliases": [
+      "collateral & property risk",
+      "collateral assessment",
+      "collateral evaluation",
+      "collateralassessment",
+      "property valuation assessment"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Early Warning Signals": {
+    "aliases": [
+      "early warning indicator",
+      "early warning signals",
+      "earlywarningsignals",
+      "ews",
+      "portfolio quality monitoring"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Deviation Management": {
+    "aliases": [
+      "deviation approval",
+      "deviation assessment",
+      "deviationmanagement",
+      "exception handling in credit",
+      "policy deviation"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Loan Disbursement": {
+    "aliases": [
+      "disbursement execution",
+      "disbursement processing",
+      "loan disbursement",
+      "loandisbursement",
+      "login to disbursement"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Gold Loan": {
+    "aliases": [
+      "gold financing",
+      "gold lending",
+      "gold loan",
+      "gold loans",
+      "goldloan"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Personal Loan": {
+    "aliases": [
+      "personal loan",
+      "personal loans",
+      "personalloan",
+      "pl sales",
+      "unsecured personal loan"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Business Loan": {
+    "aliases": [
+      "business loan",
+      "business loans",
+      "businessloan",
+      "small business loan",
+      "unsecured business loan"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Agri Loans": {
+    "aliases": [
+      "agri loan",
+      "agri loans",
+      "agricultural lending",
+      "agricultural loans",
+      "agriloans",
+      "sbal",
+      "small business agri loan"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "DSA Management": {
+    "aliases": [
+      "direct selling agents",
+      "dsa channel",
+      "dsa management",
+      "dsa network",
+      "dsa sourcing",
+      "dsamanagement",
+      "dst/dsa"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Connector Channel Management": {
+    "aliases": [
+      "connector channel",
+      "connector management",
+      "connector network",
+      "connectors sourcing"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Collection & Recovery Management": {
+    "aliases": [
+      "collection & recovery",
+      "collection and recovery",
+      "debt collection",
+      "delinquency management",
+      "loan recovery",
+      "recovery management"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "NACH Collection": {
+    "aliases": [
+      "auto debit collection",
+      "e-nach",
+      "enach",
+      "nach collection",
+      "nach mandate",
+      "nachcollection"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "EMI Collection": {
+    "aliases": [
+      "emi collection",
+      "emi recovery",
+      "emicollection",
+      "installment collection"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Cross-Selling": {
+    "aliases": [
+      "cross selling",
+      "cross selling banking products",
+      "cross-sell"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Small Finance Banking": {
+    "aliases": [
+      "sfb",
+      "small finance bank",
+      "small finance banking",
+      "smallfinancebanking"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Branch Banking": {
+    "aliases": [
+      "branch banking",
+      "branch management",
+      "branch operations",
+      "branchbanking"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Loan Sales": {
+    "aliases": [
+      "lending sales",
+      "loan sales",
+      "loansales",
+      "retail asset sales"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Field Sales Management": {
+    "aliases": [
+      "feet on street management",
+      "field sales",
+      "field sales management",
+      "fieldsalesmanagement",
+      "fos management"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Repayment Capacity Assessment": {
+    "aliases": [
+      "cash flow assessment",
+      "debt servicing capacity",
+      "repayment capacity"
+    ],
+    "category": "banking_lending",
+    "source": "custom"
+  },
+  "Production Planning and Control": {
+    "aliases": [
+      "ppc",
+      "production planning & control",
+      "production planning and control",
+      "production scheduling"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "OEM Coordination": {
+    "aliases": [
+      "odm coordination",
+      "oem coordination",
+      "oem management",
+      "oem odm coordination",
+      "oemcoordination"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "SKD Management": {
+    "aliases": [
+      "ckd/skd",
+      "semi knocked down",
+      "skd assembly",
+      "skd management",
+      "skdmanagement"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Yield Improvement": {
+    "aliases": [
+      "manufacturing yield",
+      "yield improvement",
+      "yield optimization",
+      "yieldimprovement"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Manpower Management": {
+    "aliases": [
+      "labor management",
+      "manpower management",
+      "manpowermanagement",
+      "shop floor manpower"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Process Optimization": {
+    "aliases": [
+      "manufacturing process optimization",
+      "process optimization",
+      "process parameter optimization",
+      "processoptimization"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Cycle Time Reduction": {
+    "aliases": [
+      "cycle time optimization",
+      "cycle time reduction",
+      "cycletimereduction",
+      "takt time reduction"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "TPM": {
+    "aliases": [
+      "total productive maintenance",
+      "tpm implementation"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "OEE": {
+    "aliases": [
+      "oee improvement",
+      "oee tracking",
+      "overall equipment effectiveness"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Material Management": {
+    "aliases": [
+      "material management",
+      "materialmanagement",
+      "materials management",
+      "shop floor material control"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Warehouse Management": {
+    "aliases": [
+      "warehouse management",
+      "warehouse operations",
+      "warehousemanagement"
+    ],
+    "category": "manufacturing",
+    "source": "custom"
+  },
+  "Control-M": {
+    "aliases": [
+      "bmc control-m",
+      "control m",
+      "control-m job scheduling"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "FileZilla": {
+    "aliases": [
+      "filezilla client",
+      "filezilla ftp"
+    ],
+    "category": "dev_tool",
+    "source": "custom"
+  },
+  "BMC Remedy": {
+    "aliases": [
+      "bmc remedy itsm",
+      "bmcremedy",
+      "remedy itsm",
+      "remedy ticketing"
+    ],
+    "category": "itsm",
+    "source": "custom"
+  },
+  "Crontab": {
+    "aliases": [
+      "cron automation",
+      "cron job",
+      "crontab scheduling"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "Batch Processing": {
+    "aliases": [
+      "batch job processing",
+      "batch processing systems",
+      "batchprocessing"
+    ],
+    "category": "devops",
+    "source": "custom"
+  },
+  "Dell Boomi": {
+    "aliases": [
+      "atom queue",
+      "boomi",
+      "boomi atomosphere",
+      "dell boomi integration",
+      "dellboomi"
+    ],
+    "category": "integration",
+    "source": "custom"
+  },
+  "Salesforce Commerce Cloud": {
+    "aliases": [
+      "commerce cloud",
+      "demandware",
+      "sfcc"
+    ],
+    "category": "ecommerce",
+    "source": "custom"
+  },
+  "Akamai CDN": {
+    "aliases": [
+      "akamai",
+      "akamai content delivery",
+      "akamaicdn"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Guardicore": {
+    "aliases": [
+      "guardicore centra",
+      "guardicore microsegmentation"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "AWS SES": {
+    "aliases": [
+      "aws simple email service",
+      "awsses",
+      "simple email service"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "Django REST Framework": {
+    "aliases": [
+      "django rest framework",
+      "djangorestframework",
+      "drf"
+    ],
+    "category": "web_framework",
+    "source": "custom"
+  },
+  "IaaS": {
+    "aliases": [
+      "infrastructure as a service"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "PaaS": {
+    "aliases": [
+      "platform as a service"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "SaaS": {
+    "aliases": [
+      "software as a service"
+    ],
+    "category": "cloud_infra",
+    "source": "custom"
+  },
+  "CrowdStrike Falcon": {
+    "aliases": [
+      "crowdstrike",
+      "crowdstrike falcon edr",
+      "crowdstrikefalcon",
+      "falcon edr"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "IBM QRadar": {
+    "aliases": [
+      "ibm qradar siem",
+      "ibmqradar",
+      "qradar",
+      "qradar siem"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "CyberArk": {
+    "aliases": [
+      "cyberark pam",
+      "cyberark privileged access"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Cortex XSOAR": {
+    "aliases": [
+      "cortex xsoar playbooks",
+      "cortexxsoar",
+      "palo alto xsoar",
+      "xsoar"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Forcepoint DLP": {
+    "aliases": [
+      "forcepoint",
+      "forcepoint data loss prevention",
+      "forcepointdlp"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "DMARC": {
+    "aliases": [
+      "dmarc authentication",
+      "dmarc policy",
+      "email dmarc"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "DKIM": {
+    "aliases": [
+      "dkim signature",
+      "domainkeys identified mail"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "SPF": {
+    "aliases": [
+      "email spf",
+      "sender policy framework",
+      "spf record"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "UEBA": {
+    "aliases": [
+      "user and entity behavior analytics",
+      "user behavior analytics"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "XDR": {
+    "aliases": [
+      "extended detection and response"
+    ],
+    "category": "security",
+    "source": "custom"
+  },
+  "Alert Triage": {
+    "aliases": [
+      "alerttriage",
+      "security alert triage",
+      "soc alert triage"
+    ],
+    "category": "security",
     "source": "custom"
   }
 }

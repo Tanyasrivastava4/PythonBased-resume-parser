@@ -326,7 +326,7 @@ MODERN_TECH_SKILLS = {
     "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
     "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
     "CatBoost":         (["catboost model"], "ai_ml"),
-    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
     "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
     "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
     "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -531,7 +531,7 @@ MODERN_TECH_SKILLS = {
     "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
     "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
     "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
     "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
     "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
     "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -1539,6 +1539,318 @@ _add_alias("ISMS", "information security management systems")
 _add_alias("Agentic AI", "autonomous agent")
 
 
+# ── BATCH 8: Banking, NBFC, Lending, Mortgages, Micro-LAP, Credit Underwriting,
+# Manufacturing Operations, IT/DevOps Support Tools, and SOC Cybersecurity Skills
+# (Audited directly across resumes 590 to 613)
+# ──────────────────────────────────────────────────────────────────
+BATCH_8_ADDITIONS = {
+    # ── Banking, NBFC, Lending, Mortgage & Credit Underwriting ──
+    "Credit Underwriting": (
+        ["credit underwriting", "credit appraisal & underwriting", "loan underwriting", "underwriting", "hl & lap underwriting"],
+        "banking_lending"
+    ),
+    "Credit Appraisal": (
+        ["credit appraisal", "loan appraisal", "credit assessment", "credit evaluation"],
+        "banking_lending"
+    ),
+    "Loan Against Property": (
+        ["loan against property", "lap", "micro lap", "mlap", "prime lap", "lap loan", "micro-lap", "micro lap loan"],
+        "banking_lending"
+    ),
+    "Home Loan": (
+        ["home loan", "home loans", "housing loan", "housing loans", "hl", "affordable housing loan", "ahl"],
+        "banking_lending"
+    ),
+    "Secured Lending": (
+        ["secured lending", "secured loans", "secured credit", "secured business loans", "sbl"],
+        "banking_lending"
+    ),
+    "Unsecured Lending": (
+        ["unsecured lending", "unsecured loans", "collateral-free loans", "collateral free loans", "unsecured business loans"],
+        "banking_lending"
+    ),
+    "FOIR": (
+        ["foir", "fixed obligation to income ratio", "foir calculation", "foir assessment"],
+        "banking_lending"
+    ),
+    "LTV": (
+        ["ltv", "loan to value", "loan to value ratio", "ltv ratio"],
+        "banking_lending"
+    ),
+    "Credit Bureau Analysis": (
+        ["credit bureau", "bureau analysis", "cibil", "cibil analysis", "cibil score", "credit behaviour assessment", "bureau check"],
+        "banking_lending"
+    ),
+    "Personal Discussion": (
+        ["personal discussion", "pd verification", "borrower personal discussion", "pd/tpc"],
+        "banking_lending"
+    ),
+    "Field Verification": (
+        ["field verification", "field investigation", "fi/fcu", "third party confirmation", "tpc verification", "residence verification", "office verification"],
+        "banking_lending"
+    ),
+    "Fraud Control Unit": (
+        ["fraud control unit", "fcu", "fcu verification", "fraud detection in lending"],
+        "banking_lending"
+    ),
+    "CAM Preparation": (
+        ["cam preparation", "credit appraisal memo", "credit appraisal memorandum", "credit appraisal note", "cam note"],
+        "banking_lending"
+    ),
+    "Bank Statement Analysis": (
+        ["bank statement analysis", "banking analysis", "abb analysis", "average bank balance"],
+        "banking_lending"
+    ),
+    "Legal & Technical Due Diligence": (
+        ["legal & technical", "legal & technical due diligence", "legal and technical", "l&t verification", "property due diligence", "title verification"],
+        "banking_lending"
+    ),
+    "Collateral Assessment": (
+        ["collateral assessment", "property valuation assessment", "collateral & property risk", "collateral evaluation"],
+        "banking_lending"
+    ),
+    "Early Warning Signals": (
+        ["early warning signals", "ews", "early warning indicator", "portfolio quality monitoring"],
+        "banking_lending"
+    ),
+    "Deviation Management": (
+        ["deviation assessment", "policy deviation", "exception handling in credit", "deviation approval"],
+        "banking_lending"
+    ),
+    "Loan Disbursement": (
+        ["loan disbursement", "disbursement processing", "login to disbursement", "disbursement execution"],
+        "banking_lending"
+    ),
+    "Gold Loan": (
+        ["gold loan", "gold loans", "gold financing", "gold lending"],
+        "banking_lending"
+    ),
+    "Personal Loan": (
+        ["personal loan", "personal loans", "pl sales", "unsecured personal loan"],
+        "banking_lending"
+    ),
+    "Business Loan": (
+        ["business loan", "business loans", "small business loan", "unsecured business loan"],
+        "banking_lending"
+    ),
+    "Agri Loans": (
+        ["agri loans", "agri loan", "agricultural loans", "agricultural lending", "small business agri loan", "sbal"],
+        "banking_lending"
+    ),
+    "DSA Management": (
+        ["dsa management", "dsa channel", "direct selling agents", "dsa network", "dsa sourcing", "dst/dsa"],
+        "banking_lending"
+    ),
+    "Connector Channel Management": (
+        ["connector channel", "connector network", "connectors sourcing", "connector management"],
+        "banking_lending"
+    ),
+    "Collection & Recovery Management": (
+        ["collection & recovery", "collection and recovery", "loan recovery", "delinquency management", "debt collection", "recovery management"],
+        "banking_lending"
+    ),
+    "NACH Collection": (
+        ["nach collection", "nach mandate", "e-nach", "enach", "auto debit collection"],
+        "banking_lending"
+    ),
+    "EMI Collection": (
+        ["emi collection", "installment collection", "emi recovery"],
+        "banking_lending"
+    ),
+    "Cross-Selling": (
+        ["cross selling", "cross-sell", "cross selling banking products"],
+        "banking_lending"
+    ),
+    "Small Finance Banking": (
+        ["small finance bank", "sfb", "small finance banking"],
+        "banking_lending"
+    ),
+    "Branch Banking": (
+        ["branch banking", "branch management", "branch operations"],
+        "banking_lending"
+    ),
+    "Loan Sales": (
+        ["loan sales", "lending sales", "retail asset sales"],
+        "banking_lending"
+    ),
+    "Field Sales Management": (
+        ["field sales management", "field sales", "feet on street management", "fos management"],
+        "banking_lending"
+    ),
+    "Repayment Capacity Assessment": (
+        ["repayment capacity", "debt servicing capacity", "cash flow assessment"],
+        "banking_lending"
+    ),
+
+    # ── Manufacturing, Production, Planning & Maintenance ──
+    "Production Planning and Control": (
+        ["ppc", "production planning & control", "production planning and control", "production scheduling"],
+        "manufacturing"
+    ),
+    "OEM Coordination": (
+        ["oem coordination", "oem management", "oem odm coordination", "odm coordination"],
+        "manufacturing"
+    ),
+    "SKD Management": (
+        ["skd management", "semi knocked down", "skd assembly", "ckd/skd"],
+        "manufacturing"
+    ),
+    "Yield Improvement": (
+        ["yield improvement", "manufacturing yield", "yield optimization"],
+        "manufacturing"
+    ),
+    "Manpower Management": (
+        ["manpower management", "shop floor manpower", "labor management"],
+        "manufacturing"
+    ),
+    "Process Optimization": (
+        ["process optimization", "manufacturing process optimization", "process parameter optimization"],
+        "manufacturing"
+    ),
+    "Cycle Time Reduction": (
+        ["cycle time reduction", "cycle time optimization", "takt time reduction"],
+        "manufacturing"
+    ),
+    "TPM": (
+        ["total productive maintenance", "tpm implementation"],
+        "manufacturing"
+    ),
+    "OEE": (
+        ["overall equipment effectiveness", "oee improvement", "oee tracking"],
+        "manufacturing"
+    ),
+    "Material Management": (
+        ["material management", "materials management", "shop floor material control"],
+        "manufacturing"
+    ),
+    "Warehouse Management": (
+        ["warehouse management", "warehouse operations"],
+        "manufacturing"
+    ),
+
+    # ── Infrastructure, Enterprise Support, Scheduling & Tools ──
+    "Control-M": (
+        ["control m", "bmc control-m", "control-m job scheduling"],
+        "devops"
+    ),
+    "FileZilla": (
+        ["filezilla client", "filezilla ftp"],
+        "dev_tool"
+    ),
+    "BMC Remedy": (
+        ["bmc remedy itsm", "remedy ticketing", "remedy itsm"],
+        "itsm"
+    ),
+    "Oracle SQL Developer": (
+        ["sql developer", "oracle sql developer tool"],
+        "database"
+    ),
+    "Crontab": (
+        ["cron job", "crontab scheduling", "cron automation"],
+        "devops"
+    ),
+    "Batch Processing": (
+        ["batch job processing", "batch processing systems"],
+        "devops"
+    ),
+    "Dell Boomi": (
+        ["boomi", "dell boomi integration", "boomi atomosphere", "atom queue"],
+        "integration"
+    ),
+    "Salesforce Commerce Cloud": (
+        ["sfcc", "demandware", "commerce cloud"],
+        "ecommerce"
+    ),
+    "Akamai CDN": (
+        ["akamai", "akamai content delivery"],
+        "cloud_infra"
+    ),
+    "Guardicore": (
+        ["guardicore centra", "guardicore microsegmentation"],
+        "security"
+    ),
+    "AWS SES": (
+        ["simple email service", "aws simple email service"],
+        "cloud_infra"
+    ),
+    "Django REST Framework": (
+        ["django rest framework", "drf"],
+        "web_framework"
+    ),
+    "IaaS": (
+        ["infrastructure as a service"],
+        "cloud_infra"
+    ),
+    "PaaS": (
+        ["platform as a service"],
+        "cloud_infra"
+    ),
+    "SaaS": (
+        ["software as a service"],
+        "cloud_infra"
+    ),
+
+    # ── Cybersecurity, SOC, EDR & SIEM ──
+    "CrowdStrike Falcon": (
+        ["crowdstrike", "crowdstrike falcon edr", "falcon edr"],
+        "security"
+    ),
+    "IBM QRadar": (
+        ["qradar", "qradar siem", "ibm qradar siem"],
+        "security"
+    ),
+    "CyberArk": (
+        ["cyberark pam", "cyberark privileged access"],
+        "security"
+    ),
+    "Cortex XSOAR": (
+        ["xsoar", "palo alto xsoar", "cortex xsoar playbooks"],
+        "security"
+    ),
+    "Forcepoint DLP": (
+        ["forcepoint", "forcepoint data loss prevention"],
+        "security"
+    ),
+    "DMARC": (
+        ["dmarc authentication", "dmarc policy", "email dmarc"],
+        "security"
+    ),
+    "DKIM": (
+        ["domainkeys identified mail", "dkim signature"],
+        "security"
+    ),
+    "SPF": (
+        ["sender policy framework", "spf record", "email spf"],
+        "security"
+    ),
+    "UEBA": (
+        ["user and entity behavior analytics", "user behavior analytics"],
+        "security"
+    ),
+    "XDR": (
+        ["extended detection and response"],
+        "security"
+    ),
+    "Alert Triage": (
+        ["security alert triage", "soc alert triage"],
+        "security"
+    ),
+}
+
+MODERN_TECH_SKILLS.update(BATCH_8_ADDITIONS)
+
+# Aliases on pre-existing entries
+_add_alias("Mortgage Lending", "mortgage credit")
+_add_alias("Mortgage Lending", "mortgages")
+_add_alias("Mortgage Lending", "sme mortgages")
+_add_alias("Mortgage Lending", "mortgage underwriting")
+_add_alias("MSME Lending", "micro enterprise lending")
+_add_alias("MSME Lending", "micro lending")
+_add_alias("MSME Lending", "micro enterprise loans")
+_add_alias("Cyber Kill Chain", "cyber kill chain framework")
+
+
+
 ONET_SKIP_PATTERNS = [
     r"^Microsoft\sWord$",
     r"^Microsoft\sOutlook$",
@@ -2151,7 +2463,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -2356,7 +2668,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -3748,7 +4060,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -3953,7 +4265,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -5336,7 +5648,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -5584,7 +5896,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -6817,7 +7129,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -7065,7 +7377,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -8055,7 +8367,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -8277,7 +8589,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -9161,7 +9473,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -9396,7 +9708,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -10361,7 +10673,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -10596,7 +10908,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -11553,7 +11865,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -11783,7 +12095,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -12748,7 +13060,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -12977,7 +13289,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -13947,7 +14259,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -14176,7 +14488,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -15146,7 +15458,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -15375,7 +15687,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -16329,7 +16641,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -16557,7 +16869,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -17506,7 +17818,7 @@ if __name__ == "__main__":
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -17734,7 +18046,7 @@ if __name__ == "__main__":
 #    "Digital Marketing":        (["online marketing", "digital marketing strategy"], "marketing"),
 #    "Content Marketing":        (["content strategy", "content creation", "blog marketing"], "marketing"),
 #    "SEO":                      (["search engine optimisation", "search engine optimization", "on-page seo", "off-page seo"], "marketing"),
-#    "SEM":                      (["search engine marketing", "paid search", "ppc"], "marketing"),
+#    "SEM":                      (["search engine marketing", "paid search", "pay-per-click", "pay per click"], "marketing"),
 #    "Social Media Marketing":   (["smm", "social media management", "social media strategy"], "marketing"),
 #    "Email Marketing":          (["email campaigns", "email automation", "drip campaigns"], "marketing"),
 #    "Brand Management":         (["brand strategy", "brand building", "brand identity"], "marketing"),
@@ -18507,7 +18819,7 @@ from pathlib import Path
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -19349,7 +19661,7 @@ from pathlib import Path
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -20135,7 +20447,7 @@ from pathlib import Path
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),
@@ -20834,7 +21146,7 @@ from pathlib import Path
 #    "XGBoost":          (["xgb", "xgboost model"], "ai_ml"),
 #    "LightGBM":         (["lgbm", "lightgbm model"], "ai_ml"),
 #    "CatBoost":         (["catboost model"], "ai_ml"),
-#    "Pandas":           (["pandas dataframe", "pd", "pandas python"], "ai_ml"),
+#    "Pandas":           (["pandas dataframe", "pandas python", "python pandas"], "ai_ml"),
 #    "NumPy":            (["numpy array", "np", "numpy python"], "ai_ml"),
 #    "Matplotlib":       (["matplotlib pyplot", "plt"], "ai_ml"),
 #    "Seaborn":          (["seaborn visualization"], "ai_ml"),

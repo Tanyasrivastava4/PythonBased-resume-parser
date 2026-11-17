@@ -1,0 +1,73 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+HARSHVARDHAN
+New Delhi, India – 110068
++91 9142894661 | harsh.vardhan.020102@gmail.com | https://github.com/Har02sh
+
+────────────────────────────────────────────────────────────
+LABEL: summary   CONFIDENCE: 0.95   START LINE: 3
+────────────────────────────────────────────────────────────
+Software Engineer specializing in AI, with hands-on experience in LLMs, RAG systems, vector databases, and full-
+stack development using Python, Flask, and React. Skilled in building and deploying on-device LLM inference with
+Ollama, developing scalable AI-driven applications, and integrating deep learning models into production-ready
+systems.
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 8
+────────────────────────────────────────────────────────────
+Programming Languages: Python, JavaScript, C++
+Frontend: React, HTML, Tailwind CSS, CSS, JavaScript
+Backend Support: Flask, PostgreSQL, MongoDB(basic)
+Framework & Libraries: Pytorch, Flask, Langchain, Qdrant, LangGraph
+Tools & Technologies: GenAI, Ollama, Huggingface, Docker, Git & GitHub, GeoServer, CrewAIs
+Other: Deep Learning, Machine learning, CNN, LLM, API Development (Flask, REST APIS)
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 15
+────────────────────────────────────────────────────────────
+Createch Software Pvt Ltd
+Oct 2024 - Present
+Software Developer (Python & AI)
+Developed an intelligent chatbot with open-source search and RAG-based chat, enhanced with advanced
+filters. Integrated audio, text and document translation features, along with map-based search and timeline
+functionalities.
+Developed a RAG system with Qdrant for PDF based document querying.
+Designed frontend UIs for internal apps using Javascript, HTML and CSS.
+Created CRUD apps for offline systems with seamless data operations using REST APIS.
+Built a LLM chatbot using Flask & Ollama for secure, on-device inference.
+Built an LLM based app that converts natural language prompts into SQL queries to interact with a
+predefined database.
+Used geoserver for displaying offline based maps.
+PERSONAL
+FashionMNIST Image Classifier(PyTorch) - https://github.com/Har02sh/fashion-mnist-mlp-pytorch
+Built a fully-connected neural network (MLP) from scratch in PyTorch to classify FashionMNIST clothing images.
+Implemented data normalization, custom train/validation split, early stopping, best-model checkpointing, and
+visualization of training metrics. Achieved ~88% test accuracy with a clean, modular deep-learning pipeline.
+CIFAR-10 Image Classifier (CNN | PyTorch)
+Designed and implemented a Convolutional Neural Network in Pytorch for CIFAR-10 image classification with data
+augmentation, batch normalization, and dropout. Built custom training and evaluation pipelines with learning rate
+scheduling and modular model design.
+RAG Chatbot (Ollama + Qdrant + Flask) - https://github.com/Har02sh/RagChatbot
+Built an offline RAG system with PDF ingestion, embedding, and semantic search using langhchain, Ollama and
+Qdrant, integrated with a Flask backend for context-aware question answering.
+Multi-Agent Workflow Builder (React + Flask + CrewAI)
+Built a drag-and-drop interface for creating multi-agent pipelines (Research, Summarize, Analysis, Custom).
+Orchestrated sequential agent execution using crewAI with step-by-step reasoning logs.
+
+────────────────────────────────────────────────────────────
+LABEL: certifications   CONFIDENCE: 0.95   START LINE: 45
+────────────────────────────────────────────────────────────
+• Python Programming – CEC Certified
+• Computer Networks – NPTEL Certified
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 48
+────────────────────────────────────────────────────────────
+Jagannath Institute of Management Sciences
+2022
+Bachelor of Computer Applications
+
+────────────────────────────────────────────────────────────
+[Found 6 sections total: ['header', 'summary', 'skills', 'experience', 'certifications', 'education']]

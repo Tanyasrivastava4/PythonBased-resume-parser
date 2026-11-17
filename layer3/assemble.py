@@ -158,6 +158,18 @@ def build_resume_record(segmented_filepath: str) -> dict:
     # LinkedIn/GitHub links sometimes sit outside the header -- see
     # contact_extractor.py's own docstring.
     contact = extract_contact(full_text)
+    # If email or phone is missing from segmented text, fallback to unsegmented raw text
+    if not (contact.get("email", {}).get("value") and contact.get("phone", {}).get("value")):
+        raw_candidate = path.parent.parent / "extracted_text" / path.name.replace("_segmented.txt", ".txt")
+        if raw_candidate.exists():
+            try:
+                raw_content = raw_candidate.read_text(encoding="utf-8", errors="ignore")
+                raw_contact = extract_contact(raw_content)
+                for fld in ("email", "phone", "linkedin", "github", "name"):
+                    if not contact.get(fld, {}).get("value") and raw_contact.get(fld, {}).get("value"):
+                        contact[fld] = raw_contact[fld]
+            except Exception:
+                pass
     contact_found_confs = []
     for field_name, field_data in contact.items():
         if field_data["value"]:

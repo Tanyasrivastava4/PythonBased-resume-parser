@@ -135,10 +135,14 @@ NON_NAME_BLACKLIST = {
     "linkedin", "github", "behance", "dribbble", "portfolio", "location", "address", "linkedin id", "github id",
     "ccna", "ccnp", "ccie", "pmp", "cissp", "cisa", "aws", "gcp", "azure", "itil", "ceh", "fortinet",
     "tcp", "udp", "mpls", "ospf", "bgp", "eigrp",
-    # Professional designations that appear in headers but are NOT names
+    # Professional designations and degrees that appear in headers but are NOT names
     "chartered accountant", "ca", "cpa", "cfa", "fca", "aca", "acca", "cs", "cwa",
     "software engineer", "data scientist", "data analyst", "business analyst",
     "project manager", "product manager", "human resources", "hr professional",
+    "b e", "b.e", "b.e.", "be", "b tech", "b.tech", "btech", "m tech", "m.tech", "mtech",
+    "mba", "m.b.a", "pgdm", "b sc", "b.sc", "bsc", "m sc", "m.sc", "msc", "bca", "mca",
+    "b com", "b.com", "bcom", "m com", "m.com", "mcom", "bba", "llb", "phd", "ph.d",
+    "language known", "languages known", "languages", "language", "hobbies", "personal details",
 }
 
 TITLE_WORDS = {
@@ -154,12 +158,17 @@ NAME_LINE_PATTERN = re.compile(r"^[A-Z][a-zA-Z.\-']*(?:\s+[a-zA-Z.\-']+){0,3}$")
 
 def _strip_known_matches(text: str) -> str:
     """
-    Removes every email, LinkedIn URL, and GitHub URL from a COPY of the
+    Removes valid emails, LinkedIn URLs, and GitHub URLs from a COPY of the
     text. Used before searching for phone numbers or websites, so that
     digits or domain-shaped fragments INSIDE those URLs never get a
     chance to be mistaken for something else.
     """
-    cleaned = EMAIL_PATTERN.sub(" ", text)
+    def _replace_real_email(m):
+        em = m.group(0)
+        if _is_placeholder_email(em):
+            return em
+        return " "
+    cleaned = EMAIL_PATTERN.sub(_replace_real_email, text)
     cleaned = LINKEDIN_PATTERN.sub(" ", cleaned)
     cleaned = GITHUB_PATTERN.sub(" ", cleaned)
     cleaned = re.sub(r'\b(?:ISO(?:/IEC)?\s*)?\d{4,5}[-:]\d{4}\b', ' ', cleaned, flags=re.IGNORECASE)
@@ -169,9 +178,15 @@ def _strip_known_matches(text: str) -> str:
 def _is_placeholder_email(email: str) -> bool:
     """
     Checks only the DOMAIN portion of an email against known placeholder
-    domains.
+    domains, and rejects false-positive emails where a phone number was merged
+    with an '@' symbol or where the TLD is not a valid alphabetical domain.
     """
+    if re.match(r"^\+?\d{9,}@", email):
+        return True
     domain = email.rsplit("@", 1)[-1].lower()
+    tld = domain.rsplit(".", 1)[-1]
+    if len(tld) < 2 or not tld.isalpha():
+        return True
     return domain in PLACEHOLDER_DOMAINS
 
 
@@ -224,7 +239,7 @@ def clean_phone(raw_phone: str) -> str:
     if PHONE_BLACKLIST.match(digits_only):
         return None
 
-    if re.search(r"(19|20)\d{2}(19|20)\d{2}", digits_only):
+    if re.fullmatch(r"(?:19|20)\d{2}(?:19|20)\d{2}", digits_only):
         return None
 
     if re.search(r"\((?:19|20)\d{2}\)", raw_phone):
@@ -357,8 +372,23 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
             }:
                 continue
 
-            if NAME_LINE_PATTERN.match(part) or (part.isupper() and 1 <= len(part.split()) <= 4):
-                words = part.split()
+            # Reject language headers, hobbies, and degree acronyms
+            if any(bad in part_low for bad in ["language known", "languages known", "languages", "language", "hobbies", "personal details", "personal profile"]):
+                continue
+            if part_no_space in {"be", "btech", "mtech", "mba", "pgdm", "bsc", "msc", "bca", "mca", "bcom", "mcom", "bba", "llb", "phd"}:
+                continue
+
+            # Strip trailing parenthetical text like "(Chartered Accountant)" and honorifics
+            clean_part = re.sub(r"\s*\([^)]*\)\s*$", "", part).strip()
+            clean_part = re.sub(r"^(?:CA|Dr\.?|Mr\.?|Ms\.?|Mrs\.?)\s+", "", clean_part, flags=re.I).strip()
+            if not clean_part:
+                continue
+
+            if NAME_LINE_PATTERN.match(clean_part) or (clean_part.isupper() and 1 <= len(clean_part.split()) <= 4):
+                words = clean_part.split()
+                # Reject if all words are single letters (e.g. ['B', 'E'])
+                if all(len(w) <= 1 for w in words):
+                    continue
                 if 1 <= len(words) <= 4:
                     cand_name = " ".join(w.capitalize() for w in words)
                     score = 0.5
@@ -366,7 +396,7 @@ def _regex_name_candidate(header_text: str) -> Optional[str]:
                         score += 0.3
                     if has_contact_label or EMAIL_PATTERN.search(raw_line):
                         score += 0.2
-                    if part.isupper():
+                    if clean_part.isupper():
                         score += 0.1
                     candidates.append((score, cand_name))
 
@@ -439,6 +469,45 @@ def extract_name(full_text: str) -> dict:
                 result.update(value=cand_name, confidence=0.9, method="spaced_chars_regex")
                 return result
 
+    # Fallback 1: Name pattern with explicit prefix (e.g. "Name: ...", "Candidate Name: ...")
+    m_lbl = re.search(r'(?:^|\n)\s*(?:Candidate\s*Name|Full\s*Name|Name)\s*[:\-]\s*([A-Za-z\s.\'\-]+)', full_text, re.I)
+    if m_lbl:
+        cand = m_lbl.group(1).splitlines()[0].strip()
+        cand = re.sub(r'[\t\r\n]', ' ', cand).strip()
+        cand_clean = re.sub(r'([A-Za-z])\.([A-Za-z])', r'\1. \2', cand).strip()
+        words = cand_clean.split()
+        if 2 <= len(words) <= 4 and not _is_blacklisted_line(cand_clean):
+            result.update(value=" ".join(w.capitalize() for w in words), confidence=0.85, method="label_prefix")
+            return result
+
+    # Fallback 2: Lines adjacent to the email address (handles multi-column table resumes)
+    lines = [l.strip() for l in full_text.splitlines() if l.strip()]
+    for idx, l in enumerate(lines):
+        if EMAIL_PATTERN.search(l):
+            for offset in [-2, -1, 1, 2]:
+                t_idx = idx + offset
+                if 0 <= t_idx < len(lines):
+                    cand_line = lines[t_idx]
+                    cand_line = re.sub(r'([A-Za-z])\.([A-Za-z])', r'\1. \2', cand_line).strip()
+                    if NAME_LINE_PATTERN.match(cand_line):
+                        words = cand_line.split()
+                        if 1 <= len(words) <= 4:
+                            cand_low = cand_line.lower()
+                            if not _is_blacklisted_line(cand_line) and not any(b in cand_low for b in ['email', 'mail', 'phone', 'mobile', 'address', 'curriculum', 'resume', 'objective']):
+                                result.update(value=" ".join(w.capitalize() for w in words), confidence=0.85, method="near_email")
+                                return result
+
+    # Fallback 3: Declaration signature (e.g. "Yours faithfully Dinesh .N" or "(B. Dhana Sekhar)")
+    m_sig = re.search(r'(?:Yours\s+(?:faithfully|truly|sincerely))[\s\S]*?(?:(?:\(([^)]+)\))|([A-Z][a-zA-Z.\'\- ]{2,30}))', full_text, re.I)
+    if m_sig:
+        sig = m_sig.group(1) or m_sig.group(2)
+        sig = re.sub(r'[\t\r\n]', ' ', sig).strip()
+        sig = re.sub(r'([A-Za-z])\.([A-Za-z])', r'\1. \2', sig).strip()
+        words = sig.split()
+        if 2 <= len(words) <= 4 and not _is_blacklisted_line(sig):
+            result.update(value=" ".join(w.capitalize() for w in words), confidence=0.75, method="declaration_sig")
+            return result
+
     return result
 
 
@@ -493,19 +562,21 @@ def extract_contact(full_text: str) -> dict:
     # ── EMAIL ──────────────────────────────────────────────
     raw_emails = EMAIL_PATTERN.findall(full_text_clean)
     real_emails = [e for e in raw_emails if not _is_placeholder_email(e)]
-    primary_email = None
+    valid_emails = []
     for e in real_emails:
         if not _is_reference_email(e, full_text_clean):
-            primary_email = e
-            break
-    if not primary_email and real_emails:
-        primary_email = real_emails[0]
+            cleaned_e = re.sub(r"^(?:\$+[a-zA-Z0-9]{1,4}[ib]?|\b(?:mbi|eoi|eo|mb|MBi|MBI|EOi)\b|\$MBi?)\s*(?=[a-zA-Z0-9._%+-]+@)", "", e)
+            cleaned_e = re.sub(r"(?:https?|www|ca|tel|mob|ph)$", "", cleaned_e, flags=re.IGNORECASE).strip().lower()
+            if cleaned_e and cleaned_e not in valid_emails:
+                valid_emails.append(cleaned_e)
+                if len(valid_emails) >= 2:
+                    break
+    if not valid_emails and real_emails:
+        valid_emails = [real_emails[0].strip().lower()]
 
-    if primary_email:
-        primary_email = re.sub(r"^(?:\$+[a-zA-Z0-9]{1,4}[ib]?|\b(?:mbi|eoi|eo|mb|MBi|MBI|EOi)\b|\$MBi?)\s*(?=[a-zA-Z0-9._%+-]+@)", "", primary_email)
-        primary_email = re.sub(r"(?:https?|www|ca|tel|mob|ph)$", "", primary_email, flags=re.IGNORECASE)
+    if valid_emails:
         result["email"] = {
-            "value": primary_email.lower(),
+            "value": " / ".join(valid_emails),
             "confidence": 0.99,
             "method": "regex",
         }

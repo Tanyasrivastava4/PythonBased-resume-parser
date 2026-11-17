@@ -1,0 +1,81 @@
+Tanya Srivastava
+Gen AI Engineer | Python Developer
+Gurugram, Haryana
++91-7392065646 | tanyasrivastava656@gmail.com | linkedin.com/in/tanya-srivastava-237629234 |
+github.com/Tanyasrivastava4
+Professional Summary
+Gen AI Python Developer with hands-on experience of designing and deploying Machine Learning and Retrieval-
+Augmented Generation (RAG) solutions. Strong expertise in LLMs, semantic search, embeddings, vector databases,
+hybrid retrieval, LLM-based applications, and automated CI/CD workflows using Python. Experienced in developing
+end-to-end ML and GenAI pipelines including data ingestion, EDA, feature engineering, model training, evaluation,
+and production deployment using Python-based microservices.
+Technical Skills
+Generative AI / LLM: LLM, RAG, LangChain, LangGraph, Ollama, OpenAI API, Gemini API, Claud, Llama,
+Prompt Engineering, Haystack, SentenceTransformers, Embeddings, Hybrid Search (BM25 + Dense Retrieval),
+Cross-Encoder Reranking, semantic search, Multi-Stage LLM Pipelines (Planner-Executor pattern), LangSmith,
+MCP (Model Context Protocol),AutoGen.
+Vector Databases: Qdrant, Faiss, ChromaDB,Pinecone.
+Programming & APIs: Python, MySQL, FastAPI, Rest API.
+MLOps / DevOps: CI/CD, GitHub Actions, Docker, Git&Github.
+Cloud & Tools: AWS, GCP, Salad.com, Jupyter Notebook, VS Code, n8n
+Machine Learning / Deep Learning: Scikit-Learn, TensorFlow, NumPy, Pandas, ANN, CNN, EDA, Feature
+Engineering
+Work Experience
+Gen AI Engineer – Intileo Technology
+Aug 2025 – Present
+Resume Parser
+Jul 2026 – Present
+Python, Fitz, PyMuPDF, Pytesseract, OpenCV, Surya-OCR | Link
+● Building a Python-based resume parser that takes a job description as input and matches it against a pool of
+candidate resumes to surface the most relevant matches.
+● Extracting and processing text from resumes in varied formats using Fitz/PyMuPDF, with Pytesseract and
+Surya-OCR handling scanned and image-based resumes.
+● Using OpenCV for image preprocessing to improve OCR accuracy on scanned and low-quality resume
+documents.
+Invoice OCR & Pattern-Based Invoice Understanding
+Python, Tesseract OCR, OpenCV, Regex, Pandas | Link
+● Developed an end-to-end invoice processing system using Tesseract OCR and OpenCV, implementing image
+preprocessing that significantly improved text-extraction accuracy.
+● Built a structured data-output pipeline (JSON/tabular) to organize extracted invoice data for downstream
+analytics and processing.
+Projects
+Dynamic SQL Chatbot with Auto-Schema Intelligence | LangChain / Ollama
+● Architected an intelligent SQL generation system using LangChain and Ollama LLMs, converting natural
+language queries into executable SQL with automated schema understanding.
+● Implemented auto-schema extraction with dynamic relationship detection across 6+ database tables, enabling
+the system to interpret complex data structures without manual configuration.
+● Designed a multi-stage LLM pipeline with sequential agent-like stages — intent classification, query
+validation, security filtering, and smart table selection — architecturally aligned with the Planner-Executor
+pattern for accurate, production-safe SQL generation.
+
+CI/CD Pipeline | GitHub Actions, Salad CLI
+● Designed and implemented an end-to-end CI/CD pipeline automating training, testing, deployment, and
+security validation of AI/LLM-based systems, reducing manual release effort and deployment turnaround
+time.
+● Engineered a GitHub Actions workflow with automatic triggers on code or data updates, enabling one-click
+retraining and deployment for production LLM systems.
+Hybrid RAG | Python, SentenceTransformers, Qdrant, ChromaDB
+● Developed a hybrid RAG pipeline combining BM25 keyword search with dense vector retrieval (Qdrant,
+ChromaDB), using cross-encoder reranking to improve candidate document ranking accuracy.
+MCP Servers | Claude Desktop, Python, stdio Transport
+● Built local MCP (Model Context Protocol) servers — AI Sticky Notes and Weather MCP — integrated with
+Claude Desktop using stdio transport, enabling Claude to invoke custom Python tools directly.
+● Designed tool schemas and server-side logic for local-first LLM tool consumption, gaining hands-on
+experience with MCP server development and transport mechanisms.
+AI Blog Generation Agent | LangGraph, LangChain, OpenAI, Gemini, Python, Streamlit
+● Built a planning-based, production-style AI agent system using LangGraph, going beyond simple prompt-
+based responses.
+● Designed an orchestrator–worker architecture with router, planner, worker, and reducer nodes to manage
+end-to-end task execution.
+● Implemented a planning stage where the agent plans before execution and decides when internet research is
+required, breaking tasks into parallel subtasks handled by multiple worker agents.
+● Integrated Tavily for research-powered agent capabilities, and added automatic citation generation and
+image-aware content generation to deliver a complete end-to-end blog generation system via Streamlit.
+Education
+Babu Banarsi Das University
+Oct 2021 – Jun 2025
+Bachelor of Technology - Computer Science and Engineering - CGPA - 8.62
+Lucknow, Uttar Pradesh
+
+Links:
+https://github.com/Tanyasrivastava4

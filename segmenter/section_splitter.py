@@ -49,13 +49,14 @@ _EXPERIENCE_DATE_RANGE_TAIL = (
 )
 _EXPERIENCE_PATTERN = re.compile(
     rf"^(?:((working|work|industry|relevant|professional|previous|past|prior|organizational|organisation|corporate|company)\s*(and\s*)?){{0,2}}experience"
-    rf"|employment(\s+(history|details|records?|background))?"
+    rf"|employment(\s+(history|details|records?|background|chronicle))?"
     rf"|professional\s*background"
     rf"|professional\s*profile"
-    rf"|professional\s*synopsis|career\s*synopsis|work\s*synopsis|employment\s*synopsis|synopsis\s*of\s*experience"
+    rf"|(?:(present|current|recent|past)\s+)?(professional\s*synopsis|career\s*synopsis|work\s*synopsis|employment\s*synopsis|synopsis\s*of\s*experience)"
     rf"|career\s*history|work\s*history|internships?"
     rf"|corporate\s+success|career\s+journey|professional\s+journey"
-    rf"|career\s+chronology|employment\s+timeline"
+    rf"|career\s+chronology|employment\s+timeline|employment\s+chronicle"
+    rf"|carr?ier\s*road\s*maps?|career\s*road\s*maps?"
     rf"|key\s+tasks?(\s+performed|\s+handled)?"
     rf"|tasks?\s+performed"
     rf"|key\s+responsibilities|core\s+responsibilities|professional\s+responsibilities"
@@ -72,6 +73,7 @@ SECTION_PATTERNS = {
     "summary": _build_section_pattern([
         r"(professional\s+|personal\s+|profile\s+|executive\s+|career\s+|brief\s+)?summary",
         r"(professional\s+|executive\s+|career\s+|brief\s+)?profile",
+        r"(professional\s+|executive\s+|career\s+)?credentials?",
         r"objective",
         r"about\s+me", r"career\s+objective", r"personal\s+statement",
         r"positioning\s+note",
@@ -739,6 +741,11 @@ def split_into_sections(text: str) -> list:
         if k in text:
             text = text.replace(k, v)
 
+    # Healing split OCR tokens
+    text = re.sub(r'\bSeptembe\s+r\b', 'September', text, flags=re.I)
+    text = re.sub(r'\bT\s+ill\s+Da\s+te\b', 'Till Date', text, flags=re.I)
+    text = re.sub(r'\bManufactur\s+ing\b', 'Manufacturing', text, flags=re.I)
+
     lines = text.split("\n")
     sections = []
     current_label = "header"
@@ -842,6 +849,14 @@ def split_into_sections(text: str) -> list:
                             for u_line in lines[i+1:min(len(lines), i+5)]:
                                 u_str = u_line.strip()
                                 if u_str and ("duration" in u_str.lower() or _JOB_DATE_RANGE.search(u_str) or re.search(r"\bfrom\s+[A-Za-z]+\s+\d{4}\b", u_str, re.I)):
+                                    label = "experience"
+                                    confidence = 0.95
+                                    inline_content = stripped
+                                    break
+                        elif any(w in stripped.lower() for w in ("pvt. ltd", "pvt ltd", "ltd.", "limited", "technologies", "solutions", "corporation")) or re.match(r'^(?:working|worked)\s+as\b', stripped, re.I):
+                            for u_line in lines[i:min(len(lines), i+4)]:
+                                u_str = u_line.strip()
+                                if u_str and (re.match(r'^(?:working|worked)\s+as\b', u_str, re.I) or _JOB_DATE_RANGE.search(u_str) or re.search(r"\bfrom\s+[A-Za-z]+['’]?\d{2,4}\s+to\b", u_str, re.I)):
                                     label = "experience"
                                     confidence = 0.95
                                     inline_content = stripped

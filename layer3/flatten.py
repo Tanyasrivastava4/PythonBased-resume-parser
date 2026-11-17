@@ -12,6 +12,7 @@ from pathlib import Path
 
 from layer3.assemble import build_resume_record, parse_segmented_file
 from segmenter.section_splitter import _SPOKEN_LANGUAGE_KEYWORDS
+from extractors.demographics import extract_demographics
 
 
 def _fmt_education_line(i: int, entry: dict) -> str:
@@ -115,6 +116,13 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
         elif pd_text:
             languages_text = pd_text
 
+    demo = extract_demographics(
+        text=full_text,
+        name=contact["name"]["value"],
+        education_lines=[_fmt_education_line(i, e) for i, e in enumerate(edu["entries"], 1)],
+        total_experience=te["total_years"]
+    )
+
     flat = {
         "email": contact["email"]["value"],
         "email_confidence": contact["email"]["confidence"],
@@ -124,6 +132,24 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
 
         "name": contact["name"]["value"],
         "name_confidence": contact["name"]["confidence"],
+
+        "gender": demo["gender"],
+        "gender_confidence": demo["gender_confidence"],
+
+        "dob": demo["dob"],
+        "dob_confidence": demo["age_confidence"],
+
+        "age": demo["age"],
+        "age_confidence": demo["age_confidence"],
+
+        "nationality": demo.get("nationality"),
+        "nationality_confidence": demo.get("nationality_confidence"),
+
+        "citizenship": demo.get("citizenship"),
+        "citizenship_confidence": demo.get("citizenship_confidence"),
+
+        "marital_status": demo.get("marital_status"),
+        "marital_status_confidence": demo.get("marital_status_confidence"),
 
         "linkedin": contact["linkedin"]["value"],
         "linkedin_confidence": contact["linkedin"]["confidence"],
@@ -161,6 +187,9 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
 
         "Achievements": ach["items"],
         "Achievements_confidence": ach["_confidence"],
+
+        "projects": [p.strip() for p in sections.get("projects", "").splitlines() if len(p.strip()) > 3 and not re.match(r"^(?:projects?|key projects?|academic projects?)[:\-]?$", p.strip(), re.I)][:10],
+        "projects_confidence": 0.85 if sections.get("projects") else None,
     }
 
     # Drop fields with nothing behind them (value AND its confidence

@@ -1,0 +1,95 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+Ankush Mehta
+Delhi, India | ankushmehta243@gmail.com | +91 9953523447 | linkedin.com/in/ankush04
+github.com/ankushmehta123
+ankushmehta243@gmail.com
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 3
+────────────────────────────────────────────────────────────
+HMR Institute of Technology and Management
+Delhi, India
+B.Tech in Computer Science Engineering
+2021 - 2025
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 8
+────────────────────────────────────────────────────────────
+Languages, Tools & Data Analytics: Python, SQL, Pandas, NumPy, Excel, Power BI, Tableau, Seaborn
+Machine Learning & AI: Scikit-Learn, TensorFlow, PyTorch, Deep Learning (CNN, RNN, LSTM, Transfer Learning)
+NLP & Generative AI: NLTK, BERT, GPT Fine-tuning, Transformer Architecture, RAG, LangChain, Agentic AI
+MLOps & Cloud Computing: DVC, Docker, MLflow, AWS (SageMaker, S3, EC2), Git, GitHub
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 13
+────────────────────────────────────────────────────────────
+AI Engineer, Isourse – Delhi, India
+August 2025 – Present
+• Built a RAG system within the CRMS using Gemini File Search and product-specific document stores to
+generate BRDs, acceptance criteria, and dependency maps, reducing BA documentation time by 50%.
+• Developed an AI-driven change-request rewriting pipeline for the CRMS that enriched incomplete client
+submissions via contextual retrieval, improving request quality and cutting processing time by 30%.
+• Implemented a production-ready Nixtla-based time-series pipeline for intermittent gig-worker demand
+forecasting across 5 designations and 40+ cities, with automated ingestion, validation, and cleaning.
+• Trained and cross-validated AutoNHITS and AutoLSTM on 80+ series with automatic best-model selection
+and scheduled weekly retraining to keep forecasts current.
+• Optimized CRM lead generation scoring by 55% using LLM prompt engineering and an ensemble NLP
+approach, preventing bad-fit companies from receiving inflated scores.
+• Implemented a weighted text similarity layer combining cosine semantic similarity, Jaccard/keyword
+overlap, and a custom LLM prompt function between product information and client requirements to generate
+more reliable lead scores.
+AI Developer Intern, Buyogo – Noida, UP,India
+May 2025 – July 2025
+• Built an analytical chatbot that enables natural language querying across 40+ apparel operations SQL tables
+by designing a custom few-shot–based SQL generation framework, achieving 85% accuracy on complex queries.
+• Developed a Retrieval-Augmented Generation (RAG) knowledge base chatbot to assist new users and clients
+in navigating the product; improved BLEU score by 30% (from 0.60 to 0.78) using Flash Reranker and other
+advanced techniques.
+• Created backend APIs, including a reset API to reinitialize the vector DB pipeline and a feedback API with
+like/dislike ratings; reduced manual reset time by 70% and enabled iterative model improvement through user
+input.
+• Containerized the complete application stack (Streamlit UI, backend APIs) using Docker; created
+production-ready images to streamline deployment and manage dependencies.
+Generative AI Intern, Everyday Series – London, UK (Remote)
+April 2025 – June 2025
+• Developed Micro SaaS products for solopreneurs, leveraging Generative AI solve niche problems.
+• Created an autonomous multi-agent system that identified real-time discounts, cutting search time by 70%.
+• Utilized no-code/low-code tools like Loveable AI and Supabase to optimize backend automation and UI/UX
+workflows.
+• Built workflow automations with n8n to orchestrate AI agents, APIs, and databases, reducing manual ops by
+
+80%.
+• Integrated n8n with LLMs and third-party services (Stripe, email, webhooks) to enable real-time data syncing
+and event-driven actions.
+Data Science Intern, Tata Power DDL – Delhi, India
+July 2024 – August 2024
+• Developed time series models to forecast customer service call volumes, optimizing staffing and improving
+operational efficiency.
+• Conducted EDA to identify seasonal trends, peak call times, and differences between holidays and
+non-holidays.
+• Performed stationarity checks using ADF and KPSS tests; applied first-order differencing for model stability.
+• Evaluated models using MAPE: SARIMA (68.67), SARIMAX with exogenous variables (58.79), and LSTM
+(21.67).
+• Implemented LSTM model for final predictions, achieving the lowest MAPE and enhancing forecast accuracy.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.95   START LINE: 62
+────────────────────────────────────────────────────────────
+Log Classification Framework: Hybrid log classification framework combining
+Project Link
+Regex, NLP models, and LLMs (including DeepSeek via Groq)
+Toxic Comments Detection: BiLSTM model to detect toxic comments across six
+Project Link
+categories with 83.7% precision and 68.1% recall.
+
+Links:
+https://www.linkedin.com/in/ankush04/
+https://github.com/ankushmehta123
+https://github.com/ankushmehta123/project-nlp-log-classification
+https://github.com/ankushmehta123/comment-toxicity-model
+
+────────────────────────────────────────────────────────────
+[Found 5 sections total: ['header', 'education', 'skills', 'experience', 'projects']]

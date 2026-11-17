@@ -1,0 +1,91 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+Ananya Iyer
+Senior Python Developer | FastAPI | Microservices | Kafka | Kubernetes
+Bengaluru, Karnataka, India | +91-98XXXXXX02 | ananya.iyer@example.com | linkedin.com/in/ananya-iyer-sample |
+github.com/ananyaiyer-sample
+
+────────────────────────────────────────────────────────────
+LABEL: summary   CONFIDENCE: 0.95   START LINE: 4
+────────────────────────────────────────────────────────────
+Backend engineer with 6 years of Python experience designing microservices and event-driven systems with
+FastAPI, Django and Kafka. Experienced in asyncio, PostgreSQL / MySQL tuning, Redis, Docker, Kubernetes
+and Terraform on AWS. Acts as a technical lead: owns design reviews, conducts code reviews, mentors
+engineers and drives Agile / Scrum delivery. Strong advocate of pytest, TDD, clean architecture, SOLID principles
+and secure coding (OWASP).
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 10
+────────────────────────────────────────────────────────────
+Languages
+Python 3.x (expert), SQL, Bash, TypeScript (basic)
+Frameworks
+FastAPI, Django, Django REST Framework, Flask, Celery, Pydantic, SQLAlchemy, Django
+ORM, gRPC, GraphQL
+Databases
+PostgreSQL, MySQL, Redis, MongoDB, Elasticsearch
+Messaging / Async Kafka, RabbitMQ, Celery, asyncio, AWS SQS / SNS, WebSockets
+Cloud / DevOps AWS (ECS, EKS, Lambda, RDS, S3), Docker, Kubernetes, Terraform, GitLab CI/CD,
+GitHub Actions
+Observability
+Prometheus, Grafana, ELK, Sentry, OpenTelemetry
+Testing / Quality pytest, unittest, TDD, coverage, Ruff, mypy, SonarQube
+Practices
+Microservices, domain-driven design, REST API design, OAuth2 / JWT, SOLID, design
+patterns, OWASP, performance optimisation, Agile / Scrum, Git
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 27
+────────────────────────────────────────────────────────────
+Senior Python Developer (Tech Lead - Platform)
+StreamForge Labs, Bengaluru | Jan 2021 - Present
+• Led a squad of 6 engineers to re-architect a monolith into 14 FastAPI microservices using Kafka, PostgreSQL
+and Redis; reduced deployment time by 70%.
+• Built high-throughput async APIs with asyncio that handle 5,000+ requests/second at p95 latency below 120
+ms.
+• Designed event-driven pipelines with Kafka and Celery to process 20M+ events/day with at-least-once delivery
+guarantees.
+• Introduced OAuth2 / JWT-based auth, API versioning and rate limiting across all services; closed all critical
+OWASP Top 10 findings.
+• Built CI/CD pipelines with GitLab CI, Docker and Kubernetes; provisioned infrastructure through Terraform on
+AWS.
+• Set up observability (Prometheus, Grafana, Sentry, OpenTelemetry), reducing mean time to resolution of
+incidents by 50%.
+• Conducted code reviews and design reviews, mentored 4 engineers, and raised test coverage to 90% using
+pytest and TDD.
+Python Developer
+Finlytics Software Pvt Ltd, Chennai | Jul 2018 - Dec 2020
+• Developed Django / DRF APIs and Flask services for a lending analytics platform using MySQL and
+PostgreSQL.
+• Implemented Celery and RabbitMQ workflows for report generation and email notifications.
+• Tuned SQL queries and ORM usage, improving dashboard load time by 55%.
+• Worked in Agile / Scrum sprints; wrote unit and integration tests with unittest and pytest.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.95   START LINE: 51
+────────────────────────────────────────────────────────────
+• Real-time Notification Hub: FastAPI + WebSockets + Kafka service delivering 3M notifications/day.
+Sample / fictional resume created for illustration and ATS-testing purposes
+Page 1
+
+• Open source: maintainer of a small FastAPI rate-limiting middleware library (500+ GitHub stars); tech blog
+and conference talks on async Python.
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 58
+────────────────────────────────────────────────────────────
+B.E. in Information Technology - Anna University, Chennai, 2018
+
+────────────────────────────────────────────────────────────
+LABEL: certifications   CONFIDENCE: 0.95   START LINE: 60
+────────────────────────────────────────────────────────────
+• Certified Kubernetes Application Developer (CKAD)
+• AWS Certified Solutions Architect - Associate
+• Speaker, PyCon India 2023
+Sample / fictional resume created for illustration and ATS-testing purposes
+Page 2
+
+────────────────────────────────────────────────────────────
+[Found 7 sections total: ['header', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']]

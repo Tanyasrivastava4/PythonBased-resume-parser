@@ -376,7 +376,7 @@ def read_with_surya(file_path: str) -> str:
                 # Last-resort quality gate per page.
                 check_not_degenerate(_pg_text, context=file_path)
                 texts.append(_pg_text)
-    elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+    elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
         img = Image.open(file_path).convert("RGB")
         img = preprocess_scanned_image(img, context=file_path)
         # Standalone images have no fitz page / PDF point space to
@@ -797,7 +797,7 @@ if __name__ == "__main__":
 #                        f"plain whole-page OCR for any page where this happens."
 #                    )
 #                    texts.append(_ocr_page_plain_fallback(img))
-#    elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#    elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #        img = Image.open(file_path).convert("RGB")
 #        img = preprocess_scanned_image(img, context=file_path)
 #        # Standalone images have no fitz page / PDF point space to
@@ -949,7 +949,7 @@ if __name__ == "__main__":
 #                pytesseract.image_to_string(_render_page(doc[i]), config=f"--psm {OCR_PSM}").strip()
 #                for i in range(len(doc))
 #            ]
-#    elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp"):
+#    elif path.suffix.lower() in (".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".jfif"):
 #        img = Image.open(file_path).convert("RGB")
 #        texts = [pytesseract.image_to_string(img, config=f"--psm {OCR_PSM}").strip()]
 #    else:
