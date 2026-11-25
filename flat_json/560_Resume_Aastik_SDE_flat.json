@@ -1,0 +1,156 @@
+{
+  "email": "aastik.mishr@gmail.com",
+  "email_confidence": 0.99,
+  "mobile_number": "+919425077480",
+  "mobile_number_confidence": 0.95,
+  "name": "Aastik Mishra",
+  "name_confidence": 0.9,
+  "dob": "1997-01-01",
+  "dob_confidence": 0.7,
+  "age": 29,
+  "age_confidence": 0.7,
+  "linkedin": "linkedin.com/in/aastik",
+  "linkedin_confidence": 0.99,
+  "EDUCATION": [
+    "1. B.Tech — Birla Institute of Technology Mesra (July 2019 - July 2023) [conf 0.95, review=False]"
+  ],
+  "EDUCATION_confidence": 0.95,
+  "degree": [
+    "B.Tech"
+  ],
+  "company_details": [
+    "EXPERIENCE (5 jobs, 0 early_career entries)",
+    "Total experience: 7.4 years (89 months, 3 overlaps merged)",
+    "1. Oracle | Software Engineer - MTS @ CGPA: 8.16 (Jun 2025 - Present) [conf 0.98, review=False]",
+    "2. Software Developer - Full Stack @ Unique Identification Authority of India (July 2023 - May 2025) [conf 0.98, review=False]",
+    "3. Software Engineer Intern @ Wabtec Corporation (Jan 2023 - Jun 2023) [conf 0.98, review=False]",
+    "4. Software Engineer Intern @ Bytelearn (Dec 2022 - Jan 2023) [conf 0.98, review=False]",
+    "5. Oracle | Software Engineer @ MTS (July 2019 - July 2023) [conf 0.85, review=True]"
+  ],
+  "company_details_confidence": 0.95,
+  "work_experience": [
+    {
+      "role": "Oracle | Software Engineer - MTS",
+      "company": "CGPA: 8.16",
+      "start": "Jun 2025",
+      "end": "Present",
+      "responsibilities": [
+        "· Contributed to Oracle ACFS (cluster filesystem) validation infrastructure, working on backend test frameworks for storage and volume management systems. · Designed and implemented automated workflows to validate volume, snapshot, clone, and quarantine operations, ensuring correctness under concurrent and failure scenarios. · Analyzed large-scale test failures by parsing logs, kernel outputs, and .dif artifacts, performing detailed root cause analysis across filesystem and system layers in production-like environments. · Improved observability by introducing structured logging (Tlog) and enhancing test execution visibility, significantly reducing debugging time for complex infra-level failures across multiple test scenarios. · Enhanced reliability of test execution pipelines by refining command orchestration and error-handling logic in Perl-based backend frameworks, improving overall execution stability and consistency."
+      ]
+    },
+    {
+      "role": "Software Developer - Full Stack",
+      "company": "Unique Identification Authority of India",
+      "start": "July 2023",
+      "end": "May 2025",
+      "responsibilities": [
+        "· Designed and implemented a high-throughput Go-based microservice for Aadhaar reactivation using gRPC and HTTP, handling large-scale concurrent requests with optimized latency and reliability. · Built a distributed enrolment tracking system using Go and MySQL, enabling real-time status updates and improving system observability through OpenTelemetry (OTEL) instrumentation. · Improved system reliability and debugging by integrating centralized logging, metrics, and tracing, reducing issue resolution time during production incidents. · Developed and deployed services using CI/CD pipelines (ArgoCD), ensuring automated rollouts and environment consistency across deployments. · Implemented secure authentication and communication using JWT, gRPC, and encryption techniques, ensuring safe data exchange in high-volume identity systems. · Reduced manual processing overhead by 40% by integrating child enrolment workflows (BRN, DigiLocker, Passport) into existing backend systems. · Built a React-based authentication interface integrating biometric verification flows, improving system usability."
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Wabtec Corporation",
+      "start": "Jan 2023",
+      "end": "Jun 2023",
+      "responsibilities": [
+        "· Developed an automated routing system using C++ and JavaScript, optimizing execution plans and reducing manual intervention by 30%. · Implemented real-time signal clearance logic based on movement constraints, improving system efficiency and decision accuracy."
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Bytelearn",
+      "start": "Dec 2022",
+      "end": "Jan 2023",
+      "responsibilities": [
+        "· Improved frontend performance and responsiveness using React.js and Node.js, enhancing user engagement. · Identified and resolved cross-device compatibility issues, improving overall platform stability."
+      ]
+    },
+    {
+      "role": "Oracle | Software Engineer",
+      "company": "MTS",
+      "start": "July 2019",
+      "end": "July 2023",
+      "responsibilities": []
+    }
+  ],
+  "work_experience_confidence": 0.95,
+  "designation": [
+    "Oracle | Software Engineer - MTS",
+    "Software Developer - Full Stack",
+    "Software Engineer Intern",
+    "Oracle | Software Engineer",
+    "Software Engineer"
+  ],
+  "skills": [
+    "AWS",
+    "Android",
+    "Apache Kafka",
+    "ArgoCD",
+    "Bootstrap",
+    "C++",
+    "CI/CD",
+    "CSS3",
+    "Communication",
+    "Cryptography",
+    "Database management systems",
+    "DynamoDB",
+    "Event-Driven",
+    "Express.js",
+    "Flutter",
+    "Gin",
+    "Git",
+    "GitHub",
+    "Go",
+    "HTML5",
+    "Instrumentation",
+    "JSON",
+    "JWT",
+    "Java",
+    "JavaScript",
+    "MongoDB",
+    "MySQL",
+    "Networking",
+    "Node.js",
+    "OAuth2",
+    "Observability",
+    "OpenTelemetry",
+    "Oracle",
+    "Order Book Analysis",
+    "Order Management",
+    "Perl",
+    "Postman",
+    "REST API",
+    "React",
+    "Redis",
+    "Root Cause Analysis",
+    "SASS",
+    "SQL",
+    "Spring Boot",
+    "System Design",
+    "Tailwind CSS",
+    "VS Code",
+    "WebSockets",
+    "XML",
+    "gRPC",
+    "iOS",
+    "jQuery"
+  ],
+  "skills_confidence": 0.92,
+  "total_experience": 7.4,
+  "total_experience_confidence": 0.95,
+  "projects": [
+    "High-Throughput Order Management System",
+    "Go Project - Jan 26",
+    "· Built a high-performance trading engine simulating brokerage systems with order placement, validation, & execution workflows.",
+    "· Implemented Redis-backed order book & state management for fast reads/writes & concurrent consistency.",
+    "· Designed an event-driven architecture using Kafka for asynchronous processing and WebSockets for real-time order updates.",
+    "Okta Authentication",
+    "Flutter Project - Aug 24",
+    "· Implemented secure authentication using OAuth 2.0 and Okta, enabling cross-platform login for Android/iOS applications.",
+    "· Designed secure token handling and session management for mobile environments.",
+    "XML Signer"
+  ],
+  "projects_confidence": 0.85,
+  "id": 560,
+  "file_name": "Resume_Aastik_SDE.pdf"
+}

@@ -104,6 +104,93 @@ _STATED_DURATION_RE = re.compile(
     re.IGNORECASE
 )
 
+# ── 1. Reject Software Versions and Standard Numbers ─────────────────────────
+_DISQUALIFY_SOFTWARE_VERSION_RE = re.compile(
+    r'\b(?:ms\s*office|microsoft\s*office|office\s*(?:20\d{2}|365)|word\b|excel\b|powerpoint\b|'
+    r'sql\s*server\s*(?:20\d{2})?|windows\s*(?:xp|vista|\d+)|python\s*\d+|'
+    r'iso\s*\d+(?::\d+)?|itil\s*v\d+|six\s*sigma|lean\s*six\s*sigma|software\s*skills|tools\s*&\s*systems)\b',
+    re.IGNORECASE
+)
+
+# ── 2. Disqualify Hobbies, Sports & Extracurriculars ────────────────────────
+_DISQUALIFY_HOBBIES_SPORTS_EXTRACURRICULAR_RE = re.compile(
+    r'\b(?:hobbies\b|interests\b|watching\s+netflix|netflix\b|listening\s+to\s+music|music\b|'
+    r'travelling\b|traveling\b|cooking\b|reading\b|photography\b|meditation\b|healing\b|skating\b|'
+    r'badminton\b|cricket\b|football\b|chess\b|swimming\b|tennis\b|table\s+tennis|sports\b|athletics\b|'
+    r'extracurricular\b|extra-curricular\b|academic\s*&\s*extracurricular|intercollege\b|inter-college\b|'
+    r'competition\b|quiz\b|debate\b|symposium\b|annual\s+fest\b|cultural\s+festival\b|youth\s+festival\b)\b',
+    re.IGNORECASE
+)
+
+# ── 3. Disqualify Certificates, Awards & Honorifics ──────────────────────────
+_DISQUALIFY_CERTIFICATES_AWARDS_RE = re.compile(
+    r'\b(?:letter\s+of\s+appreciation|certificate\s+of\b|certifications?\b|diploma\s+in\b|'
+    r'training\s+programme\b|certified\s+departmental\b|employee\s+of\s+the\s+(?:month|quarter|year)|'
+    r'star\s+award|best\s+performer|top\s+performer|team\s+leader\s+award|national\s+recognition|'
+    r'awards?\s*&\s*certificates?|awards?\s*&\s*achievements?|key\s+achievements?|'
+    r'topper\b|stack\s+topper|first\s+runner-up|second\s+runner-up|runner-up\b|winner\b|'
+    r'participant\b|welcomstar|appreciation\s+award|functional\s+excellence\s+award)\b',
+    re.IGNORECASE
+)
+
+_DISQUALIFY_SCHOOLING_RE = re.compile(
+    r'\b(?:(?:10th|12th)(?!\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*)|'
+    r'class\s*x\b|class\s*xii\b|cbse|icse|rbse|state\s*board|matriculation|'
+    r'secondary\s*school|higher\s*secondary|senior\s*secondary|'
+    r'matric\b|ssc\b|hsc\b)\b',
+    re.IGNORECASE
+)
+_SCHOOL_INSTITUTION_RE = re.compile(
+    r'\b(?:school|academy|vidyalaya|vidyamandir|convent)\b',
+    re.IGNORECASE
+)
+_TEACHING_ROLES_RE = re.compile(
+    r'\b(?:teacher|professor|lecturer|instructor|tutor|trainer|faculty|dean|educator)\b',
+    re.IGNORECASE
+)
+
+
+def _is_disqualified_non_job(role: str, comp: str, header_text: str = "") -> bool:
+    """
+    Validates extracted jobs to reject:
+    1. Software versions & standards (e.g. MS Office 2003-07, ISO 9001:2015)
+    2. Hobbies, sports & extracurriculars (e.g. Netflix, Badminton, Music)
+    3. Certificates, awards & honorifics (e.g. Certificate, Letter of Appreciation, Topper)
+    4. Schooling, High School, 10th, 12th, CBSE/ICSE boards & Academies
+    """
+    r = str(role or "").strip()
+    c = str(comp or "").strip()
+    combined = f"{r} {c} {header_text}".strip()
+    if not combined:
+        return False
+
+    # 1. Reject Software Versions and Standard Numbers
+    if _DISQUALIFY_SOFTWARE_VERSION_RE.search(combined):
+        if any(w in combined.lower() for w in ("office", "skills", "tools", "version", "iso", "word", "excel", "software")):
+            return True
+
+    # 2. Disqualify Hobbies, Sports & Extracurriculars
+    if _DISQUALIFY_HOBBIES_SPORTS_EXTRACURRICULAR_RE.search(combined):
+        return True
+    if re.search(r'\b(?:education|academic|academics)\b', combined, re.IGNORECASE):
+        return True
+
+    # 3. Disqualify Certificates, Awards & Honorifics
+    if _DISQUALIFY_CERTIFICATES_AWARDS_RE.search(combined):
+        return True
+
+    # 4. Disqualify Schooling (10th, 12th, CBSE, ICSE, School, Academy)
+    if not _TEACHING_ROLES_RE.search(r):
+        if _DISQUALIFY_SCHOOLING_RE.search(combined):
+            return True
+        if _SCHOOL_INSTITUTION_RE.search(combined):
+            if any(w in combined.lower() for w in ("%", "cgpa", "gpa", "division", "marks", "score", "board", "passed", "cbse", "icse", "rbse")):
+                return True
+            if r.lower() in ("", "unknown", "unknown role", "role", "none", "student"):
+                return True
+
+    return False
+
 
 def _merge_widow_date_lines(lines: list) -> list:
     # 1. Pre-scan for '❖ Since <start_date>' table headers
@@ -511,6 +598,8 @@ def _find_job_blocks(lines: list):
         l_str = l.strip()
         if (len(DATE_RANGE_RE.findall(l_str)) + len(_YEAR_RANGE_SHORT_RE.findall(l_str))) >= 3:
             continue
+        if _is_disqualified_non_job("", "", l_str):
+            continue
         if DATE_RANGE_RE.search(l_str) or _YEAR_RANGE_SHORT_RE.search(l_str) or _SINCE_DATE_RE.search(l_str):
             anchor_idx.append(i)
         elif _SINGLE_YEAR_LINE_RE.match(l_str):
@@ -797,6 +886,12 @@ def _parse_header(header_lines: list, date_line: str):
                     continue
                 if p_line.lower() in ("duration", "duration:", "responsibilities", "key highlights", "key highlights of work handled", "work handled", "organization", "organisation"):
                     continue
+                if len(p_line.split()) > 8:
+                    continue
+                if p_line.endswith(".") and not any(p_line.lower().endswith(abbr) for abbr in ("ltd.", "inc.", "co.", "corp.", "pvt.", "llc.")):
+                    continue
+                if any(p_line.lower().startswith(pfx) for pfx in ("department", "departments", "scope of", "key deliverables", "key responsibilities", "responsibilities", "client", "clients", "project", "projects", "internal audit")):
+                    continue
                 if re.match(r"^(?:gurugram|mumbai|delhi|new delhi|noida|bengaluru|bangalore|pune|hyderabad|chennai|kolkata|ahmedabad|chandigarh|mohali|gurgaon|jaipur|indore|surat|lucknow|kanpur|nagpur|bhopal|patna|vadodara|coimbatore|kochi|thiruvananthapuram|calicut|trivandrum|bhubaneswar|guwahati|ranchi|mysore|visakhapatnam|vijayawada|nashik|rajkot|faridabad|ghaziabad|ludhiana|agra|meerut|varanasi|punjab|haryana|karnataka|maharashtra|tamil nadu|telangana|kerala|uttar pradesh|gujarat|rajasthan|west bengal|madhya pradesh|bihar|odisha|assam|jharkhand|chhattisgarh|uttarakhand|goa|india|germany|usa|uk)$", p_line, re.I):
                     if not job.get("location"):
                         job["location"] = p_line
@@ -946,7 +1041,10 @@ def _parse_header(header_lines: list, date_line: str):
                     job["company"] = cand_c
                     job["role"] = target_text
                 elif len(parts) >= 2:
-                    if TITLE_RE.search(parts[0]):
+                    is_level_or_num = bool(re.match(r"^(?:\d+|[ivxlcdm]+|level\s*\d+|l\d+|junior|senior|lead|grade\s*\d+)$", parts[1].strip(), re.I))
+                    if is_level_or_num:
+                        job["role"] = target_text.lstrip("•*❖-– ").strip()
+                    elif TITLE_RE.search(parts[0]):
                         job["role"] = parts[0].lstrip("•*❖-– ").strip()
                         job["company"] = dash.join(parts[1:]).strip()
                     else:
@@ -1571,7 +1669,7 @@ def _parse_header(header_lines: list, date_line: str):
 
     if not job["company"] and cleaned:
         spacy_company = detect_company_with_spacy(" ".join(cleaned[:3]))
-        if spacy_company:
+        if spacy_company and not re.search(r'\b(?:assignments?|projects?|deliverables?|responsibilities|tasks?|duties|functions?|experience)\b', spacy_company, re.I):
             job["company"] = spacy_company
             job["method"].append("spacy_ORG")
 
@@ -1588,7 +1686,10 @@ def _parse_header(header_lines: list, date_line: str):
                     parts_dash = [p.strip() for p in re.split(r'\s*[-–—]\s*', before_date) if p.strip()]
                     if len(parts_dash) >= 2 and TITLE_RE.search(parts_dash[0]):
                         p1_low = parts_dash[1].lower()
-                        if any(w in p1_low for w in ("data science", "analytics", "engineering", "development", "operations", "research", "technology", "quality assurance")):
+                        is_level_or_num = bool(re.match(r"^(?:\d+|[ivxlcdm]+|level\s*\d+|l\d+|junior|senior|lead|grade\s*\d+)$", p1_low))
+                        if is_level_or_num:
+                            job["role"] = before_date
+                        elif any(w in p1_low for w in ("data science", "analytics", "engineering", "development", "operations", "research", "technology", "quality assurance")):
                             job["role"] = before_date
                         else:
                             job["role"] = parts_dash[0]
@@ -1741,8 +1842,10 @@ def parse_job_block(header_lines: list, body_lines: list):
                     else:
                         job["role"] = fallback_job["role"]
             if fallback_job.get("company"):
-                if not job["company"] or re.search(r'^\s*(?:Department|Dept|Division)\b', str(job["company"]), re.I):
-                    job["company"] = fallback_job["company"]
+                fb_comp = str(fallback_job["company"]).strip()
+                if not re.search(r'\b(?:assignments?|projects?|deliverables?|responsibilities|tasks?|duties|functions?|experience)\b', fb_comp, re.I):
+                    if not job["company"] or re.search(r'^\s*(?:Department|Dept|Division)\b', str(job["company"]), re.I):
+                        job["company"] = fallback_job["company"]
             if fallback_job.get("location") and not job.get("location"):
                 job["location"] = fallback_job["location"]
             # Remove top_body_lines from bullets if they were incorrectly placed in bullets
@@ -1817,6 +1920,8 @@ def parse_job_block(header_lines: list, body_lines: list):
     job["method"] = "+".join(job["method"]) if job["method"] else "none"
 
     if not job["company"] and not job["role"] and not job["bullets"]:
+        return None
+    if _is_disqualified_non_job(job.get("role"), job.get("company")):
         return None
     return job
 
@@ -1908,6 +2013,8 @@ def _extract_jobs_from_text(section_text: str) -> list:
             if any(w in comp_str for w in ("timeline", "change agent", "communicator", "soft skills")) and not parsed.get("role"):
                 continue
             if any(w in role_str for w in ("pvt ltd", "pvt. ltd", "solution pvt")):
+                continue
+            if _is_disqualified_non_job(parsed.get("role"), parsed.get("company")):
                 continue
             jobs.append(parsed)
 
@@ -2349,7 +2456,16 @@ def extract_experience(experience_section_text: str, early_career_section_text: 
             if ej.get("start") and ej.get("end") and esig not in existing_sigs:
                 role = str(ej.get("role") or "").lower()
                 comp = str(ej.get("company") or "").lower()
-                if not any(edu in role or edu in comp for edu in ("b.tech", "btech", "m.tech", "mtech", "b.e", "bachelor", "master", "university", "college", "school")):
+                edu_keywords = (
+                    "b.tech", "btech", "m.tech", "mtech", "b.e", "bachelor", "master",
+                    "university", "college", "school", "academy", "institute", "institution",
+                    "b.com", "bcom", "m.com", "mcom", "bba", "mba", "bca", "mca", "b.sc", "bsc", "m.sc", "msc",
+                    "class x", "class xii", "10th", "12th", "cbse", "icse", "rbse", "board",
+                    "intermediate", "foundation", "percentage", "%", "cgpa", "gpa", "scored", "marks"
+                )
+                if _is_disqualified_non_job(role, comp):
+                    continue
+                if not any(edu in role or edu in comp for edu in edu_keywords):
                     ej["source"] = "full_text_recovery"
                     jobs.append(ej)
                     existing_sigs.add(esig)
@@ -2362,6 +2478,19 @@ def extract_experience(experience_section_text: str, early_career_section_text: 
             "_needs_review": True,
             "_total_experience": empty_total,
         }
+
+    # Forward-fill company for consecutive promotions/roles under the same company
+    for idx in range(1, len(jobs)):
+        if (not jobs[idx].get("company") or str(jobs[idx].get("company")).strip() in ("3", "None", "")) and jobs[idx - 1].get("company"):
+            p_hdr = jobs[idx].get("pre_date_header") or []
+            has_new_comp = any(
+                not TITLE_RE.search(l) and not DATE_RANGE_RE.search(l) and any(k in l.lower() for k in ("ltd", "pvt", "limited", "firm", "associates", "co", "llp", "inc", "corp"))
+                for l in p_hdr
+            )
+            if not has_new_comp:
+                jobs[idx]["company"] = jobs[idx - 1]["company"]
+                if jobs[idx - 1].get("location") and not jobs[idx].get("location"):
+                    jobs[idx]["location"] = jobs[idx - 1]["location"]
 
     combined = jobs + early_career_jobs
     avg_conf = round(sum(j["confidence"] for j in combined) / len(combined), 2) if combined else 0.0

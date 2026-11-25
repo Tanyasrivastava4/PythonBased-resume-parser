@@ -1,0 +1,125 @@
+{
+  "email": "priyanshpatel360@gmail.com",
+  "email_confidence": 0.99,
+  "mobile_number": "+91-7318019209",
+  "mobile_number_confidence": 0.95,
+  "name": "Priyansh Kurmi",
+  "name_confidence": 0.9,
+  "age": 25,
+  "age_confidence": 0.6,
+  "linkedin": "linkedin.com/in/priyansh-kurmi",
+  "linkedin_confidence": 0.99,
+  "EDUCATION": [
+    "1. Electrical Engineering — Indian Institute of Technology (IIT) (2021) [conf 0.95, review=False]"
+  ],
+  "EDUCATION_confidence": 0.95,
+  "degree": [
+    "Electrical Engineering"
+  ],
+  "company_details": [
+    "EXPERIENCE (3 jobs, 0 early_career entries)",
+    "Total experience: 4.8 years (57 months, 1 overlaps merged)",
+    "1. Data Engineer @ SMTS (Mar, 2025 - Apr, 2026) [conf 0.98, review=False]",
+    "2. Data Product Engineer @ Nuclei (Jan, 2023 - Mar, 2025) [conf 0.98, review=False]",
+    "3. Data Analyst @ Nuclei (Aug, 2021 - Dec, 2022) [conf 0.98, review=False]"
+  ],
+  "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Data Engineer",
+      "company": "SMTS",
+      "start": "Mar, 2025",
+      "end": "Apr, 2026",
+      "responsibilities": [
+        "Eliminated a daily full-load bottleneck on an OAC fact table by enabling incremental FDR via a surrogate summary source, redesigned ETL transformation logic to bypass hard-delete constraints, reducing pipeline runtime by 90%",
+        "Collaborated on designing and implementing a star schema data model from scratch for Oracle Transportation Management (OTM) on Oracle ADW, built 5 fact tables and 35 dimension tables covering end-to-end stages from requirement analysis to testing, supporting millions of rows per fact table."
+      ]
+    },
+    {
+      "role": "Data Product Engineer",
+      "company": "Nuclei",
+      "start": "Jan, 2023",
+      "end": "Mar, 2025",
+      "responsibilities": [
+        "Refactored 25+ unversioned cron-based reporting scripts into a modular Python framework with centralized logging and access controls, orchestrated via Apache Airflow, achieving 100% DAG visibility and reducing undetected failures from days to minutes via centralized alerting.",
+        "Implemented a PII data masking framework for MySQL protecting 1M+ user records, enforced role-based masked views with granular RBAC, AES encryption via AWS Secrets Manager, and CloudWatch audit logging to achieve GDPR and DPDPA compliance.",
+        "Configured AWS DMS and Kinesis Firehose to automate data archival from a production database processing 1M+ daily transactions, streamed historical records into partitioned S3 Parquet, cutting hot-tier storage costs by 40% and p95 query time by 30%."
+      ]
+    },
+    {
+      "role": "Data Analyst",
+      "company": "Nuclei",
+      "start": "Aug, 2021",
+      "end": "Dec, 2022",
+      "responsibilities": [
+        "Diagnosed recharge failure root causes across plan, circle, and operator mismatches; defined vendor API integration strategy and coordinated with downstream vendors and developers, lifting transaction success rate to 99.5% and reducing churn by 40%.",
+        "Optimized 50+ slow MySQL queries across millions-of-rows tables by adding targeted indexes, rewriting correlated subqueries, and eliminating redundant joins, reduced runtime from 1–2 hours to under 5 minutes and automated secure report delivery to external clients via Apache NiFi and SFTP."
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
+  "designation": [
+    "Data Engineer",
+    "Data Product Engineer",
+    "Data Analyst"
+  ],
+  "skills": [
+    "API Design",
+    "AWS",
+    "AWS Athena",
+    "AWS CloudWatch",
+    "AWS EC2",
+    "AWS Glue",
+    "AWS S3",
+    "AWS SNS",
+    "Amazon Kinesis",
+    "Apache Airflow",
+    "Apache Kafka",
+    "Apache Spark",
+    "Azure",
+    "Azure Data Factory",
+    "Cryptography",
+    "Data Management",
+    "Data Migration",
+    "Data Pipeline",
+    "Data Warehousing",
+    "Databricks",
+    "ETL",
+    "Electronic Health Records",
+    "GDPR",
+    "Joins",
+    "Lakehouse Architecture",
+    "MongoDB",
+    "MySQL",
+    "Oracle",
+    "PostgreSQL",
+    "PySpark",
+    "Python",
+    "Query Optimization",
+    "RBAC",
+    "Redshift",
+    "Reporting",
+    "SQL",
+    "Snowflake",
+    "Subqueries",
+    "Window Functions"
+  ],
+  "skills_confidence": 0.92,
+  "total_experience": 4.8,
+  "total_experience_confidence": 0.98,
+  "projects": [
+    "Production-Grade Data Pipeline for Incentive Program | PySpark, AWS S3 (boto3), SparkSQL, Data Mart",
+    "● Implemented a scalable production-grade data pipeline to read, validate, and transform sales data from",
+    "S3 for daily and monthly reporting. Data processed for business incentives based on customer spending.",
+    "● Integrated PySpark for transformations and pushed processed data to a data mart for reporting, ensuring",
+    "secure data handling through encryption, decryption, and logging.",
+    "ETL Pipeline for Large-Scale Product Performance Analysis | PySpark, Databricks, AWS S3, SparkSQL",
+    "● Built a PySpark ETL pipeline on Databricks ingesting multi-format data (CSV + Parquet) from AWS",
+    "S3; applied broadcast joins, window functions, and partition/bucketing strategies to transform and",
+    "aggregate product performance metrics, reducing query response time by 40%.",
+    "Links:"
+  ],
+  "projects_confidence": 0.85,
+  "id": 428,
+  "file_name": "Naukri_priyanshKurmi[4y_5m].pdf"
+}

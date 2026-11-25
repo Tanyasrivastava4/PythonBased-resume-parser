@@ -1,0 +1,36 @@
+======================================================================
+FILE: 190_DOC-20260426-WA0018._segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Equity research and Financial Analysis Intern
+Remote – Hedge equities Palarivattom
+June 2025 – August 2025
+• Conducted macroeconomic and industry analysis to assess financial performance and business risks
+• Evaluated key economic indicators and interpreted their impact on financial statements and m...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 1
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 0.2 years (3 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Equity research and Financial Analysis Intern
+  Company      : Internal audit Remote
+  Location     : Hedge equities Palarivattom
+  Start - End  : June 2025 - August 2025
+  Duration     : 3 months
+  Bullets      : 8
+    • Conducted macroeconomic and industry analysis to assess financial performance and business risks
+    • Evaluated key economic indicators and interpreted their impact on financial statements and markets
+    • Prepared structured analytical reports linking economic variables with financial outcomes
+    • Applied financial analysis techniques to support data-driven decision-making
+    • Performed risk-based audit procedures including control testing and evaluation of internal controls
+    • Identified control deficiencies and compliance gaps with supporting audit documentation
+    • Prepared audit working papers in line with professional audit standards
+    • Applied concepts of risk assessment, control evaluation, and audit reporting
+  Method       : date_regex+pre_date_company_split+title_dict
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,70 @@
+======================================================================
+FILE: 402_Naukri_SharjeelMuhammed[14y_1m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Overview - Consulting
+30 + 10 + 04 +
+Time Horizon : Jun’17 - till date
+
+Overview – Business Analyst
+05 +
+01 st
+Time Horizon : May’14 – Jun’17
+
+Overview – Operations
+20 % 40 %
+Time Horizon : Jan’12 – May’14
+Organizations : JP Morgan Chase Bank, Deutsche Bank
+FTE save process Efficiency through
+Re-eng...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 14.9 years (179 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Business Analyst
+  Company      : Overview
+  Location     : None
+  Start - End  : Jun’17 - Present
+  Duration     : 114 months
+  Bullets      : 2
+    • +
+    • st
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Overview – Operations
+  Company      : Time Horizon
+  Location     : None
+  Start - End  : May’14 - Jun’17
+  Duration     : 38 months
+  Bullets      : 1
+    • % 40 %
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Organizations : JP Morgan Chase Bank, Deutsche Bank
+  Company      : Time Horizon
+  Location     : None
+  Start - End  : Jan’12 - May’14
+  Duration     : 29 months
+  Bullets      : 6
+    • Domains : Investment Management Operations, Fund Accounting Industry/ Sector : Asset and Wealth Management, Insurance
+    • Performed day to day investment operations with 98% accuracy.
+    • Ensure smooth operations, reporting and audit management for daily business operations.
+    • Actively participated in the business migration of fund accounting business for one of the largest Asset Managers.
+    • Ensured building of adequate process controls through active identification of automation opportunities.
+    • Achieved operational efficiencies by absorbing attrition through process automation. 2
+  Sub-sections : ['FTE save process Efficiency through', 'Re-engineering Automation']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

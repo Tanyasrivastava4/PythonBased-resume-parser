@@ -1,0 +1,49 @@
+======================================================================
+FILE: 153_CA Praveen Kumar Pathak_GAD_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Article Assistant , Paid Assistant
+Jul 2019 - Aug 2022
+Chartered Accountant
+Amod Agrawal & Associates, East of Kailash, New Delhi
+(Firm with 40 years of experience, known for Statutory Audit, with a
+PROFILE strong client base including listed companies)
+Internal Audit
+Led several teams of for Intern...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 4.9 years (59 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : , Paid Assistant
+  Company      : None
+  Location     : Paid Assistant
+  Start - End  : Jul 2019 - Aug 2022
+  Duration     : 38 months
+  Bullets      : 3
+    • Amod Agrawal & Associates, East of Kailash, New Delhi (Firm with 40 years of experience, known for Statutory Audit, with a PROFILE strong client base including listed companies)
+    • Led several teams of for Internal Audit Assignment. Conducted internal audits for prominent listed client of https://www.linkedin.com/in/ca-praveen- manufacturing industries (Ester India Ltd.) pathak/ Perform Procedure to pay(P2P),Order To cash(O2C) testing as per RCM. turnovers ranging from INR 2,000 to 3,000 crores. Managed Statutory Audit of unlisted clients having turnover of INR
+    • to 200 crores in manufacturing industry. Perform IFC Testing (as per RCM) of listed and unlisted clients. Led Stock Audit and Physical verification of inventory. Analyzed Financial Statements including Notes to Accounts as per schedule III including Scrutiny of ledgers. Reviewed and ensured Ind AS compliance in financial statements and executed detailed CARO 2020 reporting.
+  Sub-sections : ['Internal Audit']
+  Method       : date_regex+pre_date_company_split+title_dict
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Verification of Sales and Sales Reversal, Verification of Provisions
+  Company      : Ageing of Debtors & Creditors, Verification of BRS Cash and Bank
+  Location     : None
+  Start - End  : Jun 2023 - Feb 2025
+  Duration     : 21 months
+  Bullets      : 2
+    • Managed Statutory Audit of unlisted clients. Physical Verification of Inventory And Fixed Assets. Statutory Audit of Banks-Verification of advances, Deposits, NPA classification.
+    • Preparation and filing of Income tax Returns for individual and firms Basic understanding of tax computation and deduction.
+  Sub-sections : ['Book Keeping Ledger scrutiny', 'Finalization of Books']
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,72 @@
+======================================================================
+FILE: 158_CA Piyush Resume 1_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+ASSOCIATE
+11/2021 – 08/2022
+BRAHMAYYA & CO
+New Delhi, IN
+• Conducted statutory audits for 15+ public and private companies
+across airport, logistics, FMCG, and advertising sectors, ensuring
+compliance with IND AS and the Companies Act.
+• Conducted quarterly limited reviews for public & private compa...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.9 years (47 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : ASSOCIATE
+  Company      : BRAHMAYYA & CO
+  Location     : None
+  Start - End  : 11/2021 - 08/2022
+  Duration     : 10 months
+  Bullets      : 7
+    • Conducted statutory audits for 15+ public and private companies across airport, logistics, FMCG, and advertising sectors, ensuring compliance with IND AS and the Companies Act.
+    • Conducted quarterly limited reviews for public & private companies in compliance with SEBI regulations.
+    • Finalized financial statements, notes to accounts, and analytical review procedures for multiple entities.
+    • Identified process gaps and recommended improvements to inter- nal controls and operational efficiency.
+    • Performed Internal Financial Control (IFC) testing, Risk Control Matrix (RCM) reviews, and control effectiveness assessments.
+    • Led revenue audits, vendor audits, and revamp audits for clients across Airport, Advertising, Logistics, and Food industries.
+    • Coordinated directly with senior management and client finance teams during audit execution.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : ARTICLE TRAINEE
+  Company      : BRAHMAYYA & CO
+  Location     : None
+  Start - End  : 10/2018 - 11/2021
+  Duration     : 38 months
+  Bullets      : 22
+    • Represented clients before the Deputy Commissioner during VAT assessment proceedings, preparing documentation and support- ing assessment-related submissions.
+    • Assisted in income tax assessment proceedings by preparing and submitting financial statements, reconciliations, and supporting doc- uments in compliance with tax regulations.
+    • Conducted statutory and tax audits for clients across diverse indus- tries, ensuring compliance with the Companies Act, Standards on Auditing (SA), and applicable tax laws.
+    • Reviewed financial statements and tax audit reports to identify dis- crepancies, improve accuracy, and ensure regulatory compliance.
+    • Evaluated compliance with Indian Accounting Standards (IND AS) and assisted in preparing audit observations and recommenda- tions.
+    • Assisted in the evaluation and reporting of Internal Financial Con- trols (IFC) as required under the Companies Act, 2013.
+    • Prepared statutory audit reports and audit documentation in accor- dance with ICAI Standards on Auditing.
+    • Conducted process walkthroughs, tested internal controls, and de- veloped RCMs to identify control gaps and recommend process improvements.
+    • Participated in the physical verification of fixed assets, inventories, and raw materials to validate asset existence and inventory accu- racy.
+    • Verified debtor ageing, statutory dues, contingent liabilities, and other key disclosures to support audit conclusions.
+    • Delhi International Airport Limited.
+    • GMR Airport Limited
+    • GMR Highways Limited
+    • GMR Goa International Airport Limited
+    • Delhi Duty-Free Services Pvt. Ltd.
+    • AIR India SATS Airport Services Pvt. Ltd.
+    • Celebi Delhi Cargo Terminal Manage- ment India Pvt. Ltd.
+    • TIMES Innovative Media Delhi Airport Ad- vertising Pvt. Ltd.
+    • Allergan India Pvt. Ltd.
+    • Ashirwad Pipes Pvt Ltd.
+    • Delhi Airport Services Pvt Ltd.
+    • Travel Food Services (Delhi T3) Pvt. Ltd
+  Sub-sections : ['MAJOR CLIENTS']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

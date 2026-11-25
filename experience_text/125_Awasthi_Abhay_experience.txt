@@ -1,0 +1,86 @@
+======================================================================
+FILE: 125_Awasthi_Abhay_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+logical thinking & analytical abilities.
+Completed five Month’s of Industrial Training in PHP at Mindfact Software
+Development PVT. LTD. (Feb.-2018 to June 2018)
+Worked at Morbous Technologies Pvt. Ltd. as a PHP Developer.
+(July - 2018 to Dec. - 2018)
+Worked at Holistic Partners as a PHP Developer. ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 4.1 years (49 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Working in AIIMS Delhi (JPNATC) in Delhi as a Project Scientist
+  Company      : II
+  Location     : None
+  Start - End  : Feb 2018 - June 2018
+  Duration     : 5 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : ()
+  Company      : Worked at Morbous Technologies Pvt. Ltd. as a PHP Developer
+  Location     : None
+  Start - End  : July 2018 - Dec 2018
+  Duration     : 6 months
+  Bullets      : 0
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Worked at IME Department in IIT Kanpur as a Asst. Project Manager
+  Company      : IME Department
+  Location     : Holistic Partners
+  Start - End  : Dec 2018 - Jun 2020
+  Duration     : 19 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Project Scientist- I
+  Company      : Worked at Indian Council of Medical Research (ICMR) in Delhi as a
+  Location     : None
+  Start - End  : May 2023 - June 2024
+  Duration     : 14 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Working in AIIMS Delhi (JPNATC) in Delhi as a Project Scientist
+  Company      : II
+  Location     : None
+  Start - End  : June 2024 - Dec 2024
+  Duration     : 7 months
+  Bullets      : 12
+    • PHP, Code igniter, HTML, CSS, JavaScript, JQuery, Ajax, Bootstrap, ReactJS, Angular 6. MYSQL, Oracle 10g, SQL Server. Visual Studio Code, MS-Office, Dreamweaver, NetBeans.
+    • Platform Used: PHP Programming and MySQL database (Core PHP)
+    • Description: It’s a Candidate Management System which is used to managed a team with all moduls.
+    • Platform Used: PHP Programming and MySQL database (Framework
+    • Description: It’s a website for all furniture lover, Clients can get all the type of furnitures in your home.
+    • Platform Used: PHP Programming and MySQL database (Framework
+    • Description: It’s a website with full of decorative ideas and good consultant advises.
+    • Platform Used: PHP Programming and MySQL database (Framework
+    • Description: It’s a website for morbus technology.
+    • Platform Used: PHP Programming and MySQL database (Framework
+    • Description: RCP is a certification program, course content and study material. PROJECT TITLE: Online learning Environment & Tool (OLET) Platform Used: PHP Programming and MySQL database (Framework
+    • Description: OLET is an online learning platform for students from different courses. There are multiple functionalities like learning platform. ──────────────────────────────────────────────────────────── [Found 10 sections total: ['header', 'summary', 'experience', 'projects', 'certifications', 'education', 'personal_details', 'languages', 'declaration', 'experience']]
+  Sub-sections : ['TRAINEE', 'IT SKILLS', 'PROJECT TITLE: PEOPLES PORTAL', 'Team Size: Individual', 'PROJECT TITLE: Future Ideas', 'Code Igniter)', 'Team Size: Individual', 'PROJECT TITLE: HOME DECOR', 'Code Igniter)', 'Team Size: Individual', 'PROJECT TITLE: Morbus.com', 'Code Igniter)', 'Team Size: 2', 'PROJECT TITLE: Regulatory Certification Program', 'Code Igniter)', 'Team Size: 6', 'CodeIgniter) + Bootstrap', 'Team Size: 6']
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False

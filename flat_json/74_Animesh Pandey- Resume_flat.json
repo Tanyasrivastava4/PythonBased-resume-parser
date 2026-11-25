@@ -1,6 +1,4 @@
 {
-  "id": 74,
-  "file_name": "Animesh Pandey- Resume.pdf",
   "email": "animeshpandey99@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "8840096401",
@@ -31,9 +29,45 @@
     "2. Flutter developer intern - Intern @ Madrocket Technologies (March 2024 - Sep 2024) [conf 0.98, review=False]"
   ],
   "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Oodles Technologies – Associate Consultant Developer – Full Time",
+      "company": "Hatch",
+      "start": "Nov 2024",
+      "end": "Ongoing",
+      "responsibilities": [
+        "Designed, developed, and maintained scalable backend services using Python and Django for automated document processing.",
+        "Implemented OAuth 2.0 based Dropbox integration with secure refresh-token management for continuous synchronization.",
+        "Architected a distributed OCR processing system using Celery workers, Redis, and dual-LLM load balancing (Mistral and OpenAI).",
+        "Improved system performance by reducing OCR processing latency by 70–80% and enabled high-volume processing of over 10,000 documents within 3–4 hours.",
+        "Built automated metadata extraction pipelines and spreadsheet generation workflows integrated directly with cloud storage. Project: CoreliaOS – Multi-Agent AI Workspace Platform",
+        "Led a 3-member development team to design and implement a secure multi-agent AI workspace using Django, React, LangChain, and LangGraph.",
+        "Developed and deployed multiple AI agents including Legal, Finance, Product Management, Translation, Gmail, Google Drive, and Slack agents.",
+        "Implemented per-user isolated knowledge bases with strict data segregation and secure OAuth integrations.",
+        "Enabled agent-to-agent collaboration, document analysis, contextual retrieval, and persistent chat history in a production environment. Project: EditHX – Document Intelligence RAG System",
+        "Developed a Python-based Retrieval-Augmented Generation (RAG) chatbot for intelligent document understanding. Implemented semantic search for better accuracy. Project: Zarn – AI-Based Test Preparation Platform",
+        "Built backend services in Python integrated with Azure AI services and Azure-hosted databases. Developed web interfaces using HTML, CSS, and JavaScript for IELTS and competitive exam preparation workflows. Project: AI Job Scraper Board – Automation and Data Enrichment System",
+        "Designed and implemented automation workflows using n8n to scrape job postings from LinkedIn and Indeed. Integrated Apollo API to enrich job and company data. Project: Tailblazer – AI Agent Platform for Pet Welfare",
+        "Designed and implemented AI agent workflows using n8n for pet safety and welfare use cases."
+      ]
+    },
+    {
+      "role": "Flutter developer intern - Intern",
+      "company": "Madrocket Technologies",
+      "start": "March 2024",
+      "end": "Sep 2024",
+      "responsibilities": [
+        "knowledge of Flutter and Dart to create multiple applications.",
+        "Worked with Firebase as backend.",
+        "Developed 2 applications for school management system namely the parent's app and the teacher's app."
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
   "designation": [
     "Oodles Technologies – Associate Consultant Developer – Full Time",
-    "Flutter developer intern - Intern"
+    "Flutter developer intern - Intern",
+    "Associate Consultant"
   ],
   "skills": [
     "AWS",
@@ -58,7 +92,6 @@
     "LLM",
     "LangChain",
     "LangGraph",
-    "LinkedIn",
     "Load Balancer",
     "Machine Learning",
     "Mistral",
@@ -93,5 +126,6 @@
     "────────────────────────────────────────────────────────────"
   ],
   "Achievements_confidence": 0.85,
-  "parsing_time_seconds": 0.41
+  "id": 74,
+  "file_name": "Animesh Pandey- Resume.pdf"
 }

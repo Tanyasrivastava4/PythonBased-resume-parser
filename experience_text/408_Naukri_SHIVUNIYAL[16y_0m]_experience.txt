@@ -1,0 +1,89 @@
+======================================================================
+FILE: 408_Naukri_SHIVUNIYAL[16y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+: +91-8393881701, 9410196049
+Location: - Dehradun, Uttarakhand-248121
+National Award for e-Governance 2019-20 (GOLD)
+
+# Designation
+Organization
+Employment
+Duration
+1 Project Manager UIDAI Gov. of India on Roll of National Institute for September 2022 to
+Smart Government (NISG).
+till date
+2 State P...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 10.2 years (122 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : November 2014 to Manager
+  Company      : Employment
+  Location     : None
+  Start - End  : 2019 - 2020
+  Duration     : 13 months
+  Bullets      : 8
+    • Project Manager UIDAI Gov. of India on Roll of National Institute for September 2022 to Smart Government (NISG). till date
+    • State Project Department of Information Technology Electronics & October 2020 to Coordinator Communication Government of Haryana on roll of September 2022
+    • Technology (NIELIT.
+    • E-District
+    • Associate – National Informatics Center (NIC), Govt of India on roll September 2012 to Network of Wipro InfoTech
+    • Network National Informatics Center (NIC), Govt of India on roll December 2009 to Engineer of H. C.L INFOSYSTEMS Ltd
+    • Junior Engineer M/S APUS Consultancy Services
+    • Professional Qualifications:
+  Sub-sections : ['National Institute of Electronics & Information', 'DEGS (ITDA) Government of Uttarakhand', 'November 2014 to Manager', 'September 2020', 'November 2014', 'Management', 'June 2012', 'June 2007 to - IT', 'December 2009', 'Degree Specialization']
+  Method       : year_range_short_regex+subfield_label_company_next_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : State Level Project Coordinator for Line Departments and Districts of Haryana
+  Company      : Chandigarh
+  Location     : None
+  Start - End  : 2020 - 2022
+  Duration     : 25 months
+  Bullets      : 5
+    • Saral platform has been • Manage and ensure timely delivery of
+    • developed as a single targeted initiatives in service delivery Governance Project), integrated web portal for the • Assist IT Department Govt of Haryana in
+    • delivery of all the schemes and project and process management.
+    • of device health.
+    • Nodal Officer for Command and Control room.
+  Sub-sections : ['Description', 'ANTYODAYA', 'SARAL (E-', '(E Governance', 'Award 2020-']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Name of the project: Uttarakhand State Wide Area Network (E-Governance Project ICT)
+  Company      : 4. National Informatics Center
+  Location     : None
+  Start - End  : 2009 - 2014
+  Duration     : 61 months
+  Bullets      : 4
+    • Established the network with the coordination of BSNL (Service provider).
+    • Assemble and maintenance of the network.
+    • Daily NMS monitoring and reporting.
+    • Installation and configuration of the Routers, Switches, Modem & IP phones used in the network
+  Sub-sections : ['Activities performed']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : 4 Associate
+  Company      : National Informatics Center (NIC
+  Location     : Govt of India on roll September 2012 to Network
+  Start - End  : 2007 - 2009
+  Duration     : 25 months
+  Bullets      : 0
+  Sub-sections : ['Date of Birth', ': 08-10-1983', 'Gender', ': Male']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

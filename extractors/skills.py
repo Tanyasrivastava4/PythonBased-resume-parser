@@ -51,7 +51,8 @@ FUZZY_SKIP_TOKENS = {
     "active", "reset", "passed", "handling", "handled", "dynamic", "tds",
     "schedule", "statistic", "min", "minimal", "minimum", "maximum", "minor", "major", "swift", "testing", "test", "legal",
     "design", "search", "edge", "view", "mode", "type",
-    "plastic", "plastics", "casting", "glass", "chemical", "furniture", "plywood", "cutting", "direct"
+    "plastic", "plastics", "casting", "glass", "chemical", "furniture", "plywood", "cutting", "direct",
+    "aspiring", "control"
 }
 
 TOKEN_SPLIT_RE = re.compile(r"[,|•·\n\t/&;()\[\]]+")
@@ -226,6 +227,8 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
         sections.get("languages", "") or ""
     ])
     skills_text = skills_text.replace("\n", " ")
+    # Strip URLs/profile links so 'linkedin.com/in/...' doesn't extract LinkedIn as a web framework skill
+    skills_text = re.sub(r'(?:https?://\S+|www\.\S+|linkedin\.com/\S+|github\.com/\S+)', ' ', skills_text, flags=re.I)
     skills_text = " ".join(skills_text.split())
 
     if skills_text.strip():
@@ -240,6 +243,7 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
         sections.get("summary", "") or "",
         tech_forte
     ])
+    fuzzy_text = re.sub(r'(?:https?://\S+|www\.\S+|linkedin\.com/\S+|github\.com/\S+)', ' ', fuzzy_text, flags=re.I)
     fuzzy_text = " ".join(fuzzy_text.replace("\n", " ").split())
 
     if fuzzy_text.strip():
@@ -351,6 +355,26 @@ def extract_skills(sections: dict, full_text: str = "") -> dict:
 
     if "TANKS" in found_skills and full_text and re.search(r'\bshark\s+tank\b', full_text, re.I):
         found_skills.remove("TANKS")
+
+    # Guard 'Go' programming language against plain English phrases like 'in one go', 'go-to-market', 'go live'
+    if "Go" in found_skills and full_text:
+        has_go_tech_context = bool(re.search(
+            r'\b(?:golang|go\s+lang|go\s+programming|go\s+developer|go\s+engineer|go\s+backend|'
+            r'(?:python|java|rust|c\+\+|node\.?js|typescript|javascript|kotlin|ruby)[,\s/|]+go\b|'
+            r'\bgo[,\s/|]+(?:python|java|rust|c\+\+|node\.?js|typescript|javascript|kotlin|ruby))\b',
+            full_text, re.I
+        ))
+        if not has_go_tech_context:
+            found_skills.remove("Go")
+
+    # Guard 'LinkedIn' so contact header labels ('LinkedIn ID:', 'LinkedIn:') are not extracted as a skill
+    if "LinkedIn" in found_skills and full_text:
+        has_linkedin_skill_context = bool(re.search(
+            r'\blinkedin\s+(?:sales\s+navigator|recruiter|ads|marketing|campaign|analytics|outreach|learning|lead\s+gen)\b',
+            full_text, re.I
+        ))
+        if not has_linkedin_skill_context:
+            found_skills.remove("LinkedIn")
 
     sorted_skills = sorted(found_skills)
 

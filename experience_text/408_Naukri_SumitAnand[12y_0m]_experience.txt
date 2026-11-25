@@ -1,0 +1,117 @@
+======================================================================
+FILE: 408_Naukri_SumitAnand[12y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Worked as a Information Technology Analyst at Tata Consultancy Services, Mumbai from Feb 2016
+to Oct 2021..
+Worked as  Engineer at HCL Technologies Ltd, Mumbai from April 2013 to Feb 2016.
+
+Client	GlaxoSmithKline (GSK)
+Role	Techno-Managerial Role as Technical Architect
+Duration	Aug 2020– Feb 2020
+Pr...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 8.6 years (103 months, 5 overlapping periods merged)
+
+Entry 1
+  Role         : Information Technology Analyst
+  Company      : Tata Consultancy Services
+  Location     : None
+  Start - End  : Feb 2016 - Oct 2021
+  Duration     : 69 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Engineer
+  Company      : HCL Technologies Ltd
+  Location     : None
+  Start - End  : April 2013 - Feb 2016
+  Duration     : 35 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Project Name	GE Power HQ Implementation
+  Company      : Project  #2
+  Location     : None
+  Start - End  : Aug 2020 - Feb 2020
+  Duration     : 0 months
+  Bullets      : 1
+    • Project details	Project involved working with business stakeholders to translate requirements into application architecture. Developing a cloud strategy and coordinating the adaptation process for engineering, manufacturing, Pharma Supply Chain and Quality and labs GSK applications. Project  #2:
+  Sub-sections : ['Project Name\tGE Power HQ Implementation', 'Client\tGeneral Electric (Power & Water)']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Contextual Master in June, 2020 for long term engagement with esteemed Client and multiple value deliveries. The solution got published in TCS success stories.The project also involved implementation related to Fixed Assets module with respect to introduction of new Ledgers and related setups involved
+  Company      : Duration Project Details	Business Requirement Gathering, Implementation of  a solution to automate entire GL Journal Approval Process and managing the approval process and hierarchy of eligible GL batches using Oracle Approval Management and governing the entire approval process and audit the same using Oracle GRC. The implemented solution got implemented to multiple businesses and eventually got recognized
+  Location     : TCS Hall of Fame
+  Start - End  : Feb 2017 - July 2020
+  Duration     : 42 months
+  Bullets      : 8
+    • Project Details	Business Requirement Gathering, Implementation of  a solution to automate entire GL Journal Approval Process and managing the approval process and hierarchy of eligible GL batches using Oracle Approval Management (AME) and governing the entire approval process and audit the same using Oracle GRC (Governance,Risk and Control).
+    • The implemented solution got implemented to multiple businesses and eventually got recognized in TCS Hall of Fame as Contextual Master in June, 2020 for long term engagement with esteemed Client and multiple value deliveries.
+    • The solution got published in TCS success stories.The project also involved implementation related to Fixed Assets module with respect to introduction of new Ledgers and related setups involved.
+    • Worked on 5+ Implementations Project in Finance area.
+    • Extensive Experience in GL/AP/AR/FA.
+    • As an enterprise services consultant,enabled users within the company to use enterprise application.
+    • Managed changes, releases, user accounts,service catalog, incidents.
+    • Project  #3: Project Name	GE O&G B2B Project (Implementation & Maintenance) Client	General Electric (Oil & Gas),  Houston,USA Role	Oracle EBS R12 Financials Technical Consultant
+  Method       : date_regex
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 5
+  Role         : Project Name	R12 Implementation for SBIG
+  Company      : Project  #4
+  Location     : None
+  Start - End  : Feb 2016 - Feb 2017
+  Duration     : 13 months
+  Bullets      : 2
+    • Project Details	Business Requirement Gathering, Implementation involved developing a automated solution to send email invoices and Order management header attachments to necessary Client recepients, improving the performance of existing time taking concurrent programs, developing a automated solution to generate pricelist reports and sending via email to the customers.
+    • Project got selected in Final round of Tata Innovista 2017 .
+  Sub-sections : ['Project Name\tR12 Implementation for SBIG', 'Client\tSBIGICL(State Bank of India General Insurance Company Ltd.)', 'Role\tAnalyst']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Serving customers of banking insurance domain at domestic onsite location resolving issues pertaining to Oracle Finance modules that occur on regular basis as Oracle apps technical professional, Extracting and analyzing data of insurance business significance
+  Company      : Project Details	Oracle Financials
+  Location     : None
+  Start - End  : Dec 2013 - Feb 2016
+  Duration     : 27 months
+  Bullets      : 1
+    • Primary Skill Involved: Client handling, Oracle 11g, Oracle EBS R12 Financials, SQL ,PL/SQL,Java,Oracle Reports, Forms Project #5 :
+  Sub-sections : ['Project Name\tR12 Implementation For UPPCL', 'Client\tUPPCL(Uttar Pradesh Power Corporation Ltd.)', 'Role\tEngineer']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 7
+  Role         : Client facing role, Supporting and providing solution on regular issues faced by  Power corporation customers pertaining to usage of Oracle applications mostly by visiting domestic client locations. Oracle EBS R12 Financials , SQL, PL/SQL, Java
+  Company      : Project Details
+  Location     : None
+  Start - End  : Apr 2013 - Dec 2013
+  Duration     : 9 months
+  Bullets      : 4
+    • Project Details	Client facing role, Supporting and providing solution on regular issues faced by  Power corporation customers pertaining to usage of Oracle applications mostly by visiting domestic client locations.
+    • Oracle EBS R12 Financials , SQL, PL/SQL, Java Responsibilities: Experience in working with business stakeholders to translate requirements into out-of-box solutions.
+    • Represented TCS as Senior Technical Panelist in TCS Off-Campus interviews  from last few years organized by TCS Talent development, Mumbai Experience in writing database procedures, functions, cursors, triggers, packages to implement the business logic by using PL/SQL.
+    • Creation of different type of Value sets in various Modules of the application as per the requirement Defining Concurrent Programs, Executables.
+  Sub-sections : ['PERSONAL']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

@@ -159,7 +159,7 @@ _SECTION_KEYWORDS = [
     "skill", "experience", "education", "project", "certif", "licen",
     "achievement", "award", "honor", "honour", "summary", "objective",
     "qualification", "employment", "career", "academic", "competenc",
-    "expertise", "technolog", "portfolio", "credential", "accreditation",
+    "expertise", "proficienc", "technolog", "portfolio", "credential", "accreditation",
     "recognition", "accomplishment", "language", "interest", "hobbies",
     "research", "leadership", "internship", "training", "volunteer",
     "publication", "reference", "extracurricular", "strength",
@@ -171,7 +171,7 @@ _SECTION_KEYWORDS = [
 
 _KEYWORD_TO_LABEL = {
     "summary": "summary", "objective": "summary",
-    "skill": "skills", "expertise": "skills", "competenc": "skills",
+    "skill": "skills", "expertise": "skills", "competenc": "skills", "proficienc": "skills",
     "career timeline": "early_career",
     "career snapshot": "early_career", "career at a glance": "early_career",
     "early career": "early_career", "timeline": "early_career",
@@ -995,7 +995,7 @@ def split_into_sections(text: str) -> list:
             if label == "certifications" and not re.match(r'^\s*(?:certifications?|licenses?|credentials?|(?:car{1,2}[ie]{1,2}r\s+)?professional\s+enhancements?|trainings?)\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
                 current_lines.append(line)
                 continue
-            if label == "skills" and not re.match(r'^\s*(?:(?:technical\s+|key\s+|core\s+|professional\s+)?skills?|(?:core\s+|key\s+)?competenc(?:y|ies|les|es)|expertise)\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
+            if label == "skills" and not re.match(r'^\s*(?:(?:technical\s+|key\s+|core\s+|professional\s+|it\s+)?skills?|(?:core\s+|key\s+)?competenc(?:y|ies|les|es)|expertise|(?:it|technical|computer|software)\s+proficienc(?:y|ies)|tech(?:nology)?\s+stack)\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):
                 current_lines.append(line)
                 continue
             if label == "projects" and not re.match(r'^\s*(?:personal\s+|side\s+|key\s+|academic\s+|live\s+)?projects?\s*[:\-–—]?\s*$', stripped, re.IGNORECASE):

@@ -1,0 +1,70 @@
+======================================================================
+FILE: 68_Anandu Chandran_Area Credit Manager_SMFG-Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Worked as FLO at Larsen & Turbo (L&T) Micro Finance Ltd
+from December 04 2017 to September 21 2020. (Sales,
+Operations and Credit support).
+• Worked as IRO at IDFC FIRST BHARAT Ltd from October 05
+2020 to June 01 2021.(Business loan, Personal loan-Sales,
+Proof verification, Customer Point verifica...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 8.7 years (104 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : from . (Sales)
+  Company      : Worked as FLO at Larsen & Turbo (L&T) Micro Finance Ltd
+  Location     : None
+  Start - End  : December 04 2017 - September 21 2020
+  Duration     : 34 months
+  Bullets      : 2
+    • Operations and Credit support).
+    • 
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : IRO
+  Company      : IDFC FIRST BHARAT Ltd
+  Location     : None
+  Start - End  : October 05 2020 - June 01 2021
+  Duration     : 8 months
+  Bullets      : 2
+    • Proof verification, Customer Point verification, Cibil and financial tracks checking.)
+    • 
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Credit Manager -Centralized Credit
+  Company      : Bajaj
+  Location     : None
+  Start - End  : October 25 2021 - September 14 2023
+  Duration     : 23 months
+  Bullets      : 1
+    • 
+  Method       : date_regex+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Branch Credit Manager
+  Company      : Cholamandalam
+  Location     : None
+  Start - End  : September 18 2023 - Present
+  Duration     : 39 months
+  Bullets      : 2
+    • Ø CREDIT UNDERWRITING. Ø WHOLE PROCESS OF PERSONAL LOAN , PROFESSIONAL LOAN
+    • Ø KYC QC VERIFICTION AND PROCESSING AS PER RBI GUIDELINES AND COMPANY POLICY . Ø PHYSICAL PD. Ø SUPPORT TO SALES & BRANCHES THROUG OUT KERALA. Ø REGULAR MAIL INTERACTION& BACKEND SUPPORT . Ø TEAM LEADING. Ø PERSONAL AND PROFESSIONAL CREDIBILITY .
+  Sub-sections : ['AND BUSINESS LOAN APPROVAL']
+  Method       : date_regex+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False

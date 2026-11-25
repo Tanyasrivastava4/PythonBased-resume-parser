@@ -1,0 +1,76 @@
+======================================================================
+FILE: 1_631fc1_Punit kumar_Training Manager_8yr+ (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+May 2025 - Present Zonal L&D Specialist
+Licious- is a reputed D2C food-tech organization recognized for
+excellence in supply chain management, quality, and process
+compliance.
+Designed and delivered role-based training programs across Production,
+Dispatch, Quality, Safety, and Support functions, enh...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.97
+Needs review   : False
+Total exp      : 8.0 years (96 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Zonal L&D Specialist
+  Company      : excellence in supply chain management
+  Location     : quality
+  Start - End  : May 2025 - Present
+  Duration     : 19 months
+  Bullets      : 2
+    • Licious- is a reputed D2C food-tech organization recognized for excellence in supply chain management, quality, and process compliance. Designed and delivered role-based training programs across Production, Dispatch, Quality, Safety, and Support functions, enhancing operational efficiency and standardization across 5+ departments. Trained ~900+ employees through structured classroom and on-floor sessions, improving process adherence and reducing operational errors significantly. Led and managed a team of 10+ associates, ensuring smooth daily operations, resulting in improved productivity and team performance. Conducted Training Need Analysis (TNA) with cross-functional teams (Ops, QA, HR, Safety), identifying key skill gaps and enabling targeted training interventions. Developed multilingual (Hinglish/bilingual) training content including SOPs, PPTs, Canva modules, and job aids, increasing workforce understanding and retention levels. Delivered compliance trainings on GMP, GHP, HACCP, VACCP, TACCP, POSH, ISO standards, and safety protocols, ensuring 100% audit readiness and regulatory compliance. Facilitated specialized training on frozen food processes, including cold chain and temperature control, minimizing quality risks and ensuring product integrity.
+    • matrices, attendance), successfully supporting internal and external audits with zero non-compliance in training. Drove process excellence initiatives through refresher trainings and continuous improvement programs, leading to measurable improvements in operational consistency. Evaluated training effectiveness using feedback, assessments, and performance metrics, ensuring continuous improvement in training outcomes and employee performance.
+  Sub-sections : ['Maintained audit-ready documentation (training records, competency']
+  Method       : date_regex+date_prefix_title+spacy_ORG
+  Confidence   : 0.95
+  Needs Review : False
+
+Entry 2
+  Role         : Process Trainer (Team leader)
+  Company      : delivery service
+  Location     : None
+  Start - End  : Dec 2023 - May 2025
+  Duration     : 18 months
+  Bullets      : 2
+    • Zepto-startup based in Mumbai that offers a 10-minute grocery delivery service Trained and developed 1700+ employees through structured classroom and on-floor training programs. Led a team of 15+ associates, driving performance, efficiency, and process adherence. New Hiring Onboarding & training Process LBD Plan for New Joiners
+    • employee records, Conduct benefit analysis New Cities Launch - Hiring, CRT Training, simulation Training , OJT New Cities Launch - Hiring, CRT Training, simulation Training , OJT Training and Shadow training Conducted training sessions for white-collar and blue-collar employees, New Process Roll Out for pan India, Virtual Session CRT Session Planned and executed employee engagement activities including team connect sessions and Fun Friday initiatives Created multilingual process content, OPLs, and Do’s & Don’ts posters with effective shop-floor implementation.
+  Sub-sections : ['(Learn by doing)', 'Performance management, Maintaining the company culture, Maintain']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Quality Assurance Executive
+  Company      : Well known about payroll Management
+  Location     : Monthly cycle Payroll
+  Start - End  : Aug 2021 - Dec 2023
+  Duration     : 29 months
+  Bullets      : 4
+    • Flipkart-Flipkart is one of India’s leading e-commerce platforms, offering a wide range of products with a strong focus on affordability, innovation, and customer convenience.
+    • Knowledge about FC,RC,MH,Large, Groceries Process. 100% Quality Adherence for Proper Processing in each dept.
+    • Daily Basis observation for all the dept. wise Quality.
+    • Kaizen Implements “Worked on Lean Six Sigma Yellow Belt Project.
+  Method       : date_regex+pre_date_company_split+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Trainer Associate
+  Company      : Handling the Procurement related Projects. Inventory Management
+  Location     : Manpower Management
+  Start - End  : Dec 2018 - Jul 2021
+  Duration     : 32 months
+  Bullets      : 3
+    • Myntra-Myntra is India’s leading fashion and lifestyle e-commerce platform, known for trendy brands, curated styles, and a seamless shopping experience.
+    • Handling multi depts OJT Session in single hour
+    • Built strong understanding of learning models and assessment design
+  Sub-sections : ['Floor OJT Training Dept wise', 'Developed e-learning content using simulation tools', 'Won internal e-learning competition', 'Managed training MIS, dashboards, and reporting']
+  Method       : date_regex+pre_date_company_split+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False

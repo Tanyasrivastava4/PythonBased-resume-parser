@@ -1,6 +1,4 @@
 {
-  "id": 37,
-  "file_name": "Akash Verma_Data Scientist_Intileo.pdf",
   "email": "akash.verma6712@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "+919306620996",
@@ -27,13 +25,68 @@
     "Total experience: 5.5 years (66 months, 1 overlaps merged)",
     "1. Associate Data Science Engineer II @ Techdome (June’25 - Jan’26) [conf 0.98, review=False]",
     "2. Data Science Engineer Intern @ Infinity Labs (June’23 - Aug’23) [conf 0.98, review=False]",
-    "3. Techdome @ Indore (Aug’20 - May’25) [conf 0.55, review=True]"
+    "3. CPI: 7.8 @ BS–MS Data Science and Chemistry (Aug’20 - May’25) [conf 0.98, review=False]"
   ],
-  "company_details_confidence": 0.84,
+  "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Associate Data Science Engineer II",
+      "company": "Techdome",
+      "start": "June’25",
+      "end": "Jan’26",
+      "responsibilities": [
+        "Designed and implemented an end-to-end AI video generation platform by integrating multiple generative AI models, APIs, and automated workflows.",
+        "Built scalable AI pipelines for video synthesis, voice generation, and content orchestration using Python and cloud-based services.",
+        "Developed a multi-camera person re-identification system using YOLO and Deep SORT, enabling consistent identity tracking across video feeds.",
+        "Optimized feature matching using cosine similarity and color histogram correlation to improve re-identification accuracy in real-world environments."
+      ]
+    },
+    {
+      "role": "Data Science Engineer Intern",
+      "company": "Infinity Labs",
+      "start": "June’23",
+      "end": "Aug’23",
+      "responsibilities": [
+        "Developed a facial recognition system for automated attendance using OpenCV, enabling real-time face detection and identification.",
+        "Implemented database-backed attendance logging using SQLite and integrated a Flask-based web dashboard for reporting.",
+        "Improved system reliability by optimizing image preprocessing and handling concurrent detection and database updates.",
+        "Deployed and tested the complete solution on Raspberry Pi, ensuring efficient performance on edge devices.",
+        "Built end-to-end AI Video generation pipeline using mutiple generative AI models and API’s",
+        "Developed comprehensive AI model integration framework with voice synthesis capabilities",
+        "Engineered muti-step AI workflow orchestration with intelligent task scheduling",
+        "Architected scalable AI content pipeline with AWS cloud infrastructure Person Re-Identification and Tracking Developed a multi-camera person",
+        "tracking system using YOLO for detection and Deep SORT for real-time re-identification.",
+        "histogram correlation for accurate Global ID (GID) assignment across multiple videos.",
+        "2D mapping to visualize presence on a site blueprint.",
+        "learning model to automate bullet detection and classification for forensic applications.",
+        "clustering, grayscale conversion, and contour detection for accurate bullet segmentation.",
+        "calibration to map pixels to real-world units for dimensional measurements.",
+        "to control linear actuators for precision mechanical movements.",
+        "stepper motor control in robotics and automation projects. Outlined future enhancements,",
+        "including real-time processing on Raspberry Pi and high-resolution image capture.",
+        "Football — Winner of Inter-Batch",
+        "Swimming"
+      ]
+    },
+    {
+      "role": "CPI: 7.8",
+      "company": "BS–MS Data Science and Chemistry",
+      "start": "Aug’20",
+      "end": "May’25",
+      "responsibilities": [
+        "LABEL: skills   CONFIDENCE: 0.95   START LINE: 7 ────────────────────────────────────────────────────────────",
+        "Generative AI & LLMs: Azure OpenAI (GPT Models), Hugging Face Transformers, Prompt Engineering, LLM Applications RAG & Agentic AI: LangChain, RAG (Retrieval-Augmented Generation), Vector Search, MCP (Model Context Protocol),",
+        "AI/ML & Deep Learning: CNN, ANN, PyTorch, TensorFlow, Transfer Learning, Model Evaluation Metrics Computer Vision: OpenCV, YOLO, ArUco Markers, K-means Clustering, Contour Analysis Data Engineering & Pipelines: Data Cleaning, Preprocessing, End-to-End AI Pipelines, Model Deployment Workflows,",
+        "Vector Databases & Retrieval: Redis (Vector Similarity Search), Similarity Search Techniques",
+        "Embedded Systems: Raspberry Pi, NVIDIA Jetson, GPIO Interfacing"
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
   "designation": [
     "Associate Data Science Engineer II",
     "Data Science Engineer Intern",
-    "Techdome"
+    "CPI: 7.8"
   ],
   "skills": [
     "ANN",
@@ -57,7 +110,6 @@
     "GPIO",
     "GPT",
     "Generative AI",
-    "GitHub",
     "Hugging Face",
     "K-means Clustering",
     "LLM",
@@ -91,7 +143,7 @@
   ],
   "skills_confidence": 0.92,
   "total_experience": 5.5,
-  "total_experience_confidence": 0.84,
+  "total_experience_confidence": 0.98,
   "Achievements": [
     "Built a facial recognition attendance",
     "system with OpenCV for real-time face detection and recognition.",
@@ -108,5 +160,6 @@
     "Internship Certificate:"
   ],
   "Achievements_confidence": 0.85,
-  "parsing_time_seconds": 0.37
+  "id": 37,
+  "file_name": "Akash Verma_Data Scientist_Intileo.pdf"
 }

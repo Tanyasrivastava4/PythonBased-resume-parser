@@ -1,0 +1,72 @@
+======================================================================
+FILE: 407_Naukri_SudhirKumarRautray[19y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Deputy General Manager - Tele sales & Vendor Management
+Bank Bazaar .com
+12/2018 – Current 	 Chennai
+Data Interpretation
+A financial services company specializing in various financial products
+Led Contact Center Operations including In-house G Vendor line of business across PAN India for cards
+Outso...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 18.5 years (222 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Deputy General Manager - Tele sales & Vendor Management
+  Company      : A financial services company specializing in various financial products
+  Location     : Chennai
+  Start - End  : 12/2018 - Current
+  Duration     : 96 months
+  Bullets      : 2
+    • Led Contact Center Operations including In-house G Vendor line of business across PAN India for cards
+    • Established 300 Seats business externally with 40% reduction in cost Increased month-on-month revenue growth by transitioning in-house business to external and ensuring positive margins Managed a portfolio of 400 FTEs for Cards G loans ensuring profitability
+  Sub-sections : ['Outsourcing']
+  Method       : date_regex+multiline_dash_split+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Operations Manager - Sales
+  Company      : Drove year-over-year business growth while leading operations, strategic vision
+  Location     : and planning
+  Start - End  : 04/2018 - 11/2018
+  Duration     : 8 months
+  Bullets      : 1
+    • Led 250 Pre-sales tele calling associates to generate quality walk-ins across various projects Performed outbound sales activities such as cold calling, lead follow-up, and sales qualifications Converted prospects into customers by showcasing appropriate residential properties Identified and resolved unauthorized, unsafe, or ineffective practices
+  Method       : date_regex+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Operations Manager - Tele sales
+  Company      : Concentrix Daksh Services India Private Limited
+  Location     : Vishakhapatnam & Hyderabad
+  Start - End  : 04/2012 - 01/2018
+  Duration     : 70 months
+  Bullets      : 1
+    • A leading global provider of business services Managed Contact Center for constant performance achievements of 300 FTEs Achieved annually 70 Cr Revenue (Premium) with 7% (NOP) conversion Drove cost reduction initiatives in processes with automation opportunities
+  Method       : date_regex+multiline_dash_split+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Senior Executive
+  Company      : Customer Service Delivery Bharti Airtel Ltd
+  Location     : Bhubaneswar
+  Start - End  : 02/2007 - 01/2011
+  Duration     : 48 months
+  Bullets      : 4
+    • Reduced attrition rate by 15% through effective churn analysis and monitoring practices.
+    • Achieved targets (numbers G revenue) as per AOP.
+    • Analyzed zero-user prediction to control high ARPU churn.
+    • Maintained positive customer relations by addressing problems and implementing corrective actions.
+  Method       : date_regex+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False

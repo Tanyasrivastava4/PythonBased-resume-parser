@@ -116,7 +116,8 @@ Open `http://localhost:5173` to upload resumes interactively.
 
 ## 📡 Key API Endpoints
 
-- `POST /api/v1/parse-resume` - Upload a single resume (PDF, DOCX, DOC) and receive structured JSON synchronously.
+- `POST /api/v1/parse-resume` - Upload a single resume (PDF, DOCX, DOC) and receive structured JSON synchronously. Supports `duplicate_policy` (`prompt`, `override`, `keep_both`, `keep_existing`).
+- `POST /api/v1/parse-batch` - Upload multiple resumes simultaneously with bounded concurrency, conflict detection, and deep diff summary.
+- `POST /api/v1/resolve-conflict` - Resolve detected duplicate candidate conflicts by action (`override`, `keep_both`, or `keep_existing`). Supports single conflict and bulk resolutions.
 - `POST /api/v1/parse-resume-async` - Background queue for bulk or heavy scanned OCR files.
 - `GET /api/v1/job-status/{job_id}` - Check the status of an asynchronous parsing job.
-- `POST /api/v1/parse-batch` - Upload multiple resumes simultaneously with bounded concurrency.

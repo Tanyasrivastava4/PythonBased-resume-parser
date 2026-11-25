@@ -1,0 +1,133 @@
+======================================================================
+FILE: 420_Naukri_SumitSureshDeshpande[8y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• Working as a Deputy Manager in Kotak Mahindra Asset Management Company Ltd. , BKC, Mumbai since 8th
+December 2025 till date
+• Worked as a Associate Test Lead in QualityKiosk Technologies Pvt. Ltd, Navi Mumbai since 7th April 2021 to 3rd
+December 2025
+• Worked as a Sr. QA Analyst in Yethi Consultin...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 7
+Confidence     : 0.86
+Needs review   : True
+Total exp      : 26.7 years (320 months, 4 overlapping periods merged)
+
+Entry 1
+  Role         : a Deputy Manager in Kotak Mahindra Asset Management Company Ltd
+  Company      : BKC
+  Location     : Mumbai
+  Start - End  : December 2025 - Present
+  Duration     : 12 months
+  Bullets      : 1
+    • 
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Associate Test Lead
+  Company      : QualityKiosk Technologies Pvt Ltd
+  Location     : None
+  Start - End  : 7th April 2021 - 3rd December 2025
+  Duration     : 56 months
+  Bullets      : 21
+    • 
+    • Project Description : ICICI Direct web modules- Portfolio, Stock, Mutual Funds, Stock SIP, F&O, Commodity, IPO, FD, Loans, Insurance, ICICI direct trading screens(online simulator), Watchlist Roles and Responsibilities:
+    • Managing Software Testing team of 8 resources. (developing Test Plan, Communicating with stakeholders on requirement analysis in shift-left walkthrough, sharing test estimations, assigning task, training the new team member, analyzing the test result, ensuring quality, sharing the daily, weekly status reports to clients, sharing monthly timesheets of team to pmo with clients approval)
+    • Analyzing and understanding the FS document
+    • Involved in Test Design, writing Test scenarios, conditions and Test cases and maintaining the test cases.
+    • Execution of Test Cases.
+    • Defect Reporting and Tracking using Jira.
+    • Attending daily defect meeting with client & development team for the statuses of defect which are open
+    • Sending Daily Defect Report & WSR to client.
+    • Providing Test Exit Report as completion of UAT testing
+    • : HDFC Mutual Funds is one of the India’s largest mutual fund manager with ₹ 4 trillion in asset under management. HDFCMF offers a comprehensive suite of savings and investments products across assets classes, which provides income and wealth creation opportunities to a large retail and institutional customer base of 10.2 million live accounts. The project involves requirement analysis, enhancement for Investor and Distributor portal available as web and mobile (Android, IOS) application. Additional responsibilities include software quality assurance, User Acceptance Testing, UI, UX, Test Management, Test Planning, Defect
+    • Management, Release Management, Project Management. Investor facility- Existing Users, New Investor, Quick Invest, SIP, Purchase, Dream SIP, Flex SIP, systematic corner, Goal planning, Investment basket, know your investment personality, Key Projects- New user journey, New Investor app revamp.
+    • Banking, NEFT/RTGS, UPI, HDFC Fund Transfer.
+    • : DBS Bank has Integrated Transaction banking suite-Finnaxia built on latest Java J2EE technology over Service Oriented Architecture (SOA) platform. With FinnAxia banks can breakdown traditional product silos, launch personalized products/services over multiple channels and achieve operational excellence.
+    • global transaction banking suite, offers the capability to swiftly address corporate customer's liquidity management needs and provides end-to-end solutions from Receivables, Payments and Liquidity
+    • Financial Supply Chain Management, with enhanced customer satisfaction. Modules :
+    • Cash Upload, Cheque Upload, Auth, client throughput report,Instrument Dispatch,
+    • & dispatch, Realization, Liquidation, Frequency based Mandates.
+    • : Induslnd Bank Connect Online, Indusdirect Web, Indusdirect -Corporate Mobile Banking
+    • Testing Strategy : Manual & Automation (Team Size -12)
+    • Project Description : Cash Management Application of Corporate Internet Banking, featuring Manual Payments Initiation, Bulk File Upload, Payment Authorization, Beneficiary Registration, Salary Reconciliation Report, Digital Tax Payments for Corporate Users. Indusdirect Web Application features BBPS, Non BBPS Payments – IFT, IMPS, NEFT, RTGS, Bulk Upload, Reports of various Payments. Indusdirect Mobile App Android/IOS, featuring customer to make NEFT, RTGS, IFT, IMPS Payments & Authorization, Rejection of Individual/File Level Transaction, view Account balance, Account Statement, manage Accounts, Payment Enquiry, History, settings
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Sr. QA Analyst
+  Company      : Yethi Consulting Pvt
+  Location     : None
+  Start - End  : 1st June 2020 - 5th April 2021
+  Duration     : 11 months
+  Bullets      : 1
+    • 
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Functional Consultant
+  Company      : Tata Technologies Ltd
+  Location     : None
+  Start - End  : 10th March 2016 - 5th Dec 2017
+  Duration     : 21 months
+  Bullets      : 14
+    • Certificate & Achievements:
+    • ISTQB Certified Agile Tester Extension, Certificate No: 923698, Sep’19
+    • UiPath Certified RPA Developer Foundation Level, Dec’18
+    • ISTQB Certified Test Engineer Foundation Level, Certificate No: 51717, Oct’17
+    • Received Certification of Appreciation from SBI client for invaluable contribution towards Customer
+    • Managing end to end testing of UAT, Preprod environment as a single point of contact for KotakMF new website development project across Web, Android, IOS. (developing Test Plan, Communicating with stakeholders on requirement analysis in shift-left walkthrough, sharing test estimations, assigning task, training the new team member, analyzing the test result, ensuring quality, sharing the daily, weekly status reports)
+    • Analyzing and understanding the FS document
+    • Involved in Test Design, writing Test scenarios, conditions and Test cases and maintaining the test cases.
+    • Execution of Test Cases in Zephyr
+    • Defect Reporting and Tracking using Jira.
+    • Attending daily defect meeting with development team for the statuses of defect which are open
+    • Sending Daily Defect Report & WSR.
+    • Providing Test Exit Report as completion of UAT testing
+    • Acting Product Owner for independent quality analysis
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Sr.Test Engineer
+  Company      : Project
+  Location     : 1
+  Start - End  : Nov 18 - 26th May 2020
+  Duration     : 235 months
+  Bullets      : 1
+    • Project Description : STATE BANK OF INDIA provides cash management services, viz Payments(bulk File Upload), Collections, Mandates to wide range of Clients which includes of Central Government, State
+  Method       : date_regex+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : None
+  Company      : Project – 2 Project Name : IDFC Bank Pre-login
+  Location     : Online Acquisition, Backbase, CRM NEXT
+  Start - End  : May 18 - 31 October 2018
+  Duration     : 222 months
+  Bullets      : 0
+  Sub-sections : ['Duration', ': 19th March 18 – 27th April 18 2018']
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 7
+  Role         : None
+  Company      : Project – 4 Project Name : State Bank of Mauritius Internet Banking
+  Location     : Mobile Banking, File Upload
+  Start - End  : 7th Dec 2017 - 16th March 2018
+  Duration     : 4 months
+  Bullets      : 0
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.55
+  Needs Review : True

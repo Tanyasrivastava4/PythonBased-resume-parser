@@ -1,6 +1,4 @@
 {
-  "id": 82,
-  "file_name": "Ankush Bais_AI Solution Architect_Intileo.pdf",
   "email": "ankushvbais@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "+919860085758",
@@ -33,6 +31,54 @@
     "4. Software Engineer @ L&T Infotech (Feb 2015 - Feb 2018) [conf 0.98, review=False]"
   ],
   "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Solution Architect",
+      "company": "Yash Technologies",
+      "start": "Oct 2022",
+      "end": "Present",
+      "responsibilities": []
+    },
+    {
+      "role": "Lead Developer",
+      "company": "Nihilent Ltd",
+      "start": "Jan 2020",
+      "end": "Oct 2022",
+      "responsibilities": []
+    },
+    {
+      "role": "Technology Analyst",
+      "company": "Infosys",
+      "start": "Feb 2018",
+      "end": "Dec 2019",
+      "responsibilities": []
+    },
+    {
+      "role": "Software Engineer",
+      "company": "L&T Infotech",
+      "start": "Feb 2015",
+      "end": "Feb 2018",
+      "responsibilities": [
+        "Agentic GenAI Enablement for Enterprise Decision Automation Agentic AI, LangGraph, LangChain, LangSmith, RAG, LLMs (Claude / GPT-4 / Gemini), FastAPI, Python, Enterprise APIs, Vector Databases, Human-in-the-Loop (HITL), Cloud-Native Architecture, Observability & Governance Controls",
+        "Partnered with BAs and domain teams on process discovery, architecturally evaluating decision-heavy AML/KYC and compliance workflows to identify where agentic AI (RAG, stateful decisioning, HITL) delivered measurable risk and efficiency gains.",
+        "Led end-to-end delivery of enterprise Agentic GenAI solutions using LangGraph as the core orchestration layer, designing stateful, multi-node agents with branching decision logic, retries, and interrupt-driven human-in-the-loop (HITL) checkpoints for regulated BFSI decision workflows.",
+        "Implemented a production-grade intelligence layer combining RAG and selective LLM fine-tuning, using RAG (LangChain + vector databases) for dynamic policy and regulatory retrieval, and fine-tuned models for structured classification tasks (risk tiering, eligibility scoring), optimizing accuracy, latency, and cost.",
+        "Delivered cloud-native, containerized agent services by packaging LangGraph runtimes with Docker and FastAPI, defining CI/CD-aligned build and release pipelines, durable state persistence for long-running HITL flows, and standardized delivery patterns from development through production.",
+        "Established comprehensive monitoring, governance, and observability using LangSmith for agent and LLM tracing, RAG quality metrics for grounding assurance, HITL override tracking for model health, and cloud-native monitoring for API and container reliability, ensuring audit-ready, regulator-compliant GenAI operations. SEI-GenAI Agent Implementation on Google Vertex AI Google ADK, Gemini (Pro/Flash), Vertex AI Agent Builder, Vertex AI, GCP, BigQuery, Cloud Storage (Buckets), Python, Enterprise APIs, Google Cloud CLI, Cloud Trace, Responsible AI & Model Governance",
+        "Designed and implemented Google-based GenAI agents using ADK, including multi-state, stateful agents, while defining standardized reference architectures, RAG patterns, state management, observability, and Responsible AI guardrails to enable governed, scalable and implemented enterprise adoption and support future delivery pipelines on Google Vertex AI Yash Technologies – SEI UiPath RPA + Agentic AI Implementations UiPath (Studio, Orchestrator, Action Center, AI Center), Agentic AI, GenAI Activities, Vertex AI, GCP, Document Understanding (OCR), Communication Mining, Integration Services, SharePoint, Vertex AI (enablement), MSSQL, Snowflake, CI/CD, Security & Compliance Controls",
+        "Delivered 50+ enterprise UiPath intelligent automations across 2 regions & 8 business functions governing solution architecture, coding standards, Orchestrator setup, and production readiness, while mentoring and leading a 10-member development team.",
+        "Delivered UiPath RPA bots for rule-based automation and UiPath-based autonomous agentic solutions leveraging GenAI Activities, Document Understanding, Communication Mining, and Action Center for judgment-driven use cases.",
+        "Established reusable RPA and agent frameworks and CI/CD pipelines for UiPath, accelerating bot development by 30% and ensuring secure, compliant, and scalable deployments",
+        "UiPath, SAP Automation, API Automation, Orchestrator, Process Documentation, Document Understanding",
+        "Implemented SAP and API automations delivering 40+ FTE savings annually, increased accuracy to 95%+, and reduced manual intervention by 60%+ and Strengthened automation reliability via reusable components, DU/OCR workflows, and best-practice architecture",
+        "Individually managed full client engagement lifecycle; executed migration from SAP ECC to SAP S/4HANA for UiPath Bots.",
+        "UiPath, Automation Anywhere, Jira, ServiceNow, PowerBI, Orchestrator, Document Understanding, Python API",
+        "Blueprism, Automation Anywhere, Mainframe, Python, C#, JavaScript, jQuery, Testing & Support",
+        ".Net, C#, Python, Blueprism, JavaScript, jQuery, Node.js, React.js, ServiceNow, MSSQL, Testing & Support"
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
   "designation": [
     "Solution Architect",
     "Lead Developer",
@@ -89,7 +135,6 @@
     "LangGraph",
     "LangSmith",
     "Leadership",
-    "LinkedIn",
     "MCP Server",
     "MLOps",
     "MSSQL",
@@ -146,5 +191,6 @@
     "5. Certified Mendix Rapid Developer | Bizagi Modeler Certification — Agile Methodologies Certification [conf 0.8]"
   ],
   "certification_confidence": 0.72,
-  "parsing_time_seconds": 1.44
+  "id": 82,
+  "file_name": "Ankush Bais_AI Solution Architect_Intileo.pdf"
 }

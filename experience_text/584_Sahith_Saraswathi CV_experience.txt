@@ -1,0 +1,61 @@
+======================================================================
+FILE: 584_Sahith_Saraswathi CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Bachelors Degree in Computer Science Engineering
+2015 – 2019
+
+Data Scientist
+Soulpage IT solutions | December 2022 - May 2023
+Developed a risk prediction model using patient vitals and disease status
+,also build the disease prediction model with 98% accuracy.
+Extracted structured data from clinical ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 5.1 years (61 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Bachelors Degree in Computer Science Engineering
+  Location     : None
+  Start - End  : 2015 - 2019
+  Duration     : 49 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Data Scientist
+  Company      : Soulpage IT solutions
+  Location     : None
+  Start - End  : December 2022 - May 2023
+  Duration     : 6 months
+  Bullets      : 3
+    • Developed a risk prediction model using patient vitals and disease status ,also build the disease prediction model with 98% accuracy.
+    • Extracted structured data from clinical report tables using OCR, table detection (TableNet), and classification techniques, achieving 93% classification accuracy and 0.1 loss in detection.
+    • Designed features for patient risk assessment and enabled automated data extraction from reports, enhancing monitoring, data usability, and reporting efficiency.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Data Scientist Intern
+  Company      : Soulpage IT solutions
+  Location     : None
+  Start - End  : June 2022 - November 2022
+  Duration     : 6 months
+  Bullets      : 4
+    • Developed a recommendation system for a jewellery e-commerce platform using matrix factorization and text similarity to deliver personalized product suggestions. Implemented advanced model validation and selection techniques in the company’s internal AutoML tool, improving the efficiency and reliability of automated model building.
+    • Developed a multiclass classification model using CNN-XGBOOST and stacked pretrained models to detect Alzheimer’s stages from MRI scans, achieving 93% accuracy. The model outperformed other deep learning approaches, offering a diagnostic tool to support early detection and treatment planning
+    • Developed an AI chatbot using Langchain and RAG to provide context- aware answers on RBI risk guidelines, leveraging FAISS and OpenAI for semantic search and response generation. Applied NLP to simplify complex regulations, enhancing clarity and supporting compliance workflows.
+    • Achieved high-accuracy insurance premium prediction (R² = 0.98) using customer demographics and health attributes. Enhanced pricing fairness and personalization, boosting customer satisfaction and data-driven decision-making for insurers. ──────────────────────────────────────────────────────────── [Found 8 sections total: ['header', 'summary', 'education', 'skills', 'experience', 'skills', 'certifications', 'experience']]
+  Sub-sections : ['PERSONAL', "Alzheimer's Disease Prediction using CNN-XGBOOST", 'RBI Regularity Chatbot (RAG)', 'Health Insurance Prediction']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

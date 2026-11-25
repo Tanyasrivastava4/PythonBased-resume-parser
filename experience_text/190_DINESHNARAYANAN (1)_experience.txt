@@ -1,0 +1,85 @@
+======================================================================
+FILE: 190_DINESHNARAYANAN (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Father’s Name :R.Narayanan Personal Detail With
+Date of Birth:02-05-1995
+Gender
+
+Arts & science,Erode.
+PREVIOUS WORK EXPERIENCE
+Company : Suryoday Small Finance Bank
+Designation: Area Sales Manager
+Product : LAP & HL
+Duration : Joint – Nov-2023 to Till Date…
+• Taking in charge of Login to disburseme...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 10.0 years (120 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Unknown - Designation | Area Sales Manager
+  Company      : Suryoday Small Finance Bank
+  Location     : None
+  Start - End  : Nov 2023 - Present
+  Duration     : 37 months
+  Bullets      : 5
+    • Taking in charge of Login to disbursement.
+    • Legal & Technical queries and report follow up within the TAT.
+    • Collection (Nach) follow up for first 1 to 18 EMI.
+    • Team handling & Customer handling with 7 Branches.
+    • Suitable Ro & BM Candidate referral for vacant Branches.
+  Method       : date_regex+organization_prefix+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Designation | Relationship Manager
+  Company      : Unknown Product : LAP & HL
+  Location     : None
+  Start - End  : March 2022 - August 2023
+  Duration     : 18 months
+  Bullets      : 3
+    • Responsible for the underwriting of company lease prospects & proposal to financial affiliates.
+    • Independently conducted File analysis according to policy and sound File decision making.
+    • Responsible for Technical & Legal done with TAT. Pre Pd-Done With our self for the every Login files, and Cleared the Rfd Query.
+  Method       : date_regex+organization_prefix+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Unknown - Designation | Sales Executive
+  Company      : Equitas small Finance Bank
+  Location     : None
+  Start - End  : Oct 2020 - Feb 2022
+  Duration     : 17 months
+  Bullets      : 5
+    • Responsible for the underwriting of company lease prospects & proposal to financial affiliates.
+    • Independently conducted File analysis according to policy and sound File decision making.
+    • Responsible for Technical & Legal done with TAT.
+    • Pre Pd Done With our self for the every Login files, and Cleared the Rfd Query With Help Of Credit and Done The Disbursement With TAT.
+    • To explain the whole product to customer & convenience the customer
+  Sub-sections : ['Maintain Yield']
+  Method       : date_regex+organization_prefix+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Unknown - Designation | Senior Sales Officer
+  Company      : HDFC Bank
+  Location     : None
+  Start - End  : June 2016 - May 2020
+  Duration     : 48 months
+  Bullets      : 4
+    • Responsible for the underwriting of company lease prospects & proposal to financial affiliates.
+    • Independently conducted File analysis according to policy and sound File decision making.
+    • Responsible for Technical & Legal done with TAT.
+    • Pre Pd-Done With our self for the every Login files, and Cleared the Rfd Query With Help Of Credit and Done The Disbursement With TAT.
+  Method       : date_regex+organization_prefix+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False

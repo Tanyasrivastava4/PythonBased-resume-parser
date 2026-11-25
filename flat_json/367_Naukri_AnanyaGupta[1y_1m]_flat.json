@@ -1,0 +1,166 @@
+{
+  "email": "ananyagupta2305@gmail.com / yharshit72@gmail.com",
+  "email_confidence": 0.99,
+  "mobile_number": "+918447422805 / 1002021",
+  "mobile_number_confidence": 0.95,
+  "name": "Ananya Gupta",
+  "name_confidence": 0.9,
+  "gender": "female",
+  "gender_confidence": 0.88,
+  "dob": "1999-01-01",
+  "dob_confidence": 0.7,
+  "age": 27,
+  "age_confidence": 0.7,
+  "linkedin": "linkedin.com/in/ananyagupta2003",
+  "linkedin_confidence": 0.99,
+  "github": "github.com/ananyagupta2305",
+  "github_confidence": 0.99,
+  "summary": "AI/ML Engineer specializing in Generative AI and\nmultimodal systems, with a strong foundation in research and production-grade AI.",
+  "summary_confidence": null,
+  "EDUCATION": [
+    "1. B.Tech — models, vector search, and prompt orchestration, bridging rigorous experimentation with real-world deployment. EDUCATION Vivekananda Institute of Professional Studies (None) [conf 0.8, review=False]",
+    "2. B.Tech — Kulachi Hansraj Model School New Delhi (2021 - 2025) [conf 0.8, review=False]",
+    "3. 12th — Examination CBSE (2007 - 2021) [conf 0.95, review=False]"
+  ],
+  "EDUCATION_confidence": 0.85,
+  "degree": [
+    "B.Tech",
+    "12th"
+  ],
+  "company_details": [
+    "EXPERIENCE (5 jobs, 0 early_career entries)",
+    "Total experience: 3.1 years (37 months, 4 overlaps merged)",
+    "1. Biz Digital IT @ Francis (Nov’23 - Present) [conf 0.98, review=False]",
+    "2. R&D Intern @ Docquity (July’24 - Sept’24) [conf 0.98, review=False]",
+    "3. R&D Intern @ Learning (Feb’25 - May’25) [conf 0.98, review=False]",
+    "4. R&D Intern @ o Designed a Retrieval-Augmented Generation  system to answer domain-specific queries using a structured CSV-based (Aug’24 - Sept’24) [conf 0.98, review=False]",
+    "5. R&D Intern @ o Developed a Streamlit application integrating Retrieval-Augmented Generation  to support multi-file uploads (PDF) (Sept’24 - Dec’24) [conf 0.98, review=False]"
+  ],
+  "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Biz Digital IT",
+      "company": "Francis",
+      "start": "Nov’23",
+      "end": "Present",
+      "responsibilities": [
+        "Designed and implemented a government-facing RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova Pro, owning the system from POC to production integration.",
+        "Implemented semantic retrieval, multi-turn follow-up handling, and hallucination control, ensuring accurate, scope-restricted responses aligned with official MIDC data.",
+        "Designed and deployed two production Generative AI systems for document summarization and question answering across PDFs,",
+        "DOCX, images, and structured data using GPT-4o",
+        "Optimized multi-document processing pipelines",
+        "Developed token-level inference analysis (per",
+        "Conducted research-oriented experimentation OCR–LLM hybrids, and structured extraction (Azure OpenAI). using parallel execution, reducing end-to-end latency from ~40s to ~10s. page and per document) to enable LLM cost monitoring and optimization. on complex multi-page invoice understanding, evaluating vision–language models, pipelines.",
+        "Designed and implemented a RAG framework on AWS using Amazon Nova Pro for long-document summarization and Amazon Titan embeddings for semantic retrieval over large document collections.",
+        "Currently developing a cost-efficient invoice extraction pipeline using Amazon Nova Pro, achieving ~93–95% accuracy, with ongoing optimization and evaluation."
+      ]
+    },
+    {
+      "role": "R&D Intern",
+      "company": "Docquity",
+      "start": "July’24",
+      "end": "Sept’24",
+      "responsibilities": [
+        "text (PubMed XML).",
+        "Explored prompting and inference behavior across Claude, OpenAI, and AWS Bedrock models.",
+        "Gained exposure to LLM serving, scalable inference pipelines, and system-level architecture."
+      ]
+    },
+    {
+      "role": "R&D Intern",
+      "company": "Learning",
+      "start": "Feb’25",
+      "end": "May’25",
+      "responsibilities": [
+        "Tools: AWS Bedrock , PyTorch, Hugging Face (BERT, RoBERTa, DistilBERT), Python o Built a system that analyzed sentiment from raw images and text by generating structured metadata with Amazon Nova Pro. Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy o Created vibrant visualizations (e.g., radial heatmaps, tree maps) with Python/PyTorch, producing publication-ready figures for a research paper.",
+        "Medical RAG Chatbot for Knowledge-Grounded Question Answering | Link"
+      ]
+    },
+    {
+      "role": "R&D Intern",
+      "company": "o Designed a Retrieval-Augmented Generation  system to answer domain-specific queries using a structured CSV-based",
+      "start": "Aug’24",
+      "end": "Sept’24",
+      "responsibilities": [
+        "Tools: Sentence Transformers, FAISS, RAG, Groq LLM, Python, Streamlit o Designed a Retrieval-Augmented Generation (RAG) system to answer domain-specific queries using a structured CSV-based knowledge base. o Implemented semantic retrieval with Sentence Transformers and FAISS to ground LLM responses and reduce hallucinations. o Engineered modular preprocessing, retrieval, and generation components with transparent context inspection and conversational memory.",
+        "Multi-File RAG & LLM Chat System with Streamlit | LINK"
+      ]
+    },
+    {
+      "role": "R&D Intern",
+      "company": "o Developed a Streamlit application integrating Retrieval-Augmented Generation  to support multi-file uploads (PDF)",
+      "start": "Sept’24",
+      "end": "Dec’24",
+      "responsibilities": [
+        "Tools: Grok API , Hugging face, sentence transformers, Faiss, RAG, python, Llama 8B, Python, Streamlit o Developed a Streamlit application integrating Retrieval-Augmented Generation (RAG) to support multi-file uploads (PDF, DOCX, TXT, MP3, MP4) for context-based responses. o Implemented a conversational interface using Llama 8B via the Groq API, enabling users to engage in natural language queries with the model. o Enhanced user experience by allowing seamless interaction with uploaded documents, facilitating efficient information retrieval and summarization.",
+        "Data Bricks Certified Data Engineer Associate | LINK",
+        "AWS Certified AI Practitioner| LINK",
+        "Research Paper Presentation Certificate, ICDAM2024",
+        "Research Paper Presentation Certificate, AIAMMS2023",
+        "(1st International Conference on Artificial Intelligence, Advanced Materials, and",
+        "NODEJS - IBM | LINK",
+        "Links: https://www.linkedin.com/in/ananyagupta2003/ https://github.com/ananyagupta2305 https://drive.google.com/file/d/1pVeZnBIuDQIKP_Qvd2dTfzQ2isEdJps3/view?usp=sharing https://link.springer.com/chapter/10.1007/978-981-96-3355-5_25 https://www.routledge.com/Handbook-of-AI-in-Engineering-Applications-Tools-Techniques-and-Algorithms/Kumar-Rani-Kumar-Jain/p/book/9781032723150 https://github.com/ananyagupta2305/Medical_RAG_Chatbot https://github.com/ananyagupta2305/Generative_AI https://drive.google.com/file/d/1ELkzLXH_OcN_sysjzdRHWrb5XCdgZsJ4/view?usp=sharing https://drive.google.com/file/d/17_c1Ld6NvSzMHEHrkKM6CoEVpjlENV0V/view?usp=sharing https://drive.google.com/file/d/1s-N1ykiAN5oI2FHw_W4XItW8mGnJ2SsP/view?usp=drive_link https://drive.google.com/file/d/1ye7cu3pXSp2xYdrhtuweBcbp0Sc49Aht/view https://drive.google.com/file/d/1r-CDFG5QtOKrZipYxRVOrnYZIG6VZtb6/view ────────────────────────────────────────────────────────────"
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
+  "designation": [
+    "Biz Digital IT",
+    "R&D Intern",
+    "Software Engineer"
+  ],
+  "skills": [
+    "A/B Testing",
+    "AWS",
+    "Azure OpenAI",
+    "BERT",
+    "BeautifulSoup",
+    "Bedrock",
+    "C++",
+    "Claude",
+    "Data Analytics",
+    "Data Preprocessing",
+    "Embeddings",
+    "FAISS",
+    "GPT-4",
+    "Generative AI",
+    "Git",
+    "GitHub",
+    "Groq",
+    "Hugging Face",
+    "Jira",
+    "LLM",
+    "LLaMA",
+    "Machine Learning",
+    "Matplotlib",
+    "MongoDB",
+    "NLP",
+    "Node.js",
+    "NumPy",
+    "Ollama",
+    "OpenAI API",
+    "Pandas",
+    "Prompt Engineering",
+    "PyTorch",
+    "Python",
+    "Qwen",
+    "RAG",
+    "SQL",
+    "Seaborn",
+    "Streamlit",
+    "TensorFlow",
+    "Transformers",
+    "Vector Databases",
+    "XML",
+    "scikit-learn"
+  ],
+  "skills_confidence": 0.92,
+  "total_experience": 3.1,
+  "total_experience_confidence": 0.98,
+  "projects": [
+    "• A Unified Hybrid Framework for Sentiment Analysis from Visual-Textual Modalities Using Nova Inference and Hierarchical Deep"
+  ],
+  "projects_confidence": 0.85,
+  "id": 367,
+  "file_name": "Naukri_AnanyaGupta[1y_1m].pdf"
+}

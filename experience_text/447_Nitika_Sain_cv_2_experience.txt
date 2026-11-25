@@ -1,0 +1,53 @@
+======================================================================
+FILE: 447_Nitika_Sain_cv_2_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Serves Solution Services (Oct 2024 – 2 June2026)
+Talent Acquisition – Specialist
+• Manage end-to-end IT & Non-IT recruitment processes for software development, technical and
+finance roles.
+• Sourced profiles through job portals, LinkedIn, referrals, and internal databases.
+• Conducted HR screening ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.0 years (36 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Specialist
+  Company      : Talent Acquisition
+  Location     : None
+  Start - End  : Oct 2024 - 2 June2026
+  Duration     : 21 months
+  Bullets      : 9
+    • Manage end-to-end IT & Non-IT recruitment processes for software development, technical and finance roles.
+    • Sourced profiles through job portals, LinkedIn, referrals, and internal databases.
+    • Conducted HR screening interviews (communication, role fit, CTC, notice period).
+    • Supported offer rollout, salary negotiation, and offer acceptance.
+    • Build and maintain a strong candidate pipeline.
+    • Share interview details and follow-ups
+    • Collect and share interview feedback.
+    • Use Boolean search and sourcing strategies.
+    • Supported employee engagement activities, team events, and initiatives.
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Sales Executive
+  Company      : Aegis Customer Support Pvt.Ltd
+  Location     : None
+  Start - End  : Dec2022 - Feb2024
+  Duration     : 15 months
+  Bullets      : 4
+    • Handled inbound and outbound calls to provide information about personal loans, business loans, and credit products.
+    • Explained loan features, interest rates, eligibility criteria, and repayment terms to customers clearly.
+    • Built strong customer relationships to improve trust and conversion rates.
+    • Generated and followed up on sales leads to achieve monthly targets.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,58 @@
+======================================================================
+FILE: 125_Avneet_Kaur_Resume_ (2)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Associate
+PwC Acceleration Center, Gurugram
+Duration: 10/2026 – Present
+Name as per Employment Records: AVNEET KAUR
+Key Responsibilities
+* Working as an Associate at the PwC Acceleration Center, supporting engagement teams in
+delivering high-quality client work.
+* Applying technical accounting, audi...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.2 years (39 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Associate
+  Company      : PwC Acceleration Center
+  Location     : Gurugram
+  Start - End  : 10/2026 - Present
+  Duration     : 2 months
+  Bullets      : 6
+    • Name as per Employment Records: AVNEET KAUR
+    •  Working as an Associate at the PwC Acceleration Center, supporting engagement teams in delivering high-quality client work.
+    • Applying technical accounting, auditing, and financial analysis knowledge to produce accurate and timely deliverables.
+    • Preparing and reviewing working papers and analyses in line with PwC methodology and quality standards.
+    • Collaborating with cross-functional and onshore teams and communicating clearly with stakeholders.
+    • Building expertise in PwC tools, processes, and professional standards.
+  Sub-sections : ['Key Responsibilities']
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Article Assistant
+  Company      : R.S. Kalra & Associates
+  Location     : Jalandhar
+  Start - End  : 08/2022 - 08/2025
+  Duration     : 37 months
+  Bullets      : 8
+    • Name as per Employment Records: AVNEET KAUR
+    • Executed statutory audits for listed and private companies across various industries.
+    • Assisted in audit planning, risk assessment, and execution of audit engagements.
+    • Performed substantive testing and analytical review procedures.
+    • Evaluated Internal Financial Controls (IFC) and documented audit observations.
+    • Verified compliance with Indian Accounting Standards (Ind AS), the Companies Act, 2013, and applicable auditing standards.
+    • Prepared audit working papers and communicated audit findings with clients.
+    • Participated in the statutory audit and quarterly limited reviews of AGI Infra Limited, a listed entity.
+  Sub-sections : ['Key Responsibilities']
+  Method       : date_regex+pre_date_company_split+title_dict
+  Confidence   : 0.98
+  Needs Review : False

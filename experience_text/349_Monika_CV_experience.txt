@@ -1,0 +1,66 @@
+======================================================================
+FILE: 349_Monika_CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Social Media Executive
+Feb 2026 - April 2026
+Indolite Pvt. Ltd.
+Designed and developed creative visuals and
+graphics for social media platforms to maintain
+consistent brand identity.
+Planned, scheduled, and published social media
+posts across platforms to ensure regular and timely
+content delivery.
+...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 0.3 years (4 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Social Media Executive
+  Company      : Designed and developed creative visuals and
+  Location     : None
+  Start - End  : Feb 2026 - April 2026
+  Duration     : 3 months
+  Bullets      : 3
+    • graphics for social media platforms to maintain consistent brand identity.
+    • posts across platforms to ensure regular and timely content delivery.
+    • scheduling to maintain a consistent online brand presence.
+  Sub-sections : ['Planned, scheduled, and published social media', 'Managed content calendar and coordinated post']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Raghav Chadha - Social Media & YouTube
+  Company      : Channel Optimization
+  Location     : None
+  Start - End  : Jan 2026 - Feb 2026
+  Duration     : 2 months
+  Bullets      : 4
+    • research, title, descriptions, tags, and hashtags to improve video reach and discoverability.
+    • Assisted in YouTube Shorts optimization by leveraging trending topics, hooks, and audience search intent to boost engagement.
+    • Analyzed video performance metrics including views, watch time, and CTR to support data-driven content decisions.
+    • Contributed to social media content planning and scheduling to maintain consistent brand presence across platforms.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Bolbala.in & Desibiz.in
+  Company      : On-Board (2-Month Internship
+  Location     : None
+  Start - End  : Jan 2026 - March 2026
+  Duration     : 3 months
+  Bullets      : 2
+    • and hashtags to improve video reach and discoverability. Assisted in YouTube content planning to align videos with audience search intent and trending topics.
+    • and optimized metadata across all video uploads.
+  Sub-sections : ['Supported channel growth by ensuring consistent']
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

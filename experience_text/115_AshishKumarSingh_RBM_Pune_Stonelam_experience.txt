@@ -1,0 +1,98 @@
+======================================================================
+FILE: 115_AshishKumarSingh_RBM_Pune_Stonelam_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Management, Client Management, Competitor Management, Brand Development and Projects
+Management in Pune and Rest of Maharashtra.
+Amplified Customer base by 60-70% by maintaining effective relationship, Customer Service and
+Technological Update.
+An effective communicator with strong leadership, analy...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.96
+Needs review   : True
+Total exp      : 17.8 years (214 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : MANAGER - SALES & MARKETING
+  Company      : CLASSIC FLOORINGS AND INTERIORS PVT. LTD
+  Location     : None
+  Start - End  : 27TH July 2015 - 11th August 2023
+  Duration     : 97 months
+  Bullets      : 1
+    • Area of Expertise : Area of Expertise : Projects & Channel Sales Total Experience : 8 Years & 1 month.
+  Method       : date_regex+organization_prefix+subfield_label_role_next_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : BUSINESS DEVELOPMENT MANAGER - SALES & MARKETING
+  Company      : GLAZE ROCKS PVT. LTD
+  Location     : None
+  Start - End  : 07TH November 2014 - 01st June 2015
+  Duration     : 7 months
+  Bullets      : 3
+    • Area of Expertise : Project Sales.
+    • Total Experience : 7 Months.
+    • Working Experience : 1 Year & 7 Months.
+  Sub-sections : ['Classified as Internal and General Business', 'Job', 'Company Name : ESCON ELEVATORS PRIVATE LIMITED', 'Designation', ': SR. EXECUTIVE - SALES & MARKETING']
+  Method       : date_regex+organization_prefix+subfield_label_role_next_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Job
+  Company      : GLAZE ROCKS PVT. LTD
+  Location     : None
+  Start - End  : 09th April 2013 - 27th October 2014
+  Duration     : 19 months
+  Bullets      : 0
+  Method       : date_regex+company_line_above_role_line+inherited_company
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Designation | ASSISTANT MANAGER - SALES & MARKETING
+  Company      : Unknown
+  Location     : Designation, ASSISTANT MANAGER – SALES & MARKETING
+  Start - End  : 12th December 2009 - 08th April 2013
+  Duration     : 40 months
+  Bullets      : 0
+  Method       : date_regex+organization_prefix+multiline_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Management Trainee
+  Company      : ACC LIMITED
+  Location     : None
+  Start - End  : 1st June 2009 - 31st July 2009
+  Duration     : 2 months
+  Bullets      : 2
+    • : Management Trainee Synopsis: Visited to Retailers, whole Seller & Dealer of ACC or others competitors.
+    • Collecting information from the others brands & competitors. Collecting information about the most feasible way of distribution channel through the questioner from the business associates & others.
+  Sub-sections : ['Classified as Internal and General Business']
+  Method       : date_regex+organization_prefix
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Operating Systems : Windows- 95/ 98/ 2000/ XP/ Professional/ Vista/ Windows 7
+  Company      : COMPUTER CREDENTIALS
+  Location     : None
+  Start - End  : 2003 - 2007
+  Duration     : 49 months
+  Bullets      : 6
+    • ERP in Customer Relationship Management (CRM) from Oracle University.
+    • Participated in the Intercollegiate Nation Level Mock Placement Competition. Stage Show of Singing & play Organ in Orchestra. Play Musical Instruments. (Organ, Triple, Drum Set, Dholak, Harmonium) Completed 1st year in Vocal (Classical Music) from Prayag Sangit Sammitti, Allahabad.
+    • : 21/12/1983.
+    • Father’s Name : Mr. Murali Manohar Gopal Occupation : Self Employed (AUTO MOBIL SPARES PARTS) Mother’s Name : Mrs. Sakuntala Devi (Housewife) Language Known : Hindi, English & Can understand Marathi
+    • Date:
+    • Links: ──────────────────────────────────────────────────────────── [Found 16 sections total: ['header', 'experience', 'summary', 'experience', 'summary', 'experience', 'summary', 'experience', 'summary', 'experience', 'summary', 'strengths', 'skills', 'education', 'education', 'experience']]
+  Sub-sections : ['CURRICULAR ACTIVITIES', 'PERSONAL', 'DOSSIER', 'DOB', 'Gender', ': Male', 'Spouse', ': Kumari Deepa (House Wife), Daughter – Amaira', 'Address', ': F. No. - 406/B, Balaji Residency, Kute Mala, Manaji Nagar, Narhe, Pune - 41', 'Place: PUNE', '(KUMAR ASHISH)', 'Classified as Internal and General Business']
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

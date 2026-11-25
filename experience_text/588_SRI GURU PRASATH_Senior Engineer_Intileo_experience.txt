@@ -1,0 +1,102 @@
+======================================================================
+FILE: 588_SRI GURU PRASATH_Senior Engineer_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+before customer impact.
+Organization: HCL
+Organization: HCL Technologies
+●50% Faster Onboarding: Accelerated
+Client: J.Crew
+new engineer onboarding by 50%
+through structured documentation
+SRE - Lead
+02/2022 – Present
+and cross-team training programs.
+Cache & Infrastructure Management
+Designed and en...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.93
+Needs review   : True
+Total exp      : 10.8 years (130 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Lead
+  Company      : SRE
+  Location     : None
+  Start - End  : 02/2022 - Present
+  Duration     : 58 months
+  Bullets      : 12
+    • and cross-team training programs.
+    • Designed and enhanced a Jenkins pipeline to automate Akamai CDN, Redis, and Nginx Designed and enhanced a Jenkins pipeline to automate Akamai CDN, Redis, and Nginx TECHNICAL SKILLS
+    •  cache purges across multiple e-commerce brands and environments, eliminating Cloud Platforms: AWS (EC2, S3, EKS, manual cache-clearing activities and ensuring faster content propagation during Lambda, IAM, CloudWatch, RDS) releases, hotfixes, and production incidents. Monitoring & Observability: Splunk,
+    • Managed Docker storage and filesystem capacity on AWS-hosted application servers, Dynatrace, Grafana performing periodic analysis of Docker overlay2 growth, capacity planning, and data Containers & Orchestration: Docker, directory optimizations to prevent disk exhaustion and ensure platform stability.
+    • CI/CD & Release Management: Supported security and access management across AWS environments by administering Jenkins, Maven, GitHub
+    •  IAM permissions, managing application secrets, and validating SSL/TLS configurations Scripting & Languages: Shell/Bash, for internal applications, Jenkins automation, and third-party integrations.
+    • ITSM & Incident Management: Jira,
+    • Collaborated with developers to design and deploy a Java Spring Boot application for Retrospectives business revenue monitoring. Containerized Java Spring Boot applications using Docker and deployed them on Kubernetes by creating Deployment and Service manifests, Platforms: Salesforce Commerce Cloud (SFCC), AWS Bedrock, Redis, validating deployments, and performing application troubleshooting.
+    • Engineered real-time Splunk dashboards to centralize visibility across revenue metrics, Incident Management and Response order tracking, API performance, and vendor health - enabling proactive monitoring and Security: IAM, RBAC, SSL/TLS, Secrets faster business impact detection.
+    • Executed deep-dive performance profiling and built dashboards via Dynatrace analyzing IaC & Configuration: Terraform, hits/sec, transactions/sec, response time, CPU, memory, and disk I/O to pinpoint Ansible, CloudFormation bottlenecks and deliver targeted infrastructure optimization recommendations. Architected SLO/SLI reliability frameworks for core checkout and payment flows; Architected SLO/SLI reliability frameworks for core checkout and payment flows; AWARDS & RECOGNITION ensuring continuity
+    • Built Shell scripts to automate hourly revenue report generation for senior leadership, cutting manual reporting effort by 50-70% and ensuring consistent, on-time business cutting manual reporting effort by 50-70% and ensuring consistent, on-time business CERTIFICATIONS insights delivery.
+    • Proposed an AI-powered Incident Triage Assistant to automate outage verification by AWS Partner: Sales Accreditation correlating Splunk, Dynatrace, application metrics, and business KPIs, reducing manual (Business) analysis effort and accelerating P1/P2 classification. Gen AI 102 — AI & Cloud Native
+  Sub-sections : ['Cache & Infrastructure Management', 'Kubernetes, Helm, NGINX Ingress', 'Security & Access Management', 'Python', 'Application Deployment & Containerization', 'PagerDuty, RCA, PIR, Blameless', 'Nginx', 'Observability & Reliability', 'SRE Practices: SLO/SLI, Error Budgets,', 'Management', 'AWS Certified Cloud Practitioner', 'Leadership & Knowledge Sharing']
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : SRE
+  Company      : Lead
+  Location     : None
+  Start - End  : 09/2020 - 01/2022
+  Duration     : 17 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : TimesPro
+  Location     : None
+  Start - End  : 2016 - 2017
+  Duration     : 13 months
+  Bullets      : 5
+    • non-functional and business requirements, modelling real-world application usage patterns.
+    • Analyzed application and web server logs to build accurate load profiles and user behaviour models, ensuring test scenarios closely mirrored production traffic conditions.
+    • Developed performance test scripts covering load, stress, and endurance scenarios to validate system stability and behaviour under peak and sustained traffic.
+    • Performed System Impact Analysis (SIA) and Root Cause Analysis (RCA) for production incidents, implementing code-level fixes to prevent recurrence.
+    • Identified and resolved workflow bottlenecks in settlement processing systems, driving measurable improvements in throughput and processing efficiency.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Analyst
+  Company      : Wipro
+  Location     : None
+  Start - End  : 03/2018 - 09/2020
+  Duration     : 31 months
+  Bullets      : 3
+    • Conducted impact analysis and effort estimation for new work orders, supporting project planning and delivery within the banking domain.
+    • Engaged in requirement study, functional and technical design to translate business needs into actionable technical specifications.
+    • Performed System Impact Analysis (SIA) and Root Cause Analysis (RCA) for production incidents, identifying root causes and recommending preventive measures.
+  Method       : date_regex+organization_prefix+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Associate
+  Company      : IndusInd Bank
+  Location     : None
+  Start - End  : 03/2017 - 03/2018
+  Duration     : 13 months
+  Bullets      : 2
+    • Developed and maintained banking modules within the One Degree Application, covering customer lifecycle functions including account management, lead tracking, appointments, ATM/Debit cards, Credit cards, and Line of Credit.
+    • Worked on the Touch Point suite — an integrated platform streamlining Teller, Sales & Service, and contact management processes across financial institution workflows. ──────────────────────────────────────────────────────────── [Found 10 sections total: ['header', 'achievements', 'summary', 'experience', 'achievements', 'skills', 'experience', 'education', 'skills', 'experience']]
+  Method       : date_regex+organization_prefix+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,119 @@
+======================================================================
+FILE: 95_Appl_Piramal_Resume (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Cluster Manager
+05/2025 - Till Date
+Piramal Finance Ltd
+Product Focus: MLAP, BH, SBL (DST/DSA, Connector, and CSC
+channels)
+Cluster Manager
+04/2023 - 05/2025
+Neogrowth Credit Pvt Ltd
+Product Focus: Business Loans and Collateral-free loans (Direct,
+DSA, and Connector Marketing)
+Branch Sales Manager
+0...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 11.3 years (136 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : Cluster Manager
+  Company      : Piramal Finance Ltd
+  Location     : None
+  Start - End  : 05/2025 - Present
+  Duration     : 19 months
+  Bullets      : 1
+    • Product Focus: MLAP, BH, SBL (DST/DSA, Connector, and CSC channels)
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Cluster Manager
+  Company      : Piramal Finance Ltd
+  Location     : None
+  Start - End  : 04/2023 - 05/2025
+  Duration     : 26 months
+  Bullets      : 0
+  Method       : date_regex+inherited_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Product Focus: Business Loans and Collateral-free loans (Direct)
+  Company      : Neogrowth Credit Pvt Ltd
+  Location     : None
+  Start - End  : 08/2022 - 04/2023
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Cluster Manager
+  Company      : Product Focus: HL & Mortgages
+  Location     : Micro/Macro
+  Start - End  : 04/2019 - 04/2022
+  Duration     : 37 months
+  Bullets      : 1
+    • Product Focus: AHL, Prime LAP, and Mortgages (Direct Marketing and DSA channels)
+  Method       : date_regex+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : Manager Sales
+  Company      : Product Focus: HL & Mortgages
+  Location     : Micro/Macro
+  Start - End  : 11/2017 - 04/2019
+  Duration     : 18 months
+  Bullets      : 0
+  Method       : date_regex+inherited_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Product Focus: HL, LAP, and Mortgages (BC-Channel Management)
+  Company      : Equitas Small Finance Bank
+  Location     : None
+  Start - End  : 04/2015 - 09/2017
+  Duration     : 30 months
+  Bullets      : 26
+    • Lead and manage multiple branches and sales teams to achieve business targets.
+    • Recruit, train, mentor, and develop Branch/Sales Managers and Relationship Managers.
+    • Monitor branch productivity, sales performance, and profitability through MIS analysis.
+    • Set and achieve sales targets, expanding market share and growing revenue.
+    • Build and strengthen DSA, DST, Connector, and Channel Partner networks.
+    • Manage portfolio quality by controlling delinquency and coordinating with collections teams.
+    • Review branch productivity and implement performance improvement plans.
+    • Conduct performance management, including setting goals, monitoring progress, and providing feedback.
+    • Identify market opportunities, analyze competitor activities, and implement growth initiatives.
+    • Coordinate with Credit, Operations, Legal, and Technical teams for timely loan processing.
+    • Achieve business, revenue, and portfolio growth while maintaining asset quality.
+    • Develop and execute market expansion and customer acquisition strategies.
+    • Identify and mitigate risks, ensuring a high level of customer satisfaction and loyalty.
+    • Sales Leadership
+    • Team Hiring & Training
+    • Negotiation & Communication
+    • Cross-selling & Upselling
+    • Channel Partner Acquisition
+    • TAT Management
+    • Team Management & Coaching
+    • Adapt to Market Conditions
+    • DSA & DST Channel Mgmt
+    • Sales Strategy & Execution
+    • Performance Monitoring (MIS)
+    • Regulatory Compliance
+    • Problem Solving
+  Sub-sections : ['CORE EXPERTISE']
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

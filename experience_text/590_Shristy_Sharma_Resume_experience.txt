@@ -1,0 +1,47 @@
+======================================================================
+FILE: 590_Shristy_Sharma_Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+PRACTICAL
+Hospital Pharmacy Trainee — Yatharth Super Speciality Hospital, Greater Noida
+Training Period 1: 9 September 2024 – 29 October 2024 (45 Days)
+• Managed medication dispensing and prescription verification across both In-Patient Department (IPD) and Out-Patient
+Department (OPD), ensuring acc...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 0.3 years (4 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Hospital Pharmacy Trainee — Yatharth Super Speciality Hospital, Greater Noida
+  Company      : PRACTICAL
+  Location     : Yatharth Super Speciality Hospital, Greater Noida
+  Start - End  : 9 September 2024 - 29 October 2024
+  Duration     : 2 months
+  Bullets      : 4
+    • Managed medication dispensing and prescription verification across both In-Patient Department (IPD) and Out-Patient Department (OPD), ensuring accuracy and compliance with hospital protocols.
+    • Coordinated pharmacy inventory management, including stock monitoring, replenishment, and expiry tracking, to maintain uninterrupted drug availability.
+    • Delivered patient counseling on medication usage, dosage schedules, and potential side effects to improve treatment adherence.
+    • Collaborated closely with physicians, nurses, and clinical staff to support seamless patient care and timely medication administration.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Hospital Pharmacy Trainee — Yatharth Super Speciality Hospital, Greater Noida
+  Company      : Training Period 2
+  Location     : None
+  Start - End  : 15 April 2025 - 22 May 2025
+  Duration     : 2 months
+  Bullets      : 4
+    • Handled end-to-end prescription processing and drug dispensing for IPD and OPD patients, reinforcing accuracy in high-volume clinical settings.
+    • Supported inventory control and documentation processes, strengthening compliance with pharmacy quality and safety standards.
+    • Provided direct patient counseling and medication safety guidance, contributing to improved patient outcomes.
+    • Worked cross-functionally with clinical teams to streamline pharmacy operations and enhance hospital service delivery.
+  Method       : date_regex+inherited_role
+  Confidence   : 0.98
+  Needs Review : False

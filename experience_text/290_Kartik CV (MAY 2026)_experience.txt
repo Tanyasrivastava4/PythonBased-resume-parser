@@ -1,0 +1,69 @@
+======================================================================
+FILE: 290_Kartik CV (MAY 2026)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+| +91- 9999097567 | Sec-51, Gurugram, Haryana, 122003
+
+driven
+communication to accelerate office activities and facilitate smooth workflows.
+Cybersecurity engineer (L2) - (Nextl Solutions Pvt Ltd) (December 2025 - Present)
+Worked on splunk (SIEM), splunk enterprise security and arcsight.
+Worked on F...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 5.1 years (61 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Cybersecurity engineer (L2)
+  Company      : (Nextl Solutions Pvt Ltd
+  Location     : None
+  Start - End  : December 2025 - Present
+  Duration     : 12 months
+  Bullets      : 9
+    • Worked on splunk (SIEM), splunk enterprise security and arcsight.
+    • Worked on Falcon crowdstrike (EDR) dashboards.
+    • Proficient in BMC (IT) ticket management generation.
+    • Improvised and incorporated new Splunk+Arcsight queries and usecases.
+    • Worked on SIEM Qradar.
+    • Worked on sentinel (SIEM+SOAR) cloud native solution workspace.
+    • Worked on email security (Proof-point).
+    • Worked on python to incorporate new automation in splunk reports.
+    • Guided and supported team members and helped them in get well-versed via KT sessions and inperson discussions.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : , (NOKIA)
+  Company      : (Nextl Solutions Pvt Ltd
+  Location     : 
+  Start - End  : March 2024 - October 2025
+  Duration     : 20 months
+  Bullets      : 2
+    • Worked on splunk (SIEM) and splunk enterprise security. Worked on Falcon crowdstrike (EDR) dashboards. Proficient in BMC (IT) ticket management generation. Worked on Alog requests and gave affirmation for online and offline hosts on EDR. Improvised and incorporated new splunk queries and usecases. Worked on database of identity SSO portal. Worked on SIEM Qradar. Worked on sentinel (SIEM+SOAR) cloud native solution workspace. Worked on NDR tool (Seceon) monitoring and alerting via RDP. Worked on python to incorporate new automation in splunk reports. Guided and supported team members and helped them in grasp things in SOC via KT sessions and inperson discussions.
+    • ISC2 certified cyber defence analyst. CEH certified by EC-COUNCIL. Splunk certified security operations and the defence analyst Government certified ISO cyber hygiene practitioners. Comptia CYSA+ certified.
+  Sub-sections : ['Higher', 'Cybersecurity certifications preparations. (May 2023 - Dec 2023)', 'WORK EXPERIENCE']
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : Cybersecurity operations analyst
+  Company      : (VTPL Solutions
+  Location     : None
+  Start - End  : Dec 2020 - April 2023
+  Duration     : 29 months
+  Bullets      : 5
+    • Supported senior team members with splunk usecases, attending meetings, handover reports, fostering effective communication and preparing dashbord reports.
+    • Taking followups/reminders of different tickets and worked on different usecases via interacting with engineering and build teams and worked on multiple IR plans of different usecases.
+    • Worked on syslog and alog requests from the node owner.
+    • Assisted in the beaking down of different queries, took initiative to participate in client meetings, ensuring a high level of professionalism and meticulously discussing new plans to help run the soc operations smoothly.
+    • Suggesting different ways to remove obselete false positive cases.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False

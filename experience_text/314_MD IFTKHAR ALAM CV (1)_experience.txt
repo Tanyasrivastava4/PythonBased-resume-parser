@@ -1,0 +1,96 @@
+======================================================================
+FILE: 314_MD IFTKHAR ALAM CV (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+To face the challenges and deliver highest quality output with efficiency, hard
+OBJECTIVE work and sincerity, accuracy and perfection is my focus.
+To be associated with an organization that would provide opportunities for
+individual growth and development in the process contributing for the
+betterme...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 11.1 years (133 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : PROFESSIONAL CREDIT MANAGER
+  Company      : EXPOSURE Bandhan Bank Limited
+  Location     : None
+  Start - End  : August 2025 - Present
+  Duration     : 16 months
+  Bullets      : 8
+    • Responsible for implementation of credit policy and continuous evaluation to ensure adherence to the policy.
+    • Processed and assessed secured & unsecured loan applications while maintaining high underwriting standards.
+    • And conduct Physical PD Maintained portfolio quality by conducting detailed financial and risk assessments.
+    • Co-ordinate with external agency (like legal and technical team) and FCU team to identify intentional defaulters/fraud.
+    • Responsible for monitoring FEMI and 12 Mob Delinquencies.
+    • Managed end-to-end credit assessment and underwriting of SME Secured and unsecured Loans and Loan Against Property (LAP).
+    • Evaluated customer income, banking behavior, credit history, and repayment capacity for loan approval decisions.
+    • Conducted risk assessment and collateral evaluation to ensure portfolio quality.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : CREDIT MANAGER
+  Company      : Bajaj Finance Ltd
+  Location     : None
+  Start - End  : November 2021 - August 2025
+  Duration     : 46 months
+  Bullets      : 5
+    • Credit appraisal responsibility for SME secured and unsecured loans and pre-approved PL, Salaried PL and Professional loan like Doctor, Pharmacist and Engineer.
+    • Responsible with physical PD with customers for HTS cases.
+    • Responsible to Assist collection/ FCU team to identify intentional defaulters/fraud.
+    • Responsible for monitoring and maintaining FEMI and 12MOB delinquencies.
+    • Reporting of location metrics like Login, Approval, Disbursal, Rejection, Deviation on monthly basis as per prescribed format.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : CREDIT OPERATION EXECUTIVE
+  Company      : Bajaj Finance Ltd
+  Location     : None
+  Start - End  : September 2021 - November 2021
+  Duration     : 3 months
+  Bullets      : 0
+  Method       : date_regex+inherited_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : OPERATION EXECUTIVE
+  Company      : Credit appraisal responsibility for two wheeler, car
+  Location     : CV
+  Start - End  : May 2018 - July 2021
+  Duration     : 39 months
+  Bullets      : 8
+    • Implementation of Internal Operation policy at Branch level & provide assurance to Head office.
+    • Responsible for operation work of File Disbursement at branch.
+    • Handling products(CV, Car, Tractor, Two wheeler, Consumer durables, LSF, PL).
+    • Attending walk in customer and solving their queries to their satisfaction □ Complete file checking before disbursement.
+    • PDD & RC collection and updating.
+    • Handling admin dept. of branch.
+    • Resolving Branch audit and compliance queries.
+    • ACH implementation mapping with customer account.
+  Method       : date_regex+comma_company_location
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : PROFESSIONAL
+  Company      : ACCOUNT
+  Location     : None
+  Start - End  : October 2015 - May 2018
+  Duration     : 32 months
+  Bullets      : 2
+    • Responsible for operation work of branch. Attending walk in customer and solving their queries to their satisfaction. File check in go pre disbursement docs for loan processing CIBIL check & DO issuance. Cross selling insurance and mutual fund and personal loan. PPD and underwriting check of CV, CE, CAR & PL customer. PDD & RC collection and updating the same
+    • working as admin of branch. Maintain Branch audit and compliance ACH implementation. Exception monitoring on daily basis. Repo release monitoring Internal finance control and risk compliance. Maintaining accounts related all books daily basis.
+  Sub-sections : ['Also', 'PROFESSIONAL', 'ACHEIVEMENTS']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

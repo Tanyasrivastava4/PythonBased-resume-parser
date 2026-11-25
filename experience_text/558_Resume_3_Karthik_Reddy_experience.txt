@@ -1,0 +1,49 @@
+======================================================================
+FILE: 558_Resume_3_Karthik_Reddy_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior Software Engineer - Python
+HealthBridge Digital Pvt Ltd, Hyderabad | Apr 2023 - Present
+• Own backend modules for a telemedicine platform (appointments, e-prescriptions, billing) built with Flask,
+Django and PostgreSQL.
+• Designed REST and GraphQL APIs with OAuth2 / JWT authentication and rol...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.3 years (64 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Software Engineer
+  Company      : Python
+  Location     : None
+  Start - End  : Apr 2023 - Present
+  Duration     : 44 months
+  Bullets      : 7
+    • Own backend modules for a telemedicine platform (appointments, e-prescriptions, billing) built with Flask, Django and PostgreSQL.
+    • Designed REST and GraphQL APIs with OAuth2 / JWT authentication and role-based access; supports 400K monthly active users.
+    • Built Celery and RabbitMQ pipelines for notifications and claims processing, with Redis caching that cut response times by 38%.
+    • Optimised PostgreSQL queries and indexes, reducing report generation from 90 seconds to 12 seconds.
+    • Wrote pytest / unittest suites following TDD and lifted coverage from 60% to 84%; integrated checks in Jenkins CI/CD.
+    • Reviewed pull requests, mentored 2 junior developers and contributed to design discussions on microservices boundaries.
+    • Dockerised services and deployed to AWS (EC2, RDS, S3, SQS); applied OWASP Top 10 secure coding practices.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Python Developer
+  Company      : DataNest Solutions
+  Location     : Hyderabad
+  Start - End  : Aug 2021 - Mar 2023
+  Duration     : 20 months
+  Bullets      : 3
+    • Developed Flask and FastAPI services for inventory analytics and supplier integrations using MySQL and MongoDB.
+    • Implemented asyncio-based data ingestion jobs that processed 1M+ records per day.
+    • Participated in Agile / Scrum ceremonies, estimation and release planning; maintained API documentation with OpenAPI / Swagger.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,63 @@
+======================================================================
+FILE: 466_Pankaj Jitendra Valendra_Assistant Manager or Senior Executive_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Proprietor & Financial Consultant September 2021 Present
+—
+Pankaj & Associates (Accounts & Tax Consultants)
+Directed end-to-end tax compliance, successfully filing annual income tax returns for over 200 individual clients and
+managing monthly GST returns for 10 dedicated corporate accounts.
+Served a...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 8.9 years (107 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Proprietor & Financial Consultant
+  Company      : None
+  Location     : None
+  Start - End  : September 2021 - Present
+  Duration     : 63 months
+  Bullets      : 6
+    • — Pankaj & Associates (Accounts & Tax Consultants) Directed end-to-end tax compliance, successfully filing annual income tax returns for over 200 individual clients and managing monthly GST returns for 10 dedicated corporate accounts.
+    • Served as a strategic Financial Consultant, advising clients on financial growth, precise forecasting, and sustainable wealth management.
+    • Managed rigorous MCA compliances for LLPs and Private Limited Companies, executing successful LLP incorporations and complex ancillary work for share transfer cases.
+    • Spearheaded critical scrutiny and assessment cases, notably representing and managing the high-profile Vijay Sawant fraud case.
+    • Authored and distributed a comprehensive monthly professional newsletter to continuously update clients on taxation shifts and corporate compliance requirements.
+    • Streamlined complex client reporting and internal data workflows by leveraging advanced Excel functionalities and business intelligence techniques.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Senior Accountant / Employee
+  Company      : — ASDT & Co
+  Location     : None
+  Start - End  : February 2021 - September 2021
+  Duration     : 8 months
+  Bullets      : 3
+    • Managed advanced bookkeeping, finalized complex financial statements, and executed comprehensive accounting operations for major corporate clients.
+    • Assisted in strategic tax planning frameworks and ensured rigorous adherence to applicable accounting standards and statutory regulations.
+    • Supervised audit operations, conducting thorough reviews of ledgers, intricate debtor/creditor reconciliations, and bank balance verifications.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : A rticle Assistant
+  Company      : — ASDT & Co
+  Location     : None
+  Start - End  : January 2018 - January 2021
+  Duration     : 37 months
+  Bullets      : 2
+    • — ASDT & Co. Drafted formal financial statements including detailed notes to accounts while ensuring continuous compliance with TDS and GST regulations. Executed precise inventory valuations per AS 2 and calculated accurate depreciation per AS 6 and Schedule II of the Companies Act 2013. Conducted comprehensive Cost Audits, performing rigorous process analyses, job costing comparative statements, and actual vs. estimated capacity workings. Prepared extensive Form 3CA, 3CB, and 3CD reports for Tax Audits, strictly verifying compliance with various Income Tax Act sections. Designed and drafted strategic MIS reports, effectively communicating process flaws and implementing control recommendations for client management.
+    • Name of Client	Assignment Scope	Core Responsibility Fluorolined Equipment Pvt Ltd	Statutory & Tax Audit	Audit Team Member handling ancillary activities Investa Pumps Pvt Ltd	Statutory & Tax Audit	Audit Team Member handling ancillary activities Ananta Infinite Solutions Pvt Ltd	Accounting & Finalization	Senior Accountant IRAA Clothing Pvt Ltd	Cost Audit	Cost Analyst Tonic Digital LLC (UAE)	Bookkeeping & Accounting	Full-time Accountant Secured a prestigious exemption in the Costing paper during C.A. Intermediate Examinations. e Recognized as the Accounts Topper (Gold Medalist) at Jai Hind College for the academic year 2016-17. e Consistently received formal appreciation from senior partners and top-tier audit clients for exceptional dedication e and accuracy during articleship training.
+  Sub-sections : ['MAJOR CLIENT ENGAGEMENTS']
+  Method       : date_regex+date_prefix_title+inherited_company
+  Confidence   : 0.98
+  Needs Review : False

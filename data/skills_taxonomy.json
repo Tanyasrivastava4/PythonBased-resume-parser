@@ -20390,6 +20390,9 @@
   "Internal Audit": {
     "aliases": [
       "global audit delivery",
+      "internal audit",
+      "internal auditing",
+      "internal audits",
       "internalaudit",
       "itis audit",
       "process audit"
@@ -22935,7 +22938,9 @@
       "client management",
       "client relations",
       "client servicing",
-      "crm"
+      "communication & relationship management",
+      "crm",
+      "relationship management"
     ],
     "category": "client_mgmt",
     "source": "custom"
@@ -22943,8 +22948,10 @@
   "Customer Service": {
     "aliases": [
       "customer care",
+      "customer first orientation",
       "customer success",
       "customer support",
+      "customer-first orientation",
       "customerservice"
     ],
     "category": "client_mgmt",
@@ -22994,6 +23001,7 @@
     "aliases": [
       "bd",
       "biz dev",
+      "business development & sales",
       "business growth",
       "businessdevelopment",
       "new business"
@@ -23004,8 +23012,10 @@
   "Strategic Partnerships": {
     "aliases": [
       "alliance management",
+      "alliances",
       "joint ventures",
-      "partnership development"
+      "partnership development",
+      "strategic alliances"
     ],
     "category": "biz_dev",
     "source": "custom"
@@ -23234,8 +23244,7 @@
   "Auditing": {
     "aliases": [
       "audit management",
-      "external audit",
-      "internal audit"
+      "external audit"
     ],
     "category": "finance_ops",
     "source": "custom"
@@ -23449,6 +23458,7 @@
   },
   "Stakeholder Management": {
     "aliases": [
+      "client & stakeholder management",
       "managing stakeholders",
       "stakeholder communication",
       "stakeholder engagement"
@@ -23508,8 +23518,10 @@
     "aliases": [
       "cross functional",
       "cross functional collaboration",
+      "cross functional team collaboration",
       "cross functional teams",
       "cross-functional",
+      "cross-functional team collaboration",
       "multi team collaboration"
     ],
     "category": "soft_skill",
@@ -25039,6 +25051,7 @@
   },
   "Communication": {
     "aliases": [
+      "communication skills",
       "email communication",
       "stakeholder communication",
       "verbal communication",
@@ -29196,5 +29209,242 @@
     ],
     "category": "security",
     "source": "custom"
+  },
+  "Benchmark Six Sigma": {
+    "aliases": [
+      "benchmark sigma",
+      "benchmark six sigma certification"
+    ],
+    "category": "domain_expertise",
+    "source": "groq_discovery"
+  },
+  "Low Pressure Injection Moulding": {
+    "aliases": [
+      "low pressure injection moulding process",
+      "lpms"
+    ],
+    "category": "engineering_hardware",
+    "source": "groq_discovery"
+  },
+  "Computax": {
+    "aliases": [],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Ind AS": {
+    "aliases": [
+      "ind-as",
+      "indian accounting standards"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Audit Documentation": {
+    "aliases": [
+      "audit docs",
+      "audit working papers"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Revenue Audit": {
+    "aliases": [],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Vendor Audit": {
+    "aliases": [
+      "supplier audit"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Revamp Audit": {
+    "aliases": [],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "IFC Design & Testing": {
+    "aliases": [
+      "ifc design and testing",
+      "ifc testing",
+      "internal financial controls"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "IND AS Compliance": {
+    "aliases": [
+      "indian accounting standards compliance"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Direct & Indirect Tax Compliance": {
+    "aliases": [
+      "direct and indirect tax",
+      "direct and indirect tax compliance"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Income Tax Compliance": {
+    "aliases": [
+      "income tax return filing",
+      "itr compliance"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "AI for Finance": {
+    "aliases": [
+      "ai finance",
+      "artificial intelligence for finance"
+    ],
+    "category": "finance_ops",
+    "source": "groq_discovery"
+  },
+  "Go-to-Market Strategy": {
+    "aliases": [
+      "go-to-market strategies"
+    ],
+    "category": "strategy",
+    "source": "groq_discovery"
+  },
+  "Pricing Strategy": {
+    "aliases": [
+      "commercial and pricing strategy",
+      "commercial pricing strategy",
+      "pricing models"
+    ],
+    "category": "strategy",
+    "source": "groq_discovery"
+  },
+  "Key Account Growth": {
+    "aliases": [
+      "account farming",
+      "key account expansion"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "Consultative Selling": {
+    "aliases": [
+      "consultative sales"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "Brand Positioning": {
+    "aliases": [
+      "brand communication",
+      "brand positioning & communication"
+    ],
+    "category": "marketing",
+    "source": "groq_discovery"
+  },
+  "Sales Enablement": {
+    "aliases": [
+      "sales readiness"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "Opportunity Analysis": {
+    "aliases": [
+      "sales opportunity analysis"
+    ],
+    "category": "strategy",
+    "source": "groq_discovery"
+  },
+  "Cross-Functional Leadership": {
+    "aliases": [
+      "cross functional leadership"
+    ],
+    "category": "strategy",
+    "source": "groq_discovery"
+  },
+  "HR Operations & HRBP Support": {
+    "aliases": [
+      "hrbp support"
+    ],
+    "category": "hr",
+    "source": "groq_discovery"
+  },
+  "Training Strategy & Delivery": {
+    "aliases": [
+      "l&d delivery",
+      "training delivery",
+      "training strategy"
+    ],
+    "category": "hr",
+    "source": "groq_discovery"
+  },
+  "Operational Excellence": {
+    "aliases": [
+      "opex",
+      "process excellence"
+    ],
+    "category": "operations",
+    "source": "groq_discovery"
+  },
+  "Performance & Behavioural Coaching": {
+    "aliases": [
+      "behavioural coaching",
+      "performance coaching"
+    ],
+    "category": "hr",
+    "source": "groq_discovery"
+  },
+  "Territory Development": {
+    "aliases": [
+      "territory expansion"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "B2B2C Sales": {
+    "aliases": [
+      "b2b2c"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "Institutional Accounts": {
+    "aliases": [
+      "b2g sales",
+      "institutional sales"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "Sales Pipeline Management": {
+    "aliases": [
+      "deal pipeline",
+      "pipeline management"
+    ],
+    "category": "sales",
+    "source": "groq_discovery"
+  },
+  "Team Development": {
+    "aliases": [
+      "team building"
+    ],
+    "category": "operations",
+    "source": "groq_discovery"
+  },
+  "Premium Brand Positioning": {
+    "aliases": [
+      "luxury brand positioning"
+    ],
+    "category": "marketing",
+    "source": "groq_discovery"
+  },
+  "Strategic Planning": {
+    "aliases": [
+      "strategic approach"
+    ],
+    "category": "strategy",
+    "source": "groq_discovery"
   }
 }

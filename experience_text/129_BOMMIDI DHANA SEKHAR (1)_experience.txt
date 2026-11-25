@@ -1,0 +1,70 @@
+======================================================================
+FILE: 129_BOMMIDI DHANA SEKHAR (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Phone: +91-9640742143
+E-mail: dhanasekharbommidi@gmail.com
+
+● Working as Branch Sales Manager at Truhome Finance Ltd., formerly known as Shriram Housing Finance Limited —
+02/09/2024 to till now.
+● Worked as Emerging Market (J1) at TATA Capital Housing Finance Ltd, Kakinada Branch, for 11 months — 12...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.91
+Needs review   : True
+Total exp      : 5.0 years (60 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Branch Sales Manager
+  Company      : Truhome Finance Ltd. formerly known as Shriram Housing Finance Limited
+  Location     : None
+  Start - End  : 02/09/2024 - Present
+  Duration     : 34 months
+  Bullets      : 1
+    • 
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Emerging Market (J1)
+  Company      : TATA Capital Housing Finance Ltd, Kakinada Branch, for 11 months
+  Location     : None
+  Start - End  : 12/07/2023 - 27/08/2024
+  Duration     : 9 months
+  Bullets      : 1
+    • 
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.7
+  Needs Review : True
+
+Entry 3
+  Role         : Senior Sales Executive
+  Company      : PHFL Housing Finance Ltd
+  Location     : None
+  Start - End  : 25/05/2022 - 05/06/2023
+  Duration     : 12 months
+  Bullets      : 1
+    • 
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Sales Executive
+  Company      : Mahindra Housing Finance Limited
+  Location     : None
+  Start - End  : 06/08/2021 - 24/05/2022
+  Duration     : 12 months
+  Bullets      : 4
+    • Gender
+    • Father's Name
+    • Marital Status
+    • Address : D.No: 2-278, Matlapalem, Tallarevu Mandal, East Godavari - 533461
+  Sub-sections : [': Male', ': BOMMIDI APPA RAO', ': Married']
+  Method       : date_regex+date_prefix_title+worked_as_role_in_company
+  Confidence   : 0.98
+  Needs Review : False

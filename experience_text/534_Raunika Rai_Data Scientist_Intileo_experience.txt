@@ -1,0 +1,48 @@
+======================================================================
+FILE: 534_Raunika Rai_Data Scientist_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Compunnel Inc.
+Jan. 2025 – Present
+Data Science Intern (On-site, Noida)
+– Role & Responsibilities: Working as a Data Science Intern at Compunnel Inc., building production-ready AI applications
+by developing backend services, integrating LLMs into enterprise workflows, and implementing document intel...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 2.1 years (25 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Data Science Intern (On-site)
+  Company      : None
+  Location     : None
+  Start - End  : Jan. 2025 - Present
+  Duration     : 23 months
+  Bullets      : 7
+    • – Role & Responsibilities: Working as a Data Science Intern at Compunnel Inc., building production-ready AI applications by developing backend services, integrating LLMs into enterprise workflows, and implementing document intelligence and RESTful APIs for automation and conversational systems.
+    • Engineered an enterprise-grade email automation pipeline using AWS Bedrock (Claude) and Groq-hosted LLaMA to extract actionable tasks from Gmail threads with 85
+    • Built a multi-format document processing pipeline using PyPDF2, python-docx, and Tesseract OCR to extract structured data from scanned and digital PDF, DOCX, and TXT attachments under LLM API payload constraints.
+    • Architected RESTful backend services using FastAPI and PostgreSQL, implementing NLP-based date inference, automated desk routing, dynamic priority assignment, and email relevance classification using weighted scoring algorithms.
+    • Developed an AI-powered invoice auditing system using multiple cooperating agents for data ingestion, validation, anomaly detection, summarization, and conversational querying across CSV and PDF invoices.
+    • Implemented hybrid rule-based and LLM-assisted audit logic to detect calculation errors, duplicate invoices, missing fields, compliance violations, and suspicious financial patterns.
+    • Designed a stateful conversational AI interface enabling users to interact with audit findings through context-aware queries and role-specific summaries (legal, managerial, accounting)
+  Sub-sections : ['– NCC Intelligence Platform (Client Project)', '– SmartAudit AI (Internal Agent-Based System)']
+  Method       : date_regex+comma_role_company_split
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Data Science Intern
+  Company      : Prodigy InfoTech
+  Location     : None
+  Start - End  : Jun. 2024 - Jul. 2024
+  Duration     : 2 months
+  Bullets      : 1
+    • Performed data preprocessing, exploratory data analysis (EDA), and machine learning model development using Python.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

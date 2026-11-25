@@ -1,0 +1,68 @@
+======================================================================
+FILE: 170_CV_2025121723255028_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Date of Birth : 02-11-1996
+Marital Status : Married
+Nationality : Indian
+Blood Group : O+
+Religion : Hindu
+Gender : Male
+Place : Kolkata
+Salary Claim : Last salary Rs. 26000/-
+Father Name : Ram Chandra Bera
+Mother Name: Renuka Bera
+EXPERIENCE
+2020 - 2021
+IBBI Land and Building Valuer (Prodipta Das)....
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 4.0 years (48 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Back Office staff and Junior Accountant
+  Company      : Mother Name: Renuka Bera
+  Location     : None
+  Start - End  : 2020 - 2021
+  Duration     : 13 months
+  Bullets      : 8
+    • Tally Operator
+    • Back office related work.
+    • Collect Data from various Govt. and Private Website.
+    • Manage Company Account.
+    • Project Preparation
+    • Customer Sale, service and satisfaction.
+    • Stock Management.
+    • Stock Management
+  Sub-sections : ['Back Office staff and Junior Accountant']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : SALES EXECUTIVE (INDIAMART)
+  Company      : PS HR Services
+  Location     : None
+  Start - End  : 2024 - Present
+  Duration     : 35 months
+  Bullets      : 1
+    • New Client Acquisition.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : 2. Service Provided Associate
+  Company      : Complete monthly target 🎯
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 0
+  Method       : title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False

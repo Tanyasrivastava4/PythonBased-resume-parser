@@ -1,0 +1,61 @@
+======================================================================
+FILE: 577_Riya_updated_resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior HR Executive
+Corporate Hierarchy Solutions, Gurugram
+Corporate Hierarchy Solutions, Gurugram CORE SKILLS
+—— ———
+fz] October 2025 Present
+-
+® Talent Acquisition & Recruitment
+Managing end-to-end recruitment lifecycle from-sourcing to onboarding
+* HerE Oe]
+RG oaanireat eee
+Handling EEG
+buls & n...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.1 years (25 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior HR Executive
+  Company      : HerE Oe]
+  Location     : None
+  Start - End  : October 2025 - Present
+  Duration     : 14 months
+  Bullets      : 8
+    • 
+    • Managing end-to-end recruitment lifecycle from-sourcing to onboarding
+    • buls & niche hiring across.IT and Non-IT roles
+    •  Sourcing-candidates sta Naukri, Linkedin, and gb-portals Bulk & Niche Hiring ¢ ® Conducting me resume screening 6 and shortlistin &
+    • Coordinating interviews with clients and managing stakeholder communication ¢
+    • Interview Coordination
+    • Managing offer negotiation, onboarding, and induction processs
+    • Supporting HR operations and employee engagement initiatives e
+  Sub-sections : ['® Talent Acquisition & Recruitment', 'RG oaanireat eee', 'Handling EEG', ': Candidate &', '® : Sourcing ‘ Screening ‘', 'Maintaining ATS, recruitment trackers, and-candidate pipelines', '¢', '¢ © ATS & HRIS Management', 'Onboarding & Induction']
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : HR Executive
+  Company      : © P pean eae Consult IT Technologies Pvt. Ltd
+  Location     : Noida
+  Start - End  : November 2024 - September 2025
+  Duration     : 11 months
+  Bullets      : 5
+    •  Managed end-to-end recruitment lifecycle Communication & Interpersonal Managed end-to-end recruitment lifecycle Communication & Interpersonal Skills
+    • ®
+    • Maintained HRIS, attendance, and leave management systems. e Handled employee onboarding, documentation, and exit formalities e
+    • FH] 06 July 2024 31 August 2024
+    • 
+  Sub-sections : ['Performed candidate sourcing, screening, and interview-ordination', 'e', 'Supported HR operations and employee lifecycle-management', 'e', 'INTERNSHIP EXPERIENCE', 'HR Intern', 'Younglabs, Noida', 'Conducted screening and interview scheduling', '« resume']
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False

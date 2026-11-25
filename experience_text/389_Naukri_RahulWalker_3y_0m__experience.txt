@@ -1,0 +1,62 @@
+======================================================================
+FILE: 389_Naukri_RahulWalker_3y_0m__segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+08-06-2023 - 29-09-2024
+Freelance
+Social media manager and sales
+Managed social media channels including Facebook, YouTube, and Instagram to
+executive
+enhance engagement.
+Created compelling content across various platorms to atract target audiences.
+Developed creative content for various client proj...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 2.6 years (31 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Social media manager and sales
+  Company      : Freelance
+  Location     : None
+  Start - End  : 08-06-2023 - 29-09-2024
+  Duration     : 14 months
+  Bullets      : 3
+    • Managed social media channels including Facebook, YouTube, and Instagram to executive enhance engagement.
+    • Created compelling content across various platorms to atract target audiences.
+    • Developed creative content for various client projects and social media platorms.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Customer relationship officer
+  Company      : Rekha agencies Fastrack
+  Location     : None
+  Start - End  : 01-12-2024 - 31-12-2025
+  Duration     : 24 months
+  Bullets      : 4
+    • Assisted customers with inquiries and product information in a timely manner.
+    • Maintained accurate records of customer interactions and transactions for tracking purposes.
+    • Trained new staff on customer service protocols and company policies effectively.
+    • Collaborated with team members to streamline customer service procedures for efficiency.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Store manager
+  Company      : Kalos retail Titan and helios combo store
+  Location     : None
+  Start - End  : 10-01-2026 - Present
+  Duration     : 2 months
+  Bullets      : 1
+    • Manage and supervise a team of retail staff, including hiring, training, and scheduling Develop and implement strategies to increase sales and achieve store targets Monitor inventory levels and ensure adequate stock is available at all times Maintain a clean and organized store environment Analyze sales data and trends to identify areas for improvement Collaborate with other departments to ensure effective communication and coordination Stay up-to-date with industry trends and market competition
+  Sub-sections : ['Store manager']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

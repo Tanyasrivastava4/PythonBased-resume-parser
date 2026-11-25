@@ -1,6 +1,4 @@
 {
-  "id": 28,
-  "file_name": "Abhishek_Resume.pdf",
   "email": "chaudhary.abhi627@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "+919643656722",
@@ -33,6 +31,36 @@
     "2. Backend Developer Intern @ Enthuons Technologies Pvt. Ltd (Jan 2024 - Jun 2024) [conf 0.98, review=False]"
   ],
   "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "AI Engineer",
+      "company": "Digiquanta / Mondee",
+      "start": "Dec 2024",
+      "end": "Oct 2025",
+      "responsibilities": [
+        "Designed and deployed LLM-driven autonomous travel agents for flight/hotel search, itinerary generation, and personal- ized recommendations.",
+        "Built multimodal medical document intelligence pipelines using Qwen 2.5-VL and Llama 3.1, automating 95% of manual data extraction.",
+        "Fine-tuned LayoutLMv3 for document classification and field extraction, achieving 98% accuracy and reducing QA effort by 90%.",
+        "Trained and optimized YOLO-based vision models for handwritten signature detection with 95% precision on scanned medical forms.",
+        "Created a patient risk scoring and rehospitalization prediction models, reaching 75% predictive accuracy.",
+        "Implemented RAG pipelines with semantic chunking and embedding-based retrieval to improve factual accuracy of LLM responses.",
+        "Implemented a multilingual AI medical assistant (English, Hindi, Telugu) with sub-10s inference latency using OpenAI and Gemini APIs.",
+        "Improved flight and hotel price prediction accuracy by 30% through feature engineering and ensemble learning."
+      ]
+    },
+    {
+      "role": "Backend Developer Intern",
+      "company": "Enthuons Technologies Pvt. Ltd",
+      "start": "Jan 2024",
+      "end": "Jun 2024",
+      "responsibilities": [
+        "Developed and deployed 12+ RESTful APIs using Node.js and Express.js, supporting 1,000+ requests/min.",
+        "Optimized database queries, middleware, and error handling, reducing backend failures by 20%.",
+        "Collaborated in Agile sprints, contributing to code reviews, debugging, and version control using Git and GitHub."
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
   "designation": [
     "AI Engineer",
     "Backend Developer Intern"
@@ -64,7 +92,6 @@
     "LLaMA",
     "LangChain",
     "LayoutLMv3",
-    "LinkedIn",
     "MLOps",
     "Machine Learning",
     "Model Evaluation",
@@ -115,5 +142,6 @@
     "• Improved summary coherence and relevance by 20% ROUGE score through preprocessing and hyperparameter tuning."
   ],
   "projects_confidence": 0.85,
-  "parsing_time_seconds": 0.45
+  "id": 28,
+  "file_name": "Abhishek_Resume.pdf"
 }

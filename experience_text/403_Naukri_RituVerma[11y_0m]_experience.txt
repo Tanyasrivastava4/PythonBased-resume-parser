@@ -1,0 +1,110 @@
+======================================================================
+FILE: 403_Naukri_RituVerma[11y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Work Experience: -
+Bonanza Portfolio Ltd.  (12-April-2022 till Present)
+Senior Executive
+Stakeholder Management
+1) Interaction with all HODs at Pan India Level for Recruitment Process.
+2) Understanding business needs on Manpower Requirement.
+3) Facilitating clear communication on updation of Manpowe...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.88
+Needs review   : True
+Total exp      : 11.9 years (143 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Bonanza Portfolio Ltd
+  Location     : None
+  Start - End  : 12-April 2022 - Present
+  Duration     : 56 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Senior Executive
+  Company      : Stakeholder Management
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 3
+    • Understanding business needs on Manpower Requirement.
+    • Facilitating clear communication on updation of Manpower Recruitment. 4) Coordinating with Vendors/Consultants for Hiring Related activity.
+    • PMS (Goal Setting, Confirmation, Annual Appraisal, Prepared Appraisal File) all process were followed as per Timeline.
+  Method       : multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : 1) Handing complete life cycle of recruitment process from Sourcing, Initial Screening, Virtual/Telephonic Interviewing Analysis, Face-to-Face Interview process and co-ordination with candidates till they join the company. Looking after various job posts all over India, different levels including Head Hunting
+  Company      : Recruitment
+  Location     : None
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 8
+    • Informing candidates about the opening, explaining them the job profile and company details.
+    • Updating Recruitment related data on daily base.
+    • Handling Employee Documentation, Salary Negotiation, Employee Onboarding. 2) Preparing Offer letters, Appointment letters, Joining formalities and employment terms & conditions.
+    • Maintaining attendance and leave records, coordinating with employees to solve their queries.
+    • Providing pilot induction to new incumbents.
+    • Handling Employee Grievances by understanding employee concerns, escalate to appropriate levels, and ensure resolution of the concern.
+    • Organize employee engagement activities.
+    • Facilitating the resignation formalities to the employees.
+  Method       : company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : MIS Reports
+  Company      : developing various reports for analysis of performance of sales team quarterly
+  Location     : sales report, lead performance report, sales incentive report.
+  Start - End  : None - None
+  Duration     : 0 months
+  Bullets      : 1
+    • Scrutinizing and Short listing profiles based on skills, domain, qualifications and relevant experience.
+  Method       : none+inherited_company
+  Confidence   : 0.5
+  Needs Review : True
+
+Entry 5
+  Role         : Designation (B): HR (internal transfer)
+  Company      : Torrent Power Ltd
+  Location     : None
+  Start - End  : 16th Sept 2012 - 15th Nov 2016
+  Duration     : 50 months
+  Bullets      : 11
+    • Executing and updating the data in System Software like; SAP Keep accurate records of monthly and annual figures on a computer database.
+    • Create detailed HR reports to present to management.
+    • Filing, Documentation and administration work.
+    • Preparing reports for technical team performance analysis as well as Maintain MIS for management review.
+    • Handling joining formalities for new hired employees across the process.
+    • Generating the employee codes for all the employees joined.
+    • Sending Hiring reports to all the process heads on a daily basis.
+    • Ensuring completion of reference check and criminal verification and coordinating with the vendor for reports for the employees and ensure that it is completed within the TAT.
+    • Maintain various monthly reports, MIS analysis & updating recruitment databases.
+    • Managing entire documentation that includes filing of the documents etc.
+    • Actively played a major role in quarterly audits.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 6
+  Role         : Designation : Assistant in Finance
+  Company      : Torrent Power Pvt. Ltd
+  Location     : None
+  Start - End  : Sept. 2009 - 12th Sep. 2012
+  Duration     : 37 months
+  Bullets      : 2
+    • Organizing Training of various departments including internal and external training.
+    • Coordinating On the job trainings’ and other events
+  Method       : date_regex+organization_prefix+title_dict
+  Confidence   : 0.98
+  Needs Review : False

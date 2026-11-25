@@ -1,0 +1,61 @@
+======================================================================
+FILE: 354_NAVNATHDASHRATHISAWE__RBM_Pune_Stonelam_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Officer - Retail Sales Since Oct 2021
+Contact
+Saint Gobain India Pvt Ltd - Glass Business
+Pune, Solapur & Satara
+Key Responsibilities :
++ 91 8796614736
+Handled 50+Direct Retailers of Pune, Solapur and Satara.
+Accountable for 600 tons of volume and in terms of value 3
+to 3.5 C business on monthly bas...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 8.5 years (102 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Officer
+  Company      : Retail Sales Since Oct 2021
+  Location     : Retail Sales
+  Start - End  : Oct 2021 - Present
+  Duration     : 62 months
+  Bullets      : 1
+    • Customer level - Product level sales planning. 411041 Network Expansion in Pune & Solapur. Revenue Management (Ensure timely collection).
+  Sub-sections : ['D-1008, Majestic Venice, Near', 'Nalanda School, Dhayari, Pune', 'Effective implementation of marketing initiatives. [Run', 'Fabricators’', 'i incentive schemes to ensure liquidation]', 'Personal']
+  Method       : since_date_regex+date_prefix_title+company_loc_dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Territory Sales Officer (TSO)
+  Company      : Kansai Nerolac Paints limited
+  Location     : Pune
+  Start - End  : March 2019 - Sept 2021
+  Duration     : 31 months
+  Bullets      : 1
+    • incentive schemes to ensure liquidation] Drive market development activities such as In shop meets. and Painter’s meet.
+  Sub-sections : ['Revenue Management (Ensure timely collection) Effective', 'implementation of marketing initiatives. [Run Painters’']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Sales Officer Trainee (SOT)
+  Company      : Berger Paints India Ltd
+  Location     : None
+  Start - End  : June 2018 - March 2019
+  Duration     : 10 months
+  Bullets      : 2
+    • partners which resulted in revenue enhancement from
+    • expansion.
+  Sub-sections : ['Satara area', 'Appointment of distributors and sub dealers', '·Adopted company programs amongst assigned']
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

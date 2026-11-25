@@ -1,0 +1,50 @@
+======================================================================
+FILE: 378_Naukri_DipanshuPatel[0y_10m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+• B. Tech in Computer Science | Maharaja Agrasen College of Engineering and Technology, Amroha, (AKTU
+Lucknow).
+(2020 – 2024) | CGPA – 7.5
+• XII (UP Board) | Govt. Jubilee Inter College, Lucknow. (2019 – 2020) | Marks – 60.1%
+• X (UP Board) | Smt. R. D. T. D Inter College Raebareli. (2017 – 2018) | ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 6.2 years (74 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Lucknow
+  Location     : None
+  Start - End  : 2020 - 2024
+  Duration     : 49 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Govt. Jubilee Inter College, Lucknow. Marks – 60.1%
+  Company      : XII
+  Location     : None
+  Start - End  : 2019 - 2020
+  Duration     : 13 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Smt. R. D. T. D Inter College Raebareli. Marks – 72.3%
+  Company      : X (UP Board
+  Location     : None
+  Start - End  : 2017 - 2018
+  Duration     : 13 months
+  Bullets      : 0
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False

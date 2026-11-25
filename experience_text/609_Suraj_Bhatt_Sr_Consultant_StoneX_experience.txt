@@ -1,0 +1,81 @@
+======================================================================
+FILE: 609_Suraj_Bhatt_Sr_Consultant_StoneX_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Store Supervisor 03/2 /2020—Feb,2026
+Rivoli-G
+Dubai,
+• Led team to deliver exceptional service while consistently meeting
+and exceeding sales targets
+• Optimized customer satisfaction by delivering exceptional store
+experiences in supervisory capacity
+• Provided tailored advice to customers, resulti...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 12.6 years (151 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Store Supervisor 03/2
+  Company      : Rivoli-G
+  Location     : None
+  Start - End  : 2020 - Feb,2026
+  Duration     : 74 months
+  Bullets      : 6
+    • Led team to deliver exceptional service while consistently meeting and exceeding sales targets
+    • Optimized customer satisfaction by delivering exceptional store experiences in supervisory capacity
+    • Provided tailored advice to customers, resulting in increased sales opportunities
+    • Held team to company policies and best practices in customer service.
+    • Acted as a key holder, responsible for opening and closing the store, ensuring security protocols are followed.
+    • Handled customer complaints with professionalism, resolving issues promptly to maintain high levels of customer trust and loyalty.
+  Method       : date_regex+date_prefix_title+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Senior Sales Associate,  Rivoli group LLC
+  Company      : Dubai
+  Location     : UAE
+  Start - End  : 12/2015 - 03/2020
+  Duration     : 52 months
+  Bullets      : 3
+    • Achieved sales targets by promoting products and identifying customer needs effectively
+    • Achieved revenue and performance targets through exceptional sales and retail service expertise
+    • Executed visual merchandising strategies to maintain stock levels and meet style guide requirements
+  Method       : date_regex+date_prefix_title+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Sales Assistant
+  Company      : United color of Benetton
+  Location     : Al Gurg Group
+  Start - End  : 09/2014 - 10/2015
+  Duration     : 14 months
+  Bullets      : 3
+    • Executed POS system operations for seamless transaction flow
+    • Built customer engagement through social media to advertise products and highlight promotional deals
+    • Delivered excellent customer support, fostering loyalty and driving repeat purchases
+  Method       : date_regex+following_line_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : India
+  Company      : Guest Service Representative,  Jaypee Group
+  Location     : Mussoorie
+  Start - End  : 02/2012 - 03/2013
+  Duration     : 14 months
+  Bullets      : 4
+    • Fostered positive guest experiences boosting online feedback and customer retention
+    • Coordinated bookings for tours, transport, and restaurants to enhance guest experience
+    • Ensured smooth operations by maintaining records of bookings, payments, and special requests
+    • Updated guest guides and welcome packets with valuable, accurate details
+  Sub-sections : ['Address: Dehradun Uttarakhand']
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

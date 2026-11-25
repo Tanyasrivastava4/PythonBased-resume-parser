@@ -1,0 +1,65 @@
+======================================================================
+FILE: 155_CA Mohit Jobanputa CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Chartered Accountant
+Institute of Chartered Accountant of
+Senior Product Manager 01/2022 - PRESENT
+India
+Piramal Capital & Housing Finance Limited (NBFC)
+05/2016
+Spearheaded the planning and direction for the digital lending suite, ensuring that
+
+Complex problem solving
+Financial analysis & Credit A...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 9.9 years (119 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Product Manager
+  Company      : Piramal Capital & Housing Finance Limited
+  Location     : None
+  Start - End  : 01/2022 - PRESENT
+  Duration     : 59 months
+  Bullets      : 1
+    • Spearheaded the planning and direction for the digital lending suite, ensuring that
+  Method       : date_regex+date_prefix_title+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Senior Credit Manager
+  Company      : Financial analysis & Credit Analysis
+  Location     : None
+  Start - End  : 09/2019 - 12/2021
+  Duration     : 28 months
+  Bullets      : 7
+    • Platform development for various
+    • Conducted credit appraisals for 500+ mortgage proposals, ranging from 1 crore to
+    • Crore.
+    • Led a cross-functional team to digitalize the loan appraisal process by integrating
+    • vendors like Perfios, Finfort, and VAK.
+    • Steered stakeholder workshops to identify process improvements. Reduced TAT
+    • by ~30% while maintaining credit quality and ensuring risk coverage.
+  Sub-sections : ['Kotak Mahindra Bank (Banking)', 'financial Products', 'UAT Management', 'Regulatory Compliance & Risk', 'Management', 'A W A R D S']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Credit Manager
+  Company      : FIRE Award
+  Location     : Honored as Best
+  Start - End  : 01/2017 - 09/2019
+  Duration     : 33 months
+  Bullets      : 1
+    • Expertise in analyzing credit data, financial statements, industry analysis Kotak - Employee of the Month Certificate of Kotak - Employee of the Month Certificate of Achievement
+  Method       : date_regex+following_line_company_split
+  Confidence   : 0.98
+  Needs Review : False

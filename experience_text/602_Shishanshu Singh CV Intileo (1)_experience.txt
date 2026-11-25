@@ -1,0 +1,54 @@
+======================================================================
+FILE: 602_Shishanshu Singh CV Intileo (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+HINDUJA HOUSING FINANCE | Cluster Credit Manager – Credit | Delhi NCR
+01 July 2026 – Present
+• Handle end-to-end credit underwriting and appraisal of Home Loan & LAP proposals in line with defined credit policy and risk
+parameters.
+• Evaluate borrower creditworthiness, income stability, banking cond...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.2 years (38 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : HINDUJA HOUSING FINANCE | Cluster Credit Manager
+  Company      : Credit
+  Location     : Delhi NCR
+  Start - End  : 01 July 2026 - Present
+  Duration     : 5 months
+  Bullets      : 9
+    • Handle end-to-end credit underwriting and appraisal of Home Loan & LAP proposals in line with defined credit policy and risk parameters.
+    • Evaluate borrower creditworthiness, income stability, banking conduct, bureau profile and repayment capacity to arrive at sound credit decisions.
+    • Analyse FOIR, LTV, ITRs, bank statements, income documents and financial profiles for salaried and self-employed customers.
+    • Review FI/FCU findings, Personal Discussion, KYC and customer profile to identify potential credit, fraud and repayment risks.
+    • Assess property and collateral-related risks in coordination with Legal and Technical teams and review relevant observations.
+    • Prepare and review CAM/credit appraisal notes, clearly highlighting strengths, risks, mitigants, deviations and credit recommendations.
+    • Coordinate with Sales, Operations, Legal, Technical and Verification teams for timely query resolution and achievement of defined TAT/SLA.
+    • Ensure adherence to credit policy, underwriting guidelines, internal controls and applicable regulatory requirements.
+    • Support risk-aligned business growth while maintaining portfolio quality and sound underwriting standards.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : BANDHAN BANK | Credit Manager
+  Company      : Mortgage Credit
+  Location     : Buxar
+  Start - End  : Oct 2023 - Jun 2026
+  Duration     : 33 months
+  Bullets      : 6
+    • Conducted underwriting of mortgage applications by analysing income documents, bank statements, credit scores and business profiles.
+    • Performed cash-flow assessment, ratio analysis, repayment capacity assessment and risk profiling for credit decisioning.
+    • Prepared detailed credit appraisal reports with clear justification and recommendations for approval/rejection.
+    • Ensured adherence to internal credit policies, regulatory requirements and risk-management frameworks.
+    • Coordinated with Sales, Operations and Product teams to streamline credit processes and improve turnaround time.
+    • Monitored portfolio quality and identified potential risk triggers, supporting appropriate corrective and mitigation actions.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False

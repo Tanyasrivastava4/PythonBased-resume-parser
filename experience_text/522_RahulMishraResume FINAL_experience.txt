@@ -1,0 +1,54 @@
+======================================================================
+FILE: 522_RahulMishraResume FINAL_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Delhi, India Ph. +91-8700813553
+
+CIC Reporting Achievement
+
+Cleared 12-month CIC reporting backlog for an NBFC, restoring a 100% on-time compliance record and enhancing reporting accuracy by 28%
+Audit Associate
+AMRG & Associates 03/2022 - 03/2025 Delhi
+A leading audit and consulting firm providing s...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 4.4 years (53 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Audit Associate
+  Company      : AMRG & Associates  Delhi
+  Location     : Delhi
+  Start - End  : 03/2022 - 03/2025
+  Duration     : 37 months
+  Bullets      : 8
+    • A leading audit and consulting firm providing services in statutory audits and compliance
+    • Successfully led the statutory audit of a leading bank, managing the end-to-end audit process Led statutory audit of State Bank of in compliance with statutory requirements, RBI guidelines, and internal control frameworks
+    • Independently led the statutory audit of a private company with turnover above ₹10 crore, recommending corrective measures delivering accurate financial reporting and ensuring 100% compliance with applicable laws that strengthened financial reporting
+    • Managed NBFC compliance assignments, including preparation and filing of DNBS Returns and controls clearing 12 months of pending Credit Information Company (CIC) reports
+    • Performed Concurrent Audits for three nationalized banks, detecting irregularities, verifying
+    • processes, and recommending corrective actions
+    • Assisted in financial statement preparation and finalization under Schedule III, CARO 2020, and
+    • Delivered GST compliance support, including preparation/review of GSTR-1, GSTR-3B, and turnover, delivering accurate reporting reconciliation processes and ensuring full regulatory compliance
+  Sub-sections : ['SBI Audit Leadership', 'India (SBI), identifying two NPAs and', 'Private Company Audit Success', 'Independently executed statutory audit', 'Ind AS', 'of a private company with ₹10 crore +', 'Assistant Manager (Accounts and Finance)', 'Concurrent Audit Excellence']
+  Method       : date_regex+next_line_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Conducted concurrent audits for three
+  Company      : East India Udyog Limited (Udyat)  Delhi
+  Location     : Delhi
+  Start - End  : 08/2025 - Present
+  Duration     : 16 months
+  Bullets      : 3
+    • Supervised day-to-day accounting operations, including accounts payable/receivable, bank nationalized banks, reviewing 500 monthly transactions and identifying reconciliation, and general ledger maintenance operational inefficiencies, leading to
+    • Assisted in preparing monthly, quarterly, and annual financial statements in compliance with process improvements accounting standards
+    • Managed cash flow, monitored expenses, and ensured cost control within departmental budgets
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,55 @@
+======================================================================
+FILE: 281_KARAN_JADHAV_RESUME_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+TEJAL MEDICAL (JAN 2025 – DEC 2025)- 1 YEAR IN ROW
+• MEDICAL RECEIPTIONIST FOR 1 YEAR AT TEJAL MEDICAL & GENERAL STORE
+UNITY SMALL FINANCE BANK (JAN 2026 – JUNE 2026)- 6 MONTHS IN ROW
+• UNITY SMALL FINANCE BHIWANID BRANCH (THANE, BHIWANDI) AS LOAN OFFICER - JLG DEPARTMENT
+EMP CODE- US8176
+
+CURRUNTLY...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.89
+Needs review   : True
+Total exp      : 1.9 years (23 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : • UNITY SMALL FINANCE BHIWANID BRANCH (THANE, BHIWANDI) AS LOAN OFFICER
+  Company      : JLG DEPARTMENT
+  Location     : IN ROW
+  Start - End  : JAN 2025 - DEC 2025
+  Duration     : 12 months
+  Bullets      : 1
+    • MEDICAL RECEIPTIONIST FOR 1 YEAR AT TEJAL MEDICAL & GENERAL STORE
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : UNITY SMALL FINANCE BANK
+  Location     : IN ROW
+  Start - End  : JAN 2026 - JUNE 2026
+  Duration     : 6 months
+  Bullets      : 1
+    • UNITY SMALL FINANCE BHIWANID BRANCH (THANE, BHIWANDI) AS LOAN OFFICER - JLG DEPARTMENT
+  Sub-sections : ['EMP CODE- US8176']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : None
+  Company      : CURRUNTLY WORKING IN
+  Location     : None
+  Start - End  : JULY 2025 - Present
+  Duration     : 17 months
+  Bullets      : 0
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True

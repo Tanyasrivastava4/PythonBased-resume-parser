@@ -1,0 +1,43 @@
+======================================================================
+FILE: 79_Ankit Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+DRNB RESIDENT, 0] (2023 Current
+-
+Artemis Hospital, New Deni, Incia
+Managed patient care plans and coordinated treatment among
+-
+multidisciplinary teams.
+Assisted & Performed independently in Nephrology procedures, Tunnelled
+.
+Hemodialysis catheter insertion, renal biopsy, peritoneal dialysis cathet...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 1
+Confidence     : 0.85
+Needs review   : True
+Total exp      : 3.9 years (47 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : , 0
+  Company      : None
+  Location     : 0] (
+  Start - End  : 2023 - Current
+  Duration     : 47 months
+  Bullets      : 10
+    • 
+    • Managed patient care plans and coordinated treatment among
+    •  multidisciplinary teams. Assisted & Performed independently in Nephrology procedures, Tunnelled . Hemodialysis catheter insertion, renal biopsy, peritoneal dialysis catheter insertion with proper sterilization and instrument availability, Participated in case reviews, contributing insights to improve patient outcomes. Trained in Renal transplant (ABO compatible ABO incompatible HLA incompatible}. Active participation in immnuosuppresion tailoring along with densitization . protocols.
+    •  VMMC & SAFDARJUNG HOSPITAL, New Delhi, India Participated in cases and made key decisions reqaraing patient treatment. + Prescribed medications or treatment regimens to address patient conditions. + Supernised patient care activities to ensure adherence to hospiial protocols,
+    • 
+    •  VMMC & SAFDARJUNG HOSPITAL, New Delhi, India
+    • 
+    • 
+    •  VMMC & SAFDARJUNG HOSPITAL, New Delhi, India Diverse experence with various diseases. + Learning skills in medicine. +
+    •  VMMC & SAFDARJUNG HOSPITAL, New Delhi, India
+  Sub-sections : ['Artemis Hospital, New Deni, Incia', 'SENIOR RESIDENT NEPHROLOGY (ADHOC), 02/2022 05/2022', 'SENIOR RESIDENT (GENERAL MEDICINE), 03/202] 11/202]', 'Supervision of emergency duties', 'Team collaboration', 'MD GENERAL MEDICINE, 05/2018 08/2021', 'MBBS, 08/2012 02/2018']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.85
+  Needs Review : True

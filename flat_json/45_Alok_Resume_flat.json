@@ -1,6 +1,4 @@
 {
-  "id": 45,
-  "file_name": "Alok_Resume.pdf",
   "email": "alok2752005@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "7011087304",
@@ -46,6 +44,19 @@
     "1. Company Secretary @ CSEET (Jul 2023 - May 2026) [conf 0.98, review=False]"
   ],
   "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Company Secretary",
+      "company": "CSEET",
+      "start": "Jul 2023",
+      "end": "May 2026",
+      "responsibilities": [
+        "LABEL: skills   CONFIDENCE: 0.95   START LINE: 73 ────────────────────────────────────────────────────────────",
+        "[Found 8 sections total: ['header', 'summary', 'education', 'skills', 'experience', 'summary', 'education', 'skills']]"
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
   "designation": [
     "Company Secretary"
   ],
@@ -53,6 +64,7 @@
     "Accounting",
     "Adaptability",
     "Attention to Detail",
+    "Brand Positioning",
     "Campaign Management",
     "Canva",
     "Communication",
@@ -64,7 +76,6 @@
     "Google",
     "Google Workspace",
     "Instagram",
-    "LinkedIn",
     "MS Office",
     "Market Research",
     "Microsoft Excel",
@@ -80,5 +91,6 @@
   "skills_confidence": 0.92,
   "total_experience": 2.9,
   "total_experience_confidence": 0.98,
-  "parsing_time_seconds": 0.54
+  "id": 45,
+  "file_name": "Alok_Resume.pdf"
 }

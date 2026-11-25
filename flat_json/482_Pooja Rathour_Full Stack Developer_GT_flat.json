@@ -1,0 +1,183 @@
+{
+  "email": "poojarathour0793@gmail.com",
+  "email_confidence": 0.99,
+  "mobile_number": "7379648425",
+  "mobile_number_confidence": 0.95,
+  "name": "Pooja Rathaur",
+  "name_confidence": 0.9,
+  "gender": "female",
+  "gender_confidence": 0.88,
+  "age": 31,
+  "age_confidence": 0.6,
+  "linkedin": "linkedin.com/in/pooja-rathour",
+  "linkedin_confidence": 0.99,
+  "EDUCATION": [
+    "1. MCA — MCA PSIT Pranveer Singh INSTITUTE OF TECHNOLOGY (None) [conf 0.8, review=False]",
+    "2. BCA — BCA CSJM University (Chhatrapati Shahu Ji Maharaj University) (None) [conf 0.8, review=False]"
+  ],
+  "EDUCATION_confidence": 0.8,
+  "degree": [
+    "MCA",
+    "BCA"
+  ],
+  "company_details": [
+    "EXPERIENCE (6 jobs, 0 early_career entries)",
+    "Total experience: 10.2 years (123 months, 5 overlaps merged)",
+    "1. Unknown role @ role . Previously worked in UI/UX design and front-end development.n (March 2023 - Present) [conf 0.55, review=True]",
+    "2. Web Developer @ iTech Mission Private Limited (March, 2023 - Present) [conf 0.98, review=False]",
+    "3. Unknown role @ Cybernauts technologies private limited (July 2022 - February 2023) [conf 0.85, review=True]",
+    "4. Junior Designer @ ITH Technologies Pvt. Ltd (September 2016 - April 2019) [conf 0.98, review=False]",
+    "5. Unknown role @ MauStats is a centralized web-based statistics platform developed under the Mauritius Digital Transformation (2018 - 2022) [conf 0.55, review=True]",
+    "6. Unknown role @ Timor-Leste ERS is a centralized web-based platform developed under the GCF-funded climate resilience project (2020 - 2026) [conf 0.55, review=True]"
+  ],
+  "company_details_confidence": 0.74,
+  "work_experience": [
+    {
+      "role": null,
+      "company": "role . Previously worked in UI/UX design and front-end development.n",
+      "start": "March 2023",
+      "end": "Present",
+      "responsibilities": [
+        "developing scalable and high-performance web applications using Angular, TypeScript, Node.js, and MongoDB.",
+        "Experienced in implementing caching with Redis and asynchronous messaging with RabbitMQ for optimized backend performance and system reliability.",
+        "Proficient in REST API development, Agile methodology, and tools like GitLab, Postman, and BrowserStack.",
+        "Committed to writing clean, maintainable code and delivering seamless user experiences."
+      ]
+    },
+    {
+      "role": "Web Developer",
+      "company": "iTech Mission Private Limited",
+      "start": "March, 2023",
+      "end": "Present",
+      "responsibilities": [
+        "Developed and integrated data-driven dashboards using Angular and React for enhanced interactivity and user experience.",
+        "Built scalable backend APIs using Node.js, Expres.s, and MongoDB for efficient data storage and retrieval.",
+        "Implemented RabbitMQ-based asynchronous processing to generate and download user registration reports Optimized API performance by 30% using advanced MongoDB queries and basic Redis caching strategies.",
+        "Containerized the application using Docker for consistent development and deployment environments.",
+        "Used GitLab for version control and collaborative code management in a team environment.",
+        "Tested and validated APIs using Postman to ensure accuracy, performance, and reliability.",
+        "Integrated RESTful APIs with Angular and React front-ends, ensuring smooth and reliable data flow."
+      ]
+    },
+    {
+      "role": null,
+      "company": "Cybernauts technologies private limited",
+      "start": "July 2022",
+      "end": "February 2023",
+      "responsibilities": [
+        "Designed and developed responsive web interfaces using HTML5, CSS3, Bootstrap, and JavaScript for consistent cross-device performance.",
+        "Built modular and reusable front-end components using React.js, improving code maintainability and scalability.",
+        "Applied mobile-first design principles with touch-friendly layouts and Bootstrap utilities to enhance user experience."
+      ]
+    },
+    {
+      "role": "Junior Designer",
+      "company": "ITH Technologies Pvt. Ltd",
+      "start": "September 2016",
+      "end": "April 2019",
+      "responsibilities": [
+        "Developed responsive, mobile-first applications using the Ionic framework with AngularJS and Angular (2, 4, 6), ensuring fast performance across platforms. Built dynamic single-page applications (SPAs) using Angular and optimized UI/UX for mobile and web users. Created and maintained web applications using PHP, .NET, and Django, contributing to both frontend functionality and backend integration. Performed cross-browser and cross-device testing using BrowserStack to ensure consistent UI and smooth functionality across platforms. RELEVANT PROJECTS:",
+        "Client: EU-funded NGO in collaboration with UNICEF and Ministry of Education, Uganda",
+        "Description: G4DU is an EU-funded initiative focused on improving access to quality education for adolescent girls in Uganda by addressing financial and social barriers. The system provides targeted support through direct cash transfers, mentorship, and school improvement strategies. The application is designed to manage student data, monitor financial aid distribution, and generate performance-based reports across multiple districts. Architecture: Microservices — including services built with Node.js (REST APIs), Laravel/PHP (reporting & data import/export service), Angular & React.js (frontend interfaces), MongoDB (primary database), and Docker-based containerization, with RabbitMQ and Redis for messaging and caching. Responsibilities: Developed secure and scalable REST APIs using Node.js, Express.js, and MongoDB for user registration, analytics, and reporting workflows. Built responsive UI components using Angular, Bootstrap, HTML5, CSS3, and JavaScript, with dynamic form handling via Angular Material and Reactive Forms. Utilized RabbitMQ for asynchronous job processing in report generation modules, improving performance and system responsiveness. Implemented Redis caching to optimize database interactions and reduce API response times. Deployed services using Docker containers for better scalability and local development consistency. Integrated a legacy Laravel (PHP) microservice for dynamic report generation and export functionality, leveraging MongoDB as the backend. Used GitLab for version control and Postman for API testing and debugging in a collaborative agile environment. Tech Stack: Angular 19, Node.js 22, NPM 10, Mongosh 2, PHP 8.4",
+        "Description:"
+      ]
+    },
+    {
+      "role": null,
+      "company": "MauStats is a centralized web-based statistics platform developed under the Mauritius Digital Transformation",
+      "start": "2018",
+      "end": "2022",
+      "responsibilities": [
+        "government departments and institutions, supporting official publications like Digest of Statistics, Economic & Social Indicators, Ad Hoc Reports, and Mauritius in Figures Architecture: Microservices-based architecture with asynchronous communication using RabbitMQ. The system supports modular services for data ingestion, processing, caching, visualization, and user management. Data is handled in both structured and semi-structured formats using Apache Hudi and MongoDB. Redis is used for caching, and APIs are exposed for frontend consumption. Responsibilities: Developed dynamic and responsive UI using Angular, including interactive dashboards, filters, and visualizations. Built RESTful APIs with Node.js to serve real-time and historical statistical data to frontend components. Designed and developed microservices for data ingestion, validation, and transformation using Python. Integrated Apache Hudi for managing large-scale data with incremental updates and versioning. Used Redis for caching frequently accessed datasets to improve system performance. Implemented Apache Hudi for large-scale data ingestion, incremental updates, and versioned data storage. Tech Stack: Angular 19, Node.js 22, NPM 10, Mongosh 2, PHP 8.4,Python3 3.12"
+      ]
+    },
+    {
+      "role": null,
+      "company": "Timor-Leste ERS is a centralized web-based platform developed under the GCF-funded climate resilience project",
+      "start": "2020",
+      "end": "2026",
+      "responsibilities": [
+        "system consolidates real-time and historical data from multiple ministries to support early warnings, damage assessments, and response planning for roads, water systems, and embankments. Architecture: Modular, service-oriented architecture using Node.js for backend services and MongoDB for structured data storage. The frontend is built using React.js and consumes APIs to display dynamic dashboards and infrastructure reports. Responsibilities: Developed interactive and responsive UI using React.js and Material-UI. Built RESTful APIs with Node.js for real-time and batch data integration. Used Redis for fast access to frequently changing alert data. Tech Stack: React.js 18, Node.js 20, NPM 10, MongoDB 6",
+        "Description: NEMA AI is an AI-driven platform that provides EEG-based cognitive health assessments and personalized brain training interventions. The platform was featured on Shark Tank for its innovative approach to making mental wellness tools widely accessible. It empowers users to understand and enhance their cognitive potential through real-time data analysis and tailored programs. Architecture: Component-based frontend architecture using React.js for rendering cognitive dashboards and assessments. The system communicates with AI services powered by Python, TensorFlow, and PyTorch for EEG data processing and model inference. Data is served via APIs and displayed through interactive, responsive web components. Responsibilities: Developed and enhanced dynamic frontend components using React.js. Built responsive UI layouts and styled elements with HTML and CSS. Collaborated with backend and data science teams to integrate AI-driven insights into the user interface."
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.74,
+  "designation": [
+    "Web Developer",
+    "Junior Designer"
+  ],
+  "skills": [
+    ".NET",
+    "API Design",
+    "API Testing",
+    "Active Directory",
+    "Aggregations",
+    "Agile",
+    "Angular",
+    "Bootstrap",
+    "CSS3",
+    "Caching",
+    "Collaboration",
+    "Communication",
+    "Content Marketing",
+    "Cross-Browser Compatibility",
+    "Data Analysis",
+    "Data Analytics",
+    "Data Collection",
+    "Data Science",
+    "Digital Transformation",
+    "Django",
+    "Docker",
+    "ES6+",
+    "Express.js",
+    "Figma",
+    "Git",
+    "GitLab",
+    "GraphQL",
+    "HTML5",
+    "Instagram",
+    "JavaScript",
+    "Laravel",
+    "Manual Testing",
+    "Material UI",
+    "Mental Health",
+    "Mentoring",
+    "Microservices",
+    "MongoDB",
+    "MySQL",
+    "Node.js",
+    "PHP",
+    "Postman",
+    "PyTorch",
+    "Python",
+    "REST",
+    "REST API",
+    "RabbitMQ",
+    "React",
+    "Redis",
+    "Reporting",
+    "Responsive Web Design",
+    "Risk Management",
+    "SOA",
+    "Statistics",
+    "TensorFlow",
+    "TypeScript",
+    "UX Design",
+    "jQuery"
+  ],
+  "skills_confidence": 0.92,
+  "total_experience": 10.2,
+  "total_experience_confidence": 0.74,
+  "certification": [
+    "1. Udemy HTML certified — Udemy [conf 0.8]",
+    "2. CONTENT CREATION AND TECHNICAL OUTREACH [conf 0.6]",
+    "3. Content Creation and Technical Outreach [conf 0.6]",
+    "4. Co-founded a technical Instagram page (@EduRise-Learn to Code Free) focused on [conf 0.6]",
+    "5. ReactJS learning and coding tutorials; organically built and managed a community of 266K+ [conf 0.6]",
+    "6. followers [conf 0.6]"
+  ],
+  "certification_confidence": 0.63,
+  "id": 482,
+  "file_name": "Pooja Rathour_Full Stack Developer_GT.pdf"
+}

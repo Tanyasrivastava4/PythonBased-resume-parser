@@ -1,0 +1,165 @@
+{
+  "id": 125,
+  "file_name": "Avneet_Kaur_Resume_Updated.pdf",
+  "file_md5": "18bddf5537fb9a2ca4dd90116d4eede0",
+  "email": "kauravneet8511@gmail.com / kaun@gmail.com",
+  "email_confidence": 0.99,
+  "mobile_number": "+919779248511 / 7482986746",
+  "mobile_number_confidence": 0.95,
+  "name": "Avneet Kaur",
+  "name_confidence": 0.9,
+  "age": 24,
+  "age_confidence": 0.6,
+  "company_details": [
+    "EXPERIENCE (2 jobs, 0 early_career entries)",
+    "Total experience: 3.2 years (39 months)",
+    "1. Associate @ PwC Acceleration Center (10/2026 - Present) [conf 0.98, review=False]",
+    "2. Article Assistant @ R.S. Kalra & Associates (08/2022 - 08/2025) [conf 0.98, review=False]"
+  ],
+  "company_details_confidence": 0.98,
+  "designation": [
+    "Associate",
+    "Article Assistant"
+  ],
+  "skills": [
+    "Accounting",
+    "Audit Documentation",
+    "Auditing",
+    "Communication",
+    "Cross-functional Collaboration",
+    "Exploratory Data Analysis",
+    "Financial Analysis",
+    "Financial Reporting",
+    "Financial Statement Analysis",
+    "IFC Design & Testing",
+    "Ind AS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Problem Solving",
+    "Python",
+    "Risk Management",
+    "Statutory Audit",
+    "Substantive Testing"
+  ],
+  "skills_confidence": 0.92,
+  "total_experience": 3.2,
+  "total_experience_confidence": 0.98,
+  "parsing_time_seconds": 0.37,
+  "source_file": "Avneet_Kaur_Resume_Updated.pdf",
+  "batch_status": "completed",
+  "conflict": {
+    "is_conflict": true,
+    "conflict_id": "conf_a0c500fe0b",
+    "existing_point_id": 125,
+    "existing_candidate": {
+      "id": 125,
+      "name": "Avneet Kaur",
+      "email": "kauravneet8511@gmail.com",
+      "mobile_number": "+919779248511",
+      "total_experience": 3.2,
+      "skills": [
+        "Accounting",
+        "Audit Documentation",
+        "Auditing",
+        "Communication",
+        "Cross-functional Collaboration",
+        "Financial Analysis",
+        "Financial Reporting",
+        "Financial Statement Analysis",
+        "IFC Design & Testing",
+        "Ind AS",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Problem Solving",
+        "Risk Management",
+        "Statutory Audit",
+        "Substantive Testing"
+      ],
+      "file_name": "Avneet_Kaur_Resume_ (2).pdf"
+    },
+    "diff": {
+      "has_changes": true,
+      "is_identical": false,
+      "summary_reasons": [
+        "+1 new email(s): kaun@gmail.com",
+        "+1 new contact number(s): 7482986746",
+        "+2 new skill(s): Exploratory Data Analysis, Python"
+      ],
+      "sections": {
+        "contact": {
+          "changed": true,
+          "added_emails": [
+            "kaun@gmail.com"
+          ],
+          "added_phones": [
+            "7482986746"
+          ],
+          "removed_emails": [],
+          "removed_phones": [],
+          "current_emails": [
+            "kauravneet8511@gmail.com"
+          ],
+          "incoming_emails": [
+            "kauravneet8511@gmail.com",
+            "kaun@gmail.com"
+          ],
+          "current_phones": [
+            "9779248511"
+          ],
+          "incoming_phones": [
+            "9779248511",
+            "7482986746"
+          ]
+        },
+        "links": {
+          "changed": false,
+          "details": []
+        },
+        "skills": {
+          "changed": true,
+          "added": [
+            "Exploratory Data Analysis",
+            "Python"
+          ],
+          "removed": [],
+          "common_count": 16,
+          "current_count": 16,
+          "incoming_count": 18
+        },
+        "experience": {
+          "changed": false,
+          "old_exp": 3.2,
+          "new_exp": 3.2,
+          "delta_exp": 0.0,
+          "comp_delta": 0,
+          "added_desigs": []
+        },
+        "education": {
+          "changed": false,
+          "added_degrees": []
+        },
+        "credentials": {
+          "changed": false,
+          "added_certifications": [],
+          "new_projects_count": 0
+        }
+      }
+    },
+    "status": "pending_resolution"
+  },
+  "resolution_action": "override",
+  "last_overwritten_at": "2026-11-21T06:51:49.192877+00:00",
+  "emails": [
+    "kauravneet8511@gmail.com",
+    "kaun@gmail.com"
+  ],
+  "phones": [
+    "9779248511",
+    "919779248511",
+    "917482986746",
+    "+919779248511",
+    "7482986746",
+    "+917482986746",
+    "+919779248511 / 7482986746"
+  ]
+}

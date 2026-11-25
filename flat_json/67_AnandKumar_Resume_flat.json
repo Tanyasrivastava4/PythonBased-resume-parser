@@ -1,6 +1,4 @@
 {
-  "id": 67,
-  "file_name": "AnandKumar_Resume.pdf",
   "email": "anand.works3@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "+918756916324",
@@ -33,6 +31,41 @@
     "2. FRONTEND DEVELOPER INTERN @ MERN Full Stack Training (Nov 2024 - May 2025) [conf 0.85, review=True]"
   ],
   "company_details_confidence": 0.92,
+  "work_experience": [
+    {
+      "role": "FRONTEND DEVELOPER INTERN",
+      "company": "B2B MULTI STEP APPLICATION FORM",
+      "start": "Dec 2025",
+      "end": "Feb 2026",
+      "responsibilities": [
+        "Worked on two real-world enterprise applications: a B2B Application Portal (Angular) deployed in production and a Back Office Admin Dashboard (React.js) currently in UAT.",
+        "Built a B2B Application Portal using Angular with dynamic Reactive Forms for student applications and developed a Back Office Admin Panel using React.js to manage student applications and internal operations.",
+        "Integrated 10+ REST APIs for student listing, program–course data and developed a fully responsive UI ensuring consistent user experience across desktop, tablet, and mobile devices for both projects.",
+        "Collaborated with backend and QA teams in an agile environment to deliver production features.",
+        "Built scalable admin dashboards using React.js and PrimeReact, to manage large student datasets with dynamic data tables, server-side pagination, global searching, multi-column sorting, and advanced filtering.",
+        "Developed config-driven reusable components and custom hooks to standardize tables, workflows, and UI behavior across multiple modules",
+        "Integrated SSO authentication and REST APIs for secure enterprise dashboard access.",
+        "Implemented bulk workflows including approval/rejection, session updates, along with Excel-based data uploads, server- side CSV exports, and UTR/PO number update actions to streamline internal operations.",
+        "Developed a dynamic multi-step B2B application portal using Angular Reactive Forms and PrimeNG Stepper with complex validations and conditional rendering.",
+        "Designed a secure student application flow where form access is controlled through email-based unique application links with student ID validation.",
+        "Implemented step-wise API auto-save enabling users to resume applications without data loss.",
+        "Built secure document upload with Base64 encoding and PDF/image preview, while improving UX through real- time validation, progress tracking, and dynamic form rendering.",
+        "Developed a responsive food delivery web application using React.js, Vite, and Tailwind CSS with a mobile-first UI and optimized user experience.",
+        "Implemented menu browsing, category filtering, cart management, and checkout flow using React Router and Context API for global state management.",
+        "Built modular and reusable UI components to improve code maintainability and scalability."
+      ]
+    },
+    {
+      "role": "FRONTEND DEVELOPER INTERN",
+      "company": "MERN Full Stack Training",
+      "start": "Nov 2024",
+      "end": "May 2025",
+      "responsibilities": [
+        "Gained hands-on experience in developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js, completed multiple projects. Links: https://www.linkedin.com/in/anandkum4r/ https://github.com/AnandKum4r ──────────────────────────────────────────────────────────── [Found 7 sections total: ['header', 'summary', 'skills', 'experience', 'experience', 'education', 'certifications']]"
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.92,
   "designation": [
     "FRONTEND DEVELOPER INTERN"
   ],
@@ -46,7 +79,6 @@
     "GitHub",
     "HTML5",
     "JavaScript",
-    "LinkedIn",
     "MERN Stack",
     "Microsoft Excel",
     "MongoDB",
@@ -76,5 +108,6 @@
     "7. https://github.com/AnandKum4r [conf 0.6]"
   ],
   "certification_confidence": 0.62,
-  "parsing_time_seconds": 0.95
+  "id": 67,
+  "file_name": "AnandKumar_Resume.pdf"
 }

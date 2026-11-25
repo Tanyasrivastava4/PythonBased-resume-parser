@@ -23,11 +23,53 @@ def _fmt_education_line(i: int, entry: dict) -> str:
             f"[conf {entry['_confidence']}, review={entry['_needs_review']}]")
 
 
+_NON_TITLE_DISQUALIFIED = {
+    "the project", "project", "projects", "unknown role", "unknown - role", "unknown", "role",
+    "title", "description", "responsibilities", "key responsibilities", "experience",
+    "work experience", "summary", "present", "current", "duration", "employment"
+}
+
+_GEO_LOCATION_PATTERN = re.compile(
+    r"^(?:(?:[A-Za-z\s]+,\s*(?:india|usa|uk|uae|canada|singapore|australia))|"
+    r"(?:delhi|new\s*delhi|gurgaon|gurugram|noida|mumbai|pune|bangalore|bengaluru|hyderabad|chennai|kolkata|lucknow|indore|jaipur|ahmedabad|chandigarh|mohali)(?:,\s*[A-Za-z\s]+)?)$",
+    re.I
+)
+
+
+def _sanitize_title(raw_title: str) -> str:
+    if not raw_title:
+        return ""
+    # Strip leading bullet artifacts & symbols: Clean ^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\—\|\s\d\.\)\(]+
+    t = re.sub(r"^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\—\|\s\d\.\)\(]+", "", str(raw_title)).strip()
+    # Strip trailing empty parens, brackets, colons, dashes
+    t = re.sub(r"\s*\(\s*\)$", "", t).strip()
+    t = re.sub(r"[\s:\-–—,|]+$", "", t).strip()
+    if t.lower() in _NON_TITLE_DISQUALIFIED or len(t) < 3 or t.isdigit() or _GEO_LOCATION_PATTERN.match(t):
+        return ""
+    words = t.split()
+    if len(words) >= 3 and len(set(w.lower() for w in words)) == 1:
+        return ""
+    return t
+
+
+def _sanitize_company(raw_comp: str) -> str:
+    if not raw_comp:
+        return ""
+    c = re.sub(r"^[•●○◦▪▫■□▸►‣➤✓✔➢❖✦★✪\-\*\—\|\s\d\.\)\(]+", "", str(raw_comp)).strip()
+    c = re.sub(r"\s*\(\s*\)$", "", c).strip()
+    c = re.sub(r"[\s:\-–—,|]+$", "", c).strip()
+    if c.count("(") > c.count(")"):
+        c += ")"
+    if c.lower() in ("unknown company", "company", "unknown", "none", "null") or (len(c) <= 2 and c.isdigit()):
+        return ""
+    return c
+
+
 def _fmt_experience_line(i: int, job: dict) -> str:
-    role = job["role"] or "Unknown role"
-    company = job["company"] or "Unknown company"
-    start = job["start"]
-    end = job["end"]
+    role = _sanitize_title(job.get("role")) or job.get("role") or "Unknown role"
+    comp = _sanitize_company(job.get("company")) or job.get("company") or "Unknown company"
+    start = job.get("start")
+    end = job.get("end")
     if not start and end:
         date_str = f"({end})"
     elif start and not end:
@@ -36,8 +78,8 @@ def _fmt_experience_line(i: int, job: dict) -> str:
         date_str = f"({start} - {end})"
     else:
         date_str = "(? - ?)"
-    return (f"{i}. {role} @ {company} {date_str} "
-            f"[conf {job['confidence']}, review={job['needs_review']}]")
+    return (f"{i}. {role} @ {comp} {date_str} "
+            f"[conf {job.get('confidence', 0.95)}, review={job.get('needs_review', False)}]")
 
 
 
@@ -95,10 +137,45 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
         if label and label not in seen_degrees:
             seen_degrees.append(label)
 
+    _GEO_LOCATION_PATTERN = re.compile(
+        r"^(?:(?:[A-Za-z\s]+,\s*(?:india|usa|uk|uae|canada|singapore|australia))|"
+        r"(?:delhi|new\s*delhi|gurgaon|gurugram|noida|mumbai|pune|bangalore|bengaluru|hyderabad|chennai|kolkata|lucknow|indore|jaipur|ahmedabad|chandigarh|mohali)(?:,\s*[A-Za-z\s]+)?)$",
+        re.I
+    )
+
     seen_titles = []
     for job in exp["jobs"]:
-        if job["role"] and job["role"] not in seen_titles:
-            seen_titles.append(job["role"])
+        r = _sanitize_title(job.get("role"))
+        if r and not any(r.lower() == st.lower() for st in seen_titles):
+            seen_titles.append(r)
+
+    # Recover any prominent titles from the experience text that were separated by multi-column layout
+    exp_raw = sections.get("experience", "") + "\n" + sections.get("roles_responsibilities", "")
+    _TITLE_RECOVERY = re.compile(
+        r"\b((?:Senior\s+|Lead\s+|Associate\s+|Assistant\s+|Regional\s+)?(?:Sales\s+Manager|Growth\s+Manager|Business\s+Development\s+Manager|Product\s+Manager|Account\s+Manager|Marketing\s+Manager|Client\s+Solutions|GTM\s+Intern|UI/UX\s+Designer|UX\s+Designer|Software\s+Engineer|Data\s+Analyst|Consultant|Chartered\s+Accountant|Internal\s+Auditor|Risk\s+Consultant))\b",
+        re.I
+    )
+    for m in _TITLE_RECOVERY.finditer(exp_raw):
+        found_title = _sanitize_title(m.group(1))
+        if found_title and not any(found_title.lower() == st.lower() for st in seen_titles):
+            seen_titles.append(found_title)
+
+    # Structured work experience preserving all bullets & responsibilities
+    structured_work_exp = []
+    for job in exp["jobs"]:
+        clean_r = _sanitize_title(job.get("role")) or job.get("role")
+        clean_c = _sanitize_company(job.get("company")) or job.get("company")
+        b_list = [
+            b.strip() for b in job.get("bullets", [])
+            if len(b.strip()) > 5 and not _GEO_LOCATION_PATTERN.match(b)
+        ]
+        structured_work_exp.append({
+            "role": clean_r,
+            "company": clean_c,
+            "start": job.get("start"),
+            "end": job.get("end"),
+            "responsibilities": b_list
+        })
 
     company_details = [
         f"EXPERIENCE ({len(exp['jobs'])} jobs, {len(exp['early_career'])} early_career entries)",
@@ -170,6 +247,9 @@ def flatten_resume_record(segmented_filepath: str) -> dict:
 
         "company_details": company_details,
         "company_details_confidence": exp["_confidence"],
+
+        "work_experience": structured_work_exp,
+        "work_experience_confidence": exp["_confidence"],
 
         "designation": seen_titles,
 

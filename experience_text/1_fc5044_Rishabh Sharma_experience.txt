@@ -1,0 +1,80 @@
+======================================================================
+FILE: 1_fc5044_Rishabh Sharma_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Looks Prive 2025-PRESENT
+Operations
+Operations Training & Quality Manager
+S K I L L S
+Design and implement soft-skill and brand-compliance training for
+staff.
+Training & Development
+Direct daily salon operations and manage performance tracking
+Operational Leadership
+metrics.
+Enforce quality audit fr...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 9.0 years (108 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Operations
+  Company      : Looks Prive
+  Location     : None
+  Start - End  : 2025 - PRESENT
+  Duration     : 23 months
+  Bullets      : 4
+    • Design and implement soft-skill and brand-compliance training for staff.
+    • Direct daily salon operations and manage performance tracking
+    • metrics. Enforce quality audit frameworks to ensure 100% brand standard
+    • adherence.
+  Sub-sections : ['Training & Development', 'Operational Leadership', 'Strategic Management']
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Store Incharge & Training Coordinator
+  Company      : Quality Assurance
+  Location     : None
+  Start - End  : 2022 - 2025
+  Duration     : 37 months
+  Bullets      : 3
+    • Managed end-to-end store operations and strategic budget planning. Coordinated regional product training for new joinees.
+    • Selected for the Performance Development Programme for high-
+    • potential leaders.
+  Sub-sections : ['Sales Strategy & Promotion', 'Employee Onboarding &']
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : ASSISTANT STORE MANAGER
+  Company      : Coaching
+  Location     : None
+  Start - End  : 2020 - 2021
+  Duration     : 13 months
+  Bullets      : 1
+    • Promoting sales by demonstrating merchandise and products to
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Guest Service Supervisor
+  Company      : THE OBEROI HOTELS & RESORTS
+  Location     : None
+  Start - End  : 2017 - 2020
+  Duration     : 37 months
+  Bullets      : 3
+    • Promoted from Associate to Supervisor within Front Office and Housekeeping.
+    • Nominated as a Certified Departmental Trainer to lead brand SOP training.
+    • Successfully completed the Supervisor Development Program.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False

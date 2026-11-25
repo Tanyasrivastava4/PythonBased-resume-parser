@@ -1,0 +1,63 @@
+======================================================================
+FILE: 229_Drishti-GT-1_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Assistant Manager f) Apr 2026 Present
+-
+Deloitte Haskins and Sells LLP 9 Mumbai, Maharashtra
+Leading Big Four professional services firm | Statutory Audit & Assurance
+|Serving leading listed, private and multinational companies diverse
+across
+industries
+Executed statutory audits of Listed and Privat...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 3.8 years (45 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Article Assistant fF] Feb 2023
+  Company      : Aug 2025
+  Location     : None
+  Start - End  : Apr 2026 - Present
+  Duration     : 8 months
+  Bullets      : 2
+    •  Deloitte Haskins and Sells LLP 9 Mumbai, Maharashtra Leading Big Four professional services firm | Statutory Audit & Assurance |Serving leading listed, private and multinational companies diverse across industries Executed statutory audits of Listed and Private companies across e multiple industries in accordance with Ind AS, Standards on Auditing, and the Companies Act, 2013. Performed Limited Review engagements of quarterly and half-yearly e financial results, carrying out analytical procedures, inquiries, and review of significant accounting matters. Performed risk assessment, substantive procedures, and test of e controls for key financial statement areas including revenue, fixed assets, inventory, employee benefits, borrowings, and financial instruments. Assisted in reporting under CARO 2020 by performing detailed testing of e applicable clauses.
+    • analysis, and balance sheet reconciliations to identify potential misstatements and audit risks. Leveraged advanced Microsoft Excel (Pivot Tables, XLOOKUP and e SUMIFS) to analyse 9,00,000+ transaction records, perform audit sampling, reconciliations, variance analysis, and substantive testing across key financial statement areas.
+  Sub-sections : ['Conducted materiality assessment, analytical procedures, variance', 'e']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Article Assistant f) Aug 2022
+  Company      : Jan 2023
+  Location     : None
+  Start - End  : Feb 2023 - Aug 2025
+  Duration     : 31 months
+  Bullets      : 3
+    • 
+    • Boutique Chartered Accountancy firm headquartered in Jaipur, operating through network of six branch offices | Debt Restructuring, Loan a Syndication & Audit | 8 Partners | 25+ | 250+ clients years Managed a portfolio of 5+ parallel financial advisory engagements, e demonstrating strong leadership, organization, and deadline discipline. Prepared 30+ CMA reports, projections and 10+ project finance reports, e including financial projections, DSCR analysis and sensitivity modelling for bank financing approvals. Conducted financial statement analysis for RR Group (8-9 entities, 70+ e loan facilities), delivering balance-sheet and profitability insights. Conducted statutory audits for Union Bank of India and Rajasthan ¢ Marudhara Gramin Bank (RMGB) across 9 branches. Worked on key audit areas such as ECL, leases, related parties, and e impairment ensuring compliance with SA 500 and Ind AS responsibility. Prepared financial statements and tax filings using Tally and advanced e Excel, improving accuracy and reducing compliance errors.
+    • collaboration, and end-to-end project management to coordinate with internal and lender stakeholders, supported by clear communication to keep all engagement milestones on track. Conducted inventory audits, including physical verification, cut-off e¢ testing, valuation review (NRV), and reconciliation with books.
+  Sub-sections : ['APMG and Associates 9 jaipur, Rajasthan', 'Leveraged cross-functional stakeholder management, cross-team', 'e']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Article Assistant f
+  Company      : None
+  Location     : None
+  Start - End  : Aug 2022 - Jan 2023
+  Duration     : 6 months
+  Bullets      : 2
+    • 
+    • audit, tax, and financial advisory services.
+  Sub-sections : ['Mehta and Company 9 jaipur, Rajasthan', 'Mehta and Company is a 50 years old public accounting firm specializing in']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.85
+  Needs Review : True

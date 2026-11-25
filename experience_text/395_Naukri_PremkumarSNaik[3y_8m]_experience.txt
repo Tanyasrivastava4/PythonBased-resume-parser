@@ -1,0 +1,90 @@
+======================================================================
+FILE: 395_Naukri_PremkumarSNaik[3y_8m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+AMERICAN EXPRESS
+| Senior Data Analyst | US Consumer Marketing [Apr’25-Present]
+GROWTH STRATEGY &
+INVESTMENT ANALYTICS
+§ Own acquisition analytics
+supporting 870M+ marketing investment, translating performance trends into budgeting decisions.
+§ Evaluated post-offer
+spend behaviour to measure increme...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.8 years (69 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Data Analyst
+  Company      : US Consumer Marketing
+  Location     : None
+  Start - End  : Apr’25 - Present
+  Duration     : 20 months
+  Bullets      : 8
+    • supporting 870M+ marketing investment, translating performance trends into budgeting decisions.
+    • spend behaviour to measure incremental ROI and long-term LTV impact across products and channels.
+    • to assess acquisition quality, early spend velocity, and retention trends across customer segments.
+    • and test-and-learn analyses to optimize channel allocation and offer efficiency.
+    • reporting infrastructure standardizing acquisition KPIs across teams.
+    • ETL to GCP BigQuery, reducing inefficiencies, manual coding, and latency from 6 hours to 5 minutes.
+    • pipelines enabling near real-time performance reporting & standardized KPI tracking across teams.
+    • frameworks & metric governance standards to detect acquisition anomalies & improve accuracy.
+  Sub-sections : ['§ Evaluated post-offer', '§ Built cohort frameworks', '§ Designed incrementality', 'DATA PLATFORMS &', 'DECISION SYSTEMS', '§ Built scalable growth', '§ Migrated legacy Python', '§ Automated GCP-to-PowerBI', '§ Implemented monitoring']
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Digital Product Analyst
+  Company      : Enterprise Digital and Data Solutions (EDDS
+  Location     : None
+  Start - End  : July’22 - Mar’25
+  Duration     : 33 months
+  Bullets      : 9
+    • of the Quarter for executing search-driven growth strategies, increased acquisition traffic by 12%.
+    • opportunity via conversion funnel analysis on prospect-driven article pages; managed deployment with Tech and Market teams to deploy targeted banners, resulting in 2x projected acquisition growth after launch.
+    • engine for 300K+ keyword portfolio, reducing manual effort by 95% and enabling algorithmic bidding strategies that unlocked 100M+ revenue.
+    • pausing paid search for 'Cobalt' credit card queries to track paid search traffic shift to natural search.
+    • Pass page post-optimization performance, delivering search insights that improved page ranking by 40%.
+    • performance tracker with 15+ metrics across 50K+ Amex web pages, enabling real-time page monitoring.
+    • logic to track 100M+ visits across marketing channels, enhancing spend and marketing strategy.
+    • forecasting model integrating financial data; benchmarked through ARIMA & time series techniques.
+    • search opportunities through data and delivered 40+ ad hoc analyses to drive traffic and acquisition.
+  Sub-sections : ['GROWTH & ACQUISITION', 'ANALYTICS', '§ Uncovered 12M+ business', '§ Systematized analytics', '§ Executed A/B test by', '§ Investigated JP Priority', 'SEARCH, ATTRIBUTION', '& PERFORMANCE PLATFORMS', '§ Co-Created an SEO', '§ Engineered traffic classification', '§ Developed performance', '§ Presented 50M+ business']
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Data Science Intern
+  Company      : SILVERNOX TECH VENTURES
+  Location     : None
+  Start - End  : May’20 - Jun’20
+  Duration     : 2 months
+  Bullets      : 3
+    • from the founder & CEO; Research Lab for AI/Deep Tech applications in insurance claims.
+    • damage images across 10+ categories, training an ML model for automated insurance claim review.
+    • accuracy by 17%, enabling mechanized damage analysis & 21% reduction in claim assessment costs.
+  Sub-sections : ['§ Annotated 4.5K+ car', '§ Boosted ML model']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Master’s Thesis-IIT Bombay
+  Company      : NETWORKS FOR MULTIPHASE HEAT TRANSFER
+  Location     : None
+  Start - End  : May’21 - Jun’22
+  Duration     : 14 months
+  Bullets      : 2
+    • neural network model in Python (TensorFlow, Scikit-Learn) to simulate and predict complex heat transfer patterns, improving computational efficiency and accuracy over traditional methods.
+    • to handle phase transitions & enable faster and more reliable scenario testing for industrial problems.
+  Sub-sections : ['§ Enhanced the model']
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False

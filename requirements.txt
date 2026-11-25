@@ -1,42 +1,41 @@
 # =============================================================================
-# ATS Resume Parser - Exact Pinned Dependencies (from active virtual environment)
+# ATS Resume Parser - Production Requirements
 # =============================================================================
 
 # --- Web Server & API ---
-fastapi==0.141.1
-uvicorn==0.52.4
-python-multipart==0.0.32
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.12
 
 # --- Document Reading & Ingestion ---
-PyMuPDF==1.27.2.3
-pdfplumber==0.11.10
-pdfminer.six==20260107
-python-docx==1.2.0
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.0
+python-docx>=1.1.0
 
 # --- OCR & Computer Vision ---
-pytesseract==0.3.13
-opencv-python==4.13.0.92
-pillow==10.4.0
-numpy==2.2.6
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0,<=2.3.0
 
 # --- Information Extraction & Taxonomies ---
-flashtext==2.7
-RapidFuzz==3.14.5
-python-dateutil==2.9.0.post0
+flashtext>=2.7
+RapidFuzz>=3.9.0
+python-dateutil>=2.9.0
 
 # --- NLP & Named Entity Recognition ---
-spacy==3.8.14
+spacy>=3.7.0
 
 # --- Testing & HTTP Client ---
-requests==2.34.2
+requests>=2.31.0
 
 # --- Vector Database & Semantic Embeddings (Qdrant Auto-Sync) ---
-qdrant-client==1.20.0
-fastembed==0.9.1
-onnxruntime==1.23.2
+qdrant-client>=1.10.0
+fastembed>=0.3.0
+onnxruntime>=1.17.0
 
 # --- Optional: Advanced Vision/OCR (Surya OCR Engine) ---
 # Uncomment below if you wish to run OCR_ENGINE=surya instead of OCR_ENGINE=tesseract
-# surya-ocr==0.14.7
-# pypdfium2==4.30.0
+# surya-ocr>=0.14.0
+# pypdfium2>=4.30.0
 # torch>=2.2.0

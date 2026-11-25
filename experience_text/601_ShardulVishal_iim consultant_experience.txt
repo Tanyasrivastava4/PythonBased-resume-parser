@@ -1,0 +1,79 @@
+======================================================================
+FILE: 601_ShardulVishal_iim consultant_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+32nd Private Limited
+Gurgaon, India
+Sales Manager
+May’2025- Dec’ 2025
+● Spearheaded the growth of InvestBits (Fractional Real Estate) from scratch to ₹1 CR MRR as a core team member.
+● Contributed to GTM and sales execution for InvestBits in funnel development, partnership acquisition, growth and ma...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 1.7 years (20 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : Gurgaon, India
+  Company      : 32nd Private Limited
+  Location     : None
+  Start - End  : May’2025 - Dec’ 2025
+  Duration     : 8 months
+  Bullets      : 6
+    • Spearheaded the growth of InvestBits (Fractional Real Estate) from scratch to ₹1 CR MRR as a core team member.
+    • Contributed to GTM and sales execution for InvestBits in funnel development, partnership acquisition, growth and marketing.
+    • Designed pricing for InvestBits by analysing investor segments and benchmarking against REITs and other investment options.
+    • Drove early stage high value farmland investment project (₹10 Cr), supporting project inception, NPD and market launch.
+    • Coordinated with JV partners and internal stakeholders to align project objectives, timelines and execution strategy.
+    • Managed channel partners generating ~₹3Cr/month sales, built feedback loops to improve pipeline quality and GTM execution.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Delhi, India
+  Company      : Intoglo Private Limited
+  Location     : None
+  Start - End  : Dec’2024 - May’2025
+  Duration     : 6 months
+  Bullets      : 5
+    • Conducted market mapping of 200+ export manufacturers using bill-of-lading databases to identify high-potential clients.
+    • Scaled container volume from 60 TEUs to 150+TEUs through targeted outreach, market expansion and strategic sales.
+    • Executed targeted outreach to 200+ exporters, conducting 50+ meetings and 500+ discovery calls to build and qualify enterprise pipeline with 3–4 stakeholders per account including operations heads, and leadership to diagnose supply chain challenges.
+    • Converted Ralson Tyres as a strategic enterprise client by leading COO-level discussions focused on long-term capability, risk mitigation, and destination-market readiness, resulting in a sustainable ~₹6 CR annual revenue stream.
+    • Drove GTM strategy, pricing decions and competitor positioning leveraging client insights working closely with founders.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : Client Solutions
+  Location     : None
+  Start - End  : Dec’2023 - Mar'2024
+  Duration     : 4 months
+  Bullets      : 3
+    • Analysed market and conducted market mapping through secondary and primary market research for NCR Real Estate market.
+    • Drafted Business Requirement Documents for early requirements of Lead Management and CRM.
+    • Conducted comprehensive market research and developed GTM for the NCR market through TAM, SAM, SOM estimation.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Indore, India
+  Company      : Bharti Airtel Limited
+  Location     : None
+  Start - End  : Apr’2022 - Jun’2022
+  Duration     : 3 months
+  Bullets      : 3
+    • Coordinated cross-functionally with 119 TSM, 29 ZSM, 510 FSE and 42 Distributors to ensure smooth operations.
+    • Sp earheaded activation of 7 new retail stores and 36 stores in pipeline to be launched in a span of 2 months.
+    • S t reamlined field sales activities, increasing productivity by 360% in 16 days through effective KPI and operational efficiency.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

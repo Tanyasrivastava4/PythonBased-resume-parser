@@ -1,0 +1,35 @@
+======================================================================
+FILE: 34_Akanksha_Gupta_HR_2026_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Talent Acquisi.on Specialist – Peer Consul.ng Pvt Ltd, Gurugram
+October 2 0 2 5 — P R E S E N T
+• Managing end-to-end recruitment lifecycle of employees.
+• Handling employee onboarding formali.es, documenta.on, and joining .
+• Executing strategic sourcing through job portals (Naukri, LinkedIn) and
+p...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 1
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 0.2 years (2 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Talent Acquisi.on Specialist
+  Company      : Peer Consul.ng Pvt Ltd
+  Location     : Gurugram
+  Start - End  : June 2024 - July 2024
+  Duration     : 2 months
+  Bullets      : 6
+    • Assisted the HR team in end-to-end onboarding processes including documentation, induction, and employee orientation
+    • Maintained and updated employee records, HR databases, attendance, and compliance-related documentation
+    • Supported day-to-day HR operations and coordinated with employees for smooth communication and process management
+    • Assisted in organizing employee engagement activities, team interactions, and feedback initiative.
+    • Coordinated interview schedules, candidate follow-ups, and joining formalities during recruitment activities
+    • Provided support in employee query handling and ensured timely HR coordination across departments
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False

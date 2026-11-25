@@ -1,0 +1,50 @@
+======================================================================
+FILE: 557_Resume_2_Ananya_Iyer_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior Python Developer (Tech Lead - Platform)
+StreamForge Labs, Bengaluru | Jan 2021 - Present
+• Led a squad of 6 engineers to re-architect a monolith into 14 FastAPI microservices using Kafka, PostgreSQL
+and Redis; reduced deployment time by 70%.
+• Built high-throughput async APIs with asyncio tha...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 8.4 years (101 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Python Developer (Tech Lead)
+  Company      : Platform
+  Location     : None
+  Start - End  : Jan 2021 - Present
+  Duration     : 71 months
+  Bullets      : 7
+    • Led a squad of 6 engineers to re-architect a monolith into 14 FastAPI microservices using Kafka, PostgreSQL and Redis; reduced deployment time by 70%.
+    • Built high-throughput async APIs with asyncio that handle 5,000+ requests/second at p95 latency below 120 ms.
+    • Designed event-driven pipelines with Kafka and Celery to process 20M+ events/day with at-least-once delivery guarantees.
+    • Introduced OAuth2 / JWT-based auth, API versioning and rate limiting across all services; closed all critical OWASP Top 10 findings.
+    • Built CI/CD pipelines with GitLab CI, Docker and Kubernetes; provisioned infrastructure through Terraform on AWS.
+    • Set up observability (Prometheus, Grafana, Sentry, OpenTelemetry), reducing mean time to resolution of incidents by 50%.
+    • Conducted code reviews and design reviews, mentored 4 engineers, and raised test coverage to 90% using pytest and TDD.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Python Developer
+  Company      : Finlytics Software Pvt Ltd
+  Location     : Chennai
+  Start - End  : Jul 2018 - Dec 2020
+  Duration     : 30 months
+  Bullets      : 4
+    • Developed Django / DRF APIs and Flask services for a lending analytics platform using MySQL and PostgreSQL.
+    • Implemented Celery and RabbitMQ workflows for report generation and email notifications.
+    • Tuned SQL queries and ORM usage, improving dashboard load time by 55%.
+    • Worked in Agile / Scrum sprints; wrote unit and integration tests with unittest and pytest.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

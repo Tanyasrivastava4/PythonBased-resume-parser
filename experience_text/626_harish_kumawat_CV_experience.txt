@@ -1,0 +1,66 @@
+======================================================================
+FILE: 626_harish_kumawat_CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Skilled in translating business problems into data science solutions, delivering
+measurable impact and driving strategic outcomes.
+2021 - Present
+HCL Technologies
+Data Scientist with 5 years of experience building
+Contact
+machine learning, deep learning, and generative AI
+solutions to drive business...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.94
+Needs review   : True
+Total exp      : 10.9 years (131 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Data Scientist
+  Company      : HCL Technologies
+  Location     : None
+  Start - End  : 2021 - Present
+  Duration     : 71 months
+  Bullets      : 2
+    • machine learning, deep learning, and generative AI solutions to drive business insights and operational
+    • efficiency. Experienced in developing scalable pipelines,
+  Sub-sections : ['Contact', 'Phone', 'Email', 'predictive models, and AI-powered applications in']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : None
+  Company      : Developed and deployed machine learning
+  Location     : None
+  Start - End  : 2017 - 2021
+  Duration     : 49 months
+  Bullets      : 0
+  Sub-sections : ['CSE', 'JE CRC University', 'Performed EDA, data preprocessing, and feature']
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 3
+  Role         : Built end-to-end ML pipelines using Python and
+  Company      : ST Anslems School
+  Location     : None
+  Start - End  : 2016 - 2017
+  Duration     : 13 months
+  Bullets      : 8
+    • SQL, covering data ingestion, model training, and deployment.
+    • Developed an NLP-driven customer support automation system to streamline query classification, prioritization, and resolution workflows. The solution leverages machine learning and NLP techniques to analyze customer interactions, automate responses, and assist support teams with intelligent recommendations, improving overall service efficiency and response quality.
+    • Built NLP pipelines for text classification, sentiment analysis, and entity extraction on customer queries. Developed machine learning models to automate query routing, prioritization, and response recommendations. Performed data preprocessing, feature engineering, and exploratory data analysis (EDA) on large-scale customer interaction datasets. Designed and deployed real-time inference APIs using FastAPI, with Docker- based deployment for scalability. Evaluated and optimized models using cross-validation, performance metrics, and hyperparameter tuning to improve accuracy. Collaborated with product and operations teams to align solutions with business requirements and user needs.
+    • Improved first-contact resolution rate, reducing support escalations by ~40%. Automated query classification and routing, significantly lowering manual workload for support teams. Enhanced customer experience through faster and more accurate response handling. PROJECT 4: AI LOAN APPROVAL & RISK SCORING SYSTEM
+    • Designed and developed an AI-driven loan approval and risk scoring system to automate credit decision-making using customer financial behavior, transaction history, and alternative data sources. The system predicts default risk and assigns a dynamic risk score, enabling faster and more accurate loan approvals with improved risk control.
+    • Performed EDA to identify key financial risk patterns and customer behavior trends Built advanced feature engineering pipeline including credit utilization ratio, payment consistency, and income stability Trained models like Logistic Regression, Random Forest, and XGBoost Developed a risk scoring system (scorecard style) for business interpretability
+    • Implemented model explainability using SHAP to ensure transparency Designed threshold-based decision system for loan approval/rejection Built APIs using FastAPI for real-time credit risk scoring
+    • Improved loan approval decision speed by 40% Reduced default risk through better risk segmentation Enabled automated decision-making system for credit evaluation Links: https://en.wikipedia.org/wiki/JECRC_University ──────────────────────────────────────────────────────────── [Found 7 sections total: ['header', 'summary', 'experience', 'experience', 'languages', 'skills', 'experience']]
+  Sub-sections : ['ST Anslems School', 'CBSE', 'LLMs (GPT / LLaMA)', 'FastAPI, Docker', 'Business Impact', 'Reduced information retrieval time by 60–70%', 'Improved decision-making with accurate contextual answers', 'Enabled self-service knowledge access across teams', 'PROJECT 3: NLP & MACHINE LEARNING – CUSTOMER SUPPORT', 'AUTOMATION SYSTEM', 'Project Overview', 'Responsibilities', 'Technologies', 'Python, Machine Learning, NLP', 'Scikit-learn, Pandas, NumPy', 'FastAPI, Docker, AWS', 'Business Impact', '(ADVANCED)', 'Project Overview', 'Responsibilities', 'Applied hyperparameter tuning to optimize performance', 'Technologies', 'Python, Scikit-learn, XGBoost', 'Pandas, SHAP', 'FastAPI', 'Business Impact']
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

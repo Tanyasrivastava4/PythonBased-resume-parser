@@ -1,0 +1,43 @@
+======================================================================
+FILE: 444_Nisha_Lawaniya_Resume_HR__1__segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Recruitment, Employee Engagement
+Peer Consulting Pvt Ltd
+Talent Acquisition Specialist
+Oct 2025 – Present
+– End-to-end BFSI recruitment for Retail Banking, Corporate Banking, NBFC and FinTech roles.
+– Hiring for Relationship Manager, Credit Analyst, CASA Sales and Branch Operations roles.
+– Coordina...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.92
+Needs review   : True
+Total exp      : 1.0 years (12 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : Questhiring
+  Location     : None
+  Start - End  : Jan 2025 - Sep 2025
+  Duration     : 9 months
+  Bullets      : 1
+    • – Managed end-to-end technical recruitment, sourcing, screening, and hiring candidates for various IT and tech roles. – End-to-end technical recruitment including C2H and permanent hiring. – Sourcing through LinkedIn, job portals and email outreach. – Screening, interview coordination and candidate management.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Human Resources Intern
+  Company      : INGSOL LLP
+  Location     : None
+  Start - End  : May 2024 - July 2024
+  Duration     : 3 months
+  Bullets      : 1
+    • – Worked extensively on employee onboarding and engagement activities. – Assisted in streamlining HR processes including documentation and induction programs. – Designed presentations to support HR initiatives and strategies. – Contributed to HR strategy formulation using data-driven insights.
+  Method       : date_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

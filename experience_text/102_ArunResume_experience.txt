@@ -1,0 +1,54 @@
+======================================================================
+FILE: 102_ArunResume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Flutter Developer
+SAITEC INTERNATIONAL COMPUTER
+CONSULTANTS, NOIDA
+SEP 2022 - PRESENT
+Built and maintained cross-platform mobile apps
+with Flutter, making sure they ran smoothly and
+consistently on both Android and iOS devices.
+Transformed UI/UX designs into responsive, user-
+friendly screens using ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 4.8 years (57 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Flutter Developer
+  Company      : SAITEC INTERNATIONAL COMPUTER CONSULTANTS
+  Location     : NOIDA
+  Start - End  : SEP 2022 - PRESENT
+  Duration     : 51 months
+  Bullets      : 3
+    • with Flutter, making sure they ran smoothly and consistently on both Android and iOS devices.
+    • the app clean and easy to maintain. Connected the app to RESTful APIs, Firebase, and various third-party services to support real-time data, secure authentication, push notifications, and analytics.
+    • management tools like GetX. Worked closely with product managers, designers, and backend developers to turn ideas and requirements into well-built, practical app features. Wrote clean, readable code and contributed to code reviews to maintain high coding standards across the team. Managed app releases on both the Google Play Store and Apple App Store, including handling version updates, deployments, and release notes. Added unit and widget tests to boost app reliability and helped reduce production bugs by around 30%.
+  Sub-sections : ['Transformed UI/UX designs into responsive, user-', 'friendly screens using Flutter widgets, custom', 'animations, and reusable components to keep', 'Improved overall app performance by cutting', 'down unnecessary widget rebuilds, optimizing', 'API requests, and applying efficient state-']
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Flutter Developer (Intern)
+  Company      : KNIT INFOTEC
+  Location     : NOIDA
+  Start - End  : None - 6 Months
+  Duration     : 6 months
+  Bullets      : 6
+    • to keep the app clean and easy to maintain.
+    • management tools like GetX.
+    • Key Modules / Features:
+    • Ajay Unnati / Ajay Pipes App :-
+    • Key Modules / Features:
+    • [Found 7 sections total: ['header', 'summary', 'skills', 'education', 'languages', 'projects', 'experience']]
+  Sub-sections : ['Improved overall app performance by cutting', 'down unnecessary widget rebuilds, optimizing', 'API requests, and applying efficient state-', 'COOLCARE (Order Management App', '– Zambia) :-', 'About: Beverage Ordering & Cooler/Fridge', 'Management App', 'Product catalog: beverages & energy drinks', 'Order placement with delivery scheduling', 'Cooler/Fridge request & management', 'module', 'Order history & real-time status updates', 'User profile & location management', 'Push notifications for order updates', 'About: Product Information & Distributor', 'Support App', 'Complete product catalog with specs', 'Distributor & retailer locator', 'Customer support & contact module', 'Exclusive discounts & promotions', 'Company info & updates', 'Easy access to product manuals &', 'brochures', 'User profile for distributors/retailers', '────────────────────────────────────────────────────────────']
+  Method       : stated_duration_regex+full_paren_title+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

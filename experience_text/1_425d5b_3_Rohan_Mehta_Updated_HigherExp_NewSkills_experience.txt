@@ -1,0 +1,42 @@
+======================================================================
+FILE: 1_425d5b_3_Rohan_Mehta_Updated_HigherExp_NewSkills_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+WORK EXPERIENCE (Total: 4.8 Years)
+Senior Software Engineer at NextGen FinTech
+July 2024 - Present (1.8 years)
+Architected async event-driven FastAPI microservices. Integrated Redis caching and deployed containerized services on
+Kubernetes clusters.
+Software Engineer at TechCorp Solutions
+June 2021 ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 5.5 years (66 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Software Engineer
+  Company      : WORK EXPERIENCE (Total
+  Location     : None
+  Start - End  : July 2024 - Present
+  Duration     : 29 months
+  Bullets      : 0
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Architected async event-driven FastAPI microservices. Integrated Redis caching and deployed containerized services on Software Engineer
+  Company      : TechCorp Solutions
+  Location     : None
+  Start - End  : June 2021 - June 2024
+  Duration     : 37 months
+  Bullets      : 1
+    • Developed core Python backend services and automated ETL data pipelines.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

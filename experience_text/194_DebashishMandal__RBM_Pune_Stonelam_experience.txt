@@ -1,0 +1,75 @@
+======================================================================
+FILE: 194_DebashishMandal__RBM_Pune_Stonelam_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Channel Sales Management
+OEM Sales
+Apr 2025 - Senior Area Sales Manager
+Present
+Channel Development
+Merino Industries
+Channel Management
+Senior ASM responsible for Business development (Project
+sales), Channel Sales handling Key Primary & Secondary
+Dealer Management
+Accounts,Sales promotion & Market...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.95
+Needs review   : True
+Total exp      : 1.7 years (20 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Apr 2025
+  Company      : Present | Senior Area Sales Manager
+  Location     : None
+  Start - End  : Apr 2025 - Present
+  Duration     : 20 months
+  Bullets      : 1
+    • Senior ASM responsible for Business development (Project sales), Channel Sales handling Key Primary & Secondary
+  Sub-sections : ['Merino Industries', 'Channel Management', 'Dealer Management', 'Accounts,Sales promotion & Marketing Activities includes', 'branding i.e. ATL & BTL Activities']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : Mar Area Sales Manager
+  Company      : Apr 2023
+  Location     : None
+  Start - End  : 2025 - 2025
+  Duration     : 1 months
+  Bullets      : 2
+    • Project Sales & Retail Sales, Channel Distribution handling, Lead
+    • management, Team development
+  Sub-sections : ['Industrial Sales']
+  Method       : single_year_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Mar Deputy Manager
+  Company      : Apr 2021
+  Location     : None
+  Start - End  : 2023 - 2023
+  Duration     : 1 months
+  Bullets      : 2
+    • Dealer Channel Management
+    • Responsible for Project Sales, Channel Sales & OEM Sales, Lead generation and handling.
+  Sub-sections : ['MERINO INDUSTRIES LIMITED']
+  Method       : single_year_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Mar Assistant Manager
+  Company      : Apr 2019
+  Location     : None
+  Start - End  : 2021 - 2021
+  Duration     : 1 months
+  Bullets      : 0
+  Method       : single_year_regex+dash_split
+  Confidence   : 0.98
+  Needs Review : False

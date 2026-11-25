@@ -1,0 +1,55 @@
+======================================================================
+FILE: 211_Dhiraj_Ravikiran__segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+<; Relationship Associate Axismax Life Insurance (Banca channel) APR-26- PRESENT
+-
+Serving Relationship Associate at Axismax Life Insurance, where | a diverse portfolio of clients and
+as a manage
+guide them in choosing suitable life insurance products. | specialize in maintaining long-term professio...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.79
+Needs review   : True
+Total exp      : 3.9 years (47 months, 1 overlapping periods merged)
+
+Entry 1
+  Role         : (Banca channel)
+  Company      : None
+  Location     : None
+  Start - End  : APR-26 - PRESENT
+  Duration     : 8 months
+  Bullets      : 1
+    •  Serving Relationship Associate at Axismax Life Insurance, where | a diverse portfolio of clients and as a manage guide them in choosing suitable life insurance products. | specialize in maintaining long-term professional ties and simplifying complex policy details for customers. My role involves proactive communication and consistent follow- ups to ensure seamless service delivery.
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 2
+  Role         : None
+  Company      : os Salse Exicutive- Buisness Loan HDFC Bank
+  Location     : None
+  Start - End  : Nov-24 - APR-26
+  Duration     : 18 months
+  Bullets      : 1
+    •  : Dedicated Sales Executive at HDFC Bank specializing in the Unsecured Business Loan portfolio. Proven track record of identifying high-potential business clients and achieving monthly disbursement targets through effective relationship management and financial need analysis.
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 3
+  Role         : Handled end-to-end business operations, including customer relationship management, scheduling, and service
+  Company      : Entrepreneur- Driver calls driver services
+  Location     : None
+  Start - End  : Jan-23 - Oct-24
+  Duration     : 22 months
+  Bullets      : 3
+    • Entrepreneur- Driver calls driver services - Handled end-to-end business operations, including customer relationship management, scheduling, and service quality control.
+    • Successfully met diverse client needs by maintaining a flexible and responsive service model.
+    • Managed and operated a temporary driver service, providing on-demand staffing solutions based on client requirements.
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

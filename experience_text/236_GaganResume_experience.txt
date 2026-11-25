@@ -1,0 +1,75 @@
+======================================================================
+FILE: 236_GaganResume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+BlueStock Fintech, Software Development Engineer
+12/2025 – 01/2026
+Integrated MongoDB databases for secure data storage and analytics workflows.
+Remote
+• Collaborated with cross-functional teams to develop and deploy full-stack solutions.
+• Optimized application performance and resolved technical is...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 0.9 years (11 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Software Development Engineer
+  Company      : BlueStock Fintech
+  Location     : None
+  Start - End  : 12/2025 - 01/2026
+  Duration     : 2 months
+  Bullets      : 4
+    • Integrated MongoDB databases for secure data storage and analytics workflows.
+    • Collaborated with cross-functional teams to develop and deploy full-stack solutions.
+    • Optimized application performance and resolved technical issues.
+    • 
+  Sub-sections : ['Remote']
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Full Stack Web Developer Intern
+  Company      : SmartED Innovation
+  Location     : None
+  Start - End  : 05/2025 - 08/2025
+  Duration     : 4 months
+  Bullets      : 4
+    • Designed and developed responsive web interfaces using HTML, CSS, JavaScript, and React.
+    • Built and integrated RESTful APIs with Node.js and Express.
+    • Implemented authentication and authorization systems (JWT, bcrypt).
+    • Collaborated with team members to troubleshoot issues and optimize performance.
+  Sub-sections : ['Remote']
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Full Stack Web Developer Intern
+  Company      : Developed a full-stack learning platform with secure authentication
+  Location     : dynamic dashboards
+  Start - End  : 04/2026 - 06/2026
+  Duration     : 3 months
+  Bullets      : 2
+    • responsive UI. Tech: React, Node.js, MongoDB, JWT, Axios, HTML, CSS, Express.js.
+    • 
+  Method       : date_regex+inherited_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Lead Developer
+  Company      : Clove Dental Webpage
+  Location     : None
+  Start - End  : 02/2026 - 03/2026
+  Duration     : 2 months
+  Bullets      : 1
+    • Built a responsive healthcare website clone with appointment booking features using HTML, CSS and JavaScript.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False

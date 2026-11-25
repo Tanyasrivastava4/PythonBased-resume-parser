@@ -1,0 +1,60 @@
+======================================================================
+FILE: 547_Resume_4_Priya_Nair_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Lead Python Developer
+Orbitas Commerce Technologies, Pune | Feb 2021 - Present
+• Led a team of 5 engineers building catalogue, pricing and order-orchestration services with Django, FastAPI,
+PostgreSQL and Kafka.
+• Designed microservices and REST APIs handling 10M+ requests/day; introduced OAuth2 / J...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 9.4 years (113 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Lead Python Developer
+  Company      : Orbitas Commerce Technologies
+  Location     : Pune
+  Start - End  : Feb 2021 - Present
+  Duration     : 70 months
+  Bullets      : 6
+    • Led a team of 5 engineers building catalogue, pricing and order-orchestration services with Django, FastAPI, PostgreSQL and Kafka.
+    • Designed microservices and REST APIs handling 10M+ requests/day; introduced OAuth2 / JWT, API versioning and rate limiting.
+    • Built Airflow and PySpark pipelines to feed analytics; served ML pricing models through FastAPI endpoints with p95 latency under 150 ms.
+    • Reduced infrastructure cost by 28% through query optimisation, Redis caching and right-sizing of Docker / Kubernetes workloads on AWS.
+    • Established engineering standards: code review checklists, TDD with pytest, 88% coverage, CI/CD with Jenkins and static analysis.
+    • Mentored 5 engineers, ran weekly knowledge-sharing sessions and handled secure-coding training (OWASP
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Senior Python Developer
+  Company      : InsightWorks Analytics
+  Location     : Mumbai
+  Start - End  : Jun 2018 - Jan 2021
+  Duration     : 32 months
+  Bullets      : 3
+    • Built Django / DRF APIs and Celery + RabbitMQ workers for a customer-analytics SaaS product on PostgreSQL and MySQL.
+    • Developed ETL jobs with Pandas and Airflow processing 50M+ rows daily; improved runtime by 65% through vectorisation and batching.
+    • Practised Agile / Scrum; wrote pytest and unittest suites and conducted regular code reviews.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Python Developer
+  Company      : Zenith Infosystems
+  Location     : Pune
+  Start - End  : Jul 2017 - May 2018
+  Duration     : 11 months
+  Bullets      : 1
+    • Developed Flask REST APIs and automation scripts; worked with MySQL and Git-based workflows.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

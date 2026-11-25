@@ -1,0 +1,76 @@
+======================================================================
+FILE: 245_Gokul Mohan Arakkal_GAD-UK_GT-Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Audit Manager - R.S.Sanghai & Associates
+Dec 2025 - Present | Mumbai
+Executed GST Annual Return audit including turnover reconciliation, ITC validation, and tax liability
+verification against books of accounts of a Rs. 10,000Cr + pharmaceutical company.
+Performed limited review procedures including ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 9.2 years (111 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Audit Manager
+  Company      : R.S.Sanghai & Associates
+  Location     : Mumbai
+  Start - End  : Dec 2025 - Present
+  Duration     : 12 months
+  Bullets      : 4
+    • Executed GST Annual Return audit including turnover reconciliation, ITC validation, and tax liability verification against books of accounts of a Rs. 10,000Cr + pharmaceutical company.
+    • Performed limited review procedures including BRS verification, analytical review, and testing of key financial statement line items of a Rs. 2000Cr+ pharmaceutical company.
+    • Conducted risk-based internal audit procedures covering process walkthroughs, control testing, and preparation of audit observations of a Rs. 3000Cr+ pharmaceutical company.
+    • Executed head office statutory audit of a pharmaceutical company with Rs. 2000Cr+ turnover, involving consolidation-level review, analytical procedures, and coordination with multiple stakeholders.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Audit Manager
+  Company      : R.S.Sanghai & Associates
+  Location     : Kerala
+  Start - End  : Jan 2020 - May 2025
+  Duration     : 65 months
+  Bullets      : 7
+    • Prepared financial statements and supporting audit schedules for companies, distillery, supermarkets, hotels, hospitals, charitable trusts, construction and societies.
+    • Computed capital gains for transactions involving shares, immovable properties, and Kuri investments, ensuring compliance in ITR filings.
+    • Conducted statutory audits for a wide range of entities including listed companies, private companies, trusts, and partnership firms across diverse industries.
+    • Gained sectoral exposure in resorts, hospitals, supermarkets, textiles, gold manufacturing, and toy trading businesses.
+    • Key audit engagements included: Elite Supermarket – retail sector statutory audit, Elite Mission Hospital – healthcare industry statutory audit Star Trading – trading sector statutory audit Verification of financial statements in compliance with the Companies Act, 2013 and Ind AS.
+    • Led statutory audits for 10+ registered charitable trusts and societies, focusing on fund utilization and regulatory reporting.
+    • Assisted over 25 clients with registration and compliance for Ind AS, Companies Act Regulations, PAN, TAN, GST and Income Tax.
+  Method       : date_regex+pre_date_company_split+multiline_dash_split+inherited_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Audit Assistant
+  Company      : R.S.Sanghai & Associates
+  Location     : Kerala
+  Start - End  : May 2017 - Dec 2019
+  Duration     : 32 months
+  Bullets      : 2
+    • Participated in 2 statutory branch audits for Bank of Baroda, covering verification of advances, income recognition, and statutory reporting.
+    • Reviewed monthly bank reconciliation reports and financial reviews for 15+ clients Assisted in the audit of a state government undertaking (Coir Board), focusing on internal controls, and financial reporting accuracy.
+  Method       : date_regex+pre_date_company_split+multiline_dash_split+inherited_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Internal Auditor (Part-Time)
+  Company      : Beeline Group
+  Location     : Kerala
+  Start - End  : Jun 2016 - Jul 2016
+  Duration     : 2 months
+  Bullets      : 2
+    • Verified previous year VAT returns and corrected inconsistencies in records.
+    • Finalized financial statements for the financial year and reviewed supporting entries.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False

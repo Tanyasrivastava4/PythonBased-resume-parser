@@ -1,0 +1,71 @@
+======================================================================
+FILE: 598_Sajeeth_CV_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+A strategic and result-oriented professional with 20+ years of experience across Banking/Financial Services, Insurance, and Pharmaceutical sectors, specializing in Sales Leadership, Channel Management, Business Development, and Customer Analytics. Proven track record in driving multi-region business...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.97
+Needs review   : False
+Total exp      : 20.9 years (251 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : Sammaan Capital Ltd			  Regional Sales Manager
+  Company      : CAREER GRAPH
+  Location     : None
+  Start - End  : Feb 2011 - Jan 2026
+  Duration     : 180 months
+  Bullets      : 2
+    • Strategic Planning & Regional Leadership: Conceptualized and executed regional strategic and operational plans aligned with organizational objectives. Ensured effective resource alignment, strong market positioning, and timely achievement of sales targets with complete accountability for regional profitability and performance. Business Development & Growth: Designed and implemented result-oriented business generation strategies to achieve revenue and profitability goals. Focused on high-potential customer segments and key accounts to drive market share growth. Identified new business avenues and converted leads generated through the Property Search Group by closely coordinating with sales teams to meet monthly targets. Channel Management (DSAs, Builders, Connectors, Brokers & Financial Consultants): Built, expanded, and governed a robust multi-channel sourcing ecosystem including DSAs, connectors, property brokers, Chartered Accountants, and financial consultants. Drove consistent sourcing volumes by onboarding quality partners, setting productivity benchmarks, and monitoring channel-wise performance. Strategic Partner Handling: Managed shared and strategic accounts in coordination with cross-regional teams, ensuring conflict-free sourcing, equitable allocation, and achievement of collective revenue and profitability objectives. Unknown - Channel Governance | Defined and tracked KPIs across all channels including lead-to-login, login-to-sanction, disbursal ratios, TAT, and portfolio quality. Implemented corrective actions for underperforming partners and ensured adherence to credit, legal, audit, and compliance standards. Marketing & Cross-Sell Initiatives: Drove cross-selling of Insurance and Wealth Management products to core customers and channel-sourced clients, improving customer lifetime value and strengthening brand loyalty. Conceptualized and executed targeted marketing initiatives to penetrate new accounts and expand existing relationships. Client Servicing & Relationship Management: Ensured superior customer experience through proactive engagement, regular feedback, and guidance on interest rate movements. Managed customer requests and grievances while maintaining service quality norms. Delivered customized financial solutions aligned with client needs, consistently exceeding customer expectations and strengthening brand image.
+    • Led end-to-end regional business operations with complete P&L ownership, driving sustained profitability, market expansion, and brand visibility across Chennai. Conceptualized and executed strategic and operational business plans aligned with organizational goals, ensuring optimal resource allocation and timely achievement of sales targets. Delivered consistent growth in Loan Against Property (LAP), Home loans and Construction Finance through focused customer segmentation, targeted sourcing strategies, and disciplined execution. Built and scaled a high-performing Sales team, ensuring talent acquisition, training, performance management, and retention to achieve and exceed monthly and annual targets. Established and managed a strong Builder, DSA, Connector, Broker, and Financial Consultant ecosystem, significantly enhancing sourcing volumes and market penetration. Developed the Builder and Referral channel by executing agreements with DSAs, developers, property brokers, Chartered Accountants, and referral agencies in line with company guidelines. Managed strategic accounts in coordination with cross-regional teams to maximize collective revenue while ensuring governance and channel harmony. Defined and monitored KPIs for all sourcing channels, including lead-to-login, login-to-sanction, disbursal ratios, TAT, and portfolio quality; implemented corrective actions for underperforming channels. Ensured achievement of regional budgets by tracking area-wise targets, monitoring profitability, and optimizing cost structures. Drove cross-selling of Insurance and Wealth management products to existing customers, improving customer lifetime value and strengthening brand loyalty. Partnered with Credit, Operations, Legal, Audit, and Collections teams to ensure smooth processing, compliance adherence, and superior customer experience. Supported collections teams in recovery of delinquent accounts and proactively controlled defaults arising from service or documentation gaps. Conducted regular market and competitor analysis to identify emerging trends, pricing movements, and strategic opportunities to protect and grow market share. Ensured strict adherence to organizational policies, regulatory requirements, and audit standards across all sales and sourcing activities. Improved customer satisfaction and retention through proactive engagement, service quality monitoring, and timely resolution of customer grievances. Led training and enablement programs for new hires, DSAs, and channel partners to enhance product knowledge, credit awareness, and closure effectiveness. Strengthened brand visibility through targeted on-ground marketing initiatives, channel engagement programs, and strategic alliances. Periodically evaluated marketing and manpower budgets, ensuring cost optimization and adherence to planned expenses.
+  Sub-sections : ['Roles & Responsibilities']
+  Method       : date_regex+date_prefix_title
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Dewan Housing Finance Corporation Ltd, Chennai           Dy Manager-Sales
+  Company      : EXPERIANCE SCAN
+  Location     : Dewan Housing Finance Corporation Ltd, Chennai           Dy Manager-Sales
+  Start - End  : Feb’10 - Feb’11
+  Duration     : 13 months
+  Bullets      : 0
+  Method       : date_regex+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Manager-Sales
+  Company      : Sundaram BNP Paribas Home Finance Ltd
+  Location     : Kochi
+  Start - End  : Sep’07 - July’08
+  Duration     : 11 months
+  Bullets      : 0
+  Method       : date_regex+comma_company_role_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : ICICI Prudential life Insurance Co Ltd, Palakkad        	        Unit Manager
+  Company      : Prudential life Insurance Co Ltd
+  Location     : None
+  Start - End  : Jan’07 - Sep’07
+  Duration     : 9 months
+  Bullets      : 0
+  Method       : date_regex+date_prefix_title+spacy_ORG
+  Confidence   : 0.95
+  Needs Review : False
+
+Entry 5
+  Role         : Territory Manager
+  Company      : Infra Pharmaceuticals Pvt Ltd
+  Location     : Kochi
+  Start - End  : Sep’03 - Jan’07
+  Duration     : 41 months
+  Bullets      : 0
+  Method       : date_regex+tab_split
+  Confidence   : 0.98
+  Needs Review : False

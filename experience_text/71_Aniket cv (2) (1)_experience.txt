@@ -1,0 +1,72 @@
+======================================================================
+FILE: 71_Aniket cv (2) (1)_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+COMAPANY                    : Softenger india Pvt Ltd since 01 May 2023 to 03 Nov 2025
+DESIGNATION                : Network security Engineer
+CLIENT                             : RBI Data center Nagpur
+DATE OF JOINING         :01 May 2023
+TOTAL EXPERIENCE      : 2-year 5 Month
+LOCATION              ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.87
+Needs review   : True
+Total exp      : 4.9 years (59 months, 3 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : COMAPANY                    : Softenger india Pvt Ltd since
+  Location     : None
+  Start - End  : 01 May 2023 - 03 Nov 2025
+  Duration     : 31 months
+  Bullets      : 0
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 2
+  Role         : DESIGNATION                : Network security Engineer
+  Company      : RBI Data center
+  Location     : Nagpur
+  Start - End  : 01 May 2023 - Present
+  Duration     : 43 months
+  Bullets      : 3
+    • COMAPANY                    : Co-Excel Enterprises since 23 Oct 2017 to 20 Jan 2019
+    • TOTAL EXPERIENCE      : 1 year 3 Month
+    • Professional summary and Expertise:
+  Method       : single_date_regex+subfield_label_role+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Design security infrastructure and Policies, Liaising across the enterprise
+  Company      : Job Responsibility: For Rbi Client since
+  Location     : None
+  Start - End  : 16 Aug 2022 - 03 Nov 2025
+  Duration     : 39 months
+  Bullets      : 2
+    • Design security infrastructure and Policies, Liaising across the enterprise Monitor and respond to cybersecurity threats, ensuring 100% network uptime.
+    • Co-ordinate with SOC team to check and Block CVE on our infra Working on the tickets booked by customer for various issues troubleshooting using ticketing tools.
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Configure and monitor Aruba access point
+  Company      : Job Responsibility: For Hi-tech services since
+  Location     : None
+  Start - End  : 01 Jan 2022 - 30 Sep 2022
+  Duration     : 9 months
+  Bullets      : 5
+    • Managing and updates dray tech switch & router Coordinate field operator to resolve the customer issues.
+    • Providing device health heck report on daily basis. troubleshoot the speed issues and work on VPN for UAE based customer.
+    • Job Responsibility: For Co-Excel Enterprises since 23 Oct 2017 to 20 Jan 2019 Wi-Fi survey, deployment, integrate, Testing (ATP11A, ATP11B), troubleshooting Fiber survey and implementation, submitting site report at JIO centre manager.
+    • Co-ordinate with field engineer and remote support for site issues.
+    • IOS installation upgradation and active site co-ordinate with ISP team.
+  Method       : date_regex+multiline_company_above_role
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,50 @@
+======================================================================
+FILE: 544_Resume_1_Rohan_Mehta_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Senior Python Developer
+NimbusPay Technologies Pvt Ltd, Gurugram | Mar 2022 - Present
+• Designed and built payment-reconciliation and merchant-onboarding services using Django, DRF and
+PostgreSQL, serving 2M+ API requests/day.
+• Optimised slow SQL queries, added indexing and caching with Redis, cutt...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 7.5 years (90 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Python Developer
+  Company      : NimbusPay Technologies Pvt Ltd
+  Location     : Gurugram
+  Start - End  : Mar 2022 - Present
+  Duration     : 57 months
+  Bullets      : 7
+    • Designed and built payment-reconciliation and merchant-onboarding services using Django, DRF and PostgreSQL, serving 2M+ API requests/day.
+    • Optimised slow SQL queries, added indexing and caching with Redis, cutting average API latency by 42% (480 ms to 280 ms).
+    • Implemented asynchronous processing with Celery and RabbitMQ for settlement jobs, improving throughput by 3x.
+    • Secured APIs with OAuth2 / JWT, rate limiting and input validation; remediated OWASP Top 10 findings from security audits.
+    • Raised test coverage from 55% to 86% using pytest and TDD; introduced pre-commit hooks and static analysis in CI/CD pipelines.
+    • Conducted code reviews for a team of 8 and mentored 3 junior developers, two of whom were promoted within
+    • Containerised services with Docker and deployed on AWS (ECS, RDS, S3) with GitHub Actions; reduced release time from 2 hours to 25 minutes.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Python Developer
+  Company      : Cartwise Retail Solutions Pvt Ltd
+  Location     : Noida
+  Start - End  : Jun 2019 - Feb 2022
+  Duration     : 33 months
+  Bullets      : 4
+    • Developed e-commerce catalogue, order and inventory APIs in Django / DRF with MySQL and PostgreSQL.
+    • Built Flask microservices for notification and recommendation features; integrated third-party payment and logistics APIs.
+    • Wrote unit and integration tests with pytest / unittest and participated in Agile / Scrum ceremonies and sprint planning.
+    • Improved performance of reporting endpoints by 60% through query optimisation and pagination.
+  Method       : date_regex+multiline_role_above_company
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,93 @@
+
+────────────────────────────────────────────────────────────
+LABEL: header   CONFIDENCE: 0.9   START LINE: 0
+────────────────────────────────────────────────────────────
+Priya Nair
+Senior Python Developer | Backend & Data Platforms | Django | FastAPI | Airflow
+Pune, Maharashtra, India | +91-98XXXXXX04 | priya.nair@example.com | linkedin.com/in/priya-nair-sample |
+github.com/priyanair-sample
+
+────────────────────────────────────────────────────────────
+LABEL: summary   CONFIDENCE: 0.95   START LINE: 4
+────────────────────────────────────────────────────────────
+Senior Python Developer with 7 years of experience across backend engineering and data platforms. Expert in
+Django, FastAPI, PostgreSQL, Celery, Kafka, Airflow and Pandas, with strong AWS, Docker and Kubernetes
+skills. Has led a team of 5, run code reviews, mentored engineers and owned system design for high-volume
+services. Committed to TDD with pytest, microservices, SOLID design, performance optimisation and secure
+coding (OWASP). Experience serving ML models via APIs.
+
+────────────────────────────────────────────────────────────
+LABEL: skills   CONFIDENCE: 0.95   START LINE: 10
+────────────────────────────────────────────────────────────
+Languages
+Python 3.x (expert), SQL, Bash, Scala (basic)
+Frameworks
+Django, Django REST Framework, FastAPI, Flask, Celery, Pydantic, SQLAlchemy, Django
+ORM, GraphQL
+Databases
+PostgreSQL, MySQL, Redis, MongoDB, Elasticsearch, Redshift
+Messaging / Async Kafka, RabbitMQ, Celery, asyncio, AWS SQS
+Data / ML
+Pandas, NumPy, Apache Airflow, Spark (PySpark), scikit-learn, MLflow, model serving with
+FastAPI
+Cloud / DevOps AWS (EC2, S3, RDS, Lambda, EKS), Docker, Kubernetes, Terraform, Jenkins, GitHub
+Actions, CI/CD
+Testing / Quality pytest, unittest, TDD, coverage, Ruff, mypy, SonarQube
+Practices
+Microservices, REST API design, OAuth2 / JWT, SOLID, design patterns, OWASP, Agile /
+Scrum, Git
+
+────────────────────────────────────────────────────────────
+LABEL: experience   CONFIDENCE: 0.95   START LINE: 28
+────────────────────────────────────────────────────────────
+Lead Python Developer
+Orbitas Commerce Technologies, Pune | Feb 2021 - Present
+• Led a team of 5 engineers building catalogue, pricing and order-orchestration services with Django, FastAPI,
+PostgreSQL and Kafka.
+• Designed microservices and REST APIs handling 10M+ requests/day; introduced OAuth2 / JWT, API
+versioning and rate limiting.
+• Built Airflow and PySpark pipelines to feed analytics; served ML pricing models through FastAPI endpoints with
+p95 latency under 150 ms.
+• Reduced infrastructure cost by 28% through query optimisation, Redis caching and right-sizing of Docker /
+Kubernetes workloads on AWS.
+• Established engineering standards: code review checklists, TDD with pytest, 88% coverage, CI/CD with
+Jenkins and static analysis.
+• Mentored 5 engineers, ran weekly knowledge-sharing sessions and handled secure-coding training (OWASP
+Top 10) for the team.
+Senior Python Developer
+InsightWorks Analytics, Mumbai | Jun 2018 - Jan 2021
+• Built Django / DRF APIs and Celery + RabbitMQ workers for a customer-analytics SaaS product on
+PostgreSQL and MySQL.
+• Developed ETL jobs with Pandas and Airflow processing 50M+ rows daily; improved runtime by 65% through
+vectorisation and batching.
+• Practised Agile / Scrum; wrote pytest and unittest suites and conducted regular code reviews.
+Python Developer
+Zenith Infosystems, Pune | Jul 2017 - May 2018
+• Developed Flask REST APIs and automation scripts; worked with MySQL and Git-based workflows.
+
+────────────────────────────────────────────────────────────
+LABEL: projects   CONFIDENCE: 0.95   START LINE: 53
+────────────────────────────────────────────────────────────
+Sample / fictional resume created for illustration and ATS-testing purposes
+Page 1
+
+• Dynamic Pricing Platform: Kafka + FastAPI + MLflow system updating prices for 1M+ SKUs in near real time.
+• Data Quality Framework: reusable Airflow / Pandas framework adopted by 6 teams; cut data incidents by
+45%.
+
+────────────────────────────────────────────────────────────
+LABEL: education   CONFIDENCE: 0.95   START LINE: 60
+────────────────────────────────────────────────────────────
+B.E. in Computer Engineering - Savitribai Phule Pune University, 2017
+
+────────────────────────────────────────────────────────────
+LABEL: certifications   CONFIDENCE: 0.95   START LINE: 62
+────────────────────────────────────────────────────────────
+• AWS Certified Solutions Architect - Associate
+• Apache Airflow Fundamentals (Astronomer)
+• Internal Engineering Excellence Award 2022
+Sample / fictional resume created for illustration and ATS-testing purposes
+Page 2
+
+────────────────────────────────────────────────────────────
+[Found 7 sections total: ['header', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']]

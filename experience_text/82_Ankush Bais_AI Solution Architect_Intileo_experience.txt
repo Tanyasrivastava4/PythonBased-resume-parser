@@ -1,0 +1,87 @@
+======================================================================
+FILE: 82_Ankush Bais_AI Solution Architect_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Demos, Estimation Models, Pricing, Commercial Structuring
+Solution Architect
+Yash Technologies, Pune
+Oct 2022 – Present
+Lead Developer
+Nihilent Ltd, Pune
+Jan 2020 – Oct 2022
+Technology Analyst
+Infosys, Pune
+Feb 2018 – Dec 2019
+Software Engineer
+L&T Infotech, Mumbai (LTM)
+Feb 2015 – Feb 2018
+KEY PROJ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 4
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 11.8 years (142 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Solution Architect
+  Company      : Yash Technologies
+  Location     : Pune
+  Start - End  : Oct 2022 - Present
+  Duration     : 50 months
+  Bullets      : 0
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Lead Developer
+  Company      : Nihilent Ltd
+  Location     : Pune
+  Start - End  : Jan 2020 - Oct 2022
+  Duration     : 34 months
+  Bullets      : 0
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Technology Analyst
+  Company      : Infosys
+  Location     : Pune
+  Start - End  : Feb 2018 - Dec 2019
+  Duration     : 23 months
+  Bullets      : 0
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : Software Engineer
+  Company      : L&T Infotech
+  Location     : Mumbai (LTM)
+  Start - End  : Feb 2015 - Feb 2018
+  Duration     : 37 months
+  Bullets      : 16
+    • Agentic GenAI Enablement for Enterprise Decision Automation Agentic AI, LangGraph, LangChain, LangSmith, RAG, LLMs (Claude / GPT-4 / Gemini), FastAPI, Python, Enterprise APIs, Vector Databases, Human-in-the-Loop (HITL), Cloud-Native Architecture, Observability & Governance Controls
+    • Partnered with BAs and domain teams on process discovery, architecturally evaluating decision-heavy AML/KYC and compliance workflows to identify where agentic AI (RAG, stateful decisioning, HITL) delivered measurable risk and efficiency gains.
+    • Led end-to-end delivery of enterprise Agentic GenAI solutions using LangGraph as the core orchestration layer, designing stateful, multi-node agents with branching decision logic, retries, and interrupt-driven human-in-the-loop (HITL) checkpoints for regulated BFSI decision workflows.
+    • Implemented a production-grade intelligence layer combining RAG and selective LLM fine-tuning, using RAG (LangChain + vector databases) for dynamic policy and regulatory retrieval, and fine-tuned models for structured classification tasks (risk tiering, eligibility scoring), optimizing accuracy, latency, and cost.
+    • Delivered cloud-native, containerized agent services by packaging LangGraph runtimes with Docker and FastAPI, defining CI/CD-aligned build and release pipelines, durable state persistence for long-running HITL flows, and standardized delivery patterns from development through production.
+    • Established comprehensive monitoring, governance, and observability using LangSmith for agent and LLM tracing, RAG quality metrics for grounding assurance, HITL override tracking for model health, and cloud-native monitoring for API and container reliability, ensuring audit-ready, regulator-compliant GenAI operations. SEI-GenAI Agent Implementation on Google Vertex AI Google ADK, Gemini (Pro/Flash), Vertex AI Agent Builder, Vertex AI, GCP, BigQuery, Cloud Storage (Buckets), Python, Enterprise APIs, Google Cloud CLI, Cloud Trace, Responsible AI & Model Governance
+    • Designed and implemented Google-based GenAI agents using ADK, including multi-state, stateful agents, while defining standardized reference architectures, RAG patterns, state management, observability, and Responsible AI guardrails to enable governed, scalable and implemented enterprise adoption and support future delivery pipelines on Google Vertex AI Yash Technologies – SEI UiPath RPA + Agentic AI Implementations UiPath (Studio, Orchestrator, Action Center, AI Center), Agentic AI, GenAI Activities, Vertex AI, GCP, Document Understanding (OCR), Communication Mining, Integration Services, SharePoint, Vertex AI (enablement), MSSQL, Snowflake, CI/CD, Security & Compliance Controls
+    • Delivered 50+ enterprise UiPath intelligent automations across 2 regions & 8 business functions governing solution architecture, coding standards, Orchestrator setup, and production readiness, while mentoring and leading a 10-member development team.
+    • Delivered UiPath RPA bots for rule-based automation and UiPath-based autonomous agentic solutions leveraging GenAI Activities, Document Understanding, Communication Mining, and Action Center for judgment-driven use cases.
+    • Established reusable RPA and agent frameworks and CI/CD pipelines for UiPath, accelerating bot development by 30% and ensuring secure, compliant, and scalable deployments
+    • UiPath, SAP Automation, API Automation, Orchestrator, Process Documentation, Document Understanding
+    • Implemented SAP and API automations delivering 40+ FTE savings annually, increased accuracy to 95%+, and reduced manual intervention by 60%+ and Strengthened automation reliability via reusable components, DU/OCR workflows, and best-practice architecture
+    • Individually managed full client engagement lifecycle; executed migration from SAP ECC to SAP S/4HANA for UiPath Bots.
+    • UiPath, Automation Anywhere, Jira, ServiceNow, PowerBI, Orchestrator, Document Understanding, Python API
+    • Blueprism, Automation Anywhere, Mainframe, Python, C#, JavaScript, jQuery, Testing & Support
+    • .Net, C#, Python, Blueprism, JavaScript, jQuery, Node.js, React.js, ServiceNow, MSSQL, Testing & Support
+  Sub-sections : ['DNZ RPA Automations', 'MCSA FSS Dev and Automation', 'NB Automation', 'Time Warner Managed Services']
+  Method       : date_regex+pre_date_company_split+title_dict_strong
+  Confidence   : 0.98
+  Needs Review : False

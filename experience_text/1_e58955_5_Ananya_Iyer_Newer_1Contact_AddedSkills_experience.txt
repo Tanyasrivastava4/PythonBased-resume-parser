@@ -1,0 +1,43 @@
+======================================================================
+FILE: 1_e58955_5_Ananya_Iyer_Newer_1Contact_AddedSkills_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+WORK EXPERIENCE (Total: 5.5 Years)
+Senior Site Reliability Engineer at CloudScale
+June 2024 - Present (1.5 years)
+Led Kubernetes production cluster operations, Prometheus observability, and Terraform IaC infrastructure.
+DevOps Engineer at CloudMatrix Inc
+May 2020 - May 2024 (4.0 years)
+Managed autom...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 6.6 years (79 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Senior Site Reliability Engineer
+  Company      : WORK EXPERIENCE (Total
+  Location     : None
+  Start - End  : June 2024 - Present
+  Duration     : 30 months
+  Bullets      : 1
+    • Led Kubernetes production cluster operations, Prometheus observability, and Terraform IaC infrastructure.
+  Method       : date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : DevOps Engineer
+  Company      : CloudMatrix Inc
+  Location     : None
+  Start - End  : May 2020 - May 2024
+  Duration     : 49 months
+  Bullets      : 1
+    • Managed automated deployment infrastructure and cloud cost optimization.
+  Method       : date_regex
+  Confidence   : 0.98
+  Needs Review : False

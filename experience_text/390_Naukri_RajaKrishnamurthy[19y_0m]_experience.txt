@@ -1,0 +1,59 @@
+======================================================================
+FILE: 390_Naukri_RajaKrishnamurthy[19y_0m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Address
+Chennai Tamil Nadu
+2025-12 – R e g ional Collection Manager
+Phone
+Current Fedbank Financial Services Ltd, Chennai
++91 9043006885 E-mail kraja6884@gmail.com
+• Products handled: Loan against property from
+Risk X to NPA (Write-off)
+• Handling collection of Tamil Nadu
+2024-06 – State Head-Collec...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 1.0 years (12 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Regional Collection Manager
+  Company      : Chennai Tamil Nadu
+  Location     : Regional Collection Manager | Fedbank Financial Services Ltd, Chennai
+  Start - End  : 2025-12 - Current
+  Duration     : 12 months
+  Bullets      : 2
+    • Products handled: Loan against property from
+    • Handling collection of Tamil Nadu
+  Sub-sections : ['Risk X to NPA (Write-off)', 'Able to work', 'independently in the']
+  Method       : date_regex+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : supervisor's absence
+  Company      : Products Handled: Loan against property
+  Location     : None
+  Start - End  : 2024 - 2006
+  Duration     : 0 months
+  Bullets      : 11
+    • Handled collections of Tamil Nadu and trends and practices
+    • management
+    • Products Handled: CV, CE & AHL stake holders across
+    • Development and Management of well multiple products equipped collection mechanism
+    • Identifying,recruiting,training of collection principles and agencies and executives practices of strategic planning and project management
+    • Products Handled: Farm Equipment, Auto and
+    • Handled collection of 7 districts Trichy, customers, third-party Pudukkottai, Tanjore, Nagapattinam etc., finance partners, and
+    • Team Handled: 12 On role employees for 3 channel partners locations
+    • Handled PL & Cards collections for NPA & Write off cases in charge of collection agency's
+    • Responsible for tracing Skip cases using skip and Power Point tracing tools
+    • Responsible for recruiting and training of
+  Sub-sections : ['Working knowledge', 'collections from Risk X to NPA(Write-off)', 'of new and emerging', 'Puducherry', 'in collection', 'Meet deliverables for', 'Knowledge of', 'Build solid', 'Commercial Vehicle Loans', 'relationships with', 'Strong verbal and', 'written', 'communication skills', 'Proficient in MS', 'performance', 'Access, Excel, Word,']
+  Method       : year_range_short_regex+title_dict
+  Confidence   : 0.98
+  Needs Review : False

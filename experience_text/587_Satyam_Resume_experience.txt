@@ -1,0 +1,46 @@
+======================================================================
+FILE: 587_Satyam_Resume_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Engineering
+Full-Stack Job Portal | React.js, Redux Toolkit, Node.js, Express.js, MongoDB, JWT, CloudinaryApr 2025 – May 2025
+GitHub: github.com/ksatyamkumar/job-portal-web
+● Engineered 19 RESTful API endpoints in Node.js/Express.js to power job listings, search/filter, and one-click application
+wor...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 0.3 years (4 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : React.js, Redux Toolkit, Node.js, Express.js, MongoDB, JWT, Cloudinary
+  Company      : Full-Stack Job Portal
+  Location     : None
+  Start - End  : Apr 2025 - May 2025
+  Duration     : 2 months
+  Bullets      : 4
+    • Engineered 19 RESTful API endpoints in Node.js/Express.js to power job listings, search/filter, and one-click application workflows, tested against a dataset of 50–100 sample users and job postings.
+    • Implemented JWT authentication and Role-Based Access Control (RBAC) across all endpoints, enforcing distinct permission boundaries for job seekers and recruiters and eliminating unauthorized cross-role data access.
+    • Built a recruiter dashboard for job post management and applicant tracking; integrated the Cloudinary API for resume and profile image uploads, cutting manual file-handling steps in the application flow.
+    • Designed a fully responsive UI with React.js, Redux Toolkit, Tailwind CSS, and ShadCN UI; wrote 24 tests covering API routes and component behavior to catch regressions before deployment.
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Node.js, Express.js, MongoDB, EJS, HTML5, CSS3, JavaScript
+  Company      : Full-Stack Blogging Website
+  Location     : None
+  Start - End  : Jan 2025 - Feb 2025
+  Duration     : 2 months
+  Bullets      : 3
+    • Built a full-stack blogging platform with complete CRUD functionality, structuring REST API routes and MongoDB schemas that scaled to 50+ blog entries while maintaining consistent data integrity.
+    • Implemented server-side rendering with EJS to reduce client-side load and improve initial page-load performance.
+    • Designed a responsive UI verified across desktop and mobile viewports, ensuring consistent layout and usability across screen sizes.
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False

@@ -1,0 +1,105 @@
+======================================================================
+FILE: 482_Pooja Rathour_Full Stack Developer_GT_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+role since March 2023. Previously worked in UI/UX design and front-end development (3.5 years). Skilled in
+developing scalable and high-performance web applications using Angular, TypeScript, Node.js, and
+MongoDB. Experienced in implementing caching with Redis and asynchronous messaging with RabbitM...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 6
+Confidence     : 0.74
+Needs review   : True
+Total exp      : 10.2 years (123 months, 5 overlapping periods merged)
+
+Entry 1
+  Role         : None
+  Company      : role . Previously worked in UI/UX design and front-end development.n
+  Location     : Node.js
+  Start - End  : March 2023 - Present
+  Duration     : 45 months
+  Bullets      : 4
+    • developing scalable and high-performance web applications using Angular, TypeScript, Node.js, and MongoDB.
+    • Experienced in implementing caching with Redis and asynchronous messaging with RabbitMQ for optimized backend performance and system reliability.
+    • Proficient in REST API development, Agile methodology, and tools like GitLab, Postman, and BrowserStack.
+    • Committed to writing clean, maintainable code and delivering seamless user experiences.
+  Method       : since_date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 2
+  Role         : Web Developer
+  Company      : iTech Mission Private Limited
+  Location     : None
+  Start - End  : March, 2023 - Present
+  Duration     : 45 months
+  Bullets      : 7
+    • Developed and integrated data-driven dashboards using Angular and React for enhanced interactivity and user experience.
+    • Built scalable backend APIs using Node.js, Expres.s, and MongoDB for efficient data storage and retrieval.
+    • Implemented RabbitMQ-based asynchronous processing to generate and download user registration reports Optimized API performance by 30% using advanced MongoDB queries and basic Redis caching strategies.
+    • Containerized the application using Docker for consistent development and deployment environments.
+    • Used GitLab for version control and collaborative code management in a team environment.
+    • Tested and validated APIs using Postman to ensure accuracy, performance, and reliability.
+    • Integrated RESTful APIs with Angular and React front-ends, ensuring smooth and reliable data flow.
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : None
+  Company      : Cybernauts technologies private limited
+  Location     : None
+  Start - End  : July 2022 - February 2023
+  Duration     : 8 months
+  Bullets      : 3
+    • Designed and developed responsive web interfaces using HTML5, CSS3, Bootstrap, and JavaScript for consistent cross-device performance.
+    • Built modular and reusable front-end components using React.js, improving code maintainability and scalability.
+    • Applied mobile-first design principles with touch-friendly layouts and Bootstrap utilities to enhance user experience.
+  Method       : date_regex
+  Confidence   : 0.85
+  Needs Review : True
+
+Entry 4
+  Role         : Junior Designer
+  Company      : ITH Technologies Pvt. Ltd
+  Location     : None
+  Start - End  : September 2016 - April 2019
+  Duration     : 32 months
+  Bullets      : 4
+    • Developed responsive, mobile-first applications using the Ionic framework with AngularJS and Angular (2, 4, 6), ensuring fast performance across platforms. Built dynamic single-page applications (SPAs) using Angular and optimized UI/UX for mobile and web users. Created and maintained web applications using PHP, .NET, and Django, contributing to both frontend functionality and backend integration. Performed cross-browser and cross-device testing using BrowserStack to ensure consistent UI and smooth functionality across platforms. RELEVANT PROJECTS:
+    • Client: EU-funded NGO in collaboration with UNICEF and Ministry of Education, Uganda
+    • Description: G4DU is an EU-funded initiative focused on improving access to quality education for adolescent girls in Uganda by addressing financial and social barriers. The system provides targeted support through direct cash transfers, mentorship, and school improvement strategies. The application is designed to manage student data, monitor financial aid distribution, and generate performance-based reports across multiple districts. Architecture: Microservices — including services built with Node.js (REST APIs), Laravel/PHP (reporting & data import/export service), Angular & React.js (frontend interfaces), MongoDB (primary database), and Docker-based containerization, with RabbitMQ and Redis for messaging and caching. Responsibilities: Developed secure and scalable REST APIs using Node.js, Express.js, and MongoDB for user registration, analytics, and reporting workflows. Built responsive UI components using Angular, Bootstrap, HTML5, CSS3, and JavaScript, with dynamic form handling via Angular Material and Reactive Forms. Utilized RabbitMQ for asynchronous job processing in report generation modules, improving performance and system responsiveness. Implemented Redis caching to optimize database interactions and reduce API response times. Deployed services using Docker containers for better scalability and local development consistency. Integrated a legacy Laravel (PHP) microservice for dynamic report generation and export functionality, leveraging MongoDB as the backend. Used GitLab for version control and Postman for API testing and debugging in a collaborative agile environment. Tech Stack: Angular 19, Node.js 22, NPM 10, Mongosh 2, PHP 8.4
+    • Description:
+  Sub-sections : ['Girls for Development Uganda (G4DU)', 'Domain: Education, NGO, Social Impact', 'Modern Statistics Platform (MauStats)', 'Client: Government of Mauritius', 'Domain: E-Governance | Public Sector Data Analytics | Digital Transformation']
+  Method       : date_regex+pre_date_company_split
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : None
+  Company      : MauStats is a centralized web-based statistics platform developed under the Mauritius Digital Transformation
+  Location     : None
+  Start - End  : 2018 - 2022
+  Duration     : 49 months
+  Bullets      : 1
+    • government departments and institutions, supporting official publications like Digest of Statistics, Economic & Social Indicators, Ad Hoc Reports, and Mauritius in Figures Architecture: Microservices-based architecture with asynchronous communication using RabbitMQ. The system supports modular services for data ingestion, processing, caching, visualization, and user management. Data is handled in both structured and semi-structured formats using Apache Hudi and MongoDB. Redis is used for caching, and APIs are exposed for frontend consumption. Responsibilities: Developed dynamic and responsive UI using Angular, including interactive dashboards, filters, and visualizations. Built RESTful APIs with Node.js to serve real-time and historical statistical data to frontend components. Designed and developed microservices for data ingestion, validation, and transformation using Python. Integrated Apache Hudi for managing large-scale data with incremental updates and versioning. Used Redis for caching frequently accessed datasets to improve system performance. Implemented Apache Hudi for large-scale data ingestion, incremental updates, and versioned data storage. Tech Stack: Angular 19, Node.js 22, NPM 10, Mongosh 2, PHP 8.4,Python3 3.12
+  Sub-sections : ['TIMOR-LESTE EMERGENCY RESPONSE SYSTEM(TERS)', 'Client: Government of Timor-Leste', 'Domain: Climate Resilience | Disaster Risk Management | Public Infrastructure Monitoring']
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True
+
+Entry 6
+  Role         : None
+  Company      : Timor-Leste ERS is a centralized web-based platform developed under the GCF-funded climate resilience project
+  Location     : None
+  Start - End  : 2020 - 2026
+  Duration     : 73 months
+  Bullets      : 2
+    • system consolidates real-time and historical data from multiple ministries to support early warnings, damage assessments, and response planning for roads, water systems, and embankments. Architecture: Modular, service-oriented architecture using Node.js for backend services and MongoDB for structured data storage. The frontend is built using React.js and consumes APIs to display dynamic dashboards and infrastructure reports. Responsibilities: Developed interactive and responsive UI using React.js and Material-UI. Built RESTful APIs with Node.js for real-time and batch data integration. Used Redis for fast access to frequently changing alert data. Tech Stack: React.js 18, Node.js 20, NPM 10, MongoDB 6
+    • Description: NEMA AI is an AI-driven platform that provides EEG-based cognitive health assessments and personalized brain training interventions. The platform was featured on Shark Tank for its innovative approach to making mental wellness tools widely accessible. It empowers users to understand and enhance their cognitive potential through real-time data analysis and tailored programs. Architecture: Component-based frontend architecture using React.js for rendering cognitive dashboards and assessments. The system communicates with AI services powered by Python, TensorFlow, and PyTorch for EEG data processing and model inference. Data is served via APIs and displayed through interactive, responsive web components. Responsibilities: Developed and enhanced dynamic frontend components using React.js. Built responsive UI layouts and styled elements with HTML and CSS. Collaborated with backend and data science teams to integrate AI-driven insights into the user interface.
+  Sub-sections : ['NEMA AI', 'Client: NEMA AI', 'Domain: HealthTech | Cognitive Science | AI-Based Mental Wellness', 'Tech Stack: React.js, HTML5, CSS3']
+  Method       : date_regex
+  Confidence   : 0.55
+  Needs Review : True

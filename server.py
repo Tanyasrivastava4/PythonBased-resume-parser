@@ -37,15 +37,15 @@ import logging
 import threading
 import asyncio
 import concurrent.futures
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 
-from qdrant_sync import sync_resume_to_qdrant
+from qdrant_sync import sync_resume_to_qdrant, check_candidate_conflict, execute_candidate_resolution
 from pathlib import Path
 from datetime import datetime, timezone
 from contextlib import asynccontextmanager
 
 import fitz  # PyMuPDF
-from fastapi import FastAPI, File, UploadFile, BackgroundTasks, HTTPException, Query, status
+from fastapi import FastAPI, File, UploadFile, BackgroundTasks, HTTPException, Query, Body, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
@@ -56,6 +56,9 @@ logger = logging.getLogger("ats_server")
 logging.basicConfig(level=logging.INFO)
 
 import gc
+
+# In-memory storage for candidate conflicts awaiting user resolution
+PENDING_CONFLICTS: Dict[str, Dict[str, Any]] = {}
 
 # "surya" (default) or "tesseract" -- must match the switch in ingestion/ocr_reader.py
 #when we were using surya
@@ -115,11 +118,12 @@ def _purge_oldest_batches_if_needed():
         gc.collect()
 
 
-def _process_batch_item(batch: BatchJob, file_path: Path, original_filename: str):
+def _process_batch_item(batch: BatchJob, file_path: Path, original_filename: str, duplicate_policy: str = "prompt"):
     """Processes 1 resume inside the ThreadPoolExecutor and thread-safely updates batch."""
     try:
-        logger.info(f"⏳ [BATCH {batch.batch_id}] Processing: {original_filename}")
+        logger.info(f"⏳ [BATCH {batch.batch_id}] Processing: {original_filename} (duplicate_policy={duplicate_policy})")
         parsed_record = process_resume(str(file_path), verbose=False)
+        parsed_record["file_name"] = original_filename
         parsed_record["source_file"] = original_filename
         parsed_record["batch_status"] = "completed"
 
@@ -131,13 +135,84 @@ def _process_batch_item(batch: BatchJob, file_path: Path, original_filename: str
         except Exception:
             pass
 
-        # Auto-sync parsed candidate to shared Qdrant Vector DB
+        # Candidate Conflict Detection & Resolution Strategy
         try:
-            point_id = sync_resume_to_qdrant(parsed_record, original_filename, file_bytes)
-            if point_id:
-                logger.info(f"✅ [QDRANT-SYNC] Synced {original_filename} -> Point ID: {point_id}")
+            existing_id, old_record, diff = check_candidate_conflict(parsed_record)
+
+            if existing_id is None:
+                # 1. Completely new candidate: index directly!
+                point_id = execute_candidate_resolution("keep_both", parsed_record, original_filename, file_bytes=file_bytes)
+                parsed_record["id"] = point_id
+                parsed_record["conflict"] = {
+                    "is_conflict": False,
+                    "status": "new_candidate",
+                    "point_id": point_id
+                }
+                logger.info(f"✅ [NEW-CANDIDATE] Created {original_filename} -> Point ID: {point_id}")
+
+            elif diff and diff.get("is_identical"):
+                # 2. 100% Identical resume: skip duplicate insert
+                parsed_record["id"] = existing_id
+                parsed_record["conflict"] = {
+                    "is_conflict": False,
+                    "status": "identical",
+                    "existing_point_id": existing_id,
+                    "point_id": existing_id
+                }
+                logger.info(f"✓ [IDENTICAL] Skipped duplicate {original_filename} -> matches Point #{existing_id}")
+
+            else:
+                # 3. Existing profile matched with differences!
+                if duplicate_policy == "prompt":
+                    conflict_id = f"conf_{uuid.uuid4().hex[:10]}"
+                    parsed_record["id"] = existing_id
+                    PENDING_CONFLICTS[conflict_id] = {
+                        "conflict_id": conflict_id,
+                        "parsed_record": parsed_record,
+                        "filename": original_filename,
+                        "file_bytes": file_bytes,
+                        "existing_point_id": existing_id,
+                        "existing_candidate": {
+                            "id": existing_id,
+                            "name": old_record.get("name"),
+                            "email": old_record.get("email"),
+                            "mobile_number": old_record.get("mobile_number"),
+                            "total_experience": old_record.get("total_experience"),
+                            "skills": old_record.get("skills", []),
+                            "file_name": old_record.get("file_name"),
+                        },
+                        "diff": diff
+                    }
+                    parsed_record["conflict"] = {
+                        "is_conflict": True,
+                        "conflict_id": conflict_id,
+                        "existing_point_id": existing_id,
+                        "existing_candidate": PENDING_CONFLICTS[conflict_id]["existing_candidate"],
+                        "diff": diff,
+                        "status": "pending_resolution"
+                    }
+                    logger.info(f"⚠️ [CONFLICT-DETECTED] Candidate {original_filename} matches Point #{existing_id}. Awaiting user resolution.")
+
+                elif duplicate_policy in ("override", "keep_both", "keep_existing"):
+                    point_id = execute_candidate_resolution(
+                        duplicate_policy,
+                        parsed_record,
+                        original_filename,
+                        existing_point_id=existing_id,
+                        file_bytes=file_bytes
+                    )
+                    parsed_record["id"] = point_id
+                    parsed_record["conflict"] = {
+                        "is_conflict": False,
+                        "status": "auto_resolved",
+                        "action": duplicate_policy,
+                        "point_id": point_id
+                    }
+                    logger.info(f"✅ [AUTO-RESOLVED-{duplicate_policy.upper()}] {original_filename} -> Point ID: {point_id}")
+
         except Exception as q_err:
-            logger.warning(f"⚠️ [QDRANT-SYNC] Failed to auto-sync {original_filename} to Qdrant: {q_err}")
+            logger.warning(f"⚠️ [CONFLICT-CHECK] Failed during identity check for {original_filename}: {q_err}", exc_info=True)
+            parsed_record["conflict"] = {"is_conflict": False, "status": "error", "error": str(q_err)}
 
         with batch.lock:
             batch.candidates.append(parsed_record)
@@ -163,6 +238,8 @@ def _process_batch_item(batch: BatchJob, file_path: Path, original_filename: str
     finally:
         try:
             file_path.unlink(missing_ok=True)
+            intermediate_flat = FLAT_JSON_DIR / f"1_{file_path.stem}_flat.json"
+            intermediate_flat.unlink(missing_ok=True)
         except Exception:
             pass
         gc.collect()
@@ -263,6 +340,8 @@ def _run_background_parsing(job_id: str, file_path: str):
                 if p_file.exists():
                     raw_bytes = p_file.read_bytes()
                 orig_name = JOBS[job_id].get("source_file") or p_file.name
+                result["file_name"] = orig_name
+                result["source_file"] = orig_name
                 sync_resume_to_qdrant(result, orig_name, raw_bytes)
             except Exception as qe:
                 logger.warning(f"Failed to sync async resume to Qdrant: {qe}")
@@ -274,7 +353,10 @@ def _run_background_parsing(job_id: str, file_path: str):
         finally:
             # Auto-delete temporary upload file from disk after background task completes
             try:
-                Path(file_path).unlink(missing_ok=True)
+                p_f = Path(file_path)
+                p_f.unlink(missing_ok=True)
+                intermediate_flat = FLAT_JSON_DIR / f"1_{p_f.stem}_flat.json"
+                intermediate_flat.unlink(missing_ok=True)
             except Exception:
                 pass
             gc.collect()
@@ -311,6 +393,7 @@ def health_check():
 async def parse_resume_endpoint(
     background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
+    duplicate_policy: str = Query("prompt", description="Duplicate conflict resolution policy: 'prompt', 'override', 'keep_both', or 'keep_existing'.")
 ):
     """
     Parses a single uploaded resume file (.pdf, .docx, .doc, .png, .jpg).
@@ -337,9 +420,56 @@ async def parse_resume_endpoint(
         # Fast-Path: Digital text document -> process synchronously (< 0.1s)
         try:
             result = process_resume(str(save_path), verbose=False)
+            result["file_name"] = file.filename
+            result["source_file"] = file.filename
 
-            # Auto-sync parsed candidate to shared Qdrant Vector DB in non-blocking background task
-            background_tasks.add_task(sync_resume_to_qdrant, result, file.filename, contents)
+            # Candidate Conflict Detection & Resolution Strategy
+            try:
+                existing_id, old_record, diff = check_candidate_conflict(result)
+
+                if existing_id is None:
+                    point_id = execute_candidate_resolution("keep_both", result, file.filename, file_bytes=contents)
+                    result["id"] = point_id
+                    result["conflict"] = {"is_conflict": False, "status": "new_candidate", "point_id": point_id}
+                elif diff and diff.get("is_identical"):
+                    result["id"] = existing_id
+                    result["conflict"] = {"is_conflict": False, "status": "identical", "existing_point_id": existing_id, "point_id": existing_id}
+                else:
+                    if duplicate_policy == "prompt":
+                        conflict_id = f"conf_{uuid.uuid4().hex[:10]}"
+                        result["id"] = existing_id
+                        PENDING_CONFLICTS[conflict_id] = {
+                            "conflict_id": conflict_id,
+                            "parsed_record": result,
+                            "filename": file.filename,
+                            "file_bytes": contents,
+                            "existing_point_id": existing_id,
+                            "existing_candidate": {
+                                "id": existing_id,
+                                "name": old_record.get("name"),
+                                "email": old_record.get("email"),
+                                "mobile_number": old_record.get("mobile_number"),
+                                "total_experience": old_record.get("total_experience"),
+                                "skills": old_record.get("skills", []),
+                                "file_name": old_record.get("file_name"),
+                            },
+                            "diff": diff
+                        }
+                        result["conflict"] = {
+                            "is_conflict": True,
+                            "conflict_id": conflict_id,
+                            "existing_point_id": existing_id,
+                            "existing_candidate": PENDING_CONFLICTS[conflict_id]["existing_candidate"],
+                            "diff": diff,
+                            "status": "pending_resolution"
+                        }
+                    else:
+                        point_id = execute_candidate_resolution(duplicate_policy, result, file.filename, existing_point_id=existing_id, file_bytes=contents)
+                        result["id"] = point_id
+                        result["conflict"] = {"is_conflict": False, "status": "auto_resolved", "action": duplicate_policy, "point_id": point_id}
+            except Exception as q_err:
+                logger.warning(f"Error checking conflict for {file.filename}: {q_err}")
+                result["conflict"] = {"is_conflict": False, "status": "error", "error": str(q_err)}
 
             return JSONResponse(
                 status_code=status.HTTP_200_OK,
@@ -355,6 +485,8 @@ async def parse_resume_endpoint(
         finally:
             # Auto-delete temporary upload file after fast-path parsing completes
             save_path.unlink(missing_ok=True)
+            intermediate_flat = FLAT_JSON_DIR / f"1_{save_path.stem}_flat.json"
+            intermediate_flat.unlink(missing_ok=True)
             gc.collect()
 
     else:
@@ -407,6 +539,7 @@ def get_job_status(job_id: str):
 async def parse_batch_endpoint(
     files: List[UploadFile] = File(...),
     wait: bool = Query(True, description="If true (default), waits for all resumes to be parsed and returns the candidate JSONs directly in this response. If false, returns 202 Accepted with batch_id for async polling."),
+    duplicate_policy: str = Query("prompt", description="Duplicate conflict resolution policy: 'prompt', 'override', 'keep_both', or 'keep_existing'.")
 ):
     """
     Accepts 100-200+ resume files in a single API call.
@@ -427,7 +560,7 @@ async def parse_batch_endpoint(
     batch = BatchJob(batch_id=batch_id, total_files=len(files))
     BATCH_STORE[batch_id] = batch
 
-    logger.info(f"🚀 [BATCH {batch_id}] Received {len(files)} files for bulk processing (wait={wait}).")
+    logger.info(f"🚀 [BATCH {batch_id}] Received {len(files)} files for bulk processing (wait={wait}, duplicate_policy={duplicate_policy}).")
 
     futures = []
     for file in files:
@@ -438,7 +571,7 @@ async def parse_batch_endpoint(
         with open(save_path, "wb") as f:
             f.write(contents)
 
-        fut = BATCH_EXECUTOR.submit(_process_batch_item, batch, save_path, file.filename)
+        fut = BATCH_EXECUTOR.submit(_process_batch_item, batch, save_path, file.filename, duplicate_policy)
         futures.append(fut)
 
     if wait:
@@ -481,6 +614,87 @@ async def parse_batch_endpoint(
             "message": f"{len(files)} resumes queued for background processing with 4 workers.",
         }
     )
+
+
+@app.post("/api/v1/resolve-conflict", tags=["Conflict Resolution"])
+def resolve_conflict_endpoint(payload: Dict[str, Any] = Body(...)):
+    """
+    Resolves duplicate candidate conflicts according to user choice:
+    - keep_existing: Discards new resume, preserves existing DB record.
+    - keep_both: Saves new resume under a brand-new Point ID (both coexist).
+    - override: Overwrites existing record with new resume data & vector.
+
+    Accepts:
+    {
+       "conflict_id": "conf_xyz",
+       "action": "keep_existing" | "keep_both" | "override"
+    }
+    OR bulk format:
+    {
+       "bulk_action": "override" | "keep_both" | "keep_existing",
+       "conflict_ids": ["conf_1", "conf_2", ...]
+    }
+    OR list:
+    {
+       "resolutions": [
+          {"conflict_id": "conf_1", "action": "override"},
+          {"conflict_id": "conf_2", "action": "keep_both"}
+       ]
+    }
+    """
+    resolutions = []
+    bulk_action = payload.get("bulk_action")
+    conflict_ids = payload.get("conflict_ids")
+
+    if bulk_action and conflict_ids:
+        for cid in conflict_ids:
+            resolutions.append({"conflict_id": cid, "action": bulk_action})
+    elif "resolutions" in payload:
+        resolutions = payload.get("resolutions") or []
+    elif "conflict_id" in payload and "action" in payload:
+        resolutions.append(payload)
+
+    results = []
+    for item in resolutions:
+        cid = item.get("conflict_id")
+        action = item.get("action", "keep_existing")
+
+        c_data = PENDING_CONFLICTS.pop(cid, None)
+        if c_data:
+            parsed_record = c_data["parsed_record"]
+            filename = c_data["filename"]
+            file_bytes = c_data.get("file_bytes")
+            existing_point_id = c_data.get("existing_point_id")
+        else:
+            parsed_record = item.get("parsed_record")
+            filename = item.get("filename") or (parsed_record.get("file_name") if parsed_record else "resume.pdf")
+            file_bytes = None
+            existing_point_id = item.get("existing_point_id")
+
+        if not parsed_record:
+            continue
+
+        point_id = execute_candidate_resolution(
+            action=action,
+            parsed_record=parsed_record,
+            filename=filename,
+            existing_point_id=existing_point_id,
+            file_bytes=file_bytes
+        )
+        results.append({
+            "conflict_id": cid,
+            "action": action,
+            "point_id": point_id,
+            "filename": filename,
+            "status": "resolved"
+        })
+
+    logger.info(f"✅ [CONFLICT-RESOLVED] Processed {len(results)} candidate conflict resolutions.")
+    return {
+        "status": "success",
+        "resolved_count": len(results),
+        "results": results
+    }
 
 
 @app.get("/api/v1/batch/{batch_id}", tags=["Batch Parsing"])

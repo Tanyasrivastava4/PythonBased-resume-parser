@@ -1,0 +1,42 @@
+======================================================================
+FILE: 139_Brijesh singh _segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+2024 - 2025
+Brainfoster Tech Private Limited
+4 months
+wordpress intern
+Wildnet Technologies Inc.
+4 months
+Trainee - Web Developer
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 2
+Confidence     : 0.81
+Needs review   : True
+Total exp      : 1.4 years (17 months, 0 overlapping periods merged)
+
+Entry 1
+  Role         : Trainee
+  Company      : Web Developer
+  Location     : None
+  Start - End  : 2024 - 2025
+  Duration     : 13 months
+  Bullets      : 1
+    • months wordpress intern
+  Method       : date_regex+company_suffix_match
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Trainee
+  Company      : None
+  Location     : None
+  Start - End  : None - 4 Months
+  Duration     : 4 months
+  Bullets      : 0
+  Method       : stated_duration_regex+dash_split
+  Confidence   : 0.65
+  Needs Review : True

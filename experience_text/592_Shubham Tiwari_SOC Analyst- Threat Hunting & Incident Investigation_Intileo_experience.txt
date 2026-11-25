@@ -1,0 +1,62 @@
+======================================================================
+FILE: 592_Shubham Tiwari_SOC Analyst- Threat Hunting & Incident Investigation_Intileo_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Assistant Manager (SOC & DLP) | Airtel Payment Bank Limited | Sep 2025 – Present
+Monitored and triaged 100+ daily DLP incidents across endpoint, email, web, and network channels, ensuring 100%
+SLA compliance and timely closure within defined response windows.
+Implemented UEBA-aligned behavioral moni...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 3
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.3 years (40 months, 2 overlapping periods merged)
+
+Entry 1
+  Role         : Assistant Manager (SOC & DLP)
+  Company      : Airtel Payment Bank Limited
+  Location     : None
+  Start - End  : Sep 2025 - Present
+  Duration     : 15 months
+  Bullets      : 5
+    • Monitored and triaged 100+ daily DLP incidents across endpoint, email, web, and network channels, ensuring 100% SLA compliance and timely closure within defined response windows.
+    • Implemented UEBA-aligned behavioral monitoring to detect anomalous data access patterns and potential insider threats, reducing false-positive rates by ~35% through policy fine-tuning.
+    • Engineered and maintained DLP policies aligned with BFSI regulatory mandates including RBI guidelines, PCI-DSS, and internal data classification standards; applied EDM/IDM fingerprinting and ML-based classifiers.
+    • Led endpoint threat detection and response using CrowdStrike Falcon EDR — analyzed process trees, command- line arguments, file hashes, and registry modifications to identify advanced persistent threats (APT).
+    • Maintained SOPs, runbooks, and DLP governance documentation, conducted periodic control reviews for audit readiness under ISO 27001 and PCI-DSS.
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : Project Coordinator (SOC Analyst)
+  Company      : Bharti Airtel Ltd
+  Location     : None
+  Start - End  : Nov 2024 - Sep 2025
+  Duration     : 11 months
+  Bullets      : 4
+    • Performed real-time threat detection, alert triage, and incident response using SIEM platforms (Splunk, IBM QRadar, Azure Sentinel), investigating malware, phishing, unauthorized access, and data exfiltration incidents.
+    • Monitored and responded to DLP alerts across endpoint ; escalated confirmed incidents per playbooks.
+    • Analyzed network traffic (NetFlow/packet analysis) and implemented troubleshooting for routing protocols (BGP, OSPF) to detect anomalies and ensure stable international connectivity.
+    • Collaborated with L2/L3 security teams and stakeholders to communicate threat status, remediation actions, and post-incident lessons learned.
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : Network Engineer
+  Company      : Bharti Airtel Ltd
+  Location     : None
+  Start - End  : Aug 2023 - Nov 2024
+  Duration     : 16 months
+  Bullets      : 4
+    • Delivered L2 technical support in a 24x7 global NOC environment for MPLS, ILL, Ethernet, and IPLC services across multi-vendor platforms (Alcatel, Nokia, Tejas, ECI) maintaining 99.9% uptime.
+    • Managed end-to-end incident lifecycle including alarm monitoring, WAN/LAN troubleshooting, ticket handling, and coordination with field engineers, vendors, and international carriers for rapid resolution.
+    • Executed network configuration, deployment, and traffic migration across routers, switches, and firewalls; managed CLS/POP and international network operations.
+    • Led critical outage management and escalation handling — implemented proactive rerouting and restoration strategies for transcontinental links (Asia–Europe), achieving zero SLA breaches.
+  Method       : date_regex+pipe_split_header
+  Confidence   : 0.98
+  Needs Review : False

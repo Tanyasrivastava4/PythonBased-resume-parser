@@ -27,12 +27,15 @@ from rapidfuzz import fuzz, process
 # DEGREE PATTERNS (checked in priority order — first match wins)
 # ─────────────────────────────────────────────────────────────
 
+_BASE_DIR = Path(__file__).resolve().parent.parent
+
+
 def _load_degree_taxonomy() -> dict:
     """Loads data/degree_taxonomy.json, built once by build_degree_taxonomy.py.
     Unlike institutions, degree names are a closed, well-known vocabulary —
     same curated-taxonomy-plus-fuzzy-match pattern your skills extractor uses,
     rather than a handful of broad regex buckets."""
-    path = Path("data/degree_taxonomy.json")
+    path = _BASE_DIR / "data" / "degree_taxonomy.json"
     if path.exists():
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -288,9 +291,9 @@ YEAR_RE = re.compile(
 # space-required token couldn't match at all.
 _YEAR_TOKEN_RE = r"(?:19[6-9]\d|20[0-3]\d|['’‘`´]\d{2})"
 _DATE_TOKEN_RE = (
-    r'(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s*'
-    r"(?:19[6-9]\d|20[0-3]\d|['’‘`´]?\d{2})"
-    r"|(?:19[6-9]\d|20[0-3]\d|['’‘`´]\d{2}))"
+    r"(?:(?:0?[1-9]|1[0-2])[/-](?:19[6-9]\d|20[0-3]\d|['’‘`´]?\d{2})|"
+    r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s*(?:19[6-9]\d|20[0-3]\d|['’‘`´]?\d{2})|"
+    r"(?:19[6-9]\d|20[0-3]\d|['’‘`´]\d{2}))"
 )
 DATE_RANGE_RE = re.compile(
     rf'({_DATE_TOKEN_RE})\s*(?:[-–—&]|to|and)\s*({_DATE_TOKEN_RE})',
@@ -343,7 +346,7 @@ _RANKING_PHRASE_RE = re.compile(r'\btop\b', re.IGNORECASE)
 def _load_institutions_db() -> dict:
     """Loads data/institutions_db.json, built once by build_institutions_db.py
     from the AISHE colleges dataset + Hipolabs India universities list."""
-    db_path = Path("data/institutions_db.json")
+    db_path = _BASE_DIR / "data" / "institutions_db.json"
     if db_path.exists():
         with open(db_path, "r", encoding="utf-8") as f:
             return json.load(f)

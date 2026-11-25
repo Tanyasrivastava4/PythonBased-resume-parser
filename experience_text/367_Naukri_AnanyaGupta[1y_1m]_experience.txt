@@ -1,0 +1,101 @@
+======================================================================
+FILE: 367_Naukri_AnanyaGupta[1y_1m]_segmented.txt
+======================================================================
+RAW EXPERIENCE SECTION (first 300 chars)
+----------------------------------------------------------------------
+Francis | LINK Nov’23
+Biz Digital IT | Gurugram, India
+Jan’25 - Present
+AI Software Engineer| Hybrid
+• Designed and implemented a government-facing
+RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova
+Pro, owning the system from POC to production
+integration.
+• Implemented semantic ...
+
+EXTRACTION RESULTS
+----------------------------------------------------------------------
+Entries found  : 5
+Confidence     : 0.98
+Needs review   : False
+Total exp      : 3.1 years (37 months, 4 overlapping periods merged)
+
+Entry 1
+  Role         : Biz Digital IT
+  Company      : Francis
+  Location     : Gurugram, India
+  Start - End  : Nov’23 - Present
+  Duration     : 37 months
+  Bullets      : 9
+    • Designed and implemented a government-facing RAG chatbot for MIDC using AWS Bedrock Knowledge Base and Amazon Nova Pro, owning the system from POC to production integration.
+    • Implemented semantic retrieval, multi-turn follow-up handling, and hallucination control, ensuring accurate, scope-restricted responses aligned with official MIDC data.
+    • Designed and deployed two production Generative AI systems for document summarization and question answering across PDFs,
+    • DOCX, images, and structured data using GPT-4o
+    • Optimized multi-document processing pipelines
+    • Developed token-level inference analysis (per
+    • Conducted research-oriented experimentation OCR–LLM hybrids, and structured extraction (Azure OpenAI). using parallel execution, reducing end-to-end latency from ~40s to ~10s. page and per document) to enable LLM cost monitoring and optimization. on complex multi-page invoice understanding, evaluating vision–language models, pipelines.
+    • Designed and implemented a RAG framework on AWS using Amazon Nova Pro for long-document summarization and Amazon Titan embeddings for semantic retrieval over large document collections.
+    • Currently developing a cost-efficient invoice extraction pipeline using Amazon Nova Pro, achieving ~93–95% accuracy, with ongoing optimization and evaluation.
+  Method       : single_date_regex+company_line_above_role_line
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 2
+  Role         : R&D Intern
+  Company      : Docquity
+  Location     : India
+  Start - End  : July’24 - Sept’24
+  Duration     : 3 months
+  Bullets      : 3
+    • text (PubMed XML).
+    • Explored prompting and inference behavior across Claude, OpenAI, and AWS Bedrock models.
+    • Gained exposure to LLM serving, scalable inference pipelines, and system-level architecture.
+  Method       : date_regex+pre_date_company_split+title_dash_company
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 3
+  Role         : R&D Intern
+  Company      : Learning
+  Location     : None
+  Start - End  : Feb’25 - May’25
+  Duration     : 4 months
+  Bullets      : 2
+    • Tools: AWS Bedrock , PyTorch, Hugging Face (BERT, RoBERTa, DistilBERT), Python o Built a system that analyzed sentiment from raw images and text by generating structured metadata with Amazon Nova Pro. Fine-tuned BERT, RoBERTa, and DistilBERT (via Hugging Face) using PyTorch and Torch, achieving 97% accuracy o Created vibrant visualizations (e.g., radial heatmaps, tree maps) with Python/PyTorch, producing publication-ready figures for a research paper.
+    • Medical RAG Chatbot for Knowledge-Grounded Question Answering | Link
+  Method       : date_regex+inherited_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 4
+  Role         : R&D Intern
+  Company      : o Designed a Retrieval-Augmented Generation  system to answer domain-specific queries using a structured CSV-based
+  Location     : None
+  Start - End  : Aug’24 - Sept’24
+  Duration     : 2 months
+  Bullets      : 2
+    • Tools: Sentence Transformers, FAISS, RAG, Groq LLM, Python, Streamlit o Designed a Retrieval-Augmented Generation (RAG) system to answer domain-specific queries using a structured CSV-based knowledge base. o Implemented semantic retrieval with Sentence Transformers and FAISS to ground LLM responses and reduce hallucinations. o Engineered modular preprocessing, retrieval, and generation components with transparent context inspection and conversational memory.
+    • Multi-File RAG & LLM Chat System with Streamlit | LINK
+  Method       : date_regex+inherited_role
+  Confidence   : 0.98
+  Needs Review : False
+
+Entry 5
+  Role         : R&D Intern
+  Company      : o Developed a Streamlit application integrating Retrieval-Augmented Generation  to support multi-file uploads (PDF
+  Location     : None
+  Start - End  : Sept’24 - Dec’24
+  Duration     : 4 months
+  Bullets      : 8
+    • Tools: Grok API , Hugging face, sentence transformers, Faiss, RAG, python, Llama 8B, Python, Streamlit o Developed a Streamlit application integrating Retrieval-Augmented Generation (RAG) to support multi-file uploads (PDF, DOCX, TXT, MP3, MP4) for context-based responses. o Implemented a conversational interface using Llama 8B via the Groq API, enabling users to engage in natural language queries with the model. o Enhanced user experience by allowing seamless interaction with uploaded documents, facilitating efficient information retrieval and summarization.
+    • Data Bricks Certified Data Engineer Associate | LINK
+    • AWS Certified AI Practitioner| LINK
+    • Research Paper Presentation Certificate, ICDAM2024
+    • Research Paper Presentation Certificate, AIAMMS2023
+    • (1st International Conference on Artificial Intelligence, Advanced Materials, and
+    • NODEJS - IBM | LINK
+    • Links: https://www.linkedin.com/in/ananyagupta2003/ https://github.com/ananyagupta2305 https://drive.google.com/file/d/1pVeZnBIuDQIKP_Qvd2dTfzQ2isEdJps3/view?usp=sharing https://link.springer.com/chapter/10.1007/978-981-96-3355-5_25 https://www.routledge.com/Handbook-of-AI-in-Engineering-Applications-Tools-Techniques-and-Algorithms/Kumar-Rani-Kumar-Jain/p/book/9781032723150 https://github.com/ananyagupta2305/Medical_RAG_Chatbot https://github.com/ananyagupta2305/Generative_AI https://drive.google.com/file/d/1ELkzLXH_OcN_sysjzdRHWrb5XCdgZsJ4/view?usp=sharing https://drive.google.com/file/d/17_c1Ld6NvSzMHEHrkKM6CoEVpjlENV0V/view?usp=sharing https://drive.google.com/file/d/1s-N1ykiAN5oI2FHw_W4XItW8mGnJ2SsP/view?usp=drive_link https://drive.google.com/file/d/1ye7cu3pXSp2xYdrhtuweBcbp0Sc49Aht/view https://drive.google.com/file/d/1r-CDFG5QtOKrZipYxRVOrnYZIG6VZtb6/view ──────────────────────────────────────────────────────────── [Found 7 sections total: ['header', 'summary', 'education', 'experience', 'skills', 'projects', 'experience']]
+  Sub-sections : ['CERTIFICATES', 'Jan’26', 'July’25', 'June’24', '(5th International Conference on Data Analytics', 'and Management (ICDAM-2024)) | LINK', 'Nov’23', 'Mechatronics Systems (AIAMMS-2023))| LINK', 'Oct’23']
+  Method       : date_regex+inherited_role
+  Confidence   : 0.98
+  Needs Review : False

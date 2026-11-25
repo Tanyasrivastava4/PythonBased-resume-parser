@@ -27,6 +27,7 @@ import gc
 import glob
 import time
 import json
+import hashlib
 import argparse
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -37,12 +38,61 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ingestion import read_resume_file
 from segmenter import split_into_sections
 from layer3.flatten import flatten_resume_record
+from candidate_diff import consolidate_duplicate_candidates
 
 
-DEFAULT_RESUME_DIR = "resumes"
-EXTRACTED_TEXT_DIR = Path("extracted_text")
-SEGMENTED_DIR = Path("segmented_text")
-FLAT_JSON_DIR = Path("flat_json")
+BASE_DIR = Path(__file__).resolve().parent
+DEFAULT_RESUME_DIR = BASE_DIR / "resumes"
+EXTRACTED_TEXT_DIR = BASE_DIR / "extracted_text"
+SEGMENTED_DIR = BASE_DIR / "segmented_text"
+FLAT_JSON_DIR = BASE_DIR / "flat_json"
+
+
+def compute_file_md5(file_path: Path) -> str:
+    """Computes MD5 hash of a file efficiently using 64KB chunks."""
+    hasher = hashlib.md5()
+    try:
+        with open(file_path, "rb") as f:
+            while chunk := f.read(65536):
+                hasher.update(chunk)
+        return hasher.hexdigest()
+    except Exception:
+        return ""
+
+
+def deduplicate_files_by_md5(files: list[str]) -> tuple[list[str], list[tuple[str, str]]]:
+    """
+    Identifies exact byte-for-byte duplicate resume files using MD5 checksum.
+    Prefers cleaner file names (avoiding '(1)', '-1', 'copy').
+    Returns (unique_file_paths, list_of_(duplicate_name, original_name)).
+    """
+    seen_hashes = {}
+    duplicates = []
+
+    def _is_copy_name(name: str) -> bool:
+        lower = name.lower()
+        return "(1)" in lower or "(2)" in lower or "-1." in lower or "copy" in lower
+
+    for f_str in files:
+        p = Path(f_str)
+        h = compute_file_md5(p)
+        if not h:
+            seen_hashes[f_str] = p
+            continue
+
+        if h in seen_hashes:
+            existing_p = seen_hashes[h]
+            # If current file has cleaner name than the existing one, prefer current
+            if _is_copy_name(existing_p.name) and not _is_copy_name(p.name):
+                duplicates.append((existing_p.name, p.name))
+                seen_hashes[h] = p
+            else:
+                duplicates.append((p.name, existing_p.name))
+        else:
+            seen_hashes[h] = p
+
+    unique_files = [str(p) for p in seen_hashes.values()]
+    return unique_files, duplicates
 
 
 def _save_raw_text(file_path: str, text: str, output_dir: Path, count_id: str) -> Path:
@@ -127,7 +177,7 @@ def process_resume(
 
     # Layer 2, 3 & 4: Extraction, Assembly & Flattening
     t2 = time.perf_counter()
-    out_dir_path = Path(output_dir)
+    out_dir_path = BASE_DIR / output_dir if not Path(output_dir).is_absolute() else Path(output_dir)
     out_dir_path.mkdir(parents=True, exist_ok=True)
     flat_record = flatten_resume_record(str(segmented_txt_path))
     t_extract = time.perf_counter() - t2
@@ -136,6 +186,7 @@ def process_resume(
     flat_record = {
         "id": int(count_id) if count_id.isdigit() else count_id,
         "file_name": input_path.name,
+        "file_md5": compute_file_md5(input_path),
         **flat_record
     }
 
@@ -143,6 +194,15 @@ def process_resume(
     flat_record["parsing_time_seconds"] = round(t_total, 2)
 
     flat_json_path = out_dir_path / f"{count_id}_{input_path.stem}_flat.json"
+
+    # Automatically purge any older file for the same resume if the ID prefix shifted
+    for old_f in out_dir_path.glob(f"*_{input_path.stem}_flat.json"):
+        if old_f.name != flat_json_path.name:
+            try:
+                old_f.unlink()
+            except Exception:
+                pass
+
     with open(flat_json_path, "w", encoding="utf-8") as f:
         json.dump(flat_record, f, indent=2, ensure_ascii=False)
 
@@ -188,6 +248,17 @@ def process_all(
         files.extend(glob.glob(str(folder / ext.upper())))
 
     files = sorted(list(set(files)))
+    total_raw_files = len(files)
+
+    # Layer 0: File-Level MD5 Deduplication Check
+    files, duplicates = deduplicate_files_by_md5(files)
+    if duplicates:
+        print(f"\nℹ️  [MD5 Deduplication] Filtered out {len(duplicates)} byte-for-byte duplicate resume(s) from {total_raw_files} files:")
+        for dup, orig in duplicates[:6]:
+            print(f"   • Skipped '{dup}' (identical copy of '{orig}')")
+        if len(duplicates) > 6:
+            print(f"   ... and {len(duplicates) - 6} more duplicate file copies skipped.")
+
     if limit and limit > 0:
         files = files[:limit]
 
@@ -249,11 +320,21 @@ def process_all(
 
     total_elapsed = time.time() - start_time
     avg_rate = total_elapsed / max(1, success_count)
+
+    # Layer 1 Candidate Deduplication & Smart Merge:
+    # Identifies candidates across multiple parsed resumes by Email/Mobile Number,
+    # merges new skills and experiences, and removes redundant records.
+    consolidated_count = consolidate_duplicate_candidates(output_dir)
+    final_unique_count = len(list(Path(output_dir).glob("*.json")))
+
     print(f"\n{'═' * 65}")
     print(f"🎉 PIPELINE EXECUTION COMPLETE")
     print(f" Total Processed:    {total_files} resumes")
     print(f" Succeeded:          {success_count}")
     print(f" Failed:             {fail_count}")
+    if consolidated_count > 0:
+        print(f" Smart-Merged Dups:  {consolidated_count} duplicate candidate resume(s)")
+        print(f" Unique Candidates:  {final_unique_count} distinct candidate profiles")
     print(f" Total Elapsed Time: {total_elapsed:.2f} seconds ({total_elapsed/60:.2f} mins)")
     print(f" Average Speed:      {avg_rate:.2f}s per resume")
     print(f" Segmented Texts:    {SEGMENTED_DIR}/")

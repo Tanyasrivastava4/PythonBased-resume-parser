@@ -1,6 +1,4 @@
 {
-  "id": 91,
-  "file_name": "Anurag Sharma_PHP Developer_Intileo.pdf",
   "email": "anuragsharma819286@gmail.com",
   "email_confidence": 0.99,
   "mobile_number": "8192868294",
@@ -38,9 +36,49 @@
     "3. Software Developer, Globohub Slx @ Meerut (July 2022 - August 2022) [conf 0.98, review=False]"
   ],
   "company_details_confidence": 0.98,
+  "work_experience": [
+    {
+      "role": "Software Developer, Globohub Slx",
+      "company": "Meerut",
+      "start": "August 2025",
+      "end": "Present",
+      "responsibilities": [
+        "Developed core backend features including order processing, currency handling, coupons, and pricing rules",
+        "Built and integrated admin panel functionalities such as product, category, order, user, and coupon management.",
+        "Implemented end-to-end e-commerce workflows, covering the entire user journey from cart management and checkout processing to secure order confirmation and system-level order handling.",
+        "Created a custom coupon/discount engine supporting percentage, fixed-amount, and product-level rules using Laravel framework.",
+        "Worked on Laravel projects, developing scalable backend systems, RESTful APIs, and implementing business logic using MVC architecture."
+      ]
+    },
+    {
+      "role": "Software Developer, Samarth Egov",
+      "company": "New",
+      "start": "July 2024",
+      "end": "May 2025",
+      "responsibilities": [
+        "Developed and maintained web applications using PHP (Yii2 Framework) and SQL, contributing across the full software development lifecycle.",
+        "Designed and implemented Role-Based Access Control (RBAC) and Approval Hierarchy systems, enhancing workflow efficiency and permission security.",
+        "Optimized application performance and page speed using caching, query optimization.",
+        "Built full-stack features by designing and integrating front-end (HTML, CSS, JavaScript), back-end logic (PHP), and database schemas SQL.",
+        "Explored and implemented advanced features like Job Queues and Dynamic PDF generation for large-scale reporting.",
+        "Worked in agile teams, collaborating with designers, testers, and backend engineers to deliver high-quality, scalable software within deadlines."
+      ]
+    },
+    {
+      "role": "Software Developer, Globohub Slx",
+      "company": "Meerut",
+      "start": "July 2022",
+      "end": "August 2022",
+      "responsibilities": [
+        "Completed 6 weeks of Core JAVA training by submitting the capstone project on JAVA."
+      ]
+    }
+  ],
+  "work_experience_confidence": 0.98,
   "designation": [
     "Software Developer, Globohub Slx",
-    "Software Developer, Samarth Egov"
+    "Software Developer, Samarth Egov",
+    "Software Engineer"
   ],
   "skills": [
     "Agile",
@@ -58,10 +96,8 @@
     "Java",
     "JavaScript",
     "Laravel",
-    "LinkedIn",
     "MVC",
     "Multithreading",
-    "Netlify",
     "Order Management",
     "PHP",
     "Performance Optimization",
@@ -91,5 +127,6 @@
     "• Applied object-oriented principles to build a modular and extensible codebase."
   ],
   "projects_confidence": 0.85,
-  "parsing_time_seconds": 0.44
+  "id": 91,
+  "file_name": "Anurag Sharma_PHP Developer_Intileo.pdf"
 }
